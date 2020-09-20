@@ -1,0 +1,135 @@
+doctrine_fodlan_tenets = {
+	group = "core_tenets"
+	number_of_picks = 4
+
+	tenet_school_of_seiros = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { zealous trusting just }
+			sins = { cynical paranoid arbitrary }
+		}
+	}
+
+	tenet_school_of_macuil = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient vengeful stubborn brave }
+			sins = { impatient forgiving craven }
+		}
+	}
+
+	tenet_school_of_cichol = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
+
+	tenet_school_of_indech = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient forgiving }
+			sins = { impatient vengeful }
+		}
+	}
+
+	tenet_school_of_cethleann = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { compassionate forgiving }
+			sins = { sadistic vengeful }
+		}
+	}
+	tenet_ablehnistic_ways = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			stewardship = 2
+		}
+
+		traits = {	
+			virtues = { ambitious brave diligent }
+			sins = { content craven lazy }
+		}
+	}
+}

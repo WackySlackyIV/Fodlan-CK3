@@ -1,0 +1,74 @@
+
+k_church = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+
+d_garreg_mach = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_garreg_mach = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_sagido = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_butado = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+
+d_zanado = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_ryudo = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_umado = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_zanado = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+d_eastern_church = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_salem = {
+	980.1.1 = {
+		holder = 100000
+	}
+}
+
+c_cangort = {
+	980.1.1 = {
+		holder = 100000
+	}
+}

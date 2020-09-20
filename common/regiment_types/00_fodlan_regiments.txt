@@ -1,0 +1,541 @@
+# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+
+#1st era
+
+myrmidons = {
+	type = sword
+	
+	damage = 12
+	toughness = 14
+	pursuit = 10
+	screen = 10
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 persuit = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = sword_1
+}
+
+soldiers = {
+	type = spear
+	
+	damage = 12
+	toughness = 24
+	pursuit = 4
+	screen = 4
+	
+	terrain_bonus = {
+		hills = { toughness = 6 }
+		mountains = { toughness = 12 }
+		desert_mountains = { toughness = 6 persuit = 4 screen = 4 }
+		desert = { damage = -4 screen = -4 persuit = -4 }
+		plains = { screen = -6 toughness = -6 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		sword = 1
+	}
+
+	buy_cost = { gold = pikemen_recruitment_cost }
+	low_maintenance_cost = { gold = pikemen_low_maint_cost }
+	high_maintenance_cost = { gold = pikemen_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = spear_1
+}
+
+fighters = {
+	type = axe
+	
+	damage = 20
+	toughness = 10
+	pursuit = 8
+	screen = 8
+	
+	terrain_bonus = {
+		hills = { toughness = 6 }
+		forest = { damage = 10 toughness = 6 }
+		jungle = { damege = 10 toughness = 12 }
+		taiga = { damage = 10 toughness = 4 }
+		desert = { damage = -4 screen = -4 persuit = -4 }
+	}
+
+	counters = {
+		spear = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = axe_1
+}
+
+cavaliers = {
+	type = light_cavalry
+	
+	damage = 16
+	toughness = 14
+	pursuit = 22
+	screen = 22
+	
+	terrain_bonus = {
+		drylands = { damage = 12 persuit = 6 }
+		plains = { damage = 12 persuit = 6 }
+		farmlands = { damage = 6 }
+		steppe = { damage = 12 persuit = 6 }
+		desert_mountains = { damage = -6 toughness = -10 }
+		hills = { damage = -4 toughness = -6 }
+		floodplains = {  damage = -10 screen = -10 persuit = -10 }
+		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+	}
+	
+	counters = {
+		archers = 1
+		sword = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = horse_1
+}
+
+archers = {
+	type = archers
+	
+	damage = 20
+	toughness = 10
+	pursuit = 2
+	screen = 2
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 6 }
+		forest = { toughness = 6 screen = 6 }
+		taiga = { toughness = 6 screen = 6 }
+	}
+
+	counters = {
+		flyers = 1
+	}
+
+	buy_cost = { gold = bowmen_recruitment_cost }
+	low_maintenance_cost = { gold = bowmen_low_maint_cost }
+	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = bow_1
+}
+
+#2nd era
+
+pegasus_knights = {
+	type = flyers
+	
+	damage = 22
+	toughness = 18
+	pursuit = 26
+	screen = 26
+	
+	terrain_bonus = {
+		hills = { damage = 6 persuit = 6}
+		mountains = { damage = 12 persuit = 12 }
+		desert_mountains = { damage = 8 persuit = 8 }
+	}
+	
+	counters = {
+		archers = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = pegasus_knight
+}
+
+wyvern_riders = {
+	type = flyers
+	
+	damage = 38
+	toughness = 24
+	pursuit = 20
+	screen = 20
+	
+	terrain_bonus = {
+		hills = { damage = 6 persuit = 6}
+		mountains = { damage = 12 persuit = 12 }
+		desert_mountains = { damage = 8 persuit = 8 }
+	}
+	
+	counters = {
+		archers = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = wyvern_rider
+}
+
+#3rd era
+
+swordmasters = {
+	type = sword
+	
+	damage = 22
+	toughness = 24
+	pursuit = 18
+	screen = 18
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 persuit = -4 }
+	}
+
+	counters = {
+		skirmishers = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = sword_2
+}
+
+fortress_knights = {
+	type = spear
+	
+	damage = 28
+	toughness = 48
+	pursuit = 0
+	screen = 8'
+
+	terrain_bonus = {
+		hills = { toughness = 6 }
+		mountains = { toughness = 12 }
+		desert_mountains = { toughness = 6 persuit = 4 screen = 4 }
+		desert = { damage = -4 screen = -4 persuit = -4 }
+		plains = { screen = -12 toughness = -6 }
+	}
+	
+	counters = {
+		pikemen = 1
+	}
+	
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = knight_1
+}
+
+warriors= {
+	type = skirmishers
+	
+	damage 36
+	toughness = 18
+	pursuit = 16
+	screen = 16
+	
+	terrain_bonus = {
+		hills = { toughness = 6 }
+		forest = { damage = 10 toughness = 6 }
+		jungle = { damege = 10 toughness = 12 }
+		taiga = { damage = 10 toughness = 4 }
+		desert = { damage = -4 screen = -4 persuit = -4 }
+	}
+
+	counters = {
+		pikemen = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = axe_2
+}
+
+paladins = {
+	type = light_cavalry
+	
+	damage = 26
+	toughness = 24
+	pursuit = 32
+	screen = 30
+	
+	terrain_bonus = {
+		drylands = { damage = 12 persuit = 6 }
+		plains = { damage = 12 persuit = 6 }
+		farmlands = { damage = 6 }
+		steppe = { damage = 12 persuit = 6 }
+		desert_mountains = { damage = -6 toughness = -10 }
+		hills = { damage = -4 toughness = -6 }
+		floodplains = {  damage = -10 screen = -10 persuit = -10 }
+		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+	}
+	
+	counters = {
+		archers = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = horse_2
+}
+
+snipers = {
+	type = archers
+	
+	damage = 30
+	toughness = 20
+	pursuit = 12
+	screen = 12
+	
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 6 }
+		forest = { toughness = 6 screen = 6 }
+		taiga = { toughness = 6 screen = 6 }
+	}
+
+	counters = {
+		skirmishers = 1
+	}
+
+	buy_cost = { gold = bowmen_recruitment_cost }
+	low_maintenance_cost = { gold = bowmen_low_maint_cost }
+	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	icon = bow_2
+}
+
+#4rth era
+
+great_knights = {
+	type = heavy_cavalry
+	
+	damage = 34
+	toughness = 50
+	pursuit = 30
+	screen = 28
+	
+	terrain_bonus = {
+		drylands = { damage = 12 persuit = 6 }
+		plains = { damage = 12 persuit = 6 }
+		farmlands = { damage = 6 }
+		steppe = { damage = 12 persuit = 6 }
+		desert_mountains = { damage = -6 toughness = -10 }
+		hills = { damage = -4 toughness = -6 }
+		floodplains = {  damage = -10 screen = -10 persuit = -10 }
+		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+	}
+	
+	counters = {
+		archers = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = horse_3
+}
+
+falcon_knights = {
+	type = flyers
+	
+	damage = 32
+	toughness = 28
+	pursuit = 40
+	screen = 32
+	
+	terrain_bonus = {
+		hills = { damage = 6 persuit = 6}
+		mountains = { damage = 12 persuit = 12 }
+		desert_mountains = { damage = 8 persuit = 8 }
+	}
+	
+	counters = {
+		archers = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = falcoknight
+}
+
+wyvern_lords = {
+	type = flyers
+	
+	damage = 48
+	toughness = 34
+	pursuit = 30
+	screen = 30
+	
+	terrain_bonus = {
+		hills = { damage = 6 persuit = 6}
+		mountains = { damage = 12 persuit = 12 }
+		desert_mountains = { damage = 8 persuit = 8 }
+	}
+	
+	counters = {
+		archers = 1
+	}
+	
+	buy_cost = { gold = light_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = wyvlord
+}
+
+bow_knights = {
+	type = missile_cavalry
+	
+	damage = 38
+	toughness = 28
+	pursuit = 28
+	screen = 28
+	
+	terrain_bonus = {
+		drylands = { damage = 12 persuit = 6 }
+		plains = { damage = 12 persuit = 6 }
+		farmlands = { damage = 6 }
+		steppe = { damage = 12 persuit = 6 }
+		desert_mountains = { damage = -6 toughness = -10 }
+		hills = { damage = -4 toughness = -6 }
+		floodplains = {  damage = -10 screen = -10 persuit = -10 }
+		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+	}
+
+	counters = {
+		skirmishers = 1
+	}
+
+	buy_cost = { gold = bowmen_recruitment_cost }
+	low_maintenance_cost = { gold = bowmen_low_maint_cost }
+	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 50
+	icon = bow_knight
+}
+
+#mages
+
+mages = {
+	type = magic
+	
+	damage = 400
+	toughness = 25
+	pursuit = 0
+	screen = 0
+	
+	siege_value = 0.1
+	
+	terrain_bonus = {
+		desert = { damage = 50 }
+	}
+	
+	counters = {
+		flyers = 2
+		light_cavalry = 2
+		heavy_cavalry = 2
+		spear = 2
+	}
+	
+	buy_cost = { gold = war_elephant_recruitment_cost }
+	low_maintenance_cost = { gold = war_elephant_low_maint_cost }
+	high_maintenance_cost = { gold = war_elephant_high_maint_cost }
+	
+	stack = 20
+	
+	icon = mage_1
+}

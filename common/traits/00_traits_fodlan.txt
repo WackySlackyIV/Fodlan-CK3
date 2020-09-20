@@ -1,0 +1,26 @@
+child_goddess = {
+	index = 300
+	
+	both_parent_has_trait_inherit_chance = 100
+	immortal = yes
+	health = 5
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 10
+	random_creation = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_child_goddess_desc
+			}
+			desc = trait_child_goddess_desc
+		}
+	}
+}

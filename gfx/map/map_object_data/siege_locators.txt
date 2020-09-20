@@ -1,0 +1,27 @@
+﻿game_object_locator={
+	name="siege"
+	clamp_to_water_level=yes
+	render_under_water=no
+	generated_content=no
+	layer="unit_layer"
+	instances={
+		{
+			id=1
+			position={ 3980.210693 0.000000 2047.108398 }
+			rotation={ -0.000000 0.687272 -0.000000 0.726400 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+		{
+			id=2
+			position={ 3992.123291 0.000000 2027.294800 }
+			rotation={ -0.000000 0.805906 -0.000000 -0.592044 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+		{
+			id=3
+			position={ 3961.616699 0.000000 2047.261719 }
+			rotation={ -0.000000 0.436311 -0.000000 -0.899796 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+	}
+}

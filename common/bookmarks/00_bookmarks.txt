@@ -1,0 +1,21 @@
+﻿bm_fodlan_start = {
+	start_date = 1181.3.15
+	is_playable = yes
+
+	character = {
+		name = "Rhea"
+		dynasty = 5000000
+		dynasty_splendor_level = 1
+		type = female
+		birth = 1.1.1
+		title = k_church
+		government = feudal_government
+		culture = high_fodlan
+		religion = faith_of_seiros
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 100000
+		position = { 765 590 }
+
+		animation = disapproval
+	}
+}
