@@ -1,0 +1,3 @@
+flatmap.dds
+detail_index.tga
+detail_intensity.tga
