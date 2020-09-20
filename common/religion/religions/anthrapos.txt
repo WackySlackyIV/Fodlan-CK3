@@ -1,4 +1,4 @@
-anthrapos_religion = {
+﻿anthrapos_religion = {
 	family = rf_anthrapos
 	graphical_faith = pagan_gfx
 
@@ -181,26 +181,26 @@ anthrapos_religion = {
 			color = { 65 22 71 }
             icon = baltic
             
-			holy_site = garreg_mach
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = pokaini
+			holy_site = torun
+			holy_site = hiiumaa
+			holy_site = braslau
+			holy_site = rugen
 
-			doctrine = tenet_struggle_and_submission
+			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_shadows
+			doctrine = tenet_sacred_lies
         }
         
         liberationist = {
 			color = { 172 23 23 }
             icon = baltic
             
-			holy_site = garreg_mach
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = pokaini
+			holy_site = torun
+			holy_site = hiiumaa
+			holy_site = braslau
+			holy_site = rugen
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_warmonger

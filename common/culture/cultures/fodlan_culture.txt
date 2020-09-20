@@ -8,202 +8,38 @@
 	
 	high_fodlan = {
 		graphical_cultures = {
-			welsh_coa_gfx
+			english_coa_gfx
 		}
 		color = hsv { 0.8 0.8 0.6 }
 
 		cadet_dynasty_names = {
-			"dynn_Cynfyn"
-			"dynn_Caereinion"
-			"dynn_Glastenning"
-			"dynn_Lleyn"
-			"dynn_Mostyn"
-			"dynn_Rhufoniog"
-			"dynn_Maelor"
-			"dynn_Penllyn"
-			"dynn_Tewdwr"
-			"dynn_Meilyr"
-			"dynn_Mochnant"
-			"dynn_Buellt"
-			"dynn_Llewellyn"
-			"dynn_Mechain"
-			"dynn_Cedewain"
-			"dynn_Penweddig"
-			"dynn_IA_l"
-			"dynn_Amwythig"
-			"dynn_Caerloyw"
-			"dynn_Emlyn"
-			"dynn_Ystrad_Tywi"
-			"dynn_Rhuddlan"
-			"dynn_Llwydiarth"
-			"dynn_Aberavon"
-			"dynn_Dunoding"
-			"dynn_Pebidiog"
-			"dynn_Deugleddyf"
-			"dynn_Deheuwynt"
-			"dynn_Eginog"
-			"dynn_Gorfynydd"
-			"dynn_Gwyr"
-			"dynn_Senghenydd"
-			"dynn_Crwthor"
-			"dynn_Arfon"
-			"dynn_Gwynn"
-			"dynn_Cadfeal"
-			"dynn_Cannevet"
-			"dynn_Llyn"
-			"dynn_Gwarthaf"
-			"dynn_Aeron"
-			"dynn_Emlyn"
-			"dynn_Cedweli"
-			"dynn_Gwrinydd"
-			"dynn_Talgarth"
-			"dynn_Pengwern"
-			"dynn_Penrhys"
-			"dynn_Lloyd"
-			"dynn_Llifon"
-			"dynn_Abermenai"
-			"dynn_Penfro"
-			"dynn_Gilmyn"
-			"dynn_Conwy"
-			"dynn_Clwyd"
-			"dynn_Tal-y-bont"
-			"dynn_Isaled"
-			"dynn_Talhaiarn"
-			"dynn_Brynffenigl"
-			"dynn_Llechwedd"
-			"dynn_Cefeliog"
-			"dynn_Carmarthen"
-			"dynn_Caenogion"
-			"dynn_Maelienydd"
-			"dynn_Elfael"
-			"dynn_Mynydd"
-			"dynn_Bangor"
-			"dynn_Mynyw"
-			"dynn_Llandaff"
-			"dynn_Arllechwedd"
-			"dynn_Tegaingl"
-			"dynn_Anwyl"
-			"dynn_Cyfeiliog"
-			"dynn_Fane"
-			{ "dynnp_of" "dynn_Bristol" }
-			"dynn_Ynys_Cybi"
-			"dynn_Gruffydd"
-			"dynn_Tegaingl"
-			"dynn_Coel"
-			"dynn_Glywysing"
-			"dynn_Llywelin"
-			"dynn_Cynllibiwg"
-			"dynn_Evans"
-			"dynn_Maelienydd"
-			{ "dynnp_de" "dynn_la_Pole" }
-			"dynn_Rhosyr"
-			"dynn_Cemais"
-			"dynn_Meirionydd"
-			"dynn_Ynys_Enlli"
-			"dynn_Aberdaron"
-			"dynn_PenmO_n"
-			"dynn_Ystrad_Clud"
-			"dynn_Buellt"
-			"dynn_Llwydiarth"
-			"dynn_Caerloyw"
-			"dynn_Brogyntyn"
+			"dynn_von_Sothis"
+			"dynn_Dahlman"
+			"dynn_von_Zanado"
+			"dynn_von_Seiros"	#The saints could have these as house names within a Sothis dynasty?
+			"dynn_von_Cichol"
+			"dynn_von_Cethleann"
+			"dynn_von_Macuil"
+			"dynn_von_Indech"
+			"dynn_Nabatea"
+			"dynn_Rhodos"
+			"dynn_Suiryu"
+			"dynn_Furya"
 		}
 
 		dynasty_names = {
-			"dynn_Cynfyn"
-			"dynn_Caereinion"
-			"dynn_Glastenning"
-			"dynn_Lleyn"
-			"dynn_Mostyn"
-			"dynn_Rhufoniog"
-			"dynn_Maelor"
-			"dynn_Penllyn"
-			"dynn_Tewdwr"
-			"dynn_Meilyr"
-			"dynn_Mochnant"
-			"dynn_Buellt"
-			"dynn_Llewellyn"
-			"dynn_Mechain"
-			"dynn_Cedewain"
-			"dynn_Penweddig"
-			"dynn_IA_l"
-			"dynn_Amwythig"
-			"dynn_Caerloyw"
-			"dynn_Emlyn"
-			"dynn_Ystrad_Tywi"
-			"dynn_Rhuddlan"
-			"dynn_Llwydiarth"
-			"dynn_Aberavon"
-			"dynn_Dunoding"
-			"dynn_Pebidiog"
-			"dynn_Deugleddyf"
-			"dynn_Deheuwynt"
-			"dynn_Eginog"
-			"dynn_Gorfynydd"
-			"dynn_Gwyr"
-			"dynn_Senghenydd"
-			"dynn_Crwthor"
-			"dynn_Arfon"
-			"dynn_Gwynn"
-			"dynn_Cadfeal"
-			"dynn_Cannevet"
-			"dynn_Llyn"
-			"dynn_Gwarthaf"
-			"dynn_Aeron"
-			"dynn_Emlyn"
-			"dynn_Cedweli"
-			"dynn_Gwrinydd"
-			"dynn_Talgarth"
-			"dynn_Pengwern"
-			"dynn_Penrhys"
-			"dynn_Lloyd"
-			"dynn_Llifon"
-			"dynn_Abermenai"
-			"dynn_Penfro"
-			"dynn_Gilmyn"
-			"dynn_Conwy"
-			"dynn_Clwyd"
-			"dynn_Tal-y-bont"
-			"dynn_Isaled"
-			"dynn_Talhaiarn"
-			"dynn_Brynffenigl"
-			"dynn_Llechwedd"
-			"dynn_Cefeliog"
-			"dynn_Carmarthen"
-			"dynn_Caenogion"
-			"dynn_Maelienydd"
-			"dynn_Elfael"
-			"dynn_Mynydd"
-			"dynn_Bangor"
-			"dynn_Mynyw"
-			"dynn_Llandaff"
-			"dynn_Arllechwedd"
-			"dynn_Tegaingl"
-			"dynn_Anwyl"
-			"dynn_Cyfeiliog"
-			"dynn_Fane"
-			{ "dynnp_of" "dynn_Bristol" }
-			"dynn_Ynys_Cybi"
-			"dynn_Gruffydd"
-			"dynn_Tegaingl"
-			"dynn_Coel"
-			"dynn_Glywysing"
-			"dynn_Llywelin"
-			"dynn_Cynllibiwg"
-			"dynn_Evans"
-			"dynn_Maelienydd"
-			{ "dynnp_de" "dynn_la_Pole" }
-			"dynn_Rhosyr"
-			"dynn_Cemais"
-			"dynn_Meirionydd"
-			"dynn_Ynys_Enlli"
-			"dynn_Aberdaron"
-			"dynn_PenmO_n"
-			"dynn_Ystrad_Clud"
-			"dynn_Buellt"
-			"dynn_Llwydiarth"
-			"dynn_Caerloyw"
-			"dynn_Brogyntyn"
+			"dynn_von_Sothis"
+			"dynn_Dahlman"
+			"dynn_von_Zanado"
+			"dynn_von_Seiros"	#The saints could have these as house names within a Sothis dynasty?
+			"dynn_von_Cichol"
+			"dynn_von_Cethleann"
+			"dynn_von_Macuil"
+			"dynn_von_Indech"
+			"dynn_Nabatea"
+			"dynn_Rhodos"
+			"dynn_Suiryu"
+			"dynn_Furya"
 		}
 
 		male_names = {
@@ -294,13 +130,710 @@
 
 		}
 		
-		dynasty_of_location_prefix = "Von "
+		dynasty_of_location_prefix = "dynnp_von"
 		
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
 		
-		patronym_prefix_male = "dynnpat_pre_ap"
-		patronym_prefix_male_vowel = "dynnpat_pre_vow_ab"
-		patronym_prefix_female = "dynnpat_pre_ferch"	
-		always_use_patronym = yes
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	leicester = {
+		graphical_cultures = {
+			english_coa_gfx
+		}
+
+		color = hsv { 235 216 52 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Riegan"
+			"dynn_Goneril"
+			"dynn_Victor"
+			"dynn_Pinelli"
+			"dynn_Gloucester"
+			"dynn_von_Ordelia"
+			"dynn_von_Edmund"
+			"dynn_Kirsten"
+			"dynn_von_Albrecht"
+			"dynn_Rangeld"
+			"dynn_Daphnel"
+			"dynn_Atholl"
+			"dynn_Clarence"
+			"dynn_von_Myrddin"
+			"dynn_von_Aillel"
+			"dynn_West"
+			"dynn_Dormer"
+			"dynn_Russell"
+			"dynn_Crowder"
+			"dynn_Wharton"
+			"dynn_Howard"
+			"dynn_Coventry"
+			"dynn_Chester"
+			"dynn_von_Glamborough"
+			"dynn_von_Kent"
+			"dynn_Bell"
+		}
+
+		dynasty_names = {
+			"dynn_von_Riegan"
+			"dynn_Goneril"
+			"dynn_Victor"
+			"dynn_Pinelli"
+			"dynn_Gloucester"
+			"dynn_von_Ordelia"
+			"dynn_von_Edmund"
+			"dynn_Kirsten"
+			"dynn_von_Albrecht"
+			"dynn_Rangeld"
+			"dynn_Daphnel"
+			"dynn_Atholl"
+			"dynn_Clarence"
+			"dynn_von_Myrddin"
+			"dynn_von_Aillel"
+			"dynn_West"
+			"dynn_Dormer"
+			"dynn_Russell"
+			"dynn_Crowder"
+			"dynn_Wharton"
+			"dynn_Howard"
+			"dynn_Coventry"
+			"dynn_Chester"
+			"dynn_von_Glamborough"
+			"dynn_von_Kent"
+			"dynn_Bell"
+		}
+
+		male_names ={
+			Acheron Adrastos Aillel Alastar Alfonso Alphonse Andrew Angelo Archibald Albany
+			Benedict Bran Brandon Balthus
+			Caesar Carroll Castor Chadwick Christioph Clarence Claude Conley Chester Charles Caius Curan
+			Damian Desmond Diomedes Duncan
+			Edgar Edmund Edward Egon Erebus Erwin Etienne Eustace
+			Francis Frederick
+			Geoffrey George Gerald Giles Gilroy Godfrey Gregor Griffith Guillaume Gustave Gregory
+			Hans Harold Hendrick Henry Herbert Holst Horatio Humphrey Hellman Hedwig
+			Idris Ignatz Isaac
+			James Johann John Jonathan
+			Konrad Karsten Kent
+			Lance Landon Laurence Lech Leonard Leopold Lorenz Lucian Lucio Lycus Lysander Leir Linhardt Lear
+			Malcolm Marcel Mattias Maximillian Merlin
+			Nathaniel Nestor Nardel
+			Oliver Orion Orlando Oswald Owen
+			Phillip
+			Raphael Reginald Richard Roger Romeo Rupert Robert Rudolph
+			Sebastian Simon Soren Stephen Stephan Steven
+			Theodor Theseus Thomas Tom
+			Victor Vincent Volos
+			Walter Walther William Wolf
+		}
+
+		female_names = {
+			Adele Adeline Aerona Alice Anastasia Annabelle Aria Ashley Amelia
+			Beatrix Bridgette
+			Cadence Callista Carola Celeste Chara Clarissa Claudia Colette Constance Cora Cordelia Cynthia
+			Daphne Deidre Dominique
+			Elena Emilia Emma Emmeline Evgenia
+			Felicity Franziska
+			Gabrielle Giovanna Giselle Goneril Grunhilda
+			Hermine Hilda
+			Iliana Isabel 
+			Jasmin Josephine Judith Julianna Juliet Juni
+			Katja Kirsten
+			Lada Laurel Leonie Lia Lily Linnea Lisa Lysithea Ludolphina
+			Maeve Marceline Margaret Marina Marion Marisa Matilda Maya Mirabelle Mona Morana Morgan Morgana Morwenna Myrna Marianne Maria Melinda
+			Niamh
+			Olga Olivia
+			Pelagia Portia
+			Regan Regina Rosaline Rosemary
+			Sabrina Seraphina Slaine Sotiria Sylvia
+			Tatiana Theodosia Theresa Thea Tiana
+			Ursula
+			Valentine Valeria Vanessa Verena Vivianna
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	faerghus = {
+		graphical_cultures = {
+			norman_coa_gfx
+		}
+
+		color = hsv { 55 100 250 }
+
+		cadet_dynasty_names = {
+			"dynn_Blaiddyd"
+			"dynn_Dominic"
+			"dynn_Ubert"
+			"dynn_Fraldarius"
+			"dynn_Galatea"
+			"dynn_Gautier"
+			"dynn_Pronislav"
+			"dynn_Leclerc"
+			"dynn_Arnim"
+			"dynn_Gaspard"
+			"dynn_Charon"
+			"dynn_Eisner"
+			"dynn_Rowe"
+			"dynn_von_Conand"
+			"dynn_Langres"
+			"dynn_von_Magdred"
+			"dynn_Lalonde"
+			"dynn_Roland"
+			"dynn_von_Gaspard"
+			"dynn_Gideon"
+			"dynn_Mateus"
+			"dynn_Genevieve"
+			"dynn_Kleiman"
+			"dynn_Brume"
+			"dynn_Lucain"
+			"dynn_Zacharie"
+			"dynn_Victoire"
+			"dynn_Némée"
+			"dynn_Rangeld"
+			"dynn_Denége"
+			"dynn_Forbin"
+			"dynn_Castellane"
+			"dynn_Harcourt"
+			"dynn_Dammartin"
+			"dynn_Burakh"
+			"dynn_Olsen"
+			"dynn_Henriksen"
+			"dynn_Monfort"
+			"dynn_Vichy"
+			"dynn_Estrid"
+			"dynn_Aarbog"
+			"dynn_Rosen"
+			"dynn_Munthe"
+			"dynn_Bretteville"
+			"dynn_Wedel"
+			"dynn_Ronde"
+		}
+
+		dynasty_names = {
+			"dynn_Blaiddyd"
+			"dynn_Dominic"
+			"dynn_Ubert"
+			"dynn_Fraldarius"
+			"dynn_Galatea"
+			"dynn_Gautier"
+			"dynn_Pronislav"
+			"dynn_Leclerc"
+			"dynn_Arnim"
+			"dynn_Gaspard"
+			"dynn_Charon"
+			"dynn_Eisner"
+			"dynn_Rowe"
+			"dynn_von_Conand"
+			"dynn_Langres"
+			"dynn_von_Magdred"
+			"dynn_Lalonde"
+			"dynn_Roland"
+			"dynn_von_Gaspard"
+			"dynn_Gideon"
+			"dynn_Mateus"
+			"dynn_Genevieve"
+			"dynn_Kleiman"
+			"dynn_Brume"
+			"dynn_Lucain"
+			"dynn_Zacharie"
+			"dynn_Victoire"
+			"dynn_Némée"
+			"dynn_Rangeld"
+			"dynn_Denége"
+			"dynn_Forbin"
+			"dynn_Castellane"
+			"dynn_Harcourt"
+			"dynn_Dammartin"
+			"dynn_Burakh"
+			"dynn_Olsen"
+			"dynn_Henriksen"
+			"dynn_Monfort"
+			"dynn_Vichy"
+			"dynn_Estrid"
+			"dynn_Aarbog"
+			"dynn_Rosen"
+			"dynn_Munthe"
+			"dynn_Bretteville"
+			"dynn_Wedel"
+			"dynn_Ronde"
+		}
+
+		male_names ={
+			Alexander Alexandre Alfred Anders Andre Arnaud Arthur Ashe Alois Anschutz Achille Arnim Aglovain Aurèle Alberico
+			Basile Blaiddyd Boris Brendan Bryn
+			Carter Charles Charon Christophe Clement Colin Connor Cornelius Constantin Claudin
+			Dimitri Dominic
+			Edward Egitte Ecteur
+			Elias Emile Erik Evan Eddie
+   			Felix Fraldarius Frederic
+    			Gareth Gaspard Gaston Gautier George Gerard Gildas Glenn Godefroy Gustave Guy Gwendal Gwion Geraint
+    			Henrik Henry Hugo
+    			Ivan Ivar Ivor
+   			Jacob James Jean Jermaine Jerome Joel Johan John Jonas Jose Jules
+   			Kane Killian Klaus Kyphon
+   			Lambert Lars Leon Liam Loog Lugh Louis Lucas Luka Lonato Lionel Lucius
+   			Magnus Mark Marcelius Mateo Miguel Miklan Marque Merlin
+   			Nicolaus Nicholas
+    			Olivier Oliviere Oscar Owen Owain
+    			Patrick Phillipe Pierre Pan
+    			Regis Remy Rhys Robert Rodrigue Roger Roland Rory Rowe Ruben Rufus Ryan
+   			Sebastian Sigurd Stanley Sylvain
+   			Thomas Tristain
+   			Ulrich
+   			Vladimir
+    			Xavier
+    			Yuri
+		}
+
+		female_names = {
+			Adeline Alexandra Alice Alison Amelia Anastasia Annette Arielle Ashe Astrid Aurelia
+    			Blanche Brandl Brigitta Blanchefleur
+    			Caitlin Camille Carina Carmen Carole Caroline Cassandra Celia Charlotte Ciara Claudia Constance Cornelia Cosette Cynthia Catherine Caelia Claudine
+    			Desiree Diane
+			Eileen Elena Elin Elise Elizabeth Emilie Erin Evelyn Elaine Evaine
+   			Fantine Fleur
+  		  	Galina Gilda Giselle Gladys Grace Gunnhild Gwendolyn Gwen Guinevere
+   		 	Heidi Helga
+  		  	Ingrid Isabella Igraine
+   		 	Jeanette Jeanne Joan Johanna Juliette
+   		 	Kelly Kristin
+   		 	Laura Lily Lucille Lydia Lynette
+   		 	Mabel Madeline Maeve Marceline Margot Martha Maura Megan Meredith Milena Monique Morgan Morgane
+   		 	Nadine Natasha Niamh Nora
+   		 	Olga
+   			Quinn
+   			Rachel Reagan Renee Rhiannon Rose Roseline Roxanne
+   			Sasha Shea Sigrid Simone Sophia Sophie Suzanne
+    			Theresa
+   			Valerie Veronica Victoria Victoire
+   		 	Yvonne Yseult
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+		
+	adrestian = {
+		graphical_cultures = {
+			german_group_coa_gfx
+		}
+
+		color = hsv { 55 100 250 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+			"dynn_von_Niendorf"
+			"dynn_von_Airmid"
+			"dynn_von_Rugen"
+			"dynn_von_Stieglitz"
+			"dynn_von_Gerth"
+			"dynn_von_Rysalka"
+			"dynn_von_Boramas"
+			"dynn_von_Morgaine"
+			"dynn_von_Engel"
+			"dynn_von_Ruhm"
+			"dynn_von_Olrun"
+			"dynn_von_Reiss"
+			"dynn_von_Skade"
+			"dynn_von_Brionac"
+			"dynn_von_Sleipner"
+			"dynn_von_Schwan"
+			"dynn_von_Huldra"
+			"dynn_von_Oghma"
+			"dynn_von_Kniphausen"
+			"dynn_von_Kleist"
+			"dynn_von_Roenn"
+			"dynn_Saburov"
+			"dynn_Claudius"
+			"dynn_Lopez"
+			"dynn_Gomez"
+			"dynn_Castello"
+			"dynn_Gossler"
+			"dynn_von_Stolberg"
+			"dynn_von_Humboldt"
+			"dynn_Saintois"
+			"dynn_Altmann"
+			"dynn_Hartmann"
+			"dynn_Eticho"
+			"dynn_Vance"
+			"dynn_Salzach"
+			"dynn_von_Zieger"
+			"dynn_Schweetz"
+			"dynn_Hertzheim"
+			"dynn_Visler"
+			"dynn_Octavia"
+			"dynn_von_Ortenburg"
+			"dynn_von_Halder"
+			"dynn_von_Freising"
+			"dynn_Reich"
+			"dynn_Huginn"
+			"dynn_Jormund"
+			"dynn_von_Schlecht"
+		}
+
+		dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+		}
+
+		male_names ={
+			Adolf Albrecht Alexios Alvaro Angus Anselm Antonius Arnold Arnorr Arnulf Aurelius Arnault Albert Alfonso Adelhard Alfwin Albanus Albus Augustus Atriox
+			Baldwin Bernard Bertrand Brand Brutus Baldur
+			Caspar Cassius Cato Chad Claudius Ceasar Caius Camillus Cassian Cicero Cornelius
+			Dalton Derek Dominik Dougal Derick Decimus
+			Edmund Egil Egon Emile Egnatius Erik
+			Falk Ferdinand Finn Franz Friedrich Fabian Felix 
+			Gaius Gustav
+			Hakon Harald Heinrich Hernando Hildebrand Hubert Hugh Hanneman Hedwig
+			Ionius Ivarr
+			Jarvis Julius Jeritza 
+			Karl Konrad
+			Leopold Linhardt Lothar Lucius Ludwig Lycaon Ludolf 
+			Nero
+			Magni Manfred Marcus Marian Mason Maximus Merceus Mikolas Murdoch Metodey
+			Orion Oscar Otto Octavius Olaf Oskar
+			Paul
+			Quintus
+			Ragnarr Randolph Reinhard Rudolf Rufus Ruprecht Reus Romelus Remus Ralf Rolf
+			Sigismund Silvanus Stanislav
+			Tacitus Titus Tiberius Thorben
+			Volkhard Werner Wilhelm William Wolfram
+			Yngvarr
+			Zdeno
+		}
+
+		female_names = {
+			Adelaide Adele Agnes Alba Alicia Amaia Amelie Anastasia Antonia Ariel Asa Ashley Aslaug Aubrey Ava Anselma Alfhild Audhild Aelia Aquila Augusta Astrid
+			Beatrix Bernadetta Bernadine Bertha Blanche Brynja Brigit
+			Cassia Constance Clotilde Caelia Claudia
+			Dalia Dorothea Decima Drusilla
+			Edda Edelgard Edith Edna Ella Evelyn Ebba Elfreda Elvira Emilia Erika
+			Faye Fernande Fiona Flavia Fleche Fransizka Friederike Frida Fabiola Freya
+			Galla Gertrude Gisela Gloria Giselle Gudrun
+			Hana Helga Hildegard Hanne Hermine Hella Hilda
+			Ingunn Iris Irma Inge Ingrid
+			Jane Janine Jasmin Jessica Julia Juliana Juno
+			Karla Karolin Kathleen Katja Katla Kora 
+			Ladislava Lea Livia Luitgard Linda Linde
+			Marie Marina Marlene Marta Mathilde Matilda Maud Maxine Michelle Milena Monica Myrna Manuela Mercedes Morganne Marcella Maxima 
+			Nathalie 
+			Octavia 
+			Paulina Petra Patricia Paula Priscilla 
+			Quinn 
+			Rosaline Rowan Ryleigh Reinhild 
+			Sabine Sonja Svanhild Saskia Sieglinde
+			Tanya Theodora Thora Titania Tatiana 
+			Valeria Velma Vigdis Viktoria Viola Vita Valentina Virginia
+			Walburga Wilhelmina 
+			Yvonne 
+			Zora
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}	
+	
+	kupalan = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 156 155 93 }
+
+		cadet_dynasty_names = {
+			#not sure what dynasty names Kupala would have
+		}
+
+		dynasty_names = {
+
+		}
+
+		male_names ={
+			Akrama Arash Azar Abdisus Abdul Abed Akbarkhan Almeida Amardad Amooz Anoush Armeen Aryo Asadi Ashtak Ayan Azfaar Azyan Azzami Azzat Appan Arishaka 
+			Babak Baddar Badeed Badih Badil Badra Bahiri Bahn Basia Balathu Burnish Balthus
+			Dadvar Dadanum Deemethu Dudu Diipani
+			Enshu Enusat
+			Faireh Farzad 
+			Gulraiz Gulrez Gulru Galzu
+			Hussain Hunzu Hillal
+			Isaad Isfandiyar Ishne Isar
+			Jaah Jabroot Jammas Jansher Jehan
+			Kardar Khan Kadashman Kuri
+			Lodhi Labash Laqip Ligish Libluth
+			Maiwand Mateen Mehrang Mukhtar Mursalin Manish
+			Naseef Nawaskhan Nouman Naram Nikan Nutesh Nasir
+			Painda Parwaiz Pazir Poya Puzur
+			Qammar
+			Rayi Rihat Rimush
+			Shahmeer Soban Sargon Samsuil
+			Tabish Taimur Tajj Tashfeen Timigir
+			Ubar Uppulu Uktan
+			Wamiq
+			Yar Yesal Yattah
+			Zuuthusu Zadfar
+		}
+
+		female_names = {
+			Aabroo Abrish Afri Afshaneh Arezo Asal Ahati Alitt Amata Arwia Ashlultum
+			Berezira Burzin Beless
+			Chaghama
+			Damsa Darsa
+			Emma Esin Enhed Erishti Ettu
+			Fara Farza Ferha
+			Ghamzeh Gulnoor Gulpari Gulrang Gashan Gemet
+			Hajira Hamdiya Hesther Hooriya Humusi
+			Illiyeen Imama Ia Iltani Ishtar
+			Khudeeja Khush Ku-Aya Ku-Baba Kullaa
+			Larmina
+			Mojdeh Morsal Moska Muna Mush
+			Nageenah Naghma Nahal Noush Nidintu Ninsun
+			Pakshima Paris Permaz Perveen 
+			Ramineh
+			Samaneh Shabana Shadleen Shahra Shahmanta Sharjeela
+			Taara Tabeen Tabni Tharja
+			Veeda
+			Yamna Yashfa Yadid
+			Zakithi Zaafirah Zahab Zamair Zarmisha Zeeana Zuha
+		}
+
+		dynasty_of_location_prefix = "dynnp_de"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	abyssian = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 84 84 84 }
+
+		cadet_dynasty_names = {
+			#not sure what dynasty names Abyss would use
+		}
+
+		dynasty_names = {
+
+		}
+
+		male_names ={
+			Acheron Adrastos Aillel Alastar Alfonso Alphonse Andrew Angelo Archibald Aelfric
+			Benedict Bran Brandon Balthus
+			Caesar Carroll Castor Chadwick Christioph Clarence Claude Conley Chester
+			Damian Desmond Diomedes Duncan
+			Edgar Edmund Edward Egon Erebus Erwin Etienne Eustace
+			Francis Frederick
+			Geoffrey George Gerald Giles Gilroy Godfrey Gregor Griffith Guillaume
+			Hans Harold Hendrick Henry Herbert Holst Horatio Humphrey Hellman
+			Idris Ignatz Isaac
+			James Johann John
+			Konrad
+			Lance Laurence Lech Leonard Leopold Lorenz Lucian Lucio Lycus Lysander Leir
+			Malcolm Marcel Mattias Maximillian Merlin
+			Nathaniel Nestor Nardel
+			Oliver Orion Orlando Oswald Owen
+			Raphael Reginald Richard Roger Romeo Rupert
+			Simon Soren Stephen
+			Theodor Theseus Thomas
+			Victor Vincent Volos
+			Walter Walther William
+			Alexander Alexandre Alfred Anders Andre Arnaud Arthur Ashe Alois Anschutz Achille
+			Basile Blaiddyd Boris Brendan Bryn
+			Carter Charles Charon Christophe Clement Colin Connor Cornelius
+			Dimitri Dominic
+			Egitte
+			Elias Emile Erik Evan Eddie
+    			Felix Fraldarius Frederic
+    			Gareth Gaspard Gaston Gautier Gerard Gildas Glenn Godefroy Gustave Guy Gwendal
+    			Henrik Hugo
+    			Ivan Ivar
+    			Jacob Jean Jerome Joel Johan Jonas Jose Jules
+    			Kane Killian Klaus Kyphon
+    			Lambert Lars Leon Liam Loog Lugh Louis Lucas Luka Lonato
+    			Magnus Mark Mateo Miguel Miklan
+	    		Nicolaus_Nicholas
+    			Olivier Oscar
+    			Patrick Phillipe Pierre Pan
+    			Regis Remy Rhys Robert Rodrigue Roland Rory Rowe Ruben Rufus Ryan
+    			Sebastian Sigurd Stanley Sylvain
+    			Ulrich
+    			Vladimir
+    			Xavier
+    			Yuri
+		}
+
+		female_names = {
+			Adele Adeline Aerona Alice Anastasia Annabelle Aria Ashley
+			Beatrix Bridgette
+			Cadence Callista Carola Celeste Chara Clarissa Claudia Colette Constance Cora Cordelia Cynthia
+			Daphne Deidre Dominique
+			Elena Emilia Emma Emmeline Evgenia
+			Felicity Franziska
+			Gabrielle Giovanna Giselle Goneril
+			Hedwig Hermine Hilda
+			Iliana Isabel Jasmin Josephine Judith Julianna Juliet Juni
+			Katja Kirsten
+			Lada Laurel Leonie Lia Lily Linnea Lisa Lysithea
+			Margarete Marina Marion Marisa Matilda Maya Mirabelle Mona Morana Morgana Morwenna Myrna Marianne
+			Olga Olivia
+			Pelagia Portia
+			Regan Regina Rosaline Rosemary
+			Sabrina Seraphina Slaine Sotiria Sylvia
+			Tatiana Theodosia Theresa Thea
+			Ursula
+			Valentine Valeria Vanessa Verena Vivianna
+			Alexandra Alison Amelia Annette Arielle Ashe Astrid
+    			Blanche Brandl Brigitta
+    			Caitlin Camille Carina Carmen Carole Caroline Cassandra Celia Charlotte Ciara Cornelia Cosette Catherine
+    			Desiree Diane
+			Eileen Elin Elise Elizabeth Emilie Erin Evelyn
+    			Fantine Fleur
+  		  	Galina Gilda Gladys Grace Gunnhild Gwendolyn Gwen
+   		 	Heidi Helga
+  		  	Ingrid Isabella
+   		 	Jeanette Jeanne Joan Johanna Juliette
+   		 	Kelly Kristin
+   		 	Laura Lucille Lydia
+   		 	Mabel Madeline Maeve Marceline Margot Martha Maura Megan Meredith Milena Monique Morgan
+   		 	Nadine Natasha Niamh Nora
+    			Quinn
+    			Rachel Reagan Renee Rhiannon Rose Roseline Roxanne
+    			Sasha Shea Sigrid Simone Sophia Sophie Suzanne
+    			Valerie Veronica Victoria Victoire
+   		 	Yvonne
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 30
@@ -326,3 +859,366 @@
 	}
 }
 
+brigid_group = {
+	brigid = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 181 199 121 }
+
+		cadet_dynasty_names = {
+			"dynn_Macneary"
+			#maybe just throw in a bunch of Scottish/Irish (idk) names here?
+		}
+
+		dynasty_names = {
+
+		}
+
+		male_names ={
+			Aaron_Aaron Abbán Abner_Abner Abél_Abel Adomnán Áed_Hugh Áedgen Áeducán Áedán_Hugh Áengus_Angus Affiath Ailbe Ailbrend Ailbrenn Ailchú Aildobur Ailgel Áilgenán Ailgus
+			Ailill Ailpín_Alwin Ainbchellach Áindle Ainftech_Enfidaig Ainmere Airechtach Airfhindán Airfhinnán Airleid Airmedach Amalgaid Amlaíb_Olaf Anfudán Anlón Anmchaid Ánrothán Ardgal
+			Ardgar Art_Arthur Artbran Artgal Artgus Artucán Artúr_Arthur Assiucc Augaire Augustín_Augustine Aurthuile Báethgalach Báethíne Báetán Béoáed Barrfhind Beccán Berrach Bhátair_Walter
+			Blathmacc Bran_Bran Brandub Brangen Bressal Brian_Brian Briccéne Briccíne Broccán Bruatur Bruide_Bride Brénaind Brénainn Bróen Búaidbéo Caicher Cailech Cailte Cairbre_Carbrey
+			Cairell Caisséne Caissín Caissíne Canann Canannán Carlus_Charles Cathal Cathalán Cathassach Cathbad Cathmáel Cathmál Cathnio Cathub Causantín_Constantine Caílte Caínchomrac
+			Caíndelbán Ceithernach Cellach Cellachán Cennétig_Kentigern Cenn-Fáelad Cennlachán Cerball Cernach Cernachán Cian Ciarán Cilléne Cillíne Cináed_Kenneth Clemens_Clement Cobthach
+			Coirpre Colcu Colmán_Nicholas Columb_Nicholas Comgán Conaing Conall_Conall Conallán Conamail Conán_Conan Conchenn Conchobar Condla Congal Congalach Congus Conlang Conmac Conmacc
+			Conmáel Conmál Conn_Conn Connla Conrí Constans_Constantius Constantín_Constantine Corbb Corbán Corccán Corcrán Cormac Coscrach Coílboth Crimthann Crundmáel_Crundmáel Cruinnmáel_Crundmáel
+			Críchán Crónán Cuilén Cuindles Cuircthe Cummascach Cáemán Cóelbad Cóelub Cóemán Cú-Allaid Cú-Bretan Cú-Caech Cú-Cen Cú-Cen-Máthair Cú-Cúaráin Cú-Gamna Cú-Roí Cúanu Cúldub Cúán
+			Cúánán Dabíd_David Daigre Dalbach Dallán Daniél_Daniel Dathal Dathgus Demmán Diarmait_Dermid Doedgus Domangart Domnall_Donald Donn Donnchad_Duncan Donncuan_Duncan Donndubán Donngal
+			Donnucán_Duncan Doélgus Drost Drust Dub-dá-Lethe Dubcenn Dubgenn Dubh_Duff Dubhghall_Dugald Dubhglais_Douglas Dubthach Dubáed Dubán Duiblesc Duibne Dunáed Dálach Dícuill Díglach Dímmae
+			Dímmasach Dímmán Dínertach Dúnacán Dúnadach Dúnchad_Duncan Dúngal Dúngalach Dúnlang Éamonn_Edmund Echmarcach Échtgal Échtgus Echthigern Echuid Éicnech Éicnechán Eláir Énna Énri_Henry Éochad
+			Eochaid_Eochaid Eochu Eochucán Éogan_Eugene Erc_Eric Ercaid Ercáed Ercán Éremón Érennach Ernán Eterscél Eógan_Eugene Eóganán_Eugene Fachtna Fairchellach Fallaman Farannán Faílbe Fearghus_Fergus
+			Fechtnach Fedach Fearchar_Farquhar Fedelmid Feirgil Felic Fer-Fugaill Feradach_Feradach Ferdomnach Fergal Fergus_Fergus Fiachnae Fianchú Findbarr Fingen Finguine Finn_Finn Finnacán Finnbarr
+			Finnchú Finnlagh_Findlay Finnsnechtae Fintan Flaithbertach Flaithem Flaithemán Flaithgus Flaithrí Flann Flannacán Flannchad Flannán Fogartach Folachtach Forannán Forbassach Fothad Fothud
+			Fuacarta Fubthad Fuirechtach Fursu Fáelcar Fáelchad Fáelchú Fáeldobur Fáelgus Fáelán Fáelbe Fíachnae Fíadchú Fíngin Fínsnechta Fócarta Gabrán Garalt Garbith Gilla-Íosa Gilla-Brígte_Gilbert
+			Gilla-Coluim Gilla-Comgáin Gilla-Críst_Gilchrist Gilla-na-Náem Gilla-Pátraic_Gilpatrick Gilla-Ruad_Gilroy Glaisiuc Glaschu Glún-Iairn Gofraid_Godfrey Gormacán Gormgus Gormán Guaire Gáethán
+			Gáethíne Gósacht Iacob_Jacob Iarlaithe Imchad Indrechtach Ioseph_Joseph Íomhar_Ivar Labraid Lachtnae Lachtnán Lachtnéne Laidcenn Laidgenn Laidíne Laisrén Lennán_Lennon Lethlobur Liam_William
+			Liber Lochlann Loingsech Lonán Lorcán Lugh_Leon Lugaid Lugáed Láegaire Lóchéne Lóchíne Lóeguire Mac-Laisre Mainchíne Maine Manchán Martan Mathgamain Matudán Minchán Mo-Chonna Mo-Lua Móenach
+			Morand Morann Mugrón Muirchertach Muirecán Muiredach_Murdoch Muirgius Murchad Murchú Máel-Anfaid Máel-Bresail Máel-Brígte Máel-Cein Máel-Cianáin Máel-Ciaráin Máel-Coluim_Malcolm Máel-Corgis
+			Máel-Dubh_Maldoven Máel-Dúin Máel-Fothartaig Máel-Fábaill Máel-Íosa_Malise Máel-Máedóc Máel-Martain Máel-Mórda Máel-Muire_Malmure Máel-Míchíl Máel-Petair Máel-Pátraic Máel-Ruanaid Máel-Sechnaill
+			Máel-Tólai Máelán Máenach Máthair Múadán Nadarchu Nannid Natfraech Natfraich Natsluaig Nechtan_Nathan Niall_Nigel Niallgus Niallán Nuadu Odrán Óengus_Angus Óenucán Oisséne Oissíne Olcán Ólchobar
+			Onchú Orthanach Oscar_Oscar Pátraic_Patrick Petair_Peter Pilib_Philip Pól_Paul Proinsias_Francis Rechtabra Riacán Riaguil Robartach Rogallach Rogellach Ruah_Roy Ruaidrí_Roderick Ruarcc Rumann
+			Ráthach Rígán Ríán Ródán Rónchú Rónán_Ronan Rúadacán Rúadán Scandal Scandlán Scellán Scolaige Séaghdha_Shaw Séafra_Godfrey Séamas_Jacob Seán_John Sechnassach Selbach Senchán Seoán_John Sinach
+			Siothrún_Godfrey Slébíne Snedgus Sogan Somhairle_Somerled Suibne_Sweeny Sáerbrethach Sárán Séigíne Sétna Sétnae Tadg_Tadg Taithlech Talorc_Talore Talorcán_Talorcán Temnén Tigernach Tigernán
+			Tipraite Tomaltach Tomás_Thomas Torccán Trenchad Trengus Tressach Tuathalán Tuireann_Taran Tálán Tóla Túathal_Tuathal Ualgarg Ualan_Valentin Ualtar_Walter Úamnachán Uargal Uargalach Uargus
+			Uilliam_William Ultán
+		}
+
+		female_names = {
+			Ablach Áedammair Affraic_Euphemia Aíbinn Aibilín_Eva Aileann Áine_Agnes Anlaith Aróc 
+			Barrdub Ben-Laigen Ben-Míde Ben-Muman Ben-Ulad Brigit_Brigit  Bé-Fáil Bébinn 
+			Cacht Caillech-Fhinnéin
+			Cainnech Caisséne Caitilín_Catherine Caíntigern Caírech Cathán Catríona_Catherine Cellach Ciar Cnes Coblaith_Cobflaith Cobflaith_Cobflaith Conchenn Condál Crínóch Crístina_Christina Cumman
+			Deirdre Der-bForgaill_Devorguilla Derbáil Derborgaill_Devorguilla Der-Ilei_Derilla Der-Lugdach Dianaim Doriend Dub-Dil Dub-Essa Dub-Lemna Dubchoblaig Dubgilla Dúinsech Dúnlaith 
+			Echrad Éibhleann Eilionora_Eleanor Eithne_Eithne Ellbríg Emer_Emer Étaín Éua_Eva Euginia_Eugenia 
+			Faílenn Fedelm Finneacht Finnguala_Finnguala Flann Forbflaith Fíne 
+			Garb Gelgéis Gerróc Gnathnad Gormflaith_Gormflaith Gormlaith_Gormflaith Gráinne 
+			Imag Íte 
+			Lann Lasairfíona Lathir Lerben Lerthan Lígach Lucia_Lucia 
+			Martha_Martha Mauda_Matilda Muadhnait_Mona Muirenn_Murron Muirgel_Muriel Muirne_Morna Máel-Mide Máel-Muire_Malmure Máire_Maria Máiread Máirgred_Margaret Mór_Mor Mór-Muman 
+			Nárbflaith Nuala_Finnguala 
+			Órlaith Órnat
+			Petra
+			Róis_Ros 
+			Sadb Samthann Scáthach Sébdann Selblaith Seonaid_Joan Sinech Siobán_Joan
+			Sisuile Sláíne_Slaine Sorcha_Sorcha Suaibsech Sáerlaith Sétach Síthmaith 
+			Tailefhlaith Tailltiu Temair Tuathflaith Tómnat 
+			Uallach Uasal Úna_Una
+		}
+
+		patronym_prefix_male = "dynnpat_pre_nic"
+		patronym_prefix_female = "dynnpat_pre_nic"
+		dynasty_of_location_prefix = "dynnp_de"
+		prefix = yes
+		
+		always_use_patronym = yes	#Petra doesn't use a patronym so maybe these should be removed later
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			10 = caucasian_ginger
+			45 = caucasian_brown_hair
+			40 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+}
+
+outside_group = {
+	duscur = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 181 147 119 }
+
+		cadet_dynasty_names = {
+			"dynn_Molinaro"
+			#Molinaro is Italian but Leicester uses Italian names too (Pinelli) so idk what else to have here
+		}
+
+		dynasty_names = {
+			"dynn_Molinaro"
+		}
+
+		male_names ={
+			Abar Ahno Ahme Akrha Aman
+			Bazir Bune
+			Dedi Didia Duaen Dedue
+			Gebu
+			Horue hakor Hapue Harkhuf Haron Heqan Heram Horna
+			Imho Imyr
+			Kebes Khonus Kamos Khaba Kheam Khay Khyan
+			Mose
+			Nektue Nedue Nikar
+			Paba Pepue
+			Quarqe Qenna
+			Raemka Raho Ramess Ramos
+			Shun Serque Seb Senak Sensue Sieste
+			Taharqa Tao Teos Tutan
+			Unsue
+			Wadja Wahib Weneg
+			Zamon
+		}
+
+		female_names = {
+			Hapi Hatshe Hemetre Henut Hui
+			Ine Inene Isesu
+			Karo Khede khensa Khenta Kiya
+			Munzu Maia Mere
+			Nephys Nauny Nefere Nubhe
+			Pyhia
+			Qalha
+			Raya Rekhe
+			Siri Setha Satia Seshe Sita Sobhe
+			Tawa Tabi Tey Tia Tiye
+		}
+
+		dynasty_of_location_prefix = "dynnp_di"
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		ethnicities = {
+			5 = caucasian_blond
+			20 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	almyran = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 190 215 25 }
+
+		cadet_dynasty_names = {
+			#TBD
+		}
+
+		dynasty_names = {
+			#TBD
+		}
+
+		male_names ={
+			Abbas Abolhassan Afshar Ahmad Akbar Ali Allahyar Amin Anushirvan Aram Ardahan Ardavan Ardeshir Assad Aurang Ayeshah Babak Bahman
+			Bahram Bakhtiar Behrad Behrouz Bozorg Danush Darab Dariush Davud Djamasp Ebrahim Ehsan Esfandiar Eskander Esma_il Faramarz Faraz Fareed Farhad Fariborz
+			Farroukh Farrukhzad Farzad Fath Ferdows Fereedun Ghobad Gholam Godarz Goshtasb Hafez Hassan Hazarasp Hedayat Hooshyar Hormazd Hormoz Hossein
+			Humayun Jahandar Jahangir Jahanshah Jamshid Javeed Kambiz Kamran Kavoos Keyghobad Keykhosrau Kharmandar Khashayar Kavadh Khodadad Khosrau
+			Khudayar Khurshid Kurush Mahmud Manuchihr Manushihr Marzuban Mashad Maziar Mehrab Mehrzad Mohammed Morad Morteza Mozaffar Nard Naveed Nawid Nezam Parviz Pashang Peroz
+			Pujman Reza Rostam Ruhollah Sadri Salman Shahab Shahbaz Shahin Shahram Shahrokh Shahruz Shahryar Shapur Shayan Sina Tahmasb Vahhab Vahid
+			Vali Vandad Varshasb Vishtasb Yazdegerd Yousef Zahak Zakaria Zand Zartosht Zia
+		}
+
+		female_names = {
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva
+			Furuzan Ghamze Ghazal Ghoncheh Golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht Jamileh Javaneh Leila Mahdokht Mahtab Mariam
+			Navvaba Nazgol Nazilla Noor Parvaneh Parvin Pertevniyal Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh Shirin Soraya Touran
+			Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		ethnicities = {
+			5 = caucasian_blond
+			20 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	morfis = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 190 40 155 }
+
+		cadet_dynasty_names = {
+			#TBD
+		}
+
+		dynasty_names = {
+			#TBD
+		}
+
+		male_names ={
+			Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
+			Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
+			Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
+			Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Da_oud
+			Ezra Farhan Firuz Gabri_el Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
+			Hussayn Ibrahim Ilyas Is_mail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
+			Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
+			Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Ra_uf Rafiq Ridwan Sabah Salim Sha_ban
+			Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
+			Aba Abahu Abaya Abaye Abayi Abba Abdima Abdisho Abgar Abimalek Abraham Abris Abrisius Acacius Achan Achina Addai
+			Adlai Aggai Ahai Ahadabui Ahha Akha_d_abuh Akh_es_Samain Aqib_Alaha Asa Ashur Avahu Avda Avdima Avdimi Avina Avira Azai
+			Babaeus Babai Babowai Babwahi Bar Bar_Abba Barba_shimin Bar_Nabha Bar_Talmai Bar_Timai Bar_Tolmai Bustan
+			Caiaphas Cephas Cephus Chadlai Chama Chanin Chanina Chaninai Chinena Chozai Chuma Chunya Clopas
+			Dadisho Denha Dikla Diklah Dimi Dinkha Dunanu Elisha Eliya Emmanuel Enosh Ezekiel Farbokht Foma Giwargis Grwgari
+			Hanina Hnanisho Hozai Idan Idra Ila Isaac Isho Isho_yahb Israel Kaiapha Karna Katsiu Kelaya
+			Laszio Lazar Lazare Lazaro Lazaros Lazarus Lazarz Lazer Lebbaeus Maadai Macabee Maccabee Magna Makkikha Maluch Ma_na Marabokht Maremmeh Mari Mikha_il Moqli Muna
+			Nahir Nahor Nahur Narsai Nazuk Nechunya Nehor Nehorai Niv Nun Nur Oran Pappa Paul Pethion Petros Petuel Qaligh Qayyoma Raca Rachim Rahim Raka Raz Raziel Rubil
+			Saad Saba Sabah Sabba_e Sabrisho Sabr_Ishu Salu Samal Sami Samiy Sagi Sargis Sava Sawma Shafer Shahdost
+			Shahlufa Shai Shalmai Shama Shamir Shammai Shemaiah Shem_on Sheraga Shila Shovai Shraga Sima Sliba-zkha Surin
+			Tabbai Taddai Talia Taliah Talmai Talya Tam Tam_as Ta_mhas Targhal Tauma Tavi Tavish Tevis Th_amhais Thoma Timai Tiv Toba Todos Tolmai Tomarsa Tamuza Tulmay
+			Ukba Yahballaha Yanai Ya_qob Yeshua Yohannan Yosip Yousef Yunanis Zerika
+		}
+
+		female_names = {
+			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+			Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
+			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
+			Adva Alya Anena Anina Bustan Chanina Chasina Chayuta China Chiyuta
+			Dikla Diklah Diklit Duvsha Hanina Hasna Hayuta Hina Ketina Kitra
+			Magdala Mahalia Mahalie Marfa Mariam Marta Marte Martha Marthe Marti
+			Martita Mehalia Meiriona Meirona Morta Nahara Nura Raz Reuma
+			Saba Sabah Samantha Sameah Samee Sameea Samiya Samiyah Samiyya Samya Sava Shapira Sima
+			Tabatha Tabby Tabetha Tabitha Tadea Talia Taliah Talya Talitha
+			Tam Tamasin Tami Tammy Tamsin Tamsyn Tamzin Thaddea Thomasa
+			Zeita Zeta
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			20 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	sreng = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = hsv { 190 40 155 }
+
+		cadet_dynasty_names = {
+			#TBD
+		}
+
+		dynasty_names = {
+			#TBD
+		}
+
+		male_names ={
+			Anund Alv Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder BjOErn Eigil Eilif Einar Eirik Erlend Erling Eystein Finn Frej
+			Grim Gudbrand Gudleik Gudmund Gunnar Guttorm Haldor Halfdan Halkjell Harald Helge Inge Ivar Jon Kolbein Lodin
+			Magnus Odd Ogmund Olav Orm Ossor Ottar PAAl Ragnar Ragnvald Rolf Sigurd Skjalg Skofte Skule Svein Sverre TorbjOErn Tord Tore
+			Torbrand Torfinn Torgeir Torgil
+			Tormod Torolf Torstein Trond Tryggve Ulv Vigleik
+		}
+
+		female_names = {
+			Anna Astrid Brigida Cecilia Eldrid Freja Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug Ingjerd Ingrid Jorunn
+			Karin Kristina Margrete Maria Martha Ragna Ragnfrid Ragnhild Rannveig Sigrid Sunniva Svanhild Thora Thorborg Thordis
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		dynasty_of_location_prefix = "dynnp_av"
+		
+		ethnicities = {
+			5 = caucasian_blond
+			20 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+}

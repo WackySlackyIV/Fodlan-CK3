@@ -1,6 +1,6 @@
-﻿####								            ####	
+﻿####								            ####
 ##         Garreg Mach Characters		          ##
-##Converted by TypicalCrusader for Fodlan CK3 mod ## 
+##Converted by TypicalCrusader for Fodlan CK3 mod ##
 ####								            ####
 
 
@@ -10,9 +10,9 @@
 	dynasty = 1
 	religion = "seirosite"
 	culture = "high_fodlan"
-	
+
 	female = yes
-	
+
 	diplomacy = 10
    	martial = 7
 	stewardship = 7
@@ -20,17 +20,17 @@
 	learning = 10
 	health = 6.5
    	mother = 500001
-	
+
 	trait = rhea
 	trait = zealous
 	trait = child_goddess
 	trait = education_learning_4
-	trait = just	
+	trait = just
 	trait = temperate
 	trait = diligent
 	trait = chaste
-	
-	
+
+
 	60.1.11 = {
 		birth = yes
 	}
@@ -52,18 +52,18 @@
 	stewardship=7
    	intrigue=4
 	learning=5
-	add_trait="brilliant_strategist"
-	add_trait="robust"
-	add_trait="shrewd"
-	add_trait="socializer"
-	add_trait="diligent"
-	add_trait="kind"
-	add_trait="content"
-	add_trait="gregarious"
-	add_trait="honest"
-	add_trait="trusting"
-	add_trait="organizer"
-	add_trait="mountain_terrain_leader"
+	trait = education_martial_3
+	trait = physique_good_2
+	trait = shrewd
+	#trait = socializer"
+	trait = diligent
+	#trait = kind"
+	trait = content
+	trait = gregarious
+	trait = honest
+	trait = trusting
+	trait = organizer
+	trait = rough_terrain_expert
 	random_traits = no
 
 	1114.08.14 = {
@@ -74,7 +74,7 @@
 		add_spouse = 400142
 	}
 	1178.07.25={
-		give_nickname = nick_cappy
+		##give_nickname = nick_cappy
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -94,7 +94,7 @@
    	intrigue=7
 	learning=9
 	health = 6.5
-	trait = seteth 
+	trait = seteth
 	trait = education_learning_3
 	trait = child_goddess
 	trait = crest_major_cichol
@@ -130,7 +130,7 @@
    	intrigue=3
 	learning=9
 	health = 6.5
-	
+
 	trait = flayn
 	trait = child_goddess
 	trait = martial_cleric
@@ -142,8 +142,8 @@
 	trait = calm
 	random_traits = no
 
-	trait = education_learning_2	
-	disallow_random_traits = yes
+	trait = education_learning_2
+	random_traits = no
 
 	100.6.12 = {
 		birth = yes
@@ -160,13 +160,13 @@
 	}
 	1181.1.1 = {
 		effect = {
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_invoke
-			set_character_flag = spell_faith_rescue
-			set_character_flag = spell_faith_fortify
+			#set_character_flag = spell_reason_fire
+			#set_character_flag = spell_reason_wind
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_faith_invoke
+			#set_character_flag = spell_faith_rescue
+			#set_character_flag = spell_faith_fortify
 		}
 	}
 	1200.1.11 = {
@@ -191,7 +191,7 @@
 	trait= brave
 	trait= gregarious
 	trait= fickle
-	#disallow_random_traits = yes
+	random_traits = no
 
 	1135.12.1 = {
 		birth="1135.12.1"
@@ -219,7 +219,7 @@
 	learning=5
 	health = 6.5
 	add_stress = 200 #It ShOuLd WoRk
-	
+
 	trait= gilbert
 	trait= education_martial_3
 	trait = zealous
@@ -255,14 +255,14 @@
    	intrigue=9
 	learning=3
 	health = 6.5
-	
+
 	trait = shamir
 	trait = education_intrigue_3
 	trait = shrewd
 	trait = cynical
 	trait = temperate
 	trait = blademaster_2
-	#disallow_random_traits = yes
+	#random_traits = no
 
 
 	1155.3.27 = {
@@ -297,9 +297,9 @@
 	trait = lazy
 	trait = lustful
 	trait = fickle
-	trait = drunkyard 
+	trait = drunkyard
 	trait = songstress
-	#disallow_random_traits = yes
+	#random_traits = no
 
 	1138.8.3 = {
 		birth=yes
@@ -308,13 +308,13 @@
 		employer = 100000
 	}
 	1181.1.1 = {
-		give_nickname = nick_the_divine_songstress
+		#give_nickname = nick_the_divine_songstress
 		effect = {
-			set_character_flag = spell_faith_warp
-			set_character_flag = spell_faith_silence
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_ward
+			#set_character_flag = spell_faith_warp
+			#set_character_flag = spell_faith_silence
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_faith_ward
 		}
 	}
 	1200.1.1={
@@ -341,7 +341,7 @@
 	trait = ambitious
 	trait = diligent
 	trait = scholar
-	#disallow_random_traits = yes
+	#random_traits = no
 
 	1129.2.8 = {
 		birth="1129.2.8"
@@ -351,15 +351,15 @@
 		employer = 100000
 	}
 	1181.1.1 = {
-		give_nickname = nick_the_father_of_crestology
+		#give_nickname = nick_the_father_of_crestology
 		effect = {
-			set_character_flag = spell_reason_sagittae
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_reason_thoron
-			set_character_flag = spell_reason_ragnarok
-			set_character_flag = spell_reason_meteor
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_reason_sagittae
+			#set_character_flag = spell_reason_wind
+			#set_character_flag = spell_reason_thoron
+			#set_character_flag = spell_reason_ragnarok
+			#set_character_flag = spell_reason_meteor
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
 		}
 	}
 
@@ -388,7 +388,7 @@
 	}
 	1157.1.1 = {
 		add_spouse=100017
-		give_nickname = nick_blade_breaker
+		#give_nickname = nick_blade_breaker
 	}
 	1181.3.15 = {
 		death=yes
@@ -405,14 +405,14 @@
    	intrigue=6
 	learning=4
 	health = 6.5
-	
+
 	trait = cyril
 	trait = trusting
 	trait = diligent
 	trait = content
 	trait = trusting
 	trait = zealous
-	
+
 	random_traits = no
 
 	1164.10.25 = {
@@ -465,11 +465,11 @@
 		employer = 100001
 	}
 	1181.1.1 = {
-		give_nickname = nick_thunderstrike
-		effect = {
-			add_artifact = relic_thunderbrand
-			spawn_date = -1.1.1
-		}
+		#give_nickname = nick_thunderstrike
+		#effect = {
+		#	add_artifact = relic_thunderbrand
+		#	spawn_date = -1.1.1
+		#}
 	}
 
 	1200.1.1={
@@ -490,22 +490,22 @@
 	learning=4
 	health = 6.5
 
-	add_trait = "yuri"
-	add_trait = "elusive_shadow"
-	add_trait="reason_magic_initiate"
-	add_trait="faith_magic_initiate"
-	add_trait="agile"
-	add_trait = "crest_major_aubin"
-	add_trait = "quick"
-	add_trait = "greedy"
-	add_trait = "deceitful"
-	add_trait = "diligent"
-	add_trait = "schemer"
-	add_trait = "adopted"
-	add_trait = "kind"
-	add_trait = "singer"
-	add_trait = "runaway_abyss"	
-	disallow_random_traits = yes
+	trait = yuri
+	trait = elusive_shadow
+	trait = reason_magic_initiate
+	trait = faith_magic_initiate
+	trait = agile
+	trait = crest_major_aubin
+	trait = quick
+	trait = greedy
+	trait = deceitful
+	trait = diligent
+	trait = schemer
+	trait = adopted
+	trait = kind
+	trait = singer
+	trait = runaway_abyss
+	random_traits = no
 
 	1160.9.12 = {
 		birth=yes
@@ -513,15 +513,15 @@
 	1181.1.1 = {
 		employer = 100000
 		effect = {
-			add_artifact = relic_fetters_dromi
-			spawn_date = -1.1.1
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_reason_cuttinggale
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_recover
+			#add_artifact = relic_fetters_dromi
+			#spawn_date = -1.1.1
+			#set_character_flag = spell_reason_wind
+			#set_character_flag = spell_reason_cuttinggale
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_faith_recover
 		}
-		give_nickname = nick_savage_mockingbird
+		#give_nickname = nick_savage_mockingbird
 	}
 	1200.1.1={
 		death=yes
@@ -542,39 +542,39 @@
 	learning=2
 	health = 6.5
 
-	add_trait = "balthus"
-	add_trait = "tough_soldier"
-	add_trait="faith_magic_initiate"
-	add_trait = "crest_major_chevalier"
-	add_trait = "hedonist"
-	add_trait = "strong"
-	add_trait = "robust"
-	add_trait = "stubborn"
-	add_trait = "brave"
-	add_trait = "arbitrary"
-	add_trait = "greedy"
-	add_trait = "runaway_abyss"
-	disallow_random_traits = yes
+	trait = balthus
+	trait = tough_soldier
+	trait = faith_magic_initiate
+	trait = crest_major_chevalier
+	trait = hedonist
+	trait = strong
+	trait = robust
+	trait = stubborn
+	trait = brave
+	trait = arbitrary
+	trait = greedy
+	trait = runaway_abyss
+	random_traits = no
 
 	1153.8.9 = {
 		birth=yes
 	}
 	1155.8.9 = {
-		effect={ 
+		effect={
 			add_friend=200011
 			add_friend=200023
 		}
 	}
 	1181.1.1 = {
 		effect = {
-			add_artifact = relic_vajra_mushti
-			spawn_date = -1.1.1
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_seraphim
+			#add_artifact = relic_vajra_mushti
+			#spawn_date = -1.1.1
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_faith_seraphim
 		}
 		employer = 100000
-		give_nickname = nick_king_grappling
+		#give_nickname = nick_king_grappling
 	}
 	1200.1.1={
 		death=yes
@@ -596,33 +596,33 @@
 	learning=8
 	health = 6.5
 
-	add_trait = "constance"
-	add_trait = "fortune_builder"
-	add_trait="reason_magic_adept"
-	add_trait="faith_magic_apprentice"
-	add_trait = "crest_major_noa"
-	add_trait = "proud"
-	add_trait = "diligent"
-	add_trait = "runaway_abyss"
-	add_trait = "ambitious"
-	disallow_random_traits = yes
+	trait = constance
+	trait = fortune_builder
+	trait = reason_magic_adept
+	trait = faith_magic_apprentice
+	trait = crest_major_noa
+	trait = proud
+	trait = diligent
+	trait = runaway_abyss
+	trait = ambitious
+	random_traits = no
 
 	1162.3.20 = {
 		birth=yes
 	}
 	1166.5.9 = {
-		effect={ 
+		effect={
 			add_friend=300032
 		}
 		employer = 100000
 	}
 	1181.1.1 = {
 		effect = {
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_sagittae
-			set_character_flag = spell_reason_fimbulvetr
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_reason_fire
+			#set_character_flag = spell_reason_sagittae
+			#set_character_flag = spell_reason_fimbulvetr
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
 		}
 	}
 	1200.1.1={
@@ -642,15 +642,15 @@
 	learning=6
 	health = 6.5
 
-	add_trait = "hapi"
-	add_trait = "naive_appeaser"
-	add_trait= "dark_magic_adept"
-	add_trait="faith_magic_apprentice"
-	add_trait = "crest_major_timotheos"
-	add_trait = "runaway_abyss"
-	add_trait = "cynical"
-	add_trait = "honest"
-	disallow_random_traits = yes
+	trait = hapi
+	trait = naive_appeaser
+	add_trait= "dark_magic_adept
+	trait = faith_magic_apprentice
+	trait = crest_major_timotheos
+	trait = runaway_abyss
+	trait = cynical
+	trait = honest
+	random_traits = no
 
 	1160.1.15 = {
 		birth=yes
@@ -660,12 +660,12 @@
 	}
 	1181.1.1 = {
 		effect = {
-			set_character_flag = spell_dark_miasma
-			set_character_flag = spell_dark_swarm
-			set_character_flag = spell_dark_banshee
-			set_character_flag = spell_dark_death
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_dark_miasma
+			#set_character_flag = spell_dark_swarm
+			#set_character_flag = spell_dark_banshee
+			#set_character_flag = spell_dark_death
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
 		}
 	}
 	1200.1.1={
@@ -678,25 +678,25 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	dynasty = 3
-	
+
    	diplomacy=7
    	martial=3
 	stewardship=4
    	intrigue=5
 	learning=8
 
-	add_trait = "aelfric"
-	add_trait = "intricate_webweaver"
-	add_trait="reason_magic_master"
-	add_trait="faith_magic_initiate"
-	add_trait = "crest_minor_seiros"
-	add_trait = "patient"
-	add_trait = "greedy"
-	add_trait = "envious"
-	add_trait = "zealous"
-	add_trait = "gregarious"
-	add_trait = "ambitious"
-	disallow_random_traits = yes
+	trait = aelfric
+	trait = intricate_webweaver
+	trait = reason_magic_master
+	trait = faith_magic_initiate
+	trait = crest_minor_seiros
+	trait = patient
+	trait = greedy
+	trait = envious
+	trait = zealous
+	trait = gregarious
+	trait = ambitious
+	random_traits = no
 
 	1137.1.1 = {
 		birth=yes
@@ -709,13 +709,13 @@
 	}
 	1181.1.1 = {
 		effect = {
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_bolganone
-			set_character_flag = spell_reason_ragnarok
-			set_character_flag = spell_reason_meteor
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_recover
-			set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_reason_fire
+			#set_character_flag = spell_reason_bolganone
+			#set_character_flag = spell_reason_ragnarok
+			#set_character_flag = spell_reason_meteor
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_recover
+			#set_character_flag = spell_faith_nosferatu
 		}
 	}
 	1200.1.1={
@@ -728,12 +728,12 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	female = yes
-	add_trait = "mastermind_theologian"
-	add_trait = "sitri"
-	add_trait = "crest_major_flames"
-	add_trait = "nun"
-	add_trait = "kind"
-	disallow_random_traits = yes
+	trait = mastermind_theologian
+	trait = sitri
+	trait = crest_major_flames
+	trait = nun
+	trait = kind
+	random_traits = no
 
 	1139.1.1 = {
 		birth=yes
@@ -753,12 +753,13 @@
 	name="Pallardo"
 	religion="seirosite"
 	culture="high_fodlan"
-	add_trait = "pallardo"
-	add_trait = "indulgent_wastrel"
-	add_trait = "greedy"
-	add_trait = "arbitrary"
-	add_trait = "envious"
-	disallow_random_traits = yes
+
+	trait = pallardo
+	trait = indulgent_wastrel
+	trait = greedy
+	trait = arbitrary
+	trait = envious
+	random_traits = no
 
 	1155.1.1 = {
 		birth=yes
@@ -779,12 +780,13 @@
    	intrigue=6
 	learning=4
 	health = 6.5
-	add_trait = "anna"
-	add_trait = "midas_touched"
-	add_trait = "greedy"
-	add_trait = "deceitfull"
-	add_trait = "kind"
-	disallow_random_traits = yes
+
+	trait = anna
+	trait = midas_touched
+	trait = greedy
+	trait = deceitful
+	trait = kind
+	random_traits = no
 
 	1151.1.1 = {
 		birth=yes
@@ -805,14 +807,15 @@
    	intrigue=4
 	learning=8
 	health = 6.5
-	add_trait = "poe"
-	add_trait = "martial_cleric"
-	add_trait = "zealous"
-	add_trait = "kind"
-	add_trait = "gardener"
-	add_trait = "faith_magic_master"
-	add_trait = "reason_magic_initiate"
-	disallow_random_traits = yes
+
+	trait = poe
+	trait = martial_cleric
+	trait = zealous
+	trait = kind
+	trait = gardener
+	trait = faith_magic_master
+	trait = reason_magic_initiate
+	random_traits = no
 
 	1146.1.1 = {
 		birth=yes
@@ -820,12 +823,12 @@
 	1181.1.1 = {
 		employer = 100000
 		effect = {
-			set_character_flag = spell_reason_purge
-			set_character_flag = spell_reason_sagittae
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_warp
-			set_character_flag = spell_faith_rescue
+			#set_character_flag = spell_reason_purge
+			#set_character_flag = spell_reason_sagittae
+			#set_character_flag = spell_faith_heal
+			#set_character_flag = spell_faith_nosferatu
+			#set_character_flag = spell_faith_warp
+			#set_character_flag = spell_faith_rescue
 		}
 	}
 	1200.1.1={

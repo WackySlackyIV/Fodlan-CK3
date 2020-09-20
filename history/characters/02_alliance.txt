@@ -1,0 +1,1741 @@
+####								            ####
+##         Garreg Mach Characters		          ##
+##Converted by KDports for Fodlan CK3 mod ##
+####								            ####
+
+200000 = {
+	name="Oswald"
+	dynasty=100
+	religion="seirosite"
+	culture="leicester"
+
+	diplomacy = 12
+   	martial = 9
+	stewardship = 7
+   	intrigue = 5
+	learning = 5
+	health = 4.5
+
+    trait = just
+    trait = infirm
+    trait = content
+    trait = celibate
+    trait = temperate
+
+	1120.1.11 = {
+		birth=yes
+	}
+	1177.8.23={
+		effect = {
+			set_relation_rival = character:200006
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200001 = {
+	name="Frederick"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+
+	trait = education_intrigue_1
+	trait = shrewd
+	trait = lustful
+	trait = greedy
+	trait = ambitious
+	trait = diligent
+	trait = kinslayer_1
+	trait = stubborn
+	trait = cynical
+	random_traits = no
+
+	1109.7.13 = {
+		birth="1109.7.13"
+	}
+
+	1129.3.12={
+          add_spouse=200031
+	}
+
+	1181.1.1 = {
+        #Was remove roundtable here
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200002 = {
+	name="Phillip"
+	dynasty=108
+	religion="seirosite"
+	culture="leicester"
+
+	trait = curious
+	random_traits = no
+
+	1173.6.1 = {
+		birth="1173.6.1"
+	}
+	1181.1.1 = {
+        #Was remove roundtable here
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200003 = {
+	name="Judith"
+	dynasty=104
+	female=yes
+	religion="seirosite"
+	culture="leicester"
+
+   	diplomacy=7
+   	martial=9
+	stewardship=5
+   	intrigue=5
+	learning=5
+	health = 6
+
+	#trait = judith"
+	trait = education_martial_4
+	trait = blademaster_1
+	trait = diligent
+	trait = brave
+	trait = flexible_leader
+	random_traits = no
+
+
+	1140.1.11 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_hero_of_daphnel
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200004 = {
+	name="Oswald"
+	dynasty=110
+	religion="seirosite"
+	culture="leicester"
+	father = 200040
+	trait = temperate
+	trait = humble
+	trait = lazy
+	trait= content
+	trait= craven
+	trait= trusting
+	trait= zealous
+	#trait = faith_magic_apprentice"
+	random_traits = no
+
+	1159.10.23 = {
+		birth="1159.10.23"
+	}
+	1181.1.1={
+		#effect = {
+		#	remove_title = title_roundtable_member
+		#	set_character_flag = spell_faith_heal
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200005 = {
+	name="Lear" #father lysithea
+	dynasty=101
+	religion="seirosite"
+	culture="leicester"
+
+	#trait = misguided_warrior"
+	trait = physique_bad_3
+	trait = humble
+	trait = kind
+	trait = chaste
+	trait = content
+	trait = paranoid
+
+	1139.1.9 = {
+		birth=yes
+	}
+
+	1165.1.1 = {
+		add_spouse = 200065
+	}
+
+	1181.1.1={
+		#effect = {
+		#	give_minor_title = title_roundtable_member
+		#	remove_title = job_chancellor
+		#	remove_title = job_marshal
+		#	remove_title = job_treasurer
+		#	remove_title = job_spiritual
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200006 = {
+	name="Richard" #lorenz father
+	dynasty=102
+	religion="seirosite"
+	culture="leicester"
+	father = 200029
+
+	trait = education_diplomacy_2
+	trait = arrogant
+	trait = deceitful
+	trait = vengeful
+	trait = patient
+	#trait = reason_magic_apprentice"
+
+	1139.5.28 = {
+		birth=yes
+	}
+
+	1161.1.1 = {
+		add_spouse = 200063
+	}
+	1177.1.1={
+		effect = {
+			add_rival = 200000
+		}
+	}
+	1181.1.1={
+		#effect = {
+		#	give_minor_title = title_roundtable_member
+		#	remove_title = job_chancellor
+		#	remove_title = job_marshal
+		#	remove_title = job_treasurer
+		#	remove_title = job_spiritual
+		#	set_character_flag = spell_reason_fire
+
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200007 = {
+	name="Edgar"
+	dynasty=103
+	religion="seirosite"
+	culture="leicester"
+
+	trait = education_stewardship_3
+	trait = gregarious
+	#trait = kind"
+	trait = improvident
+
+	1137.7.18 = {
+		birth=yes
+	}
+	1181.1.1={
+		#effect = {
+		#	give_minor_title = title_roundtable_member
+		#	remove_title = job_chancellor
+		#	remove_title = job_marshal
+		#	remove_title = job_treasurer
+		#	remove_title = job_spiritual
+		#}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200008 = {
+	name="Kupala"
+	dynasty=109
+	religion="seirosite"
+	culture="kupalan"
+
+	1139.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200009 = {
+	name="Landon"
+	religion="seirosite"
+	culture="leicester"
+	trait = education_diplomacy_2
+	trait = physique_bad_3
+	trait = improvident
+	trait = zealous
+	trait = patient
+	trait = deceitful
+	random_traits = no
+
+	1139.11.20 = {
+		birth="1139.11.20"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200010 = {
+	name="Margaret"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	father=200057
+	trait = education_martial_2
+	trait = rough_terrain_expert
+	trait = strong
+	trait = brave
+	trait = arrogant
+	trait = content
+	trait = gregarious
+	trait = scarred
+	trait = one_legged
+	random_traits = no
+
+
+
+	1148.09.03 = {
+		birth="1148.09.03"
+	}
+
+	1171.8.1={
+          add_matrilineal_spouse=200039
+	}
+	1181.1.1={
+		#effect = {
+		#	remove_title = title_roundtable_member
+		#}
+	}
+
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200011 = {
+	name="Holst"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+	father=200024
+   	diplomacy=6
+   	martial=9
+	stewardship=5
+   	intrigue=5
+	learning=5
+	health = 6
+	trait = strategist
+	trait = strong
+	trait = blademaster_2
+	trait = brave
+	trait = education_martial_prowess_4
+	#trait = experimenter"
+	#trait = bon_leader"
+	random_traits = no
+
+	1150.1.11 = {
+		birth=yes
+	}
+	1155.8.9 = {
+		set_relation_friend = character:100013
+	}
+	1181.1.1={
+		#effect = {
+		#	give_minor_title = title_roundtable_member
+		#	remove_title = job_chancellor
+		#	remove_title = job_marshal
+		#	remove_title = job_treasurer
+		#	remove_title = job_spiritual
+		#}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200012 = {
+	name="Claude"
+	dynasty=100
+	religion="seirosite"
+	culture="leicester"
+	mother=200013
+   	diplomacy=7
+   	martial=6
+	stewardship=3
+   	intrigue=10
+	learning=4
+	health = 6.5
+	#trait = claude"
+	#trait = elusive_shadow"
+	#trait = crest_minor_riegan"
+	trait = just
+	trait = shrewd
+	trait = gregarious
+	trait = ambitious
+	trait = schemer
+	trait = patient
+	#trait = arbitrary"
+	trait = deceitful
+	trait = paranoid
+	#trait = trickster"
+	random_traits = no
+
+	1162.7.24 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_master_tactician
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200013 = {
+	name="Tiana"
+	dynasty=100
+	female=yes
+	religion="seirosite"
+	culture="leicester"
+	father=200000
+
+	trait = education_diplomacy_2
+	trait = just
+	trait = disinherited
+	trait = shrewd
+	trait = chaste
+	trait = patient
+	trait = brave
+	trait = honest
+
+	1140.9.15 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200014 = {
+	name="Godfrey"
+	dynasty=100
+	religion="seirosite"
+	culture="leicester"
+	father=200000
+
+	#trait = underhanded_rogue"
+	#trait = crest_major_riegan"
+
+	1142.7.29 = {
+		birth=yes
+	}
+	1179.1.1={
+		death=yes
+	}
+}
+
+200015 = {
+	name="Lorenz"
+	dynasty=102
+	religion="seirosite"
+	culture="leicester"
+	father=200006
+	mother = 200063
+   	diplomacy=6
+   	martial=8
+	stewardship=6
+   	intrigue=3
+	learning=5
+	health = 6.5
+	#trait = lorenz"
+	trait = education_diplomacy_2
+	#trait = reason_magic_apprentice"
+	#trait = crest_minor_gloucester"
+	trait = improvident
+	trait = ambitious
+	trait = honest
+	trait = just
+	random_traits = no
+
+	1161.6.13 = {
+		birth="1161.6.13"
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_lord_of_roses
+		#effect = {
+		#	add_artifact = relic_thyrsus
+		#	spawn_date = -1.1.1
+		#	set_character_flag = spell_reason_fire
+		#	set_character_flag = spell_reason_sagittae
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200016 = {
+	name="Raphael"
+	religion="seirosite"
+	culture="leicester"
+	dynasty=111
+	father=200017
+	mother=200018
+   	diplomacy=2
+   	martial=9
+	stewardship=2
+   	intrigue=2
+	learning=2
+	health = 6.5
+	#trait = raphael"
+	trait = education_martial_2
+	trait = strong
+	trait = physique_good_2
+	trait = humble
+	trait = gluttonous
+	trait = stubborn
+	trait = trusting
+	#trait = heavy_infantry_leader"
+	random_traits = no
+
+	1162.5.18 = {
+		birth="1162.5.18"
+	}
+	1168.5.9 = {
+		set_relation_friend = character:200020
+	}
+	1181.1.1 = {
+		employer = 200000
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200017 = {
+	name="Micheal" #father raphael
+	religion="seirosite"
+	culture="leicester"
+	dynasty=111
+
+	trait = education_stewardship_2
+
+	1130.4.12 = {
+		birth=yes
+	}
+	1160.1.1={
+		add_spouse = 200018
+	}
+	1177.4.13={
+		death=yes
+	}
+}
+
+200018 = {
+	name="Mary" #mother raphael
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+
+	trait = education_stewardship_2
+
+	1140.6.24 = {
+		birth=yes
+	}
+	1160.1.1={
+		add_spouse = 200017
+	}
+	1177.4.13={
+		death=yes
+	}
+}
+
+200019 = { #sister raphael
+	name="Maya"
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	dynasty=111
+	father=200017
+	mother=200018
+
+	#trait = playful"
+	#trait = affectionate"
+	trait = charming
+
+	1167.9.9 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200020 = {
+	name="Ignatz"
+	religion="seirosite"
+	culture="leicester"
+	father = 200027
+	mother = 200064
+	dynasty=112
+   	diplomacy=6
+   	martial=4
+	stewardship=8
+   	intrigue=4
+	learning=8
+	health = 6.5
+	#trait = ignatz"
+	trait = education_stewardship_3
+	trait = architect
+	trait = temperate
+	trait = honest
+	trait = content
+	random_traits = no
+
+	1163.3.14 = {
+		birth="1163.3.14"
+	}
+	1168.5.9 = {
+		set_relation_friend = character:200016
+	}
+	1181.1.1 = {
+		employer = 200000
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200021 = {
+	name="Lysithea"
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	father=200005
+	mother=200065
+	dynasty=101
+   	diplomacy=5
+   	martial=4
+	stewardship=6
+   	intrigue=4
+	learning=9
+	health = 6.5
+	#trait = lysithea"
+	#trait = midas_touched"
+	#trait = dark_magic_adept"
+	#trait = faith_magic_adept"
+	#trait = crest_major_gloucester"
+	#trait = crest_minor_charon"
+	trait = intellect_good_3
+	trait = physique_bad_3
+	#trait = erudite"
+	trait = ambitious
+	trait = diligent
+	#trait = wroth"
+	#trait = blood_experiments"
+	random_traits = no
+
+	1165.2.28 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#effect = {
+		#	set_character_flag = spell_dark_miasma
+		#	set_character_flag = spell_dark_swarm
+		#	set_character_flag = spell_dark_luna
+		#	set_character_flag = spell_dark_darkspikes
+		#	set_character_flag = spell_faith_heal
+		#	set_character_flag = spell_faith_nosferatu
+		#	set_character_flag = spell_faith_seraphim
+		#	set_character_flag = spell_faith_warp
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200022 = {
+	name="Marianne"
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	father=200007
+	dynasty=103
+   	diplomacy=2
+   	martial=2
+	stewardship=7
+   	intrigue=2
+	learning=9
+	health = 6.5
+	#trait = marianne"
+	#trait = scholarly_theologian"
+	#trait = faith_magic_adept"
+	#trait = reason_magic_apprentice"
+	#trait = crest_minor_maurice"
+	trait = shy
+	trait = depressed_1
+	#trait = kind"
+	#trait = falconer"
+	#trait = cavalry_leader"
+	#trait = adopted"
+	random_traits = no
+
+	1162.11.23 = {
+		birth="1162.11.23"
+	}
+	1181.1.1 = {
+		#effect = {
+		#	set_character_flag = spell_reason_blizzard
+		#	set_character_flag = spell_faith_heal
+		#	set_character_flag = spell_faith_nosferatu
+		#	set_character_flag = spell_faith_physic
+		#	set_character_flag = spell_faith_silence
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200023 = {
+	name="Hilda"
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	father=200024
+	dynasty=105
+   	diplomacy=8
+   	martial=6
+	stewardship=6
+   	intrigue=7
+	learning=4
+	health = 6.5
+	#trait = hilda"
+	trait = education_diplomacy_2
+	#trait = crest_minor_goneril"
+	#trait = groomed"
+	#trait = socializer"
+	#trait = kind"
+	trait = lazy
+	#trait = proud"
+	trait = content
+	trait = gregarious
+	random_traits = no
+
+	1162.2.3 = {
+		birth=yes
+		effect={
+			add_friend=100013
+		}
+	}
+	1181.1.1 = {
+		effect = {
+			add_artifact = relic_freikugel
+			spawn_date = -1.1.1
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200024 = {
+	name="Vincentio" #father hilda
+	religion="seirosite"
+	culture="leicester"
+	dynasty=105
+	father=200060
+
+	trait = education_martial_2
+	trait = scarred
+	trait = one_legged #no one_handed triat
+	trait = strong
+
+	1126.1.24 = {
+		birth=yes
+	}
+
+	1148.1.1 = {
+		add_spouse = 200066
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200025 = {
+	name="Leonie"
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	dynasty=113
+   	diplomacy=5
+   	martial=7
+	stewardship=7
+   	intrigue=4
+	learning=4
+	health = 6.5
+	#trait = leonie"
+	trait = education_martial_3
+	trait = shrewd
+	#trait = sturdy"
+	trait = hunter_2
+	trait = diligent
+	#trait = wroth"
+	trait = brave
+	trait = improvident
+	trait = temperate
+	trait = just
+	random_traits = no
+
+	1160.8.21 = {
+		birth="1160.8.21"
+	}
+	1181.1.1 = {
+		employer = 200000
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200026 = {
+	name="Acheron"
+	dynasty=114
+	religion="seirosite"
+	culture="leicester"
+   	diplomacy=3
+   	martial=3
+	stewardship=3
+   	intrigue=3
+	learning=3
+
+	#trait = acheron"
+	#trait = naive_appeaser"
+	#trait = reason_magic_apprentice"
+	trait = craven
+
+
+	1140.1.11 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_weathervane
+		#set_character_flag = spell_reason_blizzard
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200027 = {
+	name="Caius"
+	religion="seirosite"
+	culture="leicester"
+	dynasty=112
+
+	trait = education_stewardship_3
+	trait = greedy
+	trait = honest
+	#trait = proud"
+
+	1133.9.13 = {
+		birth=yes
+	}
+
+	1153.1.1 = {
+		add_spouse = 200064
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200028 = {
+	name="Elihu"
+	religion="seirosite"
+	culture="leicester"
+	dynasty=112
+	father = 200027
+	mother = 200064
+
+	#trait = midas_touched"
+	trait = honest
+	trait = diligent
+	trait = humble
+
+	1153.3.14 =
+		{
+		birth=yes
+		}
+	1200.1.1={
+		death=yes
+	}
+}
+
+
+200029 = {
+	name="Grandfather Gloucester"
+	dynasty=102
+	religion="seirosite"
+	culture="leicester"
+	father = 200030
+
+	1109.1.11= {
+		birth=yes
+	}
+	1168.1.1={
+		death=yes
+	}
+}
+
+200030 = {
+	name="Great Grandfather Gloucester"
+	dynasty=102
+	religion="seirosite"
+	culture="leicester"
+
+	1079.1.11 = {
+		birth=yes
+	}
+	1138.1.1={
+		death=yes
+	}
+}
+
+200031 = {
+	name="Grunhilda"
+	dynasty=102
+	religion="seirosite"
+	culture="leicester"
+	female=yes
+	father = 200030
+	trait = education_martial_2
+	trait = depressed_1
+	#trait = kind"
+	trait = patient
+	trait = shy
+	random_traits = no
+
+
+
+	1113.5.27= {
+		birth="1113.5.27"
+	}
+	1129.3.12={
+    	add_spouse=200001
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+
+200032 = {
+	name="Robert"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	trait = education_martial_2
+	trait = ambitious
+	#trait = wroth"
+	trait = honest
+	trait = brave
+	random_traits = no
+
+	1130.11.24= {
+		birth="1130.11.24"
+		}
+	1152.4.14={
+		#death={
+		#	death_reason=death_execution
+		#	killer=200001
+		#}
+
+	}
+}
+
+200033 = {
+	name="Amelia"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	female=yes
+	trait = education_stewardship_3
+	trait = drunkard
+	trait = intellect_good_1
+	trait = honest
+	trait = greedy
+	#add_claim=d_clarence
+	random_traits = no
+
+	1133.8.19= {
+		birth="1133.8.19"
+	}
+	1152.4.14 = {
+        	#effect={
+			#add_rival = 200001
+        	#}
+	}
+
+	1175.4.11={
+		add_spouse=200044
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200034 = {
+	name="Rudolph"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	#trait = amateurish_plotter"
+	#trait = is_fat"
+	trait = dull
+	trait = deceitful
+	trait = paranoid
+	random_traits = no
+
+	1135.4.11= {
+		birth="1135.4.11"
+		#effect = {
+		#	add_weak_claim = d_clarence
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200035 = {
+	name="Maria"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	female=yes
+	trait = theologian
+	trait = zealous
+	trait = shy
+	#trait = cruel"
+	#trait = faith_magic_apprentice"
+	random_traits = no
+
+	1138.1.12= {
+		birth="1138.1.12"
+		effect = {
+			add_weak_claim = d_clarence
+		}
+	}
+
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_nosferatu
+		}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200036 = {
+	name="Ludolphina"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	female=yes
+	#trait = charismatic_negotiator"
+	trait = just
+	#trait = kind"
+	trait = improvident
+	random_traits = no
+
+	1139.12.24= {
+		birth="1139.12.24"
+		#effect = {
+		#	add_weak_claim = d_clarence
+		#}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200037 = {
+	name="Lorenz"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	trait = education_stewardship_2
+	trait = just
+	trait = weak
+	trait = humble
+	trait = stubborn
+	trait = trusting
+	random_traits = no
+
+	1141.02.8= {
+		birth="1141.02.8"
+		effect = {
+			add_weak_claim = d_clarence
+		}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200038 = {
+	name="Gustave"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	#trait = misguided_warrior"
+	trait = lazy
+	random_traits = no
+
+	1142.05.14= {
+		birth="1142.05.14"
+		#effect = {
+		#	add_weak_claim = d_clarence
+		#}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200039 = {
+	name="Linhardt"
+	dynasty=107
+	religion="seirosite"
+	culture="leicester"
+	father = 200001
+	mother = 200031
+	trait = education_intrigue_1
+	trait = lustful #Really?
+	#trait = envious"
+	#trait = proud"
+	random_traits = no
+
+
+
+	1145.03.12= {
+		birth="1145.03.12"
+		}
+
+	1171.8.1={
+		add_matrilineal_spouse=200010
+		#effect = {
+		#	add_weak_claim = d_clarence
+		#}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200040 = {
+	name="Stephan"
+	dynasty=110
+	religion="seirosite"
+	culture="leicester"
+	#trait = grey_eminence"
+	trait = just
+	trait = weak
+	#trait = groomed"
+	trait = shy
+	#trait = kind"
+	random_traits = no
+
+
+	1132.07.18= {
+		birth="1132.07.18"
+		}
+
+	1179.12.13={
+		#death={
+		#	death_reason=death_accident
+		#}
+	}
+}
+
+200041 = {
+	name="Lucian"
+	dynasty=110
+	father=200040
+	religion="seirosite"
+	culture="leicester"
+	#trait = affectionate"
+	#trait = playful"
+	random_traits = no
+
+
+	1169.03.25= {
+		birth="1169.03.25"
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200042 = {
+	name="Karsten"
+	dynasty=105
+	father=200039
+	mother=200010
+	religion="seirosite"
+	culture="leicester"
+	trait = rowdy
+	#trait = willful"
+	random_traits = no
+
+
+	1174.03.25= {
+		birth="1174.03.25"
+		}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200043 = {
+	name="Wolf"
+	dynasty=105
+	father=200039
+	mother=200010
+	religion="seirosite"
+	culture="leicester"
+	trait = curious
+	random_traits = no
+
+
+	1177.08.14= {
+		birth="1177.08.14"
+		}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200044 = {
+	name="Henry"
+	dynasty=115
+	religion="seirosite"
+	culture="leicester"
+	trait = education_stewardship_2
+	trait = content
+	trait = trusting
+	#trait = kind
+
+
+	random_traits = no
+
+	1158.08.12= {
+		birth="1158.08.12"
+		}
+
+	1175.4.11={
+		add_spouse=200033
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200045 = {
+	name="William"
+	dynasty=115
+	religion="seirosite"
+	culture="leicester"
+	father=200044
+	mother=200033
+	trait = weak
+	#trait = timid"
+	#trait = conscientious"
+
+
+	random_traits = no
+
+	1177.04.13= {
+		birth="1177.04.13"
+		}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200046 = {
+	name="Melinda"
+	dynasty=116
+	female=yes
+	religion="seirosite"
+	culture="leicester"
+	trait = schemer
+	trait = beauty_bad_2
+	#trait = proud"
+	trait = temperate
+	trait = stubborn
+	trait = gregarious
+
+
+	random_traits = no
+
+	1161.6.13= {
+		birth="1161.6.13"
+		}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200047 = {
+	name="Robert"
+	dynasty=117
+	religion="seirosite"
+	culture="leicester"
+
+
+	1143.6.13= {
+		birth="1143.6.13"
+		}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200048 = {
+	name="William"
+	dynasty=118
+	religion="seirosite"
+	culture="leicester"
+
+
+	1127.9.29= {
+		birth="1127.9.29"
+		}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200049 = {
+	name="Jonathan"
+	dynasty=119
+	religion="seirosite"
+	culture="leicester"
+
+
+	1144.2.26= {
+		birth="1144.2.26"
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200050 = {
+	name="James"
+	dynasty=120
+	religion="seirosite"
+	culture="leicester"
+
+
+	1149.4.21= {
+		birth=yes
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200051 = {
+	name="Charles"
+	dynasty=121
+	religion="seirosite"
+	culture="leicester"
+
+
+	1134.11.21= {
+		birth="1134.11.21"
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200052 = {
+	name="Steven"
+	dynasty=122
+	religion="seirosite"
+	culture="leicester"
+
+
+	1148.09.5= {
+		birth="1148.09.5"
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+200053 = {
+	name="Theodor" #balthus father
+	dynasty=123
+	religion="seirosite"
+	culture="leicester"
+
+	trait = education_martial_3
+	trait = brave
+	trait = strong
+	trait = hunter_2
+	trait = humble
+
+	1130.09.5= {
+		birth=yes
+	}
+
+	1152.09.5= {
+		add_spouse = 200054
+	}
+
+	1164.09.5= {
+		remove_spouse = 200054
+	}
+
+	1165.09.5= {
+		add_spouse = 200055
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200054 = {
+	name="Illiyeen" #balthus mother
+	religion="seirosite"
+	culture="kupalan"
+	female = yes
+
+	trait = education_diplomacy_2
+	trait = shy
+	#trait = kind"
+	trait = just
+
+
+	1135.09.5= {
+		birth=yes
+	}
+
+	1152.09.5= {
+		add_spouse = 200053
+	}
+
+	1164.09.5= {
+		remove_spouse = 200053
+		employer = 200008
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200055 = {
+	name="Franziska" #balthus step-mother
+	religion="seirosite"
+	culture="leicester"
+	female = yes
+
+	trait = schemer
+	#trait = envious"
+	trait = ambitious
+	#trait = cruel"
+
+	1143.09.5= {
+		birth=yes
+	}
+
+	1165.09.5= {
+		add_spouse = 200053
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200056 = {
+	name="Brandon" #balthus brothers
+	dynasty=123
+	religion="seirosite"
+	culture="leicester"
+	father = 200053
+	mother = 200055
+
+	trait = education_martial_3
+	trait = quick
+	trait = humble
+	trait = brave
+	trait = patient
+	trait = content
+
+
+	1166.09.5= {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200057 = {
+	name="Gerald"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+	father = 200058
+	1119.02.12 = {
+		birth=yes
+	}
+
+	1178.2.12={
+		death=yes
+	}
+}
+
+200058 = {
+	name="Oswald"
+	dynasty=105
+	father = 200059
+	religion="seirosite"
+	culture="leicester"
+
+	1086.9.21 = {
+		birth=yes
+	}
+
+	1164.9.21={
+		death=yes
+	}
+}
+
+200059 = {
+	name="Soren"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+	father = 200062
+
+	1068.2.1 = {
+		birth=yes
+	}
+
+	1159.3.25={
+		death=yes
+	}
+}
+
+200060 = {
+	name="Walter"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+	father = 200061
+	1100.9.18 = {
+		birth=yes
+	}
+
+	1167.2.28={
+		death=yes
+	}
+}
+
+
+200061 = {
+	name="Simon"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+	father = 200062
+	1065.2.19 = {
+		birth=yes
+	}
+
+	1138.12.14={
+		death=yes
+	}
+}
+
+200062 = {
+	name="Diomedes"
+	dynasty=105
+	religion="seirosite"
+	culture="leicester"
+
+	1044.7.4 = {
+		birth=yes
+	}
+
+	1070.4.12={
+		death=yes
+	}
+}
+
+200063 = { #mother lorenz
+	name="Eleanor"
+	dynasty=124
+	religion="seirosite"
+	culture="leicester"
+	female = yes
+
+	trait = education_stewardship_3
+	trait = just
+	trait = improvident
+	#trait = proud"
+	#trait = groomed"
+
+	1145.1.12 = {
+		birth=yes
+	}
+
+	1161.1.1 = {
+		add_spouse = 200006
+	}
+
+	1200.4.12={
+		death=yes
+	}
+}
+
+200064 = { #mother ignatz
+	name="Cordelia"
+	religion="seirosite"
+	culture="leicester"
+	female = yes
+
+	#trait = naive_appeaser"
+	trait = paranoid
+	trait = diligent
+	trait = trusting
+
+	1135.7.4 = {
+		birth=yes
+	}
+
+	1153.1.1 = {
+		add_spouse = 200027
+	}
+
+	1200.4.12={
+		death=yes
+	}
+}
+200065 = { #mother lysithea
+	name="Lillian"
+	religion="seirosite"
+	culture="leicester"
+	dynasty = 125
+	female = yes
+
+	#trait = naive_appeaser"
+	trait = paranoid
+	trait = diligent
+	trait = trusting
+	#trait = reason_magic_initiate"
+
+	1147.11.30 = {
+		birth=yes
+	}
+
+	1165.1.1 = {
+		add_spouse = 200005
+	}
+
+	1181.1.1 = {
+		#effect = {
+		#	set_character_flag = spell_reason_fire
+		#	set_character_flag = spell_reason_sagittae
+		#}
+	}
+
+	1200.4.12={
+		death=yes
+	}
+}
+
+200066 = {
+	name="Rose" #Mother hilda
+	religion="seirosite"
+	culture="leicester"
+	dynasty=126
+	female = yes
+
+	trait = theologian
+	trait = just
+	#trait = groomed"
+	1130.5.10 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}

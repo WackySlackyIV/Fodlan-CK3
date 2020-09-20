@@ -188,7 +188,7 @@
 	faiths = {
 		seirosite = {
 			color = { 240 240 240 }
-			icon = germanic
+			icon = seirosite
 
 			holy_site = garreg_mach
 			holy_site = derdriu
@@ -206,14 +206,14 @@
 
 		macuilite = {
 			color = { 158 128 113 }
-			icon = germanic
+			icon = macuilite
 
 			holy_site = garreg_mach
 			holy_site = derdriu
 			holy_site = sagido
 			holy_site = butado
 			holy_site = ryudo
-			
+
 			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_esotericism
@@ -227,7 +227,7 @@
 		}
 		indechite = {
 			color = { 173 173 202 }
-			icon = germanic
+			icon = indechite
 
 			holy_site = garreg_mach
 			holy_site = derdriu
@@ -246,7 +246,7 @@
 		}
 		cicholite = {
 			color = { 138 169 138 }
-			icon = germanic
+			icon = cicholite
 
 			holy_site = garreg_mach
 			holy_site = derdriu
@@ -266,7 +266,7 @@
 		}
 		cethleannite = {
 			color = { 46 172 59 }
-			icon = germanic
+			icon = cethleannite
 
 			holy_site = garreg_mach
 			holy_site = derdriu
@@ -299,7 +299,7 @@
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_warmonger
 
-			doctrine = tenet_ablehnistic_teachings
+			doctrine = tenet_ablehnistic_ways
 			
 		}
 		iarthairic = {
@@ -318,7 +318,7 @@
 		}
 		high_sothic = {
 			color = { 151 80 162 }
-			icon = germanic
+			icon = high_sothic
 
 			holy_site = garreg_mach
 			holy_site = derdriu
