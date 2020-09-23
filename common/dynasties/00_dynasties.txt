@@ -1,1 +1,831 @@
-﻿
+###CHURCH###
+
+1=
+{
+	name="Nabatea"
+	culture="fodlan"
+}
+
+2=
+{
+	name="Eisner"
+	culture="fodlan"
+}
+
+3=
+{
+	name="Dahlman"
+	culture="fodlan"
+}
+
+4=
+{
+	name="Rhodos"
+	culture="fodlan"
+}
+
+5=
+{
+	name="Suiryu"
+	culture="fodlan"
+}
+
+6=
+{
+	name="Furya"
+	culture="fodlan"
+}
+
+###Leicester###
+100=
+{
+	name="Riegan"
+	culture="leicester"
+}
+
+101=
+{
+	name="Ordelia"
+	culture="leicester"
+}
+
+102=
+{
+	name="Gloucester"
+	culture="leicester"
+}
+
+103=
+{
+	name="Edmund"
+	culture="leicester"
+}
+
+104=
+{
+	name="Daphnel"
+	culture="leicester"
+}
+
+105=
+{
+	name="Goneril"
+	culture="leicester"
+}
+
+106=
+{
+	name="Atholl"
+	culture="leicester"
+}
+
+107=
+{
+	name="Clarence"
+	culture="leicester"
+}
+
+108=
+{
+	name="Myrddin"
+	culture="leicester"
+}
+
+109=
+{
+	name="Kupala"
+	culture="leicester"
+}
+
+110=
+{
+	name="Aillel"
+	culture="leicester"
+}
+
+111=
+{
+	name="Kirsten"
+	culture="leicester"
+}
+
+112=
+{
+	name="Victor"
+	culture="leicester"
+}
+
+113=
+{
+	name="Pinelli"
+	culture="leicester"
+}
+
+114=
+{
+	name="West"
+	culture="leicester"
+}
+
+115=
+{
+	name="Dormer"
+	culture="leicester"
+}
+
+
+116=
+{
+	name="Russell"
+	culture="leicester"
+}
+
+117=
+{
+	name="Crowder"
+	culture="leicester"
+}
+
+118=
+{
+	name="Wharton"
+	culture="leicester"
+}
+
+119=
+{
+	name="Howard"
+	culture="leicester"
+}
+
+
+120=
+{
+	name="Coventry"
+	culture="leicester"
+}
+
+121=
+{
+	name="Chester"
+	culture="leicester"
+}
+
+122=
+{
+	name="Glamborough"
+	culture="leicester"
+}
+
+123=
+{
+	name="Albrecht"
+	culture="leicester"
+}
+
+124= 
+{
+	name="Cobham"
+	culture = "leicester"
+}
+
+125=
+{
+	name="Kent"
+	culture = "leicester"
+}
+
+126=
+{
+	name="Bell"
+	culture = "leicester"
+}
+
+
+###Faerghus###
+200=
+{
+	name="Blaiddyd"
+	culture="faerghus"
+}
+
+201=
+{
+	name="Galatea"
+	culture="faerghus"
+}
+
+202=
+{
+	name="Charon"
+	culture="faerghus"
+}
+
+203=
+{
+	name="Conand"
+	culture="faerghus"
+}
+
+204=
+{
+	name="Fraldarius"
+	culture="faerghus"
+}
+
+205=
+{
+	name="Gautier"
+	culture="faerghus"
+}
+
+206= #Duscur
+{
+	name="Molinaro"
+	culture="faerghus"
+}
+
+207=
+{
+	name="Langres"
+	culture="faerghus"
+}
+
+208=
+{
+	name="Magdred"
+	culture="faerghus"
+}
+
+209=
+{
+	name="Lalonde"
+	culture="faerghus"
+}
+
+210=
+{
+	name="Roland"
+	culture="faerghus"
+}
+
+211=
+{
+	name="Gaspard"
+	culture="faerghus"
+}
+
+212=
+{
+	name="Rowe"
+	culture="faerghus"
+}
+
+213=
+{
+	name="Gideon"
+	culture="faerghus"
+}
+
+214=
+{
+	name="Mateus"
+	culture="faerghus"
+}
+
+215=
+{
+	name="Genevieve"
+	culture="faerghus"
+}
+
+216=
+{
+	name="Kleiman"
+	culture="faerghus"
+}
+
+217=
+{
+	name="Brume"
+	culture="faerghus"
+}
+
+218=
+{
+	name="Lucain"
+	culture="faerghus"
+}
+
+219=
+{
+	name="Zacharie"
+	culture="faerghus"
+}
+
+220=
+{
+	name="Victoire"
+	culture="faerghus"
+}
+
+221=
+{
+	name="Dominic"
+	culture="faerghus"
+}
+
+222=
+{
+	name="Nemee"
+	culture="faerghus"
+}
+
+223=
+{
+	name="Arnim"
+	culture="faerghus"
+}
+
+224=
+{
+	name="Rangeld"
+	culture="faerghus"
+}
+
+225=
+{
+	name="Denége"
+	culture="faerghus"
+}
+
+226=
+{
+	name="Forbin"
+	culture="faerghus"
+}
+
+
+227=
+{
+	name="Castellane"
+	culture="faerghus"
+}
+
+228=
+{
+	name="Harcourt"
+	culture="faerghus"
+}
+
+229=
+{
+	name="Dammartin"
+	culture="faerghus"
+}
+
+230=
+{
+	name="Burakh"
+	culture="faerghus"
+}
+
+231=
+{
+	name="Olsen"
+	culture="faerghus"
+}
+
+232=
+{
+	name="Henriksen"
+	culture="faerghus"
+}
+
+233=
+{
+	name="Monfort"
+	culture="faerghus"
+}
+
+234=
+{
+	name="Vichy"
+	culture="faerghus"
+}
+
+235=
+{
+	name="Estrid"
+	culture = "faerghus"
+}
+
+236=
+{
+	name="Aarbog"
+	culture="faerghus"
+}
+
+237 = 
+{
+	name="Rosen"
+	culture = "faerghus"
+}
+
+238=
+{
+	name="Munthe"
+	culture = "faerghus"
+}
+
+239=
+{
+	name="Bretteville"
+	culture = "faerghus"
+}
+
+240 = 
+{
+	name = "Wedel"
+	culture = "faerghus"
+}
+
+241 = 
+{
+	name = "Ronde"
+	culture = "faerghus"
+}
+
+###Adrestia###
+
+300=
+{
+	name="Hresvelg"
+	culture="adrestian"
+}
+
+301=
+{
+	name="Martritz"
+	culture="adrestian"
+}
+
+302=
+{
+	name="Casagranda"
+	culture="adrestian"
+}
+
+303=
+{
+	name="Essar"
+	culture="adrestian"
+}
+
+304=
+{
+	name="Hrym"
+	culture="adrestian"
+}
+
+305=
+{
+	name="Niendorf"
+	culture="adrestian"
+}
+
+306=
+{
+	name="Airmid"
+	culture="adrestian"
+}
+
+307=
+{
+	name="Bergliez"
+	culture="adrestian"
+}
+
+308=
+{
+	name="Rugen"
+	culture="adrestian"
+}
+
+309=
+{
+	name="Aegir"
+	culture="adrestian"
+}
+
+310=
+{
+	name="Varley"
+	culture="adrestian"
+}
+
+311=
+{
+	name="Stieglitz"
+	culture="adrestian"
+}
+
+312=
+{
+	name="Gerth"
+	culture="adrestian"
+}
+
+313=
+{
+	name="Rysalka"
+	culture="adrestian"
+}
+
+314=
+{
+	name="Boramas"
+	culture="adrestian"
+}
+
+315=
+{
+	name="Morgaine"
+	culture="adrestian"
+}
+
+316=
+{
+	name="Engel"
+	culture="adrestian"
+}
+
+317=
+{
+	name="Hevring"
+	culture="adrestian"
+}
+
+318=
+{
+	name="Arnault"
+	culture="adrestian"
+}
+
+319=
+{
+	name="Arundel"
+	culture="adrestian"
+}
+
+320=
+{
+	name="Ruhm"
+	culture="adrestian"
+}
+
+321=
+{
+	name="Vestra"
+	culture="adrestian"
+}
+
+322=
+{
+	name="Bartels"
+	culture="adrestian"
+}
+
+323=
+{
+	name="Olrun"
+	culture="adrestian"
+}
+
+324=
+{
+	name="Reiss"
+	culture="adrestian"
+}
+
+325=
+{
+	name="Ochs"
+	culture="adrestian"
+}
+
+326=
+{
+	name="Nuvelle"
+	culture="adrestian"
+}
+
+327=
+{
+	name="Skade"
+	culture="adrestian"
+}
+
+328=
+{
+	name="Brionac"
+	culture="adrestian"
+}
+
+329=
+{
+	name="Sleipner"
+	culture="adrestian"
+}
+
+330=
+{
+	name="Schwan"
+	culture="adrestian"
+}
+
+331=
+{
+	name="Huldra"
+	culture="adrestian"
+}
+
+332=
+{
+	name="Oghma"
+	culture="adrestian"
+}
+
+333=
+{
+	name="Kniphausen"
+	culture="adrestian"
+}
+
+334=
+{
+	name="Kleist"
+	culture="adrestian"
+}
+
+335=
+{
+	name="Roenn"
+	culture="adrestian"
+}
+
+336=
+{
+	name="Saburov"
+	culture="adrestian"
+}
+
+337=
+{
+	name="Claudius"
+	culture="adrestian"
+}
+
+338=
+{
+	name="Lopez"
+	culture="adrestian"
+}
+
+339=
+{
+	name="Gomez"
+	culture="adrestian"
+}
+
+340=
+{
+	name="Castello"
+	culture="adrestian"
+}
+
+341=
+{
+	name="Gossler"
+	culture="adrestian"
+}
+
+342=
+{
+	name="Stolberg"
+	culture="adrestian"
+}
+
+343=
+{
+	name="Humboldt"
+	culture="adrestian"
+}
+
+344=
+{
+	name="Saintois"
+	culture="faerghus"
+}
+
+345=
+{
+	name="Altmann"
+	culture="adrestian"
+}
+
+346=
+{
+	name="Hartmann"
+	culture="adrestian"
+}
+
+347=
+{
+	name="Eticho"
+	culture="adrestian"
+}
+
+348=
+{
+	name="Vance"
+	culture="leicester"
+}
+
+349=
+{
+	name="Salzach"
+	culture="adrestian"
+}
+
+350=
+{
+	name="Zieger"
+	culture="adrestian"
+}
+
+351=
+{
+	name="Schweetz"
+	culture="adrestian"
+}
+
+352=
+{
+	name="Hertzheim"
+	culture="adrestian"
+}
+
+353=
+{
+	name="Visler"
+	culture = "adrestian"
+}
+
+354=
+{
+	name="Octavia"
+	culture = "adrestian"
+}
+
+355=
+{
+	name="Ortenburg"
+	culture="adrestian"
+}
+
+356=
+{
+	name="Halder"
+	culture = adrestian
+}
+
+357=
+{
+	name="Freising"
+	culture=adrestian
+}
+
+358=
+{
+	name="Reich"
+	culture="adrestian"
+}
+
+359=
+{
+	name="Huginn"
+	culture="adrestian"
+}
+
+360=
+{
+	name="Jormund"
+	culture="adrestian"
+}
+
+361=
+{
+	name="Schlecht"
+	culture="adrestian"
+}

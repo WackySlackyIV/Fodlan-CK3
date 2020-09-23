@@ -176,6 +176,7 @@
 
 100004 = {
 	name="Alois"
+	dna = dna_alois
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=224
@@ -431,6 +432,7 @@
 
 100011 = {
 	name="Catherine"
+	dna = dna_catherine
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=202
