@@ -208,7 +208,7 @@
 			color = { 158 128 113 }
 			icon = macuilite
 
-			holy_site = garreg_mach
+			holy_site = macuil
 			holy_site = derdriu
 			holy_site = sagido
 			holy_site = butado
@@ -229,7 +229,7 @@
 			color = { 173 173 202 }
 			icon = indechite
 
-			holy_site = garreg_mach
+			holy_site = indech
 			holy_site = derdriu
 			holy_site = sagido
 			holy_site = butado
@@ -248,7 +248,7 @@
 			color = { 138 169 138 }
 			icon = cicholite
 
-			holy_site = garreg_mach
+			holy_site = cichol
 			holy_site = derdriu
 			holy_site = sagido
 			holy_site = butado
@@ -268,7 +268,7 @@
 			color = { 46 172 59 }
 			icon = cethleannite
 
-			holy_site = garreg_mach
+			holy_site = cethleann
 			holy_site = derdriu
 			holy_site = sagido
 			holy_site = butado

@@ -2,9 +2,50 @@
 	county = c_garreg_mach
 	
 	character_modifier = {
-		monthly_piety_gain_mult = 0.2
+		name = holy_site_garreg_mach_effect_name
+		learning = 1
 	}
 	flag = jerusalem_conversion_bonus # +20% County Conversion
+}
+
+macuil = {
+	county = c_macuil
+	character_modifier = {
+		name = holy_site_macuil_effect_name
+		martial = 1
+	}
+}
+
+indech = {
+	county = c_indech
+	character_modifier = {
+		name = holy_site_indech_effect_name
+		stewardship = 1
+	}
+}
+
+cichol = {
+	county = c_cichol
+	character_modifier = {
+		name = holy_site_cichol_effect_name
+		intrigue = 1
+	}
+}
+
+cethleann = {
+	county = c_cethleann
+	character_modifier = {
+		name = holy_site_cethleann_effect_name
+		diplomacy = 1
+	}
+}
+
+ordelia = {
+	county = c_ordelia
+	character_modifier = {
+		name = holy_site_ordelia_effect_name
+		intrigue = 1
+	}
 }
 
 butado = {

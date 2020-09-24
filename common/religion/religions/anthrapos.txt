@@ -181,11 +181,7 @@
 			color = { 65 22 71 }
             icon = baltic
             
-			holy_site = pokaini
-			holy_site = torun
-			holy_site = hiiumaa
-			holy_site = braslau
-			holy_site = rugen
+			holy_site = ordelia
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
@@ -196,11 +192,7 @@
 			color = { 172 23 23 }
             icon = baltic
             
-			holy_site = pokaini
-			holy_site = torun
-			holy_site = hiiumaa
-			holy_site = braslau
-			holy_site = rugen
+			holy_site = ordelia
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_warmonger
