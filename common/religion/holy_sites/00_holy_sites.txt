@@ -124,19 +124,38 @@ thapso = {
 	}
 }	
 
+ardara = {
+	county = c_ardara
+
+	character_modifier = {
+		name = holy_site_ardara_effect_name
+		stewardship = 1
+	}
+}
+
+hobart = {
+	county = c_hobart
+
+	character_modifier = {
+		name = holy_site_hobart_effect_name
+		stewardship = 1
+	}
+}
+
 eularia = {
 	county = c_eularia
 
 	character_modifier = {
 		name = holy_site_eularia_effect_name
 		stewardship = 1
+	}
 }
 
-ardara = {
-	county = c_ardara
+gliomach = {
+	county = c_gliomach
 
 	character_modifier = {
-		name = holy_site_ardara_effect_name
+		name = holy_site_gliomach_effect_name
 		stewardship = 1
 	}
 }
@@ -147,4 +166,14 @@ hevring = {
 	character_modifier = {
 		name = holy_site_hevring_effect_name
 		stewardship = 1
+	}
+}
+
+brionac = {
+	county = c_brionac
+
+	character_modifier = {
+		name = holy_site_brionac_effect_name
+		stewardship = 1
+	}
 }

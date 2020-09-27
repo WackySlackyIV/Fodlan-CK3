@@ -10,9 +10,9 @@ special_tolerance = {
 			hostility_override_special_doctrine_ecumenical_zanadic = 1
 		}
 	}
-	special_doctrine_ecumenical_ólgail = {
+	special_doctrine_ecumenical_bilog = {
 		parameters = {
-			hostility_override_special_doctrine_ecumenical_ólgail = 1
+			hostility_override_special_doctrine_ecumenical_bilog = 1
 		}
 	}
 }

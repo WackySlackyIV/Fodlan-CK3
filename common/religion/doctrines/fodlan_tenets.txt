@@ -147,7 +147,7 @@ doctrine_fodlan_tenets = {
 	##### BRIGID #######
 	####################
 
-	tenet_lámhach_teachings = {
+	tenet_lamhach_teachings = {
 		is_shown = {
 			always = no
 		}
@@ -213,7 +213,7 @@ doctrine_fodlan_tenets = {
 		}
 	}
 
-	tenet_gaóthe_teachings = {
+	tenet_gaothe_teachings = {
 		is_shown = {
 			always = no
 		}
@@ -234,10 +234,4 @@ doctrine_fodlan_tenets = {
 			sins = { impatient lazy ambitious}
 		}
 	}
-
-
-
-
-
-
 }

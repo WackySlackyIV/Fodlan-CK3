@@ -1,5 +1,5 @@
-ólgail_bilóg_religion = {
-	family = rf_bilòg
+olgail_bilog_religion = {
+	family = rf_bilog
 	graphical_faith = pagan_gfx
 
 	pagan_roots = yes
@@ -178,54 +178,66 @@
 	}
 
 	faiths = {
-		lámhach  = { #fire
+		lamhach  = { #fire
 			color = { 246 160 11 }
             icon = tengri
             
-			holy_site = skyrne
-			
+			holy_site = cuilin
+			holy_site = hobart
+			holy_site = thapso
+			holy_site = brionac		
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_lies
+			doctrine = tenet_lamhach_teachings
 
-			doctrine = special_doctrine_ecumenical_ólgail
+			doctrine = special_doctrine_ecumenical_bilog
 		}
 		fuale = { #water
 			color = { 11 176 246 }
             icon = tengri
             
-			holy_site = ordelia
+			holy_site = skyrne
+			holy_site = ardara
+			holy_site = hobart
+			holy_site = hevring
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_lies
+			doctrine = tenet_fuale_teachings
 
-			doctrine = special_doctrine_ecumenical_ólgail
+			doctrine = special_doctrine_ecumenical_bilog
 		}
 		talahm_ithir = { #earth
 			color = { 229 229 22 }
             icon = tengri
             
-			holy_site = ordelia
+			holy_site = thapso
+			holy_site = cuilin
+			holy_site = gliomach
+			holy_site = brionac
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_lies
+			doctrine = 	tenet_talahm_ithir_teachings
 
-			doctrine = special_doctrine_ecumenical_ólgail
+			doctrine = special_doctrine_ecumenical_bilog
 		}
-		gaóthe = { #wind
+		gaothe = { #wind
 			color = { 54 210 30 }
             icon = tengri
             
-			holy_site = ordelia
+			holy_site = eularia
+			holy_site = gliomach
+			holy_site = skyrne
+			holy_site = hevring
+
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_lies
+			doctrine = 	tenet_gaothe_teachings
 
-			doctrine = special_doctrine_ecumenical_ólgail
+			doctrine = special_doctrine_ecumenical_bilog
 		}
 
 	}	
