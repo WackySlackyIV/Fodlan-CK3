@@ -1,33 +1,33 @@
-﻿anthrapos_religion = {
-	family = rf_anthrapos
+ólgail_bilóg_religion = {
+	family = rf_bilòg
 	graphical_faith = pagan_gfx
 
-	pagan_roots = no
+	pagan_roots = yes
 
 	doctrine = abrahamic_hostility_doctrine
 
 	#Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_equal
-	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
-	doctrine = doctrine_monogamy
-	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_approval
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_cousins
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 
 	#Crimes
 	doctrine = doctrine_homosexuality_accepted
 	doctrine = doctrine_adultery_men_accepted
 	doctrine = doctrine_adultery_women_accepted
 	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_accepted
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_function_alms_and_pacification
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
@@ -35,6 +35,7 @@
 	custom_faith_icons = {
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
+
 
 	localization = {
 		HighGodName = baltic_high_god_name
@@ -177,26 +178,55 @@
 	}
 
 	faiths = {
-		agarthan = {
-			color = { 65 22 71 }
-            icon = baltic
+		lámhach  = { #fire
+			color = { 246 160 11 }
+            icon = tengri
             
-			holy_site = shambala
+			holy_site = skyrne
+			
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_shadows
-        }
-        
-        liberationist = {
-			color = { 172 23 23 }
-            icon = baltic
-            
-			holy_site = shambala
+			doctrine = tenet_sacred_lies
 
-			doctrine = tenet_ancestor_worship
+			doctrine = special_doctrine_ecumenical_ólgail
+		}
+		fuale = { #water
+			color = { 11 176 246 }
+            icon = tengri
+            
+			holy_site = ordelia
+
 			doctrine = tenet_warmonger
-			doctrine = tenet_aniconism
-        }
-	}
+			doctrine = tenet_esotericism
+			doctrine = tenet_sacred_lies
+
+			doctrine = special_doctrine_ecumenical_ólgail
+		}
+		talahm_ithir = { #earth
+			color = { 229 229 22 }
+            icon = tengri
+            
+			holy_site = ordelia
+
+			doctrine = tenet_warmonger
+			doctrine = tenet_esotericism
+			doctrine = tenet_sacred_lies
+
+			doctrine = special_doctrine_ecumenical_ólgail
+		}
+		gaóthe = { #wind
+			color = { 54 210 30 }
+            icon = tengri
+            
+			holy_site = ordelia
+
+			doctrine = tenet_warmonger
+			doctrine = tenet_esotericism
+			doctrine = tenet_sacred_lies
+
+			doctrine = special_doctrine_ecumenical_ólgail
+		}
+
+	}	
 }
