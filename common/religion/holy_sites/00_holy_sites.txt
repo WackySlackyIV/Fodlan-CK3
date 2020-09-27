@@ -40,13 +40,7 @@ cethleann = {
 	}
 }
 
-ordelia = {
-	county = c_ordelia
-	character_modifier = {
-		name = holy_site_ordelia_effect_name
-		intrigue = 1
-	}
-}
+
 
 butado = {
 	county = c_butado
@@ -87,4 +81,70 @@ ryudo = {
 		sway_scheme_power_mult = 0.1
 	}
 }
+#################
+### Anthrapos ###
+#################
 
+shambala = {
+	county = c_durhaus
+	character_modifier = {
+		name = holy_site_shambala_effect_name
+		intrigue = 1
+	}
+}
+
+##############
+### BRIGID ###
+##############
+
+skyrne = {
+	county = c_skyrne
+	
+	character_modifier = {
+		name = holy_site_skyrne_effect_name
+		stewardship = 1
+	}
+}
+
+cuilin = {
+	county = c_cuilin
+	
+	character_modifier = {
+		name = holy_site_cuilin_effect_name
+		stewardship = 1
+	}
+}
+
+thapso = {
+	county = c_thapso
+
+	character_modifier = {
+		name = holy_site_thapso_effect_name
+		stewardship = 1
+	}
+}	
+
+eularia = {
+	county = c_eularia
+
+	character_modifier = {
+		name = holy_site_eularia_effect_name
+		stewardship = 1
+}
+
+ardara = {
+	county = c_ardara
+
+	character_modifier = {
+		name = holy_site_ardara_effect_name
+		stewardship = 1
+	}
+}
+
+hevring = {
+	county = c_hevring
+
+	character_modifier = {
+		name = holy_site_hevring_effect_name
+		stewardship = 1
+}

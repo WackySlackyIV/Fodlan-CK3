@@ -1,6 +1,12 @@
+
+
 doctrine_fodlan_tenets = {
 	group = "core_tenets"
 	number_of_picks = 4
+
+	########################
+	####### Zanadic ########
+	########################
 
 	tenet_school_of_seiros = {
 		is_shown = {
@@ -132,4 +138,106 @@ doctrine_fodlan_tenets = {
 			sins = { content craven lazy }
 		}
 	}
+
+
+
+
+
+	####################
+	##### BRIGID #######
+	####################
+
+	tenet_lámhach_teachings = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
+
+	tenet_fuale_teachings = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
+
+	tenet_talahm_ithir_teachings = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
+
+	tenet_gaóthe_teachings = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
+
+
+
+
+
+
 }
