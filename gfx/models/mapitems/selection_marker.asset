@@ -1,0 +1,27 @@
+pdxmesh = {
+	name = "selection_marker_mesh"
+	file = "selection_marker.mesh"
+	
+	animation = { id = "idle"	type = "selection_marker_idle.anim" }
+	scale = 0.65
+	
+	meshsettings =
+	{
+		name = "selection_markerShape"
+		shader = standard_alpha_blend
+	}
+}
+
+entity = {
+	name = "selection"
+	pdxmesh = "selection_marker_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" 		animation = "idle" 
+	state_time = 5
+		looping = no
+		next_state = idle
+	}
+}
+	
+

@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "cliff_rock_01_mesh"
+	file = "cliff_rock_01.mesh"
+
+	meshsettings = {
+		name = "cliff_rock_0Shape1"
+		index = 0
+		texture_diffuse = "mountain_01_vertical_diffuse.dds"
+		texture_normal = "mountain_01_vertical_normal.dds"
+		texture_specular = "mountain_01_vertical_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "cliff_rock_01_entity"
+	pdxmesh = "cliff_rock_01_mesh"
+}
