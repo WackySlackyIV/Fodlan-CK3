@@ -182,7 +182,8 @@
 			color = { 246 160 11 }
             icon = tengri
             
-			holy_site = ordelia
+			holy_site = skyrne
+			
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
