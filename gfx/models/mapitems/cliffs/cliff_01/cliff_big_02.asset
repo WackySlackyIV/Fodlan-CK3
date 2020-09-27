@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "cliff_big_02_mesh"
+	file = "cliff_big_02.mesh"
+
+	meshsettings = {
+		name = "cliff_big_02Shape"
+		index = 0
+		texture_diffuse = "mountain_01_vertical_diffuse.dds"
+		texture_normal = "mountain_01_vertical_normal.dds"
+		texture_specular = "mountain_01_vertical_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "cliff_big_02_entity"
+	pdxmesh = "cliff_big_02_mesh"
+}
