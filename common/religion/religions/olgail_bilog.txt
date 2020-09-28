@@ -179,20 +179,21 @@ olgail_bilog_religion = {
 
 	faiths = {
 		lamhach  = { #fire
-			color = { 246 160 11 }
+			color = { 255 95 26 }
             icon = tengri
             
 			holy_site = cuilin
 			holy_site = hobart
 			holy_site = thapso
-			holy_site = brionac		
+			holy_site = brionac
 
 			doctrine = tenet_the_great_hunt
 			doctrine = tenet_sun_worship
-			doctrine = tenet_adaptive
+			doctrine = tenet_adorcism
 			doctrine = tenet_lamhach_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
+			doctrine = unreformed_faith_doctrine
 		}
 		fuale = { #water
 			color = { 11 176 246 }
@@ -205,10 +206,11 @@ olgail_bilog_religion = {
 
 			doctrine = tenet_the_great_hunt
 			doctrine = tenet_astrology
-			doctrine = tenet_adaptive
+			doctrine = tenet_adorcism
 			doctrine = tenet_fuale_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
+			doctrine = unreformed_faith_doctrine
 		}
 		talahm_ithir = { #earth
 			color = { 229 229 22 }
@@ -220,11 +222,12 @@ olgail_bilog_religion = {
 			holy_site = brionac
 
 			doctrine = tenet_the_great_hunt
+			doctrine = tenet_adorcism
 			doctrine = tenet_esotericism
-			doctrine = tenet_adaptive
 			doctrine = tenet_talahm_ithir_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
+			doctrine = unreformed_faith_doctrine
 		}
 		gaothe = { #wind
 			color = { 54 210 30 }
@@ -237,10 +240,11 @@ olgail_bilog_religion = {
 
 			doctrine = tenet_the_great_hunt
 			doctrine = tenet_sky_burials
-			doctrine = tenet_adaptive
+			doctrine = tenet_adorcism
 			doctrine = tenet_gaothe_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
+			doctrine = unreformed_faith_doctrine
 		}
 
 	}	

@@ -12,7 +12,7 @@ special_tolerance = {
 	}
 	special_doctrine_ecumenical_bilog = {
 		parameters = {
-			hostility_override_special_doctrine_ecumenical_bilog = 1
+			hostility_override_special_doctrine_ecumenical_bilog = 0
 		}
 	}
 }

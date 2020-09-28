@@ -190,6 +190,8 @@
 			color = { 240 240 240 }
 			icon = seirosite
 
+			religious_head = k_church
+
 			holy_site = garreg_mach
 			holy_site = derdriu
 			holy_site = sagido
