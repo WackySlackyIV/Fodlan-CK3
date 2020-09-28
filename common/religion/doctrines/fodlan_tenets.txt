@@ -237,7 +237,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_the_great_hunt = {
-		icon = core_tenet_the_great_hunt
+		icon = core_tenet_great_hunt
 		is_shown = {
 			always = no
 		}
