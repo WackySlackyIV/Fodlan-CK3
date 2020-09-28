@@ -3,3 +3,15 @@
 @smLysX = 0.23
 @smLysY = 0.26
 @smCross = 0.22
+
+k_faerghus = {
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "blue"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_faerghus.dds"
+		color1 = "grey"
+		color2 = "grey"
+		instance = { position = { 0.5 0.4 } scale = { 0.75 0.75 }  }
+	}
+}
