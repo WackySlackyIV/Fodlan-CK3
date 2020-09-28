@@ -213,13 +213,19 @@ start_hunt_decision = {
 				hunter_3 = activity_stress_loss_impact
 			}
 		}
-
-		if = {
-			limit = {
-				has_doctrine = tenet_fuale_teachings
+		add_piety = {
+			value = 0
+			
+			faith = {
+				if = {
+					limit = {
+						has_doctrine = tenet_the_great_hunt
+					}
+					add = medium_piety_value
+				}
 			}
-			add = medium_piety_value
 		}
+
 
 		#custom_tooltip = line_break
 		#custom_tooltip = start_hunt_decision_tt_header

@@ -235,4 +235,26 @@ doctrine_fodlan_tenets = {
 			sins = { impatient lazy ambitious}
 		}
 	}
+
+	tenet_the_great_hunt = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
 }
