@@ -204,7 +204,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			build_gold_cost = -0.125
+			holding_build_gold_cost = -0.125
 		}
 
 		traits = {	

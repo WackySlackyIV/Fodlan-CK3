@@ -187,8 +187,8 @@ olgail_bilog_religion = {
 			holy_site = thapso
 			holy_site = brionac		
 
-			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
+			doctrine = tenet_adorcism
+			doctrine = tenet_sun_worship
 			doctrine = tenet_adaptive
 			doctrine = tenet_lamhach_teachings
 
@@ -203,8 +203,8 @@ olgail_bilog_religion = {
 			holy_site = hobart
 			holy_site = hevring
 
-			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
+			doctrine = tenet_adorcism
+			doctrine = tenet_astrology
 			doctrine = tenet_adaptive
 			doctrine = tenet_fuale_teachings
 
@@ -219,7 +219,7 @@ olgail_bilog_religion = {
 			holy_site = gliomach
 			holy_site = brionac
 
-			doctrine = tenet_warmonger
+			doctrine = tenet_adorcism
 			doctrine = tenet_esotericism
 			doctrine = tenet_adaptive
 			doctrine = tenet_talahm_ithir_teachings
@@ -235,9 +235,8 @@ olgail_bilog_religion = {
 			holy_site = skyrne
 			holy_site = hevring
 
-
-			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
+			doctrine = tenet_adorcism
+			doctrine = tenet_sky_burials
 			doctrine = tenet_adaptive
 			doctrine = tenet_gaothe_teachings
 
