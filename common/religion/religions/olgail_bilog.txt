@@ -189,6 +189,7 @@ olgail_bilog_religion = {
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
+			doctrine = tenet_adaptive
 			doctrine = tenet_lamhach_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
@@ -204,6 +205,7 @@ olgail_bilog_religion = {
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
+			doctrine = tenet_adaptive
 			doctrine = tenet_fuale_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
@@ -219,7 +221,8 @@ olgail_bilog_religion = {
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = 	tenet_talahm_ithir_teachings
+			doctrine = tenet_adaptive
+			doctrine = tenet_talahm_ithir_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
 		}
@@ -235,7 +238,8 @@ olgail_bilog_religion = {
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
-			doctrine = 	tenet_gaothe_teachings
+			doctrine = tenet_adaptive
+			doctrine = tenet_gaothe_teachings
 
 			doctrine = special_doctrine_ecumenical_bilog
 		}
