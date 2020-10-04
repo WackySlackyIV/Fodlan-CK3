@@ -193,10 +193,11 @@
 			religious_head = d_zanado
 
 			holy_site = garreg_mach
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = zanado
+			holy_site = rhodos
+			holy_site = enbarr
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_monasticism
 			doctrine = tenet_unrelenting_faith
@@ -211,10 +212,11 @@
 			icon = macuilite
 
 			holy_site = macuil
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = garreg_mach
+			holy_site = rhodos
+			holy_site = enbarr
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_unrelenting_faith
@@ -232,10 +234,11 @@
 			icon = indechite
 
 			holy_site = indech
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = garreg_mach
+			holy_site = rhodos
+			holy_site = enbarr
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_esotericism
@@ -251,10 +254,11 @@
 			icon = cicholite
 
 			holy_site = cichol
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = garreg_mach
+			holy_site = rhodos
+			holy_site = enbarr
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_monasticism
 			doctrine = tenet_legalism
@@ -271,11 +275,11 @@
 			icon = cethleannite
 
 			holy_site = cethleann
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
-			
+			holy_site = garreg_mach
+			holy_site = rhodos
+			holy_site = enbarr
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_pacifism
 			doctrine = tenet_sanctity_of_nature 
@@ -292,10 +296,11 @@
 			icon = germanic
 
 			holy_site = garreg_mach
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = enbarr
+			holy_site = rhodos
+			holy_site = zanado
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith
@@ -309,10 +314,11 @@
 			icon = germanic
 
 			holy_site = garreg_mach
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = enbarr
+			holy_site = rhodos
+			holy_site = zanado
+			holy_site = ailell
+			holy_site = tailtean
 
 			doctrine = tenet_pentarchy
 			doctrine = tenet_unrelenting_faith
@@ -323,10 +329,12 @@
 			icon = high_sothic
 
 			holy_site = garreg_mach
-			holy_site = derdriu
-			holy_site = sagido
-			holy_site = butado
-			holy_site = ryudo
+			holy_site = enbarr
+			holy_site = rhodos
+			holy_site = zanado
+			holy_site = ailell
+			holy_site = tailtean
+
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_sanctity_of_nature

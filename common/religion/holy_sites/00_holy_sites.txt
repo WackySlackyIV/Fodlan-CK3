@@ -3,9 +3,8 @@
 	
 	character_modifier = {
 		name = holy_site_garreg_mach_effect_name
-		learning = 1
+		tolerance_advantage_mod = 5
 	}
-	flag = jerusalem_conversion_bonus # +20% County Conversion
 }
 
 macuil = {
@@ -13,6 +12,7 @@ macuil = {
 	character_modifier = {
 		name = holy_site_macuil_effect_name
 		martial = 1
+		mages_damage_mult = 0.2
 	}
 }
 
@@ -20,7 +20,7 @@ indech = {
 	county = c_indech
 	character_modifier = {
 		name = holy_site_indech_effect_name
-		stewardship = 1
+		cultural_head_fascination_mult = 0.1
 	}
 }
 
@@ -28,7 +28,7 @@ cichol = {
 	county = c_cichol
 	character_modifier = {
 		name = holy_site_cichol_effect_name
-		intrigue = 1
+		development_growth_factor = 0.1
 	}
 }
 
@@ -37,48 +37,59 @@ cethleann = {
 	character_modifier = {
 		name = holy_site_cethleann_effect_name
 		diplomacy = 1
+		stress_gain_mult = -0.1
 	}
 }
 
 
 
-butado = {
-	county = c_butado
+zanado = {
+	county = c_zanado
 	
 	character_modifier = {
-		name = holy_site_rome_effect_name
+		name = holy_site_zanado_effect_name
 		development_growth_factor = 0.1
 		stewardship = 1
+		religious_vassal_opinion = 5
 	}
 }
 
-derdriu = {
-	county = c_derdriu
+rhodos = {
+	county = c_rhodos
 	
 	character_modifier = {
-		name = holy_site_cologne_effect_name
-		cultural_head_fascination_mult = 0.05
-		monthly_county_control_change_factor = 0.05
+		name = holy_site_rhodos_effect_name
+		health = 0.25
+		#cultural_head_fascination_mult = 0.05
+		#monthly_county_control_change_factor = 0.05
 	}
 }
 
-sagido = {
-	county = c_sagido
+ailell = {
+	county = c_ailell
 	
 	character_modifier = {
 		name = holy_site_santiago_effect_name
-		supply_duration = 0.2
-		holy_order_hire_cost_mult = -0.1
+		tyranny_loss_mult = 0.2
 	}
 }
 
-ryudo = {
-	county = c_ryudo
+tailtean = {
+	county = c_tailltean
 	
 	character_modifier = {
-		name = holy_site_kent_effect_name
-		religious_vassal_opinion = 5
-		sway_scheme_power_mult = 0.1
+		name = holy_site_santiago_effect_name
+		knight_effectiveness_mult = 0.1	
+	}
+}
+
+enbarr = {
+	county = c_enbarr
+	
+	character_modifier = {
+		name = holy_site_enbarr_effect_name
+		piety = 0.25
+		#sway_scheme_power_mult = 0.1
 	}
 }
 #################
@@ -90,6 +101,7 @@ shambala = {
 	character_modifier = {
 		name = holy_site_shambala_effect_name
 		intrigue = 1
+		scheme_power = 0.1
 	}
 }
 
