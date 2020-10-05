@@ -84,17 +84,9 @@ enbarr = {
 	county = c_enbarr
 	
 	character_modifier = {
-		if = {
-			limit = { 
-				faith = faith:ablehnist 
-			}
-			name = holy_site_enbarr_ablehnist_effect_name
-			intrigue = 1
-		}
-		else = {
-			name = holy_site_enbarr_effect_name
-			monthly_piety = 0.25
-		}
+		name = holy_site_enbarr_effect_name
+		monthly_piety = 0.25
+		
 	}
 }
 
@@ -123,7 +115,7 @@ derdriu = {
 	county = c_derdriu
 	character_modifier = {
 		name = holy_site_derdriu_effect_name
-		
+		cultural_head_fascination_add = 1
 	}
 }
 
@@ -131,7 +123,7 @@ fhirdiad = {
 	county = c_fhirdiad
 	character_modifier = {
 		name = holy_site_fhirdiad_effect_name
-		cultural_head_fascination_add = 0.1
+		mages_damage_mult = 0.2
 	}
 }
 
@@ -144,6 +136,7 @@ shambala = {
 	character_modifier = {
 		name = holy_site_shambala_effect_name
 		scheme_power = 0.1
+		
 	}
 }
 
