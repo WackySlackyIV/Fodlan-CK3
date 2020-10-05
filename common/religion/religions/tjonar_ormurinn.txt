@@ -188,7 +188,9 @@ tjonar_ormurinn_religion = {
 			color = { 47 46 50 }
 			icon = catholic
 
-			holy_site = shambala
+			holy_site = erobring
+			holy_site = bjarskagi
+			holy_site = gand
 			
 			doctrine = tenet_warmonger
 			doctrine = tenet_astrology
@@ -199,7 +201,9 @@ tjonar_ormurinn_religion = {
 			color = { 158 128 225 }
 			icon = catholic	
 		
-			holy_site = shambala
+			holy_site = vindkaller
+			holy_site = bjarskagi
+			holy_site = gand
 			
 			doctrine = tenet_warmonger	
 			doctrine = tenet_astrology

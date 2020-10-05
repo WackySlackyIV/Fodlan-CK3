@@ -27,7 +27,7 @@
 	doctrine = doctrine_witchcraft_accepted
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_control
+	doctrine = doctrine_clerical_function_taxation
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
@@ -295,12 +295,12 @@
 			color = { 203 79 79 }
 			icon = germanic
 
-			holy_site = garreg_mach
 			holy_site = enbarr
-			holy_site = rhodos
-			holy_site = zanado
-			holy_site = ailell
-			holy_site = tailtean
+			holy_site = garreg_mach
+			holy_site = arianrhod
+			holy_site = merceus
+			holy_site = fhirdiad
+			holy_site = derdriu
 
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith

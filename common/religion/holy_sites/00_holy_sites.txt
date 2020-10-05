@@ -3,7 +3,7 @@
 	
 	character_modifier = {
 		name = holy_site_garreg_mach_effect_name
-		tolerance_advantage_mod = 5
+		tolerance_advantage_mod = 3
 	}
 }
 
@@ -20,7 +20,7 @@ indech = {
 	county = c_indech
 	character_modifier = {
 		name = holy_site_indech_effect_name
-		cultural_head_fascination_mult = 0.1
+		cultural_head_fascination_mult = 0.05
 	}
 }
 
@@ -47,9 +47,7 @@ zanado = {
 	county = c_zanado
 	
 	character_modifier = {
-		name = holy_site_zanado_effect_name
-		development_growth_factor = 0.1
-		stewardship = 1
+		name = holy_site_zanado_effect_names
 		religious_vassal_opinion = 5
 	}
 }
@@ -60,8 +58,7 @@ rhodos = {
 	character_modifier = {
 		name = holy_site_rhodos_effect_name
 		health = 0.25
-		#cultural_head_fascination_mult = 0.05
-		#monthly_county_control_change_factor = 0.05
+		
 	}
 }
 
@@ -75,7 +72,7 @@ ailell = {
 }
 
 tailtean = {
-	county = c_tailltean
+	county = c_tailtean
 	
 	character_modifier = {
 		name = holy_site_santiago_effect_name
@@ -87,11 +84,57 @@ enbarr = {
 	county = c_enbarr
 	
 	character_modifier = {
-		name = holy_site_enbarr_effect_name
-		piety = 0.25
-		#sway_scheme_power_mult = 0.1
+		if = {
+			limit = { 
+				faith = faith:ablehnist 
+			}
+			name = holy_site_enbarr_ablehnist_effect_name
+			intrigue = 1
+		}
+		else = {
+			name = holy_site_enbarr_effect_name
+			monthly_piety = 0.25
+		}
 	}
 }
+
+##################
+### Ablehnist ###
+##################
+
+arianrhod = {
+	county = c_arianrhod
+	character_modifier = {
+		name = holy_site_arianrhod_effect_name
+		attacker_advantage = 2
+	}
+}
+
+merceus = {
+	county = c_bergliez
+	barony = b_merceus
+	character_modifier = {
+		name = holy_site_merceus_effect_name
+		levy_reinforcement_rate = 0.1
+	}
+}
+
+derdriu = {
+	county = c_derdriu
+	character_modifier = {
+		name = holy_site_derdriu_effect_name
+		
+	}
+}
+
+fhirdiad = {
+	county = c_fhirdiad
+	character_modifier = {
+		name = holy_site_fhirdiad_effect_name
+		cultural_head_fascination_add = 0.1
+	}
+}
+
 #################
 ### Anthrapos ###
 #################
@@ -100,10 +143,46 @@ shambala = {
 	county = c_durhaus
 	character_modifier = {
 		name = holy_site_shambala_effect_name
-		intrigue = 1
 		scheme_power = 0.1
 	}
 }
+
+################
+### Ormurinn ###
+################
+
+vindkaller = {
+	county = c_vindkaller
+	character_modifier = {
+		name = holy_site_vindkaller_effect_name
+		intrigue = 1
+	}
+}
+
+erobring = {
+	county = c_erobring
+	character_modifier = {
+		name = holy_site_erobring_effect_name
+		intrigue = 1
+	}
+}
+
+bjarskagi = {
+	county = c_bjarskagi
+	character_modifier = {
+		name = holy_site_bjarskagi_effect_name
+		intrigue = 1
+	}
+}
+
+gand = {
+	county = c_gand
+	character_modifier = {
+		name = holy_site_gand_effect_name
+		intrigue = 1
+	}
+}
+
 
 ##############
 ### BRIGID ###
