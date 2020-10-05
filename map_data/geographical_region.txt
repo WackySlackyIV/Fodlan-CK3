@@ -12,3 +12,32 @@
 ###########################################################################
 
 
+world_fodlan_garreg_mach = {
+	duchies = {
+		d_garreg_mach
+	}
+}
+
+world_fodlan_leicester = {
+	duchies = {
+		d_clarence d_myrddin d_daphnel d_ailell d_ordelia d_gloucester d_riegan d_edmund d_kupala d_eastern_church d_goneril d_atholl
+	}
+}
+
+world_fodlan_faerghus = {
+	duchies = {
+		d_galatea d_charon d_conand d_fraldarius d_newgautier d_gautier d_itha d_langres d_blaiddyd d_lalonde d_roland d_magdred d_gaspard d_rowe d_gideon d_western_church d_mateus d_genevieve d_kleiman d_brume d_lucain d_zacharie d_rhodos
+	}
+}
+
+world_fodlan_adrestia = {
+	duchies = {
+		d_hrym d_niendorf d_gronder d_airmid d_rugen d_aegir d_varley d_bergliez d_stieglitz d_gerth d_rysalka d_boramas d_morgaine d_enbarr d_hresvelg d_essar d_engel d_olrun d_hevring d_reiss d_ochs d_bartels d_nuvelle d_nifl d_brionac d_sleipner d_arundel d_huldra d_schwan d_oghma
+	}
+}
+
+world_fodlan = {
+	regions = {
+		world_fodlan_garreg_mach world_fodlan_leicester world_fodlan_faerghus world_fodlan_adrestia
+	}
+}

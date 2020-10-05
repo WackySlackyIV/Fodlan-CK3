@@ -4,14 +4,103 @@
 @smLysY = 0.26
 @smCross = 0.22
 
+e_adrestia = {
+	pattern = "pattern_solid.dds"
+	color1 = "eagle_red"
+
+	colored_emblem = {
+		texture = "ce_seiros.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.27 } scale = { 0.4 0.4 }  }
+	}
+
+	colored_emblem = {
+		texture = "ce_adrestian_eagle.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
 k_faerghus = {
 	pattern = "pattern_vertical_split_01.dds"
-	color1 = "blue"
-	color2 = "blue"
+	color1 = "lion_blue1"
+	color2 = "lion_blue2"
 	colored_emblem = {
-		texture = "ce_faerghus.dds"
+		texture = "ce_faerghus_knight.dds"
 		color1 = "grey"
 		color2 = "grey"
-		instance = { position = { 0.5 0.4 } scale = { 0.75 0.75 }  }
+		instance = { position = { 0.5 0.3 } scale = { 0.60 0.60 }  }
+	}
+	colored_emblem = {
+		texture = "ce_blaiddyd.dds"
+		color1 = "grey"
+		color2 = "grey"
+		instance = { position = { 0.5 0.7 } scale = { 0.30 0.30 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bars_side.dds"
+		color1 = "grey"
+		color2 = "grey"
+		instance = { position = { 0.5 0.5 } scale = { 1.1 1.1 }  }
+	}
+}
+
+k_leicester = {
+	pattern = "pattern_checkers_01.dds"
+	color1 = "deer_brown"
+	color2 = "deer_yellow1"
+
+	colored_emblem = {
+		texture = "ce_daphnel.dds"
+		color1 = "grey"
+		instance = { position = { 0.8 0.1 } scale = { 0.15 0.15 }  }
+	}
+	colored_emblem = {
+		texture = "ce_daphnel.dds"
+		color1 = "grey"
+		instance = { position = { 0.8 0.25 } scale = { 0.15 0.15 }  }
+	}
+	colored_emblem = {
+		texture = "ce_daphnel.dds"
+		color1 = "grey"
+		instance = { position = { 0.8 0.4 } scale = { 0.15 0.15 }  }
+	}
+	colored_emblem = {
+		texture = "ce_goneril.dds"
+		color1 = "grey"
+		instance = { position = { 0.2 0.6 } scale = { 0.15 0.15 }  }
+	}
+	colored_emblem = {
+		texture = "ce_goneril.dds"
+		color1 = "grey"
+		instance = { position = { 0.4 0.8 } scale = { 0.15 0.15 }  }
+	}
+	colored_emblem = {
+		texture = "ce_leicester_shield.dds"
+		color1 = "deer_brown"
+		color2 = "grey"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+	colored_emblem = {
+		texture = "ce_leicester_helmet.dds"
+		color1 = "grey"
+		instance = { position = { 0.5 0.48 } scale = { 0.2 0.2 }  }
+	}
+	colored_emblem = {
+		texture = "ce_daphnel_emblem.dds"
+		color1 = "grey"
+		instance = { position = { 0.62 0.15 } scale = { 0.2 0.2 }  }
+	}
+}
+
+k_church = {
+	pattern = "pattern_solid.dds"
+	color1 = "grey"
+	colored_emblem = {
+		texture = "ce_church_emblem.dds"
+		color1 = "white"
+		color2 = "red"
+		color3 = "grey"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
 	}
 }

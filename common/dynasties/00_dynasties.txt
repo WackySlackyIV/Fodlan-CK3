@@ -1,39 +1,39 @@
-###CHURCH###
+﻿###CHURCH###
 
 1=
 {
 	name="Nabatea"
-	culture="fodlan"
+	culture="high_fodlan"
 }
 
 2=
 {
 	name="Eisner"
-	culture="fodlan"
+	culture="high_fodlan"
 }
 
 3=
 {
 	name="Dahlman"
-	culture="fodlan"
+	culture="high_fodlan"
 }
 
 4=
 {
 	name="Rhodos"
-	culture="fodlan"
+	culture="high_fodlan"
 }
 
 5=
 {
 	name="Suiryu"
-	culture="fodlan"
+	culture="high_fodlan"
 }
 
 6=
 {
 	name="Furya"
-	culture="fodlan"
+	culture="high_fodlan"
 }
 
 ###Leicester###

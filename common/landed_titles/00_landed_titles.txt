@@ -9905,7 +9905,7 @@ e_adrestia = {
                                                         b_anlauftal = {
                                                                       province = 886
                                                                       
-                                                                      color = {    }
+                                                                      color = { 210 41 41 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }

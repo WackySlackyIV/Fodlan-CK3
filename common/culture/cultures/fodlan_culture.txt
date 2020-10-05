@@ -651,11 +651,11 @@
 		color = hsv { 156 155 93 }
 
 		cadet_dynasty_names = {
-			#not sure what dynasty names Kupala would have
+			"dynn_temp"
 		}
 
 		dynasty_names = {
-
+			"dynn_temp"
 		}
 
 		male_names ={
@@ -739,11 +739,11 @@
 		color = hsv { 84 84 84 }
 
 		cadet_dynasty_names = {
-			#not sure what dynasty names Abyss would use
+			"dynn_temp"
 		}
 
 		dynasty_names = {
-
+			"dynn_temp"
 		}
 
 		male_names ={
@@ -873,7 +873,7 @@ brigid_group = {
 		}
 
 		dynasty_names = {
-
+			"dynn_temp"
 		}
 
 		male_names ={
@@ -1044,11 +1044,11 @@ outside_group = {
 		color = hsv { 190 215 25 }
 
 		cadet_dynasty_names = {
-			#TBD
+			"dynn_temp"
 		}
 
 		dynasty_names = {
-			#TBD
+			"dynn_temp"
 		}
 
 		male_names ={
@@ -1101,11 +1101,11 @@ outside_group = {
 		color = hsv { 190 40 155 }
 
 		cadet_dynasty_names = {
-			#TBD
+			"dynn_temp"
 		}
 
 		dynasty_names = {
-			#TBD
+			"dynn_temp"
 		}
 
 		male_names ={
@@ -1177,11 +1177,11 @@ outside_group = {
 		color = hsv { 190 40 155 }
 
 		cadet_dynasty_names = {
-			#TBD
+			"dynn_temp"
 		}
 
 		dynasty_names = {
-			#TBD
+			"dynn_temp"
 		}
 
 		male_names ={

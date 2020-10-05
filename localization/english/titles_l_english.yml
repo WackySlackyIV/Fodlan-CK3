@@ -338,7 +338,7 @@
  k_faerghus:0 "Faerghus"
  d_blaiddyd:0 "Blaiddyd"
  c_fhirdiad:0 "Fhirdiad"
- b_fhirdiad:0 :Fhirdiad"
+ b_fhirdiad:0 "Fhirdiad"
  b_lyon:0 "Lyon"
  b_bron:0 "Bron"
  b_jonage:0 "Jonage"
@@ -590,7 +590,7 @@
  b_loire:0 "Loire"
  
  c_blaye:0 "Blaye"
- b_blaye:0 Blaye"
+ b_blaye:0 "Blaye"
  b_lesperre:0 "Lesperre"
  b_delettes:0 "Delettes"
  

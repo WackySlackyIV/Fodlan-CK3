@@ -1,4 +1,4 @@
-# standard costs
+﻿# standard costs
 @maa_buy_cost = 150
 @maa_low_maintenance_cost = 1.0
 @maa_high_maintenance_cost = 5.0
@@ -17,7 +17,7 @@ myrmidons = {
 		forest = { damage = 10 toughness = 6 }
 		taiga = { damage = 10 toughness = 6 }
 		jungle = { damage = 10 toughness = 10 }
-		desert = { damage = -4 screen = -4 persuit = -4 }
+		desert = { damage = -4 screen = -4 }
 	}
 
 	counters = {
@@ -46,8 +46,8 @@ soldiers = {
 	terrain_bonus = {
 		hills = { toughness = 6 }
 		mountains = { toughness = 12 }
-		desert_mountains = { toughness = 6 persuit = 4 screen = 4 }
-		desert = { damage = -4 screen = -4 persuit = -4 }
+		desert_mountains = { toughness = 6 screen = 4 }
+		desert = { damage = -4 screen = -4 }
 		plains = { screen = -6 toughness = -6 }
 	}
 
@@ -79,9 +79,9 @@ fighters = {
 	terrain_bonus = {
 		hills = { toughness = 6 }
 		forest = { damage = 10 toughness = 6 }
-		jungle = { damege = 10 toughness = 12 }
+		jungle = { damage = 10 toughness = 12 }
 		taiga = { damage = 10 toughness = 4 }
-		desert = { damage = -4 screen = -4 persuit = -4 }
+		desert = { damage = -4 screen = -4 }
 	}
 
 	counters = {
@@ -108,14 +108,14 @@ cavaliers = {
 	screen = 22
 	
 	terrain_bonus = {
-		drylands = { damage = 12 persuit = 6 }
-		plains = { damage = 12 persuit = 6 }
+		drylands = { damage = 12 }
+		plains = { damage = 12 }
 		farmlands = { damage = 6 }
-		steppe = { damage = 12 persuit = 6 }
+		steppe = { damage = 12 }
 		desert_mountains = { damage = -6 toughness = -10 }
 		hills = { damage = -4 toughness = -6 }
-		floodplains = {  damage = -10 screen = -10 persuit = -10 }
-		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+		floodplains = {  damage = -10 screen = -10 }
+		wetlands = {  damage = -10 screen = -10 }
 	}
 	
 	counters = {
@@ -174,9 +174,9 @@ pegasus_knights = {
 	screen = 26
 	
 	terrain_bonus = {
-		hills = { damage = 6 persuit = 6}
-		mountains = { damage = 12 persuit = 12 }
-		desert_mountains = { damage = 8 persuit = 8 }
+		hills = { damage = 6}
+		mountains = { damage = 12 }
+		desert_mountains = { damage = 8 }
 	}
 	
 	counters = {
@@ -203,9 +203,9 @@ wyvern_riders = {
 	screen = 20
 	
 	terrain_bonus = {
-		hills = { damage = 6 persuit = 6}
-		mountains = { damage = 12 persuit = 12 }
-		desert_mountains = { damage = 8 persuit = 8 }
+		hills = { damage = 6}
+		mountains = { damage = 12 }
+		desert_mountains = { damage = 8 }
 	}
 	
 	counters = {
@@ -237,7 +237,7 @@ swordmasters = {
 		forest = { damage = 10 toughness = 6 }
 		taiga = { damage = 10 toughness = 6 }
 		jungle = { damage = 10 toughness = 10 }
-		desert = { damage = -4 screen = -4 persuit = -4 }
+		desert = { damage = -4 screen = -4 }
 	}
 
 	counters = {
@@ -266,8 +266,8 @@ fortress_knights = {
 	terrain_bonus = {
 		hills = { toughness = 6 }
 		mountains = { toughness = 12 }
-		desert_mountains = { toughness = 6 persuit = 4 screen = 4 }
-		desert = { damage = -4 screen = -4 persuit = -4 }
+		desert_mountains = { toughness = 6 screen = 4 }
+		desert = { damage = -4 screen = -4 }
 		plains = { screen = -12 toughness = -6 }
 	}
 	
@@ -297,9 +297,9 @@ warriors= {
 	terrain_bonus = {
 		hills = { toughness = 6 }
 		forest = { damage = 10 toughness = 6 }
-		jungle = { damege = 10 toughness = 12 }
+		jungle = { damage = 10 toughness = 12 }
 		taiga = { damage = 10 toughness = 4 }
-		desert = { damage = -4 screen = -4 persuit = -4 }
+		desert = { damage = -4 screen = -4 }
 	}
 
 	counters = {
@@ -326,14 +326,14 @@ paladins = {
 	screen = 30
 	
 	terrain_bonus = {
-		drylands = { damage = 12 persuit = 6 }
-		plains = { damage = 12 persuit = 6 }
+		drylands = { damage = 12 }
+		plains = { damage = 12 }
 		farmlands = { damage = 6 }
-		steppe = { damage = 12 persuit = 6 }
+		steppe = { damage = 12 }
 		desert_mountains = { damage = -6 toughness = -10 }
 		hills = { damage = -4 toughness = -6 }
-		floodplains = {  damage = -10 screen = -10 persuit = -10 }
-		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+		floodplains = {  damage = -10 screen = -10 }
+		wetlands = {  damage = -10 screen = -10 }
 	}
 	
 	counters = {
@@ -391,14 +391,14 @@ great_knights = {
 	screen = 28
 	
 	terrain_bonus = {
-		drylands = { damage = 12 persuit = 6 }
-		plains = { damage = 12 persuit = 6 }
+		drylands = { damage = 12 }
+		plains = { damage = 12 }
 		farmlands = { damage = 6 }
-		steppe = { damage = 12 persuit = 6 }
+		steppe = { damage = 12 }
 		desert_mountains = { damage = -6 toughness = -10 }
 		hills = { damage = -4 toughness = -6 }
-		floodplains = {  damage = -10 screen = -10 persuit = -10 }
-		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+		floodplains = {  damage = -10 screen = -10 }
+		wetlands = {  damage = -10 screen = -10 }
 	}
 	
 	counters = {
@@ -425,9 +425,9 @@ falcon_knights = {
 	screen = 32
 	
 	terrain_bonus = {
-		hills = { damage = 6 persuit = 6}
-		mountains = { damage = 12 persuit = 12 }
-		desert_mountains = { damage = 8 persuit = 8 }
+		hills = { damage = 6}
+		mountains = { damage = 12 }
+		desert_mountains = { damage = 8 }
 	}
 	
 	counters = {
@@ -454,9 +454,9 @@ wyvern_lords = {
 	screen = 30
 	
 	terrain_bonus = {
-		hills = { damage = 6 persuit = 6}
-		mountains = { damage = 12 persuit = 12 }
-		desert_mountains = { damage = 8 persuit = 8 }
+		hills = { damage = 6}
+		mountains = { damage = 12 }
+		desert_mountains = { damage = 8 }
 	}
 	
 	counters = {
@@ -483,14 +483,14 @@ bow_knights = {
 	screen = 28
 	
 	terrain_bonus = {
-		drylands = { damage = 12 persuit = 6 }
-		plains = { damage = 12 persuit = 6 }
+		drylands = { damage = 12 }
+		plains = { damage = 12 }
 		farmlands = { damage = 6 }
-		steppe = { damage = 12 persuit = 6 }
+		steppe = { damage = 12 }
 		desert_mountains = { damage = -6 toughness = -10 }
 		hills = { damage = -4 toughness = -6 }
-		floodplains = {  damage = -10 screen = -10 persuit = -10 }
-		wetlands = {  damage = -10 screen = -10 persuit = -10 }
+		floodplains = {  damage = -10 screen = -10 }
+		wetlands = {  damage = -10 screen = -10 }
 	}
 
 	counters = {

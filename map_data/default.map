@@ -17,6 +17,8 @@ seasons = "seasons.txt"
 # SEA ZONES
 #############
 
+sea_zones = LIST { 1087 }
+
 ###############
 # MAJOR RIVERS
 ###############
@@ -30,7 +32,7 @@ seasons = "seasons.txt"
 #####################
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
-impassable_mountains = LIST { 0 }
+impassable_mountains = LIST { 4 }
 
 ############
 # WASTELAND

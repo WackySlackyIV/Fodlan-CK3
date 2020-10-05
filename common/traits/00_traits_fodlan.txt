@@ -1,4 +1,4 @@
-child_goddess = {
+﻿child_goddess = {
 	index = 300
 	
 	both_parent_has_trait_inherit_chance = 100

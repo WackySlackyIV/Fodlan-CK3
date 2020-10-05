@@ -4,7 +4,7 @@
 
 	character = {
 		name = "Rhea"
-		dynasty = 5000000
+		dynasty = 1
 		dynasty_splendor_level = 1
 		type = female
 		birth = 1.1.1
@@ -16,6 +16,6 @@
 		history_id = 100000
 		position = { 765 590 }
 
-		animation = disapproval
+		animation = personality_zealous
 	}
 }
