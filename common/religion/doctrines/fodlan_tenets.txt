@@ -21,7 +21,7 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			holy_order_hire_cost_mult = -0.2
 		}
 
 		traits = {	
@@ -43,7 +43,7 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			martial_per_piety_level = 1
 		}
 
 		traits = {	
@@ -65,7 +65,7 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			stewardship_per_piety_level = 1
 		}
 
 		traits = {	
@@ -87,7 +87,7 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			learning_per_piety_level = 1
 		}
 
 		traits = {	
@@ -109,7 +109,7 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			diplomacy_per_piety_level = 1
 		}
 
 		traits = {	
@@ -117,6 +117,7 @@ doctrine_fodlan_tenets = {
 			sins = { sadistic vengeful }
 		}
 	}
+	
 	tenet_ablehnistic_ways = {
 		is_shown = {
 			always = no
@@ -130,7 +131,7 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			stewardship = 2
+			learning = 1
 		}
 
 		traits = {	
