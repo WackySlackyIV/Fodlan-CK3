@@ -2583,12 +2583,6 @@ pilgrimage.3003 = {
 	}		
 }
 
-# 3101-3200: Islam
-
-### Irham
-# by Sean Hughes
-# 3301-3400: Buddhism
-
 ### Critical Monk
 # by Sean Hughes
 pilgrimage.3301 = {

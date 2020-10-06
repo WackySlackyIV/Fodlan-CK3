@@ -1,0 +1,23 @@
+﻿visual_traits_child_goddess = {
+
+	child_goddess = {
+
+		dna_modifiers = {
+			color = {
+				gene = race_gene_nabatean_ears
+				template = nabatean_ears
+				mode = add
+					
+				value = 0.6
+			}
+		}
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = child_goddess
+			}
+		}
+	}
+}
