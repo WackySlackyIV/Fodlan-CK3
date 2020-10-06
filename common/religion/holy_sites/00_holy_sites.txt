@@ -97,7 +97,7 @@ mor_enbarr = {
 	county = c_enbarr
 	character_modifier = {
 		name = holy_site_mor_enbarr_effect_name
-		ai_war_cooldown = 1
+		intrigue = 1
 	}
 }	
 
