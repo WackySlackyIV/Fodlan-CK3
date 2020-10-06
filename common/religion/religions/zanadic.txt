@@ -295,10 +295,10 @@
 			color = { 203 79 79 }
 			icon = germanic
 
-			holy_site = enbarr
+			holy_site = mor_enbarr
 			holy_site = garreg_mach
-			holy_site = arianrhod
 			holy_site = merceus
+			holy_site = arianrhod
 			holy_site = fhirdiad
 			holy_site = derdriu
 

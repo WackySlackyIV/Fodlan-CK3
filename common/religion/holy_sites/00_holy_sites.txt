@@ -11,8 +11,7 @@ macuil = {
 	county = c_macuil
 	character_modifier = {
 		name = holy_site_macuil_effect_name
-		martial = 1
-		mages_damage_mult = 0.2
+		monthly_martial_lifestyle_xp_gain_mult = 0.025
 	}
 }
 
@@ -94,6 +93,14 @@ enbarr = {
 ### Ablehnist ###
 ##################
 
+mor_enbarr = {
+	county = c_enbarr
+	character_modifier = {
+		name = holy_site_mor_enbarr_effect_name
+		ai_war_cooldown = 1
+	}
+}	
+
 arianrhod = {
 	county = c_arianrhod
 	character_modifier = {
@@ -123,7 +130,7 @@ fhirdiad = {
 	county = c_fhirdiad
 	character_modifier = {
 		name = holy_site_fhirdiad_effect_name
-		mages_damage_mult = 0.2
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
 	}
 }
 
