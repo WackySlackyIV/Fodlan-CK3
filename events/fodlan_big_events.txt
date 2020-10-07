@@ -1,0 +1,10 @@
+millenium_festival_initiate = {
+	desc = milleniu_festival_initiate_desc
+	
+	option = {
+		name = millenium_festival_initiate_a
+	}
+	option = {
+		name = millenium_festival_initiate_b
+	}
+}
