@@ -140,10 +140,6 @@ doctrine_fodlan_tenets = {
 		}
 	}
 
-
-
-
-
 	####################
 	##### BRIGID #######
 	####################
@@ -254,9 +250,80 @@ doctrine_fodlan_tenets = {
 			prowess = 1
 		}
 
+	}
+
+	#############################
+	#### Reqonn de Opulencia ####
+	#############################
+
+	tenet_let_the_money_flow = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			domain_tax_same_faith_mult = 0.15
+			domain_tax_different_faith_mult = 0.33
+		}
+
 		traits = {	
-			virtues = { patient diligent content}
-			sins = { impatient lazy ambitious}
+			virtues = { greedy }
+			sins = { generous }
+		}
+	}
+
+	tenet_legacy_of_trading_kings = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			divine_marriage_opinion = 10
+			divine_marriage_piety_gain_active = yes
+		}
+
+		character_modifier = {
+			monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+		}
+
+		traits = {	
+			virtues = { avaricious }
+			sins = { }
+		}
+	}
+	
+	tenet_conquest_of_paradise = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			fervor_per_holy_site = 0.1
+		}
+
+		character_modifier = {
+			city_holding_build_gold_cost = -0.33
+			city_holding_holding_build_gold_cost = -0.33 
+		}
+
+		traits = {	
+			virtues = {  }
+			sins = { content }
 		}
 	}
 }
