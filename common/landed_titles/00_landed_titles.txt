@@ -1265,19 +1265,19 @@ e_dummy = {
                             capital = c_friboro
                             
                             d_Argovia = {
-                                          color = { 102 126 138 }
+                                          color = { 161 63 39 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_friboro
                                           
                                           c_friboro = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_friboro = {
                                                                       province = 1081
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1285,7 +1285,7 @@ e_dummy = {
                                                         b_laone = {
                                                                       province = 1082
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1293,7 +1293,7 @@ e_dummy = {
                                                         b_cervino = {
                                                                       province = 1083
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1301,7 +1301,7 @@ e_dummy = {
                                                         b_novena = {
                                                                       province = 1084
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1309,13 +1309,13 @@ e_dummy = {
                                           }
                                           
                                           c_tavate = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_tavate = {
                                                                       province = 1085
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1323,7 +1323,7 @@ e_dummy = {
                                                         b_palu = {
                                                                       province = 1086
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1331,13 +1331,13 @@ e_dummy = {
                                           }
                                           
                                           c_ginevra = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_ginevera = {
                                                                       province = 721
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1345,7 +1345,7 @@ e_dummy = {
                                                         b_roncaglia = {
                                                                       province = 1088
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1353,13 +1353,13 @@ e_dummy = {
                                           }
                                           
                                           c_losanna = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_losanna = {
                                                                       province = 1089
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1367,7 +1367,7 @@ e_dummy = {
                                                         b_scanevo = {
                                                                       province = 1090
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1377,19 +1377,19 @@ e_dummy = {
                             }
                             
                             d_madulain = {
-                                          color = { 102 126 138 }
+                                          color = { 161 63 39 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_maloggia
                                           
                                           c_maloggia = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_maloggia = {
                                                                       province = 1091
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1397,7 +1397,7 @@ e_dummy = {
                                                         b_prettigovia = {
                                                                       province = 1092
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1405,7 +1405,7 @@ e_dummy = {
                                                         b_sciafussa = {
                                                                       province = 1093
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1413,13 +1413,13 @@ e_dummy = {
                                           }
                                           
                                           c_nufena = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_nufena = {
                                                                       province = 1094
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1427,7 +1427,7 @@ e_dummy = {
                                                         b_soletta = {
                                                                       province = 1095
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1435,13 +1435,13 @@ e_dummy = {
                                           }
                                           
                                           c_spliga = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_spliga = {
                                                                       province = 1096
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1449,7 +1449,7 @@ e_dummy = {
                                                         b_tosanna = {
                                                                       province = 1097
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1459,19 +1459,19 @@ e_dummy = {
                             }
                             
                             d_turgovia = {
-                                          color = { 102 126 138 }
+                                          color = { 161 63 39 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_engadina
                                           
                                           c_engadina = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_engadina = {
                                                                       province = 1098
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1479,7 +1479,7 @@ e_dummy = {
                                                         b_vallese = {
                                                                       province = 1099
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1487,7 +1487,7 @@ e_dummy = {
                                                         b_cerpezzo = {
                                                                       province = 1100
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1495,13 +1495,13 @@ e_dummy = {
                                           }
                                           
                                           c_glarona = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_glarona = {
                                                                       province = 1101
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1509,7 +1509,7 @@ e_dummy = {
                                                         b_appenzello = {
                                                                       province = 1102
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1517,7 +1517,7 @@ e_dummy = {
                                                         b_vasilea = {
                                                                       province = 1103
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1525,13 +1525,13 @@ e_dummy = {
                                           }
                                           
                                           c_casinotta = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_casinotta = {
                                                                       province = 1104
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1539,7 +1539,7 @@ e_dummy = {
                                                         b_berna = {
                                                                       province = 1105
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1549,19 +1549,19 @@ e_dummy = {
                             }
                             
                             d_asburgo = {
-                                          color = { 102 126 138 }
+                                          color = { 161 63 39 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_giura
                                           
                                           c_giura = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_giura = {
                                                                       province = 1106
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1569,7 +1569,7 @@ e_dummy = {
                                                         b_bavero = {
                                                                       province = 1107
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1577,13 +1577,13 @@ e_dummy = {
                                           }
                                           
                                           c_campovasto = {
-                                                        color = { 102 126 138 }
+                                                        color = { 161 63 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_campovasto = {
                                                                       province = 1108
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -1591,7 +1591,163 @@ e_dummy = {
                                                         b_bienna = {
                                                                       province = 1109
                                                                       
-                                                                      color = { 102 126 138 }
+                                                                      color = { 161 63 39 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_atlam = {
+                                                        color = { 161 63 39 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_atlam = {
+                                                                      province = 1110
+                                                                      
+                                                                      color = { 161 63 39 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+              }
+              
+              k_reqonn = {
+                            color = { 224 109 20 }
+                            color2 = { 255 255 255 }
+                            
+                            capital = c_estiria
+                            
+                            d_bugia = {
+                                          color = { 224 109 20 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_estiria
+                                          
+                                          c_estiria = {
+                                                        color = { 224 109 20 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_estiria = {
+                                                                      province = 1167
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_brujas = {
+                                                                      province = 1168
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_lieja = {
+                                                                      province = 1169
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_claraval = {
+                                                        color = { 224 109 20 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_claraval = {
+                                                                      province = 1170
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_rodano = {
+                                                                      province = 1171
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_ruan = {
+                                                        color = { 224 109 20 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_ruan = {
+                                                                      province = 1172
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_lorena = {
+                                                                      province = 1173
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_arcila = {
+                                          color = { 224 109 20 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_escania
+                                          
+                                          c_escania = {
+                                                        color = { 224 109 20 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_escania = {
+                                                                      province = 1174
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_tiro = {
+                                                                      province = 1175
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_capaz = {
+                                                        color = { 224 109 20 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_capaz = {
+                                                                      province = 1176
+                                                                      
+                                                                      color = { 224 109 20 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_rincon = {
+                                                                      province = 1177
+                                                                      
+                                                                      color = { 224 109 20 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -11768,6 +11924,718 @@ e_brigid = {
                                                                       province = 1024
                                                                       
                                                                       color = { 255 0 255 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+              }
+              
+}
+
+e_albinea = {
+              color = { 139 166 116 }
+              color2 = { 255 255 255 }
+              
+              capital = c_baddek
+              
+              k_alebion = {
+                            color = { 139 166 116 }
+                            color2 = { 255 255 255 }
+                            
+                            capital = c_baddek
+                            
+                            d_kaipokok = {
+                                          color = { 139 166 116 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_baddek
+                                          
+                                          c_baddek = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_baddek = {
+                                                                      province = 1111
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_pougash = {
+                                                                      province = 1112
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_trakadiaw = {
+                                                                      province = 1113
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_wagmat = {
+                                                                      province = 1114
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_kipuktuk = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_kipuktuk = {
+                                                                      province = 1115
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_whycoco = {
+                                                                      province = 1116
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_cobekwid = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_cobekwid = {
+                                                                      province = 1117
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_buktaw = {
+                                                                      province = 1118
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_sekwum = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sekwum = {
+                                                                      province = 1119
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_karaqet = {
+                                                                      province = 1120
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_akuat = {
+                                          color = { 139 166 116 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_wekqistoq
+                                          
+                                          c_wekqistoq = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_wekqistoq = {
+                                                                      province = 1121
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_malak = {
+                                                                      province = 1122
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_wadavik = {
+                                                                      province = 1123
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_kejimku = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_kejimku = {
+                                                                      province = 1124
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_miramichi = {
+                                                                      province = 1125
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_segebunka = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_segebunka = {
+                                                                      province = 1126
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_meductic = {
+                                                                      province = 1127
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_makkovik = {
+                                          color = { 139 166 116 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_malagash
+                                          
+                                          c_malagash = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_malagash = {
+                                                                      province = 1128
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_mirai = {
+                                                                      province = 1129
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_nackawic = {
+                                                                      province = 1130
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_merigomish = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_merigomish = {
+                                                                      province = 1131
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_nashwaak = {
+                                                                      province = 1132
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_stewiake = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_stewiake = {
+                                                                      province = 1133
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_nauwige = {
+                                                                      province = 1134
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_katmuk = {
+                                          color = { 139 166 116 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_nuktaw
+                                          
+                                          c_nuktaw = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_nuktaw = {
+                                                                      province = 1135
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_oromocto = {
+                                                                      province = 1136
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_penniac = {
+                                                                      province = 1137
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_piiktaw = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_piiktaw = {
+                                                                      province = 1138
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_kodiak = {
+                                                                      province = 1139
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_takume = {
+                                                        color = { 139 166 116 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_takume = {
+                                                                      province = 1140
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_penobskee = {
+                                                                      province = 1141
+                                                                      
+                                                                      color = { 139 166 116 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+              }
+              
+              k_bergion = {
+                            color = { 77 99 55 }
+                            color2 = { 255 255 255 }
+                            
+                            capital = c_oromocto
+                            
+                            d_natwash = {
+                                          color = { 77 99 55 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_oromocto
+                                          
+                                          c_oromocto = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_oromocto = {
+                                                                      province = 1142
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_kullor = {
+                                                                      province = 1143
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_tasius = {
+                                                                      province = 1144
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_aapilla = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_aapilla = {
+                                                                      province = 1145
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_attu = {
+                                                                      province = 1146
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_ukkusisat = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_ukkusisat = {
+                                                                      province = 1147
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_iginniar = {
+                                                                      province = 1148
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_naajat = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_naajat = {
+                                                                      province = 1149
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_siorpaluk = {
+                                                                      province = 1150
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_naajat = {
+                                                                      province = 1159
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_tasius = {
+                                                                      province = 1160
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_amarok = {
+                                          color = { 77 99 55 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_akela
+                                          
+                                          c_akela = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_akela = {
+                                                                      province = 1151
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_nackawic = {
+                                                                      province = 1152
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_fenroc = {
+                                                                      province = 1153
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_raksha = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_raksha = {
+                                                                      province = 1154
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_withmane = {
+                                                                      province = 1155
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_sabrodt = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sabrodt = {
+                                                                      province = 1156
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_qaanaq = {
+                                                                      province = 1157
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_kangerlas = {
+                                                                      province = 1158
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_shehshat = {
+                                          color = { 77 99 55 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_naajat
+                                          
+                                          c_naajat = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_naajat = {
+                                                                      province = 1149
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_siorpaluk = {
+                                                                      province = 1150
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_naajat = {
+                                                                      province = 1159
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_tasius = {
+                                                                      province = 1160
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_isertoq = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_isertoq = {
+                                                                      province = 1161
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_arsuk = {
+                                                                      province = 1162
+                                                                      
+                                                                      color = {    }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_wabunaki = {
+                                          color = { 77 99 55 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_iliamaq
+                                          
+                                          c_iliamaq = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_iliamaq = {
+                                                                      province = 1163
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_haighivik = {
+                                                                      province = 1164
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_sarfang = {
+                                                        color = { 77 99 55 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sarfang = {
+                                                                      province = 1165
+                                                                      
+                                                                      color = { 77 99 55 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_alluit = {
+                                                                      province = 1166
+                                                                      
+                                                                      color = { 77 99 55 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
