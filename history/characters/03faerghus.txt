@@ -1,0 +1,2532 @@
+300000 = {
+	name="Dimitri"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=200
+	father=300023
+	mother=300098
+   	diplomacy=6
+   	martial=9
+	stewardship=6
+   	intrigue=3
+	learning=5
+	health = 6.5
+
+	trait=crest_minor_blaiddyd
+	trait=depressed
+	trait="diligent"
+	trait="wroth"
+	trait="aggressive_leader"
+	trait="strong"
+	trait="cruel"
+	disallow_random_traits = yes
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_boar_prince
+		effect = {
+			set_relation_rival = 400000
+		}
+	}
+	1185.1.1 = {
+		#give_nickname = nick_the_tempest_king
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300001 = {
+	name="Jose" #father ingrid
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=201
+	mother = 300093
+	trait="underhanded_rogue"
+	trait="stubborn"
+	trait="charitable"
+	trait="humble"
+	trait="ambitious"
+
+	1135.3.21 = {
+		birth=yes
+	}
+
+	1157.1.1 = {
+		add_spouse = 300092
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300002 = {
+	name="Sebastian" #catherine father
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=202
+
+	trait="duelist"
+	trait="skilled_tactician"
+	trait="scarred_mid"
+	trait="one_eyed"
+	trait="patient"
+	trait="brave"
+	trait="norse_leader"
+
+	1130.5.19 = {
+		birth=yes
+	}
+
+	1152.1.1 = {
+		add_spouse = 300097
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300003 = {
+	name="Roger"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	father=300046
+	dynasty=203
+	trait="tough_soldier"
+	trait="giant"
+	trait="slow"
+	trait="strong"
+	trait="brave"
+	trait="sturdy"
+	trait="kind"
+	trait="shy"
+	trait="patient"
+	trait="trusting"
+	trait="chaste"
+
+	disallow_random_traits = yes
+
+	1153.2.12 = {
+		birth="1153.2.12"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300004 = {
+	name="Rodrigue"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=204
+   	diplomacy=6
+   	martial=9
+	stewardship=8
+   	intrigue=6
+	learning=6
+	health = 6
+	father = 300082
+
+	trait="rodrigue"
+	trait="skilled_tactician"
+	trait="crest_minor_fraldarius"
+	trait="strategist"
+	trait="diligent"
+	trait="patient"
+	trait="just"
+	trait="inspiring_leader"
+	disallow_random_traits = yes
+
+	1130.1.11 = {
+		birth="1130.1.11"
+	}
+
+	1157.1.1 = {
+		add_spouse = 300080
+	}
+
+	1181.1.1 = {
+		#give_nickname = nick_the_shield_of_faerghus
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300005 = {
+	name="Aglovain" #father sylvain
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=205
+
+	trait="underhanded_rogue"
+	trait="ambitious"
+	trait="proud"
+	trait="scarred"
+	trait="greedy"
+
+	1125.4.21 = {
+		birth=yes
+	}
+
+	1145.1.1 = {
+		add_spouse = 300083
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300006 = {
+	name="Rufus"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=200
+	father=300022
+
+	trait="skilled_tactician"
+	trait="disinherited"
+	trait="wroth"
+	trait="seducer"
+	trait="lustful"
+
+	1137.2.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300007 = {
+	name="Gareth"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=207
+	trait="tough_soldier"
+	trait="shy"
+	trait="hunter"
+	trait="content"
+	trait="patient"
+	trait="honest"
+	trait="just"
+	trait="uncouth"
+
+	disallow_random_traits = yes
+
+	1137.5.4 = {
+		birth="1137.5.4 "
+	}
+	1168.6.17 = {
+		add_spouse = 300045
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300008 = {
+	name="Remy"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=208
+
+	1147.3.24 = {
+		birth=yes
+	}
+	1169.1.1 = {
+		add_spouse = 300100
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300009 = {
+	name="Guillame"
+	dynasty=209
+	religion="faith_of_seiros"
+	culture="faerghus"
+	trait="tough_soldier"
+	trait="ambitious"
+	trait="adventurer"
+	trait="schemer"
+
+	1142.02.08 = {
+		birth = yes
+	}
+
+	1160.07.11 = {
+		add_spouse = 300077
+	}
+
+	1179.4.20 = {
+		death = yes
+	}
+}
+
+300010 = {
+	name="Miguel"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=210
+	mother=300058
+	disallow_random_traits = yes
+	trait="skilled_tactician"
+	trait="cavalry_leader"
+	trait="zealous"
+	trait="just"
+	trait="temperate"
+	trait="wroth"
+	trait="organizer"
+	trait="administrator"
+	trait="homosexual"
+	trait="reason_magic_initiate"
+
+	1148.2.17 = {
+		birth=yes
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_fire
+			set_character_flag = spell_reason_thoron
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300011 = {
+	name="Ashe"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=211
+	father=300024
+   	diplomacy=6
+   	martial=4
+	stewardship=7
+   	intrigue=7
+	learning=4
+	health = 6.5
+	trait="ashe"
+	trait="flamboyant_schemer"
+	trait="temperate"
+	trait="charitable"
+	trait="kind"
+	trait="adopted"
+	trait="content"
+	trait="flanker"
+	disallow_random_traits = yes
+
+	1163.11.17 = {
+		birth="1163.11.17"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300012 = {
+	name="Vladimir"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=212
+
+	trait="thrifty_clerk"
+	trait="scarred"
+	trait="zealous"
+	trait="shrewd"
+	trait="kind"
+	trait="humble"
+	trait="slothfull"
+
+	1132.10.3 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300013 = {
+	name="Ivor"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=213
+	disallow_random_traits = yes
+	trait="charismatic_negotiator"
+	trait="ambitious"
+	trait="cynical"
+	trait="weak"
+	trait="socializer"
+	trait="cruel"
+	trait="craven"
+	trait="paranoid"
+	
+
+	1128.3.12 = {
+		birth="1128.3.12"
+	}
+	1150.2.16 = {
+		add_spouse = 300052
+	}
+	1169.4.20={
+          remove_spouse = 300013
+    }
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300014 = {
+	name="Petrus"
+	religion="faith_of_seiros"
+	culture="faerghus"
+
+	1130.1.11 = {
+		birth="1130.1.11"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300015 = {
+	name="Gabriel"
+	religion="faith_of_seiros"
+	secret_religion = "edelist"
+	culture="faerghus"
+	dynasty=214
+	trait="tough_soldier"
+	trait="temperate"
+	trait="chaste"
+	trait="kind"
+	trait="humble"
+	trait="brave"
+	trait="defensive_leader"
+	trait="robust"
+	trait="content"
+	trait="arbitrary"
+	trait="gregarious"
+	trait="trusting"
+	trait="duelist"
+	trait="faith_magic_apprentice"
+	disallow_random_traits = yes
+
+	1138.12.05 = {
+		birth="1138.12.05"
+	}
+
+	1161.2.8={
+        	add_spouse=400064
+	}
+
+	1161.2.9= {
+		effect={ 
+			add_lover = 400064
+		}
+	}
+
+	1169.6.21 = {
+		effect={ 
+			add_rival = 300000
+		}
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_nosferatu
+		}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300016 = {
+	name="Olga"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	dynasty=215
+	trait="grey_eminence"
+	trait="gamer"
+	trait="infirm"
+	trait="kind"
+	trait="temperate"
+	trait="charitable"
+	trait="proud"
+	trait="gluttonous"
+	trait="gregarious"
+	trait="stubborn"
+
+	
+	disallow_random_traits = yes
+
+
+	1101.5.12 = {
+		birth="1101.5.12"
+	}
+	1169.4.20 = {
+		effect={ 
+			add_rival = 300013
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300017 = {
+	name="Kleiman"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=216
+
+	1130.1.11 = {
+		birth="1130.1.11"
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300018 = {
+	name="Pan"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=217
+	disallow_random_traits = yes
+	trait="skilled_tactician"
+	trait="trickster"
+	trait="experimenter"
+	trait="lunatic"
+	trait="brave"
+	trait="cynical"
+	trait="duelist"
+	trait="uncouth"
+	trait="one_eyed"
+	trait="greedy"
+
+	1142.12.30 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300019 = {
+	name="Oscar"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=218
+	disallow_random_traits = yes
+	trait="martial_cleric"
+	trait="zealous"
+	trait="theologian"
+	trait="chaste"
+	trait="wroth"
+	trait="just"
+	trait="erudite"
+	trait="paranoid"
+	trait="faith_magic_adept"
+
+	
+
+	1141.12.3 = {
+		birth="1141.12.3"
+	}
+
+	1162.3.23 = {
+		add_spouse = 200036
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_faith_seraphim
+			set_character_flag = spell_faith_aura
+		}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300020 = {
+	name="Victoria"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=219
+	female=yes
+	diplomacy=4
+	disallow_random_traits = yes
+	trait="thrifty_clerk"
+	trait="architect"
+	trait="diligent"
+	trait="content"
+	trait="shy"
+	trait="temperate"
+	trait="stubborn"
+	trait="fair"
+
+	1158.5.30 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300021 = {
+	name="Arnaud"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=215
+	mother = 300043
+	father = 300044
+	disallow_random_traits = yes
+	trait="thrifty_clerk"
+	trait="is_malnourished"
+	trait=depressed
+	trait="kind"
+	trait="humble"
+
+
+	
+
+	1160.8.9 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300022 = {
+	name="Nicholas" #lambert father
+	religion="faith_of_seiros"
+	culture="faerghus"
+	father = 500023
+	dynasty=200
+
+	1115.2.21 = {
+		birth=yes
+	}
+	1160.9.5={
+		death=yes
+	}
+}
+
+300023 = {
+	name="Lambert"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=200
+	father=300022
+   	diplomacy=9
+   	martial=5
+	stewardship=8
+   	intrigue=4
+	learning=6
+
+	trait="lambert"
+	trait="skilled_tactician"
+	trait=crest_minor_blaiddyd
+	trait="strong"
+	trait="brave"
+	trait="ambitious"
+	trait="just"
+	trait="honest"
+	trait="stubborn"
+	disallow_random_traits = yes
+
+	1141.5.23 = {
+		birth=yes
+	}
+	1161.1.1 = {
+		add_spouse = 300098
+	}
+	1171.1.1 = {
+		remove_spouse = 300098
+		add_spouse = 400028
+	}
+	1176.3.10={
+		death=yes
+	}
+}
+
+300024 = {
+	name="Lonato"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=211
+   	diplomacy=7
+   	martial=7
+	stewardship=5
+   	intrigue=5
+	learning=7
+
+	trait="lonato"
+	trait="vengeful_1"
+	trait="tough_soldier"
+	trait="cynical"
+	trait="just"
+	trait="stubborn"
+	trait="kind"
+	trait="charitable"
+	trait="experimenter"
+	disallow_random_traits = yes
+
+	1115.6.6 = {
+		birth=yes
+	}
+	1180.5.31={
+		death=yes
+	}
+}
+
+300025 = {
+	name="Ingrid"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	dynasty=201
+	father=300001
+	mother=300092
+   	diplomacy=5
+   	martial=7
+	stewardship=7
+   	intrigue=1
+	learning=5
+	health = 6.5
+	trait="ingrid"
+	trait="tough_soldier"
+	trait="crest_minor_daphnel"
+	trait="chaste"
+	trait="temperate"
+	trait="wroth"
+	trait="brave"
+	trait="honest"
+	trait="just"
+	trait="stubborn"
+	trait="defensive_leader"
+	disallow_random_traits = yes
+
+	1163.1.4 = {
+		birth="1163.1.4"
+	}
+	1181.1.1 = {
+		effect = {
+			add_artifact = relic_luin
+			spawn_date = -1.1.1
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300026 = {
+	name="Felix"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=204
+	father=300004
+	mother=300080
+   	diplomacy=2
+   	martial=7
+	stewardship=4
+   	intrigue=7
+	learning=6
+	health = 6.5
+	trait="felix"
+	trait="skilled_tactician"
+	trait="crest_major_fraldarius"
+	trait="shrewd"
+	trait="duelist"
+	trait="wroth"
+	trait="proud"
+	trait="ambitious"
+	trait="honest"
+	trait="stubborn"
+	trait="trickster"
+	disallow_random_traits = yes
+
+	1163.2.20 = {
+		birth="1163.2.20"
+	}
+	1181.1.1 = {
+		effect = {
+			add_artifact = relic_aegis_shield
+			spawn_date = -1.1.1
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300027 = {
+	name="Glenn"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=204
+	father=300004
+	mother=300080
+   	diplomacy=9
+   	martial=9
+	stewardship=5
+   	intrigue=2
+	learning=7
+	trait="skilled_tactician"
+	trait="brave"
+	trait="temperate"
+	trait="humble"
+	trait="charitable"
+	trait="diligent"
+	trait="patient"
+	trait="kind"
+	trait="stubborn"
+	trait="honest"
+	trait="experimenter"
+	disallow_random_traits = yes
+
+	1157.2.20 = {
+		birth=yes
+	}
+	1176.3.10={
+		death=yes
+	}
+}
+
+300028 = {
+	name="Sylvain"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=205
+	father=300005
+	mother=300083
+   	diplomacy=9
+   	martial=6
+	stewardship=6
+   	intrigue=6
+	learning=4
+	health = 6.5
+	trait="sylvain"
+	trait="charismatic_negotiator"
+	trait="crest_minor_gautier"
+	trait="fair"
+	trait="seducer"
+	trait="lustful"
+	trait="kind"
+	trait="proud"
+	trait="paranoid"
+	trait="cavalry_leader"
+	disallow_random_traits = yes
+
+	1160.6.5 = {
+		birth="1160.6.5"
+	}
+	1181.1.1 = {
+		effect = {
+			add_artifact = relic_ruin_lance
+			spawn_date = -1.1.1
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300029 = {
+	name="Miklan"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=205
+	father=300005
+	mother=300083
+   	diplomacy=2
+   	martial=8
+	stewardship=3
+   	intrigue=7
+	learning=6
+
+	trait="miklan"
+	trait="tough_soldier"
+	trait="cynical"
+	trait="sturdy"
+	trait="wroth"
+	trait="stubborn"
+	trait="trickster"
+	trait="envious"
+	trait="scarred_high"
+	disallow_random_traits = yes
+
+	1145.12.17 = {
+		birth=yes
+	}
+	1180.8.31={
+		death=yes
+	}
+}
+
+300030 = {
+	name="Christophe"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=211
+	father=300024
+	trait="flamboyant_schemer"
+	trait="cynical"
+	trait="paranoid"
+	disallow_random_traits = yes
+
+	1153.11.17 = {
+		birth="1153.11.17"
+	}
+	1176.1.1={
+		death="1176.1.1"
+	}
+}
+
+300031 = {
+	name="Dedue"
+	religion="faith_of_seiros"
+	culture="duscur"
+	dynasty=206
+	father = 300078
+	mother = 300079
+
+   	diplomacy=3
+   	martial=8
+	stewardship=3
+   	intrigue=1
+	learning=4
+	health = 6.5
+	trait="dedue"
+	trait="tough_soldier"
+	trait="strong"
+	trait="robust"
+	trait="gardener"
+	trait="content"
+	trait="humble"
+	trait="unyielding_leader"
+	disallow_random_traits = yes
+
+	1161.8.31 = {
+		birth="1161.8.31"
+	}
+	1181.1.1 = {
+		employer = 300000
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300032 = {
+	name="Mercedes"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	dynasty=301
+	father = 400035
+	mother = 400034
+   	diplomacy=7
+   	martial=2
+	stewardship=4
+   	intrigue=2
+	learning=9
+	health = 6.5
+	trait="mercedes"
+	trait="scholarly_theologian"
+	trait="faith_magic_adept"
+	trait="reason_magic_initiate"
+	trait="crest_minor_lamine"
+	trait="temperate"
+	trait="charitable"
+	trait="patient"
+	trait="kind"
+	trait="humble"
+	trait="trusting"
+	disallow_random_traits = yes
+
+	1157.5.27 = {
+		birth="1157.5.27"
+	}
+
+	1166.5.9 = {
+		effect={ 
+			add_set_relation_friend=100014
+		}
+	}
+
+	1177.5.9 = {
+		effect={ 
+			add_set_relation_friend=300033
+		}
+	}
+	1181.1.1 = {
+		employer = 300000
+		effect = {
+			set_character_flag = spell_reason_fire
+			set_character_flag = spell_reason_thunder
+			set_character_flag = spell_reason_bolganone
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_faith_nosferatu
+			set_character_flag = spell_faith_physic
+			set_character_flag = spell_faith_restore
+		}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300033 = {
+	name="Annette"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	dynasty=221
+	father=100005
+	mother=300088
+   	diplomacy=5
+   	martial=4
+	stewardship=7
+   	intrigue=3
+	learning=9
+	health = 6.5
+	trait="annette"
+	trait="martial_cleric"
+	trait="reason_magic_adept"
+	trait="faith_magic_apprentice"
+	trait="crest_minor_dominic"
+	trait="quick"
+	trait="feeble"
+	trait="erudite"
+	trait="diligent"
+	trait="kind"
+	trait="humble"
+	trait="trusting"
+	trait="organizer"
+	disallow_random_traits = yes
+
+
+	1163.5.9 = {
+		birth="1163.5.9"
+	}
+	
+	1177.5.9 = {
+		effect={ 
+			add_set_relation_friend=300032
+		}
+	}
+
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_wind
+			set_character_flag = spell_reason_cuttinggale
+			set_character_flag = spell_reason_sagittae
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_faith_nosferatu
+		}
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300034 = {
+	name="Gwendal"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=222
+   	diplomacy=1
+   	martial=9
+	stewardship=4
+   	intrigue=2
+	learning=2
+	trait="gwendal"
+	trait="tough_soldier"
+	trait="scarred_mid"
+	trait="brave"
+	trait="aggressive_leader"
+	disallow_random_traits = yes
+
+	1122.7.2 = {
+		birth=yes
+	}
+
+	1163.1.1 = {
+		add_spouse = 300094
+		employer = 300012
+	}
+
+	1181.1.1 = {
+		#give_nickname = nick_the_gray_lion
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300035 = {
+	name="Cornelia"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female = yes
+	dynasty=223
+   	diplomacy=8
+   	martial=5
+	stewardship=5
+   	intrigue=8
+	learning=9
+
+	trait="cornelia"
+	trait="intricate_webweaver"
+	trait="faith_magic_master"
+	trait="dark_magic_adept"
+	trait="greedy"
+	trait="proud"
+	trait="ambitious"
+	trait="deceitful"
+	trait="physician"
+	trait="scholar"
+	disallow_random_traits = yes
+
+	1150.1.11 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		employer = 300000
+		effect = {
+			set_character_flag = spell_dark_death
+			set_character_flag = spell_dark_luna
+		}
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300036 = {
+	name="Ellen" #gwendal daughter
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=222
+	father = 300034
+	mother = 300094
+
+	1163.12.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300037 = {
+	name="Blanche" #sister ashe
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=211
+	female = yes
+	father=300024
+	trait="adopted"
+	trait="fussy"
+	trait="conscientious"
+	trait="affectionate"
+
+	1167.5.25 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300038 = {
+	name="Aurele" #brother ashe
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=211
+	father=300024
+	trait="adopted"
+	trait="rowdy"
+	trait="willful"
+	trait="curious"
+
+	1169.1.5 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300039 = {
+	name="Yseult" #sister ingrid
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	dynasty=201
+	father=300001
+	mother=300092
+
+	1158.1.28 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300040 = {
+	name="Alberico" #brother ingrid
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=201
+	father=300001
+	mother=300092
+
+	1158.7.23 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300041 = {
+	name="Jermaine"
+	religion="faith_of_seiros"
+	secret_religion = "edelist"
+	culture="faerghus"
+	dynasty=214
+	father=300015
+	mother=400064
+	disallow_random_traits = yes
+	trait="misguided_warrior"
+	trait="proud"
+	trait="kind"
+	trait="temperate"
+	trait="brave"
+	
+
+	1162.9.18 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300042 = {
+	name="Marcelius"
+	religion="faith_of_seiros"
+	secret_religion = "edelist"
+	culture="faerghus"
+	dynasty=214
+	father=300015
+	mother=400064
+	disallow_random_traits = yes
+	trait="conscientious"
+	trait="idolizer"
+	
+
+	1171.9.18 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+
+300043 = {
+	name="Gwendolyn"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=220
+	female=yes
+	disallow_random_traits = yes
+	trait="martial_cleric"
+	trait="holy_warrior"
+	trait="zealous"
+	trait="trusting"
+
+	
+
+	1139.6.4 = {
+		birth=yes
+	}
+	1159.8.13 = {
+		add_spouse = 300044
+	}
+	1180.12.14={
+		death={
+			death_reason=death_battle
+			killer=100002
+			}
+	}
+}
+
+300044 = {
+	name="Godefroy"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=215
+	mother = 300016
+	disallow_random_traits = yes
+	trait="thrifty_clerk"
+	trait="stressed"
+	trait="patient"
+	trait="kind"
+	trait="gluttonous"
+	trait="honest"
+
+	1128.2.6 = {
+		birth=yes
+	}
+	1159.8.13 = {
+		add_spouse = 300043
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300045 = {
+	name="Adeline"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=215
+	mother = 300016
+	female = yes
+	disallow_random_traits = yes
+	trait="underhanded_rogue"
+	trait="stressed"
+	trait="patient"
+	trait="charitable"
+	trait="lustful"
+
+	1140.2.6 = {
+		birth=yes
+	}
+	1168.6.17 = {
+		add_spouse = 300007
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300046 = {
+	name="Oscar"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=203
+	disallow_random_traits = yes
+	trait="mastermind_theologian"
+	trait="cruel"
+	trait="lunatic"
+	trait="genius"
+	trait="scholar"
+	trait="proud"
+	trait="brave"
+
+	1112.3.4 = {
+		birth=yes
+	}
+	1175.2.4={
+		death=yes
+	}
+}
+
+300047 = {
+	name="Camille"
+	religion="faith_of_seiros"
+	father=300046
+	culture="faerghus"
+	dynasty=203
+	female=yes
+	disallow_random_traits = yes
+	trait="timid"
+	trait="sickly"
+
+	1158.7.11 = {
+		birth=yes
+	}
+	1164.7.16={
+		death=yes
+	}
+}
+
+300048 = {
+	name="Liam"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=203
+	father=300046
+	martial=0
+	health=2
+	disallow_random_traits = yes
+	trait="fortune_builder"
+	trait="genius"
+	trait="weak"
+	trait="kind"
+	trait="stressed"
+	trait="ugly"
+	trait="temperate"
+	trait="patient"
+	trait="chaste"
+	trait="reason_magic_initiate"
+	trait="faith_magic_initiate"
+
+
+	1151.8.10 = {
+		birth=yes
+	}
+
+	1158.5.9 = {
+		effect={ 
+			add_set_relation_friend=300003
+		}
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_ward
+			set_character_flag = spell_faith_silence
+			set_character_flag = spell_reason_wind
+			set_character_flag = spell_reason_freeze
+		}
+	}
+	
+	1200.1.1={
+		death=yes	
+	}
+}
+
+
+300049 = {
+	name="Gareth"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=207
+	mother=300045
+	father=300007
+	disallow_random_traits = yes
+	trait="rowdy"
+	trait="curious"
+	
+
+	1169.8.14 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300050 = {
+	name="Pierre"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=207
+	mother=300045
+	father=300007
+	disallow_random_traits = yes
+	trait="brooding"
+	trait="indolent"
+	trait="willful"
+	
+
+	1173.2.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300051 = {
+	name="Ryan"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=207
+	mother=300045
+	father=300007
+	disallow_random_traits = yes
+
+	1176.2.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300052 = {
+	name="Roseline"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	mother = 300016
+	dynasty=215
+	trait="amateurish_plotter"
+	trait="wroth"
+	trait="chaste"
+	trait="deceitful"
+
+
+	
+	disallow_random_traits = yes
+
+
+	1129.08.17 = {
+		birth=yes
+	}
+	1150.2.16 = {
+		add_spouse = 300013
+	}
+	1169.4.20={
+          remove_spouse = 300013
+    }
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300053 = {
+	name="Gladys"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	mother = 300052
+	father = 300013
+	dynasty=213
+	trait="thrifty_clerk"
+	trait="humble"
+	trait="administrator"
+	trait="charitable"
+	trait="trusting"
+
+
+	
+	disallow_random_traits = yes
+
+
+	1152.03.21 = {
+		birth=yes
+	}
+	1177.4.11 = {
+		add_spouse=300059
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300054 = {
+	name="Charlotte"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female=yes
+	mother = 300052
+	father = 300013
+	dynasty=213
+	trait="charismatic_negotiator"
+	trait="fair"
+	trait="groomed"
+	trait="proud"
+
+
+	
+	disallow_random_traits = yes
+
+
+	1157.04.11 = {
+		birth=yes
+	}
+	1177.4.11 = {
+		add_matrilineal_spouse=300060
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300055 = {
+	name="Jerome"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	mother = 300052
+	father = 300013
+	dynasty=213
+	trait="indulgent_wastrel"
+	trait="drunkard"
+	trait="quick"
+	trait="slothful"
+	trait="gluttonous"
+	trait="kind"
+
+
+	
+	disallow_random_traits = yes
+
+
+	1162.07.15 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300056 = {
+	name="Miklan"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=218
+	mother = 200036
+	father = 300019
+	disallow_random_traits = yes
+	trait="thrifty_clerk"
+	trait="proud"
+	trait="zealous"
+	trait="lustful"
+	trait="charitable"
+	trait="groomed"
+	trait="temperate"
+	
+
+
+	1163.11.17 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300057 = {
+	name="Astrid"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=218
+	female=yes
+	mother = 200036
+	father = 300019
+	disallow_random_traits = yes
+	trait="patient"
+	trait="diligent"
+	trait="playful"
+	trait="conscientious"
+
+
+	1165.12.25 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300058 = {
+	name="Gwendolyn"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=210
+	female=yes
+	disallow_random_traits = yes
+	trait="flamboyant_schemer"
+	trait="groomed"
+	trait="envious"
+	trait="cynical"
+	trait="just"
+
+
+	1128.04.16 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300059 = {
+	name="Emile"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=210
+	mother=300058
+	disallow_random_traits = yes
+	trait="charismatic_negotiator"
+	trait="brave"
+	trait="feeble"
+	trait="groomed"
+	trait="socializer"
+	trait="honest"
+
+
+	1151.7.12 = {
+		birth=yes
+	}
+	1177.4.11 = {
+		add_spouse=300053
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300060 = {
+	name="Lucas"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=210
+	mother=300058
+	disallow_random_traits = yes
+	trait="detached_priest"
+	trait="arbitrary"
+	trait="shy"
+	trait="stressed"
+	trait="just"
+	trait="wroth"
+	trait="zealous"
+
+
+	1154.7.12 = {
+		birth=yes
+	}
+	1177.4.11 = {
+		add_matrilineal_spouse=300054
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300061 = {
+	name="Gaston"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=217
+	father=300018
+	trait="legit_bastard"
+
+
+	1159.2.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300062 = {
+	name="Eileen"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=217
+	father=300018
+	female=yes
+	trait="bastard"
+
+
+	1159.4.16 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300063 = {
+	name="Lars"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=217
+	father=300018
+	trait="bastard"
+
+
+	1164.9.7 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300064 = {
+	name="Gilda"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=217
+	father=300018
+	female=yes
+	trait="bastard"
+
+
+
+	1166.6.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300065 = {
+	name="Robert"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=217
+	father=300018
+	trait="bastard"
+
+
+	1175.11.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}	
+}
+
+300066 = {
+	name="Jules"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=215
+	mother=300016
+	disallow_random_traits = yes
+	trait="thrifty_clerk"
+	trait="envious"
+	trait="groomed"
+	trait="zealous"
+	trait="proud"
+	trait="arbitrary"
+
+	
+
+	1127.2.9 = {
+		birth=yes
+	}
+	1164.8.13 = {
+		add_spouse = 200035
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300067 = {
+	name="Killian"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=215
+	father=300066
+	mother=200035
+	disallow_random_traits = yes
+	trait="fussy"
+	trait="indolent"
+	trait="proud"
+
+	
+	1165.12.1 = {
+		birth=yes
+	}
+	1176.2.24 = {
+		effect={
+			add_betrothal = 300057
+		}	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300068 = {
+	name="Dimitri"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=226
+	
+	1138.9.6 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300069 = {
+	name="Evan"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=227
+	
+	1141.2.9 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300070 = {
+	name="Emile"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=228
+	
+	1149.6.30 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300071 = {
+	name="Gaston"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=229
+	
+	1137.5.20 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300072 = {
+	name="Gustave"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=230
+	
+	1143.7.19 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300073 = {
+	name="Sebastian"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=231
+	
+	1153.2.28 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300074 = {
+	name="Oliviere"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=232
+	
+	1156.9.1 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300075 = {
+	name="Hugo"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=233
+	
+	1152.10.4 = {
+		birth=yes
+	
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+300076 = {
+	name="Jacques" # the Fox
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=209
+	trait="shrewd"
+	trait="proud"
+	trait="skilled_tactician"
+	trait="just"
+	trait="duelist"
+	father= 300009
+	mother= 300077
+
+	1162.2.8 = {
+		birth=yes
+		#give_nickname = nick_the_fox
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300077 = {
+	name="Alice"
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female = yes
+
+	1144.02.08 = {
+		birth = yes
+	}
+
+	1160.07.11 = {
+		add_spouse = 300009
+	}
+
+	1179.4.20 = {
+		death = yes
+	}
+}
+
+300078 = {
+	name="Zamon" #father dedue
+	religion="faith_of_seiros"
+	culture="duscur"
+	dynasty=206
+
+	trait="martial_cleric"
+	trait="humble"
+	trait="robust"
+
+	1135.6.1 = {
+		birth=yes
+	}
+
+	1161.1.1 = {
+		add_spouse = 300079
+	}
+
+	1176.3.24 ={
+		death=yes
+	}
+}
+
+300079 = {
+	name="Nephys" #mother dedue
+	religion="faith_of_seiros"
+	culture="duscur"
+	female = yes
+
+	trait="charismatic_negotiator"
+	trait="gardener"
+	trait="poet"
+
+	1143.11.25 = {
+		birth=yes
+	}
+
+	1161.1.1 = {
+		add_spouse = 300078
+	}
+
+	1176.3.24 ={
+		death=yes
+	}
+}
+
+300080 = {
+	name="Aurelia" #mother felix
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 235
+	female = yes
+
+	trait="scholarly_theologian"
+	trait="proud"
+	trait="content"
+
+	1139.4.3 = {
+		birth=yes
+	}
+
+	1157.1.1 = {
+		add_spouse = 300004
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300081 = {
+	name="Tristain" #brother rodrigue
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 204
+	father = 300082
+
+	trait="tough_soldier"
+	trait="hunter"
+	trait="honest"
+
+	1138.8.28 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300082 = {
+	name="Jaques" #father rodrigue
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 204
+
+	1103.10.29 = {
+		birth=yes
+	}
+
+	1176.4.8 = {
+		death=yes
+	}
+}
+
+300083 = {
+	name="Lynette" #mother sylvain
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 236
+	female = yes
+
+	trait="naive_appeaser"
+	trait="lustful"
+	trait="groomed"
+	trait="administrator"
+	trait="temperate"
+
+	1127.12.1 = {
+		birth=yes
+	}
+
+	1145.1.1 = {
+		add_spouse = 300005
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300084= {
+	name="Lucius" #adoptive father mercedes
+	religion="faith_of_seiros"
+	culture="faerghus"
+
+	trait="fortune_builder"
+	trait="ambitious"
+	trait="greedy"
+	trait="cruel"
+	trait="temperate"
+
+	1145.5.8 = {
+		birth=yes
+	}
+
+	1167.1.1 = {
+		add_spouse = 400034
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300085= {
+	name="Gwion" #bartels kid 1
+	religion="faith_of_seiros"
+	culture="adrestian"
+	father = 400036
+
+	trait="envious"
+
+	1146.2.8 = {
+		birth=yes
+	}
+
+	1168.11.30={
+		death = {
+			death_reason = death_murder 
+			killer = 400022
+		}
+	}
+}
+
+300086= {
+	name="Marque" #bartels kid
+	religion="faith_of_seiros"
+	culture="adrestian"
+	father = 400036
+
+	trait="envious"
+
+	1144.2.8 = {
+		birth=yes
+	}
+
+	1168.11.30={
+		death = {
+			death_reason = death_murder 
+			killer = 400022
+		}
+	}
+}
+
+300087= {
+	name="Owain" #bartels kid
+	religion="faith_of_seiros"
+	culture="adrestian"
+	father = 400036
+
+	trait="envious"
+	trait="bastard"
+
+	1142.2.8 = {
+		birth=yes
+	}
+
+	1168.11.30={
+		death = {
+			death_reason = death_murder 
+			killer = 400022
+		}
+	}
+}
+
+300088= {
+	name="Morgane" #annette mother
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 237
+	female = yes
+
+	trait="fortune_builder"
+	trait="patient"
+	trait="gardener"
+	trait="reason_magic_initiate"
+
+	1144.9.2 = {
+		birth=yes
+	}
+
+	1162.1.1 = {
+		add_spouse = 100005
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_wind
+			set_character_flag = spell_faith_cuttinggale
+		}
+	}
+
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300089= {
+	name="Ecteur" #annette uncle
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 221
+	father = 300091
+
+	trait="intricate_webweaver"
+	trait="stubborn"
+	trait="ambitious"
+	trait="craven"
+
+	1132.8.20 = {
+		birth=yes
+	}
+
+	1159.1.1 = {
+		add_spouse = 300090
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300090= {
+	name="Claudine" #annette aunt
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 238
+	female = yes
+
+	trait="underhanded_rogue"
+	trait="socializer"
+	trait="falconer"
+	trait="brave"
+
+	1141.8.15 = {
+		birth=yes
+	}
+
+	1159.1.1 = {
+		add_spouse = 300089
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300091= {
+	name="Georges" #annette grandfather
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 221
+
+	1100.1.25 = {
+		birth=yes
+	}
+
+	1165.7.8={
+		death=yes
+	}
+}
+
+300092= {
+	name="Caelia" #ingrid mother
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 239
+	female = yes
+
+	trait="underhanded_rogue"
+	trait="socializer"
+	trait="falconer"
+	trait="brave"
+
+	1138.8.7 = {
+		birth=yes
+	}
+
+	1157.1.1 = {
+		add_spouse = 300001
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300093= {
+	name="Elaine" #ingrid grandmother
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 240
+	female = yes
+
+	trait="charismatic_negotiator"
+	trait="fair"
+	trait="kind"
+	trait="content"
+	trait="just"
+	trait="trusting"
+
+	1118.2.7 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+300094 = {
+	name="Lydie" #gwendal wife
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female = yes
+
+	1145.1.6 = {
+		birth=yes
+	}
+
+	1163.1.1 = {
+		add_spouse = 300034
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300095 = {
+	name="Caroline" #catherine sister
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 202
+	female = yes
+	father = 300002
+	mother = 300097
+
+	trait="charismatic_negotiator"
+
+	1154.10.14 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300096 = {
+	name="Fleur" #catherine sister
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty = 202
+	female = yes
+	father = 300002
+	mother = 300097
+
+	trait="fortune_builder"
+
+	1160.10.17 = {
+		birth=yes
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300097 = {
+	name="Alexandra" #catherine mother
+	religion="faith_of_seiros"
+	culture="faerghus"
+	female = yes
+	dynasty = 225
+
+	trait="detached_priest"	
+	trait="zealous"
+	trait="erudite"
+
+	1134.8.1 = {
+		birth=yes
+	}
+
+	1152.1.1 = {
+		add_spouse = 300002
+	}
+
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+300098 = {
+	name="Angelique" #true mother dimitri
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=234
+	female = yes
+
+	1144.7.7 = {
+		birth=yes
+	}
+
+	1161.1.1 = {
+		add_spouse = 300023
+	}
+
+	1165.4.15={
+		death=yes
+	}
+}
+
+300099 = {
+	name="Kiya" #sister dedue
+	religion="faith_of_seiros"
+	culture="duscur"
+	dynasty=206
+	female = yes
+	father = 300078
+	mother = 300079
+
+	trait="kind"
+	trait="playful"
+	trait="affectionate"
+	trait="curious"
+	trait="timid"
+
+	1169.12.20 = {
+		birth=yes
+	}
+
+	1176.3.24 ={
+		death=yes
+	}
+}
+
+300100 = {
+	name="Mabel" #woman magdred
+	religion="faith_of_seiros"
+	culture="faerghus"
+	dynasty=241
+	female = yes
+
+	1149.6.7 = {
+		birth=yes
+	}
+
+	1169.1.1 = {
+		add_spouse = 300008
+	}
+
+	1200.1.1 ={
+		death=yes
+	}
+}

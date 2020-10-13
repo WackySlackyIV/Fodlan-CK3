@@ -103,7 +103,7 @@
 	learning=5
 	health = 6
 
-	#trait = judith"
+	#trait = judith
 	trait = education_martial_4
 	trait = blademaster_1
 	trait = diligent
@@ -136,7 +136,7 @@
 	trait= craven
 	trait= trusting
 	trait= zealous
-	#trait = faith_magic_apprentice"
+	#trait = faith_magic_apprentice
 	random_traits = no
 
 	1159.10.23 = {
@@ -201,7 +201,7 @@
 	trait = deceitful
 	trait = vengeful
 	trait = patient
-	#trait = reason_magic_apprentice"
+	#trait = reason_magic_apprentice
 
 	1139.5.28 = {
 		birth=yes
@@ -224,7 +224,7 @@
 		#	remove_title = job_spiritual
 		#	set_character_flag = spell_reason_fire
 
-		}
+		#}
 	}
 	1200.1.1={
 		death=yes
@@ -239,7 +239,7 @@
 
 	trait = education_stewardship_3
 	trait = gregarious
-	#trait = kind"
+	#trait = kind
 	trait = improvident
 
 	1137.7.18 = {
@@ -349,8 +349,8 @@
 	trait = blademaster_2
 	trait = brave
 	trait = education_martial_prowess_4
-	#trait = experimenter"
-	#trait = bon_leader"
+	#trait = experimenter
+	#trait = bon_leader
 	random_traits = no
 
 	1150.1.11 = {
@@ -385,9 +385,9 @@
    	intrigue=10
 	learning=4
 	health = 6.5
-	#trait = claude"
-	#trait = elusive_shadow"
-	#trait = crest_minor_riegan"
+	#trait = claude
+	#trait = elusive_shadow
+	#trait = crest_minor_riegan
 	trait = just
 	trait = shrewd
 	trait = gregarious

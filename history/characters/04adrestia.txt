@@ -1,0 +1,4088 @@
+400000 = {
+	name="Edelgard"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 300
+	female = yes
+	father = 400023
+	mother = 400028
+   	diplomacy=4
+   	martial=8
+	stewardship=7
+   	intrigue=8
+	learning=2
+	health = 6.5
+	trait="edelgard"
+	trait="skilled_tactician"
+	trait="crest_minor_seiros"
+	trait="crest_major_flames"
+	trait="ambitious"
+	trait="diligent"
+	trait="brave"
+	trait="cynical"
+	trait="stubborn"
+	trait="paranoid"
+	trait="inspiring_leader"
+	trait="ambidextrous"
+	disallow_random_traits = yes
+
+	1162.6.22 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_flame_emperor
+		effect = {
+			set_relation_rival = 100000
+			set_relation_rival = 400000
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400001 = {
+	name="Hrym"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 304
+
+	1120.1.11 = {
+		birth=yes
+	}
+	1167.1.1={
+		death=yes
+	}
+}
+
+400002 = {
+	name="Gunther"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	disallow_random_traits = yes
+	trait = "skilled_tactician"
+	trait = "content"
+	trait = "brave"
+	trait = "blinded"
+	trait = "trusting"
+
+	1111.11.11 = {
+		birth=yes
+	}
+	1179.1.1 = {
+		add_spouse = 400107
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400003 = {
+	name="Lothar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	disallow_random_traits = yes
+	trait = "misguided_warrior"
+	trait="brave"
+	trait="cynical"
+	trait="depressed"
+	trait="ill"
+
+	1137.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400004 = {
+	name="Konrad" #caspar father
+	religion="edelist"
+	culture="adrestian"
+	father = 400030
+	dynasty = 307
+
+	trait = "brilliant_strategist"
+	trait = "strategist"
+	trait = "falconer"
+	trait = "patient"
+	trait = "gluttonous"
+	trait = "brave"
+	trait = "stubborn"
+	trait = "narrow_flank_leader"
+	trait = "sapper"
+	trait = "tengri_leader"
+
+	1135.1.21 = {
+		birth=yes
+	}
+
+	1158.1.1 = {
+		add_spouse = 400157
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400005 = {
+	name="Roderick"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 308
+	trait="tough_soldier"
+	trait="trusting"
+	trait="just"
+	trait="dull"
+	trait="scarred_mid"
+	father=400116
+
+	1157.1.11 = {
+		birth=yes
+	}
+	1173.1.1 = {
+		add_spouse=400117
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400006 = {
+	name="Ludwig"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 309
+   	diplomacy=4
+   	martial=3
+	stewardship=4
+   	intrigue=7
+	learning=3
+	trait="aegir"
+	trait="indulgent_wastrel"
+	trait="is_fat"
+	trait="dull"
+	trait="gluttonous"
+	trait="greedy"
+	trait="ambitious"
+	trait="disinherited"
+	trait="arbitrary"
+	disallow_random_traits = yes
+
+	1120.1.11 = {
+		birth=yes
+	}
+
+	1157.1.1 = {
+		add_spouse = 400155
+	}
+
+	1181.3.15 = {
+		effect = {
+			imprison = 400000 #by edel
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400007 = {
+	name="Lucius" #bernie father
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 310
+	father = 400161
+
+	trait="scholarly_theologian"
+	trait="proud"
+	trait="cruel"
+	trait="paranoid"
+	trait="wroth"
+
+	1136.5.7 = {
+		birth=yes
+	}
+
+	1157.1.1={
+		add_spouse = 400159
+	}
+
+	1181.3.15 = {
+		effect = {
+			imprison = 400000 #by edel
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400008 = {
+	name="Bruno"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 311
+	trait="skilled_tactician"
+	trait="wroth"
+	trait="scarred_mid"
+	trait="zealous"
+	trait="paranoid"
+
+	1135.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400009 = {
+	name="Matthias"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 312
+	disallow_random_traits = yes
+	trait="grey_eminence"
+	trait="scholar"
+	trait="just"
+	trait="kind"
+	trait="erudite"
+	trait="trusting"
+	trait="reason_magic_apprentice"
+
+	1142.1.11 = {
+		birth=yes
+	}
+	1167.1.1 = {
+		add_spouse=400124
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_fire
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400010 = {
+	name="Matylda"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	female=yes
+	disallow_random_traits=yes
+	trait="intricate_webweaver"
+	trait="gregarious"
+	trait="cruel"
+	trait="deceitful"
+	trait="trusting"
+	trait="patient"
+	trait="lefthanded"
+
+	1130.1.11 = {
+		birth=yes
+	}
+	1146.1.1 = {
+		add_spouse=400133
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400011 = {
+	name="Pavlina"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 314
+	female=yes
+	trait="charismatic_negotiator"
+	trait="hedonist"
+	trait="drunkard"
+	trait="fair"
+	trait="charitable"
+	trait="deceitful"
+	trait="patient"
+	trait="shrewd"
+	trait="gregarious"
+	disallow_random_traits=yes
+
+	1136.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400012 = {
+	name="Erhardt"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 315
+	trait="skilled_tactician"
+	trait="hunter"
+	trait="patient"
+	trait="shy"
+	trait="paranoid"
+	trait="lustful"
+	trait="brave"
+
+	1135.1.11 = {
+		birth=yes
+	}
+	1161.1.1 = {
+		add_spouse=400141
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400013 = {
+	name="Julia" #hanneman niece
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 303
+	father = 400050
+	mother = 400165
+	female = yes
+
+	trait="martial_cleric"
+	trait="crest_minor_indech"
+	trait="kind"
+	trait="humble"
+
+	1133.11.12 = {
+		birth=yes
+	}
+	1200.1.1 = {
+		death=yes
+	}
+}
+
+400014 = {
+	name="Jackel"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 316
+
+	1118.8.22 = {
+		birth=yes
+	}
+	1144.06.06 = {
+		add_spouse = 400147
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400015 = {
+	name="Hubert"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 321
+	father = 400029
+	mother = 400154
+   	diplomacy=3
+   	martial=5
+	stewardship=5
+   	intrigue=10
+	learning=2
+	health = 6.5
+	trait="hubert"
+	trait="elusive_shadow"
+	trait="dark_magic_adept"
+	trait="quick"
+	trait="schemer"
+	trait="content"
+	trait="cruel"
+	trait="cynical"
+	trait="deceitful"
+	trait="paranoid"
+	disallow_random_traits = yes
+
+
+	1160.4.17 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_dark_miasma
+			set_character_flag = spell_dark_mire
+			set_character_flag = spell_dark_banshee
+			set_character_flag = spell_dark_death
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400016 = {
+	name="Bernadetta"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	father = 400007
+	mother = 400159
+
+	dynasty = 310
+   	diplomacy=4
+   	martial=3
+	stewardship=7
+   	intrigue=1
+	learning=8
+	health = 6.5
+	trait="bernadetta"
+	trait="thrifty_clerk"
+	trait="crest_minor_indech"
+	trait="gardener"
+	trait="poet"
+	trait="kind"
+	trait="content"
+	trait="craven"
+	trait="paranoid"
+	trait="shy"
+	disallow_random_traits = yes
+
+	1162.12.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400017 = {
+	name="Ferdinand"
+	religion="edelist"
+	culture="adrestian"
+	father = 400006
+	mother = 400155
+	dynasty = 309
+   	diplomacy=9
+   	martial=7
+	stewardship=8
+   	intrigue=1
+	learning=3
+	health = 6.5
+	trait="ferdinand"
+	trait="charismatic_negotiator"
+	trait="crest_minor_cichol"
+	trait="groomed"
+	trait="diligent"
+	trait="proud"
+	trait="honest"
+	trait="just"
+	trait="stubborn"
+	trait="cavalry_leader"
+	disallow_random_traits = yes
+
+	1162.4.30 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400018 = {
+	name="Caspar"
+	religion="edelist"
+	culture="adrestian"
+	father = 400004
+	mother = 400157
+	dynasty = 307
+   	diplomacy=4
+   	martial=9
+	stewardship=3
+   	intrigue=2
+	learning=2
+	health = 6.5
+	trait="caspar"
+	trait="tough_soldier"
+	trait="robust"
+	trait="duelist"
+	trait="humble"
+	trait="wroth"
+	trait="brave"
+	trait="trusting"
+	trait="aggressive_leader"
+	disallow_random_traits = yes
+
+	1163.7.1 = {
+		birth=yes
+	}
+	1169.5.9 = {
+		effect={ 
+			set_relation_friend=400019
+		}
+	}
+	1200.1.1={
+		death = yes
+	}
+}
+
+400019 = {
+	name="Linhardt"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 317
+	father = 400038
+	mother = 400156
+   	diplomacy=5
+   	martial=3
+	stewardship=6
+   	intrigue=3
+	learning=9
+	health = 6.5
+	trait="linhardt"
+	trait="scholarly_theologian"
+	trait="reason_magic_adept"
+	trait="faith_magic_adept"
+	trait="genius"
+	trait="crest_minor_cethleann"
+	trait="scholar"
+	trait="slothful"
+	trait="cynical"
+	trait="erudite"
+	trait="honest"
+	disallow_random_traits = yes
+
+	1163.11.7 = {
+		birth=yes
+	}
+	1169.5.9 = {
+		effect={ 
+			set_relation_friend=400018
+		}
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_wind
+			set_character_flag = spell_reason_fire
+			set_character_flag = spell_reason_cuttinggale
+			set_character_flag = spell_reason_bolganone
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_faith_nosferatu
+			set_character_flag = spell_faith_physic
+			set_character_flag = spell_faith_restore
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400020 = {
+	name="Dorothea"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	dynasty = 318
+	mother = 400162	
+
+   	diplomacy=8
+   	martial=3
+	stewardship=4
+   	intrigue=6
+	learning=6
+	health = 6.5
+	trait="dorothea"
+	trait="charismatic_negotiator"
+	trait="reason_magic_adept"
+	trait="bastard"
+	trait="songstress"
+	trait="fair"
+	trait="groomed"
+	trait="charitable"
+	trait="kind"
+	trait="humble"
+	trait="lustful"
+	trait="cynical"
+	disallow_random_traits = yes
+
+	1161.9.29 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		#give_nickname = nick_the_mystical_songstress
+		employer = 400000
+		effect = {
+			set_character_flag = spell_reason_thunder
+			set_character_flag = spell_reason_thoron
+			set_character_flag = spell_reason_sagittae
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400021 = {
+	name="Petra"
+	religion="edelist"
+	culture="brigid"
+	female = yes
+   	diplomacy=4
+   	martial=8
+	stewardship=7
+   	intrigue=2
+	learning=2
+	health = 6.5
+	trait="petra"
+	trait="agile"
+	trait="skilled_tactician"
+	trait="light_foot_leader"
+	trait="hunter"
+	trait="diligent"
+	trait="temperate"
+	trait="brave"
+	disallow_random_traits = yes
+
+	1164.9.7 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		employer = 400000
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400022 = {
+	name="Jeritza"
+	religion="edelist"
+	culture="adrestian"
+	father = 400036
+	mother = 400034
+	dynasty = 304
+   	diplomacy=1
+   	martial=9
+	stewardship=3
+   	intrigue=5
+	learning=1
+	health = 6.5
+
+	trait="jeritza"
+	trait="brilliant_strategist"
+	trait="crest_minor_lamine"
+	trait="strong"
+	trait="robust"
+	trait="duelist"
+	trait="wroth"
+	trait="brave"
+	trait="just"
+	trait="kinslayer"
+	trait="berserker"
+	trait="aggressive_leader"
+	trait="adopted"
+	trait="reason_magic_apprentice"
+	disallow_random_traits = yes
+
+	1158.3.4 = {
+		birth=yes
+	}
+	1181.1.1 = {
+
+		#give_nickname = nick_death_knight
+		effect = {
+			add_artifact = ancient_scythe_sariel
+			spawn_date = -1.1.1
+			add_artifact = relic_rafail_gem
+			spawn_date = -1.1.1
+			set_character_flag=spell_reason_thunder
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400023 = {
+	name="Ionius"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 300
+	father = 500024
+   	diplomacy=5
+   	martial=3
+	stewardship=5
+   	intrigue=2
+	learning=6
+	trait="ionius"
+	trait="underhanded_rogue"
+	trait="depressed"
+	trait="celibate"
+	trait="infirm"
+	trait="feeble"
+	trait="temperate"
+	trait="content"
+	trait="celibate"
+	disallow_random_traits = yes
+
+	1118.1.11 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		add_spouse = 400028
+	}
+	1171.1.1 = {
+		remove_spouse = 400028
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400024 = {
+	name="Volkhard"
+	religion="edelist"
+	culture="adrestian"
+	father = 400049
+	dynasty = 319
+   	diplomacy=8
+   	martial=6
+	stewardship=8
+   	intrigue=9
+	learning=7
+	health = 6.5
+
+	trait="arundel"
+	trait="midas_touched"
+	trait="reason_magic_adept"
+	trait="dark_magic_master"
+	trait="shrewd"
+	trait="schemer"
+	trait="proud"
+	trait="diligent"
+	trait="ambitious"
+	trait="arbitrary"
+	trait="cruel"
+	trait="cynical"
+	trait="deceitful"
+	trait="gregarious"
+	disallow_random_traits = yes
+
+	1136.1.11 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_thoron
+			set_character_flag = spell_dark_hades
+			set_character_flag = spell_dark_death
+			set_character_flag = spell_dark_quake
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400025 = {
+	name="Randolph"
+	religion="edelist"
+	culture="adrestian"
+	father = 400030
+	mother = 400158
+	dynasty = 307
+   	diplomacy=3
+   	martial=7
+	stewardship=5
+   	intrigue=4
+	learning=3
+	trait="randolph"
+	trait="skilled_tactician"
+	trait="strong"
+	trait="brave"
+	trait="proud"
+	trait="honest"
+	trait="stubborn"
+	trait="unyielding_leader"
+	disallow_random_traits = yes
+
+	1155.7.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400026 = {
+	name="Fleche"
+	religion="edelist"
+	culture="adrestian"
+	father = 400030
+	mother = 400158
+	female = yes
+	dynasty = 307
+
+	intrigue = 6
+	trait="fleche"
+	trait = "fortune_builder"
+	trait = "kind"
+	trait = "deceitful"
+	trait = "content"
+
+	1163.2.26 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400027 = {
+	name="Ladislava"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	dynasty = 320
+   	diplomacy=5
+   	martial=8
+	stewardship=5
+   	intrigue=1
+	learning=1
+
+	trait="ladislava"
+	trait="skilled_tactician"
+	trait="robust"
+	trait="diligent"
+	trait="humble"
+	trait="content"
+	trait="brave"
+	trait="trusting"
+	trait="experimenter"
+	disallow_random_traits = yes
+
+	1160.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400028 = {
+	name="Patricia"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	dynasty = 319
+	father = 400049
+
+	trait="flamboyant_schemer"
+	trait="lustful"
+	trait="quick"
+	trait="charitable"
+	trait="ambitious"
+
+	1128.5.3 = {
+		birth=yes
+	}
+	1158.1.1 = {
+		add_spouse = 400023
+	}
+	1171.1.1 = {
+		remove_spouse = 400023
+		add_spouse = 300023
+	}
+	1176.3.10={
+		death=yes
+	}
+}
+
+400029 = {
+	name="Decimus"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 321
+
+	trait="intricate_webweaver"
+	trait="deceitful"
+	trait="ambitious"
+	trait="wroth"
+
+	1136.2.6 = {
+		birth=yes
+	}
+
+	1158.1.1 = {
+		add_spouse = 400154
+	}
+
+	1181.3.15={
+		death=yes
+	}
+}
+
+400030 = {
+	name="Jarvis" #Grandfather Caspar
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 307
+
+	trait = "brilliant_strategist"
+	trait = "wroth"
+	trait = "duelist"
+	trait = "honest"
+	trait = "strong"
+
+	1110.2.1 = {
+		birth=yes
+	}
+	1149.1.1={
+		add_spouse = 400158
+	}
+	1168.3.30={
+		death=yes
+	}
+}
+
+400031 = { 
+	name="Monica"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	dynasty = 325
+	father = 400040
+	mother = 400163
+
+	trait="monica"
+	
+
+	1161.5.10 = {
+		birth=yes
+	}
+	1181.1.1={
+		death=yes
+	}
+}
+
+400032 = {
+	name="Mother Caspar"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+
+	1120.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400033 = {
+	name="mother father randolph and fleche"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+
+	1120.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400034 = {
+	name="Marcella"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	female = yes
+
+	trait = "martial_cleric"
+	trait = "groomed"
+	trait = "theologian"
+	trait = "kind"
+	trait = "humble"
+	trait = "patient"
+	trait = "gardener"
+	trait = "faith_magic_initiate"
+
+	1120.8.5 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		add_spouse = 400035
+	}
+	1157.5.27 = {
+		remove_spouse = 400035
+		add_spouse = 400036
+	}
+	1167.1.1 = {
+		remove_spouse = 400036
+		add_spouse = 300084
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_faith_physic
+		}
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400035 = {
+	name="Julius" #father mercie
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 301
+
+	trait = "fortune_builder"
+	trait = "gamer"
+	trait = "kind"
+	trait = "is_fat"
+	trait = "shrewd"
+
+	1118.2.26 = {
+		birth=yes
+	}
+	1140.1.1 = {
+		add_spouse = 400034
+	}
+	1157.2.5={
+		death=yes
+	}
+}
+
+400036 = {
+	name="Gustav" #father jeritza
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 322
+	father = 400174
+
+	trait = "flamboyant_schemer"
+	trait = "cruel"
+	trait = "lustful"
+	trait = "greedy"
+	trait = "wroth"
+	trait = "envious"
+	trait = "arbitrary"
+	trait = "uncouth"
+
+	1125.9.7 = {
+		birth=yes
+	}
+	1157.5.27 = {
+		add_spouse = 400034
+	}
+	1167.1.1 = {
+		remove_spouse = 400034
+	}
+	1168.11.30={
+		death = {
+			death_reason = death_murder 
+			killer = 400022
+		}
+	}
+}
+
+400037 = {
+	name="Monica"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 323
+	father=400068
+	disallow_random_traits=yes
+	trait="flamboyant_schemer"
+	trait="fair"
+	trait="poet"
+	trait="cruel"
+	trait="patient"
+	trait="just"
+	trait="deceitful"
+	trait="gregarious"
+	trait="groomed"
+	trait="reason_magic_initiate"
+
+	1153.9.22 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_fire
+			set_character_flag = spell_reason_thoron
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400038 = {
+	name="Reinhardt" #father linhardt
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 317
+	father=400063
+
+	trait="midas_touched"
+	trait="administrator"
+	trait="slothful"
+
+	1133.7.10 = {
+		birth=yes
+	}
+
+	1155.1.1 = {
+		add_spouse = 400156
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400039 = {
+	name="Alexios"
+	religion="edelist"
+	culture="adrestian"
+	father=400075
+	dynasty = 324
+	disallow_random_traits=yes
+	trait="flamboyant_schemer"
+	trait="hedonist"
+	trait="fair"
+	trait="groomed"
+	trait="dull"
+	trait="lustful"
+	trait="gluttonous"
+	trait="drunkard"
+	trait="proud"
+	trait="patient"
+	trait="sturdy"
+	trait="dark_magic_apprentice"
+	
+
+	1137.8.15 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_dark_swarm
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400040 = {
+	name="Werner" #monica father
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 325
+
+	trait="misguided_warrior"
+	trait="brave"
+	trait="stressed"
+	trait="stubborn"
+	trait="humble"
+	trait="arbitrary"
+	trait="paranoid"
+	trait="faith_magic_apprentice"
+	trait="reason_magic_apprentice"
+
+	1139.1.26 = {
+		birth=yes
+	}
+
+	1161.1.1={
+		add_spouse = 400163
+	}
+
+	1180.10.12={
+		death=yes
+	}
+}
+
+400041 = {
+	name="Jarvis" #bartels who now rules
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 322
+	father = 400177
+
+	1141.5.6 = {
+		birth=yes
+	}
+	1164.4.22={
+		add_spouse = 400173
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+
+400043 = {
+	name="Orion"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 327
+	mother=400079
+	disallow_random_traits=yes
+	trait="tough_soldier"
+	trait="cruel"
+	trait="impaler"
+	trait="content"
+	trait="slothful"
+	trait="shy"
+	trait="arbitrary"
+	trait="honest"
+	trait="aggressive_leader"
+	trait="ugly"
+	trait="humble"
+
+	1148.10.10 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400044 = {
+	name="Hildebrandt"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 328
+	disallow_random_traits=yes
+	trait="skilled_tactician"
+	trait="zealous"
+	trait="just"
+	trait="wroth"
+	trait="stubborn"
+	trait="proud"
+	trait="temperate"
+	trait="honest"
+	trait="charitable"
+	trait="holy_warrior"
+	trait="rough_terrain_leader"
+	trait="scarred_mid"
+	trait="faith_magic_adept"
+
+
+	1122.4.17 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_nosferatu
+			set_character_flag = spell_faith_seraphim
+			set_character_flag = spell_faith_abraxas
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400045 = {
+	name="Lothar"
+	religion="edelist"
+	secret_religion = "faith_of_seiros"
+	culture="adrestian"
+	dynasty = 329
+	disallow_random_traits=yes
+	trait="intricate_webweaver"
+	trait="patient"
+	trait="ambitious"
+	trait="kind"
+	trait="charitable"
+	trait="just"
+	trait="slothful"
+	trait="reason_magic_apprentice"
+	
+
+
+	1139.8.27 = {
+		birth=yes
+	}
+	1158.12.12 = {
+		effect = {
+			set_relation_rival = 400047
+		}
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_wind
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400046 = {
+	name="Vanellope"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	dynasty = 351
+
+	1171.12.10 = {
+		birth=yes
+	}
+
+	1179.12.12 = {
+		effect = {
+			set_relation_friend = 400179
+		}
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400047 = {
+	name="Hernando"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 331
+	father = 400077
+	disallow_random_traits=yes
+	trait="fortune_builder"
+	trait="zealous"
+	trait="content"
+	trait="just"
+	trait="erudite"
+	trait="paranoid"
+	trait="diligent"
+	trait="brave"
+	trait="defensive_leader"
+	trait="faith_magic_initiate"
+	trait="reason_magic_apprentice"
+
+	1136.7.17 = {
+		birth=yes
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_reason_thunder
+			set_character_flag = spell_reason_cuttinggale
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400048 = {
+	name="Aurelius"
+	religion="edelist"
+	secret_religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 332
+	disallow_random_traits=yes
+	trait="martial_cleric"
+	trait="infirm"
+	trait="trusting"
+	trait="craven"
+	trait="dull"
+	trait="charitable"
+	trait="temperate"
+	trait="humble"
+
+	1114.1.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400049 = {
+	name="Arundel"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 319
+
+	1100.1.11 = {
+		birth=yes
+	}
+	1150.1.1={
+		death=yes
+	}
+}
+
+400050 = {
+	name="Werner" #hanneman uncle
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 303
+	father = 400167
+
+	trait="fortune_builder"
+	trait="crest_minor_indech"
+	trait="administrator"
+	trait="patient"
+
+	1109.3.13 = {
+		birth=yes
+	}
+
+	1131.1.1={
+		add_spouse = 400165
+	}
+
+	1171.6.13={
+		death=yes
+	}
+}
+
+400051 = {
+	name="Wilhelm" #start ionius kids
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+
+	trait = "blood_experiments"
+	trait = "crest_major_seiros"
+
+	1154.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400052 = {
+	name="Adela"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+	female = yes
+
+	trait = "blood_experiments"
+	trait = "crest_minor_seiros"
+
+	1155.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400053 = {
+	name="Annelise"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+	female = yes
+
+	trait = "blood_experiments"
+
+	1156.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400054 = {
+	name="Lycaon"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+
+	trait = "blood_experiments"
+	trait = "incapable"
+
+	1157.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400055 = {
+	name="Ionius"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+
+	trait = "blood_experiments"
+	trait = "crest_minor_flames"
+	trait = "incapable"
+
+	1158.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400056 = {
+	name="Alexander"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+
+	trait = "twin"
+	trait = "blood_experiments"
+	trait = "crest_minor_seiros"
+	trait = "crest_minor_flames"
+
+	1159.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400057 = {
+	name="Alexandra"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+	female = yes
+
+	trait = "twin"
+	trait = "blood_experiments"
+
+	1159.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400058 = {
+	name="Frederick"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+
+	trait = "blood_experiments"
+
+	1161.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400060 = {
+	name="Lynnea"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+	female = yes
+
+	trait = "blood_experiments"
+	trait = "crest_major_seiros"
+	trait = "incapable"
+
+	1163.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400061 = {
+	name="Rudolph" #stop Ionius kids
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 300
+	father = 400023
+
+	trait = "blood_experiments"
+
+	1164.1.11 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400062 = {
+	name="Rupert" #brother caspar
+	religion="edelist"
+	culture="adrestian"
+	father = 400004
+	dynasty = 307
+
+	trait = "skilled_tactician"
+	trait = "strong"
+
+	1151.7.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400063 = {
+	name="Gustav" #grandfather Linhardt
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 317
+
+	trait="genius"
+	trait="scholar"
+
+	1100.02.04 = {
+		birth=yes
+	}
+	1162.4.5={
+		death=yes
+	}
+}
+
+400064 = {
+	name="Elisabeth"
+	religion="faith_of_seiros"
+	secret_religion = "edelist"
+	culture="adrestian"
+	female=yes
+	father=400063
+	dynasty = 317
+	trait="intricate_webweaver"
+	trait="ambitious"
+	trait="diligent"
+	trait="envious"
+	trait="schemer"
+	trait="deceitful"
+	
+	
+
+	1141.02.04 = {
+		birth=yes
+	}
+
+	1161.2.8={
+        	add_spouse=300015
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400065 = {
+	name="Lily"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 323
+	father=400068
+	disallow_random_traits=yes
+	trait="detached_priest"
+	trait="lunatic"
+	trait="fair"
+	trait="poet"
+	trait="cruel"
+	trait="lustful"
+	trait="shy"
+	trait="humble"
+	trait="erudite"
+	trait="mystic"
+
+	1155.2.14 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400066 = {
+	name="Irene"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 323
+	disallow_random_traits=yes
+	father=400068
+	trait="underhanded_rogue"
+	trait="depressed"
+	trait="poet"
+	trait="kind"
+	trait="humble"
+	trait="diligent"
+	trait="shy"
+	trait="trusting"
+	trait="honest"
+	trait="faith_magic_apprentice"
+
+
+	1158.6.16 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_heal
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400067 = {
+	name="Luna"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	father=400068
+	dynasty = 323
+	disallow_random_traits=yes
+	trait="thrifty_clerk"
+	trait="poet"
+	trait="is_malnourished"
+	trait="wroth"
+	trait="diligent"
+	trait="temperate"
+
+
+	1160.12.06 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400068 = {
+	name="Dominik"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 323
+	disallow_random_traits=yes
+	trait="underhanded_rogue"
+	trait="poet"
+	trait="brave"
+	trait="kind"
+	trait="slothful"
+
+
+
+	1130.11.04 = {
+		birth=yes
+	}
+	1173.1.1={
+		death= {death_reason = death_accident}
+	}
+}
+
+400069 = {
+	name="Bertha"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 328
+	father=400044
+	female=yes
+	disallow_random_traits=yes
+	trait="charismatic_negotiator"
+	trait="zealous"
+	trait="just"
+	trait="diligent"
+	trait="proud"
+	trait="wroth"
+	trait="fair"
+	
+
+
+	1142.12.28 = {
+		birth=yes
+	}
+	1159.2.26 = {
+		add_spouse = 400045
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400070 = {
+	name="Wolfram"
+	religion="edelist"
+	secret_religion = "faith_of_seiros"
+	culture="adrestian"
+	dynasty = 329
+	father=400045
+	mother=400069
+	disallow_random_traits=yes
+	trait="tough_soldier"
+	trait="brave"
+	trait="duelist"
+	trait="trusting"
+	trait="kind"
+	trait="honest"
+	trait="holy_warrior"
+	trait="content"
+	
+
+
+	1160.1.11 = {
+		birth=yes
+	}
+	1179.8.3 = {
+		add_spouse = 400066
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400071 = {
+	name="Caspar"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 331
+	father = 400077
+	disallow_random_traits=yes
+	trait="mastermind_theologian"
+	trait="scholar"
+	trait="erudite"
+	trait="kind"
+	trait="trusting"
+	trait="cynical"
+	trait="shy"
+	trait="proud"
+
+
+	1132.2.11 = {
+		birth=yes
+	}
+	1154.2.15={
+		death={death_reason = death_rabble}
+	}
+}
+
+400072 = {
+	name="Anselma"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 328
+	father=400044
+	female=yes
+	disallow_random_traits=yes
+	trait="thrifty_clerk"
+	trait="ugly"
+	trait="temperate"
+	trait="patient"
+	trait="gregarious"
+	
+
+
+	1143.11.4 = {
+		birth=yes
+	}
+	1159.3.3 = {
+		add_spouse = 400047
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400073 = {
+	name="Magni"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 328
+	father=400044
+	disallow_random_traits=yes
+	trait="tough_soldier"
+	trait="ugly"
+	trait="brave"
+	trait="content"
+	trait="gregarious"
+	
+
+
+	1146.11.4 = {
+		birth=yes
+	}
+	1167.3.3 = {
+		add_spouse = 400074
+	}
+	1172.11.20={
+		death={death_reason = death_accident}
+	}
+}
+
+400074 = {
+	name="Agnes"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	father=400075
+	dynasty = 324
+	disallow_random_traits=yes
+	trait="martial_cleric"
+	trait="kind"
+	trait="content"
+	trait="arbitrary"
+
+	1142.3.16 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400075 = {
+	name="Silvanus"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 324
+	disallow_random_traits=yes
+	trait="martial_cleric"
+	trait="just"
+	trait="trusting"
+	trait="charitable"
+	trait="humble"
+
+	1111.11.11 = {
+		birth=yes
+	}
+	1157.3.22={
+		death={death_reason = death_murder_unknown}
+	}
+}
+
+400076 = {
+	name="Hildebrandt"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 328
+	father=400073
+	mother=400074
+	disallow_random_traits=yes
+	trait="rowdy"
+	trait="idolizer"
+
+
+
+	1170.02.03 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400077 = {
+	name="Tacitus"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 331
+	disallow_random_traits=yes
+	trait="fortune_builder"
+	trait="incapable"
+	trait="infirm"
+	trait="kind"
+	trait="diligent"
+
+
+
+	1105.2.11 = {
+		birth=yes
+	}
+	1179.2.14={
+		death=yes
+	}
+}
+
+400078 = {
+	name="Bernadetta"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 327
+	female=yes
+	mother=400079
+	disallow_random_traits=yes
+	trait="thrifty_clerk"
+	trait="shy"
+	trait="diligent"
+	trait="chaste"
+	trait="paranoid"
+
+
+	1145.12.02 = {
+		birth=yes
+	}
+	1167.3.3 = {
+		add_spouse = 200037
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400079 = {
+	name="Livia"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 327
+	female=yes
+	disallow_random_traits=yes
+	trait="underhanded_rogue"
+	trait="gamer"
+	trait="deceitful"
+	trait="kind"
+	trait="gregarious"
+	trait="stubborn"
+
+
+
+	1119.4.02 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400080 = {
+	name="Hilda"
+	religion="faith_of_seiros"
+	culture="leicester"
+	dynasty = 107
+	female=yes
+	mother=400078
+	father=200037
+	disallow_random_traits=yes
+	trait="indolent"
+	trait="haughty"
+	trait="patient"
+
+
+
+	1168.8.16 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400081 = {
+	name="Alicia"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 107
+	female=yes
+	mother=400078
+	father=200037
+	disallow_random_traits=yes
+	trait="timid"
+
+
+
+	1173.8.16 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400082 = {
+	name="Dorothea"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	
+	disallow_random_traits=yes
+	trait="indulgent_wastrel"
+	trait="shy"
+	trait="fair"
+	trait="craven"
+	trait="humble"
+
+
+
+	1140.8.16 = {
+		birth=yes
+	}
+	1157.3.3 = {
+		add_spouse = 400039
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400083 = {
+	name="Harald"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 324
+	father=400039
+	mother=400082
+	disallow_random_traits=yes
+	trait="tough_soldier"
+	trait="chaste"
+	trait="temperate"
+	trait="charitable"
+	trait="wroth"
+	trait="proud"
+	trait="reason_magic_apprentice"
+
+	1158.10.12 = {
+		birth=yes
+	}
+	1176.04.12 = {
+		effect = {
+			set_relation_rival = 400039
+		}
+	}
+	1178.09.13 = {
+		add_spouse = 400067
+	}
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_fire
+		}
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400084 = {
+	name="Franz"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 324
+	father= 400039
+	trait="bastard"
+	
+
+	1156.03.04 = {
+		birth=yes
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400085 = {
+	name="Emile"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 324
+	father= 400039
+	trait="bastard"
+
+	1159.02.02 = {
+		birth=yes
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400086 = {
+	name="Iris"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 324
+	father= 400039
+	trait="bastard"
+
+	1163.04.06 = {
+		birth=yes
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400087 = {
+	name="Oscar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 331
+	father = 400047 
+	mother = 400072
+	disallow_random_traits=yes
+	trait="tough_soldier"
+	trait="kind"
+	trait="cynical"
+	trait="humble"
+	trait="slothful"
+
+
+	1161.11.11 = {
+		birth=yes
+	}
+	1177.07.29 = {
+		effect={ 
+			set_relation_friend=400070
+		}
+	}
+	1180.3.25 = {
+		add_spouse = 400065
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+
+
+400088 = {
+	name="Yngvarr"
+	religion="edelist"
+	secret_religion="faith_of_seiros"
+	culture="adrestian"
+	father=400048
+	dynasty = 332
+	disallow_random_traits=yes
+	trait="intricate_webweaver"
+	trait="patient"
+	trait="shrewd"
+	trait="adopted"
+	trait="ambitious"
+	trait="reason_magic_apprentice"
+
+
+	1158.08.13 = {
+		birth=yes
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_reason_purge
+		}
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400089 = {
+	name="Ferdinand"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 333
+	disallow_random_traits=yes
+	trait="thrifty_clerk"
+	trait="content"
+	trait="humble"
+	trait="just"
+	trait="diligent"
+	trait="patient"
+	trait="charitable"
+
+
+	1112.03.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400090 = {
+	name="Wilhelm"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 334
+	disallow_random_traits=yes
+	trait="tough_soldier"
+	trait="brave"
+	trait="wroth"
+	trait="proud"
+	trait="aggressive_leader"
+
+
+
+	1134.06.06 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400091 = {
+	name="Hubert"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 335
+
+
+
+	1146.02.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400092 = {
+	name="Caspar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 336
+
+
+
+	1142.07.21 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400093 = {
+	name="Linhardt"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 337
+
+
+
+	1151.05.28 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400094 = {
+	name="Ludwig"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 338
+
+
+
+	1139.07.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400095 = {
+	name="Hanneman"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 339
+
+
+
+	1142.03.18 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400096 = {
+	name="Wolfram"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 340
+
+
+	1141.04.19 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400097 = {
+	name="Oscar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 341
+
+
+	1149.06.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400098 = {
+	name="Harald"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 342
+
+
+	1146.06.02 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400099 = {
+	name="Stanislav"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 343
+
+
+	1144.07.12 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400100 = {
+	name="Cassia"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 331
+	female=yes
+	father = 400047
+	mother=400072
+	disallow_random_traits=yes
+	trait="indolent"
+	trait="brooding"
+
+
+	1169.11.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400101 = {
+	name="Walram"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	father = 400002
+
+
+	1136.10.2 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400102 = {
+	name="Gundomar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	father = 400101
+	disallow_random_traits=yes
+	trait="amateurish_plotter"
+	trait="diligent"
+	trait="paranoid"
+	trait="ambitious"
+
+	1158.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400103 = {
+	name="Martin"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	father = 400101
+	disallow_random_traits=yes
+	trait="fortune_builder"
+	trait="diligent"
+	trait="content"
+	trait="proud"
+
+	1163.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400104 = {
+	name="Wolfram"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	father = 400002
+
+	1144.1.1 = {
+		birth=yes
+	}
+	1176.1.1={
+		death=yes
+	}
+}
+
+400105 = {
+	name="Wilhelm"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	father = 400104
+	trait="flamboyant_schemer"
+	trait="content"
+	trait="hedonist"
+	trait="lustful"
+
+	1162.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400106 = {
+	name="Wulfric"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 305
+	father = 400002
+	trait="scholarly_theologian"
+	trait="theologian"
+	trait="content"
+	trait="humble"
+	trait="paranoid"
+
+	1145.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400107 = {
+	name="Amelie"
+	religion="edelist"
+	culture="faerghus"
+	female=yes
+	dynasty = 344
+	disallow_random_traits=yes
+	trait="flamboyant_schemer"
+	trait="proud"
+	trait="ambitious"
+	trait="paranoid"
+	trait="dull"
+	trait="is_fat"
+
+	1150.1.1 = {
+		birth=yes
+	}
+	1179.1.1 = {
+		add_spouse = 400002
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400108 = {
+	name="Waldemar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 305
+	father = 400002
+	mother = 400107
+
+	1180.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400109 = {
+	name="Lothar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	father = 400003
+
+	1175.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400110 = {
+	name="Oscar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	father = 400003
+
+	1180.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400111 = {
+	name="Olga"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 345
+	trait="charismatic_negotiator"
+	trait="chaste"
+	trait="fair"
+
+	1145.1.1 = {
+		birth=yes
+	}
+	1162.1.1 = {
+		add_spouse = 400003
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400112 = {
+	name="Baldur"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	trait="charismatic_negotiator"
+	trait="seducer"
+	trait="shrewd"
+	trait="proud"
+	trait="lustful"
+	trait="greedy"
+	trait="gregarious"
+
+	1144.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400113 = {
+	name="Alison"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	female=yes
+	father=400005
+	real_father=400116
+	mother=400117
+
+	1174.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400114 = {
+	name="Albrecht"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	father=400005
+	real_father=400115
+	mother=400117
+
+	1180.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400115 = {
+	name="Rodwell"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+	father=400116
+	trait="midas_touched"
+	trait="quick"
+	trait="administrator"
+	trait="patient"
+	trait="greedy"
+
+	1157.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		add_lover = 400117
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400116 = {
+	name="Emeric"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 306
+
+	1124.1.1 = {
+		birth=yes
+	}
+	1174.1.1={
+		death=yes
+	}
+}
+
+400117 = {
+	name="Adelinde"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	trait="shrewd"
+	trait="wroth"
+	trait="seductress"
+	trait="arbitrary"
+	trait="charitable"
+
+	1155.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		add_lover = 400115
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400118 = {
+	name="Hanno"
+	religion="edelist"
+	culture="adrestian"
+	trait="shrewd"
+	trait="wroth"
+	trait="seductress"
+	trait="arbitrary"
+	trait="charitable"
+	father=400008
+	dynasty = 308
+
+	1154.1.1 = {
+		birth=yes
+	}
+	1171.1.1 = {
+		add_spouse = 400121
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+
+400119 = {
+	name="Hans"
+	religion="edelist"
+	culture="adrestian"
+	father=400118
+	mother=400121
+	dynasty = 308
+	
+	1180.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400120 = {
+	name="Melchior"
+	religion="edelist"
+	culture="adrestian"
+	trait="tough_soldier"
+	trait="brave"
+	trait="kind"
+	trait="depressed"
+	father=400008
+	dynasty = 308
+
+	1158.1.1 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		add_spouse = 400121
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400121 = {
+	name="Brunhilde"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 346
+
+	1155.1.1 = {
+		birth=yes
+	}
+	1171.1.1 = {
+		add_spouse = 400118
+	}
+	1180.1.1 = {
+		remove_spouse = 400118
+		add_spouse = 400120
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400122 = {
+	name="Alana"
+	religion="edelist"
+	culture="adrestian"
+	female=yes
+	dynasty = 312
+	father=400009
+	mother=400124
+
+	1168.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400123 = {
+	name="Aymar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 312
+	father=400009
+	mother=400124
+
+	1170.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400124 = {
+	name="Antonia"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	female=yes
+	dynasty = 347
+	trait="martial_cleric"
+	trait="celibate"
+	trait="depressed"
+	trait="is_malnourished"
+	trait="zealous"
+	trait="wroth"
+	trait="shy"
+	disallow_random_traits=yes
+
+	1147.1.1 = {
+		birth=yes
+	}
+	1175.1.1={
+		death=yes
+	}
+}
+
+400125 = {
+	name="Meldrick"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	female=yes
+	dynasty = 347
+	trait="tough_soldier"
+	trait="kind"
+	trait="shy"
+	trait="duelist"
+	trait="robust"
+
+	1149.1.1 = {
+		birth=yes
+	}
+	1165.1.1={
+		death=yes
+	}
+}
+
+400126 = {
+	name="Prokop"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	trait="fortune_builder"
+	trait="architect"
+	trait="greedy"
+	trait="shy"
+	trait="slothful"
+	mother=400010
+	father=400133
+
+	1152.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400127 = {
+	name="Mikulas"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	father=400126
+
+	1171.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400128 = {
+	name="Jan"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	father=400126
+
+	1175.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400129 = {
+	name="Oskar"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="physician"
+	trait="mystic"
+	trait="chaste"
+	trait="cynical"
+	mother=400010
+	father=400133
+
+	1157.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400130 = {
+	name="Irma"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 313
+	female=yes
+	trait="mastermind_theologian"
+	trait="erudite"
+	trait="theologian"
+	trait="lustful"
+	trait="zealous"
+	mother=400010
+	father=400133
+
+	1158.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400131 = {
+	name="Zikmund"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	trait="misguided_warrior"
+	trait="duelist"
+	trait="wroth"
+	trait="cruel"
+	trait="trusting"
+	mother=400010
+	father=400133
+
+	1159.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400132 = {
+	name="Ester"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 313
+	female=yes
+	trait="charismatic_negotiator"
+	trait="socializer"
+	trait="gregarious"
+	trait="deceitful"
+	trait="temperate"
+	mother=400010
+	father=400133
+
+	1160.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400133 = {
+	name="Humphrey"
+	religion="faith_of_seiros"
+	culture="leicester"
+	dynasty = 348
+
+	1130.1.1 = {
+		birth=yes
+	}
+	1146.1.1 = {
+		add_spouse=400010
+	}
+	1167.1.1={
+		death=yes
+	}
+}
+
+400134 = {
+	name="Pavel"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 314
+	trait="legit_bastard"
+	trait="tough_soldier"
+	mother=400011
+
+	1153.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400135 = {
+	name="Anton"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 314
+	trait="bastard"
+	trait="flamboyant_schemer"
+	mother=400011
+
+	1160.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400136 = {
+	name="Simone"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 314
+	female=yes
+	trait="bastard"
+	trait="martial_cleric"
+	mother=400011
+
+	1164.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400137 = {
+	name="Wendelin"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 314
+	trait="bastard"
+	mother=400011
+
+	1172.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400138 = {
+	name="Nils"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 314
+	trait="bastard"
+	mother=400011
+
+	1177.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400139 = {
+	name="Joachim"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 315
+	trait="tough_soldier"
+	trait="falconer"
+	mother=400141
+	father=400012
+
+	1162.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400140 = {
+	name="Therese"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 315
+	female=yes
+	trait="tough_soldier"
+	trait="duelist"
+	mother=400141
+	father=400012
+
+	1164.1.1 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400141 = {
+	name="Margarethe"
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 349
+	female=yes
+	trait="fortune_builder"
+	trait="gregarious"
+	trait="feeble"
+	trait="fair"
+	trait="erudite"
+	trait="stubborn"
+	disallow_random_traits=yes
+
+	1124.1.1 = {
+		birth=yes
+	}
+	1161.1.1 = {
+		add_spouse = 400012
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400142 = {
+	name="Gilberte"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	female=yes
+	trait="martial_cleric"
+	trait="kind"
+	trait="feeble"
+	trait="content"
+	trait="paranoid"
+	trait="gardener"
+	trait="chaste"
+	trait="temperate"
+	trait="craven"
+	trait="honest"
+	disallow_random_traits=yes
+
+	1114.09.05 = {
+		birth=yes
+	}
+	1135.12.13 = {
+		add_spouse = 100001
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400143 = {
+	name="Hedwig"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	father = 100001
+	mother = 400142
+	dynasty = 330
+
+	1138.07.30 = {
+		birth=yes
+	}
+	1161.12.13 = {
+		add_spouse = 400145
+	}
+	1171.07.25={
+		death=yes
+	}
+}
+
+400144 = {
+	name="Hermine"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	father = 100001
+	mother = 400142
+	dynasty = 330
+
+	1142.08.07 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400145 = {
+	name="Estelle"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+	dynasty = 350
+
+	1141.08.20 = {
+		birth=yes
+	}
+	1161.12.13 = {
+		add_spouse = 400143
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400146 = {
+	name="Gianni"
+	religion="edelist"
+	culture="adrestian"
+	father = 400143
+	mother = 400145
+	dynasty = 330
+
+	1164.02.02 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400147 = {
+	name="Weide"
+	religion="edelist"
+	culture="adrestian"
+	female = yes
+
+	1128.05.30 = {
+		birth=yes
+	}
+	1144.06.06 = {
+		add_spouse = 400014
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400148 = {
+	name="Marina"
+	religion="faith_of_seiros"
+	culture="adrestian"
+	female = yes
+	father = 400014
+	mother = 400147
+	dynasty = 316
+
+	trait="blood_experiments"
+
+	1145.05.13 = {
+		birth=yes
+	}
+	1149.10.23={
+		death=yes
+	}
+}
+
+400149 = {
+	name="Auguste"
+	religion="edelist"
+	culture="adrestian"
+	father = 400014
+	mother = 400147
+	dynasty = 316
+
+	1146.12.3 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400150 = {
+	name="Aaren"
+	religion="edelist"
+	culture="adrestian"
+	father = 400014
+	mother = 400147
+	dynasty = 316
+
+	1150.12.26 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400151 = {
+	name="Frederik"
+	religion="edelist"
+	culture="adrestian"
+	father = 400014
+	mother = 400147
+	dynasty = 316
+
+	1153.09.21 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400152 = {
+	name="Karl"
+	religion="edelist"
+	culture="adrestian"
+	father = 400014
+	mother = 400147
+	dynasty = 316
+
+	1155.02.10 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400153 = {
+	name="Elodie" 
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 316
+	father = 400014
+	mother = 400147
+	female = yes
+
+	intrigue = 7
+
+	trait="shy"
+	trait="trusting"
+
+	1162.03.05 = {
+		birth=yes
+	}
+	1200.01.01={
+		death=yes
+	}
+}
+
+400154 = {
+	name="Valeria" #hubert mother
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 352
+	female = yes
+
+	trait="thrifty_clerk"
+	trait="quick"
+	trait="deceitful"
+	trait="envious"
+	trait="just"
+
+	1140.11.4 = {
+		birth=yes
+	}
+	
+	1158.1.1 = {
+		add_spouse = 400029
+	}
+	
+	1200.1.1={
+		death=yes
+	}
+}
+
+400155 = {
+	name="Freya" #ferdinand mother
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 353
+	female = yes
+
+	trait="scholarly_theologian"
+	trait="shy"
+	trait="just"
+	trait="content"
+
+	1139.9.2 = {
+		birth=yes
+	}
+
+	1157.1.1 = {
+		add_spouse = 400006
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400156 = {
+	name="Octavia" #mother linhardt
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 354
+	female=yes
+
+	trait="detached_priest"
+	trait="patient"
+	trait="genius"
+	trait="faith_magic_adept"
+
+	1137.12.19 = {
+		birth=yes
+	}
+
+	1155.1.1 = {
+		add_spouse = 400038
+	}
+	
+	1181.1.1 = {
+		effect = {
+			set_character_flag = spell_faith_heal
+			set_character_flag = spell_faith_invoke
+			set_character_flag = spell_faith_conjure
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400157 = {
+	name="Linda" #mother caspar
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 355
+	female=yes
+
+	trait="tough_soldier"
+	trait="wroth"
+	trait="lefthanded"
+	trait="diligent"
+
+	1140.11.15 = {
+		birth=yes
+	}
+
+	1158.1.1 = {
+		add_spouse = 400004
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400158 = {
+	name="Adelaide" #randolph and fleche mother
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 356
+	female=yes
+
+	1131.10.21 = {
+		birth=yes
+	}
+
+	1149.1.1={
+		add_spouse = 400030
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400159 = {
+	name="Augusta" #bernie mother
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 357
+	female=yes
+
+	trait="amateurish_plotter"
+	trait="arbitrary"
+	trait="paranoid"
+
+	1139.12.3 = {
+		birth=yes
+	}
+
+	1157.1.1={
+		add_spouse = 400007
+	}
+
+	1181.1.1 = {
+		effect = {
+			give_minor_title = title_regent
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400160 = {
+	name="Marcus" #bernie uncle
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 310
+	father = 400161
+	
+	trait="grey_eminence"
+	trait="kind"
+	trait="content"
+	
+	1141.12.8 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400161 = {
+	name="Rolf" #bernie grandfather
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 310
+
+	trait="scholarly_theologian"
+
+	1120.1.11 = {
+		birth=yes
+	}
+	1182.5.27 = {
+		death=yes
+	}
+}
+
+400162 = {
+	name="Decima" #dorothea mother
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 310
+	female = yes
+
+	trait="naive_appeaser"
+	trait="fair"
+	trait="humble"
+	trait="diligent"
+
+	1133.8.25 = {
+		birth=yes
+	}
+	1171.4.10 = { 
+		death=yes
+	}
+}
+
+400163 = {
+	name="Gloria" #monica mother
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 358
+	female = yes
+
+	trait="martial_cleric"
+	trait="lisp"
+	trait="arbitrary"
+	trait="erudite"
+	trait="zealous"
+
+	1143.4.7 = {
+		birth=yes
+	}
+
+	1161.1.1={
+		add_spouse = 400040
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400164 = {
+	name="Wolfram" #hanneman nephew
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 303
+	father = 400050
+	mother = 400165
+
+	trait="envious"
+	trait="wroth"
+
+	1137.10.19 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400165 = {
+	name="Evelyn" #hanneman aunt
+	religion="edelist"
+	culture="adrestian"
+	dynasty = 359
+	female = yes
+
+	1113.9.1 = {
+		birth=yes
+	}
+
+	1131.1.1={
+		add_spouse = 400050
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400166 = {
+	name="Lothar" #hanneman father
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 303
+	father = 400167
+
+	trait="charismatic_negotiator"
+	trait="crest_major_indech"
+	trait="diligent"
+	trait="honest"
+
+	1105.4.26 = {
+		birth=yes
+	}
+
+	1127.1.1={
+		add_spouse = 400169
+	}
+
+	1168.8.5={
+		death=yes
+	}
+}
+
+400167 = {
+	name="Harald" #hanneman grandfather
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 303
+
+	trait="grey_eminence"
+	trait="kind"
+	trait="genius"
+	trait="crest_minor_indech"
+	trait="zealous"
+
+	1085.1.11 = {
+		birth=yes
+	}
+	1155.1.1={
+		death=yes
+	}
+}
+
+400168 = {
+	name="Adele" #hanneman sister
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 303
+	female = yes
+	father = 400166
+	mother = 400169
+
+	trait="fortune_builder"
+	trait="craven"
+	trait="shy"
+
+	1144.9.19 = {
+		birth=yes
+	}
+	1164.11.12={
+		death=yes
+	}
+}
+
+400169 = {
+	name="Jessica" #hanneman mother
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 360
+	female = yes
+
+	trait="fortune_builder"
+	trait="craven"
+	trait="shy"
+
+	1109.9.8 = {
+		birth=yes
+	}
+
+	1127.1.1={
+		add_spouse = 400166
+	}
+	1145.8.11={
+		death=yes
+	}
+}
+
+400170 = {
+	name="Nathalie" #constance mother
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 326
+	female = yes
+
+	trait="flamboyant_schemer"
+	trait="proud"
+	trait="envious"
+	trait="groomed"
+
+	1137.3.11 = {
+		birth=yes
+	}
+	1154.4.22={
+		add_spouse = 400171
+	}
+	1175.1.29={
+		death=yes
+	}
+}
+
+400171 = {
+	name="Chad" #constance father
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 326
+
+	trait="fortune_builder"
+	trait="proud"
+	trait="ambitious"
+	trait="zealous"
+
+	1135.11.14 = {
+		birth=yes
+	}
+	1154.4.22={
+		add_spouse = 400170
+	}
+	1175.1.29={
+		death=yes
+	}
+}
+
+400172 = {
+	name="Clement" #constance older brother
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 326
+	father = 400171
+	mother = 400170
+
+	trait="martial_cleric"
+	trait="kind"
+	trait="humble"
+	trait="zealous"
+	trait="erudite"
+	trait="physician"
+
+	1158.11.1 = {
+		birth=yes
+	}
+	1175.1.29={
+		death=yes
+	}
+}
+
+400173 = {
+	name="Amaia" #bartels
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 361
+	female = yes
+
+	1144.4.29 = {
+		birth=yes
+	}
+	1164.4.22={
+		add_spouse = 400041
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+400174 = {
+	name="Falk" #bartels
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 322
+	father = 400175
+
+	1104.8.1 = {
+		birth=yes
+	}
+	1162.5.20={
+		death=yes
+	}
+}
+
+400175 = {
+	name="Otto" #bartels
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 322
+	father = 400176
+
+	1085.11.10 = {
+		birth=yes
+	}
+	1153.11.4={
+		death=yes
+	}
+}
+
+400176 = {
+	name="Dougal" #bartels
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 322
+
+	1063.7.4 = {
+		birth=yes
+	}
+	1125.5.11={
+		death=yes
+	}
+}
+
+400177 = {
+	name="Stanislav" #bartels
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 322
+	father = 400178
+
+	1114.12.8 = {
+		birth=yes
+	}
+	1171.1.5={
+		death=yes
+	}
+}
+
+400178 = {
+	name="Murdoch" #bartels
+	religion="faith_of_seiros"
+	culture="adrestian"
+	dynasty = 322
+	father = 400176
+
+	1094.1.5 = {
+		birth=yes
+	}
+	1143.5.23={
+		death=yes
+	}
+}
+
+400179 = {
+	name="Ralph"
+	religion="edelist"
+	culture="adrestian"
+
+	trait="strong"
+	trait="kind"
+
+	1146.1.1= {
+		birth=yes
+	}
+
+	1179.12.12 = {
+		employer = 400046
+		effect = {
+			set_relation_friend = 400046
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+400180 = {
+	name="Metodey"
+	religion="edelist"
+	culture="adrestian"
+
+
+	trait="metodey"
+	trait="flamboyant_schemer"
+	trait="arbitrary"
+	trait="impaler"
+	trait="cruel"
+	trait="deceitfull"
+	disallow_random_traits = yes
+
+	1146.05.08= {
+		birth=yes
+	}
+
+	1181.1.1={
+		death=yes
+	}
+}
