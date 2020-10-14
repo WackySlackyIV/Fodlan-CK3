@@ -36,7 +36,7 @@ cethleann = {
 	character_modifier = {
 		name = holy_site_cethleann_effect_name
 		diplomacy = 1
-		stress_gain_mult = -0.1
+		befriend_scheme_power_mult = 0.25
 	}
 }
 

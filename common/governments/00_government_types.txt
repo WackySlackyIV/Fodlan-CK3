@@ -191,16 +191,17 @@ trading_kingdom_government = {
 	rulers_should_have_dynasty = yes
 	dynasty_named_realms = yes
 
-	fallback = 1
-
 	primary_holding = city_holding
-	required_county_holdings = { city_holding castle_holding church_holding }
+	valid_holdings = { castle_holding }
+	required_county_holdings = { city_holding castle_holding }
+
+	preferred_religions = { reqonn_de_opulencia_religion }
 
 	vassal_contract = {
 		feudal_government_taxes
 		feudal_government_levies
 		special_contract
-		religious_rights
+		religious_righzts
 		fortification_rights
 		coinage_rights
 		succession_rights
@@ -208,6 +209,11 @@ trading_kingdom_government = {
 		council_rights
 		title_revocation_rights
 	}
-	
+
+	character_modifier = { 
+		city_holding_build_speed = -0.05
+		city_holding_holding_build_speed = -0.05
+	}
+
 	color = { 210 125 165 }
 }
