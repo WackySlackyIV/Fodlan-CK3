@@ -42,12 +42,12 @@ race_nabatean = {
     
    	eye_color = {  
 		#green  eyes
-		100 = { 0.5 0.3 0.6 0.7 }       
+		100 = { 0.55 0.2 0.62 0.7 }       
   	 }
 
   	hair_color = {
 		#green hair
-		100 = { 0.65 0.2 0.67 0.5 }
+		100 = { 0.55 0.2 0.62 0.7 }
    	}
 	race_gene_nabatean_ears = {
         	100 = {  
