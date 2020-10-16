@@ -21,15 +21,16 @@
 	health = 6.5
    	mother = 500001
 
-	trait = rhea
 	trait = zealous
-	trait = child_goddess
+	trait = arbitrary
+	trait = vengeful
+	
 	trait = education_learning_4
-	trait = just
-	trait = temperate
-	trait = diligent
-	trait = chaste
-
+	trait = child_goddess
+	trait = crest_major_seiros
+	trait = physique_good_1
+	trait = theologian
+	disallow_random_traits = yes
 
 	60.1.11 = {
 		birth = yes

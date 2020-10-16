@@ -1,0 +1,794 @@
+crest_minor_seiros = {
+	index = 401
+
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	learning = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_seiros
+	level = 1
+	
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_seiros = {
+	index = 402
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 2
+	learning = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_seiros
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_flames = {
+	index = 403
+
+	diplomacy = 1
+	martial = 2
+	stewardship = 1
+	intrigue = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_flames
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_flames = {
+	index = 404
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 2
+	intrigue = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_flames
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_macuil = {
+	index = 405
+
+	martial = 3
+	learning = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_macuil
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_macuil = {
+	index = 406
+
+	martial = 6
+	learning = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_macuil
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_indech = {
+	index = 407
+
+	health = 0.5
+	martial = 1
+	learning = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_indech
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_indech = {
+	index = 408
+
+	health = 1
+	martial = 2
+	learning = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_indech
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_cichol = {
+	index = 409
+
+	diplomacy = 1
+	stewardship = 2
+	learning = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_cichol
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_cichol = {
+	index = 410
+
+	diplomacy = 2
+	stewardship = 4
+	learning = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_cichol
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_cethleann = {
+	index = 411
+
+	health = 1 
+	learning = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_cethleann
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_cethleann = {
+	index = 412
+
+	health = 2
+	learning = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_cethleann
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_riegan = {
+	index = 413
+
+	diplomacy = 1
+	intrigue = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_riegan
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_riegan = {
+	index = 414
+
+	diplomacy = 2
+	intrigue = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_riegan
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_lamine = {
+	index = 415
+
+	learning = 3
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_lamine
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_lamine = {
+	index = 416
+
+	learning = 6
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_lamine
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_goneril = {
+	index = 417
+
+	martial = 1
+	intrigue = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_goneril
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_goneril = {
+	index = 418
+
+	martial = 2
+	intrigue = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_goneril
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_gloucester = {
+	index = 419
+
+	stewardship = 2
+	learning = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_gloucester
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_gloucester = {
+	index = 420
+
+	stewardship = 4
+	learning = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_gloucester
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_gautier = {
+	index = 421
+
+	diplomacy = 2
+	martial = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_gautier
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_gautier = {
+	index = 422
+
+	diplomacy = 4
+	martial = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_gautier
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_fraldarius = {
+	index = 423
+
+	martial = 2
+	intrigue = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_fraldarius
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_fraldarius = {
+	index = 424
+
+	martial = 4
+	intrigue = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_fraldarius
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_dominic = {
+	index = 425
+
+	diplomacy = 1
+	learning = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_dominic
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_dominic = {
+	index = 426
+
+	diplomacy = 2
+	learning = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_dominic
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_daphnel = {
+	index = 427
+
+	diplomacy = 3
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_daphnel
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_daphnel = {
+	index = 428
+
+	diplomacy = 6
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_daphnel
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_charon = {
+	index = 429
+
+	martial = 2
+	learning = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_charon
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_charon = {
+	index = 430
+
+	martial = 4
+	learning = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_charon
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_blaiddyd = {
+	index = 431
+
+	martial = 3
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_blaiddyd
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_blaiddyd = {
+	index = 432
+
+	martial = 6
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_blaiddyd
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_aubin = {
+	index = 433
+
+	intrigue = 3
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_aubin
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_aubin = {
+	index = 434
+
+	intrigue = 6
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_aubin
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_chevalier = {
+	index = 435
+
+	diplomacy = 1
+	martial = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_chevalier
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_chevalier = {
+	index = 436
+
+	diplomacy = 2
+	martial = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_chevalier
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_ernest = {
+	index = 437
+
+	stewardship = 3
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_ernest
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_ernest = {
+	index = 438
+
+	stewardship = 6
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_ernest
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_noa = {
+	index = 439
+
+	diplomacy = 2
+	intrigue = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_noa
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_noa = {
+	index = 440
+
+	diplomacy = 4
+	intrigue = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_noa
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_timotheos = {
+	index = 441
+
+	stewardship = 2
+	intrigue = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_timotheos
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_timotheos = {
+	index = 442
+
+	stewardship = 4
+	intrigue = 2
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_timotheos
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_minor_maurice = {
+	index = 443
+
+	stewardship = 2
+	intrigue = 1
+	prowess = 5
+	
+	attraction_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_maurice
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_maurice = {
+	index = 444
+
+	stewardship = 2
+	learning = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_maurice
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}

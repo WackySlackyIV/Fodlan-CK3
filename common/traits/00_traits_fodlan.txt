@@ -9,7 +9,7 @@
 	stewardship = 3
 	intrigue = 3
 	learning = 3
-	prowess = 10
+	prowess = 20
 	random_creation = 0
 
 	desc = {
