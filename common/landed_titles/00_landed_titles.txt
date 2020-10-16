@@ -12168,7 +12168,7 @@ e_albinea = {
                                                                       
                                                         }
                                                         
-                                                        b_nackawic = {
+                                                        b_nackawac = {
                                                                       province = 1130
                                                                       
                                                                       color = { 139 166 116 }
@@ -12242,7 +12242,7 @@ e_albinea = {
                                                                       
                                                         }
                                                         
-                                                        b_oromocto = {
+                                                        b_oroto = {
                                                                       province = 1136
                                                                       
                                                                       color = { 139 166 116 }
@@ -12340,7 +12340,7 @@ e_albinea = {
                                                                       
                                                         }
                                                         
-                                                        b_tasius = {
+                                                        b_banabke = {
                                                                       province = 1144
                                                                       
                                                                       color = { 77 99 55 }
@@ -12398,7 +12398,7 @@ e_albinea = {
                                                         color = { 77 99 55 }
                                                         color2 = { 255 255 255 }
                                                         
-                                                        b_naajat = {
+                                                        b_jatnar = {
                                                                       province = 1149
                                                                       
                                                                       color = { 77 99 55 }
@@ -12534,7 +12534,7 @@ e_albinea = {
                                                         color = { 77 99 55 }
                                                         color2 = { 255 255 255 }
                                                         
-                                                        b_naajat = {
+                                                        b_jatnar = {
                                                                       province = 1149
                                                                       
                                                                       color = { 77 99 55 }
