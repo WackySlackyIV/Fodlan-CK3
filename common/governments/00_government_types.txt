@@ -201,7 +201,7 @@ trading_kingdom_government = {
 		feudal_government_taxes
 		feudal_government_levies
 		special_contract
-		religious_righzts
+		religious_rights
 		fortification_rights
 		coinage_rights
 		succession_rights
