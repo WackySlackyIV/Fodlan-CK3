@@ -4,9 +4,9 @@ doctrine_fodlan_tenets = {
 	group = "core_tenets"
 	number_of_picks = 4
 
-	########################
-	####### Zanadic ########
-	########################
+	###############
+	### Zanadic ###
+	###############
 
 	tenet_school_of_seiros = {
 		is_shown = {
@@ -117,7 +117,11 @@ doctrine_fodlan_tenets = {
 			sins = { sadistic vengeful }
 		}
 	}
-	
+
+	#################
+	### Ablehnist ###
+	#################
+
 	tenet_ablehnistic_ways = {
 		is_shown = {
 			always = no
@@ -131,7 +135,9 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			learning = 1
+			custom_description_no_bullet = {
+				text = bellum_justum_effect
+			}
 		}
 
 		traits = {	
@@ -140,9 +146,61 @@ doctrine_fodlan_tenets = {
 		}
 	}
 
-	####################
-	##### BRIGID #######
-	####################
+	tenet_pen_my_sword = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_learning_lifestyle_xp_gain_mult = 0.2
+		}
+
+		traits = {	
+			virtues = { calm }
+			sins = { wrathful }
+		}
+	}
+
+	################
+	### Pantehon ###
+	################
+
+	tenet_cultured_armies = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			same_culture_mercenary_hire_cost_mult = -0.50
+		}
+
+		traits = {	
+			virtues = {  }
+			sins = {  }
+		}
+	}
+
+
+
+
+
+	##############
+	### BRIGID ###
+	##############
 
 	tenet_lamhach_teachings = {
 		is_shown = {
@@ -161,8 +219,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		traits = {	
-			virtues = { hunter_1 diligent content}
-			sins = { impatient lazy ambitious}
+			virtues = { hunter_1 diligent content }
+			sins = { impatient lazy ambitious }
 		}
 	}
 
@@ -183,8 +241,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		traits = {	
-			virtues = { patient diligent content}
-			sins = { impatient lazy ambitious}
+			virtues = { patient diligent content }
+			sins = { impatient lazy ambitious }
 		}
 	}
 
@@ -206,8 +264,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		traits = {	
-			virtues = { patient diligent content}
-			sins = { impatient lazy ambitious}
+			virtues = { patient diligent content }
+			sins = { impatient lazy ambitious }
 		}
 	}
 
@@ -228,8 +286,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		traits = {	
-			virtues = { patient diligent content}
-			sins = { impatient lazy ambitious}
+			virtues = { patient diligent content }
+			sins = { impatient lazy ambitious }
 		}
 	}
 
@@ -252,9 +310,9 @@ doctrine_fodlan_tenets = {
 
 	}
 
-	#############################
-	#### Reqonn de Opulencia ####
-	#############################
+	###########################
+	### Reqonn de Opulencia ###
+	###########################
 
 	tenet_let_the_money_flow = {
 		is_shown = {
@@ -303,7 +361,7 @@ doctrine_fodlan_tenets = {
 		}
 	}
 	
-	tenet_conquest_of_paradise = {
+	tenet_wonders_of_paradise = {
 		is_shown = {
 			always = no
 		}

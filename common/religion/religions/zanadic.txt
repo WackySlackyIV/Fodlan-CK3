@@ -305,8 +305,32 @@
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_warmonger
-
 			doctrine = tenet_ablehnistic_ways
+
+			doctrine = special_doctrine_ecumenical_ablehnist
+			
+		}
+
+		mirenist = {
+			color = { 203 79 140 }
+			icon = germanic
+
+			holy_site = mor_enbarr
+			holy_site = garreg_mach
+			holy_site = merceus
+			holy_site = arianrhod
+			holy_site = fhirdiad
+			holy_site = derdriu
+
+			doctrine = tenet_literalism
+			doctrine = tenet_pen_my_sword
+			doctrine = tenet_warmonger
+			doctrine = tenet_ablehnistic_ways
+
+			doctrine = doctrine_no_head
+			doctrine = doctrine_pluralism_pluralistic
+
+			doctrine = special_doctrine_ecumenical_ablehnist
 			
 		}
 		iarthairic = {

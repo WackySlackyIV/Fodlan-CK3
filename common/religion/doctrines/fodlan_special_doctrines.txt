@@ -10,6 +10,13 @@ special_tolerance = {
 			hostility_override_special_doctrine_ecumenical_zanadic = 1
 		}
 	}
+
+	special_doctrine_ecumenical_ablehnist = {
+		parameters = {
+			hostility_override_special_doctrine_ecumenical_ablehnist = 1
+		}
+	}
+
 	special_doctrine_ecumenical_bilog = {
 		parameters = {
 			hostility_override_special_doctrine_ecumenical_bilog = 0

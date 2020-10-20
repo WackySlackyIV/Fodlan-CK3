@@ -1,19 +1,19 @@
-pantheon_religion = {
-	family = rf_duscur_nuada_sphere
-	graphical_faith = pagan.gfx
+lumentalism_religion = {
+	family = rf_morfis_sphere
+	graphical_faith = pagan_gfx
 
-	pagan_roots = yes
+	pagan_roots = no
 
 	doctrine = abrahamic_hostility_doctrine
 
 	#Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_spiritual_head
 	doctrine = doctrine_gender_equal
-	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
-	doctrine = doctrine_monogamy
+	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
 	doctrine = doctrine_consanguinity_cousins
@@ -32,9 +32,8 @@ pantheon_religion = {
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
-	traits = {
-		virtues = { diligent calm compassionate }
-		sins = { lazy wrathful callous }
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
 	}
 
 	localization = {
@@ -177,36 +176,18 @@ pantheon_religion = {
 		GHWNamePlural = ghw_great_holy_wars
 	}
 
-	custom_faith_icons = {
-		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
-	}
-
 	faiths = {
-		pantheon_faith = {
-			color = { 51 161 150 }
-			icon = mahayana
-
-			holy_site = shambala
-			
-			doctrine = tenet_adaptive
-			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_cultured_armies
-		}
-
-	
-
-		comunetian_faith = {
-			color = { 90 240 150 }
-			icon = mahayana
-
+		kekewey = {
+			color = { 9 151 217 }
+            icon = sunni
+            
 			holy_site = shambala
 
-			doctrine = tenet_adaptive
-			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_cultured_armies
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_reincarnation
 
-			doctrine = doctrine_pluralism_righteous
-			
-		}
+        }
+		
 	}
 }
