@@ -3,7 +3,7 @@
 	child_goddess = {
 
 		dna_modifiers = {
-			color = {
+			morph = {
 				gene = race_gene_nabatean_ears
 				template = nabatean_ears
 				mode = add

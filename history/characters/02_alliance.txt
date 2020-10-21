@@ -103,7 +103,7 @@
 	learning=5
 	health = 6
 
-	#trait = judith
+	trait = judith
 	trait = education_martial_4
 	trait = blademaster_1
 	trait = diligent
@@ -136,7 +136,7 @@
 	trait= craven
 	trait= trusting
 	trait= zealous
-	#trait = faith_magic_apprentice
+	trait = faith_magic_apprentice
 	random_traits = no
 
 	1159.10.23 = {
@@ -159,7 +159,6 @@
 	religion="seirosite"
 	culture="leicester"
 
-	#trait = misguided_warrior"
 	trait = physique_bad_3
 	trait = humble
 	trait = kind
@@ -201,7 +200,7 @@
 	trait = deceitful
 	trait = vengeful
 	trait = patient
-	#trait = reason_magic_apprentice
+	trait = reason_magic_apprentice
 
 	1139.5.28 = {
 		birth=yes
@@ -239,7 +238,7 @@
 
 	trait = education_stewardship_3
 	trait = gregarious
-	#trait = kind
+	trait = kind
 	trait = improvident
 
 	1137.7.18 = {
@@ -349,8 +348,8 @@
 	trait = blademaster_2
 	trait = brave
 	trait = education_martial_prowess_4
-	#trait = experimenter
-	#trait = bon_leader
+	trait = experimenter
+	trait = bon_leader
 	random_traits = no
 
 	1150.1.11 = {
@@ -385,19 +384,17 @@
    	intrigue=10
 	learning=4
 	health = 6.5
-	#trait = claude
-	#trait = elusive_shadow
-	#trait = crest_minor_riegan
+	trait = claude
+	trait = elusive_shadow
+	trait = crest_minor_riegan
 	trait = just
 	trait = shrewd
 	trait = gregarious
 	trait = ambitious
 	trait = schemer
 	trait = patient
-	#trait = arbitrary"
 	trait = deceitful
 	trait = paranoid
-	#trait = trickster"
 	random_traits = no
 
 	1162.7.24 = {
@@ -443,8 +440,7 @@
 	culture="leicester"
 	father=200000
 
-	#trait = underhanded_rogue"
-	#trait = crest_major_riegan"
+	trait = crest_major_riegan
 
 	1142.7.29 = {
 		birth=yes
@@ -467,10 +463,9 @@
    	intrigue=3
 	learning=5
 	health = 6.5
-	#trait = lorenz"
 	trait = education_diplomacy_2
-	#trait = reason_magic_apprentice"
-	#trait = crest_minor_gloucester"
+	trait = reason_magic_apprentice"
+	trait = crest_minor_gloucester
 	trait = improvident
 	trait = ambitious
 	trait = honest
@@ -507,7 +502,6 @@
    	intrigue=2
 	learning=2
 	health = 6.5
-	#trait = raphael"
 	trait = education_martial_2
 	trait = strong
 	trait = physique_good_2
@@ -515,7 +509,6 @@
 	trait = gluttonous
 	trait = stubborn
 	trait = trusting
-	#trait = heavy_infantry_leader"
 	random_traits = no
 
 	1162.5.18 = {
@@ -579,8 +572,6 @@
 	father=200017
 	mother=200018
 
-	#trait = playful"
-	#trait = affectionate"
 	trait = charming
 
 	1167.9.9 = {
@@ -604,7 +595,6 @@
    	intrigue=4
 	learning=8
 	health = 6.5
-	#trait = ignatz"
 	trait = education_stewardship_3
 	trait = architect
 	trait = temperate
@@ -640,19 +630,14 @@
    	intrigue=4
 	learning=9
 	health = 6.5
-	#trait = lysithea"
-	#trait = midas_touched"
-	#trait = dark_magic_adept"
-	#trait = faith_magic_adept"
-	#trait = crest_major_gloucester"
-	#trait = crest_minor_charon"
+	trait = crest_major_gloucester
+	trait = crest_minor_charon
 	trait = intellect_good_3
 	trait = physique_bad_3
-	#trait = erudite"
 	trait = ambitious
 	trait = diligent
-	#trait = wroth"
-	#trait = blood_experiments"
+	trait = wroth"
+	trait = blood_experiments
 	random_traits = no
 
 	1165.2.28 = {
@@ -688,17 +673,9 @@
    	intrigue=2
 	learning=9
 	health = 6.5
-	#trait = marianne"
-	#trait = scholarly_theologian"
-	#trait = faith_magic_adept"
-	#trait = reason_magic_apprentice"
-	#trait = crest_minor_maurice"
+	trait = crest_minor_maurice
 	trait = shy
 	trait = depressed_1
-	#trait = kind"
-	#trait = falconer"
-	#trait = cavalry_leader"
-	#trait = adopted"
 	random_traits = no
 
 	1162.11.23 = {
@@ -731,14 +708,9 @@
    	intrigue=7
 	learning=4
 	health = 6.5
-	#trait = hilda"
 	trait = education_diplomacy_2
-	#trait = crest_minor_goneril"
-	#trait = groomed"
-	#trait = socializer"
-	#trait = kind"
+	trait = crest_minor_goneril
 	trait = lazy
-	#trait = proud"
 	trait = content
 	trait = gregarious
 	random_traits = no
@@ -797,13 +769,10 @@
    	intrigue=4
 	learning=4
 	health = 6.5
-	#trait = leonie"
 	trait = education_martial_3
 	trait = shrewd
-	#trait = sturdy"
 	trait = hunter_2
 	trait = diligent
-	#trait = wroth"
 	trait = brave
 	trait = improvident
 	trait = temperate
@@ -832,9 +801,6 @@
    	intrigue=3
 	learning=3
 
-	#trait = acheron"
-	#trait = naive_appeaser"
-	#trait = reason_magic_apprentice"
 	trait = craven
 
 
@@ -859,7 +825,6 @@
 	trait = education_stewardship_3
 	trait = greedy
 	trait = honest
-	#trait = proud"
 
 	1133.9.13 = {
 		birth=yes
@@ -881,7 +846,6 @@
 	father = 200027
 	mother = 200064
 
-	#trait = midas_touched"
 	trait = honest
 	trait = diligent
 	trait = humble
@@ -934,7 +898,6 @@
 	father = 200030
 	trait = education_martial_2
 	trait = depressed_1
-	#trait = kind"
 	trait = patient
 	trait = shy
 	random_traits = no
@@ -963,7 +926,6 @@
 	mother = 200031
 	trait = education_martial_2
 	trait = ambitious
-	#trait = wroth"
 	trait = honest
 	trait = brave
 	random_traits = no
@@ -1021,8 +983,6 @@
 	culture="leicester"
 	father = 200001
 	mother = 200031
-	#trait = amateurish_plotter"
-	#trait = is_fat"
 	trait = dull
 	trait = deceitful
 	trait = paranoid
@@ -1050,8 +1010,6 @@
 	trait = theologian
 	trait = zealous
 	trait = shy
-	#trait = cruel"
-	#trait = faith_magic_apprentice"
 	random_traits = no
 
 	1138.1.12= {
@@ -1080,9 +1038,7 @@
 	father = 200001
 	mother = 200031
 	female=yes
-	#trait = charismatic_negotiator"
 	trait = just
-	#trait = kind"
 	trait = improvident
 	random_traits = no
 
@@ -1132,7 +1088,6 @@
 	culture="leicester"
 	father = 200001
 	mother = 200031
-	#trait = misguided_warrior"
 	trait = lazy
 	random_traits = no
 
@@ -1157,8 +1112,6 @@
 	mother = 200031
 	trait = education_intrigue_1
 	trait = lustful #Really?
-	#trait = envious"
-	#trait = proud"
 	random_traits = no
 
 
@@ -1183,12 +1136,9 @@
 	dynasty=110
 	religion="seirosite"
 	culture="leicester"
-	#trait = grey_eminence"
 	trait = just
 	trait = weak
-	#trait = groomed"
 	trait = shy
-	#trait = kind"
 	random_traits = no
 
 
@@ -1209,8 +1159,6 @@
 	father=200040
 	religion="seirosite"
 	culture="leicester"
-	#trait = affectionate"
-	#trait = playful"
 	random_traits = no
 
 
@@ -1231,7 +1179,6 @@
 	religion="seirosite"
 	culture="leicester"
 	trait = rowdy
-	#trait = willful"
 	random_traits = no
 
 
@@ -1272,7 +1219,7 @@
 	trait = education_stewardship_2
 	trait = content
 	trait = trusting
-	#trait = kind
+	trait = kind
 
 
 	random_traits = no
@@ -1298,8 +1245,6 @@
 	father=200044
 	mother=200033
 	trait = weak
-	#trait = timid"
-	#trait = conscientious"
 
 
 	random_traits = no
@@ -1321,7 +1266,7 @@
 	culture="leicester"
 	trait = schemer
 	trait = beauty_bad_2
-	#trait = proud"
+	trait = proud"
 	trait = temperate
 	trait = stubborn
 	trait = gregarious
@@ -1475,7 +1420,7 @@
 
 	trait = education_diplomacy_2
 	trait = shy
-	#trait = kind"
+	trait = kind"
 	trait = just
 
 
@@ -1504,9 +1449,7 @@
 	female = yes
 
 	trait = schemer
-	#trait = envious"
 	trait = ambitious
-	#trait = cruel"
 
 	1143.09.5= {
 		birth=yes
@@ -1649,8 +1592,6 @@
 	trait = education_stewardship_3
 	trait = just
 	trait = improvident
-	#trait = proud"
-	#trait = groomed"
 
 	1145.1.12 = {
 		birth=yes
@@ -1671,7 +1612,6 @@
 	culture="leicester"
 	female = yes
 
-	#trait = naive_appeaser"
 	trait = paranoid
 	trait = diligent
 	trait = trusting
@@ -1695,11 +1635,9 @@
 	dynasty = 125
 	female = yes
 
-	#trait = naive_appeaser"
 	trait = paranoid
 	trait = diligent
 	trait = trusting
-	#trait = reason_magic_initiate"
 
 	1147.11.30 = {
 		birth=yes
@@ -1730,7 +1668,6 @@
 
 	trait = theologian
 	trait = just
-	#trait = groomed"
 	1130.5.10 = {
 		birth=yes
 	}
