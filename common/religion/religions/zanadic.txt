@@ -324,7 +324,7 @@
 
 			doctrine = tenet_literalism
 			doctrine = tenet_pen_my_sword
-			doctrine = tenet_warmonger
+			doctrine = tenet_pacifism
 			doctrine = tenet_ablehnistic_ways
 
 			doctrine = doctrine_no_head

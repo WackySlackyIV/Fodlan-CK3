@@ -1,4 +1,4 @@
-lumentalism_religion = {
+dewa_sheta_ah_religion = {
 	family = rf_morfis_sphere
 	graphical_faith = pagan_gfx
 
@@ -177,17 +177,51 @@ lumentalism_religion = {
 	}
 
 	faiths = {
-		kekewey = {
-			color = { 9 151 217 }
+		inetsaret = {
+			color = { 145 34 186 }
             icon = sunni
             
 			holy_site = shambala
 
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_communal_identity
+			doctrine = tenet_esotericism
 			doctrine = tenet_reincarnation
+			doctrine = tenet_eminence_of_arcane
 
-        }
+		}
+		
+		nekfsaret = {
+			color = { 107 3 31 }
+            icon = sunni
+            
+			holy_site = shambala
+
+			doctrine = tenet_inner_journey 
+			doctrine = tenet_bhakti	
+			doctrine = tenet_reincarnation
+			doctrine = tenet_heavenly_spirits
+
+			doctrine = doctrine_no_head
+			doctrine = doctrine_pluralism_pluralistic
+
+		}
+		
+		sekisaret = {
+			color = { 32 51 37 }
+            icon = sunni
+            
+			holy_site = shambala
+
+			doctrine = tenet_human_sacrifice
+			doctrine = tenet_sacred_shadows
+			doctrine = tenet_reincarnation
+			doctrine = tenet_consuming_the_darkness
+
+			doctrine = doctrine_kinslaying_shunned
+
+		}
+		
+		
 		
 	}
 }

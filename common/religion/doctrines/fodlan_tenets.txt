@@ -384,4 +384,98 @@ doctrine_fodlan_tenets = {
 			sins = { content }
 		}
 	}
+
+	#####################
+	### Dewa Sheta Ah ###
+	#####################
+
+	tenet_eminence_of_arcane = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			intrigue = 1
+		}
+
+		traits = {	
+			virtues = { }
+			sins = { }	
+		}
+	}
+
+	tenet_heavenly_spirits = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			intrigue = 1
+		}
+
+		traits = {	
+			virtues = { }
+			sins = { }	
+		}
+	}
+
+	tenet_consuming_the_darkness = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			intrigue = 1
+		}
+
+		traits = {	
+			virtues = { }
+			sins = { }	
+		}
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
