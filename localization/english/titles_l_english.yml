@@ -1032,7 +1032,7 @@
  b_rieselfeld:0 "Rieselfeld"
  b_lehen:0 "Lehen"
 
- c_guarda:0 "Guarda"
+ c_guarda:0 "Guarda"
  b_guarda:0 "Guarda"
  b_nordhellen:0 "Nordhellen"
  b_ruppmannsburg:0 "Ruppmannsburg"
@@ -1055,7 +1055,7 @@
  b_karlsruhe:0 "Karlsruhe"
 
  c_swabach:0 "Swabach"
- b_swabach:0 "Swabach:
+ b_swabach:0 "Swabach"
  b_osterspai:0 "Osterspai"
  b_steinklingen:0 "Steinklingen"
  
@@ -1187,7 +1187,7 @@
  b_kirchlehen:0 "Kirchlehen"
 
  d_hevring:0 "Hevring"
- c_hevring:0 "Hevring:
+ c_hevring:0 "Hevring"
  b_hevring:0 "Hevring"
  b_hinten:0 "Hinten"
  b_peheim:0 "Peheim"
@@ -1396,7 +1396,7 @@
  b_biel:0 "Biel"
 
  c_tavetsch:0 "Tavetsch"
- b_tavetsch:0 "Tavetsch:
+ b_tavetsch:0 "Tavetsch"
  b_arderal:0 "Arderal"
  b_belp:0 "Belp"
 
