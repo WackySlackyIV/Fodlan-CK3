@@ -14,8 +14,59 @@
 		religion = faith_of_seiros
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 100000
-		position = { 765 590 }
+		position = { 880 540 }
 
 		animation = personality_zealous
+	}
+
+	character = {
+		name = "Oswald"
+		dynasty = 100
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1120.1.11
+		title = k_leicester
+		government = feudal_government
+		culture = leicester
+		religion = faith_of_seiros
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 200000
+		position = { 1100 350 }
+
+		animation = sick
+	}
+
+	character = {
+		name = "Dimitri"
+		dynasty = 200
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1162.12.20
+		title = k_faerghus
+		government = feudal_government
+		culture = faerghus
+		religion = faith_of_seiros
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 300000
+		position = { 930 200 }
+
+		animation = personality_vengeful
+	}
+
+	character = {
+		name = "Edelgard"
+		dynasty = 300
+		dynasty_splendor_level = 1
+		type = female
+		birth = 1162.12.20
+		title = e_adrestia
+		government = feudal_government
+		culture = adrestia
+		religion = ablehnist
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 400000
+		position = { 800 800 }
+
+		animation = war_attacker
 	}
 }

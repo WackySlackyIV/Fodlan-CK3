@@ -1,5 +1,5 @@
 lumentalism_religion = {
-	family = rf_albnea
+	family = rf_albinea
 	graphical_faith = pagan_gfx
 
 	pagan_roots = yes

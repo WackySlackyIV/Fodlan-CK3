@@ -1,6 +1,6 @@
 300000 = {
 	name="Dimitri"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=200
 	father=300023
@@ -40,7 +40,7 @@
 
 300001 = {
 	name="Jose" #father ingrid
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=201
 	mother = 300093
@@ -65,7 +65,7 @@
 
 300002 = {
 	name="Sebastian" #catherine father
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=202
 
@@ -92,7 +92,7 @@
 
 300003 = {
 	name="Roger"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	father=300046
 	dynasty=203
@@ -120,7 +120,7 @@
 
 300004 = {
 	name="Rodrigue"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=204
    	diplomacy=6
@@ -159,7 +159,7 @@
 
 300005 = {
 	name="Aglovain" #father sylvain
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=205
 
@@ -184,7 +184,7 @@
 
 300006 = {
 	name="Rufus"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=200
 	father=300022
@@ -205,7 +205,7 @@
 
 300007 = {
 	name="Gareth"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=207
 	trait="tough_soldier"
@@ -232,7 +232,7 @@
 
 300008 = {
 	name="Remy"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=208
 
@@ -250,7 +250,7 @@
 300009 = {
 	name="Guillame"
 	dynasty=209
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	trait="tough_soldier"
 	trait="ambitious"
@@ -272,7 +272,7 @@
 
 300010 = {
 	name="Miguel"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=210
 	mother=300058
@@ -305,7 +305,7 @@
 
 300011 = {
 	name="Ashe"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
 	father=300024
@@ -335,7 +335,7 @@
 
 300012 = {
 	name="Vladimir"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=212
 
@@ -357,7 +357,7 @@
 
 300013 = {
 	name="Ivor"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=213
 	disallow_random_traits = yes
@@ -387,7 +387,7 @@
 
 300014 = {
 	name="Petrus"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 
 	1130.1.11 = {
@@ -400,7 +400,7 @@
 
 300015 = {
 	name="Gabriel"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	secret_religion = "edelist"
 	culture="faerghus"
 	dynasty=214
@@ -453,7 +453,7 @@
 
 300016 = {
 	name="Olga"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	dynasty=215
@@ -487,7 +487,7 @@
 
 300017 = {
 	name="Kleiman"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=216
 
@@ -501,7 +501,7 @@
 
 300018 = {
 	name="Pan"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=217
 	disallow_random_traits = yes
@@ -526,7 +526,7 @@
 
 300019 = {
 	name="Oscar"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=218
 	disallow_random_traits = yes
@@ -565,7 +565,7 @@
 
 300020 = {
 	name="Victoria"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=219
 	female=yes
@@ -590,7 +590,7 @@
 
 300021 = {
 	name="Arnaud"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=215
 	mother = 300043
@@ -615,7 +615,7 @@
 
 300022 = {
 	name="Nicholas" #lambert father
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	father = 500023
 	dynasty=200
@@ -630,7 +630,7 @@
 
 300023 = {
 	name="Lambert"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=200
 	father=300022
@@ -668,7 +668,7 @@
 
 300024 = {
 	name="Lonato"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
    	diplomacy=7
@@ -698,7 +698,7 @@
 
 300025 = {
 	name="Ingrid"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	dynasty=201
@@ -739,7 +739,7 @@
 
 300026 = {
 	name="Felix"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=204
 	father=300004
@@ -779,7 +779,7 @@
 
 300027 = {
 	name="Glenn"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=204
 	father=300004
@@ -812,7 +812,7 @@
 
 300028 = {
 	name="Sylvain"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=205
 	father=300005
@@ -851,7 +851,7 @@
 
 300029 = {
 	name="Miklan"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=205
 	father=300005
@@ -883,7 +883,7 @@
 
 300030 = {
 	name="Christophe"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
 	father=300024
@@ -902,7 +902,7 @@
 
 300031 = {
 	name="Dedue"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="duscur"
 	dynasty=206
 	father = 300078
@@ -937,7 +937,7 @@
 
 300032 = {
 	name="Mercedes"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	dynasty=301
@@ -997,7 +997,7 @@
 
 300033 = {
 	name="Annette"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	dynasty=221
@@ -1052,7 +1052,7 @@
 
 300034 = {
 	name="Gwendal"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=222
    	diplomacy=1
@@ -1086,7 +1086,7 @@
 
 300035 = {
 	name="Cornelia"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female = yes
 	dynasty=223
@@ -1125,7 +1125,7 @@
 
 300036 = {
 	name="Ellen" #gwendal daughter
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=222
 	father = 300034
@@ -1141,7 +1141,7 @@
 
 300037 = {
 	name="Blanche" #sister ashe
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
 	female = yes
@@ -1161,7 +1161,7 @@
 
 300038 = {
 	name="Aurele" #brother ashe
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
 	father=300024
@@ -1180,7 +1180,7 @@
 
 300039 = {
 	name="Yseult" #sister ingrid
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	dynasty=201
@@ -1197,7 +1197,7 @@
 
 300040 = {
 	name="Alberico" #brother ingrid
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=201
 	father=300001
@@ -1213,7 +1213,7 @@
 
 300041 = {
 	name="Jermaine"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	secret_religion = "edelist"
 	culture="faerghus"
 	dynasty=214
@@ -1237,7 +1237,7 @@
 
 300042 = {
 	name="Marcelius"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	secret_religion = "edelist"
 	culture="faerghus"
 	dynasty=214
@@ -1259,7 +1259,7 @@
 
 300043 = {
 	name="Gwendolyn"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=220
 	female=yes
@@ -1287,7 +1287,7 @@
 
 300044 = {
 	name="Godefroy"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=215
 	mother = 300016
@@ -1312,7 +1312,7 @@
 
 300045 = {
 	name="Adeline"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=215
 	mother = 300016
@@ -1337,7 +1337,7 @@
 
 300046 = {
 	name="Oscar"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=203
 	disallow_random_traits = yes
@@ -1359,7 +1359,7 @@
 
 300047 = {
 	name="Camille"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	father=300046
 	culture="faerghus"
 	dynasty=203
@@ -1378,7 +1378,7 @@
 
 300048 = {
 	name="Liam"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=203
 	father=300046
@@ -1425,7 +1425,7 @@
 
 300049 = {
 	name="Gareth"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=207
 	mother=300045
@@ -1445,7 +1445,7 @@
 
 300050 = {
 	name="Pierre"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=207
 	mother=300045
@@ -1466,7 +1466,7 @@
 
 300051 = {
 	name="Ryan"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=207
 	mother=300045
@@ -1483,7 +1483,7 @@
 
 300052 = {
 	name="Roseline"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	mother = 300016
@@ -1514,7 +1514,7 @@
 
 300053 = {
 	name="Gladys"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	mother = 300052
@@ -1544,7 +1544,7 @@
 
 300054 = {
 	name="Charlotte"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	mother = 300052
@@ -1573,7 +1573,7 @@
 
 300055 = {
 	name="Jerome"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	mother = 300052
 	father = 300013
@@ -1600,7 +1600,7 @@
 
 300056 = {
 	name="Miklan"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=218
 	mother = 200036
@@ -1626,7 +1626,7 @@
 
 300057 = {
 	name="Astrid"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=218
 	female=yes
@@ -1649,7 +1649,7 @@
 
 300058 = {
 	name="Gwendolyn"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=210
 	female=yes
@@ -1671,7 +1671,7 @@
 
 300059 = {
 	name="Emile"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=210
 	mother=300058
@@ -1697,7 +1697,7 @@
 
 300060 = {
 	name="Lucas"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=210
 	mother=300058
@@ -1724,7 +1724,7 @@
 
 300061 = {
 	name="Gaston"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=217
 	father=300018
@@ -1741,7 +1741,7 @@
 
 300062 = {
 	name="Eileen"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=217
 	father=300018
@@ -1759,7 +1759,7 @@
 
 300063 = {
 	name="Lars"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=217
 	father=300018
@@ -1776,7 +1776,7 @@
 
 300064 = {
 	name="Gilda"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=217
 	father=300018
@@ -1795,7 +1795,7 @@
 
 300065 = {
 	name="Robert"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=217
 	father=300018
@@ -1812,7 +1812,7 @@
 
 300066 = {
 	name="Jules"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=215
 	mother=300016
@@ -1839,7 +1839,7 @@
 
 300067 = {
 	name="Killian"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=215
 	father=300066
@@ -1865,7 +1865,7 @@
 
 300068 = {
 	name="Dimitri"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=226
 	
@@ -1880,7 +1880,7 @@
 
 300069 = {
 	name="Evan"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=227
 	
@@ -1895,7 +1895,7 @@
 
 300070 = {
 	name="Emile"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=228
 	
@@ -1910,7 +1910,7 @@
 
 300071 = {
 	name="Gaston"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=229
 	
@@ -1925,7 +1925,7 @@
 
 300072 = {
 	name="Gustave"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=230
 	
@@ -1940,7 +1940,7 @@
 
 300073 = {
 	name="Sebastian"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=231
 	
@@ -1955,7 +1955,7 @@
 
 300074 = {
 	name="Oliviere"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=232
 	
@@ -1970,7 +1970,7 @@
 
 300075 = {
 	name="Hugo"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=233
 	
@@ -1985,7 +1985,7 @@
 
 300076 = {
 	name="Jacques" # the Fox
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=209
 	trait="shrewd"
@@ -2008,7 +2008,7 @@
 
 300077 = {
 	name="Alice"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female = yes
 
@@ -2027,7 +2027,7 @@
 
 300078 = {
 	name="Zamon" #father dedue
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="duscur"
 	dynasty=206
 
@@ -2050,7 +2050,7 @@
 
 300079 = {
 	name="Nephys" #mother dedue
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="duscur"
 	female = yes
 
@@ -2073,7 +2073,7 @@
 
 300080 = {
 	name="Aurelia" #mother felix
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 235
 	female = yes
@@ -2097,7 +2097,7 @@
 
 300081 = {
 	name="Tristain" #brother rodrigue
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 204
 	father = 300082
@@ -2117,7 +2117,7 @@
 
 300082 = {
 	name="Jaques" #father rodrigue
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 204
 
@@ -2132,7 +2132,7 @@
 
 300083 = {
 	name="Lynette" #mother sylvain
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 236
 	female = yes
@@ -2158,7 +2158,7 @@
 
 300084= {
 	name="Lucius" #adoptive father mercedes
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 
 	trait="fortune_builder"
@@ -2182,7 +2182,7 @@
 
 300085= {
 	name="Gwion" #bartels kid 1
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	father = 400036
 
@@ -2202,7 +2202,7 @@
 
 300086= {
 	name="Marque" #bartels kid
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	father = 400036
 
@@ -2222,7 +2222,7 @@
 
 300087= {
 	name="Owain" #bartels kid
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	father = 400036
 
@@ -2243,7 +2243,7 @@
 
 300088= {
 	name="Morgane" #annette mother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 237
 	female = yes
@@ -2275,7 +2275,7 @@
 
 300089= {
 	name="Ecteur" #annette uncle
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 221
 	father = 300091
@@ -2300,7 +2300,7 @@
 
 300090= {
 	name="Claudine" #annette aunt
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 238
 	female = yes
@@ -2325,7 +2325,7 @@
 
 300091= {
 	name="Georges" #annette grandfather
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 221
 
@@ -2340,7 +2340,7 @@
 
 300092= {
 	name="Caelia" #ingrid mother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 239
 	female = yes
@@ -2365,7 +2365,7 @@
 
 300093= {
 	name="Elaine" #ingrid grandmother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 240
 	female = yes
@@ -2388,7 +2388,7 @@
 
 300094 = {
 	name="Lydie" #gwendal wife
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female = yes
 
@@ -2407,7 +2407,7 @@
 
 300095 = {
 	name="Caroline" #catherine sister
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 202
 	female = yes
@@ -2426,7 +2426,7 @@
 
 300096 = {
 	name="Fleur" #catherine sister
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty = 202
 	female = yes
@@ -2445,7 +2445,7 @@
 
 300097 = {
 	name="Alexandra" #catherine mother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	female = yes
 	dynasty = 225
@@ -2469,7 +2469,7 @@
 
 300098 = {
 	name="Angelique" #true mother dimitri
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=234
 	female = yes
@@ -2489,7 +2489,7 @@
 
 300099 = {
 	name="Kiya" #sister dedue
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="duscur"
 	dynasty=206
 	female = yes
@@ -2513,7 +2513,7 @@
 
 300100 = {
 	name="Mabel" #woman magdred
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="faerghus"
 	dynasty=241
 	female = yes
