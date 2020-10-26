@@ -194,10 +194,6 @@ doctrine_fodlan_tenets = {
 		}
 	}
 
-
-
-
-
 	##############
 	### BRIGID ###
 	##############
@@ -215,12 +211,12 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			monthly_prestige_gain_per_happy_powerful_vassal_add = 0.025
 		}
 
 		traits = {	
-			virtues = { hunter_1 diligent content }
-			sins = { impatient lazy ambitious }
+			virtues = { diligent ambitious just }
+			sins = { lazy content arbitrary }
 		}
 	}
 
@@ -237,12 +233,14 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			embarkation_cost_mult = -0.8
+			wetlands_cancel_negative_supply = yes
+			floodplains_cancel_negative_supply = yes
 		}
 
 		traits = {	
-			virtues = { patient diligent content }
-			sins = { impatient lazy ambitious }
+			virtues = { patient calm temperate }
+			sins = { impatient wrathful gluttonous }
 		}
 	}
 
@@ -264,8 +262,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		traits = {	
-			virtues = { patient diligent content }
-			sins = { impatient lazy ambitious }
+			virtues = { patient diligent architect }
+			sins = { impatient lazy }
 		}
 	}
 
@@ -282,12 +280,12 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			martial = 1
+			movement_speed = 0.25
 		}
 
 		traits = {	
-			virtues = { patient diligent content }
-			sins = { impatient lazy ambitious }
+			virtues = { strong diligent brave }
+			sins = { weak lazy craven }
 		}
 	}
 
@@ -306,6 +304,11 @@ doctrine_fodlan_tenets = {
 
 		character_modifier = {
 			prowess = 1
+		}
+
+		traits = {	
+			virtues = { hunter_1 }
+			sins = { lazy }
 		}
 
 	}
