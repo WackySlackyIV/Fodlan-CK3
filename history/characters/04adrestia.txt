@@ -6,6 +6,8 @@
 	female = yes
 	father = 400023
 	mother = 400028
+	dna = dna_edelgard
+
    	diplomacy=4
    	martial=8
 	stewardship=7

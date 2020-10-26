@@ -1707,3 +1707,615 @@
  b_bhorua:0 "Bhorua"
  b_ennislurgan:0 "Ennislurgan"
  
+ e_albinea:0 "Albinea"
+ k_alebion:0 "Alebion"
+ d_kaipokok:0 "Kaipokok"
+ c_baddek:0 "Baddek"
+ b_baddek:0 "Baddek"
+ b_pougash:0 "Pougash"
+ b_trakadiaw:0 "Trakadiaw"
+ b_wagmat:0 "Wagmat"
+
+ c_kipuktuk:0 "Kipuktuk"
+ b_kipuktuk:0 "Kipuktuk"
+ b_whycoco:0 "Whycoco"
+
+ c_cobekwid:0 "Cobekwid"
+ b_cobekwid:0 "Cobekwid"
+ b_buktaw:0 "Buktaw"
+
+ c_sekwum:0 "Sekwum"
+ b_sekwum:0 "Sekwum"
+ b_karaqet:0 "Karaqet"
+
+ d_akuat:0 "Akuat"
+ c_wekqistoq:0 "Wekqistoq"
+ b_wekqistoq:0 "Wekqistoq"
+ b_malak:0 "Malak"
+ b_wadavik:0 "Wadavik"
+
+ c_kejimku:0 "Kejimku"
+ b_kejimku:0 "Kejimku"
+ b_miramichi:0 "Miramichi"
+
+ c_segebunka:0 "Segebunka"
+ b_segebunka:0 "Segebunka"
+ b_meductic:0 "Meductic"
+
+ d_makkovik:0 "Makkovik"
+ c_malagash:0 "Malagash"
+ b_malagash:0 "Malagash"
+ b_mirai:0 "Mirai"
+ b_nackawac:0 "Nackawac"
+
+ c_merigomish:0 "Merigomish"
+ b_merigomish:0 "Merigomish"
+ b_nashwaak:0 "Nashwaak"
+
+ c_stewiake:0 "Stewiake"
+ b_stewiake:0 "Stewiake"
+ b_nauwige:0 "Nauwige"
+
+ d_katmuk:0 "Katmuk"
+ c_nuktaw:0 "Nuktaw"
+ b_nuktaw:0 "Nuktaw"
+ b_oroto:0 "Oroto"
+ b_penniac:0 "Penniac"
+
+ c_piiktaw:0 "Piiktaw"
+ b_piiktaw:0 "Piiktaw"
+ b_kodiak:0 "Kodiak"
+
+ c_takume:0 "Takume"
+ b_takume:0 "Takume"
+ b_penobskee:0 "Penobskee"
+
+ k_bergion:0 "Bergion"
+ d_natwash:0 "Natwash"
+ c_oromocto:0 "Oromocto"
+ b_oromocto:0 "Oromocto"
+ b_kullor:0 "Kullor"
+ b_banabke:0 "Banabke"
+ 
+ c_aapilla:0 "Aapilla"
+ b_aapilla:0 "Aapilla"
+ b_attu:0 "Attu"
+
+ c_ukkusisat:0 "Ukkusisat"
+ b_ukkusisat:0 "Ukkusisat"
+ b_iginniar:0 "Iginniar"
+
+ c_jatnar:0 "Jatnar"
+ b_jatnar:0 "Jatnar"
+ b_siorpaluk:0 "Siorpaluk"
+
+ d_amarok:0 "Amarok"
+ c_akela:0 "Akela"
+ b_akela:0 "Akela"
+ b_nackawic:0 "Nackawic"
+ b_fenroc:0 "Fenroc"
+
+ c_raksha:0 "Raksha"
+ b_raksha:0 "Raksha"
+ b_withmane:0 "Withmane"
+
+ c_sabrodt:0 "Sabrodt"
+ b_sabrodt:0 "Sabrodt"
+ b_qaanaq:0 "Qaanaq"
+ b_kangerlas:0 "Kangerlas"
+
+ d_shehshat:0 "Shehshat"
+ c_naajat:0 "Naajat"
+ b_naajat:0 "Naajat"
+ b_tasius:0 "Tasius"
+
+ c_isertoq:0 "Isertoq"
+ b_isertoq:0 "Isertoq"
+ b_arsuk:0 "Arsuk"
+
+ d_wabunaki:0 "Wabunaki"
+ c_iliamaq:0 "Iliamaq"
+ b_iliamaq:0 "iliamaq"
+ b_haighivik:0 "Haighivik"
+
+ c_sarfang:0 "Sarfang"
+ b_sarfang:0 "Sarfang"
+ b_alluit:0 "Alluit"
+
+ e_morfis:0 "Morfis"
+ k_reqonn:0 "Reqonn"
+ d_bugia:0 "Bugia"
+ c_estiria:0 "Estiria"
+ b_estiria:0 "Estiria"
+ b_brujas:0 "Brujas"
+ b_lieja:0 "Lieja"
+
+ c_claraval:0 "Claraval"
+ b_claraval:0 "Claraval"
+ b_rodano:0 "Rodano"
+ 
+ c_ruan:0 "Ruan"
+ b_ruan:0 "Ruan"
+ b_lorena:0 "Lorena"
+
+ d_arcila:0 "Arcila"
+ c_escania:0 "Escania"
+ b_escania:0 "Escania"
+ b_tiro:0 "Tiro"
+
+ c_capaz:0 "Capaz"
+ b_capaz:0 "Capaz"
+ b_rincon:0 "Rincon"
+
+ k_erisad:0 "Erisad"
+ d_ur_azu:0 "Ur-Azu"
+ c_murkesh:0 "Murkesh"
+ b_murkesh:0 "Murkesh"
+ b_washugan:0 "Washugan"
+ b_mumbaka:0 "Mumbaka"
+ b_arpak:0 "Arpak"
+
+ c_chagar:0 "Chagar"
+ b_chagar:0 "Chagar"
+ b_tarbish:0 "Tarbish"
+ b_araph:0 "Araph"
+
+ c_shubat:0 "Shubat"
+ b_shubat:0 "Shubat"
+ b_shiban:0 "Shiban"
+
+ d_per_shamash:0 "Per Shamash"
+ c_nereb:0 "Nereb"
+ b_nereb:0 "Nereb"
+ b_taremmu:0 "Taremmu"
+
+ c_arad:0 "Arad"
+ b_arad:0 "Arad"
+ b_shedesh:0 "Shedesh"
+
+ d_dur_zisurru:0 "Dur-Zisurru"
+ c_rashnagar:0 "Rashnagar"
+ b_rashnagar:0 "Rashnagar"
+ b_nehebehdet:0 "Nehebehdet"
+
+ c_terkah:0 "Terkah"
+ b_terkah:0 "Terkah"
+ b_tumyattha:0 "Tumyattha"
+ 
+ c_reket:0 "Reket"
+ b_reket:0 "Reket"
+ 
+ d_enlil_arbid:0 "Enlil-Arbid"
+ c_gibeza:0 "Gibeza"
+ b_gibeza:0 "Gibeza"
+ b_nerenu:0 "Nerenu"
+
+ c_qito:0 "Qito"
+ b_qito:0 "Qito"
+ b_akhotep:0 "Akhotep"
+ b_djoramenyet:0 "Djoramenyet"
+
+ c_wadjish:0 "Wadjish"
+ b_wadjish:0 "Wadjish"
+
+ d_basset_marduk:0 "Basset-Marduk"
+ c_klito:0 "Klito"
+ b_klito:0 "Klito"
+ b_buhenekh:0 "Buhenekh"
+
+ c_pthubat:0 "Pthubat"
+ b_pthubat:0 "Pthubat"
+ b_farshish:0 "Farshish"
+
+ c_tarminhor:0 "Tarminhor"
+ b_tarminhor:0 "Tarminhor"
+ b_sukhmen:0 "Sukhmen"
+
+ k_apatis:0 "Apatis"
+ d_niwt_hekau:0 "Niwt-Hekau"
+ c_per_hekau:0 "Per-Hekau"
+ b_per_hekau:0 "Per-Hekau"
+ b_ingesh:0 "Ingesh"
+ b_unalitah:0 "Unalitah"
+ b_udessu:0 "Udessu"
+ b_lialu:0 "Lialu"
+
+ c_djeb:0 "Djeb"
+ b_djeb:0 "Djeb"
+ b_fardjumat:0 "Fardjumat"
+ b_khasanemhat:0 "Kasanemhat"
+
+ c_hakur:0 "Hakur"
+ b_hakur:0 "Hakur"
+ b_amkhamarat:0 "Amkhamarat"
+
+ c_enlil:0 "Enlil"
+ b_enlil:0 "Enlil"
+ b_minatennu:0 "Minatennu"
+ b_khasvet:0 "Khasvet"
+
+ d_per_mardak:0 "Per-Mardak"
+ c_duramon:0 "Duramon"
+ b_duramon:0 "Duramon"
+ b_shanushir:0 "Shanushir"
+
+ c_senethis:0 "Senethis"
+ b_senethis:0 "Senethis"
+ b_ketmeny:0 "Ketmeny"
+ 
+ d_nagar_i_beydar:0 "Nagar-i-Beydar"
+ c_gebet:0 "Gebet"
+ b_gebet:0 "Gebet"
+ b_djafenset:0 "Djafenset"
+ b_nebkhare:0 "Nebkhare"
+
+ c_anat:0 "Anat"
+ b_anat:0 "Anat"
+ b_sekhepesh:0 "Sekhepesh"
+
+ c_rubazzu:0 "Rubazzu"
+ b_rubazzu:0 "Rubazzu"
+ b_annumut:0 "Annumut"
+ b_hebshem:0 "Hebshem"
+
+ d_hom_karanah:0 "Hom-Karanah"
+ c_isfet:0 "Isfet"
+ b_isfet:0 "Isfet"
+ b_khesashut:0 "Khesashut"
+
+ c_waret:0 "Waret"
+ b_waret:0 "Waret"
+ b_neknyamor:0 "Neknyamor"
+
+ c_permakht:0 "Permakht"
+ b_permakht:0 "Permakht"
+ b_zarumash:0 "Zarumash"
+ 
+ c_bostrehwy:0 "Bostrehwy"
+ b_bostrehwy:0 "Bostrehwy"
+ b_khanesfet:0 "Khanesfet"
+
+ d_bal_enlill:0 "Bal-Enlill"
+ c_tjamut:0 "Tjamut"
+ b_tjamut:0 "Tjamut"
+ b_beliit:0 "Beliit"
+ 
+ c_shezzen:0 "Shezzen"
+ b_shezzen:0 "Shezzen"
+ b_tashkur:0 "Tashkur"
+
+ d_nu_gazul:0 "Nu-Gazul"
+ c_biguat:0 "Biguat"
+ b_biguat:0 "Biguat"
+ b_kutal:0 "Kutal"
+
+ c_somenhor:0 "Somenhor"
+ b_somenhor:0 "Somenhor"
+ b_wadji:0 "Wadji"
+
+ c_ashur:0 "Ashur"
+ b_ashur:0 "Ashur"
+
+ d_atana_ili:0 "Atana-Ili"
+ c_kishnarru:0 "Kishnarru"
+ b_kishnarru:0 "Kishnarru"
+ b_pertapsi:0 "Pertapsi"
+
+ c_zirhat:0 "Zirhat"
+ b_zirhat:0 "Zirhat"
+ b_dakhor:0 "Dakhor"
+
+ k_doleh:0 "Doleh"
+ d_gishkharbu_pass:0 "Gishkharbu Pass"
+ c_khasut:0 "Khasut"
+ b_khasut:0 "Khasut"
+
+ c_gilganefer:0 "Gilganefer"
+ b_gilganefer:0 "Gilganefer"
+
+ d_gath_enfeh:0 "Gath-Enfeh"
+ c_khem:0 "Khem"
+ b_khem:0 "Khem"
+ b_emah:0 "Emah"
+
+ c_chadet:0 "Chadet"
+ b_chadet:0 "Chadet"
+ b_nabonahiddu:0 "Nabonahiddu"
+
+ c_sebeh:0 "Sebeh"
+ b_sebeh:0 "Sebeh"
+ b_utuatep:0 "Utuatep"
+ b_behkhamty:0 "Behkhamty"
+
+ d_nu_zau:0 "Nu-Zau"
+ c_burrukammu:0 "Burrukammu"
+ b_burrukammu:0 "Burrukammu"
+ b_isfil:0 "Isfil"
+
+ c_amurri:0 "Amurri"
+ b_amurri:0 "Amurri"
+ 
+ d_abullu_barbu:0 "Abullu-Barbu"
+ c_abulmahhu:0 "Abulmahhu"
+ b_abulmahhu:0 "Abulmahhu"
+ b_nadinapep:0 "Nadinapep"
+ 
+ c_barsarru:0 "Barsarru"
+ b_barsarru:0 "Barsarru"
+ b_liburmetum:0 "Liburmetum"
+ b_hadjet:0 "Hadjet"
+
+ c_abulanshu:0 "Abulanshu"
+ b_abulanshu:0 "Abulanshu"
+ b_gemekh:0 "Gemekh"
+ 
+ d_dur_atum:0 "Dur-Atum"
+ c_ennamhutep:0 "Ennamhutep"
+ b_ennamhutep:0 "Ennamhutep"
+ b_damkhenum:0 "Damkhenum"
+
+ c_ishthut:0 "Ishthut"
+ b_ishthut:0 "Ishthut"
+ b_anunat:0 "Anunat"
+
+ e_al_mihra:0 "Al-Mihra"
+ k_almyra:0 "Almyra"
+ d_aqqa:0 "Aqqa"
+ c_osul:0 "Osul"
+ b_osul:0 "Osul"
+ b_musobozor:0 "Musobozor"
+ b_piyet:0 "Piyet"
+ b_kattarikamysh:0 "Kattarikamysh"
+ b_shakhzut:0 "Shakhzut"
+ b_zarreh:0 "Zarreh"
+
+ c_ziyarut:0 "Ziyarut"
+ b_ziyarut:0 "Ziyarut"
+ b_nayzabulog:0 "Nayzabulog"
+ b_charsem:0 "Charsem"
+
+ c_miyena:0 "Miyena"
+ b_miyena:0 "Miyena"
+ b_khiymot:0 "Khiymot"
+ b_mashaya:0 "Mashaya"
+
+ c_ghuriye:0 "Ghuriye"
+ b_ghuriye:0 "Ghuriye"
+ b_qumash:0 "Qumash"
+ b_gazivlak:0 "Gazivlak"
+
+ c_sor:0 "Sor"
+ b_sor:0 "Sor"
+ b_havibad:0 "Havibad"
+ b_diyezicheh:0 "Diyezicheh"
+
+ d_fahrob:0 "Fahrob"
+ c_kuibulyen:0 "Kuibulyen"
+ b_kuibulyen:0 "Kuibulyen"
+ b_hermok:0 "Hermok"
+ b_novedeh:0 "Novedeh"
+ b_haftaran:0 "Haftaran"
+
+ c_khojildyor:0 "Khojildyor"
+ b_khojildyor:0 "Khojildyor"
+ b_atishisan:0 "Atishisan"
+ b_qeshlakiya:0 "Qeshlakiya"
+
+ c_vedemdara:0 "Vedemdara"
+ b_vedemdara:0 "Vedemdara"
+ b_darrehbad:0 "Darrehbad"
+ b_saqineh:0 "Saqineh"
+
+ d_karcha:0 "Karcha"
+ c_doloniye:0 "Doloniye"
+ b_doloniye:0 "Doloniye"
+ b_kashugen:0 "Kashugen"
+ b_valiabad:0 "Valiabad"
+ b_zigyaravand:0 "Zigyaravand"
+
+ c_surkh:0 "Surkh"
+ b_surkh:0 "Surkh"
+ b_merkehbon:0 "Merkehbon"
+ b_dashtemord:0 "Dashtemord"
+
+ c_chinar:0 "Chinar"
+ b_chinar:0 "Chinar"
+ b_ragbiya:0 "Ragbiya"
+ b_sehtof:0 "Sehtof"
+
+ d_berkniyye:0 "Berkniyye"
+ c_pushtikhargon:0 "Pushtikhargon"
+ b_pushtikhargon:0 "Pushtikhargon"
+ b_raziapur:0 "Raziapur"
+ b_shirehabad:0 "Shirehabad"
+ b_tappehbeya:0 "Tappehbeya"
+ 
+ c_dashtamin:0 "Dashtamin"
+ b_dashtamin:0 "Dashtamin"
+ b_sanga:0 "Sanga"
+ b_murdsar:0 "Murdsar"
+ 
+ c_tartku:0 "Tartku"
+ b_tartku:0 "Tartku"
+ b_kheledabad:0 "Kheledabad"
+ b_kulidnah:0 "Kulidnah"
+
+ d_yezgand:0 "Yezgand"
+ c_qambarast:0 "Qambarast"
+ b_qambarast:0 "Qambarast"
+ b_zaranj:0 "Zaranj"
+ b_hamedapur:0 "Hamedapur"
+ b_shamehna:0 "Shamehna"
+
+ c_pugush:0 "Pugush"
+ b_pugush:0 "Pugush"
+ b_ghalemakht:0 "Ghalemakht"
+ b_qeshmarapur:0 "Qeshmarapur"
+
+ c_kalaishodi:0 "Kalaishodi"
+ b_kalaishodi:0 "Kalaishodi"
+ b_shavaleh:0 "Shavaleh"
+ b_jaffapur:0 "Jaffapur"
+
+ c_chimepe:0 "Chimepe"
+ b_chimepe:0 "Chimepe"
+ b_bazargan:0 "Bazargan"
+
+ d_khurmana:0 "Khurmana"
+ c_kubulyon:0 "Kubulyon"
+ b_kubulyon:0 "Kubulyon"
+ b_beshqareh:0 "Beshqareh"
+ b_gondapur:0 "Gondapur"
+ b_jarreh:0 "Jarreh"
+
+ c_soni:0 "Soni"
+ b_soni:0 "Soni"
+ b_didargahe:0 "Didargahe"
+ b_nashrabad:0 "Nashrabad"
+ 
+ c_minatuk:0 "Minatuk"
+ b_minatuk:0 "Minatuk"
+ b_barmulk:0 "Barmulk"
+ b_kuloj:0 "Kuloj"
+
+ c_magoviye:0 "Magoviye"
+ b_magoviye:0 "Magoviye"
+ b_khargod:0 "Khargod"
+ b_milayu:0 "Milayu"
+
+ d_rokhatiye:0 "Rokhatiye"
+ c_qitahna:0 "Qitahna"
+ b_qitahna:0 "Qitahna"
+ b_kalatiyam:0 "Kalatiyam"
+ b_darana:0 "Darana"
+ b_kobalapur:0 "Kobalapur"
+
+ c_shurguzar:0 "Shurguzar"
+ b_shurguzar:0 "Shurguzar"
+ b_anuj:0 "Anuj"
+ b_mahrabad:0 "Mahrabad"
+
+ c_kuchkak:0 "Kuchkak"
+ b_kuchkak:0 "Kuchkak"
+ b_arun:0 "Arun"
+ b_lasaneh:0 "Lasaneh"
+ 
+ c_baynalminal:0 "Baynalminal"
+ b_baynalminal:0 "Baynalminal"
+ b_shurab:0 "Shurab"
+ b_sholubad:0 "Sholubad"
+
+ d_vezm:0 "Vezm"
+ c_khoshdara:0 "Khoshdara"
+ b_khoshdara:0 "Khoshdara"
+ b_shahverdeh:0 "Shahverdeh"
+ b_kizilhar:0 "Kizilhar"
+ b_shirrabad:0 "Shirrabad"
+
+ c_tarykam:0 "Tarykam"
+ b_tarykam:0 "Tarykam"
+ b_bostanapur:0 "Bostanapur"
+ b_arzany:0 "Arzany"
+
+ c_oktoshiye:0 "Oktoshiye"
+ b_oktoshiye:0 "Oktoshiye"
+ b_pasujan:0 "Pasujan"
+ b_mahastaye:0 "Mahastaye"
+
+ c_childukhtar:0 "Childukhtar"
+ b_childukhtar:0 "Childukhtar"
+ b_zaragheh:0 "Zaragheh"
+ b_ujjaq:0 "Ujjaq"
+
+ d_shudnon:0 "Shudnon"
+ c_qalatan:0 "Qalatan"
+ b_qalatan:0 "Qalatan"
+ b_shahrakiye:0 "Shahrakiye"
+ b_qazideh:0 "Qazideh"
+ b_kahbad:0 "Kahbad"
+
+ c_shortoqay:0 "Shortoqay"
+ b_shortoqay:0 "Shortoqay"
+ b_bolaqapur:0 "Bolaqapur"
+ b_sharifabal:0 "Sharifabal"
+
+ c_martakhy:0 "Martakhy"
+ b_martakhy:0 "Martakhy"
+ b_sarakiya:0 "Sarakiya"
+ b_mirahmad:0 "Mirahmad"
+
+ k_pamea:0 "Pamea"
+ d_zarreh:0 "Zarreh"
+ c_vajim:0 "Vajim"
+ b_vajim:0 "Vajim"
+ b_khodaverd:0 "Khodaverd"
+ b_poshteh:0 "Poshteh"
+ b_heyrabad:0 "Heyrabad"
+ b_seyman:0 "Seyman"
+
+ c_parmeh:0 "Parmeh"
+ b_parmeh:0 "Parmeh"
+ b_amisara:0 "Amisara"
+ b_qurtesh:0 "Qurtesh"
+
+ c_kachupur:0 "Kachupur"
+ b_kachupur:0 "Kachupur"
+ b_espardahan:0 "Esperdahan"
+ b_arpalykh:0 "Arpalykh"
+
+ d_quraba:0 "Quraba"
+ c_gurchak:0 "Gurchak"
+ b_gurchak:0 "Gurchak"
+ b_kahizapur:0 "Kahizapur"  
+ 
+ c_barnajjiye:0 "Barnajjiye"
+ b_barnajjiye:0 "Barnajjiye"
+ b_haveshk:0 "Haveshk"
+
+ c_golisorg:0 "Golisorg"
+ b_golisorg:0 "Golisorg"
+
+ d_parakan:0 "Parakan"
+ c_lajini:0 "Lajini"
+ b_lajini:0 "Lajini"
+ b_buneh:0 "Buneh"
+ b_mardan:0 "Mardan"
+ b_kaliyeh:0 "Kaliyeh"
+
+ c_purcham:0 "Purcham"
+ b_purcham:0 "Purcham"
+ b_urtakand:0 "Urtakand"
+ b_qargol:0 "Qargol"
+
+ c_biyakhal:0 "Biyakhal"
+ b_biyakhal:0 "Biyakhal"
+ b_kaluk:0 "Kaluk"
+ b_bala:0 "Bala"
+
+ d_kamakeya:0 "Kamakeya"
+ c_kafaz:0 "Kafaz"
+ b_Kafaz:0 "Kafaz"
+ b_sahri:0 "Sahri"
+ b_serdan:0 "Serdan"
+
+ c_rujnemo:0 "Rujnemo"
+ b_rujnemo:0 "Rujnemo"
+ b_najjar:0 "Najjar"
+
+ c_zebrud:0 "Zebrud"
+ b_zebrud:0 "Zebrud"
+ b_dulakh:0 "Dulakh"
+ 
+ d_khvajeh:0 "Khvajeh"
+ c_shekaft:0 "Shekaft"
+ b_shekaft:0 "Shekaft"
+ b_penah:0 "Penah"
+ b_baina:0 "Baina"
+
+ c_poshpar:0 "Poshpar"
+ b_poshpar:0 "Poshpar"
+ b_heydar:0 "Heydar"
+
+ c_darukan:0 "Darukan"
+ b_darukan:0 "Darukan"
+ b_chelmeh:0 "Chelmeh"

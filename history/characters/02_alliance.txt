@@ -8,6 +8,7 @@
 	dynasty=100
 	religion="seirosite"
 	culture="leicester"
+	dna = dna_oswald
 
 	diplomacy = 12
    	martial = 9

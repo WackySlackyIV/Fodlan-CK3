@@ -1017,6 +1017,9 @@ brigid_group = {
 	brigid = {
 		graphical_cultures = {
 			western_coa_gfx
+			western_building_gfx
+			western_clothing_gfx
+			western_unit_gfx
 		}
 
 		color = hsv { 181 199 121 }
@@ -1288,6 +1291,9 @@ outside_group = {
 	duscur = {
 		graphical_cultures = {
 			western_coa_gfx
+			western_building_gfx
+			western_clothing_gfx
+			western_unit_gfx
 		}
 
 		color = hsv { 181 147 119 }

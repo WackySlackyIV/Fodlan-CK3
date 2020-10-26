@@ -5,6 +5,8 @@
 	dynasty=200
 	father=300023
 	mother=300098
+	dna = dna_dimitri
+
    	diplomacy=6
    	martial=9
 	stewardship=6
