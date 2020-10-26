@@ -1,6 +1,6 @@
 400000 = {
 	name="Edelgard"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 300
 	female = yes
@@ -43,7 +43,7 @@
 
 400001 = {
 	name="Hrym"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 304
 
@@ -57,7 +57,7 @@
 
 400002 = {
 	name="Gunther"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	disallow_random_traits = yes
@@ -80,7 +80,7 @@
 
 400003 = {
 	name="Lothar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	disallow_random_traits = yes
@@ -100,7 +100,7 @@
 
 400004 = {
 	name="Konrad" #caspar father
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400030
 	dynasty = 307
@@ -131,7 +131,7 @@
 
 400005 = {
 	name="Roderick"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 308
 	trait="tough_soldier"
@@ -154,7 +154,7 @@
 
 400006 = {
 	name="Ludwig"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 309
    	diplomacy=4
@@ -194,7 +194,7 @@
 
 400007 = {
 	name="Lucius" #bernie father
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 310
 	father = 400161
@@ -226,7 +226,7 @@
 
 400008 = {
 	name="Bruno"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 311
 	trait="skilled_tactician"
@@ -245,7 +245,7 @@
 
 400009 = {
 	name="Matthias"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 312
 	disallow_random_traits = yes
@@ -276,7 +276,7 @@
 
 400010 = {
 	name="Matylda"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	female=yes
@@ -302,7 +302,7 @@
 
 400011 = {
 	name="Pavlina"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
 	female=yes
@@ -327,7 +327,7 @@
 
 400012 = {
 	name="Erhardt"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 315
 	trait="skilled_tactician"
@@ -351,7 +351,7 @@
 
 400013 = {
 	name="Julia" #hanneman niece
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 303
 	father = 400050
@@ -373,7 +373,7 @@
 
 400014 = {
 	name="Jackel"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 316
 
@@ -390,7 +390,7 @@
 
 400015 = {
 	name="Hubert"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 321
 	father = 400029
@@ -432,7 +432,7 @@
 
 400016 = {
 	name="Bernadetta"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	father = 400007
@@ -467,7 +467,7 @@
 
 400017 = {
 	name="Ferdinand"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400006
 	mother = 400155
@@ -500,7 +500,7 @@
 
 400018 = {
 	name="Caspar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400004
 	mother = 400157
@@ -537,7 +537,7 @@
 
 400019 = {
 	name="Linhardt"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 317
 	father = 400038
@@ -588,7 +588,7 @@
 
 400020 = {
 	name="Dorothea"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	dynasty = 318
@@ -633,7 +633,7 @@
 
 400021 = {
 	name="Petra"
-	religion="edelist"
+	religion="ablehnist"
 	culture="brigid"
 	female = yes
    	diplomacy=4
@@ -665,7 +665,7 @@
 
 400022 = {
 	name="Jeritza"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400036
 	mother = 400034
@@ -714,7 +714,7 @@
 
 400023 = {
 	name="Ionius"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 300
 	father = 500024
@@ -750,7 +750,7 @@
 
 400024 = {
 	name="Volkhard"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400049
 	dynasty = 319
@@ -795,7 +795,7 @@
 
 400025 = {
 	name="Randolph"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400030
 	mother = 400158
@@ -825,7 +825,7 @@
 
 400026 = {
 	name="Fleche"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400030
 	mother = 400158
@@ -849,7 +849,7 @@
 
 400027 = {
 	name="Ladislava"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	dynasty = 320
@@ -880,7 +880,7 @@
 
 400028 = {
 	name="Patricia"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	dynasty = 319
@@ -909,7 +909,7 @@
 
 400029 = {
 	name="Decimus"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 321
 
@@ -933,7 +933,7 @@
 
 400030 = {
 	name="Jarvis" #Grandfather Caspar
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 307
 
@@ -956,7 +956,7 @@
 
 400031 = { 
 	name="Monica"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	dynasty = 325
@@ -976,7 +976,7 @@
 
 400032 = {
 	name="Mother Caspar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 
@@ -990,7 +990,7 @@
 
 400033 = {
 	name="mother father randolph and fleche"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 
@@ -1045,7 +1045,7 @@
 
 400035 = {
 	name="Julius" #father mercie
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 301
 
@@ -1068,7 +1068,7 @@
 
 400036 = {
 	name="Gustav" #father jeritza
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 322
 	father = 400174
@@ -1101,7 +1101,7 @@
 
 400037 = {
 	name="Monica"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 323
@@ -1134,7 +1134,7 @@
 
 400038 = {
 	name="Reinhardt" #father linhardt
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 317
 	father=400063
@@ -1158,7 +1158,7 @@
 
 400039 = {
 	name="Alexios"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father=400075
 	dynasty = 324
@@ -1192,7 +1192,7 @@
 
 400040 = {
 	name="Werner" #monica father
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 325
 
@@ -1221,7 +1221,7 @@
 
 400041 = {
 	name="Jarvis" #bartels who now rules
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 322
 	father = 400177
@@ -1240,7 +1240,7 @@
 
 400043 = {
 	name="Orion"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 327
 	mother=400079
@@ -1303,7 +1303,7 @@
 
 400045 = {
 	name="Lothar"
-	religion="edelist"
+	religion="ablehnist"
 	secret_religion = "faith_of_seiros"
 	culture="adrestian"
 	dynasty = 329
@@ -1339,7 +1339,7 @@
 
 400046 = {
 	name="Vanellope"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	dynasty = 351
@@ -1361,7 +1361,7 @@
 
 400047 = {
 	name="Hernando"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 331
 	father = 400077
@@ -1396,7 +1396,7 @@
 
 400048 = {
 	name="Aurelius"
-	religion="edelist"
+	religion="ablehnist"
 	secret_religion="faith_of_seiros"
 	culture="adrestian"
 	dynasty = 332
@@ -1434,7 +1434,7 @@
 
 400050 = {
 	name="Werner" #hanneman uncle
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 303
 	father = 400167
@@ -1644,7 +1644,7 @@
 
 400062 = {
 	name="Rupert" #brother caspar
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400004
 	dynasty = 307
@@ -1680,7 +1680,7 @@
 400064 = {
 	name="Elisabeth"
 	religion="faith_of_seiros"
-	secret_religion = "edelist"
+	secret_religion = "ablehnist"
 	culture="adrestian"
 	female=yes
 	father=400063
@@ -1709,7 +1709,7 @@
 
 400065 = {
 	name="Lily"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 323
@@ -1736,7 +1736,7 @@
 
 400066 = {
 	name="Irene"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 323
@@ -1769,7 +1769,7 @@
 
 400067 = {
 	name="Luna"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	father=400068
@@ -1844,7 +1844,7 @@
 
 400070 = {
 	name="Wolfram"
-	religion="edelist"
+	religion="ablehnist"
 	secret_religion = "faith_of_seiros"
 	culture="adrestian"
 	dynasty = 329
@@ -1953,7 +1953,7 @@
 
 400074 = {
 	name="Agnes"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	father=400075
@@ -2037,7 +2037,7 @@
 
 400078 = {
 	name="Bernadetta"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 327
 	female=yes
@@ -2131,7 +2131,7 @@
 
 400082 = {
 	name="Dorothea"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	
@@ -2157,7 +2157,7 @@
 
 400083 = {
 	name="Harald"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 324
 	father=400039
@@ -2194,7 +2194,7 @@
 
 400084 = {
 	name="Franz"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 324
 	father= 400039
@@ -2212,7 +2212,7 @@
 
 400085 = {
 	name="Emile"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 324
 	father= 400039
@@ -2229,7 +2229,7 @@
 
 400086 = {
 	name="Iris"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 324
@@ -2247,7 +2247,7 @@
 
 400087 = {
 	name="Oscar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 331
 	father = 400047 
@@ -2280,7 +2280,7 @@
 
 400088 = {
 	name="Yngvarr"
-	religion="edelist"
+	religion="ablehnist"
 	secret_religion="faith_of_seiros"
 	culture="adrestian"
 	father=400048
@@ -2311,7 +2311,7 @@
 
 400089 = {
 	name="Ferdinand"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 333
 	disallow_random_traits=yes
@@ -2356,7 +2356,7 @@
 
 400091 = {
 	name="Hubert"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 335
 
@@ -2372,7 +2372,7 @@
 
 400092 = {
 	name="Caspar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 336
 
@@ -2388,7 +2388,7 @@
 
 400093 = {
 	name="Linhardt"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 337
 
@@ -2420,7 +2420,7 @@
 
 400095 = {
 	name="Hanneman"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 339
 
@@ -2436,7 +2436,7 @@
 
 400096 = {
 	name="Wolfram"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 340
 
@@ -2451,7 +2451,7 @@
 
 400097 = {
 	name="Oscar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 341
 
@@ -2466,7 +2466,7 @@
 
 400098 = {
 	name="Harald"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 342
 
@@ -2481,7 +2481,7 @@
 
 400099 = {
 	name="Stanislav"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 343
 
@@ -2496,7 +2496,7 @@
 
 400100 = {
 	name="Cassia"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 331
 	female=yes
@@ -2517,7 +2517,7 @@
 
 400101 = {
 	name="Walram"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	father = 400002
@@ -2533,7 +2533,7 @@
 
 400102 = {
 	name="Gundomar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	father = 400101
@@ -2553,7 +2553,7 @@
 
 400103 = {
 	name="Martin"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	father = 400101
@@ -2573,7 +2573,7 @@
 
 400104 = {
 	name="Wolfram"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	father = 400002
@@ -2588,7 +2588,7 @@
 
 400105 = {
 	name="Wilhelm"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	father = 400104
@@ -2627,7 +2627,7 @@
 
 400107 = {
 	name="Amelie"
-	religion="edelist"
+	religion="ablehnist"
 	culture="faerghus"
 	female=yes
 	dynasty = 344
@@ -2652,7 +2652,7 @@
 
 400108 = {
 	name="Waldemar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
 	father = 400002
@@ -2668,7 +2668,7 @@
 
 400109 = {
 	name="Lothar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	father = 400003
@@ -2683,7 +2683,7 @@
 
 400110 = {
 	name="Oscar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	father = 400003
@@ -2698,7 +2698,7 @@
 
 400111 = {
 	name="Olga"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 345
@@ -2719,7 +2719,7 @@
 
 400112 = {
 	name="Baldur"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	trait="charismatic_negotiator"
@@ -2740,7 +2740,7 @@
 
 400113 = {
 	name="Alison"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	female=yes
@@ -2758,7 +2758,7 @@
 
 400114 = {
 	name="Albrecht"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	father=400005
@@ -2775,7 +2775,7 @@
 
 400115 = {
 	name="Rodwell"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 	father=400116
@@ -2798,7 +2798,7 @@
 
 400116 = {
 	name="Emeric"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
 
@@ -2812,7 +2812,7 @@
 
 400117 = {
 	name="Adelinde"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	trait="shrewd"
@@ -2834,7 +2834,7 @@
 
 400118 = {
 	name="Hanno"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	trait="shrewd"
 	trait="wroth"
@@ -2857,7 +2857,7 @@
 
 400119 = {
 	name="Hans"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father=400118
 	mother=400121
@@ -2873,7 +2873,7 @@
 
 400120 = {
 	name="Melchior"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	trait="tough_soldier"
 	trait="brave"
@@ -2895,7 +2895,7 @@
 
 400121 = {
 	name="Brunhilde"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 346
@@ -2917,7 +2917,7 @@
 
 400122 = {
 	name="Alana"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female=yes
 	dynasty = 312
@@ -2934,7 +2934,7 @@
 
 400123 = {
 	name="Aymar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 312
 	father=400009
@@ -2993,7 +2993,7 @@
 
 400126 = {
 	name="Prokop"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	trait="fortune_builder"
@@ -3014,7 +3014,7 @@
 
 400127 = {
 	name="Mikulas"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	father=400126
@@ -3029,7 +3029,7 @@
 
 400128 = {
 	name="Jan"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	father=400126
@@ -3044,7 +3044,7 @@
 
 400129 = {
 	name="Oskar"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	trait="mastermind_theologian"
@@ -3088,7 +3088,7 @@
 
 400131 = {
 	name="Zikmund"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	trait="misguided_warrior"
@@ -3109,7 +3109,7 @@
 
 400132 = {
 	name="Ester"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
 	female=yes
@@ -3148,7 +3148,7 @@
 
 400134 = {
 	name="Pavel"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
 	trait="legit_bastard"
@@ -3165,7 +3165,7 @@
 
 400135 = {
 	name="Anton"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
 	trait="bastard"
@@ -3182,7 +3182,7 @@
 
 400136 = {
 	name="Simone"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
 	female=yes
@@ -3200,7 +3200,7 @@
 
 400137 = {
 	name="Wendelin"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
 	trait="bastard"
@@ -3216,7 +3216,7 @@
 
 400138 = {
 	name="Nils"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
 	trait="bastard"
@@ -3232,7 +3232,7 @@
 
 400139 = {
 	name="Joachim"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 315
 	trait="tough_soldier"
@@ -3250,7 +3250,7 @@
 
 400140 = {
 	name="Therese"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 315
 	female=yes
@@ -3269,7 +3269,7 @@
 
 400141 = {
 	name="Margarethe"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 349
 	female=yes
@@ -3341,7 +3341,7 @@
 
 400144 = {
 	name="Hermine"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	father = 100001
@@ -3358,7 +3358,7 @@
 
 400145 = {
 	name="Estelle"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 	dynasty = 350
@@ -3376,7 +3376,7 @@
 
 400146 = {
 	name="Gianni"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400143
 	mother = 400145
@@ -3392,7 +3392,7 @@
 
 400147 = {
 	name="Weide"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	female = yes
 
@@ -3428,7 +3428,7 @@
 
 400149 = {
 	name="Auguste"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400014
 	mother = 400147
@@ -3444,7 +3444,7 @@
 
 400150 = {
 	name="Aaren"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400014
 	mother = 400147
@@ -3460,7 +3460,7 @@
 
 400151 = {
 	name="Frederik"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400014
 	mother = 400147
@@ -3476,7 +3476,7 @@
 
 400152 = {
 	name="Karl"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	father = 400014
 	mother = 400147
@@ -3492,7 +3492,7 @@
 
 400153 = {
 	name="Elodie" 
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 316
 	father = 400014
@@ -3514,7 +3514,7 @@
 
 400154 = {
 	name="Valeria" #hubert mother
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 352
 	female = yes
@@ -3540,7 +3540,7 @@
 
 400155 = {
 	name="Freya" #ferdinand mother
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 353
 	female = yes
@@ -3565,7 +3565,7 @@
 
 400156 = {
 	name="Octavia" #mother linhardt
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 354
 	female=yes
@@ -3598,7 +3598,7 @@
 
 400157 = {
 	name="Linda" #mother caspar
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 355
 	female=yes
@@ -3623,7 +3623,7 @@
 
 400158 = {
 	name="Adelaide" #randolph and fleche mother
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 356
 	female=yes
@@ -3643,7 +3643,7 @@
 
 400159 = {
 	name="Augusta" #bernie mother
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 357
 	female=yes
@@ -3673,7 +3673,7 @@
 
 400160 = {
 	name="Marcus" #bernie uncle
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 310
 	father = 400161
@@ -3728,7 +3728,7 @@
 
 400163 = {
 	name="Gloria" #monica mother
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 358
 	female = yes
@@ -3754,7 +3754,7 @@
 
 400164 = {
 	name="Wolfram" #hanneman nephew
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 303
 	father = 400050
@@ -3773,7 +3773,7 @@
 
 400165 = {
 	name="Evelyn" #hanneman aunt
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 359
 	female = yes
@@ -4042,7 +4042,7 @@
 
 400179 = {
 	name="Ralph"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 
 	trait="strong"
@@ -4066,7 +4066,7 @@
 
 400180 = {
 	name="Metodey"
-	religion="edelist"
+	religion="ablehnist"
 	culture="adrestian"
 
 
