@@ -26,10 +26,11 @@
 	trait = vengeful
 	
 	trait = education_learning_4
-	trait = child_goddess
-	trait = crest_major_seiros
 	trait = physique_good_1
 	trait = theologian
+
+	trait = child_goddess
+	trait = crest_major_seiros
 	disallow_random_traits = yes
 
 	60.1.11 = {
@@ -93,12 +94,16 @@
    	intrigue=7
 	learning=9
 	health = 6.5
-	trait = seteth
+
+	trait = temperate
+	trait = diligent
+	trait = zelous
+
 	trait = education_learning_3
+	trait = administrator
+
 	trait = child_goddess
 	trait = crest_major_cichol
-	trait = paranoid
-	trait = just
 	random_traits = no
 
 	70.12.27 = {
@@ -130,15 +135,14 @@
 	learning=9
 	health = 6.5
 
-	trait = flayn
-	trait = child_goddess
-	trait = martial_cleric
-	trait = faith_magic_master
-	trait = reason_magic_apprentice
-	trait = crest_major_cethleann
 	trait = compassionate
-	trait = honest
-	trait = calm
+	trait = forgiving
+	trait = patient
+
+	trait = education_learning_2
+
+	trait = child_goddess
+	trait = crest_major_cethleann
 	random_traits = no
 
 	trait = education_learning_2
@@ -185,12 +189,15 @@
    	intrigue=3
 	learning=5
 	health = 6.5
-	trait= alois
-	trait= education_martial_2
-	trait= blademaster_3
-	trait= brave
-	trait= gregarious
-	trait= fickle
+
+	trait = brave
+	trait = content
+	trait = honest
+	trait = gregarious	
+	
+	trait= education_martial_3
+	trait= physique_good_1
+	trait= gallant
 	random_traits = no
 
 	1135.12.1 = {
@@ -220,11 +227,16 @@
 	health = 6.5
 	add_stress = 200 #It ShOuLd WoRk
 
-	trait= gilbert
-	trait= education_martial_3
+	trait = chaste
+	trait = temperate
+	trait = humble
 	trait = zealous
-	trait = calm
-	trait = diligent
+
+	trait= education_martial_3
+	trait = physique_good_2
+	trait = whole_of_body
+	trait = blademaster_1
+	trait = order_member
 	random_traits = no
 
 	1124.1.26 = {
@@ -256,13 +268,14 @@
 	learning=3
 	health = 6.5
 
-	trait = shamir
-	trait = education_intrigue_3
-	trait = shrewd
+	trait = deceitful
+	trait = callous
 	trait = cynical
-	trait = temperate
-	trait = blademaster_2
-	#random_traits = no
+
+	trait = education_intrigue_3
+	trait = schemer
+	trait = order_member
+	random_traits = no
 
 
 	1155.3.27 = {
@@ -290,16 +303,16 @@
    	intrigue=5
 	learning=9
 	health = 6.5
-	trait = manuella
-	trait = education_diplomacy_3
-	trait = faith_magic_adept
-	trait = physician_2
+
 	trait = lazy
 	trait = lustful
 	trait = fickle
-	trait = drunkyard
-	trait = songstress
-	#random_traits = no
+
+	trait = education_diplomacy_3
+	trait = beauty_good_2
+	trait = physician_2
+	trait = whole_of_body
+	random_traits = no
 
 	1138.8.3 = {
 		birth=yes
@@ -335,13 +348,15 @@
    	intrigue=4
 	learning=8
 	health = 6.5
-	trait = hanneman
-	trait = education_learning_4
-	trait = stubborn
-	trait = ambitious
+
+	trait = calm
+	trait = patient
 	trait = diligent
+
+	trait = education_learning_4
+	trait = intellect_good_2
 	trait = scholar
-	#random_traits = no
+	random_traits = no
 
 	1129.2.8 = {
 		birth="1129.2.8"
@@ -375,12 +390,15 @@
 	dynasty = 2
 	health = 6.5
 
-	trait = jeralt
-	trait = education_martial_3
-	trait = blademaster_3
-	trait = overseer
+	trait = brave
 	trait = cynical
-	trait = aggressive_attacker
+	trait = just
+
+	trait = education_martial_4
+	trait = strong
+	trait = physique_good_1
+	trait = gallant
+
 	trait = crest_major_seiros
 
 	1127.10.25 = {
@@ -406,12 +424,10 @@
 	learning=4
 	health = 6.5
 
-	trait = cyril
-	trait = trusting
-	trait = diligent
+	trait = patient
 	trait = content
 	trait = trusting
-	trait = zealous
+	trait = diligent
 
 	random_traits = no
 
@@ -445,16 +461,17 @@
 	father = 300002
 	mother = 300097
 
-	trait = catherine
-	trait = education_martial_4
-	trait = blademaster_3
-	trait = aggressive_attacker
-	trait = strong
-	trait = cruel
-	trait = crest_major_charon
 	trait = zealous
 	trait = brave
+	trait = impatient
 
+	trait = education_martial_3
+	trait = physique_good_3
+	trait = strong
+	trait = overseer
+	trait = order_member
+
+	trait = crest_major_charon
 	random_traits = no
 
 
@@ -491,21 +508,16 @@
 	learning=4
 	health = 6.5
 
-	trait = yuri
-	trait = elusive_shadow
-	trait = reason_magic_initiate
-	trait = faith_magic_initiate
-	trait = agile
-	trait = crest_major_aubin
-	trait = quick
 	trait = greedy
-	trait = deceitful
+	trait = deceitfull
 	trait = diligent
+
+	trait = education_intrigue_4
+	trait = intellect_good_1
+	trait = shrewd
 	trait = schemer
-	trait = adopted
-	trait = kind
-	trait = singer
-	trait = runaway_abyss
+
+	trait = crest_major_aubin
 	random_traits = no
 
 	1160.9.12 = {
@@ -543,18 +555,15 @@
 	learning=2
 	health = 6.5
 
-	trait = balthus
-	trait = tough_soldier
-	trait = faith_magic_initiate
-	trait = crest_major_chevalier
-	trait = hedonist
-	trait = strong
-	trait = robust
-	trait = stubborn
 	trait = brave
-	trait = arbitrary
 	trait = greedy
-	trait = runaway_abyss
+	trait = arbitrary
+
+	trait = education_martial_2
+	trait = physique_good_3
+	trait = strong
+
+	trait = crest_major_chevalier
 	random_traits = no
 
 	1153.8.9 = {
@@ -597,15 +606,15 @@
 	learning=8
 	health = 6.5
 
-	trait = constance
-	trait = fortune_builder
-	trait = reason_magic_adept
-	trait = faith_magic_apprentice
-	trait = crest_major_noa
-	trait = proud
-	trait = diligent
-	trait = runaway_abyss
 	trait = ambitious
+	trait = diligent
+	trait = arrogant
+
+	trait = education_stewardship_3
+	trait = possessed
+	trait = pure_blooded
+
+	trait = crest_major_noa
 	random_traits = no
 
 	1162.3.20 = {
@@ -643,14 +652,13 @@
 	learning=6
 	health = 6.5
 
-	trait = hapi
-	trait = naive_appeaser
-	add_trait= "dark_magic_adept
-	trait = faith_magic_apprentice
-	trait = crest_major_timotheos
-	trait = runaway_abyss
 	trait = cynical
 	trait = honest
+	trait = calm
+
+	trait = education_diplomacy_2
+
+	trait = crest_major_timotheos
 	random_traits = no
 
 	1160.1.15 = {
@@ -686,17 +694,16 @@
    	intrigue=5
 	learning=8
 
-	trait = aelfric
-	trait = intricate_webweaver
-	trait = reason_magic_master
-	trait = faith_magic_initiate
-	trait = crest_minor_seiros
 	trait = patient
 	trait = greedy
-	trait = envious
 	trait = zealous
 	trait = gregarious
 	trait = ambitious
+
+	trait = education_intrigue_3
+	trait = theologian
+
+	trait = crest_minor_seiros
 	random_traits = no
 
 	1137.1.1 = {
@@ -729,11 +736,12 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	female = yes
-	trait = mastermind_theologian
-	trait = sitri
+	trait = compassionate
+
+	trait = education_learning_3
+
 	trait = crest_major_flames
-	trait = nun
-	trait = kind
+	trait = devoted
 	random_traits = no
 
 	1139.1.1 = {
@@ -755,11 +763,12 @@
 	religion="seirosite"
 	culture="high_fodlan"
 
-	trait = pallardo
-	trait = indulgent_wastrel
 	trait = greedy
 	trait = arbitrary
-	trait = envious
+	trait = cynical
+
+	trait = education_stewardship_1
+	trait = avaricious
 	random_traits = no
 
 	1155.1.1 = {
@@ -782,11 +791,13 @@
 	learning=4
 	health = 6.5
 
-	trait = anna
-	trait = midas_touched
 	trait = greedy
-	trait = deceitful
-	trait = kind
+	trait = deceitfull
+	trait = arbitrary
+	trait = impatient
+
+	trait = education_stewardship_4
+	trait = avaricious
 	random_traits = no
 
 	1151.1.1 = {
@@ -809,13 +820,11 @@
 	learning=8
 	health = 6.5
 
-	trait = poe
-	trait = martial_cleric
+	trait = wrathful
 	trait = zealous
-	trait = kind
-	trait = gardener
-	trait = faith_magic_master
-	trait = reason_magic_initiate
+	trait = compassionate
+
+	trait = education_learning_2
 	random_traits = no
 
 	1146.1.1 = {
