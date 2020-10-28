@@ -182,7 +182,7 @@ pantheon_religion = {
 	}
 
 	faiths = {
-		pantheon_faith = {
+		pantheon_faith = { #duscar
 			color = { 51 161 150 }
 			icon = mahayana
 
@@ -195,7 +195,7 @@ pantheon_religion = {
 
 	
 
-		comunetian_faith = {
+		comunetian_faith = { #nuada
 			color = { 90 240 150 }
 			icon = mahayana
 

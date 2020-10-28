@@ -177,8 +177,8 @@ lumentalism_religion = {
 	}
 
 	faiths = {
-		lumialue = {
-			color = { 9 151 217 }
+		lumialue = { #A peaceful albnea religion
+			color = { 178 193 212 }
             icon = finno_ugric
             
 			holy_site = shambala
@@ -190,7 +190,7 @@ lumentalism_religion = {
 			doctrine = unreformed_faith_doctrine
         }
 		
-        vuristoalite = {
+        vuristoalite = { #A more offensive albnea religion
 			color = { 100 118 135 }
             icon = finno_ugric
             

@@ -374,7 +374,6 @@ doctrine_fodlan_tenets = {
 
 		parameters = {
 			tenets_active = yes
-			fervor_per_holy_site = 0.1
 		}
 
 		character_modifier = {
@@ -461,13 +460,167 @@ doctrine_fodlan_tenets = {
 	
 
 
+	##############
+	### Almyra ###
+	##############
 
+	tenet_throne_of_fire = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
 
+		parameters = {
+			maliks_claim_active = yes
+		}
 
+		character_modifier = {
+		}
 
+		traits = {	
+			virtues = { ambitious }
+			sins = { content }	
+		}
+	}
 
+	tenet_kizilisma_red = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
 
+		parameters = {
+			tenets_active = yes
+		}
 
+		character_modifier = {
+			monthly_prestige_gain_per_knight_add = 0.15
+			raid_speed = 0.5
+		}
+
+		traits = {	
+			virtues = { brave wrathful }
+			sins = { craven calm }	
+		}
+	}
+	
+	tenet_denizavi_blue = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		}
+
+		traits = {	
+			virtues = { brave patient diligent }
+			sins = { craven impatient lazy }	
+		}
+	}
+
+	tenet_beyazisma_white = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			dynasty_opinion = 5
+			monthly_dynasty_prestige_mult = 0.1
+		}
+
+		traits = {	
+			virtues = { trusting honest }
+			sins = { paranoid deceitful }	
+		}
+	}
+
+	tenet_siyakara_black = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			levy_reinforcement_rate_same_faith = 0.35
+		}
+
+		traits = {	
+			virtues = { brave zealous }
+			sins = { craven cynical }	
+		}
+	}
+
+	tenet_dogasil_green = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			stress_loss_mult = 0.20
+			stress_gain_mult = -0.10
+			life_expectancy = 5
+		}
+
+		traits = {	
+			virtues = { calm generous }
+			sins = { wrathful greedy }	
+		}
+	}
+
+	tenet_karakaya_brown = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_lifestyle_xp_gain_mult = 0.05
+			opinion_of_different_faith = 5
+		}
+
+		traits = {	
+			virtues = { diligent gregarious scholar intellect_good_2 }
+			sins = { lazy shy }	
+		}
+	}
 
 
 

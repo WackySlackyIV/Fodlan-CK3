@@ -1,4 +1,4 @@
-dewa_sheta_ah_religion = {
+dewa_sheta_ah_religion = { #Morfis
 	family = rf_morfis_sphere
 	graphical_faith = pagan_gfx
 
@@ -177,7 +177,7 @@ dewa_sheta_ah_religion = {
 	}
 
 	faiths = {
-		inetsaret = {
+		inetsaret = { #Main morfis religion focusing on arcane arts
 			color = { 145 34 186 }
             icon = sunni
             
@@ -190,7 +190,7 @@ dewa_sheta_ah_religion = {
 
 		}
 		
-		nekfsaret = {
+		nekfsaret = { #A spiritual faith
 			color = { 107 3 31 }
             icon = sunni
             
@@ -206,7 +206,7 @@ dewa_sheta_ah_religion = {
 
 		}
 		
-		sekisaret = {
+		sekisaret = { #A shadow magic faith
 			color = { 32 51 37 }
             icon = sunni
             

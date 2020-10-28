@@ -1,33 +1,33 @@
-﻿anthrapos_religion = { #Agarthan
-	family = rf_anthrapos
+buykisik_religion = { #Almyra
+	family = rf_almyra_sphere
 	graphical_faith = pagan_gfx
-
+	
 	pagan_roots = no
 
 	doctrine = abrahamic_hostility_doctrine
 
 	#Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_equal
-	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
-	doctrine = doctrine_monogamy
+	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
 	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
 	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_accepted
-	doctrine = doctrine_adultery_women_accepted
-	doctrine = doctrine_kinslaying_accepted
-	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_accepted
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_function_taxation
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
@@ -177,26 +177,97 @@
 	}
 
 	faiths = {
-		agarthan = {
-			color = { 65 22 71 }
-            icon = baltic
+		kizilisma = { #red sun
+			color = { 224 85 70 }
+            icon = shia
             
 			holy_site = shambala
 
+			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
-			doctrine = tenet_sacred_shadows
-        }
-        
-        liberationist = {
-			color = { 172 23 23 }
-            icon = baltic
+			doctrine = tenet_throne_of_fire
+			doctrine = tenet_kizilisma_red
+
+		}
+
+		denizavi = { #blue sun
+			color = { 99 124 145 }
+            icon = shia
             
 			holy_site = shambala
 
-			doctrine = tenet_ancestor_worship
+			doctrine = tenet_legalism
 			doctrine = tenet_warmonger
-			doctrine = tenet_aniconism
-        }
+			doctrine = tenet_throne_of_fire
+			doctrine = tenet_denizavi_blue
+
+			doctrine = doctrine_temporal_head
+			
+		}
+
+		beyazisma = { #white sun
+			color = { 232 232 230 }
+            icon = shia
+            
+			holy_site = shambala
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_pacifism
+			doctrine = tenet_throne_of_fire
+			doctrine = tenet_beyazisma_white
+
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_kinslaying_any_dynasty_member_crime
+
+		}
+
+		siyakara = { #black sun
+			color = { 74 19 143 }
+            icon = shia
+            
+			holy_site = shambala
+
+			doctrine = tenet_human_sacrifice
+			doctrine = tenet_warmonger
+			doctrine = tenet_throne_of_fire
+			doctrine = tenet_siyakara_black
+
+			doctrine = doctrine_pluralism_fundamentalist
+			doctrine = doctrine_temporal_head
+			doctrine = doctrine_clerical_function_recruitment
+
+		}
+		
+		dogasil = { #green sun
+			color = { 4 84 26 }
+            icon = shia
+            
+			holy_site = shambala
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_gnosticism
+			doctrine = tenet_throne_of_fire
+			doctrine = tenet_dogasil_green
+
+			doctrine = doctrine_pluralism_pluralistic
+
+		}
+
+		karakaya = { #brown sun
+			color = { 105 61 23 }
+            icon = shia
+            
+			holy_site = shambala
+
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_literalism
+			doctrine = tenet_throne_of_fire
+			doctrine = tenet_karakaya_brown
+
+			doctrine = doctrine_pluralism_pluralistic
+
+		}
+		
+		
 	}
 }
