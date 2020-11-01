@@ -1,1 +1,425 @@
-﻿
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 45 # Equivalent to having 4.5 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+barbarossa = { #almyran
+	type = flyer
+	
+	damage = 105
+	toughness = 35
+	pursuit = 17
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+griffon_rider = { #reqonn
+	type = flyer
+	
+	damage = 111
+	toughness = 31
+	pursuit = 21
+	screen = 20
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+oliphantier = { #india
+	type = mounted_archers
+	
+	damage = 111
+	toughness = 33
+	pursuit = 19
+	screen = 17
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+seraph_knight = { #brigid
+	type = flyers
+	
+	damage = 93
+	toughness = 34
+	pursuit = 24
+	screen = 23
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+spartan = { #duscur
+	type = spear
+	
+	damage = 58
+	toughness = 40
+	pursuit = 8
+	screen = 7
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 60
+	icon = sword_1
+}
+
+skogul = { #faerghus
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+sagittary = { #leicester
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+berserker = { #sreng
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+elgier = { #albinea
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+trueblade = { #nuada
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+agastya = { #agarthan
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+exemplar = { #high fodlan
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+enchantress = { #adrestia
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}
+
+grandmaster = { #morfis
+	type = heavy_horse
+	
+	damage = 99
+	toughness = 42
+	pursuit = 16
+	screen = 15
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 6 }
+		taiga = { damage = 10 toughness = 6 }
+		jungle = { damage = 10 toughness = 10 }
+		desert = { damage = -4 screen = -4 }
+	}
+
+	counters = {
+		axe = 1
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 20
+	icon = sword_1
+}

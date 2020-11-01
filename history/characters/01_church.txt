@@ -215,6 +215,7 @@
 
 100005 = {
 	name="Gilbert"
+	dna = dna_gilbert
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=221
@@ -258,6 +259,7 @@
 
 100006 = {
 	name="Shamir"
+	dna = dna_shamir
 	religion="seirosite"
 	culture="high_fodlan"
 	female=yes
@@ -293,6 +295,7 @@
 
 100007 = {
 	name="Manuela"
+	dna = dna_manuela
 	religion="seirosite"
 	culture="adrestian"
 	female=yes
@@ -337,6 +340,7 @@
 
 100008 = {
 	name="Hanneman"
+	dna = dna_hanneman
 	religion="seirosite"
 	culture="adrestian"
 	dynasty=303
@@ -385,6 +389,7 @@
 
 100009 = {
 	name="Jeralt"
+	dna = dna_jeralt
 	religion="seirosite"
 	culture="high_fodlan"
 	dynasty = 2
@@ -415,6 +420,7 @@
 
 100010 = {
 	name="Cyril"
+	dna = dna_cyril
 	religion="seirosite"
 	culture="high_fodlan"
    	diplomacy=5
@@ -684,6 +690,7 @@
 
 100016 = {
 	name="Aelfric"
+	dna = dna_aelfric
 	religion="seirosite"
 	culture="high_fodlan"
 	dynasty = 3

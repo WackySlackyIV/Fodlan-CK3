@@ -28,3 +28,199 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+innovation_wyvern_marksmen = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:almyran
+	}
+
+	unlock_maa = barbarossa
+
+	flag = global_maa
+}
+
+innovation_griffon_breeding = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:reqonn
+	}
+
+	unlock_maa = griffon_rider
+
+	flag = global_maa
+}
+
+innovation_experienced_pegasi = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:brigid
+	}
+
+	unlock_maa = seraph_knight
+
+	flag = global_maa
+}
+
+innovation_warrior_blood = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:duscur
+	}
+
+	unlock_maa = spartan
+
+	flag = global_maa
+}
+
+innovation_northern_knights = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:faerghus
+	}
+
+	unlock_maa = skogul
+
+	flag = global_maa
+}
+
+innovation_deadeyes = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:leicester
+	}
+
+	unlock_maa = sagittary
+
+	flag = global_maa
+}
+
+innovation_bloodlust = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:sreng
+	}
+
+	unlock_maa = berserker
+
+	flag = global_maa
+}
+
+innovation_pine_hunters = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:albinean
+	}
+
+	unlock_maa = elgier
+
+	flag = global_maa
+}
+
+innovation_ways_ofthe_sword = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:nuadan
+	}
+
+	unlock_maa = trueblade
+
+	flag = global_maa
+}
+
+innovation_the_elite = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:agarthan
+	}
+
+	unlock_maa = agastya
+
+	flag = global_maa
+}
+
+innovation_exemplars = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:high_fodlan
+	}
+
+	unlock_maa = exemplar
+
+	flag = global_maa
+}
+
+innovation_special_mage_corps = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:adrestian
+	}
+
+	unlock_maa = enchantress
+
+	flag = global_maa
+}
+
+innovation_overseers = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:morfis
+	}
+
+	unlock_maa = grandmaster
+
+	flag = global_maa
+}
+
+innovation_steppe_lords = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:indian
+	}
+
+	unlock_maa = oliphantier
+
+	flag = global_maa
+}
