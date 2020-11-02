@@ -18078,6 +18078,442 @@ e_al_mihra = {
                                                         
                                           }
                                           
+                                          c_sayyirah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sayyirah = {
+                                                                      province = 1662
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_moykatta = {
+                                                                      province = 1663
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_amring = {
+                                                                      province = 1664
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_buqay = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_buqay = {
+                                                                      province = 1665
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_terem = {
+                                                                      province = 1666
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_omada = {
+                                                                      province = 1667
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_sharikhiyah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sharikhiyah = {
+                                                                      province = 1668
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_gushirtov = {
+                                                                      province = 1669
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_karakchi = {
+                                                                      province = 1670
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_gajjiya = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_gajjya = {
+                                                                      province = 1671
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_khalfa = {
+                                                                      province = 1672
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_vogat = {
+                                                                      province = 1673
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_gaisum = {
+                                          color = { 100 100 70 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_sayyirah
+                                          
+                                          c_rukubah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_rukubah = {
+                                                                      province = 1653
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_awad = {
+                                                                      province = 1654
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_balaq = {
+                                                                      province = 1655
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_gharith = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_gharith = {
+                                                                      province = 1656
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_nusiyyah = {
+                                                                      province = 1657
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_surayah = {
+                                                                      province = 1658
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_rahimah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_rahimah = {
+                                                                      province = 1659
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_markaz = {
+                                                                      province = 1660
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_mekkilah = {
+                                                                      province = 1661
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_sayyirah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sayyirah = {
+                                                                      province = 1662
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_moykatta = {
+                                                                      province = 1663
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_amring = {
+                                                                      province = 1664
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_buqay = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_buqay = {
+                                                                      province = 1665
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_terem = {
+                                                                      province = 1666
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_omada = {
+                                                                      province = 1667
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_sharikhiyah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_sharikhiyah = {
+                                                                      province = 1668
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_gushirtov = {
+                                                                      province = 1669
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_karakchi = {
+                                                                      province = 1670
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_gajjiya = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_gajjya = {
+                                                                      province = 1671
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_khalfa = {
+                                                                      province = 1672
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_vogat = {
+                                                                      province = 1673
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                            }
+                            
+                            d_annimriya = {
+                                          color = { 100 100 70 }
+                                          color2 = { 255 255 255 }
+                                          
+                                          capital = c_mayza
+                                          
+                                          c_mayza = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_mayza = {
+                                                                      province = 1674
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_paskitomchi = {
+                                                                      province = 1675
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_pisokat = {
+                                                                      province = 1676
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_daylamiyah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_daylamiyah = {
+                                                                      province = 1677
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_chugarak = {
+                                                                      province = 1678
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_karagach = {
+                                                                      province = 1679
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
+                                          c_amiyah = {
+                                                        color = { 100 100 70 }
+                                                        color2 = { 255 255 255 }
+                                                        
+                                                        b_amiyah = {
+                                                                      province = 1680
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_gougavd = {
+                                                                      province = 1681
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                                        b_seidzh = {
+                                                                      province = 1682
+                                                                      
+                                                                      color = { 100 100 70 }
+                                                                      color2 = { 255 255 255 }
+                                                                      
+                                                        }
+                                                        
+                                          }
+                                          
                             }
                             
               }

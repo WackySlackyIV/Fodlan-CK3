@@ -216,7 +216,7 @@ great_knight = {
 	holy_order_fallback = yes
 	
 	stack = 50
-	icon = _default
+	icon = heavy_cav_1
 }
 
 pegasus_knight = {
@@ -225,7 +225,7 @@ pegasus_knight = {
 	damage = 60
 	toughness = 20
 	pursuit = 46
-	screen = 36
+	screen = 26
 	
 	terrain_bonus = {
 		mountains = { damage = 12 }
@@ -254,7 +254,7 @@ wyvern_rider = {
 	damage = 100
 	toughness = 30
 	pursuit = 26
-	screen = 26
+	screen = 16
 	
 	terrain_bonus = {
 		mountains = { damage = 12 }
@@ -308,7 +308,7 @@ bow_knight = {
 	holy_order_fallback = yes
 	
 	stack = 50
-	icon = _default
+	icon = bow_cav_1
 }
 
 mage = {
@@ -404,5 +404,5 @@ dark_knight = {
 	
 	stack = 20
 	
-	icon = _default
+	icon = magic_cav_1
 }
