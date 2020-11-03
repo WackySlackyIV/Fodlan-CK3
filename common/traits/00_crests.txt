@@ -792,3 +792,41 @@ crest_major_maurice = {
 
 	desc = trait_crest_minor_seiros_desc
 }
+
+crest_minor_malik = {
+	index = 445
+
+	learning = 1
+	martial = 2
+	prowess = 5
+	
+	attraction_opinion = 5
+	clergy_opinion = 5
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_malik
+	level = 1
+
+	desc = trait_crest_minor_seiros_desc
+}
+
+crest_major_malik = {
+	index = 446
+
+	learning  = 2
+	prowess = 4
+	prowess = 10
+	
+	attraction_opinion = 10
+	clergy_opinion = 10
+
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_malik
+	level = 2
+
+	desc = trait_crest_minor_seiros_desc
+}

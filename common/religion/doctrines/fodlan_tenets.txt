@@ -622,16 +622,6 @@ doctrine_fodlan_tenets = {
 		}
 	}
 
-
-
-
-
-
-
-
-
-
-
 }
 
 

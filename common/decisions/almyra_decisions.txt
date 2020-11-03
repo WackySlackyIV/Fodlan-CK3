@@ -33,3 +33,38 @@ claim_the_flame_throne_decision = {
 		base = 100
 	}
 }
+
+malik_blood_ritual_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	major = yes
+	desc = malik_blood_ritual_decision_desc
+	selection_tooltip = malik_blood_ritual_decision_tooltip
+
+	is_shown = {
+		faith = faith:siyakara
+	}
+
+	is_valid = {
+		title:k_almyra = {
+			holds_landed_title = yes
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		trigger_event = blood.of.malik.start.event
+	}
+
+	ai_check_interval = 1
+
+	ai_potential = {
+		is_at_war = no
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

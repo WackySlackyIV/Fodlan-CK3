@@ -1,0 +1,50 @@
+######################
+### Blood of Malik ###
+######################
+
+blood.of.malik.start.event.t = {
+	
+	desc = blood.of.malik.start.event.desc
+	
+	option = {
+		name = blood.of.malik.start.event.a
+		
+	}
+	option = {
+		name = blood.of.malik.start.event.b
+	}
+}
+
+blood.of.malik.fail.bad.event.t = {
+	desc = blood.of.malik.fail.bad.desc
+	
+	option = {
+		name = blood.of.malik.fail.bad.a
+	}
+}
+
+blood.of.malik.fail.really.bad.event.t = {
+	desc = blood.of.malik.fail.really.bad.desc
+	
+	option = {
+		name = blood.of.malik.fail.really.bad.a
+	}
+}
+
+blood.of.malik.succeed.event.1.t = {
+	desc = blood.of.malik.succeed.event.1.desc
+	
+	option = {
+		name = blood.of.malik.succeed.event.1.a
+		add_trait = crest.minor.malik
+	}
+}
+
+blood.of.malik.succeed.event.2.t = {
+	desc = blood.of.malik.succeed.event.2.desc
+	
+	option = {
+		name = blood.of.malik.succeed.event.2.a
+		add_trait = crest.major.malik
+	}
+}

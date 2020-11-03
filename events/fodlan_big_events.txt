@@ -1,10 +1,14 @@
-millenium_festival_initiate = {
-	desc = milleniu_festival_initiate_desc
+##########################
+### Millenium Festival ###
+##########################
+
+millenium.festival.initiate.t = {
+	desc = milleniu.festival.initiate.desc
 	
 	option = {
-		name = millenium_festival_initiate_a
+		name = millenium.festival.initiate.a
 	}
 	option = {
-		name = millenium_festival_initiate_b
+		name = millenium.festival.initiate.b
 	}
 }
