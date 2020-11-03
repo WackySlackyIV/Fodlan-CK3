@@ -178,6 +178,69 @@ c_pavia = {
               }
 }
 
+#Fraldarius
+d_fraldarius = {
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_fraldarius = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_wapont = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_guisnes = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_fologne = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+#Adharc
+d_adharc = {
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_adharc = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_ryswise = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
+c_renaix = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300000
+              }
+}
+
 #Adrestia
 e_adrestia = {
               1180.1.1 = {
@@ -766,41 +829,6 @@ c_douvres = {
               }
 }
 
-#Fraldarius
-d_fraldarius = {
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_fraldarius = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_wapont = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_guisnes = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_fologne = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
 #Gautier
 d_gautier = {
               1180.1.1 = {
@@ -900,34 +928,6 @@ c_looz = {
 }
 
 c_gand = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-#Adharc
-d_adharc = {
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_adharc = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_ryswise = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 300000
-              }
-}
-
-c_renaix = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
                             holder = 300000
@@ -2436,6 +2436,587 @@ c_eisenthal = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
                             holder = 400000
+              }
+}
+
+k_brigid = {
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+d_deoir_aine = {
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+d_bholcanach = {
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_ardnamurchan = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_suiochan = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_cheviot = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_cuilin = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+d_grannach = {
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_dundee = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_clochan = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_glencoe = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+d_aedach = {
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_bhearaig = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_bennevis = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_bryniau = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_briosto = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+d_seultach = {
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_skyrne = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_claonfhearta = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_forrad = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_orbsen = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_duartaine = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+c_tuine = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 600000
+              }
+}
+
+k_almyra = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_aqqa = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_osul = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_ziyarut = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_miyena = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_ghuriye = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_sor = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_fahrob = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_kuibulyen = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_khojildyor = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_vedemdara = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_karcha = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_doloniye = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_surkh = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_chinar = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_berkniyye = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_pushtikhargon = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_dashtamin = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_tartku = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_yezgand = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_qambarast = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_pugush = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_kalaishodi = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_chimepe = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_khurmana = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_kubulyon = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_soni = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_minatuk = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_magoviye = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_rokhatiye = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_qitahna = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_shurguzar = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_kuchkak = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_baynalminal = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_vezm = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_khoshdara = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_tarykam = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_oktoshiye = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_childukhtar = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_shudnon = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_qalatan = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_shortoqay = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_martakhy = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_zarreh = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_vajim = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_parmeh = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_kachupur = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_quraba = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_gurchak = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_barnajjiye = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_golisorg = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_parakan = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_lajini = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_purcham = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_biyakhal = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_kamakeya = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_kafaz = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_rujnemo = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_zebrud = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+d_khvajeh = {
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_shekaft = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_poshpar = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
+              }
+}
+
+c_darukan = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 700000
               }
 }
 

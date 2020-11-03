@@ -1,0 +1,81 @@
+700000 = {
+	name="Father Claude"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700001 = {
+	name="Nader"
+	religion="kizilisma"
+	culture="almyran"
+
+	martial = 10
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		give_nickname = nick_the_undefeated
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700002 = {
+	name="Claude brother 1"
+	religion="kizilisma"
+	culture="almyran"
+	father = 700000
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		give_nickname = nick_the_undefeated
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700003 = {
+	name="Claude brother 2"
+	religion="kizilisma"
+	culture="almyran"
+	father = 700000
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		give_nickname = nick_the_undefeated
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700004 = {
+	name="Claude brother 3"
+	religion="kizilisma"
+	culture="almyran"
+	father = 700000
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		give_nickname = nick_the_undefeated
+	}
+	1200.1.1={
+		death=yes
+	}
+}
