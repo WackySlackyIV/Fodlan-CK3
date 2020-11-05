@@ -186,7 +186,9 @@ pantheon_religion = {
 			color = { 51 161 150 }
 			icon = mahayana
 
-			holy_site = shambala
+			holy_site = norfer
+			holy_site = charante
+			holy_site = engadina
 			
 			doctrine = tenet_adaptive
 			doctrine = tenet_ritual_celebrations
@@ -199,7 +201,9 @@ pantheon_religion = {
 			color = { 90 240 150 }
 			icon = mahayana
 
-			holy_site = shambala
+			holy_site = norfer
+			holy_site = charante
+			holy_site = engadina
 
 			doctrine = tenet_adaptive
 			doctrine = tenet_ritual_celebrations

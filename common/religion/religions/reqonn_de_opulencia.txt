@@ -186,7 +186,26 @@ reqonn_de_opulencia_religion = {
 			color = { 107 202 35 }
 			icon = orthodox
 
-			holy_site = shambala
+
+			holy_site = estiria
+			holy_site = martakhy
+			holy_site = karamai
+			holy_site = arad
+			holy_site = shezzen
+			
+			doctrine = tenet_legacy_of_trading_kings
+			doctrine = tenet_let_the_money_flow
+			doctrine = tenet_wonders_of_paradise
+		}
+		jebbilencia = {
+			color = { 107 202 35 }
+			icon = orthodox
+
+			holy_site = estiria
+			holy_site = martakhy
+			holy_site = karamai
+			holy_site = arad
+			holy_site = shezzen
 			
 			doctrine = tenet_legacy_of_trading_kings
 			doctrine = tenet_let_the_money_flow

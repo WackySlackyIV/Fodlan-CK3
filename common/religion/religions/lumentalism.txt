@@ -181,7 +181,9 @@ lumentalism_religion = {
 			color = { 178 193 212 }
             icon = finno_ugric
             
-			holy_site = shambala
+			holy_site = malagash
+			holy_site = jatnar
+			holy_site = akela
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
@@ -194,7 +196,9 @@ lumentalism_religion = {
 			color = { 100 118 135 }
             icon = finno_ugric
             
-			holy_site = shambala
+			holy_site = malagash
+			holy_site = jatnar
+			holy_site = akela
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_unrelenting_faith

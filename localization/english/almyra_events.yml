@@ -1,5 +1,5 @@
 ﻿l_english:
  blood.of.malik.start.event.t "The Ritual Preperations"
- blood.of.malik.start.event.desc "All the other priests have gathered the list of the preparations needed to commence this dangerous ritual. If I want to back out now, this is the only time"
- blood.of.malik.start.event.a "Let us commence the operation..."
+ blood.of.malik.start.event.desc "All the other priests have gathered the list of the preparations needed to commence this dangerous ritual. If I want to back out, now is the only time."
+ blood.of.malik.start.event.a "There is no going back, let us commence the operation..."
  blood.of.malik.start.event.b "This is a bad idea. We shouldn't play gods."

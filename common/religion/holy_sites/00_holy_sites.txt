@@ -135,6 +135,14 @@ fhirdiad = {
 	}
 }
 
+nuvelle = {
+	county = c_nuvelle
+	character_modifier = {
+		name = holy_site_nuvelle_effect_name
+		opinion_of_same_culture = 5
+	}
+}
+
 #################
 ### Anthrapos ###
 #################
@@ -183,6 +191,63 @@ gand = {
 		intrigue = 1
 	}
 }
+
+################
+### Pantheon ###
+################
+
+norfer = {
+	county = c_norfer
+	character_modifier = {
+		name = holy_site_norfer_effect_name
+		army_maintenance_mult = -0.05
+	}
+}
+
+charante = {
+	county = c_charante
+	character_modifier = {
+		name = holy_site_charante_effect_name
+		intrigue = 1
+	}
+}
+
+engadina = {
+	county = c_engadina
+	character_modifier = {
+		name = holy_site_engadina_effect_name
+		intrigue = 1
+	}
+}
+
+###################
+### Lumentalism ###
+###################
+
+malagash = {
+	county = c_malagash
+	character_modifier = {
+		name = holy_site_malagash_effect_name
+		intrigue = 1
+	}
+}
+
+jatnar = {
+	county = c_jatnar
+	character_modifier = {
+		name = holy_site_jatnar_effect_name
+		intrigue = 1
+	}
+}
+
+akela = {
+	county = c_akela
+	character_modifier = {
+		name = holy_site_akela_effect_name
+		intrigue = 1
+	}
+}
+
 
 
 ##############
@@ -269,3 +334,54 @@ brionac = {
 		stewardship = 1
 	}
 }
+
+##############
+### Reqonn ###
+##############
+
+estiria = {
+	county = c_estiria
+
+	character_modifier = {
+		name = holy_site_estiria_effect_name
+		stewardship = 1
+	}
+}
+
+martakhy = {
+	county = c_martakhy
+
+	character_modifier = {
+		name = holy_site_martakhya_effect_name
+		stewardship = 1
+	}
+}
+
+karamai = {
+	county = c_karamai
+
+	character_modifier = {
+		name = holy_site_karamai_effect_name
+		stewardship = 1
+	}
+}
+
+arad = {
+	county = c_arad
+
+	character_modifier = {
+		name = holy_site_arad_effect_name
+		stewardship = 1
+	}
+}
+
+shezzen = {
+	county = c_shezzen
+
+	character_modifier = {
+		name = holy_site_shezzen_effect_name
+		stewardship = 1
+	}
+}
+
+

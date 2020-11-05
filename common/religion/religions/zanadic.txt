@@ -317,8 +317,8 @@
 
 			holy_site = mor_enbarr
 			holy_site = garreg_mach
-			holy_site = merceus
-			holy_site = arianrhod
+			holy_site = hevring
+			holy_site = nuvelle
 			holy_site = fhirdiad
 			holy_site = derdriu
 
