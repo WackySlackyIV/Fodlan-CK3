@@ -104,12 +104,15 @@
 	learning=5
 	health = 6
 
-	trait = judith
-	trait = education_martial_4
-	trait = blademaster_1
 	trait = diligent
 	trait = brave
-	trait = flexible_leader
+	trait = just
+
+	trait = education_martial_4
+	trait = blademaster_2
+	trait = physique_good_2
+	trait = gallant
+	trait = organizer
 	random_traits = no
 
 
@@ -344,11 +347,21 @@
    	intrigue=5
 	learning=5
 	health = 6
-	trait = strategist
-	trait = strong
-	trait = blademaster_2
+
 	trait = brave
-	trait = education_martial_prowess_4
+	trait = just
+	trait = impatient
+
+	trait = education_martial_4
+	trait = physique_good_3
+	trait = blademaster_3
+	trait = strong
+	trait = scarred
+	trait = gallant
+	trait = aggressive_attacker
+
+
+
 	trait = experimenter
 	trait = bon_leader
 	random_traits = no
@@ -358,15 +371,6 @@
 	}
 	1155.8.9 = {
 		set_relation_friend = character:100013
-	}
-	1181.1.1={
-		#effect = {
-		#	give_minor_title = title_roundtable_member
-		#	remove_title = job_chancellor
-		#	remove_title = job_marshal
-		#	remove_title = job_treasurer
-		#	remove_title = job_spiritual
-		#}
 	}
 	1200.1.1={
 		death=yes
@@ -385,24 +389,25 @@
    	intrigue=10
 	learning=4
 	health = 6.5
-	trait = claude
-	trait = elusive_shadow
-	trait = crest_minor_riegan
-	trait = just
-	trait = shrewd
-	trait = gregarious
-	trait = ambitious
-	trait = schemer
-	trait = patient
+
 	trait = deceitful
-	trait = paranoid
+	trait = gregarious
+	trait = cynical
+	trait = arbitrary
+
+	trait = education_intrigue_4
+	trait = beauty_good_2
+	trait = shrewd
+	trait = strategist
+
+	trait = crest_minor_riegan
 	random_traits = no
 
 	1162.7.24 = {
 		birth=yes
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_master_tactician
+		give_nickname = nick_the_master_tactician
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -418,6 +423,7 @@
 	father=200000
 
 	trait = education_diplomacy_2
+	trait = beauty_good_3
 	trait = just
 	trait = disinherited
 	trait = shrewd
@@ -465,7 +471,6 @@
 	learning=5
 	health = 6.5
 	trait = education_diplomacy_2
-	trait = reason_magic_apprentice"
 	trait = crest_minor_gloucester
 	trait = improvident
 	trait = ambitious
@@ -477,13 +482,7 @@
 		birth="1161.6.13"
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_lord_of_roses
-		#effect = {
-		#	add_artifact = relic_thyrsus
-		#	spawn_date = -1.1.1
-		#	set_character_flag = spell_reason_fire
-		#	set_character_flag = spell_reason_sagittae
-		#}
+		give_nickname = nick_the_lord_of_roses
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -503,13 +502,15 @@
    	intrigue=2
 	learning=2
 	health = 6.5
-	trait = education_martial_2
-	trait = strong
-	trait = physique_good_2
-	trait = humble
+
 	trait = gluttonous
-	trait = stubborn
+	trait = compassionate
 	trait = trusting
+
+	trait = education_martial_2
+	trait = physique_good_3
+	trait = strong
+	trait = athletic
 	random_traits = no
 
 	1162.5.18 = {
@@ -596,11 +597,15 @@
    	intrigue=4
 	learning=8
 	health = 6.5
-	trait = education_stewardship_3
-	trait = architect
+
+	trait = calm
+	trait = forgiving
 	trait = temperate
-	trait = honest
-	trait = content
+
+	trait = education_stewardship_3
+	trait = intellect_good_1
+	trait = physique_bad_1
+	trait = journaller
 	random_traits = no
 
 	1163.3.14 = {
@@ -631,30 +636,24 @@
    	intrigue=4
 	learning=9
 	health = 6.5
-	trait = crest_major_gloucester
-	trait = crest_minor_charon
-	trait = intellect_good_3
-	trait = physique_bad_3
+
+
 	trait = ambitious
 	trait = diligent
-	trait = wroth"
+	trait = arrogant
+	trait = stubborn
+
+	trait = education_stewardship_4
+	trait = intellect_good_3
+
+	trait = crest_major_gloucester
+	trait = crest_minor_charon
 	trait = blood_experiments
 	random_traits = no
 
 	1165.2.28 = {
 		birth=yes
 	}
-	1181.1.1 = {
-		#effect = {
-		#	set_character_flag = spell_dark_miasma
-		#	set_character_flag = spell_dark_swarm
-		#	set_character_flag = spell_dark_luna
-		#	set_character_flag = spell_dark_darkspikes
-		#	set_character_flag = spell_faith_heal
-		#	set_character_flag = spell_faith_nosferatu
-		#	set_character_flag = spell_faith_seraphim
-		#	set_character_flag = spell_faith_warp
-		#}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -674,9 +673,15 @@
    	intrigue=2
 	learning=9
 	health = 6.5
-	trait = crest_minor_maurice
+
 	trait = shy
-	trait = depressed_1
+	trait = humble
+	trait = content
+
+	trait = education_learning_2
+	trait = melancholic
+
+	trait = crest_minor_maurice
 	random_traits = no
 
 	1162.11.23 = {
@@ -709,23 +714,22 @@
    	intrigue=7
 	learning=4
 	health = 6.5
-	trait = education_diplomacy_2
-	trait = crest_minor_goneril
+
 	trait = lazy
-	trait = content
 	trait = gregarious
+	trait = calm
+	trait = compassionate
+
+	trait = education_diplomacy_2
+
+	trait = crest_minor_goneril
+
 	random_traits = no
 
 	1162.2.3 = {
 		birth=yes
 		effect={
 			add_friend=100013
-		}
-	}
-	1181.1.1 = {
-		effect = {
-			add_artifact = relic_freikugel
-			spawn_date = -1.1.1
 		}
 	}
 	1200.1.1={
@@ -770,14 +774,16 @@
    	intrigue=4
 	learning=4
 	health = 6.5
-	trait = education_martial_3
-	trait = shrewd
-	trait = hunter_2
+
 	trait = diligent
 	trait = brave
-	trait = improvident
+	trait = greedy
 	trait = temperate
-	trait = just
+
+	trait = education_martial_3
+	trait = physique_good_1
+	trait = hunter_2
+	trait = improvident
 	random_traits = no
 
 	1160.8.21 = {
@@ -803,14 +809,17 @@
 	learning=3
 
 	trait = craven
+	trait = arrogant
+	trait = greedy
+
+	trait = education_intrigue_1
 
 
 	1140.1.11 = {
 		birth=yes
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_weathervane
-		#set_character_flag = spell_reason_blizzard
+		give_nickname = nick_the_weathervane
 	}
 	1200.1.1={
 		death=yes
@@ -1062,12 +1071,13 @@
 	culture="leicester"
 	father = 200001
 	mother = 200031
-	trait = education_stewardship_2
+
 	trait = just
-	trait = weak
-	trait = humble
-	trait = stubborn
-	trait = trusting
+	trait = ambitious
+	trait = impatient
+	trait = arrogant
+
+	trait = education_stewardship_3
 	random_traits = no
 
 	1141.02.8= {

@@ -24,3 +24,23 @@
 		}
 	}
 }
+
+blood_experiments = {
+	index = 301
+	
+	health = -2
+	same_opinion = 10
+	random_creation = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_blood_experiments_desc
+			}
+			desc = trait_blood_experiments_desc
+		}
+	}
+}
