@@ -2,50 +2,52 @@
 ### Blood of Malik ###
 ######################
 
-blood.of.malik.start.event.t = {
+namespace = blood.of.malik
+
+blood.of.malik.0001 = { #start event
 	
-	desc = blood.of.malik.start.event.desc
+	desc = blood.of.malik.0001.desc
 	
 	option = {
-		name = blood.of.malik.start.event.a
-		trigger_event = blood.of.malik.fail.bad.event.t
+		name = blood.of.malik.0001.a
+		trigger_event = blood.of.malik.0004
 	}
 	option = {
-		name = blood.of.malik.start.event.b
-		trigger_event = blood.of.malik.fail.really.bad.event.t
+		name = blood.of.malik.0001.b
+		trigger_event = blood.of.malik.0005
 	}
 }
 
-blood.of.malik.fail.bad.event.t = {
-	desc = blood.of.malik.fail.bad.desc
+blood.of.malik.0002 = { #fail bad
+	desc = blood.of.malik.0002.desc
 	
 	option = {
-		name = blood.of.malik.fail.bad.a
+		name = blood.of.malik.0002.a
 	}
 }
 
-blood.of.malik.fail.really.bad.event.t = {
-	desc = blood.of.malik.fail.really.bad.desc
+blood.of.malik.0003 = { #fail really bad
+	desc = blood.of.malik.0003.desc
 	
 	option = {
-		name = blood.of.malik.fail.really.bad.a
+		name = blood.of.malik.0003.a
 	}
 }
 
-blood.of.malik.succeed.event.1.t = {
-	desc = blood.of.malik.succeed.event.1.desc
+blood.of.malik.0004 = { #succed ok
+	desc = blood.of.malik.0004.desc
 	
 	option = {
-		name = blood.of.malik.succeed.event.1.a
+		name = blood.of.malik.0004.a
 		add_trait = crest.minor.malik
 	}
 }
 
-blood.of.malik.succeed.event.2.t = {
-	desc = blood.of.malik.succeed.event.2.desc
+blood.of.malik.0005 = { #succed great
+	desc = blood.of.malik.0005.desc
 	
 	option = {
-		name = blood.of.malik.succeed.event.2.a
+		name = blood.of.malik.0005.a
 		add_trait = crest.major.malik
 	}
 }
