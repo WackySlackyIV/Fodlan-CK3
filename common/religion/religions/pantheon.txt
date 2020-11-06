@@ -187,7 +187,7 @@ pantheon_religion = {
 			icon = mahayana
 
 			holy_site = norfer
-			holy_site = charante
+			holy_site = charente
 			holy_site = engadina
 			
 			doctrine = tenet_adaptive
@@ -202,7 +202,7 @@ pantheon_religion = {
 			icon = mahayana
 
 			holy_site = norfer
-			holy_site = charante
+			holy_site = charente
 			holy_site = engadina
 
 			doctrine = tenet_adaptive

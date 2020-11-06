@@ -8,10 +8,11 @@ blood.of.malik.start.event.t = {
 	
 	option = {
 		name = blood.of.malik.start.event.a
-		
+		trigger_event = blood.of.malik.fail.bad.event.t
 	}
 	option = {
 		name = blood.of.malik.start.event.b
+		trigger_event = blood.of.malik.fail.really.bad.event.t
 	}
 }
 

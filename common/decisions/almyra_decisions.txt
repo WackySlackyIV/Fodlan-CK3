@@ -45,9 +45,12 @@ malik_blood_ritual_decision = {
 	}
 
 	is_valid = {
-		title:k_almyra = {
-			holds_landed_title = yes
+		trigger_if = {
+			limit = { title:k_almyra = { any_in_de_jure_hierarchy = { tier = tier_county } } } #Has de jure land
+			completely_controls = title:k_almyra
+			has_title = title:k_castille
 		}
+		
 	}
 
 	is_valid_showing_failures_only = {
@@ -55,7 +58,11 @@ malik_blood_ritual_decision = {
 	}
 
 	effect = {
-		trigger_event = blood.of.malik.start.event
+		trigger_event = blood.of.malik.start.event.t
+	}
+
+	cost = {
+		piety = 200
 	}
 
 	ai_check_interval = 1

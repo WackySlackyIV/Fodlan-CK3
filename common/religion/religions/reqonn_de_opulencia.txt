@@ -203,9 +203,9 @@ reqonn_de_opulencia_religion = {
 
 			holy_site = estiria
 			holy_site = martakhy
-			holy_site = karamai
+			holy_site = murkesh
 			holy_site = arad
-			holy_site = shezzen
+			holy_site = djeb
 			
 			doctrine = tenet_legacy_of_trading_kings
 			doctrine = tenet_let_the_money_flow

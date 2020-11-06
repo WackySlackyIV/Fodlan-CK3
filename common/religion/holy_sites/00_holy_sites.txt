@@ -204,10 +204,10 @@ norfer = {
 	}
 }
 
-charante = {
-	county = c_charante
+charente = {
+	county = c_charente
 	character_modifier = {
-		name = holy_site_charante_effect_name
+		name = holy_site_charente_effect_name
 		intrigue = 1
 	}
 }
@@ -384,4 +384,138 @@ shezzen = {
 	}
 }
 
+#####################
+### Dewa Sheta Ah ###
+#####################
 
+djeb = {
+	county = c_djeb
+
+	character_modifier = {
+		name = holy_site_djeb_effect_name
+		stewardship = 1
+	}
+}
+
+abulmahhu = {
+	county = c_abulmahhu
+
+	character_modifier = {
+		name = holy_site_abulmahhu_effect_name
+		stewardship = 1
+	}
+}
+
+qito = {
+	county = c_qito
+
+	character_modifier = {
+		name = holy_site_qito_effect_name
+		stewardship = 1
+	}
+}
+
+murkesh = {
+	county = c_murkesh
+
+	character_modifier = {
+		name = holy_site_murkesh_effect_name
+		stewardship = 1
+	}
+}
+
+rusalka = {
+	county = c_rusalka
+
+	character_modifier = {
+		name = holy_site_rusalka_effect_name
+		stewardship = 1
+	}
+}
+
+
+
+##############
+### Almyra ###
+##############
+
+koshk = {
+	county = c_koshk_e_shokuh
+
+	character_modifier = {
+		name = holy_site_koshk_e_shokuh_effect_name
+		stewardship = 1
+	}
+}
+
+osul = {
+	county = c_osul
+
+	character_modifier = {
+		name = holy_site_osul_effect_name
+		stewardship = 1
+	}
+}
+
+karizibad = {
+	county = c_karizibad
+
+	character_modifier = {
+		name = holy_site_karizibad_effect_name
+		stewardship = 1
+	}
+}
+
+kafaz = {
+	county = c_kafaz
+
+	character_modifier = {
+		name = holy_site_kafaz_effect_name
+		stewardship = 1
+	}
+}
+
+buhasn = {
+	county = c_buhasn
+
+	character_modifier = {
+		name = holy_site_buhasn_effect_name
+		stewardship = 1
+	}
+}
+
+inabad = {
+	county = c_inabad
+
+	character_modifier = {
+		name = holy_site_inabad_effect_name
+		stewardship = 1
+	}
+}
+
+malikabad = {
+	county = c_malikabad
+
+	character_modifier = {
+		name = holy_site_malikabad_effect_name
+		stewardship = 1
+	}
+}
+
+kuibulyen = {
+	county = c_kuibulyen
+
+	character_modifier = {
+		name = holy_site_kuibulyen_effect_name
+		stewardship = 1
+	}
+}
+
+mayza = {
+	county = c_mayza
+
+	character_modifier = {
+		name = holy_site_mayza_effect_name
+		stewardship = 1
+	}
+}

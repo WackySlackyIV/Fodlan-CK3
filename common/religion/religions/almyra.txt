@@ -181,7 +181,11 @@ buykisik_religion = { #Almyra
 			color = { 224 85 70 }
             icon = shia
             
-			holy_site = shambala
+			holy_site = osul
+			holy_site = koshk
+			holy_site = kuibulyen
+			holy_site = inabad
+			holy_site = buhasn
 
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_warmonger
@@ -194,7 +198,10 @@ buykisik_religion = { #Almyra
 			color = { 99 124 145 }
             icon = shia
             
-			holy_site = shambala
+			holy_site = osul
+			holy_site = koshk
+			holy_site = kafaz
+			holy_site = buhasn
 
 			doctrine = tenet_legalism
 			doctrine = tenet_warmonger
@@ -209,7 +216,10 @@ buykisik_religion = { #Almyra
 			color = { 232 232 230 }
             icon = shia
             
-			holy_site = shambala
+			holy_site = osul
+			holy_site = koshk
+			holy_site = inabad
+			holy_site = buhasn
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_pacifism
@@ -225,7 +235,10 @@ buykisik_religion = { #Almyra
 			color = { 74 19 143 }
             icon = shia
             
-			holy_site = shambala
+			holy_site = karizibad
+			holy_site = kuibulyen
+			holy_site = koshk
+			holy_site = osul
 
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_warmonger
@@ -242,7 +255,10 @@ buykisik_religion = { #Almyra
 			color = { 4 84 26 }
             icon = shia
             
-			holy_site = shambala
+			holy_site = malikabad
+			holy_site = karamai
+			holy_site = koshk
+			holy_site = martakhy
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_gnosticism
@@ -257,7 +273,10 @@ buykisik_religion = { #Almyra
 			color = { 105 61 23 }
             icon = shia
             
-			holy_site = shambala
+			holy_site = buhasn
+			holy_site = mayza
+			holy_site = inabad
+			holy_site = koshk
 
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_literalism

@@ -181,7 +181,12 @@ dewa_sheta_ah_religion = { #Morfis
 			color = { 145 34 186 }
             icon = sunni
             
-			holy_site = shambala
+			holy_site = djeb
+			holy_site = qito
+			holy_site = abulmahhu
+			holy_site = murkesh
+			holy_site = rusalka
+
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_esotericism
