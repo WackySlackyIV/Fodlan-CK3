@@ -322,7 +322,7 @@ mage = {
 	siege_value = 0.1
 	
 	terrain_bonus = {
-		desert = { damage = 60 persuit = 20 }
+		desert = { damage = 60 pursuit = 20 }
 		desert_mountains = { pursuit = 20 }
 	}
 	
@@ -352,7 +352,7 @@ dark_mage = {
 	siege_value = 0.2
 	
 	terrain_bonus = {
-		desert = { damage = 60 persuit = 20 }
+		desert = { damage = 60 pursuit = 20 }
 		desert_mountains = { pursuit = 20 }
 	}
 	

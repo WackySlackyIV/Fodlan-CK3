@@ -16,17 +16,19 @@
 	health = 6.5
 	trait=edelgard
 	trait=skilled_tactician
-	trait=crest_minor_seiros
-	trait=crest_major_flames
-	trait=ambitious
-	trait=diligent
-	trait=brave
-	trait=cynical
-	trait=stubborn
-	trait=paranoid
-	trait=inspiring_leader
-	trait=ambidextrous
+
+	trait = ambitious
+	trait = cynical
+	trait = stubborn
+
+	trait = education_martial_3
+	trait = beauty_good_1
+	trait = shrewd
+	trait = august
+
 	trait = blood_experiments
+	trait = crest_minor_seiros
+	trait = crest_major_flames
 	disallow_random_traits = yes
 
 	1162.6.22 = {
@@ -63,12 +65,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 305
-	disallow_random_traits = yes
-	trait = "skilled_tactician"
-	trait = "content"
-	trait = "brave"
-	trait = "blinded"
-	trait = "trusting"
 
 	1111.11.11 = {
 		birth=yes
@@ -87,11 +83,6 @@
 	culture="adrestian"
 	dynasty = 306
 	disallow_random_traits = yes
-	trait = "misguided_warrior"
-	trait="brave"
-	trait="cynical"
-	trait="depressed"
-	trait="ill"
 
 	1137.1.11 = {
 		birth=yes
@@ -108,16 +99,12 @@
 	father = 400030
 	dynasty = 307
 
-	trait = "brilliant_strategist"
-	trait = "strategist"
-	trait = "falconer"
-	trait = "patient"
-	trait = "gluttonous"
-	trait = "brave"
-	trait = "stubborn"
-	trait = "narrow_flank_leader"
-	trait = "sapper"
-	trait = "tengri_leader"
+	trait = brilliant_strategist
+	trait = strategist
+	trait = patient
+	trait = gluttonous
+	trait = brave
+	trait = stubborn
 
 	1135.1.21 = {
 		birth=yes
@@ -137,11 +124,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 308
-	trait="tough_soldier"
-	trait="trusting"
-	trait="just"
-	trait="dull"
-	trait="scarred_mid"
 	father=400116
 
 	1157.1.11 = {
@@ -165,31 +147,13 @@
 	stewardship=4
    	intrigue=7
 	learning=3
-	trait="aegir"
-	trait="indulgent_wastrel"
-	trait="is_fat"
-	trait="dull"
-	trait="gluttonous"
-	trait="greedy"
-	trait="ambitious"
-	trait="disinherited"
-	trait="arbitrary"
-	disallow_random_traits = yes
 
 	1120.1.11 = {
 		birth=yes
 	}
-
 	1157.1.1 = {
 		add_spouse = 400155
 	}
-
-	1181.3.15 = {
-		effect = {
-			imprison = 400000 #by edel
-		}
-	}
-
 	1200.1.1={
 		death=yes
 	}
@@ -202,12 +166,6 @@
 	dynasty = 310
 	father = 400161
 
-	trait="scholarly_theologian"
-	trait="proud"
-	trait="cruel"
-	trait="paranoid"
-	trait="wroth"
-
 	1136.5.7 = {
 		birth=yes
 	}
@@ -215,13 +173,6 @@
 	1157.1.1={
 		add_spouse = 400159
 	}
-
-	1181.3.15 = {
-		effect = {
-			imprison = 400000 #by edel
-		}
-	}
-
 	1200.1.1={
 		death=yes
 	}
@@ -232,11 +183,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 311
-	trait="skilled_tactician"
-	trait="wroth"
-	trait="scarred_mid"
-	trait="zealous"
-	trait="paranoid"
 
 	1135.1.11 = {
 		birth=yes
@@ -251,26 +197,12 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 312
-	disallow_random_traits = yes
-	trait="grey_eminence"
-	trait="scholar"
-	trait="just"
-	trait="kind"
-	trait="erudite"
-	trait="trusting"
-	trait="reason_magic_apprentice"
 
 	1142.1.11 = {
 		birth=yes
 	}
 	1167.1.1 = {
 		add_spouse=400124
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_fire
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -283,14 +215,6 @@
 	culture="adrestian"
 	dynasty = 313
 	female=yes
-	disallow_random_traits=yes
-	trait="intricate_webweaver"
-	trait="gregarious"
-	trait="cruel"
-	trait="deceitful"
-	trait="trusting"
-	trait="patient"
-	trait="lefthanded"
 
 	1130.1.11 = {
 		birth=yes
@@ -309,16 +233,6 @@
 	culture="adrestian"
 	dynasty = 314
 	female=yes
-	trait="charismatic_negotiator"
-	trait="hedonist"
-	trait="drunkard"
-	trait="fair"
-	trait="charitable"
-	trait="deceitful"
-	trait="patient"
-	trait="shrewd"
-	trait="gregarious"
-	disallow_random_traits=yes
 
 	1136.1.11 = {
 		birth=yes
@@ -333,13 +247,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 315
-	trait="skilled_tactician"
-	trait="hunter"
-	trait="patient"
-	trait="shy"
-	trait="paranoid"
-	trait="lustful"
-	trait="brave"
 
 	1135.1.11 = {
 		birth=yes
@@ -360,11 +267,6 @@
 	father = 400050
 	mother = 400165
 	female = yes
-
-	trait="martial_cleric"
-	trait="crest_minor_indech"
-	trait="kind"
-	trait="humble"
 
 	1133.11.12 = {
 		birth=yes
@@ -404,29 +306,19 @@
    	intrigue=10
 	learning=2
 	health = 6.5
-	trait="hubert"
-	trait="elusive_shadow"
-	trait="dark_magic_adept"
-	trait="quick"
-	trait="schemer"
-	trait="content"
-	trait="cruel"
-	trait="cynical"
-	trait="deceitful"
-	trait="paranoid"
+
+	trait = callous
+	trait = cynical
+	trait = deceitful
+	trait = sadistic
+
+	trait = education_intrigue_4
+	trait = intellect_good_1
 	disallow_random_traits = yes
 
 
 	1160.4.17 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_dark_miasma
-			set_character_flag = spell_dark_mire
-			set_character_flag = spell_dark_banshee
-			set_character_flag = spell_dark_death
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -448,16 +340,16 @@
    	intrigue=1
 	learning=8
 	health = 6.5
-	trait="bernadetta"
-	trait="thrifty_clerk"
-	trait="crest_minor_indech"
-	trait="gardener"
-	trait="poet"
-	trait="kind"
-	trait="content"
-	trait="craven"
-	trait="paranoid"
-	trait="shy"
+
+	trait = craven
+	trait = shy
+	trait = paranoid
+	trait = compassionate
+
+	trait = education_stewardship_2
+	trait = reclusive
+
+	trait = crest_minor_indech
 	disallow_random_traits = yes
 
 	1162.12.12 = {
@@ -481,16 +373,15 @@
    	intrigue=1
 	learning=3
 	health = 6.5
-	trait="ferdinand"
-	trait="charismatic_negotiator"
-	trait="crest_minor_cichol"
-	trait="groomed"
-	trait="diligent"
-	trait="proud"
-	trait="honest"
-	trait="just"
-	trait="stubborn"
-	trait="cavalry_leader"
+
+	trait = diligent
+	trait = honest
+	trait = just
+
+	trait = education_diplomacy_3
+	trait = beauty_good_1
+
+	trait = crest_minor_cichol
 	disallow_random_traits = yes
 
 	1162.4.30 = {
@@ -514,15 +405,16 @@
    	intrigue=2
 	learning=2
 	health = 6.5
-	trait="caspar"
-	trait="tough_soldier"
-	trait="robust"
-	trait="duelist"
-	trait="humble"
-	trait="wroth"
-	trait="brave"
-	trait="trusting"
-	trait="aggressive_leader"
+
+	trait = brave
+	trait = wrathful
+	trait = content
+	trait = impatient
+
+	trait = education_martial_2
+	trait = physique_good_2
+	trait = strong
+	trait = athletic
 	disallow_random_traits = yes
 
 	1163.7.1 = {
@@ -551,17 +443,17 @@
    	intrigue=3
 	learning=9
 	health = 6.5
-	trait="linhardt"
-	trait="scholarly_theologian"
-	trait="reason_magic_adept"
-	trait="faith_magic_adept"
-	trait="genius"
-	trait="crest_minor_cethleann"
-	trait="scholar"
-	trait="slothful"
-	trait="cynical"
-	trait="erudite"
-	trait="honest"
+
+	trait = lazy
+	trait = calm
+	trait = content
+	trait = patient
+
+	trait = education_learning_3
+	trait = intellect_good_3
+	trait = journaller
+
+	trait = crest_minor_cethleann
 	disallow_random_traits = yes
 
 	1163.11.7 = {
@@ -570,18 +462,6 @@
 	1169.5.9 = {
 		effect={ 
 			set_relation_friend=400018
-		}
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_cuttinggale
-			set_character_flag = spell_reason_bolganone
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_physic
-			set_character_flag = spell_faith_restore
 		}
 	}
 	1200.1.1={
@@ -603,31 +483,20 @@
    	intrigue=6
 	learning=6
 	health = 6.5
-	trait="dorothea"
-	trait="charismatic_negotiator"
-	trait="reason_magic_adept"
-	trait="bastard"
-	trait="songstress"
-	trait="fair"
-	trait="groomed"
-	trait="charitable"
-	trait="kind"
-	trait="humble"
-	trait="lustful"
-	trait="cynical"
+
+	trait = generous
+	trait = gregarious
+	trait = lustful
+	trait = forgiving
+	trait = cynical
+
+	trait = education_diplomacy_3
+	trait = beauty_good_3
+	trait = bastard
 	disallow_random_traits = yes
 
 	1161.9.29 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		#give_nickname = nick_the_mystical_songstress
-		employer = 400000
-		effect = {
-			set_character_flag = spell_reason_thunder
-			set_character_flag = spell_reason_thoron
-			set_character_flag = spell_reason_sagittae
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -645,14 +514,17 @@
    	intrigue=2
 	learning=2
 	health = 6.5
-	trait="petra"
-	trait="agile"
-	trait="skilled_tactician"
-	trait="light_foot_leader"
-	trait="hunter"
-	trait="diligent"
-	trait="temperate"
-	trait="brave"
+
+	trait = compassionate
+	trait = honest
+	trait = trusting
+	trait = diligent
+	trait = brave
+	trait = patient
+
+	trait = education_martial_3
+	trait = physique_good_1
+	trait = hunter
 	disallow_random_traits = yes
 
 	1164.9.7 = {
@@ -680,20 +552,20 @@
 	learning=1
 	health = 6.5
 
-	trait="jeritza"
-	trait="brilliant_strategist"
-	trait="crest_minor_lamine"
-	trait="strong"
-	trait="robust"
-	trait="duelist"
-	trait="wroth"
-	trait="brave"
-	trait="just"
-	trait="kinslayer"
-	trait="berserker"
-	trait="aggressive_leader"
-	trait="adopted"
-	trait="reason_magic_apprentice"
+	trait = brave
+	trait = callous
+	trait = wrathful
+
+	trait = education_martial_2
+	trait = gallant
+	trait = possessed
+	trait = berserker
+	trait = physique_good_2
+	trait = strong
+	trait = blademaster_3
+	trait = kinslayer_3
+
+	trait = crest_minor_lamine
 	disallow_random_traits = yes
 
 	1158.3.4 = {
@@ -726,15 +598,15 @@
 	stewardship=5
    	intrigue=2
 	learning=6
-	trait="ionius"
-	trait="underhanded_rogue"
-	trait="depressed"
-	trait="celibate"
-	trait="infirm"
-	trait="feeble"
-	trait="temperate"
-	trait="content"
-	trait="celibate"
+
+	trait = calm
+	trait = honest
+	trait = patient
+	trait = temperate
+
+	trait = education_intrigue_2
+	trait = august
+	trait = celibate
 	disallow_random_traits = yes
 
 	1118.1.11 = {
@@ -764,32 +636,18 @@
 	learning=7
 	health = 6.5
 
-	trait="arundel"
-	trait="midas_touched"
-	trait="reason_magic_adept"
-	trait="dark_magic_master"
-	trait="shrewd"
-	trait="schemer"
-	trait="proud"
-	trait="diligent"
-	trait="ambitious"
-	trait="arbitrary"
-	trait="cruel"
-	trait="cynical"
-	trait="deceitful"
-	trait="gregarious"
+	trait = arrogant
+	trait = ambitious
+	trait = arbitrary
+	trait = deceitful
+
+	trait = education_stewardship_4
+	trait = intellect_good_1
+	trait = schemer
 	disallow_random_traits = yes
 
 	1136.1.11 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_thoron
-			set_character_flag = spell_dark_hades
-			set_character_flag = spell_dark_death
-			set_character_flag = spell_dark_quake
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -808,14 +666,13 @@
 	stewardship=5
    	intrigue=4
 	learning=3
-	trait="randolph"
-	trait="skilled_tactician"
-	trait="strong"
-	trait="brave"
-	trait="proud"
-	trait="honest"
-	trait="stubborn"
-	trait="unyielding_leader"
+
+	trait = brave
+	trait = stubborn
+	trait = arrogant
+
+	trait = education_martial_3
+	trait = blademaster_1
 	disallow_random_traits = yes
 
 	1155.7.20 = {
@@ -836,12 +693,13 @@
 	dynasty = 307
 
 	intrigue = 6
-	trait="fleche"
-	trait = "fortune_builder"
-	trait = "kind"
-	trait = "deceitful"
-	trait = "content"
 
+	trait = vengeful
+	trait = chaste
+	trait = compassionate
+
+	trait = education_diplomacy_1
+	disallow_random_traits = yes
 	1163.2.26 = {
 		birth=yes
 	}
@@ -862,15 +720,13 @@
    	intrigue=1
 	learning=1
 
-	trait="ladislava"
-	trait="skilled_tactician"
-	trait="robust"
-	trait="diligent"
-	trait="humble"
-	trait="content"
-	trait="brave"
-	trait="trusting"
-	trait="experimenter"
+	trait = diligent
+	trait = humble
+	trait = brave
+	trait = trusting
+
+	trait = education_martial_3
+	trait = blademaster_1
 	disallow_random_traits = yes
 
 	1160.1.11 = {
@@ -888,12 +744,6 @@
 	female = yes
 	dynasty = 319
 	father = 400049
-
-	trait="flamboyant_schemer"
-	trait="lustful"
-	trait="quick"
-	trait="charitable"
-	trait="ambitious"
 
 	1128.5.3 = {
 		birth=yes
@@ -916,11 +766,6 @@
 	culture="adrestian"
 	dynasty = 321
 
-	trait="intricate_webweaver"
-	trait="deceitful"
-	trait="ambitious"
-	trait="wroth"
-
 	1136.2.6 = {
 		birth=yes
 	}
@@ -939,12 +784,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 307
-
-	trait = "brilliant_strategist"
-	trait = "wroth"
-	trait = "duelist"
-	trait = "honest"
-	trait = "strong"
 
 	1110.2.1 = {
 		birth=yes
@@ -965,9 +804,6 @@
 	dynasty = 325
 	father = 400040
 	mother = 400163
-
-	trait="monica"
-	
 
 	1161.5.10 = {
 		birth=yes
@@ -1007,18 +843,9 @@
 
 400034 = {
 	name="Marcella"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	female = yes
-
-	trait = "martial_cleric"
-	trait = "groomed"
-	trait = "theologian"
-	trait = "kind"
-	trait = "humble"
-	trait = "patient"
-	trait = "gardener"
-	trait = "faith_magic_initiate"
 
 	1120.8.5 = {
 		birth=yes
@@ -1034,12 +861,6 @@
 		remove_spouse = 400036
 		add_spouse = 300084
 	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_physic
-		}
-	}
 	
 	1200.1.1={
 		death=yes
@@ -1051,12 +872,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 301
-
-	trait = "fortune_builder"
-	trait = "gamer"
-	trait = "kind"
-	trait = "is_fat"
-	trait = "shrewd"
 
 	1118.2.26 = {
 		birth=yes
@@ -1075,15 +890,6 @@
 	culture="adrestian"
 	dynasty = 322
 	father = 400174
-
-	trait = "flamboyant_schemer"
-	trait = "cruel"
-	trait = "lustful"
-	trait = "greedy"
-	trait = "wroth"
-	trait = "envious"
-	trait = "arbitrary"
-	trait = "uncouth"
 
 	1125.9.7 = {
 		birth=yes
@@ -1109,26 +915,9 @@
 	female=yes
 	dynasty = 323
 	father=400068
-	disallow_random_traits=yes
-	trait="flamboyant_schemer"
-	trait="fair"
-	trait="poet"
-	trait="cruel"
-	trait="patient"
-	trait="just"
-	trait="deceitful"
-	trait="gregarious"
-	trait="groomed"
-	trait="reason_magic_initiate"
 
 	1153.9.22 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_thoron
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1141,10 +930,6 @@
 	culture="adrestian"
 	dynasty = 317
 	father=400063
-
-	trait="midas_touched"
-	trait="administrator"
-	trait="slothful"
 
 	1133.7.10 = {
 		birth=yes
@@ -1165,28 +950,9 @@
 	culture="adrestian"
 	father=400075
 	dynasty = 324
-	disallow_random_traits=yes
-	trait="flamboyant_schemer"
-	trait="hedonist"
-	trait="fair"
-	trait="groomed"
-	trait="dull"
-	trait="lustful"
-	trait="gluttonous"
-	trait="drunkard"
-	trait="proud"
-	trait="patient"
-	trait="sturdy"
-	trait="dark_magic_apprentice"
-	
 
 	1137.8.15 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_dark_swarm
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1198,16 +964,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 325
-
-	trait="misguided_warrior"
-	trait="brave"
-	trait="stressed"
-	trait="stubborn"
-	trait="humble"
-	trait="arbitrary"
-	trait="paranoid"
-	trait="faith_magic_apprentice"
-	trait="reason_magic_apprentice"
 
 	1139.1.26 = {
 		birth=yes
@@ -1247,18 +1003,6 @@
 	culture="adrestian"
 	dynasty = 327
 	mother=400079
-	disallow_random_traits=yes
-	trait="tough_soldier"
-	trait="cruel"
-	trait="impaler"
-	trait="content"
-	trait="slothful"
-	trait="shy"
-	trait="arbitrary"
-	trait="honest"
-	trait="aggressive_leader"
-	trait="ugly"
-	trait="humble"
 
 	1148.10.10 = {
 		birth=yes
@@ -1270,34 +1014,12 @@
 
 400044 = {
 	name="Hildebrandt"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 328
-	disallow_random_traits=yes
-	trait="skilled_tactician"
-	trait="zealous"
-	trait="just"
-	trait="wroth"
-	trait="stubborn"
-	trait="proud"
-	trait="temperate"
-	trait="honest"
-	trait="charitable"
-	trait="holy_warrior"
-	trait="rough_terrain_leader"
-	trait="scarred_mid"
-	trait="faith_magic_adept"
-
 
 	1122.4.17 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_seraphim
-			set_character_flag = spell_faith_abraxas
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1307,20 +1029,9 @@
 400045 = {
 	name="Lothar"
 	religion="ablehnist"
-	secret_religion = "faith_of_seiros"
+	secret_religion = "seirosite"
 	culture="adrestian"
 	dynasty = 329
-	disallow_random_traits=yes
-	trait="intricate_webweaver"
-	trait="patient"
-	trait="ambitious"
-	trait="kind"
-	trait="charitable"
-	trait="just"
-	trait="slothful"
-	trait="reason_magic_apprentice"
-	
-
 
 	1139.8.27 = {
 		birth=yes
@@ -1368,29 +1079,9 @@
 	culture="adrestian"
 	dynasty = 331
 	father = 400077
-	disallow_random_traits=yes
-	trait="fortune_builder"
-	trait="zealous"
-	trait="content"
-	trait="just"
-	trait="erudite"
-	trait="paranoid"
-	trait="diligent"
-	trait="brave"
-	trait="defensive_leader"
-	trait="faith_magic_initiate"
-	trait="reason_magic_apprentice"
 
 	1136.7.17 = {
 		birth=yes
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_reason_thunder
-			set_character_flag = spell_reason_cuttinggale
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1400,18 +1091,10 @@
 400048 = {
 	name="Aurelius"
 	religion="ablehnist"
-	secret_religion="faith_of_seiros"
+	secret_religion="seirosite"
 	culture="adrestian"
 	dynasty = 332
 	disallow_random_traits=yes
-	trait="martial_cleric"
-	trait="infirm"
-	trait="trusting"
-	trait="craven"
-	trait="dull"
-	trait="charitable"
-	trait="temperate"
-	trait="humble"
 
 	1114.1.11 = {
 		birth=yes
@@ -1423,7 +1106,7 @@
 
 400049 = {
 	name="Arundel"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 319
 
@@ -1442,11 +1125,6 @@
 	dynasty = 303
 	father = 400167
 
-	trait="fortune_builder"
-	trait="crest_minor_indech"
-	trait="administrator"
-	trait="patient"
-
 	1109.3.13 = {
 		birth=yes
 	}
@@ -1462,13 +1140,13 @@
 
 400051 = {
 	name="Wilhelm" #start ionius kids
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 
-	trait = "blood_experiments"
-	trait = "crest_major_seiros"
+	trait = blood_experiments
+	trait = crest_major_seiros
 
 	1154.1.11 = {
 		birth=yes
@@ -1480,14 +1158,14 @@
 
 400052 = {
 	name="Adela"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 	female = yes
 
-	trait = "blood_experiments"
-	trait = "crest_minor_seiros"
+	trait = blood_experiments
+	trait = crest_minor_seiros
 
 	1155.1.11 = {
 		birth=yes
@@ -1499,13 +1177,13 @@
 
 400053 = {
 	name="Annelise"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 	female = yes
 
-	trait = "blood_experiments"
+	trait = blood_experiments
 
 	1156.1.11 = {
 		birth=yes
@@ -1517,13 +1195,13 @@
 
 400054 = {
 	name="Lycaon"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 
-	trait = "blood_experiments"
-	trait = "incapable"
+	trait = blood_experiments
+	trait = incapable
 
 	1157.1.11 = {
 		birth=yes
@@ -1535,14 +1213,14 @@
 
 400055 = {
 	name="Ionius"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 
-	trait = "blood_experiments"
-	trait = "crest_minor_flames"
-	trait = "incapable"
+	trait = blood_experiments
+	trait = crest_minor_flames
+	trait = incapable
 
 	1158.1.11 = {
 		birth=yes
@@ -1554,15 +1232,15 @@
 
 400056 = {
 	name="Alexander"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 
-	trait = "twin"
-	trait = "blood_experiments"
-	trait = "crest_minor_seiros"
-	trait = "crest_minor_flames"
+	trait = twin
+	trait = blood_experiments
+	trait = crest_minor_seiros
+	trait = crest_minor_flames
 
 	1159.1.11 = {
 		birth=yes
@@ -1574,14 +1252,14 @@
 
 400057 = {
 	name="Alexandra"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 	female = yes
 
-	trait = "twin"
-	trait = "blood_experiments"
+	trait = twin
+	trait = blood_experiments
 
 	1159.1.11 = {
 		birth=yes
@@ -1593,12 +1271,12 @@
 
 400058 = {
 	name="Frederick"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 
-	trait = "blood_experiments"
+	trait = blood_experiments
 
 	1161.1.11 = {
 		birth=yes
@@ -1610,15 +1288,15 @@
 
 400060 = {
 	name="Lynnea"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 	female = yes
 
-	trait = "blood_experiments"
-	trait = "crest_major_seiros"
-	trait = "incapable"
+	trait = blood_experiments
+	trait = crest_major_seiros
+	trait = incapable
 
 	1163.1.11 = {
 		birth=yes
@@ -1630,12 +1308,12 @@
 
 400061 = {
 	name="Rudolph" #stop Ionius kids
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 300
 	father = 400023
 
-	trait = "blood_experiments"
+	trait = blood_experiments
 
 	1164.1.11 = {
 		birth=yes
@@ -1652,9 +1330,6 @@
 	father = 400004
 	dynasty = 307
 
-	trait = "skilled_tactician"
-	trait = "strong"
-
 	1151.7.1 = {
 		birth=yes
 	}
@@ -1665,12 +1340,9 @@
 
 400063 = {
 	name="Gustav" #grandfather Linhardt
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 317
-
-	trait="genius"
-	trait="scholar"
 
 	1100.02.04 = {
 		birth=yes
@@ -1682,20 +1354,12 @@
 
 400064 = {
 	name="Elisabeth"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	secret_religion = "ablehnist"
 	culture="adrestian"
 	female=yes
 	father=400063
 	dynasty = 317
-	trait="intricate_webweaver"
-	trait="ambitious"
-	trait="diligent"
-	trait="envious"
-	trait="schemer"
-	trait="deceitful"
-	
-	
 
 	1141.02.04 = {
 		birth=yes
@@ -1717,17 +1381,6 @@
 	female=yes
 	dynasty = 323
 	father=400068
-	disallow_random_traits=yes
-	trait="detached_priest"
-	trait="lunatic"
-	trait="fair"
-	trait="poet"
-	trait="cruel"
-	trait="lustful"
-	trait="shy"
-	trait="humble"
-	trait="erudite"
-	trait="mystic"
 
 	1155.2.14 = {
 		birth=yes
@@ -1743,19 +1396,7 @@
 	culture="adrestian"
 	female=yes
 	dynasty = 323
-	disallow_random_traits=yes
 	father=400068
-	trait="underhanded_rogue"
-	trait="depressed"
-	trait="poet"
-	trait="kind"
-	trait="humble"
-	trait="diligent"
-	trait="shy"
-	trait="trusting"
-	trait="honest"
-	trait="faith_magic_apprentice"
-
 
 	1158.6.16 = {
 		birth=yes
@@ -1777,14 +1418,6 @@
 	female=yes
 	father=400068
 	dynasty = 323
-	disallow_random_traits=yes
-	trait="thrifty_clerk"
-	trait="poet"
-	trait="is_malnourished"
-	trait="wroth"
-	trait="diligent"
-	trait="temperate"
-
 
 	1160.12.06 = {
 		birth=yes
@@ -1796,17 +1429,10 @@
 
 400068 = {
 	name="Dominik"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 323
 	disallow_random_traits=yes
-	trait="underhanded_rogue"
-	trait="poet"
-	trait="brave"
-	trait="kind"
-	trait="slothful"
-
-
 
 	1130.11.04 = {
 		birth=yes
@@ -1818,21 +1444,11 @@
 
 400069 = {
 	name="Bertha"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 328
 	father=400044
 	female=yes
-	disallow_random_traits=yes
-	trait="charismatic_negotiator"
-	trait="zealous"
-	trait="just"
-	trait="diligent"
-	trait="proud"
-	trait="wroth"
-	trait="fair"
-	
-
 
 	1142.12.28 = {
 		birth=yes
@@ -1848,22 +1464,11 @@
 400070 = {
 	name="Wolfram"
 	religion="ablehnist"
-	secret_religion = "faith_of_seiros"
+	secret_religion = "seirosite"
 	culture="adrestian"
 	dynasty = 329
 	father=400045
 	mother=400069
-	disallow_random_traits=yes
-	trait="tough_soldier"
-	trait="brave"
-	trait="duelist"
-	trait="trusting"
-	trait="kind"
-	trait="honest"
-	trait="holy_warrior"
-	trait="content"
-	
-
 
 	1160.1.11 = {
 		birth=yes
@@ -1878,20 +1483,10 @@
 
 400071 = {
 	name="Caspar"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 331
 	father = 400077
-	disallow_random_traits=yes
-	trait="mastermind_theologian"
-	trait="scholar"
-	trait="erudite"
-	trait="kind"
-	trait="trusting"
-	trait="cynical"
-	trait="shy"
-	trait="proud"
-
 
 	1132.2.11 = {
 		birth=yes
@@ -1903,19 +1498,11 @@
 
 400072 = {
 	name="Anselma"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 328
 	father=400044
 	female=yes
-	disallow_random_traits=yes
-	trait="thrifty_clerk"
-	trait="ugly"
-	trait="temperate"
-	trait="patient"
-	trait="gregarious"
-	
-
 
 	1143.11.4 = {
 		birth=yes
@@ -1930,18 +1517,10 @@
 
 400073 = {
 	name="Magni"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 328
 	father=400044
-	disallow_random_traits=yes
-	trait="tough_soldier"
-	trait="ugly"
-	trait="brave"
-	trait="content"
-	trait="gregarious"
-	
-
 
 	1146.11.4 = {
 		birth=yes
@@ -1961,11 +1540,6 @@
 	female = yes
 	father=400075
 	dynasty = 324
-	disallow_random_traits=yes
-	trait="martial_cleric"
-	trait="kind"
-	trait="content"
-	trait="arbitrary"
 
 	1142.3.16 = {
 		birth=yes
@@ -1977,15 +1551,9 @@
 
 400075 = {
 	name="Silvanus"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 324
-	disallow_random_traits=yes
-	trait="martial_cleric"
-	trait="just"
-	trait="trusting"
-	trait="charitable"
-	trait="humble"
 
 	1111.11.11 = {
 		birth=yes
@@ -1997,16 +1565,11 @@
 
 400076 = {
 	name="Hildebrandt"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 328
 	father=400073
 	mother=400074
-	disallow_random_traits=yes
-	trait="rowdy"
-	trait="idolizer"
-
-
 
 	1170.02.03 = {
 		birth=yes
@@ -2018,17 +1581,9 @@
 
 400077 = {
 	name="Tacitus"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 331
-	disallow_random_traits=yes
-	trait="fortune_builder"
-	trait="incapable"
-	trait="infirm"
-	trait="kind"
-	trait="diligent"
-
-
 
 	1105.2.11 = {
 		birth=yes
@@ -2045,13 +1600,6 @@
 	dynasty = 327
 	female=yes
 	mother=400079
-	disallow_random_traits=yes
-	trait="thrifty_clerk"
-	trait="shy"
-	trait="diligent"
-	trait="chaste"
-	trait="paranoid"
-
 
 	1145.12.02 = {
 		birth=yes
@@ -2066,19 +1614,10 @@
 
 400079 = {
 	name="Livia"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 327
 	female=yes
-	disallow_random_traits=yes
-	trait="underhanded_rogue"
-	trait="gamer"
-	trait="deceitful"
-	trait="kind"
-	trait="gregarious"
-	trait="stubborn"
-
-
 
 	1119.4.02 = {
 		birth=yes
@@ -2090,18 +1629,12 @@
 
 400080 = {
 	name="Hilda"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="leicester"
 	dynasty = 107
 	female=yes
 	mother=400078
 	father=200037
-	disallow_random_traits=yes
-	trait="indolent"
-	trait="haughty"
-	trait="patient"
-
-
 
 	1168.8.16 = {
 		birth=yes
@@ -2113,16 +1646,12 @@
 
 400081 = {
 	name="Alicia"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 107
 	female=yes
 	mother=400078
 	father=200037
-	disallow_random_traits=yes
-	trait="timid"
-
-
 
 	1173.8.16 = {
 		birth=yes
@@ -2137,15 +1666,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	female=yes
-	
-	disallow_random_traits=yes
-	trait="indulgent_wastrel"
-	trait="shy"
-	trait="fair"
-	trait="craven"
-	trait="humble"
-
-
 
 	1140.8.16 = {
 		birth=yes
@@ -2165,14 +1685,6 @@
 	dynasty = 324
 	father=400039
 	mother=400082
-	disallow_random_traits=yes
-	trait="tough_soldier"
-	trait="chaste"
-	trait="temperate"
-	trait="charitable"
-	trait="wroth"
-	trait="proud"
-	trait="reason_magic_apprentice"
 
 	1158.10.12 = {
 		birth=yes
@@ -2201,7 +1713,6 @@
 	culture="adrestian"
 	dynasty = 324
 	father= 400039
-	trait="bastard"
 	
 
 	1156.03.04 = {
@@ -2219,7 +1730,6 @@
 	culture="adrestian"
 	dynasty = 324
 	father= 400039
-	trait="bastard"
 
 	1159.02.02 = {
 		birth=yes
@@ -2237,7 +1747,6 @@
 	female=yes
 	dynasty = 324
 	father= 400039
-	trait="bastard"
 
 	1163.04.06 = {
 		birth=yes
@@ -2255,12 +1764,6 @@
 	dynasty = 331
 	father = 400047 
 	mother = 400072
-	disallow_random_traits=yes
-	trait="tough_soldier"
-	trait="kind"
-	trait="cynical"
-	trait="humble"
-	trait="slothful"
 
 
 	1161.11.11 = {
@@ -2284,17 +1787,10 @@
 400088 = {
 	name="Yngvarr"
 	religion="ablehnist"
-	secret_religion="faith_of_seiros"
+	secret_religion="seirosite"
 	culture="adrestian"
 	father=400048
 	dynasty = 332
-	disallow_random_traits=yes
-	trait="intricate_webweaver"
-	trait="patient"
-	trait="shrewd"
-	trait="adopted"
-	trait="ambitious"
-	trait="reason_magic_apprentice"
 
 
 	1158.08.13 = {
@@ -2317,15 +1813,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 333
-	disallow_random_traits=yes
-	trait="thrifty_clerk"
-	trait="content"
-	trait="humble"
-	trait="just"
-	trait="diligent"
-	trait="patient"
-	trait="charitable"
-
 
 	1112.03.12 = {
 		birth=yes
@@ -2337,15 +1824,9 @@
 
 400090 = {
 	name="Wilhelm"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 334
-	disallow_random_traits=yes
-	trait="tough_soldier"
-	trait="brave"
-	trait="wroth"
-	trait="proud"
-	trait="aggressive_leader"
 
 
 
@@ -2407,7 +1888,7 @@
 
 400094 = {
 	name="Ludwig"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 338
 
@@ -2505,9 +1986,6 @@
 	female=yes
 	father = 400047
 	mother=400072
-	disallow_random_traits=yes
-	trait="indolent"
-	trait="brooding"
 
 
 	1169.11.11 = {
@@ -2540,11 +2018,6 @@
 	culture="adrestian"
 	dynasty = 305
 	father = 400101
-	disallow_random_traits=yes
-	trait="amateurish_plotter"
-	trait="diligent"
-	trait="paranoid"
-	trait="ambitious"
 
 	1158.1.1 = {
 		birth=yes
@@ -2560,11 +2033,6 @@
 	culture="adrestian"
 	dynasty = 305
 	father = 400101
-	disallow_random_traits=yes
-	trait="fortune_builder"
-	trait="diligent"
-	trait="content"
-	trait="proud"
 
 	1163.1.1 = {
 		birth=yes
@@ -2595,10 +2063,6 @@
 	culture="adrestian"
 	dynasty = 305
 	father = 400104
-	trait="flamboyant_schemer"
-	trait="content"
-	trait="hedonist"
-	trait="lustful"
 
 	1162.1.1 = {
 		birth=yes
@@ -2610,15 +2074,10 @@
 
 400106 = {
 	name="Wulfric"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 305
 	father = 400002
-	trait="scholarly_theologian"
-	trait="theologian"
-	trait="content"
-	trait="humble"
-	trait="paranoid"
 
 	1145.1.1 = {
 		birth=yes
@@ -2634,13 +2093,6 @@
 	culture="faerghus"
 	female=yes
 	dynasty = 344
-	disallow_random_traits=yes
-	trait="flamboyant_schemer"
-	trait="proud"
-	trait="ambitious"
-	trait="paranoid"
-	trait="dull"
-	trait="is_fat"
 
 	1150.1.1 = {
 		birth=yes
@@ -2705,9 +2157,6 @@
 	culture="adrestian"
 	female=yes
 	dynasty = 345
-	trait="charismatic_negotiator"
-	trait="chaste"
-	trait="fair"
 
 	1145.1.1 = {
 		birth=yes
@@ -2725,13 +2174,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
-	trait="charismatic_negotiator"
-	trait="seducer"
-	trait="shrewd"
-	trait="proud"
-	trait="lustful"
-	trait="greedy"
-	trait="gregarious"
 
 	1144.1.1 = {
 		birth=yes
@@ -2782,11 +2224,6 @@
 	culture="adrestian"
 	dynasty = 306
 	father=400116
-	trait="midas_touched"
-	trait="quick"
-	trait="administrator"
-	trait="patient"
-	trait="greedy"
 
 	1157.1.1 = {
 		birth=yes
@@ -2818,11 +2255,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	female=yes
-	trait="shrewd"
-	trait="wroth"
-	trait="seductress"
-	trait="arbitrary"
-	trait="charitable"
 
 	1155.1.1 = {
 		birth=yes
@@ -2839,11 +2271,6 @@
 	name="Hanno"
 	religion="ablehnist"
 	culture="adrestian"
-	trait="shrewd"
-	trait="wroth"
-	trait="seductress"
-	trait="arbitrary"
-	trait="charitable"
 	father=400008
 	dynasty = 308
 
@@ -2878,10 +2305,6 @@
 	name="Melchior"
 	religion="ablehnist"
 	culture="adrestian"
-	trait="tough_soldier"
-	trait="brave"
-	trait="kind"
-	trait="depressed"
 	father=400008
 	dynasty = 308
 
@@ -2953,18 +2376,10 @@
 
 400124 = {
 	name="Antonia"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	female=yes
 	dynasty = 347
-	trait="martial_cleric"
-	trait="celibate"
-	trait="depressed"
-	trait="is_malnourished"
-	trait="zealous"
-	trait="wroth"
-	trait="shy"
-	disallow_random_traits=yes
 
 	1147.1.1 = {
 		birth=yes
@@ -2976,15 +2391,10 @@
 
 400125 = {
 	name="Meldrick"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	female=yes
 	dynasty = 347
-	trait="tough_soldier"
-	trait="kind"
-	trait="shy"
-	trait="duelist"
-	trait="robust"
 
 	1149.1.1 = {
 		birth=yes
@@ -2999,11 +2409,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
-	trait="fortune_builder"
-	trait="architect"
-	trait="greedy"
-	trait="shy"
-	trait="slothful"
 	mother=400010
 	father=400133
 
@@ -3050,12 +2455,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
-	trait="mastermind_theologian"
-	trait="erudite"
-	trait="physician"
-	trait="mystic"
-	trait="chaste"
-	trait="cynical"
 	mother=400010
 	father=400133
 
@@ -3069,15 +2468,10 @@
 
 400130 = {
 	name="Irma"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 313
 	female=yes
-	trait="mastermind_theologian"
-	trait="erudite"
-	trait="theologian"
-	trait="lustful"
-	trait="zealous"
 	mother=400010
 	father=400133
 
@@ -3094,11 +2488,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 313
-	trait="misguided_warrior"
-	trait="duelist"
-	trait="wroth"
-	trait="cruel"
-	trait="trusting"
 	mother=400010
 	father=400133
 
@@ -3116,11 +2505,6 @@
 	culture="adrestian"
 	dynasty = 313
 	female=yes
-	trait="charismatic_negotiator"
-	trait="socializer"
-	trait="gregarious"
-	trait="deceitful"
-	trait="temperate"
 	mother=400010
 	father=400133
 
@@ -3134,7 +2518,7 @@
 
 400133 = {
 	name="Humphrey"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="leicester"
 	dynasty = 348
 
@@ -3154,8 +2538,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
-	trait="legit_bastard"
-	trait="tough_soldier"
 	mother=400011
 
 	1153.1.1 = {
@@ -3171,8 +2553,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
-	trait="bastard"
-	trait="flamboyant_schemer"
 	mother=400011
 
 	1160.1.1 = {
@@ -3189,8 +2569,6 @@
 	culture="adrestian"
 	dynasty = 314
 	female=yes
-	trait="bastard"
-	trait="martial_cleric"
 	mother=400011
 
 	1164.1.1 = {
@@ -3206,7 +2584,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
-	trait="bastard"
 	mother=400011
 
 	1172.1.1 = {
@@ -3222,7 +2599,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 314
-	trait="bastard"
 	mother=400011
 
 	1177.1.1 = {
@@ -3238,8 +2614,6 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 315
-	trait="tough_soldier"
-	trait="falconer"
 	mother=400141
 	father=400012
 
@@ -3257,8 +2631,6 @@
 	culture="adrestian"
 	dynasty = 315
 	female=yes
-	trait="tough_soldier"
-	trait="duelist"
 	mother=400141
 	father=400012
 
@@ -3276,13 +2648,6 @@
 	culture="adrestian"
 	dynasty = 349
 	female=yes
-	trait="fortune_builder"
-	trait="gregarious"
-	trait="feeble"
-	trait="fair"
-	trait="erudite"
-	trait="stubborn"
-	disallow_random_traits=yes
 
 	1124.1.1 = {
 		birth=yes
@@ -3297,20 +2662,9 @@
 
 400142 = {
 	name="Gilberte"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	female=yes
-	trait="martial_cleric"
-	trait="kind"
-	trait="feeble"
-	trait="content"
-	trait="paranoid"
-	trait="gardener"
-	trait="chaste"
-	trait="temperate"
-	trait="craven"
-	trait="honest"
-	disallow_random_traits=yes
 
 	1114.09.05 = {
 		birth=yes
@@ -3325,7 +2679,7 @@
 
 400143 = {
 	name="Hedwig"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	father = 100001
 	mother = 400142
@@ -3412,14 +2766,12 @@
 
 400148 = {
 	name="Marina"
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	female = yes
 	father = 400014
 	mother = 400147
 	dynasty = 316
-
-	trait="blood_experiments"
 
 	1145.05.13 = {
 		birth=yes
@@ -3504,9 +2856,6 @@
 
 	intrigue = 7
 
-	trait="shy"
-	trait="trusting"
-
 	1162.03.05 = {
 		birth=yes
 	}
@@ -3521,12 +2870,6 @@
 	culture="adrestian"
 	dynasty = 352
 	female = yes
-
-	trait="thrifty_clerk"
-	trait="quick"
-	trait="deceitful"
-	trait="envious"
-	trait="just"
 
 	1140.11.4 = {
 		birth=yes
@@ -3548,11 +2891,6 @@
 	dynasty = 353
 	female = yes
 
-	trait="scholarly_theologian"
-	trait="shy"
-	trait="just"
-	trait="content"
-
 	1139.9.2 = {
 		birth=yes
 	}
@@ -3572,11 +2910,6 @@
 	culture="adrestian"
 	dynasty = 354
 	female=yes
-
-	trait="detached_priest"
-	trait="patient"
-	trait="genius"
-	trait="faith_magic_adept"
 
 	1137.12.19 = {
 		birth=yes
@@ -3605,11 +2938,6 @@
 	culture="adrestian"
 	dynasty = 355
 	female=yes
-
-	trait="tough_soldier"
-	trait="wroth"
-	trait="lefthanded"
-	trait="diligent"
 
 	1140.11.15 = {
 		birth=yes
@@ -3651,10 +2979,6 @@
 	dynasty = 357
 	female=yes
 
-	trait="amateurish_plotter"
-	trait="arbitrary"
-	trait="paranoid"
-
 	1139.12.3 = {
 		birth=yes
 	}
@@ -3681,10 +3005,6 @@
 	dynasty = 310
 	father = 400161
 	
-	trait="grey_eminence"
-	trait="kind"
-	trait="content"
-	
 	1141.12.8 = {
 		birth=yes
 	}
@@ -3695,11 +3015,9 @@
 
 400161 = {
 	name="Rolf" #bernie grandfather
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 310
-
-	trait="scholarly_theologian"
 
 	1120.1.11 = {
 		birth=yes
@@ -3711,15 +3029,10 @@
 
 400162 = {
 	name="Decima" #dorothea mother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 310
 	female = yes
-
-	trait="naive_appeaser"
-	trait="fair"
-	trait="humble"
-	trait="diligent"
 
 	1133.8.25 = {
 		birth=yes
@@ -3735,12 +3048,6 @@
 	culture="adrestian"
 	dynasty = 358
 	female = yes
-
-	trait="martial_cleric"
-	trait="lisp"
-	trait="arbitrary"
-	trait="erudite"
-	trait="zealous"
 
 	1143.4.7 = {
 		birth=yes
@@ -3762,9 +3069,6 @@
 	dynasty = 303
 	father = 400050
 	mother = 400165
-
-	trait="envious"
-	trait="wroth"
 
 	1137.10.19 = {
 		birth=yes
@@ -3796,15 +3100,10 @@
 
 400166 = {
 	name="Lothar" #hanneman father
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 303
 	father = 400167
-
-	trait="charismatic_negotiator"
-	trait="crest_major_indech"
-	trait="diligent"
-	trait="honest"
 
 	1105.4.26 = {
 		birth=yes
@@ -3821,15 +3120,9 @@
 
 400167 = {
 	name="Harald" #hanneman grandfather
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 303
-
-	trait="grey_eminence"
-	trait="kind"
-	trait="genius"
-	trait="crest_minor_indech"
-	trait="zealous"
 
 	1085.1.11 = {
 		birth=yes
@@ -3841,16 +3134,12 @@
 
 400168 = {
 	name="Adele" #hanneman sister
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 303
 	female = yes
 	father = 400166
 	mother = 400169
-
-	trait="fortune_builder"
-	trait="craven"
-	trait="shy"
 
 	1144.9.19 = {
 		birth=yes
@@ -3862,14 +3151,10 @@
 
 400169 = {
 	name="Jessica" #hanneman mother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 360
 	female = yes
-
-	trait="fortune_builder"
-	trait="craven"
-	trait="shy"
 
 	1109.9.8 = {
 		birth=yes
@@ -3885,15 +3170,10 @@
 
 400170 = {
 	name="Nathalie" #constance mother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 326
 	female = yes
-
-	trait="flamboyant_schemer"
-	trait="proud"
-	trait="envious"
-	trait="groomed"
 
 	1137.3.11 = {
 		birth=yes
@@ -3908,14 +3188,9 @@
 
 400171 = {
 	name="Chad" #constance father
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 326
-
-	trait="fortune_builder"
-	trait="proud"
-	trait="ambitious"
-	trait="zealous"
 
 	1135.11.14 = {
 		birth=yes
@@ -3930,18 +3205,11 @@
 
 400172 = {
 	name="Clement" #constance older brother
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 326
 	father = 400171
 	mother = 400170
-
-	trait="martial_cleric"
-	trait="kind"
-	trait="humble"
-	trait="zealous"
-	trait="erudite"
-	trait="physician"
 
 	1158.11.1 = {
 		birth=yes
@@ -3953,7 +3221,7 @@
 
 400173 = {
 	name="Amaia" #bartels
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 361
 	female = yes
@@ -3971,7 +3239,7 @@
 
 400174 = {
 	name="Falk" #bartels
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 322
 	father = 400175
@@ -3986,7 +3254,7 @@
 
 400175 = {
 	name="Otto" #bartels
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 322
 	father = 400176
@@ -4001,7 +3269,7 @@
 
 400176 = {
 	name="Dougal" #bartels
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 322
 
@@ -4015,7 +3283,7 @@
 
 400177 = {
 	name="Stanislav" #bartels
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 322
 	father = 400178
@@ -4030,7 +3298,7 @@
 
 400178 = {
 	name="Murdoch" #bartels
-	religion="faith_of_seiros"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 322
 	father = 400176
@@ -4048,8 +3316,8 @@
 	religion="ablehnist"
 	culture="adrestian"
 
-	trait="strong"
-	trait="kind"
+	trait = strong
+	trait = compassionate
 
 	1146.1.1= {
 		birth=yes
@@ -4072,13 +3340,11 @@
 	religion="ablehnist"
 	culture="adrestian"
 
+	trait = arbitrary
+	trait = deceitful
+	trait = sadistic
 
-	trait="metodey"
-	trait="flamboyant_schemer"
-	trait="arbitrary"
-	trait="impaler"
-	trait="cruel"
-	trait="deceitfull"
+	trait = education_intrigue_2
 	disallow_random_traits = yes
 
 	1146.05.08= {

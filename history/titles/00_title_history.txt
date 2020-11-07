@@ -63,7 +63,7 @@ c_zanado = {
 #Eastern Church
 d_eastern_church = {
               1180.1.1 = {
-                            holder = 100000
+                            holder = 200009
               }
 }
 
@@ -71,7 +71,7 @@ d_eastern_church = {
 c_salem = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 100000
+                            holder = 200009
               }
 }
 
@@ -79,14 +79,14 @@ c_salem = {
 c_cangort = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 100000
+                            holder = 200009
               }
 }
 
 #Western Church
 d_western_church = {
               1180.1.1 = {
-                            holder = 100000
+                            holder = 300014
               }
 }
 
@@ -94,7 +94,7 @@ d_western_church = {
 c_bade = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 100000
+                            holder = 300014
               }
 }
 
@@ -102,7 +102,7 @@ c_bade = {
 c_galilee = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 100000
+                            holder = 300014
               }
 }
 
@@ -110,7 +110,7 @@ c_galilee = {
 c_nazer = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 100000
+                            holder = 300014
               }
 }
 
@@ -118,42 +118,42 @@ c_nazer = {
 c_gladia = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 100000
+                            holder = 300014
               }
 }
 
 #Kleiman
 d_kleiman = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
 c_imperia = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
 c_senatore = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
 c_pretoria = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
 c_magistras = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
@@ -167,77 +167,77 @@ d_norfer = {
 c_norfer = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
 c_pavia = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300017
               }
 }
 
 #Fraldarius
 d_fraldarius = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300004
               }
 }
 
 c_fraldarius = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300004
               }
 }
 
 c_wapont = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300004
               }
 }
 
 c_guisnes = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300004
               }
 }
 
 c_fologne = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300004
               }
 }
 
 #Adharc
 d_adharc = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_adharc = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_ryswise = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_renaix = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
@@ -307,364 +307,357 @@ c_roehester = {
 #Clarence
 d_clarence = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200001
               }
 }
 
 c_clarence = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200001
               }
 }
 
 c_reculver = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200001
               }
 }
 
 c_cartmel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200001
               }
 }
 
 c_catterick = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200033
               }
 }
 
 #Myrrdin
 d_myrddin = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200002
               }
 }
 
 c_myrddin = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200002
               }
 }
 
 c_yarmouth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200026
               }
 }
 
 c_bordersley = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200002
               }
 }
 
 c_rhuddlan = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200002
               }
 }
 
 #Daphnel
 d_daphnel = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200003
               }
 }
 
 c_daphnel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200003
               }
 }
 
 c_ive = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200003
               }
 }
 
 c_beverly = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200003
               }
 }
 
 c_gomery = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200003
               }
 }
 
 c_maris = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200003
               }
 }
 
 #Aillel
 d_ailell = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200004
               }
 }
 
 c_ailell = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200004
               }
 }
 
 c_stroud = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200004
               }
 }
 
 #Ordelia
 d_ordelia = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200005
               }
 }
 
 c_ordelia = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200005
               }
 }
 
 c_brandwell = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200005
               }
 }
 
 c_osyth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200005
               }
 }
 
 c_kirdford = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200005
               }
 }
 
 #Gloucester
 d_gloucester = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 c_gloucester = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 c_wayford = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 c_cleeve = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 c_haugmond = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 c_haven = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 c_grimsby = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200006
               }
 }
 
 #Edmund
 d_edmund = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200007
               }
 }
 
 c_edmund = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200007
               }
 }
 
 c_ely = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200007
               }
 }
 
 c_raglan = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200007
               }
 }
 
 c_alfreton = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200007
               }
 }
 
 c_jarrow = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
-              }
-}
-
-#Kupala
-d_kupala = {
-              1180.1.1 = {
-                            holder = 200000
+                            holder = 200007
               }
 }
 
 c_radava = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200008
               }
 }
 
 c_kupala = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200008
               }
 }
 
 #Goneril
 d_goneril = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 c_goneril = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 c_minster = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 c_asaph = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 c_tamsworth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 c_morland = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 c_throatford = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200011
               }
 }
 
 #Atholl
 d_atholl = {
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200010
               }
 }
 
 c_atholl = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200010
               }
 }
 
 c_morcambe = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200010
               }
 }
 
 c_croston = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200051
               }
 }
 
 c_perf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200010
               }
 }
 
@@ -727,609 +720,609 @@ c_veliocasse = {
 #Galatea
 d_galatea = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300001
               }
 }
 
 c_galatea = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300001
               }
 }
 
 c_chartreuse = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300001
               }
 }
 
 c_beaulieu = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300001
               }
 }
 
 c_gwyne = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300001
               }
 }
 
 #Charon
 d_charon = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300002
               }
 }
 
 c_charon = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300002
               }
 }
 
 c_shrewe = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300002
               }
 }
 
 c_warwise = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300002
               }
 }
 
 c_lenord = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300002
               }
 }
 
 #Conand
 d_conand = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300003
               }
 }
 
 c_conand = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300003
               }
 }
 
 c_esses = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300003
               }
 }
 
 c_aurigniy = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300003
               }
 }
 
 c_douvres = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300003
               }
 }
 
 #Gautier
 d_gautier = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_gautier = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_gueldre = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_frise = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 c_sudfrise = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300005
               }
 }
 
 #Itha
 d_itha = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300006
               }
 }
 
 c_itha = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300006
               }
 }
 
 c_foulde = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300006
               }
 }
 
 c_montjoie = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300006
               }
 }
 
 c_clevris = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300006
               }
 }
 
 #Langres
 d_langres = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300007
               }
 }
 
 c_langres = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300007
               }
 }
 
 c_juliers = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300007
               }
 }
 
 c_looz = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300007
               }
 }
 
 c_gand = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300007
               }
 }
 
 #Magdred
 d_magdred = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300008
               }
 }
 
 c_magdred = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300008
               }
 }
 
 c_florimont = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300008
               }
 }
 
 c_montcarvel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300008
               }
 }
 
 #Lalonde
 d_lalonde = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300076
               }
 }
 
 c_lalonde = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300076
               }
 }
 
 c_mortagne = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300076
               }
 }
 
 c_resin = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300076
               }
 }
 
 c_leon = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300076
               }
 }
 
 #Roland
 d_roland = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300010
               }
 }
 
 c_roland = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300010
               }
 }
 
 c_roncevaux = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300010
               }
 }
 
 c_blaye = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300010
               }
 }
 
 c_vitre = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300010
               }
 }
 
 #Gaspard
 d_gaspard = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300011
               }
 }
 
 c_gaspard = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300011
               }
 }
 
 c_balthasar = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300011
               }
 }
 
 c_melchior = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300011
               }
 }
 
 c_zorastre = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300011
               }
 }
 
 #Rowe
 d_rowe = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300012
               }
 }
 
 c_rowe = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300012
               }
 }
 
 c_arianrhod = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300012
               }
 }
 
 c_ampuis = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300012
               }
 }
 
 c_soyers = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300012
               }
 }
 
 #Gideon
 d_gideon = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300013
               }
 }
 
 c_gideon = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300013
               }
 }
 
 c_midian = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300013
               }
 }
 
 c_goetinge = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300013
               }
 }
 
 c_leine = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300013
               }
 }
 
 #Mateus
 d_mateus = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300015
               }
 }
 
 c_mateus = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300015
               }
 }
 
 c_tricasse = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300015
               }
 }
 
 c_mettis = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300015
               }
 }
 
 c_lourene = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300015
               }
 }
 
 #Genevieve
 d_genevieve = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300016
               }
 }
 
 c_genevieve = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300016
               }
 }
 
 c_fraisnes = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300016
               }
 }
 
 c_chablis = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300016
               }
 }
 
 c_bisont = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300016
               }
 }
 
 #Brume
 d_brume = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300018
               }
 }
 
 c_brume = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300018
               }
 }
 
 c_torraine = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300018
               }
 }
 
 #Lucain
 d_lucain = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300019
               }
 }
 
 c_lucain = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300019
               }
 }
 
 c_lemo = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300019
               }
 }
 
 c_thours = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300019
               }
 }
 
 c_lusigan = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300019
               }
 }
 
 #Zacharie
 d_zacharie = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300020
               }
 }
 
 c_zacharie = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300020
               }
 }
 
 c_archembault = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300020
               }
 }
 
 c_charente = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300020
               }
 }
 
 c_cavaellon = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300020
               }
 }
 
 #Rhodos
 d_rhodos = {
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300021
               }
 }
 
 c_rhodos = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300021
               }
 }
 
 c_lahourd = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300021
               }
 }
 
 c_bordeu = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300021
               }
 }
 
 c_auch = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300021
               }
 }
 
@@ -1434,1008 +1427,966 @@ c_kerben = {
 #Hrym
 d_hrym = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400022
               }
 }
 
 c_hrymm = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400022
               }
 }
 
 c_maugstrup = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400022
               }
 }
 
 c_jerpstead = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400022
               }
 }
 
 c_boacker = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400022
               }
 }
 
 c_durhaus = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400022
               }
 }
 
 #Niendorf
 d_niendorf = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400002
               }
 }
 
 c_niendorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400002
               }
 }
 
 c_bandorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400002
               }
 }
 
 c_bertensdorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400002
               }
 }
 
 #Gronder
 d_gronder = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_gronder = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_welten = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_hangendenbuch = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_mariensiel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 #Airmid
 d_airmid = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400003
               }
 }
 
 c_airmid = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400003
               }
 }
 
 c_schollbrun = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400003
               }
 }
 
 c_heede = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400003
               }
 }
 
 c_nordorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400003
               }
 }
 
 #Rugen
 d_rugen = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400005
               }
 }
 
 c_rugen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400005
               }
 }
 
 c_badenhagen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400005
               }
 }
 
 #Aegir
 d_aegir = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 c_aegir = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 c_gosabruck = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 c_heessen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 c_kosa = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 c_steinerkirchen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 c_lichen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400017
               }
 }
 
 #Varley
 d_varley = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400007
               }
 }
 
 c_varley = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400007
               }
 }
 
 c_griebow = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400007
               }
 }
 
 c_pente = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400007
               }
 }
 
 c_questnitz = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400007
               }
 }
 
 c_frischenburg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400007
               }
 }
 
 #Bergliez
 d_bergliez = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_bergliez = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_dalwitzhof = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_lendrass = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 c_kell = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400004
               }
 }
 
 #Stieglitz
 d_stieglitz = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400008
               }
 }
 
 c_stieglitz = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400008
               }
 }
 
 c_guarda = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400008
               }
 }
 
 c_oberleiten = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400008
               }
 }
 
 c_piskaborn = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400008
               }
 }
 
 #Gerth
 d_gerth = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400009
               }
 }
 
 c_gerth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400009
               }
 }
 
 c_swabach = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400009
               }
 }
 
 c_waltenham = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400009
               }
 }
 
 c_westerhofen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400009
               }
 }
 
 #Rysalka
 d_rusalka = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400010
               }
 }
 
 c_rusalka = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400010
               }
 }
 
 c_hornschlag = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400010
               }
 }
 
 c_thoenischen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400010
               }
 }
 
 c_krausebauden = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400010
               }
 }
 
 #Boramas
 d_boramas = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400011
               }
 }
 
 c_boromas = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400011
               }
 }
 
 c_passern = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400011
               }
 }
 
 c_schmidenburg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400011
               }
 }
 
 c_phillipenau = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400011
               }
 }
 
 #Morgaine
 d_morgaine = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400012
               }
 }
 
 c_morgaine = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400012
               }
 }
 
 c_vorderlain = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400012
               }
 }
 
 c_kleinsitzen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400012
               }
 }
 
 c_dachsberg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400012
               }
 }
 
 c_plechin = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400012
               }
 }
 
 #Essar
 d_essar = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400013
               }
 }
 
 c_essar = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400013
               }
 }
 
 c_litzhaln = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400013
               }
 }
 
 c_grosseg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400013
               }
 }
 
 #Engel
 d_engel = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400014
               }
 }
 
 c_engel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400014
               }
 }
 
 c_juten = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
-              }
-}
-
-#Fangs
-k_fangs = {
-              1180.1.1 = {
-                            holder = 400000
+                            holder = 400014
               }
 }
 
 #Olrun
 d_olrun = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400037
               }
 }
 
 c_olrun = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400037
               }
 }
 
 c_mundorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400037
               }
 }
 
 c_kronburg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400037
               }
 }
 
 c_schatz = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400037
               }
 }
 
 #Hevring
 d_hevring = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400038
               }
 }
 
 c_hevring = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400038
               }
 }
 
 c_paal = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400038
               }
 }
 
 c_biserl = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400038
               }
 }
 
 c_langgassen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400038
               }
 }
 
 c_bodendorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400038
               }
 }
 
 #Reiss
 d_reiss = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400039
               }
 }
 
 c_reiss = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400039
               }
 }
 
 c_minning = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400039
               }
 }
 
 c_gallmanswegg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400039
               }
 }
 
 c_ruprechtshofen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400039
               }
 }
 
 #Ochs
 d_ochs = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400163
               }
 }
 
 c_ochs = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400163
               }
 }
 
 c_pitten = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400163
               }
 }
 
 c_elling = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400163
               }
 }
 
 c_maxlon = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400163
               }
 }
 
 #Bartels
 d_bartels = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400041
               }
 }
 
 c_bartels = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400041
               }
 }
 
 c_krail = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400041
               }
 }
 
 c_lanau = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400041
               }
 }
 
 c_flurnsbach = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
-              }
-}
-
-#Nuvelle
-d_nuvelle = {
-              1180.1.1 = {
-                            holder = 400000
-              }
-}
-
-c_nuvelle = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 400000
-              }
-}
-
-c_lindl = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 400000
-              }
-}
-
-c_pflach = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 400000
-              }
-}
-
-c_mittrau = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 400000
+                            holder = 400041
               }
 }
 
 #Skade
 d_skade = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400043
               }
 }
 
 c_skade = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400043
               }
 }
 
 c_wademanssfeld = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400043
               }
 }
 
 c_trefning = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400043
               }
 }
 
 c_petzeldorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400043
               }
 }
 
 c_latzenhof = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400043
               }
 }
 
 #Brionac
 d_brionac = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400044
               }
 }
 
 c_brionac = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400044
               }
 }
 
 c_theisenberg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400044
               }
 }
 
 c_obertiefen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400044
               }
 }
 
 c_hoferdorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400044
               }
 }
 
 #Sleipner
 d_sleipner = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400045
               }
 }
 
 c_sleipner = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400045
               }
 }
 
 c_steyer = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400045
               }
 }
 
 c_korb = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400045
               }
 }
 
 c_untereich = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400045
               }
 }
 
 c_nostra = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400045
               }
 }
 
 #Arundel
 d_arundel = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 c_arundel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 c_tarzendorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 c_ausserrhoden = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 c_aarburg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 c_tavetsch = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 c_alle = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400024
               }
 }
 
 #Schwan
 d_schwan = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400146
               }
 }
 
 c_schwan = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400146
               }
 }
 
 c_windhag = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400146
               }
 }
 
 c_tollertau = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400146
               }
 }
 
 #Huldra
 d_huldra = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400047
               }
 }
 
 c_huldra = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400047
               }
 }
 
 c_eberweiss = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400047
               }
 }
 
 c_kleinberg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400047
               }
 }
 
 c_geserberg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400047
               }
 }
 
 #Oghma
 d_oghma = {
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400048
               }
 }
 
 c_oghma = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400048
               }
 }
 
 c_berler = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400048
               }
 }
 
 c_bichlach = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400048
               }
 }
 
 c_eisenthal = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400048
               }
 }
 

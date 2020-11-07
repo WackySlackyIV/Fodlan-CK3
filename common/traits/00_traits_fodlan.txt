@@ -10,6 +10,8 @@
 	intrigue = 3
 	learning = 3
 	prowess = 20
+	fertility = -0.33
+	monthly_lifestyle_xp_gain_mult = -0.33
 	random_creation = 0
 
 	desc = {
@@ -29,6 +31,7 @@ blood_experiments = {
 	index = 301
 	
 	health = -2
+	fertility = -0.1
 	same_opinion = 10
 	random_creation = 0
 

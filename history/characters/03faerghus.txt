@@ -14,13 +14,19 @@
 	learning=5
 	health = 6.5
 
-	trait=crest_minor_blaiddyd
-	trait=depressed
-	trait="diligent"
-	trait="wroth"
-	trait="aggressive_leader"
-	trait="strong"
-	trait="cruel"
+	trait = wrathful
+	trait = vengeful
+	trait = sadistic
+	trait = honest
+	trait = just
+
+	trait = education_martial_3
+	trait = strong
+	trait = gallant
+	trait = blademaster_2
+	trait = reckless
+
+	trait = crest_minor_blaiddyd
 	disallow_random_traits = yes
 
 	1162.12.20 = {
@@ -133,14 +139,15 @@
 	health = 6
 	father = 300082
 
-	trait="rodrigue"
-	trait="skilled_tactician"
-	trait="crest_minor_fraldarius"
-	trait="strategist"
-	trait="diligent"
-	trait="patient"
-	trait="just"
-	trait="inspiring_leader"
+	trait = patient
+	trait = diligent
+	trait = just
+
+	trait = education_martial_3
+	trait = strategist
+	trait = organiser
+
+	trait = crest_minor_fraldarius
 	disallow_random_traits = yes
 
 	1130.1.11 = {
@@ -191,11 +198,11 @@
 	dynasty=200
 	father=300022
 
-	trait="skilled_tactician"
-	trait="disinherited"
-	trait="wroth"
-	trait="seducer"
-	trait="lustful"
+	trait = lazy
+	trait = content
+	trait = vengeful
+
+	trait = education_diplomacy_1
 
 	1137.2.12 = {
 		birth=yes
@@ -317,14 +324,13 @@
    	intrigue=7
 	learning=4
 	health = 6.5
-	trait="ashe"
-	trait="flamboyant_schemer"
-	trait="temperate"
-	trait="charitable"
-	trait="kind"
-	trait="adopted"
-	trait="content"
-	trait="flanker"
+
+	trait = content
+	trait = temperate
+	trait = trusting
+	trait = humble
+
+	trait = education_intrigue_2
 	disallow_random_traits = yes
 
 	1163.11.17 = {
@@ -642,15 +648,16 @@
    	intrigue=4
 	learning=6
 
-	trait="lambert"
-	trait="skilled_tactician"
-	trait=crest_minor_blaiddyd
-	trait="strong"
-	trait="brave"
-	trait="ambitious"
-	trait="just"
-	trait="honest"
-	trait="stubborn"
+	trait = brave
+	trait = just
+	trait = humble
+
+	trait = education_martial_3
+	trait = shrewd
+	trait = strong
+	trait = blademaster_1
+
+	trait = crest_major_blaiddyd
 	disallow_random_traits = yes
 
 	1141.5.23 = {
@@ -679,15 +686,11 @@
    	intrigue=5
 	learning=7
 
-	trait="lonato"
-	trait="vengeful_1"
-	trait="tough_soldier"
-	trait="cynical"
-	trait="just"
-	trait="stubborn"
-	trait="kind"
-	trait="charitable"
-	trait="experimenter"
+	trait = cynical
+	trait = just
+	trait = vengeful
+
+	trait = education_martial_2
 	disallow_random_traits = yes
 
 	1115.6.6 = {
@@ -712,17 +715,15 @@
    	intrigue=1
 	learning=5
 	health = 6.5
-	trait="ingrid"
-	trait="tough_soldier"
-	trait="crest_minor_daphnel"
-	trait="chaste"
-	trait="temperate"
-	trait="wroth"
-	trait="brave"
-	trait="honest"
-	trait="just"
-	trait="stubborn"
-	trait="defensive_leader"
+
+	trait = chaste
+	trait = diligent
+	trait = gluttonous
+	trait = vengeful
+
+	trait = education_stewardship_1
+
+	trait = crest_minor_daphnel
 	disallow_random_traits = yes
 
 	1163.1.4 = {
@@ -752,17 +753,15 @@
    	intrigue=7
 	learning=6
 	health = 6.5
-	trait="felix"
-	trait="skilled_tactician"
-	trait="crest_major_fraldarius"
-	trait="shrewd"
-	trait="duelist"
-	trait="wroth"
-	trait="proud"
-	trait="ambitious"
-	trait="honest"
-	trait="stubborn"
-	trait="trickster"
+
+	trait = callous
+	trait = brave
+	trait = arrogant
+
+	trait = education_martial_3
+	trait = blademaster_2
+
+	trait = crest_major_fraldarius
 	disallow_random_traits = yes
 
 	1163.2.20 = {
@@ -791,17 +790,13 @@
 	stewardship=5
    	intrigue=2
 	learning=7
-	trait="skilled_tactician"
-	trait="brave"
-	trait="temperate"
-	trait="humble"
-	trait="charitable"
-	trait="diligent"
-	trait="patient"
-	trait="kind"
-	trait="stubborn"
-	trait="honest"
-	trait="experimenter"
+
+	trait = diligent
+	trait = patient
+	trait = compassionate
+
+	trait = education_martial_3
+	trait = blademaster_2
 	disallow_random_traits = yes
 
 	1157.2.20 = {
@@ -825,16 +820,15 @@
    	intrigue=6
 	learning=4
 	health = 6.5
-	trait="sylvain"
-	trait="charismatic_negotiator"
-	trait="crest_minor_gautier"
-	trait="fair"
-	trait="seducer"
-	trait="lustful"
-	trait="kind"
-	trait="proud"
-	trait="paranoid"
-	trait="cavalry_leader"
+
+	trait = lustful
+	trait = fickle
+	trait = cynical
+
+	trait = education_diplomacy_3
+	trait = fecund
+
+	trait = crest_minor_gautier
 	disallow_random_traits = yes
 
 	1160.6.5 = {
@@ -864,15 +858,13 @@
    	intrigue=7
 	learning=6
 
-	trait="miklan"
-	trait="tough_soldier"
-	trait="cynical"
-	trait="sturdy"
-	trait="wroth"
-	trait="stubborn"
-	trait="trickster"
-	trait="envious"
-	trait="scarred_high"
+	trait = vengeful
+	trait = wroth
+	trait = stubborn
+	trait = impatient
+
+	trait = education_martial_2
+	trait = scarred
 	disallow_random_traits = yes
 
 	1145.12.17 = {
@@ -889,9 +881,12 @@
 	culture="faerghus"
 	dynasty=211
 	father=300024
-	trait="flamboyant_schemer"
-	trait="cynical"
-	trait="paranoid"
+
+	trait = cynical
+	trait = paranoid
+	trait = fickle
+
+	trait = education_intrigue_1
 	disallow_random_traits = yes
 
 	1153.11.17 = {
@@ -916,14 +911,14 @@
    	intrigue=1
 	learning=4
 	health = 6.5
-	trait="dedue"
-	trait="tough_soldier"
-	trait="strong"
-	trait="robust"
-	trait="gardener"
-	trait="content"
-	trait="humble"
-	trait="unyielding_leader"
+
+	trait = stubborn
+	trait = humble
+	trait = brave
+
+	trait = education_martial_2
+	trait = physique_good_2
+
 	disallow_random_traits = yes
 
 	1161.8.31 = {
@@ -951,17 +946,16 @@
    	intrigue=2
 	learning=9
 	health = 6.5
-	trait="mercedes"
-	trait="scholarly_theologian"
-	trait="faith_magic_adept"
-	trait="reason_magic_initiate"
-	trait="crest_minor_lamine"
-	trait="temperate"
-	trait="charitable"
-	trait="patient"
-	trait="kind"
-	trait="humble"
-	trait="trusting"
+
+	trait = zealous
+	trait = humble
+	trait = generous
+	trait = compassionate
+
+	trait = education_learning_3
+	trait = beauty_good_1
+
+	trait = crest_minor_lamine
 	disallow_random_traits = yes
 
 	1157.5.27 = {
@@ -1011,19 +1005,16 @@
    	intrigue=3
 	learning=9
 	health = 6.5
-	trait="annette"
-	trait="martial_cleric"
-	trait="reason_magic_adept"
-	trait="faith_magic_apprentice"
-	trait="crest_minor_dominic"
-	trait="quick"
-	trait="feeble"
-	trait="erudite"
-	trait="diligent"
-	trait="kind"
-	trait="humble"
-	trait="trusting"
-	trait="organizer"
+
+	trait = honest
+	trait = diligent
+	trait = gregarious
+	trait = compassionate
+
+	trait = education_learning_2
+	trait = intellect_good_2
+
+	trait = crest_minor_dominic
 	disallow_random_traits = yes
 
 
@@ -1062,11 +1053,14 @@
 	stewardship=4
    	intrigue=2
 	learning=2
-	trait="gwendal"
-	trait="tough_soldier"
-	trait="scarred_mid"
-	trait="brave"
-	trait="aggressive_leader"
+
+	trait = brave
+	trait = trusting
+	trait = stubborn
+
+	trait = education_martial_2
+	trait = gallant
+	trait = unyielding_defender
 	disallow_random_traits = yes
 
 	1122.7.2 = {
@@ -1079,7 +1073,7 @@
 	}
 
 	1181.1.1 = {
-		#give_nickname = nick_the_gray_lion
+		give_nickname = nick_the_gray_lion
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -1098,16 +1092,14 @@
    	intrigue=8
 	learning=9
 
-	trait="cornelia"
-	trait="intricate_webweaver"
-	trait="faith_magic_master"
-	trait="dark_magic_adept"
-	trait="greedy"
-	trait="proud"
-	trait="ambitious"
-	trait="deceitful"
-	trait="physician"
-	trait="scholar"
+	trait = greedy
+	trait = arrogant
+	trait = ambitious
+
+	trait = education_intrigue_3
+	trait = lifestyle_herbalist
+	trait = mystic_2
+	trait = physician_2
 	disallow_random_traits = yes
 
 	1150.1.11 = {

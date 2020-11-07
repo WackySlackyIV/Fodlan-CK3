@@ -32,7 +32,7 @@ sea_zones = LIST { 1087 }
 #####################
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
-impassable_mountains = LIST { 4 }
+impassable_mountains = LIST { 4 1277 }
 
 ############
 # WASTELAND
