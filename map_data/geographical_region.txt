@@ -11,7 +11,6 @@
 #	These groups are mutually exclusive on the same tier & should cover every part of the map
 ###########################################################################
 
-
 world_fodlan_garreg_mach = {
 	duchies = {
 		d_garreg_mach
@@ -26,7 +25,7 @@ world_fodlan_leicester = {
 
 world_fodlan_faerghus = {
 	duchies = {
-		d_galatea d_charon d_conand d_fraldarius d_newgautier d_gautier d_itha d_langres d_blaiddyd d_lalonde d_roland d_magdred d_gaspard d_rowe d_gideon d_western_church d_mateus d_genevieve d_kleiman d_brume d_lucain d_zacharie d_rhodos
+		d_galatea d_charon d_conand d_gautier d_itha d_langres d_blaiddyd d_lalonde d_roland d_magdred d_gaspard d_rowe d_gideon d_western_church d_mateus d_genevieve d_brume d_lucain d_zacharie d_rhodos
 	}
 }
 
@@ -36,8 +35,74 @@ world_fodlan_adrestia = {
 	}
 }
 
+world_fodlan_duscur = {
+	duchies = {
+		d_norfer d_kleiman
+	}
+}
+
+world_fodlan_sreng = {
+	duchies = {
+		d_fraldarius d_adharc d_nydalr d_bygdalr d_hellig_orken d_innraborg d_jordenbrann
+	}
+}
+
 world_fodlan = {
 	regions = {
-		world_fodlan_garreg_mach world_fodlan_leicester world_fodlan_faerghus world_fodlan_adrestia
+		world_fodlan_garreg_mach world_fodlan_leicester world_fodlan_faerghus world_fodlan_adrestia world_fodlan_duscur world_fodlan_sreng
+	}
+}
+
+world_north_albinea = {
+	duchies = {
+		d_kaipokok d_akuat d_makkovik d_katmuk d_natwash d_amarok d_shehshat d_wabunaki
+	}
+}
+
+world_north_nuada = {
+	duchies = {
+		d_argovia d_madulain d_turgovia d_asburgo
+	}
+}
+
+world_north = {
+	regions = {
+		world_north_albinea world_north_nuada
+	}
+}
+
+world_morfis_reqonn = {
+	duchies = {
+		d_bugia d_arcila
+	}
+}
+
+world_morfis_isles = {
+	duchies = {
+		d_ur_azu d_per_shamash
+	}
+}
+
+world_morfis_mainland = {
+	duchies = {
+		d_dur_zisurru d_enlil_arbid d_basset_marduk d_niwt_hekau d_per_mardak d_nagar_i_beydar d_hom_karanah d_bal_enlill d_nu_gazul d_atana_ili d_gishkharbu_pass d_gath_enfeh d_nu_zau d_abullu_barbu d_dur_atum
+	}
+}
+
+world_morfis = {
+	regions = {
+		world_morfis_reqonn world_morfis_isles world_morfis_mainland
+	}
+}
+
+word_almyra = {
+	duchies = {
+		d_aqqa d_fahrob d_karcha d_berkniyye d_yezgand d_khurmana d_rokhatiye d_vezm d_shudnon d_zarreh d_quraba d_parakan d_kamakeya d_khavajeh d_jubadapur d_khovr d_bainu d_ermuz d_bala d_moqim d_qareh d_puzapur d_borj_e_khamushi d_dar_e_khorshid d_naveghar d_gomeshi d_khel d_cengay d_khojja d_keli d_yekkipur d_rumunariye d_cupan d_kharizum d_mawleh d_furaysh d_daba d_gaisum d_sayysum d_annimriya d_centzon d_yuqori d_mogol d_shabuka
+	}
+}
+
+world_brigid = {
+	duchies = {
+		d_deoir_aine d_bholcanach d_grannach d_aedach d_seultach d_ebhisa d_madhorca d_midhorca d_triur_sethir d_beirt_brethir d_athair_mor d_motidha d_gearga
 	}
 }

@@ -894,10 +894,11 @@
 
 		cadet_dynasty_names = {
 			#not sure what dynasty names Abyss would use
+			dynn_abyss
 		}
 
 		dynasty_names = {
-
+			dynn_abyss
 		}
 
 		male_names ={

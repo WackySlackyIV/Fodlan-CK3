@@ -254,7 +254,7 @@ e_dummy = {
                                           color = { 117 117 117 }
                                           color2 = { 255 255 255 }
                                           
-                                          capital = c_eastern_church1
+                                          capital = c_ballyhean
                                           
                                           c_salem = {
                                                         color = { 100 100 100 }
@@ -330,7 +330,7 @@ e_dummy = {
                                           color = { 235 225 235 }
                                           color2 = { 255 255 255 }
                                           
-                                          capital = c_western_church1
+                                          capital = c_bade
                                           
                                           c_bade = {
                                                         color = { 100 100 100 }
@@ -12409,7 +12409,7 @@ e_albinea = {
                                                         b_arsuk = {
                                                                       province = 1162
                                                                       
-                                                                      color = {    }
+                                                                      color = { 77 99 55 }
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
@@ -18078,223 +18078,13 @@ e_al_mihra = {
                                                         
                                           }
                                           
-                                          c_sayyirah = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_sayyirah = {
-                                                                      province = 1662
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_moykatta = {
-                                                                      province = 1663
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_amring = {
-                                                                      province = 1664
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
-                                          
-                                          c_buqay = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_buqay = {
-                                                                      province = 1665
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_terem = {
-                                                                      province = 1666
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_omada = {
-                                                                      province = 1667
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
-                                          
-                                          c_sharikhiyah = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_sharikhiyah = {
-                                                                      province = 1668
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_gushirtov = {
-                                                                      province = 1669
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_karakchi = {
-                                                                      province = 1670
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
-                                          
-                                          c_gajjiya = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_gajjya = {
-                                                                      province = 1671
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_khalfa = {
-                                                                      province = 1672
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_vogat = {
-                                                                      province = 1673
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
-                                          
                             }
                             
-                            d_gaisum = {
+                            d_sayysum = {
                                           color = { 100 100 70 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_sayyirah
-                                          
-                                          c_rukubah = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_rukubah = {
-                                                                      province = 1653
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_awad = {
-                                                                      province = 1654
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_balaq = {
-                                                                      province = 1655
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
-                                          
-                                          c_gharith = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_gharith = {
-                                                                      province = 1656
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_nusiyyah = {
-                                                                      province = 1657
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_surayah = {
-                                                                      province = 1658
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
-                                          
-                                          c_rahimah = {
-                                                        color = { 100 100 70 }
-                                                        color2 = { 255 255 255 }
-                                                        
-                                                        b_rahimah = {
-                                                                      province = 1659
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_markaz = {
-                                                                      province = 1660
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                                        b_mekkilah = {
-                                                                      province = 1661
-                                                                      
-                                                                      color = { 100 100 70 }
-                                                                      color2 = { 255 255 255 }
-                                                                      
-                                                        }
-                                                        
-                                          }
                                           
                                           c_sayyirah = {
                                                         color = { 100 100 70 }

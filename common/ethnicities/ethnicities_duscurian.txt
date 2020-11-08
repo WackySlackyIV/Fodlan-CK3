@@ -1,4 +1,4 @@
-@neg1_min = 0.45
+﻿@neg1_min = 0.45
 @neg1_max = 0.55
 
 @neg2_min = 0.4

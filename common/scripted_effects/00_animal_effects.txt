@@ -302,6 +302,11 @@ remove_cat_story_modifiers_effect = {
 	}
 }
 
+remove_cat_name_effect = {
+	remove_variable = story_cycle_cat_name
+	remove_localized_text = story_cycle_cat_name
+}
+
 #Effect to transfer the story to another character
 transfer_cat_story_cycle_to_effect = {
 	remove_cat_story_modifiers_effect = yes
@@ -558,6 +563,11 @@ remove_dog_story_modifiers_effect = {
 		}
 		remove_character_modifier = dog_story_modifier
 	}
+}
+
+remove_dog_name_effect = {
+	remove_variable = story_cycle_dog_name
+	remove_localized_text = story_cycle_dog_name
 }
 
 #Effect to transfer the story to another character
