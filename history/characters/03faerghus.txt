@@ -6,6 +6,7 @@
 	father=300023
 	mother=300098
 	dna = dna_dimitri
+	set_sexuality = heterosexual
 
    	diplomacy=6
    	martial=9
@@ -128,6 +129,7 @@
 
 300004 = {
 	name="Rodrigue"
+	dna = dna_rodrigue
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=204
@@ -318,6 +320,8 @@
 	culture="faerghus"
 	dynasty=211
 	father=300024
+	set_sexuality = heterosexual
+
    	diplomacy=6
    	martial=4
 	stewardship=7
@@ -703,12 +707,15 @@
 
 300025 = {
 	name="Ingrid"
+	dna = dna_ingrid
 	religion="seirosite"
 	culture="faerghus"
 	female=yes
 	dynasty=201
 	father=300001
 	mother=300092
+	set_sexuality = heterosexual
+
    	diplomacy=5
    	martial=7
 	stewardship=7
@@ -742,11 +749,14 @@
 
 300026 = {
 	name="Felix"
+	dna = dna_felix
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=204
 	father=300004
 	mother=300080
+	set_sexuality = heterosexual
+
    	diplomacy=2
    	martial=7
 	stewardship=4
@@ -814,6 +824,8 @@
 	dynasty=205
 	father=300005
 	mother=300083
+	set_sexuality = heterosexual
+
    	diplomacy=9
    	martial=6
 	stewardship=6
@@ -826,6 +838,7 @@
 	trait = cynical
 
 	trait = education_diplomacy_3
+	trait = beauty_good_1
 	trait = fecund
 
 	trait = crest_minor_gautier
@@ -899,11 +912,13 @@
 
 300031 = {
 	name="Dedue"
+	dna = dna_dedue
 	religion="seirosite"
 	culture="duscur"
 	dynasty=206
 	father = 300078
 	mother = 300079
+	set_sexuality = heterosexual
 
    	diplomacy=3
    	martial=8
@@ -940,6 +955,8 @@
 	dynasty=301
 	father = 400035
 	mother = 400034
+	set_sexuality = bisexual
+
    	diplomacy=7
    	martial=2
 	stewardship=4
@@ -999,6 +1016,8 @@
 	dynasty=221
 	father=100005
 	mother=300088
+	set_sexuality = heterosexual
+
    	diplomacy=5
    	martial=4
 	stewardship=7

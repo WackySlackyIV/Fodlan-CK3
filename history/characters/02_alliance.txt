@@ -318,6 +318,7 @@
 
 200011 = {
 	name="Holst"
+	dna = dna_holst
 	dynasty=105
 	religion="seirosite"
 	culture="leicester"
@@ -360,10 +361,13 @@
 
 200012 = {
 	name="Claude"
+	dna = dna_claude
 	dynasty=100
 	religion="seirosite"
 	culture="leicester"
 	mother=200013
+	set_sexuality = heterosexual
+
    	diplomacy=7
    	martial=6
 	stewardship=3
@@ -440,11 +444,14 @@
 
 200015 = {
 	name="Lorenz"
+	dna = dna_lorenz
 	dynasty=102
 	religion="seirosite"
 	culture="leicester"
 	father=200006
 	mother = 200063
+	set_sexuality = heterosexual
+
    	diplomacy=6
    	martial=8
 	stewardship=6
@@ -475,11 +482,14 @@
 
 200016 = {
 	name="Raphael"
+	dna = dna_raphael
 	religion="seirosite"
 	culture="leicester"
 	dynasty=111
 	father=200017
 	mother=200018
+	set_sexuality = heterosexual
+
    	diplomacy=2
    	martial=9
 	stewardship=2
@@ -570,10 +580,13 @@
 
 200020 = {
 	name="Ignatz"
+	dna = dna_ignatz
 	religion="seirosite"
 	culture="leicester"
 	father = 200027
 	mother = 200064
+	set_sexuality = heterosexual
+
 	dynasty=112
    	diplomacy=6
    	martial=4
@@ -608,12 +621,15 @@
 
 200021 = {
 	name="Lysithea"
+	dna = dna_lysithea
 	religion="seirosite"
 	culture="leicester"
 	female=yes
 	father=200005
 	mother=200065
 	dynasty=101
+	set_sexuality = heterosexual
+
    	diplomacy=5
    	martial=4
 	stewardship=6
@@ -645,11 +661,14 @@
 
 200022 = {
 	name="Marianne"
+	dna = dna_marianne
 	religion="seirosite"
 	culture="leicester"
 	female=yes
 	father=200007
 	dynasty=103
+	set_sexuality = heterosexual
+
    	diplomacy=2
    	martial=2
 	stewardship=7
@@ -677,11 +696,14 @@
 
 200023 = {
 	name="Hilda"
+	dna = dna_hilda
 	religion="seirosite"
 	culture="leicester"
 	female=yes
 	father=200024
 	dynasty=105
+	set_sexuality = heterosexual
+
    	diplomacy=8
    	martial=6
 	stewardship=6
@@ -738,10 +760,13 @@
 
 200025 = {
 	name="Leonie"
+	dna = dna_leonie
 	religion="seirosite"
 	culture="leicester"
 	female=yes
 	dynasty=113
+	set_sexuality = heterosexual
+
    	diplomacy=5
    	martial=7
 	stewardship=7

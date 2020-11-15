@@ -938,25 +938,25 @@
 ##             (c_friboro)
 
 1081 = {      # (b_friboro)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1082 = {      # (b_laone)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1083 = {      # (b_cervino)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1084 = {      # (b_novena)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -964,13 +964,13 @@
 ##             (c_tavate)
 
 1085 = {      # (b_tavate)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1086 = {      # (b_palu)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -978,13 +978,13 @@
 ##             (c_ginevra)
 
 721 = {       # (b_ginevera)
-              culture = high_fodlan
+              culture = nuadan
               religion = seirosite
               holding = castle_holding
 }
 
 1088 = {      # (b_roncaglia)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -992,13 +992,13 @@
 ##             (c_losanna)
 
 1089 = {      # (b_losanna)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1090 = {      # (b_scanevo)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1007,19 +1007,19 @@
 ##             (c_maloggia)
 
 1091 = {      # (b_maloggia)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1092 = {      # (b_prettigovia)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1093 = {      # (b_sciafussa)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1027,13 +1027,13 @@
 ##             (c_nufena)
 
 1094 = {      # (b_nufena)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1095 = {      # (b_soletta)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1041,13 +1041,13 @@
 ##             (c_spliga)
 
 1096 = {      # (b_spliga)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1097 = {      # (b_tosanna)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1056,19 +1056,19 @@
 ##             (c_engadina)
 
 1098 = {      # (b_engadina)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1099 = {      # (b_vallese)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1100 = {      # (b_cerpezzo)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1076,19 +1076,19 @@
 ##             (c_glarona)
 
 1101 = {      # (b_glarona)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1102 = {      # (b_appenzello)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1103 = {      # (b_vasilea)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1096,13 +1096,13 @@
 ##             (c_casinotta)
 
 1104 = {      # (b_casinotta)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1105 = {      # (b_berna)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1111,13 +1111,13 @@
 ##             (c_giura)
 
 1106 = {      # (b_giura)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1107 = {      # (b_bavero)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1125,13 +1125,13 @@
 ##             (c_campovasto)
 
 1108 = {      # (b_campovasto)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
 
 1109 = {      # (b_bienna)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -1139,7 +1139,7 @@
 ##             (c_atlam)
 
 1110 = {      # (b_atlam)
-              culture = high_fodlan
+              culture = nuadan
               religion = pantheon_faith
               holding = castle_holding
 }
@@ -7453,25 +7453,25 @@
 ##             (c_baddek)
 
 1111 = {      # (b_baddek)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1112 = {      # (b_pougash)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1113 = {      # (b_trakadiaw)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1114 = {      # (b_wagmat)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7479,13 +7479,13 @@
 ##             (c_kipuktuk)
 
 1115 = {      # (b_kipuktuk)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1116 = {      # (b_whycoco)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7493,13 +7493,13 @@
 ##             (c_cobekwid)
 
 1117 = {      # (b_cobekwid)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1118 = {      # (b_buktaw)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7507,13 +7507,13 @@
 ##             (c_sekwum)
 
 1119 = {      # (b_sekwum)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1120 = {      # (b_karaqet)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7522,19 +7522,19 @@
 ##             (c_wekqistoq)
 
 1121 = {      # (b_wekqistoq)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1122 = {      # (b_malak)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1123 = {      # (b_wadavik)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7542,13 +7542,13 @@
 ##             (c_kejimku)
 
 1124 = {      # (b_kejimku)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1125 = {      # (b_miramichi)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7556,13 +7556,13 @@
 ##             (c_segebunka)
 
 1126 = {      # (b_segebunka)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1127 = {      # (b_meductic)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7571,19 +7571,19 @@
 ##             (c_malagash)
 
 1128 = {      # (b_malagash)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1129 = {      # (b_mirai)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1130 = {      # (b_nackawac)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7591,13 +7591,13 @@
 ##             (c_merigomish)
 
 1131 = {      # (b_merigomish)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1132 = {      # (b_nashwaak)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7605,13 +7605,13 @@
 ##             (c_stewiake)
 
 1133 = {      # (b_stewiake)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1134 = {      # (b_nauwige)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7620,19 +7620,19 @@
 ##             (c_nuktaw)
 
 1135 = {      # (b_nuktaw)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1136 = {      # (b_oroto)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1137 = {      # (b_penniac)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7640,13 +7640,13 @@
 ##             (c_piiktaw)
 
 1138 = {      # (b_piiktaw)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1139 = {      # (b_kodiak)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7654,13 +7654,13 @@
 ##             (c_takume)
 
 1140 = {      # (b_takume)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1141 = {      # (b_penobskee)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7670,19 +7670,19 @@
 ##             (c_oromocto)
 
 1142 = {      # (b_oromocto)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1143 = {      # (b_kullor)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1144 = {      # (b_banabke)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7690,13 +7690,13 @@
 ##             (c_aapilla)
 
 1145 = {      # (b_aapilla)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1146 = {      # (b_attu)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7704,13 +7704,13 @@
 ##             (c_ukkusisat)
 
 1147 = {      # (b_ukkusisat)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1148 = {      # (b_iginniar)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7718,13 +7718,13 @@
 ##             (c_jatnar)
 
 1149 = {      # (b_jatnar)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1150 = {      # (b_siorpaluk)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7733,19 +7733,19 @@
 ##             (c_akela)
 
 1151 = {      # (b_akela)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1152 = {      # (b_nackawic)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1153 = {      # (b_fenroc)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7753,13 +7753,13 @@
 ##             (c_raksha)
 
 1154 = {      # (b_raksha)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1155 = {      # (b_withmane)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7767,19 +7767,19 @@
 ##             (c_sabrodt)
 
 1156 = {      # (b_sabrodt)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1157 = {      # (b_qaanaq)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1158 = {      # (b_kangerlas)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7788,13 +7788,13 @@
 ##             (c_naajat)
 
 1159 = {      # (b_naajat)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1160 = {      # (b_tasius)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7802,13 +7802,13 @@
 ##             (c_isertoq)
 
 1161 = {      # (b_isertoq)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1162 = {      # (b_arsuk)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7817,13 +7817,13 @@
 ##             (c_iliamaq)
 
 1163 = {      # (b_iliamaq)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1164 = {      # (b_haighivik)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7831,13 +7831,13 @@
 ##             (c_sarfang)
 
 1165 = {      # (b_sarfang)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
 
 1166 = {      # (b_alluit)
-              culture = high_fodlan
+              culture = albinean
               religion = lumialue
               holding = castle_holding
 }
@@ -7848,19 +7848,19 @@
 ##             (c_estiria)
 
 1167 = {      # (b_estiria)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
 
 1168 = {      # (b_brujas)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
 
 1169 = {      # (b_lieja)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
@@ -7868,13 +7868,13 @@
 ##             (c_claraval)
 
 1170 = {      # (b_claraval)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
 
 1171 = {      # (b_rodano)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
@@ -7882,13 +7882,13 @@
 ##             (c_ruan)
 
 1172 = {      # (b_ruan)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
 
 1173 = {      # (b_lorena)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
@@ -7897,13 +7897,13 @@
 ##             (c_escania)
 
 1174 = {      # (b_escania)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
 
 1175 = {      # (b_tiro)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
@@ -7911,13 +7911,13 @@
 ##             (c_capaz)
 
 1176 = {      # (b_capaz)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
 
 1177 = {      # (b_rincon)
-              culture = high_fodlan
+              culture = reqonese
               religion = reqonn_de_opulencia
               holding = castle_holding
 }
@@ -11242,147 +11242,7 @@
               holding = castle_holding
 }
 
-##             (c_sayyirah)
-
-1662 = {      # (b_sayyirah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1663 = {      # (b_moykatta)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1664 = {      # (b_amring)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-##             (c_buqay)
-
-1665 = {      # (b_buqay)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1666 = {      # (b_terem)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1667 = {      # (b_omada)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-##             (c_sharikhiyah)
-
-1668 = {      # (b_sharikhiyah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1669 = {      # (b_gushirtov)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1670 = {      # (b_karakchi)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-##             (c_gajjiya)
-
-1671 = {      # (b_gajjya)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1672 = {      # (b_khalfa)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1673 = {      # (b_vogat)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-###            (d_gaisum)
-##             (c_rukubah)
-
-1653 = {      # (b_rukubah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1654 = {      # (b_awad)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1655 = {      # (b_balaq)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-##             (c_gharith)
-
-1656 = {      # (b_gharith)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1657 = {      # (b_nusiyyah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1658 = {      # (b_surayah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-##             (c_rahimah)
-
-1659 = {      # (b_rahimah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1660 = {      # (b_markaz)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
-1661 = {      # (b_mekkilah)
-              culture = almyran
-              religion = kizilisma
-              holding = castle_holding
-}
-
+###            (d_sayysum)
 ##             (c_sayyirah)
 
 1662 = {      # (b_sayyirah)
@@ -11819,5 +11679,793 @@
               culture = almyran
               religion = kizilisma
               holding = castle_holding
+}
+
+#####          (e_koteshger)
+####           (k_ikhtal)
+###            (d_dalayid)
+##             (c_tszun)
+
+1727 = {      # (b_tszun)
+              culture = dantan
+              religion = 
+}
+
+1728 = {      # (b_sundzen)
+              culture = dantan
+              religion = 
+}
+
+1729 = {      # (b_hebteme)
+              culture = dantan
+              religion = 
+}
+
+1730 = {      # (b_sayntsagaan)
+              culture = dantan
+              religion = 
+}
+
+##             (c_seeriin)
+
+1731 = {      # (b_seeriin)
+              culture = dantan
+              religion = 
+}
+
+1732 = {      # (b_mingat)
+              culture = dantan
+              religion = 
+}
+
+1733 = {      # (b_dalthid)
+              culture = dantan
+              religion = 
+}
+
+##             (c_doynhor)
+
+1734 = {      # (b_doynhor)
+              culture = dantan
+              religion = 
+}
+
+1735 = {      # (b_dalan)
+              culture = dantan
+              religion = 
+}
+
+1736 = {      # (b_zamunide)
+              culture = dantan
+              religion = 
+}
+
+##             (c_khoshu)
+
+1737 = {      # (b_khoshu)
+              culture = dantan
+              religion = 
+}
+
+1738 = {      # (b_santuma)
+              culture = dantan
+              religion = 
+}
+
+1739 = {      # (b_kharaganain)
+              culture = dantan
+              religion = 
+}
+
+##             (c_arigynn)
+
+1740 = {      # (b_arigynn)
+              culture = dantan
+              religion = 
+}
+
+1741 = {      # (b_khotohure)
+              culture = dantan
+              religion = 
+}
+
+1742 = {      # (b_baykid)
+              culture = dantan
+              religion = 
+}
+
+###            (d_demcgiid)
+##             (c_luma)
+
+1743 = {      # (b_luma)
+              culture = dantan
+              religion = 
+}
+
+1744 = {      # (b_byanural)
+              culture = dantan
+              religion = 
+}
+
+1745 = {      # (b_dzohod)
+              culture = dantan
+              religion = 
+}
+
+##             (c_nariin)
+
+1746 = {      # (b_nariin)
+              culture = dantan
+              religion = 
+}
+
+1747 = {      # (b_usatanii)
+              culture = dantan
+              religion = 
+}
+
+##             (c_burgaasa)
+
+1748 = {      # (b_burgaasa)
+              culture = dantan
+              religion = 
+}
+
+1749 = {      # (b_nalaikha)
+              culture = dantan
+              religion = 
+}
+
+##             (c_palan)
+
+1750 = {      # (b_palan)
+              culture = dantan
+              religion = 
+}
+
+1751 = {      # (b_undents)
+              culture = dantan
+              religion = 
+}
+
+###            (d_ugtumynn)
+##             (c_balji)
+
+1752 = {      # (b_balji)
+              culture = dantan
+              religion = 
+}
+
+1753 = {      # (b_darahin)
+              culture = dantan
+              religion = 
+}
+
+1754 = {      # (b_sulobotuin)
+              culture = dantan
+              religion = 
+}
+
+1755 = {      # (b_uragyyn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_bandi)
+
+1756 = {      # (b_bandi)
+              culture = dantan
+              religion = 
+}
+
+1757 = {      # (b_buyantu)
+              culture = dantan
+              religion = 
+}
+
+1758 = {      # (b_duguhantyryn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_buyantayn)
+
+1759 = {      # (b_buyantayn)
+              culture = dantan
+              religion = 
+}
+
+1760 = {      # (b_khayutu)
+              culture = dantan
+              religion = 
+}
+
+1761 = {      # (b_abagayn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_mogoyn)
+
+1762 = {      # (b_mogoyn)
+              culture = dantan
+              religion = 
+}
+
+1763 = {      # (b_doloni)
+              culture = dantan
+              religion = 
+}
+
+1764 = {      # (b_darhantayee)
+              culture = dantan
+              religion = 
+}
+
+###            (d_baraguyn)
+##             (c_tsagan)
+
+1765 = {      # (b_tsagan)
+              culture = dantan
+              religion = 
+}
+
+1766 = {      # (b_naranak)
+              culture = dantan
+              religion = 
+}
+
+1767 = {      # (b_bayagaziid)
+              culture = dantan
+              religion = 
+}
+
+##             (c_borgosi)
+
+1768 = {      # (b_borgosi)
+              culture = dantan
+              religion = 
+}
+
+1769 = {      # (b_tukuma)
+              culture = dantan
+              religion = 
+}
+
+1770 = {      # (b_hoboriin)
+              culture = dantan
+              religion = 
+}
+
+##             (c_khartszatuin)
+
+1771 = {      # (b_khartszatuin)
+              culture = dantan
+              religion = 
+}
+
+1772 = {      # (b_tabumodan)
+              culture = dantan
+              religion = 
+}
+
+1773 = {      # (b_uburtyyn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_lisain)
+
+1774 = {      # (b_lisain)
+              culture = dantan
+              religion = 
+}
+
+1775 = {      # (b_baruuye)
+              culture = dantan
+              religion = 
+}
+
+1776 = {      # (b_luchzhen)
+              culture = dantan
+              religion = 
+}
+
+###            (d_urton)
+##             (c_galharyin)
+
+1777 = {      # (b_galharyin)
+              culture = dantan
+              religion = 
+}
+
+1778 = {      # (b_harutyr)
+              culture = dantan
+              religion = 
+}
+
+1779 = {      # (b_dayakhid)
+              culture = dantan
+              religion = 
+}
+
+##             (c_engershand)
+
+1780 = {      # (b_engershand)
+              culture = dantan
+              religion = 
+}
+
+1781 = {      # (b_khodogui)
+              culture = dantan
+              religion = 
+}
+
+1782 = {      # (b_underroyn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_khotogtuew)
+
+1783 = {      # (b_khotogture)
+              culture = dantan
+              religion = 
+}
+
+1784 = {      # (b_daltihid)
+              culture = dantan
+              religion = 
+}
+
+##             (c_sharaiin)
+
+1785 = {      # (b_sharaiin)
+              culture = dantan
+              religion = 
+}
+
+1786 = {      # (b_somonighur)
+              culture = dantan
+              religion = 
+}
+
+1787 = {      # (b_ulabaa)
+              culture = dantan
+              religion = 
+}
+
+###            (d_megulryba)
+##             (c_sumain)
+
+1788 = {      # (b_sumain)
+              culture = dantan
+              religion = 
+}
+
+1789 = {      # (b_dugete)
+              culture = dantan
+              religion = 
+}
+
+1790 = {      # (b_habtsagay)
+              culture = dantan
+              religion = 
+}
+
+##             (c_khongor)
+
+1791 = {      # (b_khongor)
+              culture = dantan
+              religion = 
+}
+
+1792 = {      # (b_tsekherin)
+              culture = dantan
+              religion = 
+}
+
+1793 = {      # (b_khadayn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_dalkhain)
+
+1794 = {      # (b_dalkhain)
+              culture = dantan
+              religion = 
+}
+
+1795 = {      # (b_amogolambu)
+              culture = dantan
+              religion = 
+}
+
+1796 = {      # (b_uburayn)
+              culture = dantan
+              religion = 
+}
+
+##             (c_haranaiin)
+
+1797 = {      # (b_haranaiin)
+              culture = dantan
+              religion = 
+}
+
+1798 = {      # (b_bulagan)
+              culture = dantan
+              religion = 
+}
+
+1799 = {      # (b_zanjigin)
+              culture = dantan
+              religion = 
+}
+
+####           (k_dantagar)
+###            (d_ratna)
+##             (c_suvd)
+
+1800 = {      # (b_suvd)
+              culture = dantan
+              religion = 
+}
+
+1801 = {      # (b_saraspur)
+              culture = dantan
+              religion = 
+}
+
+1802 = {      # (b_manduk)
+              culture = dantan
+              religion = 
+}
+
+1803 = {      # (b_kushtia)
+              culture = dantan
+              religion = 
+}
+
+1804 = {      # (b_kulikundar)
+              culture = dantan
+              religion = 
+}
+
+1805 = {      # (b_parkot)
+              culture = dantan
+              religion = 
+}
+
+##             (c_bari)
+
+1806 = {      # (b_bari)
+              culture = dantan
+              religion = 
+}
+
+1807 = {      # (b_kharda)
+              culture = dantan
+              religion = 
+}
+
+1808 = {      # (b_shashidharpur)
+              culture = dantan
+              religion = 
+}
+
+1809 = {      # (b_maijha)
+              culture = dantan
+              religion = 
+}
+
+1810 = {      # (b_banstola)
+              culture = dantan
+              religion = 
+}
+
+##             (c_sylgyzbandar)
+
+1811 = {      # (b_sylgyzbandar)
+              culture = dantan
+              religion = 
+}
+
+1812 = {      # (b_jhoppara)
+              culture = dantan
+              religion = 
+}
+
+1813 = {      # (b_khalisadah)
+              culture = dantan
+              religion = 
+}
+
+1814 = {      # (b_nischinta)
+              culture = dantan
+              religion = 
+}
+
+##             (c_batubad)
+
+1815 = {      # (b_batubad)
+              culture = dantan
+              religion = 
+}
+
+1816 = {      # (b_jugirtabak)
+              culture = dantan
+              religion = 
+}
+
+1817 = {      # (b_sahadar)
+              culture = dantan
+              religion = 
+}
+
+###            (d_temdi)
+##             (c_baratuli)
+
+1818 = {      # (b_baratuli)
+              culture = dantan
+              religion = 
+}
+
+1819 = {      # (b_bhagjoar)
+              culture = dantan
+              religion = 
+}
+
+1820 = {      # (b_chandanpat)
+              culture = dantan
+              religion = 
+}
+
+##             (c_fakirkil)
+
+1821 = {      # (b_fakirkil)
+              culture = dantan
+              religion = 
+}
+
+1822 = {      # (b_saranjagari)
+              culture = dantan
+              religion = 
+}
+
+1823 = {      # (b_jamak)
+              culture = dantan
+              religion = 
+}
+
+##             (c_lashkarpur)
+
+1824 = {      # (b_lashkarpur)
+              culture = dantan
+              religion = 
+}
+
+1825 = {      # (b_kholahati)
+              culture = dantan
+              religion = 
+}
+
+1826 = {      # (b_bhabermura)
+              culture = dantan
+              religion = 
+}
+
+###            (d_kharinchara)
+##             (c_gezutia)
+
+1827 = {      # (b_gezutia)
+              culture = dantan
+              religion = 
+}
+
+1828 = {      # (b_hatirdia)
+              culture = dantan
+              religion = 
+}
+
+1829 = {      # (b_dibazkul)
+              culture = dantan
+              religion = 
+}
+
+##             (c_ghala)
+
+1830 = {      # (b_ghala)
+              culture = dantan
+              religion = 
+}
+
+1831 = {      # (b_dafilaz)
+              culture = dantan
+              religion = 
+}
+
+1832 = {      # (b_samarsing)
+              culture = dantan
+              religion = 
+}
+
+##             (c_kastor)
+
+1833 = {      # (b_kastor)
+              culture = dantan
+              religion = 
+}
+
+1834 = {      # (b_urtbuzia)
+              culture = dantan
+              religion = 
+}
+
+1835 = {      # (b_tailapara)
+              culture = dantan
+              religion = 
+}
+
+###            (d_didotokan)
+##             (c_surbafuldi)
+
+1836 = {      # (b_surbafuldi)
+              culture = dantan
+              religion = 
+}
+
+1837 = {      # (b_ghosalerdara)
+              culture = dantan
+              religion = 
+}
+
+1838 = {      # (b_nimtali)
+              culture = dantan
+              religion = 
+}
+
+##             (c_baharal)
+
+1839 = {      # (b_baharal)
+              culture = dantan
+              religion = 
+}
+
+1840 = {      # (b_samanta)
+              culture = dantan
+              religion = 
+}
+
+1841 = {      # (b_kadamtara)
+              culture = dantan
+              religion = 
+}
+
+##             (c_dekshapara)
+
+1842 = {      # (b_dekshapara)
+              culture = dantan
+              religion = 
+}
+
+1843 = {      # (b_taukati)
+              culture = dantan
+              religion = 
+}
+
+###            (d_kajiimpur)
+##             (c_harikhanagar)
+
+1844 = {      # (b_harikhanagar)
+              culture = dantan
+              religion = 
+}
+
+1845 = {      # (b_jigagar)
+              culture = dantan
+              religion = 
+}
+
+1846 = {      # (b_tilapara)
+              culture = dantan
+              religion = 
+}
+
+##             (c_chaua)
+
+1847 = {      # (b_chaua)
+              culture = dantan
+              religion = 
+}
+
+1848 = {      # (b_bankhari)
+              culture = dantan
+              religion = 
+}
+
+1849 = {      # (b_bahakholl)
+              culture = dantan
+              religion = 
+}
+
+##             (c_shampur)
+
+1850 = {      # (b_shampur)
+              culture = dantan
+              religion = 
+}
+
+1851 = {      # (b_parakhola)
+              culture = dantan
+              religion = 
+}
+
+1852 = {      # (b_baradar)
+              culture = dantan
+              religion = 
+}
+
+###            (d_sukhpukhuria)
+##             (c_ghorai)
+
+1853 = {      # (b_ghorai)
+              culture = dantan
+              religion = 
+}
+
+1854 = {      # (b_burai)
+              culture = dantan
+              religion = 
+}
+
+1855 = {      # (b_baratala)
+              culture = dantan
+              religion = 
+}
+
+1856 = {      # (b_hamchapur)
+              culture = dantan
+              religion = 
+}
+
+##             (c_gopinagar)
+
+1857 = {      # (b_gopinagar)
+              culture = dantan
+              religion = 
+}
+
+1858 = {      # (b_khanarasia)
+              culture = dantan
+              religion = 
+}
+
+1859 = {      # (b_mahishkher)
+              culture = dantan
+              religion = 
+}
+
+1860 = {      # (b_nalkola)
+              culture = dantan
+              religion = 
+}
+
+##             (c_sharipur)
+
+1861 = {      # (b_sharipur)
+              culture = dantan
+              religion = 
+}
+
+1862 = {      # (b_ayabpur)
+              culture = dantan
+              religion = 
+}
+
+1863 = {      # (b_mohespur)
+              culture = dantan
+              religion = 
 }
 

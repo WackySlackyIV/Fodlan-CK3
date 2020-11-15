@@ -20,6 +20,7 @@
 	learning = 10
 	health = 6.5
    	mother = 500001
+	set_sexuality = bisexual
 
 	trait = zealous
 	trait = arbitrary
@@ -88,6 +89,8 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	father = 500003
+	set_sexuality = heterosexual
+
    	diplomacy=8
    	martial=5
 	stewardship=10
@@ -128,6 +131,8 @@
 	culture="high_fodlan"
 	female=yes
 	father = 100002
+	set_sexuality = heterosexual
+
    	diplomacy=7
    	martial=3
 	stewardship=6
@@ -150,10 +155,6 @@
 
 	100.6.12 = {
 		birth = yes
-		#effect = {
-		#	add_artifact = sacred_staff_caduceus
-		#	spawn_date = -1.1.1
-		#}
 	}
 	56.6.12 = {
 		set_immortal_age = 16
@@ -183,6 +184,8 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=224
+	set_sexuality = heterosexual
+
    	diplomacy=6
    	martial=8
 	stewardship=6
@@ -220,6 +223,8 @@
 	culture="faerghus"
 	dynasty=221
 	father = 300091
+	set_sexuality = heterosexual
+
    	diplomacy=4
    	martial=8
 	stewardship=5
@@ -263,6 +268,8 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	female=yes
+	set_sexuality = bisexual
+
    	diplomacy=3
    	martial=7
 	stewardship=4
@@ -300,6 +307,8 @@
 	culture="adrestian"
 	female=yes
 	dynasty=302
+	set_sexuality = heterosexual
+
    	diplomacy=7
    	martial=4
 	stewardship=3
@@ -346,6 +355,8 @@
 	dynasty=303
 	father = 400166
 	mother = 400169
+	set_sexuality = heterosexual
+
    	diplomacy=7
    	martial=4
 	stewardship=8
@@ -393,6 +404,8 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	dynasty = 2
+	set_sexuality = heterosexual
+
 	health = 6.5
 
 	trait = brave
@@ -423,6 +436,8 @@
 	dna = dna_cyril
 	religion="seirosite"
 	culture="high_fodlan"
+	set_sexuality = heterosexual
+
    	diplomacy=5
    	martial=6
 	stewardship=6
@@ -458,6 +473,8 @@
 	culture="faerghus"
 	dynasty=202
 	female=yes
+	set_sexuality = bisexual
+
    	diplomacy=6
    	martial=10
 	stewardship=4
@@ -507,6 +524,8 @@
 	culture="abyssian"
 	dynasty=212
 	father = 300012
+	set_sexuality = heterosexual
+
    	diplomacy=7
    	martial=6
 	stewardship=7
@@ -554,6 +573,8 @@
 	dynasty=123
 	father = 200053
 	mother = 200054
+	set_sexuality = heterosexual
+
    	diplomacy=3
    	martial=8
 	stewardship=2
@@ -605,6 +626,8 @@
 	dynasty = 326
 	father = 400171
 	mother = 400170
+	set_sexuality = heterosexual
+
    	diplomacy=7
    	martial=4
 	stewardship=8
@@ -651,6 +674,8 @@
 	religion="seirosite"
 	culture="abyssian"
 	female = yes
+	set_sexuality = heterosexual
+
    	diplomacy=5
    	martial=3
 	stewardship=3
@@ -694,6 +719,7 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	dynasty = 3
+	set_sexuality = heterosexual
 
    	diplomacy=7
    	martial=3
@@ -743,6 +769,8 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	female = yes
+	set_sexuality = heterosexual
+
 	trait = compassionate
 
 	trait = education_learning_3
@@ -769,6 +797,8 @@
 	name="Pallardo"
 	religion="seirosite"
 	culture="high_fodlan"
+	set_sexuality = heterosexual
+
 
 	trait = greedy
 	trait = arbitrary
@@ -791,6 +821,8 @@
 	female = yes
 	religion="seirosite"
 	culture="high_fodlan"
+	set_sexuality = bisexual
+
    	diplomacy=7
    	martial=4
 	stewardship=9
@@ -820,6 +852,8 @@
 	female = yes
 	religion="seirosite"
 	culture="high_fodlan"
+	set_sexuality = heterosexual
+
    	diplomacy=4
    	martial=3
 	stewardship=3

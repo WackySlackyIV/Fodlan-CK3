@@ -27,12 +27,15 @@ sea_zones = LIST { 1087 }
 # LAKES
 ########
 
+lakes = RANGE { 1962 1967 }
+
 #####################
 # IMPASSABLE TERRAIN
 #####################
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
 impassable_mountains = LIST { 4 1277 }
+impassable_mountains = RANGE { 1916 1961 }
 
 ############
 # WASTELAND

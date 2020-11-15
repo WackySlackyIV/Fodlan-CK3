@@ -1810,4 +1810,1046 @@ outside_group = {
 			{ name = "mercenary_company_band_of_horned_welshmen" }
 		}
 	}
+
+	reqonese = {
+		graphical_cultures = {
+			castilian_coa_gfx
+		}
+		color = { 0.95 0.82 0.09 }
+
+		cadet_dynasty_names = {
+			"dynn_NU_N_ez"
+			{ "dynnp_de" "dynn_La_Cerda" }
+			{ "dynnp_de" "dynn_Deza" }
+			{ "dynnp_de" "dynn_Borgona" }
+			"dynn_Alonso"
+			{ "dynnp_de" "dynn_Castro" }
+			{ "dynnp_del" "dynn_Carpio" }
+			{ "dynnp_de" "dynn_Bolea" }
+			{ "dynnp_de" "dynn_AcuN_a" }
+			"dynn_RamI_rez"
+			"dynn_Trillo_de_las_Asturias"
+			{ "dynnp_de" "dynn_Menezes" }
+			{ "dynnp_de" "dynn_Alba_de_Liste" }
+			{ "dynnp_de" "dynn_Castrogeriz" }
+			{ "dynnp_de" "dynn_Alencastre" }
+			{ "dynnp_de" "dynn_Ovando" }
+			{ "dynnp_de" "dynn_Viguera" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Benavides" }
+			"dynn_MenE_ndez"
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_CastaN_eda" }
+			{ "dynnp_de" "dynn_Molina" }
+			"dynn_A_lvarez_de_Azagra"
+			{ "dynnp_de" "dynn_Alfaro" }
+			"dynn_Ponce_de_LeO_n"
+			"dynn_Barrientos"
+			{ "dynnp_de" "dynn_Ceballos" }
+			{ "dynnp_de" "dynn_Toledo" }
+			{ "dynnp_de" "dynn_CO_rdoba" }
+			{ "dynnp_de" "dynn_Godoy" }
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Villalobos" }
+			{ "dynnp_de" "dynn_NoreN_a" }
+			{ "dynnp_de" "dynn_GijO_n" }
+			{ "dynnp_de" "dynn_Sotomayor" }
+			{ "dynnp_de" "dynn_CA_ceres" }
+			{ "dynnp_de" "dynn_SolI_s" }
+			{ "dynnp_de" "dynn_QuiN_ones" }
+			{ "dynnp_de" "dynn_Quintana" }
+			{ "dynnp_de" "dynn_Padilla" }
+			{ "dynnp_de" "dynn_Candamio" }
+			"dynn_BarragA_n"
+			"dynn_MejI_a"
+			"dynn_Cabeza_de_Vaca"
+			{ "dynnp_de" "dynn_VillagarcI_a" }
+			{ "dynnp_de" "dynn_Luna" }
+			{ "dynnp_de" "dynn_la_Cueva" }
+			{ "dynnp_de" "dynn_Pacheco" }
+			{ "dynnp_de" "dynn_CA_rdenas" }
+			"dynn_FernA_ndez"
+			"dynn_PE_rez"
+			"dynn_RuI_z"
+			"dynn_LO_pez"
+			"dynn_DI_az"
+			"dynn_Alonso"
+			"dynn_SA_nchez"
+			"dynn_LA_inez"
+			{ "dynnp_de" "dynn_Prado" }
+			"dynn_GutiE_rrez"
+			{ "dynnp_de" "dynn_LiE_bana" }
+			"dynn_Feijoo"
+			{ "dynnp_de" "dynn_Lugo" }
+			{ "dynnp_de" "dynn_Bergido" }
+			{ "dynnp_de" "dynn_PeN_alba" }
+			"dynn_MuN_oz"
+			{ "dynnp_de" "dynn_Miravalles" }
+			{ "dynnp_de" "dynn_Cisneros" }
+			"dynn_PelA_ez"
+			{ "dynnp_de" "dynn_SahagU_n" }
+			"dynn_Alfonso"
+			"dynn_RodrI_guez"
+			"dynn_BermU_dez"
+			{ "dynnp_de" "dynn_Manzanedo" }
+			{ "dynnp_de" "dynn_AlagO_n" }
+			{ "dynnp_de" "dynn_Samos" }
+			{ "dynnp_de" "dynn_Villacorta" }
+			{ "dynnp_de" "dynn_SantibA_N_ez" }
+			{ "dynnp_de" "dynn_Silos" }
+			{ "dynnp_de" "dynn_Aguilar" }
+			{ "dynnp_de" "dynn_Toro" }
+			{ "dynnp_de" "dynn_Segovia" }
+			{ "dynnp_de" "dynn_Biedma" }
+			{ "dynnp_de" "dynn_Cabra" }
+			{ "dynnp_de" "dynn_Ayerbe" }
+			{ "dynnp_de" "dynn_HI_jar" }
+			{ "dynnp_de" "dynn_Castilla_y_LeO_n" }
+			"dynn_Furtado"
+			{ "dynnp_de" "dynn_Soler" }
+			{ "dynnp_de" "dynn_CaN_amas" }
+			{ "dynnp_de" "dynn_Borja" }
+			{ "dynnp_de" "dynn_RiaN_o" }
+			{ "dynnp_de" "dynn_Limia" }
+			{ "dynnp_de" "dynn_Belorado" }
+			{ "dynnp_de" "dynn_Arroyolos" }
+			{ "dynnp_de" "dynn_Villamayor" }
+			"dynn_Manrique"
+			"dynn_Venegas"
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Rojas" }
+			{ "dynnp_de" "dynn_Escobar" }
+			{ "dynnp_de" "dynn_Fuente_Almexir" }
+			{ "dynnp_de" "dynn_Avellaneda" }
+			{ "dynnp_de" "dynn_Fano" }
+			"dynn_Adgaz"
+			{ "dynnp_de" "dynn_Xinzo" }
+			{ "dynnp_de" "dynn_Entralgo" }
+			{ "dynnp_de" "dynn_Feniosara" }
+			{ "dynnp_de" "dynn_Saz" }
+			{ "dynnp_de" "dynn_Silva" }
+			{ "dynnp_de" "dynn_ToroN_o" }
+			{ "dynnp_del" "dynn_Puente" }
+			{ "dynnp_de" "dynn_Palencia" }
+			"dynn_HelI_as"
+			"dynn_GelmI_rez"
+			"dynn_Episcopus"
+			"dynn_Camundo"
+			"dynn_GundestE_iz"
+			"dynn_MuN_I_z"
+			{ "dynnp_de" "dynn_PadrO_n" }
+			{ "dynnp_de" "dynn_Landora" }
+			{ "dynnp_de" "dynn_CarriO_n" }
+			{ "dynnp_de" "dynn_San_MillA_n" }
+			{ "dynnp_de" "dynn_la_Frontera" }
+			"dynn_Icaza"
+			{ "dynnp_de" "dynn_Yanguas" }
+			{ "dynnp_de" "dynn_Novoa" }
+			{ "dynnp_de" "dynn_Cevallos" }
+			{ "dynnp_de" "dynn_Santsoles" }
+			{ "dynnp_de" "dynn_Barrantes" }
+			"dynn_Gallego"
+			{ "dynnp_de" "dynn_Quiroga" }
+			"dynn_Maldonado"
+			{ "dynnp_de" "dynn_Fuentes" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_Santiago" }
+			{ "dynnp_de" "dynn_Niebla" }
+			{ "dynnp_de" "dynn_CA_diz" }
+			{ "dynnp_de" "dynn_Algeciras" }
+			{ "dynnp_de" "dynn_MA_laga" }
+			{ "dynnp_de" "dynn_AlmerI_a" }
+			{ "dynnp_de" "dynn_Murcia" }
+			{ "dynnp_de" "dynn_Denia" }
+			{ "dynnp_de" "dynn_Valencia" }
+			{ "dynnp_de" "dynn_Castellon" }
+			{ "dynnp_de" "dynn_AlbarracI_n" }
+			{ "dynnp_de" "dynn_Calatayud" }
+			{ "dynnp_de" "dynn_Molina" }
+			{ "dynnp_de" "dynn_Cuenca" }
+			{ "dynnp_de" "dynn_La_Mancha" }
+			{ "dynnp_de" "dynn_Almansa" }
+			{ "dynnp_de" "dynn_Granada" }
+			{ "dynnp_de" "dynn_Cordoba" }
+			{ "dynnp_de" "dynn_Sevilla" }
+			{ "dynnp_de" "dynn_Aracena" }
+			{ "dynnp_de" "dynn_Badajoz" }
+			{ "dynnp_de" "dynn_Astorga" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Zamora" }
+			{ "dynnp_de" "dynn_Salamanca" }
+			{ "dynnp_de" "dynn_AlcA_ntara" }
+			{ "dynnp_de" "dynn_Plasencia" }
+			{ "dynnp_de" "dynn_Calatrava" }
+			{ "dynnp_de" "dynn_Valladolid" }
+			{ "dynnp_de" "dynn_Burgos" }
+			{ "dynnp_de" "dynn_Soria" }
+			{ "dynnp_de" "dynn_Zaragoza" }
+			"dynn_Arias"
+			{ "dynnp_de" "dynn_Mendoza" }
+			"dynn_MartI_nez_de_Oviedo"
+			{ "dynnp_de" "dynn_Peralta" }
+			"dynn_PE_rez_de_Zamora"
+			"dynn_MartI_n"
+			{ "dynnp_de" "dynn_Castrosiero" }
+			{ "dynnp_de" "dynn_Toledo" }
+		}
+
+		dynasty_names = {
+			"dynn_NU_N_ez"
+			{ "dynnp_de" "dynn_la_Cerda" }
+			{ "dynnp_de" "dynn_Deza" }
+			{ "dynnp_de" "dynn_Borgona" }
+			"dynn_Alonso"
+			{ "dynnp_de" "dynn_Castro" }
+			{ "dynnp_del" "dynn_Carpio" }
+			{ "dynnp_de" "dynn_Bolea" }
+			{ "dynnp_de" "dynn_AcuN_a" }
+			"dynn_RamI_rez"
+			"dynn_Trillo_de_las_Asturias"
+			{ "dynnp_de" "dynn_Menezes" }
+			{ "dynnp_de" "dynn_las_Asturias" }
+			{ "dynnp_de" "dynn_Alba_de_Liste" }
+			{ "dynnp_de" "dynn_Castrogeriz" }
+			{ "dynnp_de" "dynn_Alencastre" }
+			{ "dynnp_de" "dynn_Ovando" }
+			{ "dynnp_de" "dynn_Viguera" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Benavides" }
+			"dynn_MenE_ndez"
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_CastaN_eda" }
+			{ "dynnp_de" "dynn_Molina" }
+			"dynn_A_lvarez_de_Azagra"
+			{ "dynnp_de" "dynn_Alfaro" }
+			"dynn_Ponce_de_LeO_n"
+			"dynn_Barrientos"
+			{ "dynnp_de" "dynn_Ceballos" }
+			{ "dynnp_de" "dynn_Toledo" }
+			{ "dynnp_de" "dynn_CO_rdoba" }
+			{ "dynnp_de" "dynn_Godoy" }
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Villalobos" }
+			{ "dynnp_de" "dynn_NoreN_a" }
+			{ "dynnp_de" "dynn_GijO_n" }
+			{ "dynnp_de" "dynn_Sotomayor" }
+			{ "dynnp_de" "dynn_CA_ceres" }
+			{ "dynnp_de" "dynn_SolI_s" }
+			{ "dynnp_de" "dynn_QuiN_ones" }
+			{ "dynnp_de" "dynn_Quintana" }
+			{ "dynnp_de" "dynn_Padilla" }
+			{ "dynnp_de" "dynn_Candamio" }
+			"dynn_BarragA_n"
+			"dynn_MejI_a"
+			"dynn_Cabeza_de_Vaca"
+			{ "dynnp_de" "dynn_VillagarcI_a" }
+			{ "dynnp_de" "dynn_Luna" }
+			{ "dynnp_de" "dynn_la_Cueva" }
+			{ "dynnp_de" "dynn_Pacheco" }
+			{ "dynnp_de" "dynn_CA_rdenas" }
+			"dynn_FernA_ndez"
+			"dynn_PE_rez"
+			"dynn_RuI_z"
+			"dynn_LO_pez"
+			"dynn_DI_az"
+			"dynn_Alonso"
+			"dynn_SA_nchez"
+			"dynn_LA_inez"
+			{ "dynnp_de" "dynn_Prado" }
+			"dynn_GutiE_rrez"
+			{ "dynnp_de" "dynn_LiE_bana" }
+			"dynn_Feijoo"
+			{ "dynnp_de" "dynn_Lugo" }
+			{ "dynnp_de" "dynn_Bergido" }
+			{ "dynnp_de" "dynn_PeN_alba" }
+			"dynn_MuN_oz"
+			{ "dynnp_de" "dynn_Miravalles" }
+			{ "dynnp_de" "dynn_Cisneros" }
+			"dynn_PelA_ez"
+			{ "dynnp_de" "dynn_SahagU_n" }
+			"dynn_Alfonso"
+			"dynn_RodrI_guez"
+			"dynn_BermU_dez"
+			{ "dynnp_de" "dynn_Manzanedo" }
+			{ "dynnp_de" "dynn_AlagO_n" }
+			{ "dynnp_de" "dynn_Samos" }
+			{ "dynnp_de" "dynn_Villacorta" }
+			{ "dynnp_de" "dynn_SantibA_N_ez" }
+			{ "dynnp_de" "dynn_Silos" }
+			{ "dynnp_de" "dynn_Aguilar" }
+			{ "dynnp_de" "dynn_Toro" }
+			{ "dynnp_de" "dynn_Segovia" }
+			{ "dynnp_de" "dynn_Biedma" }
+			{ "dynnp_de" "dynn_Cabra" }
+			{ "dynnp_de" "dynn_Ayerbe" }
+			{ "dynnp_de" "dynn_HI_jar" }
+			{ "dynnp_de" "dynn_Castilla_y_LeO_n" }
+			{ "dynnp_de" "dynn_AragO_n" }
+			{ "dynnp_de" "dynn_Risnal" }
+			"dynn_Furtado"
+			{ "dynnp_de" "dynn_Soler" }
+			{ "dynnp_de" "dynn_CaN_amas" }
+			{ "dynnp_de" "dynn_Borja" }
+			{ "dynnp_de" "dynn_Huesca" }
+			{ "dynnp_de" "dynn_RiaN_o" }
+			{ "dynnp_de" "dynn_Limia" }
+			{ "dynnp_de" "dynn_Belorado" }
+			{ "dynnp_de" "dynn_Arroyolos" }
+			{ "dynnp_de" "dynn_Villamayor" }
+			"dynn_Manrique"
+			"dynn_Venegas"
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Rojas" }
+			{ "dynnp_de" "dynn_Escobar" }
+			{ "dynnp_de" "dynn_Fuente_Almexir" }
+			{ "dynnp_de" "dynn_Avellaneda" }
+			{ "dynnp_de" "dynn_Fano" }
+			"dynn_Adgaz"
+			{ "dynnp_de" "dynn_Xinzo" }
+			{ "dynnp_de" "dynn_Entralgo" }
+			{ "dynnp_de" "dynn_Feniosara" }
+			{ "dynnp_de" "dynn_Saz" }
+			{ "dynnp_de" "dynn_Silva" }
+			{ "dynnp_de" "dynn_ToroN_o" }
+			{ "dynnp_del" "dynn_Puente" }
+			{ "dynnp_de" "dynn_Palencia" }
+			"dynn_HelI_as"
+			"dynn_GelmI_rez"
+			"dynn_Episcopus"
+			"dynn_Camundo"
+			"dynn_GundestE_iz"
+			"dynn_MuN_I_z"
+			{ "dynnp_de" "dynn_PadrO_n" }
+			{ "dynnp_de" "dynn_Landora" }
+			{ "dynnp_de" "dynn_CarriO_n" }
+			{ "dynnp_de" "dynn_San_MillA_n" }
+			{ "dynnp_de" "dynn_la_Frontera" }
+			"dynn_Icaza"
+			{ "dynnp_de" "dynn_Yanguas" }
+			{ "dynnp_de" "dynn_Novoa" }
+			{ "dynnp_de" "dynn_Cevallos" }
+			{ "dynnp_de" "dynn_Santsoles" }
+			{ "dynnp_de" "dynn_Barrantes" }
+			"dynn_Gallego"
+			{ "dynnp_de" "dynn_Quiroga" }
+			"dynn_Maldonado"
+			{ "dynnp_de" "dynn_Fuentes" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_Santiago" }
+			{ "dynnp_de" "dynn_Niebla" }
+			{ "dynnp_de" "dynn_CA_diz" }
+			{ "dynnp_de" "dynn_Algeciras" }
+			{ "dynnp_de" "dynn_MA_laga" }
+			{ "dynnp_de" "dynn_AlmerI_a" }
+			{ "dynnp_de" "dynn_Murcia" }
+			{ "dynnp_de" "dynn_Denia" }
+			{ "dynnp_de" "dynn_Valencia" }
+			{ "dynnp_de" "dynn_Castellon" }
+			{ "dynnp_de" "dynn_AlbarracI_n" }
+			{ "dynnp_de" "dynn_Calatayud" }
+			{ "dynnp_de" "dynn_Molina" }
+			{ "dynnp_de" "dynn_Cuenca" }
+			{ "dynnp_de" "dynn_La_Mancha" }
+			{ "dynnp_de" "dynn_Almansa" }
+			{ "dynnp_de" "dynn_Granada" }
+			{ "dynnp_de" "dynn_Cordoba" }
+			{ "dynnp_de" "dynn_Sevilla" }
+			{ "dynnp_de" "dynn_Aracena" }
+			{ "dynnp_de" "dynn_Badajoz" }
+			{ "dynnp_de" "dynn_Astorga" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Zamora" }
+			{ "dynnp_de" "dynn_Salamanca" }
+			{ "dynnp_de" "dynn_AlcA_ntara" }
+			{ "dynnp_de" "dynn_Plasencia" }
+			{ "dynnp_de" "dynn_Calatrava" }
+			{ "dynnp_de" "dynn_Valladolid" }
+			{ "dynnp_de" "dynn_Burgos" }
+			{ "dynnp_de" "dynn_Soria" }
+			{ "dynnp_de" "dynn_Zaragoza" }
+			"dynn_Arias"
+			{ "dynnp_de" "dynn_Mendoza" }
+			"dynn_MartI_nez_de_Oviedo"
+			{ "dynnp_de" "dynn_Peralta" }
+			"dynn_PE_rez_de_Zamora"
+			"dynn_MartI_n"
+			{ "dynnp_de" "dynn_Castrosiero" }
+			{ "dynnp_de" "dynn_Toledo" }
+		}
+
+		male_names = {
+			Alfonso Alonso A_lvar A_lvaro AndrE_s Ansur Antonino Arias Benito Berenguel
+			Bermudo Bernardo Diego Domingo Enrique Esteban Fadrique Felipe FernA_n Fernando
+			Fruela GarcI_a Gerardo Gil GO_mez Gonzalo GuillE_n Guillermo Gutierre Hermenegildo
+			Jaime Jimeno Juan LaI_n Lope Lorenzo Luis Manrique Manuel MartI_n
+			Menendo Munio NuN_o OrdoN_o Osorio Oveco Pedro Pelayo Pero Ponce
+			Raimundo Ramiro RamO_n Rodrigo Salvador Sancho SebastiA_n SimO_n Suero Tello
+			Teobaldo Vela Velasco Vellido
+		}
+		female_names = {
+			Aldonza Alduara Alicia Anderquina Andregoto Aragonte Argilo Beatriz Benita Berenguela
+			Blanca BrI_gida Catalina Constanza Cristina DueN_a Dulce Elvira Ermengarda Ermesinda
+			Eslonza EstefanI_a Eulalia Eva Eylo FlA_mula Fronilde Godina Goto Gotruda
+			Guina Guiomar Gustio InEEs Isabel Jimena Juana Leonor Mafalda Margarita
+			MarI_a Marina Marquesa Mayor MencI_a MI_lia Munia Muniadona Oneca Sancha
+			Sol Teresa Toda Urraca Velasquita Violante Visclavara
+		}
+
+		dynasty_of_location_prefix = "dynnp_de"
+		
+		patronym_suffix_male = "dynnpat_suf_ez"
+		patronym_suffix_female = "dynnpat_suf_ez"
+		always_use_patronym = yes	
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		ethnicities = {
+			10 = mediterranean
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_slaughterers" }
+			{ name = "mercenary_company_band_of_the_brigand_emperor" }
+		}
+	}
+
+
+	dantan = { # Dravidian - Southern India except Sri Lanka
+		
+		color = { 1.0 0.7 0.2 }
+
+		cadet_dynasty_names = {
+			"dynn_Cinkaiariyan"
+			"dynn_Aryacakravarti"
+			"dynn_Kulasekhara"
+			"dynn_Samoothiri"
+			"dynn_Perumadappu"
+			"dynn_Kadava"
+			{ "dynn_Paraiyar" }
+			{ "dynn_Vishwakarma" }
+			{ "dynn_Aachari" }
+			{ "dynn_Konar" }
+			{ "dynn_Idaiyar" }
+			{ "dynn_Reddiar" }
+			{ "dynn_Udayar" }
+			{ "dynn_Yadhavar" }
+			{ "dynn_Iyer" }
+			{ "dynn_Iyengar" }
+			{ "dynn_Pillai" }
+			{ "dynn_Mudaliar" }
+			{ "dynn_Thevar" }
+			{ "dynn_Nadar" }
+			{ "dynn_Chettiar" }
+			{ "dynn_Gounder" }
+			{ "dynn_Naicker" }
+			{ "dynn_Bai" }
+			{ "dynn_Cavarai" }
+			{ "dynn_Chandran" }
+			{ "dynn_Chetti" }
+			{ "dynn_Chettiar" }
+			{ "dynn_Chaudary" }
+			{ "dynn_Deva" }
+			{ "dynn_Devi" }
+			{ "dynn_Gopal" }
+			{ "dynn_Jaffna" }
+			{ "dynn_Kalla" }
+			{ "dynn_Kallan" }
+			{ "dynn_Kannan" }
+			{ "dynn_Kavarai" }
+			{ "dynn_Krishna" }
+			{ "dynn_Kumari" }
+			{ "dynn_Lakshmi" }
+			{ "dynn_Mahadevan" }
+			{ "dynn_Mudaliar" }
+			{ "dynn_Narayanan" }
+			{ "dynn_Odda" }
+			{ "dynn_Oddai" }
+			{ "dynn_Oddar" }
+			{ "dynn_Oppara" }
+			{ "dynn_Padaiyachi" }
+			{ "dynn_Padiachy" }
+			{ "dynn_Paraiya" }
+			{ "dynn_Prasad" }
+			{ "dynn_Radhakrishnan" }
+			{ "dynn_Raj" }
+			{ "dynn_Raja" }
+			{ "dynn_Rajan" }
+			{ "dynn_Raju" }
+			{ "dynn_Ram" }
+			{ "dynn_Ramachandran" }
+			{ "dynn_Ramakrishnan" }
+			{ "dynn_Ramamurthy" }
+			{ "dynn_Ramanathan" }
+			{ "dynn_Reddy" }
+			{ "dynn_Seelan" }
+			{ "dynn_Shankar" }
+			{ "dynn_Srinivasan" }
+			{ "dynn_Suresh" }
+			{ "dynn_Thondan" }
+			{ "dynn_Uppara" }
+			{ "dynn_Vellala" }
+			{ "dynn_Venkatesh" }
+			{ "dynn_Wappara" }
+			{ "dynn_Wodda" }			
+			{ "dynnp_of" "dynn_Udayavara" }
+			{ "dynnp_of" "dynn_Mangalur" }
+			{ "dynnp_of" "dynn_Kannanur" }
+			{ "dynnp_of" "dynn_Calicut" }
+			{ "dynnp_of" "dynn_Malappuram" }
+			{ "dynnp_of" "dynn_Palakkad" }
+			{ "dynnp_of" "dynn_Mahoyadapuram" }
+			{ "dynnp_of" "dynn_Kunjakari" }
+			{ "dynnp_of" "dynn_Kottayam" }
+			{ "dynnp_of" "dynn_Kollam" }
+			{ "dynnp_of" "dynn_Vizhinjam" }
+			{ "dynnp_of" "dynn_Kottar" }
+			{ "dynnp_of" "dynn_Tirunelveli" }
+			{ "dynnp_of" "dynn_Kayal" }
+			{ "dynnp_of" "dynn_Korkai" }
+			{ "dynnp_of" "dynn_Sivakasi" }
+			{ "dynnp_of" "dynn_Madurai" }
+			{ "dynnp_of" "dynn_Virudhukkalvetti" }
+			{ "dynnp_of" "dynn_Rameshvaram" }
+			{ "dynnp_of" "dynn_Sivaganga" }
+			{ "dynnp_of" "dynn_Uraiyur" }
+			{ "dynnp_of" "dynn_Dindigul" }
+			{ "dynnp_of" "dynn_Karavur" }
+			{ "dynnp_of" "dynn_Tiruppur" }
+			{ "dynnp_of" "dynn_Kovai" }
+			{ "dynnp_of" "dynn_Tenkasi" }
+			{ "dynnp_of" "dynn_Tagadur" }
+			{ "dynnp_of" "dynn_Kelrayan" }
+			{ "dynnp_of" "dynn_Srirangam" }
+			{ "dynnp_of" "dynn_Tanjavur" }
+			{ "dynnp_of" "dynn_Nagapattinam" }
+			{ "dynnp_of" "dynn_Kannanur" }
+			{ "dynnp_of" "dynn_Tirukoilur" }
+			{ "dynnp_of" "dynn_Jinji" }
+			{ "dynnp_of" "dynn_Uttaramerur" }
+			{ "dynnp_of" "dynn_Tiruvannamalai" }
+			{ "dynnp_of" "dynn_Kudalasangama" }
+			{ "dynnp_of" "dynn_Kuvalala" }
+			{ "dynnp_of" "dynn_Muluvagil" }
+			{ "dynnp_of" "dynn_Takkaloma" }
+			{ "dynnp_of" "dynn_Mamallapuram" }
+			{ "dynnp_of" "dynn_Kanchipuram" }
+		}
+
+		dynasty_names = {
+			"dynn_Cinkaiariyan"
+			"dynn_Aryacakravarti"
+			"dynn_Kulasekhara"
+			"dynn_Samoothiri"
+			"dynn_Perumadappu"
+			"dynn_Kadava"
+			{ "dynn_Paraiyar" }
+			{ "dynn_Vishwakarma" }
+			{ "dynn_Aachari" }
+			{ "dynn_Konar" }
+			{ "dynn_Idaiyar" }
+			{ "dynn_Reddiar" }
+			{ "dynn_Udayar" }
+			{ "dynn_Yadhavar" }
+			{ "dynn_Iyer" }
+			{ "dynn_Iyengar" }
+			{ "dynn_Pillai" }
+			{ "dynn_Mudaliar" }
+			{ "dynn_Thevar" }
+			{ "dynn_Nadar" }
+			{ "dynn_Chettiar" }
+			{ "dynn_Gounder" }
+			{ "dynn_Naicker" }			
+			{ "dynn_Bai" }
+			{ "dynn_Cavarai" }
+			{ "dynn_Chandran" }
+			{ "dynn_Chetti" }
+			{ "dynn_Chettiar" }
+			{ "dynn_Chaudary" }
+			{ "dynn_Deva" }
+			{ "dynn_Devi" }
+			{ "dynn_Gopal" }
+			{ "dynn_Jaffna" }
+			{ "dynn_Kalla" }
+			{ "dynn_Kallan" }
+			{ "dynn_Kannan" }
+			{ "dynn_Kavarai" }
+			{ "dynn_Krishna" }
+			{ "dynn_Kumari" }
+			{ "dynn_Lakshmi" }
+			{ "dynn_Mahadevan" }
+			{ "dynn_Mudaliar" }
+			{ "dynn_Narayanan" }
+			{ "dynn_Odda" }
+			{ "dynn_Oddai" }
+			{ "dynn_Oddar" }
+			{ "dynn_Oppara" }
+			{ "dynn_Padaiyachi" }
+			{ "dynn_Padiachy" }
+			{ "dynn_Paraiya" }
+			{ "dynn_Prasad" }
+			{ "dynn_Radhakrishnan" }
+			{ "dynn_Raj" }
+			{ "dynn_Raja" }
+			{ "dynn_Rajan" }
+			{ "dynn_Raju" }
+			{ "dynn_Ram" }
+			{ "dynn_Ramachandran" }
+			{ "dynn_Ramakrishnan" }
+			{ "dynn_Ramamurthy" }
+			{ "dynn_Ramanathan" }
+			{ "dynn_Reddy" }
+			{ "dynn_Seelan" }
+			{ "dynn_Shankar" }
+			{ "dynn_Srinivasan" }
+			{ "dynn_Suresh" }
+			{ "dynn_Thondan" }
+			{ "dynn_Uppara" }
+			{ "dynn_Vellala" }
+			{ "dynn_Venkatesh" }
+			{ "dynn_Wappara" }
+			{ "dynn_Wodda" }			
+			{ "dynnp_of" "dynn_Udayavara" }
+			{ "dynnp_of" "dynn_Mangalur" }
+			{ "dynnp_of" "dynn_Kannanur" }
+			{ "dynnp_of" "dynn_Calicut" }
+			{ "dynnp_of" "dynn_Malappuram" }
+			{ "dynnp_of" "dynn_Palakkad" }
+			{ "dynnp_of" "dynn_Mahoyadapuram" }
+			{ "dynnp_of" "dynn_Kunjakari" }
+			{ "dynnp_of" "dynn_Kottayam" }
+			{ "dynnp_of" "dynn_Kollam" }
+			{ "dynnp_of" "dynn_Vizhinjam" }
+			{ "dynnp_of" "dynn_Kottar" }
+			{ "dynnp_of" "dynn_Tirunelveli" }
+			{ "dynnp_of" "dynn_Kayal" }
+			{ "dynnp_of" "dynn_Korkai" }
+			{ "dynnp_of" "dynn_Sivakasi" }
+			{ "dynnp_of" "dynn_Madurai" }
+			{ "dynnp_of" "dynn_Virudhukkalvetti" }
+			{ "dynnp_of" "dynn_Rameshvaram" }
+			{ "dynnp_of" "dynn_Sivaganga" }
+			{ "dynnp_of" "dynn_Uraiyur" }
+			{ "dynnp_of" "dynn_Dindigul" }
+			{ "dynnp_of" "dynn_Karavur" }
+			{ "dynnp_of" "dynn_Tiruppur" }
+			{ "dynnp_of" "dynn_Kovai" }
+			{ "dynnp_of" "dynn_Tenkasi" }
+			{ "dynnp_of" "dynn_Tagadur" }
+			{ "dynnp_of" "dynn_Kelrayan" }
+			{ "dynnp_of" "dynn_Srirangam" }
+			{ "dynnp_of" "dynn_Tanjavur" }
+			{ "dynnp_of" "dynn_Nagapattinam" }
+			{ "dynnp_of" "dynn_Kannanur" }
+			{ "dynnp_of" "dynn_Tirukoilur" }
+			{ "dynnp_of" "dynn_Jinji" }
+			{ "dynnp_of" "dynn_Uttaramerur" }
+			{ "dynnp_of" "dynn_Tiruvannamalai" }
+			{ "dynnp_of" "dynn_Kudalasangama" }
+			{ "dynnp_of" "dynn_Kuvalala" }
+			{ "dynnp_of" "dynn_Muluvagil" }
+			{ "dynnp_of" "dynn_Takkaloma" }
+			{ "dynnp_of" "dynn_Mamallapuram" }
+			{ "dynnp_of" "dynn_Kanchipuram" }
+		}
+		
+		male_names = {
+			Amarapuyankan AparA_cita AparA_citavarman AppU_taiyA_n ArikE_cari AriN_caya ArulmolitE_var
+			Arulmolivarman AtirA_cE_ntira Atitta AvaniyA_lappirantA_r Avraaham BrahmamA_rA_yar Cadayan Cankili Cataiyavarman CatturukA_lamakalA_tittan Cayantavarman
+			Celiyancentan CekarA_cacE_karan Cevakattevan CeyavI_ra Chaacko Chaandy Cimmavisnu CinkapA_ku CivakkoluntA_n Cuntara CA_ramutaiyA_n CA_ttanA_n
+			CI_vallapa CI_vallapan Daniyel Eappen EccavarA_kan Eisow ImpA_nA_yarpattan Irattapadikonda IrA_cacimman IrA_cakecaripanmar IrA_carA_ca
+			IrA_cA_cekara IrA_cA_tirA_ca IrA_cA_tirA_catevar IrA_cA_titta IrA_cE_ntira Ittac Iyob Kadarangkonda KanakacU_riya KantarA_titta
+			KaraikkiyemarrayilaiyA_n Karunandadakkan Karunandan Katunkon KilA_n KirA_marA_capattan KontA_n Kossy Kotukulapattan KulacE_kara KulacE_karan
+			KulO_ttunka KunapU_sana KunavI_ra Kurian Kutameratiruvatikal KO_pperuN_cimman Lukose MakE_ntiravarman ManappA_kkI_lan
+			ManavA_lapperumA_l MunnU_rruvappattan MA_mpA_kkamutaiyA_n MA_naticcuran MA_rapanmar MA_ravarman MA_rkantaiyan Markose MA_tevapattan MA_tevipattan Nantivarman
+			Naracimmavarman Nirupatunkavarman NiyA_yaparipA_lapattan NA_rpattennA_yirapattan NA_tittaN_cA_ttan PantA_ram
+			Parakesaripanmar ParamE_svaravarman Paranirupacinkam PararA_cacE_karan ParA_kkirama
+			ParA_nkucan ParA_ntaka Pathrose PaN_cavan Paulose Periyapillai PerumA_l PeruN_cintevar PiramA_rA_yan Piyliypaos PuvirA_ca PA_kkilA_n PA_larA_vA_yan Ranatitta
+			RanatI_ran Ravivarman Samuel Tantivarman Tennavan Thoma Tiruccirrampalapattan TirunattapperumA_l TirupuvanavI_ratevar Tripuvanacakkaravattikal
+			UravA_kkinA_n Utaiya Uttama Varakunan Varakunavarman VarO_taya Varughese VellantA_nkinA_n VicayA_laya VicayA_raka
+			VicayA_titta Vikkirama VikramA_tittA_ ViranA_rA_yanapattan VirA_cakecaripanmar VI_racE_kara VI_rakE_cari
+			VI_rarA_cE_ntira VI_rO_taya Yohannaan Yosef Zacharria A_ccinataratippan A_nU_rrenmanpiccan A_yirattalipattan
+		}
+		female_names = {
+			Aaleyaamma Accamma AccattE_vi Annamma AiyyA_rratikal AkkA_ranankayA_r Amittiravalli AmmaiyA_lvi AmmakkanA_r AmmankA_tE_vi AnkA_ti AramutaiyA_l
+			AricukA_ti Ariyapillai AriN_cikai AriN_cikaipirA_tti AriN_cikaippirA_ttiyA_r ArulmolinankaiyA_r Aruvanki AtavallA_l AtittapatA_riyA_r AtittapitA_ri
+			AtittapitA_riyA_r AtticapitA_riyA_r AvutaiyA_lccA_ni CankA_ni CantirA_dE_vi Cenkulam CeyyacO_lam CeyyavA_ymani CivatE_vi Civallapatevi
+			CorappaiyA_r CA_muntappai CE_ramankai CO_lamA_tE_vi Eccumantai Eluvanai EluvattU_r EtuttapA_tam IrA_cinkam IrA_cA_ticci IrA_cacuntari
+			Kalacci Kalicci Kanavati KannapparaciyA_r KantiyU_r KariyamA_tE_vi KarumA_nikkam KaucalaiyA_r Kavatiyakkan KaN_ciakkan KutitA_nkinA_l
+			KuN_caramalli KuN_ciramalli KA_muttiri KA_raikkA_l KO_kilA_nadigal KO_lA_liyA_r KO_malavalli KO_yinA_ccipitA_riyA_r KU_rrantE_vi KU_ttA_tunA_cci
+			MahA_deviyA_r MalaiyamA_n MalapA_ti MaraikkA_tu MaN_cavi MA_nikkam Mariamma MA_tE_vatikalA_r NakarattA_l NaltE_viyA_r NamaiyA_r NankaiyA_r Nantirinankai
+			Netuntukkai Nilammai Nimmatikal NA_cci NA_cciyA_lvi NA_rani NA_rA_yani NA_N_cU_ri NI_lakanti NI_liyA_r OlimatiyA_r OrriA_lvi Pavitram PennaraciyA_r
+			Peranankai PeriyanA_cci Perrappai PillayA_lvi PiramaccA_ni PiratamA_tevi PirriccA_ni PollA_tapillai PommavA_yi PonnampalattatikalA_r PunniyavA_tti PU_vA_nti
+			Raahelamma RA_catE_viyA_r RA_cakE_cari SA_mavA_yi Saramma Sosamma TaturA_ntakiyA_r TavaN_ceytA_l TayA_nitiyA_r Thresiamma TirumU_lattA_nam Tiruvaranki TiruvennA_val TiruvA_naikkA_vi
+			TiruvE_nkatam TunaiyiruntA_lcA_ni TA_natonkiyA_r TE_cappukal TE_mpA_vai TE_vA_nrA_l TU_nkA_nai UmaiyA_lvA_r Utaiyaval UtaiyaN_ceytA_l VaccavaiyA_r
+			Varakuni VatavA_yil Venankai VennA_val Vicciyakkan ViccA_tiri VikkiramA_titti ViraiyA_ccilai Vitari VA_navanmA_tE_vi
+		}
+		dynasty_title_names = yes
+
+		founder_named_dynasties = yes
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 0
+		mat_grm_name_chance = 0
+		mother_name_chance = 0
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		
+		ethnicities = {
+			10 = south_indian
+		}
+	}
+
+	nuadan = {
+	
+		graphical_cultures = {
+			swedish_coa_gfx
+		}
+		
+		color = { 0.25 0.5 0.75 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_af" "dynn_Palatinate_Zweibrucken" }
+			{ "dynnp_af" "dynn_Holstein_Gottorp" }
+			"dynn_GA_rdske"
+			"dynn_Grip"
+			"dynn_Svarte"
+			"dynn_Skancke"
+			"dynn_Thornberg"
+			"dynn_Ribbing"
+			"dynn_BA_A_t"
+			"dynn_Ulv"
+			"dynn_Sparre"
+			"dynn_FA_rla"
+			"dynn_Brahe"
+			{ "dynnp_af" "dynn_Rumby" }
+			{ "dynnp_af" "dynn_Brunnsholm" }
+			{ "dynnp_af" "dynn_UlvA_sa" }
+			"dynn_SjO_blad"
+			"dynn_Skarsholm"
+			"dynn_BlA_"
+			"dynn_Natt_och_Dag"
+			"dynn_Griphuvud"
+			"dynn_Lejon"
+			"dynn_Bielke"
+			"dynn_Erik"
+			"dynn_Horn"
+			"dynn_Bjering"
+			"dynn_RothE_n"
+			"dynn_LA_ma"
+			"dynn_Rumby"
+			"dynn_DjA_kn"
+			"dynn_SvA_rd"
+			"dynn_Bagge"
+			"dynn_Borg"
+			"dynn_Bese"
+			"dynn_Boberg"
+			"dynn_Bragde"
+			"dynn_Bure"
+			"dynn_Eka"
+			"dynn_Fargalt"
+			{ "dynnp_af" "dynn_FA_nO_" }
+			"dynn_Forsa"
+			"dynn_Get"
+			"dynn_Gedda"
+			{ "dynnp_af" "dynn_Hafrid" }
+			"dynn_Hatt"
+			{ "dynnp_af" "dynn_HA_lbonA_s" }
+			"dynn_HA_sthuvud"
+			"dynn_Knoppe"
+			"dynn_Kraam"
+			"dynn_Lake"
+			"dynn_Lejonansikte"
+			"dynn_Lejonbalk"
+			"dynn_Marsvin"
+			"dynn_Oxhufvud"
+			"dynn_Oxpanna"
+			"dynn_Pik"
+			"dynn_Svan"
+			"dynn_Svinhufvud"
+			"dynn_Tott"
+			"dynn_Tre_Rosor"
+			"dynn_Tre_Rutor"
+			"dynn_Trolle"
+			"dynn_Vasa"
+			"dynn_Vinstorpa"
+			"dynn_Virske"
+			"dynn_Vingad_Pil"
+			"dynn_Vingad_Lilja"
+			"dynn_HA_stesko"
+			"dynn_O_rnsparre"
+			"dynn_Snedbielke"
+			"dynn_LA_ma"
+			"dynn_Fluga"
+			"dynn_Guldtupp"
+			"dynn_Ulfsax"
+			"dynn_Tre_SjO_blad"
+			"dynn_Stjerne"
+			"dynn_Bratt"
+			"dynn_Munk"
+			"dynn_Bjelke"
+			"dynn_Bonde"
+			"dynn_Pilhufvud"
+			"dynn_Haraldsson"
+			"dynn_Gera"
+			"dynn_Soop"
+			"dynn_Gylta"
+			"dynn_KA_rling"
+			{ "dynnp_af" "dynn_Finsta" }
+			"dynn_Leijonhufvud"
+			{ "dynnp_af" "dynn_AspenA_s" }
+			{ "dynnp_af" "dynn_Hammersta" }
+			"dynn_LilliehO_O_k"
+			"dynn_A_ngel"
+			"dynn_Fleming"
+			"dynn_Bidz"
+			"dynn_Diekn"
+			"dynn_Stiernkors"
+			"dynn_VillnA_s"
+			"dynn_Fincke"
+			"dynn_Dufva"
+			"dynn_JA_gerhorn_af_Spurila"
+			"dynn_Gesterby"
+			"dynn_BA_A_t"
+			"dynn_Cronstedt"
+		}
+
+		dynasty_names = {
+			"dynn_GA_rdske"
+			"dynn_Grip"
+			"dynn_Svarte"
+			"dynn_Skancke"
+			"dynn_Thornberg"
+			"dynn_Ribbing"
+			"dynn_BA_A_t"
+			"dynn_Ulv"
+			"dynn_Sparre"
+			"dynn_FA_rla"
+			"dynn_Brahe"
+			{ "dynnp_af" "dynn_Rumby" }
+			{ "dynnp_af" "dynn_Brunnsholm" }
+			{ "dynnp_af" "dynn_UlvA_sa" }
+			"dynn_SjO_blad"
+			"dynn_Skarsholm"
+			"dynn_BlA_"
+			"dynn_Natt_och_Dag"
+			"dynn_Griphuvud"
+			"dynn_Lejon"
+			"dynn_Bielke"
+			"dynn_Erik"
+			"dynn_Horn"
+			"dynn_Bjering"
+			"dynn_RothE_n"
+			"dynn_LA_ma"
+			"dynn_Rumby"
+			"dynn_DjA_kn"
+			"dynn_SvA_rd"
+			"dynn_Bagge"
+			"dynn_Borg"
+			"dynn_Bese"
+			"dynn_Boberg"
+			"dynn_Bragde"
+			"dynn_Bure"
+			"dynn_Eka"
+			"dynn_Fargalt"
+			{ "dynnp_af" "dynn_FA_nO_" }
+			"dynn_Forsa"
+			"dynn_Get"
+			"dynn_Gedda"
+			{ "dynnp_af" "dynn_Hafrid" }
+			"dynn_Hatt"
+			{ "dynnp_af" "dynn_HA_lbonA_s" }
+			"dynn_HA_sthuvud"
+			"dynn_Knoppe"
+			"dynn_Kraam"
+			"dynn_Lake"
+			"dynn_Lejonansikte"
+			"dynn_Lejonbalk"
+			"dynn_Marsvin"
+			"dynn_Oxhufvud"
+			"dynn_Oxpanna"
+			"dynn_Pik"
+			"dynn_Svan"
+			"dynn_Svinhufvud"
+			"dynn_Tott"
+			"dynn_Tre_Rosor"
+			"dynn_Tre_Rutor"
+			"dynn_Trolle"
+			"dynn_Vasa"
+			"dynn_Vinstorpa"
+			"dynn_Virske"
+			"dynn_Vingad_Pil"
+			"dynn_Vingad_Lilja"
+			"dynn_HA_stesko"
+			"dynn_O_rnsparre"
+			"dynn_Snedbielke"
+			"dynn_LA_ma"
+			"dynn_Fluga"
+			"dynn_Guldtupp"
+			"dynn_Ulfsax"
+			"dynn_Tre_SjO_blad"
+			"dynn_Stjerne"
+			"dynn_Bratt"
+			"dynn_Munk"
+			"dynn_Bjelke"
+			"dynn_Bonde"
+			"dynn_Pilhufvud"
+			"dynn_Haraldsson"
+			"dynn_Gera"
+			"dynn_Soop"
+			"dynn_Gylta"
+			"dynn_KA_rling"
+			{ "dynnp_af" "dynn_Finsta" }
+			"dynn_Leijonhufvud"
+			{ "dynnp_af" "dynn_AspenA_s" }
+			{ "dynnp_af" "dynn_Hammersta" }
+			"dynn_LilliehO_O_k"
+			"dynn_A_ngel"
+			"dynn_Fleming"
+			"dynn_Bidz"
+			"dynn_Diekn"
+			"dynn_Stiernkors"
+			"dynn_VillnA_s"
+			"dynn_Fincke"
+			"dynn_Dufva"
+			"dynn_JA_gerhorn_af_Spurila"
+			"dynn_Gesterby"
+			"dynn_BA_A_t"
+			"dynn_Cronstedt"
+		}
+		
+		male_names = {
+			Albrikt Alf Algot Anders Anund ArnbjO_rn Arne Arnfast AsbjO_rn Astrad Azur Bagge Balder Bengt Bertil Birger BjO_rn Bo Borkvard Botulf Brage Bror
+			Brynjolf Dag Dan Dyre Egil Einar Emund Erik Eskild Faste Fredrik Filip Folke Frej Georg Greger Grim GudrO_d Gunnar Gustav Halsten Hans Harald
+			Helgi Henrik Hjalmar Holmger HA_kan Inge Ingemar Ingvar Jedvard Johan Karl Kettil Kettilmund Klas Knut Kol KolbjO_rn Lars Magnus Markus
+			Mats Nils Niklas Odd Olaf Orvar Peder Ragnar Rolf RO_rek Ragnvald SA_mund SO_rkver SigbjO_rn Sigtrygg Sigurd Starkad Sten StyrbjO_rn Sune Sven
+			Sverker SO_lvi Thomas Tjudmund Toke Tolir TorbjO_rn Tord Torbrand Torfinn Torkel Torolf Torsten Toste Totil Tyke Ulf Valdemar A_ke O_sten
+			Adalvard Rodulvard StyrbjO_rn _Odgrim Jaerpulf Stenar Brynolf
+		}
+		female_names = {
+			Aleta Alfhild Alfridh Anna Asta Astrid Beata Birgitta Bothild Cecilia Edla Elin Elisabet Freja Gunhild Gyla Gurli Gytha Hafrid
+			Helena Holmfrid Iliana Inga Ingeborg Ingegerd Ingfrid Ingrid Karin Katarina Kristina Linda Maer Malmfrid
+			Margareta MAErta Ragnfrid Ragnhild Rikissa Saga Sara Sigrid Sofia Svanhild Thordis Ulvhilde Ylva A_sa
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdotter"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_gota_band" }
+		}
+	}
+
+	albinean = {
+		graphical_cultures = {
+			sami_coa_gfx
+		}
+		cadet_dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+
+		dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+		
+		color = { 0.4 0.75 0.85 }
+
+		male_names = {
+			A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
+			GA_ktu Henes JA_rre Jeansa Juvven LA_gon LA_vrrohas LeammA_ Mellet Mihka Mohkku Mokci NA_hkol NA_innas Njulgu OavA_n Orddot RA_stos Riibma Ruigi
+			SA_rra Speaidna Viggu
+		}
+		female_names = {
+			A_idnA_ A_lgen A_llet E_uvje BiellA_ BiergA_ BuohttA_ DuojA_ GealA_ GierA_ Giste JuoksA_hkkA_ Leandu MA_idna NA_sti NanA_ NjA_ves OajA_ SA_rA_hkkA_ SealggA_
+			SearA_ SoabA_ SojA_ SuoinnA_ Suonjar UksA_hkkA_
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+
+		ethnicities = {
+			33 = circumpolar_dark_hair
+			33 = circumpolar_brown_hair
+			33 = circumpolar_blonde_hair
+		}
+	}
 }
