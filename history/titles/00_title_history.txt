@@ -2545,6 +2545,106 @@ c_tuine = {
               }
 }
 
+c_akela = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 1500000
+              }
+}
+
+e_morfis = {
+              1180.1.1 = {
+                            holder = 1300000
+              }
+}
+
+k_reqonn = {
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+d_bugia = {
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+c_estiria = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+c_claraval = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+c_ruan = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+d_arcila = {
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+c_escania = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+c_capaz = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 800000
+              }
+}
+
+d_niwt_hekau = {
+              1180.1.1 = {
+                            holder = 1300000
+              }
+}
+
+c_per_hekau = {
+              1.1.1 = { change_development_level = 30 }
+              1180.1.1 = {
+                            holder = 1300000
+              }
+}
+
+c_djeb = {
+              1.1.1 = { change_development_level = 20 }
+              1180.1.1 = {
+                            holder = 1300000
+              }
+}
+
+c_hakur = {
+              1.1.1 = { change_development_level = 20 }
+              1180.1.1 = {
+                            holder = 1300000
+              }
+}
+
+c_enlil = {
+              1.1.1 = { change_development_level = 20 }
+              1180.1.1 = {
+                            holder = 1300000
+              }
+}
+
 k_almyra = {
               1180.1.1 = {
                             holder = 700000

@@ -1,0 +1,14 @@
+1300000 = {
+	name="great morfis sage"
+	religion="inetsaret"
+	culture="morfis"
+
+	disallow_random_traits = yes
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
