@@ -132,12 +132,13 @@ doctrine_fodlan_tenets = {
 
 		parameters = {
 			tenets_active = yes
-		}
-
-		character_modifier = {
 			custom_description_no_bullet = {
 				text = bellum_justum_effect
 			}
+		}
+
+		character_modifier = {
+
 		}
 
 		traits = {	
@@ -169,7 +170,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	################
-	### Pantehon ###
+	### Pantheon ###
 	################
 
 	tenet_cultured_armies = {
@@ -257,8 +258,8 @@ doctrine_fodlan_tenets = {
 		}
 
 		character_modifier = {
-			build_gold_cost = -0.2
-			holding_build_gold_cost = -0.2
+			build_gold_cost = -0.15
+			holding_build_gold_cost = -0.15
 		}
 
 		traits = {	
@@ -622,6 +623,113 @@ doctrine_fodlan_tenets = {
 		}
 	}
 
+
+
+	#########################
+	### rf_saatpra_daanav ###
+	#########################
+
+	tenet_durga_abaka = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			castle_holding_build_gold_cost = -0.05
+			castle_holding_holding_build_gold_cost = -0.05
+			domain_tax_mult = 0.075
+		}
+
+		traits = {	
+			virtues = { humble diligent temperate }
+			sins = { arrogant lazy gluttonous }	
+		}
+	}
+
+	tenet_bisalalinga = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			divine_marriage_opinion = 10
+			divine_marriage_piety_gain_active = yes
+		}
+
+		character_modifier = {
+			fertility = 0.33
+		}
+
+		traits = {	
+			virtues = { lustful humble compassionate }
+			sins = { chaste arrogant callous }	
+		}
+	}
+
+
+	tenet_baildatyn_tsus = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			divine_marriage_opinion = 10
+			divine_marriage_piety_gain_active = yes
+		}
+
+		character_modifier = {
+			raid_speed = 0.33
+		}
+
+		traits = {	
+			virtues = { brave humble honest }
+			sins = { chaste arrogant deceitful }	
+		}
+	}
+
+	################
+	### Agarthan ###
+	################
+
+	tenet_polemichani = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			development_growth_factor = 0.33
+		}
+
+		traits = {	
+			virtues = {  }
+			sins = {  }	
+		}
+	}
+
+
+
+
+
 }
-
-

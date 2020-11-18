@@ -22,4 +22,12 @@ special_tolerance = {
 			hostility_override_special_doctrine_ecumenical_bilog = 0
 		}
 	}
+
+	special_doctrine_ecumenical_agarthan = {
+		parameters = {
+			hostility_override_special_doctrine_ecumenical_agarthan = 0
+		}
+	}
+
+	
 }

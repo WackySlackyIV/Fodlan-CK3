@@ -502,6 +502,15 @@ malikabad = {
 	}
 }
 
+tszun = {
+	county = c_tszun
+
+	character_modifier = {
+		name = holy_site_tszun_effect_name
+		stewardship = 1
+	}
+}
+
 kuibulyen = {
 	county = c_kuibulyen
 
@@ -519,3 +528,27 @@ mayza = {
 		stewardship = 1
 	}
 }
+
+
+######################
+### saatpra_daanav ###
+######################
+
+suvd = {
+	county = c_suvd
+
+	character_modifier = {
+		name = holy_site_suvd_effect_name
+		stewardship = 1
+	}
+}
+
+khoshu = {
+	county = c_khoshu
+
+	character_modifier = {
+		name = holy_site_khoshu_effect_name
+		stewardship = 1
+	}
+}
+

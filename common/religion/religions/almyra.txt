@@ -259,6 +259,7 @@ buykisik_religion = { #Almyra
 			holy_site = karamai
 			holy_site = koshk
 			holy_site = martakhy
+			holy_site = tszun
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_gnosticism
