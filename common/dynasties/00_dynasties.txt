@@ -829,3 +829,42 @@
 	name="Schlecht"
 	culture="adrestian"
 }
+
+##############
+### Reqonn ###
+##############
+
+800 = 
+{
+	name="Duarte"
+	culture="reqonese"
+
+}
+
+801 = 
+{
+	name="Aguiar"
+	culture="reqonese"
+
+}
+
+802 = 
+{
+	name="Sálarino"
+	culture="reqonese"
+
+}
+
+803 = 
+{
+	name="Abril"
+	culture="reqonese"
+
+}
+
+804 = 
+{
+	name="Reis"
+	culture="reqonese"
+
+}

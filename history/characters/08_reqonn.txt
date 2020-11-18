@@ -1,12 +1,190 @@
 800000 = {
-	name="Trade King"
+	name="Octávio"
 	religion="reqonn_de_opulencia"
 	culture="reqonese"
+	dynasty = 800
+
+	diplomacy=4
+	martial=2
+	stewardship=7
+	intrigue=3
+	learning=2
+	health=5
+
+	trait = ambitious
+	trait = greedy
+	trait = diligent
+
+	trait = education_stewardship_3
+	trait = pure_blooded
+ 	trait = shrewd
+	trait = avaricious
 
 	1121.6.22 = {
+		birth=yes
+	}
+	1181.3.10={
+		set_relation_rival = character:800005
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+800001 = {
+	name="Josefina"
+	religion="reqonn_de_opulencia"
+	culture="reqonese"
+	dynasty = 804
+
+	diplomacy=4
+	martial=2
+	stewardship=7
+	intrigue=3
+	learning=2
+	health=5
+
+	trait = trusting
+	trait = forgiving
+	trait = stubborn
+
+	trait = education_diplomacy_3
+	trait = pure_blooded
+ 	trait = beauty_good_3
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1181.3.10={
+		death=yes
+	}
+}
+
+800002 = {
+	name = "Matias"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 800
+
+	diplomacy=3
+	martial=2
+	stewardship=3
+	intrigue=0
+	learning=4
+	health=7
+
+	trait = compassionate
+	trait = just
+	trait = honest
+
+	trait = education_learning_3
+	trait = pure_blooded
+	trait = intellect_bad_1
+
+	1153.12.23 = {
+		birth=yes
+	}
+	1181.3.10={
+		death=yes
+	}
+
+}
+
+800003 = {
+	name = "Renan"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 800
+
+	diplomacy=2
+	martial=1
+	stewardship=2
+	intrigue=1
+	learning=0
+	health=7
+
+	trait = vengeful
+	trait = greedy
+	trait = craven
+
+	trait = education_diplomacy_1
+	trait = pure_blooded
+	trait = lisping
+	trait = intellect_bad_1
+
+	1155.1.7 = {
+		birth=yes
+	}
+	1181.3.10={
+		set_relation_rival = character:800005
+	}
+	1200.1.1={
+		death=yes
+	}
+
+}
+
+800004 = {
+	name = "Tereza"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 801
+
+	diplomacy=5
+	martial=2
+	stewardship=4
+	intrigue=0
+	learning=3
+	health=5
+
+	trait = compassionate
+	trait = gluttonous
+	trait = lustful
+
+	trait = education_diplomacy_2
+	trait = pure_blooded
+
+
+	1134.2.11 = {
 		birth=yes
 	}
 	1200.1.1={
 		death=yes
 	}
+
+}
+
+800005 = {
+	name = "Sálado"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 802
+
+	diplomacy=4
+	martial=3
+	stewardship=3
+	intrigue=7
+	learning=2
+	health=6
+
+	trait = ambitious
+	trait = callous
+	trait = deceitful
+
+	trait = education_intrigue_4
+	trait = intellect_good_2
+	trait = lunatic_1
+	trait = torturer
+
+	1134.2.11 = {
+		birth=yes
+	}
+	1181.3.10={
+		set_relation_rival = character:800000
+		set_relation_rival = character:800003
+	}
+	1200.1.1={
+		death=yes
+	}
+
 }
