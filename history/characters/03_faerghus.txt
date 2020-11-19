@@ -6,7 +6,7 @@
 	father=300023
 	mother=300098
 	dna = dna_dimitri
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=6
    	martial=9
@@ -49,11 +49,12 @@
 	culture="faerghus"
 	dynasty=201
 	mother = 300093
-	trait="underhanded_rogue"
-	trait="stubborn"
-	trait="charitable"
-	trait="humble"
-	trait="ambitious"
+
+	trait=stubborn
+	trait=generous
+	trait=ambitious
+
+	trait=education_intrigue_2
 
 	1135.3.21 = {
 		birth=yes
@@ -74,13 +75,16 @@
 	culture="faerghus"
 	dynasty=202
 
-	trait="duelist"
-	trait="skilled_tactician"
-	trait="scarred_mid"
-	trait="one_eyed"
-	trait="patient"
-	trait="brave"
-	trait="norse_leader"
+	
+	trait=education_martial_3
+	
+	trait=patient
+	trait=diligent
+	trait=brave
+
+	trait=one_eyed
+	trait=scarred
+	trait=gallant
 
 	1130.5.19 = {
 		birth=yes
@@ -101,17 +105,17 @@
 	culture="faerghus"
 	father=300046
 	dynasty=203
-	trait="tough_soldier"
-	trait="giant"
-	trait="slow"
-	trait="strong"
-	trait="brave"
-	trait="sturdy"
-	trait="kind"
-	trait="shy"
-	trait="patient"
-	trait="trusting"
-	trait="chaste"
+
+	trait = brave
+	trait = compassionate
+	trait = shy
+
+	trait = education_martial_2
+	trait = physique_good_1
+	trait = intellect_bad_1
+	trait = giant
+	trait = strong
+
 
 	disallow_random_traits = yes
 
@@ -143,7 +147,7 @@
 
 	trait = education_martial_3
 	trait = strategist
-	trait = organiser
+	trait = organizer
 
 	trait = crest_minor_fraldarius
 	disallow_random_traits = yes
@@ -166,12 +170,13 @@
 	culture="faerghus"
 	dynasty=205
 
-	trait="underhanded_rogue"
-	trait="ambitious"
-	trait="proud"
-	trait="scarred"
-	trait="greedy"
 
+	trait= ambitious
+	trait= arrogant
+	trait= greedy
+
+	trait= education_intrigue_3
+	trait= scarred
 	1125.4.21 = {
 		birth=yes
 	}
@@ -211,14 +216,13 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=207
-	trait="tough_soldier"
-	trait="shy"
-	trait="hunter"
-	trait="content"
-	trait="patient"
-	trait="honest"
-	trait="just"
-	trait="uncouth"
+
+	trait= shy
+	trait= content
+	trait= just
+
+	trait= education_martial_2
+	trait= hunter_2
 
 	disallow_random_traits = yes
 
@@ -255,10 +259,16 @@
 	dynasty=209
 	religion="seirosite"
 	culture="faerghus"
-	trait="tough_soldier"
-	trait="ambitious"
-	trait="adventurer"
-	trait="schemer"
+
+
+	trait = ambitious
+	trait = arrogant
+	trait = impatient
+
+
+	trait = education_martial_2
+	trait = adventurer
+	trait = schemer
 
 	1142.02.08 = {
 		birth = yes
@@ -280,16 +290,17 @@
 	dynasty=210
 	mother=300058
 	disallow_random_traits = yes
-	trait="skilled_tactician"
-	trait="cavalry_leader"
-	trait="zealous"
-	trait="just"
-	trait="temperate"
-	trait="wroth"
-	trait="organizer"
-	trait="administrator"
-	trait="homosexual"
-	trait="reason_magic_initiate"
+	sexuality = homosexual
+
+	trait= zealous
+	trait= just
+	trait= wrathful
+
+	trait= education_martial_3
+	trait= open_terrain_expert
+	trait= organizer
+	trait= administrator
+
 
 	1148.2.17 = {
 		birth=yes
@@ -305,7 +316,7 @@
 	culture="faerghus"
 	dynasty=211
 	father=300024
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=6
    	martial=4
@@ -336,13 +347,13 @@
 	culture="faerghus"
 	dynasty=212
 
-	trait="thrifty_clerk"
-	trait="scarred"
-	trait="zealous"
-	trait="shrewd"
-	trait="kind"
-	trait="humble"
-	trait="slothfull"
+	trait= zealous
+	trait= compassionate
+	trait= humble
+
+	trait= education_stewardship_3
+	trait= scarred
+	trait= shrewd
 
 	1132.10.3 = {
 		birth=yes
@@ -358,14 +369,14 @@
 	culture="faerghus"
 	dynasty=213
 	disallow_random_traits = yes
-	trait="charismatic_negotiator"
-	trait="ambitious"
-	trait="cynical"
-	trait="weak"
-	trait="socializer"
-	trait="cruel"
-	trait="craven"
-	trait="paranoid"
+
+	trait= cynical
+	trait= callous
+	trait= craven
+
+	trait= education_diplomacy_3
+	trait= weak 
+	trait= diplomat
 	
 
 	1128.3.12 = {
@@ -397,24 +408,22 @@
 
 300015 = {
 	name="Gabriel"
-	religion="seirosite"
-	secret_religion = "edelist"
+    religion = "ablehnist"
 	culture="faerghus"
 	dynasty=214
-	trait="tough_soldier"
-	trait="temperate"
-	trait="chaste"
-	trait="kind"
-	trait="humble"
-	trait="brave"
-	trait="defensive_leader"
-	trait="robust"
-	trait="content"
-	trait="arbitrary"
-	trait="gregarious"
-	trait="trusting"
-	trait="duelist"
-	trait="faith_magic_apprentice"
+
+
+	trait= temperate
+	trait= brave
+	trait= arbitrary
+
+
+	trait= education_martial_2
+	trait= physique_good_1
+	trait= unyielding_defender
+	trait= gallant
+
+
 	disallow_random_traits = yes
 
 	1138.12.05 = {
@@ -422,7 +431,7 @@
 	}
 
 	1161.2.8={
-        	add_spouse=400064
+        add_spouse=400064
 	}
 
 	1200.1.1={
@@ -436,18 +445,15 @@
 	culture="faerghus"
 	female=yes
 	dynasty=215
-	trait="grey_eminence"
-	trait="gamer"
-	trait="infirm"
-	trait="kind"
-	trait="temperate"
-	trait="charitable"
-	trait="proud"
-	trait="gluttonous"
-	trait="gregarious"
-	trait="stubborn"
 
+	trait= compassionate
+	trait= arrogant
+	trait= gluttonous
 	
+	trait= education_diplomacy_4
+	trait= infirm
+
+
 	disallow_random_traits = yes
 
 
@@ -479,16 +485,16 @@
 	culture="faerghus"
 	dynasty=217
 	disallow_random_traits = yes
-	trait="skilled_tactician"
-	trait="trickster"
-	trait="experimenter"
-	trait="lunatic"
-	trait="brave"
-	trait="cynical"
-	trait="duelist"
-	trait="uncouth"
-	trait="one_eyed"
-	trait="greedy"
+
+	trait= brave
+	trait= cynical
+	trait= greedy 
+
+	trait= education_martial_3
+	trait= reckless
+	trait= lunatic_1
+	trait= gallant
+	trait= one_eyed
 
 	1142.12.30 = {
 		birth=yes
@@ -504,17 +510,15 @@
 	culture="faerghus"
 	dynasty=218
 	disallow_random_traits = yes
-	trait="martial_cleric"
-	trait="zealous"
-	trait="theologian"
-	trait="chaste"
-	trait="wroth"
-	trait="just"
-	trait="erudite"
-	trait="paranoid"
-	trait="faith_magic_adept"
 
-	
+
+	trait = zealous
+	trait = chaste
+	trait = paranoid
+
+	trait = education_learning_2
+	trait = theologian
+	trait = scholar
 
 	1141.12.3 = {
 		birth="1141.12.3"
@@ -537,14 +541,14 @@
 	female=yes
 	diplomacy=4
 	disallow_random_traits = yes
-	trait="thrifty_clerk"
-	trait="architect"
-	trait="diligent"
-	trait="content"
-	trait="shy"
-	trait="temperate"
-	trait="stubborn"
-	trait="fair"
+	
+	trait = diligent
+	trait = content
+	trait = shy
+
+	trait = education_stewardship_3
+	trait = architect
+	trait = beauty_good_1
 
 	1158.5.30 = {
 		birth=yes
@@ -562,13 +566,14 @@
 	mother = 300043
 	father = 300044
 	disallow_random_traits = yes
-	trait="thrifty_clerk"
-	trait="is_malnourished"
-	trait=depressed
-	trait="kind"
-	trait="humble"
 
+	trait = compassionate
+	trait = humble
+	trait = generous
 
+	trait = education_stewardship_3
+	trait = depressed_1
+	trait = wounded_1
 	
 
 	1160.8.9 = {
@@ -668,7 +673,7 @@
 	dynasty=201
 	father=300001
 	mother=300092
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=5
    	martial=7
@@ -703,7 +708,7 @@
 	dynasty=204
 	father=300004
 	mother=300080
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=2
    	martial=7
@@ -766,7 +771,7 @@
 	dynasty=205
 	father=300005
 	mother=300083
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=9
    	martial=6
@@ -854,7 +859,7 @@
 	dynasty=206
 	father = 300078
 	mother = 300079
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=3
    	martial=8
@@ -891,7 +896,7 @@
 	dynasty=301
 	father = 400035
 	mother = 400034
-	set_sexuality = bisexual
+	sexuality = bisexual
 
    	diplomacy=7
    	martial=2
@@ -936,7 +941,7 @@
 	dynasty=221
 	father=100005
 	mother=300088
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=5
    	martial=4
@@ -1058,11 +1063,10 @@
 	culture="faerghus"
 	dynasty=211
 	female = yes
-	father=300024
-	trait="adopted"
-	trait="fussy"
-	trait="conscientious"
-	trait="affectionate"
+	father = 300024
+	#trait= adopted
+	trait = pensive
+	trait = charming
 
 	1167.5.25 = {
 		birth=yes
@@ -1078,10 +1082,10 @@
 	culture="faerghus"
 	dynasty=211
 	father=300024
-	trait="adopted"
-	trait="rowdy"
-	trait="willful"
-	trait="curious"
+
+	#trait=adopted
+	trait = rowdy
+	trait = curious
 
 	1169.1.5 = {
 		birth=yes
@@ -1126,19 +1130,18 @@
 
 300041 = {
 	name="Jermaine"
-	religion="seirosite"
-	secret_religion = "edelist"
+	religion = "ablehnist"
 	culture="faerghus"
 	dynasty=214
 	father=300015
 	mother=400064
 	disallow_random_traits = yes
-	trait="misguided_warrior"
-	trait="proud"
-	trait="kind"
-	trait="temperate"
-	trait="brave"
+
+	trait = arrogant
+	trait = temperate
+	trait = brave
 	
+	trait = education_martial_1
 
 	1162.9.18 = {
 		birth=yes
@@ -1150,15 +1153,15 @@
 
 300042 = {
 	name="Marcelius"
-	religion="seirosite"
-	secret_religion = "edelist"
+	religion = "ablehnist"
 	culture="faerghus"
 	dynasty=214
 	father=300015
 	mother=400064
 	disallow_random_traits = yes
-	trait="conscientious"
-	trait="idolizer"
+
+	trait = charming
+	trait = pensive
 	
 
 	1171.9.18 = {
@@ -1177,12 +1180,14 @@
 	dynasty=220
 	female=yes
 	disallow_random_traits = yes
-	trait="martial_cleric"
-	trait="holy_warrior"
-	trait="zealous"
-	trait="trusting"
 
-	
+
+	trait = zealous
+	trait = trusting
+	trait = honest
+
+	trait = education_learning_2
+	trait = holy_warrior
 
 	1139.6.4 = {
 		birth=yes
@@ -1202,12 +1207,14 @@
 	dynasty=215
 	mother = 300016
 	disallow_random_traits = yes
-	trait="thrifty_clerk"
-	trait="stressed"
-	trait="patient"
-	trait="kind"
-	trait="gluttonous"
-	trait="honest"
+
+	trait = compassionate
+	trait = gluttonous
+	trait = honest
+
+	trait = education_stewardship_3
+	trait = contrite
+	trait = comfort_eater
 
 	1128.2.6 = {
 		birth=yes
@@ -1228,11 +1235,16 @@
 	mother = 300016
 	female = yes
 	disallow_random_traits = yes
-	trait="underhanded_rogue"
-	trait="stressed"
-	trait="patient"
-	trait="charitable"
-	trait="lustful"
+
+
+
+	trait = patient
+	trait = generous
+	trait = lustful
+
+	trait = education_intrigue_2
+	trait = improvident
+	trait = rakish
 
 	1140.2.6 = {
 		birth=yes
@@ -1251,13 +1263,15 @@
 	culture="faerghus"
 	dynasty=203
 	disallow_random_traits = yes
-	trait="mastermind_theologian"
-	trait="cruel"
-	trait="lunatic"
-	trait="genius"
-	trait="scholar"
-	trait="proud"
-	trait="brave"
+
+	trait = callous
+	trait = arrogant
+	trait = brave
+
+	trait = education_learning_4
+	trait = lunatic_1
+	trait = intellect_good_3
+	trait = scholar
 
 	1112.3.4 = {
 		birth=yes
@@ -1275,8 +1289,9 @@
 	dynasty=203
 	female=yes
 	disallow_random_traits = yes
-	trait="timid"
-	trait="sickly"
+
+	trait = pensive
+	trait = sickly
 
 	1158.7.11 = {
 		birth=yes
@@ -1295,18 +1310,17 @@
 	martial=0
 	health=2
 	disallow_random_traits = yes
-	trait="fortune_builder"
-	trait="genius"
-	trait="weak"
-	trait="kind"
-	trait="stressed"
-	trait="ugly"
-	trait="temperate"
-	trait="patient"
-	trait="chaste"
-	trait="reason_magic_initiate"
-	trait="faith_magic_initiate"
 
+	trait = compassionate
+	trait = temperate
+	trait = chaste
+
+	trait = education_stewardship_3
+	trait = intellect_good_3
+	trait = physique_bad_2
+	trait = beauty_bad_2
+	trait = inappetetic
+	
 
 	1151.8.10 = {
 		birth=yes
@@ -1326,8 +1340,9 @@
 	mother=300045
 	father=300007
 	disallow_random_traits = yes
-	trait="rowdy"
-	trait="curious"
+
+	trait = rowdy
+	trait = curious
 	
 
 	1169.8.14 = {
@@ -1346,9 +1361,8 @@
 	mother=300045
 	father=300007
 	disallow_random_traits = yes
-	trait="brooding"
-	trait="indolent"
-	trait="willful"
+
+	trait= bossy
 	
 
 	1173.2.20 = {
@@ -1366,7 +1380,7 @@
 	dynasty=207
 	mother=300045
 	father=300007
-	disallow_random_traits = yes
+
 
 	1176.2.20 = {
 		birth=yes
@@ -1383,10 +1397,13 @@
 	female=yes
 	mother = 300016
 	dynasty=215
-	trait="amateurish_plotter"
-	trait="wroth"
-	trait="chaste"
-	trait="deceitful"
+	
+ 
+	trait = wrathful
+	trait = chaste
+	trait = deceitful
+
+	trait = education_intrigue_1
 
 
 	
@@ -1408,13 +1425,16 @@
 	female=yes
 	mother = 300052
 	father = 300013
-	dynasty=213
-	trait="thrifty_clerk"
-	trait="humble"
-	trait="administrator"
-	trait="charitable"
-	trait="trusting"
+	dynasty = 213
 
+
+
+	trait = humble
+	trait = generous
+	trait = trusting
+ 
+	trait = education_stewardship_2
+	trait = administrator
 
 	
 	disallow_random_traits = yes
@@ -1432,20 +1452,20 @@
 }
 
 300054 = {
-	name="Charlotte"
-	religion="seirosite"
-	culture="faerghus"
-	female=yes
+	name = "Charlotte"
+	religion = "seirosite"
+	culture = "faerghus"
+	female = yes
 	mother = 300052
 	father = 300013
-	dynasty=213
-	trait="charismatic_negotiator"
-	trait="fair"
-	trait="groomed"
-	trait="proud"
-
-
+	dynasty = 213
 	
+	trait = arrogant
+	trait = stubborn
+	trait = lustful
+
+	trait = education_diplomacy_3
+	trait = beauty_good_2
 	disallow_random_traits = yes
 
 
@@ -1466,14 +1486,16 @@
 	culture="faerghus"
 	mother = 300052
 	father = 300013
-	dynasty=213
-	trait="indulgent_wastrel"
-	trait="drunkard"
-	trait="quick"
-	trait="slothful"
-	trait="gluttonous"
-	trait="kind"
+	dynasty = 213
 
+
+	trait = lazy
+	trait = gluttonous
+	trait = compassionate
+
+	trait = education_stewardship_1
+	trait = drunkard
+	trait = intellect_good_1
 
 	
 	disallow_random_traits = yes
@@ -1495,15 +1517,13 @@
 	mother = 200036
 	father = 300019
 	disallow_random_traits = yes
-	trait="thrifty_clerk"
-	trait="proud"
-	trait="zealous"
-	trait="lustful"
-	trait="charitable"
-	trait="groomed"
-	trait="temperate"
-	
 
+	trait = zealous
+	trait = lustful
+	trait = temperate
+	
+	trait = education_stewardship_2
+	trait = beauty_good_1
 
 	1163.11.17 = {
 		birth=yes
@@ -1522,10 +1542,9 @@
 	mother = 200036
 	father = 300019
 	disallow_random_traits = yes
-	trait="patient"
-	trait="diligent"
-	trait="playful"
-	trait="conscientious"
+
+	trait = charming
+	trait = pensive
 
 
 	1165.12.25 = {
@@ -1543,11 +1562,12 @@
 	dynasty=210
 	female=yes
 	disallow_random_traits = yes
-	trait="flamboyant_schemer"
-	trait="groomed"
-	trait="envious"
-	trait="cynical"
-	trait="just"
+
+	trait = callous
+	trait = cynical
+	trait = just
+
+	trait = education_intrigue_2
 
 
 	1128.04.16 = {
@@ -1565,13 +1585,13 @@
 	dynasty=210
 	mother=300058
 	disallow_random_traits = yes
-	trait="charismatic_negotiator"
-	trait="brave"
-	trait="feeble"
-	trait="groomed"
-	trait="socializer"
-	trait="honest"
 
+	trait = brave
+	trait = gregarious
+	trait = honest
+
+	trait = education_diplomacy_3
+	trait = physique_bad_1
 
 	1151.7.12 = {
 		birth=yes
@@ -1591,13 +1611,15 @@
 	dynasty=210
 	mother=300058
 	disallow_random_traits = yes
-	trait="detached_priest"
-	trait="arbitrary"
-	trait="shy"
-	trait="stressed"
-	trait="just"
-	trait="wroth"
-	trait="zealous"
+
+
+	trait = arbitrary
+	trait = shy
+	trait = wrathful
+
+
+	trait = education_learning_1
+	trait = flagellant
 
 
 	1154.7.12 = {
@@ -1614,7 +1636,7 @@
 	culture="faerghus"
 	dynasty=217
 	father=300018
-	trait="legit_bastard"
+	trait = legit_bastard
 
 
 	1159.2.1 = {
@@ -1632,7 +1654,7 @@
 	dynasty=217
 	father=300018
 	female=yes
-	trait="bastard"
+	trait = bastard
 
 
 	1159.4.16 = {
@@ -1649,7 +1671,7 @@
 	culture="faerghus"
 	dynasty=217
 	father=300018
-	trait="bastard"
+	trait= bastard
 
 
 	1164.9.7 = {
@@ -1667,7 +1689,7 @@
 	dynasty=217
 	father=300018
 	female=yes
-	trait="bastard"
+	trait= bastard
 
 
 
@@ -1685,7 +1707,7 @@
 	culture="faerghus"
 	dynasty=217
 	father=300018
-	trait="bastard"
+	trait= bastard
 
 
 	1175.11.11 = {
@@ -1703,14 +1725,13 @@
 	dynasty=215
 	mother=300016
 	disallow_random_traits = yes
-	trait="thrifty_clerk"
-	trait="envious"
-	trait="groomed"
-	trait="zealous"
-	trait="proud"
-	trait="arbitrary"
 
-	
+	trait = zealous
+	trait = arrogant
+	trait = arbitrary
+	 
+	trait = education_stewardship_2
+	trait = beauty_good_1
 
 	1127.2.9 = {
 		birth=yes
@@ -1731,9 +1752,8 @@
 	father=300066
 	mother=200035
 	disallow_random_traits = yes
-	trait="fussy"
-	trait="indolent"
-	trait="proud"
+	trait = bossy
+	trait = pensive
 
 	
 	1165.12.1 = {
@@ -1867,11 +1887,14 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=209
-	trait="shrewd"
-	trait="proud"
-	trait="skilled_tactician"
-	trait="just"
-	trait="duelist"
+
+	trait = fickle
+	trait = arrogant
+	trait = just
+
+	trait = education_martial_3
+	trait = gallant
+	trait = shrewd
 	father= 300009
 	mother= 300077
 
@@ -1909,9 +1932,14 @@
 	culture="duscur"
 	dynasty=206
 
-	trait="martial_cleric"
-	trait="humble"
-	trait="robust"
+
+	trait = humble
+	trait = zealous
+	trait = trusting
+
+
+	trait = education_learning_2
+	trait = physique_good_1
 
 	1135.6.1 = {
 		birth=yes
@@ -1932,9 +1960,12 @@
 	culture="duscur"
 	female = yes
 
-	trait="charismatic_negotiator"
-	trait="gardener"
-	trait="poet"
+	trait = compassionate
+	trait = arrogant
+	trait = gregarious
+
+	trait = education_diplomacy_3
+
 
 	1143.11.25 = {
 		birth=yes
@@ -1956,9 +1987,12 @@
 	dynasty = 235
 	female = yes
 
-	trait="scholarly_theologian"
-	trait="proud"
-	trait="content"
+	trait = arrogant
+	trait = arbitrary
+	trait = content
+
+	trait = education_learning_3
+
 
 	1139.4.3 = {
 		birth=yes
@@ -1980,9 +2014,15 @@
 	dynasty = 204
 	father = 300082
 
-	trait="tough_soldier"
-	trait="hunter"
-	trait="honest"
+
+	
+	trait = honest
+	trait = compassionate
+	trait = diligent
+	
+	trait = education_martial_2
+	trait = hunter_1
+
 
 	1138.8.28 = {
 		birth=yes
@@ -2015,11 +2055,12 @@
 	dynasty = 236
 	female = yes
 
-	trait="naive_appeaser"
-	trait="lustful"
-	trait="groomed"
-	trait="administrator"
-	trait="temperate"
+	trait = lustful
+	trait = arrogant
+	trait = temperate
+
+	trait = education_diplomacy_1
+	trait = administrator
 
 	1127.12.1 = {
 		birth=yes
@@ -2039,11 +2080,12 @@
 	religion="seirosite"
 	culture="faerghus"
 
-	trait="fortune_builder"
-	trait="ambitious"
-	trait="greedy"
-	trait="cruel"
-	trait="temperate"
+
+	trait = ambitious
+	trait = greedy
+	trait = callous
+
+	trait = education_stewardship_2
 
 	1145.5.8 = {
 		birth=yes
@@ -2064,7 +2106,6 @@
 	culture="adrestian"
 	father = 400036
 
-	trait="envious"
 
 	1146.2.8 = {
 		birth=yes
@@ -2084,7 +2125,6 @@
 	culture="adrestian"
 	father = 400036
 
-	trait="envious"
 
 	1144.2.8 = {
 		birth=yes
@@ -2104,8 +2144,7 @@
 	culture="adrestian"
 	father = 400036
 
-	trait="envious"
-	trait="bastard"
+	trait = bastard
 
 	1142.2.8 = {
 		birth=yes
@@ -2123,10 +2162,12 @@
 	dynasty = 237
 	female = yes
 
-	trait="fortune_builder"
-	trait="patient"
-	trait="gardener"
-	trait="reason_magic_initiate"
+
+	trait = patient
+	trait = compassionate
+	trait = just
+
+	trait = education_stewardship_2
 
 	1144.9.2 = {
 		birth=yes
@@ -2148,10 +2189,11 @@
 	dynasty = 221
 	father = 300091
 
-	trait="intricate_webweaver"
-	trait="stubborn"
-	trait="ambitious"
-	trait="craven"
+	trait = stubborn
+	trait = ambitious'
+	trait = craven
+
+	trait = education_intrigue_3
 
 	1132.8.20 = {
 		birth=yes
@@ -2173,10 +2215,14 @@
 	dynasty = 238
 	female = yes
 
-	trait="underhanded_rogue"
-	trait="socializer"
-	trait="falconer"
-	trait="brave"
+
+	trait = brave
+	trait = patient
+	trait = deceitful
+
+
+	trait = education_intrigue_2
+	trait = hunter_3
 
 	1141.8.15 = {
 		birth=yes
@@ -2213,10 +2259,11 @@
 	dynasty = 239
 	female = yes
 
-	trait="underhanded_rogue"
-	trait="socializer"
-	trait="falconer"
-	trait="brave"
+	trait = gregarious
+	trait = brave
+
+	trait = education_intrigue_1
+	trait = hunter_1
 
 	1138.8.7 = {
 		birth=yes
@@ -2238,13 +2285,12 @@
 	dynasty = 240
 	female = yes
 
-	trait="charismatic_negotiator"
-	trait="fair"
-	trait="kind"
-	trait="content"
-	trait="just"
-	trait="trusting"
+	trait = content
+	trait = just
+	trait = trusting
 
+	trait = education_diplomacy_3
+	
 	1118.2.7 = {
 		birth=yes
 	}
@@ -2282,7 +2328,7 @@
 	father = 300002
 	mother = 300097
 
-	trait="charismatic_negotiator"
+	trait = education_diplomacy_2
 
 	1154.10.14 = {
 		birth=yes
@@ -2301,7 +2347,7 @@
 	father = 300002
 	mother = 300097
 
-	trait="fortune_builder"
+	trait= education_stewardship_2
 
 	1160.10.17 = {
 		birth=yes
@@ -2318,9 +2364,11 @@
 	female = yes
 	dynasty = 225
 
-	trait="detached_priest"	
-	trait="zealous"
-	trait="erudite"
+	trait = shy
+	trait = zealous
+	trait = scholar
+
+	trait = education_learning_1
 
 	1134.8.1 = {
 		birth=yes
@@ -2364,11 +2412,9 @@
 	father = 300078
 	mother = 300079
 
-	trait="kind"
-	trait="playful"
-	trait="affectionate"
-	trait="curious"
-	trait="timid"
+	trait = charming
+	trait = curious
+
 
 	1169.12.20 = {
 		birth=yes

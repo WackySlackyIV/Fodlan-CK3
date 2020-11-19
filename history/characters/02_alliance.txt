@@ -366,7 +366,7 @@
 	religion="seirosite"
 	culture="leicester"
 	mother=200013
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=7
    	martial=6
@@ -450,7 +450,7 @@
 	culture="leicester"
 	father=200006
 	mother = 200063
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=6
    	martial=8
@@ -488,7 +488,7 @@
 	dynasty=111
 	father=200017
 	mother=200018
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=2
    	martial=9
@@ -585,7 +585,7 @@
 	culture="leicester"
 	father = 200027
 	mother = 200064
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
 	dynasty=112
    	diplomacy=6
@@ -628,7 +628,7 @@
 	father=200005
 	mother=200065
 	dynasty=101
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=5
    	martial=4
@@ -667,7 +667,7 @@
 	female=yes
 	father=200007
 	dynasty=103
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=2
    	martial=2
@@ -702,7 +702,7 @@
 	female=yes
 	father=200024
 	dynasty=105
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=8
    	martial=6
@@ -765,7 +765,7 @@
 	culture="leicester"
 	female=yes
 	dynasty=113
-	set_sexuality = heterosexual
+	sexuality = heterosexual
 
    	diplomacy=5
    	martial=7
