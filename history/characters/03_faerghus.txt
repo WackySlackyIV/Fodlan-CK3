@@ -34,13 +34,9 @@
 		birth=yes
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_boar_prince
 		effect = {
 			set_relation_rival = character:400000
 		}
-	}
-	1185.1.1 = {
-		#give_nickname = nick_the_tempest_king
 	}
 	1200.1.1={
 		death=yes
@@ -159,10 +155,6 @@
 	1157.1.1 = {
 		add_spouse = 300080
 	}
-
-	1181.1.1 = {
-		#give_nickname = nick_the_shield_of_faerghus
-	}
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -231,7 +223,7 @@
 	disallow_random_traits = yes
 
 	1137.5.4 = {
-		birth="1137.5.4 "
+		birth=yes
 	}
 	1168.6.17 = {
 		add_spouse = 300045
@@ -301,13 +293,6 @@
 
 	1148.2.17 = {
 		birth=yes
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_thoron
-		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -440,24 +425,6 @@
         	add_spouse=400064
 	}
 
-	1161.2.9= {
-		effect={ 
-			add_lover = 400064
-		}
-	}
-
-	1169.6.21 = {
-		effect={ 
-			add_rival = 300000
-		}
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_nosferatu
-		}
-	}
-
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -486,11 +453,6 @@
 
 	1101.5.12 = {
 		birth="1101.5.12"
-	}
-	1169.4.20 = {
-		effect={ 
-			add_rival = 300013
-		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -560,14 +522,6 @@
 
 	1162.3.23 = {
 		add_spouse = 200036
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_seraphim
-			set_character_flag = spell_faith_aura
-		}
 	}
 
 	1200.1.1={
@@ -736,12 +690,6 @@
 	1163.1.4 = {
 		birth="1163.1.4"
 	}
-	1181.1.1 = {
-		effect = {
-			add_artifact = relic_luin
-			spawn_date = -1.1.1
-		}
-	}
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -776,12 +724,6 @@
 
 	1163.2.20 = {
 		birth="1163.2.20"
-	}
-	1181.1.1 = {
-		effect = {
-			add_artifact = relic_aegis_shield
-			spawn_date = -1.1.1
-		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -846,12 +788,6 @@
 
 	1160.6.5 = {
 		birth="1160.6.5"
-	}
-	1181.1.1 = {
-		effect = {
-			add_artifact = relic_ruin_lance
-			spawn_date = -1.1.1
-		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -980,27 +916,11 @@
 	}
 
 	1166.5.9 = {
-		effect={ 
-			add_set_relation_friend=100014
-		}
+		set_relation_friend = character:100014
 	}
 
 	1177.5.9 = {
-		effect={ 
-			add_set_relation_friend=300033
-		}
-	}
-	1181.1.1 = {
-		employer = 300000
-		effect = {
-			set_character_flag = spell_reason_fire
-			set_character_flag = spell_reason_thunder
-			set_character_flag = spell_reason_bolganone
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-			set_character_flag = spell_faith_physic
-			set_character_flag = spell_faith_restore
-		}
+		set_relation_friend = character:300033
 	}
 
 	1200.1.1={
@@ -1042,19 +962,7 @@
 	}
 	
 	1177.5.9 = {
-		effect={ 
-			add_set_relation_friend=300032
-		}
-	}
-
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_reason_cuttinggale
-			set_character_flag = spell_reason_sagittae
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_nosferatu
-		}
+		set_relation_friend = character:300032
 	}
 
 	1200.1.1={
@@ -1068,10 +976,10 @@
 	culture="faerghus"
 	dynasty=222
    	diplomacy=1
-   	martial=9
-	stewardship=4
-   	intrigue=2
-	learning=2
+   	martial = 9
+	stewardship = 4
+   	intrigue = 2
+	learning = 2
 
 	trait = brave
 	trait = trusting
@@ -1087,15 +995,10 @@
 	}
 
 	1163.1.1 = {
-		add_spouse = 300094
 		employer = 300012
 	}
-
-	1181.1.1 = {
-		give_nickname = nick_the_gray_lion
-	}
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1126,13 +1029,9 @@
 	}
 	1181.1.1 = {
 		employer = 300000
-		effect = {
-			set_character_flag = spell_dark_death
-			set_character_flag = spell_dark_luna
-		}
 	}
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1140,6 +1039,7 @@
 	name="Ellen" #gwendal daughter
 	religion="seirosite"
 	culture="faerghus"
+	female = yes
 	dynasty=222
 	father = 300034
 	mother = 300094
@@ -1204,7 +1104,7 @@
 		birth=yes
 	}
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1220,7 +1120,7 @@
 		birth=yes
 	}
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1291,10 +1191,7 @@
 		add_spouse = 300044
 	}
 	1180.12.14={
-		death={
-			death_reason=death_battle
-			killer=100002
-			}
+		death=yes
 	}
 }
 
@@ -1414,21 +1311,6 @@
 	1151.8.10 = {
 		birth=yes
 	}
-
-	1158.5.9 = {
-		effect={ 
-			add_set_relation_friend=300003
-		}
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_ward
-			set_character_flag = spell_faith_silence
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_reason_freeze
-		}
-	}
 	
 	1200.1.1={
 		death=yes	
@@ -1514,12 +1396,6 @@
 	1129.08.17 = {
 		birth=yes
 	}
-	1150.2.16 = {
-		add_spouse = 300013
-	}
-	1169.4.20={
-          remove_spouse = 300013
-    }
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -1727,9 +1603,6 @@
 	1154.7.12 = {
 		birth=yes
 	}
-	1177.4.11 = {
-		add_matrilineal_spouse=300054
-	}
 	1200.1.1={
 		death="1200.1.1"
 	}	
@@ -1866,11 +1739,6 @@
 	1165.12.1 = {
 		birth=yes
 	}
-	1176.2.24 = {
-		effect={
-			add_betrothal = 300057
-		}	
-	}
 	1200.1.1={
 		death=yes
 	}
@@ -1959,7 +1827,6 @@
 	
 	1153.2.28 = {
 		birth=yes
-	
 	}
 	1200.1.1={
 		death=yes
@@ -1974,7 +1841,6 @@
 	
 	1156.9.1 = {
 		birth=yes
-	
 	}
 	1200.1.1={
 		death=yes
@@ -2011,7 +1877,6 @@
 
 	1162.2.8 = {
 		birth=yes
-		#give_nickname = nick_the_fox
 	}
 
 	1200.1.1={
@@ -2247,10 +2112,7 @@
 	}
 
 	1168.11.30={
-		death = {
-			death_reason = death_murder 
-			killer = 400022
-		}
+		death = yes
 	}
 }
 
@@ -2272,13 +2134,6 @@
 
 	1162.1.1 = {
 		add_spouse = 100005
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_wind
-			set_character_flag = spell_faith_cuttinggale
-		}
 	}
 
 	1200.1.1 ={
