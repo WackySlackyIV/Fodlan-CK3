@@ -36,7 +36,7 @@
 	1181.1.1 = {
 		#give_nickname = nick_the_boar_prince
 		effect = {
-			set_relation_rival = 400000
+			set_relation_rival = character:400000
 		}
 	}
 	1185.1.1 = {

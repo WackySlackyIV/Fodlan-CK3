@@ -15,8 +15,6 @@
    	intrigue=8
 	learning=2
 	health = 6.5
-	trait=edelgard
-	trait=skilled_tactician
 
 	trait = ambitious
 	trait = cynical
@@ -100,7 +98,7 @@
 	father = 400030
 	dynasty = 307
 
-	trait = brilliant_strategist
+	trait = education_martial_prowess_4
 	trait = strategist
 	trait = patient
 	trait = gluttonous
@@ -572,7 +570,7 @@
 
 	trait = education_martial_2
 	trait = gallant
-	trait = possessed
+	trait = possessed_1
 	trait = berserker
 	trait = physique_good_2
 	trait = strong
@@ -1042,8 +1040,7 @@
 
 400045 = {
 	name="Lothar"
-	religion="ablehnist"
-	secret_religion = "seirosite"
+	religion = "seirosite"
 	culture="adrestian"
 	dynasty = 329
 
@@ -1052,12 +1049,7 @@
 	}
 	1158.12.12 = {
 		effect = {
-			set_relation_rival = 400047
-		}
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_wind
+			set_relation_rival = character:400047
 		}
 	}
 	1200.1.1={
@@ -1104,8 +1096,7 @@
 
 400048 = {
 	name="Aurelius"
-	religion="ablehnist"
-	secret_religion="seirosite"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 332
 	disallow_random_traits=yes
@@ -1368,8 +1359,7 @@
 
 400064 = {
 	name="Elisabeth"
-	religion="seirosite"
-	secret_religion = "ablehnist"
+	religion = "ablehnist"
 	culture="adrestian"
 	female=yes
 	father=400063
@@ -1414,11 +1404,6 @@
 
 	1158.6.16 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_heal
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1477,8 +1462,7 @@
 
 400070 = {
 	name="Wolfram"
-	religion="ablehnist"
-	secret_religion = "seirosite"
+	religion = "seirosite"
 	culture="adrestian"
 	dynasty = 329
 	father=400045
@@ -1573,7 +1557,7 @@
 		birth=yes
 	}
 	1157.3.22={
-		death={death_reason = death_murder_unknown}
+		death={death_reason = death_accident}
 	}
 }
 
@@ -1705,16 +1689,11 @@
 	}
 	1176.04.12 = {
 		effect = {
-			set_relation_rival = 400039
+			set_relation_rival = character:400039
 		}
 	}
 	1178.09.13 = {
 		add_spouse = 400067
-	}
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_fire
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1785,7 +1764,7 @@
 	}
 	1177.07.29 = {
 		effect={ 
-			set_relation_friend=400070
+			set_relation_friend = character:400070
 		}
 	}
 	1180.3.25 = {
@@ -1800,8 +1779,7 @@
 
 400088 = {
 	name="Yngvarr"
-	religion="ablehnist"
-	secret_religion="seirosite"
+	religion="seirosite"
 	culture="adrestian"
 	father=400048
 	dynasty = 332
@@ -1809,12 +1787,6 @@
 
 	1158.08.13 = {
 		birth=yes
-	}
-	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_reason_purge
-		}
 	}
 	
 	1200.1.1={
@@ -1841,8 +1813,6 @@
 	religion="seirosite"
 	culture="adrestian"
 	dynasty = 334
-
-
 
 	1134.06.06 = {
 		birth=yes
@@ -2203,8 +2173,7 @@
 	culture="adrestian"
 	dynasty = 306
 	female=yes
-	father=400005
-	real_father=400116
+	father=400116
 	mother=400117
 
 	1174.1.1 = {
@@ -2220,8 +2189,7 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 306
-	father=400005
-	real_father=400115
+	father=400115
 	mother=400117
 
 	1180.1.1 = {
@@ -2933,13 +2901,6 @@
 		add_spouse = 400038
 	}
 	
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_heal
-			set_character_flag = spell_faith_invoke
-			set_character_flag = spell_faith_conjure
-		}
-	}
 
 	1200.1.1={
 		death=yes
@@ -3001,11 +2962,11 @@
 		add_spouse = 400007
 	}
 
-	1181.1.1 = {
-		effect = {
-			give_minor_title = title_regent
-		}
-	}
+	#1181.1.1 = {
+	#	effect = {
+	#		give_minor_title = title_regent
+	#	}
+	#}
 
 	1200.1.1={
 		death=yes
@@ -3340,7 +3301,7 @@
 	1179.12.12 = {
 		employer = 400046
 		effect = {
-			set_relation_friend = 400046
+			set_relation_friend = character:400046
 		}
 	}
 
