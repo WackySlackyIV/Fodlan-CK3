@@ -1752,7 +1752,7 @@
 	dynasty=131
 	female = yes
 
-	1130.5.10 = {
+	1134.9.1 = {
 		birth=yes
 	}
 
@@ -1768,7 +1768,7 @@
 	dynasty=132
 	female = yes
 
-	1130.5.10 = {
+	1146.1.1 = {
 		birth=yes
 	}
 
@@ -1783,7 +1783,7 @@
 	culture="leicester"
 	dynasty=133
 
-	1130.5.10 = {
+	1149.5.10 = {
 		birth=yes
 	}
 
