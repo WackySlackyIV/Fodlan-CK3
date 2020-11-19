@@ -201,6 +201,47 @@
 	culture = "leicester"
 }
 
+127=
+{
+	name="Matfrid"
+	culture = "leicester"
+}
+
+128=
+{
+	name="Folmar"
+	culture = "leicester"
+}
+
+129=
+{
+	name="Uda"
+	culture = "leicester"
+}
+
+130=
+{
+	name="Cloud"
+	culture = "leicester"
+}
+
+131=
+{
+	name="Bertram"
+	culture = "leicester"
+}
+
+132=
+{
+	name="Bertram"
+	culture = "leicester"
+}
+
+133=
+{
+	name="Bertram"
+	culture = "leicester"
+}
 
 ###Faerghus###
 200=

@@ -15,7 +15,7 @@
 	stewardship = 7
    	intrigue = 5
 	learning = 5
-	health = 4.5
+	health = 4
 
     trait = just
     trait = infirm
@@ -51,7 +51,7 @@
 	trait = kinslayer_1
 	trait = stubborn
 	trait = cynical
-	random_traits = no
+	disallow_random_traits = yes
 
 	1109.7.13 = {
 		birth="1109.7.13"
@@ -73,7 +73,7 @@
 	culture="leicester"
 
 	trait = curious
-	random_traits = no
+	disallow_random_traits = yes
 
 	1173.6.1 = {
 		birth="1173.6.1"
@@ -109,7 +109,7 @@
 	trait = physique_good_2
 	trait = gallant
 	trait = organizer
-	random_traits = no
+	disallow_random_traits = yes
 
 
 	1140.1.11 = {
@@ -136,8 +136,7 @@
 	trait= craven
 	trait= trusting
 	trait= zealous
-	trait = faith_magic_apprentice
-	random_traits = no
+	disallow_random_traits = yes
 
 	1159.10.23 = {
 		birth="1159.10.23"
@@ -155,7 +154,7 @@
 
 	trait = physique_bad_3
 	trait = humble
-	trait = kind
+	trait = compassionate
 	trait = chaste
 	trait = content
 	trait = paranoid
@@ -188,7 +187,6 @@
 	trait = deceitful
 	trait = vengeful
 	trait = patient
-	trait = reason_magic_apprentice
 
 	1139.5.28 = {
 		birth=yes
@@ -199,7 +197,7 @@
 	}
 	1177.1.1={
 		effect = {
-			add_rival = 200000
+			set_relation_rival = character:200000
 		}
 	}
 	1181.1.1={
@@ -228,7 +226,7 @@
 
 	trait = education_stewardship_3
 	trait = gregarious
-	trait = kind
+	trait = compassionate
 	trait = improvident
 
 	1137.7.18 = {
@@ -272,7 +270,7 @@
 	trait = zealous
 	trait = patient
 	trait = deceitful
-	random_traits = no
+	disallow_random_traits = yes
 
 	1139.11.20 = {
 		birth="1139.11.20"
@@ -298,7 +296,7 @@
 	trait = gregarious
 	trait = scarred
 	trait = one_legged
-	random_traits = no
+	disallow_random_traits = yes
 
 
 
@@ -348,10 +346,7 @@
 	trait = aggressive_attacker
 
 
-
-	trait = experimenter
-	trait = bon_leader
-	random_traits = no
+	disallow_random_traits = yes
 
 	1150.1.11 = {
 		birth=yes
@@ -391,7 +386,7 @@
 	trait = strategist
 
 	trait = crest_minor_riegan
-	random_traits = no
+	disallow_random_traits = yes
 
 	1162.7.24 = {
 		birth=yes
@@ -472,7 +467,7 @@
 	trait = education_stewardship_3
 
 	trait = crest_minor_gloucester
-	random_traits = no
+	disallow_random_traits = yes
 
 	1161.6.13 = {
 		birth="1161.6.13"
@@ -510,7 +505,7 @@
 	trait = physique_good_3
 	trait = strong
 	trait = athletic
-	random_traits = no
+	disallow_random_traits = yes
 
 	1162.5.18 = {
 		birth="1162.5.18"
@@ -608,7 +603,7 @@
 	trait = intellect_good_1
 	trait = physique_bad_1
 	trait = journaller
-	random_traits = no
+	disallow_random_traits = yes
 
 	1163.3.14 = {
 		birth="1163.3.14"
@@ -654,7 +649,7 @@
 	trait = crest_major_gloucester
 	trait = crest_minor_charon
 	trait = blood_experiments
-	random_traits = no
+	disallow_random_traits = yes
 
 	1165.2.28 = {
 		birth=yes
@@ -689,7 +684,7 @@
 	trait = melancholic
 
 	trait = crest_minor_maurice
-	random_traits = no
+	disallow_random_traits = yes
 
 	1162.11.23 = {
 		birth="1162.11.23"
@@ -725,7 +720,7 @@
 
 	trait = crest_minor_goneril
 
-	random_traits = no
+	disallow_random_traits = yes
 
 	1162.2.3 = {
 		birth=yes
@@ -788,7 +783,7 @@
 	trait = physique_good_1
 	trait = hunter_2
 	trait = improvident
-	random_traits = no
+	disallow_random_traits = yes
 
 	1160.8.21 = {
 		birth="1160.8.21"
@@ -864,10 +859,9 @@
 	trait = diligent
 	trait = humble
 
-	1153.3.14 =
-		{
+	1153.3.14 = {
 		birth=yes
-		}
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -914,7 +908,7 @@
 	trait = depressed_1
 	trait = patient
 	trait = shy
-	random_traits = no
+	disallow_random_traits = yes
 
 
 
@@ -942,7 +936,7 @@
 	trait = ambitious
 	trait = honest
 	trait = brave
-	random_traits = no
+	disallow_random_traits = yes
 
 	1130.11.24= {
 		birth="1130.11.24"
@@ -970,7 +964,7 @@
 	trait = honest
 	trait = greedy
 	#add_claim=d_clarence
-	random_traits = no
+	disallow_random_traits = yes
 
 	1133.8.19= {
 		birth="1133.8.19"
@@ -1000,7 +994,7 @@
 	trait = dull
 	trait = deceitful
 	trait = paranoid
-	random_traits = no
+	disallow_random_traits = yes
 
 	1135.4.11= {
 		birth="1135.4.11"
@@ -1024,7 +1018,7 @@
 	trait = theologian
 	trait = zealous
 	trait = shy
-	random_traits = no
+	disallow_random_traits = yes
 
 	1138.1.12= {
 		birth="1138.1.12"
@@ -1054,7 +1048,7 @@
 	female=yes
 	trait = just
 	trait = improvident
-	random_traits = no
+	disallow_random_traits = yes
 
 	1139.12.24= {
 		birth="1139.12.24"
@@ -1082,7 +1076,7 @@
 	trait = arrogant
 
 	trait = education_stewardship_3
-	random_traits = no
+	disallow_random_traits = yes
 
 	1141.02.8= {
 		birth="1141.02.8"
@@ -1104,7 +1098,7 @@
 	father = 200001
 	mother = 200031
 	trait = lazy
-	random_traits = no
+	disallow_random_traits = yes
 
 	1142.05.14= {
 		birth="1142.05.14"
@@ -1127,7 +1121,7 @@
 	mother = 200031
 	trait = education_intrigue_1
 	trait = lustful #Really?
-	random_traits = no
+	disallow_random_traits = yes
 
 
 
@@ -1154,7 +1148,7 @@
 	trait = just
 	trait = weak
 	trait = shy
-	random_traits = no
+	disallow_random_traits = yes
 
 
 	1132.07.18= {
@@ -1174,7 +1168,7 @@
 	father=200040
 	religion="seirosite"
 	culture="leicester"
-	random_traits = no
+	disallow_random_traits = yes
 
 
 	1169.03.25= {
@@ -1194,7 +1188,7 @@
 	religion="seirosite"
 	culture="leicester"
 	trait = rowdy
-	random_traits = no
+	disallow_random_traits = yes
 
 
 	1174.03.25= {
@@ -1214,7 +1208,7 @@
 	religion="seirosite"
 	culture="leicester"
 	trait = curious
-	random_traits = no
+	disallow_random_traits = yes
 
 
 	1177.08.14= {
@@ -1234,10 +1228,10 @@
 	trait = education_stewardship_2
 	trait = content
 	trait = trusting
-	trait = kind
+	trait = compassionate
 
 
-	random_traits = no
+	disallow_random_traits = yes
 
 	1158.08.12= {
 		birth="1158.08.12"
@@ -1262,7 +1256,7 @@
 	trait = weak
 
 
-	random_traits = no
+	disallow_random_traits = yes
 
 	1177.04.13= {
 		birth="1177.04.13"
@@ -1286,7 +1280,7 @@
 	trait = gregarious
 
 
-	random_traits = no
+	disallow_random_traits = yes
 
 	1161.6.13= {
 		birth="1161.6.13"
@@ -1434,7 +1428,7 @@
 
 	trait = education_diplomacy_2
 	trait = shy
-	trait = kind
+	trait = compassionate
 	trait = just
 
 
@@ -1487,7 +1481,7 @@
 	mother = 200055
 
 	trait = education_martial_3
-	trait = quick
+	trait = intelligence_good_3
 	trait = humble
 	trait = brave
 	trait = patient
@@ -1681,5 +1675,119 @@
 
 	1200.1.1={
 		death="1200.1.1"
+	}
+}
+
+
+###########################################
+### The shit I made for you steel 19/11 ###
+###########################################
+
+200067 = {
+	name="Bert" #River Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=127
+
+	1143.1.24 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200068 = {
+	name="Emma" #River Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=128
+	female = yes
+
+	1150.2.5 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200069 = {
+	name="Henri" #Mountain Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=129
+
+	1145.5.24 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200070 = {
+	name="Alice" #Tamsworth Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=130
+	female = yes
+
+	1139.12.19 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200071 = {
+	name="Morgana" #Grimsbey Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=131
+	female = yes
+
+	1130.5.10 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200072 = {
+	name="Vanessa" #Wayford Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=132
+	female = yes
+
+	1130.5.10 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+200073 = {
+	name="Peter" #Beverly Count
+	religion="seirosite"
+	culture="leicester"
+	dynasty=133
+
+	1130.5.10 = {
+		birth=yes
+	}
+
+	1200.1.1={
+		death=yes
 	}
 }
