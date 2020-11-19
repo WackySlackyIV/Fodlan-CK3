@@ -208,7 +208,9 @@
 		add_spouse = 800006
 	}
 	1180.3.29 = {
-		add_spouse = 800007
+		effect = {
+			create_betrothal = character:800007
+		}
 	}
 	1181.3.10={
 		set_relation_rival = character:800000
@@ -247,8 +249,6 @@
 		add_spouse = 800005
 	}
 	1181.3.10={
-	}
-	1200.1.1={
 		death=yes
 	}
 
@@ -280,7 +280,9 @@
 		birth=yes
 	}
 	1180.3.29 = {
-		add_spouse = 800005
+		effect = {
+			create_betrothal = character:800005
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -337,7 +339,7 @@
 	1121.3.13 = {
 		add_spouse = 800008
 	}
-	1277.8.10={
+	1177.8.10={
 		death=yes
 	}
 

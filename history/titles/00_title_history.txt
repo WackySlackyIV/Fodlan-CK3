@@ -365,21 +365,21 @@ c_myrddin = {
 c_yarmouth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200026
+                            holder = 200047
               }
 }
 
 c_bordersley = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200002
+                            holder = 200026
               }
 }
 
 c_rhuddlan = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200002
+                            holder = 200048
               }
 }
 
@@ -414,7 +414,7 @@ c_beverly = {
 c_gomery = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200003
+                            holder = 200044
               }
 }
 
@@ -465,14 +465,14 @@ c_ordelia = {
 c_brandwell = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200005
+                            holder = 200049
               }
 }
 
 c_osyth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200005
+                            holder = 200049
               }
 }
 
@@ -507,7 +507,7 @@ c_wayford = {
 c_cleeve = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200006
+                            holder = 200046
               }
 }
 
@@ -549,7 +549,7 @@ c_edmund = {
 c_ely = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200007
+                            holder = 200050
               }
 }
 
@@ -605,14 +605,14 @@ c_goneril = {
 c_minster = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200011
+                            holder = 200053
               }
 }
 
 c_asaph = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200011
+                            holder = 200053
               }
 }
 
@@ -654,7 +654,7 @@ c_atholl = {
 c_morcambe = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200010
+                            holder = 200052
               }
 }
 
@@ -2626,7 +2626,7 @@ d_arcila = {
 c_escania = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 800000
+                            holder = 800005
               }
 }
 

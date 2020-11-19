@@ -180,6 +180,9 @@
 	culture="leicester"
 	father = 200029
 
+	stewardship = 6
+	intrigue = 7
+
 	trait = education_diplomacy_2
 	trait = arrogant
 	trait = deceitful
@@ -220,6 +223,8 @@
 	dynasty=103
 	religion="seirosite"
 	culture="leicester"
+
+	stewardship = 2
 
 	trait = education_stewardship_3
 	trait = gregarious
