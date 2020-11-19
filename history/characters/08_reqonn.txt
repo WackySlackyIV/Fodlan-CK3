@@ -44,6 +44,7 @@
 }
 
 800001 = {
+	female = yes
 	name="Josefina"
 	religion="reqonn_de_opulencia"
 	culture="reqonese"
@@ -146,6 +147,7 @@
 }
 
 800004 = {
+	female = yes
 	name = "Tereza"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
@@ -219,6 +221,7 @@
 }
 
 800006 = {
+	female = yes
 	name = "Lúcia"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
@@ -252,6 +255,7 @@
 }
 
 800007 = {
+	female = yes
 	name = "Lídia"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
@@ -312,6 +316,7 @@
 }
 
 800009 = {
+	female = yes
 	name = "Patrícia"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
