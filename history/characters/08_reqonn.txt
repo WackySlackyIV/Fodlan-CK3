@@ -2,6 +2,8 @@
 	name="Octávio"
 	religion="reqonn_de_opulencia"
 	culture="reqonese"
+	father = 800008
+	mother = 800009
 	dynasty = 800
 
 	diplomacy=4
@@ -17,11 +19,21 @@
 
 	trait = education_stewardship_3
 	trait = pure_blooded
+	trait = infertile	
  	trait = shrewd
 	trait = avaricious
 
 	1121.6.22 = {
 		birth=yes
+	}
+	1149.3.14 = {
+		add_spouse=800001
+	}
+	1149.10.25 = {
+		add_spouse = 800009
+	}
+	1170.3.14 = {
+		add_spouse=800004
 	}
 	1181.3.10={
 		set_relation_rival = character:800005
@@ -35,7 +47,9 @@
 	name="Josefina"
 	religion="reqonn_de_opulencia"
 	culture="reqonese"
-	dynasty = 804
+	father = 800008
+	mother = 800009
+	dynasty = 800
 
 	diplomacy=4
 	martial=2
@@ -52,8 +66,11 @@
 	trait = pure_blooded
  	trait = beauty_good_3
 
-	1121.6.22 = {
+	1124.8.9 = {
 		birth=yes
+	}
+	1149.3.14 = {
+		add_spouse=800000
 	}
 	1181.3.10={
 		death=yes
@@ -64,6 +81,8 @@
 	name = "Matias"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	father = 800000
+	mother = 800001
 	dynasty = 800
 
 	diplomacy=3
@@ -94,6 +113,8 @@
 	name = "Renan"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	father = 800000
+	mother = 800001
 	dynasty = 800
 
 	diplomacy=2
@@ -128,7 +149,9 @@
 	name = "Tereza"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
-	dynasty = 801
+	father = 800000
+	mother = 800001
+	dynasty = 800
 
 	diplomacy=5
 	martial=2
@@ -145,7 +168,7 @@
 	trait = pure_blooded
 
 
-	1134.2.11 = {
+	1157.8.11 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -168,22 +191,148 @@
 	health=6
 
 	trait = ambitious
-	trait = callous
+	trait = sadistic
 	trait = deceitful
 
 	trait = education_intrigue_4
 	trait = intellect_good_2
-	trait = lunatic_1
+	trait = lunatic_genetic
 	trait = torturer
 
-	1134.2.11 = {
+	1148.2.11 = {
 		birth=yes
+	}
+	1170.8.19 = {
+		add_spouse = 800006
+	}
+	1180.3.29 = {
+		add_spouse = 800007
 	}
 	1181.3.10={
 		set_relation_rival = character:800000
 		set_relation_rival = character:800003
 	}
 	1200.1.1={
+		death=yes
+	}
+
+}
+
+800006 = {
+	name = "Lúcia"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 802
+
+	diplomacy=0
+	martial=0
+	stewardship=0
+	intrigue=0
+	learning=0
+	health=5
+
+	trait = arrogant
+	trait = sadistic
+	trait = arbitrary
+
+	trait = beauty_good_3
+
+	1150.9.12 = {
+		birth=yes
+	}
+	1170.8.19 = {
+		add_spouse = 800005
+	}
+	1181.3.10={
+	}
+	1200.1.1={
+		death=yes
+	}
+
+}
+
+800007 = {
+	name = "Lídia"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 802
+	father = 800005
+	mother = 800006
+
+	diplomacy=4
+	martial=3
+	stewardship=3
+	intrigue=7
+	learning=2
+	health=6
+
+	trait = honest
+	trait = compassionate
+	trait = trusting
+
+	trait = beauty_good_3
+
+	1171.4.3 = {
+		birth=yes
+	}
+	1180.3.29 = {
+		add_spouse = 800005
+	}
+	1200.1.1={
+		death=yes
+	}
+
+}
+
+800008 = {
+	name = "Ernesto"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 800
+
+	diplomacy=0
+	martial=0
+	stewardship=0
+	intrigue=0
+	learning=0
+	health=5
+
+	trait = pure_blooded
+
+	1100.9.16 = {
+		birth=yes
+	}
+	1121.3.13 = {
+		add_spouse = 800009
+	}
+	1148.9.2={
+		death=yes
+	}
+
+}
+
+800009 = {
+	name = "Patrícia"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+	dynasty = 800
+
+	diplomacy=0
+	martial=0
+	stewardship=0
+	intrigue=0
+	learning=0
+	health=5
+
+	trait = pure_blooded
+
+	1102.1.7 = {
+		birth=yes
+	}
+	1121.3.13 = {
+		add_spouse = 800008
+	}
+	1277.8.10={
 		death=yes
 	}
 

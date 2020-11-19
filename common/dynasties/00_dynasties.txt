@@ -850,7 +850,7 @@
 
 802 = 
 {
-	name="Sálarino"
+	name="Sálado"
 	culture="reqonese"
 
 }
