@@ -298,8 +298,8 @@
  b_ulverston:0 "Ulverston"
  b_dulverton:0 "Dulverton"
   
- c_tamsworth:0 "Tamworth"
- b_tamsworth:0 "Tamworth"
+ c_tamsworth:0 "Tamsworth"
+ b_tamsworth:0 "Tamsworth"
  b_leece:0 "Leece"
  b_caliban:0 "Caliban"
 
@@ -382,7 +382,7 @@
  b_caenelles:0 "Caenelles"
  b_beclac:0 "Beclac"
 
- c_beaulie:0 "Beaulieu"
+ c_beaulieu:0 "Beaulieu"
  b_hever:0 "Hever"
  b_cosen:0 "Cosen"
 
@@ -430,8 +430,8 @@
  b_villau:0 "Villau"
  b_cherble:0 "Cherble"
 
- c_douvre:0 "Douvre"
- b_douvre:0 "Douvre"
+ c_douvres:0 "Douvres"
+ b_douvres:0 "Douvres"
  b_hyere:0 "Hyere"
  b_vesy:0 "Vesy"
 
