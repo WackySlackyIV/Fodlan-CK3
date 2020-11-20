@@ -909,3 +909,13 @@
 	culture="reqonese"
 
 }
+
+#############
+### Sreng ###
+#############
+
+1000 =
+{
+	name="Macuil"
+	culture="high_fodlan"
+}

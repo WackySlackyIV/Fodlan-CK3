@@ -50,6 +50,8 @@ child_goddess = {
 	}
 }
 
+
+
 dragon_blood = {
 	index = 302
 	
@@ -186,6 +188,32 @@ taguel = {
 				desc = trait_wolfskin_desc
 			}
 			desc = trait_wolfskin_desc
+		}
+	}
+}
+
+permanent_dragon_form = {
+	index = 307
+	
+	diplomacy = -10
+	martial = 8
+	stewardship = -8
+	intrigue = -6
+	learning = -4
+	prowess = 10
+	fertility = -0.33
+	monthly_lifestyle_xp_gain_mult = -0.80
+	random_creation = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_permanent_dragon_form_desc
+			}
+			desc = trait_permanent_dragon_form_desc
 		}
 	}
 }

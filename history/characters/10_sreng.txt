@@ -1,0 +1,33 @@
+1000000 = {
+	name="Macuil"
+	religion="macuilite"
+	culture="high_fodlan"
+
+	diplomacy = 3
+   	martial = 12
+	stewardship = 4
+   	intrigue = 4
+	learning = 9
+	prowess = 7
+	health = 6.5
+	sexuality = bisexual
+
+	trait = vengeful
+	trait = arrogant
+	trait = stubborn
+
+	trait = education_martial_4
+	trait = strategist
+
+	trait = child_goddess
+	trait = crest_major_macuil
+
+
+	10.2.2 = {
+		birth=yes
+		give_nickname = nick_the_vindkaller
+	}
+	1200.1.1={
+		death=yes
+	}
+}
