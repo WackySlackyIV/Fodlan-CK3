@@ -13,7 +13,7 @@
 
 world_fodlan_garreg_mach = {
 	duchies = {
-		d_garreg_mach
+		d_garreg_mach d_zanado
 	}
 }
 
@@ -31,7 +31,7 @@ world_fodlan_faerghus = {
 
 world_fodlan_adrestia = {
 	duchies = {
-		d_hrym d_niendorf d_gronder d_airmid d_rugen d_aegir d_varley d_bergliez d_stieglitz d_gerth d_rysalka d_boramas d_morgaine d_enbarr d_hresvelg d_essar d_engel d_olrun d_hevring d_reiss d_ochs d_bartels d_nuvelle d_nifl d_brionac d_sleipner d_arundel d_huldra d_schwan d_oghma
+		d_hrym d_niendorf d_gronder d_airmid d_rugen d_aegir d_varley d_bergliez d_stieglitz d_gerth d_rysalka d_boramas d_morgaine d_enbarr d_hresvelg d_essar d_engel d_olrun d_hevring d_reiss d_holgr d_bartels d_nuvelle d_nifl d_brionac d_sleipner d_arundel d_huldra d_schwan d_oghma
 	}
 }
 
