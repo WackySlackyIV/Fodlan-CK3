@@ -114,7 +114,7 @@ c_galilee = {
 c_nazer = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300014
+                            holder = 300117
               }
 }
 
@@ -122,7 +122,7 @@ c_nazer = {
 c_gladia = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300014
+                            holder = 300116
               }
 }
 
@@ -143,7 +143,7 @@ c_imperia = {
 c_senatore = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300017
+                            holder = 300123
               }
 }
 
@@ -157,7 +157,7 @@ c_pretoria = {
 c_magistras = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300017
+                            holder = 300122
               }
 }
 
@@ -171,14 +171,14 @@ d_norfer = {
 c_norfer = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300017
+                            holder = 300121
               }
 }
 
 c_pavia = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300017
+                            holder = 300121
               }
 }
 
@@ -213,7 +213,7 @@ c_guisnes = {
 c_fologne = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300004
+                            holder = 300105
               }
 }
 
@@ -227,21 +227,21 @@ d_adharc = {
 c_adharc = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300005
+                            holder = 300108
               }
 }
 
 c_ryswise = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300005
+                            holder = 300107
               }
 }
 
 c_renaix = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300005
+                            holder = 300106
               }
 }
 
@@ -724,7 +724,7 @@ c_tailtean = {
 c_veliocasse = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300000
+                            holder = 300103
               }
 }
 
@@ -759,7 +759,7 @@ c_beaulieu = {
 c_gwyne = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300001
+                            holder = 300104
               }
 }
 
@@ -780,7 +780,7 @@ c_charon = {
 c_shrewe = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300002
+                            holder = 300113
               }
 }
 
@@ -794,7 +794,7 @@ c_warwise = {
 c_lenord = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300002
+                            holder = 300112
               }
 }
 
@@ -816,6 +816,20 @@ c_esses = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
                             holder = 300048
+              }
+}
+
+c_aurigny = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300102
+              }
+}
+
+c_douvres = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 300101
               }
 }
 
@@ -850,7 +864,7 @@ c_frise = {
 c_sudfrise = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300005
+                            holder = 300109
               }
 }
 
@@ -885,7 +899,7 @@ c_montjoie = {
 c_clevris = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300006
+                            holder = 300111
               }
 }
 
@@ -948,7 +962,7 @@ c_florimont = {
 c_montcarvel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300008
+                            holder = 300114
               }
 }
 
@@ -983,7 +997,7 @@ c_resin = {
 c_leon = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300076
+                            holder = 300110
               }
 }
 
@@ -1039,21 +1053,21 @@ c_gaspard = {
 c_balthasar = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300011
+                            holder = 300118
               }
 }
 
 c_melchior = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300011
+                            holder = 300119
               }
 }
 
 c_zorastre = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300011
+                            holder = 300120
               }
 }
 
@@ -1088,7 +1102,7 @@ c_ampuis = {
 c_soyers = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300012
+                            holder = 300115
               }
 }
 
