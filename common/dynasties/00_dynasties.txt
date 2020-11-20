@@ -497,6 +497,91 @@
 	culture = "faerghus"
 }
 
+242 = 
+{
+	name = "Granet"
+	culture = "faerghus"
+}
+
+243 = 
+{
+	name = "Gachet"
+	culture = "faerghus"
+}
+
+244 = 
+{
+	name = "Smith"
+	culture = "faerghus"
+}
+
+245 = 
+{
+	name = "Reiss"
+	culture = "faerghus"
+}
+
+246 = 
+{
+	name = "Hunter"
+	culture = "faerghus"
+}
+
+247 = 
+{
+	name = "Zoë"
+	culture = "faerghus"
+}
+
+248 = 
+{
+	name = "Fritz"
+	culture = "faerghus"
+}
+
+249 = 
+{
+	name = "Tyber"
+	culture = "faerghus"
+}
+
+250 = 
+{
+	name = "Ackermá"
+	culture = "faerghus"
+}
+
+251 = 
+{
+	name = "Braun"
+	culture = "faerghus"
+}
+
+252 = 
+{
+	name = "Lejonhjärta"
+	culture = "faerghus"
+}
+
+253 = 
+{
+	name = "Hoover"
+	culture = "faerghus"
+}
+
+254 =
+{
+	name = "Shadis"
+	culture = "faerghus"
+}
+
+255 =
+{
+	name = "Magath"
+	culture = "duscur"
+}
+
+
 ###Adrestia###
 
 300=

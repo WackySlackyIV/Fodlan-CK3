@@ -2448,3 +2448,385 @@
 		death=yes
 	}
 }
+
+########################################
+### Many Big OWO moments yes POGGERS ###
+### I ran out of ideas so yeah...... ###
+########################################
+
+300101 = { #douvres and aurigniy
+	name="Granet" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=242
+	female = yes
+
+	1141.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300102 = { #douvres and aurigniy
+	name="Gachet" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=243
+
+	1142.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300103 = { #veliocasse
+	name="Erwin" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=244
+
+	1149.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300104 = { #gwyne
+	name="Héloïse" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=244
+	female = yes
+
+	1157.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300105 = { #follogne
+	name="Historia" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=245
+	female = yes
+
+	1154.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300106 = { #renaix
+	name="Eren" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty = 246
+	father=300108
+	sexuality = bisexual
+	
+	trait = vengeful
+	trait = wrathful
+	trait = brave
+
+	trait = education_martial_3
+	trait = bastard
+
+	disallow_random_traits = yes
+
+	1164.6.7 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		set_relation_lover = character:300114
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300107 = { #ryswise
+	name="zeke" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty= 246
+	father=300108
+	mother = 300109
+
+	1161.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300108 = { #adharc
+	name="Grisha" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=246
+
+	1142.6.7 = {
+		birth=yes
+	}
+	1161.6.7 = {
+		add_spouse = 300109
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300109 = { #sudfrise
+	name="Dina" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=248
+	female = yes
+	father = 300111
+
+	1143.6.7 = {
+		birth=yes
+	}
+	1161.6.7 = {
+		add_spouse = 300108
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300110 = { #Leon
+	name="Hange" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty= 247
+	female = yes
+	sexuality = bisexual
+
+	1153.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300111 = { #Clevris
+	name="Karl" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty = 248
+
+	1121.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300112 = { #lenord and shrewe
+	name="William" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=249
+
+	trait = education_diplomacy_4
+
+	1149.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300113 = { #lenord and shrewe
+	name="Amanda" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=249
+	female = yes
+
+	1159.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300114 = { #montcarvel
+	name="Mike" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty = 250
+	sexuality = homosexual
+
+	1164.6.7 = {
+		birth=yes
+	}
+	1180.1.1 = {
+		set_relation_lover = character:300106
+	}
+
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300115 = { #soyers
+	name="Levis" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=250
+
+	1159.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300116 = { #gladia and nazer
+	name="Gabi" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty= 251
+	female = yes
+
+	1162.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300117 = { #gladia and nazer
+	name="Kaya" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=251
+
+	1160.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300118 = { #Gaspard count
+	name="Reiner" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=251
+
+
+	1152.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300119 = { #Gaspard count
+	name="Annie" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty= 252
+	female = yes
+
+	1153.6.7 = {
+		birth=yes
+		set_relation_lover = character:300120
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300120 = { #Gaspard count
+	name="Bertolt" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=253
+
+
+	1151.6.7 = {
+		birth=yes
+		set_relation_lover = character:300119
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300121 = { #Kleiman
+	name="Keith" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=254
+
+	1139.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300122 = { #Kleiman
+	name="Carla" 
+	religion="seirosite"
+	culture="faerghus"
+	dynasty=254
+	female = yes
+
+	1145.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
+
+300123 = { #Kleiman
+	name="Theo" 
+	religion="pantheon_faith"
+	culture="duscur"
+	dynasty=255
+
+	disallow_random_traits = yes
+
+	trait = brave
+	trait = wrathful
+	trait = ambitious
+
+	trait = education_martial_prowess_3
+	trait = physique_good_2
+	trait = berserker
+	trait = scaly
+
+	1141.6.7 = {
+		birth=yes
+	}
+	1200.1.1 ={
+		death=yes
+	}
+}
