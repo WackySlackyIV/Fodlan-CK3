@@ -2,6 +2,7 @@
 	name="Macuil"
 	religion="macuilite"
 	culture="high_fodlan"
+	dynasty = 1000
 
 	diplomacy = 3
    	martial = 12
@@ -27,6 +28,7 @@
 	10.2.2 = {
 		birth=yes
 		give_nickname = nick_the_vindkaller
+		set_immortal_age = 30
 	}
 	1200.1.1={
 		death=yes
