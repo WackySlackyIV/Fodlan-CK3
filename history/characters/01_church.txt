@@ -75,7 +75,7 @@
 		add_spouse = 400142
 	}
 	1178.07.25={
-		##give_nickname = nick_cappy
+		give_nickname = nick_cappy
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -333,7 +333,7 @@
 		employer = 100000
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_divine_songstress
+		give_nickname = nick_the_divine_songstress
 		effect = {
 			#set_character_flag = spell_faith_warp
 			#set_character_flag = spell_faith_silence
@@ -381,7 +381,7 @@
 		employer = 100000
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_father_of_crestology
+		give_nickname = nick_the_father_of_crestology
 		effect = {
 			#set_character_flag = spell_reason_sagittae
 			#set_character_flag = spell_reason_wind
@@ -424,7 +424,7 @@
 	}
 	1157.1.1 = {
 		add_spouse=100017
-		#give_nickname = nick_blade_breaker
+		give_nickname = nick_blade_breaker
 	}
 	1181.3.15 = {
 		death=yes
@@ -506,7 +506,7 @@
 		employer = 100001
 	}
 	1181.1.1 = {
-		#give_nickname = nick_thunderstrike
+		give_nickname = nick_thunderstrike
 		#effect = {
 		#	add_artifact = relic_thunderbrand
 		#	spawn_date = -1.1.1
@@ -560,7 +560,7 @@
 			#set_character_flag = spell_faith_nosferatu
 			#set_character_flag = spell_faith_recover
 		}
-		#give_nickname = nick_savage_mockingbird
+		give_nickname = nick_savage_mockingbird
 	}
 	1200.1.1={
 		death=yes
@@ -613,7 +613,7 @@
 			#set_character_flag = spell_faith_seraphim
 		}
 		employer = 100000
-		#give_nickname = nick_king_grappling
+		give_nickname = nick_king_grappling
 	}
 	1200.1.1={
 		death=yes

@@ -111,7 +111,7 @@
 		birth=yes
 	}
 	1181.1.1 = {
-		#give_nickname = nick_the_hero_of_daphnel
+		give_nickname = nick_the_hero_of_daphnel
 	}
 	1200.1.1={
 		death="1200.1.1"
