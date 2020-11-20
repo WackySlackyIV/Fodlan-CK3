@@ -245,6 +245,13 @@ c_renaix = {
               }
 }
 
+c_vindkaller = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 1000000
+              }
+}
+
 #Adrestia
 e_adrestia = {
               1180.1.1 = {
