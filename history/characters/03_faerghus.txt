@@ -2745,6 +2745,8 @@
 	culture="faerghus"
 	dynasty=251
 
+	trait = depressed_1
+
 
 	1152.6.7 = {
 		birth=yes

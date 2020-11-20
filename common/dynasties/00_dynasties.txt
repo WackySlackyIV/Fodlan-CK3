@@ -923,13 +923,13 @@
 356=
 {
 	name="Halder"
-	culture = adrestian
+	culture = "adrestian"
 }
 
 357=
 {
 	name="Freising"
-	culture=adrestian
+	culture="adrestian"
 }
 
 358=
@@ -956,6 +956,78 @@
 	culture="adrestian"
 }
 
+362=
+{
+	name="Kamina"
+	culture="adrestian"
+}
+
+363=
+{
+	name="Lohengram"
+	culture="adrestian"
+}
+
+364=
+{
+	name="Kircheis"
+	culture="adrestian"
+}
+
+365=
+{
+	name="Mittermeyer"
+	culture="adrestian"
+}
+
+366=
+{
+	name="von Reuenthal"
+	culture="adrestian"
+}
+
+367=
+{
+	name="von Oberstein"
+	culture="adrestian"
+}
+
+368=
+{
+	name="Hajdå"
+	culture="adrestian"
+}
+
+369=
+{
+	name="Thunderloin"
+	culture="adrestian"
+}
+
+370=
+{
+	name="af löfv"
+	culture="adrestian"
+}
+
+371=
+{
+	name="Min Mio"
+	culture="adrestian"
+}
+
+372=
+{
+	name="von Drag"
+	culture="adrestian"
+}
+
+
+373=
+{
+	name="af Snop"
+	culture="adrestian"
+}
 ##############
 ### Reqonn ###
 ##############

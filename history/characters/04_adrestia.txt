@@ -3345,3 +3345,316 @@
 		death=yes
 	}
 }
+
+#########################
+### Mycket Kärlek Här ###
+#########################
+
+400181 = { #maugstrupp
+	name="Kamina"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 362
+
+	trait = brave
+	trait = stubborn
+	trait = compassionate
+
+	trait = education_martial_prowess_4
+	trait = gallant
+	trait = aggressive_attacker
+	trait = physique_good_3
+	trait = beauty_good_2
+
+	disallow_random_traits=yes
+
+	1146.05.08= {
+		birth=yes
+	}
+
+	1147.05.08= {
+		set_relation_lover = character:400183
+	}
+
+	1152.05.08= {
+		set_relation_friend = character:400182
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400182 = { #durhaus
+	name="Simoné"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 362
+
+	trait = trusting
+	trait = brave 
+	trait = just
+
+	trait = education_martial_4
+	trait = organizer
+	trait = intellect_good_1
+
+	disallow_random_traits=yes
+
+	1152.05.08= {
+		birth=yes
+		set_relation_friend = character:400181
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400183 = { #jerpstead
+	name="Jako"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 362
+	female = yes
+
+	1147.05.08= {
+		birth=yes
+		set_relation_lover = character:400181
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400184 = { #bergliez
+	name="Reinhrt"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 363
+
+	1155.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400185 = { #bergliez
+	name="Siegfried"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 364
+
+	1148.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400186 = { #bergliez
+	name="Wolfgang"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 365
+
+	1147.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400187 = { #bergliez
+	name="Oskar"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 366
+
+	1149.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400188 = { #varley
+	name="Paul"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 367
+
+	trait = callous
+	trait = deceitful
+	trait = diligent
+
+	trait = education_intrigue_4
+	trait = intellect_good_3
+	
+	
+	disallow_random_traits = yes
+
+	1148.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400189 = { #varley
+	name="Isa"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 358
+	female = yes
+
+	1146.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400190 = { #enbarr
+	name="Pelle"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 368
+
+	1146.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400191 = { #enbarr
+	name="Christina"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 369
+	female = yes
+
+	trait = intellect_good_1
+
+	1156.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400192 = { #enbarr
+	name="Hamlet"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 370
+
+	1158.05.08= {
+		birth=yes
+		set_relation_friend = character:400197
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400193 = { #essar
+	name="Cammy"
+	religion="ablehnist"
+	culture="adrestian"
+	female = yes
+
+	1161.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400194 = { #hevring
+	name="Mio"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 371
+
+	1148.05.08= {
+		birth=yes
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400195 = { #ochs
+	name="Nana"	
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 372
+	female = yes
+
+	1146.05.08= {
+		birth=yes
+		set_relation_lover = character:400196
+
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+400196 = { #bartels
+	name="Joe"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 372
+
+	1146.05.08= {
+		birth=yes
+		set_relation_lover = character:400195
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
+
+
+400197 = { #arundel
+	name="Antonio"
+	religion="ablehnist"
+	culture="adrestian"
+	dynasty = 373
+
+	1158.05.08= {
+		birth=yes
+		set_relation_friend = character:400192
+	}
+
+	1120.1.1={
+		death=yes
+	}
+}
