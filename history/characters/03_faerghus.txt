@@ -312,6 +312,7 @@
 
 300011 = {
 	name="Ashe"
+	dna = dna_ashe
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
@@ -766,6 +767,7 @@
 
 300028 = {
 	name="Sylvain"
+	dna = dna_sylvain
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=205
@@ -890,6 +892,7 @@
 
 300032 = {
 	name="Mercedes"
+	dna = dna_mercedes
 	religion="seirosite"
 	culture="faerghus"
 	female=yes
@@ -935,6 +938,7 @@
 
 300033 = {
 	name="Annette"
+	dna = dna_annette
 	religion="seirosite"
 	culture="faerghus"
 	female=yes

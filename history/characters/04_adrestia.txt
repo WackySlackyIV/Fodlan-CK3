@@ -294,6 +294,7 @@
 
 400015 = {
 	name="Hubert"
+	dna = dna_hubert
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 321
@@ -328,6 +329,7 @@
 
 400016 = {
 	name="Bernadetta"
+	dna = dna_bernadetta
 	religion="ablehnist"
 	culture="adrestian"
 	female = yes
@@ -364,6 +366,7 @@
 
 400017 = {
 	name="Ferdinand"
+	dna = dna_ferdinand
 	religion="ablehnist"
 	culture="adrestian"
 	father = 400006
@@ -398,6 +401,7 @@
 
 400018 = {
 	name="Caspar"
+	dna = dna_caspar
 	religion="ablehnist"
 	culture="adrestian"
 	father = 400004
@@ -438,6 +442,7 @@
 
 400019 = {
 	name="Linhardt"
+	dna = dna_linhardt
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 317
@@ -479,6 +484,7 @@
 
 400020 = {
 	name="Dorothea"
+	dna = dna_dorothea 
 	religion="ablehnist"
 	culture="adrestian"
 	female = yes
@@ -514,6 +520,7 @@
 
 400021 = {
 	name="Petra"
+	dna = dna_petra
 	religion="ablehnist"
 	culture="brigid"
 	female = yes
@@ -551,6 +558,7 @@
 
 400022 = {
 	name="Jeritza"
+	dna = dna_jeritza
 	religion="ablehnist"
 	culture="adrestian"
 	father = 400036

@@ -283,14 +283,14 @@ c_escomb = {
 c_wirksworth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200067
               }
 }
 
 c_sleaford = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200000
+                            holder = 200068
               }
 }
 
@@ -402,7 +402,7 @@ c_ive = {
 c_beverly = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200003
+                            holder = 200073
               }
 }
 
@@ -493,7 +493,7 @@ c_gloucester = {
 c_wayford = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200006
+                            holder = 200072
               }
 }
 
@@ -521,7 +521,7 @@ c_haven = {
 c_grimsby = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200006
+                            holder = 200071
               }
 }
 
@@ -563,7 +563,7 @@ c_alfreton = {
 c_jarrow = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200007
+                            holder = 200069
               }
 }
 
@@ -612,7 +612,7 @@ c_asaph = {
 c_tamsworth = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 200011
+                            holder = 200070
               }
 }
 

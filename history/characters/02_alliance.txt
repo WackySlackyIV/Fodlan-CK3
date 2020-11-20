@@ -1,8 +1,3 @@
-####								            ####
-##         Garreg Mach Characters		          ##
-##Converted by KDports for Fodlan CK3 mod ##
-####								            ####
-
 200000 = {
 	name="Oswald"
 	dynasty=100
@@ -1678,13 +1673,8 @@
 	}
 }
 
-
-###########################################
-### The shit I made for you steel 19/11 ###
-###########################################
-
 200067 = {
-	name="Bert" #River Count
+	name="Bert" #sleaford Count
 	religion="seirosite"
 	culture="leicester"
 	dynasty=127
@@ -1699,7 +1689,7 @@
 }
 
 200068 = {
-	name="Emma" #River Count
+	name="Emma" #wirksworth Count
 	religion="seirosite"
 	culture="leicester"
 	dynasty=128
@@ -1715,7 +1705,7 @@
 }
 
 200069 = {
-	name="Henri" #Mountain Count
+	name="Henri" #jarrow Count
 	religion="seirosite"
 	culture="leicester"
 	dynasty=129

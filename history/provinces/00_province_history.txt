@@ -21,19 +21,19 @@
               holding = castle_holding
 }
 
-5 = {         #Saint (b_saint)
+5 = {         #Saint (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-6 = {         #Hearth (b_hearth)
+6 = {         #Hearth (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-7 = {         #Vatican (b_vatican)
+7 = {         #Vatican (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
@@ -41,19 +41,19 @@
 
 ##            Cethleann (c_cethleann)
 
-8 = {         #Cethleann (b_cethleann)
+8 = {         #Cethleann (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-9 = {         #Bruidhean (b_bruidhean)
+9 = {         #Bruidhean (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-10 = {        #Sagido (b_sagido)
+10 = {        #Sagido (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
@@ -61,19 +61,19 @@
 
 ##            Cichol (c_cichol)
 
-11 = {        #Cichol (b_cichol)
+11 = {        #Cichol (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-12 = {        #Butado (b_butado)
+12 = {        #Butado (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-13 = {        #Erenn (b_erenn)
+13 = {        #Erenn (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
@@ -82,19 +82,19 @@
 ###           Zanado (d_zanado)
 ##            Indech (c_indech)
 
-14 = {        #Indech (b_indech)
+14 = {        #Indech (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-15 = {        #Ryudo (b_ryudo)
+15 = {        #Ryudo (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-16 = {        #Tortosa (b_tortosa)
+16 = {        #Tortosa (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
@@ -102,19 +102,19 @@
 
 ##            Macuil (c_macuil)
 
-17 = {        #Macuil (b_macuil)
+17 = {        #Macuil (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-18 = {        #Umado (b_umado)
+18 = {        #Umado (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-19 = {        #Aves (b_aves)
+19 = {        #Aves (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
@@ -122,31 +122,31 @@
 
 ##            Zanado (c_zanado)
 
-20 = {        #Zanado (b_zanado)
+20 = {        #Zanado (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-21 = {        #Elivilar (b_elivilar)
+21 = {        #Elivilar (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-22 = {        #Segudet (b_segudet)
+22 = {        #Segudet (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-23 = {        #Preda (b_preda)
+23 = {        #Preda (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-24 = {        #Droma (b_droma)
+24 = {        #Droma (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
@@ -1149,37 +1149,37 @@
 ###           Riegan (d_riegan)
 ##             (c_derdriu)
 
-25 = {        # (b_derdriu)
+25 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-26 = {        # (b_concilla)
+26 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-27 = {        # (b_deerhurst)
+27 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-28 = {        # (b_braunstone)
+28 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-29 = {        # (b_oadby)
+29 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-30 = {        # (b_glenfield)
+30 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
@@ -1187,19 +1187,19 @@
 
 ##             (c_escomb)
 
-31 = {        # (b_escomb)
+31 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-32 = {        # (b_barcaster)
+32 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-33 = {        # (b_otterbeck)
+33 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
@@ -1207,19 +1207,19 @@
 
 ##             (c_wirksworth)
 
-34 = {        # (b_wirksworth)
+34 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-35 = {        # (b_eastmarket)
+35 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-36 = {        # (b_thornwick)
+36 = {        # (b_knights)
               culture = leicester
               religion = seirosite
               holding = castle_holding
@@ -2544,7 +2544,7 @@
               holding = castle_holding
 }
 
-##             (c_aurigniy)
+##             (c_aurigny)
 
 241 = {       # (b_aurigny)
               culture = faerghus
@@ -11688,90 +11688,106 @@
 
 1727 = {      # (b_tszun)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1728 = {      # (b_sundzen)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1729 = {      # (b_hebteme)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1730 = {      # (b_sayntsagaan)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_seeriin)
 
 1731 = {      # (b_seeriin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1732 = {      # (b_mingat)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1733 = {      # (b_dalthid)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_doynhor)
 
 1734 = {      # (b_doynhor)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1735 = {      # (b_dalan)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1736 = {      # (b_zamunide)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_khoshu)
 
 1737 = {      # (b_khoshu)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1738 = {      # (b_santuma)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1739 = {      # (b_kharaganain)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_arigynn)
 
 1740 = {      # (b_arigynn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1741 = {      # (b_khotohure)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1742 = {      # (b_baykid)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ###            (d_demcgiid)
@@ -11779,53 +11795,62 @@
 
 1743 = {      # (b_luma)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1744 = {      # (b_byanural)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1745 = {      # (b_dzohod)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_nariin)
 
 1746 = {      # (b_nariin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1747 = {      # (b_usatanii)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_burgaasa)
 
 1748 = {      # (b_burgaasa)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1749 = {      # (b_nalaikha)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_palan)
 
 1750 = {      # (b_palan)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1751 = {      # (b_undents)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ###            (d_ugtumynn)
@@ -11833,73 +11858,86 @@
 
 1752 = {      # (b_balji)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1753 = {      # (b_darahin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1754 = {      # (b_sulobotuin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1755 = {      # (b_uragyyn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_bandi)
 
 1756 = {      # (b_bandi)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1757 = {      # (b_buyantu)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1758 = {      # (b_duguhantyryn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_buyantayn)
 
 1759 = {      # (b_buyantayn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1760 = {      # (b_khayutu)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1761 = {      # (b_abagayn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_mogoyn)
 
 1762 = {      # (b_mogoyn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1763 = {      # (b_doloni)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1764 = {      # (b_darhantayee)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ###            (d_baraguyn)
@@ -11907,68 +11945,80 @@
 
 1765 = {      # (b_tsagan)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1766 = {      # (b_naranak)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1767 = {      # (b_bayagaziid)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_borgosi)
 
 1768 = {      # (b_borgosi)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1769 = {      # (b_tukuma)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1770 = {      # (b_hoboriin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_khartszatuin)
 
 1771 = {      # (b_khartszatuin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1772 = {      # (b_tabumodan)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1773 = {      # (b_uburtyyn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_lisain)
 
 1774 = {      # (b_lisain)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1775 = {      # (b_baruuye)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1776 = {      # (b_luchzhen)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ###            (d_urton)
@@ -11976,63 +12026,74 @@
 
 1777 = {      # (b_galharyin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1778 = {      # (b_harutyr)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1779 = {      # (b_dayakhid)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_engershand)
 
 1780 = {      # (b_engershand)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1781 = {      # (b_khodogui)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1782 = {      # (b_underroyn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_khotogtuew)
 
 1783 = {      # (b_khotogture)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1784 = {      # (b_daltihid)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_sharaiin)
 
 1785 = {      # (b_sharaiin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1786 = {      # (b_somonighur)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1787 = {      # (b_ulabaa)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ###            (d_megulryba)
@@ -12040,68 +12101,80 @@
 
 1788 = {      # (b_sumain)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1789 = {      # (b_dugete)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1790 = {      # (b_habtsagay)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_khongor)
 
 1791 = {      # (b_khongor)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1792 = {      # (b_tsekherin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1793 = {      # (b_khadayn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_dalkhain)
 
 1794 = {      # (b_dalkhain)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1795 = {      # (b_amogolambu)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1796 = {      # (b_uburayn)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ##             (c_haranaiin)
 
 1797 = {      # (b_haranaiin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1798 = {      # (b_bulagan)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 1799 = {      # (b_zanjigin)
               culture = dantan
-              religion = 
+              religion = dinymori
+              holding = castle_holding
 }
 
 ####           (k_dantagar)
@@ -12110,98 +12183,116 @@
 
 1800 = {      # (b_suvd)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1801 = {      # (b_saraspur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1802 = {      # (b_manduk)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1803 = {      # (b_kushtia)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1804 = {      # (b_kulikundar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1805 = {      # (b_parkot)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_bari)
 
 1806 = {      # (b_bari)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1807 = {      # (b_kharda)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1808 = {      # (b_shashidharpur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1809 = {      # (b_maijha)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1810 = {      # (b_banstola)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_sylgyzbandar)
 
 1811 = {      # (b_sylgyzbandar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1812 = {      # (b_jhoppara)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1813 = {      # (b_khalisadah)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1814 = {      # (b_nischinta)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_batubad)
 
 1815 = {      # (b_batubad)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1816 = {      # (b_jugirtabak)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1817 = {      # (b_sahadar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ###            (d_temdi)
@@ -12209,51 +12300,60 @@
 
 1818 = {      # (b_baratuli)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1819 = {      # (b_bhagjoar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1820 = {      # (b_chandanpat)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_fakirkil)
 
 1821 = {      # (b_fakirkil)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1822 = {      # (b_saranjagari)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1823 = {      # (b_jamak)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_lashkarpur)
 
 1824 = {      # (b_lashkarpur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1825 = {      # (b_kholahati)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1826 = {      # (b_bhabermura)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ###            (d_kharinchara)
@@ -12261,51 +12361,60 @@
 
 1827 = {      # (b_gezutia)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1828 = {      # (b_hatirdia)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1829 = {      # (b_dibazkul)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_ghala)
 
 1830 = {      # (b_ghala)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1831 = {      # (b_dafilaz)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1832 = {      # (b_samarsing)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_kastor)
 
 1833 = {      # (b_kastor)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1834 = {      # (b_urtbuzia)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1835 = {      # (b_tailapara)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ###            (d_didotokan)
@@ -12313,46 +12422,54 @@
 
 1836 = {      # (b_surbafuldi)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1837 = {      # (b_ghosalerdara)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1838 = {      # (b_nimtali)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_baharal)
 
 1839 = {      # (b_baharal)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1840 = {      # (b_samanta)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1841 = {      # (b_kadamtara)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_dekshapara)
 
 1842 = {      # (b_dekshapara)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1843 = {      # (b_taukati)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ###            (d_kajiimpur)
@@ -12360,51 +12477,60 @@
 
 1844 = {      # (b_harikhanagar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1845 = {      # (b_jigagar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1846 = {      # (b_tilapara)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_chaua)
 
 1847 = {      # (b_chaua)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1848 = {      # (b_bankhari)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1849 = {      # (b_bahakholl)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_shampur)
 
 1850 = {      # (b_shampur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1851 = {      # (b_parakhola)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1852 = {      # (b_baradar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ###            (d_sukhpukhuria)
@@ -12412,60 +12538,421 @@
 
 1853 = {      # (b_ghorai)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1854 = {      # (b_burai)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1855 = {      # (b_baratala)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1856 = {      # (b_hamchapur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_gopinagar)
 
 1857 = {      # (b_gopinagar)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1858 = {      # (b_khanarasia)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1859 = {      # (b_mahishkher)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1860 = {      # (b_nalkola)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 ##             (c_sharipur)
 
 1861 = {      # (b_sharipur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1862 = {      # (b_ayabpur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
 }
 
 1863 = {      # (b_mohespur)
               culture = dantan
-              religion = 
+              religion = lmabhal
+              holding = castle_holding
+}
+
+####           (k_uttamanuru)
+###            (d_badriol)
+##             (c_mathillo)
+
+1864 = {      # (b_mathillo)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1865 = {      # (b_lalpur)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1866 = {      # (b_gairiwa)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1867 = {      # (b_phogatpura)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_kharamtar)
+
+1868 = {      # (b_kharamtar)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1869 = {      # (b_deurali)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1870 = {      # (b_gijet)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_sisnukharka)
+
+1871 = {      # (b_sisnukharka)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1872 = {      # (b_maidane)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1873 = {      # (b_chunibol)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+###            (d_kuria)
+##             (c_baitar)
+
+1874 = {      # (b_baitar)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1875 = {      # (b_bajeria)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1876 = {      # (b_laphe)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_bhaurtol)
+
+1877 = {      # (b_bhaurtol)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1878 = {      # (b_salana)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1879 = {      # (b_chela)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_purun)
+
+1880 = {      # (b_purun)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1881 = {      # (b_dabucha)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1882 = {      # (b_chandanbar)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+###            (d_jubing)
+##             (c_banginia)
+
+1883 = {      # (b_banginia)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1884 = {      # (b_goljunia)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1885 = {      # (b_pakhere)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_mavara)
+
+1886 = {      # (b_mavara)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1887 = {      # (b_kotidanda)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1888 = {      # (b_majhereti)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_lapche)
+
+1889 = {      # (b_lapche)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1890 = {      # (b_simaradhi)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1891 = {      # (b_sisapur)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+###            (d_jayanisir)
+##             (c_madhupattiya)
+
+1892 = {      # (b_madhupattiya)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1893 = {      # (b_bhaarka)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1894 = {      # (b_phulkharka)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_baka)
+
+1895 = {      # (b_baka)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1896 = {      # (b_dashami)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1897 = {      # (b_chhedin)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+##             (c_dumrabasa)
+
+1898 = {      # (b_dumrabasa)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+1899 = {      # (b_sarkitol)
+              culture = dantan
+              religion = lmabhal
+              holding = castle_holding
+}
+
+###            (d_bharatikos)
+##             (c_champagoas)
+
+1900 = {      # (b_champagoas)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1901 = {      # (b_kadogaos)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1902 = {      # (b_sambaos)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1903 = {      # (b_dhairenia)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+##             (c_samargaon)
+
+1904 = {      # (b_samargaon)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1905 = {      # (b_kikhunos)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1906 = {      # (b_bharphedia)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1907 = {      # (b_sanos)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+##             (c_gudkelosa)
+
+1908 = {      # (b_gudkelosa)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1909 = {      # (b_khakharsos)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1910 = {      # (b_gorundia)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1911 = {      # (b_itharawa)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+##             (c_ghogsilia)
+
+1912 = {      # (b_ghogsillia)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1913 = {      # (b_photia)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1914 = {      # (b_simarbona)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
+}
+
+1915 = {      # (b_mantrdanos)
+              culture = dantan
+              religion = tenolotiskardias_faith
+              holding = castle_holding
 }
 

@@ -520,6 +520,7 @@
 
 100012 = {
 	name="Yuri"
+	dna = dna_yuri
 	religion="seirosite"
 	culture="abyssian"
 	dynasty=212
@@ -568,6 +569,7 @@
 
 100013 = {
 	name="Balthus"
+	dna = dna_balthus
 	religion="seirosite"
 	culture="abyssian"
 	dynasty=123
@@ -620,6 +622,7 @@
 
 100014 = {
 	name="Constance"
+	dna = dna_constance
 	religion="seirosite"
 	culture="abyssian"
 	female = yes
@@ -671,6 +674,7 @@
 
 100015 = {
 	name="Hapi"
+	dna = dna_hapi
 	religion="seirosite"
 	culture="abyssian"
 	female = yes

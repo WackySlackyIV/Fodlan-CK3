@@ -17,7 +17,7 @@ seasons = "seasons.txt"
 # SEA ZONES
 #############
 
-sea_zones = LIST { 1087 }
+sea_zones = LIST { 1087 1968 1969 }
 
 ###############
 # MAJOR RIVERS
