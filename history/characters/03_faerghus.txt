@@ -50,6 +50,8 @@
 	dynasty=201
 	mother = 300093
 
+	stewardship = 3
+
 	trait=stubborn
 	trait=generous
 	trait=ambitious
@@ -170,6 +172,8 @@
 	culture="faerghus"
 	dynasty=205
 
+	stewardship = 7
+
 
 	trait= ambitious
 	trait= arrogant
@@ -196,6 +200,8 @@
 	culture="faerghus"
 	dynasty=200
 	father=300022
+
+	stewardship = 6
 
 	trait = lazy
 	trait = content
@@ -347,6 +353,8 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=212
+
+	stewardship = 7
 
 	trait= zealous
 	trait= compassionate

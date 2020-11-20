@@ -4054,7 +4054,7 @@ e_adrestia = {
                                                         
                                           }
                                           
-                                          c_aurigniy = {
+                                          c_aurigny = {
                                                         color = { 113 181 180 }
                                                         color2 = { 255 255 255 }
                                                         
@@ -8872,7 +8872,7 @@ e_adrestia = {
                                           color = { 251 73 49 }
                                           color2 = { 255 255 255 }
                                           
-                                          capital = c_ochs
+                                          capital = c_maxlon
                                           
                                           c_ochs = {
                                                         color = { 251 73 49 }
