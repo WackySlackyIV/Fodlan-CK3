@@ -1146,6 +1146,11 @@
  b_frohn:0 "Frohn"
  b_berger:0 "Berger"
 
+ c_litzhaln:0 "Litzhaln"
+ b_litzhaln:0 "Lizhaln"
+ b_buborn:0 "Buborn"
+ b_weghauzen:0 "Weghauzen"
+
  c_grosseg:0 "Grosseg"
  b_grosseg:0 "Grosseg"
  b_seeth:0 "Seeth"
@@ -1234,7 +1239,7 @@
  b_andeer:0 "Andeer"
  b_melchnau:0 "Melchnau"
 
- d_ochs:0 "Ochs"
+ d_holgr:0 "Holgr"
  c_ochs:0 "Ochs"
  b_ochs:0 "Ochs"
  b_kraudorf:0 "Kraudorf"

@@ -143,7 +143,7 @@ c_imperia = {
 c_senatore = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300123
+                            holder = 300122
               }
 }
 
@@ -157,7 +157,7 @@ c_pretoria = {
 c_magistras = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 300122
+                            holder = 300123
               }
 }
 
@@ -1368,7 +1368,7 @@ c_brunnau = {
 c_ingendorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400190
               }
 }
 
@@ -1410,7 +1410,7 @@ c_hresvelg = {
 c_gorspen = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400191
               }
 }
 
@@ -1424,7 +1424,7 @@ c_dreikronen = {
 c_jungensberg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400000
+                            holder = 400192
               }
 }
 
@@ -1442,7 +1442,7 @@ d_hrym = {
               }
 }
 
-c_hrymm = {
+c_hrym = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
                             holder = 400022
@@ -1452,14 +1452,14 @@ c_hrymm = {
 c_maugstrup = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400022
+                            holder = 400181
               }
 }
 
 c_jerpstead = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400022
+                            holder = 400183
               }
 }
 
@@ -1473,7 +1473,7 @@ c_boacker = {
 c_durhaus = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400022
+                            holder = 400182
               }
 }
 
@@ -1522,21 +1522,21 @@ c_gronder = {
 c_welten = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400004
+                            holder = 400187
               }
 }
 
 c_hangendenbuch = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400004
+                            holder = 400187
               }
 }
 
 c_mariensiel = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400004
+                            holder = 400186
               }
 }
 
@@ -1662,7 +1662,7 @@ c_varley = {
 c_griebow = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400007
+                            holder = 400188
               }
 }
 
@@ -1676,14 +1676,14 @@ c_pente = {
 c_questnitz = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400007
+                            holder = 400189
               }
 }
 
 c_frischenburg = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400007
+                            holder = 400189
               }
 }
 
@@ -1711,14 +1711,14 @@ c_dalwitzhof = {
 c_lendrass = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400004
+                            holder = 400185
               }
 }
 
 c_kell = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400004
+                            holder = 400184
               }
 }
 
@@ -1921,7 +1921,7 @@ c_essar = {
 c_litzhaln = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400013
+                            holder = 400193
               }
 }
 
@@ -2026,7 +2026,7 @@ c_langgassen = {
 c_bodendorf = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400038
+                            holder = 400194
               }
 }
 
@@ -2075,14 +2075,14 @@ c_ochs = {
 c_pitten = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400163
+                            holder = 400195
               }
 }
 
 c_elling = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400163
+                            holder = 400195
               }
 }
 
@@ -2117,14 +2117,14 @@ c_krail = {
 c_lanau = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400041
+                            holder = 400196
               }
 }
 
 c_flurnsbach = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400041
+                            holder = 400196
               }
 }
 
@@ -2299,7 +2299,7 @@ c_tarzendorf = {
 c_ausserrhoden = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 400024
+                            holder = 400197
               }
 }
 

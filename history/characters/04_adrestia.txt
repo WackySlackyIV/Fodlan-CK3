@@ -2290,7 +2290,7 @@
 	mother=400121
 	dynasty = 308
 	
-	1180.1.1 = {
+	1178.20.1 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -3346,10 +3346,6 @@
 	}
 }
 
-#########################
-### Mycket Kärlek Här ###
-#########################
-
 400181 = { #maugstrupp
 	name="Kamina"
 	religion="ablehnist"
@@ -3380,7 +3376,7 @@
 		set_relation_friend = character:400182
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3406,7 +3402,7 @@
 		set_relation_friend = character:400181
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3423,13 +3419,13 @@
 		set_relation_lover = character:400181
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
 
 400184 = { #bergliez
-	name="Reinhrt"
+	name="Reinhart"
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 363
@@ -3438,7 +3434,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3453,7 +3449,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3468,7 +3464,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3483,7 +3479,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3508,7 +3504,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3524,7 +3520,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3539,7 +3535,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3557,7 +3553,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3573,7 +3569,7 @@
 		set_relation_friend = character:400197
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3588,7 +3584,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3603,7 +3599,7 @@
 		birth=yes
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3621,7 +3617,7 @@
 
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3637,7 +3633,7 @@
 		set_relation_lover = character:400195
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }
@@ -3654,7 +3650,7 @@
 		set_relation_friend = character:400192
 	}
 
-	1120.1.1={
+	1200.1.1={
 		death=yes
 	}
 }

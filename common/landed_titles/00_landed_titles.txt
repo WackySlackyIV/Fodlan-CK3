@@ -6458,11 +6458,11 @@ e_adrestia = {
                                           
                                           capital = c_hrym
                                           
-                                          c_hrymm = {
+                                          c_hrym = {
                                                         color = { 232 126 51 }
                                                         color2 = { 255 255 255 }
                                                         
-                                                        b_hrymm = {
+                                                        b_hrym = {
                                                                       province = 523
                                                                       
                                                                       color = { 232 126 51 }
@@ -8868,7 +8868,7 @@ e_adrestia = {
                                           
                             }
                             
-                            d_ochs = {
+                            d_holgr = {
                                           color = { 251 73 49 }
                                           color2 = { 255 255 255 }
                                           

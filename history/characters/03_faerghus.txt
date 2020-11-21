@@ -2458,11 +2458,6 @@
 	}
 }
 
-########################################
-### Many Big OWO moments yes POGGERS ###
-### I ran out of ideas so yeah...... ###
-########################################
-
 300101 = { #douvres and aurigniy
 	name="Granet" 
 	religion="seirosite"
