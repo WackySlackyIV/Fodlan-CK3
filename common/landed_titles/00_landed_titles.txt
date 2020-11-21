@@ -360,6 +360,12 @@ e_dummy = {
                                                                       
                                                         }
                                                         
+                                          }
+                                          
+                                          c_galilee = {
+                                                        color = { 100 100 100 }
+                                                        color2 = { 255 255 255 }
+                                                        
                                                         b_veglise = {
                                                                       province = 459
                                                                       
@@ -367,12 +373,6 @@ e_dummy = {
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
-                                                        
-                                          }
-                                          
-                                          c_galilee = {
-                                                        color = { 100 100 100 }
-                                                        color2 = { 255 255 255 }
                                                         
                                                         b_galilee = {
                                                                       province = 460
@@ -390,6 +390,12 @@ e_dummy = {
                                                                       
                                                         }
                                                         
+                                          }
+                                          
+                                          c_nazer = {
+                                                        color = { 100 100 100 }
+                                                        color2 = { 255 255 255 }
+                                                        
                                                         b_mayene = {
                                                                       province = 462
                                                                       
@@ -397,12 +403,6 @@ e_dummy = {
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
-                                                        
-                                          }
-                                          
-                                          c_nazer = {
-                                                        color = { 100 100 100 }
-                                                        color2 = { 255 255 255 }
                                                         
                                                         b_nazer = {
                                                                       province = 463
@@ -420,6 +420,12 @@ e_dummy = {
                                                                       
                                                         }
                                                         
+                                          }
+                                          
+                                          c_gladia = {
+                                                        color = { 100 100 100 }
+                                                        color2 = { 255 255 255 }
+                                                        
                                                         b_nordaux = {
                                                                       province = 465
                                                                       
@@ -427,12 +433,6 @@ e_dummy = {
                                                                       color2 = { 255 255 255 }
                                                                       
                                                         }
-                                                        
-                                          }
-                                          
-                                          c_gladia = {
-                                                        color = { 100 100 100 }
-                                                        color2 = { 255 255 255 }
                                                         
                                                         b_gladia = {
                                                                       province = 466
