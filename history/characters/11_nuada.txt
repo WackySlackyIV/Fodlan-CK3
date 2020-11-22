@@ -1,0 +1,41 @@
+1100000 = {
+	name = "nuada big tribe"
+	religion = "pantheon_faith"
+	culture = "nuadan"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1100001 = {
+	name = "nuada small tribe"
+	religion = "pantheon_faith"
+	culture = "nuadan"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1100002 = {
+	name = "model after softy" #its the malta like place
+	religion = "pantheon_faith"
+	culture = "nuadan"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}

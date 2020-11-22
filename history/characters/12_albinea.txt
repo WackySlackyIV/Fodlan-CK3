@@ -1,0 +1,69 @@
+1200000 = {
+	name = "main tribe"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200001 = {
+	name = "tribe 2"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200002 = {
+	name = "tribe 3"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200003 = {
+	name = "tribe 4"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200004 = {
+	name = "tribe 5"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
