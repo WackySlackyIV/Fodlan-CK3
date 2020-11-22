@@ -7952,11 +7952,11 @@ e_adrestia = {
                                           
                                           capital = c_boramas
                                           
-                                          c_boromas = {
+                                          c_boramas = {
                                                         color = { 255 122 64 }
                                                         color2 = { 255 255 255 }
                                                         
-                                                        b_boromas = {
+                                                        b_boramas = {
                                                                       province = 665
                                                                       
                                                                       color = { 255 122 64 }

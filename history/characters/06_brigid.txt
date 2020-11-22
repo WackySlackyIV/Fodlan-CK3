@@ -10,3 +10,110 @@
 		death=yes
 	}
 }
+
+600001 = {
+	name="Volcano Boy"
+	religion="lamhach"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600002 = {
+	name="Venga"
+	religion="fuale"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600003 = {
+	name="random island 1"
+	religion="fuale"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600004 = {
+	name="random island 2"
+	religion="fuale"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600005 = {
+	name="random island 3"
+	religion="fuale"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600006 = {
+	name="random island 4"
+	religion="fuale"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600007 = {
+	name="Amazons?"
+	religion="fuale"
+	culture="brigid"
+	female = yes
+
+	trait = physique_good_3
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600008 = {
+	name="lord mach"
+	religion="fuale"
+	culture="brigid"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}

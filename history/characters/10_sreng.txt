@@ -34,3 +34,75 @@
 		death=yes
 	}
 }
+
+1000001 = {
+	name = "macuil worshippers"
+	religion = "heimsormurinn"
+	culture = "duscur"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000002 = {
+	name = "brutes"
+	religion = "heimsormurinn"
+	culture = "duscur"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000003 = {
+	name = "king sreng candidate?"
+	religion = "heimsormurinn"
+	culture = "duscur"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000004 = {
+	name = "island srengers 1"
+	religion = "heimsormurinn"
+	culture = "duscur"
+	dynasty = 800
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000005 = {
+	name = "island srengers 2"
+	religion = "heimsormurinn"
+	culture = "duscur"
+	dynasty = 800
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}

@@ -344,3 +344,73 @@
 	}
 
 }
+
+800010 = {
+	name = "almyra island reqonn"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+800011 = {
+	name = "desert reqonn"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+800012 = {
+	name = "morfis island 1"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+800013 = {
+	name = "morfis island 2"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+800014 = {
+	name = "morfis island 3"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}

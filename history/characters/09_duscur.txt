@@ -1,0 +1,27 @@
+900000 = {
+	name = "duscur refugee group 1"
+	religion = "pantheon_faith"
+	culture = "duscur"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+900001 = {
+	name = "duscur refugee group 2"
+	religion = "pantheon_faith"
+	culture = "duscur"
+
+	1150.1.7 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
