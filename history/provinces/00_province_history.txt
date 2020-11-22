@@ -1,287 +1,287 @@
-#####         Church of Seiros (e_dummy)
-####          Church of Seiros (k_church)
-###           Garreg Mach (d_garreg_mach)
-##            Garreg Mach (c_garreg_mach)
+#####          (e_dummy)
+####           (k_church)
+###            (d_garreg_mach)
+##             (c_garreg_mach)
 
-1 = {         #Garreg Mach (b_garreg_mach)
+1 = {         # (b_garreg_mach)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-2 = {         #Mach (b_mach)
+2 = {         # (b_mach)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-3 = {         #Knights of Seiros (b_knights)
+3 = {         # (b_knights)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-5 = {         #Saint (b_knights)
+5 = {         # (b_saint)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-6 = {         #Hearth (b_knights)
+6 = {         # (b_hearth)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-7 = {         #Vatican (b_knights)
+7 = {         # (b_vatican)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-##            Cethleann (c_cethleann)
+##             (c_cethleann)
 
-8 = {         #Cethleann (b_knights)
+8 = {         # (b_cethleann)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-9 = {         #Bruidhean (b_knights)
+9 = {         # (b_bruidhean)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-10 = {        #Sagido (b_knights)
+10 = {        # (b_sagido)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-##            Cichol (c_cichol)
+##             (c_cichol)
 
-11 = {        #Cichol (b_knights)
+11 = {        # (b_cichol)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-12 = {        #Butado (b_knights)
+12 = {        # (b_butado)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-13 = {        #Erenn (b_knights)
+13 = {        # (b_erenn)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-###           Zanado (d_zanado)
-##            Indech (c_indech)
+###            (d_zanado)
+##             (c_indech)
 
-14 = {        #Indech (b_knights)
+14 = {        # (b_indech)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-15 = {        #Ryudo (b_knights)
+15 = {        # (b_ryudo)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-16 = {        #Tortosa (b_knights)
+16 = {        # (b_tortosa)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-##            Macuil (c_macuil)
+##             (c_macuil)
 
-17 = {        #Macuil (b_knights)
+17 = {        # (b_macuil)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-18 = {        #Umado (b_knights)
+18 = {        # (b_umado)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-19 = {        #Aves (b_knights)
+19 = {        # (b_aves)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-##            Zanado (c_zanado)
+##             (c_zanado)
 
-20 = {        #Zanado (b_knights)
+20 = {        # (b_zanado)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-21 = {        #Elivilar (b_knights)
+21 = {        # (b_elivilar)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-22 = {        #Segudet (b_knights)
+22 = {        # (b_segudet)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-23 = {        #Preda (b_knights)
+23 = {        # (b_preda)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-24 = {        #Droma (b_knights)
+24 = {        # (b_droma)
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
 }
 
-###           Eastern Church (d_eastern_church)
-##            Salem (c_salem)
+###            (d_eastern_church)
+##             (c_salem)
 
-180 = {       #Salem (b_salem)
+180 = {       # (b_salem)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-181 = {       #Teamher (b_teamher)
+181 = {       # (b_teamher)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-182 = {       #Cnoc (b_cnoc)
+182 = {       # (b_cnoc)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-183 = {       #Liafail (b_liafail)
+183 = {       # (b_liafail)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-##            Cangort (c_cangort)
+##             (c_cangort)
 
-184 = {       #Cangort (b_cangort)
+184 = {       # (b_cangort)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-185 = {       #Beth (b_beth)
+185 = {       # (b_beth)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-186 = {       #Synodhall (b_synodhall)
+186 = {       # (b_synodhall)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-###           Western Church (d_western_church)
-##            Bade (c_bade)
+###            (d_western_church)
+##             (c_bade)
 
-456 = {       #Bade (b_bade)
+456 = {       # (b_bade)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-457 = {       #Sephor (b_sephor)
+457 = {       # (b_sephor)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-458 = {       #Kilfane (b_kilfane)
+458 = {       # (b_kilfane)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-459 = {       #Veglise (b_veglise)
+##             (c_galilee)
+
+459 = {       # (b_veglise)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-##            Galilee (c_galilee)
-
-460 = {       #Galilee (b_galilee)
+460 = {       # (b_galilee)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-461 = {       #Redwood (b_redwood)
+461 = {       # (b_redwood)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-462 = {       #Mayene (b_mayene)
+##             (c_nazer)
+
+462 = {       # (b_mayene)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-##            Nazer (c_nazer)
-
-463 = {       #Nazer (b_nazer)
+463 = {       # (b_nazer)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-464 = {       #Caonach (b_caonach)
+464 = {       # (b_caonach)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-465 = {       #Nordaux (b_nordaux)
+##             (c_gladia)
+
+465 = {       # (b_nordaux)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-##            Gladia (c_gladia)
-
-466 = {       #Gladia (b_gladia)
+466 = {       # (b_gladia)
               culture = faerghus
               religion = seirosite
               holding = castle_holding
 }
 
-467 = {       #Woodstown (b_woodstown)
+467 = {       # (b_woodstown)
               culture = duscur
               religion = pantheon_faith
               holding = castle_holding
 }
 
-####          Duscur (k_duscur)
-###           Kleiman (d_kleiman)
+####           (k_duscur)
+###            (d_kleiman)
 ##             (c_imperia)
 
 468 = {       # (b_imperia)
@@ -368,7 +368,7 @@
               holding = castle_holding
 }
 
-###           Norfer (d_norfer)
+###            (d_norfer)
 ##             (c_norfer)
 
 481 = {       # (b_norfer)
@@ -404,7 +404,7 @@
 }
 
 ####           (k_sreng)
-###           Fraldarius (d_fraldarius)
+###            (d_fraldarius)
 ##             (c_fraldarius)
 
 247 = {       # (b_fraldarius)
@@ -491,7 +491,7 @@
               holding = castle_holding
 }
 
-###           Adharc (d_adharc)
+###            (d_adharc)
 ##             (c_adharc)
 
 299 = {       # (b_adharc)
@@ -1144,42 +1144,42 @@
               holding = castle_holding
 }
 
-#####         Adrestia (e_adrestia)
-####          Leicester (k_leicester)
-###           Riegan (d_riegan)
+#####          (e_adrestia)
+####           (k_leicester)
+###            (d_riegan)
 ##             (c_derdriu)
 
-25 = {        # (b_knights)
+25 = {        # (b_derdriu)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-26 = {        # (b_knights)
+26 = {        # (b_concilla)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-27 = {        # (b_knights)
+27 = {        # (b_deerhurst)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-28 = {        # (b_knights)
+28 = {        # (b_braunstone)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-29 = {        # (b_knights)
+29 = {        # (b_oadby)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-30 = {        # (b_knights)
+30 = {        # (b_glenfield)
               culture = leicester
               religion = seirosite
               holding = castle_holding
@@ -1187,19 +1187,19 @@
 
 ##             (c_escomb)
 
-31 = {        # (b_knights)
+31 = {        # (b_escomb)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-32 = {        # (b_knights)
+32 = {        # (b_barcaster)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-33 = {        # (b_knights)
+33 = {        # (b_otterbeck)
               culture = leicester
               religion = seirosite
               holding = castle_holding
@@ -1207,19 +1207,19 @@
 
 ##             (c_wirksworth)
 
-34 = {        # (b_knights)
+34 = {        # (b_wirksworth)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-35 = {        # (b_knights)
+35 = {        # (b_eastmarket)
               culture = leicester
               religion = seirosite
               holding = castle_holding
 }
 
-36 = {        # (b_knights)
+36 = {        # (b_thornwick)
               culture = leicester
               religion = seirosite
               holding = castle_holding
@@ -1285,7 +1285,7 @@
               holding = castle_holding
 }
 
-###           Clarence (d_clarence)
+###            (d_clarence)
 ##             (c_clarence)
 
 46 = {        # (b_clarence)
@@ -1372,7 +1372,7 @@
               holding = castle_holding
 }
 
-###           Myrrdin (d_myrddin)
+###            (d_myrddin)
 ##             (c_myrddin)
 
 59 = {        # (b_myrddin)
@@ -1459,7 +1459,7 @@
               holding = castle_holding
 }
 
-###           Daphnel (d_daphnel)
+###            (d_daphnel)
 ##             (c_daphnel)
 
 72 = {        # (b_daphnel)
@@ -1566,7 +1566,7 @@
               holding = castle_holding
 }
 
-###           Aillel (d_ailell)
+###            (d_ailell)
 ##             (c_ailell)
 
 88 = {        # (b_ailell)
@@ -1601,7 +1601,7 @@
               holding = castle_holding
 }
 
-###           Ordelia (d_ordelia)
+###            (d_ordelia)
 ##             (c_ordelia)
 
 93 = {        # (b_ordelia)
@@ -1688,7 +1688,7 @@
               holding = castle_holding
 }
 
-###           Gloucester (d_gloucester)
+###            (d_gloucester)
 ##             (c_gloucester)
 
 106 = {       # (b_gloucester)
@@ -1815,7 +1815,7 @@
               holding = castle_holding
 }
 
-###           Edmund (d_edmund)
+###            (d_edmund)
 ##             (c_edmund)
 
 125 = {       # (b_edmund)
@@ -1922,7 +1922,7 @@
               holding = castle_holding
 }
 
-###           Kupala (d_kupala)
+###            (d_kupala)
 ##             (c_radava)
 
 141 = {       # (b_radava)
@@ -1969,7 +1969,7 @@
               holding = castle_holding
 }
 
-###           Goneril (d_goneril)
+###            (d_goneril)
 ##             (c_goneril)
 
 148 = {       # (b_goneril)
@@ -2096,7 +2096,7 @@
               holding = castle_holding
 }
 
-###           Atholl (d_atholl)
+###            (d_atholl)
 ##             (c_atholl)
 
 167 = {       # (b_atholl)
@@ -2183,8 +2183,8 @@
               holding = castle_holding
 }
 
-####          Faerghus (k_faerghus)
-###           Blaiddyd (d_blaiddyd)
+####           (k_faerghus)
+###            (d_blaiddyd)
 ##             (c_fhirdiad)
 
 187 = {       # (b_fhirdiad)
@@ -2323,7 +2323,7 @@
               holding = castle_holding
 }
 
-###           Galatea (d_galatea)
+###            (d_galatea)
 ##             (c_galatea)
 
 208 = {       # (b_galatea)
@@ -2410,7 +2410,7 @@
               holding = castle_holding
 }
 
-###           Charon (d_charon)
+###            (d_charon)
 ##             (c_charon)
 
 221 = {       # (b_charon)
@@ -2497,7 +2497,7 @@
               holding = castle_holding
 }
 
-###           Conand (d_conand)
+###            (d_conand)
 ##             (c_conand)
 
 234 = {       # (b_conand)
@@ -2584,7 +2584,7 @@
               holding = castle_holding
 }
 
-###           Gautier (d_gautier)
+###            (d_gautier)
 ##             (c_gautier)
 
 260 = {       # (b_gautier)
@@ -2671,7 +2671,7 @@
               holding = castle_holding
 }
 
-###           Itha (d_itha)
+###            (d_itha)
 ##             (c_itha)
 
 273 = {       # (b_itha)
@@ -2758,7 +2758,7 @@
               holding = castle_holding
 }
 
-###           Langres (d_langres)
+###            (d_langres)
 ##             (c_langres)
 
 286 = {       # (b_langres)
@@ -2845,7 +2845,7 @@
               holding = castle_holding
 }
 
-###           Magdred (d_magdred)
+###            (d_magdred)
 ##             (c_magdred)
 
 309 = {       # (b_magdred)
@@ -2912,7 +2912,7 @@
               holding = castle_holding
 }
 
-###           Lalonde (d_lalonde)
+###            (d_lalonde)
 ##             (c_lalonde)
 
 319 = {       # (b_lalonde)
@@ -2999,7 +2999,7 @@
               holding = castle_holding
 }
 
-###           Roland (d_roland)
+###            (d_roland)
 ##             (c_roland)
 
 332 = {       # (b_roland)
@@ -3086,7 +3086,7 @@
               holding = castle_holding
 }
 
-###           Gaspard (d_gaspard)
+###            (d_gaspard)
 ##             (c_gaspard)
 
 345 = {       # (b_gaspard)
@@ -3173,7 +3173,7 @@
               holding = castle_holding
 }
 
-###           Rowe (d_rowe)
+###            (d_rowe)
 ##             (c_rowe)
 
 358 = {       # (b_rowe)
@@ -3260,7 +3260,7 @@
               holding = castle_holding
 }
 
-###           Gideon (d_gideon)
+###            (d_gideon)
 ##             (c_gideon)
 
 371 = {       # (b_gideon)
@@ -3347,7 +3347,7 @@
               holding = castle_holding
 }
 
-###           Mateus (d_mateus)
+###            (d_mateus)
 ##             (c_mateus)
 
 384 = {       # (b_mateus)
@@ -3434,7 +3434,7 @@
               holding = castle_holding
 }
 
-###           Genevieve (d_genevieve)
+###            (d_genevieve)
 ##             (c_genevieve)
 
 397 = {       # (b_genevieve)
@@ -3521,7 +3521,7 @@
               holding = castle_holding
 }
 
-###           Brume (d_brume)
+###            (d_brume)
 ##             (c_brume)
 
 410 = {       # (b_brume)
@@ -3562,7 +3562,7 @@
               holding = castle_holding
 }
 
-###           Lucain (d_lucain)
+###            (d_lucain)
 ##             (c_lucain)
 
 416 = {       # (b_lucain)
@@ -3649,7 +3649,7 @@
               holding = castle_holding
 }
 
-###           Zacharie (d_zacharie)
+###            (d_zacharie)
 ##             (c_zacharie)
 
 429 = {       # (b_zacharie)
@@ -3736,7 +3736,7 @@
               holding = castle_holding
 }
 
-###           Rhodos (d_rhodos)
+###            (d_rhodos)
 ##             (c_rhodos)
 
 442 = {       # (b_rhodos)
@@ -3829,8 +3829,8 @@
               holding = castle_holding
 }
 
-####          Adrestia (k_adrestia)
-###           Enbarr (d_enbarr)
+####           (k_adrestia)
+###            (d_enbarr)
 ##             (c_enbarr)
 
 486 = {       # (b_enbarr)
@@ -3969,7 +3969,7 @@
               holding = castle_holding
 }
 
-###           Hresvelg (d_hresvelg)
+###            (d_hresvelg)
 ##             (c_hresvelg)
 
 507 = {       # (b_hresvelg)
@@ -4076,10 +4076,10 @@
               holding = castle_holding
 }
 
-###           Hrym (d_hrym)
-##             (c_hrymm)
+###            (d_hrym)
+##             (c_hrym)
 
-523 = {       # (b_hrymm)
+523 = {       # (b_hrym)
               culture = adrestian
               religion = ablehnist
               holding = castle_holding
@@ -4177,7 +4177,7 @@
               holding = castle_holding
 }
 
-###           Niendorf (d_niendorf)
+###            (d_niendorf)
 ##             (c_niendorf)
 
 538 = {       # (b_niendorf)
@@ -4244,7 +4244,7 @@
               holding = castle_holding
 }
 
-###           Gronder (d_gronder)
+###            (d_gronder)
 ##             (c_gronder)
 
 548 = {       # (b_gronder)
@@ -4331,7 +4331,7 @@
               holding = castle_holding
 }
 
-###           Airmid (d_airmid)
+###            (d_airmid)
 ##             (c_airmid)
 
 561 = {       # (b_airmid)
@@ -4418,7 +4418,7 @@
               holding = castle_holding
 }
 
-###           Rugen (d_rugen)
+###            (d_rugen)
 ##             (c_rugen)
 
 574 = {       # (b_rugen)
@@ -4453,7 +4453,7 @@
               holding = castle_holding
 }
 
-###           Aegir (d_aegir)
+###            (d_aegir)
 ##             (c_aegir)
 
 579 = {       # (b_aegir)
@@ -4574,7 +4574,7 @@
               holding = castle_holding
 }
 
-###           Varley (d_varley)
+###            (d_varley)
 ##             (c_varley)
 
 597 = {       # (b_varley)
@@ -4681,7 +4681,7 @@
               holding = castle_holding
 }
 
-###           Bergliez (d_bergliez)
+###            (d_bergliez)
 ##             (c_bergliez)
 
 613 = {       # (b_bergliez)
@@ -4768,7 +4768,7 @@
               holding = castle_holding
 }
 
-###           Stieglitz (d_stieglitz)
+###            (d_stieglitz)
 ##             (c_stieglitz)
 
 626 = {       # (b_stieglitz)
@@ -4855,7 +4855,7 @@
               holding = castle_holding
 }
 
-###           Gerth (d_gerth)
+###            (d_gerth)
 ##             (c_gerth)
 
 639 = {       # (b_gerth)
@@ -4942,7 +4942,7 @@
               holding = castle_holding
 }
 
-###           Rysalka (d_rusalka)
+###            (d_rusalka)
 ##             (c_rusalka)
 
 652 = {       # (b_rusalka)
@@ -5029,10 +5029,10 @@
               holding = castle_holding
 }
 
-###           Boramas (d_boramas)
-##             (c_boromas)
+###            (d_boramas)
+##             (c_boramas)
 
-665 = {       # (b_boromas)
+665 = {       # (b_boramas)
               culture = adrestian
               religion = ablehnist
               holding = castle_holding
@@ -5116,7 +5116,7 @@
               holding = castle_holding
 }
 
-###           Morgaine (d_morgaine)
+###            (d_morgaine)
 ##             (c_morgaine)
 
 678 = {       # (b_morgaine)
@@ -5223,7 +5223,7 @@
               holding = castle_holding
 }
 
-###           Essar (d_essar)
+###            (d_essar)
 ##             (c_essar)
 
 694 = {       # (b_essar)
@@ -5290,7 +5290,7 @@
               holding = castle_holding
 }
 
-###           Engel (d_engel)
+###            (d_engel)
 ##             (c_engel)
 
 704 = {       # (b_engel)
@@ -5337,8 +5337,8 @@
               holding = castle_holding
 }
 
-####          Fangs (k_fangs)
-###           Olrun (d_olrun)
+####           (k_fangs)
+###            (d_olrun)
 ##             (c_olrun)
 
 711 = {       # (b_olrun)
@@ -5425,7 +5425,7 @@
               holding = castle_holding
 }
 
-###           Hevring (d_hevring)
+###            (d_hevring)
 ##             (c_hevring)
 
 725 = {       # (b_hevring)
@@ -5526,7 +5526,7 @@
               holding = castle_holding
 }
 
-###           Reiss (d_reiss)
+###            (d_reiss)
 ##             (c_reiss)
 
 740 = {       # (b_reiss)
@@ -5613,7 +5613,7 @@
               holding = castle_holding
 }
 
-###            (d_ochs)
+###            (d_holgr)
 ##             (c_ochs)
 
 753 = {       # (b_ochs)
@@ -5700,7 +5700,7 @@
               holding = castle_holding
 }
 
-###           Bartels (d_bartels)
+###            (d_bartels)
 ##             (c_bartels)
 
 766 = {       # (b_bartels)
@@ -5787,7 +5787,7 @@
               holding = castle_holding
 }
 
-###           Nuvelle (d_nuvelle)
+###            (d_nuvelle)
 ##             (c_nuvelle)
 
 779 = {       # (b_nuvelle)
@@ -5874,7 +5874,7 @@
               holding = castle_holding
 }
 
-###           Skade (d_skade)
+###            (d_skade)
 ##             (c_skade)
 
 792 = {       # (b_skade)
@@ -5969,7 +5969,7 @@
               holding = castle_holding
 }
 
-###           Brionac (d_brionac)
+###            (d_brionac)
 ##             (c_brionac)
 
 806 = {       # (b_brionac)
@@ -6056,7 +6056,7 @@
               holding = castle_holding
 }
 
-###           Sleipner (d_sleipner)
+###            (d_sleipner)
 ##             (c_sleipner)
 
 819 = {       # (b_sleipner)
@@ -6163,7 +6163,7 @@
               holding = castle_holding
 }
 
-###           Arundel (d_arundel)
+###            (d_arundel)
 ##             (c_arundel)
 
 835 = {       # (b_arundel)
@@ -6284,7 +6284,7 @@
               holding = castle_holding
 }
 
-###           Schwan (d_schwan)
+###            (d_schwan)
 ##             (c_schwan)
 
 853 = {       # (b_schwan)
@@ -6351,7 +6351,7 @@
               holding = castle_holding
 }
 
-###           Huldra (d_huldra)
+###            (d_huldra)
 ##             (c_huldra)
 
 863 = {       # (b_huldra)
@@ -6438,7 +6438,7 @@
               holding = castle_holding
 }
 
-###           Oghma (d_oghma)
+###            (d_oghma)
 ##             (c_oghma)
 
 876 = {       # (b_oghma)
@@ -6538,13 +6538,13 @@
 
 890 = {       # (b_banten)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 891 = {       # (b_tamao)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6552,19 +6552,19 @@
 
 892 = {       # (b_lembak)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 893 = {       # (b_kamnom)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 894 = {       # (b_takesar)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6573,19 +6573,19 @@
 
 895 = {       # (b_ardnamurchan)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 896 = {       # (b_pangrun)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 897 = {       # (b_temelina)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6593,19 +6593,19 @@
 
 898 = {       # (b_suiochan)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 899 = {       # (b_poneriana)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 900 = {       # (b_gormen)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6613,19 +6613,19 @@
 
 901 = {       # (b_cheviot)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 902 = {       # (b_tuamde)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 903 = {       # (b_bhanecoire)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6633,25 +6633,25 @@
 
 904 = {       # (b_cuilin)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 905 = {       # (b_nediona)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 906 = {       # (b_tirknowe)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 907 = {       # (b_mhelek)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6727,19 +6727,19 @@
 
 918 = {       # (b_bhearaig)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 919 = {       # (b_kanono)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 920 = {       # (b_sailurlar)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6747,19 +6747,19 @@
 
 921 = {       # (b_bennevis)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 922 = {       # (b_seanroe)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 923 = {       # (b_bhano)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6767,19 +6767,19 @@
 
 924 = {       # (b_bryniau)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 925 = {       # (b_gondou)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 926 = {       # (b_garbhdubh)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6787,25 +6787,25 @@
 
 927 = {       # (b_briosto)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 928 = {       # (b_lisiath)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 929 = {       # (b_buiglen)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
 930 = {       # (b_cruachoma)
               culture = brigid
-              religion = fuale
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -6941,19 +6941,19 @@
 ##             (c_bhila)
 
 948 = {       # (b_bhila)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
 
 949 = {       # (b_bhanut)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
 
 950 = {       # (b_saramea)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
@@ -6961,25 +6961,25 @@
 ##             (c_eularia)
 
 951 = {       # (b_eularia)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
 
 952 = {       # (b_kilcannor)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
 
 953 = {       # (b_bhacoill)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
 
 954 = {       # (b_eskra)
-              culture = brigid
+              culture = cermaitan
               religion = fuale
               holding = castle_holding
 }
@@ -6987,20 +6987,20 @@
 ##             (c_talaia)
 
 955 = {       # (b_talaia)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 956 = {       # (b_bonde)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 957 = {       # (b_mea)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
@@ -7008,80 +7008,80 @@
 ##             (c_pidhusa)
 
 960 = {       # (b_pidhusa)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 961 = {       # (b_bhara)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_pailme)
 
 962 = {       # (b_pailme)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 963 = {       # (b_nato)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 964 = {       # (b_nathalo)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_coipeadh)
 
 965 = {       # (b_coipeadh)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 966 = {       # (b_deulu)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 967 = {       # (b_portaobh)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_manacor)
 
 968 = {       # (b_manacor)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 969 = {       # (b_tearmann)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 970 = {       # (b_oileanaloa)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 971 = {       # (b_achadbonara)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
@@ -7089,66 +7089,66 @@
 ##             (c_dun_midh)
 
 972 = {       # (b_dun_midh)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 973 = {       # (b_bealachbhakana)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 974 = {       # (b_ambalatsopka)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 975 = {       # (b_tabhlamena)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_gliomach)
 
 976 = {       # (b_gliomach)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 977 = {       # (b_amlaibhitaka)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 978 = {       # (b_bhndrkely)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_inis_portan)
 
 979 = {       # (b_inis_portan)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 980 = {       # (b_ambundoran)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
 981 = {       # (b_masamenoe)
-              culture = brigid
-              religion = fuale
+              culture = cermaitan
+              religion = gaothe
               holding = castle_holding
 }
 
@@ -7157,7 +7157,7 @@
 ##             (c_gearr)
 
 982 = {       # (b_gearr)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
@@ -7165,13 +7165,13 @@
 ##             (c_dubh)
 
 983 = {       # (b_dubh)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
 
 984 = {       # (b_sceachdany)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
@@ -7179,14 +7179,14 @@
 ##             (c_fhada)
 
 985 = {       # (b_fhada)
-              culture = brigid
-              religion = fuale
+              culture = aengese
+              religion = lamhach
               holding = castle_holding
 }
 
 986 = {       # (b_bebhada)
-              culture = brigid
-              religion = fuale
+              culture = aengese
+              religion = lamhach
               holding = castle_holding
 }
 
@@ -7194,19 +7194,19 @@
 ##             (c_hobart)
 
 987 = {       # (b_hobart)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
 
 988 = {       # (b_kamendrigarbh)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
 
 989 = {       # (b_dromdillach)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
@@ -7214,19 +7214,19 @@
 ##             (c_ewan)
 
 990 = {       # (b_ewan)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
 
 991 = {       # (b_dunbabet)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
 
 992 = {       # (b_ambolidha)
-              culture = brigid
+              culture = aengese
               religion = fuale
               holding = castle_holding
 }
@@ -7235,86 +7235,86 @@
 ##             (c_gadhura)
 
 993 = {       # (b_gadhura)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 994 = {       # (b_maroliath)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 995 = {       # (b_muilleala)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_ardara)
 
 996 = {       # (b_ardara)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 997 = {       # (b_ankodona)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 998 = {       # (b_orla)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 999 = {       # (b_marindonacill)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_talamcrainn)
 
 1000 = {      # (b_talamcrainn)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 1001 = {      # (b_analodore)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 1002 = {      # (b_miantsoaribho)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 ##             (c_sanluri)
 
 1003 = {      # (b_sanluri)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 1004 = {      # (b_andregorua)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
 1005 = {      # (b_maharibho)
-              culture = brigid
-              religion = fuale
+              culture = aedin
+              religion = gaothe
               holding = castle_holding
 }
 
@@ -7323,60 +7323,60 @@
 ##             (c_drepano)
 
 1006 = {      # (b_drepano)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1007 = {      # (b_sahatsorua)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1008 = {      # (b_ambongatsara)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 ##             (c_elymia)
 
 1009 = {      # (b_elymia)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1010 = {      # (b_anosibhelo)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1011 = {      # (b_bharisato)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 ##             (c_inis_motidha)
 
 1012 = {      # (b_inis_motidha)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1013 = {      # (b_beantaramay)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1014 = {      # (b_abhe)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
@@ -7384,66 +7384,66 @@
 ##             (c_syrako)
 
 1015 = {      # (b_syrako)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1016 = {      # (b_antezamorua)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1017 = {      # (b_ankiabhe)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1018 = {      # (b_zorua)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 ##             (c_thapso)
 
 1019 = {      # (b_thapso)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1020 = {      # (b_analamuileann)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1021 = {      # (b_ballyport)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 ##             (c_hiero)
 
 1022 = {      # (b_hiero)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1023 = {      # (b_bhorua)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 
 1024 = {      # (b_ennislurgan)
-              culture = brigid
-              religion = fuale
+              culture = dergish
+              religion = talahm_ithir
               holding = castle_holding
 }
 

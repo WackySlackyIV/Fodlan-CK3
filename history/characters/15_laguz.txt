@@ -1,6 +1,6 @@
 1500000 = {
 	name="Chiffon"
-	religion="seirosite"
+	religion = "seirosite"
 	culture="wolfskin"
 
 	trait = wolfskin
@@ -17,7 +17,7 @@
 
 1500001 = {
 	name="Kitsune"
-	religion="seirosite"
+	religion = "seirosite"
 	culture="kitsune"
 
 	trait = kitsune
@@ -34,7 +34,7 @@
 
 1500002 = {
 	name="Taguel"
-	religion="seirosite"
+	religion = "seirosite"
 	culture="taguel"
 
 	trait = taguel

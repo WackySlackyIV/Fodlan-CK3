@@ -180,7 +180,7 @@ olgail_bilog_religion = {
 	faiths = {
 		lamhach  = { #fire
 			color = { 255 95 26 }
-            icon = tengri
+            icon = fire_spiritualism
             
 			holy_site = cuilin
 			holy_site = hobart
@@ -197,7 +197,7 @@ olgail_bilog_religion = {
 		}
 		fuale = { #water
 			color = { 11 176 246 }
-            icon = tengri
+            icon = water_spiritualism
             
 			holy_site = skyrne
 			holy_site = ardara
@@ -214,7 +214,7 @@ olgail_bilog_religion = {
 		}
 		talahm_ithir = { #earth
 			color = { 229 229 22 }
-            icon = tengri
+            icon = earth_spiritualism
             
 			holy_site = thapso
 			holy_site = cuilin
@@ -231,7 +231,7 @@ olgail_bilog_religion = {
 		}
 		gaothe = { #wind
 			color = { 54 210 30 }
-            icon = tengri
+            icon = wind_spiritualism
             
 			holy_site = eularia
 			holy_site = gliomach

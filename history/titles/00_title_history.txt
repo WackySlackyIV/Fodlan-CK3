@@ -1417,6 +1417,7 @@ c_brume = {
 c_torraine = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = d_brume
                             holder = 300061
               }
 }
@@ -3539,7 +3540,7 @@ c_inabad = {
 
 c_harikhanagar = {
               1.1.1 = { change_development_level = 1 }
-              .1.1 = {
+              1180.1.1 = {
                             holder = 1500001
               }
 }
