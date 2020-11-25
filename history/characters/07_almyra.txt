@@ -1,4 +1,12 @@
-
+#Cause of large region, char file is split up in regions
+#700000 Almyra
+#710000 Pamea
+#720000 Atra
+#730000 Takht E Atar
+#740000 Imrud
+#750000 Lian
+#760000 Ineveh
+#770000 Horsabad
 
 700000 = {
 	name="Father Claude"
