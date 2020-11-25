@@ -1,0 +1,276 @@
+1400000 = {
+	name="66"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400001 = {
+	name="67"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400002 = {
+	name="68"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400003 = {
+	name="69"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400004 = {
+	name="70"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400005 = {
+	name="71"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400006 = {
+	name="85"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400007 = {
+	name="86"
+	religion="dinymori"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+################
+
+1400008 = {
+	name="87"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400009 = {
+	name="88"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400010 = {
+	name="89"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400011 = {
+	name="90"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400012 = {
+	name="91"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400013 = {
+	name="92"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400014 = {
+	name="93"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400015 = {
+	name="94"
+	religion="lmabhal"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+####################
+
+1400016 = {
+	name="95"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400017 = {
+	name="96"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400018 = {
+	name="97"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400019 = {
+	name="98"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400020 = {
+	name="99"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}

@@ -1,0 +1,12 @@
+1600000 = {
+	name="100"
+	religion="tenolotiskardias_faith"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}

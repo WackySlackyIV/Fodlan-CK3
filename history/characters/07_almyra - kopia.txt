@@ -8,960 +8,960 @@
 #760000 Ineveh
 #770000 Horsabad
 
-700000 = {
-	name="Father Claude"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700001 = {
-	name="Nader"
-	religion="kizilisma"
-	culture="almyran"
-
-	martial = 10
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700002 = {
-	name="Claude brother 1"
-	religion="kizilisma"
-	culture="almyran"
-	father = 700000
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700003 = {
-	name="Claude brother 2"
-	religion="kizilisma"
-	culture="almyran"
-	father = 700000
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700004 = {
-	name="Claude brother 3"
-	religion="kizilisma"
-	culture="almyran"
-	father = 700000
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700005 = {
-	name="1"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700006 = {
-	name="2"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700007 = {
-	name="3"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700008 = {
-	name="4"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700009 = {
-	name="5"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700010 = {
-	name="6"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700011 = {
-	name="7"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700012 = {
-	name="8"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700013 = {
-	name="9"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700014 = {
-	name="10"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700015 = {
-	name="11"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700016 = {
-	name="12"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700017 = {
-	name="13"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700018 = {
-	name="14"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-700019 = {
-	name="16"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-#############
-### Pamea ###
-#############
-
-710001 = {
-	name="15"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710002 = {
-	name="17"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710003 = {
-	name="18"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710004 = {
-	name="19"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710005 = {
-	name="20"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710006 = {
-	name="21"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710007 = {
-	name="22"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-710008 = {
-	name="23"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-############
-### Atra ###
-############
-
-720000 = {
-	name="24"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720001 = {
-	name="25"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720002 = {
-	name="26"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720003 = {
-	name="27"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720004 = {
-	name="29"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720005 = {
-	name="30"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720006 = {
-	name="31"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720007 = {
-	name="32"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720008 = {
-	name="33"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720009 = {
-	name="51"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720010 = {
-	name="52"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-720011 = {
-	name="53"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-####################
-### Takht E Atar ###
-####################
-
-730001 = {
-	name="34"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-730002 = {
-	name="35"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-
-730003 = {
-	name="36"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-
-730004 = {
-	name="38"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-#############
-### Imrud ###
-#############
-
-740000 = {
-	name="28"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-740001 = {
-	name="46"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-740002 = {
-	name="47"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-740003 = {
-	name="48"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-740004 = {
-	name="49"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-740005 = {
-	name="50"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-############
-### Lian ###
-############
-
-750000 = {
-	name="37"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-750001 = {
-	name="39"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-750002 = {
-	name="40"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-750003 = {
-	name="41"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-750004 = {
-	name="42"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-750005 = {
-	name="43"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-750006 = {
-	name="44"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
+#700000 = {
+#	name="Father Claude"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700001 = {
+#	name="Nader"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	martial = 10
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1181.1.1 = {
+#		give_nickname = nick_the_undefeated
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700002 = {
+#	name="Claude brother 1"
+#	religion="kizilisma"
+#	culture="almyran"
+#	father = 700000
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1181.1.1 = {
+#		give_nickname = nick_the_undefeated
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700003 = {
+#	name="Claude brother 2"
+#	religion="kizilisma"
+#	culture="almyran"
+#	father = 700000
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1181.1.1 = {
+#		give_nickname = nick_the_undefeated
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700004 = {
+#	name="Claude brother 3"
+#	religion="kizilisma"
+#	culture="almyran"
+#	father = 700000
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1181.1.1 = {
+#		give_nickname = nick_the_undefeated
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700005 = {
+#	name="1"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700006 = {
+#	name="2"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700007 = {
+#	name="3"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700008 = {
+#	name="4"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700009 = {
+#	name="5"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700010 = {
+#	name="6"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700011 = {
+#	name="7"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700012 = {
+#	name="8"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700013 = {
+#	name="9"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700014 = {
+#	name="10"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700015 = {
+#	name="11"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700016 = {
+#	name="12"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700017 = {
+#	name="13"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700018 = {
+#	name="14"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#700019 = {
+#	name="16"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
 ##############
-### Ineveh ###
+#### Pamea ###
 ##############
-
-760000 = {
-	name="45"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-760001 = {
-	name="54"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-760002 = {
-	name="55"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-760003 = {
-	name="56"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-760004 = {
-	name="57"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-760005 = {
-	name="58"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-
-################
-### Horsabad ###
-################
-
-770000 = {
-	name="59"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-770001 = {
-	name="60"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-770002 = {
-	name="61"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-770003 = {
-	name="62"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-770004 = {
-	name="63"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-770005 = {
-	name="64"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-770006 = {
-	name="65"
-	religion="kizilisma"
-	culture="almyran"
-
-	1121.6.22 = {
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
+#
+#710001 = {
+#	name="15"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710002 = {
+#	name="17"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710003 = {
+#	name="18"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710004 = {
+#	name="19"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710005 = {
+#	name="20"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710006 = {
+#	name="21"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710007 = {
+#	name="22"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#710008 = {
+#	name="23"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#############
+#### Atra ###
+#############
+#
+#720000 = {
+#	name="24"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720001 = {
+#	name="25"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720002 = {
+#	name="26"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720003 = {
+#	name="27"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720004 = {
+#	name="29"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720005 = {
+#	name="30"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720006 = {
+#	name="31"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720007 = {
+#	name="32"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720008 = {
+#	name="33"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720009 = {
+#	name="51"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720010 = {
+#	name="52"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#720011 = {
+#	name="53"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#####################
+#### Takht E Atar ###
+#####################
+#
+#730001 = {
+#	name="34"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#730002 = {
+#	name="35"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#
+#730003 = {
+#	name="36"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#
+#730004 = {
+#	name="38"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+##############
+#### Imrud ###
+##############
+#
+#740000 = {
+#	name="28"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#740001 = {
+#	name="46"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#740002 = {
+#	name="47"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#740003 = {
+#	name="48"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#740004 = {
+#	name="49"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#740005 = {
+#	name="50"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#############
+#### Lian ###
+#############
+#
+#750000 = {
+#	name="37"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#750001 = {
+#	name="39"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#750002 = {
+#	name="40"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#750003 = {
+#	name="41"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#750004 = {
+#	name="42"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#750005 = {
+#	name="43"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#750006 = {
+#	name="44"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+###############
+#### Ineveh ###
+###############
+#
+#760000 = {
+#	name="45"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#760001 = {
+#	name="54"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#760002 = {
+#	name="55"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#760003 = {
+#	name="56"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#760004 = {
+#	name="57"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#760005 = {
+#	name="58"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#
+#################
+#### Horsabad ###
+#################
+#
+#770000 = {
+#	name="59"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#770001 = {
+#	name="60"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#770002 = {
+#	name="61"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#770003 = {
+#	name="62"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#770004 = {
+#	name="63"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#770005 = {
+#	name="64"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
+#
+#770006 = {
+#	name="65"
+#	religion="kizilisma"
+#	culture="almyran"
+#
+#	1121.6.22 = {
+#		birth=yes
+#	}
+#	1200.1.1={
+#		death=yes
+#	}
+#}
