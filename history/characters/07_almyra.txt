@@ -9,9 +9,10 @@
 #770000 Horsabad
 
 700000 = {
-	name="Father Claude"
+	name="Milad"
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 700
 
 	1121.6.22 = {
 		birth=yes
@@ -25,6 +26,7 @@
 	name="Nader"
 	religion="kizilisma"
 	culture="almyran"
+	
 
 	martial = 10
 
@@ -43,13 +45,11 @@
 	name="Claude brother 1"
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 700
 	father = 700000
 
 	1121.6.22 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
 	}
 	1200.1.1={
 		death=yes
@@ -60,13 +60,11 @@
 	name="Claude brother 2"
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 700
 	father = 700000
 
 	1121.6.22 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
 	}
 	1200.1.1={
 		death=yes
@@ -77,13 +75,11 @@
 	name="Claude brother 3"
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 700
 	father = 700000
 
 	1121.6.22 = {
 		birth=yes
-	}
-	1181.1.1 = {
-		give_nickname = nick_the_undefeated
 	}
 	1200.1.1={
 		death=yes
@@ -91,11 +87,12 @@
 }
 
 700005 = {
-	name="1"
+	name="Borzou" #1
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 701
 
-	1121.6.22 = {
+	1152.1.2 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -104,9 +101,9 @@
 }
 
 700006 = {
-	name="2"
-	religion="kizilisma"
-	culture="almyran"
+	name="Heydar" #2
+	religion="beyazisma"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -117,9 +114,11 @@
 }
 
 700007 = {
-	name="3"
+	name="Nasrin" #3
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 700
+	
 
 	1121.6.22 = {
 		birth=yes
@@ -156,11 +155,12 @@
 }
 
 700010 = {
-	name="6"
+	name="Mahyar" #6
 	religion="kizilisma"
 	culture="almyran"
+	dynasty = 700
 
-	1121.6.22 = {
+	1144.2.11 = {
 		birth=yes
 	}
 	1200.1.1={

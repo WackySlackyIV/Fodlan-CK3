@@ -280,8 +280,7 @@
 	culture="faerghus"
 }
 
-206= #Duscur
-{
+206 = { 
 	name="Molinaro"
 	culture="faerghus"
 }
@@ -1028,6 +1027,21 @@
 	name="af Snop"
 	culture="adrestian"
 }
+
+##############
+### Almyra ###
+##############
+
+700 = {
+	name = "Malikğlu"
+	culture="almyran"
+}
+
+701 = {
+	name = "Behid"
+	culture = "almyran"
+}
+
 ##############
 ### Reqonn ###
 ##############
