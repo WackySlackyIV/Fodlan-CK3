@@ -831,7 +831,7 @@
 	}
 }
 
-760003 = {
+760003 = { #####################################DELETE/CHANGE
 	name="56"
 	religion="kizilisma"
 	culture="almyran"
