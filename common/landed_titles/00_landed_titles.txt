@@ -11584,7 +11584,7 @@ e_brigid = {
                             color = { 66 36 74 }
                             color2 = { 255 255 255 }
                             
-                            capital = c_drepano
+                            capital = c_syrako
                             
                             d_motidha = {
                                           color = { 255 0 255 }
@@ -14774,7 +14774,7 @@ e_al_mihra = {
                                                         color = { 61 54 26 }
                                                         color2 = { 255 255 255 }
                                                         
-                                                        b_koshdara = {
+                                                        b_khoshdara = {
                                                                       province = 1364
                                                                       
                                                                       color = { 61 54 26 }
