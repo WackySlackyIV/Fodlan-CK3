@@ -1839,7 +1839,7 @@
 128 = {       # (b_brierlay)
               culture = leicester
               religion = seirosite
-              holding = city_holding
+              holding = none
 }
 
 ##             (c_ely)
@@ -1873,13 +1873,13 @@
 133 = {       # (b_darwen)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 134 = {       # (b_nelson)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_alfreton)
@@ -1893,13 +1893,13 @@
 136 = {       # (b_barwick)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 137 = {       # (b_colmore)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_jarrow)
@@ -1913,13 +1913,13 @@
 139 = {       # (b_ledbury)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 140 = {       # (b_wetherby)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_kupala)
@@ -1934,13 +1934,13 @@
 142 = {       # (b_devana)
               culture = kupalan
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 143 = {       # (b_ciza)
               culture = kupalan
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kupala)
@@ -1954,19 +1954,19 @@
 145 = {       # (b_perperuna)
               culture = kupalan
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 146 = {       # (b_dodola)
               culture = kupalan
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 147 = {       # (b_dillia)
               culture = kupalan
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_goneril)
@@ -9208,7 +9208,7 @@
 ###            (d_vezm)
 ##             (c_khoshdara)
 
-1364 = {      # (b_koshdara)
+1364 = {      # (b_khoshdara)
               culture = almyran
               religion = kizilisma
               holding = castle_holding

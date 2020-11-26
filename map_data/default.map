@@ -24,6 +24,8 @@ sea_zones = RANGE { 1969 2057  }
 # MAJOR RIVERS
 ###############
 
+river_provinces = RANGE { 2061 2077 }
+
 ########
 # LAKES
 ########
