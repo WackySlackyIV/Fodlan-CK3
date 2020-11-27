@@ -337,7 +337,10 @@ dna_dimitri = {
  		eyelashes_accessory={ "normal_eyelashes" 154 "normal_eyelashes" 154 }
  		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		special_headgear_head_bandage={ "" 0 "head_bandage" 0 }
- 		special_headgear_eye_patch={ "eye_patch" 0 "eye_patch" 0 }
+ 		clothes={ "indian_war_nobility_clothes" 0 "most_clothes" 0 }
+         	legwear={ "western_common_legwear" 0 "all_legwear" 0 }
+         	cloaks={ "western_royalty" 0 "no_cloak" 0 }
+        	special_headgear_eye_patch={ "eye_patch" 0 "eye_patch" 0 }
 		}
 	entity={ 0 0 }
 	}	
@@ -789,6 +792,10 @@ dna_edelgard = {
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
  		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
+		headgear={ "dde_hre_royalty" 0 "no_headgear" 0 }
+		clothes={ "byzantine_high_nobility_clothes" 255 "most_clothes" 0 }
+		legwear={ "western_war_legwear" 0 "all_legwear" 0 }
+		cloaks={ "western_royalty" 0 "no_cloak" 0 }
  		}
 	entity={ 0 0 }
 	}
@@ -2035,6 +2042,8 @@ dna_claude = {
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 14 "normal_eyelashes" 14 }
  		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
+ 		clothes={ "indian_high_nobility_clothes" 255 "most_clothes" 0 }
+		legwear={ "western_war_legwear" 0 "all_legwear" 0 }
 		}
 	entity={ 0 0 }
 	}

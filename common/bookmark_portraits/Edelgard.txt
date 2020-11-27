@@ -110,10 +110,10 @@ Edelgard={
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
  		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		pose={ "" 255 "" 0 }
- 		cloaks={ "western_royalty" 126 "no_cloak" 0 }
- 		clothes={ "western_imperial_clothes" 92 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 191 "no_headgear" 0 }
- 		legwear={ "western_common_legwear" 57 "all_legwear" 0 }
+ 		clothes={ "byzantine_high_nobility_clothes" 255 "most_clothes" 0 }
+         	legwear={ "western_war_legwear" 0 "all_legwear" 0 }
+         	cloaks={ "western_royalty" 0 "no_cloak" 0 }
+		headgear={ "dde_hre_royalty" 0 "no_headgear" 0 }
  }
 	entity={ 979141817 979141817 }
 }

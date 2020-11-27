@@ -110,10 +110,10 @@ Dimitri={
  		eyelashes_accessory={ "normal_eyelashes" 154 "normal_eyelashes" 154 }
  		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		pose={ "" 255 "" 0 }
- 		cloaks={ "western_royalty" 105 "no_cloak" 0 }
- 		clothes={ "western_royalty_clothes" 190 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 158 "no_headgear" 0 }
- 		legwear={ "western_common_legwear" 220 "all_legwear" 0 }
+		clothes={ "indian_war_nobility_clothes" 0 "most_clothes" 0 }
+         	legwear={ "western_common_legwear" 0 "all_legwear" 0 }
+         	cloaks={ "western_royalty" 0 "no_cloak" 0 }
+         	special_headgear_eye_patch={ "eye_patch" 0 "eye_patch" 0 }
  }
 	entity={ 3942081117 3942081117 }
 }
