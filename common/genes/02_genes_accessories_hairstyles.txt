@@ -312,16 +312,28 @@ accessory_genes = {
 						##############
 						### CUSTOM ###
 						##############
+						
+		all_custom_hairstyles = {
+			index = 13
+			male = {
+				1 = male_hair_dimitri
+			}
+			
+			female = {	
+				1 = female_hair_edelgard_academy
+				1 = female_hair_edelgard_newgame
+			}
+			boy = male
+			girl = female
+		} 				
 		
 		edelgard_hairstyles = {
-			index = 13
+			index = 14
 			male = {
 			}
 			
 			female = {
-				1 = female_hair_edelgard		
-				1 = female_hair_edelgard_academy
-				1 = female_hair_edelgard_newgame
+				1 = female_hair_edelgard
 			}
 			boy = male
 			girl = female
