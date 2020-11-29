@@ -1,0 +1,23 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+##################
+#	  MALE		#
+##################
+
+
+## Special ##
+
+male_headgear_special_eye_patch_02 = {	
+	entity = { required_tags = ""			shared_pose_entity = head		entity = male_headgear_special_eye_patch_02_entity 	 }		
+}
+
+##################
+#	  FEMALE	#
+##################
+
+
+## Special ##
+
+female_headgear_special_eye_patch_02 = {	
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_special_eye_patch_02_entity 	 }		
+}
