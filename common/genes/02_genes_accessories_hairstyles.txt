@@ -317,6 +317,7 @@ accessory_genes = {
 			index = 13
 			male = {
 				1 = male_hair_dimitri
+				1 = male_hair_claude
 			}
 			
 			female = {	

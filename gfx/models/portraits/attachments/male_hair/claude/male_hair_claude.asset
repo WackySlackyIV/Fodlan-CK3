@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "male_hair_claude_mesh"
+	file = "male_hair_claude.mesh"
+
+	meshsettings = {
+		name = "male_hair_claude_piercingShape"
+		index = 0
+		texture_diffuse = "male_hair_claude_piercing_diffuse.dds"
+		texture_normal = "male_hair_claude_piercing_normal.dds"
+		texture_specular = "male_hair_claude_piercing_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "male_hair_claudeShape"
+		index = 0
+		texture_diffuse = "male_hair_claude_diffuse.dds"
+		texture_normal = "male_hair_claude_normal.dds"
+		texture_specular = "male_hair_claude_properties.dds"
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "male_hair_claude_entity"
+	pdxmesh = "male_hair_claude_mesh"
+}
