@@ -81,9 +81,6 @@ accessory_genes = {
 				1 = female_hair_northern_03
 				1 = female_hair_steppe_01
 				1 = female_hair_steppe_02
-				1 = female_hair_edelgard		
-				1 = female_hair_edelgard_academy
-				1 = female_hair_edelgard_newgame
 			}
 			boy = male
 			girl = female
