@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "female_hair_edelgard_mesh"
+	file = "female_hair_edelgard.mesh"
+
+	meshsettings = {
+		name = "edelgard_hair_accessoriesShape"
+		index = 0
+		texture_diffuse = "edelgard_hair_accessories_diffuse.dds"
+		texture_normal = "edelgard_hair_accessories_normal.dds"
+		texture_specular = "edelgard_hair_accessories_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "edelgard_hairShape"
+		index = 0
+		texture_diffuse = "edelgard_hair_diffuse.dds"
+		texture_normal = "edelgard_hair_normal.dds"
+		texture_specular = "edelgard_hair_properties.dds"
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_hair_edelgard_entity"
+	pdxmesh = "female_hair_edelgard_mesh"
+}
