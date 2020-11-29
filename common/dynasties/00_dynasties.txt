@@ -1034,13 +1034,29 @@
 
 700 = {
 	name = "Malikğlu"
-	culture="almyran"
+	culture = "almyran"
 }
 
 701 = {
 	name = "Behid"
 	culture = "almyran"
 }
+
+702 = {
+	name = "Nasirin"
+	culture = "lianese"
+}
+
+703 = {
+	name = "Jahangiri"
+	culture = "lianese"
+}
+
+704 = {
+	name = "Kamran"
+	culture = "lianese"	
+}
+
 
 ##############
 ### Reqonn ###

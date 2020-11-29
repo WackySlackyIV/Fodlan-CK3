@@ -368,3 +368,8 @@ nick_the_savior_king = {} #Dimitri good
 ### Sreng ###
 
 nick_the_vindkaller = {}
+
+
+### Almyra ###
+
+nick_the_serpant = {}

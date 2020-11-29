@@ -1,1 +1,19 @@
-﻿ 
+﻿house_khalediglu = {
+	name = "Khalediğlu"
+	dynasty = 700
+}
+
+house_farzinglu = {
+	name = "Farzinğlu"
+	dynasty = 700
+}
+
+house_heshmatglu = {
+	name = "Heshmatğlu"
+	dynasty = 700
+}
+
+house_aycanglu = {
+	name = "Aycanğlu"
+	dynasty = 700
+}	
