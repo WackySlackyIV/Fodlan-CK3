@@ -37,7 +37,7 @@ lakes = RANGE { 1962 1967 }
 #####################
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
-impassable_mountains = LIST { 4 1277 1968 2060 }
+impassable_mountains = LIST { 4 1277 1968 2060 2078 }
 impassable_mountains = RANGE { 1916 1961 }
 
 ############
