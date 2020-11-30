@@ -1000,7 +1000,19 @@ accessory_genes = {
 			}
 			boy = male
             girl = female
-		}		
+		}	
+
+		headgear_rhea_crown = {
+			index = 70
+			male = {			
+			}
+			female = {
+				1 = female_headgear_rhea_crown
+				
+			}
+			boy = male
+            girl = female
+		}			
 
 	}
 

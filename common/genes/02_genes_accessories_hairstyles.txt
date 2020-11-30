@@ -323,12 +323,14 @@ accessory_genes = {
 			female = {	
 				1 = female_hair_edelgard_academy
 				1 = female_hair_edelgard_newgame
+				1 = female_hair_flayn
+				1 = female_hair_rhea
 			}
 			boy = male
 			girl = female
 		} 				
 		
-		edelgard_hairstyles = {
+		edelgard_hairstyle = {
 			index = 14
 			male = {
 			}
@@ -338,7 +340,55 @@ accessory_genes = {
 			}
 			boy = male
 			girl = female
-		} 		
+		}
+		
+		dimitri_hairstyle = {
+			index = 15
+			male = {
+				1 = male_hair_dimitri
+			}
+			
+			female = {
+			}
+			boy = male
+			girl = female
+		}
+		
+		claude_hairstyle = {
+			index = 16
+			male = {
+				1 = male_hair_claude
+			}
+			
+			female = {
+			}
+			boy = male
+			girl = female
+		}
+		
+		flayn_hairstyle = {
+			index = 17
+			male = {
+			}
+			
+			female = {
+				1 = female_hair_flayn
+			}
+			boy = male
+			girl = female
+		}
+		
+		rhea_hairstyle = {
+			index = 18
+			male = {
+			}
+			
+			female = {
+				1 = female_hair_rhea
+			}
+			boy = male
+			girl = female
+		}
 	}
 
 }

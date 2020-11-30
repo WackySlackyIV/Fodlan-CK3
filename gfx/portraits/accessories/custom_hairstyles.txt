@@ -35,6 +35,16 @@ female_hair_edelgard_newgame = {
 	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_hair_edelgard_newgame_entity" }
 }
 
+female_hair_flayn = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_hair_flayn_entity" }
+}
+
+female_hair_rhea = {
+	entity = { required_tags = "no_hair"			shared_pose_entity = head		 }
+	entity = { required_tags = ""					shared_pose_entity = head		entity = "female_hair_rhea_entity" }
+}
+
 
 #####################################
 #																#

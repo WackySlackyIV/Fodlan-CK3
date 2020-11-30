@@ -15,6 +15,10 @@ male_headgear_special_eye_patch_02 = {
 #	  FEMALE	#
 ##################
 
+female_headgear_rhea_crown = {	
+	set_tags = "crown"
+	entity = { required_tags = ""			shared_pose_entity = head		entity = female_headgear_rhea_crown_entity 	 }		
+}
 
 ## Special ##
 

@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "female_headgear_rhea_crown_mesh"
+	file = "female_headgear_rhea_crown.mesh"
+
+	meshsettings = {
+		name = "female_headgear_rhea_crown_2Shape"
+		index = 0
+		texture_diffuse = "female_headgear_rhea_crown_2_diffuse.dds"
+		texture_normal = "female_headgear_rhea_crown_2_normal.dds"
+		texture_specular = "female_headgear_rhea_crown_2_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "female_headgear_rhea_crown_1Shape"
+		index = 0
+		texture_diffuse = "female_headgear_rhea_crown_1_diffuse.dds"
+		texture_normal = "female_headgear_rhea_crown_1_normal.dds"
+		texture_specular = "female_headgear_rhea_crown_1_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "female_headgear_rhea_crown_entity"
+	pdxmesh = "female_headgear_rhea_crown_mesh"
+}
