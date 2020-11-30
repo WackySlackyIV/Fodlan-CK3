@@ -83,16 +83,39 @@ headgear = {
 		weight = {
 			base = 0
 			modifier = {
+				add = 80
+				has_trait = peasant_leader
+				OR = {
+					is_ruler = no
+					is_leading_faction_type = peasant_faction
+					AND = {
+						is_ruler = yes
+						is_landed = no
+						OR = {
+							has_government = feudal_government
+							has_government = clan_government
+						}
+					}
+				}
+				portrait_western_clothing_trigger = yes
+			}
+			modifier = {
 				add = 20
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
+						exists = primary_spouse
+						primary_spouse = {
+							highest_held_title_tier > tier_county
+						}
+					}
+					AND = {
 						has_government = republic_government
 						primary_title.tier > 1
 					}
-					has_government = theocracy_government
+					AND = { is_ruler = yes has_government = theocracy_government }
 				}
-				#portrait_western_clothing_trigger = yes
+				portrait_western_clothing_trigger = yes
 			}
 		}
 	}
@@ -110,6 +133,21 @@ headgear = {
 			base = 0
 			modifier = {
 				add = 50
+				NAND = {
+					has_trait = peasant_leader
+					OR = {
+						is_ruler = no
+						is_leading_faction_type = peasant_faction
+						AND = {
+							is_ruler = yes
+							is_landed = no
+							OR = {
+								has_government = feudal_government
+								has_government = clan_government
+							}
+						}
+					}
+				}
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -119,13 +157,16 @@ headgear = {
 								has_government = republic_government
 								primary_title.tier > 1
 							}
-							has_government = theocracy_government
+							AND = { is_ruler = yes has_government = theocracy_government }
 						}
-						#portrait_western_clothing_trigger = yes
+						portrait_western_clothing_trigger = yes
 					}
 					AND = {
 						exists = primary_spouse
-						is_ruler = no
+						OR = {
+							is_ruler = no
+							highest_held_title_tier = tier_barony
+						}
 						primary_spouse = {
 							highest_held_title_tier = tier_county
 							NOR = {
@@ -134,9 +175,9 @@ headgear = {
 									has_government = republic_government
 									primary_title.tier > 1
 								}
-								has_government = theocracy_government
+								AND = { is_ruler = yes has_government = theocracy_government }
 							}
-							#portrait_western_clothing_trigger = yes
+							portrait_western_clothing_trigger = yes
 						}
 					}
 				}
