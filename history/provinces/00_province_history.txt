@@ -1297,19 +1297,19 @@
 47 = {        # (b_akron)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 48 = {        # (b_alden)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 49 = {        # (b_medina)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_reculver)
@@ -1323,13 +1323,13 @@
 51 = {        # (b_malmsmey)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 52 = {        # (b_lionel)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_cartmel)
@@ -1343,13 +1343,13 @@
 54 = {        # (b_dudley)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 55 = {        # (b_grey)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_catterick)
@@ -1363,13 +1363,13 @@
 57 = {        # (b_avondale)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 58 = {        # (b_polydore)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_myrddin)
@@ -1384,19 +1384,19 @@
 60 = {        # (b_emrys)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 61 = {        # (b_sylvesteris)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 62 = {        # (b_lostwithel)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_yarmouth)
@@ -1410,13 +1410,13 @@
 64 = {        # (b_willt)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 65 = {        # (b_lailoken)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bordersley)
@@ -1430,13 +1430,13 @@
 67 = {        # (b_carmathen)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 68 = {        # (b_hergest)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_rhuddlan)
@@ -1450,13 +1450,13 @@
 70 = {        # (b_kentigern)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 71 = {        # (b_padstow)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_daphnel)
@@ -1471,19 +1471,19 @@
 73 = {        # (b_peneus)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 74 = {        # (b_ladon)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 75 = {        # (b_coinsborough)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_ive)
@@ -1497,13 +1497,13 @@
 77 = {        # (b_fulham)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 78 = {        # (b_stamford)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_beverly)
@@ -1517,13 +1517,13 @@
 80 = {        # (b_creusa)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 81 = {        # (b_hyginus)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_gomery)
@@ -1537,13 +1537,13 @@
 83 = {        # (b_oxenfurd)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 84 = {        # (b_langley)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_maris)
@@ -1557,13 +1557,13 @@
 86 = {        # (b_windmare)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 87 = {        # (b_alderwick)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_ailell)
@@ -1578,7 +1578,7 @@
 89 = {        # (b_redvalley)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_stroud)
@@ -1592,13 +1592,13 @@
 91 = {        # (b_camden)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 92 = {        # (b_hollowway)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_ordelia)
