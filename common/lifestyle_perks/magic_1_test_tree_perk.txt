@@ -1,0 +1,7 @@
+test_perk = {
+	lifestyle = magic_lifestyle
+	tree = test_tree
+	position = { 0 0 }
+	icon = node_martial
+	
+}

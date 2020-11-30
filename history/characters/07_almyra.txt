@@ -14,6 +14,8 @@
 	culture="almyran"
 	dynasty = 700
 
+	trait = blood_of_malik
+
 	1121.6.22 = {
 		birth=yes
 	}
@@ -120,8 +122,9 @@
 	culture="almyran"
 	dynasty = 700
 	
+	trait = blood_of_malik
 
-	1121.6.22 = {
+	1144.6.22 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -135,6 +138,8 @@
 	culture="almyran"
 	dynasty = 700
 	female = yes
+
+	trait = blood_of_malik
 
 	1151.2.8 = {
 		birth=yes
@@ -151,6 +156,8 @@
 	dynasty = 700
 	female = yes
 
+	trait = blood_of_malik
+
 	1161.6.22 = {
 		birth=yes
 	}
@@ -164,6 +171,8 @@
 	religion="kizilisma"
 	culture="almyran"
 	dynasty = 700
+
+	trait = blood_of_malik
 
 	1144.2.11 = {
 		birth=yes
@@ -432,6 +441,8 @@
 	trait = education_stewardship_2
 	trait = overseer
 
+	trait = blood_of_malik
+
 	disallow_random_traits = yes
 
 	1156.6.22 = {
@@ -672,6 +683,7 @@
 	trait = holy_warrior
 
 	trait = crest_minor_malik
+	trait = blood_of_malik
 
 	disallow_random_traits = yes
 
@@ -700,12 +712,14 @@
 }
 
 740002 = {
-	name="Alim"
+	name="Alim" #47
 	religion="karakaya"
 	culture="imrudi"
 	
 	dynasty = 700
 	dynasty_house = house_heshmatglu
+
+	trait = blood_of_malik
 
 	1155.1.1 = {
 		birth=yes
@@ -994,6 +1008,8 @@
 	religion="kizilisma"
 	culture="lianese"
 	female = yes
+
+	trait = blood_of_malik
 
 	dynasty = 700
 	dynasty_house = house_aycanglu

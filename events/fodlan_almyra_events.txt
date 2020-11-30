@@ -51,3 +51,58 @@ blood.of.malik.0005 = { #succed great
 		add_trait = crest.major.malik
 	}
 }
+
+
+namespace = serpant.of.the.east
+
+serpant.of.the.east.0001 = {
+	trigger = {
+		religion = religion:buykisik_religion
+		current_date = 1181.3.17
+		
+	}
+	desc = {
+		triggered_desc = {
+			trigger = {
+				faith = faith:siyakara
+			}
+			desc = serpant.of.the.east.0001.desc.siyakara
+		}
+		triggered_desc = {
+			trigger = {
+				religion = religion:buykisik_religion
+				not = {
+					faith = faith:siyakara
+				}
+			}
+			desc = serpant.of.the.east.0001.desc.buykisik
+		}
+	}
+
+	immediate = { play_music_cue = "mx_cue_murder" }
+
+
+
+		option = {
+			trigger = {
+				faith = faith:siyakara
+			}
+			name = serpant.of.the.east.0001.a.siyakara
+			add_piety = 10
+		}
+		option = {
+			trigger = {
+				religion = religion:buykisik_religion
+				not = {
+					faith = faith:siyakara
+				}
+			}
+			name = serpant.of.the.east.0001.a.buykisik
+		}
+	
+}
+
+serpant.of.the.east.0002 = {
+	desc = serpant.of.the.east.0002.desc
+
+}
