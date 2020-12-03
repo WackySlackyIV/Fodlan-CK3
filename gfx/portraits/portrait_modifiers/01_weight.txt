@@ -156,6 +156,16 @@ muscularity = {
 						limit = { has_trait = weak }
 						add = -0.1
 					}
+					
+					if = { 
+						limit = { has_trait = whole_of_body }
+						add = 0.1
+					}
+					
+					if = { 
+						limit = { has_trait = athletic }
+						add = 0.1
+					}
 
 					multiply = 1
 
