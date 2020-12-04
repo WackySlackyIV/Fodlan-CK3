@@ -20,6 +20,9 @@
 
 	1120.1.11 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1177.8.23={
 		effect = {
@@ -345,6 +348,9 @@
 
 	1150.1.11 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1155.8.9 = {
 		set_relation_friend = character:100013
@@ -385,6 +391,9 @@
 
 	1162.7.24 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		give_nickname = nick_the_master_tactician
@@ -466,6 +475,9 @@
 
 	1161.6.13 = {
 		birth="1161.6.13"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		give_nickname = nick_the_lord_of_roses
@@ -504,6 +516,9 @@
 
 	1162.5.18 = {
 		birth="1162.5.18"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1168.5.9 = {
 		set_relation_friend = character:200020
@@ -602,6 +617,9 @@
 
 	1163.3.14 = {
 		birth="1163.3.14"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1168.5.9 = {
 		set_relation_friend = character:200016
@@ -648,6 +666,9 @@
 
 	1165.2.28 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -683,6 +704,9 @@
 
 	1162.11.23 = {
 		birth="1162.11.23"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -721,6 +745,7 @@
 		birth=yes
 		effect={
 			add_friend=100013
+			add_character_flag = has_scripted_appearance
 		}
 	}
 	1200.1.1={
@@ -782,6 +807,9 @@
 
 	1160.8.21 = {
 		birth="1160.8.21"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		employer = 200000

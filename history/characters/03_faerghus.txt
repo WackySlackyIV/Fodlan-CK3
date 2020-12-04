@@ -32,6 +32,9 @@
 
 	1162.12.20 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		effect = {
@@ -157,6 +160,9 @@
 
 	1130.1.11 = {
 		birth="1130.1.11"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1157.1.1 = {
@@ -343,6 +349,9 @@
 
 	1163.11.17 = {
 		birth="1163.11.17"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -704,6 +713,9 @@
 
 	1163.1.4 = {
 		birth="1163.1.4"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -739,6 +751,9 @@
 
 	1163.2.20 = {
 		birth="1163.2.20"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -804,6 +819,9 @@
 
 	1160.6.5 = {
 		birth="1160.6.5"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -890,6 +908,9 @@
 
 	1161.8.31 = {
 		birth="1161.8.31"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		employer = 300000
@@ -930,6 +951,9 @@
 
 	1157.5.27 = {
 		birth="1157.5.27"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1166.5.9 = {
@@ -977,6 +1001,9 @@
 
 	1163.5.9 = {
 		birth="1163.5.9"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	
 	1177.5.9 = {

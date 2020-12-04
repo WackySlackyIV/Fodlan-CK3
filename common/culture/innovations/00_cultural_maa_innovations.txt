@@ -35,7 +35,7 @@ innovation_wyvern_marksmen = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:almyran
+		this = culture_group:mihran_group
 	}
 
 	unlock_maa = barbarossa
@@ -63,7 +63,7 @@ innovation_experienced_pegasi = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:brigid
+		this = culture_group:brigid_group
 	}
 
 	unlock_maa = seraph_knight

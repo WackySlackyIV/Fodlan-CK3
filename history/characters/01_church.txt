@@ -36,6 +36,9 @@
 
 	60.1.11 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	16.6.12 = {
 		set_immortal_age = 30
@@ -111,6 +114,9 @@
 
 	70.12.27 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	31.6.12 = {
 		set_immortal_age = 30
@@ -150,11 +156,11 @@
 	trait = crest_major_cethleann
 	disallow_random_traits = yes
 
-	trait = education_learning_2
-	disallow_random_traits = yes
-
 	100.6.12 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	56.6.12 = {
 		set_immortal_age = 16
@@ -205,6 +211,9 @@
 
 	1135.12.1 = {
 		birth="1135.12.1"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1146.1.11 = {
@@ -247,6 +256,9 @@
 
 	1124.1.26 = {
 		birth="1124.1.26"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1162.1.1 = {
@@ -289,6 +301,9 @@
 
 	1155.3.27 = {
 		birth="1155.3.27"
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1176.1.11 = {
@@ -327,6 +342,9 @@
 	disallow_random_traits = yes
 
 	1138.8.3 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 	}
 	1174.1.11 = {
@@ -374,6 +392,9 @@
 	disallow_random_traits = yes
 
 	1129.2.8 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth="1129.2.8"
 	}
 
@@ -420,6 +441,9 @@
 	trait = crest_major_seiros
 
 	1127.10.25 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 	}
 	1157.1.1 = {
@@ -453,6 +477,9 @@
 	disallow_random_traits = yes
 
 	1164.10.25 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth="1164.10.25"
 	}
 
@@ -499,6 +526,9 @@
 
 
 	1152.9.15 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth="1152.9.15"
 	}
 
@@ -547,6 +577,9 @@
 	disallow_random_traits = yes
 
 	1160.9.12 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 	}
 	1181.1.1 = {
@@ -596,6 +629,9 @@
 	disallow_random_traits = yes
 
 	1153.8.9 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 	}
 	1155.8.9 = {
@@ -650,6 +686,9 @@
 	disallow_random_traits = yes
 
 	1162.3.20 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 	}
 	1166.5.9 = {
@@ -697,6 +736,9 @@
 	disallow_random_traits = yes
 
 	1160.1.15 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 	}
 	1180.1.15 = {
@@ -744,6 +786,9 @@
 	disallow_random_traits = yes
 
 	1137.1.1 = {
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 		birth=yes
 		employer = 100000
 	}

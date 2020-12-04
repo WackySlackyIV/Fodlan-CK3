@@ -25,7 +25,9 @@ child_goddess = {
 	index = 301
 	
 	both_parent_has_trait_inherit_chance = 100
-	immortal = yes
+	life_expectancy = 4000
+	no_prowess_loss_from_age = yes
+
 	health = 5
 	diplomacy = 3
 	martial = 3
@@ -33,7 +35,7 @@ child_goddess = {
 	intrigue = 3
 	learning = 3
 	prowess = 20
-	fertility = -0.33
+	fertility = -0.5
 	monthly_lifestyle_xp_gain_mult = -0.33
 	random_creation = 0
 
@@ -233,9 +235,9 @@ ember = {
                 trigger = {
                     NOT = { exists = this }
                 }
-                desc = trait_ember_trait_desc
+                desc = trait_ember_desc
             }
-            desc = trait_ember_trait_character_desc
+            desc = trait_ember_character_desc
         }
     }
 }

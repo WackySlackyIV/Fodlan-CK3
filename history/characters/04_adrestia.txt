@@ -32,6 +32,9 @@
 
 	1162.6.22 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		give_nickname = nick_the_flame_emperor
@@ -323,6 +326,9 @@
 
 	1160.4.17 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -360,6 +366,9 @@
 
 	1162.12.12 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -395,6 +404,9 @@
 
 	1162.4.30 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -431,6 +443,9 @@
 
 	1163.7.1 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1169.5.9 = {
 		effect={ 
@@ -473,6 +488,9 @@
 
 	1163.11.7 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1169.5.9 = {
 		effect={ 
@@ -514,6 +532,9 @@
 
 	1161.9.29 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -549,6 +570,9 @@
 
 	1164.9.7 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		employer = 400000
@@ -592,6 +616,9 @@
 
 	1158.3.4 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 

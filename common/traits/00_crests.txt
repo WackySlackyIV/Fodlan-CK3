@@ -1,4 +1,4 @@
-crest_minor_seiros = {
+﻿crest_minor_seiros = {
 	index = 401
 
 	diplomacy = 1

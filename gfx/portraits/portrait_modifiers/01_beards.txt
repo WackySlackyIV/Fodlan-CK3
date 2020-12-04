@@ -50,6 +50,10 @@ beards = {
                 add = -50
                 portrait_mena_clothing_trigger = yes
             }
+            modifier = { # Different likelyhood of a clean shaven look in different cultures
+                add = -50
+                has_character_flag = has_scripted_appearance
+            }
         }
     }
 
