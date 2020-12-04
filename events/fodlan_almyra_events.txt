@@ -55,24 +55,23 @@ blood_of_malik.0005 = { #succed great
 
 namespace = serpent_of_the_east
 
-serpant.of.the.east.0001 = {
+serpent_of_the_east.0001 = {
+	type = character_event
 	trigger = {
-		religion = religion:buykisik_religion
-		current_date = 1181.3.17
-		
+		has_religion = religion:buykisik_religion
 	}
 	desc = {
 		triggered_desc = {
 			trigger = {
-				faith = faith:siyakara
+				has_faith = faith:siyakara
 			}
 			desc = serpent_of_the_east.0001.desc.siyakara
 		}
 		triggered_desc = {
 			trigger = {
 				religion = religion:buykisik_religion
-				not = {
-					faith = faith:siyakara
+				NOT = {
+					has_faith = faith:siyakara
 				}
 			}
 			desc = serpent_of_the_east.0001.desc.buykisik
@@ -81,11 +80,9 @@ serpant.of.the.east.0001 = {
 
 	immediate = { play_music_cue = "mx_cue_murder" }
 
-
-
 	option = {
 		trigger = {
-			faith = faith:siyakara
+			has_faith = faith:siyakara
 		}
 		name = serpent_of_the_east.0001.a.siyakara
 		add_piety = 10
@@ -93,8 +90,8 @@ serpant.of.the.east.0001 = {
 	option = {
 		trigger = {
 			religion = religion:buykisik_religion
-			not = {
-				faith = faith:siyakara
+			NOT = {
+				has_faith = faith:siyakara
 			}
 		}
 		name = serpent_of_the_east.0001.a.buykisik

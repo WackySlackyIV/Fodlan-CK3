@@ -14,7 +14,7 @@
 	culture="almyran"
 	dynasty = 700
 
-	trait = ember_trait
+	trait = ember
 
 	1121.6.22 = {
 		birth=yes
@@ -122,7 +122,7 @@
 	culture="almyran"
 	dynasty = 700
 	
-	trait = ember_trait
+	trait = ember
 
 	1144.6.22 = {
 		birth=yes
@@ -139,7 +139,7 @@
 	dynasty = 700
 	female = yes
 
-	trait = ember_trait
+	trait = ember
 
 	1151.2.8 = {
 		birth=yes
@@ -156,7 +156,7 @@
 	dynasty = 700
 	female = yes
 
-	trait = ember_trait
+	trait = ember
 
 	1161.6.22 = {
 		birth=yes
@@ -172,7 +172,7 @@
 	culture="almyran"
 	dynasty = 700
 
-	trait = ember_trait
+	trait = ember
 
 	1144.2.11 = {
 		birth=yes
@@ -441,7 +441,7 @@
 	trait = education_stewardship_2
 	trait = overseer
 
-	trait = ember_trait
+	trait = ember
 
 	disallow_random_traits = yes
 
@@ -683,7 +683,7 @@
 	trait = holy_warrior
 
 	trait = crest_minor_malik
-	trait = ember_trait
+	trait = ember
 
 	disallow_random_traits = yes
 
@@ -691,7 +691,7 @@
 		birth=yes
 	}
 	1180.1.1 = {
-		give_nickname = nick_the_serpant
+		give_nickname = nick_the_serpent
 	}
 	1200.1.1={
 		death=yes
@@ -719,7 +719,7 @@
 	dynasty = 700
 	dynasty_house = house_heshmatglu
 
-	trait = ember_trait
+	trait = ember
 
 	1155.1.1 = {
 		birth=yes
@@ -1074,7 +1074,7 @@
 	culture="lianese"
 	female = yes
 
-	trait = ember_trait
+	trait = ember
 
 	dynasty = 700
 	dynasty_house = house_aycanglu

@@ -218,7 +218,7 @@ permanent_dragon_form = {
 	}
 }
 
-ember_trait = {
+ember = {
     index = 308
     fame = yes
 	same_faith_opinion = 5
