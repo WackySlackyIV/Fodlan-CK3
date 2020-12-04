@@ -2,58 +2,58 @@
 ### Blood of Malik ###
 ######################
 
-namespace = blood.of.malik
+namespace = blood_of_malik
 
-blood.of.malik.0001 = { #start event
+blood_of_malik.0001 = { #start event
 	
-	desc = blood.of.malik.0001.desc
+	desc = blood_of_malik.0001.desc
 	
 	option = {
-		name = blood.of.malik.0001.a
-		trigger_event = blood.of.malik.0004
+		name = blood_of_malik.0001.a
+		trigger_event = blood_of_malik.0004
 	}
 	option = {
-		name = blood.of.malik.0001.b
-		trigger_event = blood.of.malik.0005
-	}
-}
-
-blood.of.malik.0002 = { #fail bad
-	desc = blood.of.malik.0002.desc
-	
-	option = {
-		name = blood.of.malik.0002.a
+		name = blood_of_malik.0001.b
+		trigger_event = blood_of_malik.0005
 	}
 }
 
-blood.of.malik.0003 = { #fail really bad
-	desc = blood.of.malik.0003.desc
+blood_of_malik.0002 = { #fail bad
+	desc = blood_of_malik.0002.desc
 	
 	option = {
-		name = blood.of.malik.0003.a
+		name = blood_of_malik.0002.a
 	}
 }
 
-blood.of.malik.0004 = { #succed ok
-	desc = blood.of.malik.0004.desc
+blood_of_malik.0003 = { #fail really bad
+	desc = blood_of_malik.0003.desc
 	
 	option = {
-		name = blood.of.malik.0004.a
-		add_trait = crest.minor.malik
+		name = blood_of_malik.0003.a
 	}
 }
 
-blood.of.malik.0005 = { #succed great
-	desc = blood.of.malik.0005.desc
+blood_of_malik.0004 = { #succed ok
+	desc = blood_of_malik.0004.desc
 	
 	option = {
-		name = blood.of.malik.0005.a
-		add_trait = crest.major.malik
+		name = blood_of_malik.0004.a
+		add_trait = crest_minor_malik
+	}
+}
+
+blood_of_malik.0005 = { #succed great
+	desc = blood_of_malik.0005.desc
+	
+	option = {
+		name = blood_of_malik.0005.a
+		add_trait = crest_major_malik
 	}
 }
 
 
-namespace = serpant.of.the.east
+namespace = serpent_of_the_east
 
 serpant.of.the.east.0001 = {
 	trigger = {
@@ -66,7 +66,7 @@ serpant.of.the.east.0001 = {
 			trigger = {
 				faith = faith:siyakara
 			}
-			desc = serpant.of.the.east.0001.desc.siyakara
+			desc = serpent_of_the_east.0001.desc.siyakara
 		}
 		triggered_desc = {
 			trigger = {
@@ -75,7 +75,7 @@ serpant.of.the.east.0001 = {
 					faith = faith:siyakara
 				}
 			}
-			desc = serpant.of.the.east.0001.desc.buykisik
+			desc = serpent_of_the_east.0001.desc.buykisik
 		}
 	}
 
@@ -83,26 +83,163 @@ serpant.of.the.east.0001 = {
 
 
 
-		option = {
-			trigger = {
+	option = {
+		trigger = {
+			faith = faith:siyakara
+		}
+		name = serpent_of_the_east.0001.a.siyakara
+		add_piety = 10
+	}
+	option = {
+		trigger = {
+			religion = religion:buykisik_religion
+			not = {
 				faith = faith:siyakara
 			}
-			name = serpant.of.the.east.0001.a.siyakara
-			add_piety = 10
 		}
-		option = {
-			trigger = {
-				religion = religion:buykisik_religion
-				not = {
-					faith = faith:siyakara
-				}
-			}
-			name = serpant.of.the.east.0001.a.buykisik
-		}
+		name = serpent_of_the_east.0001.a.buykisik
+	}
 	
 }
 
-serpant.of.the.east.0002 = {
-	desc = serpant.of.the.east.0002.desc
+serpent_of_the_east.0002 = {
+	desc = serpent_of_the_east.0002.desc
 
+	option = {
+		name = serpent_of_the_east.0002.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0003
+			days = 1
+		}
+	}
+
+}
+
+serpent_of_the_east.0003 = {
+	desc = serpent_of_the_east.0003.desc
+
+	option = {
+		name = serpent_of_the_east.0003.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0004
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0004 = {
+	desc = serpent_of_the_east.0004.desc
+
+	option = {
+		name = serpent_of_the_east.0004.a
+		marry_matrilineal = character:740006
+	}
+
+	option = {
+		name = serpent_of_the_east.0004.b
+		add_prestige = 50
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0005
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0005 = {
+	desc = serpent_of_the_east.0005.desc
+
+	option = {
+		name = serpent_of_the_east.0005.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0006
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0006 = {
+	desc = serpent_of_the_east.0006.desc
+
+	option = {
+		name = serpent_of_the_east.0006.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0007
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0007 = {
+	desc = serpent_of_the_east.0007.desc
+
+	option = {
+		name = serpent_of_the_east.0007.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0008
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0008 = {
+	desc = serpent_of_the_east.0008.desc
+
+	option = {
+		name = serpent_of_the_east.0008.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0009
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0009 = {
+	desc = serpent_of_the_east.0009.desc
+
+	option = {
+		name = serpent_of_the_east.0009.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0010
+			days = 1
+		}
+	}
+}
+
+serpent_of_the_east.0010 = {
+	desc = serpent_of_the_east.0010.desc
+
+	option = {
+		name = serpent_of_the_east.0010.a
+	}
+
+	after = {
+		trigger_event = {
+			id = serpent_of_the_east.0003
+			days = 1
+		}
+	}
 }

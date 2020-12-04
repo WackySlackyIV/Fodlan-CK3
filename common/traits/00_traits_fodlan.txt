@@ -218,7 +218,7 @@ permanent_dragon_form = {
 	}
 }
 
-blood_of_malik = {
+ember_trait = {
     index = 308
     fame = yes
 	same_faith_opinion = 5
@@ -233,9 +233,9 @@ blood_of_malik = {
                 trigger = {
                     NOT = { exists = this }
                 }
-                desc = trait_blood_of_malik_desc
+                desc = trait_ember_trait_desc
             }
-            desc = trait_blood_of_malik_character_desc
+            desc = trait_ember_trait_character_desc
         }
     }
 }

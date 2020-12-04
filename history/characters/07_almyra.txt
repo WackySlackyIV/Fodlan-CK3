@@ -14,7 +14,7 @@
 	culture="almyran"
 	dynasty = 700
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	1121.6.22 = {
 		birth=yes
@@ -122,7 +122,7 @@
 	culture="almyran"
 	dynasty = 700
 	
-	trait = blood_of_malik
+	trait = ember_trait
 
 	1144.6.22 = {
 		birth=yes
@@ -139,7 +139,7 @@
 	dynasty = 700
 	female = yes
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	1151.2.8 = {
 		birth=yes
@@ -156,7 +156,7 @@
 	dynasty = 700
 	female = yes
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	1161.6.22 = {
 		birth=yes
@@ -172,7 +172,7 @@
 	culture="almyran"
 	dynasty = 700
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	1144.2.11 = {
 		birth=yes
@@ -441,7 +441,7 @@
 	trait = education_stewardship_2
 	trait = overseer
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	disallow_random_traits = yes
 
@@ -668,11 +668,11 @@
 	dynasty_house = house_farzinglu
 
 	martial = 9
-	diplomacy = 5
-	intrigue = 2
+	diplomacy = 2
+	intrigue = 5
 	stewardship = 2
 	learning = 4
-	prowess = 6	
+	prowess = 20
 
 	trait = brave
 	trait = ambitious
@@ -683,7 +683,7 @@
 	trait = holy_warrior
 
 	trait = crest_minor_malik
-	trait = blood_of_malik
+	trait = ember_trait
 
 	disallow_random_traits = yes
 
@@ -719,7 +719,7 @@
 	dynasty = 700
 	dynasty_house = house_heshmatglu
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	1155.1.1 = {
 		birth=yes
@@ -767,6 +767,71 @@
 		death=yes
 	}
 }
+
+
+740006 = {
+	name = "Artonio"
+	religion = "siyakara"
+	culture = "leicester"
+
+	dynasty = 133
+
+	1158.8.12 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		employer = 740000
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+740007 = {
+	name = "Artonio"
+	religion = "siyakara"
+	culture = "leicester"
+
+	dynasty = 133
+
+	trait = lustful
+	trait = temperate
+	trait = wrathful
+
+	trait = education_intrigue_3
+	trait = dwarf
+
+	disallow_random_traits = yes
+
+	1158.8.12 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		employer = 740000
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+740008 = {
+	name = "Oscar"
+	religion = "siyakara"
+	culture = "leicester"
+
+	dynasty = 237
+
+	1158.8.12 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		employer = 740000
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
 
 ############
 ### Lian ###
@@ -1009,7 +1074,7 @@
 	culture="lianese"
 	female = yes
 
-	trait = blood_of_malik
+	trait = ember_trait
 
 	dynasty = 700
 	dynasty_house = house_aycanglu

@@ -233,13 +233,13 @@
 
 132=
 {
-	name="Bertram"
+	name="Wolgat"
 	culture = "leicester"
 }
 
 133=
 {
-	name="Bertram"
+	name="Bvikley"
 	culture = "leicester"
 }
 
@@ -581,7 +581,9 @@
 }
 
 
+##############
 ###Adrestia###
+##############
 
 300=
 {
@@ -907,123 +909,103 @@
 	culture = "adrestian"
 }
 
-354=
-{
+354=	{
 	name="Octavia"
 	culture = "adrestian"
 }
 
-355=
-{
+355={
 	name="Ortenburg"
 	culture="adrestian"
 }
 
-356=
-{
+356={
 	name="Halder"
 	culture = "adrestian"
 }
 
-357=
-{
+357={
 	name="Freising"
 	culture="adrestian"
 }
 
-358=
-{
+358={
 	name="Reich"
 	culture="adrestian"
 }
 
-359=
-{
+359={
 	name="Huginn"
 	culture="adrestian"
 }
 
-360=
-{
+360={
 	name="Jormund"
 	culture="adrestian"
 }
 
-361=
-{
+361={
 	name="Schlecht"
 	culture="adrestian"
 }
 
-362=
-{
+362={
 	name="Kamina"
 	culture="adrestian"
 }
 
-363=
-{
+363={
 	name="Lohengram"
 	culture="adrestian"
 }
 
-364=
-{
+364={
 	name="Kircheis"
 	culture="adrestian"
 }
 
-365=
-{
+365={
 	name="Mittermeyer"
 	culture="adrestian"
 }
 
-366=
-{
+366={
 	name="von Reuenthal"
 	culture="adrestian"
 }
 
-367=
-{
+367={
 	name="von Oberstein"
 	culture="adrestian"
 }
 
-368=
-{
+368={
 	name="Hajdå"
 	culture="adrestian"
 }
 
-369=
-{
+369={
 	name="Thunderloin"
 	culture="adrestian"
 }
 
-370=
-{
+370={
 	name="af löfv"
 	culture="adrestian"
 }
 
-371=
-{
+371={
 	name="Min Mio"
 	culture="adrestian"
 }
 
-372=
-{
+372= {
 	name="von Drag"
 	culture="adrestian"
 }
 
 
-373=
-{
+373= {
 	name="af Snop"
 	culture="adrestian"
 }

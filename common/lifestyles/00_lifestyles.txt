@@ -51,7 +51,21 @@ learning_lifestyle = {
 	base_xp_gain = 25
 }
 
-magic_lifestyle = {
+black_magic_lifestyle = {
+
+	xp_per_level = 800
+	base_xp_gain = 20
+
+}
+
+white_magic_lifestyle = {
+
+	xp_per_level = 800
+	base_xp_gain = 20
+
+}
+
+dark_magic_lifestyle = {
 
 	xp_per_level = 800
 	base_xp_gain = 20
