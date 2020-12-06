@@ -18,6 +18,7 @@
 	stewardship = 7
    	intrigue = 4
 	learning = 10
+	prowess = 11
 	health = 6.5
    	mother = 500001
 	sexuality = bisexual
@@ -58,6 +59,8 @@
 	stewardship=7
    	intrigue=4
 	learning=5
+	prowess = 12
+
 	trait = education_martial_3
 	trait = physique_good_2
 	trait = shrewd
@@ -99,6 +102,7 @@
 	stewardship=10
    	intrigue=7
 	learning=9
+	prowess = 10
 	health = 6.5
 
 	trait = temperate
@@ -144,6 +148,7 @@
 	stewardship=6
    	intrigue=3
 	learning=9
+	prowess = 3
 	health = 6.5
 
 	trait = compassionate
@@ -197,6 +202,7 @@
 	stewardship=6
    	intrigue=3
 	learning=5
+	prowess = 7
 	health = 6.5
 
 	trait = brave
@@ -240,6 +246,7 @@
    	intrigue=2
 	learning=5
 	health = 6.5
+	prowess = 8
 	add_stress = 200 #It ShOuLd WoRk
 
 	trait = chaste
@@ -287,6 +294,7 @@
 	stewardship=4
    	intrigue=9
 	learning=3
+	prowess = 8
 	health = 6.5
 
 	trait = deceitful
@@ -329,6 +337,7 @@
 	stewardship=3
    	intrigue=5
 	learning=9
+	prowess = 4
 	health = 6.5
 
 	trait = lazy
@@ -380,6 +389,7 @@
 	stewardship=8
    	intrigue=4
 	learning=8
+	prowess = 4
 	health = 6.5
 
 	trait = calm
@@ -428,6 +438,7 @@
 	sexuality = heterosexual
 
 	health = 6.5
+	prowess = 13
 
 	trait = brave
 	trait = cynical
@@ -467,6 +478,7 @@
 	stewardship=6
    	intrigue=6
 	learning=4
+	prowess = 5
 	health = 6.5
 
 	trait = patient
@@ -507,6 +519,7 @@
 	stewardship=4
    	intrigue=4
 	learning=6
+	prowess = 10
 	health = 6.5
 	father = 300002
 	mother = 300097
@@ -562,6 +575,7 @@
 	stewardship=7
    	intrigue=9
 	learning=4
+	prowess = 7
 	health = 6.5
 
 	trait = greedy
@@ -615,6 +629,7 @@
 	stewardship=2
    	intrigue=4
 	learning=2
+	prowess = 10
 	health = 6.5
 
 	trait = brave
@@ -672,6 +687,7 @@
 	stewardship=8
    	intrigue=5
 	learning=8
+	prowess = 5
 	health = 6.5
 
 	trait = ambitious
@@ -724,6 +740,7 @@
 	stewardship=3
    	intrigue=6
 	learning=6
+	prowess = 5
 	health = 6.5
 
 	trait = cynical
@@ -772,6 +789,7 @@
 	stewardship=4
    	intrigue=5
 	learning=8
+	prowess = 4
 
 	trait = patient
 	trait = greedy
@@ -848,6 +866,7 @@
 	culture="high_fodlan"
 	sexuality = heterosexual
 
+	prowess = 6
 
 	trait = greedy
 	trait = arbitrary
@@ -909,6 +928,7 @@
    	intrigue=4
 	learning=8
 	health = 6.5
+	prowess = 5
 
 	trait = wrathful
 	trait = zealous

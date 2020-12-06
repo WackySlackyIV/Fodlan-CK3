@@ -13,6 +13,7 @@
 	stewardship=6
    	intrigue=3
 	learning=5
+	prowess = 11
 	health = 6.5
 
 	trait = wrathful
@@ -139,13 +140,15 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=204
+	father = 300082
+
    	diplomacy=6
    	martial=9
 	stewardship=8
    	intrigue=6
 	learning=6
 	health = 6
-	father = 300082
+	prowess = 10
 
 	trait = patient
 	trait = diligent
@@ -209,6 +212,7 @@
 	father=300022
 
 	stewardship = 6
+	prowess = 7
 
 	trait = lazy
 	trait = content
@@ -337,6 +341,7 @@
 	stewardship=7
    	intrigue=7
 	learning=4
+	prowess = 6
 	health = 6.5
 
 	trait = content
@@ -624,11 +629,13 @@
 	culture="faerghus"
 	dynasty=200
 	father=300022
+
    	diplomacy=9
    	martial=5
 	stewardship=8
    	intrigue=4
 	learning=6
+	prowess = 11
 
 	trait = brave
 	trait = just
@@ -662,11 +669,13 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=211
+
    	diplomacy=7
    	martial=7
 	stewardship=5
    	intrigue=5
 	learning=7
+	prowess = 8
 
 	trait = cynical
 	trait = just
@@ -699,6 +708,7 @@
 	stewardship=7
    	intrigue=1
 	learning=5
+	prowess = 8
 	health = 6.5
 
 	trait = chaste
@@ -737,6 +747,7 @@
 	stewardship=4
    	intrigue=7
 	learning=6
+	prowess = 11
 	health = 6.5
 
 	trait = callous
@@ -767,11 +778,13 @@
 	dynasty=204
 	father=300004
 	mother=300080
+
    	diplomacy=9
    	martial=9
 	stewardship=5
    	intrigue=2
 	learning=7
+	prowess = 10
 
 	trait = diligent
 	trait = patient
@@ -804,6 +817,7 @@
 	stewardship=6
    	intrigue=6
 	learning=4
+	prowess = 6
 	health = 6.5
 
 	trait = lustful
@@ -835,11 +849,13 @@
 	dynasty=205
 	father=300005
 	mother=300083
+
    	diplomacy=2
    	martial=8
 	stewardship=3
    	intrigue=7
 	learning=6
+	prowess = 8
 
 	trait = vengeful
 	trait = wroth
@@ -864,6 +880,8 @@
 	culture="faerghus"
 	dynasty=211
 	father=300024
+
+	prowess = 6
 
 	trait = cynical
 	trait = paranoid
@@ -895,6 +913,7 @@
 	stewardship=3
    	intrigue=1
 	learning=4
+	prowess = 8
 	health = 6.5
 
 	trait = stubborn
@@ -936,6 +955,7 @@
 	stewardship=4
    	intrigue=2
 	learning=9
+	prowess = 3
 	health = 6.5
 
 	trait = zealous
@@ -985,6 +1005,7 @@
 	stewardship=7
    	intrigue=3
 	learning=9
+	prowess = 5
 	health = 6.5
 
 	trait = honest
@@ -1025,6 +1046,7 @@
 	stewardship = 4
    	intrigue = 2
 	learning = 2
+	prowess = 9
 
 	trait = brave
 	trait = trusting
@@ -1053,11 +1075,13 @@
 	culture="faerghus"
 	female = yes
 	dynasty=223
+
    	diplomacy=8
    	martial=5
 	stewardship=5
    	intrigue=8
 	learning=9
+	prowess = 4
 
 	trait = greedy
 	trait = arrogant

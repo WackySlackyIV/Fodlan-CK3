@@ -11,12 +11,13 @@
    	intrigue = 5
 	learning = 5
 	health = 4
+	prowess = 9
 
-    trait = just
-    trait = infirm
-    trait = content
-    trait = celibate
-    trait = temperate
+	trait = just
+	trait = infirm
+	trait = content
+	trait = celibate
+	trait = temperate
 
 	1120.1.11 = {
 		birth=yes
@@ -97,6 +98,7 @@
    	intrigue=5
 	learning=5
 	health = 6
+	prowess = 10
 
 	trait = diligent
 	trait = brave
@@ -330,6 +332,7 @@
    	intrigue=5
 	learning=5
 	health = 6
+	prowess = 13
 
 	trait = brave
 	trait = just
@@ -374,6 +377,7 @@
 	stewardship=3
    	intrigue=10
 	learning=4
+	prowess = 7
 	health = 6.5
 
 	trait = deceitful
@@ -411,6 +415,8 @@
 	culture="leicester"
 	father=200000
 
+	prowess = 10
+
 	trait = education_diplomacy_2
 	trait = beauty_good_3
 	trait = just
@@ -435,6 +441,8 @@
 	religion="seirosite"
 	culture="leicester"
 	father=200000
+
+	prowess = 8
 
 	trait = crest_major_riegan
 
@@ -461,6 +469,7 @@
 	stewardship=6
    	intrigue=3
 	learning=5
+	prowess = 7
 	health = 6.5
 
 	trait = just
@@ -502,6 +511,7 @@
 	stewardship=2
    	intrigue=2
 	learning=2
+	prowess = 11
 	health = 6.5
 
 	trait = gluttonous
@@ -603,6 +613,7 @@
 	stewardship=8
    	intrigue=4
 	learning=8
+	prowess = 4
 	health = 6.5
 
 	trait = calm
@@ -648,6 +659,7 @@
 	stewardship=6
    	intrigue=4
 	learning=9
+	prowess = 2
 	health = 6.5
 
 
@@ -690,6 +702,7 @@
 	stewardship=7
    	intrigue=2
 	learning=9
+	prowess = 2
 	health = 6.5
 
 	trait = shy
@@ -728,6 +741,7 @@
 	stewardship=6
    	intrigue=7
 	learning=4
+	prowess = 10
 	health = 6.5
 
 	trait = lazy
@@ -792,6 +806,7 @@
 	stewardship=7
    	intrigue=4
 	learning=4
+	prowess = 10
 	health = 6.5
 
 	trait = diligent
@@ -829,6 +844,7 @@
 	stewardship=3
    	intrigue=3
 	learning=3
+	prowess = 4
 
 	trait = craven
 	trait = arrogant
