@@ -1,6 +1,7 @@
 k_church = {
               1180.1.1 = {
                             holder = 100000
+                            government = feudal_government
               }
 }
 
@@ -26,6 +27,12 @@ c_cethleann = {
 
 c_cichol = {
               1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            holder = 100000
+              }
+}
+
+d_zanado = {
               1180.1.1 = {
                             holder = 100000
               }

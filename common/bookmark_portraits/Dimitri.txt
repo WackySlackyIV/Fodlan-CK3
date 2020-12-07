@@ -2,9 +2,9 @@
 # History database id:300000
 Dimitri={
 	type=male
-	id=335
+	id=470
 	age=0.180000
-	genes={ 		hair_color={ 218 121 95 245 }
+	genes={ 		hair_color={ 221 121 95 245 }
  		skin_color={ 28 29 72 100 }
  		eye_color={ 94 108 190 195 }
  		gene_chin_forward={ "chin_forward_neg" 78 "chin_forward_neg" 78 }
@@ -96,24 +96,23 @@ Dimitri={
  		expression_other={ "cheek_wrinkles_left_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_5" 82 "complexion_6" 172 }
  		gene_height={ "normal_height" 175 "normal_height" 131 }
- 		gene_bs_body_type={ "body_average" 95 "body_fat_head_fat_medium" 103 }
+ 		gene_bs_body_type={ "body_average" 71 "body_fat_head_fat_medium" 103 }
  		gene_bs_body_shape={ "body_shape_average_clothed" 255 "body_shape_rectangle_half" 47 }
  		gene_bs_bust={ "bust_clothes" 255 "bust_shape_3_half" 64 }
  		gene_age={ "old_beauty_1" 183 "old_3" 191 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 182 "avg_spacing_lower_thickness" 204 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 181 "layer_2_avg_thickness" 181 }
- 		gene_body_hair={ "body_hair_dense" 19 "body_hair_dense" 93 }
- 		hairstyles={ "all_hairstyles" 100 "all_hairstyles" 209 }
- 		beards={ "all_beards" 0 "all_beards" 65 }
+ 		gene_body_hair={ "body_hair_sparse_low_stubble" 123 "body_hair_dense" 93 }
+ 		hairstyles={ "dimitri_hairstyle" 255 "all_hairstyles" 209 }
+ 		beards={ "all_beards" 2 "all_beards" 65 }
  		eye_accessory={ "normal_eyes" 238 "normal_eyes" 238 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 154 "normal_eyelashes" 154 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		pose={ "" 255 "" 0 }
-		clothes={ "indian_war_nobility_clothes" 0 "most_clothes" 0 }
-         	legwear={ "western_common_legwear" 0 "all_legwear" 0 }
-         	cloaks={ "western_royalty" 0 "no_cloak" 0 }
-         	special_headgear_eye_patch={ "eye_patch" 0 "eye_patch" 0 }
+ 		cloaks={ "western_royalty" 105 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 55 "most_clothes" 0 }
+ 		headgear={ "western_high_nobility" 5 "no_headgear" 0 }
+ 		legwear={ "western_common_legwear" 220 "all_legwear" 0 }
  }
 	entity={ 3942081117 3942081117 }
 }

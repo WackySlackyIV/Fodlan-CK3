@@ -2,7 +2,7 @@
 # History database id:200000
 Oswald={
 	type=male
-	id=48
+	id=49
 	age=0.610000
 	genes={ 		hair_color={ 232 224 131 127 }
  		skin_color={ 42 50 42 86 }
@@ -96,8 +96,8 @@ Oswald={
  		expression_other={ "cheek_wrinkles_left_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_3" 153 "complexion_3" 153 }
  		gene_height={ "normal_height" 136 "normal_height" 154 }
- 		gene_bs_body_type={ "body_fat_head_fat_low" 144 "body_fat_head_fat_low" 139 }
- 		gene_bs_body_shape={ "body_shape_average_clothed" 87 "body_shape_pear_half" 26 }
+ 		gene_bs_body_type={ "body_fat_head_fat_low" 149 "body_fat_head_fat_low" 139 }
+ 		gene_bs_body_shape={ "body_shape_average_clothed" 43 "body_shape_pear_half" 26 }
  		gene_bs_bust={ "bust_clothes" 102 "bust_shape_3_half" 102 }
  		gene_age={ "old_4" 76 "old_4" 76 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 95 "avg_spacing_lower_thickness" 95 }
@@ -108,12 +108,11 @@ Oswald={
  		eye_accessory={ "normal_eyes" 8 "normal_eyes" 8 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 206 "normal_eyelashes" 206 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		pose={ "" 255 "" 0 }
- 		cloaks={ "western_royalty" 133 "no_cloak" 0 }
- 		clothes={ "western_royalty_clothes" 201 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 2 "no_headgear" 0 }
- 		legwear={ "western_common_legwear" 46 "all_legwear" 0 }
+ 		cloaks={ "western_royalty" 148 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 173 "most_clothes" 0 }
+ 		headgear={ "western_high_nobility" 21 "no_headgear" 0 }
+ 		legwear={ "western_common_legwear" 130 "all_legwear" 0 }
  }
 	entity={ 3942081117 3942081117 }
 }

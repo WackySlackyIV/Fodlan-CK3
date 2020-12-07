@@ -1948,6 +1948,7 @@
 
 300076 = {
 	name="Jacques" # the Fox
+	dna = dna_caek
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=209
