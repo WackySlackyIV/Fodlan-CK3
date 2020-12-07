@@ -654,7 +654,7 @@
 	culture="adrestian"
 	dynasty = 300
 	father = 500024
-	dna=dna_ionius
+	dna = dna_ionius
 
    	diplomacy=5
    	martial=3
