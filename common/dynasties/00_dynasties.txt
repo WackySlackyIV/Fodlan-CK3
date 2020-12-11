@@ -39,13 +39,13 @@
 ###Leicester###
 100=
 {
-	name="Riegan"
+	name="von Riegan"
 	culture="leicester"
 }
 
 101=
 {
-	name="Ordelia"
+	name="von Ordelia"
 	culture="leicester"
 }
 
@@ -57,13 +57,13 @@
 
 103=
 {
-	name="Edmund"
+	name="von Edmund"
 	culture="leicester"
 }
 
 104=
 {
-	name="Daphnel"
+	name="von Daphnel"
 	culture="leicester"
 }
 
@@ -587,13 +587,13 @@
 
 300=
 {
-	name="Hresvelg"
+	name="von Hresvelg"
 	culture="adrestian"
 }
 
 301=
 {
-	name="Martritz"
+	name="von Martritz"
 	culture="adrestian"
 }
 
@@ -605,13 +605,13 @@
 
 303=
 {
-	name="Essar"
+	name="von Essar"
 	culture="adrestian"
 }
 
 304=
 {
-	name="Hrym"
+	name="von Hrym"
 	culture="adrestian"
 }
 
@@ -629,7 +629,7 @@
 
 307=
 {
-	name="Bergliez"
+	name="von Bergliez"
 	culture="adrestian"
 }
 
@@ -641,13 +641,13 @@
 
 309=
 {
-	name="Aegir"
+	name="von Aegir"
 	culture="adrestian"
 }
 
 310=
 {
-	name="Varley"
+	name="von Varley"
 	culture="adrestian"
 }
 
@@ -689,7 +689,7 @@
 
 317=
 {
-	name="Hevring"
+	name="von Hevring"
 	culture="adrestian"
 }
 
@@ -701,7 +701,7 @@
 
 319=
 {
-	name="Arundel"
+	name="von Arundel"
 	culture="adrestian"
 }
 
@@ -713,13 +713,13 @@
 
 321=
 {
-	name="Vestra"
+	name="von Vestra"
 	culture="adrestian"
 }
 
 322=
 {
-	name="Bartels"
+	name="von Bartels"
 	culture="adrestian"
 }
 
@@ -737,13 +737,13 @@
 
 325=
 {
-	name="Ochs"
+	name="von Ochs"
 	culture="adrestian"
 }
 
 326=
 {
-	name="Nuvelle"
+	name="von Nuvelle"
 	culture="adrestian"
 }
 

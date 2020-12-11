@@ -308,6 +308,58 @@
 	}
 }
 
+700020 = { #minatuk
+	name="random 1"
+	religion="kizilisma"
+	culture="almyran"
+
+	1140.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700021 = { #vedemdara
+	name="random 2"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700022 = { #tartku
+	name="random 3"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+700023 = { #dashtamin
+	name="random 4"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
 #############
 ### Pamea ###
 #############
@@ -328,6 +380,7 @@
 710002 = {
 	name="17"
 	religion="kizilisma"
+	female = yes
 	culture="almyran"
 
 	1121.6.22 = {
@@ -405,6 +458,71 @@
 
 710008 = {
 	name="23"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+710009 = { #baynalminal
+	name="random 5"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+710010 = { #koshdara en shekaft
+	name="random 6"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+710011 = { #vajim
+	name="random 7"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+710012 = { #zebrud
+	name="random 8"
+	religion="kizilisma"
+	culture="almyran"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+710013 = { #barnajjiye
+	name="random 9"
 	religion="kizilisma"
 	culture="almyran"
 

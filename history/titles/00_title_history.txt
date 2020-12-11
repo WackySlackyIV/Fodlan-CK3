@@ -3060,6 +3060,7 @@ d_arcila = {
 c_escania = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_reqonn
                             holder = 800005
               }
 }
@@ -3074,6 +3075,7 @@ c_capaz = {
 c_murkesh = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_reqonn
                             holder = 800012
               }
 }
@@ -3081,6 +3083,7 @@ c_murkesh = {
 c_chagar = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_reqonn
                             holder = 800013
               }
 }
@@ -3088,6 +3091,7 @@ c_chagar = {
 c_shubat = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_reqonn
                             holder = 800014
               }
 }
@@ -3290,6 +3294,7 @@ c_ashur = {
 c_kishnarru = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_reqonn
                             holder = 800011
               }
 }
@@ -3407,6 +3412,7 @@ c_osul = {
 c_ziyarut = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700007
               }
 }
@@ -3421,6 +3427,7 @@ c_miyena = {
 c_ghuriye = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700017
               }
 }
@@ -3434,7 +3441,8 @@ c_sor = {
 
 d_fahrob = {
               1180.1.1 = {
-                            holder = 700000
+                            liege = k_almyra
+                            holder = 700010
               }
 }
 
@@ -3459,15 +3467,10 @@ c_vedemdara = {
               }
 }
 
-d_karcha = {
-              1180.1.1 = {
-                            holder = 700000
-              }
-}
-
 c_doloniye = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700011
               }
 }
@@ -3475,6 +3478,7 @@ c_doloniye = {
 c_surkh = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700012
               }
 }
@@ -3488,7 +3492,8 @@ c_chinar = {
 
 d_berkniyye = {
               1180.1.1 = {
-                            holder = 700000
+                            liege = k_almyra
+                            holder = 700013
               }
 }
 
@@ -3513,15 +3518,10 @@ c_tartku = {
               }
 }
 
-d_yezgand = {
-              1180.1.1 = {
-                            holder = 700000
-              }
-}
-
 c_qambarast = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700016
               }
 }
@@ -3529,6 +3529,7 @@ c_qambarast = {
 c_pugush = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700014
               }
 }
@@ -3536,6 +3537,7 @@ c_pugush = {
 c_kalaishodi = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700015
               }
 }
@@ -3549,7 +3551,8 @@ c_chimepe = {
 
 d_khurmana = {
               1180.1.1 = {
-                            holder = 700000
+                            liege = k_almyra
+                            holder = 700005
               }
 }
 
@@ -3577,13 +3580,15 @@ c_minatuk = {
 c_magoviye = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700008
               }
 }
 
 d_rokhatiye = {
               1180.1.1 = {
-                            holder = 700000
+                            liege = k_almyra
+                            holder = 710002
               }
 }
 
@@ -3597,6 +3602,7 @@ c_qitahna = {
 c_shurguzar = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700009
               }
 }
@@ -3611,26 +3617,23 @@ c_kuchkak = {
 c_baynalminal = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 710002
-              }
-}
-
-d_vezm = {
-              1180.1.1 = {
-                            holder = 700000
+                            liege = d_rokhatiye
+                            holder = 710009
               }
 }
 
 c_khoshdara = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 710006
+                            liege = d_parakan
+                            holder = 710010
               }
 }
 
 c_tarykam = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700019
               }
 }
@@ -3645,13 +3648,15 @@ c_oktoshiye = {
 c_childukhtar = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
+                            liege = k_almyra
                             holder = 700018
               }
 }
 
 d_shudnon = {
               1180.1.1 = {
-                            holder = 800010
+                            liege = k_almyra
+                            holder = 700006
               }
 }
 
@@ -3669,16 +3674,25 @@ c_shortoqay = {
               }
 }
 
+c_martakhy = {
+              1.1.1 = { change_development_level = 1 }
+              1180.1.1 = {
+                            liege = k_reqonn
+                            holder = 800010
+              }
+}
+
 d_zarreh = {
               1180.1.1 = {
-                            holder = 700000
+                            holder = 710005
               }
 }
 
 c_vajim = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 710006
+                            liege = d_parakan
+                            holder = 710011
               }
 }
 
@@ -3696,12 +3710,6 @@ c_kachupur = {
               }
 }
 
-d_quraba = {
-              1180.1.1 = {
-                            holder = 700000
-              }
-}
-
 c_gurchak = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
@@ -3712,7 +3720,8 @@ c_gurchak = {
 c_barnajjiye = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 710005
+                            liege = d_zarreh
+                            holder = 710013
               }
 }
 
@@ -3725,7 +3734,8 @@ c_golisorg = {
 
 d_parakan = {
               1180.1.1 = {
-                            holder = 700000
+                            liege = k_almyra
+                            holder = 710006
               }
 }
 
@@ -3752,7 +3762,7 @@ c_biyakhal = {
 
 d_kamakeya = {
               1180.1.1 = {
-                            holder = 700000
+                            holder = 710008
               }
 }
 
@@ -3773,20 +3783,16 @@ c_rujnemo = {
 c_zebrud = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 710008
-              }
-}
-
-d_khvajeh = {
-              1180.1.1 = {
-                            holder = 700000
+                            liege = d_kamakeya
+                            holder = 710012
               }
 }
 
 c_shekaft = {
               1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
-                            holder = 710006
+                            liege = d_parakan
+                            holder = 710010
               }
 }
 
