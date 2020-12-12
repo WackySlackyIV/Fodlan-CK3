@@ -1,2 +1,8 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+487;522;river_large;2068;-1;-1;-1;-1;enbarr bridge 1
+488;707;river_large;2067;-1;-1;-1;-1;enbarr bridge 2
+561;59;river_large;2061;-1;-1;-1;-1;myrddin bridge
+529;93;river_large;2063;-1;-1;-1;-1;ordelia bridge
+835;362;river_large;2069;-1;-1;-1;-1;empire-kingdom bridge
+818;459;river_large;2070;-1;-1;-1;-1;west chuch bridge
 -1;-1;;-1;-1;-1;-1;-1;

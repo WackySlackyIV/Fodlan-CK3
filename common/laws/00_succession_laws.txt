@@ -341,6 +341,34 @@
 			pool_character_config = pool_city_succession
 		}
 	}
+
+	alliance_elective_succession_law = {
+		can_have = {
+			has_government = feudal_government
+			highest_held_title_tier = tier_kingdom
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			this = title:k_leicester
+			can_title_have_law_general_trigger = yes
+		}
+		succession = {
+			order_of_succession = election
+			election_type = alliance_elective
+		}
+		flag = elective_succession_law
+		modifier = {
+			vassal_limit = 20
+		}
+		revoke_cost = {
+			prestige = change_hre_title_succession_law_prestige_cost
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+	}
 }
 
 succession_gender_laws = {
@@ -574,3 +602,5 @@ succession_rel_head = {
 		}
 	}
 }
+
+

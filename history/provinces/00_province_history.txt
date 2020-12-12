@@ -211,7 +211,7 @@
 457 = {       # (b_sephor)
               culture = faerghus
               religion = seirosite
-              holding = none
+              holding = city_holding
 }
 
 458 = {       # (b_kilfane)
@@ -225,7 +225,7 @@
 459 = {       # (b_veglise)
               culture = faerghus
               religion = seirosite
-              holding = none
+              holding = castle_holding
 }
 
 460 = {       # (b_galilee)
@@ -245,13 +245,13 @@
 462 = {       # (b_mayene)
               culture = faerghus
               religion = seirosite
-              holding = church_holding
+              holding = none
 }
 
 463 = {       # (b_nazer)
               culture = faerghus
               religion = seirosite
-              holding = none
+              holding = church_holding
 }
 
 464 = {       # (b_caonach)
@@ -275,9 +275,9 @@
 }
 
 467 = {       # (b_woodstown)
-              culture = duscur
-              religion = pantheon_faith
-              holding = castle_holding
+              culture = faerghus
+              religion = seirosite
+              holding = city_holding
 }
 
 ####           (k_duscur)
@@ -416,19 +416,19 @@
 248 = {       # (b_carros)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 249 = {       # (b_contes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 250 = {       # (b_menton)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_wapont)
@@ -442,13 +442,13 @@
 252 = {       # (b_laldosa)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 253 = {       # (b_sispony)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_guisnes)
@@ -462,13 +462,13 @@
 255 = {       # (b_arisnal)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 256 = {       # (b_eserrat)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_fologne)
@@ -488,7 +488,7 @@
 259 = {       # (b_arans)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_adharc)
@@ -503,19 +503,19 @@
 300 = {       # (b_llors)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 301 = {       # (b_molleres)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 302 = {       # (b_merille)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ryswise)
@@ -535,7 +535,7 @@
 305 = {       # (b_rochelle)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_renaix)
@@ -549,13 +549,13 @@
 307 = {       # (b_xandre)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 308 = {       # (b_lagord)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_nydalr)
@@ -2196,31 +2196,31 @@
 188 = {       # (b_lyon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 189 = {       # (b_bron)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 190 = {       # (b_jonage)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 191 = {       # (b_mornant)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 192 = {       # (b_mane)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_amiens)
@@ -2234,13 +2234,13 @@
 194 = {       # (b_avem)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 195 = {       # (b_trembe)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_eurs)
@@ -2254,13 +2254,13 @@
 197 = {       # (b_erquy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 198 = {       # (b_botmeur)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_ratumac)
@@ -2274,7 +2274,7 @@
 200 = {       # (b_draynes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 201 = {       # (b_duault)
@@ -2294,13 +2294,13 @@
 203 = {       # (b_lancieux)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 204 = {       # (b_tramain)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_veliocasse)
@@ -2314,13 +2314,13 @@
 206 = {       # (b_henon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 207 = {       # (b_radenac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_galatea)
@@ -2335,19 +2335,19 @@
 209 = {       # (b_bonnefoy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 210 = {       # (b_agne)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 211 = {       # (b_croix)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_chartreuse)
@@ -2367,7 +2367,7 @@
 214 = {       # (b_beclac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_beaulieu)
@@ -2381,13 +2381,13 @@
 216 = {       # (b_hever)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 217 = {       # (b_cosen)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_gwyne)
@@ -2401,13 +2401,13 @@
 219 = {       # (b_bommels)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 220 = {       # (b_mormont)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_charon)
@@ -2422,19 +2422,19 @@
 222 = {       # (b_vedas)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 223 = {       # (b_jean)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 224 = {       # (b_juvinac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_shrewe)
@@ -2448,13 +2448,13 @@
 226 = {       # (b_roudeau)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 227 = {       # (b_gournier)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_warwise)
@@ -2468,13 +2468,13 @@
 229 = {       # (b_injoux)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 230 = {       # (b_aubepierre)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lenord)
@@ -2488,13 +2488,13 @@
 232 = {       # (b_freyming)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 233 = {       # (b_balbin)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_conand)
@@ -2509,19 +2509,19 @@
 235 = {       # (b_bascons)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 236 = {       # (b_bisel)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 237 = {       # (b_chate)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_esses)
@@ -2535,13 +2535,13 @@
 239 = {       # (b_marigane)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 240 = {       # (b_aix)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_aurigny)
@@ -2555,13 +2555,13 @@
 242 = {       # (b_villau)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 243 = {       # (b_cherble)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_douvres)
@@ -2575,13 +2575,13 @@
 245 = {       # (b_hyere)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 246 = {       # (b_vesy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_gautier)
@@ -2596,19 +2596,19 @@
 261 = {       # (b_pau)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 262 = {       # (b_biuros)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 263 = {       # (b_montardon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_gueldre)
@@ -2622,13 +2622,13 @@
 265 = {       # (b_certers)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 266 = {       # (b_axivalle)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_frise)
@@ -2642,13 +2642,13 @@
 268 = {       # (b_juberri)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 269 = {       # (b_pal)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_sudfrise)
@@ -2662,13 +2662,13 @@
 271 = {       # (b_villa)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 272 = {       # (b_ransol)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_itha)
@@ -2683,19 +2683,19 @@
 274 = {       # (b_bordeaux)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 275 = {       # (b_pessac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 276 = {       # (b_lormont)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_foulde)
@@ -2709,13 +2709,13 @@
 278 = {       # (b_caudrot)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 279 = {       # (b_gauriac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_montjoie)
@@ -2729,13 +2729,13 @@
 281 = {       # (b_escaudes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 282 = {       # (b_frontenac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_clevris)
@@ -2749,13 +2749,13 @@
 284 = {       # (b_gabarnac)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 285 = {       # (b_eyrans)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_langres)
@@ -2770,19 +2770,19 @@
 287 = {       # (b_celsoy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 288 = {       # (b_brennes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 289 = {       # (b_fontaine)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_juliers)
@@ -2796,13 +2796,13 @@
 291 = {       # (b_tramecourt)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 292 = {       # (b_thiron)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_looz)
@@ -2816,13 +2816,13 @@
 294 = {       # (b_meylan)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 295 = {       # (b_ludes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_gand)
@@ -2836,13 +2836,13 @@
 297 = {       # (b_talissieu)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 298 = {       # (b_bentry)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_magdred)
@@ -2857,19 +2857,19 @@
 310 = {       # (b_vertou)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 311 = {       # (b_reze)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 312 = {       # (b_herblain)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_florimont)
@@ -2883,13 +2883,13 @@
 314 = {       # (b_villesauve)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 315 = {       # (b_escous)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_montcarvel)
@@ -2903,13 +2903,13 @@
 317 = {       # (b_aubagne)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 318 = {       # (b_cravans)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_lalonde)
@@ -2924,19 +2924,19 @@
 320 = {       # (b_pernay)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 321 = {       # (b_luynes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 322 = {       # (b_vouvray)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_mortagne)
@@ -2950,13 +2950,13 @@
 324 = {       # (b_clairfaye)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 325 = {       # (b_feline)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_resin)
@@ -2970,13 +2970,13 @@
 327 = {       # (b_sonchamp)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 328 = {       # (b_escoureille)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_leon)
@@ -2990,13 +2990,13 @@
 330 = {       # (b_valier)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 331 = {       # (b_verneix)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_roland)
@@ -3011,19 +3011,19 @@
 333 = {       # (b_limeray)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 334 = {       # (b_mosnes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 335 = {       # (b_cangey)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_roncevaux)
@@ -3037,13 +3037,13 @@
 337 = {       # (b_bouligny)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 338 = {       # (b_loire)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_blaye)
@@ -3057,13 +3057,13 @@
 340 = {       # (b_lesperre)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 341 = {       # (b_delettes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_vitre)
@@ -3077,13 +3077,13 @@
 343 = {       # (b_tourche)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 344 = {       # (b_chasseignes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_gaspard)
@@ -3098,19 +3098,19 @@
 346 = {       # (b_rhue)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 347 = {       # (b_chante)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 348 = {       # (b_bruz)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_balthasar)
@@ -3124,13 +3124,13 @@
 350 = {       # (b_champsecret)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 351 = {       # (b_poucelange)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_melchior)
@@ -3144,13 +3144,13 @@
 353 = {       # (b_montmarault)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 354 = {       # (b_venoize)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_zorastre)
@@ -3164,13 +3164,13 @@
 356 = {       # (b_dancharia)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 357 = {       # (b_lafitte)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_rowe)
@@ -3185,19 +3185,19 @@
 359 = {       # (b_porse)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 360 = {       # (b_argol)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 361 = {       # (b_crozon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_arianrhod)
@@ -3211,13 +3211,13 @@
 363 = {       # (b_lanrivore)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 364 = {       # (b_aynes)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_ampuis)
@@ -3231,13 +3231,13 @@
 366 = {       # (b_villaudric)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 367 = {       # (b_reculefort)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_soyers)
@@ -3251,13 +3251,13 @@
 369 = {       # (b_vero)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 370 = {       # (b_coppel)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_gideon)
@@ -3272,19 +3272,19 @@
 372 = {       # (b_plemont)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 373 = {       # (b_aubin)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 374 = {       # (b_helier)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_midian)
@@ -3298,13 +3298,13 @@
 376 = {       # (b_bassoncourt)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 377 = {       # (b_fronton)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_goetinge)
@@ -3318,13 +3318,13 @@
 379 = {       # (b_varie)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 380 = {       # (b_montresor)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_leine)
@@ -3338,13 +3338,13 @@
 382 = {       # (b_margueray)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 383 = {       # (b_turgon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_mateus)
@@ -3359,19 +3359,19 @@
 385 = {       # (b_pleinmont)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 386 = {       # (b_eree)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 387 = {       # (b_vazon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_tricasse)
@@ -3385,13 +3385,13 @@
 389 = {       # (b_gigean)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 390 = {       # (b_velotte)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_mettis)
@@ -3405,13 +3405,13 @@
 392 = {       # (b_missy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 393 = {       # (b_lamoura)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lourene)
@@ -3425,13 +3425,13 @@
 395 = {       # (b_uruffe)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 396 = {       # (b_bricque)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_genevieve)
@@ -3446,19 +3446,19 @@
 398 = {       # (b_escalles)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 399 = {       # (b_sangatte)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 400 = {       # (b_andres)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_fraisnes)
@@ -3472,13 +3472,13 @@
 402 = {       # (b_belgentier)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 403 = {       # (b_ardengost)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_chablis)
@@ -3492,13 +3492,13 @@
 405 = {       # (b_bondilly)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 406 = {       # (b_brunville)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_bisont)
@@ -3512,13 +3512,13 @@
 408 = {       # (b_chavanon)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 409 = {       # (b_bussy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_brume)
@@ -3533,19 +3533,19 @@
 411 = {       # (b_ligure)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 412 = {       # (b_varazze)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 413 = {       # (b_arenzano)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_torraine)
@@ -3559,7 +3559,7 @@
 415 = {       # (b_scragnola)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_lucain)
@@ -3574,19 +3574,19 @@
 417 = {       # (b_epinal)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 418 = {       # (b_harole)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 419 = {       # (b_dompaire)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_lemo)
@@ -3600,13 +3600,13 @@
 421 = {       # (b_primat)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 422 = {       # (b_villevieux)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_thours)
@@ -3620,13 +3620,13 @@
 424 = {       # (b_derbamont)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 425 = {       # (b_marfaux)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_lusigan)
@@ -3640,13 +3640,13 @@
 427 = {       # (b_peufard)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 428 = {       # (b_nesmy)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_zacharie)
@@ -3661,19 +3661,19 @@
 430 = {       # (b_sarre)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 431 = {       # (b_reding)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 432 = {       # (b_nider)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_archembault)
@@ -3687,13 +3687,13 @@
 434 = {       # (b_kerrale)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 435 = {       # (b_aouste)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_charente)
@@ -3707,13 +3707,13 @@
 437 = {       # (b_plaise)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 438 = {       # (b_arpenti)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_cavaellon)
@@ -3727,13 +3727,13 @@
 440 = {       # (b_pouges)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 441 = {       # (b_lannuzel)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_rhodos)
@@ -3748,25 +3748,25 @@
 443 = {       # (b_rhodoscoast)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 444 = {       # (b_tropez)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 445 = {       # (b_cavalaire)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 446 = {       # (b_gardaine)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lahourd)
@@ -3780,13 +3780,13 @@
 448 = {       # (b_larisse)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 449 = {       # (b_nauplie)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_bordeu)
@@ -3800,13 +3800,13 @@
 451 = {       # (b_leucade)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 452 = {       # (b_patras)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_auch)
@@ -3820,13 +3820,13 @@
 454 = {       # (b_laurion)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 455 = {       # (b_scillonte)
               culture = faerghus
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 ####           (k_adrestia)

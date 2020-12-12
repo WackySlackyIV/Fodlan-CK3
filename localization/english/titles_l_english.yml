@@ -75,8 +75,8 @@
  b_gladia:0 "Gladia"
  b_woodstown:0 "Woodstown"
 
- e_adrestia:0 "Adrestia"
- k_leicester:0 "Leicester"
+ e_adrestia:0 "Adrestian Empire"
+ k_leicester:0 "Leicester Alliance"
  d_riegan:0 "Riegan"
  c_derdriu:0 "Derdriu"
  b_derdriu:0 "Derdriu"
@@ -135,6 +135,7 @@
 
  d_myrddin:0 "Myrddin"
  c_myrddin:0 "Myrddin"
+ b_myrddin:0 "Myrddin"
  b_emrys:0 "Emrys"
  b_sylvestris:0 "Sylvestris"
  b_lostwithel:0 "Lostwithel"
@@ -335,7 +336,7 @@
  b_cole:0 "Cole"
  b_redditch:0 "Redditch"
 
- k_faerghus:0 "Faerghus"
+ k_faerghus:0 "Holy Kingdom of Faerghus"
  d_blaiddyd:0 "Blaiddyd"
  c_fhirdiad:0 "Fhirdiad"
  b_fhirdiad:0 "Fhirdiad"
@@ -440,6 +441,7 @@
  b_fraldarius:0 "Fraldarius"
  b_carros:0 "Carros"
  b_menton:0 "Menton"
+ b_conte:0 "Conte"
 
  c_wapont:0 "Wapont"
  b_wapont:0 "Wapont"
@@ -476,10 +478,11 @@
  c_sudfrise:0 "Sudfrise"
  b_sudfrise:0 "Sudfrise"
  b_villa:0 "Villa"
+ b_ransol:0 "Ransol"
 
  d_itha:0 "Itha"
  c_itha:0 "Itha"
- b_Itha:0 "Itha"
+ b_itha:0 "Itha"
  b_bordeaux:0 "Bordeaux"
  b_pessac:0 "Pessac"
  b_lormont:0 "Lormont"
@@ -500,7 +503,7 @@
  b_eyrans:0 "Eyrans"
  
  d_langres:0 "Langres"
- d_langres:0 "Langres"
+ c_langres:0 "Langres"
  b_langres:0 "Langres"
  b_celsoy:0 "Celsoy"
  b_brennes:0 "Brennes"
@@ -512,7 +515,7 @@
  b_thiron:0 "Thiron"
 
  c_looz:0 "Looz"
- b_Looz:0 "Looz"
+ b_looz:0 "Looz"
  b_meylan:0 "Meylan"
  b_ludes:0 "Ludes"
  
@@ -529,7 +532,7 @@
  b_merille:0 "Merille"
  
  c_ryswise:0 "Ryswise"
- b_Ryswise:0 "Ryswise"
+ b_ryswise:0 "Ryswise"
  b_coloma:0 "Coloma"
  b_rochelle:0 "Rochelle"
  
@@ -617,7 +620,7 @@
  b_venoize:0 "Venoize"
 
  c_zorastre:0 "Zorastre"
- b_Zorastre:0 "Zorastre"
+ b_zorastre:0 "Zorastre"
  b_dancharia:0 "Dancharia"
  b_lafitte:0 "Lafitte"
  
@@ -629,7 +632,7 @@
  b_crozon:0 "Crozon"
 
  c_arianrhod:0 "Arianrhod"
- b_Arianrhod:0 "Arianrhod"
+ b_arianrhod:0 "Arianrhod"
  b_lanrivore:0 "Lanrivore"
  b_aynes:0 "Aynes"
  
@@ -768,6 +771,7 @@
  d_rhodos:0 "Rhodos"
  c_rhodos:0 "Rhodos"
  b_rhodos:0 "Rhodos"
+ b_rhodoscoast:0 "Rhodos Coast"
  b_tropez:0 "Tropez"
  b_cavalaire:0 "Cavalaire"
  b_gardaine:0 "Gardaine"
@@ -780,6 +784,7 @@
  c_bordeu:0 "Bordeu"
  b_bordeu:0 "Bordeu"
  b_patras:0 "Patras"
+ b_leu:0 "Leu"
  
  c_auch:0 "Auch"
  b_auch:0 "Auch"

@@ -414,6 +414,9 @@ e_adrestia = {
 k_leicester = {
               1180.1.1 = {
                             holder = 200000
+				succession_laws = {
+					alliance_elective_succession_law	
+				}
               }
 }
 
@@ -614,7 +617,7 @@ d_ordelia = {
 }
 
 c_ordelia = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200005
               }
@@ -651,7 +654,7 @@ d_gloucester = {
 }
 
 c_gloucester = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200006
               }
@@ -703,7 +706,7 @@ d_edmund = {
 }
 
 c_edmund = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200007
               }
@@ -763,7 +766,7 @@ d_goneril = {
 }
 
 c_goneril = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200011
               }
