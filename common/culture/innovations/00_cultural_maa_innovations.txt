@@ -49,7 +49,7 @@ innovation_griffon_breeding = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:reqonn
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = griffon_rider
@@ -119,7 +119,7 @@ innovation_bloodlust = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:sreng
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = berserker
@@ -133,7 +133,7 @@ innovation_pine_hunters = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:albinean
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = elgier
@@ -147,7 +147,7 @@ innovation_ways_ofthe_sword = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:nuadan
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = trueblade
@@ -161,7 +161,7 @@ innovation_the_elite = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:agarthan
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = agastya
@@ -203,7 +203,7 @@ innovation_overseers = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:morfis
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = grandmaster
@@ -217,7 +217,7 @@ innovation_steppe_lords = {
 	icon = @maa_01
 
 	potential = {
-		this = culture:indian
+		this = culture_group:outside_group
 	}
 
 	unlock_maa = oliphantier

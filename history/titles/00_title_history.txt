@@ -68,14 +68,14 @@ d_eastern_church = {
 }
 
 c_salem = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200009
               }
 }
 
 c_cangort = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             holder = 200009
               }
@@ -415,8 +415,9 @@ k_leicester = {
               1180.1.1 = {
                             holder = 200000
 				succession_laws = {
-					alliance_elective_succession_law	
+					alliance_elective_succession_law
 				}
+              }
               }
 }
 
@@ -434,14 +435,14 @@ c_derdriu = {
 }
 
 c_escomb = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200000
               }
 }
 
 c_wirksworth = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200067
@@ -449,7 +450,7 @@ c_wirksworth = {
 }
 
 c_sleaford = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200068
@@ -457,14 +458,14 @@ c_sleaford = {
 }
 
 c_neath = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200000
               }
 }
 
 c_roehester = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200000
               }
@@ -478,28 +479,28 @@ d_clarence = {
 }
 
 c_clarence = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200001
               }
 }
 
 c_reculver = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             holder = 200001
               }
 }
 
 c_cartmel = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             holder = 200001
               }
 }
 
 c_catterick = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200033
@@ -514,14 +515,14 @@ d_myrddin = {
 }
 
 c_myrddin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200002
               }
 }
 
 c_yarmouth = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200047
@@ -529,7 +530,7 @@ c_yarmouth = {
 }
 
 c_bordersley = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = d_myrddin
                             holder = 200026
@@ -537,7 +538,7 @@ c_bordersley = {
 }
 
 c_rhuddlan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             liege = d_myrddin
                             holder = 200048
@@ -552,21 +553,21 @@ d_daphnel = {
 }
 
 c_daphnel = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200003
               }
 }
 
 c_ive = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             holder = 200003
               }
 }
 
 c_beverly = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200073
@@ -574,7 +575,7 @@ c_beverly = {
 }
 
 c_gomery = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200044
@@ -582,7 +583,7 @@ c_gomery = {
 }
 
 c_maris = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200003
               }
@@ -617,14 +618,14 @@ d_ordelia = {
 }
 
 c_ordelia = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200005
               }
 }
 
 c_brandwell = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_ordelia
                             holder = 200049
@@ -632,7 +633,7 @@ c_brandwell = {
 }
 
 c_osyth = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = d_ordelia
                             holder = 200049
@@ -640,7 +641,7 @@ c_osyth = {
 }
 
 c_kirdford = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200005
               }
@@ -654,14 +655,14 @@ d_gloucester = {
 }
 
 c_gloucester = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 200006
               }
 }
 
 c_wayford = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200072
@@ -669,7 +670,7 @@ c_wayford = {
 }
 
 c_cleeve = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200046
@@ -677,21 +678,21 @@ c_cleeve = {
 }
 
 c_haugmond = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             holder = 200006
               }
 }
 
 c_haven = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200006
               }
 }
 
 c_grimsby = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200071
@@ -706,14 +707,14 @@ d_edmund = {
 }
 
 c_edmund = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 15 }
               1180.1.1 = {
                             holder = 200007
               }
 }
 
 c_ely = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200050
@@ -721,21 +722,21 @@ c_ely = {
 }
 
 c_raglan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             holder = 200007
               }
 }
 
 c_alfreton = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             holder = 200007
               }
 }
 
 c_jarrow = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200069
@@ -743,7 +744,7 @@ c_jarrow = {
 }
 
 c_radava = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200008
@@ -751,7 +752,7 @@ c_radava = {
 }
 
 c_kupala = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200008
@@ -766,14 +767,14 @@ d_goneril = {
 }
 
 c_goneril = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 13 }
               1180.1.1 = {
                             holder = 200011
               }
 }
 
 c_minster = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_goneril
                             holder = 200053
@@ -781,14 +782,14 @@ c_minster = {
 }
 
 c_asaph = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             holder = 200053
               }
 }
 
 c_tamsworth = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             liege = d_goneril
                             holder = 200070
@@ -796,14 +797,14 @@ c_tamsworth = {
 }
 
 c_morland = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200011
               }
 }
 
 c_throatford = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200011
               }
@@ -817,14 +818,14 @@ d_atholl = {
 }
 
 c_atholl = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200010
               }
 }
 
 c_morcambe = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 9 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200052
@@ -832,7 +833,7 @@ c_morcambe = {
 }
 
 c_croston = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200051
@@ -840,7 +841,7 @@ c_croston = {
 }
 
 c_perf = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200010
               }

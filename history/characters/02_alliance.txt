@@ -14,10 +14,12 @@
 	prowess = 9
 
 	trait = just
-	trait = infirm
 	trait = content
-	trait = celibate
 	trait = temperate
+
+	trait = education_diplomacy_3
+	trait = infirm
+	trait = celibate
 
 	1120.1.11 = {
 		birth=yes
@@ -179,14 +181,15 @@
 	culture="leicester"
 	father = 200029
 
+	diplomacy = 8
 	stewardship = 6
 	intrigue = 7
 
-	trait = education_diplomacy_2
 	trait = arrogant
 	trait = deceitful
-	trait = vengeful
 	trait = patient
+
+	trait = education_diplomacy_3
 
 	1139.5.28 = {
 		birth=yes
@@ -201,15 +204,7 @@
 		}
 	}
 	1181.1.1={
-		#effect = {
-		#	give_minor_title = title_roundtable_member
-		#	remove_title = job_chancellor
-		#	remove_title = job_marshal
-		#	remove_title = job_treasurer
-		#	remove_title = job_spiritual
-		#	set_character_flag = spell_reason_fire
-
-		#}
+		give_council_position = councillor_chancellor
 	}
 	1200.1.1={
 		death=yes
@@ -233,13 +228,7 @@
 		birth=yes
 	}
 	1181.1.1={
-		#effect = {
-		#	give_minor_title = title_roundtable_member
-		#	remove_title = job_chancellor
-		#	remove_title = job_marshal
-		#	remove_title = job_treasurer
-		#	remove_title = job_spiritual
-		#}
+		give_council_position = councillor_steward
 	}
 	1200.1.1={
 		death=yes
@@ -357,6 +346,7 @@
 	}
 	1155.8.9 = {
 		set_relation_friend = character:100013
+		give_council_position = councillor_marshal
 	}
 	1200.1.1={
 		death=yes
@@ -370,6 +360,7 @@
 	religion="seirosite"
 	culture="leicester"
 	mother=200013
+	father = 700000 
 	sexuality = heterosexual
 
    	diplomacy=7
@@ -383,7 +374,6 @@
 	trait = deceitful
 	trait = gregarious
 	trait = cynical
-	trait = arbitrary
 
 	trait = education_intrigue_4
 	trait = beauty_good_2
@@ -401,6 +391,7 @@
 	}
 	1181.1.1 = {
 		give_nickname = nick_the_master_tactician
+		employer = 200000
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -420,7 +411,6 @@
 	trait = education_diplomacy_2
 	trait = beauty_good_3
 	trait = just
-	trait = disinherited
 	trait = shrewd
 	trait = chaste
 	trait = patient
@@ -429,6 +419,9 @@
 
 	1140.9.15 = {
 		birth=yes
+	}
+	1160.1.1={
+		add_spouse = 700000
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -662,8 +655,6 @@
 	prowess = 2
 	health = 6.5
 
-
-	trait = ambitious
 	trait = diligent
 	trait = arrogant
 	trait = stubborn
