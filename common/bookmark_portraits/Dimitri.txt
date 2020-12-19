@@ -2,7 +2,7 @@
 # History database id:300000
 Dimitri={
 	type=male
-	id=470
+	id=479
 	age=0.180000
 	genes={ 		hair_color={ 221 121 95 245 }
  		skin_color={ 28 29 72 100 }
@@ -96,7 +96,7 @@ Dimitri={
  		expression_other={ "cheek_wrinkles_left_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_5" 82 "complexion_6" 172 }
  		gene_height={ "normal_height" 175 "normal_height" 131 }
- 		gene_bs_body_type={ "body_average" 71 "body_fat_head_fat_medium" 103 }
+ 		gene_bs_body_type={ "body_average" 59 "body_fat_head_fat_medium" 103 }
  		gene_bs_body_shape={ "body_shape_average_clothed" 255 "body_shape_rectangle_half" 47 }
  		gene_bs_bust={ "bust_clothes" 255 "bust_shape_3_half" 64 }
  		gene_age={ "old_beauty_1" 183 "old_3" 191 }
@@ -109,10 +109,9 @@ Dimitri={
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 154 "normal_eyelashes" 154 }
  		pose={ "" 255 "" 0 }
- 		cloaks={ "western_royalty" 105 "no_cloak" 0 }
- 		clothes={ "western_royalty_clothes" 55 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 5 "no_headgear" 0 }
- 		legwear={ "western_common_legwear" 220 "all_legwear" 0 }
+ 		cloaks={ "western_royalty" 67 "no_cloak" 0 }
+ 		clothes={ "western_royalty_clothes" 41 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 64 "all_legwear" 0 }
  }
 	entity={ 3942081117 3942081117 }
 }

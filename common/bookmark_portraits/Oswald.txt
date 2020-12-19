@@ -111,7 +111,6 @@ Oswald={
  		pose={ "" 255 "" 0 }
  		cloaks={ "western_royalty" 148 "no_cloak" 0 }
  		clothes={ "western_royalty_clothes" 173 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 21 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 130 "all_legwear" 0 }
  }
 	entity={ 3942081117 3942081117 }

@@ -138,3 +138,30 @@
  trait_crest_minor_malik_desc:0 "This character bears the Minor Gift of Malik"
  trait_crest_major_malik:0 "Major Gift of Malik"
  trait_crest_major_malik_desc:0 "This character bears the Major Gift of Malik"
+ 
+ trait_blood_experiments:0 "Blood Experiments"
+ trait_blood_experiments_desc:0 "This character has been subjected to vile Blood Experiments"
+ 
+ trait_child_goddess:0 "Child of the Goddess"
+ trait_child_goddess_desc:0 "This character belongs to the Nabatean race, and are decendents of the Goddess"
+ 
+ trait_dragon_blood:0 "Dragon Blood"
+ trait_dragon_blood_desc:0 "Being a decendent from the children of the goddess, you have strong blood going trough your vains"
+ 
+ trait_kitsune:0 "Kitsune"
+ trait_kitsune_desc:0 "Kitsune are a shapeshifting species able to switch between humanoid and demonic fox forms with the aid of concentrated power"
+ 
+ trait_beast_blood:0 "Beast Blood"
+ trait_beast_blood_desc:0 "Being the offspring of a laguz, your body is stronger then that of most people"
+ 
+ trait_wolfskin:0 "Wolfskin"
+ trait_wolfskin_desc:0 "Wolfskins are a shapeshifting species able to switch between a humanoid and werewolf-like creature forms with the aid of concentrated power"
+ 
+ trait_taguel:0 "Taguel"
+ trait_taguel_desc:0 "Taguel are a shapeshifting species able to switch between humanoid and rabit-like forms with the aid of concentrated power"
+ 
+ trait_permanent_dragon_form:0 "Permanent Dragon"
+ trait_permanent_dragon_form_desc:0 "This Child of the Goddess has lost its ability to shapeshift back into humanoid form. It makes them far stronger but doesnt make them good diplomats."
+ 
+ trait_ember:0 "Ember"
+ trait_ember_desc:0 "Embers are decendants of the Prophet Malik, they are according to religion the true sons and daughters of Almyra"

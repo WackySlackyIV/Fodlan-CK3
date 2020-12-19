@@ -91,13 +91,13 @@ Milad={
  		face_detail_nose_tip_def={ "nose_tip_def" 221 "nose_tip_def" 221 }
  		face_detail_temple_def={ "temple_def" 190 "temple_def" 190 }
  		expression_brow_wrinkles={ "brow_wrinkles_02" 88 "brow_wrinkles_02" 88 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 227 "eye_wrinkles_01" 51 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 51 "eye_wrinkles_01" 51 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 164 "forehead_wrinkles_01" 164 }
  		expression_other={ "cheek_wrinkles_left_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_4" 123 "complexion_4" 123 }
  		gene_height={ "normal_height" 131 "normal_height" 131 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 132 "body_fat_head_fat_full" 139 }
- 		gene_bs_body_shape={ "body_shape_average_clothed" 96 "body_shape_pear_full" 43 }
+ 		gene_bs_body_shape={ "body_shape_average_clothed" 86 "body_shape_pear_full" 43 }
  		gene_bs_bust={ "bust_clothes" 72 "bust_shape_3_full" 72 }
  		gene_age={ "old_4" 208 "old_4" 208 }
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 150 "far_spacing_low_thickness" 150 }
@@ -110,9 +110,8 @@ Milad={
  		eyelashes_accessory={ "normal_eyelashes" 161 "normal_eyelashes" 161 }
  		pose={ "" 255 "" 0 }
  		clothes={ "mena_high_nobility_clothes" 96 "most_clothes" 0 }
- 		headgear={ "western_high_nobility" 99 "no_headgear" 0 }
  		legwear={ "mena_common_legwear" 48 "all_legwear" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 616600735 616600735 }
 }
 
