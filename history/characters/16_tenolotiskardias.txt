@@ -1,4 +1,4 @@
-1600000 = {
+﻿1600000 = {
 	name="100"
 	religion="tenolotiskardias_faith"
 	culture="dantan"

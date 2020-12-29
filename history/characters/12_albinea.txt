@@ -1,4 +1,4 @@
-1200000 = {
+﻿1200000 = {
 	name = "main tribe"
 	religion = "lumialue"
 	culture = "albinean"

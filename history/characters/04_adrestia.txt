@@ -1,4 +1,4 @@
-400000 = {
+﻿400000 = {
 	name="Edelgard"
 	religion="ablehnist"
 	culture="adrestian"
@@ -633,15 +633,7 @@
 		}
 	}
 	1181.1.1 = {
-
 		give_nickname = nick_death_knight
-		effect = {
-			add_artifact = ancient_scythe_sariel
-			spawn_date = -1.1.1
-			add_artifact = relic_rafail_gem
-			spawn_date = -1.1.1
-			set_character_flag=spell_reason_thunder
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1560,7 +1552,7 @@
 		birth=yes
 	}
 	1154.2.15={
-		death={death_reason = death_rabble}
+		death=yes
 	}
 }
 
@@ -2281,7 +2273,7 @@
 		birth=yes
 	}
 	1180.1.1 = {
-		add_lover = 400117
+		set_relation_lover = character:400117
 	}
 	1200.1.1={
 		death=yes
@@ -2312,7 +2304,7 @@
 		birth=yes
 	}
 	1180.1.1 = {
-		add_lover = 400115
+		set_relation_lover = character:400115
 	}
 	1200.1.1={
 		death=yes
@@ -2345,7 +2337,7 @@
 	mother=400121
 	dynasty = 308
 	
-	1178.20.1 = {
+	1178.1.20 = {
 		birth=yes
 	}
 	1200.1.1={

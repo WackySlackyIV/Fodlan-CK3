@@ -1,4 +1,4 @@
-1400000 = {
+﻿1400000 = {
 	name="66"
 	religion="dinymori"
 	culture="dantan"

@@ -43,7 +43,7 @@
 		}
 
 		male_names = {
-			Acheron Adrastos Aillel Alastar Alfonso Alphonse Andrew Angelo Archibald Aelfric Arnim Albany Aglovain Arthur Aurèle Alberico Albert Alfonso Adolf Adelhard Alfonso Alfwin Albanus Albus Antonius Augustus Atriox
+			Acheron Adrastos Aillel Alastar Alfonso Alphonse Andrew Angelo Archibald Aelfric Arnim Albany Aglovain Arthur Aurele Alberico Albert Alfonso Adolf Adelhard Alfonso Alfwin Albanus Albus Antonius Augustus Atriox
 			Benedict Bran Brandon Balthus
 			Caesar Carroll Castor Chadwick Christioph Clarence Claude Conley Chester 
 			Damian Desmond Diomedes Duncan
@@ -400,7 +400,7 @@
 		}
 
 		male_names ={
-			Alexander Alexandre Alfred Anders Andre Arnaud Arthur Ashe Alois Anschutz Achille Arnim Aglovain Aurèle Alberico
+			Alexander Alexandre Alfred Anders Andre Arnaud Arthur Ashe Alois Anschutz Achille Arnim Aglovain Aurele Alberico
 			Basile Blaiddyd Boris Brendan Bryn
 			Carter Charles Charon Christophe Clement Colin Connor Cornelius Constantin Claudin
 			Dimitri Dominic

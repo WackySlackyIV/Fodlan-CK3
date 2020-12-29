@@ -31,7 +31,7 @@ world_fodlan_faerghus = {
 
 world_fodlan_adrestia = {
 	duchies = {
-		d_hrym d_niendorf d_gronder d_airmid d_rugen d_aegir d_varley d_bergliez d_stieglitz d_gerth d_rysalka d_boramas d_morgaine d_enbarr d_hresvelg d_essar d_engel d_olrun d_hevring d_reiss d_holgr d_bartels d_nuvelle d_nifl d_brionac d_sleipner d_arundel d_huldra d_schwan d_oghma
+		d_hrym d_niendorf d_gronder d_airmid d_rugen d_aegir d_varley d_bergliez d_stieglitz d_gerth d_rusalka d_boramas d_morgaine d_enbarr d_hresvelg d_essar d_engel d_olrun d_hevring d_reiss d_holgr d_bartels d_nuvelle d_skade d_brionac d_sleipner d_arundel d_huldra d_schwan d_oghma
 	}
 }
 
@@ -104,5 +104,11 @@ word_almyra = {
 world_brigid = {
 	duchies = {
 		d_deoir_aine d_bholcanach d_grannach d_aedach d_seultach d_ebhisa d_madhorca d_midhorca d_triur_sethir d_beirt_brethir d_athair_mor d_motidha d_gearga
+	}
+}
+
+world_koteshger = {
+	duchies = {
+		d_khajeh d_jibadapur d_dalayid d_demcgiid d_ugtumynn d_baraguyn d_urton d_megulryba d_ratna d_temdi d_kharinchara d_didotokan d_kajiimpur d_sukhpukhuria d_badriol d_kuria d_jubing d_jayanisir d_bharatikos
 	}
 }

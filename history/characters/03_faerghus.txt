@@ -1,4 +1,4 @@
-300000 = {
+﻿300000 = {
 	name="Dimitri"
 	religion="seirosite"
 	culture="faerghus"

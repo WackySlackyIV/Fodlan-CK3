@@ -1,4 +1,4 @@
-200000 = {
+﻿200000 = {
 	name="Oswald"
 	dynasty=100
 	religion="seirosite"
@@ -701,7 +701,7 @@
 	trait = content
 
 	trait = education_learning_2
-	trait = melancholic
+	trait = depressed_1
 
 	trait = crest_minor_maurice
 	disallow_random_traits = yes

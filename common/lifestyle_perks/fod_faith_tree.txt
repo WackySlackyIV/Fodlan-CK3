@@ -1,0 +1,89 @@
+faith_apprentice = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 1 0 }
+	icon = node_martial
+	
+}
+
+faith_initiate = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 1 1 }
+	icon = node_martial
+
+	parent = faith_apprentice
+	
+}
+
+faith_meditation = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { -1 2 }
+	icon = node_martial
+
+	parent = faith_initiate
+	
+}
+
+faith_disciple = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 1 2 }
+	icon = node_martial
+
+	parent = faith_initiate
+	
+}
+
+faith_heal_squads = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 3 2 }
+	icon = node_martial
+
+	parent = faith_initiate
+	
+}
+
+faith_medical_training = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { -1 3 }
+	icon = node_martial
+
+	parent = faith_meditation
+	
+}
+
+faith_adept = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 1 3 }
+	icon = node_martial
+
+	parent = faith_disciple
+	
+}
+
+faith_save_wounded = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 3 3 }
+	icon = node_martial
+
+	parent = faith_heal_squads
+	
+}
+
+faith_master = {
+	lifestyle = magic_lifestyle
+	tree = faith_tree
+	position = { 1 4 }
+	icon = node_martial
+
+	parent = faith_adept
+	parent = faith_save_wounded
+	parent = faith_medical_training
+	
+}

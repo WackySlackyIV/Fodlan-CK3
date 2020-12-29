@@ -1,4 +1,4 @@
-600000 = {
+﻿600000 = {
 	name="Grandfather Petra"
 	religion="fuale"
 	culture="brigid"

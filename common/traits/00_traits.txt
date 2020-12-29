@@ -6204,54 +6204,6 @@ devoted = {
 				desc = trait_devoted_child
 			}
 			triggered_desc = {
-				trigger = {
-					exists = faith.religion
-					faith.religion = faith:theravada.religion
-					is_female = no
-				}
-				desc = trait_devoted_buddhism_male
-			}
-			triggered_desc = {
-				trigger = {
-					exists = faith.religion
-					faith.religion = faith:theravada.religion
-					is_female = yes
-				}
-				desc = trait_devoted_buddhism_female
-			}
-			triggered_desc = {
-				trigger = {
-					exists = faith.religion
-					faith.religion = faith:vaishnavism.religion
-					is_female = no
-				}
-				desc = trait_devoted_hinduism_male
-			}
-			triggered_desc = {
-				trigger = {
-					exists = faith.religion
-					faith.religion = faith:vaishnavism.religion
-					is_female = yes
-				}
-				desc = trait_devoted_hinduism_female
-			}
-			triggered_desc = {
-				trigger = {
-					exists = faith.religion
-					faith.religion = faith:digambara.religion
-					is_female = no
-				}
-				desc = trait_devoted_jainism_male
-			}
-			triggered_desc = {
-				trigger = {
-					exists = faith.religion
-					faith.religion = faith:digambara.religion
-					is_female = yes
-				}
-				desc = trait_devoted_jainism_female
-			}
-			triggered_desc = {
 				trigger = { is_female = yes }
 				desc = trait_devoted_female
 			}
@@ -6444,14 +6396,6 @@ faith_warrior = {
 				trigger = { NOT = { exists = this } }
 				desc = faith_warrior.dds
 			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = christianity_religion } }
-				desc = crusader.dds
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = islam_religion } }
-				desc = mujahid.dds
-			}
 			desc = faith_warrior.dds
 		}
 	}
@@ -6462,87 +6406,6 @@ faith_warrior = {
 				trigger = { NOT = { exists = this } }
 				desc = trait_faith_warrior
 			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = christianity_religion } }
-				desc = trait_crusader
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = islam_religion } }
-				desc = trait_mujahid
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = bon_religion } }
-				desc = trait_crusader_bon
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = buddhism_religion } }
-				desc = trait_crusader_buddhism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = dualism_religion } }
-				desc = trait_crusader_dualism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = germanic_religion } }
-				desc = trait_crusader_germanic
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = hellenism_religion } }
-				desc = trait_crusader_hellenism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = hinduism_religion } }
-				desc = trait_crusader_hinduism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = jainism_religion } }
-				desc = trait_crusader_jainism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = judaism_religion } }
-				desc = trait_crusader_judaism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = magyar_religion } }
-				desc = trait_crusader_magyar
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = baltic_religion } }
-				desc = trait_crusader_baltic
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = slavic_religion } }
-				desc = trait_crusader_slavic
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = finno_ugric_religion } }
-				desc = trait_crusader_finno_ugric
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = tengrism_religion } }
-				desc = trait_crusader_tengrism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = west_african_religion } }
-				desc = trait_crusader_west_african
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = west_african_bori_religion } }
-				desc = trait_crusader_west_african_bori
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = west_african_roog_religion } }
-				desc = trait_crusader_west_african_roog
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = zoroastrianism_religion } }
-				desc = trait_crusader_zoroastrianism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = zunism_religion } }
-				desc = trait_crusader_zunism
-			}
-
 			desc = trait_faith_warrior
 		}
 	}
@@ -6552,14 +6415,6 @@ faith_warrior = {
 			triggered_desc = {
 				trigger = { NOT = { exists = this } }
 				desc = trait_faith_warrior_desc
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = islam_religion } }
-				desc = trait_mujahid_character_desc
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = christianity_religion } }
-				desc = trait_crusader_character_desc
 			}
 			desc = trait_faith_warrior_character_desc
 		}
@@ -6618,12 +6473,6 @@ order_member = {
 ########### FAME ##########
 berserker = {
 	index = 180
-	#potential = {
-		#OR = {
-			#religion = norse_pagan
-			#religion = norse_pagan_reformed
-		#}
-	#}
 	
 	fame = yes
 	diplomacy = -2
@@ -7961,195 +7810,11 @@ crusader_king = {
 				trigger = { NOT = { exists = this } }
 				desc = trait_crusader_king_fallback_dead
 			}
-			triggered_desc = {
-				trigger = {
-					faith = { religion_tag = christianity_religion }
-					is_female = yes
-				}
-				desc = trait_crusader_king_female
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = christianity_religion } }
-				desc = trait_crusader_king
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = islam_religion } }
-				desc = trait_crusader_king_islam
-			}
-			triggered_desc = {
-				trigger = {
-					faith = { religion_tag = bon_religion }
-					is_female = yes
-				}
-				desc = trait_crusader_king_bon_female
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = bon_religion } }
-				desc = trait_crusader_king_bon_male
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = buddhism_religion } }
-				desc = trait_crusader_king_buddhism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = dualism_religion } }
-				desc = trait_crusader_king_dualism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = germanic_religion } }
-				desc = trait_crusader_king_germanic
-			}
-			triggered_desc = {
-				trigger = {
-					faith = { religion_tag = hellenism_religion }
-					is_female = yes
-				}
-				desc = trait_crusader_king_hellenism_female
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = hellenism_religion } }
-				desc = trait_crusader_king_hellenism_male
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = hinduism_religion } }
-				desc = trait_crusader_king_hinduism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = jainism_religion } }
-				desc = trait_crusader_king_jainism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = judaism_religion } }
-				desc = trait_crusader_king_judaism
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = magyar_religion } }
-				desc = trait_crusader_king_magyar
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = baltic_religion } }
-				desc = trait_crusader_king_baltic
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = slavic_religion } }
-				desc = trait_crusader_king_slavic
-			}
-			triggered_desc = {
-				trigger = {
-					faith = { religion_tag = finno_ugric_religion }
-					is_female = yes
-				}
-				desc = trait_crusader_king_finno_ugric_female
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = finno_ugric_religion } }
-				desc = trait_crusader_king_finno_ugric_male
-			}
-			triggered_desc = {
-				trigger = {
-					faith = { religion_tag = tengrism_religion }
-					is_female = yes
-				}
-				desc = trait_crusader_king_tengrism_female
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = tengrism_religion } }
-				desc = trait_crusader_king_tengrism_male
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = west_african_religion } }
-				desc = trait_crusader_king_west_african
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = west_african_bori_religion } }
-				desc = trait_crusader_king_west_african_bori
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = west_african_roog_religion } }
-				desc = trait_crusader_king_west_african_roog
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = zoroastrianism_religion } }
-				desc = trait_crusader_king_zoroastrianism
-			}
-			triggered_desc = {
-				trigger = {
-					faith = { religion_tag = zunism_religion }
-					is_female = yes
-				}
-				desc = trait_crusader_king_zunism_female
-			}
-			triggered_desc = {
-				trigger = { faith = { religion_tag = zunism_religion } }
-				desc = trait_crusader_king_zunism_male
-			}
-
-			triggered_desc = {
-				trigger = { is_female = yes }
-				desc = trait_crusader_king_fallback_female
-			}
 			desc = trait_crusader_king_fallback_male
 		}
 	}
 
 	ai_zeal = 25
-}
-
-chakravarti = {
-	index = 246
-	diplomacy = 2
-	learning = 2
-	martial = 1
-
-	same_faith_opinion = 20
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_chakravarti_desc
-			}
-			desc = trait_chakravarti_character_desc
-		}
-	}
-
-	ai_honor = 40
-	ai_zeal = 50
-	ai_energy = 20
-	ai_boldness = 20
-}
-
-greatest_of_khans = {
-	index = 247
-	diplomacy = 2
-	martial = 2
-	stewardship = 1
-	prowess = 2
-
-	same_culture_opinion = 10
-	vassal_limit = 20
-	dread_baseline_add = 50
-	dread_decay_mult = -0.25
-	hostile_scheme_resistance_mult = 0.25
-	enemy_hostile_scheme_success_chance_add = -20
-	
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_greatest_of_khans_desc
-			}
-			desc = trait_greatest_of_khans_character_desc
-		}
-	}
-
-	ai_honor = 20
-	ai_energy = 40
-	ai_boldness = 20
 }
 
 paragon = {

@@ -1,4 +1,4 @@
-1100000 = {
+﻿1100000 = {
 	name = "nuada big tribe"
 	religion = "pantheon_faith"
 	culture = "nuadan"

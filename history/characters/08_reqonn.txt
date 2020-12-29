@@ -1,4 +1,4 @@
-800000 = {
+﻿800000 = {
 	name="Octávio"
 	religion="reqonn_de_opulencia"
 	culture="reqonese"

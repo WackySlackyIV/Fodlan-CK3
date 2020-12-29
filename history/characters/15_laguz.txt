@@ -1,4 +1,4 @@
-1500000 = {
+﻿1500000 = {
 	name="Chiffon"
 	religion = "seirosite"
 	culture="wolfskin"

@@ -1,4 +1,4 @@
-1300000 = {
+﻿1300000 = {
 	name="great morfis sage"
 	religion="inetsaret"
 	culture="morfis"

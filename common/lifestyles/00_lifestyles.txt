@@ -53,7 +53,7 @@ learning_lifestyle = {
 
 magic_lifestyle = {
 
-	xp_per_level = 800
-	base_xp_gain = 20
+	xp_per_level = 1000
+	base_xp_gain = 25
 
 }
