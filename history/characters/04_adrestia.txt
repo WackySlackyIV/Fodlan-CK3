@@ -147,6 +147,7 @@
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 309
+	dna = dna_ludwig
 
    	diplomacy=4
    	martial=3
