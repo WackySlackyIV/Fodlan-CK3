@@ -1075,6 +1075,7 @@
 	culture="faerghus"
 	female = yes
 	dynasty=223
+	dna = dna_cornelia
 
    	diplomacy=8
    	martial=5
