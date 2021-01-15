@@ -1,9 +1,18 @@
 ﻿600000 = {
-	name="Grandfather Petra"
+	name="Aearn" #Son of Neary and grandfather of Petra Macneary 
 	religion="fuale"
 	culture="brigid"
+	trait = temperate #mostly for the health boost
+	trait = diligent #so that Petra can have opinion boosts for her father
+	trait = honest #so that Petra can have opinion boosts for her father
 
-	1121.6.22 = {
+	trait = education_martial_3
+	trait = one_legged
+	trait = physique_good_2
+	trait = family_first
+	trait = depressed_1
+
+	1124.9.7 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -12,9 +21,17 @@
 }
 
 600001 = {
-	name="Volcano Boy"
+	name="Dearg" #an old man who lost almost his entire family to the War, and remains bitter and hateful at the empire and at Aearn for bending the knee, and leaving much of his family dead
 	religion="lamhach"
 	culture="brigid"
+
+	trait = stubborn
+	trait = wrathful
+	trait = just
+
+	trait = education_stewardship_3
+	trait = irritable
+	trait = architect
 
 	1121.6.22 = {
 		birth=yes
@@ -25,11 +42,20 @@
 }
 
 600002 = {
-	name="Venga"
+	name="Venga" 
 	religion="fuale"
 	culture="brigid"
 
-	1121.6.22 = {
+
+	trait = fickle
+	trait = lazy
+	trait = calm
+
+	trait = education_martial_1
+	trait = reveler_3
+	trait = logicistian
+
+	1155.6.22 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -38,11 +64,19 @@
 }
 
 600003 = {
-	name="random island 1"
+	name="Rhosyn" #A kindly young woman who was ascended after the imprisonment and execution of her father, who never sent a single man against the Empire, but died for the supposed crimes of his liege
 	religion="fuale"
 	culture="brigid"
+	female = yes
 
-	1121.6.22 = {
+	trait = compassionate
+	trait = lustful
+	trait = forgiving
+
+	trait = education_diplomacy_2
+	trait = beauty_good_1
+
+	1164.6.6 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -51,11 +85,19 @@
 }
 
 600004 = {
-	name="random island 2"
+	name="Aiden" #Son of Cirdd who was one of the first to accept Adrestian control, a welcoming and passionate person, but arrogant to a fault
 	religion="fuale"
 	culture="brigid"
 
-	1121.6.22 = {
+	trait = arrogant
+	trait = gregarious
+	trait = trusting
+
+	trait = education_martial_3
+	trait = hunter_2
+	trait = reckless
+
+	1163.2.6 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -64,11 +106,13 @@
 }
 
 600005 = {
-	name="random island 3"
+	name="Bevan" #Son of Evain, a child who lost his family after the Dagda and Brigid War and thus could spell trouble as a mere 8 year old
 	religion="fuale"
 	culture="brigid"
 
-	1121.6.22 = {
+	trait = curious
+
+	1172.8.3 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -77,11 +121,18 @@
 }
 
 600006 = {
-	name="random island 4"
+	name="Codilach"
 	religion="fuale"
 	culture="brigid"
 
-	1121.6.22 = {
+
+	trait = diligent
+	trait = impatient
+	trait = humble
+
+	trait = education_learning_2
+
+	1158.11.7 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -90,14 +141,23 @@
 }
 
 600007 = {
-	name="Amazons?"
+	name="Ea" #a introverted Amazoness, a warrior who led a force of Brigidines due to an alliance during the war against Adrestia, but was heavily wounded by the Head of the Ochs family
 	religion="fuale"
 	culture="brigid"
 	female = yes
 
-	trait = physique_good_3
+	trait = shy
+	trait = patient
+	trait = zealous
 
-	1121.6.22 = {
+	trait = education_martial_4
+	trait = organizer
+	trait = physique_good_3
+	trait = scarred
+	trait = strong
+	trait = one_eyed
+
+	1126.9.3 = {
 		birth=yes
 	}
 	1200.1.1={
@@ -106,11 +166,17 @@
 }
 
 600008 = {
-	name="lord mach"
-	religion="fuale"
+	name="Morven" #mach lord who really would rather stick their head in the sand rather then actively participate in society
+	religion="talahm_ithir"
 	culture="brigid"
 
-	1121.6.22 = {
+	trait = content
+	trait = paranoid
+	trait = callous
+
+	trait = education_learning_4
+
+	1146.9.11 = {
 		birth=yes
 	}
 	1200.1.1={

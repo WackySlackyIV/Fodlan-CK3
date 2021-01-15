@@ -44,10 +44,10 @@
 }
 
 800001 = {
-	female = yes
 	name="Josefina"
 	religion="reqonn_de_opulencia"
 	culture="reqonese"
+	female = yes
 	father = 800008
 	mother = 800009
 	dynasty = 800
@@ -147,10 +147,10 @@
 }
 
 800004 = {
-	female = yes
 	name = "Tereza"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	female = yes
 	father = 800000
 	mother = 800001
 	dynasty = 800
@@ -223,10 +223,10 @@
 }
 
 800006 = {
-	female = yes
 	name = "Lúcia"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	female = yes
 	dynasty = 802
 
 	diplomacy=0
@@ -255,10 +255,10 @@
 }
 
 800007 = {
-	female = yes
 	name = "Lídia"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	female = yes
 	dynasty = 802
 	father = 800005
 	mother = 800006
@@ -318,10 +318,10 @@
 }
 
 800009 = {
-	female = yes
 	name = "Patrícia"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	female = yes
 	dynasty = 800
 
 	diplomacy=0
