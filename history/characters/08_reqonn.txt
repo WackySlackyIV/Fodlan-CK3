@@ -346,11 +346,17 @@
 }
 
 800010 = {
-	name = "almyra island reqonn"
+	name = "Anrique"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
 
-	1150.1.7 = {
+	trait = cynical
+	trait = arrogant
+	trait = arbitrary
+
+	trait = education_learning_2
+
+	1163.3.14 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -360,11 +366,18 @@
 }
 
 800011 = {
-	name = "desert reqonn"
+	name = "Ashur"
 	religion = "reqonn_de_opulencia"
-	culture = "reqonese"
+	culture = "morfist"
 
-	1150.1.7 = {
+	trait = greedy
+	trait = wrathful
+	trait = chaste
+
+	trait = education_martial_4
+	trait = physique_good_3
+
+	1150.6.19 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -374,11 +387,17 @@
 }
 
 800012 = {
-	name = "morfis island 1"
+	name = "Gascon"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
 
-	1150.1.7 = {
+	trait = lustful
+	trait = fickle
+	trait = gluttonous
+
+	trait = education_stewardship_3
+
+	1149.12.10 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -388,11 +407,19 @@
 }
 
 800013 = {
-	name = "morfis island 2"
+	name = "Castelleta"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
+	female = yes
 
-	1150.1.7 = {
+	trait = ambitious
+	trait = lazy
+	trait = impatient
+
+	trait = education_diplomacy_1
+	trait = pure_blooded
+
+	1151.11.7 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -402,11 +429,17 @@
 }
 
 800014 = {
-	name = "morfis island 3"
+	name = "Agustín"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
 
-	1150.1.7 = {
+	trait = shy
+	trait = lustful
+	trait = greedy
+
+	trait = education_intrigue_2
+
+	1148.6.15 = {
 		birth=yes
 	}
 	1200.8.10={
