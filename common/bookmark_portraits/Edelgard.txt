@@ -2,7 +2,7 @@
 # History database id:400000
 Edelgard={
 	type=female
-	id=473
+	id=470
 	age=0.180000
 	genes={ 		hair_color={ 0 0 70 69 }
  		skin_color={ 24 15 118 64 }
@@ -91,7 +91,7 @@ Edelgard={
  		face_detail_nose_tip_def={ "nose_tip_def" 215 "nose_tip_def" 215 }
  		face_detail_temple_def={ "temple_def" 50 "temple_def" 50 }
  		expression_brow_wrinkles={ "brow_wrinkles_04" 207 "brow_wrinkles_04" 207 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 190 "eye_wrinkles_01" 37 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 235 "eye_wrinkles_01" 37 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 85 "forehead_wrinkles_01" 85 }
  		expression_other={ "nose_wrinkles_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_beauty_1" 255 "complexion_4" 163 }
@@ -109,9 +109,9 @@ Edelgard={
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
  		pose={ "" 255 "" 0 }
- 		cloaks={ "western_royalty" 179 "no_cloak" 0 }
- 		clothes={ "western_imperial_clothes" 118 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 178 "all_legwear" 0 }
+ 		cloaks={ "western_royalty" 105 "no_cloak" 0 }
+ 		clothes={ "western_imperial_clothes" 71 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 220 "all_legwear" 0 }
  }
 	entity={ 979141817 979141817 }
 }
