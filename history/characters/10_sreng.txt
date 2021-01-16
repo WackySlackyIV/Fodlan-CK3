@@ -81,7 +81,6 @@
 	name = "island srengers 1"
 	religion = "heimsormurinn"
 	culture = "sreng"
-	dynasty = 800
 
 	1150.1.7 = {
 		birth=yes
@@ -96,7 +95,6 @@
 	name = "island srengers 2"
 	religion = "heimsormurinn"
 	culture = "sreng"
-	dynasty = 800
 
 	1150.1.7 = {
 		birth=yes

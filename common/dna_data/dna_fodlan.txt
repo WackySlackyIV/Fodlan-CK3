@@ -558,7 +558,6 @@ dna_alois = {
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "no_eyelashes" 0 "no_eyelashes" 0 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -671,7 +670,6 @@ dna_catherine = {
  		eye_accessory={ "normal_eyes" 192 "normal_eyes" 192 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 66 "normal_eyelashes" 66 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -895,7 +893,6 @@ dna_oswald = {
  		eye_accessory={ "normal_eyes" 8 "normal_eyes" 8 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 206 "normal_eyelashes" 206 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		special_headgear_head_bandage={ "" 0 "head_bandage" 0 }
  		special_headgear_eye_patch={ "" 0 "eye_patch" 0 }
  		}
@@ -1010,7 +1007,6 @@ dna_jeralt = {
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "no_eyelashes" 0 "no_eyelashes" 0 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
  		gene_scars_battle={ "scars_battle" 0 "scars_battle" 0 }
 		}
 	entity={ 0 0 }
@@ -1124,7 +1120,6 @@ dna_cyril = {
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "no_eyelashes" 0 "no_eyelashes" 0 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1237,7 +1232,6 @@ dna_shamir = {
  		eye_accessory={ "normal_eyes" 171 "normal_eyes" 171 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 139 "normal_eyelashes" 139 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1350,7 +1344,6 @@ dna_manuela = {
  		eye_accessory={ "normal_eyes" 21 "normal_eyes" 21 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 110 "normal_eyelashes" 110 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1463,7 +1456,6 @@ dna_hanneman = {
  		eye_accessory={ "normal_eyes" 214 "normal_eyes" 214 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 103 "normal_eyelashes" 103 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1576,7 +1568,6 @@ dna_gilbert = {
  		eye_accessory={ "normal_eyes" 129 "normal_eyes" 129 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 206 "normal_eyelashes" 206 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1689,7 +1680,6 @@ dna_aelfric = {
  		eye_accessory={ "normal_eyes" 5 "normal_eyes" 5 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 213 "normal_eyelashes" 213 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1802,7 +1792,6 @@ dna_female_byleth = {
  		eye_accessory={ "normal_eyes" 69 "normal_eyes" 69 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 101 "normal_eyelashes" 101 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -1915,7 +1904,6 @@ dna_male_byleth = {
  		eye_accessory={ "normal_eyes" 64 "normal_eyes" 64 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 233 "normal_eyelashes" 233 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2140,7 +2128,6 @@ dna_lysithea = {
  		eye_accessory={ "normal_eyes" 244 "normal_eyes" 244 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 130 "normal_eyelashes" 130 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2253,7 +2240,6 @@ dna_leonie = {
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 255 "normal_eyelashes" 0 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2366,7 +2352,6 @@ dna_marianne = {
  		eye_accessory={ "normal_eyes" 137 "normal_eyes" 137 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 14 "normal_eyelashes" 14 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2479,7 +2464,6 @@ dna_raphael = {
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 0 "normal_eyelashes" 0 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2592,7 +2576,6 @@ dna_lorenz = {
  		eye_accessory={ "normal_eyes" 192 "normal_eyes" 192 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 66 "normal_eyelashes" 66 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2706,7 +2689,6 @@ dna_hilda = {
  		eye_accessory={ "normal_eyes" 68 "normal_eyes" 68 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 208 "normal_eyelashes" 208 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2819,7 +2801,6 @@ dna_holst = {
  		eye_accessory={ "normal_eyes" 68 "normal_eyes" 68 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 208 "normal_eyelashes" 208 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -2932,7 +2913,6 @@ dna_ignatz = {
  		eye_accessory={ "normal_eyes" 32 "normal_eyes" 32 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 138 "normal_eyelashes" 138 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3045,7 +3025,6 @@ dna_dedue = {
  		eye_accessory={ "normal_eyes" 159 "normal_eyes" 159 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 82 "normal_eyelashes" 82 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3158,7 +3137,6 @@ dna_felix = {
  		eye_accessory={ "normal_eyes" 202 "normal_eyes" 202 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3271,7 +3249,6 @@ dna_rodrigue = {
  		eye_accessory={ "normal_eyes" 202 "normal_eyes" 202 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3384,7 +3361,6 @@ dna_ingrid = {
  		eye_accessory={ "normal_eyes" 152 "normal_eyes" 152 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 228 "normal_eyelashes" 228 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3497,7 +3473,6 @@ dna_annette = {
  		eye_accessory={ "normal_eyes" 119 "normal_eyes" 119 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 45 "normal_eyelashes" 45 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3610,7 +3585,6 @@ dna_sylvain = {
  		eye_accessory={ "normal_eyes" 116 "normal_eyes" 116 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 54 "normal_eyelashes" 54 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3723,7 +3697,6 @@ dna_jeritza = {
  		eye_accessory={ "normal_eyes" 97 "normal_eyes" 97 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 1 "normal_eyelashes" 1 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3836,7 +3809,6 @@ dna_mercedes = {
  		eye_accessory={ "normal_eyes" 97 "normal_eyes" 97 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 1 "normal_eyelashes" 1 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -3949,7 +3921,6 @@ dna_ashe = {
  		eye_accessory={ "normal_eyes" 100 "normal_eyes" 100 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 167 "normal_eyelashes" 167 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4062,7 +4033,6 @@ dna_linhardt = {
  		eye_accessory={ "normal_eyes" 123 "normal_eyes" 123 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 198 "normal_eyelashes" 198 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4175,7 +4145,6 @@ dna_ferdinand = {
  		eye_accessory={ "normal_eyes" 107 "normal_eyes" 107 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 37 "normal_eyelashes" 37 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4288,7 +4257,6 @@ dna_dorothea = {
  		eye_accessory={ "normal_eyes" 120 "normal_eyes" 120 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "asian_eyelashes" 132 "normal_eyelashes" 85 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4401,7 +4369,6 @@ dna_hubert = {
  		eye_accessory={ "normal_eyes" 12 "normal_eyes" 12 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 250 "normal_eyelashes" 250 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4514,7 +4481,6 @@ dna_bernadetta = {
  		eye_accessory={ "normal_eyes" 157 "normal_eyes" 157 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 196 "normal_eyelashes" 196 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4627,7 +4593,6 @@ dna_caspar = {
  		eye_accessory={ "normal_eyes" 22 "normal_eyes" 22 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 121 "normal_eyelashes" 121 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4740,7 +4705,6 @@ dna_petra = {
  		eye_accessory={ "normal_eyes" 37 "normal_eyes" 37 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 83 "normal_eyelashes" 83 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4853,7 +4817,6 @@ dna_yuri = {
  		eye_accessory={ "normal_eyes" 8 "normal_eyes" 8 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 42 "normal_eyelashes" 42 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -4966,7 +4929,6 @@ dna_balthus = {
  		eye_accessory={ "normal_eyes" 29 "normal_eyes" 29 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 254 "normal_eyelashes" 254 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -5079,7 +5041,6 @@ dna_constance = {
  		eye_accessory={ "normal_eyes" 59 "normal_eyes" 59 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "asian_eyelashes" 160 "normal_eyelashes" 160 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}
@@ -5192,7 +5153,6 @@ dna_hapi = {
  		eye_accessory={ "normal_eyes" 71 "normal_eyes" 71 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 85 "normal_eyelashes" 85 }
- 		race_gene_nabatean_ears={ "default_1" 127 "default_1" 127 }
 		}
 	entity={ 0 0 }
 	}

@@ -213,8 +213,10 @@
 		}
 	}
 	1181.3.10={
-		set_relation_rival = character:800000
-		set_relation_rival = character:800003
+		set_relation_rival = {
+			character:800000
+			character:800003
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -368,7 +370,7 @@
 800011 = {
 	name = "Ashur"
 	religion = "reqonn_de_opulencia"
-	culture = "morfist"
+	culture = "reqonese"
 
 	trait = greedy
 	trait = wrathful

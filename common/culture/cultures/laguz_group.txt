@@ -30,9 +30,9 @@ laguz_group = {
 		}
 		female_names = {
 			Panne Velvet Aertese Lace Satin Clothine Baizine Barathea Bobbinet Brilliantine Challise Charvet Cloque
-			Deni Darlex Eolianne Lacis Flannel Flannelette Gabardine Georgette Hessia Intarsia Jamdani Lamé
-			Madapola Matelasse Milli Moire Nankeen Neoprene Osna Plissé Plush Raya Rinzu Nishiki Samité Sateen
-			Scarlet Silnylon Taffeta Toile Suedé Velouria Velour Viyella Voile Zibeline Selkie Kinu Lethe Lyre
+			Deni Darlex Eolianne Lacis Flannel Flannelette Gabardine Georgette Hessia Intarsia Jamdani Lame
+			Madapola Matelasse Milli Moire Nankeen Neoprene Osna Plisse Plush Raya Rinzu Nishiki Samite Sateen
+			Scarlet Silnylon Taffeta Toile Suede Velouria Velour Viyella Voile Zibeline Selkie Kinu Lethe Lyre
 			Nailah Vika Leanne Lillia
 
 		}
@@ -87,9 +87,9 @@ laguz_group = {
 		}
 		female_names = {
 			Panne Velvet Aertese Lace Satin Clothine Baizine Barathea Bobbinet Brilliantine Challise Charvet Cloque
-			Deni Darlex Eolianne Lacis Flannel Flannelette Gabardine Georgette Hessia Intarsia Jamdani Lamé
-			Madapola Matelasse Milli Moire Nankeen Neoprene Osna Plissé Plush Raya Rinzu Nishiki Samité Sateen
-			Scarlet Silnylon Taffeta Toile Suedé Velouria Velour Viyella Voile Zibeline Selkie Kinu Lethe Lyre
+			Deni Darlex Eolianne Lacis Flannel Flannelette Gabardine Georgette Hessia Intarsia Jamdani Lame
+			Madapola Matelasse Milli Moire Nankeen Neoprene Osna Plisse Plush Raya Rinzu Nishiki Samite Sateen
+			Scarlet Silnylon Taffeta Toile Suede Velouria Velour Viyella Voile Zibeline Selkie Kinu Lethe Lyre
 			Nailah Vika Leanne Lillia
 
 		}
@@ -144,9 +144,9 @@ laguz_group = {
 		}
 		female_names = {
 			Panne Velvet Aertese Lace Satin Clothine Baizine Barathea Bobbinet Brilliantine Challise Charvet Cloque
-			Deni Darlex Eolianne Lacis Flannel Flannelette Gabardine Georgette Hessia Intarsia Jamdani Lamé
-			Madapola Matelasse Milli Moire Nankeen Neoprene Osna Plissé Plush Raya Rinzu Nishiki Samité Sateen
-			Scarlet Silnylon Taffeta Toile Suedé Velouria Velour Viyella Voile Zibeline Selkie Kinu Lethe Lyre
+			Deni Darlex Eolianne Lacis Flannel Flannelette Gabardine Georgette Hessia Intarsia Jamdani Lame
+			Madapola Matelasse Milli Moire Nankeen Neoprene Osna Plisse Plush Raya Rinzu Nishiki Samite Sateen
+			Scarlet Silnylon Taffeta Toile Suede Velouria Velour Viyella Voile Zibeline Selkie Kinu Lethe Lyre
 			Nailah Vika Leanne Lillia
 
 		}
