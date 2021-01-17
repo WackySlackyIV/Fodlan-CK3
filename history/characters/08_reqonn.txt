@@ -212,11 +212,11 @@
 			create_betrothal = character:800007
 		}
 	}
+	1181.3.9={	
+		set_relation_rival = character:800003
+	}	
 	1181.3.10={
-		set_relation_rival = {
-			character:800000
-			character:800003
-		}
+		set_relation_rival = character:800000
 	}
 	1200.1.1={
 		death=yes
@@ -368,7 +368,7 @@
 }
 
 800011 = {
-	name = "Ashur"
+	name = "Sebastian"
 	religion = "reqonn_de_opulencia"
 	culture = "morfis"
 
