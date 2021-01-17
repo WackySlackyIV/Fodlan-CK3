@@ -1,9 +1,18 @@
 ﻿900000 = {
-	name = "duscur refugee group 1"
+	name = "Alene"
 	religion = "pantheon_faith"
 	culture = "duscur"
+	female = yes
 
-	1150.1.7 = {
+	trait = gregarious
+	trait = cynical
+	trait = lustful
+
+	trait = education_intrigue_3
+	trait = scarred
+	trait = beauty_good_1
+
+	1148.1.7 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -13,11 +22,21 @@
 }
 
 900001 = {
-	name = "duscur refugee group 2"
+	name = "Micheli"
 	religion = "pantheon_faith"
 	culture = "duscur"
 
-	1150.1.7 = {
+	trait = just
+	trait = honest
+	trait = patient
+
+	trait = education_diplomacy_4
+	trait = intellect_good_2
+	trait = one_legged
+	trait = disfigured #How unfortunate
+	trait = contrite #Perhaps he has a guilty concious due to him surviving unlike his family
+
+	1152.10.30 = {
 		birth=yes
 	}
 	1200.8.10={
