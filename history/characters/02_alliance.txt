@@ -93,6 +93,7 @@
 	female=yes
 	religion="seirosite"
 	culture="leicester"
+	dna = dna_judith
 
    	diplomacy=7
    	martial=9
