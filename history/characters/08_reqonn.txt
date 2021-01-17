@@ -370,7 +370,7 @@
 800011 = {
 	name = "Ashur"
 	religion = "reqonn_de_opulencia"
-	culture = "reqonese"
+	culture = "morfis"
 
 	trait = greedy
 	trait = wrathful
