@@ -36,8 +36,8 @@
 }
 
 1000001 = {
-	name = "macuil worshippers"
-	religion = "heimsormurinn"
+	name = "Magnus" #Could be given the a nickname of the Mighty
+	religion = "mekeal"
 	culture = "sreng"
 
 	1150.1.7 = {
@@ -50,7 +50,7 @@
 }
 
 1000002 = {
-	name = "brutes"
+	name = "Lykaś"
 	religion = "heimsormurinn"
 	culture = "sreng"
 
