@@ -345,31 +345,31 @@ nick_king_grappling = {}
 
 
 ### Adrestia ###
-nick_the_flame_emperor = {}
+nick_flame_emperor = {}
 
 nick_death_knight = { is_bad = yes }
 
 ### Leicester ###
 
-nick_the_master_tactician = {}
+nick_master_tactician = {}
 
-nick_the_lord_of_roses = {}
+nick_lord_of_roses = {}
 
-nick_the_weathervane = { is_bad = yes }
+nick_weathervane = { is_bad = yes }
 
-nick_the_hero_of_daphnel = {}
+nick_hero_of_daphnel = {}
 
 ### Faerghus ###
 
-nick_the_boar_prince = { is_bad = yes }
-nick_the_savior_king = {} #Dimitri good
+nick_boar_prince = { is_bad = yes }
+nick_savior_king = {} #Dimitri good
 
 
 ### Sreng ###
 
-nick_the_vindkaller = {}
+nick_vindkaller = {}
 
 
 ### Almyra ###
 
-nick_the_serpant = {}
+nick_serpent = {}

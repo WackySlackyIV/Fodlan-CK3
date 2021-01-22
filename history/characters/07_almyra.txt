@@ -812,7 +812,7 @@
 		birth=yes
 	}
 	1180.1.1 = {
-		give_nickname = nick_the_serpent
+		give_nickname = nick_serpent
 	}
 	1200.1.1={
 		death=yes

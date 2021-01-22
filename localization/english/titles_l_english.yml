@@ -6,7 +6,7 @@
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
 
  # Default title names
- k_church:0 "Church of Seiros"
+ k_church:0 "The Church of Seiros"
  d_garreg_mach:0 "Garreg Mach"
  c_garreg_mach:0 "Garreg Mach"
  b_garreg_mach:0 "Garreg Mach"
@@ -75,8 +75,8 @@
  b_gladia:0 "Gladia"
  b_woodstown:0 "Woodstown"
 
- e_adrestia:0 "Adrestian Empire"
- k_leicester:0 "Leicester Alliance"
+ e_adrestia:0 "The Adrestian Empire"
+ k_leicester:0 "The Leicester Alliance"
  d_riegan:0 "Riegan"
  c_derdriu:0 "Derdriu"
  b_derdriu:0 "Derdriu"
@@ -336,7 +336,7 @@
  b_cole:0 "Cole"
  b_redditch:0 "Redditch"
 
- k_faerghus:0 "Holy Kingdom of Faerghus"
+ k_faerghus:0 "The Holy Kingdom of Faerghus"
  d_blaiddyd:0 "Blaiddyd"
  c_fhirdiad:0 "Fhirdiad"
  b_fhirdiad:0 "Fhirdiad"

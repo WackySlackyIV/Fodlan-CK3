@@ -13,6 +13,7 @@ e_dummy = {
                             color2 = { 255 255 255 }
                             
                             capital = c_garreg_mach
+							definite_form = yes
                             
                             d_garreg_mach = {
                                           color = { 200 200 200 }
@@ -1863,12 +1864,14 @@ e_dummy = {
 e_adrestia = {
               color = { 121 18 39 }
               color2 = { 255 255 255 }
+			  definite_form = yes
               
               capital = c_enbarr
               
               k_leicester = {
                             color = { 227 177 41 }
                             color2 = { 255 255 255 }
+							definite_form = yes
                             
                             capital = c_derdriu
                             
@@ -3493,6 +3496,7 @@ e_adrestia = {
               k_faerghus = {
                             color = { 23 87 191 }
                             color2 = { 255 255 255 }
+							definite_form = yes
                             
                             capital = c_fhirdiad
                             

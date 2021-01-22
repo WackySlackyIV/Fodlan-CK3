@@ -360,7 +360,7 @@
 		employer = 100000
 	}
 	1181.1.1 = {
-		give_nickname = nick_the_divine_songstress
+		give_nickname = nick_divine_songstress
 		effect = {
 			#set_character_flag = spell_faith_warp
 			#set_character_flag = spell_faith_silence
@@ -412,7 +412,7 @@
 		employer = 100000
 	}
 	1181.1.1 = {
-		give_nickname = nick_the_father_of_crestology
+		give_nickname = nick_father_of_crestology
 		effect = {
 			#set_character_flag = spell_reason_sagittae
 			#set_character_flag = spell_reason_wind

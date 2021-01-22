@@ -293,19 +293,19 @@
 469 = {       # (b_remo)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = city_holding
 }
 
 470 = {       # (b_alassio)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 471 = {       # (b_loano)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_senatore)
@@ -319,13 +319,13 @@
 473 = {       # (b_magalo)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 474 = {       # (b_lalibela)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_pretoria)
@@ -339,13 +339,13 @@
 476 = {       # (b_moggio)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 477 = {       # (b_coluto)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_magistras)
@@ -359,13 +359,13 @@
 479 = {       # (b_aggaro)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = city_holding
 }
 
 480 = {       # (b_miesso)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_norfer)
@@ -380,13 +380,13 @@
 482 = {       # (b_alexria)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = church_holding
 }
 
 483 = {       # (b_tibeh)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_pavia)
@@ -400,7 +400,7 @@
 485 = {       # (b_chios)
               culture = duscur
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_sreng)
@@ -564,25 +564,25 @@
 1025 = {      # (b_dyfgard)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1026 = {      # (b_hofenthorp)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1027 = {      # (b_kamburberg)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1028 = {      # (b_gufurtindur)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_dzaminn)
@@ -590,19 +590,19 @@
 1029 = {      # (b_dzaminn)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1030 = {      # (b_laekursteinn)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1031 = {      # (b_engeltjorn)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kvennathorp)
@@ -610,19 +610,19 @@
 1032 = {      # (b_kvennathorp)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1033 = {      # (b_miklaberg)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1034 = {      # (b_skergangur)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_bygdalr)
@@ -631,25 +631,25 @@
 1035 = {      # (b_brubygdvik)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1036 = {      # (b_eyrdenjar)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1037 = {      # (b_mulituin)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1038 = {      # (b_bjagenthorp)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_sandendalr)
@@ -657,19 +657,19 @@
 1039 = {      # (b_sandendalr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1040 = {      # (b_gunnarsdal)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1041 = {      # (b_grimvollr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_dragakot)
@@ -677,19 +677,19 @@
 1042 = {      # (b_dragakot)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1043 = {      # (b_horsokn)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1044 = {      # (b_delgurholmr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_hellig_orken)
@@ -698,31 +698,31 @@
 1045 = {      # (b_vindkaller)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1046 = {      # (b_gjahara)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 1047 = {      # (b_khadkelda)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 1048 = {      # (b_ondorsvegur)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 1049 = {      # (b_gorivellir)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_orkenlegende)
@@ -730,19 +730,19 @@
 1050 = {      # (b_orkenlegende)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1051 = {      # (b_delsangr)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 1052 = {      # (b_ivarhaugr)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_magikeren)
@@ -750,19 +750,19 @@
 1053 = {      # (b_magikeren)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1054 = {      # (b_serkgangr)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 1055 = {      # (b_djupsgigur)
               culture = sreng
               religion = macuilite
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_innraborg)
@@ -771,25 +771,25 @@
 1056 = {      # (b_bjarskagi)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1057 = {      # (b_iderhofn)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1058 = {      # (b_vipmansthorp)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1059 = {      # (b_dragaskardr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_yttrihalendi)
@@ -797,13 +797,13 @@
 1060 = {      # (b_yttrihalendi)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1061 = {      # (b_choyoroddi)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_hauger)
@@ -811,13 +811,13 @@
 1062 = {      # (b_hauger)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1063 = {      # (b_bajdariki)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_jordenbrann)
@@ -826,31 +826,31 @@
 1064 = {      # (b_erobring)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1065 = {      # (b_uneenoldur)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1066 = {      # (b_khuytengangr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1067 = {      # (b_bayanholt)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1068 = {      # (b_sagahryggur)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_vegursboten)
@@ -858,19 +858,19 @@
 1069 = {      # (b_vegursboten)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1070 = {      # (b_sangdalr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1071 = {      # (b_dolonjokull)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_akrarkleif)
@@ -878,19 +878,19 @@
 1072 = {      # (b_akrarkleif)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1073 = {      # (b_khoboringr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1074 = {      # (b_borihafn)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_drangja)
@@ -898,19 +898,19 @@
 1075 = {      # (b_drangja)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1076 = {      # (b_skogurkirkja)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1077 = {      # (b_kirkjenstein)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_aldakot)
@@ -918,19 +918,19 @@
 1078 = {      # (b_aldakot)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1079 = {      # (b_bayandalr)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 1080 = {      # (b_khanbrefabok)
               culture = sreng
               religion = heimsormurinn
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_nuada)
@@ -940,25 +940,25 @@
 1081 = {      # (b_friboro)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1082 = {      # (b_laone)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 1083 = {      # (b_cervino)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 1084 = {      # (b_novena)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_tavate)
@@ -966,13 +966,13 @@
 1085 = {      # (b_tavate)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1086 = {      # (b_palu)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ginevra)
@@ -980,13 +980,13 @@
 721 = {       # (b_ginevera)
               culture = nuadan
               religion = seirosite
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1088 = {      # (b_roncaglia)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_losanna)
@@ -994,13 +994,13 @@
 1089 = {      # (b_losanna)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1090 = {      # (b_scanevo)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_madulain)
@@ -1015,13 +1015,13 @@
 1092 = {      # (b_prettigovia)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 1093 = {      # (b_sciafussa)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_nufena)
@@ -1029,13 +1029,13 @@
 1094 = {      # (b_nufena)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1095 = {      # (b_soletta)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_spliga)
@@ -1049,7 +1049,7 @@
 1097 = {      # (b_tosanna)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_turgovia)
@@ -1064,13 +1064,13 @@
 1099 = {      # (b_vallese)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 1100 = {      # (b_cerpezzo)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_glarona)
@@ -1078,19 +1078,19 @@
 1101 = {      # (b_glarona)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1102 = {      # (b_appenzello)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 1103 = {      # (b_vasilea)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_casinotta)
@@ -1098,13 +1098,13 @@
 1104 = {      # (b_casinotta)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1105 = {      # (b_berna)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_asburgo)
@@ -1113,13 +1113,13 @@
 1106 = {      # (b_giura)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1107 = {      # (b_bavero)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_campovasto)
@@ -1127,13 +1127,13 @@
 1108 = {      # (b_campovasto)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1109 = {      # (b_bienna)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_atlam)
@@ -1141,7 +1141,7 @@
 1110 = {      # (b_atlam)
               culture = nuadan
               religion = pantheon_faith
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 #####          (e_adrestia)
@@ -3842,31 +3842,31 @@
 487 = {       # (b_wilhelmdorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 488 = {       # (b_ionia)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 489 = {       # (b_lyca)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 490 = {       # (b_seirosen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 491 = {       # (b_hennigsdorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_brunnau)
@@ -3880,13 +3880,13 @@
 493 = {       # (b_erkeln)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 494 = {       # (b_wolfholz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_ingendorf)
@@ -3900,13 +3900,13 @@
 496 = {       # (b_leste)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 497 = {       # (b_milbitz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bauwersfriet)
@@ -3920,13 +3920,13 @@
 499 = {       # (b_reitmehring)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 500 = {       # (b_baddeckenstedt)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_seershausen)
@@ -3940,13 +3940,13 @@
 502 = {       # (b_sommersbach)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 503 = {       # (b_bleischmelze)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_froitzheim)
@@ -3960,13 +3960,13 @@
 505 = {       # (b_bockert)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 506 = {       # (b_keutschen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_hresvelg)
@@ -3981,19 +3981,19 @@
 508 = {       # (b_babel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 509 = {       # (b_garzauer)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 510 = {       # (b_fasen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_gorspen)
@@ -4007,13 +4007,13 @@
 512 = {       # (b_biding)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 513 = {       # (b_schmitzheide)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_dreikronen)
@@ -4027,13 +4027,13 @@
 515 = {       # (b_apenrade)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 516 = {       # (b_beftoft)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_jungensberg)
@@ -4047,13 +4047,13 @@
 518 = {       # (b_brendstrup)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 519 = {       # (b_gabel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_kerben)
@@ -4067,13 +4067,13 @@
 521 = {       # (b_hoxlund)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 522 = {       # (b_gramm)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_hrym)
@@ -4088,19 +4088,19 @@
 524 = {       # (b_eversten)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 525 = {       # (b_bornhorst)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 526 = {       # (b_etzhorn)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_maugstrup)
@@ -4114,7 +4114,7 @@
 528 = {       # (b_drontheim)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 529 = {       # (b_haberslund)
@@ -4134,13 +4134,13 @@
 531 = {       # (b_gehlau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 532 = {       # (b_hoyer)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_boacker)
@@ -4154,13 +4154,13 @@
 534 = {       # (b_duppel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 535 = {       # (b_emmerlef)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_durhaus)
@@ -4174,7 +4174,7 @@
 537 = {       # (b_renz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_niendorf)
@@ -4189,19 +4189,19 @@
 539 = {       # (b_stockeldorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 540 = {       # (b_tave)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 541 = {       # (b_karlshof)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bandorf)
@@ -4215,13 +4215,13 @@
 543 = {       # (b_tossen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 544 = {       # (b_anetstreut)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bertensdorf)
@@ -4235,13 +4235,13 @@
 546 = {       # (b_imsbach)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 547 = {       # (b_derichsberg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_gronder)
@@ -4256,19 +4256,19 @@
 549 = {       # (b_friedrichstadt)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 550 = {       # (b_dresde)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 551 = {       # (b_prohlis)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_welten)
@@ -4282,13 +4282,13 @@
 553 = {       # (b_steinsbrunn)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 554 = {       # (b_eisenhutsrot)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_hangendenbuch)
@@ -4302,13 +4302,13 @@
 556 = {       # (b_dachtel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 557 = {       # (b_bernitt)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_mariensiel)
@@ -4322,13 +4322,13 @@
 559 = {       # (b_bettenhausen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 560 = {       # (b_mettenbuch)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_airmid)
@@ -4343,19 +4343,19 @@
 562 = {       # (b_altstadt)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 563 = {       # (b_werder)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 564 = {       # (b_norden)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_schollbrun)
@@ -4369,13 +4369,13 @@
 566 = {       # (b_beles)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 567 = {       # (b_klerf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_heede)
@@ -4389,13 +4389,13 @@
 569 = {       # (b_kreuz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 570 = {       # (b_monnerich)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_nordorf)
@@ -4409,13 +4409,13 @@
 572 = {       # (b_helzingen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 573 = {       # (b_fels)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_rugen)
@@ -4430,13 +4430,13 @@
 575 = {       # (b_samtens)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 576 = {       # (b_kluis)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_badenhagen)
@@ -4450,7 +4450,7 @@
 578 = {       # (b_baldau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_aegir)
@@ -4465,19 +4465,19 @@
 580 = {       # (b_medingshoven)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 581 = {       # (b_beuel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 582 = {       # (b_augistin)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_gosabruck)
@@ -4491,13 +4491,13 @@
 584 = {       # (b_hasen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 585 = {       # (b_zeilhard)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_heessen)
@@ -4511,13 +4511,13 @@
 587 = {       # (b_eichholz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 588 = {       # (b_lemzen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kosa)
@@ -4531,13 +4531,13 @@
 590 = {       # (b_schwoche)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 591 = {       # (b_waldfrieden)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_steinerkirchen)
@@ -4551,7 +4551,7 @@
 593 = {       # (b_isterbies)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lichen)
@@ -4565,13 +4565,13 @@
 595 = {       # (b_villingen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 596 = {       # (b_neusorge)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_varley)
@@ -4586,19 +4586,19 @@
 598 = {       # (b_eisenburg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 599 = {       # (b_brunnthal)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 600 = {       # (b_pullach)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_griebow)
@@ -4612,13 +4612,13 @@
 602 = {       # (b_riehausen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 603 = {       # (b_eischleben)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_pente)
@@ -4632,13 +4632,13 @@
 605 = {       # (b_collis)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 606 = {       # (b_wustermark)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_questnitz)
@@ -4652,13 +4652,13 @@
 608 = {       # (b_erpertshof)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 609 = {       # (b_wilecker)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_frischenburg)
@@ -4672,13 +4672,13 @@
 611 = {       # (b_engerndorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 612 = {       # (b_unternogg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_bergliez)
@@ -4699,13 +4699,13 @@
 615 = {       # (b_beckum)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 616 = {       # (b_zement)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_dalwitzhof)
@@ -4719,13 +4719,13 @@
 618 = {       # (b_hinschenfeld)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 619 = {       # (b_eyerlohe)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lendrass)
@@ -4739,13 +4739,13 @@
 621 = {       # (b_dietenwengen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 622 = {       # (b_etting)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_kell)
@@ -4759,13 +4759,13 @@
 624 = {       # (b_woffendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 625 = {       # (b_allmenrod)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_stieglitz)
@@ -4780,19 +4780,19 @@
 627 = {       # (b_freiburg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 628 = {       # (b_rieselfeld)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 629 = {       # (b_lehen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_guarda)
@@ -4806,13 +4806,13 @@
 631 = {       # (b_nordhellen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 632 = {       # (b_ruppmannsburg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_oberleiten)
@@ -4826,13 +4826,13 @@
 634 = {       # (b_waddenserwisch)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 635 = {       # (b_zweitschen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_piskaborn)
@@ -4846,13 +4846,13 @@
 637 = {       # (b_dudenrode)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 638 = {       # (b_biemsen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_gerth)
@@ -4867,19 +4867,19 @@
 640 = {       # (b_aden)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 641 = {       # (b_kloster)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 642 = {       # (b_karlsruhe)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_swabach)
@@ -4893,13 +4893,13 @@
 644 = {       # (b_osterspai)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 645 = {       # (b_steinklingen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_waltenham)
@@ -4913,13 +4913,13 @@
 647 = {       # (b_shnelleman)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 648 = {       # (b_barken)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_westerhofen)
@@ -4933,13 +4933,13 @@
 650 = {       # (b_metterich)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 651 = {       # (b_harmating)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_rusalka)
@@ -4954,19 +4954,19 @@
 653 = {       # (b_rysum)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 654 = {       # (b_loquard)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 655 = {       # (b_kampfen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_hornschlag)
@@ -4980,13 +4980,13 @@
 657 = {       # (b_tachau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 658 = {       # (b_aussig)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_thoenischen)
@@ -5000,13 +5000,13 @@
 660 = {       # (b_schlan)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 661 = {       # (b_laun)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_krausebauden)
@@ -5020,13 +5020,13 @@
 663 = {       # (b_teplitz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 664 = {       # (b_komtau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_boramas)
@@ -5041,19 +5041,19 @@
 666 = {       # (b_borkum)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 667 = {       # (b_rektor)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 668 = {       # (b_reiter)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_passern)
@@ -5067,13 +5067,13 @@
 670 = {       # (b_bakau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 671 = {       # (b_frauenbach)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_schmidenburg)
@@ -5087,13 +5087,13 @@
 673 = {       # (b_botoschan)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 674 = {       # (b_kronstaft)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_phillipenau)
@@ -5107,13 +5107,13 @@
 676 = {       # (b_rebnick)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 677 = {       # (b_neumarkt)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_morgaine)
@@ -5128,19 +5128,19 @@
 679 = {       # (b_eiksen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 680 = {       # (b_kelmis)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 681 = {       # (b_blieberg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_vorderlain)
@@ -5154,13 +5154,13 @@
 683 = {       # (b_wultsch)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 684 = {       # (b_sathmar)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kleinsitzen)
@@ -5174,13 +5174,13 @@
 686 = {       # (b_uddenheim)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 687 = {       # (b_sittenhardt)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_dachsberg)
@@ -5194,13 +5194,13 @@
 689 = {       # (b_warmsroth)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 690 = {       # (b_mustin)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_plechin)
@@ -5214,13 +5214,13 @@
 692 = {       # (b_wolfshoven)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 693 = {       # (b_stollberg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_essar)
@@ -5235,19 +5235,19 @@
 695 = {       # (b_frillendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 696 = {       # (b_frohn)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 697 = {       # (b_berger)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_litzhaln)
@@ -5261,13 +5261,13 @@
 699 = {       # (b_weghausen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 700 = {       # (b_buborn)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_grosseg)
@@ -5281,13 +5281,13 @@
 702 = {       # (b_seeth)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 703 = {       # (b_obertas)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_engel)
@@ -5302,19 +5302,19 @@
 705 = {       # (b_alla)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 706 = {       # (b_seraph)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 707 = {       # (b_sandfort)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_juten)
@@ -5328,13 +5328,13 @@
 709 = {       # (b_spiekerdorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 710 = {       # (b_sanz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_fangs)
@@ -5350,19 +5350,19 @@
 712 = {       # (b_seitschen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 713 = {       # (b_wendelin)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 714 = {       # (b_gaupel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_mundorf)
@@ -5376,13 +5376,13 @@
 716 = {       # (b_achtum)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 717 = {       # (b_drognitz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kronburg)
@@ -5396,7 +5396,7 @@
 719 = {       # (b_obersinn)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 720 = {       # (b_kuxwinkel)
@@ -5416,13 +5416,13 @@
 723 = {       # (b_nettlestrauf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 724 = {       # (b_kirchlehen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_hevring)
@@ -5437,19 +5437,19 @@
 726 = {       # (b_hinten)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 727 = {       # (b_peheim)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 728 = {       # (b_wettersfeld)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_paal)
@@ -5463,7 +5463,7 @@
 730 = {       # (b_eiersheim)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_biserl)
@@ -5471,7 +5471,7 @@
 731 = {       # (b_niederstuttern)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 732 = {       # (b_biserl)
@@ -5483,7 +5483,7 @@
 733 = {       # (b_eitzing)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_langgassen)
@@ -5491,7 +5491,7 @@
 734 = {       # (b_altenrath)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 735 = {       # (b_langassen)
@@ -5503,7 +5503,7 @@
 736 = {       # (b_grafenkirchen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bodendorf)
@@ -5517,13 +5517,13 @@
 738 = {       # (b_bodendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 739 = {       # (b_refflingsen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_reiss)
@@ -5538,19 +5538,19 @@
 741 = {       # (b_dietenhan)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 742 = {       # (b_hergerhausen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 743 = {       # (b_bronnzell)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_minning)
@@ -5564,13 +5564,13 @@
 745 = {       # (b_abbingwehr)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 746 = {       # (b_kielerkamp)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_gallmanswegg)
@@ -5584,13 +5584,13 @@
 748 = {       # (b_schadewohl)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 749 = {       # (b_hofweiter)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_ruprechtshofen)
@@ -5604,13 +5604,13 @@
 751 = {       # (b_andeer)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 752 = {       # (b_melchnau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_holgr)
@@ -5625,19 +5625,19 @@
 754 = {       # (b_kraudorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 755 = {       # (b_hinterhufe)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 756 = {       # (b_velten)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_pitten)
@@ -5651,13 +5651,13 @@
 758 = {       # (b_wallisellen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 759 = {       # (b_puntrash)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_elling)
@@ -5671,13 +5671,13 @@
 761 = {       # (b_gingolf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 762 = {       # (b_kurchen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_maxlon)
@@ -5691,13 +5691,13 @@
 764 = {       # (b_mohlin)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 765 = {       # (b_toggenburg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_bartels)
@@ -5712,19 +5712,19 @@
 767 = {       # (b_altman)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 768 = {       # (b_bomke)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 769 = {       # (b_curau)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_krail)
@@ -5738,13 +5738,13 @@
 771 = {       # (b_emmental)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 772 = {       # (b_lutzelfluh)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lanau)
@@ -5758,13 +5758,13 @@
 774 = {       # (b_truns)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 775 = {       # (b_blatten)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_flurnsbach)
@@ -5778,13 +5778,13 @@
 777 = {       # (b_beromunster)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 778 = {       # (b_sachseln)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_nuvelle)
@@ -5799,19 +5799,19 @@
 780 = {       # (b_riedling)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 781 = {       # (b_degelsdorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 782 = {       # (b_jagtsberg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_lindl)
@@ -5825,13 +5825,13 @@
 784 = {       # (b_fusio)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 785 = {       # (b_isewald)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_pflach)
@@ -5845,13 +5845,13 @@
 787 = {       # (b_sedrun)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 788 = {       # (b_gams)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_mittrau)
@@ -5865,13 +5865,13 @@
 790 = {       # (b_oberhalstein)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 791 = {       # (b_hunneg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_skade)
@@ -5886,19 +5886,19 @@
 793 = {       # (b_felderkoster)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 794 = {       # (b_gilgen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 795 = {       # (b_stiershof)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_wademanssfeld)
@@ -5912,13 +5912,13 @@
 797 = {       # (b_cully)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 798 = {       # (b_seon)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_trefning)
@@ -5932,13 +5932,13 @@
 800 = {       # (b_dongio)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 801 = {       # (b_brienz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_petzeldorf)
@@ -5952,7 +5952,7 @@
 803 = {       # (b_thun)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_latzenhof)
@@ -5966,7 +5966,7 @@
 805 = {       # (b_schanis)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_brionac)
@@ -5981,19 +5981,19 @@
 807 = {       # (b_liebhof)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 808 = {       # (b_bah)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 809 = {       # (b_heidendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_theisenberg)
@@ -6007,13 +6007,13 @@
 811 = {       # (b_susch)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 812 = {       # (b_monstein)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_obertiefen)
@@ -6027,13 +6027,13 @@
 814 = {       # (b_andwil)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 815 = {       # (b_winterhur)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_hoferdorf)
@@ -6047,13 +6047,13 @@
 817 = {       # (b_schupfheim)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 818 = {       # (b_salums)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ###            (d_sleipner)
@@ -6068,19 +6068,19 @@
 820 = {       # (b_bansrade)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 821 = {       # (b_altenrain)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 822 = {       # (b_mitteldorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_steyer)
@@ -6094,13 +6094,13 @@
 824 = {       # (b_jegenstorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 825 = {       # (b_oerschgen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_korb)
@@ -6114,13 +6114,13 @@
 827 = {       # (b_sitten)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 828 = {       # (b_donhausen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_untereich)
@@ -6134,13 +6134,13 @@
 830 = {       # (b_ayer)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 831 = {       # (b_sembrancher)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_nostra)
@@ -6154,13 +6154,13 @@
 833 = {       # (b_wanden)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 834 = {       # (b_hurden)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_arundel)
@@ -6175,19 +6175,19 @@
 836 = {       # (b_mandorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 837 = {       # (b_alvern)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 838 = {       # (b_allerting)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_tarzendorf)
@@ -6201,13 +6201,13 @@
 840 = {       # (b_sernf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 841 = {       # (b_goetzendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_ausserrhoden)
@@ -6221,7 +6221,7 @@
 843 = {       # (b_solothurn)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_aarburg)
@@ -6229,7 +6229,7 @@
 844 = {       # (b_zemendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 845 = {       # (b_aarburg)
@@ -6241,7 +6241,7 @@
 846 = {       # (b_biel)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_tavetsch)
@@ -6249,7 +6249,7 @@
 847 = {       # (b_arderal)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 848 = {       # (b_tavetsch)
@@ -6261,7 +6261,7 @@
 849 = {       # (b_belp)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_alle)
@@ -6269,7 +6269,7 @@
 850 = {       # (b_lindberg)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 851 = {       # (b_alle)
@@ -6281,7 +6281,7 @@
 852 = {       # (b_lotschental)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_schwan)
@@ -6296,19 +6296,19 @@
 854 = {       # (b_zwanenteich)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 855 = {       # (b_gengare)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 856 = {       # (b_giantsich)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_windhag)
@@ -6322,13 +6322,13 @@
 858 = {       # (b_schwabenhof)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 859 = {       # (b_jedenspeigen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_tollertau)
@@ -6342,13 +6342,13 @@
 861 = {       # (b_nauders)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 862 = {       # (b_oberpfaffen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_huldra)
@@ -6363,19 +6363,19 @@
 864 = {       # (b_shellsitz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 865 = {       # (b_bettenkampf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 866 = {       # (b_goldenbeek)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_eberweiss)
@@ -6389,13 +6389,13 @@
 868 = {       # (b_kranz)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 869 = {       # (b_wilchingen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_kleinberg)
@@ -6409,13 +6409,13 @@
 871 = {       # (b_rinkole)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 872 = {       # (b_langenfeld)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_geserberg)
@@ -6429,13 +6429,13 @@
 874 = {       # (b_neuhaus)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 875 = {       # (b_waitzendorf)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_oghma)
@@ -6456,13 +6456,13 @@
 878 = {       # (b_neuleben)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 879 = {       # (b_wapenfeld)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_berler)
@@ -6476,19 +6476,19 @@
 881 = {       # (b_kindtha)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 882 = {       # (b_weissenhof)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 883 = {       # (b_rinderschinken)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_bichlach)
@@ -6502,13 +6502,13 @@
 885 = {       # (b_bichlach)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = city_holding
 }
 
 886 = {       # (b_anlauftal)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_eisenthal)
@@ -6522,13 +6522,13 @@
 888 = {       # (b_glasing)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = none
 }
 
 889 = {       # (b_gwiggen)
               culture = adrestian
               religion = ablehnist
-              holding = castle_holding
+              holding = church_holding
 }
 
 #####          (e_brigid)
@@ -6539,13 +6539,13 @@
 890 = {       # (b_banten)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 891 = {       # (b_tamao)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_lembak)
@@ -6553,19 +6553,19 @@
 892 = {       # (b_lembak)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 893 = {       # (b_kamnom)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 894 = {       # (b_takesar)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_bholcanach)
@@ -6580,13 +6580,13 @@
 896 = {       # (b_pangrun)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 897 = {       # (b_temelina)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_suiochan)
@@ -6600,13 +6600,13 @@
 899 = {       # (b_poneriana)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 900 = {       # (b_gormen)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_cheviot)
@@ -6620,13 +6620,13 @@
 902 = {       # (b_tuamde)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 903 = {       # (b_bhanecoire)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_cuilin)
@@ -6640,19 +6640,19 @@
 905 = {       # (b_nediona)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = church_holding
 }
 
 906 = {       # (b_tirknowe)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 907 = {       # (b_mhelek)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_grannach)
@@ -6661,25 +6661,25 @@
 908 = {       # (b_dundee)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 909 = {       # (b_ballymullagh)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 910 = {       # (b_bhaille)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 911 = {       # (b_pollboas)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_clochan)
@@ -6693,13 +6693,13 @@
 913 = {       # (b_bhenge)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 914 = {       # (b_pollderry)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_glencoe)
@@ -6713,13 +6713,13 @@
 916 = {       # (b_nuagorm)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 917 = {       # (b_kubha)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_aedach)
@@ -6734,13 +6734,13 @@
 919 = {       # (b_kanono)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 920 = {       # (b_sailurlar)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bennevis)
@@ -6754,13 +6754,13 @@
 922 = {       # (b_seanroe)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 923 = {       # (b_bhano)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_bryniau)
@@ -6774,13 +6774,13 @@
 925 = {       # (b_gondou)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 926 = {       # (b_garbhdubh)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_briosto)
@@ -6794,19 +6794,19 @@
 928 = {       # (b_lisiath)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 929 = {       # (b_buiglen)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = church_holding
 }
 
 930 = {       # (b_cruachoma)
               culture = brigid
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_seultach)
@@ -6821,13 +6821,13 @@
 932 = {       # (b_namemagh)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = church_holding
 }
 
 933 = {       # (b_bencrabhat)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_claonfhearta)
@@ -6841,13 +6841,13 @@
 935 = {       # (b_portdimie)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 936 = {       # (b_culmaigh)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_forrad)
@@ -6861,31 +6861,31 @@
 938 = {       # (b_ardcobhail)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = church_holding
 }
 
 939 = {       # (b_cruachsidhe)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 940 = {       # (b_sliabh)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 958 = {       # (b_lissean)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = city_holding
 }
 
 959 = {       # (b_bhassatire)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_orbsen)
@@ -6899,13 +6899,13 @@
 942 = {       # (b_cucoire)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 943 = {       # (b_eiscirtra)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_duartaine)
@@ -6913,13 +6913,13 @@
 944 = {       # (b_duartaine)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 945 = {       # (b_oghnafraoch)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_tuine)
@@ -6927,13 +6927,13 @@
 946 = {       # (b_tuine)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 947 = {       # (b_inniscul)
               culture = brigid
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_bhailearach)
@@ -6943,19 +6943,19 @@
 948 = {       # (b_bhila)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 949 = {       # (b_bhanut)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 950 = {       # (b_saramea)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_eularia)
@@ -6963,25 +6963,25 @@
 951 = {       # (b_eularia)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 952 = {       # (b_kilcannor)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 953 = {       # (b_bhacoill)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 954 = {       # (b_eskra)
               culture = cermaitan
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_talaia)
@@ -6989,19 +6989,19 @@
 955 = {       # (b_talaia)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 956 = {       # (b_bonde)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 957 = {       # (b_mea)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_madhorca)
@@ -7010,13 +7010,13 @@
 960 = {       # (b_pidhusa)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 961 = {       # (b_bhara)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_pailme)
@@ -7030,13 +7030,13 @@
 963 = {       # (b_nato)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 964 = {       # (b_nathalo)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_coipeadh)
@@ -7050,13 +7050,13 @@
 966 = {       # (b_deulu)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 967 = {       # (b_portaobh)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_manacor)
@@ -7070,19 +7070,19 @@
 969 = {       # (b_tearmann)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 970 = {       # (b_oileanaloa)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = church_holding
 }
 
 971 = {       # (b_achadbonara)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_midhorca)
@@ -7097,19 +7097,19 @@
 973 = {       # (b_bealachbhakana)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 974 = {       # (b_ambalatsopka)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 975 = {       # (b_tabhlamena)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_gliomach)
@@ -7123,13 +7123,13 @@
 977 = {       # (b_amlaibhitaka)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = church_holding
 }
 
 978 = {       # (b_bhndrkely)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_inis_portan)
@@ -7137,19 +7137,19 @@
 979 = {       # (b_inis_portan)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 980 = {       # (b_ambundoran)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 981 = {       # (b_masamenoe)
               culture = cermaitan
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_gymnesiach)
@@ -7159,7 +7159,7 @@
 982 = {       # (b_gearr)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 ##             (c_dubh)
@@ -7167,13 +7167,13 @@
 983 = {       # (b_dubh)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 984 = {       # (b_sceachdany)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_fhada)
@@ -7181,13 +7181,13 @@
 985 = {       # (b_fhada)
               culture = aengese
               religion = lamhach
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 986 = {       # (b_bebhada)
               culture = aengese
               religion = lamhach
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_beirt_brethir)
@@ -7196,19 +7196,19 @@
 987 = {       # (b_hobart)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 988 = {       # (b_kamendrigarbh)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 989 = {       # (b_dromdillach)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ewan)
@@ -7216,19 +7216,19 @@
 990 = {       # (b_ewan)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 991 = {       # (b_dunbabet)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 992 = {       # (b_ambolidha)
               culture = aengese
               religion = fuale
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_athair_mor)
@@ -7237,19 +7237,19 @@
 993 = {       # (b_gadhura)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 994 = {       # (b_maroliath)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 995 = {       # (b_muilleala)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ardara)
@@ -7257,25 +7257,25 @@
 996 = {       # (b_ardara)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 997 = {       # (b_ankodona)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 998 = {       # (b_orla)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 999 = {       # (b_marindonacill)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_talamcrainn)
@@ -7283,19 +7283,19 @@
 1000 = {      # (b_talamcrainn)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = church_holding
 }
 
 1001 = {      # (b_analodore)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 1002 = {      # (b_miantsoaribho)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_sanluri)
@@ -7303,19 +7303,19 @@
 1003 = {      # (b_sanluri)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1004 = {      # (b_andregorua)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 1005 = {      # (b_maharibho)
               culture = aedin
               religion = gaothe
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_mach)
@@ -7325,19 +7325,19 @@
 1006 = {      # (b_drepano)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1007 = {      # (b_sahatsorua)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 1008 = {      # (b_ambongatsara)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_elymia)
@@ -7345,19 +7345,19 @@
 1009 = {      # (b_elymia)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1010 = {      # (b_anosibhelo)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 1011 = {      # (b_bharisato)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_inis_motidha)
@@ -7365,19 +7365,19 @@
 1012 = {      # (b_inis_motidha)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1013 = {      # (b_beantaramay)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 1014 = {      # (b_abhe)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_gearga)
@@ -7392,19 +7392,19 @@
 1016 = {      # (b_antezamorua)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = city_holding
 }
 
 1017 = {      # (b_ankiabhe)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 1018 = {      # (b_zorua)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_thapso)
@@ -7418,13 +7418,13 @@
 1020 = {      # (b_analamuileann)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 1021 = {      # (b_ballyport)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_hiero)
@@ -7438,13 +7438,13 @@
 1023 = {      # (b_bhorua)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 1024 = {      # (b_ennislurgan)
               culture = dergish
               religion = talahm_ithir
-              holding = castle_holding
+              holding = none
 }
 
 #####          (e_albinea)
@@ -7455,25 +7455,25 @@
 1111 = {      # (b_baddek)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1112 = {      # (b_pougash)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1113 = {      # (b_trakadiaw)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1114 = {      # (b_wagmat)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kipuktuk)
@@ -7481,13 +7481,13 @@
 1115 = {      # (b_kipuktuk)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1116 = {      # (b_whycoco)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_cobekwid)
@@ -7495,13 +7495,13 @@
 1117 = {      # (b_cobekwid)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1118 = {      # (b_buktaw)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_sekwum)
@@ -7509,13 +7509,13 @@
 1119 = {      # (b_sekwum)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1120 = {      # (b_karaqet)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_akuat)
@@ -7524,19 +7524,19 @@
 1121 = {      # (b_wekqistoq)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1122 = {      # (b_malak)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1123 = {      # (b_wadavik)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_kejimku)
@@ -7544,13 +7544,13 @@
 1124 = {      # (b_kejimku)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1125 = {      # (b_miramichi)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_segebunka)
@@ -7558,13 +7558,13 @@
 1126 = {      # (b_segebunka)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1127 = {      # (b_meductic)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_makkovik)
@@ -7573,19 +7573,19 @@
 1128 = {      # (b_malagash)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1129 = {      # (b_mirai)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1130 = {      # (b_nackawac)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_merigomish)
@@ -7593,13 +7593,13 @@
 1131 = {      # (b_merigomish)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1132 = {      # (b_nashwaak)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_stewiake)
@@ -7607,13 +7607,13 @@
 1133 = {      # (b_stewiake)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1134 = {      # (b_nauwige)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_katmuk)
@@ -7622,19 +7622,19 @@
 1135 = {      # (b_nuktaw)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1136 = {      # (b_oroto)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1137 = {      # (b_penniac)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_piiktaw)
@@ -7642,13 +7642,13 @@
 1138 = {      # (b_piiktaw)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1139 = {      # (b_kodiak)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_takume)
@@ -7656,13 +7656,13 @@
 1140 = {      # (b_takume)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1141 = {      # (b_penobskee)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_bergion)
@@ -7672,19 +7672,19 @@
 1142 = {      # (b_oromocto)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1143 = {      # (b_kullor)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1144 = {      # (b_banabke)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_aapilla)
@@ -7692,13 +7692,13 @@
 1145 = {      # (b_aapilla)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1146 = {      # (b_attu)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ukkusisat)
@@ -7706,13 +7706,13 @@
 1147 = {      # (b_ukkusisat)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1148 = {      # (b_iginniar)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_jatnar)
@@ -7720,13 +7720,13 @@
 1149 = {      # (b_jatnar)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1150 = {      # (b_siorpaluk)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_amarok)
@@ -7735,19 +7735,19 @@
 1151 = {      # (b_akela)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1152 = {      # (b_nackawic)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1153 = {      # (b_fenroc)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_raksha)
@@ -7755,13 +7755,13 @@
 1154 = {      # (b_raksha)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1155 = {      # (b_withmane)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_sabrodt)
@@ -7769,19 +7769,19 @@
 1156 = {      # (b_sabrodt)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1157 = {      # (b_qaanaq)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 1158 = {      # (b_kangerlas)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_shehshat)
@@ -7790,13 +7790,13 @@
 1159 = {      # (b_naajat)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1160 = {      # (b_tasius)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_isertoq)
@@ -7804,13 +7804,13 @@
 1161 = {      # (b_isertoq)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1162 = {      # (b_arsuk)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_wabunaki)
@@ -7819,13 +7819,13 @@
 1163 = {      # (b_iliamaq)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1164 = {      # (b_haighivik)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_sarfang)
@@ -7833,13 +7833,13 @@
 1165 = {      # (b_sarfang)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1166 = {      # (b_alluit)
               culture = albinean
               religion = lumialue
-              holding = castle_holding
+              holding = none
 }
 
 #####          (e_morfis)
@@ -7856,13 +7856,13 @@
 1168 = {      # (b_brujas)
               culture = reqonese
               religion = reqonn_de_opulencia
-              holding = castle_holding
+              holding = city_holding
 }
 
 1169 = {      # (b_lieja)
               culture = reqonese
               religion = reqonn_de_opulencia
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_claraval)
@@ -7876,7 +7876,7 @@
 1171 = {      # (b_rodano)
               culture = reqonese
               religion = reqonn_de_opulencia
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_ruan)
@@ -7890,7 +7890,7 @@
 1173 = {      # (b_lorena)
               culture = reqonese
               religion = reqonn_de_opulencia
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_arcila)
@@ -7905,7 +7905,7 @@
 1175 = {      # (b_tiro)
               culture = reqonese
               religion = reqonn_de_opulencia
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_capaz)
@@ -7919,7 +7919,7 @@
 1177 = {      # (b_rincon)
               culture = reqonese
               religion = reqonn_de_opulencia
-              holding = castle_holding
+              holding = city_holding
 }
 
 ####           (k_erisad)
@@ -7935,19 +7935,19 @@
 1179 = {      # (b_washugan)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 1180 = {      # (b_mumbaka)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1181 = {      # (b_arpak)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_chagar)
@@ -7961,13 +7961,13 @@
 1183 = {      # (b_tarbish)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1184 = {      # (b_araph)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_shubat)
@@ -7981,7 +7981,7 @@
 1186 = {      # (b_shiban)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_per_shamash)
@@ -7996,7 +7996,7 @@
 1188 = {      # (b_taremmu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_arad)
@@ -8010,7 +8010,7 @@
 1190 = {      # (b_shedesh)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_dur_zisurru)
@@ -8025,7 +8025,7 @@
 1192 = {      # (b_nehebehdet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_terkah)
@@ -8033,13 +8033,13 @@
 1193 = {      # (b_terkah)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1194 = {      # (b_tumyattha)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_reket)
@@ -8056,13 +8056,13 @@
 1196 = {      # (b_gibeza)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1197 = {      # (b_nerenu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_qito)
@@ -8070,19 +8070,19 @@
 1198 = {      # (b_akhotep)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1199 = {      # (b_qito)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1200 = {      # (b_djoramenyet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_wadjish)
@@ -8090,7 +8090,7 @@
 1201 = {      # (b_wadjish)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 ###            (d_basset_marduk)
@@ -8099,13 +8099,13 @@
 1202 = {      # (b_klito)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1203 = {      # (b_buhenekh)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_pthubat)
@@ -8113,13 +8113,13 @@
 1204 = {      # (b_pthubat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1205 = {      # (b_farshish)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_tarminhor)
@@ -8127,13 +8127,13 @@
 1206 = {      # (b_tarminhor)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1207 = {      # (b_sukhmen)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_apatis)
@@ -8149,7 +8149,7 @@
 1209 = {      # (b_ingesh)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = church_holding
 }
 
 1210 = {      # (b_unalitah)
@@ -8161,13 +8161,13 @@
 1211 = {      # (b_udessu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 1212 = {      # (b_lialu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_djeb)
@@ -8181,13 +8181,13 @@
 1214 = {      # (b_fardjumat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 1215 = {      # (b_khasanemhat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_hakur)
@@ -8201,7 +8201,7 @@
 1217 = {      # (b_amkhamarat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = church_holding
 }
 
 ##             (c_enlil)
@@ -8215,13 +8215,13 @@
 1219 = {      # (b_minatennu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = church_holding
 }
 
 1220 = {      # (b_khasvet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 ###            (d_per_mardak)
@@ -8230,13 +8230,13 @@
 1221 = {      # (b_duramon)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1222 = {      # (b_shanushir)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_senethis)
@@ -8244,13 +8244,13 @@
 1223 = {      # (b_senethis)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1224 = {      # (b_ketmeny)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_nagar_i_beydar)
@@ -8259,19 +8259,19 @@
 1225 = {      # (b_gebet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1226 = {      # (b_djafenset)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1227 = {      # (b_nebkhare)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_anat)
@@ -8279,13 +8279,13 @@
 1228 = {      # (b_anat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1229 = {      # (b_sekhepesh)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_rubazzu)
@@ -8293,19 +8293,19 @@
 1230 = {      # (b_rubazzu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1231 = {      # (b_annumut)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1232 = {      # (b_hebshem)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_hom_karanah)
@@ -8314,13 +8314,13 @@
 1233 = {      # (b_isfet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1234 = {      # (b_khesashut)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_waret)
@@ -8328,13 +8328,13 @@
 1235 = {      # (b_waret)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1236 = {      # (b_neknyamor)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_permakht)
@@ -8342,13 +8342,13 @@
 1237 = {      # (b_permakht)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1238 = {      # (b_zarumash)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_bostrehwy)
@@ -8356,13 +8356,13 @@
 1239 = {      # (b_bostrehwy)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1240 = {      # (b_khanesfet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_bal_enlill)
@@ -8377,7 +8377,7 @@
 1242 = {      # (b_beliit)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_shezzen)
@@ -8391,7 +8391,7 @@
 1244 = {      # (b_tashkur)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_nu_gazul)
@@ -8400,13 +8400,13 @@
 1245 = {      # (b_biguat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1246 = {      # (b_kutal)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_somenhor)
@@ -8414,13 +8414,13 @@
 1247 = {      # (b_somenhor)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1248 = {      # (b_wadji)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ashur)
@@ -8428,7 +8428,7 @@
 1249 = {      # (b_ashur)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 ###            (d_atana_ili)
@@ -8443,7 +8443,7 @@
 1251 = {      # (b_pertapsi)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = city_holding
 }
 
 ##             (c_zirhat)
@@ -8451,13 +8451,13 @@
 1252 = {      # (b_zirhat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1253 = {      # (b_dakhor)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ####           (k_doleh)
@@ -8467,7 +8467,7 @@
 1254 = {      # (b_khasut)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 ##             (c_gilganefer)
@@ -8475,7 +8475,7 @@
 1255 = {      # (b_gilganefer)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 ###            (d_gath_enfeh)
@@ -8484,13 +8484,13 @@
 1256 = {      # (b_khem)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1257 = {      # (b_emah)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_chadet)
@@ -8498,13 +8498,13 @@
 1258 = {      # (b_chadet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1259 = {      # (b_nabonahiddu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_sebeh)
@@ -8512,19 +8512,19 @@
 1260 = {      # (b_sebeh)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1261 = {      # (b_utuatep)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1262 = {      # (b_behkhamty)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_nu_zau)
@@ -8533,13 +8533,13 @@
 1263 = {      # (b_burrukammu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1264 = {      # (b_isfil)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_amurri)
@@ -8547,7 +8547,7 @@
 1265 = {      # (b_amurri)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 ###            (d_abullu_barbu)
@@ -8556,13 +8556,13 @@
 1266 = {      # (b_abulmahhu)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1267 = {      # (b_nadinapep)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_barsarru)
@@ -8570,19 +8570,19 @@
 1268 = {      # (b_barsarru)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1269 = {      # (b_liburmetum)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 1270 = {      # (b_hadjet)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_abulanshu)
@@ -8596,7 +8596,7 @@
 1272 = {      # (b_gemekh)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ###            (d_dur_atum)
@@ -8611,7 +8611,7 @@
 1274 = {      # (b_damkhenum)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_ishthut)
@@ -8619,13 +8619,13 @@
 1275 = {      # (b_ishthut)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = tribal_holding
 }
 
 1276 = {      # (b_anunat)
               culture = morfis
               religion = inetsaret
-              holding = castle_holding
+              holding = none
 }
 
 #####          (e_al_mihra)

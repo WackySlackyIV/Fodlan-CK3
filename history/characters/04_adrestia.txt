@@ -38,7 +38,7 @@
 		}
 	}
 	1181.1.1 = {
-		give_nickname = nick_the_flame_emperor
+		give_nickname = nick_flame_emperor
 		effect = {
 			set_relation_rival = character:100000
 			set_relation_rival = character:400000
@@ -685,6 +685,7 @@
 	religion="ablehnist"
 	culture="adrestian"
 	father = 400049
+	dna = dna_arundel
 	dynasty = 319
 
    	diplomacy=8
@@ -1172,12 +1173,11 @@
 	}
 }
 
-400049 = {
+400049 = { ########################### FREEEE
 	name="Arundel"
 	religion="seirosite"
 	culture="adrestian"
 	dynasty = 319
-	dna = dna_arundel
 
 	1100.1.11 = {
 		birth=yes
