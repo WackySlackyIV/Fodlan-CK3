@@ -31,6 +31,7 @@
 	name="Nader"
 	religion="kizilisma"
 	culture="almyran"
+	dna = dna_nader
 	
 
 	martial = 10
