@@ -779,6 +779,7 @@
 	father = 400200
 	female = yes
 	dynasty = 320
+	dna = dna_ladislava
 
    	diplomacy=5
    	martial=8
