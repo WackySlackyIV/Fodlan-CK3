@@ -721,6 +721,7 @@
 	father = 400030
 	mother = 400158
 	dynasty = 307
+	dna = dna_randolph
 
    	diplomacy=3
    	martial=7
@@ -753,6 +754,7 @@
 	mother = 400158
 	female = yes
 	dynasty = 307
+	dna = dna_fleche
 
 	intrigue = 6
 	prowess = 5
