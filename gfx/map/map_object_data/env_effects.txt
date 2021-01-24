@@ -52,7 +52,6 @@ object={
 	entity="env_mist_sun"
 	count=0
 }
-
 object={
 	name="env_snow_mountains"
 	clamp_to_water_level=yes

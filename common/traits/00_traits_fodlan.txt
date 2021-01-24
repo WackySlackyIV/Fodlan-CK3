@@ -36,7 +36,7 @@ child_goddess = {
 	intrigue = 3
 	learning = 3
 	prowess = 20
-	fertility = -0.5
+	fertility = -0.75
 	monthly_lifestyle_xp_gain_mult = -0.33
 	random_creation = 0
 

@@ -1,0 +1,10 @@
+﻿object={
+	name="env_volcano_smog"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="env_effect_layer"
+	entity="city_siege_effect"
+	count=1
+	transform="2180.671875 9.239380 1376.776733 0.000000 0.000000 0.000000 1.000000 2.345207 2.345207 2.345207
+"}

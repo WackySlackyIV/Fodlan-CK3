@@ -63,6 +63,7 @@ clan_government = {
 	
 	fallback = 2
 	
+	preferred_religions = { buykisik_religion }
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 
@@ -184,36 +185,4 @@ holy_order_government = {
 
 	valid_holdings = { castle_holding }
 	color = hsv{ 0.00 0.00 0.66 }
-}
-
-trading_kingdom_government = {
-	create_cadet_branches = yes
-	rulers_should_have_dynasty = yes
-	dynasty_named_realms = yes
-
-	primary_holding = city_holding
-	valid_holdings = { castle_holding }
-	required_county_holdings = { city_holding castle_holding }
-
-	preferred_religions = { reqonn_de_opulencia_religion }
-
-	vassal_contract = {
-		feudal_government_taxes
-		feudal_government_levies
-		special_contract
-		religious_rights
-		fortification_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights
-	}
-
-	character_modifier = { 
-		city_holding_build_speed = -0.05
-		city_holding_holding_build_speed = -0.05
-	}
-
-	color = { 210 125 165 }
 }

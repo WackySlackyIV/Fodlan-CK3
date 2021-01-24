@@ -765,7 +765,7 @@
 
 	trait = education_diplomacy_1
 	disallow_random_traits = yes
-	1163.2.26 = {
+	1157.2.26 = {
 		birth=yes
 	}
 	1200.1.1={

@@ -218,7 +218,7 @@ saatpra_daanav_religion = {
 			
 			doctrine = tenet_adaptive
 			doctrine = tenet_warmonger
-			doctrine = tenet_natural_primitivism
+			doctrine = tenet_sky_burials
 			doctrine = tenet_baildatyn_tsus
 
 			doctrine = doctrine_deviancy_accepted
