@@ -40,6 +40,13 @@
 	religion = "mekeal"
 	culture = "sreng"
 
+	trait = brave
+	trait = just
+	trait = zealous
+
+	trait = education_martial_3
+	trait = crest_minor_macuil
+
 	1150.1.7 = {
 		birth=yes
 	}
@@ -54,6 +61,12 @@
 	religion = "heimsormurinn"
 	culture = "sreng"
 
+	trait = impatient
+	trait = honest
+	trait = fickle
+
+	trait = education_diplomacy_1
+
 	1150.1.7 = {
 		birth=yes
 	}
@@ -64,9 +77,15 @@
 }
 
 1000003 = {
-	name = "king sreng candidate?"
+	name = "Snorri"
 	religion = "heimsormurinn"
 	culture = "sreng"
+	
+	trait = paranoid
+	trait = brave
+	trait = greedy
+
+	trait = education_stewardship_3
 
 	1150.1.7 = {
 		birth=yes
@@ -78,10 +97,16 @@
 }
 
 1000004 = {
-	name = "island srengers 1"
+	name = "Botulf"
 	religion = "heimsormurinn"
 	culture = "sreng"
 
+	trait = calm
+	trait = stubborn
+	trait = trusting
+
+	trait = education_intrigue_2
+	
 	1150.1.7 = {
 		birth=yes
 	}
@@ -92,10 +117,17 @@
 }
 
 1000005 = {
-	name = "island srengers 2"
-	religion = "heimsormurinn"
+	name = "Eilif"
+	religion = "mekeal"
 	culture = "sreng"
+	female = yes
 
+	trait = zealous
+	trait = shy
+	trait = lazy
+
+	trait = education_learning_2
+	
 	1150.1.7 = {
 		birth=yes
 	}

@@ -22,19 +22,19 @@
 }
 
 900001 = {
-	name = "Micheli"
+	name = "Sten"
 	religion = "pantheon_faith"
 	culture = "duscur"
 
+	trait = stubborn
 	trait = just
-	trait = honest
-	trait = patient
+	trait = calm
 
-	trait = education_diplomacy_4
+	trait = education_martial_4
 	trait = intellect_good_2
-	trait = one_legged
-	trait = disfigured #How unfortunate
-	trait = contrite #Perhaps he has a guilty concious due to him surviving unlike his family
+	trait = strong
+	trait = education_martial_prowess_3
+	
 
 	1152.10.30 = {
 		birth=yes
