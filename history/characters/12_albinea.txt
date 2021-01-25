@@ -1,9 +1,15 @@
 ﻿1200000 = {
-	name = "main tribe"
+	name = "Cináed"
 	religion = "lumialue"
 	culture = "albinean"
 
-	1150.1.7 = {
+	trait = gregarious
+	trait = lustful
+	trait = craven
+
+	trait = education_diplomacy_2
+
+	1158.7.7 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -13,11 +19,16 @@
 }
 
 1200001 = {
-	name = "tribe 2"
+	name = "Drest"
 	religion = "lumialue"
 	culture = "albinean"
+	
+	trait = greedy
+	trait = ambitious
+	trait = cynical
 
-	1150.1.7 = {
+	trait = education_martial_1
+	1144.3.19 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -27,11 +38,19 @@
 }
 
 1200002 = {
-	name = "tribe 3"
+	name = "Muire"
 	religion = "lumialue"
 	culture = "albinean"
+	female = yes
 
-	1150.1.7 = {
+	trait = paranoid
+	trait = wrathful
+	trait = temperate
+
+	trait = education_learning_3
+	trait = beauty_good_2
+
+	1146.4.6 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -41,11 +60,18 @@
 }
 
 1200003 = {
-	name = "tribe 4"
+	name = "Cunedda" #Anime Best Friend
 	religion = "lumialue"
 	culture = "albinean"
 
-	1150.1.7 = {
+	trait = trusting
+	trait = compassionate
+	trait = stubborn
+
+	trait = education_martial_3
+	trait = beauty_bad_1
+
+	1140.1.5 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -55,11 +81,19 @@
 }
 
 1200004 = {
-	name = "tribe 5"
+	name = "Bridei"
 	religion = "lumialue"
 	culture = "albinean"
 
-	1150.1.7 = {
+	trait = lustful
+	trait = vengeful
+	trait = craven
+	
+	sexuality = homosexual
+
+	trait = education_learning_4
+
+	1148.4.6 = {
 		birth=yes
 	}
 	1200.8.10={

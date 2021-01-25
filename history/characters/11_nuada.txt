@@ -1,9 +1,15 @@
 ﻿1100000 = {
-	name = "nuada big tribe"
+	name = "Hakon"
 	religion = "pantheon_faith"
 	culture = "nuadan"
+	
+	trait = compassionate
+	trait = greedy
+	trait = just
 
-	1150.1.7 = {
+	trait = education_stewardship_3
+
+	1154.12.2 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -13,11 +19,17 @@
 }
 
 1100001 = {
-	name = "nuada small tribe"
+	name = "Kadal"
 	religion = "pantheon_faith"
 	culture = "nuadan"
 
-	1150.1.7 = {
+	trait = shy
+	trait = vengeful
+	trait = cynical
+
+	trait = education_learning_3
+	
+	1144.9.13 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -27,11 +39,16 @@
 }
 
 1100002 = {
-	name = "model after softy" #its the malta like place
+	name = "Samuel" #its the malta like place, and he's based on Softy
 	religion = "pantheon_faith"
 	culture = "nuadan"
+	
+	trait = lustful
+	trait = honest
+	trait = arbitrary
 
-	1150.1.7 = {
+	trait = education_intrigue_3
+	1162.6.9 = {
 		birth=yes
 	}
 	1200.8.10={

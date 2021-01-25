@@ -22,7 +22,7 @@
 }
 
 900001 = {
-	name = "Sten"
+	name = "Sten" #Dragon Age Reference
 	religion = "pantheon_faith"
 	culture = "duscur"
 

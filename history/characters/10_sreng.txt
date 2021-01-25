@@ -47,7 +47,7 @@
 	trait = education_martial_3
 	trait = crest_minor_macuil
 
-	1150.1.7 = {
+	1151.11.4 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -67,7 +67,7 @@
 
 	trait = education_diplomacy_1
 
-	1150.1.7 = {
+	1155.4.15 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -87,7 +87,7 @@
 
 	trait = education_stewardship_3
 
-	1150.1.7 = {
+	1156.5.22 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -107,7 +107,7 @@
 
 	trait = education_intrigue_2
 	
-	1150.1.7 = {
+	1147.6.12 = {
 		birth=yes
 	}
 	1200.8.10={
@@ -128,7 +128,7 @@
 
 	trait = education_learning_2
 	
-	1150.1.7 = {
+	1161.8.17 = {
 		birth=yes
 	}
 	1200.8.10={
