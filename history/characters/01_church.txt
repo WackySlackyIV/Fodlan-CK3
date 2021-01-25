@@ -890,6 +890,7 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	sexuality = bisexual
+	dna = dna_anna
 
    	diplomacy=7
    	martial=4
