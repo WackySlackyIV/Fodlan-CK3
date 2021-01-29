@@ -450,6 +450,7 @@
 	trait = gallant
 
 	trait = crest_major_seiros
+	trait = dragon_blood
 
 	1127.10.25 = {
 		effect = {

@@ -59,6 +59,7 @@ dragon_blood = {
 	index = 302
 	
 	both_parent_has_trait_inherit_chance = 100
+	life_expectancy = 150
 	health = 5
 	diplomacy = 1
 	martial = 1

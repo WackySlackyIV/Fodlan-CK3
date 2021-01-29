@@ -10,16 +10,19 @@ colors = {
 	orange 		= hsv {		0.064 	1 	0.6 	}
 	
 	grey 		= hsv {		0.0 	0.0 	0.50 	}
-	brown 		= hsv {	021 	074 	045	}
+	brown 		= rgb {		135	84	18	}
 	
 	blue_light	= hsv {		0.58 	0.70 	0.55 	}
 	green_light	= hsv {		0.35 	0.50 	0.40 	}
 	yellow_light	= hsv {		0.1 	0.80 	1.0 	}
+	red_light	= rgb {		222	104	95	}
 
-	lion_blue1 	= rgb {		76	84	146	}
+	lion_blue1	= rgb {		76	84	146	}
 	lion_blue2 	= rgb {		55	60	115	}
 	eagle_red 	= rgb {		121	18	39	}
 	deer_yellow1 	= rgb {		142	127	12	}
 	deer_yellow2 	= rgb {		203	178	34	}
 	deer_brown 	= rgb {		65	61	36	}
+	moose_green	= rgb {		78	125	71	}
+	brigid_purple	= rgb {		145	38	83	}
 }
