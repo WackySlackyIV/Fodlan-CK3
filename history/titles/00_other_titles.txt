@@ -1,0 +1,5 @@
+d_knights_seiros = {
+	1181.1.1 = {
+		holder = 100001
+	}
+}

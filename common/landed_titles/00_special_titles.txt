@@ -1,0 +1,6 @@
+d_knights_seiros = {
+	color = { 230 230 230 }
+	color2 = { 255 255 255 }
+	
+	capital = c_garreg_mach
+}

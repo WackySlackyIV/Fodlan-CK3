@@ -1,0 +1,21 @@
+﻿on_game_start = {
+	on_actions = {
+		
+	}
+}
+
+on_game_start_after_lobby = {
+	on_actions = {
+		FOD_ON_START
+	}
+}
+
+FOD_ON_START = {
+	effect = {
+		character:100000 = {
+			trigger_event = {
+					id = FOD_maintenance.1
+			}
+		}
+	}
+}

@@ -1,29 +1,27 @@
 ﻿l_english:
  nick_flame_emperor:0 "The Flame Emperor"
- nick_the_lord_of_roses:0 "The Lord Of Roses"
-###ADD THESE### 
-#nick_the_mystical_songstress;The Mystical Songstress;;;;;;;;;;;;;x
-#nick_the_ashen_demon;The Ashen Demon;;;;;;;;;;;;;x
-#nick_the_boar_prince;The Boar Prince;;;;;;;;;;;;;x
-#nick_the_tempest_king;The Tempest King;;;;;;;;;;;;;x
-#nick_the_master_tactician;The Master Tactician;;;;;;;;;;;;;x
-#nick_the_lord_of_roses;The Lord Of Roses;;;;;;;;;;;;;x
-#nick_the_father_of_crestology;The Father Of Crestology;;;;;;;;;;;;;x
-#nick_the_divine_songstress;The Divine Songstress;;;;;;;;;;;;;x
-#nick_thunderstrike;Thunderstrike;;;;;;;;;;;;;x
-#nick_death_knight;Death Knight;;;;;;;;;;;;;x
-#nick_the_weathervane;The Weathervane;;;;;;;;;;;;;x
-#nick_the_gray_lion;The Gray Lion;;;;;;;;;;;;;x
-#nick_the_hero_of_daphnel;The Hero Of Daphnel;;;;;;;;;;;;;x
-#nick_the_undefeated;The Undefeated;;;;;;;;;;;;;x
-#nick_the_shield_of_faerghus;The Shield Of Faerghus;;;;;;;;;;;;;x
-#nick_blade_breaker;Blade Breaker;;;;;;;;;;;;;x
-#nick_progenitor_god;Progenitor God;;;;;;;;;;;;;x
-#nick_the_king_of_lions;The King Of Lions;;;;;;;;;;;;;x
-#nick_the_undesiring_strategist;The Undesiring Strategist;;;;;;;;;;;;;x
-#nick_the_unifier;The Unifier;;;;;;;;;;;;;x
-#nick_cappy;Cappy;;;;;;;;;;;;;x
-#nick_king_grappling;King of Grappling;;;;;;;;;;;;;x
-#nick_savage_mockingbird;Savage Mockingbird;;;;;;;;;;;;;x
-#nick_the_elite;The Elite;;;;;;;;;;;;;x
-#nick_the_beast;The Beast;;;;;;;;;;;;;x
+ nick_mystical_songstress:0 "The Mystical Songtress"
+ nick_ashen_demon:0 "The Ashen Demon"
+ nick_boar_prince:0 "The Boar Prince"
+ nick_tempest_king:0 "The Tempest King"
+ nick_master_tactician:0 "The Master Tactician"
+ nick_lord_of_roses:0 "The Lord of Roses"
+ nick_father_of_crestology:0 "The Father of Crestology"
+ nick_divine_songstress:0 "The Divine Songstress"
+ nick_thunderstrike:0 "Thunderstrike"
+ nick_death_knight:0 "Death Knight"
+ nick_weathervane:0 "The Weathervane"
+ nick_gray_lion:0 "The Gray Lion"
+ nick_hero_daphnel:0 "The Hero of Daphnel"
+ nick_undefeated:0 "The Undefeated"
+ nick_shield_faerghus:0 "The Shield of Faerghus"
+ nick_blade_breaker:0 "Blade Breaker"
+ nick_progenitor_god:0 "Progenitor God"
+ nick_king_of_lions:0 "The King of Lions"
+ nick_undesiring_strategist:0 "The Undesiring Strategist"
+ nick_unifier:0 "The Unifier"
+ nick_cappy:0 "Cappy"
+ nick_king_grappling:0 "King of Grappling"
+ nick_savage_mockingbird:0 "Savage Mockingbird"
+ nick_elite:0 "The Elite"
+ nick_beast:0 "The Beast"
