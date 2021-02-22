@@ -181,3 +181,146 @@
 		death=yes
 	}
 }
+
+1300014 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300015 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300016 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300017 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300018 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300019 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300020 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300021 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300022 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300023 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1300024 = {
+	name="template"
+	religion="inetsaret"
+	culture="morfis"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}

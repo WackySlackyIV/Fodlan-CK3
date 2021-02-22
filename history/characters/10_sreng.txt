@@ -136,3 +136,115 @@
 	}
 
 }
+
+1000006 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000007 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000008 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000009 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000010 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000011 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000012 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1000013 = {
+	name = "template"
+	religion = "mekeal"
+	culture = "sreng"
+	
+	1161.8.17 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}

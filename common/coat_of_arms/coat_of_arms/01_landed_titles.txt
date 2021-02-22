@@ -744,16 +744,22 @@ k_horsabad = {
 	}
 
 	colored_emblem = {
-		texture = "ce_lotus_big.dds"
-		color1 = "yellow"
-		color2 = "deer_yellow2"
-		instance = { position = { 0.7 0.25 } scale = { 0.4 0.4 }  }
-	}
-
-	colored_emblem = {
-		texture = "ce_religion_custom_faith_7.dds"
+		texture = "ce_horse_statant.dds"
 		color1 = "white"
 		color2 = "deer_yellow2"
-		instance = { position = { 0.5 0.6 } scale = { 0.75 0.75 }  }
+		instance = { position = { 0.5 0.6 } scale = { -0.75 0.75 }  }
+	}
+}
+
+k_ineveh = {
+	pattern = "pattern_waves_01.dds"
+	color1 = "yellow"
+	color2 = "deer_brown"
+
+	colored_emblem = {
+		texture = "ce_malik.dds"
+		color1 = "deer_brown"
+		color2 = "deer_brown"
+		instance = { position = { 0.5 0.3 } scale = { 0.5 0.5 }  }
 	}
 }

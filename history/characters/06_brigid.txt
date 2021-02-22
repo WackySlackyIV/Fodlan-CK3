@@ -183,3 +183,289 @@
 		death=yes
 	}
 }
+
+600009 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600010 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600011 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600012 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600013 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600014 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600015 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600016 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600017 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600018 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600019 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600020 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600021 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600022 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600023 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600024 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600025 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600026 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600027 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600028 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600029 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+600030 = {
+	name="template"
+	religion="talahm_ithir"
+	culture="brigid"
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}

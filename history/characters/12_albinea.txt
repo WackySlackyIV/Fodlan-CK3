@@ -101,3 +101,171 @@
 	}
 
 }
+
+1200005 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200006 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200007 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200008 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200009 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200010 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200011 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200012 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200013 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200014 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200015 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
+
+1200016 = {
+	name = "template"
+	religion = "lumialue"
+	culture = "albinean"
+
+	1148.4.6 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}

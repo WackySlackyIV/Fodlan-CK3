@@ -449,3 +449,18 @@
 	}
 
 }
+
+
+800015 = {
+	name = "template"
+	religion = "reqonn_de_opulencia"
+	culture = "reqonese"
+
+	1148.6.15 = {
+		birth=yes
+	}
+	1200.8.10={
+		death=yes
+	}
+
+}
