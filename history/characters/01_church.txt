@@ -852,6 +852,7 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	sexuality = heterosexual
+	dna = dna_pallardo
 
 	prowess = 6
 

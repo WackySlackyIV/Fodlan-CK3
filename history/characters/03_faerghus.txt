@@ -1035,6 +1035,7 @@
 	name="Gwendal"
 	religion="seirosite"
 	culture="faerghus"
+	dna = dna_gwendal
 	dynasty=222
    	diplomacy=1
    	martial = 9
