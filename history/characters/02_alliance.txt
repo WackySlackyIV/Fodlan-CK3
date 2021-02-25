@@ -828,6 +828,7 @@
 	dynasty=114
 	religion="seirosite"
 	culture="leicester"
+	dna = dna_acheron
    	diplomacy=3
    	martial=3
 	stewardship=3
