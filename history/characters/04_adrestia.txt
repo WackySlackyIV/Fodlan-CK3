@@ -42,6 +42,7 @@
 		effect = {
 			set_relation_rival = character:100000
 			set_relation_rival = character:400000
+			add_dread = 75
 		}
 	}
 	1200.1.1={
@@ -65,7 +66,7 @@
 
 400002 = {
 	name="Gunther"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 305
 
@@ -82,8 +83,8 @@
 
 400003 = {
 	name="Lothar"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="gressig"
 	dynasty = 306
 	disallow_random_traits = yes
 
@@ -126,8 +127,8 @@
 
 400005 = {
 	name="Roderick"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="sirenic"
 	dynasty = 308
 	father=400116
 
@@ -192,7 +193,7 @@
 
 400008 = {
 	name="Bruno"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 311
 
@@ -224,7 +225,7 @@
 400010 = {
 	name="Matylda"
 	religion="ablehnist"
-	culture="adrestian"
+	culture="sirenic"
 	dynasty = 313
 	female=yes
 
@@ -1028,8 +1029,8 @@
 
 400039 = {
 	name="Alexios"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="reissling"
 	father=400075
 	dynasty = 324
 
@@ -1082,7 +1083,7 @@
 400043 = {
 	name="Orion"
 	religion="ablehnist"
-	culture="adrestian"
+	culture="brionic"
 	dynasty = 327
 	mother=400079
 
@@ -1129,8 +1130,8 @@
 
 400046 = {
 	name="Vanellope"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="alesion"
 	female = yes
 	dynasty = 351
 
@@ -1773,7 +1774,7 @@
 400084 = {
 	name="Franz"
 	religion="ablehnist"
-	culture="adrestian"
+	culture="reissling"
 	dynasty = 324
 	father= 400039
 	
@@ -1910,7 +1911,7 @@
 
 400092 = {
 	name="Caspar"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 336
 
@@ -1943,7 +1944,7 @@
 400094 = {
 	name="Ludwig"
 	religion="seirosite"
-	culture="adrestian"
+	culture="brionic"
 	dynasty = 338
 
 
@@ -1958,7 +1959,7 @@
 
 400095 = {
 	name="Hanneman"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 339
 
@@ -1974,7 +1975,7 @@
 
 400096 = {
 	name="Wolfram"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 340
 
@@ -1989,7 +1990,7 @@
 
 400097 = {
 	name="Oscar"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 341
 
@@ -2004,7 +2005,7 @@
 
 400098 = {
 	name="Harald"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 342
 
@@ -2019,7 +2020,7 @@
 
 400099 = {
 	name="Stanislav"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 343
 
@@ -2068,7 +2069,7 @@
 
 400102 = {
 	name="Gundomar"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 305
 	father = 400101
@@ -2207,7 +2208,7 @@
 
 400111 = {
 	name="Olga"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	female=yes
 	dynasty = 345
@@ -2225,7 +2226,7 @@
 
 400112 = {
 	name="Baldur"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 306
 
@@ -2355,7 +2356,7 @@
 
 400120 = {
 	name="Melchior"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	father=400008
 	dynasty = 308
@@ -2504,8 +2505,8 @@
 
 400129 = {
 	name="Oskar"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="sirenic"
 	dynasty = 313
 	mother=400010
 	father=400133
@@ -2588,7 +2589,7 @@
 400134 = {
 	name="Pavel"
 	religion="ablehnist"
-	culture="adrestian"
+	culture="sirenic"
 	dynasty = 314
 	mother=400011
 
@@ -2785,8 +2786,8 @@
 
 400146 = {
 	name="Gianni"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="alesion"
 	father = 400143
 	mother = 400145
 	dynasty = 330
@@ -3405,8 +3406,8 @@
 
 400181 = { #maugstrupp
 	name="Kamina"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="gressig"
 	dynasty = 362
 
 	trait = brave
@@ -3440,8 +3441,8 @@
 
 400182 = { #durhaus
 	name="Simoné"
-	religion="ablehnist"
-	culture="adrestian"
+	religion="seirosite"
+	culture="gressig"
 	dynasty = 362
 
 	trait = trusting
@@ -3466,7 +3467,7 @@
 
 400183 = { #jerpstead
 	name="Jako"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 362
 	female = yes
@@ -3528,7 +3529,7 @@
 
 400187 = { #bergliez
 	name="Oskar"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 366
 
@@ -3664,7 +3665,7 @@
 
 400195 = { #ochs
 	name="Nana"	
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 372
 	female = yes
@@ -3682,7 +3683,7 @@
 
 400196 = { #bartels
 	name="Joe"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 372
 
@@ -3717,7 +3718,7 @@
 
 400198 = { #aiger
 	name="Oskar"
-	religion="ablehnist"
+	religion="seirosite"
 	culture="adrestian"
 	dynasty = 373
 

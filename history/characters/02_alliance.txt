@@ -130,7 +130,7 @@
 	name="Oswald"
 	dynasty=110
 	religion="seirosite"
-	culture="leicester"
+	culture="ailish"
 	father = 200040
 	trait = temperate
 	trait = humble
@@ -1339,7 +1339,7 @@
 	name="William"
 	dynasty=118
 	religion="seirosite"
-	culture="leicester"
+	culture="gressig"
 
 
 	1127.9.29= {
@@ -1803,7 +1803,7 @@
 200073 = {
 	name="Peter" #Beverly Count
 	religion="seirosite"
-	culture="leicester"
+	culture="ailish"
 	dynasty=133
 
 	1149.5.10 = {

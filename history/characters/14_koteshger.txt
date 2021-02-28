@@ -274,3 +274,250 @@
 		death=yes
 	}
 }
+
+1400021 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400022 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400023 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400024 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400025 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400026 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400027 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400028 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400029 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400030 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400031 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400032 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400033 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400034 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400035 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400036 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400037 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400038 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+1400039 = {
+	name="template"
+	religion="kamajorma"
+	culture="dantan"
+
+	1162.12.20 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}

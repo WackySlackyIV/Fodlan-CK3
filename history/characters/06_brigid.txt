@@ -23,7 +23,7 @@
 600001 = {
 	name="Dearg" #an old man who lost almost his entire family to the War, and remains bitter and hateful at the empire and at Aearn for bending the knee, and leaving much of his family dead
 	religion="lamhach"
-	culture="brigid"
+	culture="brigantine"
 
 	trait = stubborn
 	trait = wrathful
@@ -44,7 +44,7 @@
 600002 = {
 	name="Venga" 
 	religion="fuale"
-	culture="brigid"
+	culture="imbolaic"
 
 
 	trait = fickle
@@ -66,7 +66,7 @@
 600003 = {
 	name="Rhosyn" #A kindly young woman who was ascended after the imprisonment and execution of her father, who never sent a single man against the Empire, but died for the supposed crimes of his liege
 	religion="fuale"
-	culture="brigid"
+	culture="aengese"
 	female = yes
 
 	trait = compassionate
@@ -87,7 +87,7 @@
 600004 = {
 	name="Aiden" #Son of Cirdd who was one of the first to accept Adrestian control, a welcoming and passionate person, but arrogant to a fault
 	religion="fuale"
-	culture="brigid"
+	culture="aengese"
 
 	trait = arrogant
 	trait = gregarious
@@ -108,7 +108,7 @@
 600005 = {
 	name="Bevan" #Son of Evain, a child who lost his family after the Dagda and Brigid War and thus could spell trouble as a mere 8 year old
 	religion="fuale"
-	culture="brigid"
+	culture="aengese"
 
 	trait = curious
 
@@ -123,7 +123,7 @@
 600006 = {
 	name="Codilach"
 	religion="fuale"
-	culture="brigid"
+	culture="aengese"
 
 
 	trait = diligent
@@ -143,7 +143,7 @@
 600007 = {
 	name="Ea" #a introverted Amazoness, a warrior who led a force of Brigidines due to an alliance during the war against Adrestia, but was heavily wounded by the Head of the Ochs family
 	religion="fuale"
-	culture="brigid"
+	culture="aedin"
 	female = yes
 
 	trait = shy
@@ -168,7 +168,7 @@
 600008 = {
 	name="Morven" #mach lord who really would rather stick their head in the sand rather then actively participate in society
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="dergish"
 
 	trait = content
 	trait = paranoid
@@ -187,7 +187,7 @@
 600009 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="imbolaic"
 
 	1146.9.11 = {
 		birth=yes
@@ -278,7 +278,7 @@
 600016 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="cermaitan"
 
 	1146.9.11 = {
 		birth=yes
@@ -304,7 +304,7 @@
 600018 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="cermaitan"
 
 	1146.9.11 = {
 		birth=yes
@@ -317,7 +317,7 @@
 600019 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="cermaitan"
 
 	1146.9.11 = {
 		birth=yes
@@ -330,7 +330,7 @@
 600020 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="cermaitan"
 
 	1146.9.11 = {
 		birth=yes
@@ -343,7 +343,7 @@
 600021 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="brigantine"
 
 	1146.9.11 = {
 		birth=yes
@@ -356,7 +356,7 @@
 600022 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="brigantine"
 
 	1146.9.11 = {
 		birth=yes
@@ -369,7 +369,7 @@
 600023 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="brigantine"
 
 	1146.9.11 = {
 		birth=yes
@@ -382,7 +382,7 @@
 600024 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="brigantine"
 
 	1146.9.11 = {
 		birth=yes
@@ -395,7 +395,7 @@
 600025 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="aengese"
 
 	1146.9.11 = {
 		birth=yes
@@ -408,7 +408,7 @@
 600026 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="aedin"
 
 	1146.9.11 = {
 		birth=yes
@@ -421,7 +421,7 @@
 600027 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="aedin"
 
 	1146.9.11 = {
 		birth=yes
@@ -434,7 +434,7 @@
 600028 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="dergish"
 
 	1146.9.11 = {
 		birth=yes
@@ -447,7 +447,7 @@
 600029 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="dergish"
 
 	1146.9.11 = {
 		birth=yes
@@ -460,7 +460,7 @@
 600030 = {
 	name="template"
 	religion="talahm_ithir"
-	culture="brigid"
+	culture="dergish"
 
 	1146.9.11 = {
 		birth=yes

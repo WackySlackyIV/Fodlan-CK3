@@ -10,7 +10,7 @@
 		graphical_cultures = {
 			english_coa_gfx
 		}
-		color = hsv { 0.8 0.8 0.6 }
+		color = rgb { 240 240 240 }
 
 		cadet_dynasty_names = {
 			"dynn_von_Sothis"
@@ -161,7 +161,7 @@
 			english_coa_gfx
 		}
 
-		color = hsv { 235 216 52 }
+		color = rgb { 235 216 52 }
 
 		cadet_dynasty_names = {
 			"dynn_von_Riegan"
@@ -299,7 +299,7 @@
 			norman_coa_gfx
 		}
 
-		color = hsv { 55 100 250 }
+		color = rgb { 55 100 250 }
 
 		cadet_dynasty_names = {
 			"dynn_Blaiddyd"
@@ -480,7 +480,7 @@
 			german_group_coa_gfx
 		}
 
-		color = hsv { 55 100 250 }
+		color = rgb { 235 64 52 }
 
 		cadet_dynasty_names = {
 			"dynn_von_Hresvelg"
@@ -648,7 +648,7 @@
 			western_coa_gfx
 		}
 
-		color = hsv { 156 155 93 }
+		color = rgb { 156 155 93 }
 
 		cadet_dynasty_names = { #Romanian, their blood ritual feels very Dracula-esque
 			"dynn_Litovoi"
@@ -890,7 +890,7 @@
 			western_coa_gfx
 		}
 
-		color = hsv { 84 84 84 }
+		color = rgb { 84 84 84 }
 
 		cadet_dynasty_names = {
 			#not sure what dynasty names Abyss would use
@@ -1012,4 +1012,1160 @@
 			{ name = "mercenary_company_band_of_horned_welshmen" }
 		}
 	}
+
+	kaleis = {	
+	
+		graphical_cultures = {
+			frisian_coa_gfx
+		}
+
+		color = { 0.4 0.75 0.85 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_van" "dynn_Loon" }
+			{ "dynnp_von" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Bonen" }
+			{ "dynnp_van" "dynn_Sulzbach" }
+			{ "dynnp_van" "dynn_Wassemberg" }
+			{ "dynnp_van" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Bergh" }
+			{ "dynnp_van" "dynn_Brabant" }
+			{ "dynnp_van" "dynn_Namen" }
+			{ "dynnp_van" "dynn_Loon" }
+			{ "dynnp_van" "dynn_Heinsberg" }
+			"dynn_De_Graeff"
+			{ "dynnp_van" "dynn_Susa" }
+			"dynn_Groth"
+			{ "dynnp_van" "dynn_Egmond" }
+			{ "dynnp_van" "dynn_Amstel" }
+			{ "dynnp_van" "dynn_Arkel" }
+			{ "dynnp_van" "dynn_Boutershem" }
+			{ "dynnp_van" "dynn_Brederode" }
+			{ "dynnp_van" "dynn_Brunesheim" }
+			{ "dynnp_van" "dynn_Breda" }
+			{ "dynnp_van" "dynn_Heemskerk" }
+			{ "dynnp_van" "dynn_Gaveren" }
+			{ "dynnp_van" "dynn_Glymes" }
+			{ "dynnp_van" "dynn_Grimberghe" }
+			{ "dynnp_van" "dynn_Hurne" }
+			{ "dynnp_van" "dynn_Renesse" }
+			{ "dynnp_van" "dynn_Wesemael" }
+			{ "dynnp_van" "dynn_Wassenaer" }
+			{ "dynnp_van" "dynn_Rheden" }
+			{ "dynnp_van" "dynn_Bronckhorst" }
+			{ "dynnp_van" "dynn_Keppel" }
+			{ "dynnp_van" "dynn_Voorst" }
+			{ "dynnp_van" "dynn_Lathum" }
+			{ "dynnp_van" "dynn_Swane" }
+			{ "dynnp_van" "dynn_Wisch" }
+			{ "dynnp_van" "dynn_Kamerijk" }
+			"dynn_Cirksena"
+			{ "dynnp_van" "dynn_Visquard" }
+			{ "dynnp_van" "dynn_Groothusen" }
+			{ "dynnp_van" "dynn_Cuijck" }
+			{ "dynnp_van" "dynn_Bierum" }
+			{ "dynnp_van" "dynn_Rhenen" }
+			{ "dynnp_van" "dynn_Are" }
+			{ "dynnp_van" "dynn_Randerath" }
+			{ "dynnp_van" "dynn_Sierck" }
+			{ "dynnp_van" "dynn_Berthout" }
+			{ "dynnp_van" "dynn_Diest" }
+			{ "dynnp_van" "dynn_Voorne" }
+			{ "dynnp_van" "dynn_Naaldwijk" }
+			{ "dynnp_de" "dynn_Moravia" }
+			{ "dynnp_van" "dynn_Yperen" }
+			{ "dynnp_van" "dynn_Zeeland" }
+			"dynn_Munthe"
+			"dynn_Mard-e_Koochak"
+			"dynn_Hoving"
+			"dynn_Kuiper"
+		}
+
+		dynasty_names = {
+			{ "dynnp_van" "dynn_Loon" }
+			{ "dynnp_von" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Bonen" }
+			{ "dynnp_van" "dynn_Sulzbach" }
+			{ "dynnp_van" "dynn_Wassemberg" }
+			{ "dynnp_van" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Bergh" }
+			{ "dynnp_van" "dynn_Brabant" }
+			{ "dynnp_van" "dynn_Namen" }
+			{ "dynnp_van" "dynn_Loon" }
+			{ "dynnp_van" "dynn_Heinsberg" }
+			"dynn_De_Graeff"
+			{ "dynnp_van" "dynn_Susa" }
+			"dynn_Groth"
+			{ "dynnp_van" "dynn_Egmond" }
+			{ "dynnp_van" "dynn_Amstel" }
+			{ "dynnp_van" "dynn_Arkel" }
+			{ "dynnp_van" "dynn_Boutershem" }
+			{ "dynnp_van" "dynn_Brederode" }
+			{ "dynnp_van" "dynn_Brunesheim" }
+			{ "dynnp_van" "dynn_Breda" }
+			{ "dynnp_van" "dynn_Heemskerk" }
+			{ "dynnp_van" "dynn_Gaveren" }
+			{ "dynnp_van" "dynn_Glymes" }
+			{ "dynnp_van" "dynn_Grimberghe" }
+			{ "dynnp_van" "dynn_Hurne" }
+			{ "dynnp_van" "dynn_Renesse" }
+			{ "dynnp_van" "dynn_Wesemael" }
+			{ "dynnp_van" "dynn_Wassenaer" }
+			{ "dynnp_van" "dynn_Rheden" }
+			{ "dynnp_van" "dynn_Bronckhorst" }
+			{ "dynnp_van" "dynn_Keppel" }
+			{ "dynnp_van" "dynn_Voorst" }
+			{ "dynnp_van" "dynn_Lathum" }
+			{ "dynnp_van" "dynn_Swane" }
+			{ "dynnp_van" "dynn_Wisch" }
+			{ "dynnp_van" "dynn_Kamerijk" }
+			"dynn_Cirksena"
+			{ "dynnp_van" "dynn_Visquard" }
+			{ "dynnp_van" "dynn_Groothusen" }
+			{ "dynnp_van" "dynn_Cuijck" }
+			{ "dynnp_van" "dynn_Bierum" }
+			{ "dynnp_van" "dynn_Rhenen" }
+			{ "dynnp_van" "dynn_Are" }
+			{ "dynnp_van" "dynn_Randerath" }
+			{ "dynnp_van" "dynn_Sierck" }
+			{ "dynnp_van" "dynn_Berthout" }
+			{ "dynnp_van" "dynn_Diest" }
+			{ "dynnp_van" "dynn_Voorne" }
+			{ "dynnp_van" "dynn_Naaldwijk" }
+			{ "dynnp_de" "dynn_Moravia" }
+			{ "dynnp_van" "dynn_Yperen" }
+			{ "dynnp_van" "dynn_Zeeland" }
+			"dynn_Munthe"
+			"dynn_Mard-e_Koochak"
+			"dynn_Hoving"
+			"dynn_Kuiper"
+		}
+		
+		male_names = {
+			Adriaen Albrecht Alwin Ambroos Antoon Arnold Arnulf Balderik Barend Barnaerd Bartolomeus
+			Bavo Bertold Boudewijn Claes Claeuwaert Daevit Damaes Diederick Dirk Douwe Eduard Egmund Ekbert
+			Emmo Engelbrecht Filips Floris Folbert Frans Frederik Gerard Gerolt Gerulf
+			Gerrit Gijsbrecht Giselbert Godfried Godschalk Gozewijn Guij Gwijde Hendrik Herman Hubert
+			Hugo Ijsbrand Ijsbrecht Jacco Jacob Jan Karel Koenraad
+			Kristof Lambert Lodewijk Ludewijn Lutbert Luthard Maertijn Marquart Niclaes
+			Olivier Otto Otwin Onno Pieter Reinaerd Reinoud Reginar Robrecht Robert Rodulf
+			Roelof Roland Rutger Sebastiaen Sicco Simon Steven Steyn Theodolf Waelram Walter
+			Wicher Willem Wolfard
+		}
+		female_names = {
+			Ada Adela Adelheid Aechte Agaete Aleid Alijse Aliken Anna Annelies Badeloge Bava Beatrijs Benedicta
+			Blanca Blanceflore Cecily Cille Clara Clementia Elisabeth Ellijnore Emma Ermingarde Fenne
+			Filippa Frida Gheertrude Gerda Godila Haduwijn Helena Herlinda Hilligonda Ide Imagina Irene Isabelle Iudith
+			Jacoba Jaccobijn Jasminne Johanna Jolanda Juliana Jutte Kathrijne Katrien Liedwin Lisebet Machtelt Margareta
+			Maria Mathilde Oda Odelt Olinde Onna Pieternelle Reynilde Sanne Sigerda Sophie Swanhildis Thetburga Waltrud
+			Wila Wendelmoet Wenna Willemine Yonefij Yvonne Zoete
+		}
+		
+		dynasty_of_location_prefix = "dynnp_van"
+		
+		patronym_suffix_male = "dynnpat_suf_szoon"
+		patronym_suffix_female = "dynnpat_suf_sdochter"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			25 = caucasian_blond
+			15 = caucasian_ginger
+			35 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_of_the_brabancon_wolf" coat_of_arms = "mc_company_of_the_brabancon_wolf" }
+			{ name = "mercenary_company_flemish_band" }
+			{ name = "mercenary_false_earls_company" }
+		}
+	}
+
+	brionic = {
+		graphical_cultures = {
+			german_group_coa_gfx
+		}
+
+		color = rgb { 112 4 48 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+			"dynn_von_Niendorf"
+			"dynn_von_Airmid"
+			"dynn_von_Rugen"
+			"dynn_von_Stieglitz"
+			"dynn_von_Gerth"
+			"dynn_von_Rysalka"
+			"dynn_von_Boramas"
+			"dynn_von_Morgaine"
+			"dynn_von_Engel"
+			"dynn_von_Ruhm"
+			"dynn_von_Olrun"
+			"dynn_von_Reiss"
+			"dynn_von_Skade"
+			"dynn_von_Brionac"
+			"dynn_von_Sleipner"
+			"dynn_von_Schwan"
+			"dynn_von_Huldra"
+			"dynn_von_Oghma"
+			"dynn_von_Kniphausen"
+			"dynn_von_Kleist"
+			"dynn_von_Roenn"
+			"dynn_Saburov"
+			"dynn_Claudius"
+			"dynn_Lopez"
+			"dynn_Gomez"
+			"dynn_Castello"
+			"dynn_Gossler"
+			"dynn_von_Stolberg"
+			"dynn_von_Humboldt"
+			"dynn_Saintois"
+			"dynn_Altmann"
+			"dynn_Hartmann"
+			"dynn_Eticho"
+			"dynn_Vance"
+			"dynn_Salzach"
+			"dynn_von_Zieger"
+			"dynn_Schweetz"
+			"dynn_Hertzheim"
+			"dynn_Visler"
+			"dynn_Octavia"
+			"dynn_von_Ortenburg"
+			"dynn_von_Halder"
+			"dynn_von_Freising"
+			"dynn_Reich"
+			"dynn_Huginn"
+			"dynn_Jormund"
+			"dynn_von_Schlecht"
+		}
+
+		dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+		}
+
+		male_names ={
+			Adolf Albrecht Alexios Alvaro Angus Anselm Antonius Arnold Arnorr Arnulf Aurelius Arnault Albert Alfonso Adelhard Alfwin Albanus Albus Augustus Atriox
+			Baldwin Bernard Bertrand Brand Brutus Baldur
+			Caspar Cassius Cato Chad Claudius Ceasar Caius Camillus Cassian Cicero Cornelius
+			Dalton Derek Dominik Dougal Derick Decimus
+			Edmund Egil Egon Emile Egnatius Erik
+			Falk Ferdinand Finn Franz Friedrich Fabian Felix 
+			Gaius Gustav
+			Hakon Harald Heinrich Hernando Hildebrand Hubert Hugh Hanneman Hedwig
+			Ionius Ivarr
+			Jarvis Julius Jeritza 
+			Karl Konrad
+			Leopold Linhardt Lothar Lucius Ludwig Lycaon Ludolf 
+			Nero
+			Magni Manfred Marcus Marian Mason Maximus Merceus Mikolas Murdoch Metodey
+			Orion Oscar Otto Octavius Olaf Oskar
+			Paul
+			Quintus
+			Ragnarr Randolph Reinhard Rudolf Rufus Ruprecht Reus Romelus Remus Ralf Rolf
+			Sigismund Silvanus Stanislav
+			Tacitus Titus Tiberius Thorben
+			Volkhard Werner Wilhelm William Wolfram
+			Yngvarr
+			Zdeno
+		}
+
+		female_names = {
+			Adelaide Adele Agnes Alba Alicia Amaia Amelie Anastasia Antonia Ariel Asa Ashley Aslaug Aubrey Ava Anselma Alfhild Audhild Aelia Aquila Augusta Astrid
+			Beatrix Bernadetta Bernadine Bertha Blanche Brynja Brigit
+			Cassia Constance Clotilde Caelia Claudia
+			Dalia Dorothea Decima Drusilla
+			Edda Edelgard Edith Edna Ella Evelyn Ebba Elfreda Elvira Emilia Erika
+			Faye Fernande Fiona Flavia Fleche Fransizka Friederike Frida Fabiola Freya
+			Galla Gertrude Gisela Gloria Giselle Gudrun
+			Hana Helga Hildegard Hanne Hermine Hella Hilda
+			Ingunn Iris Irma Inge Ingrid
+			Jane Janine Jasmin Jessica Julia Juliana Juno
+			Karla Karolin Kathleen Katja Katla Kora 
+			Ladislava Lea Livia Luitgard Linda Linde
+			Marie Marina Marlene Marta Mathilde Matilda Maud Maxine Michelle Milena Monica Myrna Manuela Mercedes Morganne Marcella Maxima 
+			Nathalie 
+			Octavia 
+			Paulina Petra Patricia Paula Priscilla 
+			Quinn 
+			Rosaline Rowan Ryleigh Reinhild 
+			Sabine Sonja Svanhild Saskia Sieglinde
+			Tanya Theodora Thora Titania Tatiana 
+			Valeria Velma Vigdis Viktoria Viola Vita Valentina Virginia
+			Walburga Wilhelmina 
+			Yvonne 
+			Zora
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}	
+
+	reissling = {
+		graphical_cultures = {
+			german_group_coa_gfx
+		}
+
+		color = rgb { 255 50 0 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+			"dynn_von_Niendorf"
+			"dynn_von_Airmid"
+			"dynn_von_Rugen"
+			"dynn_von_Stieglitz"
+			"dynn_von_Gerth"
+			"dynn_von_Rysalka"
+			"dynn_von_Boramas"
+			"dynn_von_Morgaine"
+			"dynn_von_Engel"
+			"dynn_von_Ruhm"
+			"dynn_von_Olrun"
+			"dynn_von_Reiss"
+			"dynn_von_Skade"
+			"dynn_von_Brionac"
+			"dynn_von_Sleipner"
+			"dynn_von_Schwan"
+			"dynn_von_Huldra"
+			"dynn_von_Oghma"
+			"dynn_von_Kniphausen"
+			"dynn_von_Kleist"
+			"dynn_von_Roenn"
+			"dynn_Saburov"
+			"dynn_Claudius"
+			"dynn_Lopez"
+			"dynn_Gomez"
+			"dynn_Castello"
+			"dynn_Gossler"
+			"dynn_von_Stolberg"
+			"dynn_von_Humboldt"
+			"dynn_Saintois"
+			"dynn_Altmann"
+			"dynn_Hartmann"
+			"dynn_Eticho"
+			"dynn_Vance"
+			"dynn_Salzach"
+			"dynn_von_Zieger"
+			"dynn_Schweetz"
+			"dynn_Hertzheim"
+			"dynn_Visler"
+			"dynn_Octavia"
+			"dynn_von_Ortenburg"
+			"dynn_von_Halder"
+			"dynn_von_Freising"
+			"dynn_Reich"
+			"dynn_Huginn"
+			"dynn_Jormund"
+			"dynn_von_Schlecht"
+		}
+
+		dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+		}
+
+		male_names ={
+			Adolf Albrecht Alexios Alvaro Angus Anselm Antonius Arnold Arnorr Arnulf Aurelius Arnault Albert Alfonso Adelhard Alfwin Albanus Albus Augustus Atriox
+			Baldwin Bernard Bertrand Brand Brutus Baldur
+			Caspar Cassius Cato Chad Claudius Ceasar Caius Camillus Cassian Cicero Cornelius
+			Dalton Derek Dominik Dougal Derick Decimus
+			Edmund Egil Egon Emile Egnatius Erik
+			Falk Ferdinand Finn Franz Friedrich Fabian Felix 
+			Gaius Gustav
+			Hakon Harald Heinrich Hernando Hildebrand Hubert Hugh Hanneman Hedwig
+			Ionius Ivarr
+			Jarvis Julius Jeritza 
+			Karl Konrad
+			Leopold Linhardt Lothar Lucius Ludwig Lycaon Ludolf 
+			Nero
+			Magni Manfred Marcus Marian Mason Maximus Merceus Mikolas Murdoch Metodey
+			Orion Oscar Otto Octavius Olaf Oskar
+			Paul
+			Quintus
+			Ragnarr Randolph Reinhard Rudolf Rufus Ruprecht Reus Romelus Remus Ralf Rolf
+			Sigismund Silvanus Stanislav
+			Tacitus Titus Tiberius Thorben
+			Volkhard Werner Wilhelm William Wolfram
+			Yngvarr
+			Zdeno
+		}
+
+		female_names = {
+			Adelaide Adele Agnes Alba Alicia Amaia Amelie Anastasia Antonia Ariel Asa Ashley Aslaug Aubrey Ava Anselma Alfhild Audhild Aelia Aquila Augusta Astrid
+			Beatrix Bernadetta Bernadine Bertha Blanche Brynja Brigit
+			Cassia Constance Clotilde Caelia Claudia
+			Dalia Dorothea Decima Drusilla
+			Edda Edelgard Edith Edna Ella Evelyn Ebba Elfreda Elvira Emilia Erika
+			Faye Fernande Fiona Flavia Fleche Fransizka Friederike Frida Fabiola Freya
+			Galla Gertrude Gisela Gloria Giselle Gudrun
+			Hana Helga Hildegard Hanne Hermine Hella Hilda
+			Ingunn Iris Irma Inge Ingrid
+			Jane Janine Jasmin Jessica Julia Juliana Juno
+			Karla Karolin Kathleen Katja Katla Kora 
+			Ladislava Lea Livia Luitgard Linda Linde
+			Marie Marina Marlene Marta Mathilde Matilda Maud Maxine Michelle Milena Monica Myrna Manuela Mercedes Morganne Marcella Maxima 
+			Nathalie 
+			Octavia 
+			Paulina Petra Patricia Paula Priscilla 
+			Quinn 
+			Rosaline Rowan Ryleigh Reinhild 
+			Sabine Sonja Svanhild Saskia Sieglinde
+			Tanya Theodora Thora Titania Tatiana 
+			Valeria Velma Vigdis Viktoria Viola Vita Valentina Virginia
+			Walburga Wilhelmina 
+			Yvonne 
+			Zora
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}	
+
+	sirenic = {
+		graphical_cultures = {
+			german_group_coa_gfx
+		}
+
+		color = rgb { 230 145 145 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+			"dynn_von_Niendorf"
+			"dynn_von_Airmid"
+			"dynn_von_Rugen"
+			"dynn_von_Stieglitz"
+			"dynn_von_Gerth"
+			"dynn_von_Rysalka"
+			"dynn_von_Boramas"
+			"dynn_von_Morgaine"
+			"dynn_von_Engel"
+			"dynn_von_Ruhm"
+			"dynn_von_Olrun"
+			"dynn_von_Reiss"
+			"dynn_von_Skade"
+			"dynn_von_Brionac"
+			"dynn_von_Sleipner"
+			"dynn_von_Schwan"
+			"dynn_von_Huldra"
+			"dynn_von_Oghma"
+			"dynn_von_Kniphausen"
+			"dynn_von_Kleist"
+			"dynn_von_Roenn"
+			"dynn_Saburov"
+			"dynn_Claudius"
+			"dynn_Lopez"
+			"dynn_Gomez"
+			"dynn_Castello"
+			"dynn_Gossler"
+			"dynn_von_Stolberg"
+			"dynn_von_Humboldt"
+			"dynn_Saintois"
+			"dynn_Altmann"
+			"dynn_Hartmann"
+			"dynn_Eticho"
+			"dynn_Vance"
+			"dynn_Salzach"
+			"dynn_von_Zieger"
+			"dynn_Schweetz"
+			"dynn_Hertzheim"
+			"dynn_Visler"
+			"dynn_Octavia"
+			"dynn_von_Ortenburg"
+			"dynn_von_Halder"
+			"dynn_von_Freising"
+			"dynn_Reich"
+			"dynn_Huginn"
+			"dynn_Jormund"
+			"dynn_von_Schlecht"
+		}
+
+		dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+		}
+
+		male_names ={
+			Adolf Albrecht Alexios Alvaro Angus Anselm Antonius Arnold Arnorr Arnulf Aurelius Arnault Albert Alfonso Adelhard Alfwin Albanus Albus Augustus Atriox
+			Baldwin Bernard Bertrand Brand Brutus Baldur
+			Caspar Cassius Cato Chad Claudius Ceasar Caius Camillus Cassian Cicero Cornelius
+			Dalton Derek Dominik Dougal Derick Decimus
+			Edmund Egil Egon Emile Egnatius Erik
+			Falk Ferdinand Finn Franz Friedrich Fabian Felix 
+			Gaius Gustav
+			Hakon Harald Heinrich Hernando Hildebrand Hubert Hugh Hanneman Hedwig
+			Ionius Ivarr
+			Jarvis Julius Jeritza 
+			Karl Konrad
+			Leopold Linhardt Lothar Lucius Ludwig Lycaon Ludolf 
+			Nero
+			Magni Manfred Marcus Marian Mason Maximus Merceus Mikolas Murdoch Metodey
+			Orion Oscar Otto Octavius Olaf Oskar
+			Paul
+			Quintus
+			Ragnarr Randolph Reinhard Rudolf Rufus Ruprecht Reus Romelus Remus Ralf Rolf
+			Sigismund Silvanus Stanislav
+			Tacitus Titus Tiberius Thorben
+			Volkhard Werner Wilhelm William Wolfram
+			Yngvarr
+			Zdeno
+		}
+
+		female_names = {
+			Adelaide Adele Agnes Alba Alicia Amaia Amelie Anastasia Antonia Ariel Asa Ashley Aslaug Aubrey Ava Anselma Alfhild Audhild Aelia Aquila Augusta Astrid
+			Beatrix Bernadetta Bernadine Bertha Blanche Brynja Brigit
+			Cassia Constance Clotilde Caelia Claudia
+			Dalia Dorothea Decima Drusilla
+			Edda Edelgard Edith Edna Ella Evelyn Ebba Elfreda Elvira Emilia Erika
+			Faye Fernande Fiona Flavia Fleche Fransizka Friederike Frida Fabiola Freya
+			Galla Gertrude Gisela Gloria Giselle Gudrun
+			Hana Helga Hildegard Hanne Hermine Hella Hilda
+			Ingunn Iris Irma Inge Ingrid
+			Jane Janine Jasmin Jessica Julia Juliana Juno
+			Karla Karolin Kathleen Katja Katla Kora 
+			Ladislava Lea Livia Luitgard Linda Linde
+			Marie Marina Marlene Marta Mathilde Matilda Maud Maxine Michelle Milena Monica Myrna Manuela Mercedes Morganne Marcella Maxima 
+			Nathalie 
+			Octavia 
+			Paulina Petra Patricia Paula Priscilla 
+			Quinn 
+			Rosaline Rowan Ryleigh Reinhild 
+			Sabine Sonja Svanhild Saskia Sieglinde
+			Tanya Theodora Thora Titania Tatiana 
+			Valeria Velma Vigdis Viktoria Viola Vita Valentina Virginia
+			Walburga Wilhelmina 
+			Yvonne 
+			Zora
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	alesion = {
+		graphical_cultures = {
+			german_group_coa_gfx
+		}
+
+		color = rgb { 150 50 30 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+			"dynn_von_Niendorf"
+			"dynn_von_Airmid"
+			"dynn_von_Rugen"
+			"dynn_von_Stieglitz"
+			"dynn_von_Gerth"
+			"dynn_von_Rysalka"
+			"dynn_von_Boramas"
+			"dynn_von_Morgaine"
+			"dynn_von_Engel"
+			"dynn_von_Ruhm"
+			"dynn_von_Olrun"
+			"dynn_von_Reiss"
+			"dynn_von_Skade"
+			"dynn_von_Brionac"
+			"dynn_von_Sleipner"
+			"dynn_von_Schwan"
+			"dynn_von_Huldra"
+			"dynn_von_Oghma"
+			"dynn_von_Kniphausen"
+			"dynn_von_Kleist"
+			"dynn_von_Roenn"
+			"dynn_Saburov"
+			"dynn_Claudius"
+			"dynn_Lopez"
+			"dynn_Gomez"
+			"dynn_Castello"
+			"dynn_Gossler"
+			"dynn_von_Stolberg"
+			"dynn_von_Humboldt"
+			"dynn_Saintois"
+			"dynn_Altmann"
+			"dynn_Hartmann"
+			"dynn_Eticho"
+			"dynn_Vance"
+			"dynn_Salzach"
+			"dynn_von_Zieger"
+			"dynn_Schweetz"
+			"dynn_Hertzheim"
+			"dynn_Visler"
+			"dynn_Octavia"
+			"dynn_von_Ortenburg"
+			"dynn_von_Halder"
+			"dynn_von_Freising"
+			"dynn_Reich"
+			"dynn_Huginn"
+			"dynn_Jormund"
+			"dynn_von_Schlecht"
+		}
+
+		dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+		}
+
+		male_names ={
+			Adolf Albrecht Alexios Alvaro Angus Anselm Antonius Arnold Arnorr Arnulf Aurelius Arnault Albert Alfonso Adelhard Alfwin Albanus Albus Augustus Atriox
+			Baldwin Bernard Bertrand Brand Brutus Baldur
+			Caspar Cassius Cato Chad Claudius Ceasar Caius Camillus Cassian Cicero Cornelius
+			Dalton Derek Dominik Dougal Derick Decimus
+			Edmund Egil Egon Emile Egnatius Erik
+			Falk Ferdinand Finn Franz Friedrich Fabian Felix 
+			Gaius Gustav
+			Hakon Harald Heinrich Hernando Hildebrand Hubert Hugh Hanneman Hedwig
+			Ionius Ivarr
+			Jarvis Julius Jeritza 
+			Karl Konrad
+			Leopold Linhardt Lothar Lucius Ludwig Lycaon Ludolf 
+			Nero
+			Magni Manfred Marcus Marian Mason Maximus Merceus Mikolas Murdoch Metodey
+			Orion Oscar Otto Octavius Olaf Oskar
+			Paul
+			Quintus
+			Ragnarr Randolph Reinhard Rudolf Rufus Ruprecht Reus Romelus Remus Ralf Rolf
+			Sigismund Silvanus Stanislav
+			Tacitus Titus Tiberius Thorben
+			Volkhard Werner Wilhelm William Wolfram
+			Yngvarr
+			Zdeno
+		}
+
+		female_names = {
+			Adelaide Adele Agnes Alba Alicia Amaia Amelie Anastasia Antonia Ariel Asa Ashley Aslaug Aubrey Ava Anselma Alfhild Audhild Aelia Aquila Augusta Astrid
+			Beatrix Bernadetta Bernadine Bertha Blanche Brynja Brigit
+			Cassia Constance Clotilde Caelia Claudia
+			Dalia Dorothea Decima Drusilla
+			Edda Edelgard Edith Edna Ella Evelyn Ebba Elfreda Elvira Emilia Erika
+			Faye Fernande Fiona Flavia Fleche Fransizka Friederike Frida Fabiola Freya
+			Galla Gertrude Gisela Gloria Giselle Gudrun
+			Hana Helga Hildegard Hanne Hermine Hella Hilda
+			Ingunn Iris Irma Inge Ingrid
+			Jane Janine Jasmin Jessica Julia Juliana Juno
+			Karla Karolin Kathleen Katja Katla Kora 
+			Ladislava Lea Livia Luitgard Linda Linde
+			Marie Marina Marlene Marta Mathilde Matilda Maud Maxine Michelle Milena Monica Myrna Manuela Mercedes Morganne Marcella Maxima 
+			Nathalie 
+			Octavia 
+			Paulina Petra Patricia Paula Priscilla 
+			Quinn 
+			Rosaline Rowan Ryleigh Reinhild 
+			Sabine Sonja Svanhild Saskia Sieglinde
+			Tanya Theodora Thora Titania Tatiana 
+			Valeria Velma Vigdis Viktoria Viola Vita Valentina Virginia
+			Walburga Wilhelmina 
+			Yvonne 
+			Zora
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	ailish = {
+		graphical_cultures = {
+			english_coa_gfx
+		}
+
+		color = rgb { 150 200 100 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Riegan"
+			"dynn_Goneril"
+			"dynn_Victor"
+			"dynn_Pinelli"
+			"dynn_Gloucester"
+			"dynn_von_Ordelia"
+			"dynn_von_Edmund"
+			"dynn_Kirsten"
+			"dynn_von_Albrecht"
+			"dynn_Rangeld"
+			"dynn_Daphnel"
+			"dynn_Atholl"
+			"dynn_Clarence"
+			"dynn_von_Myrddin"
+			"dynn_von_Aillel"
+			"dynn_West"
+			"dynn_Dormer"
+			"dynn_Russell"
+			"dynn_Crowder"
+			"dynn_Wharton"
+			"dynn_Howard"
+			"dynn_Coventry"
+			"dynn_Chester"
+			"dynn_von_Glamborough"
+			"dynn_von_Kent"
+			"dynn_Bell"
+		}
+
+		dynasty_names = {
+			"dynn_von_Riegan"
+			"dynn_Goneril"
+			"dynn_Victor"
+			"dynn_Pinelli"
+			"dynn_Gloucester"
+			"dynn_von_Ordelia"
+			"dynn_von_Edmund"
+			"dynn_Kirsten"
+			"dynn_von_Albrecht"
+			"dynn_Rangeld"
+			"dynn_Daphnel"
+			"dynn_Atholl"
+			"dynn_Clarence"
+			"dynn_von_Myrddin"
+			"dynn_von_Aillel"
+			"dynn_West"
+			"dynn_Dormer"
+			"dynn_Russell"
+			"dynn_Crowder"
+			"dynn_Wharton"
+			"dynn_Howard"
+			"dynn_Coventry"
+			"dynn_Chester"
+			"dynn_von_Glamborough"
+			"dynn_von_Kent"
+			"dynn_Bell"
+		}
+
+		male_names ={
+			Acheron Adrastos Aillel Alastar Alfonso Alphonse Andrew Angelo Archibald Albany
+			Benedict Bran Brandon Balthus
+			Caesar Carroll Castor Chadwick Christioph Clarence Claude Conley Chester Charles Caius Curan
+			Damian Desmond Diomedes Duncan
+			Edgar Edmund Edward Egon Erebus Erwin Etienne Eustace
+			Francis Frederick
+			Geoffrey George Gerald Giles Gilroy Godfrey Gregor Griffith Guillaume Gustave Gregory
+			Hans Harold Hendrick Henry Herbert Holst Horatio Humphrey Hellman Hedwig
+			Idris Ignatz Isaac
+			James Johann John Jonathan
+			Konrad Karsten Kent
+			Lance Landon Laurence Lech Leonard Leopold Lorenz Lucian Lucio Lycus Lysander Leir Linhardt Lear
+			Malcolm Marcel Mattias Maximillian Merlin
+			Nathaniel Nestor Nardel
+			Oliver Orion Orlando Oswald Owen
+			Phillip
+			Raphael Reginald Richard Roger Romeo Rupert Robert Rudolph
+			Sebastian Simon Soren Stephen Stephan Steven
+			Theodor Theseus Thomas Tom
+			Victor Vincent Volos
+			Walter Walther William Wolf
+		}
+
+		female_names = {
+			Adele Adeline Aerona Alice Anastasia Annabelle Aria Ashley Amelia
+			Beatrix Bridgette
+			Cadence Callista Carola Celeste Chara Clarissa Claudia Colette Constance Cora Cordelia Cynthia
+			Daphne Deidre Dominique
+			Elena Emilia Emma Emmeline Evgenia
+			Felicity Franziska
+			Gabrielle Giovanna Giselle Goneril Grunhilda
+			Hermine Hilda
+			Iliana Isabel 
+			Jasmin Josephine Judith Julianna Juliet Juni
+			Katja Kirsten
+			Lada Laurel Leonie Lia Lily Linnea Lisa Lysithea Ludolphina
+			Maeve Marceline Margaret Marina Marion Marisa Matilda Maya Mirabelle Mona Morana Morgan Morgana Morwenna Myrna Marianne Maria Melinda
+			Niamh
+			Olga Olivia
+			Pelagia Portia
+			Regan Regina Rosaline Rosemary
+			Sabrina Seraphina Slaine Sotiria Sylvia
+			Tatiana Theodosia Theresa Thea Tiana
+			Ursula
+			Valentine Valeria Vanessa Verena Vivianna
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	gressig = {
+		graphical_cultures = {
+			german_group_coa_gfx
+		}
+
+		color = rgb { 100 30 50 }
+
+		cadet_dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+			"dynn_von_Niendorf"
+			"dynn_von_Airmid"
+			"dynn_von_Rugen"
+			"dynn_von_Stieglitz"
+			"dynn_von_Gerth"
+			"dynn_von_Rysalka"
+			"dynn_von_Boramas"
+			"dynn_von_Morgaine"
+			"dynn_von_Engel"
+			"dynn_von_Ruhm"
+			"dynn_von_Olrun"
+			"dynn_von_Reiss"
+			"dynn_von_Skade"
+			"dynn_von_Brionac"
+			"dynn_von_Sleipner"
+			"dynn_von_Schwan"
+			"dynn_von_Huldra"
+			"dynn_von_Oghma"
+			"dynn_von_Kniphausen"
+			"dynn_von_Kleist"
+			"dynn_von_Roenn"
+			"dynn_Saburov"
+			"dynn_Claudius"
+			"dynn_Lopez"
+			"dynn_Gomez"
+			"dynn_Castello"
+			"dynn_Gossler"
+			"dynn_von_Stolberg"
+			"dynn_von_Humboldt"
+			"dynn_Saintois"
+			"dynn_Altmann"
+			"dynn_Hartmann"
+			"dynn_Eticho"
+			"dynn_Vance"
+			"dynn_Salzach"
+			"dynn_von_Zieger"
+			"dynn_Schweetz"
+			"dynn_Hertzheim"
+			"dynn_Visler"
+			"dynn_Octavia"
+			"dynn_von_Ortenburg"
+			"dynn_von_Halder"
+			"dynn_von_Freising"
+			"dynn_Reich"
+			"dynn_Huginn"
+			"dynn_Jormund"
+			"dynn_von_Schlecht"
+		}
+
+		dynasty_names = {
+			"dynn_von_Hresvelg"
+			"dynn_von_Vestra"
+			"dynn_von_Aegir"
+			"dynn_von_Hevring"
+			"dynn_von_Bergliez"
+			"dynn_von_Varley"
+			"dynn_Arnault"
+			"dynn_von_Martritz"
+			"dynn_Casagranda"
+			"dynn_von_Essar"
+			"dynn_von_Bartels"
+			"dynn_von_Hrym"
+			"dynn_von_Nuvelle"
+			"dynn_von_Arundel"
+			"dynn_von_Ochs"
+		}
+
+		male_names ={
+			Adolf Albrecht Alexios Alvaro Angus Anselm Antonius Arnold Arnorr Arnulf Aurelius Arnault Albert Alfonso Adelhard Alfwin Albanus Albus Augustus Atriox
+			Baldwin Bernard Bertrand Brand Brutus Baldur
+			Caspar Cassius Cato Chad Claudius Ceasar Caius Camillus Cassian Cicero Cornelius
+			Dalton Derek Dominik Dougal Derick Decimus
+			Edmund Egil Egon Emile Egnatius Erik
+			Falk Ferdinand Finn Franz Friedrich Fabian Felix 
+			Gaius Gustav
+			Hakon Harald Heinrich Hernando Hildebrand Hubert Hugh Hanneman Hedwig
+			Ionius Ivarr
+			Jarvis Julius Jeritza 
+			Karl Konrad
+			Leopold Linhardt Lothar Lucius Ludwig Lycaon Ludolf 
+			Nero
+			Magni Manfred Marcus Marian Mason Maximus Merceus Mikolas Murdoch Metodey
+			Orion Oscar Otto Octavius Olaf Oskar
+			Paul
+			Quintus
+			Ragnarr Randolph Reinhard Rudolf Rufus Ruprecht Reus Romelus Remus Ralf Rolf
+			Sigismund Silvanus Stanislav
+			Tacitus Titus Tiberius Thorben
+			Volkhard Werner Wilhelm William Wolfram
+			Yngvarr
+			Zdeno
+		}
+
+		female_names = {
+			Adelaide Adele Agnes Alba Alicia Amaia Amelie Anastasia Antonia Ariel Asa Ashley Aslaug Aubrey Ava Anselma Alfhild Audhild Aelia Aquila Augusta Astrid
+			Beatrix Bernadetta Bernadine Bertha Blanche Brynja Brigit
+			Cassia Constance Clotilde Caelia Claudia
+			Dalia Dorothea Decima Drusilla
+			Edda Edelgard Edith Edna Ella Evelyn Ebba Elfreda Elvira Emilia Erika
+			Faye Fernande Fiona Flavia Fleche Fransizka Friederike Frida Fabiola Freya
+			Galla Gertrude Gisela Gloria Giselle Gudrun
+			Hana Helga Hildegard Hanne Hermine Hella Hilda
+			Ingunn Iris Irma Inge Ingrid
+			Jane Janine Jasmin Jessica Julia Juliana Juno
+			Karla Karolin Kathleen Katja Katla Kora 
+			Ladislava Lea Livia Luitgard Linda Linde
+			Marie Marina Marlene Marta Mathilde Matilda Maud Maxine Michelle Milena Monica Myrna Manuela Mercedes Morganne Marcella Maxima 
+			Nathalie 
+			Octavia 
+			Paulina Petra Patricia Paula Priscilla 
+			Quinn 
+			Rosaline Rowan Ryleigh Reinhild 
+			Sabine Sonja Svanhild Saskia Sieglinde
+			Tanya Theodora Thora Titania Tatiana 
+			Valeria Velma Vigdis Viktoria Viola Vita Valentina Virginia
+			Walburga Wilhelmina 
+			Yvonne 
+			Zora
+		}
+
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}	
 }

@@ -431,7 +431,7 @@
 300015 = {
 	name="Gabriel"
     religion = "ablehnist"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=214
 
 
@@ -464,7 +464,7 @@
 300016 = {
 	name="Olga"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	female=yes
 	dynasty=215
 
@@ -488,9 +488,9 @@
 }
 
 300017 = {
-	name="Kleiman"
+	name="Maarten"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=216
 
 	1130.1.11 = {
@@ -558,7 +558,7 @@
 300020 = {
 	name="Victoria"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=219
 	female=yes
 	diplomacy=4
@@ -583,7 +583,7 @@
 300021 = {
 	name="Arnaud"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=215
 	mother = 300043
 	father = 300044
@@ -1193,7 +1193,7 @@
 300041 = {
 	name="Jermaine"
 	religion = "ablehnist"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=214
 	father=300015
 	mother=400064
@@ -1783,7 +1783,7 @@
 300066 = {
 	name="Jules"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=215
 	mother=300016
 	disallow_random_traits = yes
@@ -1844,7 +1844,7 @@
 300069 = {
 	name="Evan"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=227
 	
 	1141.2.9 = {
@@ -1918,7 +1918,7 @@
 300074 = {
 	name="Oliviere"
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=232
 	
 	1156.9.1 = {
@@ -2725,7 +2725,7 @@
 300114 = { #montcarvel
 	name="Mike" 
 	religion="seirosite"
-	culture="faerghus"
+	culture="alesion"
 	dynasty = 250
 	sexuality = homosexual
 
@@ -2850,7 +2850,7 @@
 300122 = { #Kleiman
 	name="Carla" 
 	religion="seirosite"
-	culture="faerghus"
+	culture="kaleis"
 	dynasty=254
 	female = yes
 

@@ -8,7 +8,7 @@
 	almyran = { #almyra, pamea
 
 
-		color = hsv { 190 215 25 }
+		color = rgb { 120 101 77 }
 
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
@@ -225,7 +225,7 @@
 	lianese = { #south almyra
 
 
-		color = hsv { 190 215 25 }
+		color = rgb { 161 114 55 }
 
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
@@ -440,7 +440,7 @@
 	}
 
 	harika = { #Takht E Atar
-		color = hsv { 190 215 25 }
+		color = rgb { 204 126 88 }
 	
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
@@ -657,7 +657,7 @@
 	atran = { #Atra, Pamea
 
 
-		color = hsv { 190 215 25 }
+		color = rgb { 92 48 27 }
 
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
@@ -874,7 +874,7 @@
 	imrudi = { #Imrud, Inevah
 
 
-		color = hsv { 190 215 25 }
+		color = rgb { 128 97 11 }
 
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
@@ -1091,7 +1091,7 @@
 	kudamlar = { #Lian
 
 
-		color = hsv { 190 215 25 }
+		color = rgb { 214 150 81 }
 
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
@@ -1308,7 +1308,7 @@
 	denatlar = { #Horsabad
 
 
-		color = hsv { 190 215 25 }
+		color = rgb { 145 128 121 }
 
 		cadet_dynasty_names = {	#vanilla Persian dynasties
 			"dynn_Nasrid"
