@@ -346,6 +346,9 @@
 	trait = beauty_good_2
 	trait = physician_2
 	trait = whole_of_body
+
+	trait = famous_songstress
+
 	disallow_random_traits = yes
 
 	1138.8.3 = {
@@ -586,6 +589,7 @@
 	trait = schemer
 
 	trait = crest_major_aubin
+	trait = singer
 	disallow_random_traits = yes
 
 	1160.9.12 = {
@@ -893,6 +897,8 @@
 
 	trait = education_stewardship_4
 	trait = avaricious
+
+	trait = crest_major_ernest
 	disallow_random_traits = yes
 
 	1151.1.1 = {

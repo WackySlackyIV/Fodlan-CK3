@@ -10,7 +10,7 @@
 			western_coa_gfx
 		}
 
-		color = hsv { 181 147 119 }
+		color = rgb { 181 147 119 }
 
 		cadet_dynasty_names = {	#Sardinian names, not too Italian
 			"dynn_Molinaro"
@@ -123,7 +123,7 @@
 			western_coa_gfx
 		}
 
-		color = hsv { 190 40 155 }
+		color = rgb { 46 37 0 }
 
 		cadet_dynasty_names = { #Tocharian, Norse dynasties sound too Adrestian
 			"dynn_Kausal"
@@ -215,7 +215,7 @@
 			swedish_coa_gfx
 		}
 		
-		color = { 0.25 0.5 0.75 }
+		color = rgb { 219 135 66 }
 
 		cadet_dynasty_names = {
 			{ "dynnp_af" "dynn_Palatinate_Zweibrucken" }
@@ -533,7 +533,7 @@
 			"dynn_Kemeloe"
 		}
 		
-		color = { 0.4 0.75 0.85 }
+		color = rgb { 88 110 72 }
 
 		male_names = {
 			A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
@@ -550,6 +550,356 @@
 			33 = circumpolar_dark_hair
 			33 = circumpolar_brown_hair
 			33 = circumpolar_blonde_hair
+		}
+	}
+
+	saqqaqi = { #albinea
+		graphical_cultures = {
+			sami_coa_gfx
+		}
+		cadet_dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+
+		dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+		
+		color = rgb { 154 196 153 }
+
+		male_names = {
+			A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
+			GA_ktu Henes JA_rre Jeansa Juvven LA_gon LA_vrrohas LeammA_ Mellet Mihka Mohkku Mokci NA_hkol NA_innas Njulgu OavA_n Orddot RA_stos Riibma Ruigi
+			SA_rra Speaidna Viggu
+		}
+		female_names = {
+			A_idnA_ A_lgen A_llet E_uvje BiellA_ BiergA_ BuohttA_ DuojA_ GealA_ GierA_ Giste JuoksA_hkkA_ Leandu MA_idna NA_sti NanA_ NjA_ves OajA_ SA_rA_hkkA_ SealggA_
+			SearA_ SoabA_ SojA_ SuoinnA_ Suonjar UksA_hkkA_
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+
+		ethnicities = {
+			33 = circumpolar_dark_hair
+			33 = circumpolar_brown_hair
+			33 = circumpolar_blonde_hair
+		}
+	}
+
+	avanertun = { #albinea
+		graphical_cultures = {
+			sami_coa_gfx
+		}
+		cadet_dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+
+		dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+		
+		color = rgb { 0 99 10 }
+
+		male_names = {
+			A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
+			GA_ktu Henes JA_rre Jeansa Juvven LA_gon LA_vrrohas LeammA_ Mellet Mihka Mohkku Mokci NA_hkol NA_innas Njulgu OavA_n Orddot RA_stos Riibma Ruigi
+			SA_rra Speaidna Viggu
+		}
+		female_names = {
+			A_idnA_ A_lgen A_llet E_uvje BiellA_ BiergA_ BuohttA_ DuojA_ GealA_ GierA_ Giste JuoksA_hkkA_ Leandu MA_idna NA_sti NanA_ NjA_ves OajA_ SA_rA_hkkA_ SealggA_
+			SearA_ SoabA_ SojA_ SuoinnA_ Suonjar UksA_hkkA_
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+
+		ethnicities = {
+			33 = circumpolar_dark_hair
+			33 = circumpolar_brown_hair
+			33 = circumpolar_blonde_hair
+		}
+	}
+
+	aksural = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = rgb { 138 129 107 }
+
+		cadet_dynasty_names = { #Tocharian, Norse dynasties sound too Adrestian
+			"dynn_Kausal"
+			"dynn_Gank"
+			"dynn_Tenare"
+			"dynn_Ytarim"
+			"dynn_Tripuskar"
+			"dynn_Dantapur"
+			"dynn_Baransi"
+			"dynn_Yurpaska"
+			"dynn_Rohini"
+			"dynn_Vaideh"
+			"dynn_Vaisali"
+			"dynn_Iksvaku"
+			"dynn_Kausika"
+			"dynn_Kausika"
+			"dynn_Sakke"
+			"dynn_Kasake"
+			"dynn_Yarkam"
+			"dynn_Cadota"
+			"dynn_Lyam"
+			"dynn_Kunlyu"
+		}
+
+		dynasty_names = {
+			"dynn_Kausal"
+			"dynn_Gank"
+			"dynn_Tenare"
+			"dynn_Ytarim"
+			"dynn_Tripuskar"
+			"dynn_Dantapur"
+			"dynn_Baransi"
+			"dynn_Yurpaska"
+			"dynn_Rohini"
+			"dynn_Vaideh"
+			"dynn_Vaisali"
+			"dynn_Iksvaku"
+			"dynn_Kausika"
+			"dynn_Kausika"
+			"dynn_Sakke"
+			"dynn_Kasake"
+			"dynn_Yarkam"
+			"dynn_Cadota"
+			"dynn_Lyam"
+			"dynn_Kunlyu"
+		}
+
+		male_names ={
+			Anund Alv Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder BjOErn Eigil Eilif Einar Eirik Erlend Erling Eystein Finn Frej
+			Grim Gudbrand Gudleik Gudmund Gunnar Guttorm Haldor Halfdan Halkjell Harald Helge Inge Ivar Jon Kolbein Lodin
+			Magnus Odd Ogmund Olav Orm Ossor Ottar PAAl Ragnar Ragnvald Rolf Sigurd Skjalg Skofte Skule Svein Sverre TorbjOErn Tord Tore
+			Torbrand Torfinn Torgeir Torgil
+			Tormod Torolf Torstein Trond Tryggve Ulv Vigleik
+		}
+
+		female_names = {
+			Anna Astrid Brigida Cecilia Eldrid Freja Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug Ingjerd Ingrid Jorunn
+			Karin Kristina Margrete Maria Martha Ragna Ragnfrid Ragnhild Rannveig Sigrid Sunniva Svanhild Thora Thorborg Thordis
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		dynasty_of_location_prefix = "dynnp_av"
+		
+		ethnicities = {
+			5 = caucasian_blond
+			20 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
+		}
+	}
+
+	agnishahri = {
+		graphical_cultures = {
+			western_coa_gfx
+		}
+
+		color = rgb { 72 74 28 }
+
+		cadet_dynasty_names = { #Tocharian, Norse dynasties sound too Adrestian
+			"dynn_Kausal"
+			"dynn_Gank"
+			"dynn_Tenare"
+			"dynn_Ytarim"
+			"dynn_Tripuskar"
+			"dynn_Dantapur"
+			"dynn_Baransi"
+			"dynn_Yurpaska"
+			"dynn_Rohini"
+			"dynn_Vaideh"
+			"dynn_Vaisali"
+			"dynn_Iksvaku"
+			"dynn_Kausika"
+			"dynn_Kausika"
+			"dynn_Sakke"
+			"dynn_Kasake"
+			"dynn_Yarkam"
+			"dynn_Cadota"
+			"dynn_Lyam"
+			"dynn_Kunlyu"
+		}
+
+		dynasty_names = {
+			"dynn_Kausal"
+			"dynn_Gank"
+			"dynn_Tenare"
+			"dynn_Ytarim"
+			"dynn_Tripuskar"
+			"dynn_Dantapur"
+			"dynn_Baransi"
+			"dynn_Yurpaska"
+			"dynn_Rohini"
+			"dynn_Vaideh"
+			"dynn_Vaisali"
+			"dynn_Iksvaku"
+			"dynn_Kausika"
+			"dynn_Kausika"
+			"dynn_Sakke"
+			"dynn_Kasake"
+			"dynn_Yarkam"
+			"dynn_Cadota"
+			"dynn_Lyam"
+			"dynn_Kunlyu"
+		}
+
+		male_names ={
+			Anund Alv Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder BjOErn Eigil Eilif Einar Eirik Erlend Erling Eystein Finn Frej
+			Grim Gudbrand Gudleik Gudmund Gunnar Guttorm Haldor Halfdan Halkjell Harald Helge Inge Ivar Jon Kolbein Lodin
+			Magnus Odd Ogmund Olav Orm Ossor Ottar PAAl Ragnar Ragnvald Rolf Sigurd Skjalg Skofte Skule Svein Sverre TorbjOErn Tord Tore
+			Torbrand Torfinn Torgeir Torgil
+			Tormod Torolf Torstein Trond Tryggve Ulv Vigleik
+		}
+
+		female_names = {
+			Anna Astrid Brigida Cecilia Eldrid Freja Gjertrud Gudrid Gudrun Gunnhild Gyda Gyrid Haldora Homlaug Ingjerd Ingrid Jorunn
+			Karin Kristina Margrete Maria Martha Ragna Ragnfrid Ragnhild Rannveig Sigrid Sunniva Svanhild Thora Thorborg Thordis
+		}
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		dynasty_of_location_prefix = "dynnp_av"
+		
+		ethnicities = {
+			5 = caucasian_blond
+			20 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_lawgochs_followers" }
+			{ name = "mercenary_company_band_of_horned_welshmen" }
 		}
 	}
 }

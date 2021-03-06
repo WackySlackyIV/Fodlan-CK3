@@ -45,7 +45,6 @@
 	trait = zealous
 
 	trait = education_martial_3
-	trait = crest_minor_macuil
 
 	1151.11.4 = {
 		birth=yes

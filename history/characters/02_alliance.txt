@@ -362,7 +362,7 @@
 	culture="leicester"
 	mother=200013
 	father = 700000 
-	sexuality = heterosexual
+	sexuality = bisexual
 
    	diplomacy=7
    	martial=6

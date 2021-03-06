@@ -223,23 +223,71 @@ permanent_dragon_form = {
 }
 
 ember = {
-    index = 308
-    fame = yes
+	index = 308
+	fame = yes
 	same_faith_opinion = 5
 	learning = 1
 	both_parent_has_trait_inherit_chance = 100
 
-    
-    
-    desc = {
-        first_valid = {
-            triggered_desc = {
-                trigger = {
-                    NOT = { exists = this }
-                }
-                desc = trait_ember_desc
-            }
-            desc = trait_ember_character_desc
-        }
-    }
+	desc = trait_ember_character_desc
+}
+
+singer = {
+	index = 309
+	fame = yes
+	diplomacy = 1
+
+	group = singers
+	level = 1
+
+	desc = trait_singer_desc
+}
+
+songstress = {
+	index = 310
+	fame = yes
+	diplomacy = 2
+	general_opinion = 5
+	same_opinion = 5
+	monthly_prestige = 0.5
+
+	group = singers
+	level = 2
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					male = no
+				}
+				desc = trait_songstress_desc
+			}
+			desc = trait_songster_desc
+		}
+	}
+}
+
+famous_songstress = {
+	index = 311
+	fame = yes
+	diplomacy = 3
+	diplomacy_per_prestige_level = 1
+	general_opinion = 10
+	same_opinion = 5
+	monthly_prestige = 1
+
+	group = singers
+	level = 3
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					male = no
+				}
+				desc = trait_famous_songstress_desc
+			}
+			desc = trait_famous_songster_desc
+		}
+	}
 }

@@ -83,13 +83,13 @@
 ##             (c_shubat)
 
 1185 = {      # (b_shubat)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = city_holding
 }
 
 1186 = {      # (b_shiban)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = castle_holding
 }
@@ -97,25 +97,25 @@
 ##             (c_murkesh)
 
 1178 = {      # (b_murkesh)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = city_holding
 }
 
 1179 = {      # (b_washugan)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = none
 }
 
 1180 = {      # (b_mumbaka)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = church_holding
 }
 
 1181 = {      # (b_arpak)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = none
 }
@@ -123,19 +123,19 @@
 ##             (c_chagar)
 
 1182 = {      # (b_chagar)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = city_holding
 }
 
 1183 = {      # (b_tarbish)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = none
 }
 
 1184 = {      # (b_araph)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = none
 }
@@ -144,13 +144,13 @@
 ##             (c_nereb)
 
 1187 = {      # (b_nereb)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = castle_holding
 }
 
 1188 = {      # (b_taremmu)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = none
 }
@@ -158,13 +158,13 @@
 ##             (c_arad)
 
 1189 = {      # (b_arad)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = castle_holding
 }
 
 1190 = {      # (b_shedesh)
-              culture = morfis
+              culture = qutummi
               religion = inetsaret
               holding = none
 }
@@ -173,7 +173,7 @@
 ##             (c_wadjish)
 
 1201 = {      # (b_wadjish)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
@@ -181,19 +181,19 @@
 ##             (c_qito)
 
 1198 = {      # (b_akhotep)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
 
 1199 = {      # (b_qito)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
 
 1200 = {      # (b_djoramenyet)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
@@ -201,13 +201,13 @@
 ##             (c_gibeza)
 
 1196 = {      # (b_gibeza)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
 
 1197 = {      # (b_nerenu)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
@@ -216,13 +216,13 @@
 ##             (c_terkah)
 
 1193 = {      # (b_terkah)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
 
 1194 = {      # (b_tumyattha)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
@@ -230,7 +230,7 @@
 ##             (c_reket)
 
 1195 = {      # (b_reket)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = castle_holding
 }
@@ -238,13 +238,13 @@
 ##             (c_rashnagar)
 
 1191 = {      # (b_rashnagar)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = castle_holding
 }
 
 1192 = {      # (b_nehebehdet)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = city_holding
 }
@@ -253,13 +253,13 @@
 ##             (c_tarminhor)
 
 1206 = {      # (b_tarminhor)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
 
 1207 = {      # (b_sukhmen)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
@@ -267,13 +267,13 @@
 ##             (c_pthubat)
 
 1204 = {      # (b_pthubat)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
 
 1205 = {      # (b_farshish)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
@@ -281,13 +281,13 @@
 ##             (c_klito)
 
 1202 = {      # (b_klito)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = tribal_holding
 }
 
 1203 = {      # (b_buhenekh)
-              culture = morfis
+              culture = eriset
               religion = inetsaret
               holding = none
 }
@@ -297,13 +297,13 @@
 ##             (c_burrukammu)
 
 1263 = {      # (b_burrukammu)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1264 = {      # (b_isfil)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -311,7 +311,7 @@
 ##             (c_amurri)
 
 1265 = {      # (b_amurri)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
@@ -320,7 +320,7 @@
 ##             (c_khasut)
 
 1254 = {      # (b_khasut)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
@@ -328,7 +328,7 @@
 ##             (c_gilganefer)
 
 1255 = {      # (b_gilganefer)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
@@ -337,19 +337,19 @@
 ##             (c_sebeh)
 
 1260 = {      # (b_sebeh)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1261 = {      # (b_utuatep)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
 
 1262 = {      # (b_behkhamty)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -357,13 +357,13 @@
 ##             (c_khem)
 
 1256 = {      # (b_khem)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1257 = {      # (b_emah)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -371,13 +371,13 @@
 ##             (c_chadet)
 
 1258 = {      # (b_chadet)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1259 = {      # (b_nabonahiddu)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -386,13 +386,13 @@
 ##             (c_ishthut)
 
 1275 = {      # (b_ishthut)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1276 = {      # (b_anunat)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -400,13 +400,13 @@
 ##             (c_ennamhutep)
 
 1273 = {      # (b_ennamhutep)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = castle_holding
 }
 
 1274 = {      # (b_damkhenum)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -415,19 +415,19 @@
 ##             (c_barsarru)
 
 1268 = {      # (b_barsarru)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = tribal_holding
 }
 
 1269 = {      # (b_liburmetum)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = none
 }
 
 1270 = {      # (b_hadjet)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = none
 }
@@ -435,13 +435,13 @@
 ##             (c_abulmahhu)
 
 1266 = {      # (b_abulmahhu)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = tribal_holding
 }
 
 1267 = {      # (b_nadinapep)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = none
 }
@@ -449,13 +449,13 @@
 ##             (c_abulanshu)
 
 1271 = {      # (b_abulanshu)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = tribal_holding
 }
 
 1272 = {      # (b_gemekh)
-              culture = morfis
+              culture = galzum
               religion = inetsaret
               holding = none
 }
@@ -465,13 +465,13 @@
 ##             (c_senethis)
 
 1223 = {      # (b_senethis)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1224 = {      # (b_ketmeny)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -479,13 +479,13 @@
 ##             (c_duramon)
 
 1221 = {      # (b_duramon)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1222 = {      # (b_shanushir)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -494,13 +494,13 @@
 ##             (c_somenhor)
 
 1247 = {      # (b_somenhor)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1248 = {      # (b_wadji)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -508,13 +508,13 @@
 ##             (c_biguat)
 
 1245 = {      # (b_biguat)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1246 = {      # (b_kutal)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -522,7 +522,7 @@
 ##             (c_ashur)
 
 1249 = {      # (b_ashur)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
@@ -618,19 +618,19 @@
 ##             (c_rubazzu)
 
 1230 = {      # (b_rubazzu)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1231 = {      # (b_annumut)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
 
 1232 = {      # (b_hebshem)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -638,19 +638,19 @@
 ##             (c_gebet)
 
 1225 = {      # (b_gebet)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1226 = {      # (b_djafenset)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
 
 1227 = {      # (b_nebkhare)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -658,13 +658,13 @@
 ##             (c_anat)
 
 1228 = {      # (b_anat)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1229 = {      # (b_sekhepesh)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -673,13 +673,13 @@
 ##             (c_waret)
 
 1235 = {      # (b_waret)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1236 = {      # (b_neknyamor)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -687,13 +687,13 @@
 ##             (c_permakht)
 
 1237 = {      # (b_permakht)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1238 = {      # (b_zarumash)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -701,13 +701,13 @@
 ##             (c_isfet)
 
 1233 = {      # (b_isfet)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1234 = {      # (b_khesashut)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -715,13 +715,13 @@
 ##             (c_bostrehwy)
 
 1239 = {      # (b_bostrehwy)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1240 = {      # (b_khanesfet)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -730,13 +730,13 @@
 ##             (c_tjamut)
 
 1241 = {      # (b_tjamut)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = castle_holding
 }
 
 1242 = {      # (b_beliit)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -744,13 +744,13 @@
 ##             (c_shezzen)
 
 1243 = {      # (b_shezzen)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = castle_holding
 }
 
 1244 = {      # (b_tashkur)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -759,13 +759,13 @@
 ##             (c_zirhat)
 
 1252 = {      # (b_zirhat)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = tribal_holding
 }
 
 1253 = {      # (b_dakhor)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -773,13 +773,13 @@
 ##             (c_kishnarru)
 
 1250 = {      # (b_kishnarru)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = city_holding
 }
 
 1251 = {      # (b_pertapsi)
-              culture = morfis
+              culture = apatol
               religion = inetsaret
               holding = none
 }
@@ -790,19 +790,19 @@
 ##             (c_purun)
 
 1880 = {      # (b_purun)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1881 = {      # (b_dabucha)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
 
 1882 = {      # (b_chandanbar)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -810,19 +810,19 @@
 ##             (c_bhaurtol)
 
 1877 = {      # (b_bhaurtol)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1878 = {      # (b_salana)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
 
 1879 = {      # (b_chela)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -830,19 +830,19 @@
 ##             (c_baitar)
 
 1874 = {      # (b_baitar)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1875 = {      # (b_bajeria)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
 
 1876 = {      # (b_laphe)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -851,19 +851,19 @@
 ##             (c_mavara)
 
 1886 = {      # (b_mavara)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1887 = {      # (b_kotidanda)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1888 = {      # (b_majhereti)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -871,19 +871,19 @@
 ##             (c_lapche)
 
 1889 = {      # (b_lapche)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1890 = {      # (b_simaradhi)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1891 = {      # (b_sisapur)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -891,19 +891,19 @@
 ##             (c_banginia)
 
 1883 = {      # (b_banginia)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1884 = {      # (b_goljunia)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1885 = {      # (b_pakhere)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -912,19 +912,19 @@
 ##             (c_madhupattiya)
 
 1892 = {      # (b_madhupattiya)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1893 = {      # (b_bhaarka)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1894 = {      # (b_phulkharka)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -932,13 +932,13 @@
 ##             (c_dumrabasa)
 
 1898 = {      # (b_dumrabasa)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1899 = {      # (b_sarkitol)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -946,19 +946,19 @@
 ##             (c_baka)
 
 1895 = {      # (b_baka)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1896 = {      # (b_dashami)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1897 = {      # (b_chhedin)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -967,25 +967,25 @@
 ##             (c_samargaon)
 
 1904 = {      # (b_samargaon)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1905 = {      # (b_kikhunos)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1906 = {      # (b_bharphedia)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = none
 }
 
 1907 = {      # (b_sanos)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = church_holding
 }
@@ -993,25 +993,25 @@
 ##             (c_gudkelosa)
 
 1908 = {      # (b_gudkelosa)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1909 = {      # (b_khakharsos)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = none
 }
 
 1910 = {      # (b_gorundia)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1911 = {      # (b_itharawa)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = church_holding
 }
@@ -1019,25 +1019,25 @@
 ##             (c_ghogsilia)
 
 1912 = {      # (b_ghogsillia)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1913 = {      # (b_photia)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1914 = {      # (b_simarbona)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = church_holding
 }
 
 1915 = {      # (b_mantrdanos)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = none
 }
@@ -1045,25 +1045,25 @@
 ##             (c_champagoas)
 
 1900 = {      # (b_champagoas)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1901 = {      # (b_kadogaos)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1902 = {      # (b_sambaos)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = church_holding
 }
 
 1903 = {      # (b_dhairenia)
-              culture = dantan
+              culture = shangranla
               religion = tenolotiskardias_faith
               holding = none
 }
@@ -1072,19 +1072,19 @@
 ##             (c_sisnukharka)
 
 1871 = {      # (b_sisnukharka)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1872 = {      # (b_maidane)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1873 = {      # (b_chunibol)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -1092,25 +1092,25 @@
 ##             (c_mathillo)
 
 1864 = {      # (b_mathillo)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1865 = {      # (b_lalpur)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1866 = {      # (b_gairiwa)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1867 = {      # (b_phogatpura)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -1118,19 +1118,19 @@
 ##             (c_kharamtar)
 
 1868 = {      # (b_kharamtar)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = tribal_holding
 }
 
 1869 = {      # (b_deurali)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
 
 1870 = {      # (b_gijet)
-              culture = dantan
+              culture = chakhtami
               religion = lmabhal
               holding = none
 }
@@ -1140,19 +1140,19 @@
 ##             (c_sharaiin)
 
 1785 = {      # (b_sharaiin)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1786 = {      # (b_somonighur)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1787 = {      # (b_ulabaa)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1160,13 +1160,13 @@
 ##             (c_khotogtuew)
 
 1783 = {      # (b_khotogture)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1784 = {      # (b_daltihid)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1174,19 +1174,19 @@
 ##             (c_galharyin)
 
 1777 = {      # (b_galharyin)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1778 = {      # (b_harutyr)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1779 = {      # (b_dayakhid)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1194,19 +1194,19 @@
 ##             (c_engershand)
 
 1780 = {      # (b_engershand)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1781 = {      # (b_khodogui)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1782 = {      # (b_underroyn)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1215,19 +1215,19 @@
 ##             (c_mogoyn)
 
 1762 = {      # (b_mogoyn)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1763 = {      # (b_doloni)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1764 = {      # (b_darhantayee)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1235,19 +1235,19 @@
 ##             (c_buyantayn)
 
 1759 = {      # (b_buyantayn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1760 = {      # (b_khayutu)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1761 = {      # (b_abagayn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1255,19 +1255,19 @@
 ##             (c_bandi)
 
 1756 = {      # (b_bandi)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1757 = {      # (b_buyantu)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1758 = {      # (b_duguhantyryn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1275,25 +1275,25 @@
 ##             (c_balji)
 
 1752 = {      # (b_balji)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1753 = {      # (b_darahin)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1754 = {      # (b_sulobotuin)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1755 = {      # (b_uragyyn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1302,19 +1302,19 @@
 ##             (c_sumain)
 
 1788 = {      # (b_sumain)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1789 = {      # (b_dugete)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1790 = {      # (b_habtsagay)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1322,19 +1322,19 @@
 ##             (c_khongor)
 
 1791 = {      # (b_khongor)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1792 = {      # (b_tsekherin)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1793 = {      # (b_khadayn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1342,19 +1342,19 @@
 ##             (c_haranaiin)
 
 1797 = {      # (b_haranaiin)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1798 = {      # (b_bulagan)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1799 = {      # (b_zanjigin)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1362,19 +1362,19 @@
 ##             (c_dalkhain)
 
 1794 = {      # (b_dalkhain)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1795 = {      # (b_amogolambu)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1796 = {      # (b_uburayn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1383,13 +1383,13 @@
 ##             (c_palan)
 
 1750 = {      # (b_palan)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1751 = {      # (b_undents)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1397,13 +1397,13 @@
 ##             (c_nariin)
 
 1746 = {      # (b_nariin)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1747 = {      # (b_usatanii)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1411,19 +1411,19 @@
 ##             (c_luma)
 
 1743 = {      # (b_luma)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1744 = {      # (b_byanural)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1745 = {      # (b_dzohod)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1431,13 +1431,13 @@
 ##             (c_burgaasa)
 
 1748 = {      # (b_burgaasa)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1749 = {      # (b_nalaikha)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1446,25 +1446,25 @@
 ##             (c_tszun)
 
 1727 = {      # (b_tszun)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1728 = {      # (b_sundzen)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1729 = {      # (b_hebteme)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1730 = {      # (b_sayntsagaan)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1472,19 +1472,19 @@
 ##             (c_seeriin)
 
 1731 = {      # (b_seeriin)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1732 = {      # (b_mingat)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1733 = {      # (b_dalthid)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1492,19 +1492,19 @@
 ##             (c_khoshu)
 
 1737 = {      # (b_khoshu)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1738 = {      # (b_santuma)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1739 = {      # (b_kharaganain)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1512,19 +1512,19 @@
 ##             (c_doynhor)
 
 1734 = {      # (b_doynhor)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1735 = {      # (b_dalan)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1736 = {      # (b_zamunide)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1532,19 +1532,19 @@
 ##             (c_arigynn)
 
 1740 = {      # (b_arigynn)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = tribal_holding
 }
 
 1741 = {      # (b_khotohure)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
 
 1742 = {      # (b_baykid)
-              culture = dantan
+              culture = angma
               religion = dinymori
               holding = none
 }
@@ -1553,19 +1553,19 @@
 ##             (c_tsagan)
 
 1765 = {      # (b_tsagan)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1766 = {      # (b_naranak)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1767 = {      # (b_bayagaziid)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1573,19 +1573,19 @@
 ##             (c_lisain)
 
 1774 = {      # (b_lisain)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1775 = {      # (b_baruuye)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1776 = {      # (b_luchzhen)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1593,19 +1593,19 @@
 ##             (c_khartszatuin)
 
 1771 = {      # (b_khartszatuin)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1772 = {      # (b_tabumodan)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1773 = {      # (b_uburtyyn)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1613,19 +1613,19 @@
 ##             (c_borgosi)
 
 1768 = {      # (b_borgosi)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = tribal_holding
 }
 
 1769 = {      # (b_tukuma)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
 
 1770 = {      # (b_hoboriin)
-              culture = dantan
+              culture = ikhtin
               religion = dinymori
               holding = none
 }
@@ -1886,19 +1886,19 @@
 ##             (c_kastor)
 
 1833 = {      # (b_kastor)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = tribal_holding
 }
 
 1834 = {      # (b_urtbuzia)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = none
 }
 
 1835 = {      # (b_tailapara)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = none
 }
@@ -1906,19 +1906,19 @@
 ##             (c_ghala)
 
 1830 = {      # (b_ghala)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = tribal_holding
 }
 
 1831 = {      # (b_dafilaz)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = none
 }
 
 1832 = {      # (b_samarsing)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = none
 }
@@ -1926,19 +1926,19 @@
 ##             (c_gezutia)
 
 1827 = {      # (b_gezutia)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = tribal_holding
 }
 
 1828 = {      # (b_hatirdia)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = none
 }
 
 1829 = {      # (b_dibazkul)
-              culture = dantan
+              culture = angma
               religion = lmabhal
               holding = none
 }
@@ -1967,19 +1967,19 @@
 ##             (c_harikhanagar)
 
 1844 = {      # (b_harikhanagar)
-              culture = dantan
+              culture = kitsune
               religion = lmabhal
               holding = tribal_holding
 }
 
 1845 = {      # (b_jigagar)
-              culture = dantan
+              culture = kitsune
               religion = lmabhal
               holding = none
 }
 
 1846 = {      # (b_tilapara)
-              culture = dantan
+              culture = kitsune
               religion = lmabhal
               holding = none
 }
@@ -1987,19 +1987,19 @@
 ##             (c_chaua)
 
 1847 = {      # (b_chaua)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1848 = {      # (b_bankhari)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
 
 1849 = {      # (b_bahakholl)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -2008,19 +2008,19 @@
 ##             (c_surbafuldi)
 
 1836 = {      # (b_surbafuldi)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1837 = {      # (b_ghosalerdara)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
 
 1838 = {      # (b_nimtali)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -2028,13 +2028,13 @@
 ##             (c_dekshapara)
 
 1842 = {      # (b_dekshapara)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1843 = {      # (b_taukati)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -2042,19 +2042,19 @@
 ##             (c_baharal)
 
 1839 = {      # (b_baharal)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = tribal_holding
 }
 
 1840 = {      # (b_samanta)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
 
 1841 = {      # (b_kadamtara)
-              culture = dantan
+              culture = sangpuri
               religion = lmabhal
               holding = none
 }
@@ -2184,19 +2184,19 @@
 ##             (c_drangja)
 
 1075 = {      # (b_drangja)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = tribal_holding
 }
 
 1076 = {      # (b_skogurkirkja)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
 
 1077 = {      # (b_kirkjenstein)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
@@ -2204,19 +2204,19 @@
 ##             (c_aldakot)
 
 1078 = {      # (b_aldakot)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = tribal_holding
 }
 
 1079 = {      # (b_bayandalr)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
 
 1080 = {      # (b_khanbrefabok)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
@@ -2245,13 +2245,13 @@
 ##             (c_yttrihalendi)
 
 1060 = {      # (b_yttrihalendi)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = tribal_holding
 }
 
 1061 = {      # (b_choyoroddi)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
@@ -2259,39 +2259,39 @@
 ##             (c_hauger)
 
 1062 = {      # (b_hauger)
-              culture = sreng
-              religion = heimsormurinn
+              culture = aksural
+              religion = mekeal
               holding = tribal_holding
 }
 
 1063 = {      # (b_bajdariki)
-              culture = sreng
-              religion = heimsormurinn
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
 ##             (c_bjarskagi)
 
 1056 = {      # (b_bjarskagi)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = tribal_holding
 }
 
 1057 = {      # (b_iderhofn)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
 
 1058 = {      # (b_vipmansthorp)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
 
 1059 = {      # (b_dragaskardr)
-              culture = sreng
+              culture = agnishahri
               religion = heimsormurinn
               holding = none
 }
@@ -2300,31 +2300,31 @@
 ##             (c_vindkaller)
 
 1045 = {      # (b_vindkaller)
-              culture = sreng
+              culture = aksural
               religion = macuilite
               holding = tribal_holding
 }
 
 1046 = {      # (b_gjahara)
-              culture = sreng
+              culture = aksural
               religion = macuilite
               holding = none
 }
 
 1047 = {      # (b_khadkelda)
-              culture = sreng
+              culture = aksural
               religion = macuilite
               holding = none
 }
 
 1048 = {      # (b_ondorsvegur)
-              culture = sreng
+              culture = aksural
               religion = macuilite
               holding = none
 }
 
 1049 = {      # (b_gorivellir)
-              culture = sreng
+              culture = aksural
               religion = macuilite
               holding = none
 }
@@ -2332,40 +2332,40 @@
 ##             (c_orkenlegende)
 
 1050 = {      # (b_orkenlegende)
-              culture = sreng
-              religion = macuilite
+              culture = aksural
+              religion = mekeal
               holding = tribal_holding
 }
 
 1051 = {      # (b_delsangr)
-              culture = sreng
-              religion = macuilite
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
 1052 = {      # (b_ivarhaugr)
-              culture = sreng
-              religion = macuilite
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
 ##             (c_magikeren)
 
 1053 = {      # (b_magikeren)
-              culture = sreng
-              religion = macuilite
+              culture = aksural
+              religion = mekeal
               holding = tribal_holding
 }
 
 1054 = {      # (b_serkgangr)
-              culture = sreng
-              religion = macuilite
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
 1055 = {      # (b_djupsgigur)
-              culture = sreng
-              religion = macuilite
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
@@ -2460,13 +2460,13 @@
 ##             (c_sandendalr)
 
 1039 = {      # (b_sandendalr)
-              culture = sreng
+              culture = aksural
               religion = heimsormurinn
               holding = tribal_holding
 }
 
 1040 = {      # (b_gunnarsdal)
-              culture = sreng
+              culture = aksural
               religion = heimsormurinn
               holding = none
 }
@@ -2500,26 +2500,26 @@
 ##             (c_brubygdvik)
 
 1035 = {      # (b_brubygdvik)
-              culture = sreng
-              religion = heimsormurinn
+              culture = aksural
+              religion = mekeal
               holding = tribal_holding
 }
 
 1036 = {      # (b_eyrdenjar)
-              culture = sreng
-              religion = heimsormurinn
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
 1037 = {      # (b_mulituin)
-              culture = sreng
-              religion = heimsormurinn
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
 1038 = {      # (b_bjagenthorp)
-              culture = sreng
-              religion = heimsormurinn
+              culture = aksural
+              religion = mekeal
               holding = none
 }
 
@@ -2596,19 +2596,19 @@
 
 1101 = {      # (b_glarona)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1102 = {      # (b_appenzello)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
 1103 = {      # (b_vasilea)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2616,19 +2616,19 @@
 
 1098 = {      # (b_engadina)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = castle_holding
 }
 
 1099 = {      # (b_vallese)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
 1100 = {      # (b_cerpezzo)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2636,13 +2636,13 @@
 
 1104 = {      # (b_casinotta)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1105 = {      # (b_berna)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2651,13 +2651,13 @@
 
 1096 = {      # (b_spliga)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = castle_holding
 }
 
 1097 = {      # (b_tosanna)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2665,13 +2665,13 @@
 
 1094 = {      # (b_nufena)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1095 = {      # (b_soletta)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2679,19 +2679,19 @@
 
 1091 = {      # (b_maloggia)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = castle_holding
 }
 
 1092 = {      # (b_prettigovia)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
 1093 = {      # (b_sciafussa)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2700,13 +2700,13 @@
 
 1106 = {      # (b_giura)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1107 = {      # (b_bavero)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2714,13 +2714,13 @@
 
 1108 = {      # (b_campovasto)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1109 = {      # (b_bienna)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2728,7 +2728,7 @@
 
 1110 = {      # (b_atlam)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
@@ -2737,13 +2737,13 @@
 
 1085 = {      # (b_tavate)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1086 = {      # (b_palu)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2751,13 +2751,13 @@
 
 1089 = {      # (b_losanna)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1090 = {      # (b_scanevo)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2765,13 +2765,13 @@
 
 721 = {       # (b_ginevera)
               culture = nuadan
-              religion = seirosite
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1088 = {      # (b_roncaglia)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -2779,25 +2779,25 @@
 
 1081 = {      # (b_friboro)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = tribal_holding
 }
 
 1082 = {      # (b_laone)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
 1083 = {      # (b_cervino)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
 1084 = {      # (b_novena)
               culture = nuadan
-              religion = pantheon_faith
+              religion = comunetian_faith
               holding = none
 }
 
@@ -4127,28 +4127,28 @@
 ##             (c_sarfang)
 
 1165 = {      # (b_sarfang)
-              culture = albinean
-              religion = lumialue
+              culture = avanertun
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1166 = {      # (b_alluit)
-              culture = albinean
-              religion = lumialue
+              culture = avanertun
+              religion = vuristoalite
               holding = none
 }
 
 ##             (c_iliamaq)
 
 1163 = {      # (b_iliamaq)
-              culture = albinean
-              religion = lumialue
+              culture = avanertun
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1164 = {      # (b_haighivik)
-              culture = albinean
-              religion = lumialue
+              culture = avanertun
+              religion = vuristoalite
               holding = none
 }
 
@@ -4156,28 +4156,28 @@
 ##             (c_naajat)
 
 1159 = {      # (b_naajat)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1160 = {      # (b_tasius)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
 ##             (c_isertoq)
 
 1161 = {      # (b_isertoq)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1162 = {      # (b_arsuk)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
@@ -4185,62 +4185,62 @@
 ##             (c_ukkusisat)
 
 1147 = {      # (b_ukkusisat)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1148 = {      # (b_iginniar)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
 ##             (c_oromocto)
 
 1142 = {      # (b_oromocto)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1143 = {      # (b_kullor)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
 1144 = {      # (b_banabke)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
 ##             (c_jatnar)
 
 1149 = {      # (b_jatnar)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1150 = {      # (b_siorpaluk)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
 ##             (c_aapilla)
 
 1145 = {      # (b_aapilla)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1146 = {      # (b_attu)
-              culture = albinean
-              religion = lumialue
+              culture = saqqaqi
+              religion = vuristoalite
               holding = none
 }
 
@@ -4268,13 +4268,13 @@
 ##             (c_raksha)
 
 1154 = {      # (b_raksha)
-              culture = albinean
+              culture = saqqaqi
               religion = lumialue
               holding = tribal_holding
 }
 
 1155 = {      # (b_withmane)
-              culture = albinean
+              culture = saqqaqi
               religion = lumialue
               holding = none
 }
@@ -4282,19 +4282,19 @@
 ##             (c_akela)
 
 1151 = {      # (b_akela)
-              culture = albinean
+              culture = wolfskin
               religion = lumialue
               holding = tribal_holding
 }
 
 1152 = {      # (b_nackawic)
-              culture = albinean
+              culture = wolfskin
               religion = lumialue
               holding = none
 }
 
 1153 = {      # (b_fenroc)
-              culture = albinean
+              culture = wolfskin
               religion = lumialue
               holding = none
 }
@@ -4353,27 +4353,27 @@
 ##             (c_takume)
 
 1140 = {      # (b_takume)
-              culture = albinean
-              religion = lumialue
+              culture = avanertun
+              religion = vuristoalite
               holding = tribal_holding
 }
 
 1141 = {      # (b_penobskee)
-              culture = albinean
-              religion = lumialue
+              culture = avanertun
+              religion = vuristoalite
               holding = none
 }
 
 ##             (c_piiktaw)
 
 1138 = {      # (b_piiktaw)
-              culture = albinean
+              culture = avanertun
               religion = lumialue
               holding = tribal_holding
 }
 
 1139 = {      # (b_kodiak)
-              culture = albinean
+              culture = avanertun
               religion = lumialue
               holding = none
 }
@@ -4381,19 +4381,19 @@
 ##             (c_nuktaw)
 
 1135 = {      # (b_nuktaw)
-              culture = albinean
+              culture = avanertun
               religion = lumialue
               holding = tribal_holding
 }
 
 1136 = {      # (b_oroto)
-              culture = albinean
+              culture = avanertun
               religion = lumialue
               holding = none
 }
 
 1137 = {      # (b_penniac)
-              culture = albinean
+              culture = avanertun
               religion = lumialue
               holding = none
 }
@@ -4523,19 +4523,19 @@
 
 1527 = {      # (b_takht_e_khorsid)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = church_holding
 }
 
 1528 = {      # (b_khunza)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = city_holding
 }
 
 1529 = {      # (b_shibolya)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = castle_holding
 }
 
@@ -4543,13 +4543,13 @@
 
 1530 = {      # (b_kennapur)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = castle_holding
 }
 
 1531 = {      # (b_bandebal)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
@@ -4557,13 +4557,13 @@
 
 1532 = {      # (b_karizibad)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = castle_holding
 }
 
 1533 = {      # (b_jam)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
@@ -4571,13 +4571,13 @@
 
 1534 = {      # (b_dawudshah)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = church_holding
 }
 
 1535 = {      # (b_absin)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
@@ -4586,13 +4586,13 @@
 
 1521 = {      # (b_samian)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = castle_holding
 }
 
 1522 = {      # (b_lanjeh)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = city_holding
 }
 
@@ -4600,13 +4600,13 @@
 
 1525 = {      # (b_kuhestan)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = castle_holding
 }
 
 1526 = {      # (b_sarab)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
@@ -4614,7 +4614,7 @@
 
 1520 = {      # (b_koshk_e_shokuh)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = church_holding
 }
 
@@ -4622,13 +4622,13 @@
 
 1523 = {      # (b_dargaz)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = castle_holding
 }
 
 1524 = {      # (b_banehdar)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
@@ -4637,31 +4637,31 @@
 ##             (c_vajim)
 
 1387 = {      # (b_vajim)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1388 = {      # (b_khodaverd)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
 
 1389 = {      # (b_poshteh)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = church_holding
 }
 
 1390 = {      # (b_heyrabad)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = city_holding
 }
 
 1391 = {      # (b_seyman)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4669,19 +4669,19 @@
 ##             (c_parmeh)
 
 1392 = {      # (b_parmeh)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1393 = {      # (b_amisara)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = church_holding
 }
 
 1394 = {      # (b_qurtesh)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4689,19 +4689,19 @@
 ##             (c_kachupur)
 
 1395 = {      # (b_kachupur)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1396 = {      # (b_espardahan)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = city_holding
 }
 
 1397 = {      # (b_arpalykh)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4710,13 +4710,13 @@
 ##             (c_gurchak)
 
 1398 = {      # (b_gurchak)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = tribal_holding
 }
 
 1399 = {      # (b_kahizapur)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4724,7 +4724,7 @@
 ##             (c_golisorg)
 
 1402 = {      # (b_golisorg)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = tribal_holding
 }
@@ -4732,13 +4732,13 @@
 ##             (c_barnajjiye)
 
 1400 = {      # (b_barnajjiye)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1401 = {      # (b_haveshk)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4747,19 +4747,19 @@
 ##             (c_purcham)
 
 1407 = {      # (b_purcham)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1408 = {      # (b_urtakand)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
 
 1409 = {      # (b_qargol)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4767,25 +4767,25 @@
 ##             (c_lajini)
 
 1403 = {      # (b_lajini)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1404 = {      # (b_buneh)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = city_holding
 }
 
 1405 = {      # (b_mardan)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
 
 1406 = {      # (b_kaliyeh)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = church_holding
 }
@@ -4793,19 +4793,19 @@
 ##             (c_biyakhal)
 
 1410 = {      # (b_biyakhal)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = castle_holding
 }
 
 1411 = {      # (b_kaluk)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = city_holding
 }
 
 1412 = {      # (b_bala)
-              culture = almyran
+              culture = pamese
               religion = kizilisma
               holding = none
 }
@@ -4815,19 +4815,19 @@
 
 1420 = {      # (b_shekaft)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1421 = {      # (b_penah)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1422 = {      # (b_baina)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = church_holding
 }
 
@@ -4835,13 +4835,13 @@
 
 1423 = {      # (b_poshpar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = tribal_holding
 }
 
 1424 = {      # (b_heydar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -4849,13 +4849,13 @@
 
 1425 = {      # (b_darukan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = tribal_holding
 }
 
 1426 = {      # (b_chelmeh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -4864,13 +4864,13 @@
 
 1418 = {      # (b_zebrud)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1419 = {      # (b_dulakh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -4878,13 +4878,13 @@
 
 1416 = {      # (b_rujnemo)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = tribal_holding
 }
 
 1417 = {      # (b_najjar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -4892,19 +4892,19 @@
 
 1413 = {      # (b_kafaz)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1414 = {      # (b_sahri)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1415 = {      # (b_serdan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -4914,13 +4914,13 @@
 
 1541 = {      # (b_sarazp)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = castle_holding
 }
 
 1542 = {      # (b_qul)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -4928,13 +4928,13 @@
 
 1539 = {      # (b_irgrin)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1540 = {      # (b_zakrabad)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -4942,19 +4942,19 @@
 
 1536 = {      # (b_gharak)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1537 = {      # (b_maku)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1538 = {      # (b_chemwozai)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -4963,13 +4963,13 @@
 
 1557 = {      # (b_kuyye)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = castle_holding
 }
 
 1558 = {      # (b_khamiya)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -4977,13 +4977,13 @@
 
 1555 = {      # (b_kuliketar)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = castle_holding
 }
 
 1556 = {      # (b_kamarak)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -4991,19 +4991,19 @@
 
 1552 = {      # (b_bahlozai)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = castle_holding
 }
 
 1553 = {      # (b_kamar)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1554 = {      # (b_sarbulak)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = city_holding
 }
 
@@ -5012,19 +5012,19 @@
 
 1543 = {      # (b_safariya)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1544 = {      # (b_miranzkal)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1545 = {      # (b_khindaya)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5032,13 +5032,13 @@
 
 1550 = {      # (b_qadam)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1551 = {      # (b_jagda)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5046,13 +5046,13 @@
 
 1548 = {      # (b_nekzi)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1549 = {      # (b_jalayir)
               culture = lianese
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5060,13 +5060,13 @@
 
 1546 = {      # (b_khayl)
               culture = harika
-              religion = kizilisma
+              religion = karakaya
               holding = castle_holding
 }
 
 1547 = {      # (b_yazikel)
               culture = harika
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5075,19 +5075,19 @@
 
 1559 = {      # (b_zarghun)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1560 = {      # (b_petaw)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1561 = {      # (b_vilayati)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5095,13 +5095,13 @@
 
 1562 = {      # (b_tokarak)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1563 = {      # (b_malvai)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5109,13 +5109,13 @@
 
 1564 = {      # (b_hsxstiyr)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1565 = {      # (b_nikrgano)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5125,19 +5125,19 @@
 
 1696 = {      # (b_shululu)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1697 = {      # (b_toshat)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1698 = {      # (b_qaratosh)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5145,13 +5145,13 @@
 
 1699 = {      # (b_bulakizal)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1700 = {      # (b_shurob)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5159,86 +5159,86 @@
 ##             (c_vozm)
 
 1724 = {      # (b_vozm)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = tribal_holding
 }
 
 1725 = {      # (b_puligirdob)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1726 = {      # (b_surkhashma)
-              culture = almyran
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 ##             (c_tovabulok)
 
 1718 = {      # (b_tovabulok)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = tribal_holding
 }
 
 1719 = {      # (b_foru)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1720 = {      # (b_zorchal)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 ##             (c_guyundar)
 
 1721 = {      # (b_guyundar)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = tribal_holding
 }
 
 1722 = {      # (b_qataghan)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1723 = {      # (b_vagel)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 ##             (c_bashkomaz)
 
 1714 = {      # (b_bashkomaz)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = tribal_holding
 }
 
 1715 = {      # (b_zosun)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1716 = {      # (b_settilmirish)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1717 = {      # (b_vopazur)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
@@ -5247,25 +5247,25 @@
 
 1701 = {      # (b_yel)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1702 = {      # (b_medenshor)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1703 = {      # (b_khostho)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1704 = {      # (b_balagdash)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5273,19 +5273,19 @@
 
 1711 = {      # (b_saksanokhur)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1712 = {      # (b_radavik)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1713 = {      # (b_khulozy)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5293,19 +5293,19 @@
 
 1708 = {      # (b_luchob)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1709 = {      # (b_mekhnatabod)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1710 = {      # (b_qalohna)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5313,19 +5313,19 @@
 
 1705 = {      # (b_abdan)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1706 = {      # (b_hariyuli)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1707 = {      # (b_kurkat)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5334,39 +5334,39 @@
 
 1693 = {      # (b_lupusad)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1694 = {      # (b_boshbulok)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1695 = {      # (b_obinukra)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 ##             (c_kaltek)
 
 1690 = {      # (b_kaltek)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = tribal_holding
 }
 
 1691 = {      # (b_lagman)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1692 = {      # (b_chabulak)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
@@ -5374,19 +5374,19 @@
 
 1687 = {      # (b_jiibayad)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1688 = {      # (b_ogbulog)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1689 = {      # (b_lengeh)
               culture = kudamlar
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5422,19 +5422,19 @@
 
 1668 = {      # (b_sharikhiyah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1669 = {      # (b_gushirtov)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1670 = {      # (b_karakchi)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5442,19 +5442,19 @@
 
 1662 = {      # (b_sayyirah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1663 = {      # (b_moykatta)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = city_holding
 }
 
 1664 = {      # (b_amring)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5462,19 +5462,19 @@
 
 1671 = {      # (b_gajjya)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1672 = {      # (b_khalfa)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1673 = {      # (b_vogat)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5482,19 +5482,19 @@
 
 1665 = {      # (b_buqay)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1666 = {      # (b_terem)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1667 = {      # (b_omada)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = city_holding
 }
 
@@ -5503,19 +5503,19 @@
 
 1626 = {      # (b_tharmidah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1627 = {      # (b_basr)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = church_holding
 }
 
 1628 = {      # (b_khei)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5523,19 +5523,19 @@
 
 1623 = {      # (b_fiwan)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1624 = {      # (b_ghaya)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1625 = {      # (b_maniq)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = church_holding
 }
 
@@ -5543,25 +5543,25 @@
 
 1616 = {      # (b_buhasn)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1617 = {      # (b_kiyat)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1618 = {      # (b_farshah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = church_holding
 }
 
 1619 = {      # (b_rayana)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5569,19 +5569,19 @@
 
 1620 = {      # (b_anakhra)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1621 = {      # (b_hada)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1622 = {      # (b_sudayrah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = city_holding
 }
 
@@ -5590,19 +5590,19 @@
 
 1653 = {      # (b_rukubah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = castle_holding
 }
 
 1654 = {      # (b_awad)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = city_holding
 }
 
 1655 = {      # (b_balaq)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = none
 }
 
@@ -5610,19 +5610,19 @@
 
 1659 = {      # (b_rahimah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1660 = {      # (b_markaz)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1661 = {      # (b_mekkilah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5630,19 +5630,19 @@
 
 1656 = {      # (b_gharith)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = castle_holding
 }
 
 1657 = {      # (b_nusiyyah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = city_holding
 }
 
 1658 = {      # (b_surayah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = none
 }
 
@@ -5651,19 +5651,19 @@
 
 1638 = {      # (b_surrah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1639 = {      # (b_alujayd)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1640 = {      # (b_rawjat)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = city_holding
 }
 
@@ -5671,19 +5671,19 @@
 
 1632 = {      # (b_shuqayq)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1633 = {      # (b_gaback)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1634 = {      # (b_khuzayyah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5691,19 +5691,19 @@
 
 1629 = {      # (b_ghumayyisah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1630 = {      # (b_zumaygah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1631 = {      # (b_fayidah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5711,19 +5711,19 @@
 
 1635 = {      # (b_abasud)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = tribal_holding
 }
 
 1636 = {      # (b_haiya)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1637 = {      # (b_rubua)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5732,19 +5732,19 @@
 
 1641 = {      # (b_raynibah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = castle_holding
 }
 
 1642 = {      # (b_aur)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = city_holding
 }
 
 1643 = {      # (b_jabailah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = none
 }
 
@@ -5752,19 +5752,19 @@
 
 1644 = {      # (b_khufayfah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = castle_holding
 }
 
 1645 = {      # (b_ayun)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = city_holding
 }
 
 1646 = {      # (b_zafeer)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5772,19 +5772,19 @@
 
 1647 = {      # (b_bukayrayah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1648 = {      # (b_yanbu)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1649 = {      # (b_wasta)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = church_holding
 }
 
@@ -5792,19 +5792,19 @@
 
 1650 = {      # (b_asubayi)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1651 = {      # (b_daff)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 1652 = {      # (b_haima)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = city_holding
 }
 
@@ -5813,19 +5813,19 @@
 
 1674 = {      # (b_mayza)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1675 = {      # (b_paskitomchi)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = city_holding
 }
 
 1676 = {      # (b_pisokat)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
@@ -5833,39 +5833,39 @@
 
 1677 = {      # (b_daylamiyah)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = castle_holding
 }
 
 1678 = {      # (b_chugarak)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = church_holding
 }
 
 1679 = {      # (b_karagach)
               culture = imrudi
-              religion = kizilisma
+              religion = dogasil
               holding = none
 }
 
 ##             (c_amiyah)
 
 1680 = {      # (b_amiyah)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = tribal_holding
 }
 
 1681 = {      # (b_gougavd)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
 1682 = {      # (b_seidzh)
-              culture = imrudi
-              religion = kizilisma
+              culture = inevhan
+              religion = dogasil
               holding = none
 }
 
@@ -5875,13 +5875,13 @@
 
 1590 = {      # (b_mahankalai)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1591 = {      # (b_saravan)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5889,13 +5889,13 @@
 
 1592 = {      # (b_kamariye)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1593 = {      # (b_divarakiye)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5903,19 +5903,19 @@
 
 1587 = {      # (b_dalil)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1588 = {      # (b_gholjah)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1589 = {      # (b_khyali)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5923,20 +5923,20 @@
 ##             (c_zard)
 
 1594 = {      # (b_zard)
-              culture = almyran
-              religion = kizilisma
+              culture = denatlar
+              religion = karakaya
               holding = tribal_holding
 }
 
 1595 = {      # (b_tangurai)
-              culture = almyran
-              religion = kizilisma
+              culture = denatlar
+              religion = karakaya
               holding = none
 }
 
 1596 = {      # (b_urbanai)
-              culture = almyran
-              religion = kizilisma
+              culture = denatlar
+              religion = karakaya
               holding = none
 }
 
@@ -5944,27 +5944,27 @@
 
 1599 = {      # (b_khinjakka)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1600 = {      # (b_kalakan)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 ##             (c_dargah)
 
 1597 = {      # (b_dargah)
-              culture = almyran
-              religion = kizilisma
+              culture = denatlar
+              religion = karakaya
               holding = tribal_holding
 }
 
 1598 = {      # (b_yasich)
-              culture = almyran
-              religion = kizilisma
+              culture = denatlar
+              religion = karakaya
               holding = none
 }
 
@@ -5973,13 +5973,13 @@
 
 1571 = {      # (b_tangai)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1572 = {      # (b_tutachi)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -5987,19 +5987,19 @@
 
 1566 = {      # (b_khuzgol)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1567 = {      # (b_dehana)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1568 = {      # (b_avparan)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6007,13 +6007,13 @@
 
 1573 = {      # (b_karamai)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1574 = {      # (b_chapkul)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6021,13 +6021,13 @@
 
 1569 = {      # (b_burkhana)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1570 = {      # (b_chapsai)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6036,19 +6036,19 @@
 
 1611 = {      # (b_paimal)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
-1612 = {      # (b_langar)
+1612 = {      # (b_langma)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1613 = {      # (b_ulyad)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6056,13 +6056,13 @@
 
 1614 = {      # (b_navdi)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1615 = {      # (b_sattar)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6071,19 +6071,19 @@
 
 1584 = {      # (b_parideh)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1585 = {      # (b_zamankeyl)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1586 = {      # (b_shahikeyl)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6091,19 +6091,19 @@
 
 1575 = {      # (b_kelai)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1576 = {      # (b_benosh)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1577 = {      # (b_gongor)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6111,19 +6111,19 @@
 
 1581 = {      # (b_karpari)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1582 = {      # (b_mushak)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1583 = {      # (b_bakkeyl)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6131,19 +6131,19 @@
 
 1578 = {      # (b_kanduy)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1579 = {      # (b_miro)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1580 = {      # (b_kalaisa)
               culture = denatlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6152,19 +6152,19 @@
 
 1608 = {      # (b_sorkh)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1609 = {      # (b_chineh)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1610 = {      # (b_pushta)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6172,25 +6172,25 @@
 
 1601 = {      # (b_malikabad)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1602 = {      # (b_nevrah)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1603 = {      # (b_parmakan)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1604 = {      # (b_paitow)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6198,19 +6198,19 @@
 
 1605 = {      # (b_gonebad)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = tribal_holding
 }
 
 1606 = {      # (b_shureh)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
 1607 = {      # (b_luyah)
               culture = kudamlar
-              religion = kizilisma
+              religion = karakaya
               holding = none
 }
 
@@ -6220,25 +6220,25 @@
 
 1500 = {      # (b_kesanj)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1501 = {      # (b_khesan)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1502 = {      # (b_fatideh)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1503 = {      # (b_tafin)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6246,19 +6246,19 @@
 
 1507 = {      # (b_janabad)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1508 = {      # (b_uzvar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1509 = {      # (b_hariduk)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6266,19 +6266,19 @@
 
 1504 = {      # (b_garmandar)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1505 = {      # (b_kuhkhird)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1506 = {      # (b_kalekan)
               culture = imrudi
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6286,20 +6286,20 @@
 ##             (c_zeynuddin)
 
 1517 = {      # (b_zeynuddin)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = tribal_holding
 }
 
 1518 = {      # (b_khorraman)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
 1519 = {      # (b_poshtekhan)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
@@ -6307,45 +6307,45 @@
 
 1510 = {      # (b_nevmahan)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = tribal_holding
 }
 
 1511 = {      # (b_dashtechah)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
 1512 = {      # (b_bureh)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
 1513 = {      # (b_savar)
               culture = harika
-              religion = kizilisma
+              religion = beyazisma
               holding = none
 }
 
 ##             (c_karekai)
 
 1514 = {      # (b_karekai)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = tribal_holding
 }
 
 1515 = {      # (b_dogijan)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
 1516 = {      # (b_kerdil)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
@@ -6354,19 +6354,19 @@
 
 1497 = {      # (b_morowat)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = castle_holding
 }
 
 1498 = {      # (b_aminabad)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = city_holding
 }
 
 1499 = {      # (b_chaleh)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = none
 }
 
@@ -6374,45 +6374,45 @@
 
 1491 = {      # (b_khushi)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1492 = {      # (b_zenivand)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1493 = {      # (b_samangan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 ##             (c_khater)
 
 1487 = {      # (b_khater)
-              culture = atran
-              religion = kizilisma
+              culture = imrudi
+              religion = siyakara
               holding = castle_holding
 }
 
 1488 = {      # (b_burakiyah)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = none
 }
 
 1489 = {      # (b_kariz)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = none
 }
 
 1490 = {      # (b_mollahi)
               culture = imrudi
-              religion = kizilisma
+              religion = siyakara
               holding = church_holding
 }
 
@@ -6420,19 +6420,19 @@
 
 1494 = {      # (b_ghoncheh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1495 = {      # (b_hubary)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1496 = {      # (b_novkhaleh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6441,19 +6441,19 @@
 
 1444 = {      # (b_zanagun)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1445 = {      # (b_benivan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1446 = {      # (b_zangalab)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6461,13 +6461,13 @@
 
 1447 = {      # (b_marandegan)
               culture = harika
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1448 = {      # (b_mirtas)
               culture = harika
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6475,25 +6475,25 @@
 
 1440 = {      # (b_khandat)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1441 = {      # (b_shimpur)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1442 = {      # (b_sedabad)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1443 = {      # (b_qaj)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = church_holding
 }
 
@@ -6501,86 +6501,86 @@
 ##             (c_tubrah)
 
 1431 = {      # (b_tubrah)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = castle_holding
 }
 
 1432 = {      # (b_hurkati)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
 1433 = {      # (b_kharabpur)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = church_holding
 }
 
 ##             (c_shahpur)
 
 1437 = {      # (b_shahpur)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = castle_holding
 }
 
 1438 = {      # (b_zarabad)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = city_holding
 }
 
 1439 = {      # (b_mayehabad)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
 ##             (c_puzapur)
 
 1427 = {      # (b_puzapur)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = castle_holding
 }
 
 1428 = {      # (b_kodrut)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = city_holding
 }
 
 1429 = {      # (b_kanepa)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = church_holding
 }
 
 1430 = {      # (b_kheyrabad)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
 ##             (c_davzdah)
 
 1434 = {      # (b_davzdah)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = castle_holding
 }
 
 1435 = {      # (b_malicheh)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = church_holding
 }
 
 1436 = {      # (b_nirabad)
-              culture = atran
-              religion = kizilisma
+              culture = jibadi
+              religion = denizavi
               holding = none
 }
 
@@ -6589,25 +6589,25 @@
 
 1462 = {      # (b_kidri)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1463 = {      # (b_mogh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1464 = {      # (b_changan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1465 = {      # (b_pursekhlu)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6615,19 +6615,19 @@
 
 1469 = {      # (b_kalgah)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1470 = {      # (b_molheh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1471 = {      # (b_dinabiye)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6635,19 +6635,19 @@
 
 1466 = {      # (b_jedayah)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1467 = {      # (b_karmali)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1468 = {      # (b_dehgah)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6655,19 +6655,19 @@
 
 1472 = {      # (b_dafsar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1473 = {      # (b_dahan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1474 = {      # (b_kabudeh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6676,19 +6676,19 @@
 
 1484 = {      # (b_gatuliyeh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1485 = {      # (b_mardeh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1486 = {      # (b_maimon)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6696,19 +6696,19 @@
 
 1478 = {      # (b_duday)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1479 = {      # (b_chahar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1480 = {      # (b_boldagh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6716,19 +6716,19 @@
 
 1481 = {      # (b_chenar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1482 = {      # (b_zitgadaf)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1483 = {      # (b_ushan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6736,19 +6736,19 @@
 
 1475 = {      # (b_basolya)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1476 = {      # (b_lafmujan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1477 = {      # (b_kordha)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6757,19 +6757,19 @@
 
 1453 = {      # (b_konar)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1454 = {      # (b_gennaha)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1455 = {      # (b_massan)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6777,25 +6777,25 @@
 
 1449 = {      # (b_jalal)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1450 = {      # (b_seyyapur)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1451 = {      # (b_genehda)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1452 = {      # (b_mirabbas)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
@@ -6803,19 +6803,19 @@
 
 1456 = {      # (b_changureh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1457 = {      # (b_shirju)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
 1458 = {      # (b_karkeh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
@@ -6823,19 +6823,19 @@
 
 1459 = {      # (b_anderik)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = castle_holding
 }
 
 1460 = {      # (b_khaweh)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = none
 }
 
 1461 = {      # (b_darzi)
               culture = atran
-              religion = kizilisma
+              religion = denizavi
               holding = city_holding
 }
 
@@ -7012,19 +7012,19 @@
 ##             (c_shortoqay)
 
 1381 = {      # (b_shortoqay)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = castle_holding
 }
 
 1382 = {      # (b_bolaqapur)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = city_holding
 }
 
 1383 = {      # (b_sharifabal)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = none
 }
@@ -7032,25 +7032,25 @@
 ##             (c_qalatan)
 
 1377 = {      # (b_qalatan)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = castle_holding
 }
 
 1378 = {      # (b_shahrakiye)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = none
 }
 
 1379 = {      # (b_qazideh)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = city_holding
 }
 
 1380 = {      # (b_kahbad)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = church_holding
 }
@@ -7058,19 +7058,19 @@
 ##             (c_martakhy)
 
 1384 = {      # (b_martakhy)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = city_holding
 }
 
 1385 = {      # (b_sarakiya)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = church_holding
 }
 
 1386 = {      # (b_mirahmad)
-              culture = almyran
+              culture = shunish
               religion = kizilisma
               holding = none
 }

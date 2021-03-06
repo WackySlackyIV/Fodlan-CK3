@@ -10,7 +10,7 @@ laguz_group = {
 		graphical_cultures = {
 			english_coa_gfx
 		}
-		color = hsv { 0.8 0.8 0.6 }
+		color = rgb { 122 122 122 }
 
 		cadet_dynasty_names = {
 			"dynn_wulf
@@ -67,7 +67,7 @@ laguz_group = {
 		graphical_cultures = {
 			english_coa_gfx
 		}
-		color = hsv { 0.8 0.8 0.6 }
+		color = rgb { 201 134 0 }
 
 		cadet_dynasty_names = {
 			"dynn_vos
@@ -124,7 +124,7 @@ laguz_group = {
 		graphical_cultures = {
 			english_coa_gfx
 		}
-		color = hsv { 0.8 0.8 0.6 }
+		color = rgb { 89 67 102 }
 
 		cadet_dynasty_names = {
 			"dynn_konine

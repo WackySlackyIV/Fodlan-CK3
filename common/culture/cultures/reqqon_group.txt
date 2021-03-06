@@ -1,0 +1,416 @@
+﻿reqqon_group = {
+	graphical_cultures = {
+		western_coa_gfx
+		western_building_gfx
+		western_clothing_gfx
+		western_unit_gfx
+	}
+
+	reqonese = {
+		graphical_cultures = {
+			castilian_coa_gfx
+		}
+		color = rgb { 184 125 0 }
+
+		cadet_dynasty_names = {
+			"dynn_NU_N_ez"
+			{ "dynnp_de" "dynn_La_Cerda" }
+			{ "dynnp_de" "dynn_Deza" }
+			{ "dynnp_de" "dynn_Borgona" }
+			"dynn_Alonso"
+			{ "dynnp_de" "dynn_Castro" }
+			{ "dynnp_del" "dynn_Carpio" }
+			{ "dynnp_de" "dynn_Bolea" }
+			{ "dynnp_de" "dynn_AcuN_a" }
+			"dynn_RamI_rez"
+			"dynn_Trillo_de_las_Asturias"
+			{ "dynnp_de" "dynn_Menezes" }
+			{ "dynnp_de" "dynn_Alba_de_Liste" }
+			{ "dynnp_de" "dynn_Castrogeriz" }
+			{ "dynnp_de" "dynn_Alencastre" }
+			{ "dynnp_de" "dynn_Ovando" }
+			{ "dynnp_de" "dynn_Viguera" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Benavides" }
+			"dynn_MenE_ndez"
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_CastaN_eda" }
+			{ "dynnp_de" "dynn_Molina" }
+			"dynn_A_lvarez_de_Azagra"
+			{ "dynnp_de" "dynn_Alfaro" }
+			"dynn_Ponce_de_LeO_n"
+			"dynn_Barrientos"
+			{ "dynnp_de" "dynn_Ceballos" }
+			{ "dynnp_de" "dynn_Toledo" }
+			{ "dynnp_de" "dynn_CO_rdoba" }
+			{ "dynnp_de" "dynn_Godoy" }
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Villalobos" }
+			{ "dynnp_de" "dynn_NoreN_a" }
+			{ "dynnp_de" "dynn_GijO_n" }
+			{ "dynnp_de" "dynn_Sotomayor" }
+			{ "dynnp_de" "dynn_CA_ceres" }
+			{ "dynnp_de" "dynn_SolI_s" }
+			{ "dynnp_de" "dynn_QuiN_ones" }
+			{ "dynnp_de" "dynn_Quintana" }
+			{ "dynnp_de" "dynn_Padilla" }
+			{ "dynnp_de" "dynn_Candamio" }
+			"dynn_BarragA_n"
+			"dynn_MejI_a"
+			"dynn_Cabeza_de_Vaca"
+			{ "dynnp_de" "dynn_VillagarcI_a" }
+			{ "dynnp_de" "dynn_Luna" }
+			{ "dynnp_de" "dynn_la_Cueva" }
+			{ "dynnp_de" "dynn_Pacheco" }
+			{ "dynnp_de" "dynn_CA_rdenas" }
+			"dynn_FernA_ndez"
+			"dynn_PE_rez"
+			"dynn_RuI_z"
+			"dynn_LO_pez"
+			"dynn_DI_az"
+			"dynn_Alonso"
+			"dynn_SA_nchez"
+			"dynn_LA_inez"
+			{ "dynnp_de" "dynn_Prado" }
+			"dynn_GutiE_rrez"
+			{ "dynnp_de" "dynn_LiE_bana" }
+			"dynn_Feijoo"
+			{ "dynnp_de" "dynn_Lugo" }
+			{ "dynnp_de" "dynn_Bergido" }
+			{ "dynnp_de" "dynn_PeN_alba" }
+			"dynn_MuN_oz"
+			{ "dynnp_de" "dynn_Miravalles" }
+			{ "dynnp_de" "dynn_Cisneros" }
+			"dynn_PelA_ez"
+			{ "dynnp_de" "dynn_SahagU_n" }
+			"dynn_Alfonso"
+			"dynn_RodrI_guez"
+			"dynn_BermU_dez"
+			{ "dynnp_de" "dynn_Manzanedo" }
+			{ "dynnp_de" "dynn_AlagO_n" }
+			{ "dynnp_de" "dynn_Samos" }
+			{ "dynnp_de" "dynn_Villacorta" }
+			{ "dynnp_de" "dynn_SantibA_N_ez" }
+			{ "dynnp_de" "dynn_Silos" }
+			{ "dynnp_de" "dynn_Aguilar" }
+			{ "dynnp_de" "dynn_Toro" }
+			{ "dynnp_de" "dynn_Segovia" }
+			{ "dynnp_de" "dynn_Biedma" }
+			{ "dynnp_de" "dynn_Cabra" }
+			{ "dynnp_de" "dynn_Ayerbe" }
+			{ "dynnp_de" "dynn_HI_jar" }
+			{ "dynnp_de" "dynn_Castilla_y_LeO_n" }
+			"dynn_Furtado"
+			{ "dynnp_de" "dynn_Soler" }
+			{ "dynnp_de" "dynn_CaN_amas" }
+			{ "dynnp_de" "dynn_Borja" }
+			{ "dynnp_de" "dynn_RiaN_o" }
+			{ "dynnp_de" "dynn_Limia" }
+			{ "dynnp_de" "dynn_Belorado" }
+			{ "dynnp_de" "dynn_Arroyolos" }
+			{ "dynnp_de" "dynn_Villamayor" }
+			"dynn_Manrique"
+			"dynn_Venegas"
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Rojas" }
+			{ "dynnp_de" "dynn_Escobar" }
+			{ "dynnp_de" "dynn_Fuente_Almexir" }
+			{ "dynnp_de" "dynn_Avellaneda" }
+			{ "dynnp_de" "dynn_Fano" }
+			"dynn_Adgaz"
+			{ "dynnp_de" "dynn_Xinzo" }
+			{ "dynnp_de" "dynn_Entralgo" }
+			{ "dynnp_de" "dynn_Feniosara" }
+			{ "dynnp_de" "dynn_Saz" }
+			{ "dynnp_de" "dynn_Silva" }
+			{ "dynnp_de" "dynn_ToroN_o" }
+			{ "dynnp_del" "dynn_Puente" }
+			{ "dynnp_de" "dynn_Palencia" }
+			"dynn_HelI_as"
+			"dynn_GelmI_rez"
+			"dynn_Episcopus"
+			"dynn_Camundo"
+			"dynn_GundestE_iz"
+			"dynn_MuN_I_z"
+			{ "dynnp_de" "dynn_PadrO_n" }
+			{ "dynnp_de" "dynn_Landora" }
+			{ "dynnp_de" "dynn_CarriO_n" }
+			{ "dynnp_de" "dynn_San_MillA_n" }
+			{ "dynnp_de" "dynn_la_Frontera" }
+			"dynn_Icaza"
+			{ "dynnp_de" "dynn_Yanguas" }
+			{ "dynnp_de" "dynn_Novoa" }
+			{ "dynnp_de" "dynn_Cevallos" }
+			{ "dynnp_de" "dynn_Santsoles" }
+			{ "dynnp_de" "dynn_Barrantes" }
+			"dynn_Gallego"
+			{ "dynnp_de" "dynn_Quiroga" }
+			"dynn_Maldonado"
+			{ "dynnp_de" "dynn_Fuentes" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_Santiago" }
+			{ "dynnp_de" "dynn_Niebla" }
+			{ "dynnp_de" "dynn_CA_diz" }
+			{ "dynnp_de" "dynn_Algeciras" }
+			{ "dynnp_de" "dynn_MA_laga" }
+			{ "dynnp_de" "dynn_AlmerI_a" }
+			{ "dynnp_de" "dynn_Murcia" }
+			{ "dynnp_de" "dynn_Denia" }
+			{ "dynnp_de" "dynn_Valencia" }
+			{ "dynnp_de" "dynn_Castellon" }
+			{ "dynnp_de" "dynn_AlbarracI_n" }
+			{ "dynnp_de" "dynn_Calatayud" }
+			{ "dynnp_de" "dynn_Molina" }
+			{ "dynnp_de" "dynn_Cuenca" }
+			{ "dynnp_de" "dynn_La_Mancha" }
+			{ "dynnp_de" "dynn_Almansa" }
+			{ "dynnp_de" "dynn_Granada" }
+			{ "dynnp_de" "dynn_Cordoba" }
+			{ "dynnp_de" "dynn_Sevilla" }
+			{ "dynnp_de" "dynn_Aracena" }
+			{ "dynnp_de" "dynn_Badajoz" }
+			{ "dynnp_de" "dynn_Astorga" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Zamora" }
+			{ "dynnp_de" "dynn_Salamanca" }
+			{ "dynnp_de" "dynn_AlcA_ntara" }
+			{ "dynnp_de" "dynn_Plasencia" }
+			{ "dynnp_de" "dynn_Calatrava" }
+			{ "dynnp_de" "dynn_Valladolid" }
+			{ "dynnp_de" "dynn_Burgos" }
+			{ "dynnp_de" "dynn_Soria" }
+			{ "dynnp_de" "dynn_Zaragoza" }
+			"dynn_Arias"
+			{ "dynnp_de" "dynn_Mendoza" }
+			"dynn_MartI_nez_de_Oviedo"
+			{ "dynnp_de" "dynn_Peralta" }
+			"dynn_PE_rez_de_Zamora"
+			"dynn_MartI_n"
+			{ "dynnp_de" "dynn_Castrosiero" }
+			{ "dynnp_de" "dynn_Toledo" }
+		}
+
+		dynasty_names = {
+			"dynn_NU_N_ez"
+			{ "dynnp_de" "dynn_la_Cerda" }
+			{ "dynnp_de" "dynn_Deza" }
+			{ "dynnp_de" "dynn_Borgona" }
+			"dynn_Alonso"
+			{ "dynnp_de" "dynn_Castro" }
+			{ "dynnp_del" "dynn_Carpio" }
+			{ "dynnp_de" "dynn_Bolea" }
+			{ "dynnp_de" "dynn_AcuN_a" }
+			"dynn_RamI_rez"
+			"dynn_Trillo_de_las_Asturias"
+			{ "dynnp_de" "dynn_Menezes" }
+			{ "dynnp_de" "dynn_las_Asturias" }
+			{ "dynnp_de" "dynn_Alba_de_Liste" }
+			{ "dynnp_de" "dynn_Castrogeriz" }
+			{ "dynnp_de" "dynn_Alencastre" }
+			{ "dynnp_de" "dynn_Ovando" }
+			{ "dynnp_de" "dynn_Viguera" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Benavides" }
+			"dynn_MenE_ndez"
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_CastaN_eda" }
+			{ "dynnp_de" "dynn_Molina" }
+			"dynn_A_lvarez_de_Azagra"
+			{ "dynnp_de" "dynn_Alfaro" }
+			"dynn_Ponce_de_LeO_n"
+			"dynn_Barrientos"
+			{ "dynnp_de" "dynn_Ceballos" }
+			{ "dynnp_de" "dynn_Toledo" }
+			{ "dynnp_de" "dynn_CO_rdoba" }
+			{ "dynnp_de" "dynn_Godoy" }
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Villalobos" }
+			{ "dynnp_de" "dynn_NoreN_a" }
+			{ "dynnp_de" "dynn_GijO_n" }
+			{ "dynnp_de" "dynn_Sotomayor" }
+			{ "dynnp_de" "dynn_CA_ceres" }
+			{ "dynnp_de" "dynn_SolI_s" }
+			{ "dynnp_de" "dynn_QuiN_ones" }
+			{ "dynnp_de" "dynn_Quintana" }
+			{ "dynnp_de" "dynn_Padilla" }
+			{ "dynnp_de" "dynn_Candamio" }
+			"dynn_BarragA_n"
+			"dynn_MejI_a"
+			"dynn_Cabeza_de_Vaca"
+			{ "dynnp_de" "dynn_VillagarcI_a" }
+			{ "dynnp_de" "dynn_Luna" }
+			{ "dynnp_de" "dynn_la_Cueva" }
+			{ "dynnp_de" "dynn_Pacheco" }
+			{ "dynnp_de" "dynn_CA_rdenas" }
+			"dynn_FernA_ndez"
+			"dynn_PE_rez"
+			"dynn_RuI_z"
+			"dynn_LO_pez"
+			"dynn_DI_az"
+			"dynn_Alonso"
+			"dynn_SA_nchez"
+			"dynn_LA_inez"
+			{ "dynnp_de" "dynn_Prado" }
+			"dynn_GutiE_rrez"
+			{ "dynnp_de" "dynn_LiE_bana" }
+			"dynn_Feijoo"
+			{ "dynnp_de" "dynn_Lugo" }
+			{ "dynnp_de" "dynn_Bergido" }
+			{ "dynnp_de" "dynn_PeN_alba" }
+			"dynn_MuN_oz"
+			{ "dynnp_de" "dynn_Miravalles" }
+			{ "dynnp_de" "dynn_Cisneros" }
+			"dynn_PelA_ez"
+			{ "dynnp_de" "dynn_SahagU_n" }
+			"dynn_Alfonso"
+			"dynn_RodrI_guez"
+			"dynn_BermU_dez"
+			{ "dynnp_de" "dynn_Manzanedo" }
+			{ "dynnp_de" "dynn_AlagO_n" }
+			{ "dynnp_de" "dynn_Samos" }
+			{ "dynnp_de" "dynn_Villacorta" }
+			{ "dynnp_de" "dynn_SantibA_N_ez" }
+			{ "dynnp_de" "dynn_Silos" }
+			{ "dynnp_de" "dynn_Aguilar" }
+			{ "dynnp_de" "dynn_Toro" }
+			{ "dynnp_de" "dynn_Segovia" }
+			{ "dynnp_de" "dynn_Biedma" }
+			{ "dynnp_de" "dynn_Cabra" }
+			{ "dynnp_de" "dynn_Ayerbe" }
+			{ "dynnp_de" "dynn_HI_jar" }
+			{ "dynnp_de" "dynn_Castilla_y_LeO_n" }
+			{ "dynnp_de" "dynn_AragO_n" }
+			{ "dynnp_de" "dynn_Risnal" }
+			"dynn_Furtado"
+			{ "dynnp_de" "dynn_Soler" }
+			{ "dynnp_de" "dynn_CaN_amas" }
+			{ "dynnp_de" "dynn_Borja" }
+			{ "dynnp_de" "dynn_Huesca" }
+			{ "dynnp_de" "dynn_RiaN_o" }
+			{ "dynnp_de" "dynn_Limia" }
+			{ "dynnp_de" "dynn_Belorado" }
+			{ "dynnp_de" "dynn_Arroyolos" }
+			{ "dynnp_de" "dynn_Villamayor" }
+			"dynn_Manrique"
+			"dynn_Venegas"
+			{ "dynnp_de" "dynn_la_Vega" }
+			{ "dynnp_de" "dynn_Rojas" }
+			{ "dynnp_de" "dynn_Escobar" }
+			{ "dynnp_de" "dynn_Fuente_Almexir" }
+			{ "dynnp_de" "dynn_Avellaneda" }
+			{ "dynnp_de" "dynn_Fano" }
+			"dynn_Adgaz"
+			{ "dynnp_de" "dynn_Xinzo" }
+			{ "dynnp_de" "dynn_Entralgo" }
+			{ "dynnp_de" "dynn_Feniosara" }
+			{ "dynnp_de" "dynn_Saz" }
+			{ "dynnp_de" "dynn_Silva" }
+			{ "dynnp_de" "dynn_ToroN_o" }
+			{ "dynnp_del" "dynn_Puente" }
+			{ "dynnp_de" "dynn_Palencia" }
+			"dynn_HelI_as"
+			"dynn_GelmI_rez"
+			"dynn_Episcopus"
+			"dynn_Camundo"
+			"dynn_GundestE_iz"
+			"dynn_MuN_I_z"
+			{ "dynnp_de" "dynn_PadrO_n" }
+			{ "dynnp_de" "dynn_Landora" }
+			{ "dynnp_de" "dynn_CarriO_n" }
+			{ "dynnp_de" "dynn_San_MillA_n" }
+			{ "dynnp_de" "dynn_la_Frontera" }
+			"dynn_Icaza"
+			{ "dynnp_de" "dynn_Yanguas" }
+			{ "dynnp_de" "dynn_Novoa" }
+			{ "dynnp_de" "dynn_Cevallos" }
+			{ "dynnp_de" "dynn_Santsoles" }
+			{ "dynnp_de" "dynn_Barrantes" }
+			"dynn_Gallego"
+			{ "dynnp_de" "dynn_Quiroga" }
+			"dynn_Maldonado"
+			{ "dynnp_de" "dynn_Fuentes" }
+			{ "dynnp_de" "dynn_TrastA_mara" }
+			{ "dynnp_de" "dynn_Santiago" }
+			{ "dynnp_de" "dynn_Niebla" }
+			{ "dynnp_de" "dynn_CA_diz" }
+			{ "dynnp_de" "dynn_Algeciras" }
+			{ "dynnp_de" "dynn_MA_laga" }
+			{ "dynnp_de" "dynn_AlmerI_a" }
+			{ "dynnp_de" "dynn_Murcia" }
+			{ "dynnp_de" "dynn_Denia" }
+			{ "dynnp_de" "dynn_Valencia" }
+			{ "dynnp_de" "dynn_Castellon" }
+			{ "dynnp_de" "dynn_AlbarracI_n" }
+			{ "dynnp_de" "dynn_Calatayud" }
+			{ "dynnp_de" "dynn_Molina" }
+			{ "dynnp_de" "dynn_Cuenca" }
+			{ "dynnp_de" "dynn_La_Mancha" }
+			{ "dynnp_de" "dynn_Almansa" }
+			{ "dynnp_de" "dynn_Granada" }
+			{ "dynnp_de" "dynn_Cordoba" }
+			{ "dynnp_de" "dynn_Sevilla" }
+			{ "dynnp_de" "dynn_Aracena" }
+			{ "dynnp_de" "dynn_Badajoz" }
+			{ "dynnp_de" "dynn_Astorga" }
+			{ "dynnp_de" "dynn_LeO_n" }
+			{ "dynnp_de" "dynn_Zamora" }
+			{ "dynnp_de" "dynn_Salamanca" }
+			{ "dynnp_de" "dynn_AlcA_ntara" }
+			{ "dynnp_de" "dynn_Plasencia" }
+			{ "dynnp_de" "dynn_Calatrava" }
+			{ "dynnp_de" "dynn_Valladolid" }
+			{ "dynnp_de" "dynn_Burgos" }
+			{ "dynnp_de" "dynn_Soria" }
+			{ "dynnp_de" "dynn_Zaragoza" }
+			"dynn_Arias"
+			{ "dynnp_de" "dynn_Mendoza" }
+			"dynn_MartI_nez_de_Oviedo"
+			{ "dynnp_de" "dynn_Peralta" }
+			"dynn_PE_rez_de_Zamora"
+			"dynn_MartI_n"
+			{ "dynnp_de" "dynn_Castrosiero" }
+			{ "dynnp_de" "dynn_Toledo" }
+		}
+
+		male_names = {
+			Alfonso Alonso A_lvar A_lvaro AndrE_s Ansur Antonino Arias Benito Berenguel
+			Bermudo Bernardo Diego Domingo Enrique Esteban Fadrique Felipe FernA_n Fernando
+			Fruela GarcI_a Gerardo Gil GO_mez Gonzalo GuillE_n Guillermo Gutierre Hermenegildo
+			Jaime Jimeno Juan LaI_n Lope Lorenzo Luis Manrique Manuel MartI_n
+			Menendo Munio NuN_o OrdoN_o Osorio Oveco Pedro Pelayo Pero Ponce
+			Raimundo Ramiro RamO_n Rodrigo Salvador Sancho SebastiA_n SimO_n Suero Tello
+			Teobaldo Vela Velasco Vellido
+		}
+		female_names = {
+			Aldonza Alduara Alicia Anderquina Andregoto Aragonte Argilo Beatriz Benita Berenguela
+			Blanca BrI_gida Catalina Constanza Cristina DueN_a Dulce Elvira Ermengarda Ermesinda
+			Eslonza EstefanI_a Eulalia Eva Eylo FlA_mula Fronilde Godina Goto Gotruda
+			Guina Guiomar Gustio InEEs Isabel Jimena Juana Leonor Mafalda Margarita
+			MarI_a Marina Marquesa Mayor MencI_a MI_lia Munia Muniadona Oneca Sancha
+			Sol Teresa Toda Urraca Velasquita Violante Visclavara
+		}
+
+		dynasty_of_location_prefix = "dynnp_de"
+		
+		patronym_suffix_male = "dynnpat_suf_ez"
+		patronym_suffix_female = "dynnpat_suf_ez"
+		always_use_patronym = yes	
+
+		pat_grf_name_chance = 45
+		mat_grf_name_chance = 15
+		father_name_chance = 30
+		
+		pat_grm_name_chance = 40
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+
+		ethnicities = {
+			10 = mediterranean
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_slaughterers" }
+			{ name = "mercenary_company_band_of_the_brigand_emperor" }
+		}
+	}
+}

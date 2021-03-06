@@ -51,7 +51,7 @@
 }
 
 1400004 = {
-	name="70"
+	name="70" #strongest man of the east
 	religion="dinymori"
 	culture="dantan"
 
