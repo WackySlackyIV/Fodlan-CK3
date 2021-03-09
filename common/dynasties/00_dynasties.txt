@@ -1088,3 +1088,13 @@
 	name="Macuil"
 	culture="high_fodlan"
 }
+
+#################
+### Koteshger ###
+#################
+
+1400 =
+{
+	name="Dall"
+	culture="ikhtin"
+}

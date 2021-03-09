@@ -39,8 +39,8 @@
 
 1200002 = {
 	name = "Muire"
-	religion = "lumialue"
-	culture = "albinean"
+	religion = "vuristoalite"
+	culture = "avanertun"
 	female = yes
 
 	trait = paranoid
@@ -61,8 +61,8 @@
 
 1200003 = {
 	name = "Cunedda" #Anime Best Friend
-	religion = "lumialue"
-	culture = "albinean"
+	religion = "vuristoalite"
+	culture = "saqqaqi"
 
 	trait = trusting
 	trait = compassionate
@@ -82,8 +82,8 @@
 
 1200004 = {
 	name = "Bridei"
-	religion = "lumialue"
-	culture = "albinean"
+	religion = "vuristoalite"
+	culture = "saqqaqi"
 
 	trait = lustful
 	trait = vengeful
@@ -133,7 +133,7 @@
 1200007 = {
 	name = "template"
 	religion = "lumialue"
-	culture = "albinean"
+	culture = "avanertun"
 
 	1148.4.6 = {
 		birth=yes
@@ -217,7 +217,7 @@
 1200013 = {
 	name = "template"
 	religion = "lumialue"
-	culture = "albinean"
+	culture = "saqqaqi"
 
 	1148.4.6 = {
 		birth=yes
@@ -230,8 +230,8 @@
 
 1200014 = {
 	name = "template"
-	religion = "lumialue"
-	culture = "albinean"
+	religion = "vuristoalite"
+	culture = "saqqaqi"
 
 	1148.4.6 = {
 		birth=yes
@@ -244,8 +244,8 @@
 
 1200015 = {
 	name = "template"
-	religion = "lumialue"
-	culture = "albinean"
+	religion = "vuristoalite"
+	culture = "avanertun"
 
 	1148.4.6 = {
 		birth=yes
@@ -258,8 +258,8 @@
 
 1200016 = {
 	name = "template"
-	religion = "lumialue"
-	culture = "albinean"
+	religion = "vuristoalite"
+	culture = "saqqaqi"
 
 	1148.4.6 = {
 		birth=yes

@@ -38,7 +38,7 @@
 1000001 = {
 	name = "Magnus" #Could be given the a nickname of the Mighty
 	religion = "mekeal"
-	culture = "sreng"
+	culture = "aksural"
 
 	trait = brave
 	trait = just
@@ -98,7 +98,7 @@
 1000004 = {
 	name = "Botulf"
 	religion = "heimsormurinn"
-	culture = "sreng"
+	culture = "aksural"
 
 	trait = calm
 	trait = stubborn
@@ -118,7 +118,7 @@
 1000005 = {
 	name = "Eilif"
 	religion = "mekeal"
-	culture = "sreng"
+	culture = "aksural"
 	female = yes
 
 	trait = zealous
@@ -167,7 +167,7 @@
 1000008 = {
 	name = "template"
 	religion = "mekeal"
-	culture = "sreng"
+	culture = "aksural"
 	
 	1161.8.17 = {
 		birth=yes
@@ -181,7 +181,7 @@
 1000009 = {
 	name = "template"
 	religion = "mekeal"
-	culture = "sreng"
+	culture = "aksural"
 	
 	1161.8.17 = {
 		birth=yes
@@ -195,7 +195,7 @@
 1000010 = {
 	name = "template"
 	religion = "mekeal"
-	culture = "sreng"
+	culture = "aksural"
 	
 	1161.8.17 = {
 		birth=yes
@@ -223,7 +223,7 @@
 1000012 = {
 	name = "template"
 	religion = "mekeal"
-	culture = "sreng"
+	culture = "aksural"
 	
 	1161.8.17 = {
 		birth=yes

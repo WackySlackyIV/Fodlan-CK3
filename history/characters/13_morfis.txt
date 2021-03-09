@@ -16,7 +16,7 @@
 1300001 = {
 	name="72"
 	religion="inetsaret"
-	culture="morfis"
+	culture="galzum"
 
 	1162.12.20 = {
 		birth=yes
@@ -28,8 +28,8 @@
 
 1300002 = {
 	name="73"
-	religion="inetsaret"
-	culture="morfis"
+	religion="nekfsaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -41,8 +41,8 @@
 
 1300003 = {
 	name="74"
-	religion="inetsaret"
-	culture="morfis"
+	religion="nekfsaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -54,8 +54,8 @@
 
 1300004 = {
 	name="75"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -67,8 +67,8 @@
 
 1300005 = {
 	name="76"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -80,8 +80,8 @@
 
 1300006 = {
 	name="77"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -94,7 +94,7 @@
 1300007 = {
 	name="78"
 	religion="inetsaret"
-	culture="morfis"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -106,8 +106,8 @@
 
 1300008 = {
 	name="79"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -119,8 +119,8 @@
 
 1300009 = {
 	name="80"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -132,8 +132,8 @@
 
 1300010 = {
 	name="81"
-	religion="inetsaret"
-	culture="morfis"
+	religion="nekfsaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -145,8 +145,8 @@
 
 1300011 = {
 	name="82"
-	religion="inetsaret"
-	culture="morfis"
+	religion="nekfsaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -158,8 +158,8 @@
 
 1300012 = {
 	name="83"
-	religion="inetsaret"
-	culture="morfis"
+	religion="nekfsaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -171,8 +171,8 @@
 
 1300013 = {
 	name="84"
-	religion="inetsaret"
-	culture="morfis"
+	religion="nekfsaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -184,8 +184,8 @@
 
 1300014 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -197,8 +197,8 @@
 
 1300015 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -210,8 +210,8 @@
 
 1300016 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="jebbilencia"
+	culture="qutummi"
 
 	1162.12.20 = {
 		birth=yes
@@ -224,7 +224,7 @@
 1300017 = {
 	name="template"
 	religion="inetsaret"
-	culture="morfis"
+	culture="qutummi"
 
 	1162.12.20 = {
 		birth=yes
@@ -236,8 +236,8 @@
 
 1300018 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -249,8 +249,8 @@
 
 1300019 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -262,8 +262,8 @@
 
 1300020 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -275,8 +275,8 @@
 
 1300021 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="jebbilencia"
+	culture="eriset"
 
 	1162.12.20 = {
 		birth=yes
@@ -288,8 +288,8 @@
 
 1300022 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -301,8 +301,8 @@
 
 1300023 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes
@@ -314,8 +314,8 @@
 
 1300024 = {
 	name="template"
-	religion="inetsaret"
-	culture="morfis"
+	religion="sekisaret"
+	culture="apatol"
 
 	1162.12.20 = {
 		birth=yes

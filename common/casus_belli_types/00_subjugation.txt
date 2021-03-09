@@ -6,6 +6,7 @@
 		OR = {
 			has_government = tribal_government
 			AND = {
+				NOT = { has_religion = religion:zanadic_religion }
 				faith.religious_head = this
 				faith = { has_doctrine = doctrine_temporal_head }
 			}

@@ -183,7 +183,7 @@ reqonn_de_opulencia_religion = {
 
 	faiths = {
 		reqonn_de_opulencia = {
-			color = { 107 202 35 }
+			color = { 240 150 0 }
 			icon = orthodox
 
 

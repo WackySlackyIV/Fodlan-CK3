@@ -180,7 +180,7 @@ saatpra_daanav_religion = {
 
 
 		lmabhal = { #strenght, unity, development and legality
-			color = { 133 133 133 }
+			color = { 50 100 0 }
 			icon = ibadi_custom
 
 			holy_site = suvd
@@ -195,7 +195,7 @@ saatpra_daanav_religion = {
 		}
 
 		kamajorma = { #the power of love
-			color = { 133 133 133 }
+			color = { 191 75 154 }
 			icon = ibadi_custom
 
 			holy_site = suvd
@@ -211,7 +211,23 @@ saatpra_daanav_religion = {
 		}
 		
 		dinymori = { #war, conquest, blood and victory
-			color = { 133 133 133 }
+			color = { 161 110 0 }
+			icon = ibadi_custom
+
+			holy_site = khoshu
+			
+			doctrine = tenet_adaptive
+			doctrine = tenet_warmonger
+			doctrine = tenet_sky_burials
+			doctrine = tenet_baildatyn_tsus
+
+			doctrine = doctrine_deviancy_accepted
+			doctrine = doctrine_clerical_function_recruitment
+
+		}
+
+		kreasti = { #pre-horde invasion
+			color = { 145 145 105 }
 			icon = ibadi_custom
 
 			holy_site = khoshu

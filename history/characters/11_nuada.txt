@@ -1,6 +1,6 @@
 ﻿1100000 = {
 	name = "Hakon"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 	
 	trait = compassionate
@@ -20,7 +20,7 @@
 
 1100001 = {
 	name = "Kadal"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 
 	trait = shy
@@ -40,7 +40,7 @@
 
 1100002 = {
 	name = "Samuel" #its the malta like place, and he's based on Softy
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 	
 	trait = lustful
@@ -59,7 +59,7 @@
 
 1100003 = {
 	name = "template"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 
 	1162.6.9 = {
@@ -73,7 +73,7 @@
 
 1100004 = {
 	name = "template"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 
 	1162.6.9 = {
@@ -87,7 +87,7 @@
 
 1100005 = {
 	name = "template"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 
 	1162.6.9 = {
@@ -101,7 +101,7 @@
 
 1100006 = {
 	name = "template"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 
 	1162.6.9 = {
@@ -115,7 +115,7 @@
 
 1100007 = {
 	name = "template"
-	religion = "pantheon_faith"
+	religion = "comunetian_faith"
 	culture = "nuadan"
 
 	1162.6.9 = {

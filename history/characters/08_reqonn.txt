@@ -390,7 +390,7 @@
 
 800012 = {
 	name = "Gascon"
-	religion = "reqonn_de_opulencia"
+	religion = "jebbilencia"
 	culture = "reqonese"
 
 	trait = lustful
@@ -410,7 +410,7 @@
 
 800013 = {
 	name = "Castelleta"
-	religion = "reqonn_de_opulencia"
+	religion = "jebbilencia"
 	culture = "reqonese"
 	female = yes
 

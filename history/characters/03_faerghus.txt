@@ -2758,7 +2758,7 @@
 
 300116 = { #gladia and nazer
 	name="Gabi" 
-	religion="seirosite"
+	religion="iarthairic"
 	culture="high_fodlan"
 	dynasty= 251
 	female = yes
@@ -2773,7 +2773,7 @@
 
 300117 = { #gladia and nazer
 	name="Kaya" 
-	religion="seirosite"
+	religion="iarthairic"
 	culture="high_fodlan"
 	dynasty=251
 

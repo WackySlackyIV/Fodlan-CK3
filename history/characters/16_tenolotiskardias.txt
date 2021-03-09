@@ -1,7 +1,7 @@
 ﻿1600000 = {
 	name="100"
 	religion="tenolotiskardias_faith"
-	culture="dantan"
+	culture="shangranla"
 
 	1162.12.20 = {
 		birth=yes
@@ -14,7 +14,7 @@
 1600001 = {
 	name="template"
 	religion="tenolotiskardias_faith"
-	culture="dantan"
+	culture="shangranla"
 
 	1162.12.20 = {
 		birth=yes
@@ -27,7 +27,7 @@
 1600002 = {
 	name="template"
 	religion="tenolotiskardias_faith"
-	culture="dantan"
+	culture="shangranla"
 
 	1162.12.20 = {
 		birth=yes
@@ -40,7 +40,7 @@
 1600003 = {
 	name="template"
 	religion="tenolotiskardias_faith"
-	culture="dantan"
+	culture="shangranla"
 
 	1162.12.20 = {
 		birth=yes

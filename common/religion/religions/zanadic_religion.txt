@@ -298,7 +298,7 @@
 			doctrine = special_doctrine_ecumenical_zanadic
 		}
 		ablehnist = {
-			color = { 203 79 79 }
+			color = { 150 30 30 }
 			icon = germanic
 
 			holy_site = mor_enbarr

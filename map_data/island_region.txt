@@ -7,3 +7,141 @@
 #	duchies = { }, takes county title names declared in landed_titles.txt
 #	counties = { }, takes county title names declared in landed_titles.txt
 #	provinces = { }, takes province id numbers declared in /history/provinces
+
+island_hauger = {
+	counties = {
+		c_hauger 
+	}
+}
+
+island_innraborg = {
+	counties = {
+		c_innraborg
+	}
+}
+
+island_atlam = {
+	counties = {
+		c_atlam
+	}
+}
+
+island_nuada = {
+	counties = {
+		c_giura c_campovasto
+	}
+	duchies = {
+		d_argovia d_turgovia d_madulain
+	}
+}
+
+island_albinea = {
+	duchies = {
+		d_amarok d_natwash d_kaipokok d_akuat d_makkovik d_katmuk d_wabunaki d_shehshat
+	}
+}
+
+island_ebhisa = {
+	duchies = {
+		d_ebhisa
+	}
+}
+
+island_madhorca = {
+	duchies = {
+		d_madhorca
+	}
+}
+
+island_midhorca = {
+	duchies = {
+		d_midhorca
+	}
+}
+
+island_banten = {
+	counties = {
+		c_banten
+	}
+}
+
+island_brigid = {
+	counties = {
+		c_lembak
+	}
+	duchies = {
+		d_bholcanach d_aedach d_grannach d_seultach
+	}
+}
+
+island_gear = {
+	counties = {
+		c_gearr
+	}
+}
+
+island_dubh = {
+	counties = {
+		c_dubh
+	}
+}
+
+island_fhada = {
+	counties = {
+		c_fhada
+	}
+}
+
+island_hobart = {
+	counties = {
+		c_hobart
+	}
+}
+
+island_ewan = {
+	counties = {
+		c_ewan
+	}
+}
+
+island_athair_mor = {
+	duchies = {
+		d_athair_mor
+	}
+}
+
+island_mach = {
+	duchies = {
+		d_gearga d_motidha
+	}
+}
+
+island_rugen = {
+	duchies = {
+		d_rugen
+	}
+}
+
+island_reqonn = {
+	duchies = {
+		d_bugia d_arcila
+	}
+}
+
+island_shubat = {
+	counties = {
+		c_shubat
+	}
+}
+
+island_murkesh = {
+	counties = {
+		c_murkesh
+	}
+}
+
+island_chagar = {
+	counties = {
+		c_chagar
+	}
+}

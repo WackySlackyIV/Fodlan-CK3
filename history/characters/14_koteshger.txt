@@ -1,7 +1,7 @@
 ﻿1400000 = {
 	name="66"
 	religion="dinymori"
-	culture="dantan"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -14,7 +14,7 @@
 1400001 = {
 	name="67"
 	religion="dinymori"
-	culture="dantan"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -27,7 +27,7 @@
 1400002 = {
 	name="68"
 	religion="dinymori"
-	culture="dantan"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -40,7 +40,7 @@
 1400003 = {
 	name="69"
 	religion="dinymori"
-	culture="dantan"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -51,9 +51,13 @@
 }
 
 1400004 = {
-	name="70" #strongest man of the east
+	name="Sattar" #strongest man of the east
 	religion="dinymori"
-	culture="dantan"
+	culture="ikhtin"
+	dynasty = 1400
+	
+	martial = 12
+	prowess = 20
 
 	1162.12.20 = {
 		birth=yes
@@ -66,7 +70,7 @@
 1400005 = {
 	name="71"
 	religion="dinymori"
-	culture="dantan"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -79,7 +83,7 @@
 1400006 = {
 	name="85"
 	religion="dinymori"
-	culture="dantan"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -92,7 +96,7 @@
 1400007 = {
 	name="86"
 	religion="dinymori"
-	culture="dantan"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -106,8 +110,8 @@
 
 1400008 = {
 	name="87"
-	religion="lmabhal"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -119,7 +123,7 @@
 
 1400009 = {
 	name="88"
-	religion="lmabhal"
+	religion="dinymori"
 	culture="dantan"
 
 	1162.12.20 = {
@@ -132,7 +136,7 @@
 
 1400010 = {
 	name="89"
-	religion="lmabhal"
+	religion="kamajorma"
 	culture="dantan"
 
 	1162.12.20 = {
@@ -171,8 +175,8 @@
 
 1400013 = {
 	name="92"
-	religion="lmabhal"
-	culture="dantan"
+	religion="dinymori"
+	culture="sangpuri"
 
 	1162.12.20 = {
 		birth=yes
@@ -184,8 +188,8 @@
 
 1400014 = {
 	name="93"
-	religion="lmabhal"
-	culture="dantan"
+	religion="dinymori"
+	culture="sangpuri"
 
 	1162.12.20 = {
 		birth=yes
@@ -197,8 +201,8 @@
 
 1400015 = {
 	name="94"
-	religion="lmabhal"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes
@@ -212,8 +216,8 @@
 
 1400016 = {
 	name="95"
-	religion="kamajorma"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes
@@ -225,8 +229,8 @@
 
 1400017 = {
 	name="96"
-	religion="kamajorma"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes
@@ -238,8 +242,8 @@
 
 1400018 = {
 	name="97"
-	religion="kamajorma"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes
@@ -251,8 +255,8 @@
 
 1400019 = {
 	name="98"
-	religion="kamajorma"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes
@@ -264,8 +268,8 @@
 
 1400020 = {
 	name="99"
-	religion="kamajorma"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes
@@ -277,8 +281,8 @@
 
 1400021 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -290,8 +294,8 @@
 
 1400022 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -303,8 +307,8 @@
 
 1400023 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -316,8 +320,8 @@
 
 1400024 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -329,8 +333,8 @@
 
 1400025 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -342,8 +346,8 @@
 
 1400026 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -355,8 +359,8 @@
 
 1400027 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -368,8 +372,8 @@
 
 1400028 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -381,8 +385,8 @@
 
 1400029 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -394,8 +398,8 @@
 
 1400030 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -407,8 +411,8 @@
 
 1400031 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -420,8 +424,8 @@
 
 1400032 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="ikhtin"
 
 	1162.12.20 = {
 		birth=yes
@@ -433,8 +437,8 @@
 
 1400033 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="angma"
 
 	1162.12.20 = {
 		birth=yes
@@ -446,7 +450,7 @@
 
 1400034 = {
 	name="template"
-	religion="kamajorma"
+	religion="lmabhal"
 	culture="dantan"
 
 	1162.12.20 = {
@@ -459,7 +463,7 @@
 
 1400035 = {
 	name="template"
-	religion="kamajorma"
+	religion="lmabhal"
 	culture="dantan"
 
 	1162.12.20 = {
@@ -472,7 +476,7 @@
 
 1400036 = {
 	name="template"
-	religion="kamajorma"
+	religion="lmabhal"
 	culture="dantan"
 
 	1162.12.20 = {
@@ -485,7 +489,7 @@
 
 1400037 = {
 	name="template"
-	religion="kamajorma"
+	religion="lmabhal"
 	culture="dantan"
 
 	1162.12.20 = {
@@ -498,8 +502,8 @@
 
 1400038 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="dinymori"
+	culture="sangpuri"
 
 	1162.12.20 = {
 		birth=yes
@@ -511,8 +515,8 @@
 
 1400039 = {
 	name="template"
-	religion="kamajorma"
-	culture="dantan"
+	religion="kreasti"
+	culture="chakhtami"
 
 	1162.12.20 = {
 		birth=yes

@@ -112,7 +112,7 @@
 700006 = {
 	name="Heydar" #2
 	religion="beyazisma"
-	culture="lianese"
+	culture="shunish"
 	dynasty = 702
 
 	1155.1.17 = {
@@ -409,7 +409,7 @@
 700027 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="shunish"
 
 	1157.6.22 = {
 		birth=yes
@@ -425,8 +425,8 @@
 
 710001 = {
 	name="15"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -453,7 +453,7 @@
 710003 = {
 	name="18"
 	religion="kizilisma"
-	culture="almyran"
+	culture="pamese"
 
 	1121.6.22 = {
 		birth=yes
@@ -466,7 +466,7 @@
 710004 = {
 	name="19"
 	religion="kizilisma"
-	culture="almyran"
+	culture="pamese"
 
 	1121.6.22 = {
 		birth=yes
@@ -479,7 +479,7 @@
 710005 = {
 	name="20"
 	religion="kizilisma"
-	culture="almyran"
+	culture="pamese"
 
 	1121.6.22 = {
 		birth=yes
@@ -491,8 +491,8 @@
 
 710006 = {
 	name="21"
-	religion="kizilisma"
-	culture="almyran"
+	religion="denizavi"
+	culture="pamese"
 
 	1121.6.22 = {
 		birth=yes
@@ -504,8 +504,8 @@
 
 710007 = {
 	name="22"
-	religion="kizilisma"
-	culture="almyran"
+	religion="denizavi"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -517,8 +517,8 @@
 
 710008 = {
 	name="23"
-	religion="kizilisma"
-	culture="almyran"
+	religion="denizavi"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -543,8 +543,8 @@
 
 710010 = { #koshdara en shekaft
 	name="random 6"
-	religion="kizilisma"
-	culture="almyran"
+	religion="denizavi"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -557,7 +557,7 @@
 710011 = { #vajim
 	name="random 7"
 	religion="kizilisma"
-	culture="almyran"
+	culture="pamese"
 
 	1121.6.22 = {
 		birth=yes
@@ -570,7 +570,7 @@
 710012 = { #zebrud
 	name="random 8"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -583,7 +583,7 @@
 710013 = { #barnajjiye
 	name="random 9"
 	religion="kizilisma"
-	culture="almyran"
+	culture="pamese"
 
 	1121.6.22 = {
 		birth=yes
@@ -600,7 +600,7 @@
 720000 = {
 	name="Ilkan"
 	religion="denizavi"
-	culture="almyran"
+	culture="atran"
 	dynasty = 700
 	dynasty_house = house_khalediglu
 
@@ -633,7 +633,7 @@
 720001 = {
 	name="25"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -646,7 +646,7 @@
 720002 = {
 	name="26"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -659,7 +659,7 @@
 720003 = {
 	name="27"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -672,7 +672,7 @@
 720004 = {
 	name="29"
 	religion="kizilisma"
-	culture="almyran"
+	culture="imrudi"
 
 	1121.6.22 = {
 		birth=yes
@@ -685,7 +685,7 @@
 720005 = {
 	name="30"
 	religion="kizilisma"
-	culture="almyran"
+	culture="jibadi"
 
 	1121.6.22 = {
 		birth=yes
@@ -697,8 +697,8 @@
 
 720006 = {
 	name="31"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="jibadi"
 
 	1121.6.22 = {
 		birth=yes
@@ -710,8 +710,8 @@
 
 720007 = {
 	name="32"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -723,8 +723,8 @@
 
 720008 = {
 	name="33"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -737,7 +737,7 @@
 720009 = {
 	name="51"
 	religion="kizilisma"
-	culture="almyran"
+	culture="jibadi"
 
 	1121.6.22 = {
 		birth=yes
@@ -750,7 +750,7 @@
 720010 = {
 	name="52"
 	religion="kizilisma"
-	culture="almyran"
+	culture="jibadi"
 
 	1121.6.22 = {
 		birth=yes
@@ -763,7 +763,7 @@
 720011 = {
 	name="53"
 	religion="kizilisma"
-	culture="almyran"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -776,7 +776,7 @@
 720012 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -789,7 +789,7 @@
 720013 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -802,7 +802,7 @@
 720014 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="atran"
 
 	1121.6.22 = {
 		birth=yes
@@ -814,8 +814,8 @@
 
 720015 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="jibadi"
 
 	1121.6.22 = {
 		birth=yes
@@ -844,8 +844,8 @@
 
 730001 = {
 	name="34"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -858,7 +858,7 @@
 730002 = {
 	name="35"
 	religion="kizilisma"
-	culture="almyran"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -872,7 +872,7 @@
 730003 = {
 	name="36"
 	religion="kizilisma"
-	culture="almyran"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -885,8 +885,8 @@
 
 730004 = {
 	name="38"
-	religion="kizilisma"
-	culture="almyran"
+	religion="siyakara"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -912,7 +912,7 @@
 730006 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -969,7 +969,7 @@
 740001 = {
 	name="46"
 	religion="kizilisma"
-	culture="almyran"
+	culture="inevhan"
 
 	1121.6.22 = {
 		birth=yes
@@ -1000,7 +1000,7 @@
 740003 = {
 	name="48"
 	religion="kizilisma"
-	culture="almyran"
+	culture="imrudi"
 
 	1121.6.22 = {
 		birth=yes
@@ -1012,8 +1012,8 @@
 
 740004 = {
 	name="49"
-	religion="kizilisma"
-	culture="almyran"
+	religion="denizavi"
+	culture="imrudi"
 
 	1121.6.22 = {
 		birth=yes
@@ -1025,8 +1025,8 @@
 
 740005 = {
 	name="50"
-	religion="kizilisma"
-	culture="almyran"
+	religion="denizavi"
+	culture="imrudi"
 
 	1121.6.22 = {
 		birth=yes
@@ -1040,7 +1040,7 @@
 740006 = {
 	name = "Artonio"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	dynasty = 133
 
@@ -1058,7 +1058,7 @@
 740007 = {
 	name = "Artonio"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	dynasty = 133
 
@@ -1085,7 +1085,7 @@
 740008 = {
 	name = "Oscar"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	dynasty = 237
 
@@ -1103,7 +1103,7 @@
 740009 = {
 	name = "template"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1115,8 +1115,8 @@
 
 740010 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "denizavi"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1129,7 +1129,7 @@
 740011 = {
 	name = "template"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1141,8 +1141,8 @@
 
 740012 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "denizavi"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1155,7 +1155,7 @@
 740013 = {
 	name = "template"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1168,7 +1168,7 @@
 740014 = {
 	name = "template"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1180,8 +1180,8 @@
 
 740015 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "karakaya"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1193,8 +1193,8 @@
 
 740016 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "karakaya"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1206,8 +1206,8 @@
 
 740017 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "karakaya"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1219,8 +1219,8 @@
 
 740018 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "karakaya"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1233,7 +1233,7 @@
 740019 = {
 	name = "template"
 	religion = "siyakara"
-	culture = "leicester"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1245,8 +1245,8 @@
 
 740020 = {
 	name = "template"
-	religion = "siyakara"
-	culture = "leicester"
+	religion = "karakaya"
+	culture = "imrudi"
 
 	1158.8.12 = {
 		birth = yes
@@ -1262,8 +1262,8 @@
 
 750000 = {
 	name="37"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="harika"
 
 	1121.6.22 = {
 		birth=yes
@@ -1276,7 +1276,7 @@
 750001 = {
 	name="39"
 	religion="kizilisma"
-	culture="almyran"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1288,8 +1288,8 @@
 
 750002 = {
 	name="40"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1302,7 +1302,7 @@
 750003 = {
 	name="41"
 	religion="kizilisma"
-	culture="almyran"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1314,8 +1314,8 @@
 
 750004 = {
 	name="42"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1327,8 +1327,8 @@
 
 750005 = {
 	name="43"
-	religion="kizilisma"
-	culture="almyran"
+	religion="beyazisma"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1340,8 +1340,8 @@
 
 750006 = {
 	name="44"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1353,8 +1353,8 @@
 
 750007 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1366,8 +1366,8 @@
 
 750008 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1380,7 +1380,7 @@
 750009 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="lianese"
 
 	1121.6.22 = {
 		birth=yes
@@ -1392,8 +1392,8 @@
 
 750010 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1410,8 +1410,8 @@
 
 760000 = {
 	name="45"
-	religion="kizilisma"
-	culture="almyran"
+	religion="karakaya"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1424,7 +1424,7 @@
 760001 = {
 	name="54"
 	religion="kizilisma"
-	culture="almyran"
+	culture="inevhan"
 
 	1121.6.22 = {
 		birth=yes
@@ -1436,8 +1436,8 @@
 
 760002 = {
 	name="55"
-	religion="kizilisma"
-	culture="almyran"
+	religion="karakaya"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1449,7 +1449,7 @@
 
 
 760003 = {
-	name="57"
+	name="57" ##### UNLANDED 
 	religion="kizilisma"
 	culture="almyran"
 
@@ -1463,8 +1463,8 @@
 
 760004 = {
 	name="58"
-	religion="kizilisma"
-	culture="almyran"
+	religion="karakaya"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1476,8 +1476,8 @@
 
 760005 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="karakaya"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1490,7 +1490,20 @@
 760006 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="inevhan"
+
+	1121.6.22 = {
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+760007 = {
+	name="template"
+	religion="kizilisma"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1506,7 +1519,7 @@
 770000 = {
 	name="59"
 	religion="kizilisma"
-	culture="almyran"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1518,8 +1531,8 @@
 
 770001 = {
 	name="60"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1532,7 +1545,7 @@
 770002 = {
 	name="61"
 	religion="kizilisma"
-	culture="almyran"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1544,8 +1557,8 @@
 
 770003 = {
 	name="62"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1558,7 +1571,7 @@
 770004 = {
 	name="63"
 	religion="kizilisma"
-	culture="almyran"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1570,8 +1583,8 @@
 
 770005 = {
 	name="Selma"
-	religion="kizilisma"
-	culture="lianese"
+	religion="dogasil"
+	culture="denatlar"
 	female = yes
 
 	trait = ember
@@ -1589,8 +1602,8 @@
 
 770006 = {
 	name="65"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1603,7 +1616,7 @@
 770007 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1615,8 +1628,8 @@
 
 770008 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1629,7 +1642,7 @@
 770009 = {
 	name="template"
 	religion="kizilisma"
-	culture="almyran"
+	culture="denatlar"
 
 	1121.6.22 = {
 		birth=yes
@@ -1641,8 +1654,8 @@
 
 770010 = {
 	name="template"
-	religion="kizilisma"
-	culture="almyran"
+	religion="dogasil"
+	culture="kudamlar"
 
 	1121.6.22 = {
 		birth=yes

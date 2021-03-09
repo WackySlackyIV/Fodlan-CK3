@@ -5,4 +5,31 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 529;93;river_large;2063;-1;-1;-1;-1;ordelia bridge
 835;362;river_large;2069;-1;-1;-1;-1;empire-kingdom bridge
 818;459;river_large;2070;-1;-1;-1;-1;west chuch bridge
+942;943;sea;2011;-1;-1;-1;-1;brigid strait
+944;943;sea;2011;-1;-1;-1;-1;brigid strait
+937;946;sea;2022;-1;-1;-1;-1;brigid strait
+947;946;sea;2022;-1;-1;-1;-1;brigid strait
+890;891;sea;2025;-1;-1;-1;-1;brigid strait
+893;894;sea;2025;-1;-1;-1;-1;brigid strait
+893;898;sea;2025;-1;-1;-1;-1;brigid strait
+979;973;sea;2004;-1;-1;-1;-1;brigid strait
+961;964;sea;2006;-1;-1;-1;-1;brigid strait
+1013;1015;sea;1995;-1;-1;-1;-1;mach strait
+1080;1060;sea;2049;-1;-1;-1;-1;sreng strait
+130;134;sea;2051;-1;-1;-1;-1;leicester strait
+407;411;sea;2044;-1;-1;-1;-1;brume strait
+412;411;sea;2044;-1;-1;-1;-1;brume strait
+412;410;sea;2044;-1;-1;-1;-1;brume strait
+413;414;sea;2044;-1;-1;-1;-1;brume strait
+190;414;sea;2044;-1;-1;-1;-1;brume strait
+1377;1316;sea;1970;-1;-1;-1;-1;almyra strait
+1188;1191;sea;1985;-1;-1;-1;-1;morfis strait
+1189;1194;sea;1985;-1;-1;-1;-1;morfis strait
+1189;1190;sea;1985;-1;-1;-1;-1;morfis strait
+1169;1170;sea;1977;-1;-1;-1;-1;reqonn strait
+1802;1812;river_large;2075;-1;-1;-1;-1;kotesh delta bridge
+1804;1824;river_large;2074;-1;-1;-1;-1;kotesh delta bridge
+1803;1808;river_large;2073;-1;-1;-1;-1;kotesh delta bridge
+1809;1817;river_large;2076;-1;-1;-1;-1;kotesh delta bridge
+1915;1889;sea;1948;-1;-1;-1;-1;shangrila
 -1;-1;;-1;-1;-1;-1;-1;

@@ -9,7 +9,7 @@ e_dummy = {
               capital = c_garreg_mach
               
               k_church = {
-                            color = { 100 100 100 }
+                            color = { 100 100 100 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_garreg_mach
@@ -458,7 +458,7 @@ e_dummy = {
               }
               
               k_duscur = {
-                            color = { 99 77 59 }
+                            color = { 99 77 59 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_kleiman
@@ -662,7 +662,7 @@ e_dummy = {
               }
               
               k_sreng = {
-                            color = { 196 163 114 }
+                            color = { 196 163 114 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_erobring
@@ -1502,7 +1502,7 @@ e_dummy = {
               }
               
               k_nuada = {
-                            color = { 161 63 39 }
+                            color = { 161 63 39 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_friboro
@@ -1861,15 +1861,15 @@ e_dummy = {
               
 }
 
-e_adrestia = {
-              color = { 121 18 39 }
+e_adrestia = { 
+              color = { 121 18 39 } #KEEPTHISCOLOUR
               color2 = { 255 255 255 }
 			  definite_form = yes
               
               capital = c_enbarr
               
               k_leicester = {
-                            color = { 227 177 41 }
+                            color = { 227 177 41 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
 							definite_form = yes
                             
@@ -3494,7 +3494,7 @@ e_adrestia = {
               }
               
               k_faerghus = {
-                            color = { 23 87 191 }
+                            color = { 23 87 191 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
 							definite_form = yes
                             
@@ -6073,7 +6073,7 @@ e_adrestia = {
               }
               
               k_adrestia = {
-                            color = { 121 18 39 }
+                            color = { 121 18 39 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_enbarr
@@ -8437,7 +8437,7 @@ e_adrestia = {
               }
               
               k_fangs = {
-                            color = { 99 26 22 }
+                            color = { 99 26 22 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_reiss
@@ -10311,13 +10311,13 @@ e_adrestia = {
 }
 
 e_brigid = {
-              color = { 179 63 167 }
+              color = { 179 63 167 } #KEEPTHISCOLOUR
               color2 = { 255 255 255 }
               
               capital = c_forrad
               
               k_brigid = {
-                            color = { 142 77 110 }
+                            color = { 142 77 110 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_forrad
@@ -11585,7 +11585,7 @@ e_brigid = {
               }
               
               k_mach = {
-                            color = { 66 36 74 }
+                            color = { 66 36 74 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_syrako
@@ -11799,7 +11799,7 @@ e_brigid = {
 }
 
 e_albinea = {
-              color = { 139 166 116 }
+              color = { 139 166 116 } #KEEPTHISCOLOUR
               color2 = { 255 255 255 }
               
               capital = c_baddek
@@ -12479,25 +12479,25 @@ e_albinea = {
 }
 
 e_morfis = {
-              color = { 44 125 62 }
+	color = { 44 125 62 }
               color2 = { 255 255 255 }
               
               capital = c_per_hekau
               
               k_reqonn = {
-                            color = { 224 109 20 }
+		color = { 224 109 20 }
                             color2 = { 255 255 255 }
                             
                             capital = c_estiria
                             
                             d_bugia = {
-                                          color = { 240 95 20 }
+			color = { 254 54 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_estiria
                                           
                                           c_estiria = {
-                                                        color = { 240 95 20 }
+				color = { 254 11 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_estiria = {
@@ -12527,7 +12527,7 @@ e_morfis = {
                                           }
                                           
                                           c_claraval = {
-                                                        color = { 240 95 0 }
+				color = { 254 98 48 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_claraval = {
@@ -12549,7 +12549,7 @@ e_morfis = {
                                           }
                                           
                                           c_ruan = {
-                                                        color = { 244 95 5 }
+				color = { 230 80 25 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_ruan = {
@@ -12573,13 +12573,13 @@ e_morfis = {
                             }
                             
                             d_arcila = {
-                                          color = { 246 98 7 }
+			color = { 254 129 54 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_escania
                                           
                                           c_escania = {
-                                                        color = { 246 98 7 }
+				color = { 251 147 106 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_escania = {
@@ -12601,7 +12601,7 @@ e_morfis = {
                                           }
                                           
                                           c_capaz = {
-                                                        color = { 250 105 10 }
+				color = { 254 153 89 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_capaz = {
@@ -12627,19 +12627,19 @@ e_morfis = {
               }
               
               k_erisad = {
-                            color = { 71 168 97 }
+		color = { 1 102 1 }
                             color2 = { 255 255 255 }
                             
                             capital = c_murkesh
                             
                             d_ur_azu = {
-                                          color = { 133 247 17 }
+			color = { 78 93 23 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_murkesh
                                           
                                           c_murkesh = {
-                                                        color = { 133 247 17 }
+				color = { 60 86 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_murkesh = {
@@ -12677,7 +12677,7 @@ e_morfis = {
                                           }
                                           
                                           c_chagar = {
-                                                        color = { 135 245 15 }
+				color = { 81 88 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_chagar = {
@@ -12707,7 +12707,7 @@ e_morfis = {
                                           }
                                           
                                           c_shubat = {
-                                                        color = { 140 240 10 }
+				color = { 59 96 23 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_shubat = {
@@ -12731,13 +12731,13 @@ e_morfis = {
                             }
                             
                             d_per_shamash = {
-                                          color = { 140 235 10 }
+			color = { 56 101 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_nereb
                                           
                                           c_nereb = {
-                                                        color = { 140 235 10 }
+				color = { 37 91 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_nereb = {
@@ -12759,7 +12759,7 @@ e_morfis = {
                                           }
                                           
                                           c_arad = {
-                                                        color = { 125 255 15 }
+				color = { 1 107 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_arad = {
@@ -12783,13 +12783,13 @@ e_morfis = {
                             }
                             
                             d_dur_zisurru = {
-                                          color = { 168 250 86 }
+			color = { 80 124 9 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_rashnagar
                                           
                                           c_rashnagar = {
-                                                        color = { 168 250 86 }
+				color = { 96 121 63 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_rashnagar = {
@@ -12811,7 +12811,7 @@ e_morfis = {
                                           }
                                           
                                           c_terkah = {
-                                                        color = { 165 245 85 }
+				color = { 61 106 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_terkah = {
@@ -12833,7 +12833,7 @@ e_morfis = {
                                           }
                                           
                                           c_reket = {
-                                                        color = { 160 255 90 }
+				color = { 60 121 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_reket = {
@@ -12849,13 +12849,13 @@ e_morfis = {
                             }
                             
                             d_enlil_arbid = {
-                                          color = { 160 240 95 }
+			color = { 1 93 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_gibeza
                                           
                                           c_gibeza = {
-                                                        color = { 160 240 95 }
+				color = { 1 103 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_gibeza = {
@@ -12877,7 +12877,7 @@ e_morfis = {
                                           }
                                           
                                           c_qito = {
-                                                        color = { 180 250 75 }
+				color = { 53 104 30 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_akhotep = {
@@ -12907,7 +12907,7 @@ e_morfis = {
                                           }
                                           
                                           c_wadjish = {
-                                                        color = { 160 240 75 }
+				color = { 1 108 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_wadjish = {
@@ -12923,13 +12923,13 @@ e_morfis = {
                             }
                             
                             d_basset_marduk = {
-                                          color = { 140 255 100 }
+			color = { 1 86 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_klito
                                           
                                           c_klito = {
-                                                        color = { 140 255 100 }
+				color = { 1 90 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_klito = {
@@ -12951,7 +12951,7 @@ e_morfis = {
                                           }
                                           
                                           c_pthubat = {
-                                                        color = { 130 255 95 }
+				color = { 1 90 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_pthubat = {
@@ -12973,7 +12973,7 @@ e_morfis = {
                                           }
                                           
                                           c_tarminhor = {
-                                                        color = { 150 245 110 }
+				color = { 1 96 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_tarminhor = {
@@ -12999,19 +12999,19 @@ e_morfis = {
               }
               
               k_apatis = {
-                            color = { 44 125 62 }
+		color = { 1 112 1 }
                             color2 = { 255 255 255 }
                             
                             capital = c_per_hekau
                             
                             d_niwt_hekau = {
-                                          color = { 125 230 33 }
+			color = { 80 105 45 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_per_hekau
                                           
                                           c_per_hekau = {
-                                                        color = { 125 230 33 }
+				color = { 58 102 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_per_hekau = {
@@ -13057,7 +13057,7 @@ e_morfis = {
                                           }
                                           
                                           c_djeb = {
-                                                        color = { 250 238 40 }
+				color = { 72 88 35 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_djeb = {
@@ -13087,7 +13087,7 @@ e_morfis = {
                                           }
                                           
                                           c_hakur = {
-                                                        color = { 130 235 34 }
+				color = { 92 106 72 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_hakur = {
@@ -13109,7 +13109,7 @@ e_morfis = {
                                           }
                                           
                                           c_enlil = {
-                                                        color = { 184 225 112 }
+				color = { 82 107 26 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_enlil = {
@@ -13141,13 +13141,13 @@ e_morfis = {
                             }
                             
                             d_per_mardak = {
-                                          color = { 190 231 118 }
+			color = { 18 120 63 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_duramon
                                           
                                           c_duramon = {
-                                                        color = { 190 231 118 }
+				color = { 45 135 96 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_duramon = {
@@ -13169,7 +13169,7 @@ e_morfis = {
                                           }
                                           
                                           c_senethis = {
-                                                        color = { 115 155 45 }
+				color = { 54 117 39 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_senethis = {
@@ -13193,13 +13193,13 @@ e_morfis = {
                             }
                             
                             d_nagar_i_beydar = {
-                                          color = { 190 231 118 }
+			color = { 1 140 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_gebet
                                           
                                           c_gebet = {
-                                                        color = { 190 231 118 }
+				color = { 1 131 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_gebet = {
@@ -13229,7 +13229,7 @@ e_morfis = {
                                           }
                                           
                                           c_anat = {
-                                                        color = { 155 235 35}
+				color = { 1 139 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_anat = {
@@ -13251,7 +13251,7 @@ e_morfis = {
                                           }
                                           
                                           c_rubazzu = {
-                                                        color = { 152 233 33 }
+				color = { 61 127 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_rubazzu = {
@@ -13283,13 +13283,13 @@ e_morfis = {
                             }
                             
                             d_hom_karanah = {
-                                          color = { 150 230 30 }
+			color = { 1 97 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_isfet
                                           
                                           c_isfet = {
-                                                        color = { 150 230 30 }
+				color = { 1 88 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_isfet = {
@@ -13311,7 +13311,7 @@ e_morfis = {
                                           }
                                           
                                           c_waret = {
-                                                        color = { 140 230 35 }
+				color = { 38 89 20 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_waret = {
@@ -13333,7 +13333,7 @@ e_morfis = {
                                           }
                                           
                                           c_permakht = {
-                                                        color = { 145 225 25 }
+				color = { 1 79 8 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_permakht = {
@@ -13355,7 +13355,7 @@ e_morfis = {
                                           }
                                           
                                           c_bostrehwy = {
-                                                        color = { 140 240 30 }
+				color = { 46 86 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_bostrehwy = {
@@ -13379,13 +13379,13 @@ e_morfis = {
                             }
                             
                             d_bal_enlill = {
-                                          color = { 155 240 25 }
+			color = { 1 124 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_tjamut
                                           
                                           c_tjamut = {
-                                                        color = { 155 240 25 }
+				color = { 1 119 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_tjamut = {
@@ -13407,7 +13407,7 @@ e_morfis = {
                                           }
                                           
                                           c_shezzen = {
-                                                        color = { 160 245 35 }
+				color = { 1 122 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_shezzen = {
@@ -13431,13 +13431,13 @@ e_morfis = {
                             }
                             
                             d_nu_gazul = {
-                                          color = { 111 210 21 }
+			color = { 1 99 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_biguat
                                           
                                           c_biguat = {
-                                                        color = { 111 210 21 }
+				color = { 1 90 20 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_biguat = {
@@ -13459,7 +13459,7 @@ e_morfis = {
                                           }
                                           
                                           c_somenhor = {
-                                                        color = { 120 215 20 }
+				color = { 1 111 20 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_somenhor = {
@@ -13481,7 +13481,7 @@ e_morfis = {
                                           }
                                           
                                           c_ashur = {
-                                                        color = { 180 240 120 }
+				color = { 1 89 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_ashur = {
@@ -13497,13 +13497,13 @@ e_morfis = {
                             }
                             
                             d_atana_ili = {
-                                          color = { 175 245 125 }
+			color = { 1 145 1 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_kishnarru
                                           
                                           c_kishnarru = {
-                                                        color = { 175 245 125 }
+				color = { 74 156 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_kishnarru = {
@@ -13525,7 +13525,7 @@ e_morfis = {
                                           }
                                           
                                           c_zirhat = {
-                                                        color = { 182 241 122 }
+				color = { 1 156 53 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_zirhat = {
@@ -13551,19 +13551,19 @@ e_morfis = {
               }
               
               k_doleh = {
-                            color = { 105 125 39 }
+		color = { 1 157 105 }
                             color2 = { 255 255 255 }
                             
                             capital = c_barsarru
                             
                             d_gishkharbu_pass = {
-                                          color = { 105 125 39 }
+			color = { 88 140 116 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_khasut
                                           
                                           c_khasut = {
-                                                        color = { 185 245 125 }
+				color = { 83 137 127 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_khasut = {
@@ -13577,7 +13577,7 @@ e_morfis = {
                                           }
                                           
                                           c_gilganefer = {
-                                                        color = { 185 235 115 }
+				color = { 88 160 128 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_gilganefer = {
@@ -13593,13 +13593,13 @@ e_morfis = {
                             }
                             
                             d_gath_enfeh = {
-                                          color = { 178 233 117 }
+			color = { 78 172 90 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_khem
                                           
                                           c_khem = {
-                                                        color = { 178 233 117 }
+				color = { 99 155 98 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_khem = {
@@ -13621,7 +13621,7 @@ e_morfis = {
                                           }
                                           
                                           c_chadet = {
-                                                        color = { 175 246 120 }
+				color = { 1 163 85 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_chadet = {
@@ -13643,7 +13643,7 @@ e_morfis = {
                                           }
                                           
                                           c_sebeh = {
-                                                        color = { 55 144 95 }
+				color = { 17 158 44 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_sebeh = {
@@ -13675,13 +13675,13 @@ e_morfis = {
                             }
                             
                             d_nu_zau = {
-                                          color = { 75 114 90 }
+			color = { 71 137 116 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_burrukammu
                                           
                                           c_burrukammu = {
-                                                        color = { 75 114 90 }
+				color = { 105 138 119 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_burrukammu = {
@@ -13703,7 +13703,7 @@ e_morfis = {
                                           }
                                           
                                           c_amurri = {
-                                                        color = { 75 164 110 }
+				color = { 81 132 106 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_amurri = {
@@ -13719,13 +13719,13 @@ e_morfis = {
                             }
                             
                             d_abullu_barbu = {
-                                          color = { 175 245 125 }
+			color = { 1 177 109 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_abulmahhu
                                           
                                           c_abulmahhu = {
-                                                        color = { 175 245 125 }
+				color = { 1 181 116 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_abulmahhu = {
@@ -13747,7 +13747,7 @@ e_morfis = {
                                           }
                                           
                                           c_barsarru = {
-                                                        color = { 86 250 237 }
+				color = { 56 188 147 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_barsarru = {
@@ -13777,7 +13777,7 @@ e_morfis = {
                                           }
                                           
                                           c_abulanshu = {
-                                                        color = { 85 255 235 }
+				color = { 1 182 91 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_abulanshu = {
@@ -13801,13 +13801,13 @@ e_morfis = {
                             }
                             
                             d_dur_atum = {
-                                          color = { 85 250 250 }
+			color = { 1 158 51 }
                                           color2 = { 255 255 255 }
                                           
                                           capital = c_ennamhutep
                                           
                                           c_ennamhutep = {
-                                                        color = { 85 250 250 }
+				color = { 1 157 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_ennamhutep = {
@@ -13829,7 +13829,7 @@ e_morfis = {
                                           }
                                           
                                           c_ishthut = {
-                                                        color = { 80 250 230 }
+				color = { 1 152 1 }
                                                         color2 = { 255 255 255 }
                                                         
                                                         b_ishthut = {
@@ -13856,14 +13856,14 @@ e_morfis = {
               
 }
 
-e_al_mihra = {
-              color = { 61 54 26 }
+e_al_mihra = { 
+              color = { 61 54 26 } #KEEPTHISCOLOUR
               color2 = { 255 255 255 }
               
               capital = c_osul
               
               k_almyra = {
-                            color = { 61 54 26 }
+                            color = { 61 54 26 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_osul
@@ -16461,7 +16461,7 @@ e_al_mihra = {
               }
               
               k_takht_e_atar = {
-                            color = { 179 104 0 }
+                            color = { 179 104 0 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
                             capital = c_takht_e_khorsid
@@ -18791,7 +18791,7 @@ e_al_mihra = {
 }
 
 e_koteshger = {
-              color = { 252 186 3 }
+              color = { 252 186 3 } #KEEPTHISCOLOUR
               color2 = { 255 255 255 }
               
               capital = c_tszun
