@@ -3265,7 +3265,7 @@ elector_voting_pattern_alliance_elective_modifier = {
 			if = {
 				limit = {
 					scope:candidate = { 
-						has_trait = crest_minor_riegan
+						has_trait = crest_blood_riegan
 					}
 				}
 				add = 40
@@ -3273,10 +3273,18 @@ elector_voting_pattern_alliance_elective_modifier = {
 			if = {
 				limit = {
 					scope:candidate = { 
-						has_trait = crest_major_riegan
+						has_trait = crest_minor_riegan
 					}
 				}
 				add = 60
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_trait = crest_major_riegan
+					}
+				}
+				add = 80
 			}
 			if = {
 				limit = {

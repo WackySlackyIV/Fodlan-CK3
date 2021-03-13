@@ -832,3 +832,224 @@ crest_major_malik = {
 
 	desc = trait_crest_minor_seiros_desc
 }
+
+crest_blood_blaiddyd = {
+	index = 447
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_blaiddyd
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_charon = {
+	index = 448
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_charon
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_daphnel = {
+	index = 449
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_daphnel
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_dominic = {
+	index = 450
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_dominic
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_fraldarius = {
+	index = 451
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_fraldarius
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_gautier = {
+	index = 452
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_gautier
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_gloucester = {
+	index = 453
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_gloucester
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_goneril = {
+	index = 454
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_goneril
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_lamine = {
+	index = 455
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_lamine
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_riegan = {
+	index = 456
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_riegan
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_maurice = {
+	index = 457
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_maurice
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_cethleann = {
+	index = 458
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_cethleann
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_cichol = {
+	index = 459
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_cichol
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_indech = {
+	index = 460
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_indech
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_macuil = {
+	index = 461
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_macuil
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_aubin = {
+	index = 462
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_aubin
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_chevalier = {
+	index = 463
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_chevalier
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_noa = {
+	index = 464
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_noa
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_timotheos = {
+	index = 465
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_timotheos
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_flames = {
+	index = 466
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_flames
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_seiros = {
+	index = 467
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_seiros
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}
+crest_blood_ernest = {
+	index = 468
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_ernest
+	level = 3
+
+	desc = trait_crest_minor_seiros_desc
+}

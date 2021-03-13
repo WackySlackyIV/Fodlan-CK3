@@ -566,7 +566,7 @@
 	name="Yuri"
 	dna = dna_yuri
 	religion="seirosite"
-	culture="abyssian"
+	culture="faerghus"
 	dynasty=212
 	father = 300012
 	sexuality = heterosexual
@@ -611,7 +611,7 @@
 	name="Balthus"
 	dna = dna_balthus
 	religion="seirosite"
-	culture="abyssian"
+	culture="leicester"
 	dynasty=123
 	father = 200053
 	mother = 200054
@@ -668,7 +668,7 @@
 	name="Constance"
 	dna = dna_constance
 	religion="seirosite"
-	culture="abyssian"
+	culture="adrestian"
 	female = yes
 	dynasty = 326
 	father = 400171
@@ -724,7 +724,7 @@
 	name="Hapi"
 	dna = dna_hapi
 	religion="seirosite"
-	culture="abyssian"
+	culture="high_fodlan"
 	female = yes
 	sexuality = heterosexual
 

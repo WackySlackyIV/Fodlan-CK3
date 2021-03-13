@@ -1,0 +1,1723 @@
+﻿##########################
+###  Crest System 2.0  ###
+####   Steelkeep99    ####
+##########################
+
+namespace = FOD_crests
+
+
+FOD_crests.001 = { #Improved crest system
+	type = character_event
+	title = FOD_crests.001.t
+	desc = FOD_crests.001.desc
+	theme = pregnancy
+
+	trigger = {
+		OR = {
+			mother = { has_crest_potential = yes }
+			real_father = { has_crest_potential = yes }
+		}
+	}
+	
+	option = {
+		name = FOD_crests.001.a
+		random_list = { 
+			5 = { ##SEIROS
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_seiros }
+						real_father = { has_trait = crest_seiros }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_seiros }
+								real_father = { has_trait = crest_seiros }
+							}
+						}
+						add_trait = crest_minor_seiros 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_seiros }
+								real_father = { has_trait = crest_seiros }
+							}
+						}
+						add_trait = crest_major_seiros 
+					}
+					30 = { add_trait = crest_blood_seiros }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_seiros }
+								real_father = { has_trait = crest_seiros }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			5 = { ##FLAMES
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_flames }
+						real_father = { has_trait = crest_flames }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_flames }
+								real_father = { has_trait = crest_flames }
+							}
+						}
+						add_trait = crest_minor_flames 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_flames }
+								real_father = { has_trait = crest_flames }
+							}
+						}
+						add_trait = crest_major_flames 
+					}
+					30 = { add_trait = crest_blood_flames }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_flames }
+								real_father = { has_trait = crest_flames }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##MACUIL
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_macuil }
+						real_father = { has_trait = crest_macuil }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_macuil }
+								real_father = { has_trait = crest_macuil }
+							}
+						}
+						add_trait = crest_minor_macuil 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_macuil }
+								real_father = { has_trait = crest_macuil }
+							}
+						}
+						add_trait = crest_major_macuil 
+					}
+					30 = { add_trait = crest_blood_macuil }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_macuil }
+								real_father = { has_trait = crest_macuil }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##INDECH
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_indech }
+						real_father = { has_trait = crest_indech }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_indech }
+								real_father = { has_trait = crest_indech }
+							}
+						}
+						add_trait = crest_minor_indech 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_indech }
+								real_father = { has_trait = crest_indech }
+							}
+						}
+						add_trait = crest_major_indech 
+					}
+					30 = { add_trait = crest_blood_indech }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_indech }
+								real_father = { has_trait = crest_indech }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##CICHOL
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_cichol }
+						real_father = { has_trait = crest_cichol }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_cichol }
+								real_father = { has_trait = crest_cichol }
+							}
+						}
+						add_trait = crest_minor_cichol 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_cichol }
+								real_father = { has_trait = crest_cichol }
+							}
+						}
+						add_trait = crest_major_cichol 
+					}
+					30 = { add_trait = crest_blood_cichol }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_cichol }
+								real_father = { has_trait = crest_cichol }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##CETHLEANN
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_cethleann }
+						real_father = { has_trait = crest_cethleann }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_cethleann }
+								real_father = { has_trait = crest_cethleann }
+							}
+						}
+						add_trait = crest_minor_cethleann 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_cethleann }
+								real_father = { has_trait = crest_cethleann }
+							}
+						}
+						add_trait = crest_major_cethleann 
+					}
+					30 = { add_trait = crest_blood_cethleann }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_cethleann }
+								real_father = { has_trait = crest_cethleann }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##RIEGAN
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_riegan }
+						real_father = { has_trait = crest_riegan }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_riegan }
+								real_father = { has_trait = crest_riegan }
+							}
+						}
+						add_trait = crest_minor_riegan 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_riegan }
+								real_father = { has_trait = crest_riegan }
+							}
+						}
+						add_trait = crest_major_riegan 
+					}
+					30 = { add_trait = crest_blood_riegan }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_riegan }
+								real_father = { has_trait = crest_riegan }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##LAMINE
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_lamine }
+						real_father = { has_trait = crest_lamine }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_lamine }
+								real_father = { has_trait = crest_lamine }
+							}
+						}
+						add_trait = crest_minor_lamine 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_lamine }
+								real_father = { has_trait = crest_lamine }
+							}
+						}
+						add_trait = crest_major_lamine 
+					}
+					30 = { add_trait = crest_blood_lamine }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_lamine }
+								real_father = { has_trait = crest_lamine }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##GONERIL
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_goneril }
+						real_father = { has_trait = crest_goneril }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_goneril }
+								real_father = { has_trait = crest_goneril }
+							}
+						}
+						add_trait = crest_minor_goneril 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_goneril }
+								real_father = { has_trait = crest_goneril }
+							}
+						}
+						add_trait = crest_major_goneril 
+					}
+					30 = { add_trait = crest_blood_goneril }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_goneril }
+								real_father = { has_trait = crest_goneril }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##GLOUCESTER
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_gloucester }
+						real_father = { has_trait = crest_gloucester }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_gloucester }
+								real_father = { has_trait = crest_gloucester }
+							}
+						}
+						add_trait = crest_minor_gloucester 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_gloucester }
+								real_father = { has_trait = crest_gloucester }
+							}
+						}
+						add_trait = crest_major_gloucester 
+					}
+					30 = { add_trait = crest_blood_gloucester }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_gloucester }
+								real_father = { has_trait = crest_gloucester }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##GAUTIER
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_gautier }
+						real_father = { has_trait = crest_gautier }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_gautier }
+								real_father = { has_trait = crest_gautier }
+							}
+						}
+						add_trait = crest_minor_gautier 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_gautier }
+								real_father = { has_trait = crest_gautier }
+							}
+						}
+						add_trait = crest_major_gautier 
+					}
+					30 = { add_trait = crest_blood_gautier }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_gautier }
+								real_father = { has_trait = crest_gautier }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##FRALDARIUS
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_fraldarius }
+						real_father = { has_trait = crest_fraldarius }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_fraldarius }
+								real_father = { has_trait = crest_fraldarius }
+							}
+						}
+						add_trait = crest_minor_fraldarius 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_fraldarius }
+								real_father = { has_trait = crest_fraldarius }
+							}
+						}
+						add_trait = crest_major_fraldarius 
+					}
+					30 = { add_trait = crest_blood_fraldarius }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_fraldarius }
+								real_father = { has_trait = crest_fraldarius }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##DOMINIC
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_domenic }
+						real_father = { has_trait = crest_domenic }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_domenic }
+								real_father = { has_trait = crest_domenic }
+							}
+						}
+						add_trait = crest_minor_domenic 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_domenic }
+								real_father = { has_trait = crest_domenic }
+							}
+						}
+						add_trait = crest_major_domenic 
+					}
+					30 = { add_trait = crest_blood_charon }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_domenic }
+								real_father = { has_trait = crest_domenic }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##DAPHNEL
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_daphnel }
+						real_father = { has_trait = crest_daphnel }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_daphnel }
+								real_father = { has_trait = crest_daphnel }
+							}
+						}
+						add_trait = crest_minor_daphnel 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_daphnel }
+								real_father = { has_trait = crest_daphnel }
+							}
+						}
+						add_trait = crest_major_daphnel 
+					}
+					30 = { add_trait = crest_blood_daphnel }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_daphnel }
+								real_father = { has_trait = crest_daphnel }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##CHARON
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_charon }
+						real_father = { has_trait = crest_charon }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_charon }
+								real_father = { has_trait = crest_charon }
+							}
+						}
+						add_trait = crest_minor_charon 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_charon }
+								real_father = { has_trait = crest_charon }
+							}
+						}
+						add_trait = crest_major_charon 
+					}
+					30 = { add_trait = crest_blood_charon }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_charon }
+								real_father = { has_trait = crest_charon }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##BLAIDDYD
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_blaiddyd }
+						real_father = { has_trait = crest_blaiddyd }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_blaiddyd }
+								real_father = { has_trait = crest_blaiddyd }
+							}
+						}
+						add_trait = crest_minor_blaiddyd 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_blaiddyd }
+								real_father = { has_trait = crest_blaiddyd }
+							}
+						}
+						add_trait = crest_major_blaiddyd 
+					}
+					30 = { add_trait = crest_blood_blaiddyd }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_blaiddyd }
+								real_father = { has_trait = crest_blaiddyd }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##AUBIN
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_aubin }
+						real_father = { has_trait = crest_aubin }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_aubin }
+								real_father = { has_trait = crest_aubin }
+							}
+						}
+						add_trait = crest_minor_aubin 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_aubin }
+								real_father = { has_trait = crest_aubin }
+							}
+						}
+						add_trait = crest_major_aubin 
+					}
+					30 = { add_trait = crest_blood_aubin }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_aubin }
+								real_father = { has_trait = crest_aubin }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##CHEVALIER
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_chevalier }
+						real_father = { has_trait = crest_chevalier }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_chevalier }
+								real_father = { has_trait = crest_chevalier }
+							}
+						}
+						add_trait = crest_minor_chevalier 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_chevalier }
+								real_father = { has_trait = crest_chevalier }
+							}
+						}
+						add_trait = crest_major_chevalier 
+					}
+					30 = { add_trait = crest_blood_chevalier }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_chevalier }
+								real_father = { has_trait = crest_chevalier }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##ERNEST
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_ernest }
+						real_father = { has_trait = crest_ernest }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_ernest }
+								real_father = { has_trait = crest_ernest }
+							}
+						}
+						add_trait = crest_minor_ernest 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_ernest }
+								real_father = { has_trait = crest_ernest }
+							}
+						}
+						add_trait = crest_major_ernest 
+					}
+					30 = { add_trait = crest_blood_ernest }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_ernest }
+								real_father = { has_trait = crest_ernest }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##NOA
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_noa }
+						real_father = { has_trait = crest_noa }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_noa }
+								real_father = { has_trait = crest_noa }
+							}
+						}
+						add_trait = crest_minor_noa 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_noa }
+								real_father = { has_trait = crest_noa }
+							}
+						}
+						add_trait = crest_major_noa 
+					}
+					30 = { add_trait = crest_blood_noa }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_noa }
+								real_father = { has_trait = crest_noa }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##TIMOTHEOS
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_timotheos }
+						real_father = { has_trait = crest_timotheos }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_timotheos }
+								real_father = { has_trait = crest_timotheos }
+							}
+						}
+						add_trait = crest_minor_timotheos 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_timotheos }
+								real_father = { has_trait = crest_timotheos }
+							}
+						}
+						add_trait = crest_major_timotheos 
+					}
+					30 = { add_trait = crest_blood_timotheos }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_timotheos }
+								real_father = { has_trait = crest_timotheos }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+			
+			5 = { ##MAURICE TEMP
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_maurice }
+						real_father = { has_trait = crest_maurice }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_maurice }
+								real_father = { has_trait = crest_maurice }
+							}
+						}
+						add_trait = crest_minor_maurice 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_maurice }
+								real_father = { has_trait = crest_maurice }
+							}
+						}
+						add_trait = crest_major_maurice 
+					}
+					30 = { add_trait = crest_blood_maurice }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_maurice }
+								real_father = { has_trait = crest_maurice }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	ROOT = {
+		trigger_event = FOD_crests.003
+	}
+}
+
+FOD_crests.002 = { #stress increase for zealous/ambitious parents
+	type = character_event
+	title = FOD_crests.002.t
+	desc = FOD_crests.002.desc
+	theme = pregnancy
+
+	option = {
+		name = FOD_crests.002.a
+		add_stress = minor_stress_gain
+		add_prestige = minor_prestige_loss
+	}
+}
+
+FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blood
+	type = character_event
+	title = FOD_crests.002.t
+	desc = FOD_crests.002.desc
+	theme = pregnancy
+
+	option = {
+		random_list = {
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_seiros }
+					OR = {
+						real_father = {
+							has_trait = crest_seiros
+						}
+						mother = { 
+							has_trait = crest_seiros
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_seiros
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_flames }
+					OR = {
+						real_father = {
+							has_trait = crest_flames
+						}
+						mother = { 
+							has_trait = crest_flames
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_flames
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_macuil }
+					OR = {
+						real_father = {
+							has_trait = crest_macuil
+						}
+						mother = { 
+							has_trait = crest_macuil
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_macuil
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_indech }
+					OR = {
+						real_father = {
+							has_trait = crest_indech
+						}
+						mother = { 
+							has_trait = crest_indech
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_indech
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_cichol }
+					OR = {
+						real_father = {
+							has_trait = crest_cichol
+						}
+						mother = { 
+							has_trait = crest_cichol
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_cichol
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_cethleann }
+					OR = {
+						real_father = {
+							has_trait = crest_cethleann
+						}
+						mother = { 
+							has_trait = crest_cethleann
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_cethleann
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_riegan }
+					OR = {
+						real_father = {
+							has_trait = crest_riegan
+						}
+						mother = { 
+							has_trait = crest_riegan
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_riegan
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_lamine }
+					OR = {
+						real_father = {
+							has_trait = crest_lamine
+						}
+						mother = { 
+							has_trait = crest_lamine
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_lamine
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_goneril }
+					OR = {
+						real_father = {
+							has_trait = crest_goneril
+						}
+						mother = { 
+							has_trait = crest_goneril
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_goneril
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_gloucester }
+					OR = {
+						real_father = {
+							has_trait = crest_gloucester
+						}
+						mother = { 
+							has_trait = crest_gloucester
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_gloucester
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_gautier }
+					OR = {
+						real_father = {
+							has_trait = crest_gautier
+						}
+						mother = { 
+							has_trait = crest_gautier
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_gautier
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_fraldarius }
+					OR = {
+						real_father = {
+							has_trait = crest_fraldarius
+						}
+						mother = { 
+							has_trait = crest_fraldarius
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_fraldarius
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_charon }
+					OR = {
+						real_father = {
+							has_trait = crest_charon
+						}
+						mother = { 
+							has_trait = crest_charon
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_charon
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_daphnel }
+					OR = {
+						real_father = {
+							has_trait = crest_daphnel
+						}
+						mother = { 
+							has_trait = crest_daphnel
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_daphnel
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_charon }
+					OR = {
+						real_father = {
+							has_trait = crest_charon
+						}
+						mother = { 
+							has_trait = crest_charon
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_charon
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_blaiddyd }
+					OR = {
+						real_father = {
+							has_trait = crest_blaiddyd
+						}
+						mother = { 
+							has_trait = crest_blaiddyd
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_blaiddyd
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_aubin }
+					OR = {
+						real_father = {
+							has_trait = crest_aubin
+						}
+						mother = { 
+							has_trait = crest_aubin
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_aubin
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_chevalier }
+					OR = {
+						real_father = {
+							has_trait = crest_chevalier
+						}
+						mother = { 
+							has_trait = crest_chevalier
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_chevalier
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_ernest }
+					OR = {
+						real_father = {
+							has_trait = crest_ernest
+						}
+						mother = { 
+							has_trait = crest_ernest
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_ernest
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_noa }
+					OR = {
+						real_father = {
+							has_trait = crest_noa
+						}
+						mother = { 
+							has_trait = crest_noa
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_noa
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_timotheos }
+					OR = {
+						real_father = {
+							has_trait = crest_timotheos
+						}
+						mother = { 
+							has_trait = crest_timotheos
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_timotheos
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_maurice }
+					OR = {
+						real_father = {
+							has_trait = crest_maurice
+						}
+						mother = { 
+							has_trait = crest_maurice
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_maurice
+				}
+			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_dominic }
+					OR = {
+						real_father = {
+							has_trait = crest_dominic
+						}
+						mother = { 
+							has_trait = crest_dominic
+						}
+					}
+				}
+				random  = {
+					chance = 50
+					add_trait = crest_blood_dominic
+				}
+			}
+			5 = {
+				#NOTHING HAPPENS
+			}
+		}
+	}
+}

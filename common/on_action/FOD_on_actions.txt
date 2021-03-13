@@ -19,3 +19,89 @@ FOD_ON_START = {
 		}
 	}
 }
+
+# called for the newborn child
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:father is the family father (not the biological)
+# scope:real_father is the biological father
+# scope:is_bastard, true if a known bastard
+on_birth_child = {
+	on_actions = {
+		FOD_crest_inheritance
+	}
+}
+
+FOD_crest_inheritance = {
+	effect = {
+		remove_trait = crest_major_blaiddyd
+		remove_trait = crest_major_charon
+		remove_trait = crest_major_daphnel
+		remove_trait = crest_major_dominic
+		remove_trait = crest_major_fraldarius
+		remove_trait = crest_major_gautier
+		remove_trait = crest_major_gloucester
+		remove_trait = crest_major_goneril
+		remove_trait = crest_major_lamine
+		remove_trait = crest_major_riegan
+		remove_trait = crest_major_maurice
+		remove_trait = crest_major_cethleann
+		remove_trait = crest_major_cichol
+		remove_trait = crest_major_indech
+		remove_trait = crest_major_macuil
+		remove_trait = crest_major_aubin
+		remove_trait = crest_major_chevalier
+		remove_trait = crest_major_noa
+		remove_trait = crest_major_timotheos
+		remove_trait = crest_major_flames
+		remove_trait = crest_major_seiros
+		remove_trait = crest_major_ernest
+		remove_trait = crest_minor_blaiddyd
+		remove_trait = crest_minor_charon
+		remove_trait = crest_minor_daphnel
+		remove_trait = crest_minor_dominic
+		remove_trait = crest_minor_fraldarius
+		remove_trait = crest_minor_gautier
+		remove_trait = crest_minor_gloucester
+		remove_trait = crest_minor_goneril
+		remove_trait = crest_minor_lamine
+		remove_trait = crest_minor_riegan
+		remove_trait = crest_minor_maurice
+		remove_trait = crest_minor_cethleann
+		remove_trait = crest_minor_cichol
+		remove_trait = crest_minor_indech
+		remove_trait = crest_minor_macuil
+		remove_trait = crest_minor_aubin
+		remove_trait = crest_minor_chevalier
+		remove_trait = crest_minor_noa
+		remove_trait = crest_minor_timotheos
+		remove_trait = crest_minor_flames
+		remove_trait = crest_minor_seiros
+		remove_trait = crest_minor_ernest
+		remove_trait = crest_blood_blaiddyd
+		remove_trait = crest_blood_charon
+		remove_trait = crest_blood_daphnel
+		remove_trait = crest_blood_dominic
+		remove_trait = crest_blood_fraldarius
+		remove_trait = crest_blood_gautier
+		remove_trait = crest_blood_gloucester
+		remove_trait = crest_blood_goneril
+		remove_trait = crest_blood_lamine
+		remove_trait = crest_blood_riegan
+		remove_trait = crest_blood_maurice
+		remove_trait = crest_blood_cethleann
+		remove_trait = crest_blood_cichol
+		remove_trait = crest_blood_indech
+		remove_trait = crest_blood_macuil
+		remove_trait = crest_blood_aubin
+		remove_trait = crest_blood_chevalier
+		remove_trait = crest_blood_noa
+		remove_trait = crest_blood_timotheos
+		remove_trait = crest_blood_flames
+		remove_trait = crest_blood_seiros
+		remove_trait = crest_blood_ernest
+	}
+	events = {
+		FOD_crests.001
+	}
+}

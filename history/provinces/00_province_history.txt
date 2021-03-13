@@ -3086,6 +3086,17 @@
               culture = high_fodlan
               religion = seirosite
               holding = castle_holding
+
+		185.1.1 = {
+			duchy_capital_building = garreg_mach_cathedral_01
+		}
+
+		961.1.1 = {
+			special_building_slot = officers_academy_01
+		}
+		980.1.1 = {
+			special_building = officers_academy_01
+		}
 }
 
 2 = {         # (b_mach)

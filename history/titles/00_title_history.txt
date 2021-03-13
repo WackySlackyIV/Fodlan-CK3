@@ -13,6 +13,7 @@ e_adrestia = {
 k_leicester = {
               1180.1.1 = {
                             holder = 200000
+		succession_laws = { alliance_elective_succession_law }
               }
 }
 
