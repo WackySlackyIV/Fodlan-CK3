@@ -406,6 +406,7 @@
 	religion="seirosite"
 	culture="leicester"
 	father=200000
+	dna = dna_tiana
 
 	prowess = 10
 
