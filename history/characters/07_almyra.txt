@@ -13,6 +13,7 @@
 	religion="kizilisma"
 	culture="almyran"
 	dynasty = 700
+	dna = dna_milad
 
 	trait = ember
 
