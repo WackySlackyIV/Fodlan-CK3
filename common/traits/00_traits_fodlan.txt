@@ -258,7 +258,7 @@ songstress = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					male = no
+					is_male = no
 				}
 				desc = trait_songstress_desc
 			}
@@ -283,7 +283,7 @@ famous_songstress = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					male = no
+					is_male = no
 				}
 				desc = trait_famous_songstress_desc
 			}

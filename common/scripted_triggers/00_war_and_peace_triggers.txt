@@ -607,3 +607,35 @@ neighboring_county_or_viking_conquest_trigger = {
 		}
 	}
 }
+
+prisoners_of_war_trigger = {
+	OR = {
+		scope:defender = {
+			any_prisoner = {
+				OR = {
+					this = scope:war.primary_attacker
+					scope:war.primary_attacker.primary_title = {
+						place_in_line_of_succession = {
+							target = prev
+							value <= 3
+						}
+					}
+				}
+			}
+		}
+		#Prisoners of attackers
+		scope:attacker = {
+			any_prisoner = {
+				OR = {
+					this = scope:war.primary_defender
+					scope:war.primary_defender.primary_title = {
+						place_in_line_of_succession = {
+							target = prev
+							value <= 3
+						}
+					}
+				}
+			}
+		}
+	}
+}

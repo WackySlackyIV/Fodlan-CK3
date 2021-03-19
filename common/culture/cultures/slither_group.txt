@@ -1,4 +1,4 @@
-byzantine_group = {
+﻿byzantine_group = {
 	
 	graphical_cultures = {
 		byzantine_group_coa_gfx

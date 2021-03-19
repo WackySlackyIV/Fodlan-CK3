@@ -36,7 +36,7 @@ crest_major_seiros = {
 	group = crest_seiros
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_seiros_desc
 }
 
 crest_minor_flames = {
@@ -56,7 +56,7 @@ crest_minor_flames = {
 	group = crest_flames
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_flames_desc
 }
 
 crest_major_flames = {
@@ -76,7 +76,7 @@ crest_major_flames = {
 	group = crest_flames
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_flames_desc
 }
 
 crest_minor_macuil = {
@@ -94,7 +94,7 @@ crest_minor_macuil = {
 	group = crest_macuil
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_macuil_desc
 }
 
 crest_major_macuil = {
@@ -112,7 +112,7 @@ crest_major_macuil = {
 	group = crest_macuil
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_macuil_desc
 }
 
 crest_minor_indech = {
@@ -131,7 +131,7 @@ crest_minor_indech = {
 	group = crest_indech
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_indech_desc
 }
 
 crest_major_indech = {
@@ -150,7 +150,7 @@ crest_major_indech = {
 	group = crest_indech
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_indech_desc
 }
 
 crest_minor_cichol = {
@@ -169,7 +169,7 @@ crest_minor_cichol = {
 	group = crest_cichol
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_cichol_desc
 }
 
 crest_major_cichol = {
@@ -188,7 +188,7 @@ crest_major_cichol = {
 	group = crest_cichol
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_cichol_desc
 }
 
 crest_minor_cethleann = {
@@ -206,7 +206,7 @@ crest_minor_cethleann = {
 	group = crest_cethleann
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_cethleann_desc
 }
 
 crest_major_cethleann = {
@@ -224,7 +224,7 @@ crest_major_cethleann = {
 	group = crest_cethleann
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_cethleann_desc
 }
 
 crest_minor_riegan = {
@@ -242,7 +242,7 @@ crest_minor_riegan = {
 	group = crest_riegan
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_riegan_desc
 }
 
 crest_major_riegan = {
@@ -260,7 +260,7 @@ crest_major_riegan = {
 	group = crest_riegan
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_riegan_desc
 }
 
 crest_minor_lamine = {
@@ -277,7 +277,7 @@ crest_minor_lamine = {
 	group = crest_lamine
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_lamine_desc
 }
 
 crest_major_lamine = {
@@ -294,7 +294,7 @@ crest_major_lamine = {
 	group = crest_lamine
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_lamine_desc
 }
 
 crest_minor_goneril = {
@@ -312,7 +312,7 @@ crest_minor_goneril = {
 	group = crest_goneril
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_goneril_desc
 }
 
 crest_major_goneril = {
@@ -330,7 +330,7 @@ crest_major_goneril = {
 	group = crest_goneril
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_goneril_desc
 }
 
 crest_minor_gloucester = {
@@ -348,7 +348,7 @@ crest_minor_gloucester = {
 	group = crest_gloucester
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_gloucesterr_desc
 }
 
 crest_major_gloucester = {
@@ -366,7 +366,7 @@ crest_major_gloucester = {
 	group = crest_gloucester
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_gloucester_desc
 }
 
 crest_minor_gautier = {
@@ -384,7 +384,7 @@ crest_minor_gautier = {
 	group = crest_gautier
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_gautier_desc
 }
 
 crest_major_gautier = {
@@ -402,7 +402,7 @@ crest_major_gautier = {
 	group = crest_gautier
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_gautier_desc
 }
 
 crest_minor_fraldarius = {
@@ -420,7 +420,7 @@ crest_minor_fraldarius = {
 	group = crest_fraldarius
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_fraldarius_desc
 }
 
 crest_major_fraldarius = {
@@ -438,7 +438,7 @@ crest_major_fraldarius = {
 	group = crest_fraldarius
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_fraldarius_desc
 }
 
 crest_minor_dominic = {
@@ -456,7 +456,7 @@ crest_minor_dominic = {
 	group = crest_dominic
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_dominic_desc
 }
 
 crest_major_dominic = {
@@ -474,7 +474,7 @@ crest_major_dominic = {
 	group = crest_dominic
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_dominic_desc
 }
 
 crest_minor_daphnel = {
@@ -491,7 +491,7 @@ crest_minor_daphnel = {
 	group = crest_daphnel
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_daphnel_desc
 }
 
 crest_major_daphnel = {
@@ -508,7 +508,7 @@ crest_major_daphnel = {
 	group = crest_daphnel
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_daphnel_desc
 }
 
 crest_minor_charon = {
@@ -526,7 +526,7 @@ crest_minor_charon = {
 	group = crest_charon
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_charon_desc
 }
 
 crest_major_charon = {
@@ -544,7 +544,7 @@ crest_major_charon = {
 	group = crest_charon
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_charon_desc
 }
 
 crest_minor_blaiddyd = {
@@ -561,7 +561,7 @@ crest_minor_blaiddyd = {
 	group = crest_blaiddyd
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_blaiddyd_desc
 }
 
 crest_major_blaiddyd = {
@@ -578,7 +578,7 @@ crest_major_blaiddyd = {
 	group = crest_blaiddyd
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_blaiddyd_desc
 }
 
 crest_minor_aubin = {
@@ -595,7 +595,7 @@ crest_minor_aubin = {
 	group = crest_aubin
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_aubin_desc
 }
 
 crest_major_aubin = {
@@ -612,7 +612,7 @@ crest_major_aubin = {
 	group = crest_aubin
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_aubin_desc
 }
 
 crest_minor_chevalier = {
@@ -630,7 +630,7 @@ crest_minor_chevalier = {
 	group = crest_chevalier
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_chevalier_desc
 }
 
 crest_major_chevalier = {
@@ -648,7 +648,7 @@ crest_major_chevalier = {
 	group = crest_chevalier
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_chevalier_desc
 }
 
 crest_minor_ernest = {
@@ -665,7 +665,7 @@ crest_minor_ernest = {
 	group = crest_ernest
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_ernest_desc
 }
 
 crest_major_ernest = {
@@ -682,7 +682,7 @@ crest_major_ernest = {
 	group = crest_ernest
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_ernest_desc
 }
 
 crest_minor_noa = {
@@ -700,7 +700,7 @@ crest_minor_noa = {
 	group = crest_noa
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_noa_desc
 }
 
 crest_major_noa = {
@@ -718,7 +718,7 @@ crest_major_noa = {
 	group = crest_noa
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_noa_desc
 }
 
 crest_minor_timotheos = {
@@ -736,7 +736,7 @@ crest_minor_timotheos = {
 	group = crest_timotheos
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_timotheos_desc
 }
 
 crest_major_timotheos = {
@@ -754,7 +754,7 @@ crest_major_timotheos = {
 	group = crest_timotheos
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_timotheos_desc
 }
 
 crest_minor_maurice = {
@@ -772,7 +772,7 @@ crest_minor_maurice = {
 	group = crest_maurice
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_maurice_desc
 }
 
 crest_major_maurice = {
@@ -790,7 +790,7 @@ crest_major_maurice = {
 	group = crest_maurice
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_maurice_desc
 }
 
 crest_minor_malik = {
@@ -810,7 +810,7 @@ crest_minor_malik = {
 	group = crest_malik
 	level = 1
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_minor_malik_desc
 }
 
 crest_major_malik = {
@@ -830,7 +830,7 @@ crest_major_malik = {
 	group = crest_malik
 	level = 2
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_major_malik_desc
 }
 
 crest_blood_blaiddyd = {
@@ -841,7 +841,7 @@ crest_blood_blaiddyd = {
 	group = crest_blaiddyd
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_blaiddyd_desc
 }
 crest_blood_charon = {
 	index = 448
@@ -851,7 +851,7 @@ crest_blood_charon = {
 	group = crest_charon
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_charon_desc
 }
 crest_blood_daphnel = {
 	index = 449
@@ -861,7 +861,7 @@ crest_blood_daphnel = {
 	group = crest_daphnel
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_daphnel_desc
 }
 crest_blood_dominic = {
 	index = 450
@@ -871,7 +871,7 @@ crest_blood_dominic = {
 	group = crest_dominic
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_dominic_desc
 }
 crest_blood_fraldarius = {
 	index = 451
@@ -881,7 +881,7 @@ crest_blood_fraldarius = {
 	group = crest_fraldarius
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_fraldarius_desc
 }
 crest_blood_gautier = {
 	index = 452
@@ -891,7 +891,7 @@ crest_blood_gautier = {
 	group = crest_gautier
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_gautier_desc
 }
 crest_blood_gloucester = {
 	index = 453
@@ -901,7 +901,7 @@ crest_blood_gloucester = {
 	group = crest_gloucester
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_gloucester_desc
 }
 crest_blood_goneril = {
 	index = 454
@@ -911,7 +911,7 @@ crest_blood_goneril = {
 	group = crest_goneril
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_goneril_desc
 }
 crest_blood_lamine = {
 	index = 455
@@ -921,7 +921,7 @@ crest_blood_lamine = {
 	group = crest_lamine
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_lamine_desc
 }
 crest_blood_riegan = {
 	index = 456
@@ -931,7 +931,7 @@ crest_blood_riegan = {
 	group = crest_riegan
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_riegan_desc
 }
 crest_blood_maurice = {
 	index = 457
@@ -941,7 +941,7 @@ crest_blood_maurice = {
 	group = crest_maurice
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_maurice_desc
 }
 crest_blood_cethleann = {
 	index = 458
@@ -951,7 +951,7 @@ crest_blood_cethleann = {
 	group = crest_cethleann
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_cethleann_desc
 }
 crest_blood_cichol = {
 	index = 459
@@ -961,7 +961,7 @@ crest_blood_cichol = {
 	group = crest_cichol
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_cichol_desc
 }
 crest_blood_indech = {
 	index = 460
@@ -971,7 +971,7 @@ crest_blood_indech = {
 	group = crest_indech
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_indech_desc
 }
 crest_blood_macuil = {
 	index = 461
@@ -981,7 +981,7 @@ crest_blood_macuil = {
 	group = crest_macuil
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_macuil_desc
 }
 crest_blood_aubin = {
 	index = 462
@@ -991,7 +991,7 @@ crest_blood_aubin = {
 	group = crest_aubin
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_aubin_desc
 }
 crest_blood_chevalier = {
 	index = 463
@@ -1001,7 +1001,7 @@ crest_blood_chevalier = {
 	group = crest_chevalier
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_chevalier_desc
 }
 crest_blood_noa = {
 	index = 464
@@ -1011,7 +1011,7 @@ crest_blood_noa = {
 	group = crest_noa
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_noa_desc
 }
 crest_blood_timotheos = {
 	index = 465
@@ -1021,7 +1021,7 @@ crest_blood_timotheos = {
 	group = crest_timotheos
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_timotheos_desc
 }
 crest_blood_flames = {
 	index = 466
@@ -1031,7 +1031,7 @@ crest_blood_flames = {
 	group = crest_flames
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_flames_desc
 }
 crest_blood_seiros = {
 	index = 467
@@ -1041,7 +1041,7 @@ crest_blood_seiros = {
 	group = crest_seiros
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_seiros_desc
 }
 crest_blood_ernest = {
 	index = 468
@@ -1051,5 +1051,15 @@ crest_blood_ernest = {
 	group = crest_ernest
 	level = 3
 
-	desc = trait_crest_minor_seiros_desc
+	desc = trait_crest_blood_ernest_desc
+}
+crest_blood_malik = {
+	index = 469
+	genetic = yes
+	good = yes
+	random_creation = 0
+	group = crest_malik
+	level = 3
+
+	desc = trait_crest_blood_malik_desc
 }

@@ -1,0 +1,35 @@
+﻿## Fodlan Headgear ##
+headgear = {
+	archbishop = {
+		outfit_tags = { rank_headgear }
+		usage = game
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_bs_ear_outward
+				template = ear_outward_neg
+				value = 1.0
+			}
+			accessory = {
+				mode = add
+				
+				gene = headgear
+				template = headgear_rhea_crown
+				range = { 0 1 }
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 140
+				religion = religion:zanadic_religion
+				is_adult = yes
+				exists = primary_title
+				primary_title = {
+					exists = controlled_faith
+				}
+			}
+		}
+	}
+}

@@ -1,4 +1,4 @@
-﻿outside_group = {
+﻿northern_group = {
 	graphical_cultures = {
 		western_coa_gfx
 		western_building_gfx

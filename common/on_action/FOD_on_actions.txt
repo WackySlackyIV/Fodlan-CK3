@@ -102,6 +102,7 @@ FOD_crest_inheritance = {
 		remove_trait = crest_blood_ernest
 	}
 	events = {
-		FOD_crests.001
+		FOD_crests.001 #general crest assign
+		FOD_crests.004 #familial crest assign + random 1%
 	}
 }

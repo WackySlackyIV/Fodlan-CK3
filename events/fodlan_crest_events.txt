@@ -720,8 +720,8 @@ FOD_crests.001 = { #Improved crest system
 			5 = { ##DOMINIC
 				trigger = {
 					OR = {
-						mother = { has_trait = crest_domenic }
-						real_father = { has_trait = crest_domenic }
+						mother = { has_trait = crest_dominic }
+						real_father = { has_trait = crest_dominic }
 					}
 				}
 				random_list = {
@@ -729,29 +729,29 @@ FOD_crests.001 = { #Improved crest system
 						modifier = {
 							add = 15
 							AND = {
-								mother = { has_trait = crest_domenic }
-								real_father = { has_trait = crest_domenic }
+								mother = { has_trait = crest_dominic }
+								real_father = { has_trait = crest_dominic }
 							}
 						}
-						add_trait = crest_minor_domenic 
+						add_trait = crest_minor_dominic 
 					}
 					5 = { 
 						modifier = {
 							add = 5
 							AND = {
-								mother = { has_trait = crest_domenic }
-								real_father = { has_trait = crest_domenic }
+								mother = { has_trait = crest_dominic }
+								real_father = { has_trait = crest_dominic }
 							}
 						}
-						add_trait = crest_major_domenic 
+						add_trait = crest_major_dominic 
 					}
-					30 = { add_trait = crest_blood_charon }
+					30 = { add_trait = crest_blood_dominic }
 					40 = { 
 						modifier = {
 							add = -20
 							AND = {
-								mother = { has_trait = crest_domenic }
-								real_father = { has_trait = crest_domenic }
+								mother = { has_trait = crest_dominic }
+								real_father = { has_trait = crest_dominic }
 							}
 						}
 						if = {
@@ -1288,26 +1288,28 @@ FOD_crests.001 = { #Improved crest system
 							}
 							real_father = {
 								trigger_event = FOD_crests.002
+								days = 7
 							}
 							mother = {
 								trigger_event = FOD_crests.002
+								days = 7
 							}
 						}
 					}
 				}
 			}
 		}
-	}
-	ROOT = {
 		trigger_event = FOD_crests.003
 	}
 }
 
-FOD_crests.002 = { #stress increase for zealous/ambitious parents
+FOD_crests.002 = { #stress increase for zealous/ambitious parents if child has nothing
 	type = character_event
 	title = FOD_crests.002.t
 	desc = FOD_crests.002.desc
 	theme = pregnancy
+	
+	trigger = { has_crest_potential = no }
 
 	option = {
 		name = FOD_crests.002.a
@@ -1337,7 +1339,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_seiros
 				}
 			}
@@ -1354,7 +1356,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_flames
 				}
 			}
@@ -1371,7 +1373,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_macuil
 				}
 			}
@@ -1388,7 +1390,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_indech
 				}
 			}
@@ -1405,7 +1407,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_cichol
 				}
 			}
@@ -1422,7 +1424,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_cethleann
 				}
 			}
@@ -1439,7 +1441,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_riegan
 				}
 			}
@@ -1456,7 +1458,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_lamine
 				}
 			}
@@ -1473,7 +1475,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_goneril
 				}
 			}
@@ -1490,7 +1492,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_gloucester
 				}
 			}
@@ -1507,7 +1509,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_gautier
 				}
 			}
@@ -1524,25 +1526,8 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_fraldarius
-				}
-			}
-			5 = {
-				trigger = {
-					NOT = { has_trait = crest_charon }
-					OR = {
-						real_father = {
-							has_trait = crest_charon
-						}
-						mother = { 
-							has_trait = crest_charon
-						}
-					}
-				}
-				random  = {
-					chance = 50
-					add_trait = crest_blood_charon
 				}
 			}
 			5 = {
@@ -1558,7 +1543,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_daphnel
 				}
 			}
@@ -1575,7 +1560,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_charon
 				}
 			}
@@ -1592,7 +1577,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_blaiddyd
 				}
 			}
@@ -1609,7 +1594,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_aubin
 				}
 			}
@@ -1626,7 +1611,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_chevalier
 				}
 			}
@@ -1643,7 +1628,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_ernest
 				}
 			}
@@ -1660,7 +1645,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_noa
 				}
 			}
@@ -1677,7 +1662,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_timotheos
 				}
 			}
@@ -1694,7 +1679,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_maurice
 				}
 			}
@@ -1711,12 +1696,337 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					}
 				}
 				random  = {
-					chance = 50
+					chance = 25
 					add_trait = crest_blood_dominic
 				}
 			}
-			5 = {
-				#NOTHING HAPPENS
+		}
+	}
+}
+
+FOD_crests.004 = { #If no parent with a crest potential? check family. If still nobody, 1% chance of something
+	type = character_event
+	title = FOD_crests.004.t
+	desc = FOD_crests.004.desc
+	theme = pregnancy
+	
+	trigger = {
+		OR = {
+			mother = { 
+				is_landed = yes
+				has_crest_potential = no 
+			}
+			real_father = { 
+				is_landed = yes
+				has_crest_potential = no 
+			}
+		}
+		has_culture_group = culture_group:fodlan_group
+	}
+
+	option = {
+		name = FOD_crests.004.a
+		if = {
+			limit = {
+				dynasty = { any_dynasty_member = { has_crest_potential = yes } }
+			}
+			random = {
+				chance = 3
+				random_list = {
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_seiros } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_seiros }
+							40 = { add_trait = crest_minor_seiros }
+							60 = { add_trait = crest_blood_seiros }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_flames }}
+						}
+						random_list = {
+							20 = { add_trait = crest_major_flames }
+							40 = { add_trait = crest_minor_flames }
+							60 = { add_trait = crest_blood_flames }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_macuil } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_macuil }
+							40 = { add_trait = crest_minor_macuil }
+							60 = { add_trait = crest_blood_macuil }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_indech } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_indech }
+							40 = { add_trait = crest_minor_indech }
+							60 = { add_trait = crest_blood_indech }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_cichol } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_cichol }
+							40 = { add_trait = crest_minor_cichol }
+							60 = { add_trait = crest_blood_cichol }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_cethleann } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_cethleann }
+							40 = { add_trait = crest_minor_cethleann }
+							60 = { add_trait = crest_blood_cethleann }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_riegan } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_riegan }
+							40 = { add_trait = crest_minor_riegan }
+							60 = { add_trait = crest_blood_riegan }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_lamine } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_lamine }
+							40 = { add_trait = crest_minor_lamine }
+							60 = { add_trait = crest_blood_lamine }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_goneril } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_goneril }
+							40 = { add_trait = crest_minor_goneril }
+							60 = { add_trait = crest_blood_goneril }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_gloucester } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_gloucester }
+							40 = { add_trait = crest_minor_gloucester }
+							60 = { add_trait = crest_blood_gloucester }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_gautier } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_gautier }
+							40 = { add_trait = crest_minor_gautier }
+							60 = { add_trait = crest_blood_gautier }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_fraldarius } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_fraldarius }
+							40 = { add_trait = crest_minor_fraldarius }
+							60 = { add_trait = crest_blood_fraldarius }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_dominic } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_dominic }
+							40 = { add_trait = crest_minor_dominic }
+							60 = { add_trait = crest_blood_dominic }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_daphnel } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_daphnel }
+							40 = { add_trait = crest_minor_daphnel }
+							60 = { add_trait = crest_blood_daphnel }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_charon } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_charon }
+							40 = { add_trait = crest_minor_charon }
+							60 = { add_trait = crest_blood_charon }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_blaiddyd } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_blaiddyd }
+							40 = { add_trait = crest_minor_blaiddyd }
+							60 = { add_trait = crest_blood_blaiddyd }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_aubin } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_aubin }
+							40 = { add_trait = crest_minor_aubin }
+							60 = { add_trait = crest_blood_aubin }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_chevalier } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_chevalier }
+							40 = { add_trait = crest_minor_chevalier }
+							60 = { add_trait = crest_blood_chevalier }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_ernest } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_ernest }
+							40 = { add_trait = crest_minor_ernest }
+							60 = { add_trait = crest_blood_ernest }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_noa } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_noa }
+							40 = { add_trait = crest_minor_noa }
+							60 = { add_trait = crest_blood_noa }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_timotheos } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_timotheos }
+							40 = { add_trait = crest_minor_timotheos }
+							60 = { add_trait = crest_blood_timotheos }
+						}
+					}
+					5 = { 
+						trigger = {
+							dynasty = { any_dynasty_member = { has_trait = crest_maurice } }
+						}
+						random_list = {
+							20 = { add_trait = crest_major_maurice }
+							40 = { add_trait = crest_minor_maurice }
+							60 = { add_trait = crest_blood_maurice }
+						}
+					}
+				}
+			}
+		}
+		else = {
+			random = {
+				chance = 1
+				random_list = {
+					1 = { add_trait = crest_blood_blaiddyd }
+					1 = { add_trait = crest_blood_charon }
+					1 = { add_trait = crest_blood_daphnel }
+					1 = { add_trait = crest_blood_dominic }
+					1 = { add_trait = crest_blood_fraldarius }
+					1 = { add_trait = crest_blood_gautier }
+					1 = { add_trait = crest_blood_gloucester }
+					1 = { add_trait = crest_blood_goneril }
+					1 = { add_trait = crest_blood_lamine }
+					1 = { add_trait = crest_blood_riegan } 
+					1 = { add_trait = crest_blood_maurice }
+					1 = { add_trait = crest_blood_cethleann }
+					1 = { add_trait = crest_blood_cichol }
+					1 = { add_trait = crest_blood_indech }
+					1 = { add_trait = crest_blood_macuil }
+					1 = { add_trait = crest_blood_aubin }
+					1 = { add_trait = crest_blood_chevalier }
+					1 = { add_trait = crest_blood_noa }
+					1 = { add_trait = crest_blood_timotheos }
+					1 = { add_trait = crest_blood_flames }
+					1 = { add_trait = crest_blood_seiros }
+					1 = { add_trait = crest_blood_ernest }
+					1 = { add_trait = crest_minor_blaiddyd }
+					1 = { add_trait = crest_minor_charon }
+					1 = { add_trait = crest_minor_daphnel }
+					1 = { add_trait = crest_minor_dominic }
+					1 = { add_trait = crest_minor_fraldarius }
+					1 = { add_trait = crest_minor_gautier }
+					1 = { add_trait = crest_minor_gloucester }
+					1 = { add_trait = crest_minor_goneril }
+					1 = { add_trait = crest_minor_lamine }
+					1 = { add_trait = crest_minor_riegan } 
+					1 = { add_trait = crest_minor_maurice }
+					1 = { add_trait = crest_minor_cethleann }
+					1 = { add_trait = crest_minor_cichol }
+					1 = { add_trait = crest_minor_indech }
+					1 = { add_trait = crest_minor_macuil }
+					1 = { add_trait = crest_minor_aubin }
+					1 = { add_trait = crest_minor_chevalier }
+					1 = { add_trait = crest_minor_noa }
+					1 = { add_trait = crest_minor_timotheos }
+					1 = { add_trait = crest_minor_flames }
+					1 = { add_trait = crest_minor_seiros }
+					1 = { add_trait = crest_minor_ernest }
+					1 = { add_trait = crest_major_blaiddyd }
+					1 = { add_trait = crest_major_charon }
+					1 = { add_trait = crest_major_daphnel }
+					1 = { add_trait = crest_major_dominic }
+					1 = { add_trait = crest_major_fraldarius }
+					1 = { add_trait = crest_major_gautier }
+					1 = { add_trait = crest_major_gloucester }
+					1 = { add_trait = crest_major_goneril }
+					1 = { add_trait = crest_major_lamine }
+					1 = { add_trait = crest_major_riegan } 
+					1 = { add_trait = crest_major_maurice }
+					1 = { add_trait = crest_major_cethleann }
+					1 = { add_trait = crest_major_cichol }
+					1 = { add_trait = crest_major_indech }
+					1 = { add_trait = crest_major_macuil }
+					1 = { add_trait = crest_major_aubin }
+					1 = { add_trait = crest_major_chevalier }
+					1 = { add_trait = crest_major_noa }
+					1 = { add_trait = crest_major_timotheos }
+					1 = { add_trait = crest_major_flames }
+					1 = { add_trait = crest_major_seiros }
+					1 = { add_trait = crest_major_ernest }
+				}
 			}
 		}
 	}

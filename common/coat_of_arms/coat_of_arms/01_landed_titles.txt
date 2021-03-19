@@ -63,7 +63,7 @@ e_al_mihra = {
 	}
 
 	colored_emblem = {
-		texture = "ce_crest_of_malik.dds"
+		texture = "ce_malik.dds"
 		color1 = "yellow"
 		color2 = "deer_yellow2"
 		instance = { position = { 0.5 0.25 } scale = { 0.4 0.4 }  }

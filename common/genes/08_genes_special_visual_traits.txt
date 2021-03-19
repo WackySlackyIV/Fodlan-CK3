@@ -656,6 +656,29 @@ special_genes = {
 
 		}
 
+		gene_bs_cloak = { ## Special Genes used for cloak blend shapes.
+
+			no_cloak = {
+				index = 0
+				male = {
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+			cloak = {
+				index = 1
+				male = {
+				}
+				female = {
+					setting = { attribute = "bs_cloak"  value = { min = 0.0 max = 1.0 }	}
+				}
+				boy = male
+				girl = female
+			}
+
+		}
+
 		pose = { # Keeping this gene because the game expects it to be there
 		}
 	}
@@ -663,15 +686,17 @@ special_genes = {
 
 	accessory_genes = {
 	
-		special_headgear_head_bandage = {
+		special_headgear_eye_patch = {
 
-			head_bandage = {
+			eye_patch = {
 				index = 0
 				male = {
-					100 = male_headgear_special_head_bandage_01
+					50 = male_headgear_special_eye_patch_01
+					50 = male_headgear_special_eye_patch_02
 				}
 				female = {
-					100 = female_headgear_special_head_bandage_01
+					50 = female_headgear_special_eye_patch_01
+					50 = female_headgear_special_eye_patch_02
 				}
 				boy = male
 				girl = female
@@ -684,12 +709,10 @@ special_genes = {
 			eye_patch = {
 				index = 0
 				male = {
-					1 = male_headgear_special_eye_patch_01
-					1 = male_headgear_special_eye_patch_02
+					100 = male_headgear_special_eye_patch_01
 				}
 				female = {
-					1 = female_headgear_special_eye_patch_01
-					1 = female_headgear_special_eye_patch_02
+					100 = female_headgear_special_eye_patch_01
 				}
 				boy = male
 				girl = female
