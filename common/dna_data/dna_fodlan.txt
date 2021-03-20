@@ -343,9 +343,8 @@ dna_dimitri = {
 }
 
 dna_rhea = {
-	portrait_info = {
-		genes={
- 		hair_color={ 173 52 82 61 }
+portrait_info={
+	genes={ 		hair_color={ 173 52 82 61 }
  		skin_color={ 28 7 12 71 }
  		eye_color={ 173 52 41 175 }
  		gene_chin_forward={ "chin_forward_neg" 183 "chin_forward_neg" 183 }
@@ -449,11 +448,11 @@ dna_rhea = {
  		eye_accessory={ "normal_eyes" 6 "normal_eyes" 6 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 42 "normal_eyelashes" 42 }
- 		hairstyles={ "rhea_hairstyle" 218 "all_hairstyles" 0 }
- 		beards={ "no_beard" 0 "no_beard" 0 }
-		}
+ 		hairstyles={ "scripted_character_hairstyles_01" 253 "all_hairstyles" 0 }
+ }
 	entity={ 0 0 }
-	}
+}
+
 }
 
 dna_alois = {

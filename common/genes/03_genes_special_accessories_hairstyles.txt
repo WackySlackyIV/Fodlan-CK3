@@ -908,6 +908,7 @@ special_genes = {
 				female = {	
 					1 = female_hair_edelgard_academy
 					1 = female_hair_edelgard_newgame
+					1 = female_hair_edelgard
 					1 = female_hair_flayn
 					1 = female_hair_rhea
 				}
