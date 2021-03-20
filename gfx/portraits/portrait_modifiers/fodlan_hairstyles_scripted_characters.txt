@@ -38,6 +38,14 @@ hairstyles_scripted_characters = {
                 value = 0.5 # For the randomness to work correctly
             }
         }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:400000 #Edelgard
+                this = character:400000 #Edelgard
+            }
+        }
     }
 	
 	flayn_hair = {
@@ -47,6 +55,14 @@ hairstyles_scripted_characters = {
                 gene = hairstyles
                 template = all_custom_hairstyles
                 value = 0.75 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:100003 #Flayn
+                this = character:100003 #Flayn
             }
         }
     }
@@ -73,7 +89,7 @@ hairstyles_scripted_characters = {
 	
 ########[[MALES]]########
 
-    dimitri_hair = {
+    dimitri_war_hair = {
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -82,15 +98,31 @@ hairstyles_scripted_characters = {
                 value = 0.08 # For the randomness to work correctly
             }
         }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:300000 #Dimitri
+                this = character:300000 #Dimitri
+            }
+        }
     }
 	
-	claude_hair = {
+	claude_war_hair = {
         dna_modifiers = {
             accessory = {
                 mode = add
                 gene = hairstyles
                 template = all_custom_hairstyles
                 value = 1 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:200012 #Claude
+                this = character:200012 #Claude
             }
         }
     }
