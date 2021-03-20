@@ -102,11 +102,12 @@ dna_flayn = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 189 "close_spacing_lower_thickness" 219 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 73 "layer_2_avg_thickness" 134 }
  		gene_body_hair={ "body_hair_sparse" 1 "body_hair_sparse" 144 }
- 		hairstyles={ "flayn_hairstyle" 93 "all_hairstyles" 115 }
- 		beards={ "all_beards" 33 "all_beards" 33 }
+ 		gene_hair_type={ "hair_wavy" 112 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 204 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 167 "normal_eyelashes" 167 }
+ 		hairstyles={ "flayn_hairstyle" 158 "all_hairstyles" 0 }
 		}
 	}
 	enabled=yes
@@ -214,11 +215,13 @@ dna_seteth = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 182 "close_spacing_lower_thickness" 219 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 94 "layer_2_avg_thickness" 134 }
  		gene_body_hair={ "body_hair_avg_low_stubble" 43 "body_hair_sparse" 144 }
- 		hairstyles={ "all_hairstyles" 61 "all_hairstyles" 115 }
- 		beards={ "all_beards" 133 "all_beards" 33 }
+ 		gene_hair_type={ "hair_wavy" 159 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 204 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 167 "normal_eyelashes" 167 }
+ 		hairstyles={ "western_hairstyles_wavy" 177 "all_hairstyles" 0 }
+ 		beards={ "western_beards_straight" 253 "no_beard" 0 }
 		}
 		entity={ 0 0 }
 	}
@@ -327,12 +330,13 @@ dna_dimitri = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 182 "avg_spacing_lower_thickness" 204 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 181 "layer_2_avg_thickness" 181 }
  		gene_body_hair={ "body_hair_sparse_low_stubble" 123 "body_hair_dense" 93 }
- 		hairstyles={ "dimitri_hairstyle" 255 "all_hairstyles" 209 }
- 		beards={ "all_beards" 2 "all_beards" 65 }
+ 		gene_hair_type={ "hair_straight" 181 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 238 "normal_eyes" 238 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 154 "normal_eyelashes" 154 }
- 		special_headgear_eye_patch={ "eye_patch" 255 "eye_patch" 0 }
+ 		hairstyles={ "dimitri_hairstyle" 177 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 0 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}	
@@ -440,12 +444,13 @@ dna_rhea = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 179 "avg_spacing_lower_thickness" 118 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 167 "layer_2_lower_thickness" 103 }
  		gene_body_hair={ "body_hair_dense" 138 "body_hair_dense" 138 }
- 		hairstyles={ "rhea_hairstyle" 0 "northern_hairstyles" 195 }
- 		beards={ "all_beards" 224 "northern_beards" 224 }
+ 		gene_hair_type={ "hair_wavy" 181 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 6 "normal_eyes" 6 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 42 "normal_eyelashes" 42 }
- 		headgear={ "headgear_rhea_crown" 0 "no_headgear" 0 }
+ 		hairstyles={ "rhea_hairstyle" 218 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 0 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -453,8 +458,8 @@ dna_rhea = {
 
 dna_alois = {
 	portrait_info = {
-		genes={ 		
-		hair_color={ 234 242 0 0 }
+		genes={
+ 		hair_color={ 234 242 0 0 }
  		skin_color={ 21 28 0 0 }
  		eye_color={ 103 35 0 0 }
  		gene_chin_forward={ "chin_forward_neg" 189 "chin_forward_neg" 127 }
@@ -553,11 +558,13 @@ dna_alois = {
  		gene_eyebrows_shape={ "far_spacing_avg_thickness" 255 "no_eyebrows" 127 }
  		gene_eyebrows_fullness={ "layer_2_high_thickness" 112 "no_eyebrows" 127 }
  		gene_body_hair={ "body_hair_dense_low_stubble" 230 "body_hair_sparse" 127 }
- 		hairstyles={ "all_hairstyles" 188 "all_hairstyles" 0 }
- 		beards={ "all_beards" 49 "no_beard" 0 }
+ 		gene_hair_type={ "hair_straight" 181 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "no_eyelashes" 0 "no_eyelashes" 0 }
+ 		hairstyles={ "all_hairstyles" 181 "all_hairstyles" 0 }
+ 		beards={ "all_beards" 38 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -565,8 +572,8 @@ dna_alois = {
 
 dna_catherine = {
 	portrait_info = {
-		genes={ 		
-		hair_color={ 220 59 202 173 }
+		genes={
+ 		hair_color={ 220 59 202 173 }
  		skin_color={ 96 110 73 83 }
  		eye_color={ 110 96 65 174 }
  		gene_chin_forward={ "chin_forward_pos" 163 "chin_forward_neg" 121 }
@@ -665,11 +672,13 @@ dna_catherine = {
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 225 "far_spacing_low_thickness" 212 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 182 "layer_2_avg_thickness" 97 }
  		gene_body_hair={ "body_hair_sparse" 127 "body_hair_sparse" 176 }
- 		hairstyles={ "all_hairstyles" 22 "western_hairstyles" 103 }
- 		beards={ "all_beards" 220 "western_beards" 13 }
+ 		gene_hair_type={ "hair_straight" 201 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 192 "normal_eyes" 192 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 66 "normal_eyelashes" 66 }
+ 		hairstyles={ "western_hairstyles_straight" 65 "all_hairstyles" 0 }
+ 		beards={ "all_beards" 38 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -776,11 +785,13 @@ dna_edelgard = {
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 127 "far_spacing_low_thickness" 127 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 170 "layer_2_low_thickness" 170 }
  		gene_body_hair={ "body_hair_sparse" 143 "body_hair_sparse" 143 }
- 		hairstyles={ "edelgard_hairstyle" 255 "northern_hairstyles" 220 }
- 		beards={ "all_beards" 0 "northern_beards" 201 }
+ 		gene_hair_type={ "hair_straight" 232 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 32 "normal_eyes" 32 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
+ 		hairstyles={ "edelgard_hairstyle" 0 "all_hairstyles" 0 }
+ 		beards={ "" 38 "no_beard" 0 }
  		}
 	entity={ 0 0 }
 	}
@@ -788,8 +799,8 @@ dna_edelgard = {
 
 dna_oswald = {
 	portrait_info = {
-	genes={ 		
-		hair_color={ 232 224 131 127 }
+	genes={
+ 		hair_color={ 232 224 131 127 }
  		skin_color={ 42 50 42 86 }
  		eye_color={ 183 132 125 128 }
  		gene_chin_forward={ "chin_forward_pos" 131 "chin_forward_pos" 131 }
@@ -888,13 +899,13 @@ dna_oswald = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 95 "avg_spacing_lower_thickness" 95 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 70 "layer_2_low_thickness" 70 }
  		gene_body_hair={ "body_hair_sparse" 180 "body_hair_sparse" 180 }
- 		hairstyles={ "western_hairstyles" 153 "western_hairstyles" 153 }
- 		beards={ "western_beards" 52 "western_beards" 52 }
+ 		gene_hair_type={ "hair_wavy" 161 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 8 "normal_eyes" 8 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 206 "normal_eyelashes" 206 }
- 		special_headgear_head_bandage={ "" 0 "head_bandage" 0 }
- 		special_headgear_eye_patch={ "" 0 "eye_patch" 0 }
+ 		hairstyles={ "western_hairstyles_wavy" 138 "all_hairstyles" 0 }
+ 		beards={ "western_beards_straight" 38 "no_beard" 0 }
  		}
 	entity={ 0 0 }
 	}
@@ -902,8 +913,8 @@ dna_oswald = {
 
 dna_jeralt = {
 	portrait_info = {
-	genes={ 		
-		hair_color={ 229 66 0 0 }
+	genes={
+ 		hair_color={ 229 66 0 0 }
  		skin_color={ 0 8 0 0 }
  		eye_color={ 229 123 0 0 }
  		gene_chin_forward={ "chin_forward_neg" 178 "chin_forward_neg" 127 }
@@ -1002,12 +1013,13 @@ dna_jeralt = {
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 187 "no_eyebrows" 127 }
  		gene_eyebrows_fullness={ "layer_2_high_thickness" 76 "no_eyebrows" 127 }
  		gene_body_hair={ "body_hair_avg" 127 "body_hair_sparse" 127 }
- 		hairstyles={ "all_hairstyles" 29 "all_hairstyles" 0 }
- 		beards={ "all_beards" 79 "no_beard" 0 }
+ 		gene_hair_type={ "hair_straight" 127 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "no_eyelashes" 0 "no_eyelashes" 0 }
- 		gene_scars_battle={ "scars_battle" 0 "scars_battle" 0 }
+ 		hairstyles={ "all_hairstyles" 30 "all_hairstyles" 0 }
+ 		beards={ "western_beards_straight" 137 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1015,8 +1027,8 @@ dna_jeralt = {
 
 dna_cyril = {
 	portrait_info = {
-		genes={ 		
-		hair_color={ 255 255 0 0 }
+		genes={
+ 		hair_color={ 255 255 0 0 }
  		skin_color={ 77 82 0 0 }
  		eye_color={ 253 72 0 0 }
  		gene_chin_forward={ "chin_forward_neg" 103 "chin_forward_neg" 127 }
@@ -1115,11 +1127,13 @@ dna_cyril = {
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 152 "no_eyebrows" 127 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 197 "no_eyebrows" 127 }
  		gene_body_hair={ "body_hair_sparse_low_stubble" 95 "body_hair_sparse" 127 }
- 		hairstyles={ "all_hairstyles" 85 "all_hairstyles" 0 }
- 		beards={ "no_beard" 0 "no_beard" 0 }
+ 		gene_hair_type={ "hair_curly" 198 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "no_eyelashes" 0 "no_eyelashes" 0 }
+ 		hairstyles={ "western_hairstyles_curly" 101 "all_hairstyles" 0 }
+ 		beards={ "" 137 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1227,11 +1241,13 @@ dna_shamir = {
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 156 "avg_spacing_low_thickness" 156 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 181 "layer_2_high_thickness" 181 }
  		gene_body_hair={ "body_hair_avg" 157 "body_hair_avg" 157 }
- 		hairstyles={ "all_hairstyles" 71 "western_hairstyles" 112 }
- 		beards={ "western_beards" 7 "western_beards" 105 }
+ 		gene_hair_type={ "hair_straight" 197 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 171 "normal_eyes" 171 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 139 "normal_eyelashes" 139 }
+ 		hairstyles={ "western_hairstyles_straight" 14 "all_hairstyles" 0 }
+ 		beards={ "" 137 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1339,11 +1355,13 @@ dna_manuela = {
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 159 "far_spacing_lower_thickness" 179 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 242 "layer_2_lower_thickness" 252 }
  		gene_body_hair={ "body_hair_avg" 144 "body_hair_dense" 108 }
- 		hairstyles={ "all_hairstyles" 169 "western_hairstyles" 250 }
- 		beards={ "all_beards" 179 "western_beards" 72 }
+ 		gene_hair_type={ "hair_wavy" 197 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 21 "normal_eyes" 21 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 110 "normal_eyelashes" 110 }
+ 		hairstyles={ "rtt_hairstyles" 130 "all_hairstyles" 0 }
+ 		beards={ "" 137 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1351,8 +1369,8 @@ dna_manuela = {
 
 dna_hanneman = {
 	portrait_info = {
-		genes={ 		
-		hair_color={ 243 42 76 248 }
+		genes={
+ 		hair_color={ 243 42 76 248 }
  		skin_color={ 22 17 55 77 }
  		eye_color={ 121 93 243 190 }
  		gene_chin_forward={ "chin_forward_neg" 111 "chin_forward_pos" 141 }
@@ -1451,11 +1469,13 @@ dna_hanneman = {
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 224 "avg_spacing_low_thickness" 203 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 197 "layer_2_lower_thickness" 226 }
  		gene_body_hair={ "body_hair_avg" 91 "body_hair_sparse" 135 }
- 		hairstyles={ "all_hairstyles" 71 "western_hairstyles" 75 }
- 		beards={ "all_beards" 179 "western_beards" 189 }
+ 		gene_hair_type={ "hair_straight" 178 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 214 "normal_eyes" 214 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 103 "normal_eyelashes" 103 }
+ 		hairstyles={ "western_hairstyles_straight" 207 "all_hairstyles" 0 }
+ 		beards={ "all_beards" 159 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1463,8 +1483,8 @@ dna_hanneman = {
 
 dna_gilbert = {
 	portrait_info = {
-		genes={ 		
-		hair_color={ 238 137 218 197 }
+		genes={
+ 		hair_color={ 238 137 218 197 }
  		skin_color={ 66 77 67 76 }
  		eye_color={ 137 206 180 190 }
  		gene_chin_forward={ "chin_forward_neg" 118 "chin_forward_pos" 173 }
@@ -1563,11 +1583,13 @@ dna_gilbert = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 243 "far_spacing_avg_thickness" 122 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 161 "layer_2_low_thickness" 147 }
  		gene_body_hair={ "body_hair_sparse_low_stubble" 0 "body_hair_sparse" 99 }
- 		hairstyles={ "all_hairstyles" 192 "western_hairstyles" 15 }
- 		beards={ "all_beards" 0 "western_beards" 212 }
+ 		gene_hair_type={ "hair_straight" 178 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 129 "normal_eyes" 129 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 206 "normal_eyelashes" 206 }
+ 		hairstyles={ "indian_hairstyles_straight" 63 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1675,11 +1697,13 @@ dna_aelfric = {
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 232 "avg_spacing_avg_thickness" 134 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 202 "layer_2_avg_thickness" 202 }
  		gene_body_hair={ "body_hair_sparse" 103 "body_hair_sparse" 103 }
- 		hairstyles={ "all_hairstyles" 177 "western_hairstyles" 28 }
- 		beards={ "all_beards" 0 "western_beards" 47 }
+ 		gene_hair_type={ "hair_wavy" 178 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 5 "normal_eyes" 5 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 213 "normal_eyelashes" 213 }
+ 		hairstyles={ "rtt_hairstyles" 149 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1787,11 +1811,13 @@ dna_female_byleth = {
  		gene_eyebrows_shape={ "close_spacing_lower_thickness" 177 "avg_spacing_lower_thickness" 118 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 128 "layer_2_avg_thickness" 97 }
  		gene_body_hair={ "body_hair_dense" 138 "body_hair_sparse" 114 }
- 		hairstyles={ "all_hairstyles" 12 "western_hairstyles" 96 }
- 		beards={ "all_beards" 224 "all_beards" 26 }
+ 		gene_hair_type={ "hair_wavy" 193 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 69 "normal_eyes" 69 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 101 "normal_eyelashes" 101 }
+ 		hairstyles={ "western_hairstyles_wavy" 52 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1899,11 +1925,13 @@ dna_male_byleth = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 255 "far_spacing_lower_thickness" 218 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 97 "layer_2_avg_thickness" 255 }
  		gene_body_hair={ "body_hair_sparse" 0 "body_hair_sparse" 114 }
- 		hairstyles={ "all_hairstyles" 43 "western_hairstyles" 169 }
- 		beards={ "all_beards" 0 "all_beards" 0 }
+ 		gene_hair_type={ "hair_wavy" 193 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 64 "normal_eyes" 64 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 233 "normal_eyelashes" 233 }
+ 		hairstyles={ "western_hairstyles_wavy" 116 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -1911,8 +1939,8 @@ dna_male_byleth = {
 
 dna_claude = {
 	portrait_info = {
-		genes={	
-		hair_color={ 255 252 121 241 }
+		genes={
+ 		hair_color={ 255 252 121 241 }
  		skin_color={ 72 123 140 140 }
  		eye_color={ 172 181 21 191 }
  		gene_chin_forward={ "chin_forward_pos" 142 "chin_forward_pos" 147 }
@@ -2011,11 +2039,13 @@ dna_claude = {
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 242 "close_spacing_low_thickness" 193 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 176 "layer_2_avg_thickness" 205 }
  		gene_body_hair={ "body_hair_sparse_low_stubble" 255 "body_hair_sparse" 236 }
- 		hairstyles={ "claude_hairstyle" 0 "byzantine_hairstyles" 204 }
- 		beards={ "all_beards" 0 "mena_beards" 39 }
+ 		gene_hair_type={ "hair_wavy" 193 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 137 "normal_eyes" 137 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 14 "normal_eyelashes" 14 }
+ 		hairstyles={ "claude_hairstyle" 116 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2123,11 +2153,13 @@ dna_lysithea = {
  		gene_eyebrows_shape={ "close_spacing_lower_thickness" 126 "far_spacing_low_thickness" 159 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 201 "layer_2_avg_thickness" 160 }
  		gene_body_hair={ "body_hair_avg" 137 "body_hair_avg" 149 }
- 		hairstyles={ "all_hairstyles" 10 "western_hairstyles" 53 }
- 		beards={ "western_beards" 181 "western_beards" 112 }
+ 		gene_hair_type={ "hair_wavy" 193 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 244 "normal_eyes" 244 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 130 "normal_eyelashes" 130 }
+ 		hairstyles={ "western_hairstyles_wavy" 45 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2235,11 +2267,13 @@ dna_leonie = {
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 188 "avg_spacing_avg_thickness" 180 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 207 "layer_2_avg_thickness" 85 }
  		gene_body_hair={ "body_hair_dense" 255 "body_hair_sparse" 135 }
- 		hairstyles={ "all_hairstyles" 209 "all_hairstyles" 0 }
- 		beards={ "all_beards" 155 "all_beards" 0 }
+ 		gene_hair_type={ "hair_wavy" 193 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 255 "normal_eyelashes" 0 }
+ 		hairstyles={ "northern_hairstyles_wavy" 45 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2247,8 +2281,8 @@ dna_leonie = {
 
 dna_marianne = {
 	portrait_info = {
-		genes={ 		
-		hair_color={ 99 110 121 241 }
+		genes={
+ 		hair_color={ 99 110 121 241 }
  		skin_color={ 0 28 140 140 }
  		eye_color={ 223 233 21 191 }
  		gene_chin_forward={ "chin_forward_pos" 172 "chin_forward_pos" 147 }
@@ -2347,11 +2381,13 @@ dna_marianne = {
  		gene_eyebrows_shape={ "close_spacing_lower_thickness" 242 "close_spacing_low_thickness" 193 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 176 "layer_2_avg_thickness" 205 }
  		gene_body_hair={ "body_hair_avg" 255 "body_hair_sparse" 236 }
- 		hairstyles={ "all_hairstyles" 0 "byzantine_hairstyles" 204 }
- 		beards={ "all_beards" 254 "mena_beards" 39 }
+ 		gene_hair_type={ "hair_straight" 193 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 137 "normal_eyes" 137 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 14 "normal_eyelashes" 14 }
+ 		hairstyles={ "western_hairstyles_straight" 0 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2459,11 +2495,13 @@ dna_raphael = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 239 "avg_spacing_avg_thickness" 226 }
  		gene_eyebrows_fullness={ "layer_2_high_thickness" 219 "layer_2_avg_thickness" 68 }
  		gene_body_hair={ "body_hair_avg" 0 "body_hair_sparse" 91 }
- 		hairstyles={ "all_hairstyles" 90 "all_hairstyles" 0 }
- 		beards={ "all_beards" 0 "all_beards" 0 }
+ 		gene_hair_type={ "hair_curly" 255 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 0 "normal_eyes" 0 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 0 "normal_eyelashes" 0 }
+ 		hairstyles={ "western_hairstyles_curly" 104 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2571,11 +2609,13 @@ dna_lorenz = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 182 "far_spacing_low_thickness" 212 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 202 "layer_2_avg_thickness" 97 }
  		gene_body_hair={ "body_hair_sparse" 0 "body_hair_sparse" 176 }
- 		hairstyles={ "all_hairstyles" 56 "western_hairstyles" 103 }
- 		beards={ "all_beards" 0 "western_beards" 13 }
+ 		gene_hair_type={ "hair_wavy" 196 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 192 "normal_eyes" 192 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 66 "normal_eyelashes" 66 }
+ 		hairstyles={ "western_hairstyles_wavy" 154 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2684,11 +2724,13 @@ dna_hilda = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 169 "close_spacing_avg_thickness" 194 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 169 "layer_2_low_thickness" 150 }
  		gene_body_hair={ "body_hair_avg" 152 "body_hair_avg" 152 }
- 		hairstyles={ "all_hairstyles" 207 "byzantine_hairstyles" 68 }
- 		beards={ "all_beards" 33 "western_beards" 33 }
+ 		gene_hair_type={ "hair_wavy" 206 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 68 "normal_eyes" 68 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 208 "normal_eyelashes" 208 }
+ 		hairstyles={ "indian_hairstyles_wavy" 255 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 90 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2796,11 +2838,13 @@ dna_holst = {
  		gene_eyebrows_shape={ "far_spacing_low_thickness" 169 "close_spacing_avg_thickness" 194 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 169 "layer_2_low_thickness" 150 }
  		gene_body_hair={ "body_hair_avg_low_stubble" 152 "body_hair_avg" 152 }
- 		hairstyles={ "all_hairstyles" 67 "byzantine_hairstyles" 68 }
- 		beards={ "all_beards" 39 "western_beards" 33 }
+ 		gene_hair_type={ "hair_wavy" 206 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 68 "normal_eyes" 68 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 208 "normal_eyelashes" 208 }
+ 		hairstyles={ "western_hairstyles_straight" 189 "all_hairstyles" 0 }
+ 		beards={ "western_beards_straight" 79 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -2908,11 +2952,13 @@ dna_ignatz = {
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 148 "far_spacing_lower_thickness" 148 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 140 "layer_2_lower_thickness" 140 }
  		gene_body_hair={ "body_hair_sparse" 182 "body_hair_sparse" 182 }
- 		hairstyles={ "all_hairstyles" 1 "western_hairstyles" 233 }
- 		beards={ "all_beards" 0 "western_beards" 140 }
+ 		gene_hair_type={ "hair_straight" 149 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 32 "normal_eyes" 32 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 138 "normal_eyelashes" 138 }
+ 		hairstyles={ "western_hairstyles_straight" 0 "all_hairstyles" 0 }
+ 		beards={ "no_beard" 79 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
