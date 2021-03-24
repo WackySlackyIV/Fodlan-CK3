@@ -1,5 +1,5 @@
 ﻿1300000 = {
-	name="great morfis sage"
+	name="Chanin"
 	religion="inetsaret"
 	culture="morfis"
 
@@ -14,7 +14,7 @@
 }
 
 1300001 = {
-	name="72"
+	name="Hammud"
 	religion="inetsaret"
 	culture="galzum"
 
@@ -27,9 +27,10 @@
 }
 
 1300002 = {
-	name="73"
+	name="Mahalie" #Magical Witch waifu
 	religion="nekfsaret"
 	culture="apatol"
+	female=yes
 
 	1162.12.20 = {
 		birth=yes
@@ -40,7 +41,7 @@
 }
 
 1300003 = {
-	name="74"
+	name="Taliah"
 	religion="nekfsaret"
 	culture="apatol"
 
@@ -53,7 +54,7 @@
 }
 
 1300004 = {
-	name="75"
+	name="Imalek"
 	religion="sekisaret"
 	culture="apatol"
 
@@ -66,7 +67,7 @@
 }
 
 1300005 = {
-	name="76"
+	name="Shemaiah"
 	religion="sekisaret"
 	culture="apatol"
 
@@ -79,7 +80,7 @@
 }
 
 1300006 = {
-	name="77"
+	name="Laszio"
 	religion="sekisaret"
 	culture="eriset"
 
@@ -92,7 +93,7 @@
 }
 
 1300007 = {
-	name="78"
+	name="Ilios"
 	religion="inetsaret"
 	culture="eriset"
 
@@ -105,7 +106,7 @@
 }
 
 1300008 = {
-	name="79"
+	name="Latif"
 	religion="sekisaret"
 	culture="apatol"
 
@@ -118,7 +119,7 @@
 }
 
 1300009 = {
-	name="80"
+	name="Lot"
 	religion="sekisaret"
 	culture="apatol"
 
@@ -131,7 +132,7 @@
 }
 
 1300010 = {
-	name="81"
+	name="Babowai"
 	religion="nekfsaret"
 	culture="apatol"
 
@@ -144,7 +145,7 @@
 }
 
 1300011 = {
-	name="82"
+	name="Makkikha"
 	religion="nekfsaret"
 	culture="apatol"
 
@@ -157,7 +158,7 @@
 }
 
 1300012 = {
-	name="83"
+	name="Krystafer"
 	religion="nekfsaret"
 	culture="apatol"
 
@@ -170,7 +171,7 @@
 }
 
 1300013 = {
-	name="84"
+	name="Agathos"
 	religion="nekfsaret"
 	culture="apatol"
 
@@ -183,7 +184,7 @@
 }
 
 1300014 = {
-	name="template"
+	name="Touma"
 	religion="sekisaret"
 	culture="eriset"
 
@@ -196,7 +197,7 @@
 }
 
 1300015 = {
-	name="template"
+	name="Oranos"
 	religion="sekisaret"
 	culture="eriset"
 
@@ -209,9 +210,10 @@
 }
 
 1300016 = {
-	name="template"
+	name="Talitha"
 	religion="jebbilencia"
 	culture="qutummi"
+	female=yes
 
 	1162.12.20 = {
 		birth=yes
@@ -235,9 +237,10 @@
 }
 
 1300018 = {
-	name="template"
+	name="Amunet"
 	religion="sekisaret"
 	culture="eriset"
+	female=yes
 
 	1162.12.20 = {
 		birth=yes
@@ -248,9 +251,10 @@
 }
 
 1300019 = {
-	name="template"
+	name="Anina"
 	religion="sekisaret"
 	culture="apatol"
+	female=yes
 
 	1162.12.20 = {
 		birth=yes
@@ -261,7 +265,7 @@
 }
 
 1300020 = {
-	name="template"
+	name="Enosh"
 	religion="sekisaret"
 	culture="eriset"
 
@@ -274,7 +278,7 @@
 }
 
 1300021 = {
-	name="template"
+	name="Nasir"
 	religion="jebbilencia"
 	culture="eriset"
 
@@ -287,7 +291,7 @@
 }
 
 1300022 = {
-	name="template"
+	name="Tajaddin"
 	religion="sekisaret"
 	culture="apatol"
 
@@ -300,7 +304,7 @@
 }
 
 1300023 = {
-	name="template"
+	name="Shammai"
 	religion="sekisaret"
 	culture="apatol"
 
@@ -313,7 +317,7 @@
 }
 
 1300024 = {
-	name="template"
+	name="Firuz"
 	religion="sekisaret"
 	culture="apatol"
 
