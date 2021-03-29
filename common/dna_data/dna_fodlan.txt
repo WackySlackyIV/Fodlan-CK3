@@ -3525,8 +3525,7 @@ dna_annette = {
 
 dna_sylvain = {
 	portrait_info = {
-		genes={
- 		hair_color={ 253 146 65 125 }
+		genes={ 		hair_color={ 253 146 65 125 }
  		skin_color={ 22 39 22 82 }
  		eye_color={ 224 205 221 176 }
  		gene_chin_forward={ "chin_forward_pos" 130 "chin_forward_pos" 130 }
@@ -3625,8 +3624,8 @@ dna_sylvain = {
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 196 "far_spacing_low_thickness" 149 }
  		gene_eyebrows_fullness={ "layer_2_high_thickness" 133 "layer_2_avg_thickness" 84 }
  		gene_body_hair={ "body_hair_sparse" 80 "body_hair_sparse" 179 }
- 		hairstyles={ "all_hairstyles" 15 "all_hairstyles" 0 }
- 		beards={ "all_beards" 0 "all_beards" 41 }
+ 		gene_hair_type={ "hair_wavy" 197 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 127 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 116 "normal_eyes" 116 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 54 "normal_eyelashes" 54 }
@@ -3737,11 +3736,13 @@ dna_jeritza = {
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 169 "far_spacing_low_thickness" 169 }
  		gene_eyebrows_fullness={ "layer_2_avg_thickness" 131 "layer_2_avg_thickness" 131 }
  		gene_body_hair={ "body_hair_dense" 0 "body_hair_dense" 104 }
- 		hairstyles={ "all_hairstyles" 52 "all_hairstyles" 199 }
- 		beards={ "all_beards" 0 "all_beards" 219 }
+ 		gene_hair_type={ "hair_wavy" 197 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 127 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 97 "normal_eyes" 97 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 1 "normal_eyelashes" 1 }
+ 		hairstyles={ "scripted_character_hairstyles_01" 40 "all_hairstyles" 0 }
+ 		beards={ "scripted_character_beards_01" 0 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}

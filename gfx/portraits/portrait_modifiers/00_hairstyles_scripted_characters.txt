@@ -40,6 +40,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300028 #Sylvain
+                this = character:300028 #Sylvain
+            }
         }
     }
 
@@ -110,6 +115,21 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200000 #Oswald
+                this = character:200000 #Oswald
+            }
+            modifier = {
+                add = 200
+                exists = character:200015 #Lorenz
+                this = character:200015 #Lorenz
+            }
+            modifier = {
+                add = 200
+                exists = character:400022 #Jeritza
+                this = character:400022 #Jeritza
+            }
         }
     }
 
