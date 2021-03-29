@@ -1,10 +1,4 @@
-﻿on_game_start = {
-	on_actions = {
-		
-	}
-}
-
-on_game_start_after_lobby = {
+﻿on_game_start_after_lobby = {
 	on_actions = {
 		FOD_ON_START
 	}

@@ -45,6 +45,7 @@ five_year_playable_pulse = {
 quarterly_playable_pulse = {
 	on_actions = {
 		realm_maintenance_quarterly_pulse
+		relation_upgrade_quarterly_pulse
 		#Event pools
 		stewardship_lifestyle_progress_pulse
 		intrigue_lifestyle_progress_pulse
@@ -271,5 +272,9 @@ on_yearly_events = {
 		10 = pet_animal.5002 # Rival has dog...
 
 		#Holy Order
+
+		#Infirm 
+		10 = health.7000 # Become infirm
+		20 = health.7100 # Become depressed while infirm
 	}
 }

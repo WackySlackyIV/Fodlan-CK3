@@ -1,0 +1,51 @@
+﻿
+####################
+### Fodlan Nicks ###
+####################
+
+### Church ###
+nick_cappy = {}
+
+nick_the_divine_songstress = {}
+
+nick_the_father_of_crestology = {}
+
+nick_blade_breaker = {}
+
+nick_thunderstrike = {}
+
+nick_savage_mockingbird = {}
+
+nick_king_grappling = {}
+
+
+
+### Adrestia ###
+nick_flame_emperor = {}
+
+nick_death_knight = { is_bad = yes }
+
+### Leicester ###
+
+nick_master_tactician = {}
+
+nick_lord_of_roses = {}
+
+nick_weathervane = { is_bad = yes }
+
+nick_hero_of_daphnel = {}
+
+### Faerghus ###
+
+nick_boar_prince = { is_bad = yes }
+nick_savior_king = {} #Dimitri good
+
+
+### Sreng ###
+
+nick_vindkaller = {}
+
+
+### Almyra ###
+
+nick_serpent = {}

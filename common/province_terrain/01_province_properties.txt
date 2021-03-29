@@ -1,0 +1,5736 @@
+#b_garreg_mach
+1= { winter_severity_bias = 0,45}
+
+#b_mach
+2= { winter_severity_bias = 0,45}
+
+#b_knights
+3= { winter_severity_bias = 0,45}
+
+#b_saint
+5= { winter_severity_bias = 0,45}
+
+#b_hearth
+6= { winter_severity_bias = 0,45}
+
+#b_vatican
+7= { winter_severity_bias = 0,45}
+
+#b_cethleann
+8= { winter_severity_bias = 0,45}
+
+#b_bruidhean
+9= { winter_severity_bias = 0,45}
+
+#b_sagido
+10= { winter_severity_bias = 0,45}
+
+#b_cichol
+11= { winter_severity_bias = 0,45}
+
+#b_butado
+12= { winter_severity_bias = 0,45}
+
+#b_erenn
+13= { winter_severity_bias = 0,45}
+
+#b_indech
+14= { winter_severity_bias = 0,45}
+
+#b_ryudo
+15= { winter_severity_bias = 0,45}
+
+#b_tortosa
+16= { winter_severity_bias = 0,45}
+
+#b_macuil
+17= { winter_severity_bias = 0,45}
+
+#b_umado
+18= { winter_severity_bias = 0,45}
+
+#b_aves
+19= { winter_severity_bias = 0,45}
+
+#b_zanado
+20= { winter_severity_bias = 0,45}
+
+#b_elivilar
+21= { winter_severity_bias = 0,45}
+
+#b_segudet
+22= { winter_severity_bias = 0,45}
+
+#b_preda
+23= { winter_severity_bias = 0,45}
+
+#b_droma
+24= { winter_severity_bias = 0,45}
+
+#b_derdriu
+25= { winter_severity_bias = 0,45}
+
+#b_concilla
+26= { winter_severity_bias = 0,45}
+
+#b_deerhurst
+27= { winter_severity_bias = 0,45}
+
+#b_braunstone
+28= { winter_severity_bias = 0,45}
+
+#b_oadby
+29= { winter_severity_bias = 0,45}
+
+#b_glenfield
+30= { winter_severity_bias = 0,45}
+
+#b_escomb
+31= { winter_severity_bias = 0,45}
+
+#b_barcaster
+32= { winter_severity_bias = 0,45}
+
+#b_otterbeck
+33= { winter_severity_bias = 0,45}
+
+#b_wirksworth
+34= { winter_severity_bias = 0,45}
+
+#b_eastmarket
+35= { winter_severity_bias = 0,45}
+
+#b_thornwick
+36= { winter_severity_bias = 0,45}
+
+#b_sleaford
+37= { winter_severity_bias = 0,45}
+
+#b_newhurst
+38= { winter_severity_bias = 0,45}
+
+#b_hartcaster
+39= { winter_severity_bias = 0,45}
+
+#b_neath
+40= { winter_severity_bias = 0,45}
+
+#b_wells
+41= { winter_severity_bias = 0,45}
+
+#b_kesgrave
+42= { winter_severity_bias = 0,45}
+
+#b_roehester
+43= { winter_severity_bias = 0,45}
+
+#b_risborough
+44= { winter_severity_bias = 0,45}
+
+#b_thetford
+45= { winter_severity_bias = 0,45}
+
+#b_clarence
+46= { winter_severity_bias = 0,45}
+
+#b_akron
+47= { winter_severity_bias = 0,45}
+
+#b_alden
+48= { winter_severity_bias = 0,45}
+
+#b_medina
+49= { winter_severity_bias = 0,45}
+
+#b_reculver
+50= { winter_severity_bias = 0,45}
+
+#b_malmsmey
+51= { winter_severity_bias = 0,45}
+
+#b_lionel
+52= { winter_severity_bias = 0,45}
+
+#b_cartmel
+53= { winter_severity_bias = 0,45}
+
+#b_dudley
+54= { winter_severity_bias = 0,45}
+
+#b_grey
+55= { winter_severity_bias = 0,45}
+
+#b_catterick
+56= { winter_severity_bias = 0,45}
+
+#b_avondale
+57= { winter_severity_bias = 0,45}
+
+#b_polydore
+58= { winter_severity_bias = 0,45}
+
+#b_myrddin
+59= { winter_severity_bias = 0,45}
+
+#b_emrys
+60= { winter_severity_bias = 0,45}
+
+#b_sylvesteris
+61= { winter_severity_bias = 0,45}
+
+#b_lostwithel
+62= { winter_severity_bias = 0,45}
+
+#b_yarmouth
+63= { winter_severity_bias = 0,45}
+
+#b_willt
+64= { winter_severity_bias = 0,45}
+
+#b_lailoken
+65= { winter_severity_bias = 0,45}
+
+#b_bordersley
+66= { winter_severity_bias = 0,45}
+
+#b_carmathen
+67= { winter_severity_bias = 0,45}
+
+#b_hergest
+68= { winter_severity_bias = 0,45}
+
+#b_rhuddlan
+69= { winter_severity_bias = 0,45}
+
+#b_kentigern
+70= { winter_severity_bias = 0,45}
+
+#b_padstow
+71= { winter_severity_bias = 0,45}
+
+#b_daphnel
+72= { winter_severity_bias = 0,45}
+
+#b_peneus
+73= { winter_severity_bias = 0,45}
+
+#b_ladon
+74= { winter_severity_bias = 0,45}
+
+#b_coinsborough
+75= { winter_severity_bias = 0,45}
+
+#b_ive
+76= { winter_severity_bias = 0,45}
+
+#b_fulham
+77= { winter_severity_bias = 0,45}
+
+#b_stamford
+78= { winter_severity_bias = 0,45}
+
+#b_beverly
+79= { winter_severity_bias = 0,45}
+
+#b_creusa
+80= { winter_severity_bias = 0,45}
+
+#b_hyginus
+81= { winter_severity_bias = 0,45}
+
+#b_gomery
+82= { winter_severity_bias = 0,45}
+
+#b_oxenfurd
+83= { winter_severity_bias = 0,45}
+
+#b_langley
+84= { winter_severity_bias = 0,45}
+
+#b_maris
+85= { winter_severity_bias = 0,45}
+
+#b_windmare
+86= { winter_severity_bias = 0,45}
+
+#b_alderwick
+87= { winter_severity_bias = 0,45}
+
+#b_ailell
+88= { winter_severity_bias = 0,45}
+
+#b_redvalley
+89= { winter_severity_bias = 0,45}
+
+#b_stroud
+90= { winter_severity_bias = 0,45}
+
+#b_camden
+91= { winter_severity_bias = 0,45}
+
+#b_hollowway
+92= { winter_severity_bias = 0,45}
+
+#b_ordelia
+93= { winter_severity_bias = 0,45}
+
+#b_rotherham
+94= { winter_severity_bias = 0,45}
+
+#b_pitmedden
+95= { winter_severity_bias = 0,45}
+
+#b_furness
+96= { winter_severity_bias = 0,45}
+
+#b_brandwell
+97= { winter_severity_bias = 0,45}
+
+#b_stanwell
+98= { winter_severity_bias = 0,45}
+
+#b_clare
+99= { winter_severity_bias = 0,45}
+
+#b_osyth
+100= { winter_severity_bias = 0,45}
+
+#b_dunpool
+101= { winter_severity_bias = 0,45}
+
+#b_keldhurst
+102= { winter_severity_bias = 0,45}
+
+#b_kirdford
+103= { winter_severity_bias = 0,45}
+
+#b_westbury
+104= { winter_severity_bias = 0,45}
+
+#b_moormare
+105= { winter_severity_bias = 0,45}
+
+#b_gloucester
+106= { winter_severity_bias = 0,45}
+
+#b_sauin
+107= { winter_severity_bias = 0,45}
+
+#b_langdale
+108= { winter_severity_bias = 0,45}
+
+#b_presburgh
+109= { winter_severity_bias = 0,45}
+
+#b_wayford
+110= { winter_severity_bias = 0,45}
+
+#b_marsmouth
+111= { winter_severity_bias = 0,45}
+
+#b_preshall
+112= { winter_severity_bias = 0,45}
+
+#b_cleeve
+113= { winter_severity_bias = 0,45}
+
+#b_redhurst
+114= { winter_severity_bias = 0,45}
+
+#b_foxham
+115= { winter_severity_bias = 0,45}
+
+#b_haugmond
+116= { winter_severity_bias = 0,45}
+
+#b_hardwick
+117= { winter_severity_bias = 0,45}
+
+#b_tuffley
+118= { winter_severity_bias = 0,45}
+
+#b_haven
+119= { winter_severity_bias = 0,45}
+
+#b_loxhaven
+120= { winter_severity_bias = 0,45}
+
+#b_hentwaithe
+121= { winter_severity_bias = 0,45}
+
+#b_grimsby
+122= { winter_severity_bias = 0,45}
+
+#b_middleby
+123= { winter_severity_bias = 0,45}
+
+#b_dunbrook
+124= { winter_severity_bias = 0,45}
+
+#b_edmund
+125= { winter_severity_bias = 0,45}
+
+#b_willisden
+126= { winter_severity_bias = 0,45}
+
+#b_camborne
+127= { winter_severity_bias = 0,45}
+
+#b_brierlay
+128= { winter_severity_bias = 0,45}
+
+#b_ely
+129= { winter_severity_bias = 0,45}
+
+#b_sherborne
+130= { winter_severity_bias = 0,45}
+
+#b_southcave
+131= { winter_severity_bias = 0,45}
+
+#b_raglan
+132= { winter_severity_bias = 0,45}
+
+#b_darwen
+133= { winter_severity_bias = 0,45}
+
+#b_nelson
+134= { winter_severity_bias = 0,45}
+
+#b_alfreton
+135= { winter_severity_bias = 0,45}
+
+#b_barwick
+136= { winter_severity_bias = 0,45}
+
+#b_colmore
+137= { winter_severity_bias = 0,45}
+
+#b_jarrow
+138= { winter_severity_bias = 0,45}
+
+#b_ledbury
+139= { winter_severity_bias = 0,45}
+
+#b_wetherby
+140= { winter_severity_bias = 0,45}
+
+#b_radava
+141= { winter_severity_bias = 0,45}
+
+#b_devana
+142= { winter_severity_bias = 0,45}
+
+#b_ciza
+143= { winter_severity_bias = 0,45}
+
+#b_kupala
+144= { winter_severity_bias = 0,45}
+
+#b_perperuna
+145= { winter_severity_bias = 0,45}
+
+#b_dodola
+146= { winter_severity_bias = 0,45}
+
+#b_dillia
+147= { winter_severity_bias = 0,45}
+
+#b_goneril
+148= { winter_severity_bias = 0,45}
+
+#b_amersham
+149= { winter_severity_bias = 0,45}
+
+#b_ponteland
+150= { winter_severity_bias = 0,45}
+
+#b_scarsburg
+151= { winter_severity_bias = 0,45}
+
+#b_minster
+152= { winter_severity_bias = 0,45}
+
+#b_stainford
+153= { winter_severity_bias = 0,45}
+
+#b_castleford
+154= { winter_severity_bias = 0,45}
+
+#b_asaph
+155= { winter_severity_bias = 0,45}
+
+#b_ulverston
+156= { winter_severity_bias = 0,45}
+
+#b_dulverton
+157= { winter_severity_bias = 0,45}
+
+#b_tamsworth
+158= { winter_severity_bias = 0,45}
+
+#b_leece
+159= { winter_severity_bias = 0,45}
+
+#b_caliban
+160= { winter_severity_bias = 0,45}
+
+#b_morland
+161= { winter_severity_bias = 0,45}
+
+#b_barton
+162= { winter_severity_bias = 0,45}
+
+#b_heywood
+163= { winter_severity_bias = 0,45}
+
+#b_throatford
+164= { winter_severity_bias = 0,45}
+
+#b_keynes
+165= { winter_severity_bias = 0,45}
+
+#b_walburn
+166= { winter_severity_bias = 0,45}
+
+#b_atholl
+167= { winter_severity_bias = 0,45}
+
+#b_stapleford
+168= { winter_severity_bias = 0,45}
+
+#b_clun
+169= { winter_severity_bias = 0,45}
+
+#b_somerton
+170= { winter_severity_bias = 0,45}
+
+#b_morcambe
+171= { winter_severity_bias = 0,45}
+
+#b_melville
+172= { winter_severity_bias = 0,45}
+
+#b_palmerston
+173= { winter_severity_bias = 0,45}
+
+#b_croston
+174= { winter_severity_bias = 0,45}
+
+#b_liskeard
+175= { winter_severity_bias = 0,45}
+
+#b_asheford
+176= { winter_severity_bias = 0,45}
+
+#b_perf
+177= { winter_severity_bias = 0,45}
+
+#b_cole
+178= { winter_severity_bias = 0,45}
+
+#b_redditch
+179= { winter_severity_bias = 0,45}
+
+#b_salem
+180= { winter_severity_bias = 0,45}
+
+#b_teamher
+181= { winter_severity_bias = 0,45}
+
+#b_cnoc
+182= { winter_severity_bias = 0,45}
+
+#b_liafail
+183= { winter_severity_bias = 0,45}
+
+#b_cangort
+184= { winter_severity_bias = 0,45}
+
+#b_beth
+185= { winter_severity_bias = 0,45}
+
+#b_synodhall
+186= { winter_severity_bias = 0,45}
+
+#b_fhirdiad
+187= { winter_severity_bias = 0,45}
+
+#b_lyon
+188= { winter_severity_bias = 0,45}
+
+#b_bron
+189= { winter_severity_bias = 0,45}
+
+#b_jonage
+190= { winter_severity_bias = 0,45}
+
+#b_mornant
+191= { winter_severity_bias = 0,45}
+
+#b_mane
+192= { winter_severity_bias = 0,45}
+
+#b_amiens
+193= { winter_severity_bias = 0,45}
+
+#b_avem
+194= { winter_severity_bias = 0,45}
+
+#b_trembe
+195= { winter_severity_bias = 0,45}
+
+#b_eurs
+196= { winter_severity_bias = 0,45}
+
+#b_erquy
+197= { winter_severity_bias = 0,45}
+
+#b_botmeur
+198= { winter_severity_bias = 0,45}
+
+#b_ratumac
+199= { winter_severity_bias = 0,45}
+
+#b_draynes
+200= { winter_severity_bias = 0,45}
+
+#b_duault
+201= { winter_severity_bias = 0,45}
+
+#b_tailtean
+202= { winter_severity_bias = 0,45}
+
+#b_lancieux
+203= { winter_severity_bias = 0,45}
+
+#b_tramain
+204= { winter_severity_bias = 0,45}
+
+#b_veliocasse
+205= { winter_severity_bias = 0,45}
+
+#b_henon
+206= { winter_severity_bias = 0,45}
+
+#b_radenac
+207= { winter_severity_bias = 0,45}
+
+#b_galatea
+208= { winter_severity_bias = 0,45}
+
+#b_bonnefoy
+209= { winter_severity_bias = 0,45}
+
+#b_agne
+210= { winter_severity_bias = 0,45}
+
+#b_croix
+211= { winter_severity_bias = 0,45}
+
+#b_chartreuse
+212= { winter_severity_bias = 0,45}
+
+#b_caenelles
+213= { winter_severity_bias = 0,45}
+
+#b_beclac
+214= { winter_severity_bias = 0,45}
+
+#b_beaulieu
+215= { winter_severity_bias = 0,45}
+
+#b_hever
+216= { winter_severity_bias = 0,45}
+
+#b_cosen
+217= { winter_severity_bias = 0,45}
+
+#b_gwyne
+218= { winter_severity_bias = 0,45}
+
+#b_bommels
+219= { winter_severity_bias = 0,45}
+
+#b_mormont
+220= { winter_severity_bias = 0,45}
+
+#b_charon
+221= { winter_severity_bias = 0,45}
+
+#b_vedas
+222= { winter_severity_bias = 0,45}
+
+#b_jean
+223= { winter_severity_bias = 0,45}
+
+#b_juvinac
+224= { winter_severity_bias = 0,45}
+
+#b_shrewe
+225= { winter_severity_bias = 0,45}
+
+#b_roudeau
+226= { winter_severity_bias = 0,45}
+
+#b_gournier
+227= { winter_severity_bias = 0,45}
+
+#b_warwise
+228= { winter_severity_bias = 0,45}
+
+#b_injoux
+229= { winter_severity_bias = 0,45}
+
+#b_aubepierre
+230= { winter_severity_bias = 0,45}
+
+#b_lenord
+231= { winter_severity_bias = 0,45}
+
+#b_freyming
+232= { winter_severity_bias = 0,45}
+
+#b_balbin
+233= { winter_severity_bias = 0,45}
+
+#b_conand
+234= { winter_severity_bias = 0,45}
+
+#b_bascons
+235= { winter_severity_bias = 0,45}
+
+#b_bisel
+236= { winter_severity_bias = 0,45}
+
+#b_chate
+237= { winter_severity_bias = 0,45}
+
+#b_esses
+238= { winter_severity_bias = 0,45}
+
+#b_marigane
+239= { winter_severity_bias = 0,45}
+
+#b_aix
+240= { winter_severity_bias = 0,45}
+
+#b_aurigny
+241= { winter_severity_bias = 0,45}
+
+#b_villau
+242= { winter_severity_bias = 0,45}
+
+#b_cherble
+243= { winter_severity_bias = 0,45}
+
+#b_douvres
+244= { winter_severity_bias = 0,45}
+
+#b_hyere
+245= { winter_severity_bias = 0,45}
+
+#b_vesy
+246= { winter_severity_bias = 0,45}
+
+#b_fraldarius
+247= { winter_severity_bias = 0,45}
+
+#b_carros
+248= { winter_severity_bias = 0,45}
+
+#b_contes
+249= { winter_severity_bias = 0,45}
+
+#b_menton
+250= { winter_severity_bias = 0,45}
+
+#b_wapont
+251= { winter_severity_bias = 0,45}
+
+#b_laldosa
+252= { winter_severity_bias = 0,45}
+
+#b_sispony
+253= { winter_severity_bias = 0,45}
+
+#b_guisnes
+254= { winter_severity_bias = 0,45}
+
+#b_arisnal
+255= { winter_severity_bias = 0,45}
+
+#b_eserrat
+256= { winter_severity_bias = 0,45}
+
+#b_fologne
+257= { winter_severity_bias = 0,45}
+
+#b_casavilla
+258= { winter_severity_bias = 0,45}
+
+#b_arans
+259= { winter_severity_bias = 0,45}
+
+#b_gautier
+260= { winter_severity_bias = 0,45}
+
+#b_pau
+261= { winter_severity_bias = 0,45}
+
+#b_biuros
+262= { winter_severity_bias = 0,45}
+
+#b_montardon
+263= { winter_severity_bias = 0,45}
+
+#b_gueldre
+264= { winter_severity_bias = 0,45}
+
+#b_certers
+265= { winter_severity_bias = 0,45}
+
+#b_axivalle
+266= { winter_severity_bias = 0,45}
+
+#b_frise
+267= { winter_severity_bias = 0,45}
+
+#b_juberri
+268= { winter_severity_bias = 0,45}
+
+#b_pal
+269= { winter_severity_bias = 0,45}
+
+#b_sudfrise
+270= { winter_severity_bias = 0,45}
+
+#b_villa
+271= { winter_severity_bias = 0,45}
+
+#b_ransol
+272= { winter_severity_bias = 0,45}
+
+#b_itha
+273= { winter_severity_bias = 0,45}
+
+#b_bordeaux
+274= { winter_severity_bias = 0,45}
+
+#b_pessac
+275= { winter_severity_bias = 0,45}
+
+#b_lormont
+276= { winter_severity_bias = 0,45}
+
+#b_foulde
+277= { winter_severity_bias = 0,45}
+
+#b_caudrot
+278= { winter_severity_bias = 0,45}
+
+#b_gauriac
+279= { winter_severity_bias = 0,45}
+
+#b_montjoie
+280= { winter_severity_bias = 0,45}
+
+#b_escaudes
+281= { winter_severity_bias = 0,45}
+
+#b_frontenac
+282= { winter_severity_bias = 0,45}
+
+#b_clevris
+283= { winter_severity_bias = 0,45}
+
+#b_gabarnac
+284= { winter_severity_bias = 0,45}
+
+#b_eyrans
+285= { winter_severity_bias = 0,45}
+
+#b_langres
+286= { winter_severity_bias = 0,45}
+
+#b_celsoy
+287= { winter_severity_bias = 0,45}
+
+#b_brennes
+288= { winter_severity_bias = 0,45}
+
+#b_fontaine
+289= { winter_severity_bias = 0,45}
+
+#b_juliers
+290= { winter_severity_bias = 0,45}
+
+#b_tramecourt
+291= { winter_severity_bias = 0,45}
+
+#b_thiron
+292= { winter_severity_bias = 0,45}
+
+#b_looz
+293= { winter_severity_bias = 0,45}
+
+#b_meylan
+294= { winter_severity_bias = 0,45}
+
+#b_ludes
+295= { winter_severity_bias = 0,45}
+
+#b_gand
+296= { winter_severity_bias = 0,45}
+
+#b_talissieu
+297= { winter_severity_bias = 0,45}
+
+#b_bentry
+298= { winter_severity_bias = 0,45}
+
+#b_adharc
+299= { winter_severity_bias = 0,45}
+
+#b_llors
+300= { winter_severity_bias = 0,45}
+
+#b_molleres
+301= { winter_severity_bias = 0,45}
+
+#b_merille
+302= { winter_severity_bias = 0,45}
+
+#b_ryswise
+303= { winter_severity_bias = 0,45}
+
+#b_coloma
+304= { winter_severity_bias = 0,45}
+
+#b_rochelle
+305= { winter_severity_bias = 0,45}
+
+#b_renaix
+306= { winter_severity_bias = 0,45}
+
+#b_xandre
+307= { winter_severity_bias = 0,45}
+
+#b_lagord
+308= { winter_severity_bias = 0,45}
+
+#b_magdred
+309= { winter_severity_bias = 0,45}
+
+#b_vertou
+310= { winter_severity_bias = 0,45}
+
+#b_reze
+311= { winter_severity_bias = 0,45}
+
+#b_herblain
+312= { winter_severity_bias = 0,45}
+
+#b_florimont
+313= { winter_severity_bias = 0,45}
+
+#b_villesauve
+314= { winter_severity_bias = 0,45}
+
+#b_escous
+315= { winter_severity_bias = 0,45}
+
+#b_montcarvel
+316= { winter_severity_bias = 0,45}
+
+#b_aubagne
+317= { winter_severity_bias = 0,45}
+
+#b_cravans
+318= { winter_severity_bias = 0,45}
+
+#b_lalonde
+319= { winter_severity_bias = 0,45}
+
+#b_pernay
+320= { winter_severity_bias = 0,45}
+
+#b_luynes
+321= { winter_severity_bias = 0,45}
+
+#b_vouvray
+322= { winter_severity_bias = 0,45}
+
+#b_mortagne
+323= { winter_severity_bias = 0,45}
+
+#b_clairfaye
+324= { winter_severity_bias = 0,45}
+
+#b_feline
+325= { winter_severity_bias = 0,45}
+
+#b_resin
+326= { winter_severity_bias = 0,45}
+
+#b_sonchamp
+327= { winter_severity_bias = 0,45}
+
+#b_escoureille
+328= { winter_severity_bias = 0,45}
+
+#b_leon
+329= { winter_severity_bias = 0,45}
+
+#b_valier
+330= { winter_severity_bias = 0,45}
+
+#b_verneix
+331= { winter_severity_bias = 0,45}
+
+#b_roland
+332= { winter_severity_bias = 0,45}
+
+#b_limeray
+333= { winter_severity_bias = 0,45}
+
+#b_mosnes
+334= { winter_severity_bias = 0,45}
+
+#b_cangey
+335= { winter_severity_bias = 0,45}
+
+#b_roncevaux
+336= { winter_severity_bias = 0,45}
+
+#b_bouligny
+337= { winter_severity_bias = 0,45}
+
+#b_loire
+338= { winter_severity_bias = 0,45}
+
+#b_blaye
+339= { winter_severity_bias = 0,45}
+
+#b_lesperre
+340= { winter_severity_bias = 0,45}
+
+#b_delettes
+341= { winter_severity_bias = 0,45}
+
+#b_vitre
+342= { winter_severity_bias = 0,45}
+
+#b_tourche
+343= { winter_severity_bias = 0,45}
+
+#b_chasseignes
+344= { winter_severity_bias = 0,45}
+
+#b_gaspard
+345= { winter_severity_bias = 0,45}
+
+#b_rhue
+346= { winter_severity_bias = 0,45}
+
+#b_chante
+347= { winter_severity_bias = 0,45}
+
+#b_bruz
+348= { winter_severity_bias = 0,45}
+
+#b_balthasar
+349= { winter_severity_bias = 0,45}
+
+#b_champsecret
+350= { winter_severity_bias = 0,45}
+
+#b_poucelange
+351= { winter_severity_bias = 0,45}
+
+#b_melchior
+352= { winter_severity_bias = 0,45}
+
+#b_montmarault
+353= { winter_severity_bias = 0,45}
+
+#b_venoize
+354= { winter_severity_bias = 0,45}
+
+#b_zorastre
+355= { winter_severity_bias = 0,45}
+
+#b_dancharia
+356= { winter_severity_bias = 0,45}
+
+#b_lafitte
+357= { winter_severity_bias = 0,45}
+
+#b_rowe
+358= { winter_severity_bias = 0,45}
+
+#b_porse
+359= { winter_severity_bias = 0,45}
+
+#b_argol
+360= { winter_severity_bias = 0,45}
+
+#b_crozon
+361= { winter_severity_bias = 0,45}
+
+#b_arianrhod
+362= { winter_severity_bias = 0,45}
+
+#b_lanrivore
+363= { winter_severity_bias = 0,45}
+
+#b_aynes
+364= { winter_severity_bias = 0,45}
+
+#b_ampuis
+365= { winter_severity_bias = 0,45}
+
+#b_villaudric
+366= { winter_severity_bias = 0,45}
+
+#b_reculefort
+367= { winter_severity_bias = 0,45}
+
+#b_soyers
+368= { winter_severity_bias = 0,45}
+
+#b_vero
+369= { winter_severity_bias = 0,45}
+
+#b_coppel
+370= { winter_severity_bias = 0,45}
+
+#b_gideon
+371= { winter_severity_bias = 0,45}
+
+#b_plemont
+372= { winter_severity_bias = 0,45}
+
+#b_aubin
+373= { winter_severity_bias = 0,45}
+
+#b_helier
+374= { winter_severity_bias = 0,45}
+
+#b_midian
+375= { winter_severity_bias = 0,45}
+
+#b_bassoncourt
+376= { winter_severity_bias = 0,45}
+
+#b_fronton
+377= { winter_severity_bias = 0,45}
+
+#b_goetinge
+378= { winter_severity_bias = 0,45}
+
+#b_varie
+379= { winter_severity_bias = 0,45}
+
+#b_montresor
+380= { winter_severity_bias = 0,45}
+
+#b_leine
+381= { winter_severity_bias = 0,45}
+
+#b_margueray
+382= { winter_severity_bias = 0,45}
+
+#b_turgon
+383= { winter_severity_bias = 0,45}
+
+#b_mateus
+384= { winter_severity_bias = 0,45}
+
+#b_pleinmont
+385= { winter_severity_bias = 0,45}
+
+#b_eree
+386= { winter_severity_bias = 0,45}
+
+#b_vazon
+387= { winter_severity_bias = 0,45}
+
+#b_tricasse
+388= { winter_severity_bias = 0,45}
+
+#b_gigean
+389= { winter_severity_bias = 0,45}
+
+#b_velotte
+390= { winter_severity_bias = 0,45}
+
+#b_mettis
+391= { winter_severity_bias = 0,45}
+
+#b_missy
+392= { winter_severity_bias = 0,45}
+
+#b_lamoura
+393= { winter_severity_bias = 0,45}
+
+#b_lourene
+394= { winter_severity_bias = 0,45}
+
+#b_uruffe
+395= { winter_severity_bias = 0,45}
+
+#b_bricque
+396= { winter_severity_bias = 0,45}
+
+#b_genevieve
+397= { winter_severity_bias = 0,45}
+
+#b_escalles
+398= { winter_severity_bias = 0,45}
+
+#b_sangatte
+399= { winter_severity_bias = 0,45}
+
+#b_andres
+400= { winter_severity_bias = 0,45}
+
+#b_fraisnes
+401= { winter_severity_bias = 0,45}
+
+#b_belgentier
+402= { winter_severity_bias = 0,45}
+
+#b_ardengost
+403= { winter_severity_bias = 0,45}
+
+#b_chablis
+404= { winter_severity_bias = 0,45}
+
+#b_bondilly
+405= { winter_severity_bias = 0,45}
+
+#b_brunville
+406= { winter_severity_bias = 0,45}
+
+#b_bisont
+407= { winter_severity_bias = 0,45}
+
+#b_chavanon
+408= { winter_severity_bias = 0,45}
+
+#b_bussy
+409= { winter_severity_bias = 0,45}
+
+#b_brume
+410= { winter_severity_bias = 0,45}
+
+#b_ligure
+411= { winter_severity_bias = 0,45}
+
+#b_varazze
+412= { winter_severity_bias = 0,45}
+
+#b_arenzano
+413= { winter_severity_bias = 0,45}
+
+#b_torraine
+414= { winter_severity_bias = 0,45}
+
+#b_scragnola
+415= { winter_severity_bias = 0,45}
+
+#b_lucain
+416= { winter_severity_bias = 0,45}
+
+#b_epinal
+417= { winter_severity_bias = 0,45}
+
+#b_harole
+418= { winter_severity_bias = 0,45}
+
+#b_dompaire
+419= { winter_severity_bias = 0,45}
+
+#b_lemo
+420= { winter_severity_bias = 0,45}
+
+#b_primat
+421= { winter_severity_bias = 0,45}
+
+#b_villevieux
+422= { winter_severity_bias = 0,45}
+
+#b_thours
+423= { winter_severity_bias = 0,45}
+
+#b_derbamont
+424= { winter_severity_bias = 0,45}
+
+#b_marfaux
+425= { winter_severity_bias = 0,45}
+
+#b_lusigan
+426= { winter_severity_bias = 0,45}
+
+#b_peufard
+427= { winter_severity_bias = 0,45}
+
+#b_nesmy
+428= { winter_severity_bias = 0,45}
+
+#b_zacharie
+429= { winter_severity_bias = 0,45}
+
+#b_sarre
+430= { winter_severity_bias = 0,45}
+
+#b_reding
+431= { winter_severity_bias = 0,45}
+
+#b_nider
+432= { winter_severity_bias = 0,45}
+
+#b_archembault
+433= { winter_severity_bias = 0,45}
+
+#b_kerrale
+434= { winter_severity_bias = 0,45}
+
+#b_aouste
+435= { winter_severity_bias = 0,45}
+
+#b_charente
+436= { winter_severity_bias = 0,45}
+
+#b_plaise
+437= { winter_severity_bias = 0,45}
+
+#b_arpenti
+438= { winter_severity_bias = 0,45}
+
+#b_cavaellon
+439= { winter_severity_bias = 0,45}
+
+#b_pouges
+440= { winter_severity_bias = 0,45}
+
+#b_lannuzel
+441= { winter_severity_bias = 0,45}
+
+#b_rhodos
+442= { winter_severity_bias = 0,45}
+
+#b_rhodoscoast
+443= { winter_severity_bias = 0,45}
+
+#b_tropez
+444= { winter_severity_bias = 0,45}
+
+#b_cavalaire
+445= { winter_severity_bias = 0,45}
+
+#b_gardaine
+446= { winter_severity_bias = 0,45}
+
+#b_lahourd
+447= { winter_severity_bias = 0,45}
+
+#b_larisse
+448= { winter_severity_bias = 0,45}
+
+#b_nauplie
+449= { winter_severity_bias = 0,45}
+
+#b_bordeu
+450= { winter_severity_bias = 0,45}
+
+#b_leucade
+451= { winter_severity_bias = 0,45}
+
+#b_patras
+452= { winter_severity_bias = 0,45}
+
+#b_auch
+453= { winter_severity_bias = 0,45}
+
+#b_laurion
+454= { winter_severity_bias = 0,45}
+
+#b_scillonte
+455= { winter_severity_bias = 0,45}
+
+#b_bade
+456= { winter_severity_bias = 0,45}
+
+#b_sephor
+457= { winter_severity_bias = 0,45}
+
+#b_kilfane
+458= { winter_severity_bias = 0,45}
+
+#b_veglise
+459= { winter_severity_bias = 0,45}
+
+#b_galilee
+460= { winter_severity_bias = 0,45}
+
+#b_redwood
+461= { winter_severity_bias = 0,45}
+
+#b_mayene
+462= { winter_severity_bias = 0,45}
+
+#b_nazer
+463= { winter_severity_bias = 0,45}
+
+#b_caonach
+464= { winter_severity_bias = 0,45}
+
+#b_nordaux
+465= { winter_severity_bias = 0,45}
+
+#b_gladia
+466= { winter_severity_bias = 0,45}
+
+#b_woodstown
+467= { winter_severity_bias = 0,45}
+
+#b_imperia
+468= { winter_severity_bias = 0,45}
+
+#b_remo
+469= { winter_severity_bias = 0,45}
+
+#b_alassio
+470= { winter_severity_bias = 0,45}
+
+#b_loano
+471= { winter_severity_bias = 0,45}
+
+#b_senatore
+472= { winter_severity_bias = 0,45}
+
+#b_magalo
+473= { winter_severity_bias = 0,45}
+
+#b_lalibela
+474= { winter_severity_bias = 0,45}
+
+#b_pretoria
+475= { winter_severity_bias = 0,45}
+
+#b_moggio
+476= { winter_severity_bias = 0,45}
+
+#b_coluto
+477= { winter_severity_bias = 0,45}
+
+#b_magistras
+478= { winter_severity_bias = 0,45}
+
+#b_aggaro
+479= { winter_severity_bias = 0,45}
+
+#b_miesso
+480= { winter_severity_bias = 0,45}
+
+#b_norfer
+481= { winter_severity_bias = 0,45}
+
+#b_alexria
+482= { winter_severity_bias = 0,45}
+
+#b_tibeh
+483= { winter_severity_bias = 0,45}
+
+#b_pavia
+484= { winter_severity_bias = 0,45}
+
+#b_chios
+485= { winter_severity_bias = 0,45}
+
+#b_enbarr
+486= { winter_severity_bias = 0,45}
+
+#b_wilhelmdorf
+487= { winter_severity_bias = 0,45}
+
+#b_ionia
+488= { winter_severity_bias = 0,45}
+
+#b_lyca
+489= { winter_severity_bias = 0,45}
+
+#b_seirosen
+490= { winter_severity_bias = 0,45}
+
+#b_hennigsdorf
+491= { winter_severity_bias = 0,45}
+
+#b_brunnau
+492= { winter_severity_bias = 0,45}
+
+#b_erkeln
+493= { winter_severity_bias = 0,45}
+
+#b_wolfholz
+494= { winter_severity_bias = 0,45}
+
+#b_ingendorf
+495= { winter_severity_bias = 0,45}
+
+#b_leste
+496= { winter_severity_bias = 0,45}
+
+#b_milbitz
+497= { winter_severity_bias = 0,45}
+
+#b_bauwersfriet
+498= { winter_severity_bias = 0,45}
+
+#b_reitmehring
+499= { winter_severity_bias = 0,45}
+
+#b_baddeckenstedt
+500= { winter_severity_bias = 0,45}
+
+#b_seershausen
+501= { winter_severity_bias = 0,45}
+
+#b_sommersbach
+502= { winter_severity_bias = 0,45}
+
+#b_bleischmelze
+503= { winter_severity_bias = 0,45}
+
+#b_froitzheim
+504= { winter_severity_bias = 0,45}
+
+#b_bockert
+505= { winter_severity_bias = 0,45}
+
+#b_keutschen
+506= { winter_severity_bias = 0,45}
+
+#b_hresvelg
+507= { winter_severity_bias = 0,45}
+
+#b_babel
+508= { winter_severity_bias = 0,45}
+
+#b_garzauer
+509= { winter_severity_bias = 0,45}
+
+#b_fasen
+510= { winter_severity_bias = 0,45}
+
+#b_gorspen
+511= { winter_severity_bias = 0,45}
+
+#b_biding
+512= { winter_severity_bias = 0,45}
+
+#b_schmitzheide
+513= { winter_severity_bias = 0,45}
+
+#b_dreikronen
+514= { winter_severity_bias = 0,45}
+
+#b_apenrade
+515= { winter_severity_bias = 0,45}
+
+#b_beftoft
+516= { winter_severity_bias = 0,45}
+
+#b_jungensberg
+517= { winter_severity_bias = 0,45}
+
+#b_brendstrup
+518= { winter_severity_bias = 0,45}
+
+#b_gabel
+519= { winter_severity_bias = 0,45}
+
+#b_kerben
+520= { winter_severity_bias = 0,45}
+
+#b_hoxlund
+521= { winter_severity_bias = 0,45}
+
+#b_gramm
+522= { winter_severity_bias = 0,45}
+
+#b_hrym
+523= { winter_severity_bias = 0,45}
+
+#b_eversten
+524= { winter_severity_bias = 0,45}
+
+#b_bornhorst
+525= { winter_severity_bias = 0,45}
+
+#b_etzhorn
+526= { winter_severity_bias = 0,45}
+
+#b_maugstrup
+527= { winter_severity_bias = 0,45}
+
+#b_drontheim
+528= { winter_severity_bias = 0,45}
+
+#b_haberslund
+529= { winter_severity_bias = 0,45}
+
+#b_jerpstead
+530= { winter_severity_bias = 0,45}
+
+#b_gehlau
+531= { winter_severity_bias = 0,45}
+
+#b_hoyer
+532= { winter_severity_bias = 0,45}
+
+#b_broacker
+533= { winter_severity_bias = 0,45}
+
+#b_duppel
+534= { winter_severity_bias = 0,45}
+
+#b_emmerlef
+535= { winter_severity_bias = 0,45}
+
+#b_durhaus
+536= { winter_severity_bias = 0,45}
+
+#b_renz
+537= { winter_severity_bias = 0,45}
+
+#b_niendorf
+538= { winter_severity_bias = 0,45}
+
+#b_stockeldorf
+539= { winter_severity_bias = 0,45}
+
+#b_tave
+540= { winter_severity_bias = 0,45}
+
+#b_karlshof
+541= { winter_severity_bias = 0,45}
+
+#b_bandorf
+542= { winter_severity_bias = 0,45}
+
+#b_tossen
+543= { winter_severity_bias = 0,45}
+
+#b_anetstreut
+544= { winter_severity_bias = 0,45}
+
+#b_bertensdorf
+545= { winter_severity_bias = 0,45}
+
+#b_imsbach
+546= { winter_severity_bias = 0,45}
+
+#b_derichsberg
+547= { winter_severity_bias = 0,45}
+
+#b_gronder
+548= { winter_severity_bias = 0,45}
+
+#b_friedrichstadt
+549= { winter_severity_bias = 0,45}
+
+#b_dresde
+550= { winter_severity_bias = 0,45}
+
+#b_prohlis
+551= { winter_severity_bias = 0,45}
+
+#b_welten
+552= { winter_severity_bias = 0,45}
+
+#b_steinsbrunn
+553= { winter_severity_bias = 0,45}
+
+#b_eisenhutsrot
+554= { winter_severity_bias = 0,45}
+
+#b_hangendenbuch
+555= { winter_severity_bias = 0,45}
+
+#b_dachtel
+556= { winter_severity_bias = 0,45}
+
+#b_bernitt
+557= { winter_severity_bias = 0,45}
+
+#b_mariensiel
+558= { winter_severity_bias = 0,45}
+
+#b_bettenhausen
+559= { winter_severity_bias = 0,45}
+
+#b_mettenbuch
+560= { winter_severity_bias = 0,45}
+
+#b_airmid
+561= { winter_severity_bias = 0,45}
+
+#b_altstadt
+562= { winter_severity_bias = 0,45}
+
+#b_werder
+563= { winter_severity_bias = 0,45}
+
+#b_norden
+564= { winter_severity_bias = 0,45}
+
+#b_schollbrun
+565= { winter_severity_bias = 0,45}
+
+#b_beles
+566= { winter_severity_bias = 0,45}
+
+#b_klerf
+567= { winter_severity_bias = 0,45}
+
+#b_heede
+568= { winter_severity_bias = 0,45}
+
+#b_kreuz
+569= { winter_severity_bias = 0,45}
+
+#b_monnerich
+570= { winter_severity_bias = 0,45}
+
+#b_nordorf
+571= { winter_severity_bias = 0,45}
+
+#b_helzingen
+572= { winter_severity_bias = 0,45}
+
+#b_fels
+573= { winter_severity_bias = 0,45}
+
+#b_rugen
+574= { winter_severity_bias = 0,45}
+
+#b_samtens
+575= { winter_severity_bias = 0,45}
+
+#b_kluis
+576= { winter_severity_bias = 0,45}
+
+#b_badenhagen
+577= { winter_severity_bias = 0,45}
+
+#b_baldau
+578= { winter_severity_bias = 0,45}
+
+#b_aegir
+579= { winter_severity_bias = 0,45}
+
+#b_medingshoven
+580= { winter_severity_bias = 0,45}
+
+#b_beuel
+581= { winter_severity_bias = 0,45}
+
+#b_augistin
+582= { winter_severity_bias = 0,45}
+
+#b_gosabruck
+583= { winter_severity_bias = 0,45}
+
+#b_hasen
+584= { winter_severity_bias = 0,45}
+
+#b_zeilhard
+585= { winter_severity_bias = 0,45}
+
+#b_heessen
+586= { winter_severity_bias = 0,45}
+
+#b_eichholz
+587= { winter_severity_bias = 0,45}
+
+#b_lemzen
+588= { winter_severity_bias = 0,45}
+
+#b_kosa
+589= { winter_severity_bias = 0,45}
+
+#b_schwoche
+590= { winter_severity_bias = 0,45}
+
+#b_waldfrieden
+591= { winter_severity_bias = 0,45}
+
+#b_steinerkirchen
+592= { winter_severity_bias = 0,45}
+
+#b_isterbies
+593= { winter_severity_bias = 0,45}
+
+#b_lichen
+594= { winter_severity_bias = 0,45}
+
+#b_villingen
+595= { winter_severity_bias = 0,45}
+
+#b_neusorge
+596= { winter_severity_bias = 0,45}
+
+#b_varley
+597= { winter_severity_bias = 0,45}
+
+#b_eisenburg
+598= { winter_severity_bias = 0,45}
+
+#b_brunnthal
+599= { winter_severity_bias = 0,45}
+
+#b_pullach
+600= { winter_severity_bias = 0,45}
+
+#b_griebow
+601= { winter_severity_bias = 0,45}
+
+#b_riehausen
+602= { winter_severity_bias = 0,45}
+
+#b_eischleben
+603= { winter_severity_bias = 0,45}
+
+#b_pente
+604= { winter_severity_bias = 0,45}
+
+#b_collis
+605= { winter_severity_bias = 0,45}
+
+#b_wustermark
+606= { winter_severity_bias = 0,45}
+
+#b_questnitz
+607= { winter_severity_bias = 0,45}
+
+#b_erpertshof
+608= { winter_severity_bias = 0,45}
+
+#b_wilecker
+609= { winter_severity_bias = 0,45}
+
+#b_frischenburg
+610= { winter_severity_bias = 0,45}
+
+#b_engerndorf
+611= { winter_severity_bias = 0,45}
+
+#b_unternogg
+612= { winter_severity_bias = 0,45}
+
+#b_bergliez
+613= { winter_severity_bias = 0,45}
+
+#b_merceus
+614= { winter_severity_bias = 0,45}
+
+#b_beckum
+615= { winter_severity_bias = 0,45}
+
+#b_zement
+616= { winter_severity_bias = 0,45}
+
+#b_dalwitzhof
+617= { winter_severity_bias = 0,45}
+
+#b_hinschenfeld
+618= { winter_severity_bias = 0,45}
+
+#b_eyerlohe
+619= { winter_severity_bias = 0,45}
+
+#b_lendrass
+620= { winter_severity_bias = 0,45}
+
+#b_dietenwengen
+621= { winter_severity_bias = 0,45}
+
+#b_etting
+622= { winter_severity_bias = 0,45}
+
+#b_kell
+623= { winter_severity_bias = 0,45}
+
+#b_woffendorf
+624= { winter_severity_bias = 0,45}
+
+#b_allmenrod
+625= { winter_severity_bias = 0,45}
+
+#b_stieglitz
+626= { winter_severity_bias = 0,45}
+
+#b_freiburg
+627= { winter_severity_bias = 0,45}
+
+#b_rieselfeld
+628= { winter_severity_bias = 0,45}
+
+#b_lehen
+629= { winter_severity_bias = 0,45}
+
+#b_guarda
+630= { winter_severity_bias = 0,45}
+
+#b_nordhellen
+631= { winter_severity_bias = 0,45}
+
+#b_ruppmannsburg
+632= { winter_severity_bias = 0,45}
+
+#b_oberleiten
+633= { winter_severity_bias = 0,45}
+
+#b_waddenserwisch
+634= { winter_severity_bias = 0,45}
+
+#b_zweitschen
+635= { winter_severity_bias = 0,45}
+
+#b_piskaborn
+636= { winter_severity_bias = 0,45}
+
+#b_dudenrode
+637= { winter_severity_bias = 0,45}
+
+#b_biemsen
+638= { winter_severity_bias = 0,45}
+
+#b_gerth
+639= { winter_severity_bias = 0,45}
+
+#b_aden
+640= { winter_severity_bias = 0,45}
+
+#b_kloster
+641= { winter_severity_bias = 0,45}
+
+#b_karlsruhe
+642= { winter_severity_bias = 0,45}
+
+#b_swabach
+643= { winter_severity_bias = 0,45}
+
+#b_osterspai
+644= { winter_severity_bias = 0,45}
+
+#b_steinklingen
+645= { winter_severity_bias = 0,45}
+
+#b_waltenham
+646= { winter_severity_bias = 0,45}
+
+#b_shnelleman
+647= { winter_severity_bias = 0,45}
+
+#b_barken
+648= { winter_severity_bias = 0,45}
+
+#b_westerhofen
+649= { winter_severity_bias = 0,45}
+
+#b_metterich
+650= { winter_severity_bias = 0,45}
+
+#b_harmating
+651= { winter_severity_bias = 0,45}
+
+#b_rusalka
+652= { winter_severity_bias = 0,45}
+
+#b_rysum
+653= { winter_severity_bias = 0,45}
+
+#b_loquard
+654= { winter_severity_bias = 0,45}
+
+#b_kampfen
+655= { winter_severity_bias = 0,45}
+
+#b_hornschlag
+656= { winter_severity_bias = 0,45}
+
+#b_tachau
+657= { winter_severity_bias = 0,45}
+
+#b_aussig
+658= { winter_severity_bias = 0,45}
+
+#b_thoenischen
+659= { winter_severity_bias = 0,45}
+
+#b_schlan
+660= { winter_severity_bias = 0,45}
+
+#b_laun
+661= { winter_severity_bias = 0,45}
+
+#b_krausebauden
+662= { winter_severity_bias = 0,45}
+
+#b_teplitz
+663= { winter_severity_bias = 0,45}
+
+#b_komtau
+664= { winter_severity_bias = 0,45}
+
+#b_boramas
+665= { winter_severity_bias = 0,45}
+
+#b_borkum
+666= { winter_severity_bias = 0,45}
+
+#b_rektor
+667= { winter_severity_bias = 0,45}
+
+#b_reiter
+668= { winter_severity_bias = 0,45}
+
+#b_passern
+669= { winter_severity_bias = 0,45}
+
+#b_bakau
+670= { winter_severity_bias = 0,45}
+
+#b_frauenbach
+671= { winter_severity_bias = 0,45}
+
+#b_schmidenburg
+672= { winter_severity_bias = 0,45}
+
+#b_botoschan
+673= { winter_severity_bias = 0,45}
+
+#b_kronstaft
+674= { winter_severity_bias = 0,45}
+
+#b_phillipenau
+675= { winter_severity_bias = 0,45}
+
+#b_rebnick
+676= { winter_severity_bias = 0,45}
+
+#b_neumarkt
+677= { winter_severity_bias = 0,45}
+
+#b_morgaine
+678= { winter_severity_bias = 0,45}
+
+#b_eiksen
+679= { winter_severity_bias = 0,45}
+
+#b_kelmis
+680= { winter_severity_bias = 0,45}
+
+#b_blieberg
+681= { winter_severity_bias = 0,45}
+
+#b_vorderlain
+682= { winter_severity_bias = 0,45}
+
+#b_wultsch
+683= { winter_severity_bias = 0,45}
+
+#b_sathmar
+684= { winter_severity_bias = 0,45}
+
+#b_kleinsitzen
+685= { winter_severity_bias = 0,45}
+
+#b_uddenheim
+686= { winter_severity_bias = 0,45}
+
+#b_sittenhardt
+687= { winter_severity_bias = 0,45}
+
+#b_dachsberg
+688= { winter_severity_bias = 0,45}
+
+#b_warmsroth
+689= { winter_severity_bias = 0,45}
+
+#b_mustin
+690= { winter_severity_bias = 0,45}
+
+#b_plechin
+691= { winter_severity_bias = 0,45}
+
+#b_wolfshoven
+692= { winter_severity_bias = 0,45}
+
+#b_stollberg
+693= { winter_severity_bias = 0,45}
+
+#b_essar
+694= { winter_severity_bias = 0,45}
+
+#b_frillendorf
+695= { winter_severity_bias = 0,45}
+
+#b_frohn
+696= { winter_severity_bias = 0,45}
+
+#b_berger
+697= { winter_severity_bias = 0,45}
+
+#b_litzhaln
+698= { winter_severity_bias = 0,45}
+
+#b_weghausen
+699= { winter_severity_bias = 0,45}
+
+#b_buborn
+700= { winter_severity_bias = 0,45}
+
+#b_grosseg
+701= { winter_severity_bias = 0,45}
+
+#b_seeth
+702= { winter_severity_bias = 0,45}
+
+#b_obertas
+703= { winter_severity_bias = 0,45}
+
+#b_engel
+704= { winter_severity_bias = 0,45}
+
+#b_alla
+705= { winter_severity_bias = 0,45}
+
+#b_seraph
+706= { winter_severity_bias = 0,45}
+
+#b_sandfort
+707= { winter_severity_bias = 0,45}
+
+#b_juten
+708= { winter_severity_bias = 0,45}
+
+#b_spiekerdorf
+709= { winter_severity_bias = 0,45}
+
+#b_sanz
+710= { winter_severity_bias = 0,45}
+
+#b_olrun
+711= { winter_severity_bias = 0,45}
+
+#b_seitschen
+712= { winter_severity_bias = 0,45}
+
+#b_wendelin
+713= { winter_severity_bias = 0,45}
+
+#b_gaupel
+714= { winter_severity_bias = 0,45}
+
+#b_mundorf
+715= { winter_severity_bias = 0,45}
+
+#b_achtum
+716= { winter_severity_bias = 0,45}
+
+#b_drognitz
+717= { winter_severity_bias = 0,45}
+
+#b_kronburg
+718= { winter_severity_bias = 0,45}
+
+#b_obersinn
+719= { winter_severity_bias = 0,45}
+
+#b_kuxwinkel
+720= { winter_severity_bias = 0,45}
+
+#b_ginevera
+721= { winter_severity_bias = 0,45}
+
+#b_schatz
+722= { winter_severity_bias = 0,45}
+
+#b_nettlestrauf
+723= { winter_severity_bias = 0,45}
+
+#b_kirchlehen
+724= { winter_severity_bias = 0,45}
+
+#b_hevring
+725= { winter_severity_bias = 0,45}
+
+#b_hinten
+726= { winter_severity_bias = 0,45}
+
+#b_peheim
+727= { winter_severity_bias = 0,45}
+
+#b_wettersfeld
+728= { winter_severity_bias = 0,45}
+
+#b_paal
+729= { winter_severity_bias = 0,45}
+
+#b_eiersheim
+730= { winter_severity_bias = 0,45}
+
+#b_niederstuttern
+731= { winter_severity_bias = 0,45}
+
+#b_biserl
+732= { winter_severity_bias = 0,45}
+
+#b_eitzing
+733= { winter_severity_bias = 0,45}
+
+#b_altenrath
+734= { winter_severity_bias = 0,45}
+
+#b_langassen
+735= { winter_severity_bias = 0,45}
+
+#b_grafenkirchen
+736= { winter_severity_bias = 0,45}
+
+#b_flaschberg
+737= { winter_severity_bias = 0,45}
+
+#b_bodendorf
+738= { winter_severity_bias = 0,45}
+
+#b_refflingsen
+739= { winter_severity_bias = 0,45}
+
+#b_reiss
+740= { winter_severity_bias = 0,45}
+
+#b_dietenhan
+741= { winter_severity_bias = 0,45}
+
+#b_hergerhausen
+742= { winter_severity_bias = 0,45}
+
+#b_bronnzell
+743= { winter_severity_bias = 0,45}
+
+#b_minning
+744= { winter_severity_bias = 0,45}
+
+#b_abbingwehr
+745= { winter_severity_bias = 0,45}
+
+#b_kielerkamp
+746= { winter_severity_bias = 0,45}
+
+#b_gallmanswegg
+747= { winter_severity_bias = 0,45}
+
+#b_schadewohl
+748= { winter_severity_bias = 0,45}
+
+#b_hofweiter
+749= { winter_severity_bias = 0,45}
+
+#b_ruprechtshofen
+750= { winter_severity_bias = 0,45}
+
+#b_andeer
+751= { winter_severity_bias = 0,45}
+
+#b_melchnau
+752= { winter_severity_bias = 0,45}
+
+#b_ochs
+753= { winter_severity_bias = 0,45}
+
+#b_kraudorf
+754= { winter_severity_bias = 0,45}
+
+#b_hinterhufe
+755= { winter_severity_bias = 0,45}
+
+#b_velten
+756= { winter_severity_bias = 0,45}
+
+#b_pitten
+757= { winter_severity_bias = 0,45}
+
+#b_wallisellen
+758= { winter_severity_bias = 0,45}
+
+#b_puntrash
+759= { winter_severity_bias = 0,45}
+
+#b_elling
+760= { winter_severity_bias = 0,45}
+
+#b_gingolf
+761= { winter_severity_bias = 0,45}
+
+#b_kurchen
+762= { winter_severity_bias = 0,45}
+
+#b_maxlon
+763= { winter_severity_bias = 0,45}
+
+#b_mohlin
+764= { winter_severity_bias = 0,45}
+
+#b_toggenburg
+765= { winter_severity_bias = 0,45}
+
+#b_bartels
+766= { winter_severity_bias = 0,45}
+
+#b_altman
+767= { winter_severity_bias = 0,45}
+
+#b_bomke
+768= { winter_severity_bias = 0,45}
+
+#b_curau
+769= { winter_severity_bias = 0,45}
+
+#b_krail
+770= { winter_severity_bias = 0,45}
+
+#b_emmental
+771= { winter_severity_bias = 0,45}
+
+#b_lutzelfluh
+772= { winter_severity_bias = 0,45}
+
+#b_lanau
+773= { winter_severity_bias = 0,45}
+
+#b_truns
+774= { winter_severity_bias = 0,45}
+
+#b_blatten
+775= { winter_severity_bias = 0,45}
+
+#b_flurnsbach
+776= { winter_severity_bias = 0,45}
+
+#b_beromunster
+777= { winter_severity_bias = 0,45}
+
+#b_sachseln
+778= { winter_severity_bias = 0,45}
+
+#b_nuvelle
+779= { winter_severity_bias = 0,45}
+
+#b_riedling
+780= { winter_severity_bias = 0,45}
+
+#b_degelsdorf
+781= { winter_severity_bias = 0,45}
+
+#b_jagtsberg
+782= { winter_severity_bias = 0,45}
+
+#b_lindl
+783= { winter_severity_bias = 0,45}
+
+#b_fusio
+784= { winter_severity_bias = 0,45}
+
+#b_isewald
+785= { winter_severity_bias = 0,45}
+
+#b_pflach
+786= { winter_severity_bias = 0,45}
+
+#b_sedrun
+787= { winter_severity_bias = 0,45}
+
+#b_gams
+788= { winter_severity_bias = 0,45}
+
+#b_mittrau
+789= { winter_severity_bias = 0,45}
+
+#b_oberhalstein
+790= { winter_severity_bias = 0,45}
+
+#b_hunneg
+791= { winter_severity_bias = 0,45}
+
+#b_skade
+792= { winter_severity_bias = 0,45}
+
+#b_felderkoster
+793= { winter_severity_bias = 0,45}
+
+#b_gilgen
+794= { winter_severity_bias = 0,45}
+
+#b_stiershof
+795= { winter_severity_bias = 0,45}
+
+#b_wademanssfeld
+796= { winter_severity_bias = 0,45}
+
+#b_cully
+797= { winter_severity_bias = 0,45}
+
+#b_seon
+798= { winter_severity_bias = 0,45}
+
+#b_trefning
+799= { winter_severity_bias = 0,45}
+
+#b_dongio
+800= { winter_severity_bias = 0,45}
+
+#b_brienz
+801= { winter_severity_bias = 0,45}
+
+#b_petzeldorf
+802= { winter_severity_bias = 0,45}
+
+#b_thun
+803= { winter_severity_bias = 0,45}
+
+#b_latzenhof
+804= { winter_severity_bias = 0,45}
+
+#b_schanis
+805= { winter_severity_bias = 0,45}
+
+#b_brionac
+806= { winter_severity_bias = 0,45}
+
+#b_liebhof
+807= { winter_severity_bias = 0,45}
+
+#b_bah
+808= { winter_severity_bias = 0,45}
+
+#b_heidendorf
+809= { winter_severity_bias = 0,45}
+
+#b_theisenberg
+810= { winter_severity_bias = 0,45}
+
+#b_susch
+811= { winter_severity_bias = 0,45}
+
+#b_monstein
+812= { winter_severity_bias = 0,45}
+
+#b_obertiefen
+813= { winter_severity_bias = 0,45}
+
+#b_andwil
+814= { winter_severity_bias = 0,45}
+
+#b_winterhur
+815= { winter_severity_bias = 0,45}
+
+#b_hoferdorf
+816= { winter_severity_bias = 0,45}
+
+#b_schupfheim
+817= { winter_severity_bias = 0,45}
+
+#b_salums
+818= { winter_severity_bias = 0,45}
+
+#b_sleipner
+819= { winter_severity_bias = 0,45}
+
+#b_bansrade
+820= { winter_severity_bias = 0,45}
+
+#b_altenrain
+821= { winter_severity_bias = 0,45}
+
+#b_mitteldorf
+822= { winter_severity_bias = 0,45}
+
+#b_steyer
+823= { winter_severity_bias = 0,45}
+
+#b_jegenstorf
+824= { winter_severity_bias = 0,45}
+
+#b_oerschgen
+825= { winter_severity_bias = 0,45}
+
+#b_korb
+826= { winter_severity_bias = 0,45}
+
+#b_sitten
+827= { winter_severity_bias = 0,45}
+
+#b_donhausen
+828= { winter_severity_bias = 0,45}
+
+#b_untereich
+829= { winter_severity_bias = 0,45}
+
+#b_ayer
+830= { winter_severity_bias = 0,45}
+
+#b_sembrancher
+831= { winter_severity_bias = 0,45}
+
+#b_nostra
+832= { winter_severity_bias = 0,45}
+
+#b_wanden
+833= { winter_severity_bias = 0,45}
+
+#b_hurden
+834= { winter_severity_bias = 0,45}
+
+#b_arundel
+835= { winter_severity_bias = 0,45}
+
+#b_mandorf
+836= { winter_severity_bias = 0,45}
+
+#b_alvern
+837= { winter_severity_bias = 0,45}
+
+#b_allerting
+838= { winter_severity_bias = 0,45}
+
+#b_tarzendorf
+839= { winter_severity_bias = 0,45}
+
+#b_sernf
+840= { winter_severity_bias = 0,45}
+
+#b_goetzendorf
+841= { winter_severity_bias = 0,45}
+
+#b_ausserrhoden
+842= { winter_severity_bias = 0,45}
+
+#b_solothurn
+843= { winter_severity_bias = 0,45}
+
+#b_zemendorf
+844= { winter_severity_bias = 0,45}
+
+#b_aarburg
+845= { winter_severity_bias = 0,45}
+
+#b_biel
+846= { winter_severity_bias = 0,45}
+
+#b_arderal
+847= { winter_severity_bias = 0,45}
+
+#b_tavetsch
+848= { winter_severity_bias = 0,45}
+
+#b_belp
+849= { winter_severity_bias = 0,45}
+
+#b_lindberg
+850= { winter_severity_bias = 0,45}
+
+#b_alle
+851= { winter_severity_bias = 0,45}
+
+#b_lotschental
+852= { winter_severity_bias = 0,45}
+
+#b_schwan
+853= { winter_severity_bias = 0,45}
+
+#b_zwanenteich
+854= { winter_severity_bias = 0,45}
+
+#b_gengare
+855= { winter_severity_bias = 0,45}
+
+#b_giantsich
+856= { winter_severity_bias = 0,45}
+
+#b_windhag
+857= { winter_severity_bias = 0,45}
+
+#b_schwabenhof
+858= { winter_severity_bias = 0,45}
+
+#b_jedenspeigen
+859= { winter_severity_bias = 0,45}
+
+#b_tollertau
+860= { winter_severity_bias = 0,45}
+
+#b_nauders
+861= { winter_severity_bias = 0,45}
+
+#b_oberpfaffen
+862= { winter_severity_bias = 0,45}
+
+#b_huldra
+863= { winter_severity_bias = 0,45}
+
+#b_shellsitz
+864= { winter_severity_bias = 0,45}
+
+#b_bettenkampf
+865= { winter_severity_bias = 0,45}
+
+#b_goldenbeek
+866= { winter_severity_bias = 0,45}
+
+#b_eberweiss
+867= { winter_severity_bias = 0,45}
+
+#b_kranz
+868= { winter_severity_bias = 0,45}
+
+#b_wilchingen
+869= { winter_severity_bias = 0,45}
+
+#b_kleinberg
+870= { winter_severity_bias = 0,45}
+
+#b_rinkole
+871= { winter_severity_bias = 0,45}
+
+#b_langenfeld
+872= { winter_severity_bias = 0,45}
+
+#b_geserberg
+873= { winter_severity_bias = 0,45}
+
+#b_neuhaus
+874= { winter_severity_bias = 0,45}
+
+#b_waitzendorf
+875= { winter_severity_bias = 0,45}
+
+#b_oghma
+876= { winter_severity_bias = 0,45}
+
+#b_remire
+877= { winter_severity_bias = 0,45}
+
+#b_neuleben
+878= { winter_severity_bias = 0,45}
+
+#b_wapenfeld
+879= { winter_severity_bias = 0,45}
+
+#b_berler
+880= { winter_severity_bias = 0,45}
+
+#b_kindtha
+881= { winter_severity_bias = 0,45}
+
+#b_weissenhof
+882= { winter_severity_bias = 0,45}
+
+#b_rinderschinken
+883= { winter_severity_bias = 0,45}
+
+#b_glarsdorf
+884= { winter_severity_bias = 0,45}
+
+#b_bichlach
+885= { winter_severity_bias = 0,45}
+
+#b_anlauftal
+886= { winter_severity_bias = 0,45}
+
+#b_eisenthal
+887= { winter_severity_bias = 0,45}
+
+#b_glasing
+888= { winter_severity_bias = 0,45}
+
+#b_gwiggen
+889= { winter_severity_bias = 0,45}
+
+#b_banten
+890= { winter_severity_bias = 0,45}
+
+#b_tamao
+891= { winter_severity_bias = 0,45}
+
+#b_lembak
+892= { winter_severity_bias = 0,45}
+
+#b_kamnom
+893= { winter_severity_bias = 0,45}
+
+#b_takesar
+894= { winter_severity_bias = 0,45}
+
+#b_ardnamurchan
+895= { winter_severity_bias = 0,45}
+
+#b_pangrun
+896= { winter_severity_bias = 0,45}
+
+#b_temelina
+897= { winter_severity_bias = 0,45}
+
+#b_suiochan
+898= { winter_severity_bias = 0,45}
+
+#b_poneriana
+899= { winter_severity_bias = 0,45}
+
+#b_gormen
+900= { winter_severity_bias = 0,45}
+
+#b_cheviot
+901= { winter_severity_bias = 0,45}
+
+#b_tuamde
+902= { winter_severity_bias = 0,45}
+
+#b_bhanecoire
+903= { winter_severity_bias = 0,45}
+
+#b_cuilin
+904= { winter_severity_bias = 0,45}
+
+#b_nediona
+905= { winter_severity_bias = 0,45}
+
+#b_tirknowe
+906= { winter_severity_bias = 0,45}
+
+#b_mhelek
+907= { winter_severity_bias = 0,45}
+
+#b_dundee
+908= { winter_severity_bias = 0,45}
+
+#b_ballymullagh
+909= { winter_severity_bias = 0,45}
+
+#b_bhaille
+910= { winter_severity_bias = 0,45}
+
+#b_pollboas
+911= { winter_severity_bias = 0,45}
+
+#b_clochan
+912= { winter_severity_bias = 0,45}
+
+#b_bhenge
+913= { winter_severity_bias = 0,45}
+
+#b_pollderry
+914= { winter_severity_bias = 0,45}
+
+#b_glencoe
+915= { winter_severity_bias = 0,45}
+
+#b_nuagorm
+916= { winter_severity_bias = 0,45}
+
+#b_kubha
+917= { winter_severity_bias = 0,45}
+
+#b_bhearaig
+918= { winter_severity_bias = 0,45}
+
+#b_kanono
+919= { winter_severity_bias = 0,45}
+
+#b_sailurlar
+920= { winter_severity_bias = 0,45}
+
+#b_bennevis
+921= { winter_severity_bias = 0,45}
+
+#b_seanroe
+922= { winter_severity_bias = 0,45}
+
+#b_bhano
+923= { winter_severity_bias = 0,45}
+
+#b_bryniau
+924= { winter_severity_bias = 0,45}
+
+#b_gondou
+925= { winter_severity_bias = 0,45}
+
+#b_garbhdubh
+926= { winter_severity_bias = 0,45}
+
+#b_briosto
+927= { winter_severity_bias = 0,45}
+
+#b_lisiath
+928= { winter_severity_bias = 0,45}
+
+#b_buiglen
+929= { winter_severity_bias = 0,45}
+
+#b_cruachoma
+930= { winter_severity_bias = 0,45}
+
+#b_skyrne
+931= { winter_severity_bias = 0,45}
+
+#b_namemagh
+932= { winter_severity_bias = 0,45}
+
+#b_bencrabhat
+933= { winter_severity_bias = 0,45}
+
+#b_claonfhearta
+934= { winter_severity_bias = 0,45}
+
+#b_portdimie
+935= { winter_severity_bias = 0,45}
+
+#b_culmaigh
+936= { winter_severity_bias = 0,45}
+
+#b_forrad
+937= { winter_severity_bias = 0,45}
+
+#b_ardcobhail
+938= { winter_severity_bias = 0,45}
+
+#b_cruachsidhe
+939= { winter_severity_bias = 0,45}
+
+#b_sliabh
+940= { winter_severity_bias = 0,45}
+
+#b_orbsen
+941= { winter_severity_bias = 0,45}
+
+#b_cucoire
+942= { winter_severity_bias = 0,45}
+
+#b_eiscirtra
+943= { winter_severity_bias = 0,45}
+
+#b_duartaine
+944= { winter_severity_bias = 0,45}
+
+#b_oghnafraoch
+945= { winter_severity_bias = 0,45}
+
+#b_tuine
+946= { winter_severity_bias = 0,45}
+
+#b_inniscul
+947= { winter_severity_bias = 0,45}
+
+#b_bhila
+948= { winter_severity_bias = 0,45}
+
+#b_bhanut
+949= { winter_severity_bias = 0,45}
+
+#b_saramea
+950= { winter_severity_bias = 0,45}
+
+#b_eularia
+951= { winter_severity_bias = 0,45}
+
+#b_kilcannor
+952= { winter_severity_bias = 0,45}
+
+#b_bhacoill
+953= { winter_severity_bias = 0,45}
+
+#b_eskra
+954= { winter_severity_bias = 0,45}
+
+#b_talaia
+955= { winter_severity_bias = 0,45}
+
+#b_bonde
+956= { winter_severity_bias = 0,45}
+
+#b_mea
+957= { winter_severity_bias = 0,45}
+
+#b_lissean
+958= { winter_severity_bias = 0,45}
+
+#b_bhassatire
+959= { winter_severity_bias = 0,45}
+
+#b_pidhusa
+960= { winter_severity_bias = 0,45}
+
+#b_bhara
+961= { winter_severity_bias = 0,45}
+
+#b_pailme
+962= { winter_severity_bias = 0,45}
+
+#b_nato
+963= { winter_severity_bias = 0,45}
+
+#b_nathalo
+964= { winter_severity_bias = 0,45}
+
+#b_coipeadh
+965= { winter_severity_bias = 0,45}
+
+#b_deulu
+966= { winter_severity_bias = 0,45}
+
+#b_portaobh
+967= { winter_severity_bias = 0,45}
+
+#b_manacor
+968= { winter_severity_bias = 0,45}
+
+#b_tearmann
+969= { winter_severity_bias = 0,45}
+
+#b_oileanaloa
+970= { winter_severity_bias = 0,45}
+
+#b_achadbonara
+971= { winter_severity_bias = 0,45}
+
+#b_dun_midh
+972= { winter_severity_bias = 0,45}
+
+#b_bealachbhakana
+973= { winter_severity_bias = 0,45}
+
+#b_ambalatsopka
+974= { winter_severity_bias = 0,45}
+
+#b_tabhlamena
+975= { winter_severity_bias = 0,45}
+
+#b_gliomach
+976= { winter_severity_bias = 0,45}
+
+#b_amlaibhitaka
+977= { winter_severity_bias = 0,45}
+
+#b_bhndrkely
+978= { winter_severity_bias = 0,45}
+
+#b_inis_portan
+979= { winter_severity_bias = 0,45}
+
+#b_ambundoran
+980= { winter_severity_bias = 0,45}
+
+#b_masamenoe
+981= { winter_severity_bias = 0,45}
+
+#b_gearr
+982= { winter_severity_bias = 0,45}
+
+#b_dubh
+983= { winter_severity_bias = 0,45}
+
+#b_sceachdany
+984= { winter_severity_bias = 0,45}
+
+#b_fhada
+985= { winter_severity_bias = 0,45}
+
+#b_bebhada
+986= { winter_severity_bias = 0,45}
+
+#b_hobart
+987= { winter_severity_bias = 0,45}
+
+#b_kamendrigarbh
+988= { winter_severity_bias = 0,45}
+
+#b_dromdillach
+989= { winter_severity_bias = 0,45}
+
+#b_ewan
+990= { winter_severity_bias = 0,45}
+
+#b_dunbabet
+991= { winter_severity_bias = 0,45}
+
+#b_ambolidha
+992= { winter_severity_bias = 0,45}
+
+#b_gadhura
+993= { winter_severity_bias = 0,45}
+
+#b_maroliath
+994= { winter_severity_bias = 0,45}
+
+#b_muilleala
+995= { winter_severity_bias = 0,45}
+
+#b_ardara
+996= { winter_severity_bias = 0,45}
+
+#b_ankodona
+997= { winter_severity_bias = 0,45}
+
+#b_orla
+998= { winter_severity_bias = 0,45}
+
+#b_marindonacill
+999= { winter_severity_bias = 0,45}
+
+#b_talamcrainn
+1000= { winter_severity_bias = 0,45}
+
+#b_analodore
+1001= { winter_severity_bias = 0,45}
+
+#b_miantsoaribho
+1002= { winter_severity_bias = 0,45}
+
+#b_sanluri
+1003= { winter_severity_bias = 0,45}
+
+#b_andregorua
+1004= { winter_severity_bias = 0,45}
+
+#b_maharibho
+1005= { winter_severity_bias = 0,45}
+
+#b_drepano
+1006= { winter_severity_bias = 0,45}
+
+#b_sahatsorua
+1007= { winter_severity_bias = 0,45}
+
+#b_ambongatsara
+1008= { winter_severity_bias = 0,45}
+
+#b_elymia
+1009= { winter_severity_bias = 0,45}
+
+#b_anosibhelo
+1010= { winter_severity_bias = 0,45}
+
+#b_bharisato
+1011= { winter_severity_bias = 0,45}
+
+#b_inis_motidha
+1012= { winter_severity_bias = 0,45}
+
+#b_beantaramay
+1013= { winter_severity_bias = 0,45}
+
+#b_abhe
+1014= { winter_severity_bias = 0,45}
+
+#b_syrako
+1015= { winter_severity_bias = 0,45}
+
+#b_antezamorua
+1016= { winter_severity_bias = 0,45}
+
+#b_ankiabhe
+1017= { winter_severity_bias = 0,45}
+
+#b_zorua
+1018= { winter_severity_bias = 0,45}
+
+#b_thapso
+1019= { winter_severity_bias = 0,45}
+
+#b_analamuileann
+1020= { winter_severity_bias = 0,45}
+
+#b_ballyport
+1021= { winter_severity_bias = 0,45}
+
+#b_hiero
+1022= { winter_severity_bias = 0,45}
+
+#b_bhorua
+1023= { winter_severity_bias = 0,45}
+
+#b_ennislurgan
+1024= { winter_severity_bias = 0,45}
+
+#b_dyfgard
+1025= { winter_severity_bias = 0,45}
+
+#b_hofenthorp
+1026= { winter_severity_bias = 0,45}
+
+#b_kamburberg
+1027= { winter_severity_bias = 0,45}
+
+#b_gufurtindur
+1028= { winter_severity_bias = 0,45}
+
+#b_dzaminn
+1029= { winter_severity_bias = 0,45}
+
+#b_laekursteinn
+1030= { winter_severity_bias = 0,45}
+
+#b_engeltjorn
+1031= { winter_severity_bias = 0,45}
+
+#b_kvennathorp
+1032= { winter_severity_bias = 0,45}
+
+#b_miklaberg
+1033= { winter_severity_bias = 0,45}
+
+#b_skergangur
+1034= { winter_severity_bias = 0,45}
+
+#b_brubygdvik
+1035= { winter_severity_bias = 0,45}
+
+#b_eyrdenjar
+1036= { winter_severity_bias = 0,45}
+
+#b_mulituin
+1037= { winter_severity_bias = 0,45}
+
+#b_bjagenthorp
+1038= { winter_severity_bias = 0,45}
+
+#b_sandendalr
+1039= { winter_severity_bias = 0,45}
+
+#b_gunnarsdal
+1040= { winter_severity_bias = 0,45}
+
+#b_grimvollr
+1041= { winter_severity_bias = 0,45}
+
+#b_dragakot
+1042= { winter_severity_bias = 0,45}
+
+#b_horsokn
+1043= { winter_severity_bias = 0,45}
+
+#b_delgurholmr
+1044= { winter_severity_bias = 0,45}
+
+#b_vindkaller
+1045= { winter_severity_bias = 0,45}
+
+#b_gjahara
+1046= { winter_severity_bias = 0,45}
+
+#b_khadkelda
+1047= { winter_severity_bias = 0,45}
+
+#b_ondorsvegur
+1048= { winter_severity_bias = 0,45}
+
+#b_gorivellir
+1049= { winter_severity_bias = 0,45}
+
+#b_orkenlegende
+1050= { winter_severity_bias = 0,45}
+
+#b_delsangr
+1051= { winter_severity_bias = 0,45}
+
+#b_ivarhaugr
+1052= { winter_severity_bias = 0,45}
+
+#b_magikeren
+1053= { winter_severity_bias = 0,45}
+
+#b_serkgangr
+1054= { winter_severity_bias = 0,45}
+
+#b_djupsgigur
+1055= { winter_severity_bias = 0,45}
+
+#b_bjarskagi
+1056= { winter_severity_bias = 0,45}
+
+#b_iderhofn
+1057= { winter_severity_bias = 0,45}
+
+#b_vipmansthorp
+1058= { winter_severity_bias = 0,45}
+
+#b_dragaskardr
+1059= { winter_severity_bias = 0,45}
+
+#b_yttrihalendi
+1060= { winter_severity_bias = 0,45}
+
+#b_choyoroddi
+1061= { winter_severity_bias = 0,45}
+
+#b_hauger
+1062= { winter_severity_bias = 0,45}
+
+#b_bajdariki
+1063= { winter_severity_bias = 0,45}
+
+#b_erobring
+1064= { winter_severity_bias = 0,45}
+
+#b_uneenoldur
+1065= { winter_severity_bias = 0,45}
+
+#b_khuytengangr
+1066= { winter_severity_bias = 0,45}
+
+#b_bayanholt
+1067= { winter_severity_bias = 0,45}
+
+#b_sagahryggur
+1068= { winter_severity_bias = 0,45}
+
+#b_vegursboten
+1069= { winter_severity_bias = 0,45}
+
+#b_sangdalr
+1070= { winter_severity_bias = 0,45}
+
+#b_dolonjokull
+1071= { winter_severity_bias = 0,45}
+
+#b_akrarkleif
+1072= { winter_severity_bias = 0,45}
+
+#b_khoboringr
+1073= { winter_severity_bias = 0,45}
+
+#b_borihafn
+1074= { winter_severity_bias = 0,45}
+
+#b_drangja
+1075= { winter_severity_bias = 0,45}
+
+#b_skogurkirkja
+1076= { winter_severity_bias = 0,45}
+
+#b_kirkjenstein
+1077= { winter_severity_bias = 0,45}
+
+#b_aldakot
+1078= { winter_severity_bias = 0,45}
+
+#b_bayandalr
+1079= { winter_severity_bias = 0,45}
+
+#b_khanbrefabok
+1080= { winter_severity_bias = 0,45}
+
+#b_friboro
+1081= { winter_severity_bias = 0,45}
+
+#b_laone
+1082= { winter_severity_bias = 0,45}
+
+#b_cervino
+1083= { winter_severity_bias = 0,45}
+
+#b_novena
+1084= { winter_severity_bias = 0,45}
+
+#b_tavate
+1085= { winter_severity_bias = 0,45}
+
+#b_palu
+1086= { winter_severity_bias = 0,45}
+
+#b_roncaglia
+1088= { winter_severity_bias = 0,45}
+
+#b_losanna
+1089= { winter_severity_bias = 0,45}
+
+#b_scanevo
+1090= { winter_severity_bias = 0,45}
+
+#b_maloggia
+1091= { winter_severity_bias = 0,45}
+
+#b_prettigovia
+1092= { winter_severity_bias = 0,45}
+
+#b_sciafussa
+1093= { winter_severity_bias = 0,45}
+
+#b_nufena
+1094= { winter_severity_bias = 0,45}
+
+#b_soletta
+1095= { winter_severity_bias = 0,45}
+
+#b_spliga
+1096= { winter_severity_bias = 0,45}
+
+#b_tosanna
+1097= { winter_severity_bias = 0,45}
+
+#b_engadina
+1098= { winter_severity_bias = 0,45}
+
+#b_vallese
+1099= { winter_severity_bias = 0,45}
+
+#b_cerpezzo
+1100= { winter_severity_bias = 0,45}
+
+#b_glarona
+1101= { winter_severity_bias = 0,45}
+
+#b_appenzello
+1102= { winter_severity_bias = 0,45}
+
+#b_vasilea
+1103= { winter_severity_bias = 0,45}
+
+#b_casinotta
+1104= { winter_severity_bias = 0,45}
+
+#b_berna
+1105= { winter_severity_bias = 0,45}
+
+#b_giura
+1106= { winter_severity_bias = 0,45}
+
+#b_bavero
+1107= { winter_severity_bias = 0,45}
+
+#b_campovasto
+1108= { winter_severity_bias = 0,45}
+
+#b_bienna
+1109= { winter_severity_bias = 0,45}
+
+#b_atlam
+1110= { winter_severity_bias = 0,45}
+
+#b_baddek
+1111= { winter_severity_bias = 0,45}
+
+#b_pougash
+1112= { winter_severity_bias = 0,45}
+
+#b_trakadiaw
+1113= { winter_severity_bias = 0,45}
+
+#b_wagmat
+1114= { winter_severity_bias = 0,45}
+
+#b_kipuktuk
+1115= { winter_severity_bias = 0,45}
+
+#b_whycoco
+1116= { winter_severity_bias = 0,45}
+
+#b_cobekwid
+1117= { winter_severity_bias = 0,45}
+
+#b_buktaw
+1118= { winter_severity_bias = 0,45}
+
+#b_sekwum
+1119= { winter_severity_bias = 0,45}
+
+#b_karaqet
+1120= { winter_severity_bias = 0,45}
+
+#b_wekqistoq
+1121= { winter_severity_bias = 0,45}
+
+#b_malak
+1122= { winter_severity_bias = 0,45}
+
+#b_wadavik
+1123= { winter_severity_bias = 0,45}
+
+#b_kejimku
+1124= { winter_severity_bias = 0,45}
+
+#b_miramichi
+1125= { winter_severity_bias = 0,45}
+
+#b_segebunka
+1126= { winter_severity_bias = 0,45}
+
+#b_meductic
+1127= { winter_severity_bias = 0,45}
+
+#b_malagash
+1128= { winter_severity_bias = 0,45}
+
+#b_mirai
+1129= { winter_severity_bias = 0,45}
+
+#b_nackawac
+1130= { winter_severity_bias = 0,45}
+
+#b_merigomish
+1131= { winter_severity_bias = 0,45}
+
+#b_nashwaak
+1132= { winter_severity_bias = 0,45}
+
+#b_stewiake
+1133= { winter_severity_bias = 0,45}
+
+#b_nauwige
+1134= { winter_severity_bias = 0,45}
+
+#b_nuktaw
+1135= { winter_severity_bias = 0,45}
+
+#b_oroto
+1136= { winter_severity_bias = 0,45}
+
+#b_penniac
+1137= { winter_severity_bias = 0,45}
+
+#b_piiktaw
+1138= { winter_severity_bias = 0,45}
+
+#b_kodiak
+1139= { winter_severity_bias = 0,45}
+
+#b_takume
+1140= { winter_severity_bias = 0,45}
+
+#b_penobskee
+1141= { winter_severity_bias = 0,45}
+
+#b_oromocto
+1142= { winter_severity_bias = 0,45}
+
+#b_kullor
+1143= { winter_severity_bias = 0,45}
+
+#b_banabke
+1144= { winter_severity_bias = 0,45}
+
+#b_aapilla
+1145= { winter_severity_bias = 0,45}
+
+#b_attu
+1146= { winter_severity_bias = 0,45}
+
+#b_ukkusisat
+1147= { winter_severity_bias = 0,45}
+
+#b_iginniar
+1148= { winter_severity_bias = 0,45}
+
+#b_jatnar
+1149= { winter_severity_bias = 0,45}
+
+#b_siorpaluk
+1150= { winter_severity_bias = 0,45}
+
+#b_akela
+1151= { winter_severity_bias = 0,45}
+
+#b_nackawic
+1152= { winter_severity_bias = 0,45}
+
+#b_fenroc
+1153= { winter_severity_bias = 0,45}
+
+#b_raksha
+1154= { winter_severity_bias = 0,45}
+
+#b_withmane
+1155= { winter_severity_bias = 0,45}
+
+#b_sabrodt
+1156= { winter_severity_bias = 0,45}
+
+#b_qaanaq
+1157= { winter_severity_bias = 0,45}
+
+#b_kangerlas
+1158= { winter_severity_bias = 0,45}
+
+#b_naajat
+1159= { winter_severity_bias = 0,45}
+
+#b_tasius
+1160= { winter_severity_bias = 0,45}
+
+#b_isertoq
+1161= { winter_severity_bias = 0,45}
+
+#b_arsuk
+1162= { winter_severity_bias = 0,45}
+
+#b_iliamaq
+1163= { winter_severity_bias = 0,45}
+
+#b_haighivik
+1164= { winter_severity_bias = 0,45}
+
+#b_sarfang
+1165= { winter_severity_bias = 0,45}
+
+#b_alluit
+1166= { winter_severity_bias = 0,45}
+
+#b_estiria
+1167= { winter_severity_bias = 0,45}
+
+#b_brujas
+1168= { winter_severity_bias = 0,45}
+
+#b_lieja
+1169= { winter_severity_bias = 0,45}
+
+#b_claraval
+1170= { winter_severity_bias = 0,45}
+
+#b_rodano
+1171= { winter_severity_bias = 0,45}
+
+#b_ruan
+1172= { winter_severity_bias = 0,45}
+
+#b_lorena
+1173= { winter_severity_bias = 0,45}
+
+#b_escania
+1174= { winter_severity_bias = 0,45}
+
+#b_tiro
+1175= { winter_severity_bias = 0,45}
+
+#b_capaz
+1176= { winter_severity_bias = 0,45}
+
+#b_rincon
+1177= { winter_severity_bias = 0,45}
+
+#b_murkesh
+1178= { winter_severity_bias = 0,45}
+
+#b_washugan
+1179= { winter_severity_bias = 0,45}
+
+#b_mumbaka
+1180= { winter_severity_bias = 0,45}
+
+#b_arpak
+1181= { winter_severity_bias = 0,45}
+
+#b_chagar
+1182= { winter_severity_bias = 0,45}
+
+#b_tarbish
+1183= { winter_severity_bias = 0,45}
+
+#b_araph
+1184= { winter_severity_bias = 0,45}
+
+#b_shubat
+1185= { winter_severity_bias = 0,45}
+
+#b_shiban
+1186= { winter_severity_bias = 0,45}
+
+#b_nereb
+1187= { winter_severity_bias = 0,45}
+
+#b_taremmu
+1188= { winter_severity_bias = 0,45}
+
+#b_arad
+1189= { winter_severity_bias = 0,45}
+
+#b_shedesh
+1190= { winter_severity_bias = 0,45}
+
+#b_rashnagar
+1191= { winter_severity_bias = 0,45}
+
+#b_nehebehdet
+1192= { winter_severity_bias = 0,45}
+
+#b_terkah
+1193= { winter_severity_bias = 0,45}
+
+#b_tumyattha
+1194= { winter_severity_bias = 0,45}
+
+#b_reket
+1195= { winter_severity_bias = 0,45}
+
+#b_gibeza
+1196= { winter_severity_bias = 0,45}
+
+#b_nerenu
+1197= { winter_severity_bias = 0,45}
+
+#b_akhotep
+1198= { winter_severity_bias = 0,45}
+
+#b_qito
+1199= { winter_severity_bias = 0,45}
+
+#b_djoramenyet
+1200= { winter_severity_bias = 0,45}
+
+#b_wadjish
+1201= { winter_severity_bias = 0,45}
+
+#b_klito
+1202= { winter_severity_bias = 0,45}
+
+#b_buhenekh
+1203= { winter_severity_bias = 0,45}
+
+#b_pthubat
+1204= { winter_severity_bias = 0,45}
+
+#b_farshish
+1205= { winter_severity_bias = 0,45}
+
+#b_tarminhor
+1206= { winter_severity_bias = 0,45}
+
+#b_sukhmen
+1207= { winter_severity_bias = 0,45}
+
+#b_per_hekau
+1208= { winter_severity_bias = 0,45}
+
+#b_ingesh
+1209= { winter_severity_bias = 0,45}
+
+#b_unalitah
+1210= { winter_severity_bias = 0,45}
+
+#b_udessu
+1211= { winter_severity_bias = 0,45}
+
+#b_lialu
+1212= { winter_severity_bias = 0,45}
+
+#b_djeb
+1213= { winter_severity_bias = 0,45}
+
+#b_fardjumat
+1214= { winter_severity_bias = 0,45}
+
+#b_khasanemhat
+1215= { winter_severity_bias = 0,45}
+
+#b_hakur
+1216= { winter_severity_bias = 0,45}
+
+#b_amkhamarat
+1217= { winter_severity_bias = 0,45}
+
+#b_enlil
+1218= { winter_severity_bias = 0,45}
+
+#b_minatennu
+1219= { winter_severity_bias = 0,45}
+
+#b_khasvet
+1220= { winter_severity_bias = 0,45}
+
+#b_duramon
+1221= { winter_severity_bias = 0,45}
+
+#b_shanushir
+1222= { winter_severity_bias = 0,45}
+
+#b_senethis
+1223= { winter_severity_bias = 0,45}
+
+#b_ketmeny
+1224= { winter_severity_bias = 0,45}
+
+#b_gebet
+1225= { winter_severity_bias = 0,45}
+
+#b_djafenset
+1226= { winter_severity_bias = 0,45}
+
+#b_nebkhare
+1227= { winter_severity_bias = 0,45}
+
+#b_anat
+1228= { winter_severity_bias = 0,45}
+
+#b_sekhepesh
+1229= { winter_severity_bias = 0,45}
+
+#b_rubazzu
+1230= { winter_severity_bias = 0,45}
+
+#b_annumut
+1231= { winter_severity_bias = 0,45}
+
+#b_hebshem
+1232= { winter_severity_bias = 0,45}
+
+#b_isfet
+1233= { winter_severity_bias = 0,45}
+
+#b_khesashut
+1234= { winter_severity_bias = 0,45}
+
+#b_waret
+1235= { winter_severity_bias = 0,45}
+
+#b_neknyamor
+1236= { winter_severity_bias = 0,45}
+
+#b_permakht
+1237= { winter_severity_bias = 0,45}
+
+#b_zarumash
+1238= { winter_severity_bias = 0,45}
+
+#b_bostrehwy
+1239= { winter_severity_bias = 0,45}
+
+#b_khanesfet
+1240= { winter_severity_bias = 0,45}
+
+#b_tjamut
+1241= { winter_severity_bias = 0,45}
+
+#b_beliit
+1242= { winter_severity_bias = 0,45}
+
+#b_shezzen
+1243= { winter_severity_bias = 0,45}
+
+#b_tashkur
+1244= { winter_severity_bias = 0,45}
+
+#b_biguat
+1245= { winter_severity_bias = 0,45}
+
+#b_kutal
+1246= { winter_severity_bias = 0,45}
+
+#b_somenhor
+1247= { winter_severity_bias = 0,45}
+
+#b_wadji
+1248= { winter_severity_bias = 0,45}
+
+#b_ashur
+1249= { winter_severity_bias = 0,45}
+
+#b_kishnarru
+1250= { winter_severity_bias = 0,45}
+
+#b_pertapsi
+1251= { winter_severity_bias = 0,45}
+
+#b_zirhat
+1252= { winter_severity_bias = 0,45}
+
+#b_dakhor
+1253= { winter_severity_bias = 0,45}
+
+#b_khasut
+1254= { winter_severity_bias = 0,45}
+
+#b_gilganefer
+1255= { winter_severity_bias = 0,45}
+
+#b_khem
+1256= { winter_severity_bias = 0,45}
+
+#b_emah
+1257= { winter_severity_bias = 0,45}
+
+#b_chadet
+1258= { winter_severity_bias = 0,45}
+
+#b_nabonahiddu
+1259= { winter_severity_bias = 0,45}
+
+#b_sebeh
+1260= { winter_severity_bias = 0,45}
+
+#b_utuatep
+1261= { winter_severity_bias = 0,45}
+
+#b_behkhamty
+1262= { winter_severity_bias = 0,45}
+
+#b_burrukammu
+1263= { winter_severity_bias = 0,45}
+
+#b_isfil
+1264= { winter_severity_bias = 0,45}
+
+#b_amurri
+1265= { winter_severity_bias = 0,45}
+
+#b_abulmahhu
+1266= { winter_severity_bias = 0,45}
+
+#b_nadinapep
+1267= { winter_severity_bias = 0,45}
+
+#b_barsarru
+1268= { winter_severity_bias = 0,45}
+
+#b_liburmetum
+1269= { winter_severity_bias = 0,45}
+
+#b_hadjet
+1270= { winter_severity_bias = 0,45}
+
+#b_abulanshu
+1271= { winter_severity_bias = 0,45}
+
+#b_gemekh
+1272= { winter_severity_bias = 0,45}
+
+#b_ennamhutep
+1273= { winter_severity_bias = 0,45}
+
+#b_damkhenum
+1274= { winter_severity_bias = 0,45}
+
+#b_ishthut
+1275= { winter_severity_bias = 0,45}
+
+#b_anunat
+1276= { winter_severity_bias = 0,45}
+
+#b_osul
+1278= { winter_severity_bias = 0,45}
+
+#b_musobozor
+1279= { winter_severity_bias = 0,45}
+
+#b_piyet
+1280= { winter_severity_bias = 0,45}
+
+#b_kattarikamysh
+1281= { winter_severity_bias = 0,45}
+
+#b_shakhzut
+1282= { winter_severity_bias = 0,45}
+
+#b_zarreh
+1283= { winter_severity_bias = 0,45}
+
+#b_ziyarut
+1284= { winter_severity_bias = 0,45}
+
+#b_nayzabulog
+1285= { winter_severity_bias = 0,45}
+
+#b_charsem
+1286= { winter_severity_bias = 0,45}
+
+#b_miyena
+1287= { winter_severity_bias = 0,45}
+
+#b_khiymot
+1288= { winter_severity_bias = 0,45}
+
+#b_mashaya
+1289= { winter_severity_bias = 0,45}
+
+#b_ghuriye
+1290= { winter_severity_bias = 0,45}
+
+#b_qumash
+1291= { winter_severity_bias = 0,45}
+
+#b_gazivlak
+1292= { winter_severity_bias = 0,45}
+
+#b_sor
+1293= { winter_severity_bias = 0,45}
+
+#b_havibad
+1294= { winter_severity_bias = 0,45}
+
+#b_diyezicheh
+1295= { winter_severity_bias = 0,45}
+
+#b_kuibuylen
+1296= { winter_severity_bias = 0,45}
+
+#b_hermok
+1297= { winter_severity_bias = 0,45}
+
+#b_novedeh
+1298= { winter_severity_bias = 0,45}
+
+#b_haftaran
+1299= { winter_severity_bias = 0,45}
+
+#b_khojildyor
+1300= { winter_severity_bias = 0,45}
+
+#b_atishisan
+1301= { winter_severity_bias = 0,45}
+
+#b_qeshlakiya
+1302= { winter_severity_bias = 0,45}
+
+#b_vedemdara
+1303= { winter_severity_bias = 0,45}
+
+#b_darrehbad
+1304= { winter_severity_bias = 0,45}
+
+#b_saqineh
+1305= { winter_severity_bias = 0,45}
+
+#b_doloniye
+1306= { winter_severity_bias = 0,45}
+
+#b_kashugen
+1307= { winter_severity_bias = 0,45}
+
+#b_valiabad
+1308= { winter_severity_bias = 0,45}
+
+#b_zigyaravand
+1309= { winter_severity_bias = 0,45}
+
+#b_surkh
+1310= { winter_severity_bias = 0,45}
+
+#b_merkehbon
+1311= { winter_severity_bias = 0,45}
+
+#b_dashtemord
+1312= { winter_severity_bias = 0,45}
+
+#b_chinar
+1313= { winter_severity_bias = 0,45}
+
+#b_ragbiya
+1314= { winter_severity_bias = 0,45}
+
+#b_sehtof
+1315= { winter_severity_bias = 0,45}
+
+#b_pushtikhargon
+1316= { winter_severity_bias = 0,45}
+
+#b_raziapur
+1317= { winter_severity_bias = 0,45}
+
+#b_shirehabad
+1318= { winter_severity_bias = 0,45}
+
+#b_tappehbeya
+1319= { winter_severity_bias = 0,45}
+
+#b_dashtamin
+1320= { winter_severity_bias = 0,45}
+
+#b_sanga
+1321= { winter_severity_bias = 0,45}
+
+#b_murdsar
+1322= { winter_severity_bias = 0,45}
+
+#b_tartku
+1323= { winter_severity_bias = 0,45}
+
+#b_kheledabad
+1324= { winter_severity_bias = 0,45}
+
+#b_kulidnah
+1325= { winter_severity_bias = 0,45}
+
+#b_qambarast
+1326= { winter_severity_bias = 0,45}
+
+#b_zaranj
+1327= { winter_severity_bias = 0,45}
+
+#b_hamedapur
+1328= { winter_severity_bias = 0,45}
+
+#b_shamehna
+1329= { winter_severity_bias = 0,45}
+
+#b_pugush
+1330= { winter_severity_bias = 0,45}
+
+#b_ghalemakht
+1331= { winter_severity_bias = 0,45}
+
+#b_qeshmarapur
+1332= { winter_severity_bias = 0,45}
+
+#b_kalaishodi
+1333= { winter_severity_bias = 0,45}
+
+#b_shavaleh
+1334= { winter_severity_bias = 0,45}
+
+#b_jaffapur
+1335= { winter_severity_bias = 0,45}
+
+#b_chimepe
+1336= { winter_severity_bias = 0,45}
+
+#b_bazargan
+1337= { winter_severity_bias = 0,45}
+
+#b_kubulyon
+1338= { winter_severity_bias = 0,45}
+
+#b_beshqareh
+1339= { winter_severity_bias = 0,45}
+
+#b_gondapur
+1340= { winter_severity_bias = 0,45}
+
+#b_jarreh
+1341= { winter_severity_bias = 0,45}
+
+#b_soni
+1342= { winter_severity_bias = 0,45}
+
+#b_didargahe
+1343= { winter_severity_bias = 0,45}
+
+#b_nashrabad
+1344= { winter_severity_bias = 0,45}
+
+#b_minatuk
+1345= { winter_severity_bias = 0,45}
+
+#b_barmulk
+1346= { winter_severity_bias = 0,45}
+
+#b_kuloj
+1347= { winter_severity_bias = 0,45}
+
+#b_magoviye
+1348= { winter_severity_bias = 0,45}
+
+#b_khargod
+1349= { winter_severity_bias = 0,45}
+
+#b_milayu
+1350= { winter_severity_bias = 0,45}
+
+#b_qitahna
+1351= { winter_severity_bias = 0,45}
+
+#b_kalatiyam
+1352= { winter_severity_bias = 0,45}
+
+#b_darana
+1353= { winter_severity_bias = 0,45}
+
+#b_kobalapur
+1354= { winter_severity_bias = 0,45}
+
+#b_shurguzar
+1355= { winter_severity_bias = 0,45}
+
+#b_anuj
+1356= { winter_severity_bias = 0,45}
+
+#b_mahrabad
+1357= { winter_severity_bias = 0,45}
+
+#b_kuchkak
+1358= { winter_severity_bias = 0,45}
+
+#b_arun
+1359= { winter_severity_bias = 0,45}
+
+#b_lasaneh
+1360= { winter_severity_bias = 0,45}
+
+#b_baynalminal
+1361= { winter_severity_bias = 0,45}
+
+#b_shurab
+1362= { winter_severity_bias = 0,45}
+
+#b_sholubad
+1363= { winter_severity_bias = 0,45}
+
+#b_khoshdara
+1364= { winter_severity_bias = 0,45}
+
+#b_shahverdeh
+1365= { winter_severity_bias = 0,45}
+
+#b_kizilhar
+1366= { winter_severity_bias = 0,45}
+
+#b_shirrabad
+1367= { winter_severity_bias = 0,45}
+
+#b_tarykam
+1368= { winter_severity_bias = 0,45}
+
+#b_bostanapur
+1369= { winter_severity_bias = 0,45}
+
+#b_arzany
+1370= { winter_severity_bias = 0,45}
+
+#b_oktoshiye
+1371= { winter_severity_bias = 0,45}
+
+#b_pasujan
+1372= { winter_severity_bias = 0,45}
+
+#b_mahastaye
+1373= { winter_severity_bias = 0,45}
+
+#b_childukhtar
+1374= { winter_severity_bias = 0,45}
+
+#b_zaragheh
+1375= { winter_severity_bias = 0,45}
+
+#b_ujjaq
+1376= { winter_severity_bias = 0,45}
+
+#b_qalatan
+1377= { winter_severity_bias = 0,45}
+
+#b_shahrakiye
+1378= { winter_severity_bias = 0,45}
+
+#b_qazideh
+1379= { winter_severity_bias = 0,45}
+
+#b_kahbad
+1380= { winter_severity_bias = 0,45}
+
+#b_shortoqay
+1381= { winter_severity_bias = 0,45}
+
+#b_bolaqapur
+1382= { winter_severity_bias = 0,45}
+
+#b_sharifabal
+1383= { winter_severity_bias = 0,45}
+
+#b_martakhy
+1384= { winter_severity_bias = 0,45}
+
+#b_sarakiya
+1385= { winter_severity_bias = 0,45}
+
+#b_mirahmad
+1386= { winter_severity_bias = 0,45}
+
+#b_vajim
+1387= { winter_severity_bias = 0,45}
+
+#b_khodaverd
+1388= { winter_severity_bias = 0,45}
+
+#b_poshteh
+1389= { winter_severity_bias = 0,45}
+
+#b_heyrabad
+1390= { winter_severity_bias = 0,45}
+
+#b_seyman
+1391= { winter_severity_bias = 0,45}
+
+#b_parmeh
+1392= { winter_severity_bias = 0,45}
+
+#b_amisara
+1393= { winter_severity_bias = 0,45}
+
+#b_qurtesh
+1394= { winter_severity_bias = 0,45}
+
+#b_kachupur
+1395= { winter_severity_bias = 0,45}
+
+#b_espardahan
+1396= { winter_severity_bias = 0,45}
+
+#b_arpalykh
+1397= { winter_severity_bias = 0,45}
+
+#b_gurchak
+1398= { winter_severity_bias = 0,45}
+
+#b_kahizapur
+1399= { winter_severity_bias = 0,45}
+
+#b_barnajjiye
+1400= { winter_severity_bias = 0,45}
+
+#b_haveshk
+1401= { winter_severity_bias = 0,45}
+
+#b_golisorg
+1402= { winter_severity_bias = 0,45}
+
+#b_lajini
+1403= { winter_severity_bias = 0,45}
+
+#b_buneh
+1404= { winter_severity_bias = 0,45}
+
+#b_mardan
+1405= { winter_severity_bias = 0,45}
+
+#b_kaliyeh
+1406= { winter_severity_bias = 0,45}
+
+#b_purcham
+1407= { winter_severity_bias = 0,45}
+
+#b_urtakand
+1408= { winter_severity_bias = 0,45}
+
+#b_qargol
+1409= { winter_severity_bias = 0,45}
+
+#b_biyakhal
+1410= { winter_severity_bias = 0,45}
+
+#b_kaluk
+1411= { winter_severity_bias = 0,45}
+
+#b_bala
+1412= { winter_severity_bias = 0,45}
+
+#b_kafaz
+1413= { winter_severity_bias = 0,45}
+
+#b_sahri
+1414= { winter_severity_bias = 0,45}
+
+#b_serdan
+1415= { winter_severity_bias = 0,45}
+
+#b_rujnemo
+1416= { winter_severity_bias = 0,45}
+
+#b_najjar
+1417= { winter_severity_bias = 0,45}
+
+#b_zebrud
+1418= { winter_severity_bias = 0,45}
+
+#b_dulakh
+1419= { winter_severity_bias = 0,45}
+
+#b_shekaft
+1420= { winter_severity_bias = 0,45}
+
+#b_penah
+1421= { winter_severity_bias = 0,45}
+
+#b_baina
+1422= { winter_severity_bias = 0,45}
+
+#b_poshpar
+1423= { winter_severity_bias = 0,45}
+
+#b_heydar
+1424= { winter_severity_bias = 0,45}
+
+#b_darukan
+1425= { winter_severity_bias = 0,45}
+
+#b_chelmeh
+1426= { winter_severity_bias = 0,45}
+
+#b_puzapur
+1427= { winter_severity_bias = 0,45}
+
+#b_kodrut
+1428= { winter_severity_bias = 0,45}
+
+#b_kanepa
+1429= { winter_severity_bias = 0,45}
+
+#b_kheyrabad
+1430= { winter_severity_bias = 0,45}
+
+#b_tubrah
+1431= { winter_severity_bias = 0,45}
+
+#b_hurkati
+1432= { winter_severity_bias = 0,45}
+
+#b_kharabpur
+1433= { winter_severity_bias = 0,45}
+
+#b_davzdah
+1434= { winter_severity_bias = 0,45}
+
+#b_malicheh
+1435= { winter_severity_bias = 0,45}
+
+#b_nirabad
+1436= { winter_severity_bias = 0,45}
+
+#b_shahpur
+1437= { winter_severity_bias = 0,45}
+
+#b_zarabad
+1438= { winter_severity_bias = 0,45}
+
+#b_mayehabad
+1439= { winter_severity_bias = 0,45}
+
+#b_khandat
+1440= { winter_severity_bias = 0,45}
+
+#b_shimpur
+1441= { winter_severity_bias = 0,45}
+
+#b_sedabad
+1442= { winter_severity_bias = 0,45}
+
+#b_qaj
+1443= { winter_severity_bias = 0,45}
+
+#b_zanagun
+1444= { winter_severity_bias = 0,45}
+
+#b_benivan
+1445= { winter_severity_bias = 0,45}
+
+#b_zangalab
+1446= { winter_severity_bias = 0,45}
+
+#b_marandegan
+1447= { winter_severity_bias = 0,45}
+
+#b_mirtas
+1448= { winter_severity_bias = 0,45}
+
+#b_jalal
+1449= { winter_severity_bias = 0,45}
+
+#b_seyyapur
+1450= { winter_severity_bias = 0,45}
+
+#b_genehda
+1451= { winter_severity_bias = 0,45}
+
+#b_mirabbas
+1452= { winter_severity_bias = 0,45}
+
+#b_konar
+1453= { winter_severity_bias = 0,45}
+
+#b_gennaha
+1454= { winter_severity_bias = 0,45}
+
+#b_massan
+1455= { winter_severity_bias = 0,45}
+
+#b_changureh
+1456= { winter_severity_bias = 0,45}
+
+#b_shirju
+1457= { winter_severity_bias = 0,45}
+
+#b_karkeh
+1458= { winter_severity_bias = 0,45}
+
+#b_anderik
+1459= { winter_severity_bias = 0,45}
+
+#b_khaweh
+1460= { winter_severity_bias = 0,45}
+
+#b_darzi
+1461= { winter_severity_bias = 0,45}
+
+#b_kidri
+1462= { winter_severity_bias = 0,45}
+
+#b_mogh
+1463= { winter_severity_bias = 0,45}
+
+#b_changan
+1464= { winter_severity_bias = 0,45}
+
+#b_pursekhlu
+1465= { winter_severity_bias = 0,45}
+
+#b_jedayah
+1466= { winter_severity_bias = 0,45}
+
+#b_karmali
+1467= { winter_severity_bias = 0,45}
+
+#b_dehgah
+1468= { winter_severity_bias = 0,45}
+
+#b_kalgah
+1469= { winter_severity_bias = 0,45}
+
+#b_molheh
+1470= { winter_severity_bias = 0,45}
+
+#b_dinabiye
+1471= { winter_severity_bias = 0,45}
+
+#b_dafsar
+1472= { winter_severity_bias = 0,45}
+
+#b_dahan
+1473= { winter_severity_bias = 0,45}
+
+#b_kabudeh
+1474= { winter_severity_bias = 0,45}
+
+#b_basolya
+1475= { winter_severity_bias = 0,45}
+
+#b_lafmujan
+1476= { winter_severity_bias = 0,45}
+
+#b_kordha
+1477= { winter_severity_bias = 0,45}
+
+#b_duday
+1478= { winter_severity_bias = 0,45}
+
+#b_chahar
+1479= { winter_severity_bias = 0,45}
+
+#b_boldagh
+1480= { winter_severity_bias = 0,45}
+
+#b_chenar
+1481= { winter_severity_bias = 0,45}
+
+#b_zitgadaf
+1482= { winter_severity_bias = 0,45}
+
+#b_ushan
+1483= { winter_severity_bias = 0,45}
+
+#b_gatuliyeh
+1484= { winter_severity_bias = 0,45}
+
+#b_mardeh
+1485= { winter_severity_bias = 0,45}
+
+#b_maimon
+1486= { winter_severity_bias = 0,45}
+
+#b_khater
+1487= { winter_severity_bias = 0,45}
+
+#b_burakiyah
+1488= { winter_severity_bias = 0,45}
+
+#b_kariz
+1489= { winter_severity_bias = 0,45}
+
+#b_mollahi
+1490= { winter_severity_bias = 0,45}
+
+#b_khushi
+1491= { winter_severity_bias = 0,45}
+
+#b_zenivand
+1492= { winter_severity_bias = 0,45}
+
+#b_samangan
+1493= { winter_severity_bias = 0,45}
+
+#b_ghoncheh
+1494= { winter_severity_bias = 0,45}
+
+#b_hubary
+1495= { winter_severity_bias = 0,45}
+
+#b_novkhaleh
+1496= { winter_severity_bias = 0,45}
+
+#b_morowat
+1497= { winter_severity_bias = 0,45}
+
+#b_aminabad
+1498= { winter_severity_bias = 0,45}
+
+#b_chaleh
+1499= { winter_severity_bias = 0,45}
+
+#b_kesanj
+1500= { winter_severity_bias = 0,45}
+
+#b_khesan
+1501= { winter_severity_bias = 0,45}
+
+#b_fatideh
+1502= { winter_severity_bias = 0,45}
+
+#b_tafin
+1503= { winter_severity_bias = 0,45}
+
+#b_garmandar
+1504= { winter_severity_bias = 0,45}
+
+#b_kuhkhird
+1505= { winter_severity_bias = 0,45}
+
+#b_kalekan
+1506= { winter_severity_bias = 0,45}
+
+#b_janabad
+1507= { winter_severity_bias = 0,45}
+
+#b_uzvar
+1508= { winter_severity_bias = 0,45}
+
+#b_hariduk
+1509= { winter_severity_bias = 0,45}
+
+#b_nevmahan
+1510= { winter_severity_bias = 0,45}
+
+#b_dashtechah
+1511= { winter_severity_bias = 0,45}
+
+#b_bureh
+1512= { winter_severity_bias = 0,45}
+
+#b_savar
+1513= { winter_severity_bias = 0,45}
+
+#b_karekai
+1514= { winter_severity_bias = 0,45}
+
+#b_dogijan
+1515= { winter_severity_bias = 0,45}
+
+#b_kerdil
+1516= { winter_severity_bias = 0,45}
+
+#b_zeynuddin
+1517= { winter_severity_bias = 0,45}
+
+#b_khorraman
+1518= { winter_severity_bias = 0,45}
+
+#b_poshtekhan
+1519= { winter_severity_bias = 0,45}
+
+#b_koshk_e_shokuh
+1520= { winter_severity_bias = 0,45}
+
+#b_samian
+1521= { winter_severity_bias = 0,45}
+
+#b_lanjeh
+1522= { winter_severity_bias = 0,45}
+
+#b_dargaz
+1523= { winter_severity_bias = 0,45}
+
+#b_banehdar
+1524= { winter_severity_bias = 0,45}
+
+#b_kuhestan
+1525= { winter_severity_bias = 0,45}
+
+#b_sarab
+1526= { winter_severity_bias = 0,45}
+
+#b_takht_e_khorsid
+1527= { winter_severity_bias = 0,45}
+
+#b_khunza
+1528= { winter_severity_bias = 0,45}
+
+#b_shibolya
+1529= { winter_severity_bias = 0,45}
+
+#b_kennapur
+1530= { winter_severity_bias = 0,45}
+
+#b_bandebal
+1531= { winter_severity_bias = 0,45}
+
+#b_karizibad
+1532= { winter_severity_bias = 0,45}
+
+#b_jam
+1533= { winter_severity_bias = 0,45}
+
+#b_dawudshah
+1534= { winter_severity_bias = 0,45}
+
+#b_absin
+1535= { winter_severity_bias = 0,45}
+
+#b_gharak
+1536= { winter_severity_bias = 0,45}
+
+#b_maku
+1537= { winter_severity_bias = 0,45}
+
+#b_chemwozai
+1538= { winter_severity_bias = 0,45}
+
+#b_irgrin
+1539= { winter_severity_bias = 0,45}
+
+#b_zakrabad
+1540= { winter_severity_bias = 0,45}
+
+#b_sarazp
+1541= { winter_severity_bias = 0,45}
+
+#b_qul
+1542= { winter_severity_bias = 0,45}
+
+#b_safariya
+1543= { winter_severity_bias = 0,45}
+
+#b_miranzkal
+1544= { winter_severity_bias = 0,45}
+
+#b_khindaya
+1545= { winter_severity_bias = 0,45}
+
+#b_khayl
+1546= { winter_severity_bias = 0,45}
+
+#b_yazikel
+1547= { winter_severity_bias = 0,45}
+
+#b_nekzi
+1548= { winter_severity_bias = 0,45}
+
+#b_jalayir
+1549= { winter_severity_bias = 0,45}
+
+#b_qadam
+1550= { winter_severity_bias = 0,45}
+
+#b_jagda
+1551= { winter_severity_bias = 0,45}
+
+#b_bahlozai
+1552= { winter_severity_bias = 0,45}
+
+#b_kamar
+1553= { winter_severity_bias = 0,45}
+
+#b_sarbulak
+1554= { winter_severity_bias = 0,45}
+
+#b_kuliketar
+1555= { winter_severity_bias = 0,45}
+
+#b_kamarak
+1556= { winter_severity_bias = 0,45}
+
+#b_kuyye
+1557= { winter_severity_bias = 0,45}
+
+#b_khamiya
+1558= { winter_severity_bias = 0,45}
+
+#b_zarghun
+1559= { winter_severity_bias = 0,45}
+
+#b_petaw
+1560= { winter_severity_bias = 0,45}
+
+#b_vilayati
+1561= { winter_severity_bias = 0,45}
+
+#b_tokarak
+1562= { winter_severity_bias = 0,45}
+
+#b_malvai
+1563= { winter_severity_bias = 0,45}
+
+#b_hsxstiyr
+1564= { winter_severity_bias = 0,45}
+
+#b_nikrgano
+1565= { winter_severity_bias = 0,45}
+
+#b_khuzgol
+1566= { winter_severity_bias = 0,45}
+
+#b_dehana
+1567= { winter_severity_bias = 0,45}
+
+#b_avparan
+1568= { winter_severity_bias = 0,45}
+
+#b_burkhana
+1569= { winter_severity_bias = 0,45}
+
+#b_chapsai
+1570= { winter_severity_bias = 0,45}
+
+#b_tangai
+1571= { winter_severity_bias = 0,45}
+
+#b_tutachi
+1572= { winter_severity_bias = 0,45}
+
+#b_karamai
+1573= { winter_severity_bias = 0,45}
+
+#b_chapkul
+1574= { winter_severity_bias = 0,45}
+
+#b_kelai
+1575= { winter_severity_bias = 0,45}
+
+#b_benosh
+1576= { winter_severity_bias = 0,45}
+
+#b_gongor
+1577= { winter_severity_bias = 0,45}
+
+#b_kanduy
+1578= { winter_severity_bias = 0,45}
+
+#b_miro
+1579= { winter_severity_bias = 0,45}
+
+#b_kalaisa
+1580= { winter_severity_bias = 0,45}
+
+#b_karpari
+1581= { winter_severity_bias = 0,45}
+
+#b_mushak
+1582= { winter_severity_bias = 0,45}
+
+#b_bakkeyl
+1583= { winter_severity_bias = 0,45}
+
+#b_parideh
+1584= { winter_severity_bias = 0,45}
+
+#b_zamankeyl
+1585= { winter_severity_bias = 0,45}
+
+#b_shahikeyl
+1586= { winter_severity_bias = 0,45}
+
+#b_dalil
+1587= { winter_severity_bias = 0,45}
+
+#b_gholjah
+1588= { winter_severity_bias = 0,45}
+
+#b_khyali
+1589= { winter_severity_bias = 0,45}
+
+#b_mahankalai
+1590= { winter_severity_bias = 0,45}
+
+#b_saravan
+1591= { winter_severity_bias = 0,45}
+
+#b_kamariye
+1592= { winter_severity_bias = 0,45}
+
+#b_divarakiye
+1593= { winter_severity_bias = 0,45}
+
+#b_zard
+1594= { winter_severity_bias = 0,45}
+
+#b_tangurai
+1595= { winter_severity_bias = 0,45}
+
+#b_urbanai
+1596= { winter_severity_bias = 0,45}
+
+#b_dargah
+1597= { winter_severity_bias = 0,45}
+
+#b_yasich
+1598= { winter_severity_bias = 0,45}
+
+#b_khinjakka
+1599= { winter_severity_bias = 0,45}
+
+#b_kalakan
+1600= { winter_severity_bias = 0,45}
+
+#b_malikabad
+1601= { winter_severity_bias = 0,45}
+
+#b_nevrah
+1602= { winter_severity_bias = 0,45}
+
+#b_parmakan
+1603= { winter_severity_bias = 0,45}
+
+#b_paitow
+1604= { winter_severity_bias = 0,45}
+
+#b_gonebad
+1605= { winter_severity_bias = 0,45}
+
+#b_shureh
+1606= { winter_severity_bias = 0,45}
+
+#b_luyah
+1607= { winter_severity_bias = 0,45}
+
+#b_sorkh
+1608= { winter_severity_bias = 0,45}
+
+#b_chineh
+1609= { winter_severity_bias = 0,45}
+
+#b_pushta
+1610= { winter_severity_bias = 0,45}
+
+#b_paimal
+1611= { winter_severity_bias = 0,45}
+
+#b_langma
+1612= { winter_severity_bias = 0,45}
+
+#b_ulyad
+1613= { winter_severity_bias = 0,45}
+
+#b_navdi
+1614= { winter_severity_bias = 0,45}
+
+#b_sattar
+1615= { winter_severity_bias = 0,45}
+
+#b_buhasn
+1616= { winter_severity_bias = 0,45}
+
+#b_kiyat
+1617= { winter_severity_bias = 0,45}
+
+#b_farshah
+1618= { winter_severity_bias = 0,45}
+
+#b_rayana
+1619= { winter_severity_bias = 0,45}
+
+#b_anakhra
+1620= { winter_severity_bias = 0,45}
+
+#b_hada
+1621= { winter_severity_bias = 0,45}
+
+#b_sudayrah
+1622= { winter_severity_bias = 0,45}
+
+#b_fiwan
+1623= { winter_severity_bias = 0,45}
+
+#b_ghaya
+1624= { winter_severity_bias = 0,45}
+
+#b_maniq
+1625= { winter_severity_bias = 0,45}
+
+#b_tharmidah
+1626= { winter_severity_bias = 0,45}
+
+#b_basr
+1627= { winter_severity_bias = 0,45}
+
+#b_khei
+1628= { winter_severity_bias = 0,45}
+
+#b_ghumayyisah
+1629= { winter_severity_bias = 0,45}
+
+#b_zumaygah
+1630= { winter_severity_bias = 0,45}
+
+#b_fayidah
+1631= { winter_severity_bias = 0,45}
+
+#b_shuqayq
+1632= { winter_severity_bias = 0,45}
+
+#b_gaback
+1633= { winter_severity_bias = 0,45}
+
+#b_khuzayyah
+1634= { winter_severity_bias = 0,45}
+
+#b_abasud
+1635= { winter_severity_bias = 0,45}
+
+#b_haiya
+1636= { winter_severity_bias = 0,45}
+
+#b_rubua
+1637= { winter_severity_bias = 0,45}
+
+#b_surrah
+1638= { winter_severity_bias = 0,45}
+
+#b_alujayd
+1639= { winter_severity_bias = 0,45}
+
+#b_rawjat
+1640= { winter_severity_bias = 0,45}
+
+#b_raynibah
+1641= { winter_severity_bias = 0,45}
+
+#b_aur
+1642= { winter_severity_bias = 0,45}
+
+#b_jabailah
+1643= { winter_severity_bias = 0,45}
+
+#b_khufayfah
+1644= { winter_severity_bias = 0,45}
+
+#b_ayun
+1645= { winter_severity_bias = 0,45}
+
+#b_zafeer
+1646= { winter_severity_bias = 0,45}
+
+#b_bukayrayah
+1647= { winter_severity_bias = 0,45}
+
+#b_yanbu
+1648= { winter_severity_bias = 0,45}
+
+#b_wasta
+1649= { winter_severity_bias = 0,45}
+
+#b_asubayi
+1650= { winter_severity_bias = 0,45}
+
+#b_daff
+1651= { winter_severity_bias = 0,45}
+
+#b_haima
+1652= { winter_severity_bias = 0,45}
+
+#b_rukubah
+1653= { winter_severity_bias = 0,45}
+
+#b_awad
+1654= { winter_severity_bias = 0,45}
+
+#b_balaq
+1655= { winter_severity_bias = 0,45}
+
+#b_gharith
+1656= { winter_severity_bias = 0,45}
+
+#b_nusiyyah
+1657= { winter_severity_bias = 0,45}
+
+#b_surayah
+1658= { winter_severity_bias = 0,45}
+
+#b_rahimah
+1659= { winter_severity_bias = 0,45}
+
+#b_markaz
+1660= { winter_severity_bias = 0,45}
+
+#b_mekkilah
+1661= { winter_severity_bias = 0,45}
+
+#b_sayyirah
+1662= { winter_severity_bias = 0,45}
+
+#b_moykatta
+1663= { winter_severity_bias = 0,45}
+
+#b_amring
+1664= { winter_severity_bias = 0,45}
+
+#b_buqay
+1665= { winter_severity_bias = 0,45}
+
+#b_terem
+1666= { winter_severity_bias = 0,45}
+
+#b_omada
+1667= { winter_severity_bias = 0,45}
+
+#b_sharikhiyah
+1668= { winter_severity_bias = 0,45}
+
+#b_gushirtov
+1669= { winter_severity_bias = 0,45}
+
+#b_karakchi
+1670= { winter_severity_bias = 0,45}
+
+#b_gajjya
+1671= { winter_severity_bias = 0,45}
+
+#b_khalfa
+1672= { winter_severity_bias = 0,45}
+
+#b_vogat
+1673= { winter_severity_bias = 0,45}
+
+#b_mayza
+1674= { winter_severity_bias = 0,45}
+
+#b_paskitomchi
+1675= { winter_severity_bias = 0,45}
+
+#b_pisokat
+1676= { winter_severity_bias = 0,45}
+
+#b_daylamiyah
+1677= { winter_severity_bias = 0,45}
+
+#b_chugarak
+1678= { winter_severity_bias = 0,45}
+
+#b_karagach
+1679= { winter_severity_bias = 0,45}
+
+#b_amiyah
+1680= { winter_severity_bias = 0,45}
+
+#b_gougavd
+1681= { winter_severity_bias = 0,45}
+
+#b_seidzh
+1682= { winter_severity_bias = 0,45}
+
+#b_inabad
+1683= { winter_severity_bias = 0,45}
+
+#b_al_miraj
+1684= { winter_severity_bias = 0,45}
+
+#b_skavabad
+1685= { winter_severity_bias = 0,45}
+
+#b_saidkorghon
+1686= { winter_severity_bias = 0,45}
+
+#b_jiibayad
+1687= { winter_severity_bias = 0,45}
+
+#b_ogbulog
+1688= { winter_severity_bias = 0,45}
+
+#b_lengeh
+1689= { winter_severity_bias = 0,45}
+
+#b_kaltek
+1690= { winter_severity_bias = 0,45}
+
+#b_lagman
+1691= { winter_severity_bias = 0,45}
+
+#b_chabulak
+1692= { winter_severity_bias = 0,45}
+
+#b_lupusad
+1693= { winter_severity_bias = 0,45}
+
+#b_boshbulok
+1694= { winter_severity_bias = 0,45}
+
+#b_obinukra
+1695= { winter_severity_bias = 0,45}
+
+#b_shululu
+1696= { winter_severity_bias = 0,45}
+
+#b_toshat
+1697= { winter_severity_bias = 0,45}
+
+#b_qaratosh
+1698= { winter_severity_bias = 0,45}
+
+#b_bulakizal
+1699= { winter_severity_bias = 0,45}
+
+#b_shurob
+1700= { winter_severity_bias = 0,45}
+
+#b_yel
+1701= { winter_severity_bias = 0,45}
+
+#b_medenshor
+1702= { winter_severity_bias = 0,45}
+
+#b_khostho
+1703= { winter_severity_bias = 0,45}
+
+#b_balagdash
+1704= { winter_severity_bias = 0,45}
+
+#b_abdan
+1705= { winter_severity_bias = 0,45}
+
+#b_hariyuli
+1706= { winter_severity_bias = 0,45}
+
+#b_kurkat
+1707= { winter_severity_bias = 0,45}
+
+#b_luchob
+1708= { winter_severity_bias = 0,45}
+
+#b_mekhnatabod
+1709= { winter_severity_bias = 0,45}
+
+#b_qalohna
+1710= { winter_severity_bias = 0,45}
+
+#b_saksanokhur
+1711= { winter_severity_bias = 0,45}
+
+#b_radavik
+1712= { winter_severity_bias = 0,45}
+
+#b_khulozy
+1713= { winter_severity_bias = 0,45}
+
+#b_bashkomaz
+1714= { winter_severity_bias = 0,45}
+
+#b_zosun
+1715= { winter_severity_bias = 0,45}
+
+#b_settilmirish
+1716= { winter_severity_bias = 0,45}
+
+#b_vopazur
+1717= { winter_severity_bias = 0,45}
+
+#b_tovabulok
+1718= { winter_severity_bias = 0,45}
+
+#b_foru
+1719= { winter_severity_bias = 0,45}
+
+#b_zorchal
+1720= { winter_severity_bias = 0,45}
+
+#b_guyundar
+1721= { winter_severity_bias = 0,45}
+
+#b_qataghan
+1722= { winter_severity_bias = 0,45}
+
+#b_vagel
+1723= { winter_severity_bias = 0,45}
+
+#b_vozm
+1724= { winter_severity_bias = 0,45}
+
+#b_puligirdob
+1725= { winter_severity_bias = 0,45}
+
+#b_surkhashma
+1726= { winter_severity_bias = 0,45}
+
+#b_tszun
+1727= { winter_severity_bias = 0,45}
+
+#b_sundzen
+1728= { winter_severity_bias = 0,45}
+
+#b_hebteme
+1729= { winter_severity_bias = 0,45}
+
+#b_sayntsagaan
+1730= { winter_severity_bias = 0,45}
+
+#b_seeriin
+1731= { winter_severity_bias = 0,45}
+
+#b_mingat
+1732= { winter_severity_bias = 0,45}
+
+#b_dalthid
+1733= { winter_severity_bias = 0,45}
+
+#b_doynhor
+1734= { winter_severity_bias = 0,45}
+
+#b_dalan
+1735= { winter_severity_bias = 0,45}
+
+#b_zamunide
+1736= { winter_severity_bias = 0,45}
+
+#b_khoshu
+1737= { winter_severity_bias = 0,45}
+
+#b_santuma
+1738= { winter_severity_bias = 0,45}
+
+#b_kharaganain
+1739= { winter_severity_bias = 0,45}
+
+#b_arigynn
+1740= { winter_severity_bias = 0,45}
+
+#b_khotohure
+1741= { winter_severity_bias = 0,45}
+
+#b_baykid
+1742= { winter_severity_bias = 0,45}
+
+#b_luma
+1743= { winter_severity_bias = 0,45}
+
+#b_byanural
+1744= { winter_severity_bias = 0,45}
+
+#b_dzohod
+1745= { winter_severity_bias = 0,45}
+
+#b_nariin
+1746= { winter_severity_bias = 0,45}
+
+#b_usatanii
+1747= { winter_severity_bias = 0,45}
+
+#b_burgaasa
+1748= { winter_severity_bias = 0,45}
+
+#b_nalaikha
+1749= { winter_severity_bias = 0,45}
+
+#b_palan
+1750= { winter_severity_bias = 0,45}
+
+#b_undents
+1751= { winter_severity_bias = 0,45}
+
+#b_balji
+1752= { winter_severity_bias = 0,45}
+
+#b_darahin
+1753= { winter_severity_bias = 0,45}
+
+#b_sulobotuin
+1754= { winter_severity_bias = 0,45}
+
+#b_uragyyn
+1755= { winter_severity_bias = 0,45}
+
+#b_bandi
+1756= { winter_severity_bias = 0,45}
+
+#b_buyantu
+1757= { winter_severity_bias = 0,45}
+
+#b_duguhantyryn
+1758= { winter_severity_bias = 0,45}
+
+#b_buyantayn
+1759= { winter_severity_bias = 0,45}
+
+#b_khayutu
+1760= { winter_severity_bias = 0,45}
+
+#b_abagayn
+1761= { winter_severity_bias = 0,45}
+
+#b_mogoyn
+1762= { winter_severity_bias = 0,45}
+
+#b_doloni
+1763= { winter_severity_bias = 0,45}
+
+#b_darhantayee
+1764= { winter_severity_bias = 0,45}
+
+#b_tsagan
+1765= { winter_severity_bias = 0,45}
+
+#b_naranak
+1766= { winter_severity_bias = 0,45}
+
+#b_bayagaziid
+1767= { winter_severity_bias = 0,45}
+
+#b_borgosi
+1768= { winter_severity_bias = 0,45}
+
+#b_tukuma
+1769= { winter_severity_bias = 0,45}
+
+#b_hoboriin
+1770= { winter_severity_bias = 0,45}
+
+#b_khartszatuin
+1771= { winter_severity_bias = 0,45}
+
+#b_tabumodan
+1772= { winter_severity_bias = 0,45}
+
+#b_uburtyyn
+1773= { winter_severity_bias = 0,45}
+
+#b_lisain
+1774= { winter_severity_bias = 0,45}
+
+#b_baruuye
+1775= { winter_severity_bias = 0,45}
+
+#b_luchzhen
+1776= { winter_severity_bias = 0,45}
+
+#b_galharyin
+1777= { winter_severity_bias = 0,45}
+
+#b_harutyr
+1778= { winter_severity_bias = 0,45}
+
+#b_dayakhid
+1779= { winter_severity_bias = 0,45}
+
+#b_engershand
+1780= { winter_severity_bias = 0,45}
+
+#b_khodogui
+1781= { winter_severity_bias = 0,45}
+
+#b_underroyn
+1782= { winter_severity_bias = 0,45}
+
+#b_khotogture
+1783= { winter_severity_bias = 0,45}
+
+#b_daltihid
+1784= { winter_severity_bias = 0,45}
+
+#b_sharaiin
+1785= { winter_severity_bias = 0,45}
+
+#b_somonighur
+1786= { winter_severity_bias = 0,45}
+
+#b_ulabaa
+1787= { winter_severity_bias = 0,45}
+
+#b_sumain
+1788= { winter_severity_bias = 0,45}
+
+#b_dugete
+1789= { winter_severity_bias = 0,45}
+
+#b_habtsagay
+1790= { winter_severity_bias = 0,45}
+
+#b_khongor
+1791= { winter_severity_bias = 0,45}
+
+#b_tsekherin
+1792= { winter_severity_bias = 0,45}
+
+#b_khadayn
+1793= { winter_severity_bias = 0,45}
+
+#b_dalkhain
+1794= { winter_severity_bias = 0,45}
+
+#b_amogolambu
+1795= { winter_severity_bias = 0,45}
+
+#b_uburayn
+1796= { winter_severity_bias = 0,45}
+
+#b_haranaiin
+1797= { winter_severity_bias = 0,45}
+
+#b_bulagan
+1798= { winter_severity_bias = 0,45}
+
+#b_zanjigin
+1799= { winter_severity_bias = 0,45}
+
+#b_suvd
+1800= { winter_severity_bias = 0,45}
+
+#b_saraspur
+1801= { winter_severity_bias = 0,45}
+
+#b_manduk
+1802= { winter_severity_bias = 0,45}
+
+#b_kushtia
+1803= { winter_severity_bias = 0,45}
+
+#b_kulikundar
+1804= { winter_severity_bias = 0,45}
+
+#b_parkot
+1805= { winter_severity_bias = 0,45}
+
+#b_bari
+1806= { winter_severity_bias = 0,45}
+
+#b_kharda
+1807= { winter_severity_bias = 0,45}
+
+#b_shashidharpur
+1808= { winter_severity_bias = 0,45}
+
+#b_maijha
+1809= { winter_severity_bias = 0,45}
+
+#b_banstola
+1810= { winter_severity_bias = 0,45}
+
+#b_sylgyzbandar
+1811= { winter_severity_bias = 0,45}
+
+#b_jhoppara
+1812= { winter_severity_bias = 0,45}
+
+#b_khalisadah
+1813= { winter_severity_bias = 0,45}
+
+#b_nischinta
+1814= { winter_severity_bias = 0,45}
+
+#b_batubad
+1815= { winter_severity_bias = 0,45}
+
+#b_jugirtabak
+1816= { winter_severity_bias = 0,45}
+
+#b_sahadar
+1817= { winter_severity_bias = 0,45}
+
+#b_baratuli
+1818= { winter_severity_bias = 0,45}
+
+#b_bhagjoar
+1819= { winter_severity_bias = 0,45}
+
+#b_chandanpat
+1820= { winter_severity_bias = 0,45}
+
+#b_fakirkil
+1821= { winter_severity_bias = 0,45}
+
+#b_saranjagari
+1822= { winter_severity_bias = 0,45}
+
+#b_jamak
+1823= { winter_severity_bias = 0,45}
+
+#b_lashkarpur
+1824= { winter_severity_bias = 0,45}
+
+#b_kholahati
+1825= { winter_severity_bias = 0,45}
+
+#b_bhabermura
+1826= { winter_severity_bias = 0,45}
+
+#b_gezutia
+1827= { winter_severity_bias = 0,45}
+
+#b_hatirdia
+1828= { winter_severity_bias = 0,45}
+
+#b_dibazkul
+1829= { winter_severity_bias = 0,45}
+
+#b_ghala
+1830= { winter_severity_bias = 0,45}
+
+#b_dafilaz
+1831= { winter_severity_bias = 0,45}
+
+#b_samarsing
+1832= { winter_severity_bias = 0,45}
+
+#b_kastor
+1833= { winter_severity_bias = 0,45}
+
+#b_urtbuzia
+1834= { winter_severity_bias = 0,45}
+
+#b_tailapara
+1835= { winter_severity_bias = 0,45}
+
+#b_surbafuldi
+1836= { winter_severity_bias = 0,45}
+
+#b_ghosalerdara
+1837= { winter_severity_bias = 0,45}
+
+#b_nimtali
+1838= { winter_severity_bias = 0,45}
+
+#b_baharal
+1839= { winter_severity_bias = 0,45}
+
+#b_samanta
+1840= { winter_severity_bias = 0,45}
+
+#b_kadamtara
+1841= { winter_severity_bias = 0,45}
+
+#b_dekshapara
+1842= { winter_severity_bias = 0,45}
+
+#b_taukati
+1843= { winter_severity_bias = 0,45}
+
+#b_harikhanagar
+1844= { winter_severity_bias = 0,45}
+
+#b_jigagar
+1845= { winter_severity_bias = 0,45}
+
+#b_tilapara
+1846= { winter_severity_bias = 0,45}
+
+#b_chaua
+1847= { winter_severity_bias = 0,45}
+
+#b_bankhari
+1848= { winter_severity_bias = 0,45}
+
+#b_bahakholl
+1849= { winter_severity_bias = 0,45}
+
+#b_shampur
+1850= { winter_severity_bias = 0,45}
+
+#b_parakhola
+1851= { winter_severity_bias = 0,45}
+
+#b_baradar
+1852= { winter_severity_bias = 0,45}
+
+#b_ghorai
+1853= { winter_severity_bias = 0,45}
+
+#b_burai
+1854= { winter_severity_bias = 0,45}
+
+#b_baratala
+1855= { winter_severity_bias = 0,45}
+
+#b_hamchapur
+1856= { winter_severity_bias = 0,45}
+
+#b_gopinagar
+1857= { winter_severity_bias = 0,45}
+
+#b_khanarasia
+1858= { winter_severity_bias = 0,45}
+
+#b_mahishkher
+1859= { winter_severity_bias = 0,45}
+
+#b_nalkola
+1860= { winter_severity_bias = 0,45}
+
+#b_sharipur
+1861= { winter_severity_bias = 0,45}
+
+#b_ayabpur
+1862= { winter_severity_bias = 0,45}
+
+#b_mohespur
+1863= { winter_severity_bias = 0,45}
+
+#b_mathillo
+1864= { winter_severity_bias = 0,45}
+
+#b_lalpur
+1865= { winter_severity_bias = 0,45}
+
+#b_gairiwa
+1866= { winter_severity_bias = 0,45}
+
+#b_phogatpura
+1867= { winter_severity_bias = 0,45}
+
+#b_kharamtar
+1868= { winter_severity_bias = 0,45}
+
+#b_deurali
+1869= { winter_severity_bias = 0,45}
+
+#b_gijet
+1870= { winter_severity_bias = 0,45}
+
+#b_sisnukharka
+1871= { winter_severity_bias = 0,45}
+
+#b_maidane
+1872= { winter_severity_bias = 0,45}
+
+#b_chunibol
+1873= { winter_severity_bias = 0,45}
+
+#b_baitar
+1874= { winter_severity_bias = 0,45}
+
+#b_bajeria
+1875= { winter_severity_bias = 0,45}
+
+#b_laphe
+1876= { winter_severity_bias = 0,45}
+
+#b_bhaurtol
+1877= { winter_severity_bias = 0,45}
+
+#b_salana
+1878= { winter_severity_bias = 0,45}
+
+#b_chela
+1879= { winter_severity_bias = 0,45}
+
+#b_purun
+1880= { winter_severity_bias = 0,45}
+
+#b_dabucha
+1881= { winter_severity_bias = 0,45}
+
+#b_chandanbar
+1882= { winter_severity_bias = 0,45}
+
+#b_banginia
+1883= { winter_severity_bias = 0,45}
+
+#b_goljunia
+1884= { winter_severity_bias = 0,45}
+
+#b_pakhere
+1885= { winter_severity_bias = 0,45}
+
+#b_mavara
+1886= { winter_severity_bias = 0,45}
+
+#b_kotidanda
+1887= { winter_severity_bias = 0,45}
+
+#b_majhereti
+1888= { winter_severity_bias = 0,45}
+
+#b_lapche
+1889= { winter_severity_bias = 0,45}
+
+#b_simaradhi
+1890= { winter_severity_bias = 0,45}
+
+#b_sisapur
+1891= { winter_severity_bias = 0,45}
+
+#b_madhupattiya
+1892= { winter_severity_bias = 0,45}
+
+#b_bhaarka
+1893= { winter_severity_bias = 0,45}
+
+#b_phulkharka
+1894= { winter_severity_bias = 0,45}
+
+#b_baka
+1895= { winter_severity_bias = 0,45}
+
+#b_dashami
+1896= { winter_severity_bias = 0,45}
+
+#b_chhedin
+1897= { winter_severity_bias = 0,45}
+
+#b_dumrabasa
+1898= { winter_severity_bias = 0,45}
+
+#b_sarkitol
+1899= { winter_severity_bias = 0,45}
+
+#b_champagoas
+1900= { winter_severity_bias = 0,45}
+
+#b_kadogaos
+1901= { winter_severity_bias = 0,45}
+
+#b_sambaos
+1902= { winter_severity_bias = 0,45}
+
+#b_dhairenia
+1903= { winter_severity_bias = 0,45}
+
+#b_samargaon
+1904= { winter_severity_bias = 0,45}
+
+#b_kikhunos
+1905= { winter_severity_bias = 0,45}
+
+#b_bharphedia
+1906= { winter_severity_bias = 0,45}
+
+#b_sanos
+1907= { winter_severity_bias = 0,45}
+
+#b_gudkelosa
+1908= { winter_severity_bias = 0,45}
+
+#b_khakharsos
+1909= { winter_severity_bias = 0,45}
+
+#b_gorundia
+1910= { winter_severity_bias = 0,45}
+
+#b_itharawa
+1911= { winter_severity_bias = 0,45}
+
+#b_ghogsillia
+1912= { winter_severity_bias = 0,45}
+
+#b_photia
+1913= { winter_severity_bias = 0,45}
+
+#b_simarbona
+1914= { winter_severity_bias = 0,45}
+
+#b_mantrdanos
+1915= { winter_severity_bias = 0,45}
+

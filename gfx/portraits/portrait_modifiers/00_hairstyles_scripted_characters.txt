@@ -19,7 +19,7 @@ hairstyles_scripted_characters = {
             modifier = {
                 add = 200
                 exists = character:100018 #Pallardo
-                this = character:10018 #Pallardo
+                this = character:100018 #Pallardo
             }
             modifier = {
                 add = 200
@@ -599,7 +599,6 @@ hairstyles_scripted_characters = {
             }
         }
     }
-}
 
 ##############################################################################################################################################
 ##############################################################################################################################################
@@ -1088,10 +1087,6 @@ hairstyles_scripted_characters = {
         }
     }
 
-
-
-}
-
     edelgard_academy_hair = {
         dna_modifiers = {
             accessory = {
@@ -1170,3 +1165,4 @@ hairstyles_scripted_characters = {
             }
         }
     }
+}

@@ -13,7 +13,7 @@
 	good = yes
 	random_creation = 0
 	group = crest_seiros
-	level = 1
+	level = 2
 	
 
 	desc = trait_crest_minor_seiros_desc
@@ -34,7 +34,7 @@ crest_major_seiros = {
 	good = yes
 	random_creation = 0
 	group = crest_seiros
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_seiros_desc
 }
@@ -54,7 +54,7 @@ crest_minor_flames = {
 	good = yes
 	random_creation = 0
 	group = crest_flames
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_flames_desc
 }
@@ -74,7 +74,7 @@ crest_major_flames = {
 	good = yes
 	random_creation = 0
 	group = crest_flames
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_flames_desc
 }
@@ -92,7 +92,7 @@ crest_minor_macuil = {
 	good = yes
 	random_creation = 0
 	group = crest_macuil
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_macuil_desc
 }
@@ -110,7 +110,7 @@ crest_major_macuil = {
 	good = yes
 	random_creation = 0
 	group = crest_macuil
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_macuil_desc
 }
@@ -129,7 +129,7 @@ crest_minor_indech = {
 	good = yes
 	random_creation = 0
 	group = crest_indech
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_indech_desc
 }
@@ -148,7 +148,7 @@ crest_major_indech = {
 	good = yes
 	random_creation = 0
 	group = crest_indech
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_indech_desc
 }
@@ -167,7 +167,7 @@ crest_minor_cichol = {
 	good = yes
 	random_creation = 0
 	group = crest_cichol
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_cichol_desc
 }
@@ -186,7 +186,7 @@ crest_major_cichol = {
 	good = yes
 	random_creation = 0
 	group = crest_cichol
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_cichol_desc
 }
@@ -204,7 +204,7 @@ crest_minor_cethleann = {
 	good = yes
 	random_creation = 0
 	group = crest_cethleann
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_cethleann_desc
 }
@@ -222,7 +222,7 @@ crest_major_cethleann = {
 	good = yes
 	random_creation = 0
 	group = crest_cethleann
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_cethleann_desc
 }
@@ -240,7 +240,7 @@ crest_minor_riegan = {
 	good = yes
 	random_creation = 0
 	group = crest_riegan
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_riegan_desc
 }
@@ -258,7 +258,7 @@ crest_major_riegan = {
 	good = yes
 	random_creation = 0
 	group = crest_riegan
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_riegan_desc
 }
@@ -275,7 +275,7 @@ crest_minor_lamine = {
 	good = yes
 	random_creation = 0
 	group = crest_lamine
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_lamine_desc
 }
@@ -292,7 +292,7 @@ crest_major_lamine = {
 	good = yes
 	random_creation = 0
 	group = crest_lamine
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_lamine_desc
 }
@@ -310,7 +310,7 @@ crest_minor_goneril = {
 	good = yes
 	random_creation = 0
 	group = crest_goneril
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_goneril_desc
 }
@@ -328,7 +328,7 @@ crest_major_goneril = {
 	good = yes
 	random_creation = 0
 	group = crest_goneril
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_goneril_desc
 }
@@ -346,7 +346,7 @@ crest_minor_gloucester = {
 	good = yes
 	random_creation = 0
 	group = crest_gloucester
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_gloucesterr_desc
 }
@@ -364,7 +364,7 @@ crest_major_gloucester = {
 	good = yes
 	random_creation = 0
 	group = crest_gloucester
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_gloucester_desc
 }
@@ -382,7 +382,7 @@ crest_minor_gautier = {
 	good = yes
 	random_creation = 0
 	group = crest_gautier
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_gautier_desc
 }
@@ -400,7 +400,7 @@ crest_major_gautier = {
 	good = yes
 	random_creation = 0
 	group = crest_gautier
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_gautier_desc
 }
@@ -418,7 +418,7 @@ crest_minor_fraldarius = {
 	good = yes
 	random_creation = 0
 	group = crest_fraldarius
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_fraldarius_desc
 }
@@ -436,7 +436,7 @@ crest_major_fraldarius = {
 	good = yes
 	random_creation = 0
 	group = crest_fraldarius
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_fraldarius_desc
 }
@@ -454,7 +454,7 @@ crest_minor_dominic = {
 	good = yes
 	random_creation = 0
 	group = crest_dominic
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_dominic_desc
 }
@@ -472,7 +472,7 @@ crest_major_dominic = {
 	good = yes
 	random_creation = 0
 	group = crest_dominic
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_dominic_desc
 }
@@ -489,7 +489,7 @@ crest_minor_daphnel = {
 	good = yes
 	random_creation = 0
 	group = crest_daphnel
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_daphnel_desc
 }
@@ -506,7 +506,7 @@ crest_major_daphnel = {
 	good = yes
 	random_creation = 0
 	group = crest_daphnel
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_daphnel_desc
 }
@@ -524,7 +524,7 @@ crest_minor_charon = {
 	good = yes
 	random_creation = 0
 	group = crest_charon
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_charon_desc
 }
@@ -542,7 +542,7 @@ crest_major_charon = {
 	good = yes
 	random_creation = 0
 	group = crest_charon
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_charon_desc
 }
@@ -559,7 +559,7 @@ crest_minor_blaiddyd = {
 	good = yes
 	random_creation = 0
 	group = crest_blaiddyd
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_blaiddyd_desc
 }
@@ -576,7 +576,7 @@ crest_major_blaiddyd = {
 	good = yes
 	random_creation = 0
 	group = crest_blaiddyd
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_blaiddyd_desc
 }
@@ -593,7 +593,7 @@ crest_minor_aubin = {
 	good = yes
 	random_creation = 0
 	group = crest_aubin
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_aubin_desc
 }
@@ -610,7 +610,7 @@ crest_major_aubin = {
 	good = yes
 	random_creation = 0
 	group = crest_aubin
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_aubin_desc
 }
@@ -628,7 +628,7 @@ crest_minor_chevalier = {
 	good = yes
 	random_creation = 0
 	group = crest_chevalier
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_chevalier_desc
 }
@@ -646,7 +646,7 @@ crest_major_chevalier = {
 	good = yes
 	random_creation = 0
 	group = crest_chevalier
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_chevalier_desc
 }
@@ -663,7 +663,7 @@ crest_minor_ernest = {
 	good = yes
 	random_creation = 0
 	group = crest_ernest
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_ernest_desc
 }
@@ -680,7 +680,7 @@ crest_major_ernest = {
 	good = yes
 	random_creation = 0
 	group = crest_ernest
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_ernest_desc
 }
@@ -698,7 +698,7 @@ crest_minor_noa = {
 	good = yes
 	random_creation = 0
 	group = crest_noa
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_noa_desc
 }
@@ -716,7 +716,7 @@ crest_major_noa = {
 	good = yes
 	random_creation = 0
 	group = crest_noa
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_noa_desc
 }
@@ -734,7 +734,7 @@ crest_minor_timotheos = {
 	good = yes
 	random_creation = 0
 	group = crest_timotheos
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_timotheos_desc
 }
@@ -752,7 +752,7 @@ crest_major_timotheos = {
 	good = yes
 	random_creation = 0
 	group = crest_timotheos
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_timotheos_desc
 }
@@ -770,7 +770,7 @@ crest_minor_maurice = {
 	good = yes
 	random_creation = 0
 	group = crest_maurice
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_maurice_desc
 }
@@ -788,7 +788,7 @@ crest_major_maurice = {
 	good = yes
 	random_creation = 0
 	group = crest_maurice
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_maurice_desc
 }
@@ -808,7 +808,7 @@ crest_minor_malik = {
 	good = yes
 	random_creation = 0
 	group = crest_malik
-	level = 1
+	level = 2
 
 	desc = trait_crest_minor_malik_desc
 }
@@ -828,7 +828,7 @@ crest_major_malik = {
 	good = yes
 	random_creation = 0
 	group = crest_malik
-	level = 2
+	level = 3
 
 	desc = trait_crest_major_malik_desc
 }
@@ -839,7 +839,7 @@ crest_blood_blaiddyd = {
 	good = yes
 	random_creation = 0
 	group = crest_blaiddyd
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_blaiddyd_desc
 }
@@ -849,7 +849,7 @@ crest_blood_charon = {
 	good = yes
 	random_creation = 0
 	group = crest_charon
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_charon_desc
 }
@@ -859,7 +859,7 @@ crest_blood_daphnel = {
 	good = yes
 	random_creation = 0
 	group = crest_daphnel
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_daphnel_desc
 }
@@ -869,7 +869,7 @@ crest_blood_dominic = {
 	good = yes
 	random_creation = 0
 	group = crest_dominic
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_dominic_desc
 }
@@ -879,7 +879,7 @@ crest_blood_fraldarius = {
 	good = yes
 	random_creation = 0
 	group = crest_fraldarius
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_fraldarius_desc
 }
@@ -889,7 +889,7 @@ crest_blood_gautier = {
 	good = yes
 	random_creation = 0
 	group = crest_gautier
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_gautier_desc
 }
@@ -899,7 +899,7 @@ crest_blood_gloucester = {
 	good = yes
 	random_creation = 0
 	group = crest_gloucester
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_gloucester_desc
 }
@@ -909,7 +909,7 @@ crest_blood_goneril = {
 	good = yes
 	random_creation = 0
 	group = crest_goneril
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_goneril_desc
 }
@@ -919,7 +919,7 @@ crest_blood_lamine = {
 	good = yes
 	random_creation = 0
 	group = crest_lamine
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_lamine_desc
 }
@@ -929,7 +929,7 @@ crest_blood_riegan = {
 	good = yes
 	random_creation = 0
 	group = crest_riegan
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_riegan_desc
 }
@@ -939,7 +939,7 @@ crest_blood_maurice = {
 	good = yes
 	random_creation = 0
 	group = crest_maurice
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_maurice_desc
 }
@@ -949,7 +949,7 @@ crest_blood_cethleann = {
 	good = yes
 	random_creation = 0
 	group = crest_cethleann
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_cethleann_desc
 }
@@ -959,7 +959,7 @@ crest_blood_cichol = {
 	good = yes
 	random_creation = 0
 	group = crest_cichol
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_cichol_desc
 }
@@ -969,7 +969,7 @@ crest_blood_indech = {
 	good = yes
 	random_creation = 0
 	group = crest_indech
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_indech_desc
 }
@@ -979,7 +979,7 @@ crest_blood_macuil = {
 	good = yes
 	random_creation = 0
 	group = crest_macuil
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_macuil_desc
 }
@@ -989,7 +989,7 @@ crest_blood_aubin = {
 	good = yes
 	random_creation = 0
 	group = crest_aubin
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_aubin_desc
 }
@@ -999,7 +999,7 @@ crest_blood_chevalier = {
 	good = yes
 	random_creation = 0
 	group = crest_chevalier
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_chevalier_desc
 }
@@ -1009,7 +1009,7 @@ crest_blood_noa = {
 	good = yes
 	random_creation = 0
 	group = crest_noa
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_noa_desc
 }
@@ -1019,7 +1019,7 @@ crest_blood_timotheos = {
 	good = yes
 	random_creation = 0
 	group = crest_timotheos
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_timotheos_desc
 }
@@ -1029,7 +1029,7 @@ crest_blood_flames = {
 	good = yes
 	random_creation = 0
 	group = crest_flames
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_flames_desc
 }
@@ -1039,7 +1039,7 @@ crest_blood_seiros = {
 	good = yes
 	random_creation = 0
 	group = crest_seiros
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_seiros_desc
 }
@@ -1049,7 +1049,7 @@ crest_blood_ernest = {
 	good = yes
 	random_creation = 0
 	group = crest_ernest
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_ernest_desc
 }
@@ -1059,7 +1059,7 @@ crest_blood_malik = {
 	good = yes
 	random_creation = 0
 	group = crest_malik
-	level = 3
+	level = 1
 
 	desc = trait_crest_blood_malik_desc
 }

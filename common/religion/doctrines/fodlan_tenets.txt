@@ -9,6 +9,7 @@ doctrine_fodlan_tenets = {
 	###############
 
 	tenet_school_of_seiros = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -31,6 +32,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_school_of_macuil = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -53,6 +55,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_school_of_cichol = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -75,6 +78,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_school_of_indech = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -97,6 +101,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_school_of_cethleann = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -123,6 +128,7 @@ doctrine_fodlan_tenets = {
 	#################
 
 	tenet_ablehnistic_ways = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -148,6 +154,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_pen_my_sword = {
+		icon = core_tenet_pacifism
 		is_shown = {
 			always = no
 		}
@@ -174,6 +181,7 @@ doctrine_fodlan_tenets = {
 	################
 
 	tenet_cultured_armies = {
+		icon = core_tenet_sword
 		is_shown = {
 			always = no
 		}
@@ -200,6 +208,7 @@ doctrine_fodlan_tenets = {
 	##############
 
 	tenet_lamhach_teachings = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -222,6 +231,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_fuale_teachings = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -246,6 +256,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_talahm_ithir_teachings = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -269,6 +280,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_gaothe_teachings = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -319,6 +331,7 @@ doctrine_fodlan_tenets = {
 	###########################
 
 	tenet_let_the_money_flow = {
+		icon = core_tenet_handcoin
 		is_shown = {
 			always = no
 		}
@@ -342,6 +355,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_legacy_of_trading_kings = {
+		icon = core_tenet_handcoin
 		is_shown = {
 			always = no
 		}
@@ -366,6 +380,7 @@ doctrine_fodlan_tenets = {
 	}
 	
 	tenet_wonders_of_paradise = {
+		icon = core_tenet_handcoin
 		is_shown = {
 			always = no
 		}
@@ -393,6 +408,7 @@ doctrine_fodlan_tenets = {
 	#####################
 
 	tenet_eminence_of_arcane = {
+		icon = core_tenet_bhakti
 		is_shown = {
 			always = no
 		}
@@ -415,6 +431,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_heavenly_spirits = {
+		icon = core_tenet_bhakti
 		is_shown = {
 			always = no
 		}
@@ -437,6 +454,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_consuming_the_darkness = {
+		icon = core_tenet_bhakti
 		is_shown = {
 			always = no
 		}
@@ -466,6 +484,7 @@ doctrine_fodlan_tenets = {
 	##############
 
 	tenet_throne_of_fire = {
+		icon = core_tenet_skyshaman
 		is_shown = {
 			always = no
 		}
@@ -487,6 +506,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_kizilisma_red = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -510,6 +530,7 @@ doctrine_fodlan_tenets = {
 	}
 	
 	tenet_denizavi_blue = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -532,6 +553,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_beyazisma_white = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -555,6 +577,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_siyakara_black = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -577,6 +600,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_dogasil_green = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -601,6 +625,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_karakaya_brown = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -630,6 +655,7 @@ doctrine_fodlan_tenets = {
 	#########################
 
 	tenet_durga_abaka = {
+		icon = core_tenet_bigbook
 		is_shown = {
 			always = no
 		}
@@ -654,6 +680,7 @@ doctrine_fodlan_tenets = {
 	}
 
 	tenet_bisalalinga = {
+		icon = core_tenet_marriage
 		is_shown = {
 			always = no
 		}
@@ -679,6 +706,7 @@ doctrine_fodlan_tenets = {
 
 
 	tenet_baildatyn_tsus = {
+		icon = core_tenet_marriage
 		is_shown = {
 			always = no
 		}
@@ -707,6 +735,7 @@ doctrine_fodlan_tenets = {
 	################
 
 	tenet_polemichani = {
+ 		icon = core_tenet_cabal
 		is_shown = {
 			always = no
 		}

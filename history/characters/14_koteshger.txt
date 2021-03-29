@@ -52,6 +52,7 @@
 
 	1162.12.20 = {
 		birth=yes
+	}
 	1052.1.1 = {
 		set_relation_friend = character:1400004
 	}
@@ -80,6 +81,7 @@
 	}
 	1052.1.1 = {
 		set_relation_friend = character:1400003
+	}
 	1200.1.1={
 		death=yes
 	}
