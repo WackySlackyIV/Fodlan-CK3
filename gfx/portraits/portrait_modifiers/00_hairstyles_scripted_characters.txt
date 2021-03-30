@@ -144,6 +144,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300004 #Rodrigue
+                this = character:300004 #Rodrigue
+            }
+            modifier = {
+                add = 200
+                exists = character:100002 #Seteth
+                this = character:100002 #Seteth
+            }
         }
     }
 
@@ -158,6 +168,26 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100008 #Hanneman
+                this = character:100008 #Hanneman
+            }
+            modifier = {
+                add = 200
+                exists = character:200011 #Holst
+                this = character:200011 #Holst
+            }
+            modifier = {
+                add = 200
+                exists = character:400015 #Hubert
+                this = character:400015 #Hubert
+            }
+            modifier = {
+                add = 200
+                exists = character:400025 #Randolph
+                this = character:400025 #Randolph
+            }
         }
     }
 

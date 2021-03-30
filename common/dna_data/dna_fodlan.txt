@@ -3189,7 +3189,7 @@ dna_felix = {
 
 dna_rodrigue = {
 	portrait_info = {
-		genes={
+	genes={
  		hair_color={ 89 226 202 48 }
  		skin_color={ 14 21 14 102 }
  		eye_color={ 105 77 30 188 }
@@ -3289,11 +3289,12 @@ dna_rodrigue = {
  		gene_eyebrows_shape={ "far_spacing_lower_thickness" 177 "far_spacing_high_thickness" 214 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 206 "layer_2_lower_thickness" 190 }
  		gene_body_hair={ "body_hair_sparse_low_stubble" 150 "body_hair_sparse" 181 }
- 		hairstyles={ "all_hairstyles" 61 "all_hairstyles" 63 }
- 		beards={ "all_beards" 0 "all_beards" 223 }
+ 		gene_hair_type={ "hair_wavy" 165 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 127 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 202 "normal_eyes" 202 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
+ 		hairstyles={ "scripted_character_hairstyles_01" 45 "all_hairstyles" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -4410,11 +4411,12 @@ dna_hubert = {
  		gene_eyebrows_shape={ "close_spacing_lower_thickness" 177 "close_spacing_lower_thickness" 177 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 183 "layer_2_low_thickness" 124 }
  		gene_body_hair={ "body_hair_avg" 0 "body_hair_avg" 156 }
- 		hairstyles={ "all_hairstyles" 70 "all_hairstyles" 130 }
- 		beards={ "all_beards" 0 "all_beards" 166 }
+ 		gene_hair_type={ "hair_straight" 90 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 127 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 12 "normal_eyes" 12 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 250 "normal_eyelashes" 250 }
+ 		hairstyles={ "scripted_character_hairstyles_01" 51 "all_hairstyles" 0 }
 		}
 	entity={ 0 0 }
 	}
@@ -6315,11 +6317,12 @@ dna_randolph = {
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 184 "avg_spacing_low_thickness" 138 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 136 "layer_2_low_thickness" 69 }
  		gene_body_hair={ "body_hair_sparse" 151 "body_hair_sparse" 151 }
- 		hairstyles={ "all_hairstyles" 73 "all_hairstyles" 247 }
- 		beards={ "all_beards" 0 "all_beards" 187 }
+ 		gene_hair_type={ "hair_straight" 207 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 127 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 178 "normal_eyes" 178 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 93 "normal_eyelashes" 93 }
+ 		hairstyles={ "scripted_character_hairstyles_01" 51 "all_hairstyles" 0 }
 		}
 	entity={ 0 0 }
 	}
