@@ -666,6 +666,9 @@
 
 	1118.1.11 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1158.1.1 = {
 		add_spouse = 400028

@@ -5308,11 +5308,13 @@ dna_ionius = {
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 127 "far_spacing_low_thickness" 127 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 170 "layer_2_low_thickness" 170 }
  		gene_body_hair={ "body_hair_sparse" 143 "body_hair_sparse" 143 }
- 		hairstyles={ "all_hairstyles" 116 "northern_hairstyles" 220 }
- 		beards={ "all_beards" 184 "northern_beards" 201 }
+ 		gene_hair_type={ "hair_wavy" 201 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 127 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 32 "normal_eyes" 32 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
+ 		hairstyles={ "scripted_character_hairstyles_01" 81 "all_hairstyles" 0 }
+ 		beards={ "all_beards" 169 "no_beard" 0 }
 		}
 	entity={ 0 0 }
 	}
