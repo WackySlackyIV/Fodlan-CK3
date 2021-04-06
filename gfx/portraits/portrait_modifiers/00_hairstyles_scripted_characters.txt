@@ -294,8 +294,13 @@ hairstyles_scripted_characters = {
                 value = 0.38 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300011 #Ashe
+                this = character:300011 #Ashe
+            }
         }
     }
 
@@ -364,8 +369,13 @@ hairstyles_scripted_characters = {
                 value = 0.52 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100016 #Aelfric
+                this = character:100016 #Aelfric
+            }
         }
     }
 
@@ -378,8 +388,18 @@ hairstyles_scripted_characters = {
                 value = 0.54 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100004 #Alois
+                this = character:100004 #Alois
+            }
+            modifier = {
+                add = 200
+                exists = character:300034 #Gwendal
+                this = character:300034 #Gwendal
+            }
         }
     }
 
@@ -392,8 +412,18 @@ hairstyles_scripted_characters = {
                 value = 0.57 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400024 #Arundel
+                this = character:400024 #Arundel
+            }
+            modifier = {
+                add = 200
+                exists = character:700001 #Nader
+                this = character:700001 #Nader
+            }
         }
     }
 
