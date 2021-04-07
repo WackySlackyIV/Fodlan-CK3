@@ -384,7 +384,7 @@
 	trait = crest_minor_riegan
 	disallow_random_traits = yes
 
-	1162.7.24 = {
+	1162.4.24 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -476,8 +476,8 @@
 	trait = crest_minor_gloucester
 	disallow_random_traits = yes
 
-	1161.6.13 = {
-		birth="1161.6.13"
+	1161.3.13 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -518,8 +518,8 @@
 	trait = athletic
 	disallow_random_traits = yes
 
-	1162.5.18 = {
-		birth="1162.5.18"
+	1162.2.18 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -620,8 +620,8 @@
 	trait = journaller
 	disallow_random_traits = yes
 
-	1163.3.14 = {
-		birth="1163.3.14"
+	1163.12.14 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -668,7 +668,7 @@
 	trait = blood_experiments
 	disallow_random_traits = yes
 
-	1165.2.28 = {
+	1165.11.28 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -707,8 +707,8 @@
 	trait = crest_minor_maurice
 	disallow_random_traits = yes
 
-	1162.11.23 = {
-		birth="1162.11.23"
+	1162.8.23 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -746,7 +746,7 @@
 
 	disallow_random_traits = yes
 
-	1162.2.3 = {
+	1162.11.3 = {
 		birth=yes
 		effect={
 			add_friend=100013
@@ -810,8 +810,8 @@
 	trait = improvident
 	disallow_random_traits = yes
 
-	1160.8.21 = {
-		birth="1160.8.21"
+	1160.5.21 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -899,7 +899,7 @@
 
 
 200029 = {
-	name="Grandfather Gloucester"
+	name="James"
 	dynasty=102
 	religion="seirosite"
 	culture="leicester"
@@ -914,7 +914,7 @@
 }
 
 200030 = {
-	name="Great Grandfather Gloucester"
+	name="Mark"
 	dynasty=102
 	religion="seirosite"
 	culture="leicester"

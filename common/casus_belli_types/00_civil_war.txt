@@ -24,6 +24,9 @@ independence_faction_war = {
 
 	on_declaration = {
 		#on_declared_war = yes
+		scope:attacker = {
+			hidden_effect = { fp1_remove_humsac_offended_counties_effect = yes }
+		}
 	}
 
 	on_victory_desc = {

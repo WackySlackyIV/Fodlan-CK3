@@ -186,7 +186,7 @@ tjonar_ormurinn_religion = {
 
 		heimsormurinn = {
 			color = { 47 46 50 }
-			icon = catholic
+			icon = heimsormurinn
 
 			holy_site = erobring
 			holy_site = bjarskagi
@@ -201,7 +201,7 @@ tjonar_ormurinn_religion = {
 
 		mekeal = { #Macuil Pagans
 			color = { 158 128 225 }
-			icon = catholic	
+			icon = mekeal
 		
 			holy_site = vindkaller
 			holy_site = bjarskagi

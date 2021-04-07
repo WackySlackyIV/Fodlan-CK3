@@ -77,16 +77,15 @@
     		Kane Killian Klaus Kyphon
     		Lambert Lars Leon Liam Loog Lugh Louis Lucas Luka Lonato
     		Magnus Mark Mateo Miguel Miklan
-	    		Nicolaus_Nicholas
-    			Olivier Oscar
-    			Patrick Phillipe Pierre Pan
-    			Regis Remy Rhys Robert Rodrigue Roland Rory Rowe Ruben Rufus Ryan
-    			Sebastian Sigurd Stanley Sylvain
-    			Ulrich
-    			Vladimir
-    			Xavier
-    			Yuri
-		
+	    	Nicolaus_Nicholas
+			Olivier Oscar
+			Patrick Phillipe Pierre Pan
+			Regis Remy Rhys Robert Rodrigue Roland Rory Rowe Ruben Rufus Ryan
+			Sebastian Sigurd Stanley Sylvain
+			Ulrich
+			Vladimir
+			Xavier
+			Yuri
 		}
 		female_names = {
 			Adele Adeline Aerona Alice Anastasia Annabelle Aria Ashley
@@ -109,11 +108,11 @@
 			Ursula
 			Valentine Valeria Vanessa Verena Vivianna
 			Alexandra Alison Amelia Annette Arielle Ashe Astrid
-    			Blanche Brandl Brigitta
-    			Caitlin Camille Carina Carmen Carole Caroline Cassandra Celia Charlotte Ciara Cornelia Cosette Catherine
-    			Desiree Diane
+			Blanche Brandl Brigitta
+			Caitlin Camille Carina Carmen Carole Caroline Cassandra Celia Charlotte Ciara Cornelia Cosette Catherine
+			Desiree Diane
 			Eileen Elin Elise Elizabeth Emilie Erin Evelyn
-    			Fantine Fleur
+			Fantine Fleur
   		  	Galina Gilda Gladys Grace Gunnhild Gwendolyn Gwen
    		 	Heidi Helga
   		  	Ingrid Isabella
@@ -122,12 +121,11 @@
    		 	Laura Lucille Lydia
    		 	Mabel Madeline Maeve Marceline Margot Martha Maura Megan Meredith Milena Monique Morgan
    		 	Nadine Natasha Niamh Nora
-    			Quinn
-    			Rachel Reagan Renee Rhiannon Rose Roseline Roxanne
-    			Sasha Shea Sigrid Simone Sophia Sophie Suzanne
-    			Valerie Veronica Victoria Victoire
-   		 	Yvonne
-
+			Quinn
+			Rachel Reagan Renee Rhiannon Rose Roseline Roxanne
+			Sasha Shea Sigrid Simone Sophia Sophie Suzanne
+			Valerie Veronica Victoria Victoire
+			Yvonne
 		}
 		
 		dynasty_of_location_prefix = "dynnp_von"
@@ -407,30 +405,30 @@
 			Edward Egitte Ecteur
 			Elias Emile Erik Evan Eddie
    			Felix Fraldarius Frederic
-    			Gareth Gaspard Gaston Gautier George Gerard Gildas Glenn Godefroy Gustave Guy Gwendal Gwion Geraint
-    			Henrik Henry Hugo
-    			Ivan Ivar Ivor
+			Gareth Gaspard Gaston Gautier George Gerard Gildas Glenn Godefroy Gustave Guy Gwendal Gwion Geraint
+			Henrik Henry Hugo
+			Ivan Ivar Ivor
    			Jacob James Jean Jermaine Jerome Joel Johan John Jonas Jose Jules
    			Kane Killian Klaus Kyphon
    			Lambert Lars Leon Liam Loog Lugh Louis Lucas Luka Lonato Lionel Lucius
    			Magnus Mark Marcelius Mateo Miguel Miklan Marque Merlin
    			Nicolaus Nicholas
-    			Olivier Oliviere Oscar Owen Owain
-    			Patrick Phillipe Pierre Pan
-    			Regis Remy Rhys Robert Rodrigue Roger Roland Rory Rowe Ruben Rufus Ryan
+			Olivier Oliviere Oscar Owen Owain
+			Patrick Phillipe Pierre Pan
+			Regis Remy Rhys Robert Rodrigue Roger Roland Rory Rowe Ruben Rufus Ryan
    			Sebastian Sigurd Stanley Sylvain
    			Thomas Tristain
    			Ulrich
    			Vladimir
-    			Xavier
-    			Yuri
+			Xavier
+			Yuri
 		}
 
 		female_names = {
 			Adeline Alexandra Alice Alison Amelia Anastasia Annette Arielle Ashe Astrid Aurelia
-    			Blanche Brandl Brigitta Blanchefleur
-    			Caitlin Camille Carina Carmen Carole Caroline Cassandra Celia Charlotte Ciara Claudia Constance Cornelia Cosette Cynthia Catherine Caelia Claudine
-    			Desiree Diane
+			Blanche Brandl Brigitta Blanchefleur
+			Caitlin Camille Carina Carmen Carole Caroline Cassandra Celia Charlotte Ciara Claudia Constance Cornelia Cosette Cynthia Catherine Caelia Claudine
+			Desiree Diane
 			Eileen Elena Elin Elise Elizabeth Emilie Erin Evelyn Elaine Evaine
    			Fantine Fleur
   		  	Galina Gilda Giselle Gladys Grace Gunnhild Gwendolyn Gwen Guinevere
@@ -445,7 +443,7 @@
    			Quinn
    			Rachel Reagan Renee Rhiannon Rose Roseline Roxanne
    			Sasha Shea Sigrid Simone Sophia Sophie Suzanne
-    			Theresa
+			Theresa
    			Valerie Veronica Victoria Victoire
    		 	Yvonne Yseult
 		}
@@ -809,7 +807,6 @@
 			"dynn_UrlA_T_eni"
 			"dynn_VidraS_cu"
 			"dynn_Yarka"
-
 		}
 
 		male_names ={

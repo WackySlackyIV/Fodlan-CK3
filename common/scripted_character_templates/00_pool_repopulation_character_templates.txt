@@ -1,27 +1,27 @@
 ﻿#################################### THE DUKE AND THE BODENSEE ######################################
 #																									#
-# The Duke of Swabia sat by the shores of the Bodensee with his fishing rod for many months without #
+# The Duke of Swabia sat by the shores of the Bodensee with his fishing rod for many months without 	#
 # reward. He had even put a lovely slice of dove pie on the hook, but his bucket remained empty.	#
 # "Are there no characters in the lake?" he thought to himself and sighed. "At this rate, my court 	#
 # will become desolate within a generation! My heir will have no diligent councillors, no brave 	#
-# knights, and no wise crones to help him rule the lands!" 											#		
-#																									#
-# The Duke cried for a long, long while, and then stood up to gathering his things.					#
-# "Thank God!" he suddenly exclaimed. "I have an idea!"												#
-# If the lake was empty, could he not create some new characters and release them into the waters?  #
-# If some of them married, the Bodensee would surely be repopulated in just a few years!			#
-#																									#
+# knights, and no wise crones to help him rule the lands!" 						#		
+#													#
+# The Duke cried for a long, long while, and then stood up to gathering his things.			#
+# "Thank God!" he suddenly exclaimed. "I have an idea!"							#
+# If the lake was empty, could he not create some new characters and release them into the waters?  	#
+# If some of them married, the Bodensee would surely be repopulated in just a few years!		#
+#													#
 # The clever Duke quickly got to work. He made maidens and adventurers, matrons and fools. Young	#
 # and old he made them, weak and strong, wicked and pious. The sun rose in the sky and set again.	#
-# Under the light of moon and stars, the Duke put the final touch on his creation. 					#
-#																									#
+# Under the light of moon and stars, the Duke put the final touch on his creation. 			#
+#													#
 # The next morning, he gently released the little characters into the waters. He watched them swim 	#
 # away with tears of happiness trailing down his whiskered cheeks. This was farewell, but he was 	#
-# certain - they would not be gone for long.														#
-#																									#
+# certain - they would not be gone for long.								#
+#													#
 # And this is the story behind why pools spawn new characters for the royal courts all over the 	#
 # world. Whenever we throw our hook into the depths, we send a thought of gratitude to the noble 	#
-# Duke of Swabia, and his marvelous creation.														#
+# Duke of Swabia, and his marvelous creation.								#
 #																									#
 #####################################################################################################
 
@@ -343,14 +343,7 @@ pool_repopulate_local_flavor = {
 	gender_female_chance = root_faith_dominant_gender_adjusted_female_chance #because council gender is doctrine dependent
 	random_traits = yes
 	faith = root.faith
-	
-	random_culture = {
-		root.culture = {
-			trigger = {
-				root.faith = { religion = { is_in_family = rf_all } }
-			}
-		}
-	}
+	culture = root.culture	
 	
 	learning = {
 		min_guest_template_skill max_guest_template_skill

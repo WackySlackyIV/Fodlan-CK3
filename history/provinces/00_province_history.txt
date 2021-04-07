@@ -8248,13 +8248,13 @@
 130 = {       # (b_sherborne)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = city_holding
 }
 
 131 = {       # (b_southcave)
               culture = leicester
               religion = seirosite
-              holding = castle_holding
+              holding = none
 }
 
 ##             (c_edmund)

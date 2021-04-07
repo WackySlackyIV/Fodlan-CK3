@@ -134,57 +134,68 @@
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 
 
-		PantheonTerm = religion_the_gods
-		PantheonTermHasHave = pantheon_term_have
-		GoodGodNames = { germanic_good_god_thor germanic_good_god_baldr germanic_good_god_freyja germanic_good_god_tyr germanic_good_god_sif}
-		DevilName = germanic_devil_name
-		DevilNamePossessive = germanic_devil_name_possessive
+		PantheonTerm = christianity_high_god_name
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			christianity_high_god_name
+			christianity_high_god_name_alternate
+			chistianity_good_god_jesus
+			chistianity_good_god_christ
+		}
+		DevilName = christianity_devil_name
+		DevilNamePossessive = christianity_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
-		EvilGodNames = { germanic_evil_god_surtr germanic_evil_god_ymir }
-		HouseOfWorship = paganism_house_of_worship
-		HouseOfWorshipPlural = paganism_house_of_worship_plural
-		ReligiousSymbol = germanic_religious_symbol
-		ReligiousText = germanic_religious_text
-		ReligiousHeadName = germanic_religious_head_title
-		ReligiousHeadTitleName = germanic_religious_head_title_name
-		DevoteeMale = paganism_devotee
-		DevoteeMalePlural = paganism_devoteeplural
-		DevoteeFemale = paganism_devotee
-		DevoteeFemalePlural = paganism_devoteeplural
-		DevoteeNeuter = paganism_devotee
-		DevoteeNeuterPlural = paganism_devoteeplural
-		PriestMale = germanic_priest_male
-		PriestMalePlural = germanic_priest_male_plural
-		PriestFemale = germanic_priest_female
-		PriestFemalePlural = germanic_priest_female_plural
-		PriestNeuter = germanic_priest_neuter
-		PriestNeuterPlural = germanic_priest_neuter_plural
-		AltPriestTermPlural = paganism_priest_alternate_plural
-		BishopMale = germanic_bishop_male
-		BishopMalePlural = germanic_bishop_male_plural
-		BishopFemale = germanic_bishop_female
-		BishopFemalePlural = germanic_bishop_female_plural
-		BishopNeuter = germanic_bishop_neuter
-		BishopNeuterPlural = germanic_bishop_neuter_plural
-		DivineRealm = germanic_divine_realm
-		PositiveAfterLife = germanic_positive_afterlife
-		NegativeAfterLife = germanic_death_deity_name
-		DeathDeityName = germanic_death_deity_name
-		DeathDeityNamePossessive = germanic_death_deity_name_possessive
-		DeathDeitySheHe = CHARACTER_SHEHE_SHE
-		DeathDeityHerHis = CHARACTER_HERHIS_HER
-		WitchGodName = germanic_good_god_freyja
-		WitchGodHerHis = CHARACTER_HERHIS_HER
+		EvilGodNames = {
+			christianity_devil_name
+			christianity_evil_god_lucifer
+			christianity_evil_god_beelzebub
+			christianity_evil_god_mephistopheles
+		}
+		HouseOfWorship = christianity_house_of_worship
+		HouseOfWorshipPlural = christianity_house_of_worship_plural
+		ReligiousSymbol = christianity_religious_symbol
+		ReligiousText = christianity_religious_text
+		ReligiousHeadName = zanadic_religious_head_title
+		ReligiousHeadTitleName = zanadic_religious_head_title_name
+		DevoteeMale = christianity_devotee_male
+		DevoteeMalePlural = christianity_devotee_male_plural
+		DevoteeFemale = christianity_devotee_female
+		DevoteeFemalePlural = christianity_devotee_female_plural
+		DevoteeNeuter = christianity_devotee_neuter
+		DevoteeNeuterPlural = christianity_devotee_neuter_plural
+		PriestMale = christianity_priest_male
+		PriestMalePlural = christianity_priest_male_plural
+		PriestFemale = christianity_priest_male
+		PriestFemalePlural = christianity_priest_male_plural
+		PriestNeuter = christianity_priest_male
+		PriestNeuterPlural = christianity_priest_male_plural
+		AltPriestTermPlural = christianity_priest_alternate_plural
+		BishopMale = christianity_bishop
+		BishopMalePlural = christianity_bishop_plural
+		BishopFemale = christianity_bishop
+		BishopFemalePlural = christianity_bishop_plural
+		BishopNeuter = christianity_bishop
+		BishopNeuterPlural = christianity_bishop_plural
+		DivineRealm = christianity_positive_afterlife
+		PositiveAfterLife = christianity_positive_afterlife
+		NegativeAfterLife = christianity_negative_afterlife
+		DeathDeityName = christianity_death_deity_name
+		DeathDeityNamePossessive = christianity_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = christianity_witchgodname_the_horned_god
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodSheHe = CHARACTER_SHEHE_HE
-		WitchGodHerHim = CHARACTER_HERHIM_HER
-		WitchGodMistressMaster = mistress
-		WitchGodMotherFather = mother
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
 
 
-		GHWName = ghw_great_holy_war
-		GHWNamePlural = ghw_great_holy_wars
+		GHWName = ghw_crusade
+		GHWNamePlural = ghw_crusades
 	}
 
 	faiths = {
@@ -299,7 +310,7 @@
 		}
 		ablehnist = {
 			color = { 150 30 30 }
-			icon = germanic
+			icon = ablehnist
 
 			holy_site = mor_enbarr
 			holy_site = garreg_mach

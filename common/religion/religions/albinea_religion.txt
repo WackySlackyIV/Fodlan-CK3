@@ -179,7 +179,7 @@ lumentalism_religion = {
 	faiths = {
 		lumialue = { #A peaceful albnea religion
 			color = { 178 193 212 }
-            icon = finno_ugric
+           		icon = lumialue
             
 			holy_site = malagash
 			holy_site = jatnar
@@ -192,9 +192,9 @@ lumentalism_religion = {
 			doctrine = unreformed_faith_doctrine
         }
 		
-        vuristoalite = { #A more offensive albnea religion
+		vuristoalite = { #A more offensive albnea religion
 			color = { 100 118 135 }
-            icon = finno_ugric
+            		icon = vuristoalite
             
 			holy_site = malagash
 			holy_site = jatnar
@@ -207,6 +207,6 @@ lumentalism_religion = {
 			doctrine = unreformed_faith_doctrine
 			doctrine = doctrine_pluralism_fundamentalist
 
-        }
+        	}
 	}
 }

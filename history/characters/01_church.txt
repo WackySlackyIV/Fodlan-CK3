@@ -35,7 +35,7 @@
 	trait = crest_major_seiros
 	disallow_random_traits = yes
 
-	60.1.11 = {
+	60.10.11 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -116,7 +116,7 @@
 	trait = crest_major_cichol
 	disallow_random_traits = yes
 
-	70.12.27 = {
+	70.9.27 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -127,6 +127,7 @@
 	}
 	1162.1.11 = {
 		employer = 100000
+		give_council_position = councillor_steward
 	}
 	1200.1.11 = {
 		death = yes
@@ -161,7 +162,7 @@
 	trait = crest_major_cethleann
 	disallow_random_traits = yes
 
-	100.6.12 = {
+	100.3.12 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -214,8 +215,8 @@
 	trait= gallant
 	disallow_random_traits = yes
 
-	1135.12.1 = {
-		birth="1135.12.1"
+	1135.9.1 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -259,14 +260,14 @@
 	trait = order_member
 	disallow_random_traits = yes
 
-	1124.1.26 = {
-		birth="1124.1.26"
+	1124.10.26 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
 	}
 
-	1162.1.1 = {
+	1162.10.1 = {
 		add_spouse = 300088
 	}
 
@@ -305,7 +306,7 @@
 	disallow_random_traits = yes
 
 
-	1155.3.27 = {
+	1155.12.27 = {
 		birth="1155.3.27"
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -357,7 +358,7 @@
 		}
 		birth=yes
 	}
-	1174.1.11 = {
+	1174.10.11 = {
 		employer = 100000
 	}
 	1181.1.1 = {
@@ -402,7 +403,7 @@
 	trait = scholar
 	disallow_random_traits = yes
 
-	1129.2.8 = {
+	1129.11.8 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -453,7 +454,7 @@
 	trait = crest_major_seiros
 	trait = dragon_blood
 
-	1127.10.25 = {
+	1127.7.25 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -489,7 +490,7 @@
 
 	disallow_random_traits = yes
 
-	1164.10.25 = {
+	1164.7.25 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -539,7 +540,7 @@
 	disallow_random_traits = yes
 
 
-	1152.9.15 = {
+	1152.6.15 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -592,7 +593,7 @@
 	trait = singer
 	disallow_random_traits = yes
 
-	1160.9.12 = {
+	1160.6.12 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -636,7 +637,7 @@
 	trait = crest_major_chevalier
 	disallow_random_traits = yes
 
-	1153.8.9 = {
+	1153.5.9 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -694,7 +695,7 @@
 	trait = crest_major_noa
 	disallow_random_traits = yes
 
-	1162.3.20 = {
+	1162.12.20 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -745,7 +746,7 @@
 	trait = crest_major_timotheos
 	disallow_random_traits = yes
 
-	1160.1.15 = {
+	1160.10.15 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}

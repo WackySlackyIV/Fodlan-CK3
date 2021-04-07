@@ -129,8 +129,8 @@ game_rule.1001 = { #by Mathilda Bjarnehed
 			has_government = republic_government
 			has_government = theocracy_government
 			AND = {
-				exists = character:7757
-				this = character:7757 #Matilda Canossa, her bookmark start is about overcoming the issue of no heir
+				exists = character:100000
+				this = character:100000 #Prevents Rhea from getting family
 			}
 		}
 	}

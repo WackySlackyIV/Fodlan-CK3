@@ -29,7 +29,7 @@
 	trait = crest_minor_blaiddyd
 	disallow_random_traits = yes
 
-	1162.12.20 = {
+	1162.9.20 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -350,8 +350,8 @@
 	trait = education_intrigue_2
 	disallow_random_traits = yes
 
-	1163.11.17 = {
-		birth="1163.11.17"
+	1163.8.17 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -719,8 +719,8 @@
 	trait = crest_minor_daphnel
 	disallow_random_traits = yes
 
-	1163.1.4 = {
-		birth="1163.1.4"
+	1163.10.4 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -758,8 +758,8 @@
 	trait = crest_major_fraldarius
 	disallow_random_traits = yes
 
-	1163.2.20 = {
-		birth="1163.2.20"
+	1163.11.20 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -829,8 +829,8 @@
 	trait = crest_minor_gautier
 	disallow_random_traits = yes
 
-	1160.6.5 = {
-		birth="1160.6.5"
+	1160.3.5 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -922,8 +922,8 @@
 
 	disallow_random_traits = yes
 
-	1161.8.31 = {
-		birth="1161.8.31"
+	1161.5.31 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -965,8 +965,8 @@
 	trait = crest_minor_lamine
 	disallow_random_traits = yes
 
-	1157.5.27 = {
-		birth="1157.5.27"
+	1157.2.27 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
@@ -1016,8 +1016,8 @@
 	disallow_random_traits = yes
 
 
-	1163.5.9 = {
-		birth="1163.5.9"
+	1163.2.9 = {
+		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}

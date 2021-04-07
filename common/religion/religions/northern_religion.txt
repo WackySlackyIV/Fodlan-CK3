@@ -184,7 +184,7 @@ pantheon_religion = {
 	faiths = {
 		pantheon_faith = { #duscar
 			color = { 51 161 150 }
-			icon = mahayana
+			icon = pantheon_faith
 
 			holy_site = norfer
 			holy_site = charente
@@ -199,7 +199,7 @@ pantheon_religion = {
 
 		comunetian_faith = { #nuada
 			color = { 90 240 150 }
-			icon = mahayana
+			icon = comunetian_faith
 
 			holy_site = norfer
 			holy_site = charente

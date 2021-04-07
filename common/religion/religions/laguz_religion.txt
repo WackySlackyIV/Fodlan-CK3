@@ -197,6 +197,7 @@
 	faiths = {
 		laguz_pagan = {
 			color = { 230 230 230 }
+			icon = kitsune_faith
 
 			doctrine = unreformed_faith_doctrine
 
@@ -204,7 +205,6 @@
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_ancestor_worship
 
-			icon = siberian
 			reformed_icon = siberian_reformed
 		}
 		#laguz_reformed = {

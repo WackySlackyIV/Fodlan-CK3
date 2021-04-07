@@ -249,7 +249,7 @@ olgail_bilog_religion = {
 
 		riabain = { #amazon
 			color = { 100 50 150 }
-            		icon = wind_spiritualism
+            		icon = amazon_spiritualism
             
 			holy_site = eularia
 			holy_site = gliomach

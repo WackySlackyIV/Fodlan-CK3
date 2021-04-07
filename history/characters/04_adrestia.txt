@@ -31,7 +31,7 @@
 	trait = crest_major_flames
 	disallow_random_traits = yes
 
-	1162.6.22 = {
+	1162.3.22 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -333,7 +333,7 @@
 	disallow_random_traits = yes
 
 
-	1160.4.17 = {
+	1160.1.17 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -373,7 +373,7 @@
 	trait = crest_minor_indech
 	disallow_random_traits = yes
 
-	1162.12.12 = {
+	1162.9.12 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -412,7 +412,7 @@
 	trait = crest_minor_cichol
 	disallow_random_traits = yes
 
-	1162.4.30 = {
+	1162.1.30 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -451,7 +451,7 @@
 	trait = athletic
 	disallow_random_traits = yes
 
-	1163.7.1 = {
+	1163.4.1 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -496,7 +496,7 @@
 	trait = crest_minor_cethleann
 	disallow_random_traits = yes
 
-	1163.11.7 = {
+	1163.8.7 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -541,7 +541,7 @@
 	trait = famous_songstress
 	disallow_random_traits = yes
 
-	1161.9.29 = {
+	1161.6.29 = {
 		birth=yes
 		give_nickname = nick_mystical_songstress
 		effect = {
@@ -578,7 +578,7 @@
 	trait = hunter_2
 	disallow_random_traits = yes
 
-	1164.9.7 = {
+	1164.6.7 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -626,7 +626,7 @@
 	trait = crest_minor_lamine
 	disallow_random_traits = yes
 
-	1158.3.4 = {
+	1158.12.4 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance

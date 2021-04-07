@@ -344,7 +344,7 @@
 
 	alliance_elective_succession_law = {
 		can_have = {
-			has_government = feudal_government
+			has_government = alliance_government
 			highest_held_title_tier = tier_kingdom
 		}
 		can_pass = {

@@ -71,27 +71,3 @@
 		animation = war_attacker
 	}
 }
-
-bm_almyra_start = {
-	start_date = 1181.3.15
-	is_playable = yes
-	recommended = yes
-
-	character = {
-		name = "Milad"
-		dynasty = 700
-		dynasty_splendor_level = 1
-		type = male
-		birth = 1121.6.22
-		title = k_almyra
-		government = feudal_government
-		culture = almyran
-		religion = kizilisma
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = 700000
-		position = { 500 100 }
-	}
-
-	
-	
-}

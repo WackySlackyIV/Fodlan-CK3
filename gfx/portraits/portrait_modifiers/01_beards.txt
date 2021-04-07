@@ -74,6 +74,11 @@ beards = {
                     portrait_byzantine_clothing_trigger = yes
                 }
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_western_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -113,6 +118,11 @@ beards = {
                     portrait_byzantine_clothing_trigger = yes
                 }
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_western_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -148,6 +158,14 @@ beards = {
                     }            
                 }
 				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+            }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                OR = {
 					portrait_mena_clothing_trigger = yes
 					portrait_african_clothing_trigger = yes
 				}
@@ -191,6 +209,14 @@ beards = {
 					portrait_african_clothing_trigger = yes
 				}
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
+				}
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -225,6 +251,11 @@ beards = {
                         template = hair_wavy
                     }            
                 }
+                portrait_indian_clothing_trigger = yes
+            }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
                 portrait_indian_clothing_trigger = yes
             }
             modifier = {
@@ -263,6 +294,11 @@ beards = {
                 }
                 portrait_indian_clothing_trigger = yes
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_indian_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -287,6 +323,14 @@ beards = {
             base = 0
             modifier = {
                 add = 70
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_straight_thin_beard
+                }
+            }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
                 has_gene = {
                     category = gene_hair_type
                     template = hair_straight_thin_beard
@@ -328,6 +372,11 @@ beards = {
                 }
                 portrait_steppe_clothing_trigger = yes
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_steppe_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -362,6 +411,11 @@ beards = {
                         template = hair_curly
                     }            
                 }
+                portrait_steppe_clothing_trigger = yes
+            }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
                 portrait_steppe_clothing_trigger = yes
             }
             modifier = {
@@ -400,6 +454,11 @@ beards = {
                 }
                 portrait_northern_clothing_trigger = yes
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_northern_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -436,6 +495,11 @@ beards = {
                 }
                 portrait_northern_clothing_trigger = yes
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_northern_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -464,6 +528,11 @@ beards = {
                     category = gene_hair_type
                     template = hair_afro
                 }              
+            }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_african_clothing_trigger = yes
             }
             modifier = {
                 add = -100
@@ -501,6 +570,11 @@ beards = {
                 }
                 portrait_fp1_norse_clothing_trigger = yes
             }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_fp1_norse_clothing_trigger = yes
+            }
             modifier = {
                 add = -100
                 OR = {
@@ -536,6 +610,11 @@ beards = {
                     }            
                 }
                 portrait_fp1_norse_clothing_trigger = yes
+            }
+            modifier = { # Almyrans should always have a beard
+                add = 200
+                religion = religion:buykisik_religion
+                portrait_northern_clothing_trigger = yes
             }
             modifier = {
                 add = -100
