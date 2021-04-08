@@ -1037,6 +1037,7 @@
 	religion="seirosite"
 	culture="faerghus"
 	dna = dna_gwendal
+	sexuality = heterosexual
 	dynasty=222
    	diplomacy=1
    	martial = 9
@@ -1056,6 +1057,9 @@
 
 	1122.7.2 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1163.1.1 = {
@@ -1094,6 +1098,9 @@
 
 	1150.1.11 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		employer = 300000
@@ -1964,6 +1971,9 @@
 
 	1162.2.8 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1200.1.1={

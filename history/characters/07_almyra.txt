@@ -19,6 +19,9 @@
 
 	1135.6.22 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1160.1.1={
 		add_spouse = 200013
@@ -42,6 +45,9 @@
 
 	1145.7.3 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		give_nickname = nick_undefeated

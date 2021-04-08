@@ -117,6 +117,9 @@
 
 	1140.1.11 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		give_nickname = nick_hero_daphnel
@@ -420,6 +423,9 @@
 
 	1140.9.15 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1160.1.1={
 		add_spouse = 700000
@@ -846,6 +852,9 @@
 
 	1140.1.11 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1 = {
 		give_nickname = nick_weathervane

@@ -125,11 +125,6 @@ hairstyles_scripted_characters = {
                 exists = character:200015 #Lorenz
                 this = character:200015 #Lorenz
             }
-            modifier = {
-                add = 200
-                exists = character:400022 #Jeritza
-                this = character:400022 #Jeritza
-            }
         }
     }
 
@@ -220,6 +215,13 @@ hairstyles_scripted_characters = {
                 add = 200
                 exists = character:100010 #Cyril
                 this = character:100010 #Cyril
+            }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:200016 #Raphael
+                this = character:200016 #Raphael
             }
         }
     }
@@ -436,8 +438,23 @@ hairstyles_scripted_characters = {
                 value = 0.60 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300026 #Felix
+                this = character:300026 #Felix
+            }
+            modifier = {
+                add = 200
+                exists = character:300031 #Dedue
+                this = character:300031 #Dedue
+            }
+            modifier = {
+                add = 200
+                exists = character:300076 #Caek
+                this = character:300076 #Caek
+            }
         }
     }
 
@@ -450,8 +467,18 @@ hairstyles_scripted_characters = {
                 value = 0.62 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400017 #Ferdinand
+                this = character:400017 #Ferdinand
+            }
+            modifier = {
+                add = 200
+                exists = character:100012 #Yuri
+                this = character:100012 #Yuri
+            }
         }
     }
 
@@ -466,6 +493,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400019 #Linhardt
+                this = character:400019 #Linhardt
+            }
         }
     }
 
@@ -550,6 +582,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400022 #Jeritza
+                this = character:400022 #Jeritza
+            }
+            modifier = {
+                add = 200
+                exists = character:100005 #Gilbert
+                this = character:100005 #Gilbert
+            }
         }
     }
 
@@ -564,6 +606,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400018 #Caspar
+                this = character:400018 #Caspar
+            }
+            modifier = {
+                add = 200
+                exists = character:100009 #Jeralt
+                this = character:100009 #Jeralt
+            }
         }
     }
 
@@ -592,6 +644,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100013 #Balthus
+                this = character:100013 #Balthus
+            }
         }
     }
 
@@ -601,11 +658,16 @@ hairstyles_scripted_characters = {
                 mode = add
                 gene = hairstyles
                 template = scripted_character_hairstyles_01
-                value = 0.89 # For the randomness to work correctly
+                value = 0.90 # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200026 #Acheron
+                this = character:200026 #Acheron
+            }
         }
     }
 
@@ -620,6 +682,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:700000 #Milad
+                this = character:700000 #Milad
+            }
         }
     }
 
@@ -690,6 +757,25 @@ hairstyles_scripted_characters = {
         }
     }
 
+	bald = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                value = 1 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:400006 #Ludwig
+                this = character:400006 #Ludwig
+            }
+        }
+    }
+
 ##############################################################################################################################################
 ##############################################################################################################################################
 #									#
@@ -712,6 +798,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200022 #Marianne
+                this = character:200022 #Marianne
+            }
         }
     }
 
@@ -740,6 +831,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100011 #Catherine
+                this = character:100011 #Catherine
+            }
+            modifier = {
+                add = 200
+                exists = character:400027 #Ladislava
+                this = character:400027 #Ladislava
+            }
         }
     }
 
@@ -768,6 +869,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300033 #Annette
+                this = character:300033 #Annette
+            }
+            modifier = {
+                add = 200
+                exists = character:100014 #Constance
+                this = character:100014 #Constance
+            }
         }
     }
 
@@ -810,6 +921,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100006 #Shamir
+                this = character:100006 #Shamir
+            }
         }
     }
 
@@ -838,6 +954,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100019 #Anna
+                this = character:100019 #Anna
+            }
         }
     }
 
@@ -866,6 +987,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100015 #Hapi
+                this = character:100015 #Hapi
+            }
         }
     }
 
@@ -889,11 +1015,16 @@ hairstyles_scripted_characters = {
                 mode = add
                 gene = hairstyles
                 template = scripted_character_hairstyles_01
-                value = 0.36 # For the randomness to work correctly
+                value = 0.37 # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300032 #Mercedes
+                this = character:300032 #Mercedes
+            }
         }
     }
 
@@ -964,6 +1095,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:100007 #Manuela
+                this = character:100007 #Manuela
+            }
+            modifier = {
+                add = 200
+                exists = character:400016 #Bernadetta
+                this = character:400016 #Beradetta
+            }
         }
     }
 
@@ -1006,6 +1147,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400021 #Petra
+                this = character:400021 #Petra
+            }
         }
     }
 
@@ -1015,11 +1161,21 @@ hairstyles_scripted_characters = {
                 mode = add
                 gene = hairstyles
                 template = scripted_character_hairstyles_01
-                value = 0.61 # For the randomness to work correctly
+                value = 0.64 # For the randomness to work correctly
             }
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200023 #Hilda
+                this = character:200023 #Hilda
+            }
+            modifier = {
+                add = 200
+                exists = character:300035 #Cornelia
+                this = character:300035 #Cornelia
+            }
         }
     }
 
@@ -1034,6 +1190,16 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:300025 #Ingrid
+                this = character:300025 #Ingrid
+            }
+            modifier = {
+                add = 200
+                exists = character:200003 #Judith
+                this = character:200003 #Judith
+            }
         }
     }
 
@@ -1118,6 +1284,21 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200025 #Leonie
+                this = character:200025 #Leonie
+            }
+            modifier = {
+                add = 200
+                exists = character:400020 #Dorothea
+                this = character:400020 #Dorothea
+            }
+            modifier = {
+                add = 200
+                exists = character:200013 #Tiana
+                this = character:200013 #Tiana
+            }
         }
     }
 
@@ -1132,6 +1313,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:400026 #Fleche
+                this = character:400026 #Fleche
+            }
         }
     }
 
@@ -1174,6 +1360,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200021 #Lysithea
+                this = character:200021 #Lysithea
+            }
         }
     }
 
