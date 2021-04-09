@@ -1,4 +1,4 @@
-rf_duscur_nuada_sphere = {
+﻿rf_duscur_nuada_sphere = {
     is_pagan = no
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = abrahamic_hostility_doctrine

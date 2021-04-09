@@ -222,14 +222,9 @@ permanent_dragon_form = {
 	}
 }
 
-ember = {
+empty = {
 	index = 308
-	fame = yes
-	same_faith_opinion = 5
-	learning = 1
-	both_parent_has_trait_inherit_chance = 100
-
-	desc = trait_ember_character_desc
+	desc = trait_empty_character_desc
 }
 
 singer = {
@@ -254,15 +249,13 @@ songstress = {
 	group = singers
 	level = 2
 
-	desc = {
+	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = {
-					is_male = no
-				}
-				desc = trait_songstress_desc
+				trigger = { is_female = yes }
+				desc = trait_songstress
 			}
-			desc = trait_songster_desc
+			desc = trait_songster
 		}
 	}
 }
@@ -279,15 +272,13 @@ famous_songstress = {
 	group = singers
 	level = 3
 
-	desc = {
+	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = {
-					is_male = no
-				}
-				desc = trait_famous_songstress_desc
+				trigger = { is_female = yes }
+				desc = trait_famous_songstress
 			}
-			desc = trait_famous_songster_desc
+			desc = trait_famous_songster
 		}
 	}
 }

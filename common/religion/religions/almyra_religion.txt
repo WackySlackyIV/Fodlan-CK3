@@ -1,4 +1,4 @@
-buykisik_religion = { #Almyra
+﻿buykisik_religion = { #Almyra
 	family = rf_almyra_sphere
 	graphical_faith = pagan_gfx
 	

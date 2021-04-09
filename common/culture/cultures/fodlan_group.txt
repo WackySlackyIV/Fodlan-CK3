@@ -7,9 +7,6 @@
 	}
 	
 	high_fodlan = {
-		graphical_cultures = {
-			english_coa_gfx
-		}
 		color = rgb { 240 240 240 }
 
 		cadet_dynasty_names = {
@@ -142,10 +139,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -280,10 +274,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -295,6 +286,7 @@
 	faerghus = {
 		graphical_cultures = {
 			norman_coa_gfx
+			french_coa_gfx
 		}
 
 		color = rgb { 55 100 250 }
@@ -461,10 +453,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -629,10 +618,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -870,10 +856,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -1047,10 +1030,7 @@
 		mother_name_chance = 5
 
 		ethnicities = {
-			25 = caucasian_blond
-			15 = caucasian_ginger
-			35 = caucasian_brown_hair
-			25 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -1216,10 +1196,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -1384,10 +1361,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -1552,10 +1526,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -1720,10 +1691,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -1858,10 +1826,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {
@@ -2026,10 +1991,7 @@
 		mother_name_chance = 5
 		
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			100 = ethnicity_template
 		}
 
 		mercenary_names = {

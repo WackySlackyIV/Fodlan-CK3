@@ -1,0 +1,8 @@
+﻿#Leicester Alliance Tiers
+leader = {
+	type = character
+	special = holder
+	priority = 301
+	titles = { k_leicester }
+	top_liege = no
+}

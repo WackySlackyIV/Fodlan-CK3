@@ -1,4 +1,4 @@
-faith_apprentice = {
+﻿faith_apprentice = {
 	lifestyle = magic_lifestyle
 	tree = faith_tree
 	position = { 1 0 }

@@ -1,4 +1,4 @@
-dark_apprentice = {
+﻿dark_apprentice = {
 	lifestyle = magic_lifestyle
 	tree = dark_tree
 	position = { 1 0 }

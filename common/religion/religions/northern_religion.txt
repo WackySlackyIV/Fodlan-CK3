@@ -1,4 +1,4 @@
-pantheon_religion = {
+﻿pantheon_religion = {
 	family = rf_duscur_nuada_sphere
 	graphical_faith = pagan.gfx
 

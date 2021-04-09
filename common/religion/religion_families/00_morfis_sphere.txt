@@ -1,4 +1,4 @@
-rf_morfis_sphere = {
+﻿rf_morfis_sphere = {
     is_pagan = no
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = abrahamic_hostility_doctrine

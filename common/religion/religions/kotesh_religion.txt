@@ -1,4 +1,4 @@
-saatpra_daanav_religion = {
+﻿saatpra_daanav_religion = {
 	family = rf_saatpra_daanav
 	graphical_faith = pagan_gfx
 

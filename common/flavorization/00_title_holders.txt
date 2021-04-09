@@ -54,35 +54,7 @@ realm_priest_female = {
 	priority = 299
 	council_position = councillor_court_chaplain
 }
-##############################################
-#Theocracy titles, religious (group) localization.
-
-# Bon
-# Buddhism
-# Christianity
-# Dualism
-# Germanic
-# Hellenism
-# Hinduism
-# Islam
-# Jainism
-# Judaism
-# Magyarism
-# Paganism
-# Baltic
-# Slavic
-# Finno-Ugric
-# Taoism
-# Tengrism
-# West African
-# West African Bori
-# West African Roog
-# Zoroastrianism
-# Zunism
-
-# Bon
-
- #############################################
+#############################################
  # Default titles by Government. This list should always be below any custom localization that is tied to specific cultures/religion.
  #Default Feudal tiers
  #Default Republic tiers

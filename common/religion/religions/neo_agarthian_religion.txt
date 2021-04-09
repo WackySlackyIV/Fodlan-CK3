@@ -1,4 +1,4 @@
-tenolotiskardias_religion = {
+﻿tenolotiskardias_religion = {
 	family = rf_anthrapos
 	graphical_faith = pagan_gfx
 

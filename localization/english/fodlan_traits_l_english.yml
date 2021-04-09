@@ -23,6 +23,7 @@
  trait_crest_timotheos:0 "Timotheos Crest"
  trait_crest_maurice:0 "Maurice Crest"
  trait_crest_malik:0 "Malik gift"
+ trait_singers:0 "Singers"
  
  trait_crest_minor_seiros:0 "Minor Crest of Seiros"
  trait_crest_minor_seiros_desc:0 "This character bears the Minor Crest of Seiros"
@@ -169,7 +170,7 @@
  trait_crest_major_timotheos:0 "Major Crest of Timotheos"
  trait_crest_major_timotheos_desc:0 "This character bears the Major Crest of Timotheos"
  trait_crest_blood_timotheos:0 "Blood of Timotheos"
- trait_crest_blood_thimotheos_desc:0 "This character has the whispering blood of Timotheos in their veins, one of the Four Apostles"
+ trait_crest_blood_timotheos_desc:0 "This character has the whispering blood of Timotheos in their veins, one of the Four Apostles"
  
  trait_crest_minor_maurice:0 "Minor Crest of The Beast"
  trait_crest_minor_maurice_desc:0 "This character bears the Minor Crest of the Beast"
@@ -182,6 +183,8 @@
  trait_crest_minor_malik_desc:0 "This character bears the Minor Gift of Malik"
  trait_crest_major_malik:0 "Major Gift of Malik"
  trait_crest_major_malik_desc:0 "This character bears the Major Gift of Malik"
+ trait_crest_blood_malik:0 "Ember"
+ trait_crest_blood_malik_desc:0 "Embers are decendants of the Prophet Malik, they are according to religion the true sons and daughters of Almyra"
  
  trait_blood_experiments:0 "Blood Experiments"
  trait_blood_experiments_desc:0 "This character has been subjected to vile Blood Experiments"
@@ -196,7 +199,7 @@
  trait_kitsune_desc:0 "Kitsune are a shapeshifting species able to switch between humanoid and demonic fox forms with the aid of concentrated power"
  
  trait_beast_blood:0 "Beast Blood"
- trait_beast_blood_desc:0 "Being the offspring of a laguz, your body is stronger then that of most people"
+ trait_beast_blood_desc:0 "Being the halfbreed offspring of a laguz, your body is stronger then that of most people"
  
  trait_wolfskin:0 "Wolfskin"
  trait_wolfskin_desc:0 "Wolfskins are a shapeshifting species able to switch between a humanoid and werewolf-like creature forms with the aid of concentrated power"
@@ -207,5 +210,13 @@
  trait_permanent_dragon_form:0 "Permanent Dragon"
  trait_permanent_dragon_form_desc:0 "This Child of the Goddess has lost its ability to shapeshift back into humanoid form. It makes them far stronger but doesnt make them good diplomats."
  
- trait_ember:0 "Ember"
- trait_ember_desc:0 "Embers are decendants of the Prophet Malik, they are according to religion the true sons and daughters of Almyra"
+ trait_singer:0 "Singer"
+ trait_singer_desc:0 "This character likes to sing and/or sing for others"
+ 
+ trait_songstress:0 "Songstress"
+ trait_songster:0 "Songster"
+ trait_songstress_desc:0 "This character is a singer that performs at certain places and at times even operah houses. Their voice is better then the avarage person and people would pay to listen to them"
+ 
+ trait_famous_songstress:0 "Famous Songstress"
+ trait_famous_songster:0 "Famous Songster"
+ trait_famous_songstress_desc:0 "This character is one of the best singers around, performing at only the most luxurious venues and dining halls"

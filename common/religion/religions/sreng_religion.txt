@@ -1,4 +1,4 @@
-tjonar_ormurinn_religion = {
+﻿tjonar_ormurinn_religion = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
 

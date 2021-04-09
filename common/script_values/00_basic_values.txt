@@ -181,6 +181,13 @@ major_health_penalty = -1.5
 massive_health_penalty = -2
 monumental_health_penalty = -3
 
+miniscule_health_bonus = 0.25
+minor_health_bonus = 0.5
+medium_health_bonus = 1
+major_health_bonus = 1.5
+massive_health_bonus = 2
+monumental_health_bonus = 3
+
 #Pregnancy, Wounds, & Disease
 pregnancy_chance = 30 #Chance of becoming pregnant from the had_sex_with_effect
 seduce_pregnancy_chance = 50
@@ -217,6 +224,246 @@ torture_interaction_minor_dread_gain = 5
 torture_interaction_medium_dread_gain = 10
 torture_interaction_major_dread_gain = 15
 torture_interaction_massive_dread_gain = 20
+
+intimidated_reason_value = {
+	value = 50
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_reason_value = {
+	value = 100
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_external_reason_value = {
+	value = 10
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_external_reason_value = {
+	value = 20
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_halved_reason_value = {
+	value = 25
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_halved_reason_value = {
+	value = 50
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_scheme_reason_value = {
+	value = 15
+	if = {
+		limit = {
+			scope:owner = {
+				exists = scope:owner.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_scheme_reason_value = {
+	value = 30
+	if = {
+		limit = {
+			scope:owner = {
+				exists = scope:owner.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_scheme_external_reason_value = {
+	value = 10
+	if = {
+		limit = {
+			scope:owner = {
+				exists = scope:owner.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_scheme_external_reason_value = {
+	value = 20
+	if = {
+		limit = {
+			scope:owner = {
+				exists = scope:owner.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_marriage_reason_value = {
+	value = 75
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_marriage_reason_value = {
+	value = 150
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_marriage_not_secondary_reason_value = {
+	value = 25
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_marriage_not_secondary_reason_value = {
+	value = 50
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+intimidated_marriage_external_reason_value = {
+	value = 10
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
+
+cowed_marriage_external_reason_value = {
+	value = 20
+	if = {
+		limit = {
+			scope:actor = {
+				exists = scope:actor.dynasty
+				dynasty = {
+					has_dynasty_perk = guile_legacy_5
+				}
+			}
+		}
+		multiply = 2
+	}
+}
 
 #DREAD VALUE
 low_dread = 20
@@ -1058,6 +1305,21 @@ vassal_obligation_increase_tyranny_gain = {
 	multiply = vassal_obligation_increase_tyranny_gain_multiplier
 }
 
+#REALM SIZE
+##About a moderate duchy.
+tiny_realm_size = 6
+##About x1 (de jure) Wales.
+minor_realm_size = 12
+##About x1 (de jure) Scotland.
+medium_realm_size = 24
+##About x1 (1066) England.
+major_realm_size = 40
+##About x1 (1066) France.
+massive_realm_size = 84
+##About x1 (1066) ERE.
+monumental_realm_size = 160
+##About x1 (1066) HRE.
+enormous_realm_size = 250
 
 #FOR DIVORCE
 divorce_cost = 100
@@ -1066,3 +1328,4 @@ divorce_cost = 100
 sound_foundations_max = 5
 embassies_max = 5
 friendly_counsel_max = 5
+decentralized_rule_max = 5

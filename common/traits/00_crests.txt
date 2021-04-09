@@ -348,7 +348,7 @@ crest_minor_gloucester = {
 	group = crest_gloucester
 	level = 2
 
-	desc = trait_crest_minor_gloucesterr_desc
+	desc = trait_crest_minor_gloucester_desc
 }
 
 crest_major_gloucester = {
@@ -796,9 +796,8 @@ crest_major_maurice = {
 crest_minor_malik = {
 	index = 445
 
-	learning = 1
-	stewardship = 1
-	martial = 2
+	intrigue = 2
+	fertility = 0.1
 	prowess = 5
 	
 	attraction_opinion = 5
@@ -816,9 +815,8 @@ crest_minor_malik = {
 crest_major_malik = {
 	index = 446
 
-	learning  = 2
-	stewardship = 2
-	martial = 4
+	intrigue = 4
+	fertility = 0.2
 	prowess = 10
 	
 	attraction_opinion = 10

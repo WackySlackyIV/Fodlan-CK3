@@ -49,3 +49,5 @@ nick_vindkaller = {}
 ### Almyra ###
 
 nick_serpent = {}
+
+nick_undefeated = {}

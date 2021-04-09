@@ -8,8 +8,7 @@ namespace = FOD_crests
 
 FOD_crests.001 = { #Improved crest system
 	type = character_event
-	title = FOD_crests.001.t
-	desc = FOD_crests.001.desc
+	hidden = yes
 	theme = pregnancy
 
 	trigger = {
@@ -20,7 +19,6 @@ FOD_crests.001 = { #Improved crest system
 	}
 	
 	option = {
-		name = FOD_crests.001.a
 		random_list = { 
 			5 = { ##SEIROS
 				trigger = {
@@ -1320,8 +1318,7 @@ FOD_crests.002 = { #stress increase for zealous/ambitious parents if child has n
 
 FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blood
 	type = character_event
-	title = FOD_crests.002.t
-	desc = FOD_crests.002.desc
+	hidden = yes
 	theme = pregnancy
 
 	option = {
@@ -1706,8 +1703,7 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 
 FOD_crests.004 = { #If no parent with a crest potential? check family. If still nobody, 1% chance of something
 	type = character_event
-	title = FOD_crests.004.t
-	desc = FOD_crests.004.desc
+	hidden = yes
 	theme = pregnancy
 	
 	trigger = {
@@ -1725,7 +1721,6 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 	}
 
 	option = {
-		name = FOD_crests.004.a
 		if = {
 			limit = {
 				dynasty = { any_dynasty_member = { has_crest_potential = yes } }

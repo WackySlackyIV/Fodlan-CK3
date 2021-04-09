@@ -128,9 +128,19 @@ game_rule.1001 = { #by Mathilda Bjarnehed
 		NOR = {
 			has_government = republic_government
 			has_government = theocracy_government
-			AND = {
-				exists = character:100000
-				this = character:100000 #Prevents Rhea from getting family
+			OR = {
+				AND = {
+					exists = character:100000
+					this = character:100000 #Prevents Rhea from getting family
+				}
+				AND = {
+					exists = character:200011
+					this = character:200011 #Prevents Rhea from getting family
+				}
+				AND = {
+					exists = character:200001
+					this = character:200001 #Prevents Rhea from getting family
+				}
 			}
 		}
 	}

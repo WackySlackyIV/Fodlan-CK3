@@ -38,6 +38,16 @@ join_faction_with_leave_blocker_effect = {
 	}
 }
 
+add_faction_cooldown_effect = {
+	custom_description = {
+		text = faction_cooldown_effect
+		value = $YEARS$
+		add_character_flag = {
+			flag = joining_faction_block
+			years = $YEARS$
+		}
+	}
+}
 
 leave_faction_with_cooldown_effect = {
 	leave_faction = $FACTION$

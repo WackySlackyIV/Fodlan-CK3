@@ -1,4 +1,4 @@
-
+﻿
 
 doctrine_fodlan_tenets = {
 	group = "core_tenets"

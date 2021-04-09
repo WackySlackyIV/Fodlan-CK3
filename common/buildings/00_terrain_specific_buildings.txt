@@ -279,10 +279,6 @@ pastures_07 = {
 	county_modifier = {
 		county_opinion_add = 2
 	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
-		heavy_cavalry_toughness_add = 2
-	}
 	
 	next_building = pastures_08
 	
@@ -326,10 +322,6 @@ pastures_08 = {
 	county_modifier = {
 		county_opinion_add = 2
 	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
-		heavy_cavalry_toughness_add = 2
-	}
 	
 	ai_value = {
 		base = 3
@@ -359,11 +351,6 @@ hunting_grounds_01 = {
 	province_modifier = {
 		defender_advantage = normal_building_advantage_tier_1
 		monthly_income = poor_building_tax_tier_1
-	}
-	
-	character_modifier = {
-		light_cavalry_damage_add = 1
-		light_cavalry_pursuit_add = 1
 	}
 	
 	next_building = hunting_grounds_02
@@ -418,14 +405,6 @@ hunting_grounds_02 = {
 		monthly_income = poor_building_tax_tier_2
 	}
 	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 2
-		light_cavalry_pursuit_add = 2
-		light_cavalry_screen_add = 1
-		light_cavalry_toughness_add = 1
-	}
-	
 	next_building = hunting_grounds_03
 	
 	ai_value = {
@@ -463,15 +442,6 @@ hunting_grounds_03 = {
 		monthly_income = poor_building_tax_tier_3
 		hostile_raid_time = 0.1
 	}
-	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 3
-		light_cavalry_pursuit_add = 3
-		light_cavalry_screen_add = 1
-		light_cavalry_toughness_add = 1
-	}
-	
 	next_building = hunting_grounds_04
 	
 	ai_value = {
@@ -508,14 +478,6 @@ hunting_grounds_04 = {
 		defender_advantage = normal_building_advantage_tier_4
 		monthly_income = poor_building_tax_tier_4
 		hostile_raid_time = 0.15
-	}
-	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 4
-		light_cavalry_pursuit_add = 4
-		light_cavalry_screen_add = 2
-		light_cavalry_toughness_add = 2
 	}
 	
 	next_building = hunting_grounds_05
@@ -556,15 +518,6 @@ hunting_grounds_05 = {
 		hostile_raid_time = 0.15
 	}
 	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 5
-		light_cavalry_pursuit_add = 5
-		light_cavalry_screen_add = 2
-		light_cavalry_toughness_add = 2
-		men_at_arms_maintenance = -0.01
-	}
-	
 	next_building = hunting_grounds_06
 	
 	ai_value = {
@@ -603,15 +556,6 @@ hunting_grounds_06 = {
 		hostile_raid_time = 0.2
 	}
 	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 6
-		light_cavalry_pursuit_add = 6
-		light_cavalry_screen_add = 3
-		light_cavalry_toughness_add = 3
-		men_at_arms_maintenance = -0.01
-	}
-	
 	next_building = hunting_grounds_07
 	
 	ai_value = {
@@ -648,15 +592,6 @@ hunting_grounds_07 = {
 		defender_advantage = normal_building_advantage_tier_7
 		monthly_income = poor_building_tax_tier_7
 		hostile_raid_time = 0.2
-	}
-	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 7
-		light_cavalry_pursuit_add = 7
-		light_cavalry_screen_add = 3
-		light_cavalry_toughness_add = 3
-		men_at_arms_maintenance = -0.01
 	}
 	
 	county_modifier = {
@@ -699,15 +634,6 @@ hunting_grounds_08 = {
 		defender_advantage = normal_building_advantage_tier_8
 		monthly_income = poor_building_tax_tier_8
 		hostile_raid_time = 0.3
-	}
-	
-	character_modifier = {
-		skirmishers_pursuit_mult = 0.02
-		light_cavalry_damage_add = 8
-		light_cavalry_pursuit_add = 8
-		light_cavalry_screen_add = 4
-		light_cavalry_toughness_add = 4
-		men_at_arms_maintenance = -0.01
 	}
 	
 	county_modifier = {
@@ -1382,11 +1308,7 @@ military_camps_01 = {
 	
 	levy = normal_building_levy_tier_1
 	
-	character_modifier = {
-		bow_damage_add = 2
-		sword_damage_add = 1
-		sword_pursuit_add = 1
-	}
+
 	
 	next_building = military_camps_02
 
@@ -1459,13 +1381,7 @@ military_camps_02 = {
 	
 	levy = normal_building_levy_tier_2
 	
-	character_modifier = {
-		bow_damage_add = 3
-		sword_damage_add = 2
-		sword_pursuit_add = 2
-		bow_toughness_add = 1
-		skirmishers_toughness_add = 1
-	}
+
 	
 	county_modifier = {
 		supply_limit = 200
@@ -1508,14 +1424,6 @@ military_camps_03 = {
 		supply_limit = 200
 	}
 	
-	character_modifier = {
-		bow_damage_add = 4
-		sword_damage_add = 3
-		sword_pursuit_add = 3
-		bow_toughness_add = 1
-		sword_toughness_add = 1
-	}
-	
 	next_building = military_camps_04
 	
 	ai_value = {
@@ -1552,14 +1460,6 @@ military_camps_04 = {
 	county_modifier = {
 		supply_limit = 200
 		monthly_county_control_change_factor = 0.05
-	}
-	
-	character_modifier = {
-		bow_damage_add = 5
-		sword_damage_add = 4
-		sword_pursuit_add = 4
-		bow_toughness_add = 2
-		sword_toughness_add = 2
 	}
 	
 	next_building = military_camps_05
@@ -1600,15 +1500,6 @@ military_camps_05 = {
 		monthly_county_control_change_factor = 0.05
 	}
 	
-	character_modifier = {
-		archers_damage_add = 6
-		skirmishers_damage_add = 5
-		skirmishers_pursuit_add = 5
-		archers_toughness_add = 2
-		skirmishers_toughness_add = 2
-		light_cavalry_toughness_add = 1
-	}
-	
 	next_building = military_camps_06
 	
 	ai_value = {
@@ -1645,15 +1536,6 @@ military_camps_06 = {
 	county_modifier = {
 		supply_limit = 200
 		monthly_county_control_change_factor = 0.05
-	}
-	
-	character_modifier = {
-		archers_damage_add = 7
-		skirmishers_damage_add = 6
-		skirmishers_pursuit_add = 6
-		archers_toughness_add = 3
-		skirmishers_toughness_add = 3
-		light_cavalry_toughness_add = 1
 	}
 	
 	province_modifier = {
@@ -1698,15 +1580,6 @@ military_camps_07 = {
 		monthly_county_control_change_factor = 0.05
 	}
 	
-	character_modifier = {
-		archers_damage_add = 8
-		skirmishers_damage_add = 7
-		skirmishers_pursuit_add = 7
-		archers_toughness_add = 3
-		skirmishers_toughness_add = 3
-		light_cavalry_toughness_add = 1
-	}
-	
 	province_modifier = {
 		levy_reinforcement_rate = 0.05
 	}
@@ -1747,17 +1620,6 @@ military_camps_08 = {
 	county_modifier = {
 		supply_limit = 200
 		monthly_county_control_change_factor = 0.05
-	}
-	
-	character_modifier = {
-		archers_damage_add = 9
-		skirmishers_damage_add = 8
-		skirmishers_pursuit_add = 8
-		archers_toughness_add = 4
-		skirmishers_toughness_add = 4
-		light_cavalry_toughness_add = 1
-		pikemen_toughness_add = 1
-		heavy_infantry_toughness_add = 1
 	}
 	
 	province_modifier = {
@@ -1882,10 +1744,6 @@ regimental_grounds_03 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.006
-		heavy_infantry_toughness_add = 1
-		pikemen_toughness_add = 1
-		heavy_infantry_damage_add = 2
-		pikemen_damage_add = 2
 	}
 	
 	province_modifier = {
@@ -1931,10 +1789,6 @@ regimental_grounds_04 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.008
-		heavy_infantry_toughness_add = 1
-		pikemen_toughness_add = 1
-		heavy_infantry_damage_add = 2
-		pikemen_damage_add = 2
 	}
 	
 	province_modifier = {
@@ -1981,10 +1835,6 @@ regimental_grounds_05 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.01
-		heavy_infantry_toughness_add = 1
-		pikemen_toughness_add = 1
-		heavy_infantry_damage_add = 2
-		pikemen_damage_add = 2
 	}
 	
 	province_modifier = {
@@ -2032,10 +1882,6 @@ regimental_grounds_06 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.012
-		heavy_infantry_toughness_add = 2
-		pikemen_toughness_add = 2
-		heavy_infantry_damage_add = 3
-		pikemen_damage_add = 3
 	}
 	
 	province_modifier = {
@@ -2083,11 +1929,6 @@ regimental_grounds_07 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.014
-		heavy_infantry_toughness_add = 2
-		pikemen_toughness_add = 2
-		heavy_infantry_damage_add = 3
-		pikemen_damage_add = 3
-		knight_limit = 1
 	}
 	
 	province_modifier = {
@@ -2135,10 +1976,6 @@ regimental_grounds_08 = {
 	
 	character_modifier = {
 		men_at_arms_maintenance = -0.016
-		heavy_infantry_toughness_add = 2
-		pikemen_toughness_add = 2
-		heavy_infantry_damage_add = 3
-		pikemen_damage_add = 3
 		knight_limit = 1
 		army_maintenance_mult = -0.01
 	}
@@ -2352,10 +2189,6 @@ ramparts_05 = {
 		hostile_raid_time = 0.1
 	}
 	
-	character_modifier = {
-		archers_damage_add = 2
-	}
-	
 	next_building = ramparts_06
 	
 	ai_value = {
@@ -2396,11 +2229,6 @@ ramparts_06 = {
 	}
 	county_modifier = {
 		hostile_raid_time = 0.1
-	}
-	
-	character_modifier = {
-		archers_damage_add = 2
-		skirmishers_damage_add = 1
 	}
 	
 	next_building = ramparts_07
@@ -2445,12 +2273,6 @@ ramparts_07 = {
 		hostile_raid_time = 0.1
 	}
 	
-	character_modifier = {
-		archers_damage_add = 2
-		archers_toughness_add = 1
-		skirmishers_damage_add = 1
-	}
-	
 	next_building = ramparts_08
 	
 	ai_value = {
@@ -2491,12 +2313,6 @@ ramparts_08 = {
 	}
 	county_modifier = {
 		hostile_raid_time = 0.1
-	}
-	
-	character_modifier = {
-		archers_damage_add = 3
-		archers_toughness_add = 1
-		skirmishers_damage_add = 1
 	}
 	
 	ai_value = {
@@ -2619,10 +2435,6 @@ curtain_walls_03 = {
 		supply_limit = 300
 	}
 	
-	character_modifier = {
-		archers_damage_add = 1
-	}
-	
 	next_building = curtain_walls_04
 	
 	ai_value = {
@@ -2663,11 +2475,6 @@ curtain_walls_04 = {
 	county_modifier = {
 		supply_limit = 300
 	}
-	
-	character_modifier = {
-		archers_damage_add = 1
-	}
-	
 	next_building = curtain_walls_05
 	
 	ai_value = {
@@ -2708,10 +2515,6 @@ curtain_walls_05 = {
 	
 	county_modifier = {
 		supply_limit = 300
-	}
-	
-	character_modifier = {
-		archers_damage_add = 1
 	}
 	
 	next_building = curtain_walls_06
@@ -2757,10 +2560,6 @@ curtain_walls_06 = {
 		supply_limit_mult = 0.02
 	}
 	
-	character_modifier = {
-		archers_damage_add = 1
-	}
-	
 	next_building = curtain_walls_07
 	
 	ai_value = {
@@ -2804,10 +2603,6 @@ curtain_walls_07 = {
 		supply_limit_mult = 0.02
 	}
 	
-	character_modifier = {
-		archers_damage_add = 1
-	}
-	
 	next_building = curtain_walls_08
 	
 	ai_value = {
@@ -2849,10 +2644,6 @@ curtain_walls_08 = {
 	county_modifier = {
 		supply_limit = 300
 		supply_limit_mult = 0.02
-	}
-	
-	character_modifier = {
-		archers_damage_add = 1
 	}
 	
 	ai_value = {
@@ -2971,10 +2762,6 @@ watchtowers_03 = {
 		fort_level = normal_building_fort_level_tier_3
 	}
 	
-	character_modifier = {
-		archers_damage_add = 2
-	}
-	
 	county_modifier = {
 		hostile_raid_time = 0.1
 	}
@@ -3015,10 +2802,6 @@ watchtowers_04 = {
 		defender_advantage = normal_building_advantage_tier_4
 		fort_level = normal_building_fort_level_tier_4
 		supply_limit = 300
-	}
-	
-	character_modifier = {
-		archers_damage_add = 2
 	}
 	
 	county_modifier = {
@@ -3063,10 +2846,6 @@ watchtowers_05 = {
 		supply_limit = 300
 	}
 	
-	character_modifier = {
-		archers_damage_add = 2
-	}
-	
 	county_modifier = {
 		hostile_raid_time = 0.15
 	}
@@ -3107,11 +2886,6 @@ watchtowers_06 = {
 		defender_advantage = normal_building_advantage_tier_6
 		fort_level = normal_building_fort_level_tier_6
 		supply_limit = 300
-	}
-	
-	character_modifier = {
-		archers_damage_add = 3
-		archers_toughness_add = 1
 	}
 	
 	county_modifier = {
@@ -3157,11 +2931,6 @@ watchtowers_07 = {
 		supply_limit = 600
 	}
 	
-	character_modifier = {
-		archers_damage_add = 3
-		archers_toughness_add = 1
-	}
-	
 	county_modifier = {
 		hostile_raid_time = 0.15
 		supply_limit_mult = 0.05
@@ -3203,11 +2972,6 @@ watchtowers_08 = {
 		defender_advantage = normal_building_advantage_tier_8
 		fort_level = normal_building_fort_level_tier_8
 		supply_limit = 600
-	}
-	
-	character_modifier = {
-		archers_damage_add = 3
-		archers_toughness_add = 1
 	}
 	
 	county_modifier = {
@@ -3674,9 +3438,6 @@ outposts_03 = {
 	county_modifier = {
 		monthly_county_control_change_add = 0.1
 	}
-	character_modifier = {
-		skirmishers_damage_add = 1
-	}
 	
 	next_building = outposts_04
 	
@@ -3715,11 +3476,6 @@ outposts_04 = {
 	}
 	county_modifier = {
 		monthly_county_control_change_add = 0.1
-	}
-	
-	character_modifier = {
-		skirmishers_damage_add = 1
-		skirmishers_pursuit_add = 1
 	}
 	
 	next_building = outposts_05
@@ -3762,11 +3518,6 @@ outposts_05 = {
 		garrison_size = 0.05
 	}
 	
-	character_modifier = {
-		skirmishers_damage_add = 1
-		skirmishers_pursuit_add = 1
-	}
-	
 	next_building = outposts_06
 	
 	ai_value = {
@@ -3807,12 +3558,6 @@ outposts_06 = {
 		garrison_size = 0.05
 	}
 	
-	character_modifier = {
-		archers_damage_add = 2
-		skirmishers_damage_add = 1
-		skirmishers_pursuit_add = 1
-	}
-	
 	next_building = outposts_07
 	
 	ai_value = {
@@ -3851,14 +3596,6 @@ outposts_07 = {
 	county_modifier = {
 		monthly_county_control_change_add = 0.1
 		garrison_size = 0.05
-	}
-	
-	character_modifier = {
-		archers_damage_add = 2
-		skirmishers_damage_add = 1
-		skirmishers_pursuit_add = 1
-		skirmishers_toughness_add = 1
-		skirmishers_screen_add = 1
 	}
 	
 	next_building = outposts_08
@@ -3902,14 +3639,6 @@ outposts_08 = {
 		garrison_size = 0.05
 	}
 	
-	character_modifier = {
-		archers_damage_add = 2
-		skirmishers_damage_add = 1
-		skirmishers_pursuit_add = 1
-		skirmishers_toughness_add = 1
-		skirmishers_screen_add = 1
-	}
-	
 	ai_value = {
 		base = 3
 	}
@@ -3936,11 +3665,6 @@ barracks_01 = {
 	cost_gold = normal_building_tier_1_cost
 	
 	levy = good_building_levy_tier_1
-	
-	character_modifier = {
-		pikemen_damage_add = 2
-		heavy_infantry_damage_add = 2
-	}
 	
 	next_building = barracks_02
 	
@@ -3985,13 +3709,6 @@ barracks_02 = {
 	
 	levy = good_building_levy_tier_2
 	
-	character_modifier = {
-		pikemen_damage_add = 3
-		heavy_infantry_damage_add = 3
-		pikemen_toughness_add = 2
-		heavy_infantry_toughness_add = 2
-	}
-	
 	next_building = barracks_03
 	
 	ai_value = {
@@ -4024,13 +3741,6 @@ barracks_03 = {
 	cost_gold = normal_building_tier_3_cost
 	
 	levy = good_building_levy_tier_3
-	
-	character_modifier = {
-		pikemen_damage_add = 4
-		heavy_infantry_damage_add = 4
-		pikemen_toughness_add = 2
-		heavy_infantry_toughness_add = 2
-	}
 	
 	county_modifier = {
 		build_speed = -0.02
@@ -4068,13 +3778,6 @@ barracks_04 = {
 	cost_gold = normal_building_tier_4_cost
 	
 	levy = good_building_levy_tier_4
-	
-	character_modifier = {
-		pikemen_damage_add = 5
-		heavy_infantry_damage_add = 5
-		pikemen_toughness_add = 3
-		heavy_infantry_toughness_add = 3
-	}
 	
 	county_modifier = {
 		build_speed = -0.02
@@ -4117,13 +3820,6 @@ barracks_05 = {
 		build_speed = -0.02
 	}
 	
-	character_modifier = {
-		pikemen_damage_add = 6
-		heavy_infantry_damage_add = 6
-		pikemen_toughness_add = 3
-		heavy_infantry_toughness_add = 3
-	}
-	
 	next_building = barracks_06
 	
 	ai_value = {
@@ -4161,13 +3857,6 @@ barracks_06 = {
 		build_speed = -0.02
 	}
 	
-	character_modifier = {
-		pikemen_damage_add = 7
-		heavy_infantry_damage_add = 7
-		pikemen_toughness_add = 4
-		heavy_infantry_toughness_add = 4
-	}
-	
 	next_building = barracks_07
 	
 	ai_value = {
@@ -4203,13 +3892,6 @@ barracks_07 = {
 	
 	county_modifier = {
 		build_speed = -0.02
-	}
-	
-	character_modifier = {
-		pikemen_damage_add = 8
-		heavy_infantry_damage_add = 8
-		pikemen_toughness_add = 4
-		heavy_infantry_toughness_add = 4
 	}
 	
 	province_modifier = {
@@ -4253,13 +3935,6 @@ barracks_08 = {
 		build_speed = -0.02
 	}
 	
-	character_modifier = {
-		pikemen_damage_add = 9
-		heavy_infantry_damage_add = 9
-		pikemen_toughness_add = 5
-		heavy_infantry_toughness_add = 5
-	}
-	
 	province_modifier = {
 		levy_reinforcement_rate = 0.05
 	}
@@ -4291,8 +3966,6 @@ camel_farms_01 = {
 	
 	levy = small_building_levy_tier_1
 	character_modifier = {
-		light_cavalry_damage_add = 1
-		light_cavalry_pursuit_add = 1
 		knight_limit = 1
 	}
 	
@@ -4335,10 +4008,6 @@ camel_farms_02 = {
 	
 	levy = small_building_levy_tier_2
 	character_modifier = {
-		light_cavalry_damage_add = 2
-		light_cavalry_pursuit_add = 2
-		light_cavalry_toughness_add = 1
-		light_cavalry_screen_add = 1
 		knight_limit = 1
 	}
 	
@@ -4379,12 +4048,7 @@ camel_farms_03 = {
 	
 	levy = small_building_levy_tier_3
 	character_modifier = {
-		light_cavalry_damage_add = 3
-		light_cavalry_pursuit_add = 3
-		light_cavalry_toughness_add = 1
-		light_cavalry_screen_add = 1
 		knight_limit = 2
-		archers_damage_add = 1
 	}
 	
 	county_modifier = {
@@ -4425,12 +4089,7 @@ camel_farms_04 = {
 	levy = small_building_levy_tier_4
 	
 	character_modifier = {
-		light_cavalry_damage_add = 4
-		light_cavalry_pursuit_add = 4
-		light_cavalry_toughness_add = 2
-		light_cavalry_screen_add = 2
 		knight_limit = 2
-		archers_damage_add = 1
 	}
 	
 	province_modifier = {
@@ -4474,12 +4133,7 @@ camel_farms_05 = {
 	
 	levy = small_building_levy_tier_5
 	character_modifier = {
-		light_cavalry_damage_add = 5
-		light_cavalry_pursuit_add = 5
-		light_cavalry_toughness_add = 2
-		light_cavalry_screen_add = 2
 		knight_limit = 3
-		archers_damage_add = 1
 		knight_effectiveness_mult = 0.05
 	}
 	
@@ -4524,12 +4178,7 @@ camel_farms_06 = {
 	
 	levy = small_building_levy_tier_6
 	character_modifier = {
-		light_cavalry_damage_add = 6
-		light_cavalry_pursuit_add = 6
-		light_cavalry_toughness_add = 3
-		light_cavalry_screen_add = 3
 		knight_limit = 3
-		archers_damage_add = 1
 		knight_effectiveness_mult = 0.05
 	}
 	
@@ -4575,14 +4224,7 @@ camel_farms_07 = {
 	
 	levy = small_building_levy_tier_7
 	character_modifier = {
-		light_cavalry_damage_add = 7
-		light_cavalry_pursuit_add = 7
-		light_cavalry_toughness_add = 3
-		light_cavalry_screen_add = 3
 		knight_limit = 4
-		heavy_cavalry_toughness_add = 4
-		archers_damage_add = 1
-		knight_effectiveness_mult = 0.05
 	}
 	
 	province_modifier = {
@@ -4627,14 +4269,7 @@ camel_farms_08 = {
 	
 	levy = small_building_levy_tier_8
 	character_modifier = {
-		light_cavalry_damage_add = 8
-		light_cavalry_pursuit_add = 8
-		light_cavalry_toughness_add = 4
-		light_cavalry_screen_add = 4
 		knight_limit = 4
-		heavy_cavalry_damage_add = 2
-		heavy_cavalry_toughness_add = 4
-		archers_damage_add = 1
 		knight_effectiveness_mult = 0.05
 	}
 	
@@ -5395,10 +5030,6 @@ hill_farms_02 = {
 		monthly_income = normal_building_tax_tier_2
 	}
 	
-	character_modifier = {
-		pikemen_toughness_add = 1
-	}
-	
 	next_building = hill_farms_03
 	
 	ai_value = {
@@ -5436,10 +5067,6 @@ hill_farms_03 = {
 	
 	county_modifier = {
 		supply_limit = 300
-	}
-	
-	character_modifier = {
-		pikemen_toughness_add = 1
 	}
 	
 	next_building = hill_farms_04
@@ -5481,10 +5108,6 @@ hill_farms_04 = {
 		supply_limit = 300
 	}
 	
-	character_modifier = {
-		pikemen_toughness_add = 2
-	}
-	
 	next_building = hill_farms_05
 	
 	ai_value = {
@@ -5523,10 +5146,6 @@ hill_farms_05 = {
 	county_modifier = {
 		supply_limit = 300
 		supply_limit_mult = 0.02
-	}
-	
-	character_modifier = {
-		pikemen_toughness_add = 2
 	}
 	
 	next_building = hill_farms_06
@@ -5570,10 +5189,6 @@ hill_farms_06 = {
 		development_growth_factor = 0.05
 	}
 	
-	character_modifier = {
-		pikemen_toughness_add = 2
-	}
-	
 	next_building = hill_farms_07
 	
 	ai_value = {
@@ -5613,10 +5228,6 @@ hill_farms_07 = {
 		supply_limit = 600
 		supply_limit_mult = 0.02
 		development_growth_factor = 0.05
-	}
-	
-	character_modifier = {
-		pikemen_toughness_add = 2
 	}
 	
 	next_building = hill_farms_08
@@ -5660,10 +5271,6 @@ hill_farms_08 = {
 		development_growth_factor = 0.1
 	}
 	
-	character_modifier = {
-		pikemen_toughness_add = 2
-	}
-	
 	ai_value = {
 		base = 3
 	}
@@ -5695,7 +5302,6 @@ elephant_pens_01 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.02
-		heavy_cavalry_damage_add = 2
 		knight_limit = 1
 	}
 	
@@ -5735,7 +5341,6 @@ elephant_pens_02 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.04
-		heavy_cavalry_damage_add = 4
 		knight_limit = 1
 	}
 	
@@ -5776,9 +5381,7 @@ elephant_pens_03 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.06
-		heavy_cavalry_damage_add = 6
 		knight_limit = 2
-		heavy_cavalry_toughness_add = 4
 	}
 	county_modifier = {
 		build_gold_cost = -0.02
@@ -5821,9 +5424,7 @@ elephant_pens_04 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.08
-		heavy_cavalry_damage_add = 8
 		knight_limit = 2
-		heavy_cavalry_toughness_add = 4
 	}
 	county_modifier = {
 		build_gold_cost = -0.02
@@ -5866,9 +5467,7 @@ elephant_pens_05 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.10
-		heavy_cavalry_damage_add = 10
 		knight_limit = 3
-		heavy_cavalry_toughness_add = 4
 	}
 	county_modifier = {
 		build_gold_cost = -0.02
@@ -5911,9 +5510,7 @@ elephant_pens_06 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.12
-		heavy_cavalry_damage_add = 12
 		knight_limit = 3
-		heavy_cavalry_toughness_add = 6
 	}
 	county_modifier = {
 		build_gold_cost = -0.02
@@ -5956,9 +5553,7 @@ elephant_pens_07 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.14
-		heavy_cavalry_damage_add = 14
 		knight_limit = 4
-		heavy_cavalry_toughness_add = 6
 	}
 	county_modifier = {
 		build_gold_cost = -0.02
@@ -6002,9 +5597,7 @@ elephant_pens_08 = {
 	}
 	character_modifier = {
 		knight_effectiveness_mult = 0.16
-		heavy_cavalry_damage_add = 16
 		knight_limit = 4
-		heavy_cavalry_toughness_add = 6
 	}
 	county_modifier = {
 		build_gold_cost = -0.02
@@ -6138,10 +5731,6 @@ plantations_03 = {
 		monthly_income = poor_building_tax_tier_3
 		tax_mult = 0.01
 	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
-	}
-	
 	next_building = plantations_04
 	
 	ai_value = {
@@ -6177,10 +5766,6 @@ plantations_04 = {
 		monthly_income = poor_building_tax_tier_4
 		tax_mult = 0.02
 	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
-	}
-	
 	next_building = plantations_05
 	
 	ai_value = {
@@ -6216,9 +5801,6 @@ plantations_05 = {
 		monthly_income = poor_building_tax_tier_5
 		tax_mult = 0.02
 		supply_limit = 200
-	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
 	}
 	county_modifier = {
 		development_growth_factor = 0.02
@@ -6260,9 +5842,6 @@ plantations_06 = {
 		tax_mult = 0.02
 		supply_limit = 400
 	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
-	}
 	county_modifier = {
 		development_growth_factor = 0.02
 	}
@@ -6303,9 +5882,6 @@ plantations_07 = {
 		tax_mult = 0.02
 		supply_limit = 400
 	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
-	}
 	county_modifier = {
 		development_growth_factor = 0.05
 	}
@@ -6345,9 +5921,6 @@ plantations_08 = {
 		monthly_income = poor_building_tax_tier_8
 		tax_mult = 0.02
 		supply_limit = 600
-	}
-	character_modifier = {
-		light_cavalry_toughness_add = 1
 	}
 	county_modifier = {
 		development_growth_factor = 0.05
@@ -6644,8 +6217,6 @@ quarries_07 = {
 	}
 	character_modifier = {
 		men_at_arms_maintenance = -0.02
-		heavy_infantry_toughness_add = 1
-		pikemen_toughness_add = 1
 	}
 	
 	next_building = quarries_08
@@ -6690,9 +6261,6 @@ quarries_08 = {
 	}
 	character_modifier = {
 		men_at_arms_maintenance = -0.02
-		heavy_infantry_toughness_add = 2
-		pikemen_toughness_add = 2
-		heavy_cavalry_toughness_add = 4
 	}
 	
 	ai_value = {
@@ -6812,9 +6380,6 @@ hill_forts_03 = {
 	county_modifier = {
 		monthly_county_control_change_factor = 0.1
 	}
-	character_modifier = {
-		pikemen_toughness_add = 1
-	}
 	
 	next_building = hill_forts_04
 	
@@ -6855,9 +6420,6 @@ hill_forts_04 = {
 	county_modifier = {
 		monthly_county_control_change_factor = 0.1
 		levy_size = 0.02
-	}
-	character_modifier = {
-		pikemen_toughness_add = 1
 	}
 	
 	next_building = hill_forts_05
@@ -6900,9 +6462,6 @@ hill_forts_05 = {
 		monthly_county_control_change_factor = 0.15
 		levy_size = 0.02
 	}
-	character_modifier = {
-		pikemen_toughness_add = 1
-	}
 	
 	next_building = hill_forts_06
 	
@@ -6943,10 +6502,6 @@ hill_forts_06 = {
 	county_modifier = {
 		monthly_county_control_change_factor = 0.15
 		levy_size = 0.02
-	}
-	character_modifier = {
-		pikemen_damage_add = 2
-		pikemen_toughness_add = 1
 	}
 	
 	next_building = hill_forts_07
@@ -6989,11 +6544,7 @@ hill_forts_07 = {
 		monthly_county_control_change_factor = 0.15
 		levy_size = 0.02
 	}
-	character_modifier = {
-		pikemen_damage_add = 2
-		pikemen_toughness_add = 2
-	}
-	
+
 	next_building = hill_forts_08
 	
 	ai_value = {
@@ -7033,10 +6584,6 @@ hill_forts_08 = {
 	county_modifier = {
 		monthly_county_control_change_factor = 0.2
 		levy_size = 0.02
-	}
-	character_modifier = {
-		pikemen_damage_add = 2
-		pikemen_toughness_add = 2
 	}
 	
 	ai_value = {

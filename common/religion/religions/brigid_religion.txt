@@ -1,4 +1,4 @@
-olgail_bilog_religion = {
+﻿olgail_bilog_religion = {
 	family = rf_bilog
 	graphical_faith = pagan_gfx
 

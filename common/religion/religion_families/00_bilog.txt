@@ -1,4 +1,4 @@
-rf_bilog = {
+﻿rf_bilog = {
 	is_pagan = yes
 	graphical_faith = "pagan"
 	hostility_doctrine = abrahamic_hostility_doctrine

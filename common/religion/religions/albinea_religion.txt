@@ -1,4 +1,4 @@
-lumentalism_religion = {
+﻿lumentalism_religion = {
 	family = rf_albinea
 	graphical_faith = pagan_gfx
 

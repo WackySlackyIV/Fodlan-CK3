@@ -1,4 +1,4 @@
-special_tolerance = {
+﻿special_tolerance = {
 	group = "main_group"
 	
 	is_available_on_create = {

@@ -183,10 +183,6 @@ war_camps_01 = {
 	character_modifier = {
 		knight_limit = 1
 		knight_effectiveness_mult = 0.1
-		skirmishers_damage_add = 2
-		skirmishers_toughness_add = 1
-		heavy_infantry_damage_add = 2
-		heavy_infantry_toughness_add = 1
 	}
 	
 	next_building = war_camps_02
@@ -223,10 +219,6 @@ war_camps_02 = {
 	character_modifier = {
 		knight_limit = 2
 		knight_effectiveness_mult = 0.2
-		skirmishers_damage_add = 4
-		skirmishers_toughness_add = 2
-		heavy_infantry_damage_add = 4
-		heavy_infantry_toughness_add = 2
 	}
 	
 	ai_value = {
@@ -260,13 +252,6 @@ palisades_01 = {
 	province_modifier = {
 		defender_advantage = normal_building_advantage_tier_1
 		fort_level = normal_building_fort_level_tier_1
-	}
-	
-	character_modifier = {
-		archers_damage_add = 2
-		archers_toughness_add = 1
-		pikemen_damage_add = 2
-		pikemen_toughness_add = 1
 	}
 	
 	next_building = palisades_02
@@ -303,13 +288,6 @@ palisades_02 = {
 	province_modifier = {
 		defender_advantage = normal_building_advantage_tier_2
 		fort_level = normal_building_fort_level_tier_2
-	}
-	
-	character_modifier = {
-		archers_damage_add = 4
-		archers_toughness_add = 2
-		pikemen_damage_add = 4
-		pikemen_toughness_add = 2
 	}
 	
 	ai_value = {

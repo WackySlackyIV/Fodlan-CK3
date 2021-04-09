@@ -15,7 +15,7 @@
 	dynasty = 700
 	dna = dna_milad
 
-	trait = ember
+	trait = crest_blood_malik
 
 	1135.6.22 = {
 		birth=yes
@@ -136,7 +136,7 @@
 	culture="almyran"
 	dynasty = 700
 	
-	trait = ember
+	trait = crest_blood_malik
 
 	1144.6.22 = {
 		birth=yes
@@ -153,7 +153,7 @@
 	dynasty = 700
 	female = yes
 
-	trait = ember
+	trait = crest_blood_malik
 
 	1151.2.8 = {
 		birth=yes
@@ -170,7 +170,7 @@
 	dynasty = 700
 	female = yes
 
-	trait = ember
+	trait = crest_blood_malik
 
 	1161.6.22 = {
 		birth=yes
@@ -186,7 +186,7 @@
 	culture="almyran"
 	dynasty = 700
 
-	trait = ember
+	trait = crest_blood_malik
 
 	1144.2.11 = {
 		birth=yes
@@ -625,7 +625,7 @@
 	trait = education_stewardship_2
 	trait = overseer
 
-	trait = ember
+	trait = crest_blood_malik
 
 	disallow_random_traits = yes
 
@@ -958,7 +958,7 @@
 	trait = holy_warrior
 
 	trait = crest_minor_malik
-	trait = ember
+	trait = crest_blood_malik
 
 	disallow_random_traits = yes
 
@@ -994,7 +994,7 @@
 	dynasty = 700
 	dynasty_house = house_heshmatglu
 
-	trait = ember
+	trait = crest_blood_malik
 
 	1155.1.1 = {
 		birth=yes
@@ -1594,7 +1594,7 @@
 	culture="denatlar"
 	female = yes
 
-	trait = ember
+	trait = crest_blood_malik
 
 	dynasty = 700
 	dynasty_house = house_aycanglu

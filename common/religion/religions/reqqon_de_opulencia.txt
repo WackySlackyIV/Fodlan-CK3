@@ -1,4 +1,4 @@
-reqonn_de_opulencia_religion = {
+﻿reqonn_de_opulencia_religion = {
 	family = rf_morfis_sphere
 	graphical_faith = pagan.gfx
 

@@ -1,4 +1,4 @@
-dewa_sheta_ah_religion = { #Morfis
+﻿dewa_sheta_ah_religion = { #Morfis
 	family = rf_morfis_sphere
 	graphical_faith = pagan_gfx
 

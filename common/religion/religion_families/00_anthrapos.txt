@@ -1,4 +1,4 @@
-rf_anthrapos = {
+﻿rf_anthrapos = {
 	is_pagan = no
 	piety_icon_group = pagan
 	graphical_faith = "orthodox_gfx"

@@ -95,6 +95,9 @@
 						set_obligation_if_changed_effect = { OBLIGATION_TYPE = council_rights }
 						set_obligation_if_changed_effect = { OBLIGATION_TYPE = title_revocation_rights }
 					}
+					else_if = { limit = { has_government = alliance_government }
+						set_obligation_if_changed_effect = { OBLIGATION_TYPE = alliance_contract }
+					}
 				}
 			}
 		}
@@ -197,6 +200,9 @@ vassal_modify_vassal_contract_interaction = {
 					set_obligation_if_changed_effect = { OBLIGATION_TYPE = council_rights }
 					set_obligation_if_changed_effect = { OBLIGATION_TYPE = title_revocation_rights }
 				}
+				else_if = { limit = { has_government = alliance_government }
+						set_obligation_if_changed_effect = { OBLIGATION_TYPE = alliance_contract }
+					}
 			}
 		}
 	}
