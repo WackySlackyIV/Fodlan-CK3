@@ -135,11 +135,11 @@ game_rule.1001 = { #by Mathilda Bjarnehed
 				}
 				AND = {
 					exists = character:200011
-					this = character:200011 #Prevents Rhea from getting family
+					this = character:200011 #Prevents Holst from getting family
 				}
 				AND = {
-					exists = character:200001
-					this = character:200001 #Prevents Rhea from getting family
+					exists = character:200003
+					this = character:200003 #Prevents Judith from getting family
 				}
 			}
 		}

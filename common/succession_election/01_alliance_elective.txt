@@ -10,7 +10,7 @@ alliance_elective = { #alliance elective
 	elector_vote_strength = {
 		base = 1
 		modifier = { #leader
-			desc = tooltip_feudal_vote_strength_emperor_tier
+			desc = tooltip_alliance_leader
 			add = 2
 			this = scope:holder
 		}
@@ -23,7 +23,7 @@ alliance_elective = { #alliance elective
 			is_powerful_vassal = yes
 		}
 		modifier = { #Council member
-			desc = tooltip_feudal_vote_strength_powerful_vassal
+			desc = tooltip_councillor
 			add = {
 				value = 1
 			}
@@ -123,6 +123,7 @@ alliance_elective = { #alliance elective
 				is_adult = yes
 				has_culture = culture:leicester
 				is_close_family_of = scope:holder
+				NOT = { has_trait = disinherited }
 			}
 		}
 		add = {
@@ -131,6 +132,7 @@ alliance_elective = { #alliance elective
 				is_adult = yes
 				has_culture = culture:leicester
 				highest_held_title_tier > 2 #counts excluded.
+				NOT = { has_trait = disinherited }
 			}
 		}
 	}

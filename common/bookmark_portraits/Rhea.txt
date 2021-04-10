@@ -3,7 +3,7 @@
 Rhea={
 	type=female
 	id=3
-	age=0.371928
+	age=0.371817
 	genes={ 		hair_color={ 173 52 82 61 }
  		skin_color={ 28 7 12 71 }
  		eye_color={ 173 52 41 175 }
@@ -103,18 +103,19 @@ Rhea={
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 179 "avg_spacing_lower_thickness" 118 }
  		gene_eyebrows_fullness={ "layer_2_lower_thickness" 167 "layer_2_lower_thickness" 103 }
  		gene_body_hair={ "body_hair_dense" 138 "body_hair_dense" 138 }
- 		hairstyles={ "rhea_hairstyle" 0 "northern_hairstyles" 195 }
- 		beards={ "all_beards" 224 "northern_beards" 224 }
+ 		gene_hair_type={ "hair_wavy" 181 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 6 "normal_eyes" 6 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 42 "normal_eyelashes" 42 }
  		pose={ "" 255 "" 0 }
+ 		hairstyles={ "all_custom_hairstyles" 255 "all_hairstyles" 0 }
  		cloaks={ "western_royalty" 114 "no_cloak" 0 }
  		clothes={ "western_royalty_clothes" 171 "most_clothes" 0 }
  		gene_bs_ear_outward={ "ear_outward_neg" 255 "ear_outward_neg" 0 }
- 		headgear={ "headgear_rhea_crown" 53 "no_headgear" 0 }
+ 		headgear={ "headgear_rhea_crown" 160 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 43 "all_legwear" 0 }
-  }
+ }
 	entity={ 2268070609 2268070609 }
 }
 

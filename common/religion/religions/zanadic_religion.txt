@@ -57,136 +57,136 @@
 		HighGodNameAlternatePossessive = zanadic_high_god_alternate_possessive
 
 		#Creator
-		CreatorName = zanadic_creator_god_name
-		CreatorNamePossessive = zanadic_creator_god_name_possessive
+		CreatorName = zanadic_high_god_name
+		CreatorNamePossessive = zanadic_high_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = zanadic_health_god_name
-		HealthGodNamePossessive = zanadic_health_god_name_possessive
+		HealthGodName = zanadic_cethleann_name
+		HealthGodNamePossessive = zanadic_cethleann_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
 		
 		#FertilityGod
-		FertilityGodName = zanadic_fertility_god_name
-		FertilityGodNamePossessive = zanadic_fertility_god_name_possessive
+		FertilityGodName = zanadic_cethleann_name
+		FertilityGodNamePossessive = zanadic_cethleann_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_SHE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
 		FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 		#WealthGod
-		WealthGodName = zanadic_wealth_god_name
-		WealthGodNamePossessive = zanadic_wealth_god_name_possessive
+		WealthGodName = zanadic_cichol_name
+		WealthGodNamePossessive = zanadic_cichol_name_possessive
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 		#HouseholdGod
-		HouseholdGodName = zanadic_household_god_name
-		HouseholdGodNamePossessive = zanadic_household_god_name_possessive
+		HouseholdGodName = zanadic_cethleann_name
+		HouseholdGodNamePossessive = zanadic_cethleann_name_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HER
 		HouseholdGodHerHim = CHARACTER_HERHIM_HER
 
 		#FateGod
-		FateGodName = zanadic_fate_god_name
-		FateGodNamePossessive = zanadic_fate_god_name_possessive
+		FateGodName = zanadic_seiros_name
+		FateGodNamePossessive = zanadic_seiros_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_THEY
 		FateGodHerHis = CHARACTER_HERHIS_THEIR
 		FateGodHerHim = CHARACTER_HERHIM_THEM
 
 		#KnowledgeGod
-		KnowledgeGodName = zanadic_knowledge_god_name
-		KnowledgeGodNamePossessive = zanadic_knowledge_god_name_possessive
+		KnowledgeGodName = zanadic_indech_name
+		KnowledgeGodNamePossessive = zanadic_indech_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
-		WarGodName = zanadic_war_god_name
-		WarGodNamePossessive = zanadic_war_god_name_possessive
+		WarGodName = zanadic_seiros_name
+		WarGodNamePossessive = zanadic_seiros_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = zanadic_trickster_god_name
-		TricksterGodNamePossessive = zanadic_trickster_god_name_possessive
+		TricksterGodName = zanadic_macuil_name
+		TricksterGodNamePossessive = zanadic_macuil_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 		#NightGod
-		NightGodName = zanadic_night_god_name
-		NightGodNamePossessive = zanadic_night_god_name_possessive
+		NightGodName = zanadic_macuil_name
+		NightGodNamePossessive = zanadic_macuil_name_possessive
 		NightGodSheHe = CHARACTER_SHEHE_SHE
 		NightGodHerHis = CHARACTER_HERHIS_HER
 		NightGodHerHim = CHARACTER_HERHIM_HER
 
 		#WaterGod
-		WaterGodName = zanadic_water_god_name
-		WaterGodNamePossessive = zanadic_water_god_name_possessive
+		WaterGodName = zanadic_indech_name
+		WaterGodNamePossessive = zanadic_indech_name_possessive
 		WaterGodSheHe = CHARACTER_SHEHE_HE
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 
 
-		PantheonTerm = christianity_high_god_name
+		PantheonTerm = zanadic_high_god_name
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
-			christianity_high_god_name
-			christianity_high_god_name_alternate
-			chistianity_good_god_jesus
-			chistianity_good_god_christ
+			zanadic_high_god_name
+			zanadic_indech_name
+			zanadic_macuil_name
+			zanadic_seiros_name
+			zanadic_macuil_name
+			zanadic_cethleann_name
 		}
-		DevilName = christianity_devil_name
-		DevilNamePossessive = christianity_devil_name_possessive
+		DevilName = zanadic_the_beast_name
+		DevilNamePossessive = zanadic_the_beast_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
-			christianity_devil_name
-			christianity_evil_god_lucifer
-			christianity_evil_god_beelzebub
-			christianity_evil_god_mephistopheles
+			zanadic_the_beast_name
+			zanadic_maurice_name
 		}
-		HouseOfWorship = christianity_house_of_worship
-		HouseOfWorshipPlural = christianity_house_of_worship_plural
-		ReligiousSymbol = christianity_religious_symbol
-		ReligiousText = christianity_religious_text
+		HouseOfWorship = zanadic_house_of_worship
+		HouseOfWorshipPlural = zanadic_house_of_worship_plural
+		ReligiousSymbol = zanadic_religious_symbol
+		ReligiousText = zanadic_religious_text
 		ReligiousHeadName = zanadic_religious_head_title
 		ReligiousHeadTitleName = zanadic_religious_head_title_name
-		DevoteeMale = christianity_devotee_male
-		DevoteeMalePlural = christianity_devotee_male_plural
-		DevoteeFemale = christianity_devotee_female
-		DevoteeFemalePlural = christianity_devotee_female_plural
-		DevoteeNeuter = christianity_devotee_neuter
-		DevoteeNeuterPlural = christianity_devotee_neuter_plural
-		PriestMale = christianity_priest_male
-		PriestMalePlural = christianity_priest_male_plural
-		PriestFemale = christianity_priest_male
-		PriestFemalePlural = christianity_priest_male_plural
-		PriestNeuter = christianity_priest_male
-		PriestNeuterPlural = christianity_priest_male_plural
-		AltPriestTermPlural = christianity_priest_alternate_plural
-		BishopMale = christianity_bishop
-		BishopMalePlural = christianity_bishop_plural
-		BishopFemale = christianity_bishop
-		BishopFemalePlural = christianity_bishop_plural
-		BishopNeuter = christianity_bishop
-		BishopNeuterPlural = christianity_bishop_plural
-		DivineRealm = christianity_positive_afterlife
-		PositiveAfterLife = christianity_positive_afterlife
-		NegativeAfterLife = christianity_negative_afterlife
-		DeathDeityName = christianity_death_deity_name
-		DeathDeityNamePossessive = christianity_death_deity_name_possessive
+		DevoteeMale = zanadic_devotee_male
+		DevoteeMalePlural = zanadic_devotee_male_plural
+		DevoteeFemale = zanadic_devotee_female
+		DevoteeFemalePlural = zanadic_devotee_female_plural
+		DevoteeNeuter = zanadic_devotee_neuter
+		DevoteeNeuterPlural = zanadic_devotee_neuter_plural
+		PriestMale = zanadic_priest_male
+		PriestMalePlural = zanadic_priest_male_plural
+		PriestFemale = zanadic_priest_female
+		PriestFemalePlural = zanadic_priest_female_plural
+		PriestNeuter = zanadic_priest_female_plural
+		PriestNeuterPlural = zanadic_priest_male_plural
+		AltPriestTermPlural = zanadic_priest_alternate_plural
+		BishopMale = zanadic_bishop
+		BishopMalePlural = zanadic_bishop_plural
+		BishopFemale = zanadic_bishop
+		BishopFemalePlural = zanadic_bishop_plural
+		BishopNeuter = zanadic_bishop
+		BishopNeuterPlural = zanadic_bishop_plural
+		DivineRealm = zanadic_positive_afterlife
+		PositiveAfterLife = zanadic_positive_afterlife
+		NegativeAfterLife = zanadic_negative_afterlife
+		DeathDeityName = zanadic_the_beast_name
+		DeathDeityNamePossessive = zanadic_the_beast_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		WitchGodName = christianity_witchgodname_the_horned_god
+		WitchGodName = zanadic_maurice_name
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HERHIM_HIM

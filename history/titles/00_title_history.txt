@@ -11,7 +11,7 @@ e_adrestia = {
 }
 
 k_leicester = {
-              1180.1.1 = {
+              1140.1.1 = {
                             holder = 200000
 		succession_laws = { alliance_elective_succession_law }
               }
@@ -806,7 +806,7 @@ d_mogol = {
 }
 
 d_riegan = {
-              1180.1.1 = {
+              1140.1.1 = {
                             holder = 200000
               }
 }
@@ -4821,28 +4821,28 @@ c_sleaford = {
 
 c_roehester = {
               1.1.1 = { change_development_level = 5 }
-              1180.1.1 = {
+              1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_neath = {
               1.1.1 = { change_development_level = 5 }
-              1180.1.1 = {
+              1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_escomb = {
               1.1.1 = { change_development_level = 6 }
-              1180.1.1 = {
+              1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_derdriu = {
               1.1.1 = { change_development_level = 25 }
-              1180.1.1 = {
+              1140.1.1 = {
                             holder = 200000
               }
 }

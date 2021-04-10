@@ -1,4 +1,15 @@
 ﻿l_english:
+ #culture groups
+ fodlan_group:0 "Fodlan Group"
+ brigid_group:0 "Brigid Group"
+ kotesh_group:0 "Kotesh Group"
+ laguz_group:0 "Laguz Group"
+ mihran_group:0 "Mihran Group"
+ morfis_group:0 "Morfis Group"
+ northern_group:0 "Northern Group"
+ reqqon_group:0 "Reqqon Group"
+ slither_group:0 "Slither Group"
+ 
  #culture
  high_fodlan:0 "High Fodlan"
  high_fodlan_collective_noun:0 "High Fodlan"

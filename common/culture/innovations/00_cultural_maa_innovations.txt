@@ -29,9 +29,9 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
-innovation_wyvern_marksmen = {
+innovation_wyvern_marksmen = { #almyran
 	group = culture_group_regional
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @maa_01
 
 	potential = {
@@ -43,13 +43,13 @@ innovation_wyvern_marksmen = {
 	flag = global_maa
 }
 
-innovation_griffon_breeding = {
+innovation_griffon_breeding = { #reqonnese
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this.culture_group = culture_group:reqqon_group
 	}
 
 	unlock_maa = griffon_rider
@@ -119,7 +119,7 @@ innovation_bloodlust = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this = culture:sreng
 	}
 
 	unlock_maa = berserker
@@ -133,7 +133,7 @@ innovation_pine_hunters = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this = culture:albinean
 	}
 
 	unlock_maa = elgier
@@ -147,7 +147,7 @@ innovation_ways_ofthe_sword = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this = culture:nuadan
 	}
 
 	unlock_maa = trueblade
@@ -161,7 +161,7 @@ innovation_the_elite = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this.culture_group = culture_group:slither_group
 	}
 
 	unlock_maa = agastya
@@ -203,7 +203,7 @@ innovation_overseers = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this.culture_group = culture_group:morfis_group
 	}
 
 	unlock_maa = grandmaster
@@ -217,7 +217,7 @@ innovation_steppe_lords = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:outside_group
+		this.culture_group = culture_group:kotesh_group
 	}
 
 	unlock_maa = oliphantier

@@ -2,7 +2,7 @@
 # History database id:400000
 Edelgard={
 	type=female
-	id=470
+	id=543
 	age=0.180000
 	genes={ 		hair_color={ 0 0 70 69 }
  		skin_color={ 24 15 118 64 }
@@ -91,27 +91,28 @@ Edelgard={
  		face_detail_nose_tip_def={ "nose_tip_def" 215 "nose_tip_def" 215 }
  		face_detail_temple_def={ "temple_def" 50 "temple_def" 50 }
  		expression_brow_wrinkles={ "brow_wrinkles_04" 207 "brow_wrinkles_04" 207 }
- 		expression_eye_wrinkles={ "eye_wrinkles_01" 235 "eye_wrinkles_01" 37 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_01" 217 "eye_wrinkles_01" 37 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 85 "forehead_wrinkles_01" 85 }
  		expression_other={ "nose_wrinkles_01" 127 "cheek_wrinkles_left_01" 127 }
  		complexion={ "complexion_beauty_1" 255 "complexion_4" 163 }
  		gene_height={ "normal_height" 123 "normal_height" 126 }
- 		gene_bs_body_type={ "body_average" 103 "body_fat_head_fat_medium" 114 }
+ 		gene_bs_body_type={ "body_average" 102 "body_fat_head_fat_medium" 114 }
  		gene_bs_body_shape={ "body_shape_average_clothed" 79 "body_shape_apple_half" 52 }
  		gene_bs_bust={ "bust_clothes" 168 "bust_shape_4_half" 231 }
  		gene_age={ "old_beauty_1" 0 "old_4" 100 }
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 127 "far_spacing_low_thickness" 127 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 170 "layer_2_low_thickness" 170 }
  		gene_body_hair={ "body_hair_sparse" 143 "body_hair_sparse" 143 }
- 		hairstyles={ "edelgard_hairstyle" 255 "northern_hairstyles" 220 }
- 		beards={ "all_beards" 0 "northern_beards" 201 }
+ 		gene_hair_type={ "hair_straight" 232 "hair_straight" 127 }
+ 		gene_baldness={ "no_baldness" 145 "no_baldness" 127 }
  		eye_accessory={ "normal_eyes" 32 "normal_eyes" 32 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 137 "normal_eyelashes" 137 }
  		pose={ "" 255 "" 0 }
- 		cloaks={ "western_royalty" 105 "no_cloak" 0 }
- 		clothes={ "western_imperial_clothes" 71 "most_clothes" 0 }
- 		legwear={ "western_common_legwear" 220 "all_legwear" 0 }
+ 		hairstyles={ "all_custom_hairstyles" 127 "all_hairstyles" 0 }
+ 		cloaks={ "western_royalty" 43 "no_cloak" 0 }
+ 		clothes={ "western_imperial_clothes" 219 "most_clothes" 0 }
+ 		legwear={ "western_common_legwear" 197 "all_legwear" 0 }
  }
 	entity={ 979141817 979141817 }
 }

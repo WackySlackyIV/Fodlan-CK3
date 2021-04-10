@@ -83,7 +83,7 @@
 		}
 	}
 	modifier = {
-		add = 20
+		add = 100
 		desc = tooltip_feudal_elector_vote_myself_ruler_choice
 		this = scope:candidate
 		this = scope:holder_candidate

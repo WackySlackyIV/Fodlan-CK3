@@ -29,7 +29,7 @@
 	}
 	1177.8.23={
 		effect = {
-			set_relation_rival = character:200006
+			set_relation_nemesis = character:200006
 		}
 	}
 	1200.1.1={
@@ -158,12 +158,14 @@
 	religion="seirosite"
 	culture="leicester"
 
-	trait = physique_bad_3
 	trait = humble
-	trait = compassionate
-	trait = chaste
 	trait = content
 	trait = paranoid
+
+	trait = physique_bad_3
+
+
+
 
 	1139.1.9 = {
 		birth=yes
@@ -204,7 +206,7 @@
 	}
 	1177.1.1={
 		effect = {
-			set_relation_rival = character:200000
+			set_relation_nemesis = character:200000
 		}
 	}
 	1181.1.1={
@@ -328,8 +330,8 @@
 	prowess = 13
 
 	trait = brave
-	trait = wrathfull
-	trait = compationate
+	trait = wrathful
+	trait = compassionate
 
 	trait = education_martial_4
 	trait = physique_good_3
@@ -339,6 +341,7 @@
 	trait = gallant
 	trait = aggressive_attacker
 
+	trait = crest_major_goneril
 
 	disallow_random_traits = yes
 
@@ -420,6 +423,7 @@
 	trait = education_diplomacy_2
 	trait = beauty_good_3
 	trait = shrewd
+	trait = disinherited
 
 	1140.9.15 = {
 		birth=yes
@@ -474,7 +478,6 @@
 
 	trait = just
 	trait = ambitious
-	trait = impatient
 	trait = arrogant
 
 	trait = education_stewardship_3

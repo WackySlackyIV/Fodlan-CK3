@@ -4,5 +4,27 @@ leader = {
 	special = holder
 	priority = 301
 	titles = { k_leicester }
+	governments = { alliance_government }
+	top_liege = no
+	only_holder = yes
+}
+
+leader_spouse_female = {
+	type = character
+	special = holder
+	priority = 300
+	gender = female
+	titles = { k_leicester }
+	governments = { alliance_government }
+	top_liege = no
+}
+
+leader_spouse_male = {
+	type = character
+	special = holder
+	priority = 300
+	gender = male
+	titles = { k_leicester }
+	governments = { alliance_government }
 	top_liege = no
 }

@@ -3,3 +3,5 @@
  tooltip_alliance_vote_crest:0 "Crests are good: $VALUE|=+0$"
  tooltip_alliance_vote_stats:0 "Has the makings of a good ruler: $VALUE|=+0$"
  tooltip_alliance_vote_rival_friend:0 "Friend or Rival: $VALUE|=+0$"
+ tooltip_alliance_leader:0 "Alliance Leader: $VALUE|=+0$"
+ tooltip_councillor:0 "Council Member: $VALUE|=+0$"
