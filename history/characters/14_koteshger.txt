@@ -102,7 +102,7 @@
 }
 
 1400006 = {
-	name="85"
+	name="Krishan"
 	religion="dinymori"
 	culture="ikhtin"
 
@@ -115,7 +115,7 @@
 }
 
 1400007 = {
-	name="86"
+	name= "Gagan"
 	religion="dinymori"
 	culture="angma"
 
@@ -130,7 +130,7 @@
 ################
 
 1400008 = {
-	name="87"
+	name= "Krishan"
 	religion="dinymori"
 	culture="angma"
 
@@ -143,7 +143,7 @@
 }
 
 1400009 = {
-	name="88"
+	name= "Vineet"
 	religion="dinymori"
 	culture="dantan"
 
@@ -156,7 +156,7 @@
 }
 
 1400010 = {
-	name="89"
+	name= "Dasra"
 	religion="kamajorma"
 	culture="dantan"
 
@@ -169,7 +169,7 @@
 }
 
 1400011 = {
-	name="90"
+	name= "Vinay"
 	religion="lmabhal"
 	culture="dantan"
 
@@ -182,7 +182,7 @@
 }
 
 1400012 = {
-	name="91"
+	name= "Rajendra"
 	religion="lmabhal"
 	culture="dantan"
 
@@ -195,7 +195,7 @@
 }
 
 1400013 = {
-	name="92"
+	name= "Bhima"
 	religion="dinymori"
 	culture="sangpuri"
 
@@ -208,7 +208,7 @@
 }
 
 1400014 = {
-	name="93"
+	name= "Bana"
 	religion="dinymori"
 	culture="sangpuri"
 
@@ -221,7 +221,7 @@
 }
 
 1400015 = {
-	name="94"
+	name= "Narayana"
 	religion="kreasti"
 	culture="chakhtami"
 
@@ -236,7 +236,7 @@
 ####################
 
 1400016 = {
-	name="95"
+	name="Mahava"
 	religion="kreasti"
 	culture="chakhtami"
 
@@ -249,7 +249,7 @@
 }
 
 1400017 = {
-	name="96"
+	name="Pranav"
 	religion="kreasti"
 	culture="chakhtami"
 
@@ -262,7 +262,7 @@
 }
 
 1400018 = {
-	name="97"
+	name="Prashant"
 	religion="kreasti"
 	culture="chakhtami"
 
@@ -275,7 +275,7 @@
 }
 
 1400019 = {
-	name="98"
+	name="Karam"
 	religion="kreasti"
 	culture="chakhtami"
 
@@ -288,7 +288,7 @@
 }
 
 1400020 = {
-	name="99"
+	name="Acarya"
 	religion="kreasti"
 	culture="chakhtami"
 
@@ -301,7 +301,7 @@
 }
 
 1400021 = {
-	name="template"
+	name= "Ayush"
 	religion="dinymori"
 	culture="ikhtin"
 
@@ -314,7 +314,7 @@
 }
 
 1400022 = {
-	name="template"
+	name= "Mohun"
 	religion="dinymori"
 	culture="ikhtin"
 
@@ -327,7 +327,7 @@
 }
 
 1400023 = {
-	name="template"
+	name= "Kanada"
 	religion="dinymori"
 	culture="ikhtin"
 
@@ -340,7 +340,7 @@
 }
 
 1400024 = {
-	name="template"
+	name="Sayana"
 	religion="dinymori"
 	culture="angma"
 
@@ -353,7 +353,7 @@
 }
 
 1400025 = {
-	name="template"
+	name="Anil"
 	religion="dinymori"
 	culture="angma"
 
@@ -366,7 +366,7 @@
 }
 
 1400026 = {
-	name="template"
+	name= "Pandu"
 	religion="dinymori"
 	culture="angma"
 
@@ -379,7 +379,7 @@
 }
 
 1400027 = {
-	name="template"
+	name= "Nakshatra"
 	religion="dinymori"
 	culture="angma"
 
@@ -392,7 +392,7 @@
 }
 
 1400028 = {
-	name="template"
+	name= "Daya"
 	religion="dinymori"
 	culture="angma"
 
@@ -405,7 +405,7 @@
 }
 
 1400029 = {
-	name="template"
+	name= "Ganesh"
 	religion="dinymori"
 	culture="angma"
 
@@ -418,7 +418,7 @@
 }
 
 1400030 = {
-	name="template"
+	name="Rishu"
 	religion="dinymori"
 	culture="angma"
 
@@ -431,7 +431,7 @@
 }
 
 1400031 = {
-	name="template"
+	name="Anil"
 	religion="dinymori"
 	culture="ikhtin"
 
@@ -444,7 +444,7 @@
 }
 
 1400032 = {
-	name="template"
+	name="Amitabh"
 	religion="dinymori"
 	culture="ikhtin"
 
@@ -457,7 +457,7 @@
 }
 
 1400033 = {
-	name="template"
+	name="Sharad"
 	religion="dinymori"
 	culture="angma"
 
@@ -470,7 +470,7 @@
 }
 
 1400034 = {
-	name="template"
+	name="Chandra"
 	religion="lmabhal"
 	culture="dantan"
 
@@ -483,7 +483,7 @@
 }
 
 1400035 = {
-	name="template"
+	name= "Karna"
 	religion="lmabhal"
 	culture="dantan"
 
@@ -496,7 +496,7 @@
 }
 
 1400036 = {
-	name="template"
+	name="Vineet"
 	religion="lmabhal"
 	culture="dantan"
 
@@ -509,7 +509,7 @@
 }
 
 1400037 = {
-	name="template"
+	name= "Arjuna"
 	religion="lmabhal"
 	culture="dantan"
 
@@ -522,7 +522,7 @@
 }
 
 1400038 = {
-	name="template"
+	name= "Keshav"
 	religion="dinymori"
 	culture="sangpuri"
 
@@ -535,7 +535,7 @@
 }
 
 1400039 = {
-	name="template"
+	name= "Ragohba"
 	religion="kreasti"
 	culture="chakhtami"
 

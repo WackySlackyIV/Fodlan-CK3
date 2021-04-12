@@ -912,7 +912,7 @@
 }
 
 400032 = {
-	name="Mother Caspar"
+	name= "Caecina" #Mother Caspar
 	religion="ablehnist"
 	culture="adrestian"
 	female = yes
@@ -926,7 +926,7 @@
 }
 
 400033 = {
-	name="mother father randolph and fleche"
+	name="Ophelia" #free
 	religion="ablehnist"
 	culture="adrestian"
 	female = yes

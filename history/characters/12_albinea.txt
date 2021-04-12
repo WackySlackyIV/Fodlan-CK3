@@ -103,7 +103,7 @@
 }
 
 1200005 = {
-	name = "template"
+	name = "Monier"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -117,7 +117,7 @@
 }
 
 1200006 = {
-	name = "template"
+	name = "Keird"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -131,7 +131,7 @@
 }
 
 1200007 = {
-	name = "template"
+	name = "Brice"
 	religion = "lumialue"
 	culture = "avanertun"
 
@@ -145,7 +145,7 @@
 }
 
 1200008 = {
-	name = "template"
+	name = "Cashin"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -159,7 +159,7 @@
 }
 
 1200009 = {
-	name = "template"
+	name = "Moris"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -173,7 +173,7 @@
 }
 
 1200010 = {
-	name = "template"
+	name = "Dermot"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -187,7 +187,7 @@
 }
 
 1200011 = {
-	name = "template"
+	name = "Lewin"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -201,7 +201,7 @@
 }
 
 1200012 = {
-	name = "template"
+	name = "Fiac"
 	religion = "lumialue"
 	culture = "albinean"
 
@@ -215,7 +215,7 @@
 }
 
 1200013 = {
-	name = "template"
+	name = "Kerron"
 	religion = "lumialue"
 	culture = "saqqaqi"
 
@@ -229,7 +229,7 @@
 }
 
 1200014 = {
-	name = "template"
+	name = "Gwier"
 	religion = "vuristoalite"
 	culture = "saqqaqi"
 
@@ -243,7 +243,7 @@
 }
 
 1200015 = {
-	name = "template"
+	name = "Kouli"
 	religion = "vuristoalite"
 	culture = "avanertun"
 
@@ -257,7 +257,7 @@
 }
 
 1200016 = {
-	name = "template"
+	name = "Agnan"
 	religion = "vuristoalite"
 	culture = "saqqaqi"
 

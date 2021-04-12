@@ -137,7 +137,7 @@
 }
 
 1000006 = {
-	name = "template"
+	name = "Leon"
 	religion = "mekeal"
 	culture = "sreng"
 	
@@ -151,7 +151,7 @@
 }
 
 1000007 = {
-	name = "template"
+	name = "Örjan"
 	religion = "mekeal"
 	culture = "sreng"
 	
@@ -165,7 +165,7 @@
 }
 
 1000008 = {
-	name = "template"
+	name = "Karl"
 	religion = "mekeal"
 	culture = "aksural"
 	
@@ -179,7 +179,7 @@
 }
 
 1000009 = {
-	name = "template"
+	name = "Hersten"
 	religion = "mekeal"
 	culture = "aksural"
 	
@@ -193,7 +193,7 @@
 }
 
 1000010 = {
-	name = "template"
+	name = "Christer"
 	religion = "mekeal"
 	culture = "aksural"
 	
@@ -207,7 +207,7 @@
 }
 
 1000011 = {
-	name = "template"
+	name = "Dahlgren"
 	religion = "mekeal"
 	culture = "sreng"
 	
@@ -221,7 +221,7 @@
 }
 
 1000012 = {
-	name = "template"
+	name = "Segol"
 	religion = "mekeal"
 	culture = "aksural"
 	
@@ -235,7 +235,7 @@
 }
 
 1000013 = {
-	name = "template"
+	name = "Sigge"
 	religion = "mekeal"
 	culture = "sreng"
 	

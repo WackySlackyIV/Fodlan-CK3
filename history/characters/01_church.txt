@@ -581,7 +581,7 @@
 	health = 6.5
 
 	trait = greedy
-	trait = deceitfull
+	trait = deceitful
 	trait = diligent
 
 	trait = education_intrigue_4
@@ -787,7 +787,7 @@
 
 	trait = patient
 	trait = zealous
-	trait = deceitfull
+	trait = deceitful
 
 	trait = education_intrigue_3
 	trait = theologian
@@ -896,7 +896,7 @@
 	health = 6.5
 
 	trait = greedy
-	trait = deceitfull
+	trait = deceitful
 	trait = arbitrary
 
 	trait = education_stewardship_4

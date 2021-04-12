@@ -24,7 +24,7 @@
 			Yarne Chambray Caern Bannog Aertex Clothr Canvi Baize Cord Bombaz Brille Calic Capile Chiffon Chino
 			Denir Dimity Dobby Donegal Dowlas Foulard Fustian Gannex Gazar Ghalam Habutai Halas Himro Jers Leno Lod
 			Mack Madras Melton Mesh Net Percal Dillo Matiz Russel Scar Scrim Serge Shan Tais Tartan Terry Twill
-			Wigan Youghal Zephyr Zorbeez Flannel Keaton kaden Nishiki Ranulf Kezhda Muarim Mordecai Kyza
+			Wigan Youghal Zephyr Zorbeez Flannel Keaton Kaden Nishiki Ranulf Kezhda Muarim Mordecai Kyza
 			Caineghis Giffca Skrimir Soan Volug Keogh Tibarn Janaff Ulki Naesala Nealuchi Reyson
 		
 		}

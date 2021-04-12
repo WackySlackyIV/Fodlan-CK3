@@ -452,7 +452,7 @@
 
 
 800015 = {
-	name = "template"
+	name = "Aleix"
 	religion = "reqonn_de_opulencia"
 	culture = "reqonese"
 

@@ -185,7 +185,7 @@
 }
 
 600009 = {
-	name="template"
+	name="Caillin"
 	religion="talahm_ithir"
 	culture="imbolaic"
 
@@ -198,7 +198,7 @@
 }
 
 600010 = {
-	name="template"
+	name="Lorcan"
 	religion="talahm_ithir"
 	culture="brigid"
 
@@ -211,9 +211,10 @@
 }
 
 600011 = {
-	name="template"
+	name="Mugain"
 	religion="talahm_ithir"
 	culture="brigid"
+	female = yes
 
 	1146.9.11 = {
 		birth=yes
@@ -224,9 +225,10 @@
 }
 
 600012 = {
-	name="template"
+	name= "Fiani"
 	religion="talahm_ithir"
 	culture="brigid"
+	female = yes
 
 	1146.9.11 = {
 		birth=yes
@@ -237,7 +239,7 @@
 }
 
 600013 = {
-	name="template"
+	name= "Dairen"
 	religion="talahm_ithir"
 	culture="brigid"
 
@@ -250,7 +252,7 @@
 }
 
 600014 = {
-	name="template"
+	name= "Coreall"
 	religion="talahm_ithir"
 	culture="brigid"
 
@@ -263,7 +265,7 @@
 }
 
 600015 = {
-	name="template"
+	name= "Maonach"
 	religion="talahm_ithir"
 	culture="brigid"
 
@@ -276,7 +278,7 @@
 }
 
 600016 = {
-	name="template"
+	name= "Bairre"
 	religion="talahm_ithir"
 	culture="cermaitan"
 
@@ -289,9 +291,10 @@
 }
 
 600017 = {
-	name="template"
+	name= "Noirin"
 	religion="talahm_ithir"
 	culture="brigid"
+	female = yes
 
 	1146.9.11 = {
 		birth=yes
@@ -302,7 +305,7 @@
 }
 
 600018 = {
-	name="template"
+	name= "Eathin"
 	religion="talahm_ithir"
 	culture="cermaitan"
 
@@ -315,7 +318,7 @@
 }
 
 600019 = {
-	name="template"
+	name= "Nioclaus"
 	religion="talahm_ithir"
 	culture="cermaitan"
 
@@ -328,7 +331,7 @@
 }
 
 600020 = {
-	name="template"
+	name= "Manchane"
 	religion="gaothe"
 	culture="cermaitan"
 
@@ -341,9 +344,10 @@
 }
 
 600021 = {
-	name="template"
+	name= "Ainnair"
 	religion="gaothe"
 	culture="brigantine"
+	female = yes
 
 	1146.9.11 = {
 		birth=yes
@@ -354,7 +358,7 @@
 }
 
 600022 = {
-	name="template"
+	name= "Cuach"
 	religion="lamhach"
 	culture="brigantine"
 
@@ -367,7 +371,7 @@
 }
 
 600023 = {
-	name="template"
+	name= "Lochan"
 	religion="fuale"
 	culture="brigantine"
 
@@ -380,7 +384,7 @@
 }
 
 600024 = {
-	name="template"
+	name= "Eocaid"
 	religion="talahm_ithir"
 	culture="brigantine"
 
@@ -393,7 +397,7 @@
 }
 
 600025 = {
-	name="template"
+	name= "Roibeard"
 	religion="lamhach"
 	culture="aengese"
 
@@ -406,7 +410,7 @@
 }
 
 600026 = {
-	name="template"
+	name= "Eamon"
 	religion="riabain"
 	culture="aedin"
 	female = yes
@@ -420,7 +424,7 @@
 }
 
 600027 = {
-	name="template"
+	name="Eona"
 	religion="riabain"
 	culture="aedin"
 	female = yes
@@ -434,7 +438,7 @@
 }
 
 600028 = {
-	name="template"
+	name= "Ida"
 	religion="talahm_ithir"
 	culture="dergish"
 
@@ -447,7 +451,7 @@
 }
 
 600029 = {
-	name="template"
+	name= "Draigen"
 	religion="lamhach"
 	culture="dergish"
 
@@ -460,7 +464,7 @@
 }
 
 600030 = {
-	name="template"
+	name= "Shila"
 	religion="fuale"
 	culture="dergish"
 

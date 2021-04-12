@@ -224,7 +224,7 @@
 }
 
 1300017 = {
-	name="template"
+	name= "Nahresi"
 	religion="inetsaret"
 	culture="qutummi"
 

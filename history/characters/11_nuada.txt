@@ -58,7 +58,7 @@
 }
 
 1100003 = {
-	name = "template"
+	name = "Arnold"
 	religion = "comunetian_faith"
 	culture = "nuadan"
 
@@ -72,7 +72,7 @@
 }
 
 1100004 = {
-	name = "template"
+	name = "Marius"
 	religion = "comunetian_faith"
 	culture = "nuadan"
 
@@ -86,7 +86,7 @@
 }
 
 1100005 = {
-	name = "template"
+	name = "Allan"
 	religion = "comunetian_faith"
 	culture = "nuadan"
 
@@ -100,7 +100,7 @@
 }
 
 1100006 = {
-	name = "template"
+	name = "Nichlas"
 	religion = "comunetian_faith"
 	culture = "nuadan"
 
@@ -114,7 +114,7 @@
 }
 
 1100007 = {
-	name = "template"
+	name = "Fritz"
 	religion = "comunetian_faith"
 	culture = "nuadan"
 

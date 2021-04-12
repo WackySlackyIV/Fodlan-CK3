@@ -58,7 +58,7 @@
 }
 
 700002 = {
-	name="Claude brother 1"
+	name= "Gilboa" #Claude brother 1
 	religion="kizilisma"
 	culture="almyran"
 	dynasty = 700
@@ -73,7 +73,7 @@
 }
 
 700003 = {
-	name="Claude brother 2"
+	name= "Adem" Claude brother 2
 	religion="kizilisma"
 	culture="almyran"
 	dynasty = 700
@@ -88,7 +88,7 @@
 }
 
 700004 = {
-	name="Claude brother 3"
+	name= "Leshem" #Claude brother 3
 	religion="kizilisma"
 	culture="almyran"
 	dynasty = 700
@@ -284,7 +284,7 @@
 }
 
 700017 = {
-	name="13"
+	name= "Shelef"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -297,7 +297,7 @@
 }
 
 700018 = {
-	name="14"
+	name= "Lian"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -310,7 +310,7 @@
 }
 
 700019 = {
-	name="16"
+	name= "Hever"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -323,7 +323,7 @@
 }
 
 700020 = { #minatuk
-	name="random 1"
+	name= "Shana"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -336,7 +336,7 @@
 }
 
 700021 = { #vedemdara
-	name="random 2"
+	name= "Moriel"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -349,7 +349,7 @@
 }
 
 700022 = { #tartku
-	name="random 3"
+	name= "Kit"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -362,7 +362,7 @@
 }
 
 700023 = { #dashtamin
-	name="random 4"
+	name="Karniel"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -375,7 +375,7 @@
 }
 
 700024 = {
-	name="template"
+	name= "Abraham"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -388,7 +388,7 @@
 }
 
 700025 = {
-	name="template"
+	name= "Etzion"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -401,7 +401,7 @@
 }
 
 700026 = {
-	name="template"
+	name= "Nahar"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -414,7 +414,7 @@
 }
 
 700027 = {
-	name="template"
+	name= "Yarin"
 	religion="kizilisma"
 	culture="shunish"
 
@@ -431,7 +431,7 @@
 #############
 
 710001 = {
-	name="15"
+	name="Yinon"
 	religion="dogasil"
 	culture="atran"
 
@@ -444,7 +444,7 @@
 }
 
 710002 = {
-	name="17"
+	name= "Arna"
 	religion="kizilisma"
 	female = yes
 	culture="almyran"
@@ -458,7 +458,7 @@
 }
 
 710003 = {
-	name="18"
+	name="Biran"
 	religion="kizilisma"
 	culture="pamese"
 
@@ -471,7 +471,7 @@
 }
 
 710004 = {
-	name="19"
+	name="Henri"
 	religion="kizilisma"
 	culture="pamese"
 
@@ -484,7 +484,7 @@
 }
 
 710005 = {
-	name="20"
+	name= "Elinoy"
 	religion="kizilisma"
 	culture="pamese"
 
@@ -497,7 +497,7 @@
 }
 
 710006 = {
-	name="21"
+	name= "Siel"
 	religion="denizavi"
 	culture="pamese"
 
@@ -510,7 +510,7 @@
 }
 
 710007 = {
-	name="22"
+	name="Ronli"
 	religion="denizavi"
 	culture="atran"
 
@@ -523,7 +523,7 @@
 }
 
 710008 = {
-	name="23"
+	name="Eliya"
 	religion="denizavi"
 	culture="atran"
 
@@ -536,7 +536,7 @@
 }
 
 710009 = { #baynalminal
-	name="random 5"
+	name="Georgios"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -549,7 +549,7 @@
 }
 
 710010 = { #koshdara en shekaft
-	name="random 6"
+	name="Liav"
 	religion="denizavi"
 	culture="atran"
 
@@ -562,7 +562,7 @@
 }
 
 710011 = { #vajim
-	name="random 7"
+	name="Arna"
 	religion="kizilisma"
 	culture="pamese"
 
@@ -575,7 +575,7 @@
 }
 
 710012 = { #zebrud
-	name="random 8"
+	name="Jeremaih"
 	religion="kizilisma"
 	culture="atran"
 
@@ -588,7 +588,7 @@
 }
 
 710013 = { #barnajjiye
-	name="random 9"
+	name= "Eshbal"
 	religion="kizilisma"
 	culture="pamese"
 
@@ -638,7 +638,7 @@
 }
 
 720001 = {
-	name="25"
+	name= "Shila"
 	religion="kizilisma"
 	culture="atran"
 
@@ -651,7 +651,7 @@
 }
 
 720002 = {
-	name="26"
+	name="Elimelech"
 	religion="kizilisma"
 	culture="atran"
 
@@ -664,7 +664,7 @@
 }
 
 720003 = {
-	name="27"
+	name="Andrey"
 	religion="kizilisma"
 	culture="atran"
 
@@ -677,7 +677,7 @@
 }
 
 720004 = {
-	name="29"
+	name="Naya"
 	religion="kizilisma"
 	culture="imrudi"
 
@@ -690,7 +690,7 @@
 }
 
 720005 = {
-	name="30"
+	name="Mendel"
 	religion="kizilisma"
 	culture="jibadi"
 
@@ -703,7 +703,7 @@
 }
 
 720006 = {
-	name="31"
+	name="Lalo"
 	religion="beyazisma"
 	culture="jibadi"
 
@@ -716,7 +716,7 @@
 }
 
 720007 = {
-	name="32"
+	name="Zakai"
 	religion="beyazisma"
 	culture="harika"
 
@@ -729,7 +729,7 @@
 }
 
 720008 = {
-	name="33"
+	name="Golani"
 	religion="beyazisma"
 	culture="atran"
 
@@ -742,7 +742,7 @@
 }
 
 720009 = {
-	name="51"
+	name="Eshkol"
 	religion="kizilisma"
 	culture="jibadi"
 
@@ -755,7 +755,7 @@
 }
 
 720010 = {
-	name="52"
+	name= "Benlee"
 	religion="kizilisma"
 	culture="jibadi"
 
@@ -768,7 +768,7 @@
 }
 
 720011 = {
-	name="53"
+	name= "Antonius"
 	religion="kizilisma"
 	culture="harika"
 
@@ -781,7 +781,7 @@
 }
 
 720012 = {
-	name="template"
+	name="Avichail"
 	religion="kizilisma"
 	culture="atran"
 
@@ -794,7 +794,7 @@
 }
 
 720013 = {
-	name="template"
+	name="Elena"
 	religion="kizilisma"
 	culture="atran"
 
@@ -807,7 +807,7 @@
 }
 
 720014 = {
-	name="template"
+	name="Kadan"
 	religion="kizilisma"
 	culture="atran"
 
@@ -820,7 +820,7 @@
 }
 
 720015 = {
-	name="template"
+	name= "Amiri"
 	religion="beyazisma"
 	culture="jibadi"
 
@@ -833,7 +833,7 @@
 }
 
 720016 = {
-	name="template"
+	name= "Moriel"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -850,7 +850,7 @@
 ####################
 
 730001 = {
-	name="34"
+	name="Andreia"
 	religion="beyazisma"
 	culture="harika"
 
@@ -863,7 +863,7 @@
 }
 
 730002 = {
-	name="35"
+	name="Gadiel"
 	religion="kizilisma"
 	culture="harika"
 
@@ -877,7 +877,7 @@
 
 
 730003 = {
-	name="36"
+	name= "Aharon"
 	religion="kizilisma"
 	culture="harika"
 
@@ -891,7 +891,7 @@
 
 
 730004 = {
-	name="38"
+	name="Orni"
 	religion="siyakara"
 	culture="harika"
 
@@ -904,7 +904,7 @@
 }
 
 730005 = {
-	name="template"
+	name="Nell"
 	religion="kizilisma"
 	culture="almyran"
 
@@ -917,7 +917,7 @@
 }
 
 730006 = {
-	name="template"
+	name= "Chalom"
 	religion="kizilisma"
 	culture="harika"
 
@@ -974,7 +974,7 @@
 }
 
 740001 = {
-	name="46"
+	name="Navat"
 	religion="kizilisma"
 	culture="inevhan"
 
@@ -1108,7 +1108,7 @@
 }
 
 740009 = {
-	name = "template"
+	name = "Kurush"
 	religion = "siyakara"
 	culture = "imrudi"
 
@@ -1121,7 +1121,7 @@
 }
 
 740010 = {
-	name = "template"
+	name = "Zia"
 	religion = "denizavi"
 	culture = "imrudi"
 
@@ -1134,7 +1134,7 @@
 }
 
 740011 = {
-	name = "template"
+	name = "Mahmud"
 	religion = "siyakara"
 	culture = "imrudi"
 
@@ -1147,7 +1147,7 @@
 }
 
 740012 = {
-	name = "template"
+	name = "Yusef"
 	religion = "denizavi"
 	culture = "imrudi"
 
@@ -1160,7 +1160,7 @@
 }
 
 740013 = {
-	name = "template"
+	name = "Gholam"
 	religion = "siyakara"
 	culture = "imrudi"
 
@@ -1173,7 +1173,7 @@
 }
 
 740014 = {
-	name = "template"
+	name = "Eskander"
 	religion = "siyakara"
 	culture = "imrudi"
 
@@ -1186,7 +1186,7 @@
 }
 
 740015 = {
-	name = "template"
+	name = "Faraz"
 	religion = "karakaya"
 	culture = "imrudi"
 
@@ -1199,7 +1199,7 @@
 }
 
 740016 = {
-	name = "template"
+	name = "Esma'il"
 	religion = "karakaya"
 	culture = "imrudi"
 
@@ -1212,7 +1212,7 @@
 }
 
 740017 = {
-	name = "template"
+	name = "Hassan"
 	religion = "karakaya"
 	culture = "imrudi"
 
@@ -1238,7 +1238,7 @@
 }
 
 740019 = {
-	name = "template"
+	name = "Morad"
 	religion = "siyakara"
 	culture = "imrudi"
 
@@ -1251,7 +1251,7 @@
 }
 
 740020 = {
-	name = "template"
+	name = "Hassan"
 	religion = "karakaya"
 	culture = "imrudi"
 
@@ -1268,7 +1268,7 @@
 ############
 
 750000 = {
-	name="37"
+	name= "Hassan"
 	religion="beyazisma"
 	culture="harika"
 
@@ -1281,7 +1281,7 @@
 }
 
 750001 = {
-	name="39"
+	name= "Sina"
 	religion="kizilisma"
 	culture="lianese"
 
@@ -1294,7 +1294,7 @@
 }
 
 750002 = {
-	name="40"
+	name= "Akbar"
 	religion="dogasil"
 	culture="lianese"
 
@@ -1307,7 +1307,7 @@
 }
 
 750003 = {
-	name="41"
+	name= "Esmaeel"
 	religion="kizilisma"
 	culture="lianese"
 
@@ -1320,7 +1320,7 @@
 }
 
 750004 = {
-	name="42"
+	name= "Mahdi"
 	religion="beyazisma"
 	culture="lianese"
 
@@ -1333,7 +1333,7 @@
 }
 
 750005 = {
-	name="43"
+	name="Soheil"
 	religion="beyazisma"
 	culture="lianese"
 
@@ -1346,7 +1346,7 @@
 }
 
 750006 = {
-	name="44"
+	name= "Amin"
 	religion="dogasil"
 	culture="kudamlar"
 
@@ -1359,7 +1359,7 @@
 }
 
 750007 = {
-	name="template"
+	name= "Kamran"
 	religion="dogasil"
 	culture="lianese"
 
@@ -1372,7 +1372,7 @@
 }
 
 750008 = {
-	name="template"
+	name= "Vali"
 	religion="dogasil"
 	culture="lianese"
 
@@ -1385,7 +1385,7 @@
 }
 
 750009 = {
-	name="template"
+	name= "Vishnal"
 	religion="kizilisma"
 	culture="lianese"
 
@@ -1398,7 +1398,7 @@
 }
 
 750010 = {
-	name="template"
+	name= "Reza"
 	religion="dogasil"
 	culture="kudamlar"
 
@@ -1416,7 +1416,7 @@
 ##############
 
 760000 = {
-	name="45"
+	name= "Vandad"
 	religion="karakaya"
 	culture="kudamlar"
 
@@ -1429,7 +1429,7 @@
 }
 
 760001 = {
-	name="54"
+	name= "Rasoul"
 	religion="kizilisma"
 	culture="inevhan"
 
@@ -1442,7 +1442,7 @@
 }
 
 760002 = {
-	name="55"
+	name= "Arman"
 	religion="karakaya"
 	culture="kudamlar"
 
@@ -1456,7 +1456,7 @@
 
 
 760003 = {
-	name="57" ##### UNLANDED 
+	name= "Omid" ##### UNLANDED 
 	religion="kizilisma"
 	culture="almyran"
 
@@ -1469,7 +1469,7 @@
 }
 
 760004 = {
-	name="58"
+	name= "Faramar"
 	religion="karakaya"
 	culture="kudamlar"
 
@@ -1482,7 +1482,7 @@
 }
 
 760005 = {
-	name="template"
+	name= "Mehran"
 	religion="karakaya"
 	culture="kudamlar"
 
@@ -1495,7 +1495,7 @@
 }
 
 760006 = {
-	name="template"
+	name= "Heshmat"
 	religion="kizilisma"
 	culture="inevhan"
 
@@ -1508,7 +1508,7 @@
 }
 
 760007 = {
-	name="template"
+	name= "Shadmehr"
 	religion="kizilisma"
 	culture="kudamlar"
 
@@ -1524,7 +1524,7 @@
 ################
 
 770000 = {
-	name="59"
+	name= "Khalili"
 	religion="kizilisma"
 	culture="denatlar"
 
@@ -1537,7 +1537,7 @@
 }
 
 770001 = {
-	name="60"
+	name="Shahab"
 	religion="dogasil"
 	culture="kudamlar"
 
@@ -1550,7 +1550,7 @@
 }
 
 770002 = {
-	name="61"
+	name="Kamyar"
 	religion="kizilisma"
 	culture="denatlar"
 
@@ -1563,7 +1563,7 @@
 }
 
 770003 = {
-	name="62"
+	name= "Abbas"
 	religion="dogasil"
 	culture="denatlar"
 
@@ -1576,7 +1576,7 @@
 }
 
 770004 = {
-	name="63"
+	name= "Shahin"
 	religion="kizilisma"
 	culture="denatlar"
 
@@ -1608,7 +1608,7 @@
 }
 
 770006 = {
-	name="65"
+	name= "Khashayar"
 	religion="dogasil"
 	culture="denatlar"
 
@@ -1621,7 +1621,7 @@
 }
 
 770007 = {
-	name="template"
+	name= "Jahan"
 	religion="kizilisma"
 	culture="denatlar"
 
@@ -1634,7 +1634,7 @@
 }
 
 770008 = {
-	name="template"
+	name= "Aref"
 	religion="dogasil"
 	culture="denatlar"
 
@@ -1647,7 +1647,7 @@
 }
 
 770009 = {
-	name="template"
+	name= "Ahmad"
 	religion="kizilisma"
 	culture="denatlar"
 
@@ -1660,7 +1660,7 @@
 }
 
 770010 = {
-	name="template"
+	name= "Behnam"
 	religion="dogasil"
 	culture="kudamlar"
 

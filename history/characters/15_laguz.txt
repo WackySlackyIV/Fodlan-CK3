@@ -3,6 +3,10 @@
 	religion = "laguz_pagan"
 	culture="wolfskin"
 
+	trait = gluttonous
+	trait = zealous
+	trait = humble
+
 	trait = wolfskin
 
 
@@ -15,9 +19,14 @@
 }
 
 1500001 = {
-	name="Kitsune"
+	name= "Wigan"
 	religion = "laguz_pagan"
 	culture="kitsune"
+
+
+	trait = brave
+	trait = stubborn
+	trait = gluttonous
 
 	trait = kitsune
 
@@ -31,9 +40,14 @@
 }
 
 1500002 = {
-	name="Taguel"
+	name= "Velave" #Velvet Rabbit
 	religion = "laguz_pagan"
 	culture="taguel"
+	female = yes
+
+	trait = shy
+	trait = diligent
+	trait = calm
 
 	trait = taguel
 
