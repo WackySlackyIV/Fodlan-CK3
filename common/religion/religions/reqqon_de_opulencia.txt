@@ -184,7 +184,7 @@
 	faiths = {
 		reqonn_de_opulencia = {
 			color = { 240 150 0 }
-			icon = orthodox
+			icon = reqonn_faith
 
 
 			holy_site = estiria
@@ -199,7 +199,7 @@
 		}
 		jebbilencia = {
 			color = { 107 202 35 }
-			icon = orthodox
+			icon = reqonn_faith_2
 
 			holy_site = estiria
 			holy_site = martakhy

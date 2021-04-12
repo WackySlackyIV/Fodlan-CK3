@@ -10080,31 +10080,31 @@
 
 442 = {       # (b_rhodos)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = castle_holding
 }
 
 443 = {       # (b_rhodoscoast)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = church_holding
 }
 
 444 = {       # (b_tropez)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = city_holding
 }
 
 445 = {       # (b_cavalaire)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = none
 }
 
 446 = {       # (b_gardaine)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = none
 }
 
@@ -10112,19 +10112,19 @@
 
 447 = {       # (b_lahourd)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = castle_holding
 }
 
 448 = {       # (b_larisse)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = none
 }
 
 449 = {       # (b_nauplie)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = church_holding
 }
 
@@ -10132,19 +10132,19 @@
 
 450 = {       # (b_bordeu)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = castle_holding
 }
 
 451 = {       # (b_leucade)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = none
 }
 
 452 = {       # (b_patras)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = city_holding
 }
 
@@ -10152,19 +10152,19 @@
 
 453 = {       # (b_auch)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = castle_holding
 }
 
 454 = {       # (b_laurion)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = none
 }
 
 455 = {       # (b_scillonte)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = city_holding
 }
 
@@ -10762,25 +10762,25 @@
 
 397 = {       # (b_genevieve)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = castle_holding
 }
 
 398 = {       # (b_escalles)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = city_holding
 }
 
 399 = {       # (b_sangatte)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = none
 }
 
 400 = {       # (b_andres)
               culture = kaleis
-              religion = seirosite
+              religion = cicholite
               holding = church_holding
 }
 

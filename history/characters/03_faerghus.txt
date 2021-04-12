@@ -582,7 +582,7 @@
 
 300021 = {
 	name="Arnaud"
-	religion="seirosite"
+	religion="cicholite"
 	culture="kaleis"
 	dynasty=215
 	mother = 300043
@@ -1851,7 +1851,7 @@
 
 300069 = {
 	name="Evan"
-	religion="seirosite"
+	religion="cicholite"
 	culture="kaleis"
 	dynasty=227
 	
@@ -1866,7 +1866,7 @@
 
 300070 = {
 	name="Emile"
-	religion="seirosite"
+	religion="cicholite"
 	culture="faerghus"
 	dynasty=228
 	

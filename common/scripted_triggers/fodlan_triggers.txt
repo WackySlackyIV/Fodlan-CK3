@@ -171,3 +171,71 @@ has_major_crest = {
 		has_trait = crest_major_ernest
 	}
 }
+
+is_custom_char = {
+	OR = {
+		###MALES###
+		this = character:100018 #Pallardo
+		this = character:200020 #Ignatz
+		this = character:300028 #Sylvain
+		this = character:200000 #Oswald
+		this = character:200015 #Lorenz
+		this = character:300004 #Rodrigue
+		this = character:100002 #Seteth
+		this = character:100008 #Hanneman
+		this = character:200011 #Holst
+		this = character:400015 #Hubert
+		this = character:400025 #Randolph
+		this = character:100010 #Cyril
+		this = character:200016 #Raphael
+		this = character:400023 #Ionius
+		this = character:300011 #Ashe
+		this = character:100016 #Aelfric
+		this = character:100004 #Alois
+		this = character:300034 #Gwendal
+		this = character:400024 #Arundel
+		this = character:700001 #Nader
+		this = character:300026 #Felix
+		this = character:300031 #Dedue
+		this = character:300076 #Caek
+		this = character:400017 #Ferdinand
+		this = character:100012 #Yuri
+		this = character:400019 #Linhardt
+		this = character:400022 #Jeritza
+		this = character:100005 #Gilbert
+		this = character:400018 #Caspar
+		this = character:100009 #Jeralt
+		this = character:100013 #Balthus
+		this = character:200026 #Acheron
+		this = character:700000 #Milad
+		this = character:300000 #Dimitri
+		this = character:200012 #Claude
+		this = character:400006 #Ludwig
+		
+		###FEMALES###
+		this = character:200022 #Marianne
+		this = character:100011 #Catherine
+		this = character:400027 #Ladislava
+		this = character:300033 #Annette
+		this = character:100014 #Constance
+		this = character:100006 #Shamir
+		this = character:100019 #Anna
+		this = character:100015 #Hapi
+		this = character:300032 #Mercedes
+		this = character:100007 #Manuela
+		this = character:400016 #Beradetta
+		this = character:400021 #Petra
+		this = character:200023 #Hilda
+		this = character:300035 #Cornelia
+		this = character:300025 #Ingrid
+		this = character:200003 #Judith
+		this = character:200025 #Leonie
+		this = character:400020 #Dorothea
+		this = character:200013 #Tiana
+		this = character:400026 #Fleche
+		this = character:200021 #Lysithea
+		this = character:400000 #Edelgard
+		this = character:100003 #Flayn
+		this = character:100000 #Rhea
+	}
+}

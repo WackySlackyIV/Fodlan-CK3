@@ -310,7 +310,7 @@
 		}
 		ablehnist = {
 			color = { 150 30 30 }
-			icon = ablehnist
+			icon = ablehnist_faith_2
 
 			holy_site = mor_enbarr
 			holy_site = garreg_mach
@@ -330,7 +330,7 @@
 
 		mirenist = {
 			color = { 203 79 140 }
-			icon = germanic
+			icon = western_church_2
 
 			holy_site = mor_enbarr
 			holy_site = garreg_mach
@@ -352,7 +352,7 @@
 		}
 		iarthairic = {
 			color = { 25 25 101 }
-			icon = germanic
+			icon = western_church
 
 			holy_site = garreg_mach
 			holy_site = enbarr

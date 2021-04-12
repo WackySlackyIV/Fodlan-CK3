@@ -181,7 +181,7 @@
 
 		lmabhal = { #strenght, unity, development and legality
 			color = { 50 100 0 }
-			icon = ibadi_custom
+			icon = kotesh_faith
 
 			holy_site = suvd
 			

@@ -179,7 +179,7 @@
 	faiths = {
 		inetsaret = { #Main morfis religion focusing on arcane arts
 			color = { 145 34 186 }
-            icon = sunni
+            		icon = morfis_faith_3
             
 			holy_site = djeb
 			holy_site = qito
@@ -197,7 +197,7 @@
 		
 		nekfsaret = { #A spiritual faith
 			color = { 107 3 31 }
-            icon = sunni
+            		icon = morfis_faith_2
             
 			holy_site = shambala
 
@@ -213,7 +213,7 @@
 		
 		sekisaret = { #A shadow magic faith
 			color = { 32 51 37 }
-            icon = sunni
+            		icon = morfis_faith_3
             
 			holy_site = shambala
 
