@@ -49,9 +49,21 @@
 			can_have_partition_succession_law_trigger = yes
 		}
 		should_start_with = {
-			historical_succession_access_single_heir_succession_law_trigger = no
-			has_government = tribal_government
-			NOT = { culture = { has_innovation = innovation_kingship } }
+			NOR = {
+				historical_succession_access_single_heir_succession_law_trigger = yes
+				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
+				historical_succession_access_single_heir_dynasty_house_trigger = yes
+			}
+			OR = {
+				has_government = feudal_government
+				has_government = clan_government
+			}
+			culture = {
+				has_innovation = innovation_hereditary_rule
+				NOT = {
+					has_innovation = innovation_heraldry
+				}
+			}
 		}
 		succession = {
 			order_of_succession = inheritance
@@ -135,24 +147,36 @@
 	
 	single_heir_succession_law = {
 		can_keep = {
-			can_keep_single_heir_succession_law_trigger = yes
-			# Vassal Contract allows it
-			custom_description = {
-				text = succession_laws_must_not_be_forced_partition
-				NAND = {
-					is_independent_ruler = no
-					vassal_contract_has_flag = locked_to_partition
+			OR = {
+				can_keep_single_heir_succession_law_trigger = yes
+				# Vassal Contract allows it
+				custom_description = {
+					text = succession_laws_must_not_be_forced_partition
+					NAND = {
+						is_independent_ruler = no
+						vassal_contract_has_flag = locked_to_partition
+					}
 				}
+				has_government = alliance_government
+			}
+		}	
+		can_have = {
+			OR = {
+				can_have_single_heir_succession_law_trigger = yes
+				has_government = alliance_government
 			}
 		}
-		can_have = {
-			can_have_single_heir_succession_law_trigger = yes
-		}
 		can_pass = {
-			can_change_succession_law_trigger = yes
+			OR = {
+				can_change_succession_law_trigger = yes
+				has_government = alliance_government
+			}
 		}
 		should_start_with = {
-			historical_succession_access_single_heir_succession_law_trigger = yes
+			OR = {
+				historical_succession_access_single_heir_succession_law_trigger = yes
+				has_government = alliance_government
+			}
 		}
 		succession = {
 			order_of_succession = inheritance

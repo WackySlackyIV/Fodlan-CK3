@@ -399,6 +399,8 @@
 	1181.1.1 = {
 		give_nickname = nick_master_tactician
 		employer = 200000
+			add_pressed_claim = d_riegan
+			add_pressed_claim = c_derdriu
 	}
 	1200.1.1={
 		death="1200.1.1"
