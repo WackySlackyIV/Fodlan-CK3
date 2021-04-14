@@ -774,7 +774,7 @@
 
 	trait = education_diplomacy_1
 	disallow_random_traits = yes
-	1157.2.26 = {
+	1167.2.26 = {
 		birth=yes
 		effect = {
 			add_character_flag = has_scripted_appearance

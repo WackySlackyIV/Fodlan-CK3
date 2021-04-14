@@ -247,7 +247,7 @@
 	learning=5
 	health = 6.5
 	prowess = 8
-	add_stress = 200 #It ShOuLd WoRk
+	stress = 200 #It ShOuLd WoRk
 
 	trait = chaste
 	trait = temperate

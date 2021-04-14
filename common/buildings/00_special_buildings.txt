@@ -586,7 +586,7 @@ derdriu_harbor_01 = {
 # The Forts
 ##########
 	#Fodlans Throat
-fodlans_throat_01 = {
+fodlans_locket_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_theodosian_walls.dds"
@@ -817,7 +817,7 @@ zanado_01 = { #red canyon ruins
 	type = special
 }
 	#shamballah
-zanado_01 = { #red canyon ruins
+shamballah_01 = { #shamballah
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_alhambra.dds"

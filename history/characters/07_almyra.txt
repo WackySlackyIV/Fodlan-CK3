@@ -73,7 +73,7 @@
 }
 
 700003 = {
-	name= "Adem" Claude brother 2
+	name= "Adem" #Claude brother 2
 	religion="kizilisma"
 	culture="almyran"
 	dynasty = 700

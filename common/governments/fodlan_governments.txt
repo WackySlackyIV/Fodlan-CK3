@@ -10,6 +10,7 @@
 
 	vassal_contract = {
 		feudal_government_taxes
+		feudal_government_levies
 		alliance_contract
 	}
 	

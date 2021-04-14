@@ -2364,7 +2364,7 @@ c_bhila = {
 }
 
 c_raglan = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 200007
               }
@@ -2381,13 +2381,13 @@ c_jarrow = {
 c_ely = {
               1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
-                            liege = d_edmund
+                            liege = k_leicester
                             holder = 200050
               }
 }
 
 c_edmund = {
-              1.1.1 = { change_development_level = 11 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200007
               }
@@ -2971,7 +2971,7 @@ c_khayl = {
 }
 
 c_throatford = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 5 }
               1180.1.1 = {
                             holder = 200011
               }

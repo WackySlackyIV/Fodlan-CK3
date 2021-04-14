@@ -7689,6 +7689,11 @@
               culture = leicester
               religion = seirosite
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = derdriu_harbor_01
+			special_building = derdriu_harbor_01
+		}
 }
 
 26 = {        # (b_concilla)
@@ -7855,6 +7860,11 @@
               culture = leicester
               religion = seirosite
               holding = castle_holding
+		
+		1101.1.1 = {
+			special_building_slot = myrddin_bridge_01
+			special_building = myrddin_bridge_01
+		}
 }
 
 60 = {        # (b_emrys)
@@ -7922,6 +7932,10 @@
               culture = kupalan
               religion = seirosite
               holding = tribal_holding
+		1101.1.1 = {
+			special_building_slot = kupala_mines_01
+			special_building = kupala_mines_01
+		}
 }
 
 145 = {       # (b_perperuna)
@@ -7949,6 +7963,11 @@
               culture = leicester
               religion = seirosite
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = fodlans_locket_01
+			special_building = fodlans_locket_01
+		}
 }
 
 165 = {       # (b_keynes)
@@ -9510,6 +9529,10 @@
               culture = adrestian
               religion = ablehnist
               holding = castle_holding
+		1101.1.1 = {
+			special_building_slot = hevring_mines_01
+			special_building = hevring_mines_01
+		}
 }
 
 733 = {       # (b_eitzing)
@@ -9954,6 +9977,11 @@
               culture = faerghus
               religion = iarthairic
               holding = castle_holding
+
+		751.1.1 = {
+			special_building_slot = arianhrod_01
+			special_building = arianhrod_01
+		}
 }
 
 363 = {       # (b_lanrivore)
@@ -11387,6 +11415,11 @@
               culture = faerghus
               religion = seirosite
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = fhirdiad_academy_01
+			special_building = fhirdiad_academy_01
+		}
 }
 
 188 = {       # (b_lyon)
@@ -12513,6 +12546,11 @@
               culture = adrestian
               religion = ablehnist
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = ebarr_opera_house_01
+			special_building = ebarr_opera_house_01
+		}
 }
 
 487 = {       # (b_wilhelmdorf)
@@ -12745,6 +12783,11 @@
               culture = adrestian
               religion = ablehnist
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = merceus_01
+			special_building = merceus_01
+		}
 }
 
 615 = {       # (b_beckum)

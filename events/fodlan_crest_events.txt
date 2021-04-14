@@ -1296,6 +1296,65 @@ FOD_crests.001 = { #Improved crest system
 					}
 				}
 			}
+			5 = { ##Malik
+				trigger = {
+					OR = {
+						mother = { has_trait = crest_malik }
+						real_father = { has_trait = crest_malik }
+					}
+				}
+				random_list = {
+					25 = { 
+						modifier = {
+							add = 15
+							AND = {
+								mother = { has_trait = crest_malik }
+								real_father = { has_trait = crest_malik }
+							}
+						}
+						add_trait = crest_minor_malik 
+					}
+					5 = { 
+						modifier = {
+							add = 5
+							AND = {
+								mother = { has_trait = crest_malik }
+								real_father = { has_trait = crest_malik }
+							}
+						}
+						add_trait = crest_major_malik 
+					}
+					30 = { add_trait = crest_blood_malik }
+					40 = { 
+						modifier = {
+							add = -20
+							AND = {
+								mother = { has_trait = crest_malik }
+								real_father = { has_trait = crest_malik }
+							}
+						}
+						if = {
+							limit = {
+								any_parent = { 
+									is_landed = yes
+									OR = {
+										has_trait = zealous
+										has_trait = ambitious
+									}
+								}
+							}
+							real_father = {
+								trigger_event = FOD_crests.002
+								days = 7
+							}
+							mother = {
+								trigger_event = FOD_crests.002
+								days = 7
+							}
+						}
+					}
+				}
+			}
 		}
 		trigger_event = FOD_crests.003
 	}
@@ -1697,6 +1756,23 @@ FOD_crests.003 = { #follow up of crest event adding a chance to get an extra blo
 					add_trait = crest_blood_dominic
 				}
 			}
+			5 = {
+				trigger = {
+					NOT = { has_trait = crest_malik }
+					OR = {
+						real_father = {
+							has_trait = crest_malik
+						}
+						mother = { 
+							has_trait = crest_malik
+						}
+					}
+				}
+				random  = {
+					chance = 25
+					add_trait = crest_blood_malik
+				}
+			}
 		}
 	}
 }
@@ -1710,20 +1786,26 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 		OR = {
 			mother = { 
 				is_landed = yes
-				has_crest_potential = no 
 			}
 			real_father = { 
 				is_landed = yes
+			}
+		}
+		OR = {
+			mother = { 
+				has_crest_potential = no 
+			}
+			real_father = { 
 				has_crest_potential = no 
 			}
 		}
-		has_culture_group = culture_group:fodlan_group
 	}
 
 	option = {
-		if = {
+		if = { #FODLAN
 			limit = {
 				dynasty = { any_dynasty_member = { has_crest_potential = yes } }
+				has_culture_group = culture_group:fodlan_group
 			}
 			random = {
 				chance = 3
@@ -2021,6 +2103,31 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 					1 = { add_trait = crest_major_flames }
 					1 = { add_trait = crest_major_seiros }
 					1 = { add_trait = crest_major_ernest }
+				}
+			}
+		}
+		
+		if = { #ALMYRA
+			limit = {
+				dynasty = { any_dynasty_member = { has_trait = crest_malik } }
+				has_culture_group = culture_group:mihran_group
+			}
+			random = {
+				chance = 3
+				random_list = {
+					20 = { add_trait = crest_major_malik }
+					40 = { add_trait = crest_minor_malik }
+					60 = { add_trait = crest_blood_malik }
+				}
+			}
+		}
+		else = {
+			random = {
+				chance = 1
+				random_list = {
+					1 = { add_trait = crest_blood_malik }
+					1 = { add_trait = crest_minor_malik }
+					1 = { add_trait = crest_major_malik }
 				}
 			}
 		}
