@@ -32,6 +32,11 @@
 			set_relation_nemesis = character:200006
 		}
 	}
+	1180.8.23={
+		effect = {
+			set_designated_heir = character:200012
+		}
+	}
 	1200.1.1={
 		death="1200.1.1"
 	}
