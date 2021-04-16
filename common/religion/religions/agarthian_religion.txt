@@ -181,7 +181,7 @@
 			color = { 65 22 71 }
             icon = baltic
             
-			holy_site = shambala
+			holy_site = shambhala
 
 			doctrine = tenet_warmonger
 			doctrine = tenet_esotericism
@@ -194,7 +194,7 @@
 			color = { 172 23 23 }
             icon = baltic
             
-			holy_site = shambala
+			holy_site = shambhala
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_warmonger

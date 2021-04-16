@@ -183,7 +183,7 @@
 			color = { 133 133 133 }
 			icon = custom_faith_1
 
-			holy_site = shambala
+			holy_site = shambhala
 			
 			doctrine = tenet_communal_identity
 			doctrine = tenet_pacifism
@@ -195,5 +195,4 @@
 		}
 
 	}
-
 }

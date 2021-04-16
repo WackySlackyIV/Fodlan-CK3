@@ -1,104 +1,187 @@
 ﻿l_english:
  #crests
  zanadic_religion:0 "Zanadic Religion"
+ zanadic_religion_desc:0 "The largest religious organisation in all of Fodlan, the church was established by Saint Seiros after the War of Heroes"
  zanadic_religion_adj:0 "Zanadic"
+ 
  seirosite:0 "Seirosite"
+ seirosite_desc:0 "The Church of Seiros has been the dominant faith of Fodlan for hundreds of years, it's followers are devoted to The Goddess with many becoming Knights in order to defend the Church" 
  seirosite_adj:0 "Seirosite"
+ 
  macuilite:0 "Macuilite"
+ macuilite_desc:0 "The followers of Saint Macuil tend to think before striking, especially when the target is an enemy or a grudge target"
  macuilite_adj:0 "Macuilite"
+ 
  indechite:0 "Indechite"
+ indechite_desc:0 "The followers of Saint Indech are taught to pursue knowledge and forego violence in favour of more peaceful paths"
  indechite_adj:0 "Indechite"
- cicholite:0 "Cicholite"
+ 
+ cicholite:0 "Cicholite" "The followers of Saint Cichol are taught to work and work hard, making sure to be as organised as possible"
  cicholite_adj:0 "Cicholite"
+ 
+ cethleannite:0 "Cethleannite"
+ cethleannite_desc:0 "The followers of Saint Cethleann are taught to prioritise the sick and injured, reaching their hands out for the people of the world is the highest and most important aspect of her teachings"
+ 
  ablehnist:0 "Ablehnist"
+ ablehnist_desc:0 "The Ablehnist faith is more of a path than an actual religion, it teaches it's followers to reject theocratic authority in favour of reaching out for their fellow man"
  ablehnist_adj:0 "Ablehnist"
+ 
  mirenist:0 "Mirenist"
+ mirenist_desc:0 "The Mirenist faith is a path of peaceful rebellion, rejecting theocratic authority not by way of the sword but by simply saying "No" to any representative of the divine"
  mirenist_adj:0 "Mirenist"
+ 
  iarthairic:0 "Iarthairic"
+ iarthairic_desc:0 "While the Church of Seiros claims to be united this is simply not the case, the western church is quicker to reach for the sword than the central church is"
  iarthairic_adj:0 "Iarthairic"
+ 
  high_sothic:0 "High Sothic"
+ high_sothic_desc:0 "The oldest and most forgotten part of the seirosian faith, worship of the Goddess herself which also reveals her true name, Sothis"
  high_sothic_adj:0 "High Sothic"
 
  buykisik_religion:0 "Buykisik Religion"
- buykisik_religion_adj:0 "Buykisik"
+ buykisik_religion_desc:0 "The multiple suns of Almyra are dedicated to each of the passions and strengths that Malik himself expressed, those who follow them aim to walk their chosen path towards their chosen sun"
+ buykisik_adj:0 "Buykisik"
+
  kizilisma:0 "Kizilisma"
+ Kizilisma_desc:0 "The Red Sun of Malik's ambition soared throughout the world, those who choose to embrace the flames of his desire to bring unity to all of Almyra and beyond"
  kizilisma_adj:0 "Kizilisma"
+
  denizavi:0 "Denizavi"
+ denizavi_desc:0 "The Blue Sun of Malik represented his strong belief in justice and diligence, those who follow this path aim to be worthy of the many thrones of fire"
  denizavi_adj:0 "Denizavi"
+
  beyazisma:0 "Beyazisma"
+ beyazisma_desc:0 "The White Sun of Malik's love is cherished by all, embracing this path means to embrace family and community as if they were the very pillars of the world"
  beyazisma_adj:0 "Beyazisma"
+
  siyakara:0 "Siyakara"
+ siyakara_desc:0 "The Black Sun of Malik's leadership is respected by many as this was the very sun that led Malik to bring his people to their home, embracing this path is to become a leader and a bright light to all "
  siyakara_adj:0 "Siyakara"
+ 
  dogasil:0 "Dogasil"
+ dogasil_desc:0 "The Green Sun of Malik is honoured as being the most difficult yet beloved path as Malik, despite his role as king lived amongst the people, loved nature and remained a shepherd to the end of his days"
  dogasil_adj:0 "Dogasil"
+
  karakaya:0 "Karakaya"
+ karakaya_desc:0 "The Brown Sun of Malik is sought after by those who dedicate themselves to the arts, Malik shared all that he discovered and created and yet remained a humble man, not seeking anything for his works"
  karakaya_adj:0 "Karakaya"
 
  anthrapos_religion:0 "Agarthan"
+ anthrapos_religion_desc:0 ""
  anthrapos_religion_adj:0 "Agarthan"
+ 
  agarthan:0 "Agarthan"
- agarthan_adj:0 "Agarthan"
+ agarthan_desc:0 ""
+ agarthan_adj:0 "Agarthan" 
+ 
  liberationist:0 "Liberationist"
+ liberationist_desc:0 ""
  liberationist_adj:0 "Liberationist"
 
  dewa_sheta_ah_religion:0 "Dewa Sheta Ah"
+ dewa_sheta_ah_religion_desc:0 ""
  dewa_sheta_ah_religion_adj:0 "Dewa Sheta Ah"
+ 
  inetsaret:0 "Inetsaret"
+ inetsaret_desc:0 ""
  inetsaret_adj:0 "Inetsaret"
+ 
  nekfsaret:0 "Nekfsaret"
+ nekfsaret_desc:0 ""
  nekfsaret_adj:0 "Nekfsaret"
+ 
  sekisaret:0 "Sekisaret"
+ sekisaret_desc:0 ""
  sekisaret_adj:0 "Sekisaret"
 
  lumentalism_religion:0 "Lumentalism"
+ lumentalism_religion_desc:0 ""
  lumentalism_religion_adj:0 "Lumentalism"
+ 
  lumialue:0 "Lumialue"
+ lumialue_desc:0 ""
  lumialue_adj:0 "Lumialue"
+ 
  vuristoalite:0 "Vuristoalite"
+ vuristoalite_desc:0 ""
  vuristoalite_adj:0 "Vuristoalite"
 
  olgail_bilog_religion:0 "Olgail Bilog"
+ olgail_bilog_religion_desc:0 ""
  olgail_bilog_religion_adj:0 "Olgail Bilog"
+ 
  lamhach:0 "Lamhach"
+ lamhach_desc:0 ""
  lamhach_adj:0 "Lamhach"
+ 
  fuale:0 "Fuale"
+ fuale_desc:0 ""
  fuale_adj:0 "Fuale"
+ 
  talahm_ithir:0 "Talahm Ithir"
+ talahm_ithir_desc:0 ""
  talahm_ithir_adj:0 "Talahm Ithir"
+ 
  gaothe:0 "Gaothe"
+ gaothe_desc:0 ""
  gaothe_adj:0 "Gaothe"
 
  pantheon_religion:0 "Pantheon"
+ pantheon_religion_desc:0 ""
  pantheon_religion_adj:0 "Pantheon"
+ 
  pantheon_faith:0 "Pantheon"
+ pantheon_faith_desc:0 ""
  pantheon_faith_adj:0 "Pantheon"
+ 
  comunetian_faith:0 "Comunetian"
+ comunetian_faith_desc:0 ""
  comunetian_faith_adj:0 "Comunetian"
 
  reqonn_de_opulencia_religion:0 "Reqonn de Opulencia"
+ reqonn_de_opulencia_religion_desc:0 ""
  reqonn_de_opulencia_religion_adj:0 "Reqonn de Opulencia"
+ 
  reqonn_de_opulencia:0 "Reqonn de Opulencia"
+ reqonn_de_opulencia_desc:0 ""
  reqonn_de_opulencia_adj:0 "Reqonn de Opulencia"
+ 
  jebbilencia:0 "Jebbilencia"
+ jebbilencia_desc:0 ""
  jebbilencia_adj:0 "Jebbilencia"
 
  saatpra_daanav_religion:0 "Saatpra Daanav"
+ saatpra_daanav_religion_desc:0 ""
  saatpra_daanav_religion_adj:0 "Saatpra Daanav"
+ 
  lmabhal:0 "Lmabhal"
+ lmabhal_desc:0 ""
  lmabhal_adj:0 "Lmabhal"
+ 
  kamajorma:0 "Kamajorma"
+ kamajorma_desc:0 ""
  kamajorma_adj:0 "Kamajorma"
+ 
  dinymori:0 "Dinymori"
+ dinymori_desc:0 "
  dinymori_adj:0 "Dinymori"
 
  tenolotiskardias_religion:0 "Tenolotiskardias"
+ tenolotiskardias_religion_desc:0 ""
  tenolotiskardias_religion_adj:0 "Tenolotiskardias"
+
  tenolotiskardias_faith:0 "Tenolotiskardias"
+ tenolotiskardias_faith_desc:0 ""
  tenolotiskardias_faith_adj:0 "Tenolotiskardias"
 
  tjonar_ormurinn_religion:0 "Tjonar Ormurinn"
+ tjonar_ormurinn_religion_desc:0 ""
  tjonar_ormurinn_religion_adj:0 "Tjonar Ormurinn"
+
  heimsormurinn:0 "Heimsormurinn"
+ heimsormurinn_desc:0 "The faith of the people of Sreng, representing their nomadic ways and the pursuit of strength in the name of their god"
  heimsormurinn_adj:0 "Heimsormurinn"
+ 
  mekeal:0 "Mekeal"
+ mekeal_desc:0 "The faith of the Desert-Lord himself, his followers seek to fight those who they consider weak and cowardly, the weak exist to fear the strong and none know this better than the Srengites themselves"
  mekeal_adj:0 "Mekeal"

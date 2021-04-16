@@ -66,7 +66,7 @@ ailell = {
 	county = c_ailell
 	
 	character_modifier = {
-		name = holy_site_santiago_effect_name
+		name = holy_site_ailell_effect_name
 		tyranny_loss_mult = 0.2
 	}
 }
@@ -75,7 +75,7 @@ tailtean = {
 	county = c_tailtean
 	
 	character_modifier = {
-		name = holy_site_santiago_effect_name
+		name = holy_site_tailtean_effect_name
 		knight_effectiveness_mult = 0.1	
 	}
 }
@@ -147,10 +147,10 @@ nuvelle = {
 ### Anthrapos ###
 #################
 
-shambala = {
+shambhala = {
 	county = c_durhaus
 	character_modifier = {
-		name = holy_site_shambala_effect_name
+		name = holy_site_shambhala_effect_name
 		scheme_power = 0.1
 		
 	}

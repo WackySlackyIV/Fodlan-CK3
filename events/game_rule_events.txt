@@ -145,6 +145,10 @@ game_rule.1001 = { #by Mathilda Bjarnehed
 					exists = character:400024
 					this = character:400024 #Prevents Volkhard from getting family
 				}
+				AND = {
+					exists = character:1000000
+					this = character:1000000 #Prevents Macuil from getting family
+				}
 			}
 		}
 	}

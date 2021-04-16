@@ -199,7 +199,7 @@
 			color = { 107 3 31 }
             		icon = morfis_faith_2
             
-			holy_site = shambala
+			holy_site = shambhala
 
 			doctrine = tenet_inner_journey 
 			doctrine = tenet_bhakti	
@@ -215,7 +215,7 @@
 			color = { 32 51 37 }
             		icon = morfis_faith_3
             
-			holy_site = shambala
+			holy_site = shambhala
 
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_sacred_shadows
@@ -225,8 +225,5 @@
 			doctrine = doctrine_kinslaying_shunned
 
 		}
-		
-		
-		
 	}
 }

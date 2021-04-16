@@ -588,6 +588,7 @@
 	trait = intellect_good_1
 	trait = shrewd
 	trait = schemer
+	trait = disinherited
 
 	trait = crest_major_aubin
 	trait = singer
@@ -633,6 +634,7 @@
 	trait = education_martial_2
 	trait = physique_good_3
 	trait = strong
+	trait = disinherited
 
 	trait = crest_major_chevalier
 	disallow_random_traits = yes
@@ -691,6 +693,7 @@
 	trait = education_stewardship_3
 	trait = possessed
 	trait = pure_blooded
+	trait = disinherited
 
 	trait = crest_major_noa
 	disallow_random_traits = yes
@@ -742,6 +745,7 @@
 	trait = calm
 
 	trait = education_diplomacy_2
+	trait = disinherited
 
 	trait = crest_major_timotheos
 	disallow_random_traits = yes

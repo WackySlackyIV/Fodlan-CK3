@@ -3,8 +3,6 @@
 	religion="inetsaret"
 	culture="morfis"
 
-	disallow_random_traits = yes
-
 	1162.12.20 = {
 		birth=yes
 	}
