@@ -1005,7 +1005,7 @@
 }
 
 740003 = {
-	name="48"
+	name="Ishmael"
 	religion="kizilisma"
 	culture="imrudi"
 
@@ -1018,7 +1018,7 @@
 }
 
 740004 = {
-	name="49"
+	name="Gadiel"
 	religion="denizavi"
 	culture="imrudi"
 
@@ -1031,7 +1031,7 @@
 }
 
 740005 = {
-	name="50"
+	name="Mevorach"
 	religion="denizavi"
 	culture="imrudi"
 
@@ -1225,7 +1225,7 @@
 }
 
 740018 = {
-	name = "template"
+	name = "Ordan"
 	religion = "karakaya"
 	culture = "imrudi"
 
