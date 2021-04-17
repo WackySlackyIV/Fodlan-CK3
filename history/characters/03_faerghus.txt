@@ -2620,7 +2620,7 @@
 }
 
 300107 = { #ryswise
-	name="zeke" 
+	name="Zeke" 
 	religion="seirosite"
 	culture="faerghus"
 	dynasty= 246
