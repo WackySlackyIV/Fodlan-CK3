@@ -191,6 +191,7 @@
 	religion="seirosite"
 	culture="leicester"
 	father = 200029
+	dna = dna_richard
 
 	diplomacy = 8
 	stewardship = 6
@@ -204,8 +205,10 @@
 
 	1139.5.28 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
-
 	1161.1.1 = {
 		add_spouse = 200063
 	}

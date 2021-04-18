@@ -630,9 +630,13 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200006 #Richard
+                this = character:200006 #Richard
+            }
         }
     }
-
     male_hair_fp1_05 = { # Long fine
         dna_modifiers = {
             accessory = {
