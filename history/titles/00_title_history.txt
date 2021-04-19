@@ -4251,7 +4251,7 @@ c_yarmouth = {
               1.1.1 = { change_development_level = 5 }
               1180.1.1 = {
                             liege = k_leicester
-                            holder = 200047
+                            holder = 200026
               }
 }
 
@@ -4274,7 +4274,7 @@ c_bordersley = {
               1.1.1 = { change_development_level = 7 }
               1180.1.1 = {
                             liege = d_myrddin
-                            holder = 200026
+                            holder = 200047
               }
 }
 

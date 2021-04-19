@@ -2033,7 +2033,10 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 				}
 			}
 		}
-		else = {
+		else_if = {
+			limit = {
+				has_culture_group = culture_group:fodlan_group
+			}
 			random = {
 				chance = 1
 				random_list = {
@@ -2106,8 +2109,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 				}
 			}
 		}
-		
-		if = { #ALMYRA
+		else_if = { #ALMYRA
 			limit = {
 				dynasty = { any_dynasty_member = { has_trait = crest_malik } }
 				has_culture_group = culture_group:mihran_group
@@ -2121,7 +2123,10 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 				}
 			}
 		}
-		else = {
+		else_if = {
+			limit = {
+				has_culture_group = culture_group:mihran_group
+			}
 			random = {
 				chance = 1
 				random_list = {

@@ -1,6 +1,7 @@
 ﻿l_english:
  #leader titles
- leader:0 "Leader"
+ leader_male:0 "Leader"
+ leader_female:0 "Leader"
  leader_spouse_male:0 "Grand Duke"
  leader_spouse_female:0 "Grand Duchess"
 

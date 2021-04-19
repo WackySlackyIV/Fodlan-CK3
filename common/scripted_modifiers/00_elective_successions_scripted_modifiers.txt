@@ -3354,18 +3354,6 @@ elector_voting_pattern_alliance_elective_modifier = {
 	modifier = { #Friend rival bonus
 		desc = tooltip_alliance_vote_rival_friend
 		NOT = { this = scope:candidate } #Do not judge yourself.
-		scope:candidate = {
-			OR = {
-				has_relation_friend = yes
-				has_relation_rival = yes
-			}
-		}
-		scope:holder = {
-			OR = {
-				has_relation_friend = yes
-				has_relation_rival = yes
-			}
-		}
 		add = {
 			value = 0
 			if = { #if candidate is rival

@@ -16,7 +16,8 @@
  indechite_desc:0 "The followers of Saint Indech are taught to pursue knowledge and forego violence in favour of more peaceful paths"
  indechite_adj:0 "Indechite"
  
- cicholite:0 "Cicholite" "The followers of Saint Cichol are taught to work and work hard, making sure to be as organised as possible"
+ cicholite:0 "Cicholite"
+ cicholite_desc:0 "The followers of Saint Cichol are taught to work and work hard, making sure to be as organised as possible"
  cicholite_adj:0 "Cicholite"
  
  cethleannite:0 "Cethleannite"

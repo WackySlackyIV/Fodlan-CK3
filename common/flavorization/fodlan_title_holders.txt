@@ -1,8 +1,20 @@
 ﻿#Leicester Alliance Tiers
-leader = {
+leader_female = {
 	type = character
 	special = holder
 	priority = 301
+	gender = male
+	titles = { k_leicester }
+	governments = { alliance_government }
+	top_liege = no
+	only_holder = yes
+}
+
+leader_male = {
+	type = character
+	special = holder
+	priority = 301
+	gender = female
 	titles = { k_leicester }
 	governments = { alliance_government }
 	top_liege = no
