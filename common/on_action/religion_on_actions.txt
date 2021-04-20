@@ -6,6 +6,8 @@
 on_faith_created = {
 	effect = {
 		scope:old_faith = {
+			if = {
+				limit = { has_doctrine_parameter = unreformed }
 				set_variable = { name = has_been_reformed }
 			}
 		
