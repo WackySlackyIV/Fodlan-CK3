@@ -77,6 +77,8 @@
 	dynasty=108
 	religion="seirosite"
 	culture="leicester"
+	father= 200076 #Duncan
+	mother = 200075 #Gruoch
 
 	trait = curious
 	disallow_random_traits = yes
@@ -84,7 +86,7 @@
 	1173.6.1 = {
 		birth="1173.6.1"
 	}
-	1181.1.1 = {
+	1177.1.1 = {
         #Was remove roundtable here
 	}
 	1200.1.1={
@@ -1835,5 +1837,94 @@
 
 	1200.1.1={
 		death=yes
+	}
+}
+
+200074 = {
+	name= "Regan" #Wife of Oswald and personal doctor
+	religion="seirosite"
+	culture="leicester"
+	
+	female = yes
+
+	stewardship = 8
+	learning = 9
+
+	trait = compassionate
+	trait = chaste
+	trait = trusting
+	
+	trait = physician_3
+	trait = blind
+	disallow_random_traits = yes
+	
+	1137.9.8 = {
+		birth=yes
+	}
+	1181.1.1 = {
+		add_spouse = 200000
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+200075 = {
+	name= "Gruoch" #Wife of Acheron, mother of Phillip, and widow of Duncan
+	religion="seirosite"
+	culture="leicester"
+	female = yes
+	
+   	diplomacy = 7
+   	martial = 2
+	stewardship= 4
+   	intrigue= 10
+	learning = 7
+
+	trait = ambitious
+	trait = sadistic
+	trait = paranoid
+
+	trait = education_intrigue_3	
+	trait = physician_2
+	disallow_random_traits = yes
+
+	1146.1.1 = {
+		birth=yes
+	}
+	
+	1172.4.1 = {
+		add_spouse = 200076
+	}
+	1180.4.4 = {
+		add_spouse = 200026
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+200076 = {
+	name = "Duncan" #Father of Phillip
+	religion = "seirosite"
+	culture = "leicester"
+	dynasty= 108
+	
+	martial = 9
+	
+	trait = content
+	trait = brave
+	trait = fickle
+	
+	trait = education_martial_2
+	disallow_random_traits = yes
+
+	1146.1.1 = {
+		birth=yes
+	}
+	1172.4.1 = {
+		add_spouse = 200075
+	}
+	1180.1.1 = {
+		death = yes
 	}
 }

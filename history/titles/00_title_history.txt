@@ -819,7 +819,12 @@ d_ordelia = {
 }
 
 d_myrddin = {
-              1180.1.1 = {
+			  1173.6.1 = {
+                            liege = k_leicester
+                            holder = 200076
+			  }
+
+			  1180.1.1 = {
                             liege = k_leicester
                             holder = 200002
               }
