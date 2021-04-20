@@ -1841,7 +1841,7 @@
 }
 
 200074 = {
-	name= "Regan" #Wife of Oswald and personal doctor
+	name= "Cordelia" #Wife of Oswald and personal doctor
 	religion="seirosite"
 	culture="leicester"
 	
@@ -1855,10 +1855,9 @@
 	trait = trusting
 	
 	trait = physician_3
-	trait = blind
 	disallow_random_traits = yes
 	
-	1137.9.8 = {
+	1127.9.8 = {
 		birth=yes
 	}
 	1181.1.1 = {
