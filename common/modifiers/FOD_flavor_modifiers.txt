@@ -1,0 +1,5 @@
+﻿
+no_tomato_modifier = {
+	icon = county_modifier_opinion_negative
+	county_opinion_add = -10
+}

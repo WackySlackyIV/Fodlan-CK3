@@ -1,0 +1,17 @@
+perfect_teatime_opinion = {
+	opinion = 15
+	years = 5
+	decaying = yes
+}
+
+nice_teatime_opinion = {
+	opinion = 5
+	years = 5
+	decaying = yes
+}
+
+poor_teatime_opinion = {
+	opinion = -10
+	years = 5
+	decaying = yes
+}

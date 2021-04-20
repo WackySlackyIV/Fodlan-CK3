@@ -1,0 +1,313 @@
+﻿namespace = FOD_flavor
+
+FOD_flavor.1 = {
+	type = character_event
+	title = FOD_flavor.1.t
+	desc = FOD_flavor.1.desc
+	theme = stewardship
+	left_portrait = root
+	
+	trigger = {
+		any_held_title = {
+			tier = tier_county
+			NOT = { has_county_modifier = no_tomato_modifier }
+		}
+	}
+	
+	immediate = {
+		random_held_title = {
+			limit = {
+				tier = tier_county
+				NOT = { has_county_modifier = no_tomato_modifier }
+			}
+			save_scope_as = tomato_county
+		}
+	}
+	
+	option = { #Support tomato economy
+		name = FOD_flavor.1.a
+		remove_short_term_gold = minor_gold_value
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 1
+			}
+		}
+	}
+	option = { #Who cares?
+		name = FOD_flavor.1.b
+		scope:tomato_county = {
+			add_county_modifier = {
+				modifier = no_tomato_modifier
+				years = 3
+			}
+		}
+		
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+			modifier = {
+				add = 100
+				short_term_gold < minor_gold_value
+			}
+		}
+	}
+}
+
+scripted_trigger teatime_option_trigger = {
+	is_available_healthy_adult = yes
+	NOR = {
+		has_opinion_modifier = {
+			target = root
+			modifier = perfect_teatime_opinion
+		}
+		has_opinion_modifier = {
+			target = root
+			modifier = nice_teatime_opinion
+		}
+		has_opinion_modifier = {
+			target = root
+			modifier = poor_teatime_opinion
+		}
+	}
+}
+
+FOD_flavor.2 = {
+	type = character_event
+	title = FOD_flavor.2.t
+	desc = FOD_flavor.2.desc
+	theme = friendly
+	left_portrait = root
+	right_portrait = scope:teamate
+	override_background = {
+		event_background = garden
+	}
+	
+	trigger = {
+		any_courtier_or_guest = {
+			teatime_option_trigger = yes
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			every_courtier_or_guest = {
+				limit = { teatime_option_trigger = yes }
+				add_to_list = teatime_options
+			}
+			every_normal_councillor = {
+				limit = { teatime_option_trigger = yes }
+				add_to_list = teatime_options
+			}
+			random_in_list = {
+				list = teatime_options
+				weight = {
+					base = 100
+					modifier = {
+						factor = 5
+						has_relation_potential_friend = root
+					}
+					modifier = {
+						factor = 1.5
+						is_courtier_of = root
+					}
+				}
+				save_scope_as = teamate
+			}
+		}
+	}
+	
+	option = { #Sip tea
+		name = FOD_flavor.2.a
+		hidden_effect = {
+			random_list = {
+				5 = { #Perfect teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.perfect
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = perfect_teatime_opinion
+							}
+						}
+						progress_towards_friend_effect = {
+							CHARACTER = scope:teamate
+							OPINION = no
+						}
+					}
+				}
+				14 = { #nice teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.nice
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = nice_teatime_opinion
+							}
+						}
+					}
+				}
+				1 = { #Poor teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.poor
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = poor_teatime_opinion
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Nod
+		name = FOD_flavor.2.b
+		hidden_effect = {
+			random_list = {
+				5 = { #Perfect teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.perfect
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = perfect_teatime_opinion
+							}
+						}
+						progress_towards_friend_effect = {
+							CHARACTER = scope:teamate
+							OPINION = no
+						}
+					}
+				}
+				14 = { #nice teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.nice
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = nice_teatime_opinion
+							}
+						}
+					}
+				}
+				1 = { #Poor teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.poor
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = poor_teatime_opinion
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Laugh
+		name = FOD_flavor.2.c
+		hidden_effect = {
+			random_list = {
+				5 = { #Perfect teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.perfect
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = perfect_teatime_opinion
+							}
+						}
+						progress_towards_friend_effect = {
+							CHARACTER = scope:teamate
+							OPINION = no
+						}
+					}
+				}
+				14 = { #nice teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.nice
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = nice_teatime_opinion
+							}
+						}
+					}
+				}
+				1 = { #Poor teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.poor
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = poor_teatime_opinion
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Blush
+		name = FOD_flavor.2.d
+		hidden_effect = {
+			random_list = {
+				5 = { #Perfect teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.perfect
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = perfect_teatime_opinion
+							}
+						}
+						progress_towards_friend_effect = {
+							CHARACTER = scope:teamate
+							OPINION = no
+						}
+					}
+				}
+				14 = { #nice teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.nice
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = nice_teatime_opinion
+							}
+						}
+					}
+				}
+				1 = { #Poor teatime
+					send_interface_toast = {
+						title = FOD_flavor.2.poor
+						
+						scope:teamate = {
+							add_opinion = {
+								target = root
+								modifier = poor_teatime_opinion
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
