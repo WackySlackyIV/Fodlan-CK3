@@ -56,7 +56,7 @@
 }
 
 1000002 = {
-	name = "Lykaś"
+	name = "Lykas"
 	religion = "heimsormurinn"
 	culture = "sreng"
 
