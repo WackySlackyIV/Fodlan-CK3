@@ -16,23 +16,24 @@
  b_hearth:0 "Hearth"
  b_vatican:0 "Vatican"
 
- c_sagido:0 "Sagido"
+ c_cetleann:0 "Cethla"
  b_bruidhean:0 "Bruidhean"
  b_cethleann:0 "Cethleann"
+ b_sagido:0 "Sagido"
 
- c_butado:0 "Butado"
- b_cichol:0 "Cichol"
+ c_cichol:0 "Cicho"
+ b_cichol:0 "Cicho"
  b_butado:0 "Butado"
  b_erenn:0 "Erenn"
 
  d_zanado:0 "Zanado"
- c_ryduo:0 "Ryudo"
- b_indech:0 "Indech"
+ c_indech:0 "Inde"
+ b_indech:0 "Inde"
  b_ryudo:0 "Ryudo"
  b_tortosa:0 "Tortosa"
 
- c_umado:0 "Umado"
- b_macuil:0 "Macuil"
+ c_macuil:0 "Mac"
+ b_macuil:0 "Mac"
  b_umado:0 "Umado"
  b_aves:0 "Aves"
 
@@ -2365,7 +2366,7 @@
  b_chios:0 "Chios"
 
  k_sreng:0 "Sreng"
- d_nydalr:0 "Nydalr"
+ d_nydalrr:0 "Nydalr"
  c_dyfgard:0 "Dyfgard"
  b_dyfgard:0 "Dyfgard"
  b_hofenthorp:0 "Hofenthorp"

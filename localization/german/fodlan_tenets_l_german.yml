@@ -1,0 +1,90 @@
+﻿l_german:
+ tenet_school_of_seiros_name:0 "Lehren von Seiros"
+ tenet_school_of_seiros_desc:0 "Ein Zweig der Kirche von Seiros, der sich ausschließlich darauf konzentriert, wie ihre gläubigsten Anhänger versuchen, ihrer Schutzheiligen nachzueifern. Dieser Zweig ermutigt seine Anhänger, ihre Führungsqualitäten zu entwickeln und gegen diejenigen zu kämpfen, die das Wort der Göttin entweihen würden"
+
+ tenet_school_of_macuil_name:0 "Lehren von Macuil"
+ tenet_school_of_macuil_desc:0 "Ein Zweig der Kirche von Seiros, der sich ausschließlich darauf konzentriert, wie seine gläubigsten Anhänger versuchen, ihrem Schutzpatron nachzueifern. Dieser Zweig ermutigt seine Anhänger, auf dem Schlachtfeld und außerhalb taktisch zu denken und diejenigen zu bestrafen, die ihnen Unrecht getan haben"
+
+ tenet_school_of_cichol_name:0 "Lehren von Cichol"
+ tenet_school_of_chichol_desc:0 "Ein Zweig der Kirche von Seiros, der sich ausschließlich darauf konzentriert, wie seine gläubigsten Anhänger versuchen, ihrem Schutzpatron nachzueifern. Dieser Zweig ermutigt seine Anhänger zu ehrlicher und harter Arbeit, um ein besseres Leben für sich und ihre Familien zu ermöglichen"
+
+ tenet_school_of_indech_name:0 "Lehren von Indech"
+ tenet_school_of_indech_desc:0 "Ein Zweig der Kirche von Seiros, der sich ausschließlich darauf konzentriert, wie seine eifrigsten Anhänger versuchen, ihrem Schutzpatron nachzueifern. Dieser Zweig ermutigt seine Anhänger, sich der Feder und nicht dem Schwert zu widmen, Wissen und Frieden ist der Weg, den es zu beschreiten gilt"
+
+ tenet_school_of_cethleann_name:0 "Lehren von Cethleann"
+ tenet_school_of_cethleann_desc:0 "Ein Zweig der Kirche von Seiros, der sich ausschließlich darauf konzentriert, wie ihre hingebungsvollsten Anhänger versuchen, ihrem Schutzpatron nachzueifern. Dieser Zweig ermutigt seine Anhänger, den Bedürftigen Freundlichkeit, Heilung und Schutz zu bieten und sich für Dinge einzusetzen, die größer sind als sie selbst"
+
+ tenet_ablehnistic_ways_name:0 "Der Weg des Leiters"
+ tenet_ablehnistic_ways_desc:0 "Ein Schwur für diejenigen, die den Weg des Schwertes gehen wollen, um die Autorität der Kirche eher mit Gewalt als mit Worten zu mindern, denn um den Menschen der Welt wirklich Freiheit zu bringen, schwören diejenigen, die diesen Schwur ablegen, für eine Zukunft zu kämpfen, an die sie glauben, egal was es kostet"
+
+ tenet_pen_my_sword_name:0 "Der Weg des Volkes"
+ tenet_pen_my_sword_desc:0 "Ein Eid für diejenigen, die einen friedlichen Weg gegen die kirchliche Autorität gehen wollen, anstatt zu den Waffen zu greifen. Diejenigen, die diesen Schwur ablegen, schwören auf Vernunft und Diskussion, anstatt auf Kriegsführung zurückzugreifen, denn für eine Zukunft zu kämpfen, an die man glaubt, ist ein Weg, der es wert ist, gegangen zu werden, doch nicht alle Schlachten werden mit Blut geschlagen"
+
+ tenet_cultured_armies_name:0 "Vernachlässigung des Heimatlandes"
+ tenet_cultured_armies_desc:0 "Das Söldnerdasein ist ein hartes Leben voller Gefahren und Abenteuer und so ist es für manche eine verständliche Übereinkunft, einen hohen Preis für ihre Klingen zu zahlen, obwohl einige sich gerne an ihre Heimat erinnern und daher dazu neigen, ihren Landsleuten ein kleines Preispfand für ihre Dienste zu geben"
+
+ tenet_lamhach_teachings_name:0 "Lehren von Lamhach"
+ tenet_lamhach_teachings_desc:0 ""
+
+ tenet_fuale_teachings_name:0 "Lehren von Fuale"
+ tenet_fuale_teachings_desc:0 ""
+
+ tenet_talahm_ithir_teachings_name:0 "Lehren von Talahm ithir"
+ tenet_talahm_ithir_teachings_desc:0 ""
+
+ tenet_gaothe_teachings_name:0 "Lehren von Gaothe"
+ tenet_gaothe_teachings_desc:0 ""
+
+ tenet_the_great_hunt_name:0 "Die große Jagd"
+ tenet_the_great_hunt_desc:0 ""
+
+ tenet_let_the_money_flow_name:0 "Lassen Sie das Geld fließen"
+ tenet_let_the_money_flow_desc:0 ""
+
+ tenet_legacy_of_trading_kings_name:0 "Vermächtnis der Handelskönige"
+ tenet_legacy_of_trading_kings_desc:0 ""
+
+ tenet_wonders_of_paradise_name:0 "Wunder des Paradieses"
+ tenet_wonders_of_paradise_desc:0 ""
+
+ tenet_eminence_of_arcane_name:0 "Eminenz des Arkanen"
+ tenet_eminence_of_arcane_desc:0 ""
+
+ tenet_heavenly_spirits_name:0 "Die himmlischen Geister"
+ tenet_heavenly_spirits_desc:0 ""
+
+ tenet_consuming_the_darkness_name:0 "Die Dunkelheit verbrauchen"
+ tenet_consuming_the_darkness_desc:0 ""
+
+ tenet_throne_of_fire_name:0 "Der Thron der Flammen"
+ tenet_throne_of_fire_desc:0 ""
+
+ tenet_kizilisma_red_name:0 "Das Buch von Kizilisma"
+ tenet_kizilisma_red_desc:0 ""
+
+ tenet_denizavi_blue_name:0 "Das Buch von Denizavi"
+ tenet_denizavi_blue_desc:0 ""
+
+ tenet_beyazisma_white_name:0 "Das Buch von Beyazisma"
+ tenet_beyazisma_white_desc:0 ""
+
+ tenet_siyakara_black_name:0 "Das Buch von Siyakara"
+ tenet_siyakara_black_desc:0 ""
+
+ tenet_dogasil_green_name:0 "Das Buch von Dogasil"
+ tenet_dogasil_green_desc:0 ""
+
+ tenet_karakaya_brown_name:0 "Das Buch von Karakaya"
+ tenet_karakaya_brown_desc:0 ""
+
+ tenet_durga_abaka_name:0 ""Durga Abaka"
+ tenet_durga_abaka_desc:0 ""
+
+ tenet_bisalalinga_name:0 ""Bisalalinga"
+ tenet_bisalalinga_desc:0 ""
+
+ tenet_baildatyn_tsus_name:0 "Baildatyn Tsus"
+ tenet_baildatyn_tsus_desc:0 ""
+
+ tenet_polemichani_name:0 "Polemichani"
+ tenet_polemichani_desc:0 ""

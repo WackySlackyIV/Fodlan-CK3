@@ -2061,7 +2061,7 @@
 
 #####          (e_dummy)
 ####           (k_sreng)
-###            (d_nydalr)
+###            (d_nydalrr)
 ##             (c_kvennathorp)
 
 1032 = {      # (b_kvennathorp)

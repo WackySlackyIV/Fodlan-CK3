@@ -909,7 +909,7 @@ e_dummy = {
                                           
                             }
                             
-                            d_nydalr = {
+                            d_nydalrr = {
                                           color = { 110 65 20 }
                                           color2 = { 255 255 255 }
                                           

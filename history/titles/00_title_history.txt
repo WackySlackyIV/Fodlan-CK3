@@ -934,7 +934,7 @@ d_arcila = {
               }
 }
 
-d_nydalr = {
+d_nydalrr = {
               1180.1.1 = {
                             holder = 1000002
               }
@@ -1914,7 +1914,7 @@ c_claraval = {
 c_sandendalr = {
               1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
-                            liege = d_nydalr
+                            liege = d_nydalrr
                             holder = 1000006
               }
 }

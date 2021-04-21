@@ -1,0 +1,188 @@
+﻿l_german:
+ #crests
+ zanadic_religion:0 "Zanadisch Religion"
+ zanadic_religion_desc:0 "Die größte religiöse Organisation in ganz Fodlan, die Kirche wurde vom Heiligen Seiros nach dem Krieg der Helden gegründet"
+ zanadic_religion_adj:0 "Zanadische"
+ 
+ seirosite:0 "Seirosist"
+ seirosite_desc:0 "Die Kirche von Seiros ist seit Hunderten von Jahren der vorherrschende Glaube in Fodlan. Ihre Anhänger sind der Göttin treu ergeben und viele werden zu Rittern, um die Kirche zu verteidigen" 
+ seirosite_adj:0 "Seirositisch"
+ 
+ macuilite:0 "Macuilitist"
+ macuilite_desc:0 "Die Anhänger von Heiligen Macuil neigen dazu, nachzudenken, bevor sie zuschlagen, vor allem, wenn es sich bei dem Ziel um einen Feind oder ein Grollziel handelt"
+ macuilite_adj:0 "Macuilitisch"
+ 
+ indechite:0 "Indechitist"
+ indechite_desc:0 "Den Anhängern des Heiligen Indech wird beigebracht, nach Wissen zu streben und zugunsten friedlicherer Wege auf Gewalt zu verzichten"
+ indechite_adj:0 "Indechitisch"
+ 
+ cicholite:0 "Cicholitist"
+ cicholite_desc:0 "Den Anhängern des Heiligen Cichol wird beigebracht, hart zu arbeiten und darauf zu achten, so gut wie möglich organisiert zu sein"
+ cicholite_adj:0 "Cicholitisch"
+ 
+ cethleannite:0 "Cethleannitist"
+ cethleannite_desc:0 "Den Anhängern der heiligen Cethleann wird beigebracht, sich vorrangig um die Kranken und Verletzten zu kümmern, ihre Hände für die Menschen der Welt auszustrecken ist der höchste und wichtigste Aspekt ihrer Lehren"
+ 
+ ablehnist:0 "Ablehnist"
+ ablehnist_desc:0 "Der ablehnistische Glaube ist mehr ein Weg als eine eigentliche Religion, er lehrt seine Anhänger, die theokratische Autorität abzulehnen und sich stattdessen für ihre Mitmenschen einzusetzen"
+ ablehnist_adj:0 "Ablehnistisch"
+ 
+ mirenist:0 "Mirenist"
+ mirenist_desc:0 "Der Mirenistische Glaube ist ein Weg der friedlichen Rebellion, der die theokratische Autorität nicht mit dem Schwert zurückweist, sondern indem er einfach "Nein" zu jedem Vertreter des Göttlichen sagt"
+ mirenist_adj:0 "Mirenistisch"
+ 
+ iarthairic:0 "Iarthairicist"
+ iarthairic_desc:0 "Während die Kirche von Seiros behauptet, geeint zu sein, ist dies einfach nicht der Fall, die westliche Kirche greift schneller zum Schwert als die zentrale Kirche"
+ iarthairic_adj:0 "Iarthairisch"
+ 
+ high_sothic:0 "Hoch Sothicist"
+ high_sothic_desc:0 "Der älteste und am meisten vergessene Teil des seirosianischen Glaubens, die Verehrung der Göttin selbst, die auch ihren wahren Namen offenbart, Sothis"
+ high_sothic_adj:0 "Hoch Sothicisch"
+
+ buykisik_religion:0 "Buykisikisch Religion"
+ buykisik_religion_desc:0 "Die vielen Sonnen von Almyra sind jeder der Leidenschaften und Stärken gewidmet, die Malik selbst zum Ausdruck gebracht hat. Diejenigen, die ihnen folgen, haben das Ziel, den von ihnen gewählten Weg zu ihrer gewählten Sonne zu gehen"
+ buykisik_adj:0 "Buykisikisch"
+
+ kizilisma:0 "Kizilisma"
+ Kizilisma_desc:0 "Die Rote Sonne von Maliks Ehrgeiz erstrahlte in der ganzen Welt, diejenigen, die sich entschieden, die Flammen seines Wunsches zu umarmen, um ganz Almyra und darüber hinaus Einheit zu bringen"
+ kizilisma_adj:0 "Kizilismisch"
+
+ denizavi:0 "Denizavi"
+ denizavi_desc:0 "Die Blaue Sonne von Malik repräsentierte seinen starken Glauben an Gerechtigkeit und Fleiß, diejenigen, die diesem Weg folgen, streben danach, der vielen Throne des Feuers würdig zu sein"
+ denizavi_adj:0 "Denizavisch"
+
+ beyazisma:0 "Beyazisma"
+ beyazisma_desc:0 "Die Weiße Sonne der Liebe von Malik wird von allen geschätzt. Diesen Weg zu beschreiten bedeutet, die Familie und die Gemeinschaft zu umarmen, als wären sie die Grundpfeiler der Welt"
+ beyazisma_adj:0 "Beyazismisch"
+
+ siyakara:0 "Siyakara"
+ siyakara_desc:0 "Die Schwarze Sonne von Maliks Führung wird von vielen respektiert, da es genau diese Sonne war, die Malik dazu brachte, sein Volk in seine Heimat zu bringen. Diesen Weg zu beschreiten bedeutet, ein Anführer und ein helles Licht für alle zu werden"
+ siyakara_adj:0 "Siyakarisch"
+ 
+ dogasil:0 "Dogasil"
+ dogasil_desc:0 "Die Grüne Sonne von Malik wird als der schwierigste und dennoch geliebte Weg verehrt, da Malik trotz seiner Rolle als König unter den Menschen lebte, die Natur liebte und bis zum Ende seiner Tage ein Hirte blieb"
+ dogasil_adj:0 "Dogasilisch"
+
+ karakaya:0 "Karakaya"
+ karakaya_desc:0 "Die Braune Sonne von Malik wird von denen gesucht, die sich der Kunst widmen. Malik teilte alles, was er entdeckte und schuf, und blieb doch ein bescheidener Mann, der nichts für seine Werke verlangte"
+ karakaya_adj:0 "Karakayisch"
+
+ anthrapos_religion:0 "Agarthan"
+ anthrapos_religion_desc:0 ""
+ anthrapos_religion_adj:0 "Agarthanisch"
+ 
+ agarthan:0 "Agarthan"
+ agarthan_desc:0 ""
+ agarthan_adj:0 "Agarthanisch" 
+ 
+ liberationist:0 "Liberationist"
+ liberationist_desc:0 ""
+ liberationist_adj:0 "Liberationisch"
+
+ dewa_sheta_ah_religion:0 "Dewa Sheta Ah"
+ dewa_sheta_ah_religion_desc:0 ""
+ dewa_sheta_ah_religion_adj:0 "Dewa Sheta Ah"
+ 
+ inetsaret:0 "Inetsaretist"
+ inetsaret_desc:0 ""
+ inetsaret_adj:0 "Inetsaretisch"
+ 
+ nekfsaret:0 "Nekfsaretist"
+ nekfsaret_desc:0 ""
+ nekfsaret_adj:0 "Nekfsaretisch"
+ 
+ sekisaret:0 "Sekisaretist"
+ sekisaret_desc:0 ""
+ sekisaret_adj:0 "Sekisaretisch"
+
+ lumentalism_religion:0 "Lumentalism"
+ lumentalism_religion_desc:0 ""
+ lumentalism_religion_adj:0 "Lumentalismisch"
+ 
+ lumialue:0 "Lumialueist"
+ lumialue_desc:0 ""
+ lumialue_adj:0 "Lumialueisch"
+ 
+ vuristoalite:0 "Vuristoaliteist"
+ vuristoalite_desc:0 ""
+ vuristoalite_adj:0 "Vuristoaliteisch"
+
+ olgail_bilog_religion:0 "Olgail Bilog"
+ olgail_bilog_religion_desc:0 ""
+ olgail_bilog_religion_adj:0 "Olgail Bilog"
+ 
+ lamhach:0 "Lamhach"
+ lamhach_desc:0 ""
+ lamhach_adj:0 "Lamhachisch"
+ 
+ fuale:0 "Fuale"
+ fuale_desc:0 ""
+ fuale_adj:0 "Fualeisch"
+ 
+ talahm_ithir:0 "Talahm Ithir"
+ talahm_ithir_desc:0 ""
+ talahm_ithir_adj:0 "Talahm Ithir"
+ 
+ gaothe:0 "Gaothe"
+ gaothe_desc:0 ""
+ gaothe_adj:0 "Gaotheisch"
+
+ pantheon_religion:0 "Pantheon"
+ pantheon_religion_desc:0 ""
+ pantheon_religion_adj:0 "Pantheonisch"
+ 
+ pantheon_faith:0 "Pantheon"
+ pantheon_faith_desc:0 ""
+ pantheon_faith_adj:0 "Pantheonisch"
+ 
+ comunetian_faith:0 "Comunetian"
+ comunetian_faith_desc:0 ""
+ comunetian_faith_adj:0 "Comunetianisch"
+
+ reqonn_de_opulencia_religion:0 "Reqonn de Opulencia"
+ reqonn_de_opulencia_religion_desc:0 ""
+ reqonn_de_opulencia_religion_adj:0 "Reqonn de Opulencia"
+ 
+ reqonn_de_opulencia:0 "Reqonn de Opulencia"
+ reqonn_de_opulencia_desc:0 ""
+ reqonn_de_opulencia_adj:0 "Reqonn de Opulencia"
+ 
+ jebbilencia:0 "Jebbilencia"
+ jebbilencia_desc:0 ""
+ jebbilencia_adj:0 "Jebbilenciaisch"
+
+ saatpra_daanav_religion:0 "Saatpra Daanav"
+ saatpra_daanav_religion_desc:0 ""
+ saatpra_daanav_religion_adj:0 "Saatpra Daanav"
+ 
+ lmabhal:0 "Lmabhal"
+ lmabhal_desc:0 ""
+ lmabhal_adj:0 "Lmabhalisch"
+ 
+ kamajorma:0 "Kamajorma"
+ kamajorma_desc:0 ""
+ kamajorma_adj:0 "Kamajormaisch"
+ 
+ dinymori:0 "Dinymori"
+ dinymori_desc:0 "
+ dinymori_adj:0 "Dinymorisch"
+
+ tenolotiskardias_religion:0 "Tenolotiskardias"
+ tenolotiskardias_religion_desc:0 ""
+ tenolotiskardias_religion_adj:0 "Tenolotiskardiasisch"
+
+ tenolotiskardias_faith:0 "Tenolotiskardias"
+ tenolotiskardias_faith_desc:0 ""
+ tenolotiskardias_faith_adj:0 "Tenolotiskardiasisch"
+
+ tjonar_ormurinn_religion:0 "Tjonar Ormurinn"
+ tjonar_ormurinn_religion_desc:0 ""
+ tjonar_ormurinn_religion_adj:0 "Tjonar Ormurinn"
+
+ heimsormurinn:0 "Heimsormurinnist"
+ heimsormurinn_desc:0 "Der Glaube des Volkes der Sreng, der ihre nomadische Lebensweise und das Streben nach Stärke im Namen ihres Gottes repräsentiert"
+ heimsormurinn_adj:0 "Heimsormurinnisch"
+ 
+ mekeal:0 "Mekeal"
+ mekeal_desc:0 "The faith of the Desert-Lord himself, his followers seek to fight those who they consider weak and cowardly, the weak exist to fear the strong and none know this better than the Srengites themselves"
+ mekeal_adj:0 "Mekeal"

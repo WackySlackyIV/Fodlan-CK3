@@ -43,7 +43,7 @@ world_fodlan_duscur = {
 
 world_fodlan_sreng = {
 	duchies = {
-		d_fraldarius d_adharc d_nydalr d_bygdalr d_hellig_orken d_innraborg d_jordenbrann
+		d_fraldarius d_adharc d_nydalrr d_bygdalr d_hellig_orken d_innraborg d_jordenbrann
 	}
 }
 

@@ -1,0 +1,7 @@
+﻿l_english:
+#Feudal Elective AI behavior
+ tooltip_alliance_vote_crest:0 "Wappen sind gut: $VALUE|=+0$"
+ tooltip_alliance_vote_stats:0 "Hat das Zeug zu einem guten Herrscher: $VALUE|=+0$"
+ tooltip_alliance_vote_rival_friend:0 "Freund oder Rivale: $VALUE|=+0$"
+ tooltip_alliance_leader:0 "Allianzanführer: $VALUE|=+0$"
+ tooltip_councillor:0 "Mitglied des Rates: $VALUE|=+0$"

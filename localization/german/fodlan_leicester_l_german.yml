@@ -1,0 +1,11 @@
+﻿l_egerman:
+ #leader titles
+ leader_male:0 "Anführer"
+ leader_female:0 "Anführerin"
+ leader_spouse_male:0 "Großherzog"
+ leader_spouse_female:0 "Großherzogin"
+
+ #alliance elective succesion
+ alliance_elective_succession_law:0 "Allianz-Wahlfach"
+ alliance_elective_electors:0 "Große Herren"
+ alliance_elective_candidates:0 "Kandidat"
