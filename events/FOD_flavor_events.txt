@@ -1,6 +1,6 @@
 ﻿namespace = FOD_flavor
 
-FOD_flavor.1 = {
+FOD_flavor.1 = { #Tomato event
 	type = character_event
 	title = FOD_flavor.1.t
 	desc = FOD_flavor.1.desc
@@ -74,7 +74,7 @@ scripted_trigger teatime_option_trigger = {
 	}
 }
 
-FOD_flavor.2 = {
+FOD_flavor.2 = { #Teatime four options event
 	type = character_event
 	title = FOD_flavor.2.t
 	desc = FOD_flavor.2.desc

@@ -8,7 +8,7 @@
  FOD_flavor.1.a:0 "I suppose I can import tomatoes."
  FOD_flavor.1.b:0 "This is not my problem to solve."
  FOD_flavor.2.t:0 "Teatime"
- FOD_flavor.2.desc:0 "During a teatime with [teamate.GetName], [teamate.GetSheHe] brought up something peculiar in conversation. How should I respond to this?"
+ FOD_flavor.2.desc:0 "During a teatime with [teamate.GetName], [teamate.GetSheHe] brought up something unexpectedly personal in private conversation. This is a chance to get to know [teamate.GetName] better, but there is a risk of offending [teamate.GetHerHim] instead. How should I respond?"
  FOD_flavor.2.a:0 "Sip tea."
  FOD_flavor.2.b:0 "Nod."
  FOD_flavor.2.c:0 "Laugh."

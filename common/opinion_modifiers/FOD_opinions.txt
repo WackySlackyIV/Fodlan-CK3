@@ -1,4 +1,4 @@
-perfect_teatime_opinion = {
+﻿perfect_teatime_opinion = {
 	opinion = 15
 	years = 5
 	decaying = yes
