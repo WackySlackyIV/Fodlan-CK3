@@ -568,7 +568,12 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
-        }
+            modifier = {
+                add = 200
+                exists = character:200005 #Lear
+                this = character:200005 #Lear
+            }
+  	  }
     }
 
     male_hair_fp1_02 = { # Center part ponytail

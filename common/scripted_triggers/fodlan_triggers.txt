@@ -212,6 +212,7 @@ is_custom_char = {
 		this = character:200012 #Claude
 		this = character:400006 #Ludwig
 		this = character:200006 #Richard
+		this = character:200005 #Lear
 		
 		###FEMALES###
 		this = character:200022 #Marianne

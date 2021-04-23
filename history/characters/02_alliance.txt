@@ -164,6 +164,7 @@
 	dynasty=101
 	religion="seirosite"
 	culture="leicester"
+	dna = dna_lear
 
 	trait = humble
 	trait = content
@@ -176,6 +177,9 @@
 
 	1139.1.9 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 
 	1165.1.1 = {

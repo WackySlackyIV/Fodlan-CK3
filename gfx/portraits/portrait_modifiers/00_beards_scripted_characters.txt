@@ -78,6 +78,11 @@ beards_scripted_characters = {
                 exists = character:100004 #Alois
                 this = character:100004 #Alois
             }
+            modifier = {
+                add = 200
+                exists = character:200005 #Lear
+                this = character:200005 #Lear
+            }
         }
     }
 
