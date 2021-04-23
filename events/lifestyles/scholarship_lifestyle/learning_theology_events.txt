@@ -834,19 +834,19 @@ scripted_trigger learning_theology_3011_building_trigger = {
 	OR = { #To check that you CAN build the next lvl of the building
 		AND = {
 			root.culture = {
-				simple_agricultural_building_requirement_tier_1 = yes
+				has_innovation = innovation_manorialism
 			}
 			has_building = temple_01
 		}
 		AND = {
 			root.culture = {
-				simple_agricultural_building_requirement_tier_2 = yes
+				has_innovation = innovation_windmills
 			}
 			has_building = temple_02
 		}
 		AND = {
 			root.culture = {
-				simple_agricultural_building_requirement_tier_3 = yes
+				has_innovation = innovation_cranes
 			}
 			has_building = temple_03
 		}
@@ -1493,7 +1493,7 @@ learning_theology.3024 = {
 # by Linnéa Thimrén
 ##################################################
 scripted_trigger learning_theology_3031_province_trigger = {
-	NOt = { faith = root.faith }
+	NOT = { religion = root.religion }
 	faith = {
 		faith_hostility_level = {
 		target = root.faith
@@ -1975,6 +1975,7 @@ learning_theology_special.1001 = {
 		faith = {
 			NOR = {
 				exists = var:variable_changed_doctrine_learning_theology_special_1001
+				has_doctrine = unreformed_faith_doctrine
 			}
 		}
 		OR = {

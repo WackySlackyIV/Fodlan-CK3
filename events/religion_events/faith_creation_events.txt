@@ -20,9 +20,10 @@ faith_creation.0001 = {
 			name = REL_HEAD_TITLE_NAME
 		}
 
-		create_title_and_vassal_change = change
-		scope:change = {
-			set_title_and_vassal_change_type = created
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
 		}
 
 		scope:new_title = {
@@ -39,8 +40,11 @@ faith_creation.0001 = {
 		faith = {
 			set_religious_head_title = scope:new_title
 		}
-		scope:new_title = { generate_coa = religious_title }
 		add_realm_law_skip_effects = same_faith_succession_law
+		scope:new_title = { 
+			generate_coa = religious_title
+			add_title_law = temporal_head_of_faith_succession_law
+		}
 	}
 }
 
@@ -65,9 +69,10 @@ faith_creation.0002 = {
 			name = REL_HEAD_TITLE_NAME
 		}
 
-		create_title_and_vassal_change = change
-		scope:change = {
-			set_title_and_vassal_change_type = created
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
 		}
 		
 		if = {
@@ -174,9 +179,10 @@ faith_creation.0011 = {
 			}
 		}
 
-		create_title_and_vassal_change = change
-		scope:change = {
-			set_title_and_vassal_change_type = created
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
 		}
 		scope:my_hof_title = {
 			change_title_holder = {
@@ -237,9 +243,10 @@ faith_creation.0012 = {
 			}
 		}
 
-		create_title_and_vassal_change = change
-		scope:change = {
-			set_title_and_vassal_change_type = created
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
 		}
 		scope:my_hof_title = {
 			change_title_holder = {
@@ -297,6 +304,14 @@ faith_creation.1001 = {
 	type = character_event
 	title = {
 		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:old_faith = {
+						has_doctrine_parameter = unreformed
+					}
+				}
+				desc = faith_creation.1001.t.reformation
+			}
 			desc = faith_creation.1001.t.schism
 		}
 	}
@@ -304,6 +319,15 @@ faith_creation.1001 = {
 		#Introduction to the faith's reformation/schism:
 		first_valid = {
 			# I am reforming a pagan faith for the first time.
+			triggered_desc = {
+				trigger = {
+					scope:old_faith = {
+						has_doctrine_parameter = unreformed
+						root = scope:reformer
+					}
+				}
+				desc = faith_creation.1001.desc.reformation.personal
+			}
 			# I am splitting off a new faith from an existing one.
 			triggered_desc = {
 				trigger = {
@@ -314,6 +338,14 @@ faith_creation.1001 = {
 				desc = faith_creation.1001.desc.schism.personal
 			}
 			# Someone else is reforming a pagan faith for the first time.
+			triggered_desc = {
+				trigger = {
+					scope:old_faith = {
+						has_doctrine_parameter = unreformed
+					}
+				}
+				desc = faith_creation.1001.desc.reformation
+			}
 			# Someone else is splitting off a new faith from an existing one.
 			desc = faith_creation.1001.desc.schism
 		}

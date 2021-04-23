@@ -995,7 +995,6 @@ call_dynasty_member_to_war_interaction = {
 				OR = {
 					using_cb = minor_religious_war
 					using_cb = religious_war
-					using_cb = major_religious_war
 					using_cb = undirected_great_holy_war
 					using_cb = directed_great_holy_war
 				}

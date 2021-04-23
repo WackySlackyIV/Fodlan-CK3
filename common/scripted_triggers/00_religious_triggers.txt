@@ -29,6 +29,9 @@
 
 ###HERESY TRIGGERS###
 
+###RELIGIOUS INTERACTIONS###
+# can_take_religious_vows_trigger
+
 
 # CHECK A NUMBER OF RELIGION-RELATED CONDITIONS TO DETERMINE HOW STRONG OF A BELIEVER THEY SEEM TO BE
 has_strong_religious_conviction_trigger = {

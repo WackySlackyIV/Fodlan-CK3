@@ -89,7 +89,9 @@ DeathMessageIntro = {
 				}
 				AND = {
 					has_trait = cannibal
-					NOT = { faith = { has_doctrine = tenet_ritual_cannibalism } }
+					NOT = {
+						faith = { has_doctrine_parameter = cannibalism_legal }
+					}
 				}
 				AND = {
 					has_trait = sodomite
@@ -439,7 +441,9 @@ DeathMessageOutro = {
 		localization_key = SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_SCANDAL_CANNIBAL
 		trigger = {
 			has_trait = cannibal
-			NOT = { faith = { has_doctrine = tenet_ritual_cannibalism } }
+			NOT = {
+				faith = { has_doctrine_parameter = cannibalism_legal }
+			}
 		}
 		weight_multiplier = {
 			base = 2
@@ -982,13 +986,6 @@ HeirMessageInterface = {
 		}
 	}
 	text = {
-		localization_key = SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_VARANGIAN
-		trigger = {
-			is_adult = yes
-			has_trait = varangian
-		}
-	}
-	text = {
 		localization_key = SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_LUNATIC
 		trigger = {
 			has_trait = lunatic
@@ -1301,7 +1298,9 @@ HeirMessageInterface = {
 		trigger = {
 			is_adult = yes
 			has_trait = cannibal
-			NOT = { faith = { has_doctrine = tenet_ritual_cannibalism } }
+			NOT = {
+				faith = { has_doctrine_parameter = cannibalism_legal }
+			}
 		}
 	}
 	text = {
@@ -1858,18 +1857,6 @@ GameOverMessageInterfaceSplendor = {
 				dynasty_prestige_level < low_dynasty_prestige_level
 				dynasty_prestige_level >= min_dynasty_prestige_level
 			}
-			years_from_game_start > 1
-		}
-	}
-
-	text = {
-		localization_key = SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR_SHORT
-		trigger = {
-			dynasty = {
-				dynasty_prestige_level < low_dynasty_prestige_level
-				dynasty_prestige_level >= min_dynasty_prestige_level
-			}
-			years_from_game_start <= 1
 		}
 	}
 }

@@ -213,10 +213,13 @@ select_personal_deity_decision = {
 	}
 
 	is_valid_showing_failures_only = {
+		# Have to at _least_ not be in piety debt.
+		piety >= 0
 	}
 
+	cooldown = { years = 2 }
+
 	effect = {
-		custom_tooltip = select_personal_deity_decision_tt
 		trigger_event = religious_decision.0101
 	}
 
@@ -410,7 +413,6 @@ revoke_false_conversion_decision = {	#Reveal yourself as a crypto-religionist.
 	is_valid = {
 		is_adult = yes
 		NOT = { has_trait = zealous }
-		piety >= major_piety_value
 	}
 
 	is_valid_showing_failures_only = {
@@ -418,6 +420,10 @@ revoke_false_conversion_decision = {	#Reveal yourself as a crypto-religionist.
 			text = cannot_be_atoned_krstjani_leader_flag
 			NOT = { has_character_flag = atoned_krstjani_leader_flag }
 		}
+	}
+
+	cost = {
+		piety = major_piety_value
 	}
 
 	cooldown = { years = 20 }
@@ -507,10 +513,13 @@ encourage_confession_of_false_conversions_decision = {	#Ask that crypto-religion
 		is_adult = yes
 		NOR = {
 			has_trait = zealous
-			dread >= low_dread
+			dread > low_dread
 			tyranny >= 1
 		}
-		piety >= major_piety_value
+	}
+
+	cost = {
+		piety = major_piety_value
 	}
 
 	effect = {
@@ -591,7 +600,48 @@ go_on_pilgrimage_decision = {
 	effect = {
 		custom_tooltip = pilgrimage_effect_1
 		custom_tooltip = pilgrimage_effect_2
-		custom_tooltip = pilgrimage_effect_3
+		if = { #What is the minimum you will have to pay?
+			limit = {
+				faith = {
+					any_holy_site = {
+						squared_distance = {
+							target = root.capital_province
+							value <= short_pilgrimage_max_length
+						}
+					}
+				}
+			}
+			custom_tooltip = pilgrimage_effect_3
+		}
+		else_if = {
+			limit = {
+				faith = {
+					any_holy_site = {
+						squared_distance = {
+							target = root.capital_province
+							value <= medium_pilgrimage_max_length
+						}
+					}
+				}
+			}
+			custom_tooltip = pilgrimage_effect_4
+		}
+		else_if = {
+			limit = {
+				faith = {
+					any_holy_site = {
+						squared_distance = {
+							target = root.capital_province
+							value <= long_pilgrimage_max_length
+						}
+					}
+				}
+			}
+			custom_tooltip = pilgrimage_effect_5
+		}
+		else = {
+			custom_tooltip = pilgrimage_effect_6
+		}
 		if = {
 			limit = { has_trait = ill }
 			custom_tooltip = line_break

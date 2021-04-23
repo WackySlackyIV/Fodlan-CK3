@@ -552,7 +552,7 @@ religious_decision.0002 = {
 #########################
 # Select Personal God	#
 # by Sean Hughes		#
-# 0101-0109				#
+# 0101-0120				#
 #########################
 
 religious_decision.0101 = {
@@ -874,7 +874,9 @@ religious_decision.0201 = {
 
 		ai_chance = {
 			base = 0
-		}		
+		}
+
+		remove_decision_cooldown = meditate_in_seclusion_decision
 	}
 
 	after = {
@@ -1586,7 +1588,13 @@ religious_decision.0311 = {
 	
 	# Faiths that can raise a runestone need to have this character saved as a variable on their successor.
 	trigger = {
-		always = no
+		exists = player_heir
+		player_heir = {
+			is_close_family_of = root
+		}
+		dynasty = player_heir.dynasty
+		faith = player_heir.faith
+		faith = faith:norse_pagan
 	}
 
 	immediate = {
@@ -1609,6 +1617,8 @@ religious_decision.0312 = {
 			exists = var:ancestor_to_bury
 		}
 		NOT = { dynasty = scope:previous_holder.dynasty } #We only have to change something if the new holder is of a different dynasty
+		# Use expanded version if we have FP1.
+		has_fp1_dlc_trigger = no
 	}
 
 	immediate = {
@@ -1692,8 +1702,6 @@ religious_decision.0401 = {
 	left_portrait = root
 
 	immediate = {
-		remove_character_flag = divining_the_stars
-
 		random_list = {
 			20 = {
 				save_scope_value_as = {
@@ -1776,5 +1784,8 @@ religious_decision.0401 = {
 				years = 10
 			}
 		}
+
+		# Remove the blocking flag.
+		remove_character_flag = divining_the_stars
 	}
 }

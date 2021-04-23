@@ -81,6 +81,11 @@ convert_to_feudalism_liege_converted_decision = { #by Linnéa Thimrén
 			has_realm_law = tribal_authority_2
 			has_realm_law = tribal_authority_3
 		}
+		custom_description = {
+			text = faith_is_reformed
+			subject = root
+			faith = { NOT = { has_doctrine_parameter = unreformed } }
+		}
 	}
 
 	cost = {
@@ -136,16 +141,37 @@ convert_whole_realm_to_feudalism_decision = { #by Linnéa Thimrén
 
 	is_valid = {
 		has_realm_law = tribal_authority_3
+		custom_description = {
+			text = faith_is_reformed
+			subject = root
+			faith = { NOT = { has_doctrine_parameter = unreformed } }
+		}
 		prestige_level >= 2
 		capital_province.county = {
 			development_level >= convert_to_feudalism_development_requirement
 		}
 
-		custom_description = { #You need to have ALL (non-regional/unique) tribal innovations!
+		custom_description = { #You need to have 70% of all (non-regional/unique) tribal innovations!
 			text = has_all_tribal_innovations
 			subject = root.culture
 			culture = {
-				has_all_tribal_era_innovations_trigger = yes
+				calc_true_if = {
+					amount >= 9
+					has_innovation = innovation_motte
+					has_innovation = innovation_catapult
+					has_innovation = innovation_barracks
+					has_innovation = innovation_mustering_grounds
+					has_innovation = innovation_bannus
+					has_innovation = innovation_quilted_armor
+					has_innovation = innovation_gavelkind
+					has_innovation = innovation_crop_rotation
+					has_innovation = innovation_city_planning
+					has_innovation = innovation_casus_belli
+					has_innovation = innovation_plenary_assemblies
+					has_innovation = innovation_ledger
+					has_innovation = innovation_development_01
+					has_innovation = innovation_currency_01
+				}
 			}
 		}
 	}
@@ -232,6 +258,11 @@ declare_bloodline_holy_decision = {
 			}
 		}
 		custom_description = {
+			text = faith_is_reformed
+			subject = root
+			faith = { NOT = { has_doctrine_parameter = unreformed } }
+		}
+		custom_description = {
 			text = "consecrate_bloodline_holy_site"
 			faith = {
 				any_holy_site = {
@@ -244,14 +275,6 @@ declare_bloodline_holy_decision = {
 			}
 		}
 		piety_level >= 5
-		piety >= 2500
-	}
-	
-	is_valid_showing_failures_only = {
-		NOR = {
-			has_trait = content
-			has_trait = humble
-		}	
 	}
 
 	cost = {
@@ -262,6 +285,11 @@ declare_bloodline_holy_decision = {
 		trigger_event = major_decisions.0100
 		show_as_tooltip = {
 			declare_bloodline_holy_decision_effect = yes
+		}
+
+		stress_impact = {
+			content = massive_stress_impact_gain
+			humble = massive_stress_impact_gain
 		}
 	}
 
@@ -427,10 +455,10 @@ accept_cannibalism_decision = { #by Linnéa Thimrén
 
 	is_shown = {
 		is_cannibal_trigger = yes
-		NOT = { #Snacking on people should be frowned upon
-			faith =  {
-				has_doctrine_parameter = cannibalism_legal
-			}
+		NOR = { #Snacking on people should be frowned upon
+			faith = { has_doctrine_parameter = cannibalism_legal }
+			faith = { has_variable = accepted_cannibalism }
+			faith.religious_head = root
 		}
 	}
 
@@ -456,12 +484,16 @@ accept_cannibalism_decision = { #by Linnéa Thimrén
 				}
 			}
 		}
-		piety >= major_piety_value
+		piety_level >= high_piety_level
 	}
 
 	is_valid_showing_failures_only = {
 		is_ruler = yes
 		is_available_adult = yes
+	}
+
+	cost = {
+		piety = major_piety_value
 	}
 
 	effect = {
@@ -849,7 +881,6 @@ repay_loan_decision = { #by Linnéa Thimrén
 #Adopt special succession type.
 adopt_special_succession_decision = { #by Ewan Cowhig Croft
 	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-	major = yes
 	desc = adopt_special_succession_decision_desc
 
 	ai_check_interval = 36
@@ -872,17 +903,41 @@ adopt_special_succession_decision = { #by Ewan Cowhig Croft
 	}
 
 	is_valid = {
-		highest_held_title_tier >= tier_kingdom
-		any_held_title = {
-			tier >= tier_kingdom
-			NOR = {
-				custom_description = {
-					text = found_kingdom_decision_advanced_succesion
-					has_title_law_flag = advanced_succession_law
+		trigger_if = {
+			limit = { highest_held_title_tier = tier_kingdom }
+			#Either hold a valid top-tier king title as a king...
+			AND = {
+				any_held_title = {
+					tier = tier_kingdom
+					NOR = {
+						custom_description = {
+							text = found_kingdom_decision_advanced_succesion
+							has_title_law_flag = advanced_succession_law
+						}
+						custom_description = {
+							text = found_kingdom_decision_elective_succesion
+							has_title_law_flag = elective_succession_law
+						}
+					}
 				}
-				custom_description = {
-					text = found_kingdom_decision_elective_succesion
-					has_title_law_flag = elective_succession_law
+			}
+		}
+		trigger_else = {
+			#... Or a valid top-tier empire title as an emperor.
+			AND = {
+				highest_held_title_tier >= tier_empire
+				any_held_title = {
+					tier >= tier_empire
+					NOR = {
+						custom_description = {
+							text = found_kingdom_decision_advanced_succesion
+							has_title_law_flag = advanced_succession_law
+						}
+						custom_description = {
+							text = found_kingdom_decision_elective_succesion
+							has_title_law_flag = elective_succession_law
+						}
+					}
 				}
 			}
 		}
@@ -914,13 +969,11 @@ escape_from_prison_decision = { #by Linnéa Thimrén
 	desc = escape_from_prison_decision_desc
 	selection_tooltip = escape_from_prison_decision_tooltip
 
-	ai_check_interval = 0
+	ai_check_interval = 24
 
 	cooldown = { days = 1825 }
 
-	is_shown = {
-		is_imprisoned = yes
-	}
+	is_shown = { is_imprisoned = yes }
 
 	is_valid_showing_failures_only = {
 		#is_available = yes
@@ -949,14 +1002,114 @@ escape_from_prison_decision = { #by Linnéa Thimrén
 		trigger_event = {
 			on_action = escape_from_prison
 		}
+		# If this is an AI, reset the AI escape cooldown.
+		if = {
+			limit = { is_ai = yes }
+			imprisoner = {
+				add_character_flag = {
+					flag = imprisoner_in_recent_escape_attempt
+					days = 1825
+				}
+			}
+		}
 	}
 	
 	ai_potential = {
-		always = no
+		# Pre-filter AI & stop them spamming their gaoler.
+		exists = imprisoner
+		imprisoner = {
+			NOT = { has_character_flag = imprisoner_in_recent_escape_attempt }
+		}
+		OR = {
+			# Important prisoners wish to escape.
+			is_landed = yes
+			# As do prisoners held in abhorrent conditions.
+			is_in_prison_type = dungeon
+		}
 	}
 
 	ai_will_do = {
 		base = 0
+		
+		# Weight up for those who are brave, haughty, or enjoy their creature comforts.
+		modifier = {
+			add = 50
+			has_trait = brave
+		}
+		modifier = {
+			add = 50
+			has_trait = ambitious
+		}
+		modifier = {
+			add = 25
+			has_trait = arrogant
+		}
+		modifier = {
+			add = 25
+			has_trait = greedy
+		}
+		modifier = {
+			add = 25
+			has_trait = gluttonous
+		}
+		# Weight down for cowards, the humble, and the stoic.
+		modifier = {
+			add = -50
+			has_trait = craven
+		}
+		modifier = {
+			add = -25
+			has_trait = content
+		}
+		modifier = {
+			add = -25
+			has_trait = humble
+		}
+		modifier = {
+			add = -25
+			has_trait = generous
+		}
+		modifier = {
+			add = -25
+			has_trait = temperate
+		}
+		# Being tortured really motivates you, regardless of personality.
+		modifier = {
+			add = 200
+			has_character_modifier = recently_tortured
+		}
+		# High prowess characters know they stand a chance.
+		modifier = {
+			add = 25
+			prowess >= high_skill_rating
+		}
+		modifier = {
+			add = 25
+			prowess >= very_high_skill_rating
+		}
+		modifier = {
+			add = 25
+			prowess >= extremely_high_skill_rating
+		}
+		# Low prowess characters know they don't.
+		modifier = {
+			add = -25
+			prowess <= mediocre_skill_rating
+			# Unless they're *that* arrogant.
+			NOR = {
+				has_trait = arrogant
+				ai_boldness >= very_high_positive_ai_value
+			}
+		}
+		modifier = {
+			add = -25
+			prowess <= low_skill_rating
+			# Unless they're *that* arrogant.
+			NOR = {
+				has_trait = arrogant
+				ai_boldness >= very_high_positive_ai_value
+			}
+		}
 	}
 }
 
@@ -988,12 +1141,14 @@ tribal_challenge_ruler_decision = { #by Linnéa Thimrén
 		is_adult = yes
 		liege = {
 			is_available = yes
+			is_adult = yes
 		}
 		custom_description = {
 			text = recently_took_tribal_challenge_ruler_decision
 			subject = root
 			NOT = { has_character_flag = recently_took_the_tribal_challenge_ruler_decision }
 		}
+		can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = liege }
 	}
 
 	effect = {

@@ -37,6 +37,8 @@ on_faith_conversion = {
 	events = {
 		faith_conversion.0001	# Convert capital county
 		faith_conversion.0003	# Convert close family
+		faith_conversion.1001	# Player-only narrative-notification event
+		faith_conversion.1101   # Notify vassals of conversion
 	}
 }
 
@@ -111,7 +113,8 @@ faith_holy_order_land_acquisition_pulse = {
 faith_heresy_events_pulse = {
 	trigger = {
 		fervor <= 40
-		NOT = {
+		NOR = {
+			has_doctrine = unreformed_faith_doctrine
 			has_variable = current_heresy
 		}
 	}
@@ -139,7 +142,8 @@ faith_heresy_events_pulse = {
 
 faith_fervor_events_pulse = {
 	trigger = {
-		NOT = {
+		NOR = {
+			has_doctrine = unreformed_faith_doctrine
 			has_variable = recent_fervor_event
 		}
 	}
