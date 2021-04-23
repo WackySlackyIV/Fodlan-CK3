@@ -221,11 +221,15 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-
-	1146.1.11 = {
-		employer = 100001
+	
+	1162.10.1 = {
+		add_spouse = 100021
 	}
 
+	1181.1.11 = {
+		employer = 100001
+	}
+	
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -950,5 +954,63 @@
 	}
 	1200.1.1={
 		death=yes
+	}
+}
+
+100021 = {
+	name="Felicity"
+	religion="seirosite"
+	culture="high_fodlan"
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = patient
+	trait = honest
+	
+	trait= education_stewardship_2
+	trait= beauty_good_1
+	
+	1133.6.3 = {
+		birth=yes
+		}
+	}
+	
+	1146.1.11 = {
+		employer = 100001
+	}
+	
+	1162.10.1 = {
+		add_spouse = 100004
+	}
+	
+	1181.1.11 = {
+		employer = 100001
+	}
+	1200.1.1={
+		death="1200.1.1"
+	}
+}
+
+100022 = {
+	name="Suzanne"
+	religion="seirosite"
+	culture="faerghus"
+	father= 100004
+	mother = 100021
+	dynasty=224
+	
+	trait = calm
+	trait = curious
+	
+	trait= beauty_good_1
+
+
+	1171.9.1 = {
+		birth=yes
+		}
+	}
+
+	1250.1.1={
+		death="1250.1.1"
 	}
 }

@@ -428,6 +428,7 @@
 	religion="seirosite"
 	culture="leicester"
 	father=200000
+	mother=200074
 	dna = dna_tiana
 
 	prowess = 10
@@ -461,6 +462,8 @@
 	religion="seirosite"
 	culture="leicester"
 	father=200000
+	mother=200074
+
 
 	prowess = 8
 
@@ -1858,10 +1861,11 @@
 	trait = chaste
 	trait = trusting
 	
+	trait = education_learning_2
 	trait = physician_3
 	disallow_random_traits = yes
 	
-	1127.9.8 = {
+	1122.9.8 = {
 		birth=yes
 	}
 	1181.1.1 = {
