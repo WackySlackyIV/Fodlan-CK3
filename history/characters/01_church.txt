@@ -962,7 +962,8 @@
 	religion="seirosite"
 	culture="high_fodlan"
 	sexuality = heterosexual
-
+	female = yes
+	
 	trait = gregarious
 	trait = patient
 	trait = honest
@@ -985,6 +986,7 @@
 	1181.1.11 = {
 		employer = 100001
 	}
+	
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -994,6 +996,7 @@
 	name="Suzanne"
 	religion="seirosite"
 	culture="faerghus"
+	female = yes
 	father= 100004
 	mother = 100021
 	dynasty=224
