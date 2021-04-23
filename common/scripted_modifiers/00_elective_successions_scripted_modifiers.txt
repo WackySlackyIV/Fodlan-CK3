@@ -3201,3 +3201,162 @@ hook_for_vote_interaction_ai_modifier = {
 		}
 	}
 }
+
+elector_voting_pattern_alliance_elective_modifier = {
+	modifier = {
+		desc = tooltip_alliance_vote_crest
+		NOT = { this = scope:candidate } #Do not judge yourself.
+		scope:candidate = {
+			has_crest = yes
+		}
+		add = {
+			value = 0
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_minor_crest = yes
+						NOT = { 
+							OR = {
+								has_trait = crest_riegan
+								has_trait = crest_maurice
+							}
+						}
+					}
+				}
+				add = 20
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_major_crest = yes
+						NOT = { 
+							OR = {
+								has_trait = crest_riegan
+								has_trait = crest_maurice
+							}
+						}
+					}
+				}
+				add = 40
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_trait = crest_blood_riegan
+					}
+				}
+				add = 40
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_trait = crest_minor_riegan
+					}
+				}
+				add = 60
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_trait = crest_major_riegan
+					}
+				}
+				add = 80
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_trait = crest_maurice
+					}
+				}
+				subtract = 40
+			}
+		}
+	}
+	modifier = {
+		desc = tooltip_alliance_vote_stats
+		NOT = { this = scope:candidate } #Do not judge yourself.
+		add = {
+			value = 0
+			if = {
+				limit = {
+					scope:candidate = { 
+						diplomacy >= 10
+					}
+				}
+				add = 10
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						martial >= 10
+					}
+				}
+				add = 5
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						stewardship >= 10
+					}
+				}
+				add = 5
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						OR = {
+							has_trait = education_diplomacy
+							has_trait = education_martial
+							has_trait = education_stewardship
+						}
+					}
+				}
+				add = 5
+			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						OR = {
+							has_diplomacy_lifestyle_trait_trigger = yes
+							has_martial_lifestyle_trait_trigger = yes
+							has_stewardship_lifestyle_trait_trigger = yes
+						}
+					}
+				}
+				add = 5
+			}
+		}
+	}
+	modifier = { #Friend rival bonus
+		desc = tooltip_alliance_vote_rival_friend
+		NOT = { this = scope:candidate } #Do not judge yourself.
+		add = {
+			value = 0
+			if = { #if candidate is rival
+				limit = {
+					has_relation_rival = scope:candidate
+				}
+				subtract = 50
+			}
+			if = { #if elector is rival
+				limit = {
+					has_relation_rival = scope:holder
+				}
+				subtract = 50
+			}
+			if = { #if candidate is friend
+				limit = {
+					has_relation_friend = scope:candidate
+				}
+				add = 50
+			}
+			if = { #if elector is friend
+				limit = {
+					has_relation_friend = scope:holder
+				}
+				add = 50
+			}
+		}
+	}
+}

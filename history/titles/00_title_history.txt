@@ -18,7 +18,7 @@ k_leicester = {
 }
 
 k_faerghus = {
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
@@ -462,7 +462,7 @@ d_gath_enfeh = {
 }
 
 d_norfer = {
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
@@ -613,7 +613,7 @@ d_brume = {
 }
 
 d_blaiddyd = {
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
@@ -1752,21 +1752,21 @@ c_veliocasse = {
 
 c_tailtean = {
               1.1.1 = { change_development_level = 8 }
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
 
 c_ratumac = {
               1.1.1 = { change_development_level = 5 }
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
 
 c_fhirdiad = {
               1.1.1 = { change_development_level = 20 }
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
@@ -1781,7 +1781,7 @@ c_eurs = {
 
 c_amiens = {
               1.1.1 = { change_development_level = 5 }
-              1176.1.1 = {
+              1180.1.1 = {
                             holder = 300000
               }
 }
