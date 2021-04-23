@@ -43,6 +43,7 @@
 			set_relation_rival = character:100000
 			set_relation_rival = character:400000
 			add_dread = 75
+			add_character_modifier = slither_protection
 		}
 	}
 	1200.1.1={

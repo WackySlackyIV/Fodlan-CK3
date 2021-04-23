@@ -1,0 +1,4 @@
+slither_protection = {
+	icon = intrigue_positive
+	enemy_hostile_scheme_success_chance_add = -50
+}
