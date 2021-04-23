@@ -86,6 +86,7 @@ FOD_flavor.2 = { #Teatime four options event
 	}
 	
 	trigger = {
+		is_adult = yes
 		any_courtier_or_guest = {
 			teatime_option_trigger = yes
 		}
