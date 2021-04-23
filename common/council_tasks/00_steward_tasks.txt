@@ -320,6 +320,29 @@ task_develop_county = {
 		scale = { value = steward_develop_county_total divide = 100 }
 	}
 
+	county_modifier = {
+		name = steward_develop_county_current_development_modifier
+		development_growth = 100
+		scale = { value = scope:councillor.current_development_penalty divide = 100 }
+	}
+
+	county_modifier = {
+		name = steward_develop_county_tribal_penalty_modifier
+		development_growth = 100
+		scale = {
+			value = 0
+			if = {
+				limit = {
+					scope:councillor_liege = {
+						should_apply_tribal_development_penalty_trigger = yes
+					}
+				}
+				value = scope:councillor.steward_develop_county_tribal_penalty
+				divide = 100
+			}
+		}
+	}
+
 	on_finish_task_county = {
 		if = {
 			limit = {
@@ -656,32 +679,6 @@ task_promote_culture = {
 	potential_county = {
 		scope:county = {
 			NOT = { culture = scope:councillor_liege.culture }
-			custom_description = { #Copied the religious protection from conversion task
-				text = "is_culture_protected_via_contract_self_or_liege"
-				subject = holder
-				NAND = { # Vassal Contract forbids meddling by liege
-					exists = holder.liege
-					holder = {
-						OR = {
-							AND = {
-								liege = scope:councillor_liege
-								is_ruler = yes
-								has_government = feudal_government 
-								is_independent_ruler = no
-								vassal_contract_has_flag = culture_protected
-							}
-							any_liege_or_above = {
-								exists = liege
-								liege = scope:councillor_liege
-								is_ruler = yes
-								has_government = feudal_government 
-								is_independent_ruler = no
-								vassal_contract_has_flag = culture_protected
-							}
-						}
-					}
-				}
-			}
 		}
 		trigger_if = {
 			limit = {

@@ -1,4 +1,4 @@
-default=plains
+﻿default=plains
 1=hills
 2=forest
 3=plains

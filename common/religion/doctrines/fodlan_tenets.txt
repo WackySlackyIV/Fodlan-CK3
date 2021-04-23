@@ -138,9 +138,7 @@ doctrine_fodlan_tenets = {
 
 		parameters = {
 			tenets_active = yes
-			custom_description_no_bullet = {
-				text = bellum_justum_effect
-			}
+			bellum_justum_effect = yes
 		}
 
 		character_modifier = {

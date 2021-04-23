@@ -1285,12 +1285,16 @@ FOD_crests.001 = { #Improved crest system
 								}
 							}
 							real_father = {
-								trigger_event = FOD_crests.002
-								days = 7
+								trigger_event = {
+									id = FOD_crests.002
+									days = 7
+								}
 							}
 							mother = {
-								trigger_event = FOD_crests.002
-								days = 7
+								trigger_event = {
+									id = FOD_crests.002
+									days = 7
+								}
 							}
 						}
 					}
@@ -1344,12 +1348,16 @@ FOD_crests.001 = { #Improved crest system
 								}
 							}
 							real_father = {
-								trigger_event = FOD_crests.002
-								days = 7
+								trigger_event = {
+									id = FOD_crests.002
+									days = 7
+								}
 							}
 							mother = {
-								trigger_event = FOD_crests.002
-								days = 7
+								trigger_event = {
+									id = FOD_crests.002
+									days = 7
+								}
 							}
 						}
 					}

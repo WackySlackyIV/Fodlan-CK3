@@ -53,7 +53,7 @@
 
 	trait = education_martial_1
 	trait = reveler_3
-	trait = logicistian
+	trait = logistician
 
 	1155.6.22 = {
 		birth=yes

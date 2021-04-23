@@ -16,7 +16,7 @@ island_hauger = {
 
 island_innraborg = {
 	counties = {
-		c_innraborg
+		c_bjarskagi
 	}
 }
 

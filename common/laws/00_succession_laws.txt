@@ -104,15 +104,14 @@
 			OR = {
 				AND = {
 					has_government = tribal_government
-					culture = { has_innovation = innovation_kingship }
+					culture = { has_innovation = innovation_heraldry }
 				}
 				AND = {
 					OR = {
 						has_government = feudal_government
-						has_government = tributary_government
 						has_government = clan_government
 					}
-					NOT = { culture = { has_innovation = innovation_kingship } }
+					NOT = { culture = { has_innovation = innovation_heraldry } }
 				}
 			}
 		}
@@ -405,7 +404,6 @@ succession_gender_laws = {
 			faith = {
 				OR = {
 					has_doctrine = doctrine_gender_male_dominated
-					has_doctrine = doctrine_gender_eblaite_equality
 				}
 			}
 		}
@@ -413,14 +411,9 @@ succession_gender_laws = {
 			can_change_succession_law_trigger = yes
 		}
 		should_start_with = {
-			OR = {
-				has_culture = culture:hittite
-				has_culture_group = culture_group:hellenic_group
-			}
 			faith = {
 				OR = {
 					has_doctrine = doctrine_gender_male_dominated
-					has_doctrine = doctrine_gender_eblaite_equality
 				}
 			}
 		}
@@ -447,7 +440,6 @@ succession_gender_laws = {
 				faith = {
 					NOR = { 
 						has_doctrine = doctrine_gender_female_dominated
-						has_doctrine = doctrine_gender_minoan_matriarchy
 					}
 				}
 			}
@@ -460,7 +452,6 @@ succession_gender_laws = {
 				faith = {
 					OR = {
 						has_doctrine = doctrine_gender_male_dominated
-						has_doctrine = doctrine_gender_eblaite_equality
 					}
 				}
 				has_realm_law = male_only_law # For when male_only_law ceases to be a legal option
@@ -544,7 +535,6 @@ succession_gender_laws = {
 				faith = {
 					OR = {
 						has_doctrine = doctrine_gender_female_dominated
-						has_doctrine = doctrine_gender_minoan_matriarchy
 					}
 				}
 				has_realm_law = female_only_law # For when male_only_law ceases to be a legal option
@@ -573,7 +563,6 @@ succession_gender_laws = {
 			faith = {
 				OR = {
 					has_doctrine = doctrine_gender_female_dominated
-					has_doctrine = doctrine_gender_minoan_matriarchy
 				}
 			}
 		}
@@ -581,9 +570,6 @@ succession_gender_laws = {
 			can_change_succession_law_trigger = yes
 		}
 		should_start_with = {
-			faith = {
-				has_doctrine = doctrine_gender_minoan_matriarchy
-			}
 		}
 		succession = {
 			gender_law = female_only

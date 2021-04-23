@@ -255,7 +255,7 @@ e_dummy = {
                                           color = { 255 245 245 }
                                           color2 = { 255 255 255 }
                                           
-                                          capital = c_ballyhean
+                                          capital = c_salem
                                           
                                           c_salem = {
                                                         color = { 210 210 210 }
@@ -461,13 +461,13 @@ e_dummy = {
                             color = { 99 77 59 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
-                            capital = c_kleiman
+                            capital = c_imperia
                             
                             d_kleiman = {
                                           color = { 110 65 29 }
                                           color2 = { 255 255 255 }
                                           
-                                          capital = c_kleiman
+                                          capital = c_imperia
                                           
                                           c_imperia = {
                                                         color = { 85 50 22 }
@@ -2529,7 +2529,7 @@ e_adrestia = {
                                           color = { 245 206 66 }
                                           color2 = { 255 255 255 }
                                           
-                                          capital = c_aillel
+                                          capital = c_ailell
                                           
                                           c_ailell = {
                                                         color = { 251 253 87 }

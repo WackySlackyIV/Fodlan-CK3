@@ -3193,19 +3193,6 @@ adultery.4001 = { #by Mathilda Bjarnehed
 								trigger = { scope:adultery_spouse = { is_male = yes } }
 								desc = adultery.4001.stallion.desc
 							}
-							triggered_desc = {
-								trigger = {
-									capital_province = {
-										OR = {
-											geographical_region = world_africa
-											geographical_region = world_elam
-											geographical_region = world_levant
-											geographical_region = world_mesopotamia
-										}
-									}
-								}
-								desc = adultery.4001.elephant.desc
-							}
 							desc = adultery.4001.desk.desc
 							desc = adultery.4001.alley.desc
 							desc = adultery.4001.table

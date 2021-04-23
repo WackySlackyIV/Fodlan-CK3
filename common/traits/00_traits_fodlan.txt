@@ -252,7 +252,10 @@ songstress = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { is_female = yes }
+				trigger = {
+					exists = this
+					is_female = yes
+				}
 				desc = trait_songstress
 			}
 			desc = trait_songster
@@ -275,7 +278,10 @@ famous_songstress = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { is_female = yes }
+				trigger = {
+					exists = this
+					is_female = yes
+				}
 				desc = trait_famous_songstress
 			}
 			desc = trait_famous_songster

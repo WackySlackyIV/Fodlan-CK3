@@ -8,7 +8,7 @@ common_tradeport_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -42,7 +42,7 @@ common_tradeport_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -76,7 +76,7 @@ common_tradeport_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -112,7 +112,7 @@ common_tradeport_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -148,7 +148,7 @@ common_tradeport_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -184,7 +184,7 @@ common_tradeport_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -220,7 +220,7 @@ common_tradeport_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -256,7 +256,7 @@ common_tradeport_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {

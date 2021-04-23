@@ -1,4 +1,4 @@
-innovation_garreg_mach_allowence= {
+﻿innovation_garreg_mach_allowence= {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	region = world_fodlan

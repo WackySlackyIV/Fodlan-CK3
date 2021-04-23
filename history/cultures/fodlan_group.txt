@@ -25,7 +25,7 @@
 	discover_innovation = innovation_development_02
 	discover_innovation = innovation_hereditary_rule
 	discover_innovation = innovation_manorialism
-	discover_innovation = innovation_royal_perogative
+	discover_innovation = innovation_royal_prerogative
 	#
 	discover_innovation = innovation_battlements
 	discover_innovation = innovation_burhs

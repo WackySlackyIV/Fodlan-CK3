@@ -92,6 +92,7 @@ pool_repopulate_diplomacy = {
 		compassionate = {}
 		fickle = {}
 		forgiving = {}
+		poet = {}
 	}
 	dynasty = none
 }
@@ -418,6 +419,9 @@ pool_repopulate_local_flavor = {
 				}
 				10 = {
 					add_trait = giant
+				}
+				10 = {
+					add_trait = poet
 				}
 				450 = {
 					trigger = {

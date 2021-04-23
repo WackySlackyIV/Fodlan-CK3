@@ -83,7 +83,6 @@ can_have_partition_succession_law_trigger = {
 		text = succession_laws_must_have_organised_government_tooltip
 		OR = {
 			has_government = feudal_government
-			has_government = tributary_government
 			has_government = clan_government
 		}
 	}
@@ -101,9 +100,8 @@ can_keep_high_partition_succession_law_trigger = {
 
 can_have_high_partition_succession_law_trigger = {
 	OR = {
-		culture = { has_innovation = innovation_kingship }
+		culture = { has_innovation = innovation_heraldry }
 		has_government = feudal_government
-		has_government = tributary_government
 		has_government = clan_government
 	}
 }
@@ -121,14 +119,13 @@ can_keep_single_heir_succession_law_trigger = {
 can_have_single_heir_succession_law_trigger = {
 	# Non-tribals only
 	culture = {
-		has_innovation = innovation_kingship
+		has_innovation = innovation_primogeniture
 	}
 	custom_description = {
 		text = succession_laws_must_have_organised_government_tooltip
 		OR = {
 			has_government = feudal_government
 			has_government = clan_government
-			has_government = tributary_government
 		}
 	}
 }
@@ -145,14 +142,13 @@ can_keep_single_heir_youngest_succession_law_trigger = {
 
 can_have_single_heir_youngest_succession_law_trigger = {
 	culture = {
-		has_innovation = innovation_kingship
+		has_innovation = innovation_heraldry
 	}
 	# Non-tribals only
 	custom_description = {
 		text = succession_laws_must_have_organised_government_tooltip
 		OR = {
 			has_government = feudal_government
-			has_government = tributary_government
 			has_government = clan_government
 		}
 	}
@@ -174,7 +170,7 @@ can_keep_single_heir_dynasty_house_trigger = {
 can_have_single_heir_dynasty_house_trigger = {
 	exists = house
 	culture = {
-		has_innovation = innovation_empowered_aristocracy
+		has_innovation = innovation_heraldry
 	}
 	custom_description = {
 		text = succession_laws_must_have_organised_government_tooltip
@@ -190,6 +186,16 @@ can_have_bishop_theocratic_succession_law_trigger = {
 		is_theocratic_lessee = yes
 		has_government = theocracy_government
 	}
+}
+
+is_temporal_head_of_faith_trigger = {
+	is_head_of_faith = yes
+	holder.faith = { has_doctrine = doctrine_temporal_head }
+}
+
+can_title_have_law_general_trigger = {
+	tier >= tier_duchy
+	is_temporal_head_of_faith_trigger = no
 }
 
 can_have_holy_order_succession_law_trigger = {

@@ -8,7 +8,7 @@ pastures_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -54,7 +54,7 @@ pastures_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -88,7 +88,7 @@ pastures_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -126,7 +126,7 @@ pastures_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -165,7 +165,7 @@ pastures_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -205,7 +205,7 @@ pastures_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -248,7 +248,7 @@ pastures_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -291,7 +291,7 @@ pastures_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -334,7 +334,7 @@ hunting_grounds_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -382,7 +382,7 @@ hunting_grounds_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -416,7 +416,7 @@ hunting_grounds_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -453,7 +453,7 @@ hunting_grounds_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -491,7 +491,7 @@ hunting_grounds_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -529,7 +529,7 @@ hunting_grounds_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -567,7 +567,7 @@ hunting_grounds_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -609,7 +609,7 @@ hunting_grounds_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -651,7 +651,7 @@ orchards_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -683,7 +683,7 @@ orchards_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -717,7 +717,7 @@ orchards_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -755,7 +755,7 @@ orchards_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -796,7 +796,7 @@ orchards_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -838,7 +838,7 @@ orchards_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -881,7 +881,7 @@ orchards_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -927,7 +927,7 @@ orchards_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -973,7 +973,7 @@ farm_estates_01 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1004,7 +1004,7 @@ farm_estates_02 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1038,7 +1038,7 @@ farm_estates_03 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1079,7 +1079,7 @@ farm_estates_04 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1120,7 +1120,7 @@ farm_estates_05 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1162,7 +1162,7 @@ farm_estates_06 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1205,7 +1205,7 @@ farm_estates_07 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1249,7 +1249,7 @@ farm_estates_08 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1292,7 +1292,7 @@ military_camps_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1362,7 +1362,7 @@ military_camps_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1398,7 +1398,7 @@ military_camps_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1435,7 +1435,7 @@ military_camps_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1473,7 +1473,7 @@ military_camps_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1511,7 +1511,7 @@ military_camps_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1553,7 +1553,7 @@ military_camps_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1595,7 +1595,7 @@ military_camps_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1637,7 +1637,7 @@ regimental_grounds_01 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1678,7 +1678,7 @@ regimental_grounds_02 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1720,7 +1720,7 @@ regimental_grounds_03 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1765,7 +1765,7 @@ regimental_grounds_04 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1811,7 +1811,7 @@ regimental_grounds_05 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1858,7 +1858,7 @@ regimental_grounds_06 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1905,7 +1905,7 @@ regimental_grounds_07 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -1952,7 +1952,7 @@ regimental_grounds_08 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2001,7 +2001,7 @@ ramparts_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2042,7 +2042,7 @@ ramparts_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2077,7 +2077,7 @@ ramparts_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2116,7 +2116,7 @@ ramparts_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2158,7 +2158,7 @@ ramparts_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2200,7 +2200,7 @@ ramparts_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2242,7 +2242,7 @@ ramparts_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2284,7 +2284,7 @@ ramparts_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2326,7 +2326,7 @@ curtain_walls_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2367,7 +2367,7 @@ curtain_walls_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2405,7 +2405,7 @@ curtain_walls_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2446,7 +2446,7 @@ curtain_walls_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2486,7 +2486,7 @@ curtain_walls_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2528,7 +2528,7 @@ curtain_walls_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2571,7 +2571,7 @@ curtain_walls_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2614,7 +2614,7 @@ curtain_walls_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2657,7 +2657,7 @@ watchtowers_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2698,7 +2698,7 @@ watchtowers_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2736,7 +2736,7 @@ watchtowers_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2777,7 +2777,7 @@ watchtowers_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2819,7 +2819,7 @@ watchtowers_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2861,7 +2861,7 @@ watchtowers_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2904,7 +2904,7 @@ watchtowers_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2947,7 +2947,7 @@ watchtowers_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -2990,7 +2990,7 @@ cereal_fields_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3035,7 +3035,7 @@ cereal_fields_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3071,7 +3071,7 @@ cereal_fields_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3111,7 +3111,7 @@ cereal_fields_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3152,7 +3152,7 @@ cereal_fields_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3194,7 +3194,7 @@ cereal_fields_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3237,7 +3237,7 @@ cereal_fields_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3281,7 +3281,7 @@ cereal_fields_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3325,7 +3325,7 @@ outposts_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3375,7 +3375,7 @@ outposts_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3411,7 +3411,7 @@ outposts_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3450,7 +3450,7 @@ outposts_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3489,7 +3489,7 @@ outposts_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3529,7 +3529,7 @@ outposts_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3569,7 +3569,7 @@ outposts_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3609,7 +3609,7 @@ outposts_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3650,7 +3650,7 @@ barracks_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3690,7 +3690,7 @@ barracks_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3720,7 +3720,7 @@ barracks_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3757,7 +3757,7 @@ barracks_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3794,7 +3794,7 @@ barracks_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3831,7 +3831,7 @@ barracks_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3868,7 +3868,7 @@ barracks_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3909,7 +3909,7 @@ barracks_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3950,7 +3950,7 @@ camel_farms_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -3989,7 +3989,7 @@ camel_farms_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4026,7 +4026,7 @@ camel_farms_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4066,7 +4066,7 @@ camel_farms_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4111,7 +4111,7 @@ camel_farms_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4156,7 +4156,7 @@ camel_farms_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4202,7 +4202,7 @@ camel_farms_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4247,7 +4247,7 @@ camel_farms_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4291,7 +4291,7 @@ logging_camps_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4332,7 +4332,7 @@ logging_camps_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4368,7 +4368,7 @@ logging_camps_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4412,7 +4412,7 @@ logging_camps_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4457,7 +4457,7 @@ logging_camps_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4503,7 +4503,7 @@ logging_camps_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4549,7 +4549,7 @@ logging_camps_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4595,7 +4595,7 @@ logging_camps_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4642,7 +4642,7 @@ peat_quarries_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4674,7 +4674,7 @@ peat_quarries_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4711,7 +4711,7 @@ peat_quarries_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4752,7 +4752,7 @@ peat_quarries_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4794,7 +4794,7 @@ peat_quarries_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4837,7 +4837,7 @@ peat_quarries_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4881,7 +4881,7 @@ peat_quarries_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4925,7 +4925,7 @@ peat_quarries_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -4969,7 +4969,7 @@ hill_farms_01 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5009,7 +5009,7 @@ hill_farms_02 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5041,7 +5041,7 @@ hill_farms_03 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5080,7 +5080,7 @@ hill_farms_04 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5119,7 +5119,7 @@ hill_farms_05 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5159,7 +5159,7 @@ hill_farms_06 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5200,7 +5200,7 @@ hill_farms_07 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5241,7 +5241,7 @@ hill_farms_08 = {
 	construction_time = standard_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5282,7 +5282,7 @@ elephant_pens_01 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5318,7 +5318,7 @@ elephant_pens_02 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5355,7 +5355,7 @@ elephant_pens_03 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5398,7 +5398,7 @@ elephant_pens_04 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5441,7 +5441,7 @@ elephant_pens_05 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5484,7 +5484,7 @@ elephant_pens_06 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5527,7 +5527,7 @@ elephant_pens_07 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5571,7 +5571,7 @@ elephant_pens_08 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5615,7 +5615,7 @@ plantations_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5674,7 +5674,7 @@ plantations_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5707,7 +5707,7 @@ plantations_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5742,7 +5742,7 @@ plantations_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5777,7 +5777,7 @@ plantations_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5817,7 +5817,7 @@ plantations_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5857,7 +5857,7 @@ plantations_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5897,7 +5897,7 @@ plantations_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5937,7 +5937,7 @@ quarries_01 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -5978,7 +5978,7 @@ quarries_02 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6014,7 +6014,7 @@ quarries_03 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6056,7 +6056,7 @@ quarries_04 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6099,7 +6099,7 @@ quarries_05 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6142,7 +6142,7 @@ quarries_06 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6186,7 +6186,7 @@ quarries_07 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6230,7 +6230,7 @@ quarries_08 = {
 	construction_time = quick_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6274,7 +6274,7 @@ hill_forts_01 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6315,7 +6315,7 @@ hill_forts_02 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6352,7 +6352,7 @@ hill_forts_03 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6392,7 +6392,7 @@ hill_forts_04 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6433,7 +6433,7 @@ hill_forts_05 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6474,7 +6474,7 @@ hill_forts_06 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6515,7 +6515,7 @@ hill_forts_07 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
@@ -6556,7 +6556,7 @@ hill_forts_08 = {
 	construction_time = slow_construction_time
 
 	is_enabled = {
-		building_disable_if_vastly_over_domain_limit_trigger = yes
+		always = yes
 	}
 
 	can_construct_potential = {
