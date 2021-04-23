@@ -4,6 +4,7 @@ special_succession_witengamot_trigger = { always = no }
 special_succession_thing_trigger = { always = no }
 special_succession_tanistry_trigger = { always = no }
 
+<<<<<<< Updated upstream
 special_succession_city_confederation_trigger = {
 	OR = {
 		has_government = feudal_government
@@ -16,17 +17,23 @@ special_succession_city_confederation_trigger = {
 	}
 }
 
+=======
+>>>>>>> Stashed changes
 special_succession_dynastic_elective_trigger = {
 	always = no
 }
 
 historical_succession_access_single_heir_succession_law_trigger = {
+<<<<<<< Updated upstream
 	OR = {
 		has_government = feudal_government
 	}
 	culture = {
 		has_innovation = innovation_heraldry
 	}
+=======
+	has_government = feudal_government
+>>>>>>> Stashed changes
 }
 
 historical_succession_access_single_heir_succession_law_youngest_trigger = {

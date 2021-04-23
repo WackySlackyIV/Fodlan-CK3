@@ -317,6 +317,7 @@ has_changed_contract_obligation_trigger = {
 			local_var:title_revocation_rights != scope:obligation_check.vassal_contract_obligation_level:title_revocation_rights
 		}
 	}
+<<<<<<< Updated upstream
 }
 
 recently_converted_faith_trigger = {
@@ -345,6 +346,8 @@ can_touch_someone_trigger = {
 		# gout happens mostly in the foot, but as someone with inflammatory arthritis, I hate handshakes when my fingers are aching
 		has_trait = gout_ridden
 	}
+=======
+>>>>>>> Stashed changes
 }
 
 is_spouse_or_romantic_partner_of_root = {

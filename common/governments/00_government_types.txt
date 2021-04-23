@@ -11,7 +11,6 @@
 	vassal_contract = {
 		feudal_government_taxes
 		feudal_government_levies
-		alliance_contract
 		religious_rights
 		fortification_rights
 		coinage_rights
