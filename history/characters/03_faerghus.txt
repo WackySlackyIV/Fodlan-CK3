@@ -979,7 +979,9 @@
 	1177.5.9 = {
 		set_relation_friend = character:300033
 	}
-
+	1181.1.11 = {
+		employer = 300000
+	}
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -1022,13 +1024,14 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	
 	1177.5.9 = {
 		set_relation_friend = character:300032
 	}
-
+	1181.1.11 = {
+		employer = 300000
+	}
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1062,7 +1065,7 @@
 		}
 	}
 
-	1163.1.1 = {
+	1181.1.1 = {
 		employer = 300012
 		give_nickname = nick_gray_lion
 	}

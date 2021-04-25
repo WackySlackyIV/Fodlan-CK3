@@ -4,6 +4,7 @@
  
  #governments
  alliance_government:0 "Alliance Feudalism"
+ alliance_government_desc:0 "in this form of government, lords are largely independant and work together in an alliance. Feeling mostly free, disputes between eachother are far more common."
  
  #modifiers
  slither_protection:0 "Slither Protection"

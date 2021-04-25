@@ -44,6 +44,9 @@
 	16.6.12 = {
 		set_immortal_age = 30
 	}
+	1181.1.1 = {
+		set_relation_court_physician = character:100007
+	}
 	1200.1.11 = {
 		death = yes
 	}
@@ -166,6 +169,7 @@
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
+			give_council_position = councillor_court_chaplain
 		}
 	}
 	56.6.12 = {
@@ -227,7 +231,7 @@
 	}
 
 	1181.1.11 = {
-		employer = 100001
+		employer = 100000
 	}
 	
 	1200.1.1={
@@ -276,7 +280,7 @@
 	}
 
 	1177.1.11 = {
-		employer = 100001
+		employer = 100000
 	}
 
 	1200.1.1={
@@ -318,7 +322,7 @@
 	}
 
 	1176.1.11 = {
-		employer = 100001
+		employer = 100002
 	}
 
 	1200.1.1={
@@ -405,6 +409,7 @@
 	trait = education_learning_4
 	trait = intellect_good_2
 	trait = scholar
+	trait = disinherited
 	disallow_random_traits = yes
 
 	1129.11.8 = {
@@ -477,7 +482,7 @@
 	name="Cyril"
 	dna = dna_cyril
 	religion="seirosite"
-	culture="high_fodlan"
+	culture="almyran"
 	sexuality = heterosexual
 
    	diplomacy=5
@@ -498,7 +503,7 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
-		birth="1164.10.25"
+		birth=yes
 	}
 
 	1178.1.11 = {
@@ -506,7 +511,7 @@
 	}
 
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -552,7 +557,7 @@
 	}
 
 	1162.1.11 = {
-		employer = 100001
+		employer = 100000
 	}
 	1181.1.1 = {
 		give_nickname = nick_thunderstrike
@@ -883,6 +888,9 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
+	1181.1.11 = {
+		employer = 100000
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -918,6 +926,9 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
+	}
+	1181.1.11 = {
+		employer = 100000
 	}
 	1200.1.1={
 		death=yes
@@ -975,16 +986,12 @@
 		birth=yes
 	}
 	
-	1146.1.11 = {
-		employer = 100001
-	}
-	
 	1162.10.1 = {
 		add_spouse = 100004
 	}
 	
 	1181.1.11 = {
-		employer = 100001
+		employer = 100000
 	}
 	
 	1200.1.1={

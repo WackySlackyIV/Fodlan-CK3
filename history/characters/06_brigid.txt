@@ -2,6 +2,8 @@
 	name="Aearn" #Son of Neary and grandfather of Petra Macneary 
 	religion="fuale"
 	culture="brigid"
+	dynasty = 600
+
 	trait = temperate #mostly for the health boost
 	trait = diligent #so that Petra can have opinion boosts for her father
 	trait = honest #so that Petra can have opinion boosts for her father
@@ -472,6 +474,21 @@
 		birth=yes
 	}
 	1200.1.1={
+		death=yes
+	}
+}
+
+600031 = {
+	name= "Near" #father petra
+	religion="fuale"
+	culture="brigid"
+	dynasty = 600
+	father = 600000
+
+	1146.9.11 = {
+		birth=yes
+	}
+	1175.1.1={
 		death=yes
 	}
 }

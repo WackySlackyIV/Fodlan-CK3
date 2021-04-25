@@ -53,5 +53,19 @@ FOD_maintenance.1 = { #holy orders
 		scope:templar_holy_order = {
 			copy_title_history = title:d_knights_seiros
 		}
+		hidden_effect = {
+			character:100005 = { 
+				change_liege = 100001
+			}
+			character:100011 = { 
+				change_liege = 100001
+			}
+			character:100006 = { 
+				change_liege = 100001
+			}
+			character:100004 = { 
+				change_liege = 100001
+			}
+		}
 	}
 }

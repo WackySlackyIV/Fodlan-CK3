@@ -343,6 +343,9 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
+	1181.1.1 = {
+		give_council_position = councillor_spymaster
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -552,6 +555,9 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
+	1181.1.11 = {
+		employer = 400000
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -563,7 +569,9 @@
 	religion="ablehnist"
 	culture="brigid"
 	female = yes
+	father = 600031
 	sexuality = bisexual
+	dynasty = 600
 
    	diplomacy=4
    	martial=8
@@ -751,6 +759,9 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
+	1181.1.11 = {
+		employer = 400000
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -780,6 +791,9 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
+	}
+	1181.1.11 = {
+		employer = 400000
 	}
 	1200.1.1={
 		death=yes
@@ -816,6 +830,9 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
+	}
+	1181.1.11 = {
+		employer = 400000
 	}
 	1200.1.1={
 		death=yes
