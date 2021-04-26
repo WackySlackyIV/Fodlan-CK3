@@ -466,7 +466,7 @@
 	}
 	1169.5.9 = {
 		effect={ 
-			set_relation_friend=400019
+			set_relation_friend = character:400019
 		}
 	}
 	1200.1.1={
@@ -511,7 +511,7 @@
 	}
 	1169.5.9 = {
 		effect={ 
-			set_relation_friend=400018
+			set_relation_friend = character:400018
 		}
 	}
 	1200.1.1={
@@ -557,6 +557,9 @@
 	}
 	1181.1.11 = {
 		employer = 400000
+		effect = {
+			set_relation_friend = character:100007
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -1179,7 +1182,7 @@
 
 	1179.12.12 = {
 		effect = {
-			set_relation_friend = 400179
+			set_relation_friend = character:400179
 		}
 	}
 	

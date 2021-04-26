@@ -371,13 +371,7 @@
 	}
 	1181.1.1 = {
 		give_nickname = nick_divine_songstress
-		effect = {
-			#set_character_flag = spell_faith_warp
-			#set_character_flag = spell_faith_silence
-			#set_character_flag = spell_faith_heal
-			#set_character_flag = spell_faith_nosferatu
-			#set_character_flag = spell_faith_ward
-		}
+		set_relation_friend = character:100008
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -553,7 +547,7 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
-		birth="1152.9.15"
+		birth=yes
 	}
 
 	1162.1.11 = {
@@ -561,14 +555,11 @@
 	}
 	1181.1.1 = {
 		give_nickname = nick_thunderstrike
-		#effect = {
-		#	add_artifact = relic_thunderbrand
-		#	spawn_date = -1.1.1
-		#}
+		set_relation_friend = character:100006
 	}
 
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -656,8 +647,8 @@
 	}
 	1155.8.9 = {
 		effect={
-			add_friend=200011
-			add_friend=200023
+			set_relation_friend = character:200011
+			set_relation_friend = character:200023
 		}
 	}
 	1181.1.1 = {
@@ -715,7 +706,7 @@
 	}
 	1166.5.9 = {
 		effect={
-			add_friend=300032
+			set_relation_friend = character:300032
 		}
 		employer = 100000
 	}

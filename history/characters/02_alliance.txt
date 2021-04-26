@@ -777,7 +777,8 @@
 	1162.11.3 = {
 		birth=yes
 		effect={
-			add_friend=100013
+			set_relation_friend = character:100013
+			set_relation_friend = character:200012
 			add_character_flag = has_scripted_appearance
 		}
 	}

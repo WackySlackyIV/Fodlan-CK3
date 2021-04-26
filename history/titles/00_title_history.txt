@@ -991,14 +991,14 @@ d_badriol = {
 }
 
 c_barsarru = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1300001
               }
 }
 
 c_abulmahhu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_demcgiid
                             holder = 1400027
@@ -1006,7 +1006,7 @@ c_abulmahhu = {
 }
 
 c_abulanshu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_ugtumynn
                             holder = 1400024
@@ -1014,7 +1014,7 @@ c_abulanshu = {
 }
 
 c_ryswise = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_gautier
                             holder = 300107
@@ -1022,7 +1022,7 @@ c_ryswise = {
 }
 
 c_renaix = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_gautier
                             holder = 300106
@@ -1030,7 +1030,7 @@ c_renaix = {
 }
 
 c_adharc = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_gautier
                             holder = 300108
@@ -1038,7 +1038,7 @@ c_adharc = {
 }
 
 c_bryniau = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600001
               }
@@ -1052,7 +1052,7 @@ c_briosto = {
 }
 
 c_bhearaig = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_grannach
                             holder = 600012
@@ -1060,7 +1060,7 @@ c_bhearaig = {
 }
 
 c_bennevis = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_brigid
                             holder = 600013
@@ -1068,7 +1068,7 @@ c_bennevis = {
 }
 
 c_steinerkirchen = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400198
@@ -1076,7 +1076,7 @@ c_steinerkirchen = {
 }
 
 c_lichen = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400198
@@ -1084,35 +1084,35 @@ c_lichen = {
 }
 
 c_kosa = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400017
               }
 }
 
 c_heessen = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 400017
               }
 }
 
 c_gosabruck = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 400017
               }
 }
 
 c_aegir = {
-              1.1.1 = { change_development_level = 13 }
+              1.1.1 = { change_development_level = 26 }
               1180.1.1 = {
                             holder = 400017
               }
 }
 
 c_stroud = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200004
               }
@@ -1126,14 +1126,14 @@ c_ailell = {
 }
 
 c_schollbrun = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 400003
               }
 }
 
 c_nordorf = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_varley
                             holder = 400112
@@ -1141,7 +1141,7 @@ c_nordorf = {
 }
 
 c_heede = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400111
@@ -1149,21 +1149,21 @@ c_heede = {
 }
 
 c_airmid = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 400003
               }
 }
 
 c_wekqistoq = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 1200000
               }
 }
 
 c_segebunka = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_alebion
                             holder = 1200008
@@ -1171,7 +1171,7 @@ c_segebunka = {
 }
 
 c_kejimku = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_alebion
                             holder = 1200011
@@ -1179,49 +1179,49 @@ c_kejimku = {
 }
 
 c_sabrodt = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1200012
               }
 }
 
 c_raksha = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1200013
               }
 }
 
 c_akela = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1500000
               }
 }
 
 c_mayza = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 740002
               }
 }
 
 c_daylamiyah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 740002
               }
 }
 
 c_amiyah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 740001
               }
 }
 
 c_ziyarut = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700007
@@ -1229,7 +1229,7 @@ c_ziyarut = {
 }
 
 c_sor = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700017
@@ -1237,21 +1237,21 @@ c_sor = {
 }
 
 c_osul = {
-              1.1.1 = { change_development_level = 11 }
+              1.1.1 = { change_development_level = 22 }
               1180.1.1 = {
                             holder = 700000
               }
 }
 
 c_miyena = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 700000
               }
 }
 
 c_ghuriye = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700017
@@ -1259,7 +1259,7 @@ c_ghuriye = {
 }
 
 c_escania = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800005
@@ -1267,21 +1267,21 @@ c_escania = {
 }
 
 c_capaz = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 800000
               }
 }
 
 c_tavate = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1100001
               }
 }
 
 c_losanna = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_argovia
                             holder = 1100004
@@ -1296,28 +1296,28 @@ c_ginevra = {
 }
 
 c_friboro = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 1100000
               }
 }
 
 c_tavetsch = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 400024
               }
 }
 
 c_tarzendorf = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400024
               }
 }
 
 c_ausserrhoden = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_arundel
                             holder = 400197
@@ -1325,56 +1325,56 @@ c_ausserrhoden = {
 }
 
 c_arundel = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400024
               }
 }
 
 c_alle = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400024
               }
 }
 
 c_aarburg = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 400024
               }
 }
 
 c_giura = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1100007
               }
 }
 
 c_campovasto = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1100006
               }
 }
 
 c_atlam = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1100002
               }
 }
 
 c_zirhat = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1300003
               }
 }
 
 c_kishnarru = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800011
@@ -1382,7 +1382,7 @@ c_kishnarru = {
 }
 
 c_talamcrainn = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_athair_mor
                             holder = 600026
@@ -1390,14 +1390,14 @@ c_talamcrainn = {
 }
 
 c_sanluri = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600007
               }
 }
 
 c_gadhura = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_athair_mor
                             holder = 600027
@@ -1405,21 +1405,21 @@ c_gadhura = {
 }
 
 c_ardara = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 600007
               }
 }
 
 c_perf = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 200010
               }
 }
 
 c_morcambe = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200052
@@ -1427,7 +1427,7 @@ c_morcambe = {
 }
 
 c_croston = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200051
@@ -1435,56 +1435,56 @@ c_croston = {
 }
 
 c_atholl = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 200010
               }
 }
 
 c_sisnukharka = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400016
               }
 }
 
 c_mathillo = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1400015
               }
 }
 
 c_kharamtar = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400017
               }
 }
 
 c_konar = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 720000
               }
 }
 
 c_jalal = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 720000
               }
 }
 
 c_changureh = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 720000
               }
 }
 
 c_anderik = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_bainu
                             holder = 720012
@@ -1492,70 +1492,70 @@ c_anderik = {
 }
 
 c_tjamut = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 1300005
               }
 }
 
 c_shezzen = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1300005
               }
 }
 
 c_gatuliyeh = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 720002
               }
 }
 
 c_duday = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 720001
               }
 }
 
 c_chenar = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 720002
               }
 }
 
 c_basolya = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 720001
               }
 }
 
 c_tsagan = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 1400000
               }
 }
 
 c_lisain = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1400003
               }
 }
 
 c_khartszatuin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400000
               }
 }
 
 c_borgosi = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_baraguyn
                             holder = 1400022
@@ -1563,7 +1563,7 @@ c_borgosi = {
 }
 
 c_lanau = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400196
@@ -1571,14 +1571,14 @@ c_lanau = {
 }
 
 c_krail = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400041
               }
 }
 
 c_flurnsbach = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400196
@@ -1593,21 +1593,21 @@ c_bartels = {
 }
 
 c_tarminhor = {
-              1.1.1 = { change_development_level = 2 }
-              1180.1.1 = {
-                            holder = 1300007
-              }
-}
-
-c_pthubat = {
               1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1300007
               }
 }
 
+c_pthubat = {
+              1.1.1 = { change_development_level = 8 }
+              1180.1.1 = {
+                            holder = 1300007
+              }
+}
+
 c_klito = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_basset_marduk
                             holder = 1300018
@@ -1615,21 +1615,21 @@ c_klito = {
 }
 
 c_hobart = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600005
               }
 }
 
 c_ewan = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 600006
               }
 }
 
 c_lendrass = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_bergliez
                             holder = 400185
@@ -1637,7 +1637,7 @@ c_lendrass = {
 }
 
 c_kell = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_bergliez
                             holder = 400184
@@ -1645,35 +1645,35 @@ c_kell = {
 }
 
 c_dalwitzhof = {
-              1.1.1 = { change_development_level = 4 }
-              1180.1.1 = {
-                            holder = 400004
-              }
-}
-
-c_bergliez = {
               1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 400004
               }
 }
 
+c_bergliez = {
+              1.1.1 = { change_development_level = 16 }
+              1180.1.1 = {
+                            holder = 400004
+              }
+}
+
 c_tartku = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 700013
               }
 }
 
 c_pushtikhargon = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 700013
               }
 }
 
 c_dashtamin = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_berkniyye
                             holder = 700026
@@ -1681,7 +1681,7 @@ c_dashtamin = {
 }
 
 c_samargaon = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_bharatikos
                             holder = 1600001
@@ -1689,7 +1689,7 @@ c_samargaon = {
 }
 
 c_gudkelosa = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_bharatikos
                             holder = 1600002
@@ -1697,7 +1697,7 @@ c_gudkelosa = {
 }
 
 c_ghogsilia = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_bharatikos
                             holder = 1600003
@@ -1705,14 +1705,14 @@ c_ghogsilia = {
 }
 
 c_champagoas = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 1600000
               }
 }
 
 c_suiochan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_bholcanach
                             holder = 600022
@@ -1720,14 +1720,14 @@ c_suiochan = {
 }
 
 c_cuilin = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 600001
               }
 }
 
 c_cheviot = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_bholcanach
                             holder = 600021
@@ -1735,7 +1735,7 @@ c_cheviot = {
 }
 
 c_ardnamurchan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_bholcanach
                             holder = 600022
@@ -1743,7 +1743,7 @@ c_ardnamurchan = {
 }
 
 c_veliocasse = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300103
@@ -1751,28 +1751,28 @@ c_veliocasse = {
 }
 
 c_tailtean = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1176.1.1 = {
                             holder = 300000
               }
 }
 
 c_ratumac = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1176.1.1 = {
                             holder = 300000
               }
 }
 
 c_fhirdiad = {
-              1.1.1 = { change_development_level = 20 }
+              1.1.1 = { change_development_level = 40 }
               1176.1.1 = {
                             holder = 300000
               }
 }
 
 c_eurs = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300089
@@ -1780,14 +1780,14 @@ c_eurs = {
 }
 
 c_amiens = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1176.1.1 = {
                             holder = 300000
               }
 }
 
 c_schmidenburg = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = d_boramas
                             holder = 400134
@@ -1795,7 +1795,7 @@ c_schmidenburg = {
 }
 
 c_phillipenau = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400135
@@ -1803,49 +1803,49 @@ c_phillipenau = {
 }
 
 c_passern = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400011
               }
 }
 
 c_boramas = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 400011
               }
 }
 
 c_samian = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 730002
               }
 }
 
 c_kuhestan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 730006
               }
 }
 
 c_koshk_e_shokuh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 730002
               }
 }
 
 c_dargaz = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750000
               }
 }
 
 c_theisenberg = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400044
               }
@@ -1860,7 +1860,7 @@ c_obertiefen = {
 }
 
 c_hoferdorf = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400095
@@ -1868,14 +1868,14 @@ c_hoferdorf = {
 }
 
 c_brionac = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400044
               }
 }
 
 c_torraine = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_brume
                             holder = 300061
@@ -1883,28 +1883,28 @@ c_torraine = {
 }
 
 c_brume = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 300018
               }
 }
 
 c_ruan = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 800000
               }
 }
 
 c_estiria = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 800000
               }
 }
 
 c_claraval = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800015
@@ -1912,7 +1912,7 @@ c_claraval = {
 }
 
 c_sandendalr = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_nydalrr
                             holder = 1000006
@@ -1920,28 +1920,28 @@ c_sandendalr = {
 }
 
 c_dragakot = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1000001
               }
 }
 
 c_brubygdvik = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1000001
               }
 }
 
 c_zarghun = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750006
               }
 }
 
 c_tokarak = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_cengay
                             holder = 750010
@@ -1949,49 +1949,49 @@ c_tokarak = {
 }
 
 c_hazariye = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750006
               }
 }
 
 c_lupusad = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760002
               }
 }
 
 c_kaltek = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760002
               }
 }
 
 c_jiibayad = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 760004
               }
 }
 
 c_inabad = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1500002
               }
 }
 
 c_warwise = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 300002
               }
 }
 
 c_shrewe = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_charon
                             holder = 300113
@@ -1999,7 +1999,7 @@ c_shrewe = {
 }
 
 c_lenord = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300112
@@ -2007,28 +2007,28 @@ c_lenord = {
 }
 
 c_charon = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 300002
               }
 }
 
 c_reculver = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 200001
               }
 }
 
 c_clarence = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200001
               }
 }
 
 c_catterick = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200033
@@ -2036,14 +2036,14 @@ c_catterick = {
 }
 
 c_cartmel = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200001
               }
 }
 
 c_esses = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300048
@@ -2051,7 +2051,7 @@ c_esses = {
 }
 
 c_douvres = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300101
@@ -2059,7 +2059,7 @@ c_douvres = {
 }
 
 c_conand = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300003
@@ -2067,7 +2067,7 @@ c_conand = {
 }
 
 c_aurigny = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300102
@@ -2075,21 +2075,21 @@ c_aurigny = {
 }
 
 c_sorkh = {
-              1.1.1 = { change_development_level = 1 }
-              1180.1.1 = {
-                            holder = 770001
-              }
-}
-
-c_malikabad = {
               1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770001
               }
 }
 
+c_malikabad = {
+              1.1.1 = { change_development_level = 10 }
+              1180.1.1 = {
+                            holder = 770001
+              }
+}
+
 c_gonebad = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_cupan
                             holder = 770010
@@ -2097,28 +2097,28 @@ c_gonebad = {
 }
 
 c_raynibah = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 740000
               }
 }
 
 c_khufayfah = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 740004
               }
 }
 
 c_bukayrayah = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 740004
               }
 }
 
 c_asubayi = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_daba
                             holder = 740012
@@ -2126,35 +2126,35 @@ c_asubayi = {
 }
 
 c_tszun = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 1400006
               }
 }
 
 c_seeriin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400006
               }
 }
 
 c_khoshu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400002
               }
 }
 
 c_doynhor = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400002
               }
 }
 
 c_arigynn = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_dalayid
                             holder = 1400030
@@ -2162,21 +2162,21 @@ c_arigynn = {
 }
 
 c_maris = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200003
               }
 }
 
 c_ive = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200003
               }
 }
 
 c_gomery = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200044
@@ -2184,14 +2184,14 @@ c_gomery = {
 }
 
 c_daphnel = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 200003
               }
 }
 
 c_beverly = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200073
@@ -2199,35 +2199,35 @@ c_beverly = {
 }
 
 c_takht_e_khorsid = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 730003
               }
 }
 
 c_kennapur = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 730001
               }
 }
 
 c_karizibad = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 730004
               }
 }
 
 c_dawudshah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 730003
               }
 }
 
 c_palan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_ugtumynn
                             holder = 1400025
@@ -2235,7 +2235,7 @@ c_palan = {
 }
 
 c_nariin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_demcgiid
                             holder = 1400028
@@ -2243,21 +2243,21 @@ c_nariin = {
 }
 
 c_luma = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400005
               }
 }
 
 c_burgaasa = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400005
               }
 }
 
 c_lembak = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_bholcanach
                             holder = 600023
@@ -2265,7 +2265,7 @@ c_lembak = {
 }
 
 c_banten = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_bholcanach
                             holder = 600024
@@ -2273,14 +2273,14 @@ c_banten = {
 }
 
 c_surbafuldi = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1400013
               }
 }
 
 c_dekshapara = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_didotokan
                             holder = 1400038
@@ -2288,21 +2288,21 @@ c_dekshapara = {
 }
 
 c_baharal = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1400013
               }
 }
 
 c_ishthut = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300003
               }
 }
 
 c_ennamhutep = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_ugtumynn
                             holder = 1400024
@@ -2310,14 +2310,14 @@ c_ennamhutep = {
 }
 
 c_terkah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300006
               }
 }
 
 c_reket = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_bal_enlill
                             holder = 1300020
@@ -2325,7 +2325,7 @@ c_reket = {
 }
 
 c_rashnagar = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_bal_enlill
                             holder = 1300021
@@ -2333,35 +2333,35 @@ c_rashnagar = {
 }
 
 c_salem = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200009
               }
 }
 
 c_cangort = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 200009
               }
 }
 
 c_talaia = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 600002
               }
 }
 
 c_eularia = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 600002
               }
 }
 
 c_bhila = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_ebhisa
                             holder = 600009
@@ -2369,14 +2369,14 @@ c_bhila = {
 }
 
 c_raglan = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200007
               }
 }
 
 c_jarrow = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200069
@@ -2384,7 +2384,7 @@ c_jarrow = {
 }
 
 c_ely = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200050
@@ -2392,28 +2392,28 @@ c_ely = {
 }
 
 c_edmund = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 200007
               }
 }
 
 c_alfreton = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 200007
               }
 }
 
 c_seershausen = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_ingendorf = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400190
@@ -2421,7 +2421,7 @@ c_ingendorf = {
 }
 
 c_froitzheim = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400015
@@ -2429,42 +2429,42 @@ c_froitzheim = {
 }
 
 c_enbarr = {
-              1.1.1 = { change_development_level = 21 }
+              1.1.1 = { change_development_level = 62 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_brunnau = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_bauwersfriet = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_juten = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 400014
               }
 }
 
 c_engel = {
-              1.1.1 = { change_development_level = 13 }
+              1.1.1 = { change_development_level = 26 }
               1180.1.1 = {
                             holder = 400014
               }
 }
 
 c_wadjish = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_enlil_arbid
                             holder = 1300014
@@ -2472,7 +2472,7 @@ c_wadjish = {
 }
 
 c_qito = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_enlil_arbid
                             holder = 1300015
@@ -2480,14 +2480,14 @@ c_qito = {
 }
 
 c_gibeza = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1300006
               }
 }
 
 c_kidri = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_bainu
                             holder = 720014
@@ -2495,7 +2495,7 @@ c_kidri = {
 }
 
 c_kalgah = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_bainu
                             holder = 720012
@@ -2503,7 +2503,7 @@ c_kalgah = {
 }
 
 c_jedayah = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_bainu
                             holder = 720012
@@ -2511,7 +2511,7 @@ c_jedayah = {
 }
 
 c_dafsar = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_bainu
                             holder = 720013
@@ -2519,7 +2519,7 @@ c_dafsar = {
 }
 
 c_litzhaln = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400193
@@ -2527,21 +2527,21 @@ c_litzhaln = {
 }
 
 c_grosseg = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400013
               }
 }
 
 c_essar = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 400013
               }
 }
 
 c_vedemdara = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_fahrob
                             holder = 700024
@@ -2549,42 +2549,42 @@ c_vedemdara = {
 }
 
 c_kuibulyen = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 700010
               }
 }
 
 c_khojildyor = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 700010
               }
 }
 
 c_wapont = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300004
               }
 }
 
 c_guisnes = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 300004
               }
 }
 
 c_fraldarius = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 300004
               }
 }
 
 c_fologne = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_fraldarius
                             holder = 300105
@@ -2592,7 +2592,7 @@ c_fologne = {
 }
 
 c_surrah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_imrud
                             holder = 740017
@@ -2600,14 +2600,14 @@ c_surrah = {
 }
 
 c_shuqayq = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 740005
               }
 }
 
 c_ghumayyisah = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_furaysh
                             holder = 740010
@@ -2615,14 +2615,14 @@ c_ghumayyisah = {
 }
 
 c_abasud = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 740005
               }
 }
 
 c_rukubah = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_moqim
                             holder = 740014
@@ -2630,14 +2630,14 @@ c_rukubah = {
 }
 
 c_rahimah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 740003
               }
 }
 
 c_gharith = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_moqim
                             holder = 740014
@@ -2645,7 +2645,7 @@ c_gharith = {
 }
 
 c_gwyne = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300104
@@ -2653,49 +2653,49 @@ c_gwyne = {
 }
 
 c_galatea = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300001
               }
 }
 
 c_chartreuse = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 300001
               }
 }
 
 c_beaulieu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 300001
               }
 }
 
 c_garreg_mach = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1000.1.1 = {
                             holder = 100000
               }
 }
 
 c_cichol = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 100000
               }
 }
 
 c_cethleann = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 100000
               }
 }
 
 c_zorastre = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_gaspard
                             holder = 300120
@@ -2703,7 +2703,7 @@ c_zorastre = {
 }
 
 c_melchior = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_gaspard
                             holder = 300119
@@ -2711,14 +2711,14 @@ c_melchior = {
 }
 
 c_gaspard = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 300011
               }
 }
 
 c_balthasar = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300118
@@ -2726,28 +2726,28 @@ c_balthasar = {
 }
 
 c_sebeh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300012
               }
 }
 
 c_khem = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300011
               }
 }
 
 c_chadet = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300012
               }
 }
 
 c_sudfrise = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_fraldarius
                             holder = 300109
@@ -2755,28 +2755,28 @@ c_sudfrise = {
 }
 
 c_gueldre = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300005
               }
 }
 
 c_gautier = {
-              1.1.1 = { change_development_level = 11 }
+              1.1.1 = { change_development_level = 22 }
               1180.1.1 = {
                             holder = 300005
               }
 }
 
 c_frise = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 300005
               }
 }
 
 c_thapso = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_mach
                             holder = 600028
@@ -2784,28 +2784,28 @@ c_thapso = {
 }
 
 c_syrako = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 600008
               }
 }
 
 c_hiero = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 600008
               }
 }
 
 c_genevieve = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 300016
               }
 }
 
 c_fraisnes = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_genevieve
                             holder = 300066
@@ -2813,7 +2813,7 @@ c_fraisnes = {
 }
 
 c_chablis = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_genevieve
                             holder = 300066
@@ -2821,7 +2821,7 @@ c_chablis = {
 }
 
 c_bisont = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300074
@@ -2829,14 +2829,14 @@ c_bisont = {
 }
 
 c_westerhofen = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400009
               }
 }
 
 c_waltenham = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_gerth
                             holder = 400122
@@ -2844,7 +2844,7 @@ c_waltenham = {
 }
 
 c_swabach = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = d_gerth
                             holder = 400122
@@ -2852,14 +2852,14 @@ c_swabach = {
 }
 
 c_gerth = {
-              1.1.1 = { change_development_level = 13 }
+              1.1.1 = { change_development_level = 26 }
               1180.1.1 = {
                             holder = 400009
               }
 }
 
 c_midian = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300055
@@ -2867,14 +2867,14 @@ c_midian = {
 }
 
 c_leine = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 300013
               }
 }
 
 c_goetinge = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300055
@@ -2882,28 +2882,28 @@ c_goetinge = {
 }
 
 c_gideon = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300013
               }
 }
 
 c_khasut = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300002
               }
 }
 
 c_gilganefer = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300002
               }
 }
 
 c_wayford = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200072
@@ -2911,21 +2911,21 @@ c_wayford = {
 }
 
 c_haven = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 200006
               }
 }
 
 c_haugmond = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 200006
               }
 }
 
 c_grimsby = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200071
@@ -2933,14 +2933,14 @@ c_grimsby = {
 }
 
 c_gloucester = {
-              1.1.1 = { change_development_level = 11 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200006
               }
 }
 
 c_cleeve = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_gloucester
                             holder = 200046
@@ -2948,42 +2948,42 @@ c_cleeve = {
 }
 
 c_safariya = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750004
               }
 }
 
 c_qadam = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750003
               }
 }
 
 c_nekzi = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750005
               }
 }
 
 c_khayl = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750000
               }
 }
 
 c_throatford = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200011
               }
 }
 
 c_tamsworth = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_goneril
                             holder = 200070
@@ -2991,14 +2991,14 @@ c_tamsworth = {
 }
 
 c_morland = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200011
               }
 }
 
 c_minster = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_goneril
                             holder = 200053
@@ -3006,21 +3006,21 @@ c_minster = {
 }
 
 c_goneril = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 200011
               }
 }
 
 c_asaph = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 200053
               }
 }
 
 c_glencoe = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_grannach
                             holder = 600011
@@ -3028,21 +3028,21 @@ c_glencoe = {
 }
 
 c_dundee = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 600010
               }
 }
 
 c_clochan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600010
               }
 }
 
 c_welten = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_bergliez
                             holder = 400187
@@ -3050,7 +3050,7 @@ c_welten = {
 }
 
 c_mariensiel = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             liege = d_bergliez
                             holder = 400186
@@ -3058,7 +3058,7 @@ c_mariensiel = {
 }
 
 c_hangendenbuch = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = d_bergliez
                             holder = 400187
@@ -3066,28 +3066,28 @@ c_hangendenbuch = {
 }
 
 c_gronder = {
-              1.1.1 = { change_development_level = 12 }
+              1.1.1 = { change_development_level = 24 }
               1180.1.1 = {
                             holder = 400004
               }
 }
 
 c_vindkaller = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 1000000
               }
 }
 
 c_orkenlegende = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1000008
               }
 }
 
 c_magikeren = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_bygdalr
                             holder = 1000007
@@ -3095,28 +3095,28 @@ c_magikeren = {
 }
 
 c_paal = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 400038
               }
 }
 
 c_langgassen = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400038
               }
 }
 
 c_hevring = {
-              1.1.1 = { change_development_level = 15 }
+              1.1.1 = { change_development_level = 30 }
               1180.1.1 = {
                             holder = 400038
               }
 }
 
 c_bodendorf = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_hevring
                             holder = 400194
@@ -3124,14 +3124,14 @@ c_bodendorf = {
 }
 
 c_biserl = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400038
               }
 }
 
 c_pitten = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400195
@@ -3139,7 +3139,7 @@ c_pitten = {
 }
 
 c_ochs = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400200
@@ -3147,7 +3147,7 @@ c_ochs = {
 }
 
 c_maxlon = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400200
@@ -3155,7 +3155,7 @@ c_maxlon = {
 }
 
 c_elling = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400195
@@ -3163,14 +3163,14 @@ c_elling = {
 }
 
 c_waret = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300008
               }
 }
 
 c_permakht = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_hom_karanah
                             holder = 1300022
@@ -3178,7 +3178,7 @@ c_permakht = {
 }
 
 c_isfet = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_basset_marduk
                             holder = 1300019
@@ -3186,21 +3186,21 @@ c_isfet = {
 }
 
 c_bostrehwy = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300008
               }
 }
 
 c_kerben = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_jungensberg = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400192
@@ -3208,14 +3208,14 @@ c_jungensberg = {
 }
 
 c_hresvelg = {
-              1.1.1 = { change_development_level = 11 }
+              1.1.1 = { change_development_level = 22 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_gorspen = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400191
@@ -3223,14 +3223,14 @@ c_gorspen = {
 }
 
 c_dreikronen = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400000
               }
 }
 
 c_maugstrup = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_hrym
                             holder = 400181
@@ -3238,7 +3238,7 @@ c_maugstrup = {
 }
 
 c_jerpstead = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400183
@@ -3246,14 +3246,14 @@ c_jerpstead = {
 }
 
 c_hrym = {
-              1.1.1 = { change_development_level = 11 }
+              1.1.1 = { change_development_level = 22 }
               1180.1.1 = {
                             holder = 400022
               }
 }
 
 c_durhaus = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_hrym
                             holder = 400182
@@ -3261,28 +3261,28 @@ c_durhaus = {
 }
 
 c_boacker = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400022
               }
 }
 
 c_kleinberg = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 400047
               }
 }
 
 c_huldra = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 400047
               }
 }
 
 c_geserberg = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_huldra
                             holder = 400087
@@ -3290,7 +3290,7 @@ c_geserberg = {
 }
 
 c_eberweiss = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_sleipner
                             holder = 400070
@@ -3298,7 +3298,7 @@ c_eberweiss = {
 }
 
 c_yttrihalendi = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_innraborg
                             holder = 1000009
@@ -3306,42 +3306,42 @@ c_yttrihalendi = {
 }
 
 c_hauger = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1000005
               }
 }
 
 c_bjarskagi = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1000004
               }
 }
 
 c_montjoie = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 300006
               }
 }
 
 c_itha = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 300006
               }
 }
 
 c_foulde = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300006
               }
 }
 
 c_clevris = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300111
@@ -3349,49 +3349,49 @@ c_clevris = {
 }
 
 c_madhupattiya = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400019
               }
 }
 
 c_dumrabasa = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400018
               }
 }
 
 c_baka = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400020
               }
 }
 
 c_tubrah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 720006
               }
 }
 
 c_shahpur = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 720005
               }
 }
 
 c_puzapur = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 720006
               }
 }
 
 c_davzdah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_jibadapur
                             holder = 720015
@@ -3399,21 +3399,21 @@ c_davzdah = {
 }
 
 c_vegursboten = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1000003
               }
 }
 
 c_erobring = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 1000003
               }
 }
 
 c_drangja = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_sreng
                             holder = 1000012
@@ -3421,21 +3421,21 @@ c_drangja = {
 }
 
 c_aldakot = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 1000010
               }
 }
 
 c_akrarkleif = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1000011
               }
 }
 
 c_mavara = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_badriol
                             holder = 1400039
@@ -3443,21 +3443,21 @@ c_mavara = {
 }
 
 c_lapche = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400018
               }
 }
 
 c_banginia = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 1 }
               1180.1.1 = {
                             holder = 1400015
               }
 }
 
 c_sekwum = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_alebion
                             holder = 1200008
@@ -3465,14 +3465,14 @@ c_sekwum = {
 }
 
 c_kipuktuk = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1200009
               }
 }
 
 c_cobekwid = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_alebion
                             holder = 1200010
@@ -3480,14 +3480,14 @@ c_cobekwid = {
 }
 
 c_baddek = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 1200000
               }
 }
 
 c_shampur = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_sukhpukhuria
                             holder = 1400037
@@ -3495,14 +3495,14 @@ c_shampur = {
 }
 
 c_harikhanagar = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1500001
               }
 }
 
 c_chaua = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_didotokan
                             holder = 1400038
@@ -3510,7 +3510,7 @@ c_chaua = {
 }
 
 c_zebrud = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_kamakeya
                             holder = 710012
@@ -3518,21 +3518,21 @@ c_zebrud = {
 }
 
 c_rujnemo = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710007
               }
 }
 
 c_kafaz = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710008
               }
 }
 
 c_surkh = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700012
@@ -3540,7 +3540,7 @@ c_surkh = {
 }
 
 c_doloniye = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700011
@@ -3548,21 +3548,21 @@ c_doloniye = {
 }
 
 c_chinar = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 700012
               }
 }
 
 c_takume = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1200002
               }
 }
 
 c_piiktaw = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_makkovik
                             holder = 1200006
@@ -3570,21 +3570,21 @@ c_piiktaw = {
 }
 
 c_nuktaw = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1200007
               }
 }
 
 c_parideh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770004
               }
 }
 
 c_kelai = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_khojja
                             holder = 770007
@@ -3592,7 +3592,7 @@ c_kelai = {
 }
 
 c_karpari = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_khojja
                             holder = 770007
@@ -3600,28 +3600,28 @@ c_karpari = {
 }
 
 c_kanduy = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770004
               }
 }
 
 c_kastor = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 1400008
               }
 }
 
 c_ghala = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 1400008
               }
 }
 
 c_gezutia = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_kharinchara
                             holder = 1400033
@@ -3629,21 +3629,21 @@ c_gezutia = {
 }
 
 c_paimal = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770000
               }
 }
 
 c_navdi = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770000
               }
 }
 
 c_kuyye = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_khel
                             holder = 750007
@@ -3651,7 +3651,7 @@ c_kuyye = {
 }
 
 c_kuliketar = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_khel
                             holder = 750008
@@ -3659,35 +3659,35 @@ c_kuliketar = {
 }
 
 c_bahlozai = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750002
               }
 }
 
 c_tangai = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770005
               }
 }
 
 c_khuzgol = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 770005
               }
 }
 
 c_karamai = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 770006
               }
 }
 
 c_burkhana = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_khojja
                             holder = 770008
@@ -3695,35 +3695,35 @@ c_burkhana = {
 }
 
 c_zanagun = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 720008
               }
 }
 
 c_marandegan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 720007
               }
 }
 
 c_khandat = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 720008
               }
 }
 
 c_soni = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 700005
               }
 }
 
 c_minatuk = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_khurmana
                             holder = 700025
@@ -3731,7 +3731,7 @@ c_minatuk = {
 }
 
 c_magoviye = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700008
@@ -3739,14 +3739,14 @@ c_magoviye = {
 }
 
 c_kubulyon = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 700005
               }
 }
 
 c_shekaft = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_parakan
                             holder = 710010
@@ -3754,21 +3754,21 @@ c_shekaft = {
 }
 
 c_poshpar = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710001
               }
 }
 
 c_darukan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710001
               }
 }
 
 c_senatore = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300122
@@ -3776,14 +3776,14 @@ c_senatore = {
 }
 
 c_pretoria = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 300017
               }
 }
 
 c_magistras = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_kleiman
                             holder = 300123
@@ -3791,14 +3791,14 @@ c_magistras = {
 }
 
 c_imperia = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 300017
               }
 }
 
 c_radava = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200008
@@ -3806,7 +3806,7 @@ c_radava = {
 }
 
 c_kupala = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_edmund
                             holder = 200008
@@ -3814,42 +3814,42 @@ c_kupala = {
 }
 
 c_purun = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1400014
               }
 }
 
 c_bhaurtol = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1400014
               }
 }
 
 c_baitar = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1400014
               }
 }
 
 c_resin = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300076
               }
 }
 
 c_mortagne = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300076
               }
 }
 
 c_leon = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300110
@@ -3857,28 +3857,28 @@ c_leon = {
 }
 
 c_lalonde = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300076
               }
 }
 
 c_looz = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300007
               }
 }
 
 c_langres = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300007
               }
 }
 
 c_juliers = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_langres
                             holder = 300073
@@ -3886,7 +3886,7 @@ c_juliers = {
 }
 
 c_gand = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_langres
                             holder = 300073
@@ -3894,7 +3894,7 @@ c_gand = {
 }
 
 c_thours = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300068
@@ -3902,7 +3902,7 @@ c_thours = {
 }
 
 c_lusigan = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300057
@@ -3910,21 +3910,21 @@ c_lusigan = {
 }
 
 c_lucain = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 300019
               }
 }
 
 c_lemo = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300019
               }
 }
 
 c_pidhusa = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_brigid
                             holder = 600018
@@ -3932,21 +3932,21 @@ c_pidhusa = {
 }
 
 c_pailme = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 600016
               }
 }
 
 c_manacor = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 600016
               }
 }
 
 c_coipeadh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_madhorca
                             holder = 600017
@@ -3954,28 +3954,28 @@ c_coipeadh = {
 }
 
 c_spliga = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 900000
               }
 }
 
 c_nufena = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1100001
               }
 }
 
 c_maloggia = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 900001
               }
 }
 
 c_montcarvel = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300114
@@ -3983,21 +3983,21 @@ c_montcarvel = {
 }
 
 c_magdred = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300008
               }
 }
 
 c_florimont = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 300008
               }
 }
 
 c_stewiake = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_makkovik
                             holder = 1200005
@@ -4005,21 +4005,21 @@ c_stewiake = {
 }
 
 c_merigomish = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1200001
               }
 }
 
 c_malagash = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1200001
               }
 }
 
 c_tricasse = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_mateus
                             holder = 300041
@@ -4027,21 +4027,21 @@ c_tricasse = {
 }
 
 c_mettis = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 300015
               }
 }
 
 c_mateus = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 300015
               }
 }
 
 c_lourene = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300071
@@ -4049,7 +4049,7 @@ c_lourene = {
 }
 
 c_tharmidah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_imrud
                             holder = 740015
@@ -4057,7 +4057,7 @@ c_tharmidah = {
 }
 
 c_fiwan = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_mawleh
                             holder = 740016
@@ -4065,7 +4065,7 @@ c_fiwan = {
 }
 
 c_buhasn = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_imrud
                             holder = 740015
@@ -4073,7 +4073,7 @@ c_buhasn = {
 }
 
 c_anakhra = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_daba
                             holder = 740011
@@ -4081,14 +4081,14 @@ c_anakhra = {
 }
 
 c_sumain = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400004
               }
 }
 
 c_khongor = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_dalayid
                             holder = 1400029
@@ -4096,21 +4096,21 @@ c_khongor = {
 }
 
 c_haranaiin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400007
               }
 }
 
 c_dalkhain = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1400007
               }
 }
 
 c_inis_portan = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_midhorca
                             holder = 600020
@@ -4118,28 +4118,28 @@ c_inis_portan = {
 }
 
 c_gliomach = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 600019
               }
 }
 
 c_dun_midh = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 600019
               }
 }
 
 c_yel = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 760000
               }
 }
 
 c_saksanokhur = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_mogol
                             holder = 760005
@@ -4147,14 +4147,14 @@ c_saksanokhur = {
 }
 
 c_luchob = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760000
               }
 }
 
 c_abdan = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_mogol
                             holder = 760005
@@ -4162,21 +4162,21 @@ c_abdan = {
 }
 
 c_morowat = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 740000
               }
 }
 
 c_khushi = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 720003
               }
 }
 
 c_khater = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_moqim
                             holder = 740014
@@ -4184,14 +4184,14 @@ c_khater = {
 }
 
 c_ghoncheh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 720003
               }
 }
 
 c_vorderlain = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_morgaine
                             holder = 400139
@@ -4199,7 +4199,7 @@ c_vorderlain = {
 }
 
 c_plechin = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400140
@@ -4207,14 +4207,14 @@ c_plechin = {
 }
 
 c_morgaine = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 400012
               }
 }
 
 c_kleinsitzen = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400012
@@ -4222,7 +4222,7 @@ c_kleinsitzen = {
 }
 
 c_dachsberg = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_morgaine
                             holder = 400139
@@ -4230,7 +4230,7 @@ c_dachsberg = {
 }
 
 c_inis_motidha = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600030
               }
@@ -4245,7 +4245,7 @@ c_elymia = {
 }
 
 c_drepano = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_mach
                             holder = 600029
@@ -4253,7 +4253,7 @@ c_drepano = {
 }
 
 c_yarmouth = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200026
@@ -4261,7 +4261,7 @@ c_yarmouth = {
 }
 
 c_rhuddlan = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_myrddin
                             holder = 200048
@@ -4269,14 +4269,14 @@ c_rhuddlan = {
 }
 
 c_myrddin = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 200002
               }
 }
 
 c_bordersley = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_myrddin
                             holder = 200047
@@ -4284,14 +4284,14 @@ c_bordersley = {
 }
 
 c_rubazzu = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 1300009
               }
 }
 
 c_gebet = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_nagar_i_beydar
                             holder = 1300023
@@ -4299,21 +4299,21 @@ c_gebet = {
 }
 
 c_anat = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300009
               }
 }
 
 c_ukkusisat = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1200004
               }
 }
 
 c_oromocto = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_shehshat
                             holder = 1200016
@@ -4321,21 +4321,21 @@ c_oromocto = {
 }
 
 c_jatnar = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1200004
               }
 }
 
 c_aapilla = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1200014
               }
 }
 
 c_sarazp = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_khel
                             holder = 750009
@@ -4343,28 +4343,28 @@ c_sarazp = {
 }
 
 c_ingrin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750001
               }
 }
 
 c_gharak = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 750001
               }
 }
 
 c_niendorf = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 400002
               }
 }
 
 c_bertensdorf = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400102
@@ -4372,42 +4372,42 @@ c_bertensdorf = {
 }
 
 c_bandorf = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 400002
               }
 }
 
 c_per_hekau = {
-              1.1.1 = { change_development_level = 26 }
+              1.1.1 = { change_development_level = 52 }
               1180.1.1 = {
                             holder = 1300000
               }
 }
 
 c_hakur = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 1300000
               }
 }
 
 c_enlil = {
-              1.1.1 = { change_development_level = 9 }
+              1.1.1 = { change_development_level = 18 }
               1180.1.1 = {
                             holder = 1300000
               }
 }
 
 c_djeb = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 1300000
               }
 }
 
 c_pavia = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_kleiman
                             holder = 300121
@@ -4415,7 +4415,7 @@ c_pavia = {
 }
 
 c_norfer = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_kleiman
                             holder = 300121
@@ -4423,21 +4423,21 @@ c_norfer = {
 }
 
 c_somenhor = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300004
               }
 }
 
 c_biguat = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300004
               }
 }
 
 c_ashur = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_nu_gazul
                             holder = 1300024
@@ -4445,21 +4445,21 @@ c_ashur = {
 }
 
 c_burrukammu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300013
               }
 }
 
 c_amurri = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300013
               }
 }
 
 c_pflach = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400092
@@ -4467,7 +4467,7 @@ c_pflach = {
 }
 
 c_nuvelle = {
-              1.1.1 = { change_development_level = 12 }
+              1.1.1 = { change_development_level = 24 }
               1180.1.1 = {
                             liege = d_bartels
                             holder = 400089
@@ -4475,7 +4475,7 @@ c_nuvelle = {
 }
 
 c_mittrau = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400090
@@ -4483,7 +4483,7 @@ c_mittrau = {
 }
 
 c_lindl = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_bartels
                             holder = 400091
@@ -4491,7 +4491,7 @@ c_lindl = {
 }
 
 c_kvennathorp = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_sreng
                             holder = 1000013
@@ -4499,28 +4499,28 @@ c_kvennathorp = {
 }
 
 c_dzaminn = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1000002
               }
 }
 
 c_dyfgard = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1000002
               }
 }
 
 c_oghma = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 400048
               }
 }
 
 c_eisenthal = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400097
@@ -4528,7 +4528,7 @@ c_eisenthal = {
 }
 
 c_bichlach = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_oghma
                             holder = 400098
@@ -4536,14 +4536,14 @@ c_bichlach = {
 }
 
 c_berler = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 400048
               }
 }
 
 c_schatz = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_huldra
                             holder = 400087
@@ -4551,14 +4551,14 @@ c_schatz = {
 }
 
 c_olrun = {
-              1.1.1 = { change_development_level = 12 }
+              1.1.1 = { change_development_level = 24 }
               1180.1.1 = {
                             holder = 400037
               }
 }
 
 c_mundorf = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_olrun
                             holder = 400099
@@ -4566,7 +4566,7 @@ c_mundorf = {
 }
 
 c_kronburg = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_olrun
                             holder = 400099
@@ -4574,7 +4574,7 @@ c_kronburg = {
 }
 
 c_osyth = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_ordelia
                             holder = 200049
@@ -4582,21 +4582,21 @@ c_osyth = {
 }
 
 c_ordelia = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 200005
               }
 }
 
 c_kirdford = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 200005
               }
 }
 
 c_brandwell = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_ordelia
                             holder = 200049
@@ -4604,91 +4604,91 @@ c_brandwell = {
 }
 
 c_purcham = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710006
               }
 }
 
 c_lajini = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 710006
               }
 }
 
 c_biyakhal = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 710006
               }
 }
 
 c_senethis = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300010
               }
 }
 
 c_duramon = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1300010
               }
 }
 
 c_nereb = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1300016
               }
 }
 
 c_arad = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1300017
               }
 }
 
 c_zeynuddin = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 720009
               }
 }
 
 c_nevmahan = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 720011
               }
 }
 
 c_karekai = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 720010
               }
 }
 
 c_kesanj = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 720004
               }
 }
 
 c_janabad = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 720005
               }
 }
 
 c_garmandar = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_qareh
                             holder = 720016
@@ -4696,21 +4696,21 @@ c_garmandar = {
 }
 
 c_gurchak = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710003
               }
 }
 
 c_golisorg = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710004
               }
 }
 
 c_barnajjiye = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_zarreh
                             holder = 710013
@@ -4718,7 +4718,7 @@ c_barnajjiye = {
 }
 
 c_sylgyzbandar = {
-              1.1.1 = { change_development_level = 17 }
+              1.1.1 = { change_development_level = 34 }
               1180.1.1 = {
                             liege = k_dantagar
                             holder = 1400034
@@ -4726,14 +4726,14 @@ c_sylgyzbandar = {
 }
 
 c_suvd = {
-              1.1.1 = { change_development_level = 26 }
+              1.1.1 = { change_development_level = 38 }
               1180.1.1 = {
                             holder = 1400011
               }
 }
 
 c_batubad = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_sukhpukhuria
                             holder = 1400036
@@ -4741,28 +4741,28 @@ c_batubad = {
 }
 
 c_bari = {
-              1.1.1 = { change_development_level = 21 }
+              1.1.1 = { change_development_level = 22 }
               1180.1.1 = {
                             holder = 1400011
               }
 }
 
 c_ruprechtshofen = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400039
               }
 }
 
 c_reiss = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400039
               }
 }
 
 c_minning = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400084
@@ -4770,7 +4770,7 @@ c_minning = {
 }
 
 c_gallmanswegg = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400084
@@ -4778,14 +4778,14 @@ c_gallmanswegg = {
 }
 
 c_rhodos = {
-              1.1.1 = { change_development_level = 10 }
+              1.1.1 = { change_development_level = 20 }
               1180.1.1 = {
                             holder = 300021
               }
 }
 
 c_lahourd = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_rhodos
                             holder = 300070
@@ -4793,7 +4793,7 @@ c_lahourd = {
 }
 
 c_bordeu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300057
@@ -4801,7 +4801,7 @@ c_bordeu = {
 }
 
 c_auch = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_rhodos
                             holder = 300069
@@ -4809,7 +4809,7 @@ c_auch = {
 }
 
 c_wirksworth = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200067
@@ -4817,7 +4817,7 @@ c_wirksworth = {
 }
 
 c_sleaford = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_leicester
                             holder = 200068
@@ -4825,35 +4825,35 @@ c_sleaford = {
 }
 
 c_roehester = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_neath = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_escomb = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_derdriu = {
-              1.1.1 = { change_development_level = 25 }
+              1.1.1 = { change_development_level = 50 }
               1140.1.1 = {
                             holder = 200000
               }
 }
 
 c_shurguzar = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700009
@@ -4861,21 +4861,21 @@ c_shurguzar = {
 }
 
 c_qitahna = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710002
               }
 }
 
 c_kuchkak = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 700007
               }
 }
 
 c_baynalminal = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_rokhatiye
                             holder = 710009
@@ -4883,7 +4883,7 @@ c_baynalminal = {
 }
 
 c_vitre = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_roland
                             holder = 300060
@@ -4891,21 +4891,21 @@ c_vitre = {
 }
 
 c_roncevaux = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 300010
               }
 }
 
 c_roland = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300010
               }
 }
 
 c_blaye = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300059
@@ -4913,7 +4913,7 @@ c_blaye = {
 }
 
 c_soyers = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300115
@@ -4921,42 +4921,42 @@ c_soyers = {
 }
 
 c_rowe = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 300012
               }
 }
 
 c_arianrhod = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 300012
               }
 }
 
 c_ampuis = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300012
               }
 }
 
 c_rugen = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 400005
               }
 }
 
 c_badenhagen = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 400005
               }
 }
 
 c_zard = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_baraguyn
                             holder = 1400021
@@ -4964,14 +4964,14 @@ c_zard = {
 }
 
 c_khinjakka = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 770002
               }
 }
 
 c_dargah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_baraguyn
                             holder = 1400021
@@ -4979,7 +4979,7 @@ c_dargah = {
 }
 
 c_thoenischen = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400129
@@ -4987,14 +4987,14 @@ c_thoenischen = {
 }
 
 c_rusalka = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400010
               }
 }
 
 c_krausebauden = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400131
@@ -5002,7 +5002,7 @@ c_krausebauden = {
 }
 
 c_hornschlag = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_rusalka
                             holder = 400126
@@ -5010,7 +5010,7 @@ c_hornschlag = {
 }
 
 c_sharikhiyah = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_imrud
                             holder = 740019
@@ -5018,7 +5018,7 @@ c_sharikhiyah = {
 }
 
 c_sayyirah = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_imrud
                             holder = 740019
@@ -5026,7 +5026,7 @@ c_sayyirah = {
 }
 
 c_gajjiya = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_imrud
                             holder = 740018
@@ -5034,7 +5034,7 @@ c_gajjiya = {
 }
 
 c_buqay = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_sayysum
                             holder = 740020
@@ -5042,14 +5042,14 @@ c_buqay = {
 }
 
 c_windhag = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400146
               }
 }
 
 c_tollertau = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_schwan
                             holder = 400046
@@ -5057,28 +5057,28 @@ c_tollertau = {
 }
 
 c_schwan = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 400146
               }
 }
 
 c_tuine = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600000
               }
 }
 
 c_skyrne = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 600000
               }
 }
 
 c_orbsen = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_brigid
                             holder = 600014
@@ -5086,14 +5086,14 @@ c_orbsen = {
 }
 
 c_forrad = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 600000
               }
 }
 
 c_duartaine = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_brigid
                             holder = 600015
@@ -5101,7 +5101,7 @@ c_duartaine = {
 }
 
 c_claonfhearta = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_brigid
                             holder = 600014
@@ -5109,28 +5109,28 @@ c_claonfhearta = {
 }
 
 c_vozm = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760001
               }
 }
 
 c_tovabulok = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760001
               }
 }
 
 c_guyundar = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 740001
               }
 }
 
 c_bashkomaz = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = d_mogol
                             holder = 760006
@@ -5138,21 +5138,21 @@ c_bashkomaz = {
 }
 
 c_naajat = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1200003
               }
 }
 
 c_isertoq = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1200003
               }
 }
 
 c_shortoqay = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_shudnon
                             holder = 700027
@@ -5160,14 +5160,14 @@ c_shortoqay = {
 }
 
 c_qalatan = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 700006
               }
 }
 
 c_martakhy = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800010
@@ -5175,7 +5175,7 @@ c_martakhy = {
 }
 
 c_wademanssfeld = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             liege = d_skade
                             holder = 400093
@@ -5183,7 +5183,7 @@ c_wademanssfeld = {
 }
 
 c_trefning = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = d_skade
                             holder = 400093
@@ -5191,14 +5191,14 @@ c_trefning = {
 }
 
 c_skade = {
-              1.1.1 = { change_development_level = 8 }
+              1.1.1 = { change_development_level = 16 }
               1180.1.1 = {
                             holder = 400043
               }
 }
 
 c_petzeldorf = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400094
@@ -5206,7 +5206,7 @@ c_petzeldorf = {
 }
 
 c_latzenhof = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400094
@@ -5214,14 +5214,14 @@ c_latzenhof = {
 }
 
 c_untereich = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400045
               }
 }
 
 c_steyer = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400096
@@ -5229,14 +5229,14 @@ c_steyer = {
 }
 
 c_sleipner = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 400045
               }
 }
 
 c_nostra = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_sleipner
                             holder = 400070
@@ -5244,7 +5244,7 @@ c_nostra = {
 }
 
 c_korb = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400096
@@ -5252,21 +5252,21 @@ c_korb = {
 }
 
 c_stieglitz = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400008
               }
 }
 
 c_piskaborn = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 400008
               }
 }
 
 c_oberleiten = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400120
@@ -5274,7 +5274,7 @@ c_oberleiten = {
 }
 
 c_guarda = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400120
@@ -5282,14 +5282,14 @@ c_guarda = {
 }
 
 c_sharipur = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1400012
               }
 }
 
 c_gopinagar = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_dantagar
                             holder = 1400035
@@ -5297,7 +5297,7 @@ c_gopinagar = {
 }
 
 c_ghorai = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_dantagar
                             holder = 1400035
@@ -5305,42 +5305,42 @@ c_ghorai = {
 }
 
 c_lashkarpur = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 1400010
               }
 }
 
 c_fakirkil = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1400009
               }
 }
 
 c_baratuli = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1400010
               }
 }
 
 c_gearr = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600003
               }
 }
 
 c_fhada = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 600004
               }
 }
 
 c_dubh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_triur_sethir
                             holder = 600025
@@ -5348,21 +5348,21 @@ c_dubh = {
 }
 
 c_glarona = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1100005
               }
 }
 
 c_engadina = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 900000
               }
 }
 
 c_casinotta = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_argovia
                             holder = 1100003
@@ -5370,7 +5370,7 @@ c_casinotta = {
 }
 
 c_mogoyn = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_baraguyn
                             holder = 1400023
@@ -5378,7 +5378,7 @@ c_mogoyn = {
 }
 
 c_buyantayn = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_ugtumynn
                             holder = 1400026
@@ -5386,21 +5386,21 @@ c_buyantayn = {
 }
 
 c_bandi = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 1400001
               }
 }
 
 c_balji = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 1400001
               }
 }
 
 c_shubat = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800014
@@ -5408,7 +5408,7 @@ c_shubat = {
 }
 
 c_murkesh = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800012
@@ -5416,7 +5416,7 @@ c_murkesh = {
 }
 
 c_chagar = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_reqonn
                             holder = 800013
@@ -5424,7 +5424,7 @@ c_chagar = {
 }
 
 c_sharaiin = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_ikhtal
                             holder = 1400031
@@ -5432,14 +5432,14 @@ c_sharaiin = {
 }
 
 c_khotogtuew = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 1400003
               }
 }
 
 c_galharyin = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = k_ikhtal
                             holder = 1400032
@@ -5447,21 +5447,21 @@ c_galharyin = {
 }
 
 c_engershand = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 1400004
               }
 }
 
 c_varley = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             holder = 400016
               }
 }
 
 c_questnitz = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400189
@@ -5469,14 +5469,14 @@ c_questnitz = {
 }
 
 c_pente = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             holder = 400016
               }
 }
 
 c_griebow = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             liege = d_varley
                             holder = 400188
@@ -5484,7 +5484,7 @@ c_griebow = {
 }
 
 c_frischenburg = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = e_adrestia
                             holder = 400189
@@ -5492,7 +5492,7 @@ c_frischenburg = {
 }
 
 c_tarykam = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700019
@@ -5500,14 +5500,14 @@ c_tarykam = {
 }
 
 c_oktoshiye = {
-              1.1.1 = { change_development_level = 4 }
+              1.1.1 = { change_development_level = 8 }
               1180.1.1 = {
                             holder = 700019
               }
 }
 
 c_khoshdara = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_parakan
                             holder = 710010
@@ -5515,7 +5515,7 @@ c_khoshdara = {
 }
 
 c_childukhtar = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700018
@@ -5523,14 +5523,14 @@ c_childukhtar = {
 }
 
 c_sarfang = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 1200002
               }
 }
 
 c_iliamaq = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_natwash
                             holder = 1200015
@@ -5538,7 +5538,7 @@ c_iliamaq = {
 }
 
 c_nazer = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = d_western_church
                             holder = 300117
@@ -5546,7 +5546,7 @@ c_nazer = {
 }
 
 c_gladia = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = d_western_church
                             holder = 300116
@@ -5554,21 +5554,21 @@ c_gladia = {
 }
 
 c_galilee = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300014
               }
 }
 
 c_bade = {
-              1.1.1 = { change_development_level = 3 }
+              1.1.1 = { change_development_level = 6 }
               1180.1.1 = {
                             holder = 300014
               }
 }
 
 c_mahankalai = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_keli
                             holder = 770009
@@ -5576,7 +5576,7 @@ c_mahankalai = {
 }
 
 c_kamariye = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = d_cupan
                             holder = 770010
@@ -5584,14 +5584,14 @@ c_kamariye = {
 }
 
 c_dalil = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 770003
               }
 }
 
 c_qambarast = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700016
@@ -5599,7 +5599,7 @@ c_qambarast = {
 }
 
 c_pugush = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700014
@@ -5607,7 +5607,7 @@ c_pugush = {
 }
 
 c_kalaishodi = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             liege = k_almyra
                             holder = 700015
@@ -5615,28 +5615,28 @@ c_kalaishodi = {
 }
 
 c_chimepe = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 700014
               }
 }
 
 c_shululu = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760007
               }
 }
 
 c_bulakizal = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 760007
               }
 }
 
 c_zacharie = {
-              1.1.1 = { change_development_level = 7 }
+              1.1.1 = { change_development_level = 14 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300020
@@ -5644,7 +5644,7 @@ c_zacharie = {
 }
 
 c_charente = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300020
@@ -5652,7 +5652,7 @@ c_charente = {
 }
 
 c_cavaellon = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             liege = k_faerghus
                             holder = 300072
@@ -5660,35 +5660,35 @@ c_cavaellon = {
 }
 
 c_archembault = {
-              1.1.1 = { change_development_level = 5 }
+              1.1.1 = { change_development_level = 10 }
               1180.1.1 = {
                             holder = 300072
               }
 }
 
 c_zanado = {
-              1.1.1 = { change_development_level = 2 }
+              1.1.1 = { change_development_level = 4 }
               1180.1.1 = {
                             holder = 100000
               }
 }
 
 c_macuil = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 100000
               }
 }
 
 c_indech = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 100000
               }
 }
 
 c_vajim = {
-              1.1.1 = { change_development_level = 6 }
+              1.1.1 = { change_development_level = 12 }
               1180.1.1 = {
                             liege = d_parakan
                             holder = 710011
@@ -5696,14 +5696,14 @@ c_vajim = {
 }
 
 c_parmeh = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710005
               }
 }
 
 c_kachupur = {
-              1.1.1 = { change_development_level = 1 }
+              1.1.1 = { change_development_level = 2 }
               1180.1.1 = {
                             holder = 710005
               }

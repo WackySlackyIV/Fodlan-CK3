@@ -179,7 +179,7 @@
 	faiths = {
 		kizilisma = { #red sun
 			color = { 224 85 70 }
-            icon = shia
+			icon = almyra_red
             
 			holy_site = osul
 			holy_site = koshk
@@ -196,7 +196,7 @@
 
 		denizavi = { #blue sun
 			color = { 99 124 145 }
-            icon = shia
+			icon = almyra_blue
             
 			holy_site = osul
 			holy_site = koshk
@@ -214,7 +214,7 @@
 
 		beyazisma = { #white sun
 			color = { 232 232 230 }
-            icon = shia
+			icon = almyra_white
             
 			holy_site = osul
 			holy_site = koshk
@@ -233,7 +233,7 @@
 
 		siyakara = { #black sun
 			color = { 74 19 143 }
-            icon = shia
+			icon = almyra_black
             
 			holy_site = karizibad
 			holy_site = kuibulyen
@@ -253,7 +253,7 @@
 		
 		dogasil = { #green sun
 			color = { 4 84 26 }
-            icon = shia
+			icon = almyra_green
             
 			holy_site = malikabad
 			holy_site = karamai
@@ -272,7 +272,7 @@
 
 		karakaya = { #brown sun
 			color = { 105 61 23 }
-            icon = shia
+			icon = almyra_brown
             
 			holy_site = buhasn
 			holy_site = mayza
