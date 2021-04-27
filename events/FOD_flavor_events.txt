@@ -4,7 +4,7 @@ FOD_flavor.1 = { #Tomato event
 	type = character_event
 	title = FOD_flavor.1.t
 	desc = FOD_flavor.1.desc
-	theme = stewardship
+	theme = realm
 	left_portrait = root
 	
 	trigger = {
@@ -57,7 +57,8 @@ FOD_flavor.1 = { #Tomato event
 }
 
 scripted_trigger teatime_option_trigger = {
-	is_available_healthy_adult = yes
+	is_available = yes
+	age > 13
 	NOR = {
 		has_opinion_modifier = {
 			target = root
@@ -86,7 +87,7 @@ FOD_flavor.2 = { #Teatime four options event
 	}
 	
 	trigger = {
-		is_adult = yes
+		age > 13
 		any_courtier_or_guest = {
 			teatime_option_trigger = yes
 		}
@@ -127,6 +128,7 @@ FOD_flavor.2 = { #Teatime four options event
 				5 = { #Perfect teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.perfect
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -143,6 +145,7 @@ FOD_flavor.2 = { #Teatime four options event
 				14 = { #nice teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.nice
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -155,6 +158,7 @@ FOD_flavor.2 = { #Teatime four options event
 				1 = { #Poor teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.poor
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -175,6 +179,7 @@ FOD_flavor.2 = { #Teatime four options event
 				5 = { #Perfect teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.perfect
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -191,6 +196,7 @@ FOD_flavor.2 = { #Teatime four options event
 				14 = { #nice teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.nice
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -203,6 +209,7 @@ FOD_flavor.2 = { #Teatime four options event
 				1 = { #Poor teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.poor
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -223,6 +230,7 @@ FOD_flavor.2 = { #Teatime four options event
 				5 = { #Perfect teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.perfect
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -239,6 +247,7 @@ FOD_flavor.2 = { #Teatime four options event
 				14 = { #nice teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.nice
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -251,6 +260,7 @@ FOD_flavor.2 = { #Teatime four options event
 				1 = { #Poor teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.poor
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -271,6 +281,7 @@ FOD_flavor.2 = { #Teatime four options event
 				5 = { #Perfect teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.perfect
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -287,6 +298,7 @@ FOD_flavor.2 = { #Teatime four options event
 				14 = { #nice teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.nice
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -299,6 +311,7 @@ FOD_flavor.2 = { #Teatime four options event
 				1 = { #Poor teatime
 					send_interface_toast = {
 						title = FOD_flavor.2.poor
+						left_icon = scope:teamate
 						
 						scope:teamate = {
 							add_opinion = {
@@ -308,6 +321,128 @@ FOD_flavor.2 = { #Teatime four options event
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+FOD_flavor.4 = { #Sharing meal with courtiers
+	type = character_event
+	title = FOD_flavor.4.t
+	desc = FOD_flavor.4.desc
+	theme = party
+	left_portrait = scope:first_courtier
+	right_portrait = scope:second_courtier
+	
+	trigger = {
+		age > 13
+		any_courtier_or_guest = {
+			count = 2
+			is_available = yes
+			age > 13
+		}
+	}
+	
+	immediate = {
+		random_courtier_or_guest = {
+			limit = {
+				is_available = yes
+				age > 13
+			}
+			save_scope_as = first_courtier
+		}
+		random_courtier_or_guest = {
+			limit = {
+				is_available = yes
+				age > 13
+				NOT = { this = scope:first_courtier }
+			}
+			save_scope_as = second_courtier
+		}
+	}
+	
+	option = { #Today's Special
+		name = FOD_flavor.4.a
+		random_list = {
+			1 = {
+				desc = FOD_flavor.4.good
+
+				send_interface_toast = {
+					title = FOD_flavor.4.good
+					left_icon = scope:first_courtier
+					right_icon = scope:second_courtier
+					
+					scope:first_courtier = {
+						add_opinion = {
+							modifier = friendliness_opinion
+							opinion = 5
+							target = scope:second_courtier
+						}
+						add_opinion = {
+							modifier = friendliness_opinion
+							opinion = 5
+							target = root
+						}
+					}
+					scope:second_courtier = {
+						add_opinion = {
+							modifier = friendliness_opinion
+							opinion = 5
+							target = scope:first_courtier
+						}
+						add_opinion = {
+							modifier = friendliness_opinion
+							opinion = 5
+							target = root
+						}
+					}
+				}
+			}
+			1 = {}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { #Custom meal
+		name = FOD_flavor.4.b
+		send_interface_toast = {
+			title = FOD_flavor.4.good
+			left_icon = scope:first_courtier
+			right_icon = scope:second_courtier
+			
+			remove_short_term_gold = minor_gold_value
+			scope:first_courtier = {
+				add_opinion = {
+					modifier = friendliness_opinion
+					opinion = 5
+					target = scope:second_courtier
+				}
+				add_opinion = {
+					modifier = friendliness_opinion
+					opinion = 5
+					target = root
+				}
+			}
+			scope:second_courtier = {
+				add_opinion = {
+					modifier = friendliness_opinion
+					opinion = 5
+					target = scope:first_courtier
+				}
+				add_opinion = {
+					modifier = friendliness_opinion
+					opinion = 5
+					target = root
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				add = -90
+				short_term_gold < minor_gold_value
 			}
 		}
 	}
