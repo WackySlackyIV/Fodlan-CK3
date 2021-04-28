@@ -210,7 +210,7 @@ beards = {
 				}
             }
             modifier = { # Almyrans should always have a beard
-                add = 200
+                add = 100
                 religion = religion:buykisik_religion
                 OR = {
 					portrait_mena_clothing_trigger = yes
