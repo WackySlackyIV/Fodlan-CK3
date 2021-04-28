@@ -365,6 +365,71 @@
 		}
 	}
 
+	crest_primo_succession_law = {
+		can_keep = {
+			OR = {
+				can_keep_single_heir_succession_law_trigger = yes
+				# Vassal Contract allows it
+				custom_description = {
+					text = succession_laws_must_not_be_forced_partition
+					NAND = {
+						is_independent_ruler = no
+						vassal_contract_has_flag = locked_to_partition
+					}
+				}
+				has_government = alliance_government
+			}
+		}	
+		can_have = {
+			OR = {
+				can_have_single_heir_succession_law_trigger = yes
+				has_government = alliance_government
+			}
+		}
+		can_pass = {
+			OR = {
+				can_change_succession_law_trigger = yes
+				has_government = alliance_government
+			}
+		}
+		should_start_with = {
+			OR = {
+				historical_succession_access_single_heir_succession_law_trigger = yes
+				has_government = alliance_government
+			}
+		}
+		succession = {
+			order_of_succession = inheritance
+			traversal_order = children
+			rank = oldest
+			title_division = single_heir
+		}
+		flag = advanced_succession_law
+		modifier = {
+			player_heir_opinion = 20
+			eligible_child_except_player_heir_opinion = -5
+		}
+		pass_cost = {
+			prestige = change_succession_law_prestige_cost
+		}
+		revoke_cost = {
+			prestige = change_succession_law_prestige_cost
+		}
+
+		ai_will_do = {
+			if = {
+				limit = {
+					OR = {
+						has_realm_law = confederate_partition_succession_law
+						has_realm_law = partition_succession_law
+						has_realm_law = high_partition_succession_law
+					}
+				}
+				value = 3
+			}
+		}
+	}
+
 	alliance_elective_succession_law = {
 		can_have = {
 			has_government = alliance_government

@@ -162,6 +162,8 @@
 	trait = arrogant
 	trait = arbitrary
 
+	trait = crest_blood_cichol
+
 	1120.1.11 = {
 		birth=yes
 		effect = {
@@ -182,6 +184,8 @@
 	culture="adrestian"
 	dynasty = 310
 	father = 400161
+
+	trait = crest_blood_indech
 
 	1136.5.7 = {
 		birth=yes
@@ -284,6 +288,8 @@
 	father = 400050
 	mother = 400165
 	female = yes
+
+	trait = crest_major_indech
 
 	1133.11.12 = {
 		birth=yes
@@ -677,6 +683,8 @@
 	trait = education_intrigue_2
 	trait = august
 	trait = celibate
+
+`	trait = crest_blood_seiros
 	disallow_random_traits = yes
 
 	1118.1.11 = {
@@ -961,10 +969,12 @@
 }
 
 400034 = {
-	name="Marcella"
+	name="Marcella" #mother mercedes
 	religion="seirosite"
 	culture="adrestian"
 	female = yes
+
+	trait = crest_minor_lamine
 
 	1120.8.5 = {
 		birth=yes
@@ -1054,6 +1064,8 @@
 
 	trait = education_stewardship_4
 	trait = administrator
+
+	trait = crest_blood_cethleann
 
 	1133.7.10 = {
 		birth=yes
@@ -1242,6 +1254,8 @@
 	dynasty = 303
 	father = 400167
 
+	trait = crest_minor_indech
+
 	1109.3.13 = {
 		birth=yes
 	}
@@ -1337,7 +1351,6 @@
 
 	trait = blood_experiments
 	trait = crest_minor_flames
-	trait = incapable
 
 	1158.1.11 = {
 		birth=yes
@@ -3157,6 +3170,8 @@
 	father = 400050
 	mother = 400165
 
+	trait = crest_minor_indech
+
 	1137.10.19 = {
 		birth=yes
 	}
@@ -3192,6 +3207,8 @@
 	dynasty = 303
 	father = 400167
 
+	trait = crest_blood_indech
+
 	1105.4.26 = {
 		birth=yes
 	}
@@ -3211,6 +3228,8 @@
 	culture="adrestian"
 	dynasty = 303
 
+	trait = crest_blood_indech
+
 	1085.1.11 = {
 		birth=yes
 	}
@@ -3227,6 +3246,8 @@
 	female = yes
 	father = 400166
 	mother = 400169
+
+	trait = crest_major_indech
 
 	1144.9.19 = {
 		birth=yes
@@ -3262,6 +3283,8 @@
 	dynasty = 326
 	female = yes
 
+	trait = crest_major_noa
+
 	1137.3.11 = {
 		birth=yes
 	}
@@ -3278,6 +3301,8 @@
 	religion="seirosite"
 	culture="adrestian"
 	dynasty = 326
+
+	trait = crest_blood_noa
 
 	1135.11.14 = {
 		birth=yes
@@ -3297,6 +3322,8 @@
 	dynasty = 326
 	father = 400171
 	mother = 400170
+
+	trait = crest_minor_noa
 
 	1158.11.1 = {
 		birth=yes

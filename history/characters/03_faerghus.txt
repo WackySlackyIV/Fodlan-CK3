@@ -64,6 +64,8 @@
 
 	trait=education_intrigue_2
 
+	trait = crest_blood_daphnel
+
 	1135.3.21 = {
 		birth=yes
 	}
@@ -93,6 +95,8 @@
 	trait=one_eyed
 	trait=scarred
 	trait=gallant
+
+	trait = crest_minor_charon
 
 	1130.5.19 = {
 		birth=yes
@@ -193,6 +197,9 @@
 
 	trait= education_intrigue_3
 	trait= scarred
+
+	trait = crest_blood_gautier
+
 	1125.4.21 = {
 		birth=yes
 	}
@@ -616,6 +623,8 @@
 	father = 500023
 	dynasty=200
 
+	trait = crest_blood_blaiddyd
+
 	1115.2.21 = {
 		birth=yes
 	}
@@ -801,6 +810,8 @@
 
 	trait = education_martial_3
 	trait = blademaster_2
+
+	trait = crest_major_fraldarius
 	disallow_random_traits = yes
 
 	1157.2.20 = {
@@ -1207,6 +1218,8 @@
 	dynasty=201
 	father=300001
 	mother=300092
+
+	trait = crest_blood_daphnel
 
 	1158.7.23 = {
 		birth=yes
@@ -2115,6 +2128,7 @@
 	trait = education_martial_2
 	trait = hunter_1
 
+	trait = crest_blood_fraldarius
 
 	1138.8.28 = {
 		birth=yes
@@ -2130,6 +2144,8 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty = 204
+
+	trait = crest_blood_fraldarius
 
 	1103.10.29 = {
 		birth=yes
@@ -2285,6 +2301,8 @@
 	trait = ambitious
 	trait = craven
 
+	trait = crest_blood_dominic
+
 	trait = education_intrigue_3
 
 	1132.8.20 = {
@@ -2334,6 +2352,8 @@
 	religion="seirosite"
 	culture="faerghus"
 	dynasty = 221
+
+	trait = crest_major_dominic
 
 	1100.1.25 = {
 		birth=yes
@@ -2422,6 +2442,8 @@
 
 	trait = education_diplomacy_2
 
+	trait = crest_blood_charon
+
 	1154.10.14 = {
 		birth=yes
 	}
@@ -2440,6 +2462,8 @@
 	mother = 300097
 
 	trait= education_stewardship_2
+
+	trait = crest_minor_charon
 
 	1160.10.17 = {
 		birth=yes

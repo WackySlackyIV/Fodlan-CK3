@@ -21,6 +21,8 @@
 	trait = infirm
 	trait = celibate
 
+	trait = crest_blood_riegan
+
 	1120.1.11 = {
 		birth=yes
 		effect = {
@@ -208,6 +210,8 @@
 	trait = patient
 
 	trait = education_diplomacy_3
+
+	trait = crest_blood_gloucester
 
 	1139.5.28 = {
 		birth=yes
@@ -445,6 +449,8 @@
 	trait = beauty_good_3
 	trait = shrewd
 	trait = disinherited
+
+	trait = crest_blood_riegan
 
 	1140.9.15 = {
 		birth=yes
@@ -802,6 +808,8 @@
 	trait = scarred
 	trait = one_legged #no one_handed triat
 	trait = strong
+
+	trait = crest_minor_goneril
 
 	1126.1.24 = {
 		birth=yes
@@ -1615,6 +1623,9 @@
 	religion="seirosite"
 	culture="leicester"
 	father = 200061
+
+	trait = crest_blood_goneril
+
 	1100.9.18 = {
 		birth=yes
 	}
@@ -1631,6 +1642,9 @@
 	religion="seirosite"
 	culture="leicester"
 	father = 200062
+
+	trait = crest_minor_goneril
+
 	1065.2.19 = {
 		birth=yes
 	}
@@ -1645,6 +1659,8 @@
 	dynasty=105
 	religion="seirosite"
 	culture="leicester"
+
+	trait = crest_major_goneril
 
 	1044.7.4 = {
 		birth=yes
@@ -1711,6 +1727,8 @@
 	trait = paranoid
 	trait = diligent
 	trait = trusting
+
+	trait = crest_minor_charon
 
 	1147.11.30 = {
 		birth=yes

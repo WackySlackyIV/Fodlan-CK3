@@ -2,13 +2,7 @@
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 
-e_dummy = {
-              color = { 100 100 100 }
-              color2 = { 255 255 255 }
-              
-              capital = c_garreg_mach
-              
-              k_church = {
+			k_church = {
                             color = { 100 100 100 } #KEEPTHISCOLOUR
                             color2 = { 255 255 255 }
                             
@@ -1858,8 +1852,6 @@ e_dummy = {
                             }
                             
               }
-              
-}
 
 e_adrestia = { 
               color = { 121 18 39 } #KEEPTHISCOLOUR
