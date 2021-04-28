@@ -402,6 +402,11 @@ hairstyles_scripted_characters = {
                 exists = character:300034 #Gwendal
                 this = character:300034 #Gwendal
             }
+            modifier = {
+                add = 200
+                exists = character:200007 #Edgar
+                this = character:200007 #Edgar
+            }
         }
     }
 

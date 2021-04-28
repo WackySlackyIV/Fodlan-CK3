@@ -236,6 +236,7 @@
 	dynasty=103
 	religion="seirosite"
 	culture="leicester"
+	dna = dna_edgar
 
 	stewardship = 2
 
@@ -246,6 +247,9 @@
 
 	1137.7.18 = {
 		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1181.1.1={
 		give_council_position = councillor_steward
