@@ -654,6 +654,7 @@ FOD_flavor.3 = { #Beast encounter on hunt
 	
 	option = { #Run away
 		name = FOD_flavor.3.d
+		add_prestige = minor_prestige_loss
 		add_character_modifier = {
 			modifier = ran_from_beast_modifier
 			years = 5
@@ -796,6 +797,65 @@ FOD_flavor.4 = { #Sharing meal with courtiers
 				add = -90
 				short_term_gold < minor_gold_value
 			}
+		}
+	}
+}
+scripted_trigger naysayer_option_trigger = {
+	is_available_adult = yes
+	
+}
+
+FOD_flavor.5 = { #To eat or not to eat weeds
+	type = character_event
+	title = FOD_flavor.5.t
+	desc = FOD_flavor.5.desc
+	theme = learning
+	left_portrait = root
+	right_portrait = scope:naysayer
+	override_background = {
+		event_background = garden
+	}
+	
+	trigger = {
+		NOT = { has_trait = lifestyle_herbalist }
+		any_courtier_or_guest = {
+			opinion = {
+				target = root
+				value >= 40
+			}
+		}
+	}
+	
+	immediate = {
+		random_courtier_or_guest = {
+			limit = {
+				opinion = {
+					target = root
+					value >= 40
+				}
+			}
+			save_scope_as = naysayer
+		}
+	}
+	
+	option = { #Eat
+		name = FOD_flavor.5.a
+		random_list = {
+			3 = { contract_disease_effect = { DISEASE = ill TREATMENT_EVENT = no } }
+			1 = { add_trait = lifestyle_herbalist }
+		}
+	}
+	
+	option = { #Do not eat
+		name = FOD_flavor.5.b
+		add_character_modifier = {
+			modifier = careful_diet_modifier
+			days = 365
+		}
+		reverse_add_opinion = {
+			target = scope:naysayer
+			modifier = pleased_opinion
+			opinion = 10
 		}
 	}
 }

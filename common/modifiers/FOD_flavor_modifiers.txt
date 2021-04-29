@@ -13,3 +13,8 @@ ran_from_beast_modifier = {
 	icon = hunt_negative
 	general_opinion = -10
 }
+
+careful_diet_modifier = {
+	icon = health_positive
+	health = 1
+}
