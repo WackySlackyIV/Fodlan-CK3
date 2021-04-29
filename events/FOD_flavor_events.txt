@@ -332,7 +332,19 @@ FOD_flavor.3 = { #Beast encounter on hunt
 	desc = FOD_flavor.3.desc
 	theme = hunt_activity
 	left_portrait = {
+		character = root
+		animation = shock
+	}
+	lower_left_portrait = {
+		character = scope:first_wounded
+		animation = shock
+	}
+	right_portrait = {
 		character = scope:champion
+		animation = shock
+	}
+	lower_right_portrait = {
+		character = scope:second_wounded
 		animation = shock
 	}
 	
