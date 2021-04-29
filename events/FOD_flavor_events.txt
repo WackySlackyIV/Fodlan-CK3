@@ -326,6 +326,358 @@ FOD_flavor.2 = { #Teatime four options event
 	}
 }
 
+FOD_flavor.3 = { #Beast encounter on hunt
+	type = character_event
+	title = FOD_flavor.3.t
+	desc = FOD_flavor.3.desc
+	theme = hunt_activity
+	left_portrait = {
+		character = scope:champion
+		animation = shock
+	}
+	
+	trigger = {
+		scope:activity = {
+			any_in_list = {
+				variable = potential_hunt_participants
+				is_alive = yes
+				is_available_adult = yes
+				count >= 1
+			}
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			ordered_in_list = { #Find a suitable champion to fight in your place
+				variable = potential_hunt_participants
+				order_by = {
+					add = prowess
+				}
+				save_scope_as = champion
+			}
+		}
+		scope:activity = {
+			random_in_list = { #Find a suitable champion to fight in your place
+				variable = potential_hunt_participants
+				save_scope_as = first_wounded
+			}
+		}
+		scope:activity = {
+			random_in_list = { #Find a suitable champion to fight in your place
+				variable = potential_hunt_participants
+				limit = {
+					NOT = { this = scope:first_wounded }
+				}
+				save_scope_as = second_wounded
+			}
+		}
+		change_variable = {
+			name = hunt_outcome
+			add = -1
+		}
+	}
+	
+	option = { #Fight the beast alone
+		name = FOD_flavor.3.a
+		duel = {
+			skill = prowess
+			value = 20
+			12 = {
+				desc = FOD_flavor.3.a.critical_success
+				compare_modifier = {
+					value = scope:duel_value
+					offset = -6
+					multiplier = 2
+				}
+				send_interface_toast = {		
+					title = FOD_flavor.3.a.critical_success
+					add_character_modifier = {
+						modifier = beast_victory_modifier
+						days = 3650
+					}
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = 2
+				}
+			}
+			10 = {
+				desc = FOD_flavor.3.a.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				send_interface_toast = {		
+					title = FOD_flavor.3.a.success
+					increase_wounds_effect = { REASON = hunting_accident }
+					add_character_modifier = {
+						modifier = beast_victory_modifier
+						days = 3650
+					}
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = 1
+				}
+			}
+			10 = {
+				desc = FOD_flavor.3.a.failure
+				compare_modifier = {
+					value = scope:duel_value
+					offset = 10
+					multiplier = -1
+				}
+				send_interface_toast = {	
+					title = FOD_flavor.3.a.failure
+					increase_wounds_effect = { REASON = hunting_accident }
+					add_prestige = medium_prestige_loss
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = -1
+				}
+			}
+			5 = {
+				desc = FOD_flavor.3.a.critical_failure
+				compare_modifier = {
+					value = scope:duel_value
+					offset = 10
+					multiplier = -1
+				}
+				death = {
+					death_reason = death_hunting_accident
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 1
+				ai_rationality = -0.5
+			}
+			modifier = {
+				factor = 0
+				root.prowess < 15
+			}
+		}
+	}
+	
+	option = { #Ask champion to fight the beast alone
+		name = FOD_flavor.3.b
+		random_list = {
+			1 = {
+				desc = FOD_flavor.3.b.critical_success
+				modifier = {
+					add = {
+						value = scope:champion.prowess
+						multiply = 2
+						subtract = 41
+					}
+				}
+				send_interface_toast = {		
+					title = FOD_flavor.3.b.critical_success
+					left_icon = scope:champion
+					scope:champion = {
+						add_character_modifier = {
+							modifier = beast_victory_modifier
+							days = 3650
+						}
+						if = {
+							limit = {
+								can_add_hook = {
+									target = root
+									type = favor_hook
+								}
+							}
+							add_hook = {
+								type = favor_hook
+								target = root
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = 2
+				}
+			}
+			1 = {
+				desc = FOD_flavor.3.b.success
+				modifier = {
+					add = {
+						value = scope:champion.prowess
+						subtract = 11
+					}
+				}
+				send_interface_toast = {		
+					title = FOD_flavor.3.b.success
+					left_icon = scope:champion
+					scope:champion = {
+						increase_wounds_effect = { REASON = hunting_accident }
+						add_character_modifier = {
+							modifier = beast_victory_modifier
+							days = 3650
+						}
+						if = {
+							limit = {
+								can_add_hook = {
+									target = root
+									type = favor_hook
+								}
+							}
+							add_hook = {
+								type = favor_hook
+								target = root
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = 1
+				}
+			}
+			20 = {
+				desc = FOD_flavor.3.b.failure
+				modifier = {
+					add = {
+						value = scope:champion.prowess
+						multiply = -1
+					}
+				}
+				send_interface_toast = {	
+					title = FOD_flavor.3.b.failure
+					left_icon = scope:champion
+					scope:champion = {
+						increase_wounds_effect = { REASON = hunting_accident }
+						add_prestige = minor_prestige_loss
+						if = {
+							limit = {
+								can_add_hook = {
+									target = root
+									type = favor_hook
+								}
+							}
+							add_hook = {
+								type = favor_hook
+								target = root
+							}
+						}
+					}
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = -1
+				}
+			}
+			15 = {
+				desc = FOD_flavor.3.b.critical_failure
+				modifier = {
+					add = {
+						value = scope:champion.prowess
+						multiply = -1
+					}
+				}
+				send_interface_toast = {	
+					title = FOD_flavor.3.b.critical_failure
+					left_icon = scope:champion
+					scope:champion = {
+						death = {
+							death_reason = death_hunting_accident
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_rationality = -0.5
+			}
+			modifier = {
+				factor = 0
+				scope:champion.prowess < 15
+			}
+		}
+	}
+	
+	option = { #Organize hunting party to fight together
+		name = FOD_flavor.3.c
+		duel = {
+			skill = martial
+			value = 10
+			1 = {
+				desc = FOD_flavor.3.c.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				send_interface_toast = {		
+					title = FOD_flavor.3.c.success
+					add_character_modifier = {
+						modifier = beast_victory_modifier
+						days = 3650
+					}
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = 2
+				}
+			}
+			1 = {
+				desc = FOD_flavor.3.c.failure
+				send_interface_toast = {	
+					title = FOD_flavor.3.c.failure
+					left_icon = scope:first_wounded
+					right_icon = scope:second_wounded
+					
+					root = { increase_wounds_effect = { REASON = hunting_accident } }
+					scope:first_wounded = { increase_wounds_effect = { REASON = hunting_accident } }
+					scope:second_wounded = { increase_wounds_effect = { REASON = hunting_accident } }
+					
+				}
+				change_variable = {
+					name = hunt_outcome
+					add = -1
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 2
+				root.martial > 10
+			}
+		}
+	}
+	
+	option = { #Run away
+		name = FOD_flavor.3.d
+		add_character_modifier = {
+			modifier = ran_from_beast_modifier
+			years = 5
+		}
+		stress_impact = {
+			brave = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = -1
+			}
+		}
+	}
+	
+	after = {
+		trigger_event = {
+			id = hunt.9001 #To complete the activity
+			days = { 14 20 }
+		}
+	}
+}
+
 FOD_flavor.4 = { #Sharing meal with courtiers
 	type = character_event
 	title = FOD_flavor.4.t
