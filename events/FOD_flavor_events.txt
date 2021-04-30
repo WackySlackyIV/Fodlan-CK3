@@ -823,7 +823,10 @@ FOD_flavor.5 = { #To eat or not to eat weeds
 	desc = FOD_flavor.5.desc
 	theme = learning
 	left_portrait = root
-	right_portrait = scope:naysayer
+	right_portrait = {
+		character = scope:naysayer
+		animation = disapproval
+	}
 	override_background = {
 		event_background = garden
 	}
