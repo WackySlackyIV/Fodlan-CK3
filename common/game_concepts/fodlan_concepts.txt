@@ -17,3 +17,48 @@ saints = {
 	alias = { saints }
 	parent = saints
 }
+
+beast = {
+	alias = { beast }
+	parent = ten_elites
+}
+
+cichol = {
+	alias = { cichol }
+	parent = saints
+}
+
+seiros = {
+	alias = { seiros }
+	parent = saints
+}
+
+indech = {
+	alias = { indech }
+	parent = saints
+}
+
+macuil = {
+	alias = { macuil }
+	parent = saints
+}
+
+noa = {
+	alias = { noa }
+	parent = four_apostles
+}
+
+timotheos = {
+	alias = { timotheos }
+	parent = four_apostles
+}
+
+aubin = {
+	alias = { aubin }
+	parent = four_apostles
+}
+
+chevalier = {
+	alias = { chevalier }
+	parent = four_apostles
+}
