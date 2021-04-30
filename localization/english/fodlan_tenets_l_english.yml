@@ -1,18 +1,18 @@
 ﻿l_english:
  tenet_school_of_seiros_name:0 "Teachings of Seiros"
- tenet_school_of_seiros_desc:0 "A branch of the Church of Seiros which focuses solely on how her most devout followers try to emulate their patron Saint, this branch encourages it's followers to develop their leadership skills and fight against those who would desecrate the word of the Goddess "
+ tenet_school_of_seiros_desc:0 "A branch of the Church of Seiros which focuses solely on how her most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to develop their leadership skills and fight against those who would desecrate the word of the Goddess "
 
  tenet_school_of_macuil_name:0 "Teachings of Macuil"
- tenet_school_of_macuil_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron Saint, this branch encourages it's followers to think tactically on and off the battlefield and to punish those who've wronged them"
+ tenet_school_of_macuil_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to think tactically on and off the battlefield and to punish those who've wronged them"
 
  tenet_school_of_cichol_name:0 "Teachings of Cichol"
- tenet_school_of_chichol_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron Saint, this branch encourages it's followers to do honest and hard work in order to provide a better life for them and their families"
+ tenet_school_of_chichol_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to do honest and hard work in order to provide a better life for them and their families"
 
  tenet_school_of_indech_name:0 "Teachings of Indech"
- tenet_school_of_indech_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron Saint, this branch encourages it's followers to devote their time to embrace the pen and not the sword, knowledge and peace is the path that is to be embraced"
+ tenet_school_of_indech_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to devote their time to embrace the pen and not the sword, knowledge and peace is the path that is to be embraced"
 
  tenet_school_of_cethleann_name:0 "Teachings of Cethleann"
- tenet_school_of_cethleann_desc:0 "A branch of the Church of Seiros which focuses solely on how her most devout followers try to emulate their patron Saint, this branch encourages it's followers to offer kindness, healing and protection to those in need and to embrace causes greater than themselves"
+ tenet_school_of_cethleann_desc:0 "A branch of the Church of Seiros which focuses solely on how her most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to offer kindness, healing and protection to those in need and to embrace causes greater than themselves"
 
  tenet_ablehnistic_ways_name:0 "The Leader's Path"
  tenet_ablehnistic_ways_desc:0 "An oath for those who wish to walk the path of the sword in order to lessen the church's authority by show of force rather than words, for in order to truly bring freedom to the people of the world those who take this vow swear to fight for a future they believe in, no matter the cost"

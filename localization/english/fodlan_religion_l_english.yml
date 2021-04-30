@@ -1,7 +1,7 @@
 ﻿l_english:
  #crests
  zanadic_religion:0 "Zanadic Religion"
- zanadic_religion_desc:0 "The largest religious organisation in all of Fodlan, the church was established by Saint Seiros after the War of Heroes"
+ zanadic_religion_desc:0 "The largest religious organisation in all of Fodlan, the church was established by [Concept('saints','Saint')|E] Seiros after the War of Heroes"
  zanadic_religion_adj:0 "Zanadic"
  
  seirosite:0 "Seirosite"
@@ -9,19 +9,19 @@
  seirosite_adj:0 "Seirosite"
  
  macuilite:0 "Macuilite"
- macuilite_desc:0 "The followers of Saint Macuil tend to think before striking, especially when the target is an enemy or a grudge target"
+ macuilite_desc:0 "The followers of [Concept('saints','Saint')|E] Macuil tend to think before striking, especially when the target is an enemy or a grudge target"
  macuilite_adj:0 "Macuilite"
  
  indechite:0 "Indechite"
- indechite_desc:0 "The followers of Saint Indech are taught to pursue knowledge and forego violence in favour of more peaceful paths"
+ indechite_desc:0 "The followers of [Concept('saints','Saint')|E] Indech are taught to pursue knowledge and forego violence in favour of more peaceful paths"
  indechite_adj:0 "Indechite"
  
  cicholite:0 "Cicholite"
- cicholite_desc:0 "The followers of Saint Cichol are taught to work and work hard, making sure to be as organised as possible"
+ cicholite_desc:0 "The followers of [Concept('saints','Saint')|E] Cichol are taught to work and work hard, making sure to be as organised as possible"
  cicholite_adj:0 "Cicholite"
  
  cethleannite:0 "Cethleannite"
- cethleannite_desc:0 "The followers of Saint Cethleann are taught to prioritise the sick and injured, reaching their hands out for the people of the world is the highest and most important aspect of her teachings"
+ cethleannite_desc:0 "The followers of [Concept('saints','Saint')|E] Cethleann are taught to prioritise the sick and injured, reaching their hands out for the people of the world is the highest and most important aspect of her teachings"
  
  ablehnist:0 "Ablehnist"
  ablehnist_desc:0 "The Ablehnist faith is more of a path than an actual religion, it teaches it's followers to reject theocratic authority in favour of reaching out for their fellow man"
