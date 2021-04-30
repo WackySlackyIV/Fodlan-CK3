@@ -1,0 +1,19 @@
+﻿crest = {
+	alias = { crest crests }
+	parent = crest
+}
+
+ten_elites = {
+	alias = { ten_elites }
+	parent = ten_elites 
+}
+
+four_apostles = {
+	alias = { four_apostles }
+	parent = four_apostles
+}
+
+saints = {
+	alias = { saints }
+	parent = saints
+}
