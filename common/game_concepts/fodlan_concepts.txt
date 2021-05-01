@@ -43,6 +43,11 @@ macuil = {
 	parent = saints
 }
 
+cethleann = {
+	alias = { cethleann }
+	parent = saints
+}
+
 noa = {
 	alias = { noa }
 	parent = four_apostles
