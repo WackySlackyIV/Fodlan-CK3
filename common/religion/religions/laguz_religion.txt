@@ -196,6 +196,7 @@
 		laguz_pagan = {
 			color = { 230 230 230 }
 			icon = kitsune_faith
+			reformed_icon = germanic_reformed
 
 			doctrine = unreformed_faith_doctrine
 

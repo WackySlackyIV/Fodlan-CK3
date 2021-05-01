@@ -180,6 +180,7 @@
 		lumialue = { #A peaceful albnea religion
 			color = { 178 193 212 }
            		icon = albinea_faith
+			reformed_icon = germanic_reformed
             
 			holy_site = malagash
 			holy_site = jatnar
@@ -195,6 +196,7 @@
 		vuristoalite = { #A more offensive albnea religion
 			color = { 100 118 135 }
             		icon = albinea_faith_2
+			reformed_icon = germanic_reformed
             
 			holy_site = malagash
 			holy_site = jatnar

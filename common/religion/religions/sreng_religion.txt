@@ -187,6 +187,7 @@
 		heimsormurinn = {
 			color = { 47 46 50 }
 			icon = heimsormurinn
+			reformed_icon = germanic_reformed
 
 			holy_site = erobring
 			holy_site = bjarskagi
@@ -202,6 +203,7 @@
 		mekeal = { #Macuil Pagans
 			color = { 158 128 225 }
 			icon = mekeal
+			reformed_icon = germanic_reformed
 		
 			holy_site = vindkaller
 			holy_site = bjarskagi

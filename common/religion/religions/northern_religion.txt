@@ -185,6 +185,7 @@
 		pantheon_faith = { #duscar
 			color = { 51 161 150 }
 			icon = pantheon_faith
+			reformed_icon = germanic_reformed
 
 			holy_site = norfer
 			holy_site = charente
@@ -200,6 +201,7 @@
 		comunetian_faith = { #nuada
 			color = { 90 240 150 }
 			icon = comunetian_faith
+			reformed_icon = germanic_reformed
 
 			holy_site = norfer
 			holy_site = charente
