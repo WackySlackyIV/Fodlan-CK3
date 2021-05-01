@@ -214,6 +214,9 @@ is_custom_char = {
 		this = character:200006 #Richard
 		this = character:200005 #Lear
 		this = character:200007 #Edgar
+		this = character:200053 #Theodor
+		this = character:200056 #Brandon
+		this = character:200014 #Godfrey
 		
 		###FEMALES###
 		this = character:200022 #Marianne
@@ -240,5 +243,6 @@ is_custom_char = {
 		this = character:400000 #Edelgard
 		this = character:100003 #Flayn
 		this = character:100000 #Rhea
+		this = character:200019 #Maya
 	}
 }

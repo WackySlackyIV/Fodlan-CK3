@@ -181,6 +181,7 @@
 		lamhach  = { #fire
 			color = { 150 0 0 }
             		icon = fire_spiritualism
+			reformed_icon = germanic_reformed
             
 			holy_site = cuilin
 			holy_site = hobart
@@ -198,6 +199,7 @@
 		fuale = { #water
 			color = { 0 50 150 }
            		icon = water_spiritualism
+			reformed_icon = germanic_reformed
             
 			holy_site = skyrne
 			holy_site = ardara
@@ -215,6 +217,7 @@
 		talahm_ithir = { #earth
 			color = { 150 75 0 }
             		icon = earth_spiritualism
+			reformed_icon = germanic_reformed
             
 			holy_site = thapso
 			holy_site = cuilin
@@ -232,6 +235,7 @@
 		gaothe = { #wind
 			color = { 0 150 0 }
             		icon = wind_spiritualism
+			reformed_icon = germanic_reformed
             
 			holy_site = eularia
 			holy_site = gliomach
@@ -250,6 +254,7 @@
 		riabain = { #amazon
 			color = { 100 50 150 }
             		icon = amazon_spiritualism
+			reformed_icon = germanic_reformed
             
 			holy_site = eularia
 			holy_site = gliomach

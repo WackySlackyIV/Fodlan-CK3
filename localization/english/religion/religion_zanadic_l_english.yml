@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #Common Christian Localization
+ ##ZANADIC RELIGION##
  zanadic_high_god_name:0 "Goddess"
  zanadic_high_god_name_possessive:0 "Goddess'"
  zanadic_high_god_name_alternate:0 "The Goddess"
@@ -41,26 +41,21 @@
  zanadic_positive_afterlife:0 "heaven"
  zanadic_negative_afterlife:0 "hell"
  zanadic_witchgodname_the_horned_god:0 "the Horned God"
-
- zanadic_creator_god_name:0 "$zanadic_high_god_name$"
- zanadic_creator_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_health_god_name:0 "Jesus"
- zanadic_health_god_name_possessive:0 "Jesus'"
- zanadic_fertility_god_name:0 "$zanadic_high_god_name$"
- zanadic_fertility_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_wealth_god_name:0 "$zanadic_high_god_name$"
- zanadic_wealth_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_household_god_name:0 "$zanadic_health_god_name$"
- zanadic_household_god_name_possessive:0 "$zanadic_health_god_name_possessive$"
- zanadic_fate_god_name:0 "$zanadic_high_god_name$"
- zanadic_fate_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_knowledge_god_name:0 "$zanadic_high_god_name$"
- zanadic_knowledge_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_war_god_name:0 "$zanadic_high_god_name$"
- zanadic_war_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_trickster_god_name:0 "Fortuna"
- zanadic_trickster_god_name_possessive:0 "Fortuna's"
- zanadic_night_god_name:0 "$zanadic_high_god_name$"
- zanadic_night_god_name_possessive:0 "$zanadic_high_god_name_possessive$"
- zanadic_water_god_name:0 "$zanadic_health_god_name$"
- zanadic_water_god_name_possessive:0 "$zanadic_health_god_name_possessive$"
+ 
+ ##SEIROSITE##
+ seirosite_adherent_plural:0 "Seirosites"
+ 
+ ##MACUILITE##
+ macuilite_adherent_plural:0 "Macuilites"
+ 
+ ##CETHLEANNITE##
+ cethleannite_adherent_plural:0 "Cethleannites"
+ 
+ ##CICHOLITE##
+ cicholite_adherent_plural:0 "Cicholites"
+ 
+ ##INDECHITE##
+ indechite_adherent_plural:0 "Indechites"
+ 
+ ##ABLEHNIST##
+ ablehnist_adherent_plural:0 "Ablehnists"

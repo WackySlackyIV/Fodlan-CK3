@@ -149,6 +149,11 @@ hairstyles_scripted_characters = {
                 exists = character:100002 #Seteth
                 this = character:100002 #Seteth
             }
+            modifier = {
+                add = 200
+                exists = character:200056 #Brandon
+                this = character:200056 #Brandon
+            }
         }
     }
 
@@ -302,6 +307,11 @@ hairstyles_scripted_characters = {
                 add = 200
                 exists = character:300011 #Ashe
                 this = character:300011 #Ashe
+            }
+            modifier = {
+                add = 200
+                exists = character:200053 #Theodor
+                this = character:200053 #Theodor
             }
         }
     }
@@ -502,6 +512,11 @@ hairstyles_scripted_characters = {
                 add = 200
                 exists = character:400019 #Linhardt
                 this = character:400019 #Linhardt
+            }
+            modifier = {
+                add = 200
+                exists = character:200014 #Godfrey
+                this = character:200014 #Godfrey
             }
         }
     }
@@ -1360,6 +1375,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200019 #Maya
+                this = character:200019 #Maya
+            }
         }
     }
 
