@@ -102,6 +102,11 @@ beards_scripted_characters = {
                 exists = character:200006 #Richard
                 this = character:200006 #Richard
             }
+            modifier = {
+                add = 200
+                exists = character:200053 #Theodor
+                this = character:200053 #Theodor
+            }
         }
     }
 
@@ -139,6 +144,11 @@ beards_scripted_characters = {
                 add = 200
                 exists = character:100018 #Pallardo
                 this = character:100018 #Pallardo
+            }
+            modifier = {
+                add = 200
+                exists = character:200014 #Godfrey
+                this = character:200014 #Godfrey
             }
         }
     }
