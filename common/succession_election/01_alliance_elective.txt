@@ -11,24 +11,8 @@ alliance_elective = { #alliance elective
 		base = 1
 		modifier = { #leader
 			desc = tooltip_alliance_leader
-			add = 2
+			add = 1
 			this = scope:holder
-		}
-		modifier = { #Powerful Vassal
-			desc = tooltip_feudal_vote_strength_powerful_vassal
-			add = {
-				value = 1
-			}
-			NOT = { this = scope:holder }
-			is_powerful_vassal = yes
-		}
-		modifier = { #Council member
-			desc = tooltip_councillor
-			add = {
-				value = 1
-			}
-			NOT = { this = scope:holder }
-			is_councillor = yes
 		}
 	}
 	

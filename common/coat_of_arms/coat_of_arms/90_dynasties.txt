@@ -1,1 +1,162 @@
 @smErmine = 0.27
+
+
+100 = { # Riegan
+	pattern = "pattern_chief.dds"	
+	color1 = "deer_yellow2"	
+	color2 = "deer_brown"	
+	colored_emblem = {
+		texture = "ce_riegan_emblem.dds"
+		color1 = "grey"
+		instance = { position = { 0.5 0.62 } scale = { 0.75 0.75 }  }
+	}	
+	colored_emblem = {
+		texture = "ce_bow_single.dds"
+		color1 = "grey"
+		instance = { position = { 0.5 0.25 } scale = { 0.9 0.9 }  }
+	}
+}
+
+101 = { # Ordelia
+	pattern = "pattern_solid.dds"	
+	color1 = "deer_yellow2"
+	colored_emblem = {
+		texture = "ce_waves_02.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
+	}	
+	colored_emblem = {
+		texture = "ce_conch_shell.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.26 } scale = { 0.5 0.5 }  }
+	}
+}
+
+102 = { # Gloucester
+	pattern = "pattern_solid.dds"
+	color1 = "deer_brown"
+	
+	colored_emblem = {
+		texture = "ce_gloucester.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "purple"
+		color2 = "white"
+		color3 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.4 0.4 }  }
+	}
+}
+
+103 = { # Edmund
+	pattern = "pattern_solid.dds"
+	color1 = "grey"
+	
+	colored_emblem = {
+		texture = "ce_scales.dds"
+		color1 = "deer_yellow2"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_keys_st_peter_knot.dds"
+		color1 = "deer_brown"
+		instance = { position = { 0.5 0.33 } scale = { 1.5 1.5 }  }
+	}
+}
+
+104 = { # Daphnel
+	pattern = "pattern_solid.dds"
+	color1 = "deer_brown"
+	
+	colored_emblem = {
+		texture = "ce_daphnel_emblem.dds"
+		color1 = "yellow"
+		instance = { position = { 0.28 0.25 } scale = { 0.6 0.6 }  }
+	}
+	colored_emblem = {
+		texture = "ce_daphnel.dds"
+		color1 = "yellow"
+		instance = { position = { 0.65 0.15 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.9 0.15 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.65 0.4 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.9 0.4 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.15 0.65 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.4 0.65 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.65 0.65 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.9 0.65 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.15 0.9 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.4 0.9 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.65 0.9 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.9 0.9 } scale = { 0.25 0.25 }  }
+	}
+}
+
+105 = { # Goneril
+	pattern = "pattern_checkers_01.dds"
+	color1 = "deer_brown"
+	color2 = "grey"
+	
+	colored_emblem = {
+		texture = "ce_axe.dds"
+		color1 = "grey"
+		color2 = "brown"
+		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+	}
+	colored_emblem = {
+		texture = "ce_goneril.dds"
+		color1 = "deer_brown"
+		instance = { position = { 0.75 0.25 } scale = { 0.55 0.55 }  }
+		instance = { position = { 0.25 0.75 } scale = { 0.55 0.55 }  }
+	}
+	colored_emblem = {
+		texture = "ce_goneril_emblem.dds"
+		color1 = "grey"
+		color2 = "yellow"
+		instance = { position = { 0.25 0.25 } scale = { 0.6 0.6 }  }
+	}
+}
+
+111 = { # Kirsten
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_tamga_kinik.dds"
+		color1 = "grey"
+		instance = { position = { 0.5 0.38 } scale = { 0.7 0.7 }  }
+		instance = { position = { 0.5 0.62 } scale = { 0.7 -0.7 }  }
+	}
+}
+
+112 = { # Victor
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_bendy_06_dimidiated.dds"
+		color1 = "deer_brown"
+		color2 = "deer_yellow1"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
+	}
+	colored_emblem = {
+		texture = "ce_tamga_iwa.dds"
+		color1 = "black"
+		instance = { position = { 0.28 0.3 } scale = { 0.5 -0.5 }  }
+	}
+}
+
+113 = { # pinelli
+	pattern = "pattern_solid.dds"
+	color1 = "deer_brown"
+	
+	colored_emblem = {
+		texture = "ce_bow.dds"
+		color1 = "orange"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
+	}
+}
