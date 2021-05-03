@@ -44,3 +44,8 @@
  FOD_flavor.5.desc:0 "I have found an unusual plant growing in the garden that I believe to be edible. When I told [naysayer.GetName] of my intention to eat it to test my theory, [naysayer.GetSheHe] advised me to be more careful in my diet, for the sake of the realm."
  FOD_flavor.5.a:0 "Eat it."
  FOD_flavor.5.b:0 "Listen to [naysayer.GetHerHis] advice."
+ FOD_flavor.6.t:0 "A Promising Orphan"
+ FOD_flavor.6.desc:0 "My [realm_priest.GetCouncilTitle] [realm_priest.GetName] has brought to me a child. Apparently, this [child.GetName] is an orphan who has shown great promise, and my [realm_priest.GetCouncilTitle] believes that I may be interested in taking the child into my court."
+ FOD_flavor.6.a:0 "I will take [child.GetName] as my own heir."
+ FOD_flavor.6.b:0 "[child.GetName] may join my court."
+ FOD_flavor.6.c:0 "I have a realm to rule. Send [child.GetHerHim] back to the orphanage."

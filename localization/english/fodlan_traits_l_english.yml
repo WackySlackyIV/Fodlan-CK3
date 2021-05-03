@@ -221,6 +221,9 @@
  trait_famous_songster:0 "Famous Songster"
  trait_famous_songstress_desc:0 "This character is one of the best singers around, performing at only the most luxurious venues and dining halls"
  
+ trait_adopted:0 "Adopted"
+ trait_adopted_desc:0 "This character was adopted."
+ 
  game_concept_crest:0 "Crest"
  game_concept_crests:0 "Crests"
  game_concept_crest_desc:0 "Crests are a mysterious power passed down through one's bloodline that provide their bearer an edge over their peers. Purportedly blessings from the Goddess, Crests might offer greater strength or a high affinity for magic. Noble houses greatly value crests, going so far as to adopt those that bear them or disinherit children who do not possess them. Crests can be Minor or Major, and offer corresponding stat bonuses."

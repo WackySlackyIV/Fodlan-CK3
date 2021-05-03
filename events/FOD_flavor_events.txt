@@ -874,3 +874,200 @@ FOD_flavor.5 = { #To eat or not to eat weeds
 		}
 	}
 }
+
+FOD_flavor.6 = { #Orphan event
+	type = character_event
+	title = FOD_flavor.6.t
+	desc = FOD_flavor.6.desc
+	theme = dynasty
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:orphan
+	right_portrait = scope:realm_priest
+	
+	trigger = {
+		any_held_title = {
+			tier = tier_county
+			OR = {
+				culture_group = culture_group:fodlan_group
+				culture_group = culture_group:mihran_group
+			}
+		}
+	}
+	
+	immediate = {
+		cp:councillor_court_chaplain = {
+			save_scope_as = realm_priest
+		}
+		random_held_title = {
+			limit = {
+				tier = tier_county
+				OR = {
+					culture_group = culture_group:fodlan_group
+					culture_group = culture_group:mihran_group
+				}
+			}
+			save_scope_as = county
+		}
+		create_character = {
+			location = root.capital_province
+			age = { 5 12 }
+			random_traits = yes
+			dynasty = none
+			culture = scope:county.culture
+			faith = scope:county.faith
+			gender_female_chance = 50
+			save_scope_as = orphan
+		}
+		if = {
+			limit = { scope:county.culture_group = culture_group:fodlan_group }
+			scope:orphan = {
+				hidden_effect = {
+					random_list = {
+						2 = { add_trait = crest_minor_blaiddyd }
+						2 = { add_trait = crest_minor_charon }
+						2 = { add_trait = crest_minor_daphnel }
+						2 = { add_trait = crest_minor_dominic }
+						2 = { add_trait = crest_minor_fraldarius }
+						2 = { add_trait = crest_minor_gautier }
+						2 = { add_trait = crest_minor_gloucester }
+						2 = { add_trait = crest_minor_goneril }
+						2 = { add_trait = crest_minor_lamine }
+						2 = { add_trait = crest_minor_riegan } 
+						2 = { add_trait = crest_minor_maurice }
+						2 = { add_trait = crest_minor_cethleann }
+						2 = { add_trait = crest_minor_cichol }
+						2 = { add_trait = crest_minor_indech }
+						2 = { add_trait = crest_minor_macuil }
+						2 = { add_trait = crest_minor_aubin }
+						2 = { add_trait = crest_minor_chevalier }
+						2 = { add_trait = crest_minor_noa }
+						2 = { add_trait = crest_minor_timotheos }
+						2 = { add_trait = crest_minor_flames }
+						2 = { add_trait = crest_minor_seiros }
+						2 = { add_trait = crest_minor_ernest }
+						1 = { add_trait = crest_major_blaiddyd }
+						1 = { add_trait = crest_major_charon }
+						1 = { add_trait = crest_major_daphnel }
+						1 = { add_trait = crest_major_dominic }
+						1 = { add_trait = crest_major_fraldarius }
+						1 = { add_trait = crest_major_gautier }
+						1 = { add_trait = crest_major_gloucester }
+						1 = { add_trait = crest_major_goneril }
+						1 = { add_trait = crest_major_lamine }
+						1 = { add_trait = crest_major_riegan } 
+						1 = { add_trait = crest_major_maurice }
+						1 = { add_trait = crest_major_cethleann }
+						1 = { add_trait = crest_major_cichol }
+						1 = { add_trait = crest_major_indech }
+						1 = { add_trait = crest_major_macuil }
+						1 = { add_trait = crest_major_aubin }
+						1 = { add_trait = crest_major_chevalier }
+						1 = { add_trait = crest_major_noa }
+						1 = { add_trait = crest_major_timotheos }
+						1 = { add_trait = crest_major_flames }
+						1 = { add_trait = crest_major_seiros }
+						1 = { add_trait = crest_major_ernest }
+						34 = {
+							add_diplomacy_skill = major_skill_bonus
+							add_martial_skill = major_skill_bonus
+							add_stewardship_skill = major_skill_bonus
+							add_intrigue_skill = major_skill_bonus
+							add_learning_skill = major_skill_bonus
+							add_prowess_skill = major_skill_bonus
+						}
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { scope:county.culture_group = culture_group:mihran_group }
+			scope:orphan = {
+				hidden_effect = {
+					random_list = {
+						2 = { add_trait = crest_major_malik }
+						4 = { add_trait = crest_minor_malik }
+						3 = {
+							add_diplomacy_skill = major_skill_bonus
+							add_martial_skill = major_skill_bonus
+							add_stewardship_skill = major_skill_bonus
+							add_intrigue_skill = major_skill_bonus
+							add_learning_skill = major_skill_bonus
+							add_prowess_skill = major_skill_bonus
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Adopt
+		name = FOD_flavor.6.a
+		trigger = {
+			NOT = {
+				exists = player_heir
+			}
+			exists = house
+			root = house.house_head
+		}
+		root.dynasty = { add_dynasty_prestige = major_dynasty_prestige_loss }
+		add_prestige = major_prestige_loss
+		scope:orphan = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = root
+				opinion = 50
+			}
+			set_house = root.house
+			if = {
+				limit = { root = { is_female = yes } }
+				set_mother = root
+			}
+			else = {
+				set_father = root
+			}
+			add_trait = adopted
+		}
+		add_courtier = scope:orphan
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 50
+				health < fine_health
+			}
+			modifier = {
+				add = 50
+				fertility <= low_fertility
+			}
+		}
+	}
+	
+	option = { #Bring to court
+		name = FOD_flavor.6.b
+		add_courtier = scope:orphan
+		scope:orphan = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = root
+				opinion = 50
+			}
+		}
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_compassion = 1
+			}
+		}
+	}
+	
+	option = { #Ignore
+		name = FOD_flavor.6.c
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_sociability = -1
+			}
+		}
+	}
+}
