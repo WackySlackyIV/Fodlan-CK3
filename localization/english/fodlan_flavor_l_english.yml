@@ -45,7 +45,7 @@
  FOD_flavor.5.a:0 "Eat it."
  FOD_flavor.5.b:0 "Listen to [naysayer.GetHerHis] advice."
  FOD_flavor.6.t:0 "A Promising Orphan"
- FOD_flavor.6.desc:0 "My [realm_priest.GetCouncilTitle] [realm_priest.GetName] has brought to me a orphan. Apparently, this [orphan.GetName] is an orphan who has shown great promise, and my [realm_priest.GetCouncilTitle] believes that I may be interested in taking the orphan into my court."
+ FOD_flavor.6.desc:0 "My [realm_priest.GetCouncilTitle] [realm_priest.GetName] has brought to me an orphan. Apparently, this [orphan.GetName] is an orphan who has shown great promise, and my [realm_priest.GetCouncilTitle] believes that I may be interested in taking the orphan into my court."
  FOD_flavor.6.a:0 "I will take [orphan.GetName] as my own heir."
  FOD_flavor.6.b:0 "[orphan.GetName] may join my court."
  FOD_flavor.6.c:0 "I have a realm to rule. Send [orphan.GetHerHim] back to the orphanage."
