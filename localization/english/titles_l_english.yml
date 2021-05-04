@@ -16,7 +16,7 @@
  b_hearth:0 "Hearth"
  b_vatican:0 "Vatican"
 
- c_cetleann:0 "Cethla"
+ c_cethleann:0 "Cethla"
  b_bruidhean:0 "Bruidhean"
  b_cethleann:0 "Cethleann"
  b_sagido:0 "Sagido"
@@ -46,6 +46,7 @@
 
  d_eastern_church:0 "Eastern Church"
  c_salem:0 "Salem"
+ b_salem:0 "Salem"
  b_teamher:0 "Teamher"
  b_cnoc:0 "Cnoc"
  b_liafail:0 "Liafail"
@@ -138,7 +139,7 @@
  c_myrddin:0 "Myrddin"
  b_myrddin:0 "Myrddin"
  b_emrys:0 "Emrys"
- b_sylvestris:0 "Sylvestris"
+ b_sylvesteris:0 "Sylvestris"
  b_lostwithel:0 "Lostwithel"
 
  c_yarmouth:0 "Yarmouth"
@@ -201,6 +202,7 @@
  b_furness:0 "Furness"
 
  c_brandwell:0 "Brandwell"
+ b_brandwell:0 "Brandwell"
  b_stanwell:0 "Stanwell"
  b_clare:0 "Clare"
 
@@ -264,6 +266,7 @@
  b_nelson:0 "Nelson"
 
  c_alfreton:0 "Alfreton"
+ b_alfreton:0 "Alfreton"
  b_barwick:0 "Barwick"
  b_colmore:0 "Colmore"
 
@@ -289,7 +292,7 @@
  b_goneril:0 "Goneril"
  b_amersham:0 "Amersham"
  b_ponteland:0 "Ponteland"
- b_scarburg:0 "Scarburg"
+ b_scarsburg:0 "Scarsburg"
 
  c_minster:0 "Minster"
  b_minster:0 "Minster"
@@ -386,6 +389,7 @@
  b_beclac:0 "Beclac"
 
  c_beaulieu:0 "Beaulieu"
+ b_beaulieu:0 "Beaulieu"
  b_hever:0 "Hever"
  b_cosen:0 "Cosen"
 
@@ -443,7 +447,7 @@
  b_fraldarius:0 "Fraldarius"
  b_carros:0 "Carros"
  b_menton:0 "Menton"
- b_conte:0 "Conte"
+ b_contes:0 "Conte"
 
  c_wapont:0 "Wapont"
  b_wapont:0 "Wapont"
@@ -786,7 +790,7 @@
  c_bordeu:0 "Bordeu"
  b_bordeu:0 "Bordeu"
  b_patras:0 "Patras"
- b_leu:0 "Leu"
+ b_leucade:0 "Leu"
  
  c_auch:0 "Auch"
  b_auch:0 "Auch"
@@ -873,7 +877,7 @@
  b_hoyer:0 "Hoyer"
 
  c_boacker:0 "Boacker"
- b_boacker:0 "Boacker"
+ b_broacker:0 "Boacker"
  b_duppel:0 "Duppel"
  b_emmerlef:0 "Emmerlef"
 
@@ -928,7 +932,7 @@
  b_norden:0 "Norden"
 
  c_schollbrun:0 "Schollbrun"
- b_Schollbrun:0 "Schollbrun"
+ b_schollbrun:0 "Schollbrun"
  b_beles:0 "Beles"
  b_klerf:0 "Klerf"
 
@@ -1007,7 +1011,7 @@
  
  c_frischenburg:0 "Frischenburg"
  b_frischenburg:0 "Frischenburg"
- b_engerdorf:0 "Engerdorf"
+ b_engerndorf:0 "Engerndorf"
  b_unternogg:0 "Unternogg"
 
  d_bergliez:0 "Bergliez"
@@ -1018,7 +1022,7 @@
  b_zement:0 "Zement"
 
  c_dalwitzhof:0 "Dalwitzhof"
- b_daltiwzhof:0 "Dalwitzhof"
+ b_dalwitzhof:0 "Dalwitzhof"
  b_hinschenfeld:0 "Hinschenfeld"
  b_eyerlohe:0 "Eyerlohe"
  
@@ -1045,14 +1049,14 @@
  b_ruppmannsburg:0 "Ruppmannsburg"
 
  c_oberleiten:0 "Oberleiten"
- b_overleiten:0 "Oberleiten"
+ b_oberleiten:0 "Oberleiten"
  b_waddenserwisch:0 "waddenserwisch"
  b_zweitschen:0 "Zweitschen"
 
  c_piskaborn:0 "Piskaborn"
  b_piskaborn:0 "Piskaborn"
  b_dudenrode:0 "Dudenrode"
- b_blemsen:0 "Blemsen"
+ b_biemsen:0 "Blemsen"
 
  d_gerth:0 "Gerth"
  c_gerth:0 "Gerth"
@@ -1078,6 +1082,7 @@
 
  d_rusalka:0 "Rusalka"
  c_rusalka:0 "Rusalka"
+ b_rusalka:0 "Rusalka"
  b_rysum:0 "Rysum"
  b_loquard:0 "Loquard"
  b_kampfen:0 "Kampfen"
@@ -1156,7 +1161,7 @@
  c_litzhaln:0 "Litzhaln"
  b_litzhaln:0 "Lizhaln"
  b_buborn:0 "Buborn"
- b_weghauzen:0 "Weghauzen"
+ b_weghausen:0 "Weghausen"
 
  c_grosseg:0 "Grosseg"
  b_grosseg:0 "Grosseg"
@@ -1195,7 +1200,7 @@
 
  c_schatz:0 "Schatz"
  b_schatz:0 "Schatz"
- b_nettelstrauf:0 "Nettelstrauf"
+ b_nettlestrauf:0 "Nettelstrauf"
  b_kirchlehen:0 "Kirchlehen"
 
  d_hevring:0 "Hevring"
@@ -1215,7 +1220,7 @@
  b_eitzing:0 "Eitzing"
 
  c_langgassen:0 "Langgassen"
- b_langgassen:0 "Langgassen"
+ b_langassen:0 "Langassen"
  b_altenrath:0 "Altenrath"
  b_grafenkirchen:0 "Grafenkirchen"
 
@@ -1436,6 +1441,7 @@
 
  d_huldra:0 "Huldra"
  c_huldra:0 "Huldra"
+ b_huldra:0 "Huldra"
  b_shellsitz:0 "Shellsitz"
  b_bettenkampf:0 "Bettenkampf"
  b_goldenbeek:0 "Goldenbeek"
@@ -1531,7 +1537,7 @@
 
  d_aedach:0 "Aedach"
  c_bhearaig:0 "Bhearaig"
- c_bhearaig:0 "Bhearaig"
+ b_bhearaig:0 "Bhearaig"
  b_kanono:0 "Kanono"
  b_sailurlar:0 "Sailurlar"
 
@@ -2306,7 +2312,7 @@
 
  d_kamakeya:0 "Kamakeya"
  c_kafaz:0 "Kafaz"
- b_Kafaz:0 "Kafaz"
+ b_kafaz:0 "Kafaz"
  b_sahri:0 "Sahri"
  b_serdan:0 "Serdan"
 
@@ -2474,7 +2480,7 @@
  b_palu:0 "Palu"
 
  c_ginevra:0 "Ginevra"
- b_ginevra:0 "Ginevra"
+ b_ginevera:0 "Ginevra"
  b_roncaglia:0 "Roncaglia"
 
  c_losanna:0 "Losanna"
@@ -2579,6 +2585,7 @@
  b_karkeh:0 "Karkeh"
 
  c_anderik:0 "Anderik"
+ b_anderik:0 "Anderik"
  b_khaweh:0 "Khaweh"
  b_darzi:0 "Darzi"
 
@@ -2590,6 +2597,7 @@
  b_pursekhlu:0 "Pursekhlu"
 
  c_jedayah:0 "Jedayah"
+ b_jedayah:0 "Jedayah"
  b_karmali:0 "Karmali"
  b_dehgah:0 "Dehgah"
  
@@ -2632,6 +2640,7 @@
  b_mollahi:0 "Mollahi"
 
  c_khushi:0 "Khushi"
+ b_khushi:0 "Khushi"
  b_zenivand:0 "Zenivand"
  b_samangan:0 "Samangan"
  
@@ -2722,6 +2731,7 @@
  b_chemwozai:0 "Chemwozai"
 
  c_ingrin:0 "Ingrin"
+ b_irgrin:0 "Irgrin"
  b_ingrin:0 "Ingrin"
  b_zakrabad:0 "Zakrabad"
  
@@ -2845,7 +2855,7 @@
 
  d_cupan:0 "Cupan"
  c_malikabad:0 "Malikabad"
- b_balikabad:0 "Malikabad"
+ b_malikabad:0 "Malikabad"
  b_nevrah:0 "Nevrah"
  b_parmakan:0 "Parmakan"
  b_paitow:0 "Paitow"
@@ -2968,7 +2978,7 @@
  b_karakchi:0 "Karakchi"
 
  c_gajjiya:0 "Gajjiya"
- b_gajjiya:0 "Gajjiya"
+ b_gajjya:0 "Gajjiya"
  b_khalfa:0 "Khalfa"
  b_vogat:0 "Vogat"
 
@@ -3102,7 +3112,7 @@
 
  c_nariin:0 "Nariin"
  b_nariin:0 "Nariin"
- b_usatanaii:0 "Usatanaii"
+ b_usatanii:0 "Usatanaii"
 
  c_burgaasa:0 "Burgaasa"
  b_burgaasa:0 "Burgaasa"
@@ -3167,7 +3177,7 @@
  b_underroyn:0 "Underroyn"
 
  c_khotogtuew:0 "Khotogtuew"
- b_khotogtuew:0 "Khotogtuew"
+ b_khotogture:0 "Khotogture"
  b_daltihid:0 "Daltihid"
 
  c_sharaiin:0 "Sharaiin"
@@ -3290,7 +3300,8 @@
  d_sukhpukhuria:0 "Sukhpukhuria"
  c_ghorai:0 "Ghorai"
  b_ghorai:0 "Ghorai"
- b_burai:0 "Baratala"
+ b_burai:0 "Burai"
+ b_baratala:0 "Baratala"
  b_hamchapur:0 "Hamchapur"
 
  c_gopinagar:0 "Gopinagar"
@@ -3313,6 +3324,7 @@
  b_phogatpura:0 "Phogatpura"
 
  c_kharamtar:0 "Kharamtar"
+ b_kharamtar:0 "Kharamtar"
  b_deurali:0 "Deurali"
  b_gijet:0 "Gijet"
 
@@ -3373,7 +3385,7 @@
  b_champagoas:0 "Champagoas"
  b_kadogaos:0 "Kadogaos"
  b_sambaos:0 "Sambaos"
- b__dhairenia:0 "Dhairenia"
+ b_dhairenia:0 "Dhairenia"
 
  c_samargaon:0 "Samargaon"
  b_samargaon:0 "Samargaon"
@@ -3387,7 +3399,7 @@
  b_gorundia:0 "Gorundia"
  b_itharawa:0 "Itharawa"
 
- c_ghogsillia:0 "Ghogsillia"
+ c_ghogsilia:0 "Ghogsillia"
  b_ghogsillia:0 "Ghogsillia"
  b_photia:0 "Photia"
  b_simarbona:0 "Simarbona"
