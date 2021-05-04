@@ -358,6 +358,9 @@
 	trait = humble
 
 	trait = education_intrigue_2
+
+	trait = adopted	
+
 	disallow_random_traits = yes
 
 	1163.8.17 = {

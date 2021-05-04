@@ -751,6 +751,8 @@
 	trait = depressed_1
 
 	trait = crest_minor_maurice
+	trait = adopted
+
 	disallow_random_traits = yes
 
 	1162.8.23 = {

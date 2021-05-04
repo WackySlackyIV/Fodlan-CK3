@@ -684,7 +684,7 @@
 	trait = august
 	trait = celibate
 
-`	trait = crest_blood_seiros
+	trait = crest_blood_seiros
 	disallow_random_traits = yes
 
 	1118.1.11 = {
