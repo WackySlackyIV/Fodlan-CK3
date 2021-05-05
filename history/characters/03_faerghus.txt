@@ -42,6 +42,7 @@
 			set_relation_friend = character:300028
 			set_relation_friend = character:300025
 			set_relation_friend = character:300031
+			add_character_modifier = seeing_dead_people_modifier
 		}
 	}
 	1200.1.1={
