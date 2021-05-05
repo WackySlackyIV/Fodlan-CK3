@@ -65,6 +65,11 @@ crest_minor_flames = {
 	group = crest_flames
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_flames_desc
 }
 
@@ -85,6 +90,11 @@ crest_major_flames = {
 	group = crest_flames
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_flames_desc
 }
 
@@ -103,6 +113,11 @@ crest_minor_macuil = {
 	group = crest_macuil
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_macuil_desc
 }
 
@@ -120,6 +135,11 @@ crest_major_macuil = {
 	random_creation = 0
 	group = crest_macuil
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_macuil_desc
 }
@@ -140,6 +160,11 @@ crest_minor_indech = {
 	group = crest_indech
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_indech_desc
 }
 
@@ -158,6 +183,11 @@ crest_major_indech = {
 	random_creation = 0
 	group = crest_indech
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_indech_desc
 }
@@ -178,6 +208,11 @@ crest_minor_cichol = {
 	group = crest_cichol
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_cichol_desc
 }
 
@@ -197,6 +232,11 @@ crest_major_cichol = {
 	group = crest_cichol
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_cichol_desc
 }
 
@@ -214,6 +254,11 @@ crest_minor_cethleann = {
 	random_creation = 0
 	group = crest_cethleann
 	level = 2
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_minor_cethleann_desc
 }
@@ -233,6 +278,11 @@ crest_major_cethleann = {
 	group = crest_cethleann
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_cethleann_desc
 }
 
@@ -250,6 +300,11 @@ crest_minor_riegan = {
 	random_creation = 0
 	group = crest_riegan
 	level = 2
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_minor_riegan_desc
 }
@@ -269,6 +324,11 @@ crest_major_riegan = {
 	group = crest_riegan
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_riegan_desc
 }
 
@@ -286,6 +346,11 @@ crest_minor_lamine = {
 	group = crest_lamine
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_lamine_desc
 }
 
@@ -302,6 +367,11 @@ crest_major_lamine = {
 	random_creation = 0
 	group = crest_lamine
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_lamine_desc
 }
@@ -321,6 +391,11 @@ crest_minor_goneril = {
 	group = crest_goneril
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_goneril_desc
 }
 
@@ -338,6 +413,11 @@ crest_major_goneril = {
 	random_creation = 0
 	group = crest_goneril
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_goneril_desc
 }
@@ -357,6 +437,11 @@ crest_minor_gloucester = {
 	group = crest_gloucester
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_gloucester_desc
 }
 
@@ -374,6 +459,11 @@ crest_major_gloucester = {
 	random_creation = 0
 	group = crest_gloucester
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_gloucester_desc
 }
@@ -393,6 +483,11 @@ crest_minor_gautier = {
 	group = crest_gautier
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_gautier_desc
 }
 
@@ -410,6 +505,11 @@ crest_major_gautier = {
 	random_creation = 0
 	group = crest_gautier
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_gautier_desc
 }
@@ -429,6 +529,11 @@ crest_minor_fraldarius = {
 	group = crest_fraldarius
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_fraldarius_desc
 }
 
@@ -446,6 +551,11 @@ crest_major_fraldarius = {
 	random_creation = 0
 	group = crest_fraldarius
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_fraldarius_desc
 }
@@ -465,6 +575,11 @@ crest_minor_dominic = {
 	group = crest_dominic
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_dominic_desc
 }
 
@@ -483,6 +598,11 @@ crest_major_dominic = {
 	group = crest_dominic
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_dominic_desc
 }
 
@@ -500,6 +620,11 @@ crest_minor_daphnel = {
 	group = crest_daphnel
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_daphnel_desc
 }
 
@@ -516,6 +641,11 @@ crest_major_daphnel = {
 	random_creation = 0
 	group = crest_daphnel
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_daphnel_desc
 }
@@ -535,6 +665,11 @@ crest_minor_charon = {
 	group = crest_charon
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_charon_desc
 }
 
@@ -553,6 +688,11 @@ crest_major_charon = {
 	group = crest_charon
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_charon_desc
 }
 
@@ -569,6 +709,11 @@ crest_minor_blaiddyd = {
 	random_creation = 0
 	group = crest_blaiddyd
 	level = 2
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_minor_blaiddyd_desc
 }
@@ -587,6 +732,11 @@ crest_major_blaiddyd = {
 	group = crest_blaiddyd
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_blaiddyd_desc
 }
 
@@ -604,6 +754,11 @@ crest_minor_aubin = {
 	group = crest_aubin
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_aubin_desc
 }
 
@@ -620,6 +775,11 @@ crest_major_aubin = {
 	random_creation = 0
 	group = crest_aubin
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_aubin_desc
 }
@@ -639,6 +799,11 @@ crest_minor_chevalier = {
 	group = crest_chevalier
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_chevalier_desc
 }
 
@@ -657,6 +822,11 @@ crest_major_chevalier = {
 	group = crest_chevalier
 	level = 3
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_major_chevalier_desc
 }
 
@@ -674,6 +844,11 @@ crest_minor_ernest = {
 	group = crest_ernest
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_ernest_desc
 }
 
@@ -690,6 +865,11 @@ crest_major_ernest = {
 	random_creation = 0
 	group = crest_ernest
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_ernest_desc
 }
@@ -709,6 +889,11 @@ crest_minor_noa = {
 	group = crest_noa
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_noa_desc
 }
 
@@ -726,6 +911,11 @@ crest_major_noa = {
 	random_creation = 0
 	group = crest_noa
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_noa_desc
 }
@@ -745,6 +935,11 @@ crest_minor_timotheos = {
 	group = crest_timotheos
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_timotheos_desc
 }
 
@@ -762,6 +957,11 @@ crest_major_timotheos = {
 	random_creation = 0
 	group = crest_timotheos
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_timotheos_desc
 }
@@ -781,6 +981,11 @@ crest_minor_maurice = {
 	group = crest_maurice
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_maurice_desc
 }
 
@@ -798,6 +1003,11 @@ crest_major_maurice = {
 	random_creation = 0
 	group = crest_maurice
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_maurice_desc
 }
@@ -818,6 +1028,11 @@ crest_minor_malik = {
 	group = crest_malik
 	level = 2
 
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
+
 	desc = trait_crest_minor_malik_desc
 }
 
@@ -836,6 +1051,11 @@ crest_major_malik = {
 	random_creation = 0
 	group = crest_malik
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_malik_desc
 }
