@@ -402,7 +402,7 @@
    	intrigue=10
 	learning=4
 	prowess = 7
-	health = 6.5
+	health = 6
 
 	trait = deceitful
 	trait = gregarious
@@ -511,7 +511,7 @@
    	intrigue=3
 	learning=5
 	prowess = 7
-	health = 6.5
+	health = 6
 
 	trait = just
 	trait = ambitious
@@ -552,7 +552,7 @@
    	intrigue=2
 	learning=2
 	prowess = 11
-	health = 6.5
+	health = 6
 
 	trait = gluttonous
 	trait = compassionate
@@ -658,7 +658,7 @@
    	intrigue=4
 	learning=8
 	prowess = 4
-	health = 6.5
+	health = 6
 
 	trait = calm
 	trait = humble
@@ -704,7 +704,7 @@
    	intrigue=4
 	learning=9
 	prowess = 2
-	health = 6.5
+	health = 6
 
 	trait = diligent
 	trait = arrogant
@@ -745,7 +745,7 @@
    	intrigue=2
 	learning=9
 	prowess = 2
-	health = 6.5
+	health = 6
 
 	trait = shy
 	trait = humble
@@ -786,7 +786,7 @@
    	intrigue=7
 	learning=4
 	prowess = 10
-	health = 6.5
+	health = 6
 
 	trait = lazy
 	trait = gregarious
@@ -853,7 +853,7 @@
    	intrigue=4
 	learning=4
 	prowess = 10
-	health = 6.5
+	health = 6
 
 	trait = diligent
 	trait = brave

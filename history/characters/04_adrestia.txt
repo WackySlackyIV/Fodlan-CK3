@@ -15,7 +15,7 @@
    	intrigue=8
 	learning=2
 	prowess = 11
-	health = 6.5
+	health = 6
 
 	trait = ambitious
 	trait = cynical
@@ -332,7 +332,7 @@
    	intrigue=10
 	learning=2
 	prowess = 5
-	health = 6.5
+	health = 6
 
 	trait = callous
 	trait = cynical
@@ -374,7 +374,7 @@
    	intrigue=1
 	learning=8
 	prowess = 3
-	health = 6.5
+	health = 6
 
 	trait = craven
 	trait = shy
@@ -413,7 +413,7 @@
    	intrigue=1
 	learning=3
 	prowess = 9
-	health = 6.5
+	health = 6
 
 	trait = diligent
 	trait = honest
@@ -452,7 +452,7 @@
    	intrigue=2
 	learning=2
 	prowess = 8
-	health = 6.5
+	health = 6
 
 	trait = brave
 	trait = wrathful
@@ -496,7 +496,7 @@
    	intrigue=3
 	learning=9
 	prowess = 1
-	health = 6.5
+	health = 6
 
 	trait = lazy
 	trait = calm
@@ -541,7 +541,7 @@
    	intrigue=6
 	learning=6
 	prowess = 3
-	health = 6.5
+	health = 6
 
 	trait = gregarious
 	trait = lustful
@@ -588,7 +588,7 @@
    	intrigue=2
 	learning=2
 	prowess = 9
-	health = 6.5
+	health = 6
 
 	trait = honest
 	trait = diligent
@@ -628,7 +628,7 @@
 	stewardship=3
    	intrigue=5
 	learning=1
-	health = 6.5
+	health = 6
 	prowess = 13
 
 	trait = brave
@@ -717,7 +717,7 @@
 	stewardship=8
    	intrigue=9
 	learning=7
-	health = 6.5
+	health = 6
 	prowess = 6
 
 	trait = arrogant

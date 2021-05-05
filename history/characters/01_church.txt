@@ -19,7 +19,7 @@
    	intrigue = 4
 	learning = 10
 	prowess = 11
-	health = 6.5
+	health = 6
    	mother = 500001
 	sexuality = bisexual
 
@@ -106,7 +106,7 @@
    	intrigue=7
 	learning=9
 	prowess = 10
-	health = 6.5
+	health = 6
 
 	trait = temperate
 	trait = diligent
@@ -153,7 +153,7 @@
    	intrigue=3
 	learning=9
 	prowess = 3
-	health = 6.5
+	health = 6
 
 	trait = compassionate
 	trait = forgiving
@@ -208,7 +208,7 @@
    	intrigue=3
 	learning=5
 	prowess = 7
-	health = 6.5
+	health = 6
 
 	trait = brave
 	trait = honest
@@ -253,7 +253,7 @@
 	stewardship=5
    	intrigue=2
 	learning=5
-	health = 6.5
+	health = 6
 	prowess = 8
 	stress = 200 #It ShOuLd WoRk
 
@@ -305,7 +305,7 @@
    	intrigue=9
 	learning=3
 	prowess = 8
-	health = 6.5
+	health = 6
 
 	trait = deceitful
 	trait = callous
@@ -348,7 +348,7 @@
    	intrigue=5
 	learning=9
 	prowess = 4
-	health = 6.5
+	health = 6
 
 	trait = lazy
 	trait = lustful
@@ -397,7 +397,7 @@
    	intrigue=4
 	learning=8
 	prowess = 4
-	health = 6.5
+	health = 6
 
 	trait = calm
 	trait = just
@@ -448,7 +448,7 @@
 	dynasty = 2
 	sexuality = heterosexual
 
-	health = 6.5
+	health = 6
 	prowess = 13
 
 	trait = brave
@@ -491,7 +491,7 @@
    	intrigue=6
 	learning=4
 	prowess = 5
-	health = 6.5
+	health = 6
 
 	trait = content
 	trait = trusting
@@ -531,7 +531,7 @@
    	intrigue=4
 	learning=6
 	prowess = 10
-	health = 6.5
+	health = 6
 	father = 300002
 	mother = 300097
 
@@ -584,7 +584,7 @@
    	intrigue=9
 	learning=4
 	prowess = 7
-	health = 6.5
+	health = 6
 
 	trait = greedy
 	trait = deceitful
@@ -631,7 +631,7 @@
    	intrigue=4
 	learning=2
 	prowess = 10
-	health = 6.5
+	health = 6
 
 	trait = brave
 	trait = greedy
@@ -690,7 +690,7 @@
    	intrigue=5
 	learning=8
 	prowess = 5
-	health = 6.5
+	health = 6
 
 	trait = ambitious
 	trait = diligent
@@ -744,7 +744,7 @@
    	intrigue=6
 	learning=6
 	prowess = 5
-	health = 6.5
+	health = 6
 
 	trait = cynical
 	trait = honest
@@ -906,7 +906,7 @@
 	stewardship=9
    	intrigue=6
 	learning=4
-	health = 6.5
+	health = 6
 
 	trait = greedy
 	trait = deceitful
@@ -944,7 +944,7 @@
 	stewardship=3
    	intrigue=4
 	learning=8
-	health = 6.5
+	health = 6
 	prowess = 5
 
 	trait = wrathful

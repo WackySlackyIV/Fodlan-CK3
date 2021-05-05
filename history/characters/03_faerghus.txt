@@ -14,7 +14,7 @@
    	intrigue=3
 	learning=5
 	prowess = 11
-	health = 6.5
+	health = 6
 
 	trait = wrathful
 	trait = vengeful
@@ -351,7 +351,7 @@
    	intrigue=7
 	learning=4
 	prowess = 6
-	health = 6.5
+	health = 6
 
 	trait = content
 	trait = trusting
@@ -723,7 +723,7 @@
    	intrigue=1
 	learning=5
 	prowess = 8
-	health = 6.5
+	health = 6
 
 	trait = chaste
 	trait = diligent
@@ -765,7 +765,7 @@
    	intrigue=7
 	learning=6
 	prowess = 11
-	health = 6.5
+	health = 6
 
 	trait = callous
 	trait = brave
@@ -841,7 +841,7 @@
    	intrigue=6
 	learning=4
 	prowess = 6
-	health = 6.5
+	health = 6
 
 	trait = lustful
 	trait = fickle
@@ -940,7 +940,7 @@
    	intrigue=1
 	learning=4
 	prowess = 8
-	health = 6.5
+	health = 6
 
 	trait = stubborn
 	trait = content
@@ -982,7 +982,7 @@
    	intrigue=2
 	learning=9
 	prowess = 3
-	health = 6.5
+	health = 6
 
 	trait = humble
 	trait = generous
@@ -1033,7 +1033,7 @@
    	intrigue=3
 	learning=9
 	prowess = 5
-	health = 6.5
+	health = 6
 
 	trait = honest
 	trait = diligent

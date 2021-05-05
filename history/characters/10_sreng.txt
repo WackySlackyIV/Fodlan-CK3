@@ -10,7 +10,7 @@
    	intrigue = 4
 	learning = 9
 	prowess = 7
-	health = 6.5
+	health = 6
 	sexuality = bisexual
 
 	trait = vengeful
