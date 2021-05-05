@@ -354,7 +354,7 @@
 	trait = lustful
 	trait = fickle
 
-	trait = education_diplomacy_3
+	trait = education_learning_2
 	trait = beauty_good_2
 	trait = physician_2
 	trait = whole_of_body

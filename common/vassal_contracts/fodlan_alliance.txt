@@ -13,7 +13,6 @@
 
 		alliance_contract_great_lord = {
 			is_valid = {
-				scope:vassal = { is_powerful_vassal = yes }
 			}
 			parent = alliance_contract_none
 			position = { 0 0 }
