@@ -1,0 +1,55 @@
+﻿doctrine_crest_veneration = {
+	group = "crimes"
+	doctrine_crest_veneration = { # veneration
+		piety_cost = {
+			value = faith_doctrine_cost_high
+
+			# Round up to the nearest multiple of 25
+			divide = 25
+			ceiling = yes
+			multiply = 25
+		}
+
+		parameters = {
+			crest_venerated = yes
+		}
+
+		character_modifier = {
+			monthly_piety_gain_mult = 0.1
+		}
+
+
+	}
+	doctrine_crest_neutral = { # acepted
+		piety_cost = {
+			value = faith_doctrine_cost_high
+
+			# Round up to the nearest multiple of 25
+			divide = 25
+			ceiling = yes
+			multiply = 25
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_doctrine_spiritual_appointment_temporal_trigger
+				NOT = { flag:doctrine_temporal_head = { is_in_list = selected_doctrines } }
+			}
+		}		
+
+		parameters = {
+		}
+	}
+	doctrine_crest_heresy = { # criminal
+		piety_cost = {
+			value = faith_doctrine_cost_high
+
+			# Round up to the nearest multiple of 25
+			divide = 25
+			ceiling = yes
+			multiply = 25
+		}
+		parameters = {
+		}
+	}
+}

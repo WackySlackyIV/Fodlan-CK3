@@ -15,6 +15,10 @@
 	group = crest_seiros
 	level = 2
 	
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_minor_seiros_desc
 }
@@ -35,6 +39,11 @@ crest_major_seiros = {
 	random_creation = 0
 	group = crest_seiros
 	level = 3
+
+	triggered_opinion = {
+		parameter = crest_venerated
+		opinion_modifier = crest_venerated_opinion
+	}
 
 	desc = trait_crest_major_seiros_desc
 }

@@ -15,3 +15,15 @@ poor_teatime_opinion = {
 	years = 5
 	decaying = yes
 }
+
+crest_venerated_opinion = {
+	opinion = 5
+	attraction_opinion = 10
+}
+
+crest_crime_opinion = {
+	opinion = -25
+
+	imprisonment_reason = yes
+	banish_reason = yes
+}

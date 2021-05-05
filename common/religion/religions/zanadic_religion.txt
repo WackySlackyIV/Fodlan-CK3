@@ -26,6 +26,8 @@
 	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_accepted
 
+	doctrine = doctrine_crest_veneration
+
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_taxation
 	doctrine = doctrine_clerical_gender_either
