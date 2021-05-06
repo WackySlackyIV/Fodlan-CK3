@@ -6,7 +6,7 @@
 	stewardship = 1
 	learning = 2
 	prowess = 5
-	
+
 	attraction_opinion = 5
 
 	genetic = yes
@@ -18,6 +18,10 @@
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_minor_seiros_desc
@@ -31,7 +35,7 @@ crest_major_seiros = {
 	stewardship = 2
 	learning = 4
 	prowess = 10
-	
+
 	attraction_opinion = 10
 
 	genetic = yes
@@ -43,6 +47,10 @@ crest_major_seiros = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_seiros_desc
@@ -69,6 +77,10 @@ crest_minor_flames = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_flames_desc
 }
@@ -94,6 +106,10 @@ crest_major_flames = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_flames_desc
 }
@@ -117,6 +133,10 @@ crest_minor_macuil = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_macuil_desc
 }
@@ -139,6 +159,10 @@ crest_major_macuil = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_macuil_desc
@@ -164,6 +188,10 @@ crest_minor_indech = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_indech_desc
 }
@@ -187,6 +215,10 @@ crest_major_indech = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_indech_desc
@@ -212,6 +244,10 @@ crest_minor_cichol = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_cichol_desc
 }
@@ -236,6 +272,10 @@ crest_major_cichol = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_cichol_desc
 }
@@ -258,6 +298,10 @@ crest_minor_cethleann = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_minor_cethleann_desc
@@ -282,6 +326,10 @@ crest_major_cethleann = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_cethleann_desc
 }
@@ -304,6 +352,10 @@ crest_minor_riegan = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_minor_riegan_desc
@@ -328,6 +380,10 @@ crest_major_riegan = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_riegan_desc
 }
@@ -350,6 +406,10 @@ crest_minor_lamine = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_lamine_desc
 }
@@ -371,6 +431,10 @@ crest_major_lamine = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_lamine_desc
@@ -395,6 +459,10 @@ crest_minor_goneril = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_goneril_desc
 }
@@ -417,6 +485,10 @@ crest_major_goneril = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_goneril_desc
@@ -441,6 +513,10 @@ crest_minor_gloucester = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_gloucester_desc
 }
@@ -463,6 +539,10 @@ crest_major_gloucester = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_gloucester_desc
@@ -487,6 +567,10 @@ crest_minor_gautier = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_gautier_desc
 }
@@ -509,6 +593,10 @@ crest_major_gautier = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_gautier_desc
@@ -533,6 +621,10 @@ crest_minor_fraldarius = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_fraldarius_desc
 }
@@ -555,6 +647,10 @@ crest_major_fraldarius = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_fraldarius_desc
@@ -579,6 +675,10 @@ crest_minor_dominic = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_dominic_desc
 }
@@ -602,6 +702,10 @@ crest_major_dominic = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_dominic_desc
 }
@@ -624,6 +728,10 @@ crest_minor_daphnel = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_daphnel_desc
 }
@@ -645,6 +753,10 @@ crest_major_daphnel = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_daphnel_desc
@@ -669,6 +781,10 @@ crest_minor_charon = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_charon_desc
 }
@@ -692,6 +808,10 @@ crest_major_charon = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_charon_desc
 }
@@ -713,6 +833,10 @@ crest_minor_blaiddyd = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_minor_blaiddyd_desc
@@ -736,6 +860,10 @@ crest_major_blaiddyd = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_blaiddyd_desc
 }
@@ -758,6 +886,10 @@ crest_minor_aubin = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_aubin_desc
 }
@@ -779,6 +911,10 @@ crest_major_aubin = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_aubin_desc
@@ -803,6 +939,10 @@ crest_minor_chevalier = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_chevalier_desc
 }
@@ -826,6 +966,10 @@ crest_major_chevalier = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_major_chevalier_desc
 }
@@ -848,6 +992,10 @@ crest_minor_ernest = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_ernest_desc
 }
@@ -869,6 +1017,10 @@ crest_major_ernest = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_ernest_desc
@@ -893,6 +1045,10 @@ crest_minor_noa = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_noa_desc
 }
@@ -915,6 +1071,10 @@ crest_major_noa = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_noa_desc
@@ -939,6 +1099,10 @@ crest_minor_timotheos = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_timotheos_desc
 }
@@ -961,6 +1125,10 @@ crest_major_timotheos = {
 	triggered_opinion = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
+	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
 	}
 
 	desc = trait_crest_major_timotheos_desc
@@ -985,6 +1153,10 @@ crest_minor_maurice = {
 		parameter = crest_venerated
 		opinion_modifier = crest_venerated_opinion
 	}
+	triggered_opinion = {
+		parameter = crest_crime
+		opinion_modifier = crest_crime_opinion
+	}
 
 	desc = trait_crest_minor_maurice_desc
 }
@@ -1003,11 +1175,6 @@ crest_major_maurice = {
 	random_creation = 0
 	group = crest_maurice
 	level = 3
-
-	triggered_opinion = {
-		parameter = crest_venerated
-		opinion_modifier = crest_venerated_opinion
-	}
 
 	desc = trait_crest_major_maurice_desc
 }
@@ -1051,11 +1218,6 @@ crest_major_malik = {
 	random_creation = 0
 	group = crest_malik
 	level = 3
-
-	triggered_opinion = {
-		parameter = crest_venerated
-		opinion_modifier = crest_venerated_opinion
-	}
 
 	desc = trait_crest_major_malik_desc
 }

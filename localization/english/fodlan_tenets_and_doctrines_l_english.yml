@@ -1,7 +1,21 @@
 ﻿l_english:
+# DOCTRINES #
+
+ doctrine_crest_laws_name:0 "Crests"
+ doctrine_crest_laws_desc:0 "Crests are a mysterious power passed down through one's bloodline that provide their bearer an edge over their peers. Purportedly blessings from the Goddess, Crests might offer greater strength or a high affinity for magic. Noble houses greatly value crests, going so far as to adopt those that bear them or disinherit children who do not possess them. Crests can be Minor or Major, and offer corresponding stat bonuses."
+ doctrine_crest_veneration_name:0 "Venerated"
+ doctrine_crest_veneration_desc:0 "These Holy symbols are worshipped and often placed in high positions"
+ doctrine_parameter_crest_venerated:0 "Characters with crests, get increased opinion"
+ doctrine_crest_accepted_name:0 "Accepted"
+ doctrine_crest_accepted_desc:0 "We accept these crests, but dont place any more value on them then the common man"
+ doctrine_crest_criminal_name:0 "Criminal"
+ doctrine_crest_criminal_desc:0 "These Crests should be not be allowed to exist. Those who bear them should be banished or improsoned in our realm"
+ doctrine_parameter_crest_crime:0 "Characters with Crests are [criminals|E]"
+
+# TENETS #
  tenet_school_of_seiros_name:0 "Teachings of Seiros"
  tenet_school_of_seiros_desc:0 "A branch of the Church of Seiros which focuses solely on how her most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to develop their leadership skills and fight against those who would desecrate the word of the Goddess "
-
+ 
  tenet_school_of_macuil_name:0 "Teachings of Macuil"
  tenet_school_of_macuil_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to think tactically on and off the battlefield and to punish those who've wronged them"
 

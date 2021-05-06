@@ -7753,6 +7753,9 @@
               culture = leicester
               religion = seirosite
               holding = castle_holding
+		1101.1.1 = {
+			special_building_slot = cordelia_01
+		}
 }
 
 94 = {        # (b_rotherham)
@@ -8415,6 +8418,10 @@
               culture = ailish
               religion = seirosite
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = beverly_hill_01
+		}
 }
 
 80 = {        # (b_creusa)

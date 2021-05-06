@@ -1,4 +1,4 @@
-﻿doctrine_crest_veneration = {
+﻿doctrine_crest_laws = {
 	group = "crimes"
 	doctrine_crest_veneration = { # veneration
 		piety_cost = {
@@ -20,7 +20,7 @@
 
 
 	}
-	doctrine_crest_neutral = { # acepted
+	doctrine_crest_accepted = { # acepted
 		piety_cost = {
 			value = faith_doctrine_cost_high
 
@@ -28,19 +28,12 @@
 			divide = 25
 			ceiling = yes
 			multiply = 25
-		}
-
-		can_pick = {
-			custom_description = {
-				text = incompatible_doctrine_spiritual_appointment_temporal_trigger
-				NOT = { flag:doctrine_temporal_head = { is_in_list = selected_doctrines } }
-			}
 		}		
 
 		parameters = {
 		}
 	}
-	doctrine_crest_heresy = { # criminal
+	doctrine_crest_criminal = { # criminal
 		piety_cost = {
 			value = faith_doctrine_cost_high
 
@@ -50,6 +43,7 @@
 			multiply = 25
 		}
 		parameters = {
+			crest_crime = yes
 		}
 	}
 }

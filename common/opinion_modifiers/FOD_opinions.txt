@@ -17,8 +17,7 @@ poor_teatime_opinion = {
 }
 
 crest_venerated_opinion = {
-	opinion = 5
-	attraction_opinion = 10
+	opinion = 10
 }
 
 crest_crime_opinion = {

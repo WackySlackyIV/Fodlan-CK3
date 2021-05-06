@@ -763,3 +763,15 @@ k_ineveh = {
 		instance = { position = { 0.5 0.3 } scale = { 0.5 0.5 }  }
 	}
 }
+
+d_gloucester = {
+	pattern = "pattern_solid.dds"
+	color1	= "yellow"
+	colored_emblem = {
+		texture = "ce_gloucester_emblem.dds"
+		color1 = "purple"
+		color2 = "green"
+		color3 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0.1.0 }
+	}
+}
