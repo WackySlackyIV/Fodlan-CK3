@@ -1,0 +1,137 @@
+defame_candidate = { #scheme to decrease your target's chance in an election, mostly mirrored from promote_candidate but intrigue focused
+	
+	skill = intrigue
+
+
+	allow = {
+		any_election_title = { exists = this } #initiator has to be an elector for an election, no russian interference
+		scope:owner = { has_government = alliance_government } #limiting to alliance until boss man decrees otherwise
+		is_adult = yes
+		is_landed = yes
+		is_imprisoned = no
+	}
+	
+	
+	power_per_skill_point = 4.0
+	uses_agents = no #not settled on this
+	is_secret = no
+	hostile = no
+	minimum_progress_chance = 50
+	maximum_progress_chance = 95
+
+	valid = {
+		custom_description = {
+		text = promotion_valid_desc
+			scope:target = {	
+				NOT = { has_character_modifier = defamed_candidate_3 }
+				OR = {
+					scope:owner = scope:target 
+					AND = {
+						is_vassal_of = scope:owner
+						highest_held_title_tier >= 3
+					}	
+					is_close_or_extended_family_of = scope:owner
+					AND = {
+						scope:owner.top_liege = scope:target.top_liege
+						highest_held_title_tier >= 3
+					}
+				}
+			}
+		}
+	}
+	
+	base_success_chance = {
+		base = 30
+		
+		compare_modifier = {
+			desc = sway_my_diplomacy
+			target = scope:owner
+			value = scope:owner.diplomacy
+			multiplier = 2
+		}
+
+		compare_modifier = {
+			desc = sway_my_intrigue
+			target = scope:owner
+			value = scope:owner.intrigue
+			multiplier = 4
+		}
+		modifier = {
+			add = 5
+			scope:owner = { has_trait = gregarious }
+			desc = "SCHEME_BEFRIEND_MY_GREGARIOUSNESS"
+		}
+		modifier = {
+			add = -5
+			scope:owner = { has_trait = shy }
+			desc = "SCHEME_BEFRIEND_MY_SHYNESS"
+		}
+		modifier = {
+			add = 4
+			scope:owner = { has_trait = callous }
+			desc = "SCHEME_BEFRIEND_MY_CALLOUSNESS"
+		}
+		modifier = {
+			add = 5
+			scope:owner = { has_trait = deceitful }
+			desc = FABRICATE_HOOK_DECEITFUL
+		}
+		modifier = {
+			add = -10
+			scope:owner = { has_trait = honest }
+			desc = FABRICATE_HOOK_HONEST
+		}
+		####for target####
+		modifier = {
+			add = 5
+			scope:target = { has_trait = intellect_bad_1 }
+			desc = FABRICATE_HOOK_TARGET_INTELLECT_BAD_1
+		}
+		modifier = {
+			add = 10
+			scope:target = { has_trait = intellect_bad_2 }
+			desc = FABRICATE_HOOK_TARGET_INTELLECT_BAD_2
+		}
+		modifier = {
+			add = 15
+			scope:target = { has_trait = intellect_bad_3 }
+			desc = FABRICATE_HOOK_TARGET_INTELLECT_BAD_3
+		}
+		modifier = {
+			add = -5
+			scope:target = { has_trait = intellect_good_1 }
+			desc = FABRICATE_HOOK_TARGET_INTELLECT_GOOD_1
+		}
+		modifier = {
+			add = -10
+			scope:target = { has_trait = intellect_good_2 }
+			desc = FABRICATE_HOOK_TARGET_INTELLECT_GOOD_2
+		}
+		modifier = {
+			add = -15
+			scope:target = { has_trait = intellect_good_3 }
+			desc = FABRICATE_HOOK_TARGET_INTELLECT_GOOD_3
+		}
+	}
+		
+	cooldown = { years = 1 }
+
+	on_ready = {
+		scheme_owner = {
+			trigger_event = promotion_outcome.0011
+		}
+	}
+
+	on_monthly = {
+		
+	}
+
+	
+	on_invalidated = {
+		scheme_owner = {
+			trigger_event = { id =  }
+		}
+	}
+	
+	success_desc = "DEFAME_CANDIDATE_SUCCESS_DESC"
+}

@@ -8,3 +8,9 @@
  
  #modifiers
  slither_protection:0 "Slither Protection"
+ promoted_candidate_1:0 "Good Election Standing"
+ promoted_candidate_2:0 "Great Election Standing"
+ promoted_candidate_3:0 "Stellar Election Standing"
+ defamed_candidate_1:0 "Poor Election Standing"
+ defamed_candidate_2:0 "Bad Election Standing"
+ defamed_candidate_3:0 "Terrible Election Standing"

@@ -1,0 +1,354 @@
+﻿#The outcome of a scheme to promote a candidate for an election
+#by Umbrosus
+namespace = promotion_outcome
+
+promotion_outcome.0001 = { #I showed you my code, pls respond :(
+	type = character_event
+	title = promotion_outcome.0001.t
+	desc = promotion_outcome.0001.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0001.a
+		custom_tooltip = promotion_outcome.0001.a.tt
+		trigger_event = promotion_outcome.0002 #rolls
+
+		stress_impact = {
+			honest = minor_stress_impact_gain
+		}
+	}
+
+	option = {
+		name = promotion_outcome.0001.b
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+}	
+
+
+promotion_outcome.0002 = {
+	type = character_event
+
+	hidden = yes
+
+	immediate = {
+		#SUCCESS ROLL
+		random = {
+			chance = scope:scheme.scheme_success_chance
+
+			save_scope_value_as = {
+				name = scheme_successful
+				value = yes
+			}
+		}
+
+		if = {
+			limit = {
+				exists = scope:scheme_successful
+			}
+			trigger_event = {
+				id = promotion_outcome.0003
+			}
+		}
+		else = {
+			trigger_event = {
+				id = promotion_outcome.0004
+			}
+		}
+		#no player option to refuse, you're going to take the free promotion and you're going to like it, hoowah
+	}
+}
+
+promotion_outcome.0003 = {
+	type = character_event
+	title = promotion_outcome.0003.t
+	desc = promotion_outcome.0003.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0003.a
+		custom_tooltip = promotion_outcome.0003.a.tt
+		
+		
+		scope:scheme = { end_scheme = yes }
+		scope:target = {
+			if = {
+				limit = {
+					has_character_modifier = promoted_candidate_2
+				}
+				scope:target = {
+					add_character_modifier = { modifier = promoted_candidate_3 years = 30 }
+					remove_character_modifier = promoted_candidate_2
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = promoted_candidate_1
+				}
+				scope:target = {
+					add_character_modifier = { modifier = promoted_candidate_2 years = 30 }
+					remove_character_modifier = promoted_candidate_1
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = defamed_candidate_1
+				}
+				scope:target = {
+					remove_character_modifier = defamed_candidate_1
+					add_character_flag = { flag = no_promotion days = 5 }
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = defamed_candidate_2
+				}
+				scope:target = {
+					add_character_modifier = { modifier = promoted_candidate_1 years = 30 }
+					remove_character_modifier = defamed_candidate_2
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = defamed_candidate_3
+				}
+				scope:target = {
+					add_character_modifier = { modifier = defamed_candidate_2 years = 30 }
+					remove_character_modifier = defamed_candidate_3
+				}
+			}
+			if = { 
+				limit = {
+					NOT = { has_character_modifier = promoted_candidate_1 }
+					NOT = { has_character_modifier = promoted_candidate_2 }
+					NOT = { has_character_modifier = promoted_candidate_3 }
+					NOT = { has_character_modifier = defamed_candidate_1 }
+					NOT = { has_character_modifier = defamed_candidate_2 }
+					NOT = { has_character_modifier = defamed_candidate_3 }
+					NOT = { has_character_flag = no_promotion }
+				}
+				scope:target = {
+					add_character_modifier = { modifier = promoted_candidate_1 years = 30 }
+				}
+			}	
+		}
+	}
+}	
+
+promotion_outcome.0004 = { 
+	type = character_event
+	title = promotion_outcome.0004.t
+	desc = promotion_outcome.0004.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0004.a
+		custom_tooltip = promotion_outcome.0004.a.tt
+		
+		scope:scheme = { add_scheme_progress = -100 }
+
+	}
+
+	option = {
+		name = promotion_outcome.0004.b
+		custom_tooltip = promotion_outcome.0004.b.tt
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+}
+
+###############################
+###DEFAME CANDIDATE OUTCOMES###
+###############################
+
+promotion_outcome.0011 = { #nooo don't defame urself, ur so sexy aha
+	type = character_event
+	title = promotion_outcome.0011.t
+	desc = promotion_outcome.0011.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0011.a
+		custom_tooltip = promotion_outcome.0011.a.tt
+		trigger_event = promotion_outcome.0012 #rolls
+
+		stress_impact = {
+			honest = minor_stress_impact_gain
+		}
+	}
+
+	option = {
+		name = promotion_outcome.0011.b
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+}	
+
+promotion_outcome.0012 = {
+	type = character_event
+
+	hidden = yes
+
+	immediate = {
+		#SUCCESS ROLL
+		random = {
+			chance = scope:scheme.scheme_success_chance
+
+			save_scope_value_as = {
+				name = scheme_successful
+				value = yes
+			}
+		}
+
+		if = {
+			limit = {
+				exists = scope:scheme_successful
+			}
+			trigger_event = {
+				id = promotion_outcome.0013
+			}
+		}
+		else = {
+			trigger_event = {
+				id = promotion_outcome.0014
+			}
+		}
+	}
+}
+
+promotion_outcome.0013 = {
+	type = character_event
+	title = promotion_outcome.0013.t
+	desc = promotion_outcome.0013.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0013.a
+		custom_tooltip = promotion_outcome.0013.a.tt
+		
+		
+		scope:scheme = { end_scheme = yes }
+		scope:target = {
+			if = {
+				limit = {
+					has_character_modifier = promoted_candidate_1
+				}
+				scope:target = {
+					remove_character_modifier = promoted_candidate_1
+					add_character_flag = { flag = no_promotion days = 5 }
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = promoted_candidate_2
+				}
+				scope:target = {
+					add_character_modifier = { modifier = promoted_candidate_1 years = 30 }
+					remove_character_modifier = promoted_candidate_2
+				}
+			}	
+			if = {
+				limit = {
+					has_character_modifier = promoted_candidate_3
+				}
+				scope:target = {
+					add_character_modifier = { modifier = promoted_candidate_2 years = 30 }
+					remove_character_modifier = promoted_candidate_3
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = defamed_candidate_2
+				}
+				scope:target = {
+					add_character_modifier = { modifier = defamed_candidate_3 years = 30 }
+					remove_character_modifier = defamed_candidate_2
+				}
+			}
+			if = {
+				limit = {
+					has_character_modifier = defamed_candidate_1
+				}
+				scope:target = {
+					add_character_modifier = { modifier = defamed_candidate_2 years = 30 }
+					remove_character_modifier = defamed_candidate_1
+				}
+			}
+			if = { 
+				limit = {
+					NOT = { has_character_modifier = promoted_candidate_1 }
+					NOT = { has_character_modifier = promoted_candidate_2 }
+					NOT = { has_character_modifier = promoted_candidate_3 }
+					NOT = { has_character_modifier = defamed_candidate_1 }
+					NOT = { has_character_modifier = defamed_candidate_2 }
+					NOT = { has_character_modifier = defamed_candidate_3 }
+					NOT = { has_character_flag = no_promotion }
+				}
+				scope:target = {
+					add_character_modifier = { modifier = defamed_candidate_1 years = 30 }
+				}
+			}
+		}
+	}
+}
+
+promotion_outcome.0014 = {
+	type = character_event
+	title = promotion_outcome.0014.t
+	desc = promotion_outcome.0014.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0014.a
+		custom_tooltip = promotion_outcome.0014.a.tt
+		
+		scope:scheme = { add_scheme_progress = -100 }
+	}
+
+	option = {
+		name = promotion_outcome.0014.b
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+}
+

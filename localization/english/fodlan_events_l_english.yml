@@ -2,3 +2,38 @@
  FOD_crests.002.t:0 "No Crest"
  FOD_crests.002.desc:0 "My child has no crest and thus, no hope of furthering the glory of my house. Other houses will shurely start laughing at us now"
  FOD_crests.002.a:0 "Could you not be any better!?"
+ 
+ 
+ ###Scheme Events###
+ promotion_outcome.0001.t:0 "Words Bear Fruit"
+ promotion_outcome.0001.desc:0 "I have spent many months moving everything into place. As an elector within an election, it stands to reason I should ensure that the best candidate wins. I believe [target.GetName] is best suited for this role, and as such, I have spent a considerable amount of time preparing things. I have sent out criers across the realm, sent countless letters to influential figures, and spoken as highly of [target.GetName] as I could. \n\n All that remains is one final, decisive task; a conversation with the other electors. Do I speak my mind?"
+ promotion_outcome.0001.a:0 "Yes, [target.GetName] is worth the effort."
+ promotion_outcome.0001.a.tt:0 "Conclude the scheme to promote [target.GetName]."
+ promotion_outcome.0001.b:0 "Perhaps this was a hasty decision..."
+ promotion_outcome.0003.t:0 "Success!"
+ promotion_outcome.0003.desc:0 "During a meeting with the other electors, I spoke highly of [target.GetName], presenting [target.GetHerHis] virtues in full display before the court. I thought the foregoing silence might be inauspicious, but eventually, the quiet gave way into steady agreement. \n\nIt seems my efforts the past many months have not been in vain, and the other electors are convinced of [target.GetNamePossessive] qualities as a leader, just as I am. It comforts me knowing that the future will likely fall to better hands... but I cannot rest easy quite yet."
+ promotion_outcome.0003.a:0 "I shall rest easy tonight."
+ promotion_outcome.0003.a.tt:0 "[target.GetName] will be viewed as a better election candidate."
+ promotion_outcome.0004.t:0 "Dismissive Electors"
+ promotion_outcome.0004.desc:0 "Despite my best efforts to speak highly of [target.GetName], the other electors in court that day dismissed my praise without much hesitation at all. Worst of all, I had no counters to their claims. \n\nI had thought everything was in place, but I could not have been more incorrect. What did I do wrong? I am tempted to shelve this entire endeavor, and yet..."
+ promotion_outcome.0004.a:0 "I am not one to quit so easily! I will resume my efforts from the beginning."
+ promotion_outcome.0004.a.tt:0 "Restart your scheme to promote [target.GetName]."
+ promotion_outcome.0004.b:0 "This is an exercise in futility!"
+ promotion_outcome.0004.b.tt:0 "End this pointless task and move onto something else."
+ promotion_outcome.0011.t:0 "Words that Bite"
+ promotion_outcome.0011.desc:0 "[target.GetName] is a driveling incompetent who could not lead a dog properly, let alone an entire realm. I have been taking some time to ensure that all of the other electors know this irrefutable fact. Now, I am given a rare opportunity to orate to my fellow electors on the ineptitude of [target.GetName]. \n\nNow would be the best time to speak my mind."
+ promotion_outcome.0011.a:0 "Cast the die and see where they land."
+ promotion_outcome.0011.a.tt:0 "Deliver a speech to conclude the scheme to defame [target.GetName]."
+ promotion_outcome.0011.b:0 "This is pointless. Why am I doing this?"
+ promotion_outcome.0013.t:0 "Sticks and Stones..."
+ promotion_outcome.0013.desc:0 "I delivered a scathing speech to my fellow electors on the many failing aspects of [target.GetNamePossessive] character. My words were deliberate and poignant, and before long, others were joining in to agree with my sentiments. \n\nIt was rather vindicating to see my efforts bear fruit. I have always known [target.GetName] is not suitable for leadership, yet now, others have joined me in my convictions. It pleases me to see leadership is further away from the undeserving."
+ promotion_outcome.0013.a:0 "Words can hurt, at times."
+ promotion_outcome.0013.a.tt:0 "[target.GetName] will be viewed as a worse election candidate."
+ promotion_outcome.0014.t:0 "Faux Pas"
+ promotion_outcome.0014.desc:0 "I did not have the chance to get far into my speech about [target.GetName]. I was interrupted several times with counter-points and blatant disagreements. It became resoundingly clear that my stance was not shared by the electors present, and so I ceased lest I make a fool out of myself. \n\nI thought I had done everything correctly, but it's apparent to me now that I did not. It seems easiest now to acknowledge my failure and move on."
+ promotion_outcome.0014.a:0 "True winners do not ever quit. Once more, from the beginning!"
+ promotion_outcome.0014.a.tt:0 "Begin the scheme again."
+ promotion_outcome.0014.b:0 "One must know when to cut their losses."
+ 
+ 
+ 

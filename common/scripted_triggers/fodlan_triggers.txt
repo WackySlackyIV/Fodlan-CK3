@@ -246,3 +246,15 @@ is_custom_char = {
 		this = character:200019 #Maya
 	}
 }
+
+is_promoted = {
+	OR = {
+		has_character_modifier = defamed_candidate_1
+		has_character_modifier = defamed_candidate_2
+		has_character_modifier = defamed_candidate_3
+		has_character_modifier = promoted_candidate_1
+		has_character_modifier = promoted_candidate_2
+		has_character_modifier = promoted_candidate_3
+	}
+}
+	
