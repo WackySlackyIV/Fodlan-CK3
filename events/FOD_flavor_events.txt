@@ -892,7 +892,7 @@ FOD_flavor.6 = { #Orphan event
 	right_portrait = scope:realm_priest
 	
 	trigger = {
-		is_adult = yes
+		age >= 30
 		any_held_title = {
 			tier = tier_county
 		}
@@ -1011,12 +1011,11 @@ FOD_flavor.6 = { #Orphan event
 	option = { #Adopt
 		name = FOD_flavor.6.a
 		trigger = {
-			NOT = {
-				exists = player_heir
-			}
 			exists = house
 			root = house.house_head
-			age > 30
+			scope:orphan = {
+				has_culture = root.culture
+			}
 		}
 		root.dynasty = { add_dynasty_prestige = major_dynasty_prestige_loss }
 		add_prestige = major_prestige_loss
@@ -1035,17 +1034,17 @@ FOD_flavor.6 = { #Orphan event
 				set_father = root
 			}
 			add_trait = adopted
+			add_trait = disinherited
 		}
 		add_courtier = scope:orphan
 		ai_chance = {
-			base = 0
-			modifier = {
-				add = 50
-				health < fine_health
+			base = 25
+			ai_value_modifier = {
+				ai_compassion = 1
 			}
 			modifier = {
-				add = 50
-				fertility < low_fertility
+				factor = 0
+				any_child = { count = 2	}
 			}
 		}
 	}

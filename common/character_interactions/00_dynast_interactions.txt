@@ -285,6 +285,7 @@ restore_inheritance_interaction = {
 		}
 		scope:recipient = {
 			has_trait = disinherited
+			NOT = { has_trait = adopted }
 		}
 	}
 

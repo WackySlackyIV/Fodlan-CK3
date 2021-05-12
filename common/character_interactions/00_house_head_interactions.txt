@@ -495,3 +495,102 @@ legitimize_bastard_interaction = {
 	send_options_exclusive = no
 }
 
+allow_adopted_inheritance_interaction = { #Fodlan mod
+	category = interaction_category_friendly
+	desc = allow_adopted_inheritance_interaction_desc
+
+	interface_priority = 60
+
+	is_shown = {
+		scope:actor = {
+			is_house_head = yes
+			house = scope:recipient.house
+
+		}
+		scope:recipient = {
+			has_trait = adopted
+			has_trait = disinherited
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = { is_diplomatically_available = yes }
+	}
+	
+	on_accept = {
+		scope:actor = {
+			stress_impact = {
+				vengeful = minor_stress_impact_gain
+				stubborn = minor_stress_impact_gain
+			}
+			hidden_effect = {
+				send_interface_message = {
+					type = event_generic_neutral
+					title = allow_adopted_inheritance_interaction_notification
+					right_icon = scope:recipient
+					show_as_tooltip = {
+						scope:recipient = {
+							remove_trait = disinherited
+						}
+					}
+				}
+			}
+		}
+
+		scope:recipient = {
+			remove_trait = disinherited
+		}
+	}
+
+	cost = {
+	}
+	
+	auto_accept = yes
+
+	ai_potential = {
+		is_at_war = no
+	}
+	
+	ai_targets = {
+		ai_recipients = dynasty
+		max = 20
+	}
+	
+	ai_frequency = 120
+	
+	ai_will_do = {
+		base = 0
+		
+		modifier = {
+			add = 100
+			scope:recipient = {
+				OR = {
+					has_relation_friend = scope:actor
+					has_relation_best_friend = scope:actor
+				}
+			}
+		}
+		
+		modifier = {
+			add = 100
+			scope:recipient = {
+				is_child_of = scope:actor
+			}
+			scope:actor = {
+				health < 2
+				NOT = { exists = player_heir }
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			scope:recipient = {
+				OR = {
+					has_relation_rival = scope:actor
+					has_relation_nemesis = scope:actor
+				}
+			}
+		}
+	}
+}
+

@@ -46,6 +46,6 @@
  FOD_flavor.5.b:0 "Listen to [naysayer.GetHerHis] advice."
  FOD_flavor.6.t:0 "A Promising Orphan"
  FOD_flavor.6.desc:0 "My [realm_priest.GetCouncilTitle] [realm_priest.GetName] often visits a local orphanage when his duty permits it. Of late, he has been singing the praises of a talented young child there. [realm_priest.GetFirstNamePossessive] interest in the child has only grown with time, and now, [realm_priest.GetSheHe] has brought the orphan to court. \n\nThe orphan's name is [orphan.GetName], and my [realm_priest.GetCouncilTitle] promises that [orphan.GetSheHe] will be of great use to me in the future. I can clearly see the child does have something special about [orphan.GetHerHim], but is [orphan.GetSheHe] worth taking in?"
- FOD_flavor.6.a:0 "I will take [orphan.GetName] as my own heir."
- FOD_flavor.6.b:0 "[orphan.GetName] may join my court."
+ FOD_flavor.6.a:0 "I will raise [orphan.GetName] as my own child."
+ FOD_flavor.6.b:0 "[orphan.GetName] will join my court."
  FOD_flavor.6.c:0 "I have a realm to rule. Send [orphan.GetHerHim] back to the orphanage."
