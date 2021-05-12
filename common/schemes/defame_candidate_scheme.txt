@@ -24,6 +24,8 @@ defame_candidate = { #scheme to decrease your target's chance in an election, mo
 		text = promotion_valid_desc
 			scope:target = {	
 				NOT = { has_character_modifier = defamed_candidate_3 }
+				is_adult = yes
+				NOT = { has_trait = disinherited }
 				OR = {
 					scope:owner = scope:target 
 					AND = {

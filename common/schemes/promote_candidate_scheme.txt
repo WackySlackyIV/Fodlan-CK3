@@ -28,6 +28,8 @@ promote_candidate = { #scheme to increase your target's chance in an election
 		text = promotion_valid_desc
 			scope:target = {
 				NOT = { has_character_modifier = promoted_candidate_3 }
+				is_adult = yes
+				NOT = { has_trait = disinherited }
 				OR = {
 					scope:owner = scope:target 
 					AND = {
