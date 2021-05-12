@@ -59,6 +59,7 @@ FOD_flavor.1 = { #Tomato event
 scripted_trigger teatime_option_trigger = {
 	is_available = yes
 	age > 13
+	NOT = { has_relation_rival = root }
 	NOR = {
 		has_opinion_modifier = {
 			target = root
@@ -705,6 +706,7 @@ FOD_flavor.4 = { #Sharing meal with courtiers
 			count = 2
 			is_available = yes
 			age > 13
+			NOT = { has_relation_rival = root }
 		}
 	}
 	
@@ -713,6 +715,7 @@ FOD_flavor.4 = { #Sharing meal with courtiers
 			limit = {
 				is_available = yes
 				age > 13
+				NOT = { has_relation_rival = root }
 			}
 			save_scope_as = first_courtier
 		}
@@ -720,6 +723,8 @@ FOD_flavor.4 = { #Sharing meal with courtiers
 			limit = {
 				is_available = yes
 				age > 13
+				NOT = { has_relation_rival = root }
+				NOT = { has_relation_rival = scope:first_courtier }
 				NOT = { this = scope:first_courtier }
 			}
 			save_scope_as = second_courtier
