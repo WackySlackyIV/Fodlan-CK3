@@ -37,6 +37,7 @@
 	1180.8.23={
 		effect = {
 			set_designated_heir = character:200012
+			break_alliance = character:700000 #not needed
 		}
 	}
 	1200.1.1={

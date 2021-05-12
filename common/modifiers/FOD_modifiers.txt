@@ -5,30 +5,30 @@
 
 promoted_candidate_1 = {
 	icon = intrigue_positive
-	general_opinion = 2
+	alliance_government_opinion = 2
 }
 
 promoted_candidate_2 = {
 	icon = intrigue_positive
-	general_opinion = 4
+	alliance_government_opinion = 4
 }
 
 promoted_candidate_3 = {
 	icon = intrigue_positive
-	general_opinion = 6
+	alliance_government_opinion = 6
 }
 
 defamed_candidate_1 = {
 	icon = intrigue_negative
-	general_opinion = -2
+	alliance_government_opinion = -2
 }
 
 defamed_candidate_2 = {
 	icon = intrigue_negative
-	general_opinion = -4
+	alliance_government_opinion = -4
 }
 
 defamed_candidate_3 = {
 	icon = intrigue_negative
-	general_opinion = -6
+	alliance_government_opinion = -6
 }

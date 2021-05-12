@@ -4,7 +4,7 @@
  leader_female:0 "Leader"
  leader_spouse_male:0 "Grand Duke"
  leader_spouse_female:0 "Grand Duchess"
-
+ 
  #alliance elective succesion
  alliance_elective_succession_law:0 "Alliance Elective"
  alliance_elective_electors:0 "Great Lords"

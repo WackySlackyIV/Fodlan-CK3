@@ -1,0 +1,38 @@
+call_alliance = { #calls your "vassals" to war
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	desc = call_alliance_desc
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_lowborn = no
+		has_title = title:k_leicester
+		has_government = alliance_government
+	}
+
+	is_valid = {
+		is_at_war = yes
+	}
+
+	effect = {
+		every_vassal = {
+			limit = { 
+				primary_title = { tier >= tier_county }
+			}
+			trigger_event = FOD_alliance.1 #call alliance
+		}
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -1,0 +1,147 @@
+﻿namespace = FOD_alliance
+
+FOD_alliance.1 = {
+	type = character_event
+	title = FOD_alliance.1.t
+	desc = FOD_alliance.1.desc
+	theme = realm
+	left_portrait = root
+	right_portrait = liege
+	
+	immediate = {
+		liege = {
+			random_character_war = { save_scope_as = liege_war }
+			save_scope_as = liege_desc
+		}
+	}
+	
+	option = {
+		name = "FOD_alliance.1.a" #help as defender
+		trigger = { 
+			liege = {
+				is_defender_in_war = scope:liege_war
+			}
+		}
+		scope:liege_war = { add_defender = PREV }
+		
+		ai_chance = {
+			base = 10
+			
+			modifier = {
+				add = 100
+				liege = { has_relation_friend = PREV }
+			}
+			
+			modifier = {
+				add = 20
+				is_close_family_of = liege
+			}
+			
+			modifier = {
+				add = {
+					value = liege.dread
+					multiply = 0.5
+				}
+			}
+			
+			modifier = {
+				add = 20
+				opinion = {
+					target = liege
+					value >= 50
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "FOD_alliance.1.a" #help as attacker
+		trigger = { 
+			liege = {
+				is_attacker_in_war = scope:liege_war
+			}
+		}
+		scope:liege_war = { add_attacker = PREV }
+		
+		ai_chance = {
+			base = 0
+			
+			modifier = {
+				add = 100
+				liege = { has_relation_friend = PREV }
+			}
+			
+			modifier = {
+				add = 20
+				is_close_family_of = liege
+			}
+			
+			modifier = {
+				add = {
+					value = liege.dread
+					multiply = 0.5
+				}
+			}
+			
+			modifier = {
+				add = 20
+				opinion = {
+					target = liege
+					value >= 50
+				}
+			}
+			
+			modifier = {
+				add = 10
+				OR = {
+					has_trait = brave
+					has_trait = wrathful
+					has_trait = just
+					has_trait = education_martial
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "FOD_alliance.1.b" #refuse to help
+		
+		ai_chance = {
+			base = 10
+			
+			modifier = {
+				add = 10
+				liege = { is_at_war_as_attacker = yes }
+			}
+			
+			modifier = {
+				add = 10
+				OR = {
+					has_trait = lazy
+					has_trait = craven
+					has_trait = shy
+					has_trait = arbitrary
+					has_trait = depressed_1
+					has_trait = depressed_genetic
+					has_trait = maimed
+					has_trait = infirm
+					has_trait = incapable
+					has_trait = blind
+				}
+			}
+			
+			modifier = {
+				add = 100
+				liege = { has_relation_rival = PREV }
+			}
+			
+			modifier = {
+				add = 20
+				opinion = {
+					target = liege
+					value <= 0
+				}
+			}
+		}
+	}
+}
