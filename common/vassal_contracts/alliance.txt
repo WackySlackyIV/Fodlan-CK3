@@ -1,0 +1,65 @@
+@ai_standard_liege_desire = 2
+@ai_standard_vassal_desire = 1
+
+levy_sanction = {
+	display_mode = checkbox
+	obligation_levels = {
+		levy_sanction_none = {
+			default = yes
+			position = { 0 0 }
+			
+			ai_liege_desire = 0
+			ai_vassal_desire = @ai_standard_vassal_desire
+		}
+		levy_sanction_granted = {
+			is_valid = {
+				scope:liege = {
+					OR = {
+						has_hook = scope:vassal
+
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = rebellious_vassal_opinion
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = plotting_against_liege_opinion
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = attempted_murder_me_crime
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = executed_close_family
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = tortured_me
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = blinded_me
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = castrated_me
+						}
+						has_opinion_modifier = {
+							target = scope:vassal
+							modifier = treachery_opinion
+						}
+					}
+				}
+			}
+			parent = levy_sanction_none
+			position = { 1 0 }
+			
+			vassal_opinion = -10
+			levies = 0.5
+			
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_vassal_desire = 0
+		}
+	}
+}

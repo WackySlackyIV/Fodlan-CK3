@@ -160,3 +160,34 @@
 		instance = { position = { 0.5 0.5 } scale = { 1 1 }  }
 	}
 }
+
+114 = { # West
+	pattern = "pattern_quarter.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_cockerel.dds"
+		color1 = "brown"
+		color2 = "red"
+		instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }
+	}
+}
+
+123 = { # Albrecht
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "grey"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_hand.dds"
+		color1 = "white"
+		instance = { position = { 0.25 0.5 } scale = { 0.7 0.7 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_wolf.dds"
+		color1 = "grey"
+		color2 = "white"
+		color3 = "black"
+		instance = { position = { 0.75 0.5 } scale = { 0.7 0.7 } }
+	}
+}

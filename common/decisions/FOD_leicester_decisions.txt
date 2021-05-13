@@ -16,6 +16,9 @@ call_alliance = { #calls your "vassals" to war
 	}
 
 	effect = {
+		show_as_tooltip = {
+			custom_tooltip = call_alliance.tt
+		}
 		every_vassal = {
 			limit = { 
 				primary_title = { tier >= tier_county }

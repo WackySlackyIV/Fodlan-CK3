@@ -6,6 +6,8 @@
  call_alliance:0 "Call The Alliance To Aid"
  call_alliance_desc:0 "As we are the Leader of The Leicester Alliance, we can call our lords to war. They will join this war on their own accord and will control their own men. Yet, calling them takes a significant amount of prestige and they are never certain to join. This will depend on how well they like you."
  call_alliance_confirm:0 "Call On The Alliance"
+ call_alliance_tooltip:0 "Call on the alliance"
+ call_alliance.tt:0 "Send Messengers to the lords of the alliance to call them to war."
  FOD_alliance.1.t:0 "The Alliance Calls For Aid"
  FOD_alliance.1.desc:0 "[liege_desc.GetLiege.GetFirstName] has called the Alliance to arms. It seems [liege_desc.GetSheHe] thinks that the Alliance is under threat or [liege_desc.GetLiege.GetFirstName] wants to further his own interests. Nevertheless, we are not under any obligation to help, but are only expected to. We have to make our choice now."
  FOD_alliance.1.a:0 "Ofcourse we will aid our Leader"
