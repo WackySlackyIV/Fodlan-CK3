@@ -1,69 +1,56 @@
 ﻿crest = {
-	alias = { crest crests }
+	alias = { crests }
 	parent = crest
 }
 
 ten_elites = {
-	alias = { ten_elites }
 	parent = ten_elites 
 }
 
 four_apostles = {
-	alias = { four_apostles }
 	parent = four_apostles
 }
 
 saints = {
-	alias = { saints }
 	parent = saints
 }
 
 beast = {
-	alias = { beast }
 	parent = ten_elites
 }
 
 cichol = {
-	alias = { cichol }
 	parent = saints
 }
 
 seiros = {
-	alias = { seiros }
 	parent = saints
 }
 
 indech = {
-	alias = { indech }
 	parent = saints
 }
 
 macuil = {
-	alias = { macuil }
 	parent = saints
 }
 
 cethleann = {
-	alias = { cethleann }
 	parent = saints
 }
 
 noa = {
-	alias = { noa }
 	parent = four_apostles
 }
 
 timotheos = {
-	alias = { timotheos }
 	parent = four_apostles
 }
 
 aubin = {
-	alias = { aubin }
 	parent = four_apostles
 }
 
 chevalier = {
-	alias = { chevalier }
 	parent = four_apostles
 }
