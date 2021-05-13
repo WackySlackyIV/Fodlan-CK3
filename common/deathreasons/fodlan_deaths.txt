@@ -1,4 +1,9 @@
-true_knight = {
+death_true_knight = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+death_demonic_beast = {
 	public_knowledge = yes
 	icon = "death_murder.dds"
 }

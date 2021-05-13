@@ -34,4 +34,5 @@
  sway_my_intrigue:0 "Your Intrigue: $VALUE|=+0$"
  
  #deaths
- true_knight:0 "Died like a true knight"
+ death_true_knight:0 "Died like a true knight"
+ death_demonic_beast:0 "Died after a Demonic Beast attack"

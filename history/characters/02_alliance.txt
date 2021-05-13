@@ -488,7 +488,7 @@
 		}
 	}
 	1179.1.1={
-		death=yes
+		death = { death_reason = death_plotting }
 	}
 }
 
@@ -593,7 +593,7 @@
 		add_spouse = 200018
 	}
 	1177.4.13={
-		death=yes
+		death = { death_reason = death_demonic_beast }
 	}
 }
 
@@ -612,7 +612,7 @@
 		add_spouse = 200017
 	}
 	1177.4.13={
-		death=yes
+		death = { death_reason = death_demonic_beast }
 	}
 }
 

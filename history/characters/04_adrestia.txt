@@ -351,6 +351,9 @@
 	}
 	1181.1.1 = {
 		give_council_position = councillor_spymaster
+		effect={ 
+			set_relation_friend = character:400000
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -1958,6 +1961,7 @@
 	1146.02.11 = {
 		birth=yes
 	}
+
 	1200.1.1={
 		death=yes
 	}
