@@ -1,0 +1,4 @@
+true_knight = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

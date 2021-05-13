@@ -822,7 +822,7 @@
 		birth=yes
 	}
 	1176.3.10={
-		death=yes
+		death = { death_reason = true_knight }
 	}
 }
 
