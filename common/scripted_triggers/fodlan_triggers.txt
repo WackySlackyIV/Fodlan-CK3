@@ -260,7 +260,7 @@ is_promoted = {
 
 has_changed_alliance_contract_obligation_trigger = {
 	has_government = alliance_government
-	scope:recipient = { has_government = alliance_government )
+	scope:recipient = { has_government = alliance_government }
 	OR = {
 		local_var:levy_punishment != scope:obligation_check.vassal_contract_obligation_level:levy_sanction
 	}
