@@ -84,6 +84,8 @@ random_yearly_playable_pulse = {
 		on_yearly_common_events	
 		delay = { days = { 85 165 } }
 		bishop_ongoing
+		delay = { days = { 25 65 } }
+		FOD_flavor_events
 	}
 }
 

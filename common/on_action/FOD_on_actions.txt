@@ -101,14 +101,7 @@ FOD_crest_inheritance = {
 	}
 }
 
-random_yearly_playable_pulse = {
-	on_actions = {
-		delay = { days = { 45 75 } }
-		FOD_flavor
-	}
-}
-
-FOD_flavor = {
+FOD_flavor_events = {
 	random_events = {
 		2 = FOD_flavor.1
 		5 = FOD_flavor.2
