@@ -843,15 +843,15 @@ d_myrddin = {
 	colored_emblem = {
 		texture = "ce_block_04.dds"
 		color1 = "brown"
-		instance = {position 0.5 0.5 } scale { 1.0 1.0 } }
+		instance = {position = { 0.5 0.5 } scale = { 1.0 1.0 } }
 	}
 	
 	colored_emblem = {
 		texture = "ce_tower.dds"
 		color1 = "brown"
 		color2 = "brown"
-		instance = { position { 0.1 0.5 } scale { 1.0 1.0 } }
-		instance = { position { 0.9 0.5 } scale { 1.0 1.0 } }
+		instance = { position = { 0.1 0.5 } scale = { 1.0 1.0 } }
+		instance = { position = { 0.9 0.5 } scale = { 1.0 1.0 } }
 	}
 }
 
@@ -862,7 +862,7 @@ d_ordelia = {
 	colored_emblem = {
 		texture = "ce_chalice.dds"
 		color1 = "red"
-		instance = { position { 0.5 0.5 } scale { 0.5 0.7 } }
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.7 } }
 	}
 }
 
@@ -874,7 +874,7 @@ d_kupala = {
 		texture = "ce_sword_simple.dds"
 		color1 = "brown"
 		color2 = "white"
-		instance = { position { 0.5 0.5 } scale { 1.0 1.0 } }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
 	}
 }
 
@@ -885,10 +885,10 @@ d_clarence = {
 	colored_emblem = { 
 		texture = "ce_star_08.dds"
 		color1 = "yellow"
-		instance = { position { 0.75 0.75 } scale { 0.4 0.4 } }
-		instance = { position { 0.25 0.25 } scale { 0.4 0.4 } }
-		instance = { position { 0.25 0.75 } scale { 0.4 0.4 } }
-		instance = { position { 0.75 0.25 } scale { 0.4 0.4 } }
+		instance = { position = { 0.75 0.75 } scale = { 0.4 0.4 } }
+		instance = { position = { 0.25 0.25 } scale = { 0.4 0.4 } }
+		instance = { position = { 0.25 0.75 } scale = { 0.4 0.4 } }
+		instance = { position = { 0.75 0.25 } scale = { 0.4 0.4 } }
 	}
 }
 
@@ -901,8 +901,8 @@ d_atholl = {
 		color1 = "white"
 		color2 = "white"
 		color3 = "black"
-		instance = { position { 0.25 0.5 } scale { 0.6 0.6 } }
-		instance = { position { 0.75 0.5 } scale { 0.6 0.6 } }
+		instance = { position = { 0.25 0.5 } scale = { 0.6 0.6 } }
+		instance = { position = { 0.75 0.5 } scale = { 0.6 0.6 } }
 	}
 }
 
@@ -914,13 +914,13 @@ d_riegan = {
 		texture = "ce_leicester_shield.dds"
 		color1 = "deer_brown"
 		color2 = "grey"
-		instance = { position { 0.5 0.5 } scale { 1.0 1.0 } }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
 	}
 	
 	colored_emblem = {
 		texture = "ce_riegan_emblem.dds"
 		color1 = "grey"
-		instance = { position { 0.5 0.4 } scale { 0.5 0.5 } }
+		instance = { position = { 0.5 0.4 } scale = { 0.5 0.5 } }
 	}
 } 
 
@@ -933,7 +933,7 @@ c_derdriu = {
 		color1 = "brown"
 		color2 = "yellow"
 		color3 = "white"
-		instance = { position { 0.5 0.5 } scale { 0.8 0.8 } }
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
 	}
 }
 
@@ -944,6 +944,6 @@ c_yarmouth = {
 		texture = "ce_cockerel.dds"
 		color1 = "brown"
 		color2 = "red"
-		instance = { position { 0.5. 0.5 } scale { 1.0 1.0 } }
+		instance = { position = { 0.5. 0.5 } scale = { 1.0 1.0 } }
 	}
 }
