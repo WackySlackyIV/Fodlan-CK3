@@ -145,3 +145,116 @@ FOD_alliance.1 = {
 		}
 	}
 }
+
+FOD_alliance.2 = { #Hooks for fame event
+	type = character_event
+	title = FOD_alliance.2.t
+	desc = {
+		desc = FOD_alliance.2.desc.opening
+		first_valid = {
+			triggered_desc = {
+				limit = { has_usable_hook = scope:great_lord }
+				desc = FOD_alliance.2.desc.hook
+			}
+			desc = FOD_alliance.2.desc.no_hook
+		}
+	}
+	theme = vassal
+	left_portrait = root
+	right_portrait = scope:great_lord
+	
+	trigger = {
+		has_government = alliance_government
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				NOR = {
+					has_hook = root
+					this = root
+					has_opinion_modifier = {
+						target = root
+						modifier = disappointed_opinion
+					}
+				}
+				is_available_adult = yes
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			random_elector = {
+				limit = {
+					NOR = {
+						has_hook = root
+						this = root
+						has_opinion_modifier = {
+							target = root
+							modifier = disappointed_opinion
+						}
+					}
+					is_available_adult = yes
+				}
+				save_scope_as = great_lord
+			}
+		}
+	}
+	
+	option = { #Give hook, gain fame
+		name = FOD_alliance.2.a
+		trigger = {
+			scope:great_lord = {
+				can_add_hook = {
+					target = root
+					type = favor_hook
+				}
+			}
+		}
+		scope:great_lord = {
+			add_hook = {
+				target = root
+				type = favor_hook
+			}
+		}
+		gain_alliance_fame_effect = root
+		ai_chance = {
+			base = 50
+			opinion_modifier = {
+				opinion_target = scope:great_lord
+				multiplier = 2
+			}
+			modifier = {
+				factor = 0
+				has_usable_hook = scope:great_lord
+			}
+		}
+	}
+	
+	option = { #Use hook, gain fame
+		name = FOD_alliance.2.b
+		trigger = {
+			has_usable_hook = scope:great_lord
+		}
+		use_hook = scope:great_lord
+		gain_alliance_fame_effect = root
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { #Refuse
+		name = FOD_alliance.2.c
+		reverse_add_opinion = {
+			target = scope:great_lord
+			modifier = disappointed_opinion
+			opinion = -20
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				has_usable_hook = scope:great_lord
+			}
+		}
+	}
+}

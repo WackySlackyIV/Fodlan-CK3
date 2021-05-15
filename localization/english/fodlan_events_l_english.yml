@@ -12,6 +12,13 @@
  FOD_alliance.1.desc:0 "[liege_desc.GetLiege.GetFirstName] has called the Alliance to arms. It seems [liege_desc.GetSheHe] thinks that the Alliance is under threat or [liege_desc.GetLiege.GetFirstName] wants to further his own interests. Nevertheless, we are not under any obligation to help, but are only expected to. We have to make our choice now."
  FOD_alliance.1.a:0 "Ofcourse we will aid our Leader"
  FOD_alliance.1.b:0 "[liege_desc.GetSheHe] can fight his war without my aid"
+ FOD_alliance.2.t:0 "Great Lord's Offer"
+ FOD_alliance.2.desc.opening:0 "[great_lord.GetName] has come to me offering [great_lord.GetHerHis] support in Alliance politics."
+ FOD_alliance.2.desc.hook:0 "\nThis would repay the favor owed to me."
+ FOD_alliance.2.desc.no_hook:0 "\nIn exchange, I would owe [great_lord.GetHerHim] a favor."
+ FOD_alliance.2.a:0 "This arrangement will benefit us both."
+ FOD_alliance.2.b:0 "Perfect."
+ FOD_alliance.2.c:0 "I am not interested"
  
  ###Scheme Events###
  promotion_outcome.0001.t:0 "Words Bear Fruit"
