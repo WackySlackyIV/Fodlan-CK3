@@ -255,6 +255,7 @@ is_promoted = {
 		has_character_modifier = promoted_candidate_1
 		has_character_modifier = promoted_candidate_2
 		has_character_modifier = promoted_candidate_3
+		has_character_modifier = refused_election_modifier
 	}
 }
 

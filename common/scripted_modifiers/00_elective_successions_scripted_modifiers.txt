@@ -3415,6 +3415,14 @@ elector_voting_pattern_alliance_elective_modifier = {
 				}
 				subtract = 60
 			}
+			if = {
+				limit = {
+					scope:candidate = { 
+						has_character_modifier = refused_election_modifier
+					}
+				}
+				subtract = 999
+			}
 		}
 	}
 }

@@ -1,7 +1,7 @@
 start_promotion_interaction = {
 	common_interaction = yes
 	interface_priority = 90
-	category = interaction_category_friendly
+	category = interaction_category_alliance
 
 	ignores_pending_interaction_block = yes
 
@@ -11,7 +11,9 @@ start_promotion_interaction = {
 
 	is_shown = {
 		scope:actor = {
+			NOT = { has_character_modifier = refused_election_modifier }
 			any_election_title = { exists = this }
+			any_liege_or_above = { exists = this }
 		}
 	}
 
@@ -75,7 +77,7 @@ start_promotion_interaction = {
 start_defamation_interaction = {
 	common_interaction = yes
 	interface_priority = 90
-	category = interaction_category_friendly #hi friend, just gonna slander you real quick
+	category = interaction_category_alliance
 
 	ignores_pending_interaction_block = yes
 
@@ -84,8 +86,10 @@ start_defamation_interaction = {
 	send_name = START_SCHEME
 
 	is_shown = {
+		NOT = { scope:actor = scope:recipient }
 		scope:actor = {
 			any_election_title = { exists = this }
+			NOT = { has_character_modifier = refused_election_modifier }
 		}
 	}
 
@@ -143,4 +147,90 @@ start_defamation_interaction = {
 	
 	auto_accept = yes
 
+}
+
+refuse_election_interaction = { ###used for player characters in way of defaming themselves
+	common_interaction = yes
+	interface_priority = 90
+	category = interaction_category_alliance
+
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		scope:actor = scope:recipient
+		scope:actor = { 
+			is_adult = yes
+			any_liege_or_above =  { exists = this }
+			any_election_title = { 
+				exists = this 
+			}
+			NOT = {
+				has_character_modifier = refused_election_modifier
+			}
+		}
+	}
+	
+	is_valid = {
+		scope:actor = scope:recipient
+		scope:actor = { 
+			is_adult = yes
+			any_liege_or_above =  { exists = this }
+			any_election_title = { 
+				exists = this 
+			}
+			NOT = {
+				has_character_modifier = refused_election_modifier
+			}
+		}
+	}
+	
+	desc = refuse_election_desc
+	
+	on_accept = {
+		scope:recipient = {
+			trigger_event = { id = promotion_outcome.0040 }
+		}
+	}
+	
+	auto_accept = yes
+}
+
+unrefuse_election_interaction = { ###there are takesies backsies in this world
+	common_interaction = yes
+	interface_priority = 90
+	category = interaction_category_alliance
+
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		scope:actor = scope:recipient
+		scope:actor = { 
+			any_liege_or_above =  { exists = this }
+			any_election_title = { 
+				exists = this 
+			}
+			has_character_modifier = refused_election_modifier
+		}
+	}
+	
+	is_valid = {
+		scope:actor = scope:recipient
+		scope:actor = { 
+			any_liege_or_above =  { exists = this }
+			any_election_title = { 
+				exists = this 
+			}
+			has_character_modifier = refused_election_modifier
+		}
+	}
+	
+	desc = unrefuse_election_desc
+	
+	on_accept = {
+		scope:recipient = {
+			trigger_event = { id = promotion_outcome.0041 }
+		}
+	}
+	
+	auto_accept = yes
 }

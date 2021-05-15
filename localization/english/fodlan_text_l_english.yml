@@ -15,3 +15,5 @@
  defamed_candidate_1:0 "Poor Election Standing"
  defamed_candidate_2:0 "Bad Election Standing"
  defamed_candidate_3:0 "Terrible Election Standing"
+ refused_election_modifier:0 "Retired from Election"
+ refused_election_modifier_desc:0 "This character has stepped down from the election and made their intentions known to the other electors."

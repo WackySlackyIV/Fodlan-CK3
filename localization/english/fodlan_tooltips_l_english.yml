@@ -12,11 +12,11 @@
  interaction_category_alliance:0 "Alliance Interactions"
  refuse_election_interaction:0 "Retire from Election"
  refuse_election_desc:0 "Resign as a candidate for election, ensuring you will not be elected."
- refuse_election_interaction:0 "Unretire from Election"
- refuse_election_desc:0 "Resume your candidacy as an election candidate, allowing you to be elected once more."
+ unrefuse_election_interaction:0 "Unretire from Election"
+ unrefuse_election_desc:0 "Resume your candidacy as an election candidate, allowing you to be elected once more."
  
  #Scheme tooltips
- promotion_valid_desc:0 "The target must not be at the highest possible level of promotion/defamation, nor disinherited, nor a child. You must be any of the following: the character's liege, the character's close family, or vassal dukes within the same realm. If the target is not your close family, they must be at least a Duke."
+ promotion_valid_desc:0 "The target must be a valid candidate for election."
  start_promotion_interaction:0 "Promote in Election"
  start_promotion_interaction_notification:0 "Promote Candidate"
  start_defamation_interaction_notification:0 "Defame Candidate"

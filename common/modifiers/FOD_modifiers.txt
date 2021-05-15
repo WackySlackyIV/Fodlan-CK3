@@ -32,3 +32,7 @@ defamed_candidate_3 = {
 	icon = intrigue_negative
 	alliance_government_opinion = -6
 }
+
+refused_election_modifier = {
+	icon = intrigue_negative
+}

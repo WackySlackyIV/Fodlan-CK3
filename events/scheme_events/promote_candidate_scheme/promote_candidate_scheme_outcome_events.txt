@@ -252,3 +252,49 @@ promotion_outcome.0020 = {
 	}
 }
 
+promotion_outcome.0040 = {
+	type = character_event
+	title = promotion_outcome.0040.t
+	desc = promotion_outcome.0040.desc
+
+	theme = befriend_scheme
+	left_portrait = { 
+		character = scope:recipient
+		animation = boredom
+	}
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0040.a
+		scope:recipient = {
+			add_character_modifier = refused_election_modifier 
+		}
+	}
+}
+
+promotion_outcome.0041 = {
+	type = character_event
+	title = promotion_outcome.0041.t
+	desc = promotion_outcome.0041.desc
+
+	theme = befriend_scheme
+	left_portrait = { 
+		character = scope:recipient
+		animation = happiness
+	}
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0041.a
+		scope:recipient = {
+			remove_character_modifier = refused_election_modifier 
+		}	
+	}
+}
+

@@ -27,8 +27,9 @@ promote_candidate = { #scheme to increase your target's chance in an election
 		custom_description = {
 		text = promotion_valid_desc
 			scope:target = {
-				NOT = { has_character_modifier = promoted_candidate_3 }
+				NOT = { scope:owner.top_liege = scope:target }
 				is_adult = yes
+				NOT = { has_character_modifier = promoted_candidate_3 }
 				NOT = { has_trait = disinherited }
 				OR = {
 					scope:owner = scope:target 
@@ -38,7 +39,7 @@ promote_candidate = { #scheme to increase your target's chance in an election
 					}	
 					AND = {
 						is_close_or_extended_family_of = scope:owner
-						scope:owner = highest_held_title_tier >= 3
+						scope:owner = { highest_held_title_tier >= 4 }
 					}
 					AND = {
 						scope:owner.top_liege = scope:target.top_liege
