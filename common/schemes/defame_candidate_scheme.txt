@@ -32,7 +32,10 @@ defame_candidate = { #scheme to decrease your target's chance in an election, mo
 						is_vassal_of = scope:owner
 						highest_held_title_tier >= 3
 					}	
-					is_close_or_extended_family_of = scope:owner
+					AND = {
+						is_close_or_extended_family_of = scope:owner
+						scope:owner = highest_held_title_tier >= 3
+					}
 					AND = {
 						scope:owner.top_liege = scope:target.top_liege
 						highest_held_title_tier >= 3
@@ -131,7 +134,7 @@ defame_candidate = { #scheme to decrease your target's chance in an election, mo
 	
 	on_invalidated = {
 		scheme_owner = {
-			trigger_event = { id =  }
+			trigger_event = { id = promotion_outcome.0020 }
 		}
 	}
 	

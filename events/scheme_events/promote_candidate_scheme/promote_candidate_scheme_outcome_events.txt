@@ -232,3 +232,23 @@ promotion_outcome.0014 = {
 	}
 }
 
+promotion_outcome.0020 = {
+	type = character_event
+	title = promotion_outcome.0020.t
+	desc = promotion_outcome.0020.desc
+
+	theme = befriend_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	option = {
+		name = promotion_outcome.0020.a
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+}
+

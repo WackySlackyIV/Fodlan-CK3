@@ -36,7 +36,10 @@ promote_candidate = { #scheme to increase your target's chance in an election
 						is_vassal_of = scope:owner
 						highest_held_title_tier >= 3
 					}	
-					is_close_or_extended_family_of = scope:owner
+					AND = {
+						is_close_or_extended_family_of = scope:owner
+						scope:owner = highest_held_title_tier >= 3
+					}
 					AND = {
 						scope:owner.top_liege = scope:target.top_liege
 						highest_held_title_tier >= 3
@@ -89,32 +92,32 @@ promote_candidate = { #scheme to increase your target's chance in an election
 		}
 		####for target####
 		modifier = {
-			add = 5
+			add = -5
 			scope:target = { has_trait = intellect_bad_1 }
 			desc = FABRICATE_HOOK_TARGET_INTELLECT_BAD_1
 		}
 		modifier = {
-			add = 10
+			add = -10
 			scope:target = { has_trait = intellect_bad_2 }
 			desc = FABRICATE_HOOK_TARGET_INTELLECT_BAD_2
 		}
 		modifier = {
-			add = 15
+			add = -15
 			scope:target = { has_trait = intellect_bad_3 }
 			desc = FABRICATE_HOOK_TARGET_INTELLECT_BAD_3
 		}
 		modifier = {
-			add = -5
+			add = 5
 			scope:target = { has_trait = intellect_good_1 }
 			desc = FABRICATE_HOOK_TARGET_INTELLECT_GOOD_1
 		}
 		modifier = {
-			add = -10
+			add = 10
 			scope:target = { has_trait = intellect_good_2 }
 			desc = FABRICATE_HOOK_TARGET_INTELLECT_GOOD_2
 		}
 		modifier = {
-			add = -15
+			add = 15
 			scope:target = { has_trait = intellect_good_3 }
 			desc = FABRICATE_HOOK_TARGET_INTELLECT_GOOD_3
 		}
@@ -135,7 +138,7 @@ promote_candidate = { #scheme to increase your target's chance in an election
 	
 	on_invalidated = {
 		scheme_owner = {
-			trigger_event = { id =  }
+			trigger_event = { id = promotion_outcome.0020 }
 		}
 	}
 	

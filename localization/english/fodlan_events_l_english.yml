@@ -50,3 +50,6 @@
  promotion_outcome.0014.a:0 "True winners do not ever quit. Once more, from the beginning!"
  promotion_outcome.0014.a.tt:0 "Begin the scheme again."
  promotion_outcome.0014.b:0 "One must know when to cut their losses."
+ promotion_outcome.0020.t:0 "Opportunity Slips Away"
+ promotion_outcome.0020.desc:0 "Despite my best efforts to make sure the election occured how I wished it to, it appears [target.GetName] is out of my reach to influence. It was some wasted effort, but perhaps the desired result was reached in the end..."
+ promotion_outcome.0020.a:0 "A waste of time."
