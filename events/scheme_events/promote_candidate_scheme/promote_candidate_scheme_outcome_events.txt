@@ -84,9 +84,7 @@ promotion_outcome.0003 = {
 		
 		
 		scope:scheme = { end_scheme = yes }
-		scope:target = {
-			gain_alliance_fame_effect = yes
-		}
+		gain_alliance_fame_effect = scope:target
 	}
 }	
 
@@ -203,9 +201,7 @@ promotion_outcome.0013 = {
 		
 		
 		scope:scheme = { end_scheme = yes }
-		scope:target = {
-			lose_alliance_fame_effect = yes
-		}
+		lose_alliance_fame_effect = scope:target
 	}
 }
 

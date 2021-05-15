@@ -3,46 +3,36 @@ gain_alliance_fame_effect = {
 		limit = {
 			has_character_modifier = promoted_candidate_2
 		}
-		scope:target = {
 			add_character_modifier = { modifier = promoted_candidate_3 years = 30 }
 			remove_character_modifier = promoted_candidate_2
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = promoted_candidate_1
 		}
-		scope:target = {
 			add_character_modifier = { modifier = promoted_candidate_2 years = 30 }
 			remove_character_modifier = promoted_candidate_1
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = defamed_candidate_1
 		}
-		scope:target = {
 			remove_character_modifier = defamed_candidate_1
 			add_character_flag = { flag = no_promotion days = 5 }
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = defamed_candidate_2
 		}
-		scope:target = {
 			add_character_modifier = { modifier = promoted_candidate_1 years = 30 }
 			remove_character_modifier = defamed_candidate_2
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = defamed_candidate_3
 		}
-		scope:target = {
 			add_character_modifier = { modifier = defamed_candidate_2 years = 30 }
 			remove_character_modifier = defamed_candidate_3
-		}
 	}
 	if = { 
 		limit = {
@@ -54,9 +44,7 @@ gain_alliance_fame_effect = {
 			NOT = { has_character_modifier = defamed_candidate_3 }
 			NOT = { has_character_flag = no_promotion }
 		}
-		scope:target = {
 			add_character_modifier = { modifier = promoted_candidate_1 years = 30 }
-		}
 	}
 }
 
@@ -65,46 +53,36 @@ lose_alliance_fame_effect = {
 		limit = {
 			has_character_modifier = promoted_candidate_1
 		}
-		scope:target = {
 			remove_character_modifier = promoted_candidate_1
 			add_character_flag = { flag = no_promotion days = 5 }
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = promoted_candidate_2
 		}
-		scope:target = {
 			add_character_modifier = { modifier = promoted_candidate_1 years = 30 }
 			remove_character_modifier = promoted_candidate_2
-		}
 	}	
 	if = {
 		limit = {
 			has_character_modifier = promoted_candidate_3
 		}
-		scope:target = {
 			add_character_modifier = { modifier = promoted_candidate_2 years = 30 }
 			remove_character_modifier = promoted_candidate_3
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = defamed_candidate_2
 		}
-		scope:target = {
 			add_character_modifier = { modifier = defamed_candidate_3 years = 30 }
 			remove_character_modifier = defamed_candidate_2
-		}
 	}
 	if = {
 		limit = {
 			has_character_modifier = defamed_candidate_1
 		}
-		scope:target = {
 			add_character_modifier = { modifier = defamed_candidate_2 years = 30 }
 			remove_character_modifier = defamed_candidate_1
-		}
 	}
 	if = { 
 		limit = {
@@ -116,8 +94,6 @@ lose_alliance_fame_effect = {
 			NOT = { has_character_modifier = defamed_candidate_3 }
 			NOT = { has_character_flag = no_promotion }
 		}
-		scope:target = {
 			add_character_modifier = { modifier = defamed_candidate_1 years = 30 }
-		}
 	}
 }
