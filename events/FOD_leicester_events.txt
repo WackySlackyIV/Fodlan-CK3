@@ -167,6 +167,7 @@ FOD_alliance.2 = { #Hooks for fame event
 		has_government = alliance_government
 		is_available_adult = yes
 		title:k_leicester = {
+			exists = yes
 			any_elector = {
 				NOR = {
 					has_hook = root
@@ -176,7 +177,7 @@ FOD_alliance.2 = { #Hooks for fame event
 						modifier = disappointed_opinion
 					}
 				}
-				is_available_adult = yes
+				is_available_ai_adult = yes
 			}
 		}
 	}
@@ -193,7 +194,7 @@ FOD_alliance.2 = { #Hooks for fame event
 							modifier = disappointed_opinion
 						}
 					}
-					is_available_adult = yes
+					is_available_ai_adult = yes
 				}
 				save_scope_as = great_lord
 			}
