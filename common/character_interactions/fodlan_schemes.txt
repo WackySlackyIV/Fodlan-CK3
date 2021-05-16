@@ -13,7 +13,6 @@ start_promotion_interaction = {
 		scope:actor = {
 			NOT = { has_character_modifier = refused_election_modifier }
 			any_election_title = { exists = this }
-			any_liege_or_above = { exists = this }
 		}
 	}
 
