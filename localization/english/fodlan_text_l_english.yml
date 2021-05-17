@@ -7,6 +7,20 @@
  alliance_government_desc:0 "in this form of government, lords are largely independant and work together in an alliance. Feeling mostly free, disputes between eachother are far more common."
  alliance_government_opinion:0 "Alliance Feudalism Opinion"
  
+ #vassal contracts
+ levy_sanction:0 "Levy Sanction"
+ levy_sanction_granted_short:0 "Sanctioned"
+ levy_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will give half its levies in protection of the Alliance."
+ monetary_sanction:0 "Monetary Sanction"
+ monetary_sanction_granted_short:0 "Sanctioned"
+ monetary_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will give a quarter more taxes for the maintainance of the Alliance."
+ mason_sanction:0 "Mason Sanction"
+ mason_sanction_granted_short:0 "Sanctioned"
+ mason_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will lend out its masons, engineers and construction workers for the development of the Alliance."
+ 
+ #triggered_loc
+ NOT_ALLIANCE_BETRAYED_OR_HOOK:0 "Can only be selected if you either have a hook or the target has revolted or did other things to betray the alliance."
+ 
  #modifiers
  slither_protection:0 "Slither Protection"
  promoted_candidate_1:0 "Good Election Standing"

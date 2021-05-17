@@ -1,4 +1,6 @@
 ﻿l_english:
+
+#majors 
  building_officers_academy_01:0 "The Officer's Academy"
  building_type_officers_academy_01:0 "Educational Institution"
  building_officers_academy_01_desc:0 "Garreg Mach is host to the Officer's Academy, the most prestigious educational institution in Fodlan. Here, scions of noble houses and those with promising prospects are educated to shoulder the new age. It is much younger than the Monastery it resides within, and students are divided into three houses corresponding to their region of origin; Leicester, Faerghus, and Adrestia."
@@ -14,6 +16,8 @@
  building_derdriu_harbor_01:0 "Derdriu, the Aquatic City"
  building_type_derdriu_harbor_01:0 "City"
  building_derdriu_harbor_01_desc:0 "Derdriu is the capital of the Leicester Alliance, and is home to the Leicester Alliance Roundtable. The city itself is a beautiful place run through by canals, and its harbors see the coming and going of ships as often as the waves beat on the shores."
+ 
+ #forts
  building_fodlans_locket_01:0 "Fodlan's Locket"
  building_type_fodlans_locket_01:0 "Fortress"
  building_fodlans_locket_01_desc:0 "Dividing Fodlan from Almyra sits Fodlan's Throat. Fodlan's Locket is the great fortress built at the heart of these mountains. It was built to stand strong against Almyran invaders, something it has done without fail for many years."
@@ -26,6 +30,14 @@
  building_merceus_01:0 "Fort Merceus"
  building_type_merceus_01:0 "Fortress"
  building_merceus_01_desc:0 "Known popularly as the Stubborn Old General, Fort Merceus serves as the seat of House Bergliez. More importantly, the fort is the primary approach to the Imperial Capital of Enbarr. It has a longstanding reputation of being impregnable."
+ building_type_beverly_01:0 "Fort Beverly"
+ building_type_beverly_01_desc:0 "Fort Bevery, also known as Beverly Hill, Stands at the border with Faerghus. The fort is also a known trade center after the destruction of ailell, since now its the major connection point with Faerghus for all caravans."
+ building_type_ailell_01:0 "Fort Ailell"
+ building_type_ailell_01_desc:0 "Fort Ailell, also known as Heavens Wrath, Stands at the border with Faerghus. Its brutal terrain makes it an exelent defensive position. Sieges can take long times and moving across the terrain is disatorous. However because of the harsh climate, the fort never had a large garrison."
+ building_type_cordelia_01:0 "Fort Cordelia"
+ building_type_cordelia_01_desc:0 "Fort Cordelia, also known as The Weeping Lover, Stands at the river crossing with Adrestia. Being Tasked with checking the river for intruders and keep a watchfull eye on the border, The fortress has many duties of which they need more men to maintain their watch."
+ 
+ #specials
  building_hevring_mines_01:0 "Mines of Hevring"
  building_type_hevring_mines_01:0 "Mines"
  building_hevring_mines_01_desc:0 "Located along the Oghma Mountains, the territory of Hevring prospers because of their mining industry. The tunnels reach deep into the mountains, extracting ore from the rock day by day."

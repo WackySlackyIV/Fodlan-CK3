@@ -356,7 +356,7 @@ merceus_01 = {
 
 #unknown new forts
 
-	#Cordelia (Silent Lover)
+	#Cordelia (Weeping Lover)
 cordelia_01 = {
 	construction_time = very_slow_construction_time
 
@@ -386,8 +386,38 @@ cordelia_01 = {
 	type = special
 }	
 	
-	#Beverly Hill
+	#Beverly (beverly hill)
 beverly_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	garrison = 1000
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.5
+	}
+	county_modifier = {
+		levy_size = 0.1
+		defender_advantage = 1
+		hostile_raid_time = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+	#Ailell (Heavens Wrath)
+ailell_01 = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_theodosian_walls.dds"

@@ -10,7 +10,11 @@
 
 	vassal_contract = {
 		feudal_government_taxes
+		succession_rights
 		levy_sanction
+		monetary_sanction
+		mason_sanction
+		war_decleration_sanction
 	}
 	
 	color = rgb{ 189 196 84 }

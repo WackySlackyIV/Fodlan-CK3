@@ -238,7 +238,8 @@ hellscape = {
 	
 	province_modifier = {
 		supply_limit_mult = -0.5
-		development_growth_factor = -0.5
+		development_growth_factor = -0.75
+		development_growth = -1
 		levy_size = -0.5
 	}
 	

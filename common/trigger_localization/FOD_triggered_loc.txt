@@ -1,0 +1,3 @@
+﻿betrayed_alliance_or_hook = {
+	global = ALLIANCE_BETRAYED_OR_HOOK
+}

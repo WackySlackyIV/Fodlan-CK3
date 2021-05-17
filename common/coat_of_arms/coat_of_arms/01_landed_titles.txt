@@ -947,3 +947,16 @@ c_yarmouth = {
 		instance = { position = { 0.5. 0.5 } scale = { 1.0 1.0 } }
 	}
 }
+
+c_minster = {
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "grey"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_wolf_head.dds"
+		color1 = "white"
+		color2 = "red_light"
+		color3 = "grey"
+		instance = { position { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+}

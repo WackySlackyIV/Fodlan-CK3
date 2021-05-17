@@ -266,3 +266,44 @@ has_changed_alliance_contract_obligation_trigger = {
 		local_var:levy_punishment != scope:obligation_check.vassal_contract_obligation_level:levy_sanction
 	}
 }
+
+betrayed_alliance_or_hook = {
+	scope:liege = {
+		OR = {
+			has_hook = scope:vassal
+
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = rebellious_vassal_opinion
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = plotting_against_liege_opinion
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = attempted_murder_me_crime
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = executed_close_family
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = tortured_me
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = blinded_me
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = castrated_me
+			}
+			has_opinion_modifier = {
+				target = scope:vassal
+				modifier = treachery_opinion
+			}
+		}
+	}
+}

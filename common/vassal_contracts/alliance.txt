@@ -13,51 +13,100 @@ levy_sanction = {
 		}
 		levy_sanction_granted = {
 			is_valid = {
-				scope:liege = {
-					OR = {
-						has_hook = scope:vassal
-
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = rebellious_vassal_opinion
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = plotting_against_liege_opinion
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = attempted_murder_me_crime
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = executed_close_family
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = tortured_me
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = blinded_me
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = castrated_me
-						}
-						has_opinion_modifier = {
-							target = scope:vassal
-							modifier = treachery_opinion
-						}
-					}
-				}
+				betrayed_alliance_or_hook = yes
 			}
 			parent = levy_sanction_none
 			position = { 1 0 }
 			
-			vassal_opinion = -10
+			vassal_opinion = -25
 			levies = 0.5
 			
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_vassal_desire = 0
+		}
+	}
+}
+
+monetary_sanction = {
+	display_mode = checkbox
+	obligation_levels = {
+		monetary_sanction_none = {
+			default = yes
+			position = { 0 0 }
+			
+			ai_liege_desire = 0
+			ai_vassal_desire = @ai_standard_vassal_desire
+		}
+		monetary_sanction_granted = {
+			is_valid = {
+				betrayed_alliance_or_hook = yes
+			}
+			parent = monetary_sanction_none
+			position = { 1 0 }
+			
+			vassal_opinion = -25
+			tax = 0.25
+			
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_vassal_desire = 0
+		}
+	}
+}
+
+mason_sanction = {
+	display_mode = checkbox
+	obligation_levels = {
+		mason_sanction_none = {
+			default = yes
+			position = { 0 0 }
+			
+			ai_liege_desire = 0
+			ai_vassal_desire = @ai_standard_vassal_desire
+		}
+		mason_sanction_granted = {
+			is_valid = {
+				betrayed_alliance_or_hook = yes
+			}
+			parent = mason_sanction_none
+			position = { 1 0 }
+
+			vassal_opinion = -25
+			
+			liege_modifier = {
+				development_growth_factor = 0.05
+			}
+			
+			vassal_modifier = {
+				development_growth_factor = -0.25
+			}
+
+			ai_liege_desire = @ai_standard_liege_desire
+			ai_vassal_desire = 0
+		}
+	}
+}
+
+war_declaration_sanction = {
+	display_mode = checkbox
+	obligation_levels = {
+		war_declaration_sanction_none = {
+			default = yes
+			position = { 0 0 }
+			
+			ai_liege_desire = 0
+			ai_vassal_desire = @ai_standard_vassal_desire
+		}
+		war_declaration_sanction_granted = {
+			is_valid = {
+				betrayed_alliance_or_hook = yes
+			}
+			parent = war_declaration_sanction_none
+			position = { 1 0 }
+
+			vassal_opinion = -25
+			
+			flag = vassal_contract_decleration_sanction
+
 			ai_liege_desire = @ai_standard_liege_desire
 			ai_vassal_desire = 0
 		}

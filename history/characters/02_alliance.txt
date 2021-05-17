@@ -52,14 +52,18 @@
 	culture="leicester"
 
 	trait = education_intrigue_1
+
 	trait = shrewd
 	trait = lustful
 	trait = greedy
-	trait = ambitious
+
 	trait = diligent
 	trait = kinslayer_1
 	trait = stubborn
 	trait = cynical
+
+	trait = crest_blood_lamine
+
 	disallow_random_traits = yes
 
 	1109.7.13 = {
@@ -71,7 +75,7 @@
 	}
 
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -145,13 +149,13 @@
 	religion="seirosite"
 	culture="ailish"
 	father = 200040
+
 	trait = temperate
 	trait = humble
-	trait = lazy
-	trait= content
 	trait= craven
-	trait= trusting
-	trait= zealous
+
+	trait = crest_blood_charon
+
 	disallow_random_traits = yes
 
 	1159.10.23 = {
@@ -305,6 +309,7 @@
 	culture="leicester"
 	female=yes
 	father=200057
+
 	trait = education_martial_2
 	trait = rough_terrain_expert
 	trait = strong
@@ -314,6 +319,9 @@
 	trait = gregarious
 	trait = scarred
 	trait = one_legged
+
+	trait = crest_blood_goneril
+
 	disallow_random_traits = yes
 
 
@@ -1021,17 +1029,19 @@
 	trait = ambitious
 	trait = honest
 	trait = brave
+
+	trait = crest_major_lamine
+
 	disallow_random_traits = yes
 
 	1130.11.24= {
-		birth="1130.11.24"
+
+		birth = yes
+
 		}
 	1152.4.14={
-		#death={
-		#	death_reason=death_execution
-		#	killer=200001
-		#}
 
+		death = yes
 	}
 }
 
@@ -1048,7 +1058,9 @@
 	trait = intellect_good_1
 	trait = honest
 	trait = greedy
-	#add_claim=d_clarence
+
+	trait = crest_blood_lamine
+
 	disallow_random_traits = yes
 
 	1133.8.19= {
@@ -1079,16 +1091,15 @@
 	trait = dull
 	trait = deceitful
 	trait = paranoid
+	trait = ambitious
+
 	disallow_random_traits = yes
 
 	1135.4.11= {
-		birth="1135.4.11"
-		#effect = {
-		#	add_weak_claim = d_clarence
-		#}
+		birth=yes
 	}
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1103,19 +1114,13 @@
 	trait = theologian
 	trait = zealous
 	trait = shy
+
+	trait = crest_minor_lamine
+
 	disallow_random_traits = yes
 
 	1138.1.12= {
 		birth="1138.1.12"
-		effect = {
-			add_weak_claim = d_clarence
-		}
-	}
-
-	1181.1.1 = {
-		effect = {
-			set_character_flag = spell_faith_nosferatu
-		}
 	}
 
 	1200.1.1={
@@ -1132,18 +1137,21 @@
 	mother = 200031
 	female=yes
 	trait = just
+	trait = lazy
+	trait = arrogant
+
 	trait = improvident
+
+	trait = crest_blood_lamine
+
 	disallow_random_traits = yes
 
 	1139.12.24= {
-		birth="1139.12.24"
-		#effect = {
-		#	add_weak_claim = d_clarence
-		#}
+		birth=yes
 	}
 
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1160,17 +1168,16 @@
 	trait = arrogant
 
 	trait = education_stewardship_3
+
+	trait = crest_minor_lamine
 	disallow_random_traits = yes
 
 	1141.02.8= {
-		birth="1141.02.8"
-		effect = {
-			add_weak_claim = d_clarence
-		}
+		birth=yes
 	}
 
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1185,14 +1192,11 @@
 	disallow_random_traits = yes
 
 	1142.05.14= {
-		birth="1142.05.14"
-		#effect = {
-		#	add_weak_claim = d_clarence
-		#}
+		birth=yes
 	}
 
 	1200.1.1={
-		death="1200.1.1"
+		death=yes
 	}
 }
 
@@ -1203,8 +1207,13 @@
 	culture="leicester"
 	father = 200001
 	mother = 200031
+
 	trait = education_intrigue_1
-	trait = lustful #Really?
+
+	trait = lustful 
+	trait = greedy
+	trait = cynical
+
 	disallow_random_traits = yes
 
 
@@ -1215,9 +1224,6 @@
 
 	1171.8.1={
 		add_matrilineal_spouse=200010
-		#effect = {
-		#	add_weak_claim = d_clarence
-		#}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -1229,9 +1235,15 @@
 	dynasty=110
 	religion="seirosite"
 	culture="leicester"
+
+	trait = craven
 	trait = just
-	trait = weak
 	trait = shy
+
+	trait = weak
+
+	trait = crest_blood_charon
+
 	disallow_random_traits = yes
 
 
@@ -1253,6 +1265,8 @@
 	religion="seirosite"
 	culture="leicester"
 	disallow_random_traits = yes
+
+	trait = crest_minor_charon
 
 
 	1169.03.25= {
@@ -1293,6 +1307,8 @@
 	culture="leicester"
 	trait = curious
 	disallow_random_traits = yes
+
+	trait = crest_major_goneril
 
 
 	1177.08.14= {
@@ -1339,6 +1355,7 @@
 	mother=200033
 	trait = weak
 
+	trait = crest_major_lamine
 
 	disallow_random_traits = yes
 
@@ -1380,6 +1397,8 @@
 	dynasty=117
 	religion="seirosite"
 	culture="leicester"
+
+	trait = crest_minor_gautier
 
 
 	1143.6.13= {
@@ -1519,6 +1538,8 @@
 	trait = compassionate
 	trait = just
 
+	trait = crest_minor_chevalier
+
 
 	1135.09.5= {
 		birth=yes
@@ -1595,6 +1616,9 @@
 	religion="seirosite"
 	culture="leicester"
 	father = 200058
+
+	trait = crest_blood_goneril
+
 	1119.02.12 = {
 		birth=yes
 	}
@@ -1611,6 +1635,8 @@
 	religion="seirosite"
 	culture="leicester"
 
+	trait = crest_minor_goneril
+
 	1086.9.21 = {
 		birth=yes
 	}
@@ -1626,6 +1652,8 @@
 	religion="seirosite"
 	culture="leicester"
 	father = 200062
+
+	trait = crest_blood_goneril
 
 	1068.2.1 = {
 		birth=yes
@@ -1786,6 +1814,8 @@
 	culture="leicester"
 	dynasty=127
 
+	trait = crest_major_cichol
+
 	1143.1.24 = {
 		birth=yes
 	}
@@ -1832,6 +1862,8 @@
 	culture="leicester"
 	dynasty=130
 	female = yes
+
+	trait = crest_minor_riegan
 
 	1139.12.19 = {
 		birth=yes

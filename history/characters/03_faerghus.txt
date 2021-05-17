@@ -1860,6 +1860,8 @@
 	trait = bossy
 	trait = pensive
 
+	trait = crest_major_lamine
+
 	
 	1165.12.1 = {
 		birth=yes

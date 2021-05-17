@@ -8420,7 +8420,7 @@
               holding = castle_holding
 
 		1101.1.1 = {
-			special_building_slot = beverly_hill_01
+			special_building_slot = beverly_01
 		}
 }
 
@@ -8637,6 +8637,10 @@
               culture = ailish
               religion = seirosite
               holding = castle_holding
+
+		1101.1.1 = {
+			special_building_slot = ailell_01
+		}
 }
 
 89 = {        # (b_redvalley)
