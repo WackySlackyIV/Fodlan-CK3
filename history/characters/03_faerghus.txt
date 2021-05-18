@@ -2932,7 +2932,7 @@
 	trait = wrathful
 	trait = ambitious
 
-	trait = education_martial_prowess_3
+	trait = education_martial_3
 	trait = education_martial_prowess_3
 	trait = physique_good_2
 	trait = berserker
