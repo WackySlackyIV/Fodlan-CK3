@@ -18,10 +18,10 @@
 
 	#Crimes
 	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_shunned
-	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_deviancy_crime
 	doctrine = doctrine_witchcraft_accepted
 
 	doctrine = doctrine_crest_veneration
@@ -31,6 +31,11 @@
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+
+	traits = {
+		virtues = {  zealous  }
+		sins = { cynical }
+	}
 
 	reserved_male_names = {
 		Blaiddyd Byleth Charon Daphnel Dominic Cichol Seteth Indech Macc Gautier Chester Goneril Jeralt Kostas
@@ -213,9 +218,9 @@
 			holy_site = tailtean
 
 			doctrine = tenet_monasticism
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_school_of_seiros
+			doctrine = tenet_supression_of_knowledge
+			doctrine = tenet_knights_of_faith
+			doctrine = tenet_fodlan_isolationism
 
 			doctrine = special_doctrine_ecumenical_zanadic
 
@@ -286,6 +291,7 @@
 			doctrine = doctrine_pluralism_pluralistic
 
 			doctrine = special_doctrine_ecumenical_zanadic
+
 		}
 		cethleannite = {
 			color = { 46 172 59 }
@@ -366,6 +372,8 @@
 			doctrine = tenet_pentarchy
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_struggle_submission
+
+			doctrine = special_doctrine_ecumenical_ablehnist
 		}
 		high_sothic = {
 			color = { 151 80 162 }

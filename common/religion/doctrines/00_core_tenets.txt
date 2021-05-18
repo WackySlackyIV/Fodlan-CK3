@@ -1,6 +1,6 @@
 ﻿doctrine_core_tenets = {
 	group = "core_tenets"
-	number_of_picks = 3
+	number_of_picks = 4
 
 	############################
 	# Christian Faith Tenets	#
@@ -2366,5 +2366,815 @@
 	#		sins = { craven = 2}
 	#	}
 	#}
+
+	tenet_school_of_seiros = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			holy_order_hire_cost_mult = -0.2
+		}
+
+		traits = {	
+			virtues = { zealous trusting just }
+			sins = { cynical paranoid arbitrary }
+		}
+	}
+
+	tenet_school_of_macuil = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			martial_per_piety_level = 1
+		}
+
+		traits = {	
+			virtues = { patient vengeful stubborn brave }
+			sins = { impatient forgiving craven }
+		}
+	}
+
+	tenet_school_of_cichol = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			stewardship_per_piety_level = 1
+		}
+
+		traits = {	
+			virtues = { patient diligent content}
+			sins = { impatient lazy ambitious}
+		}
+	}
+
+	tenet_school_of_indech = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			learning_per_piety_level = 1
+		}
+
+		traits = {	
+			virtues = { patient forgiving humble }
+			sins = { impatient vengeful arrogant }
+		}
+	}
+
+	tenet_school_of_cethleann = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			diplomacy_per_piety_level = 1
+		}
+
+		traits = {	
+			virtues = { compassionate forgiving }
+			sins = { sadistic vengeful }
+		}
+	}
+
+	#################
+	### Ablehnist ###
+	#################
+
+	tenet_ablehnistic_ways = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			bellum_justum_effect = yes
+		}
+
+		character_modifier = {
+
+		}
+
+		traits = {	
+			virtues = { ambitious brave diligent }
+			sins = { content craven lazy }
+		}
+	}
+
+	tenet_pen_my_sword = {
+		icon = core_tenet_pacifism
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_learning_lifestyle_xp_gain_mult = 0.2
+		}
+
+		traits = {	
+			virtues = { calm }
+			sins = { wrathful }
+		}
+	}
+
+	################
+	### Pantheon ###
+	################
+
+	tenet_cultured_armies = {
+		icon = core_tenet_sword
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			same_culture_mercenary_hire_cost_mult = -0.50
+		}
+
+		traits = {	
+			virtues = {  }
+			sins = {  }
+		}
+	}
+
+	##############
+	### BRIGID ###
+	##############
+
+	tenet_lamhach_teachings = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_prestige_gain_per_happy_powerful_vassal_add = 0.025
+		}
+
+		traits = {	
+			virtues = { diligent ambitious just }
+			sins = { lazy content arbitrary }
+		}
+	}
+
+	tenet_fuale_teachings = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			embarkation_cost_mult = -0.8
+			wetlands_cancel_negative_supply = yes
+			floodplains_cancel_negative_supply = yes
+		}
+
+		traits = {	
+			virtues = { patient calm temperate }
+			sins = { impatient wrathful gluttonous }
+		}
+	}
+
+	tenet_talahm_ithir_teachings = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			build_gold_cost = -0.15
+			holding_build_gold_cost = -0.15
+		}
+
+		traits = {	
+			virtues = { patient diligent architect }
+			sins = { impatient lazy }
+		}
+	}
+
+	tenet_gaothe_teachings = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			movement_speed = 0.25
+		}
+
+		traits = {	
+			virtues = { strong diligent brave }
+			sins = { weak lazy craven }
+		}
+	}
+
+	tenet_the_great_hunt = {
+		icon = core_tenet_great_hunt
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			prowess = 1
+		}
+
+		traits = {	
+			virtues = { hunter_1 }
+			sins = { lazy }
+		}
+
+	}
+
+	###########################
+	### Reqonn de Opulencia ###
+	###########################
+
+	tenet_let_the_money_flow = {
+		icon = core_tenet_handcoin
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			domain_tax_same_faith_mult = 0.15
+			domain_tax_different_faith_mult = 0.33
+		}
+
+		traits = {	
+			virtues = { greedy }
+			sins = { generous }
+		}
+	}
+
+	tenet_legacy_of_trading_kings = {
+		icon = core_tenet_handcoin
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			divine_marriage_opinion = 10
+			divine_marriage_piety_gain_active = yes
+		}
+
+		character_modifier = {
+			monthly_stewardship_lifestyle_xp_gain_mult = 0.1
+		}
+
+		traits = {	
+			virtues = { avaricious }
+			sins = { }
+		}
+	}
+	
+	tenet_wonders_of_paradise = {
+		icon = core_tenet_handcoin
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			city_holding_build_gold_cost = -0.33
+			city_holding_holding_build_gold_cost = -0.33 
+		}
+
+		traits = {	
+			virtues = {  }
+			sins = { content }
+		}
+	}
+
+	#####################
+	### Dewa Sheta Ah ###
+	#####################
+
+	tenet_eminence_of_arcane = {
+		icon = core_tenet_bhakti
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			intrigue = 1
+		}
+
+		traits = {	
+			virtues = { }
+			sins = { }	
+		}
+	}
+
+	tenet_heavenly_spirits = {
+		icon = core_tenet_bhakti
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			intrigue = 1
+		}
+
+		traits = {	
+			virtues = { }
+			sins = { }	
+		}
+	}
+
+	tenet_consuming_the_darkness = {
+		icon = core_tenet_bhakti
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			intrigue = 1
+		}
+
+		traits = {	
+			virtues = { }
+			sins = { }	
+		}
+	}
+
+	
+
+
+	##############
+	### Almyra ###
+	##############
+
+	tenet_throne_of_fire = {
+		icon = core_tenet_skyshaman
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			maliks_claim_active = yes
+		}
+
+		character_modifier = {
+		}
+
+		traits = {	
+			virtues = { ambitious }
+			sins = { content }	
+		}
+	}
+
+	tenet_kizilisma_red = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_prestige_gain_per_knight_add = 0.15
+			raid_speed = 0.5
+		}
+
+		traits = {	
+			virtues = { brave wrathful }
+			sins = { craven calm }	
+		}
+	}
+	
+	tenet_denizavi_blue = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		}
+
+		traits = {	
+			virtues = { brave patient diligent }
+			sins = { craven impatient lazy }	
+		}
+	}
+
+	tenet_beyazisma_white = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			dynasty_opinion = 5
+			monthly_dynasty_prestige_mult = 0.1
+		}
+
+		traits = {	
+			virtues = { trusting honest }
+			sins = { paranoid deceitful }	
+		}
+	}
+
+	tenet_siyakara_black = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			levy_reinforcement_rate_same_faith = 0.35
+		}
+
+		traits = {	
+			virtues = { brave zealous }
+			sins = { craven cynical }	
+		}
+	}
+
+	tenet_dogasil_green = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			stress_loss_mult = 0.20
+			stress_gain_mult = -0.10
+			life_expectancy = 5
+		}
+
+		traits = {	
+			virtues = { calm generous }
+			sins = { wrathful greedy }	
+		}
+	}
+
+	tenet_karakaya_brown = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			monthly_lifestyle_xp_gain_mult = 0.05
+			opinion_of_different_faith = 5
+		}
+
+		traits = {	
+			virtues = { diligent gregarious scholar intellect_good_2 }
+			sins = { lazy shy }	
+		}
+	}
+
+
+
+	#########################
+	### rf_saatpra_daanav ###
+	#########################
+
+	tenet_durga_abaka = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			castle_holding_build_gold_cost = -0.05
+			castle_holding_holding_build_gold_cost = -0.05
+			domain_tax_mult = 0.075
+		}
+
+		traits = {	
+			virtues = { humble diligent temperate }
+			sins = { arrogant lazy gluttonous }	
+		}
+	}
+
+	tenet_bisalalinga = {
+		icon = core_tenet_marriage
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			divine_marriage_opinion = 10
+			divine_marriage_piety_gain_active = yes
+		}
+
+		character_modifier = {
+			fertility = 0.33
+		}
+
+		traits = {	
+			virtues = { lustful humble compassionate }
+			sins = { chaste arrogant callous }	
+		}
+	}
+
+
+	tenet_baildatyn_tsus = {
+		icon = core_tenet_marriage
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+			divine_marriage_opinion = 10
+			divine_marriage_piety_gain_active = yes
+		}
+
+		character_modifier = {
+			raid_speed = 0.33
+		}
+
+		traits = {	
+			virtues = { brave humble honest }
+			sins = { chaste arrogant deceitful }	
+		}
+	}
+
+	################
+	### Agarthan ###
+	################
+
+	tenet_polemichani = {
+ 		icon = core_tenet_cabal
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+			development_growth_factor = 0.33
+		}
+
+		traits = {	
+			virtues = {  }
+			sins = {  }	
+		}
+	}
+
+	###############
+	### Zanadic ###
+	###############
+
+	tenet_supression_of_knowledge = {
+		icon = core_tenet_bigbook
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		character_modifier = {
+			cultural_head_fascination_mult = -0.5
+			county_opinion_add = 5
+			monthly_county_control_change_factor = 0.2
+			monthly_county_control_change_add = 0.2
+		}
+
+		traits = {	
+			virtues = { content }
+		}
+	}
+
+	tenet_knights_of_faith = {
+		icon = core_tenet_sword
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		character_modifier = {
+			knight_limit = 1
+			tolerance_advantage_mod = 4
+		}
+
+		traits = {	
+			virtues = { order_member }
+		}
+	}
+
+	tenet_fodlan_isolationism = {
+		icon = core_tenet_pacifism
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = no
+		}
+
+		character_modifier = {
+			same_culture_opinion = 5
+		}
+
+		traits = {	
+			virtues = { trusting }
+			sins = { paranoid }
+		}
+	}
 }
 

@@ -13,8 +13,14 @@
  doctrine_parameter_crest_crime:0 "Characters with Crests are [criminals|E]"
 
 # TENETS #
- tenet_school_of_seiros_name:0 "Teachings of Seiros"
- tenet_school_of_seiros_desc:0 "A branch of the Church of Seiros which focuses solely on how her most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to develop their leadership skills and fight against those who would desecrate the word of the Goddess "
+ tenet_supression_of_knowledge_name:0 "Supression Of Knowledge"
+ tenet_supression_of_knowledge_desc:0 "New inventions and Technology must always be approved by the Church Of Seiros before it can be applied by law. This holds back some inventions that can be applied for war mostly. It makes the people easier to control, but nevertheless progress will always find its way."
+ 
+ tenet_knights_of_faith_name:0 "Knights Of Faith"
+ tenet_knights_of_faith_desc:0 "The teachings of Seiros places great trust in its knights, they serve the church by handeling problems all over Fódlan. This makes the Knights of Seiros very popular among the people and much of the commoners and children that once saw the bravery of these knights wants to become one in their future." 
+ 
+ tenet_fodlan_isolationism_name:0 "Fódlan Isolationism"
+ tenet_fodlan_isolationism_desc:0 "Fódlan has always been closed off from the world at large under the church of Seiros. It prevents the people from waging reckless wars outisde their own Continent."
  
  tenet_school_of_macuil_name:0 "Teachings of Macuil"
  tenet_school_of_macuil_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to think tactically on and off the battlefield and to punish those who've wronged them"

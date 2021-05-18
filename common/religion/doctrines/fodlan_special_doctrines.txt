@@ -1,5 +1,5 @@
 ﻿special_tolerance = {
-	group = "main_group"
+	group = "not_creatable"
 	
 	is_available_on_create = {
 		always = no # Goes away when creating a new Faith
