@@ -2,9 +2,7 @@
 	family = rf_anthrapos
 	graphical_faith = pagan_gfx
 
-	pagan_roots = no
-
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = thinis_hostility_doctrine
 
 	#Main Group
 	doctrine = doctrine_no_head

@@ -28,7 +28,10 @@
 		}
 
 		is_shown = {
-			has_doctrine = abrahamic_hostility_doctrine
+			OR = {
+				has_doctrine = thinis_hostility_doctrine
+				has_doctrine = zanadic_hostility_doctrine
+			}
 		}
 
 		can_pick = {
@@ -53,6 +56,10 @@
 				limit = { has_doctrine = tenet_alexandrian_catechism }
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
+		}
+
+		is_shown = {
+			religion_tag = zanadic_religion
 		}
 
 		can_pick = {
@@ -249,6 +256,15 @@
 			if = {
 				limit = { has_doctrine = tenet_consolamentum }
 				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			OR = {
+				has_doctrine = morfist_hostility_doctrine
+				has_doctrine = almyran_hostility_doctrine
+				has_doctrine = pagan_hostility_doctrine
+				}
 			}
 		}
 
@@ -632,6 +648,10 @@
 		icon = core_tenet_holytree
 
 		is_shown = {
+			OR = {
+				has_doctrine = zanadic_hostility_doctrine
+				has_doctrine = thinis_hostility_doctrine
+			}
 		}
 		can_pick = {
 			custom_description = {
@@ -829,7 +849,10 @@
 		}
 
 		is_shown = {
-			has_doctrine = abrahamic_hostility_doctrine
+			OR = {
+			has_doctrine = zanadic_hostility_doctrine
+			has_doctrine = almyran_hostility_doctrine
+			}
 		}
 
 		traits = {
@@ -874,7 +897,9 @@
 		}
 
 		is_shown = {
-			NOR = {
+			OR = {
+				religion_tag = zanadic_religion
+				religion_tag = pantheon_religion
 			}
 		}
 
@@ -953,7 +978,13 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
-
+		is_shown = {
+			OR = {
+				religion_tag = zanadic_religion
+				religion_tag = pantheon_religion
+			}
+		}
+		
 		parameters = {
 			great_holy_wars_active = yes
 			ghw_no_hof_conversion_buffs_active = yes
@@ -995,7 +1026,12 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
-
+		is_shown = {
+			OR = {
+				religion_tag = zanadic_religion
+				religion_tag = pantheon_religion
+			}
+		}
 		parameters = {
 			sanctioned_false_conversion = yes
 		}
@@ -1111,8 +1147,8 @@
 
 		is_shown = {
 			OR = {
-				# With FP1, Germanics also get personal deities.
-				has_fp1_dlc_trigger = yes
+				has_doctrine = morfist_hostility_doctrine
+				}
 			}
 		}
 
@@ -1124,7 +1160,7 @@
 	tenet_dharmic_pacifism = { #Mix of reincarnation and pacifism rites
 		icon = core_tenet_dharmawheel
 		is_shown = {
-			has_doctrine = eastern_hostility_doctrine
+			has_doctrine = morfist_hostility_doctrine
 		}
 
 		piety_cost = {
@@ -1186,7 +1222,8 @@
 		icon = core_tenet_meditation
 
 		is_shown = {
-			has_doctrine = eastern_hostility_doctrine
+			has_doctrine = thinis_hostility_doctrine
+			has_doctrine = morfist_hostility_doctrine
 		}
 
 		piety_cost = {
@@ -1306,7 +1343,11 @@
 		}
 
 		is_shown = {
-			has_doctrine = pagan_hostility_doctrine
+			OR = {
+				has_doctrine = zanadic_hostility_doctrine
+				has_doctrine = thinis_hostility_doctrine
+				has_doctrine = pagan_hostility_doctrine
+			}
 		}
 
 		parameters = {
@@ -1444,7 +1485,14 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
-
+		
+		is_shown = {
+			# No HumSac for Abrahamics: 'tis literally the religion-namer.
+			NOR = {
+				has_doctrine = zanadic_hostility_doctrine
+			}
+		}
+		
 		can_pick = {
 			custom_description = {
 				text = incompatible_tenet_pacifism_trigger
@@ -1480,7 +1528,14 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
-
+		
+		is_shown = {
+			OR = {
+			religion_tag = tjonar_ormurinn_religion
+			religion_tag = pantheon_religion
+			}
+		}
+		
 		parameters = {
 			mystic_birthright_active = yes
 		}
@@ -1544,6 +1599,8 @@
 
 		is_shown = {
 			OR = {
+				has_doctrine = kotesh_hostility_doctrine
+				religion_tag = lumentalism_religion
 			}
 		}
 
@@ -1621,7 +1678,7 @@
 		is_shown = {
 			OR = {
 				has_doctrine = pagan_hostility_doctrine
-				has_doctrine = eastern_hostility_doctrine
+				has_doctrine = kotesh_hostility_doctrine
 			}
 		}
 
@@ -1647,7 +1704,11 @@
 			}
 		}
 
-
+		is_shown = {
+			has_doctrine = almyran_hostility_doctrine
+			has_doctrine = pagan_hostility_doctrine
+		}
+		
 		parameters = {
 			summer_festivals_active = yes
 			trial_by_sun_active = yes
@@ -1682,7 +1743,13 @@
 			}
 		}
 
-
+		is_shown = {
+			NOR = {
+				has_doctrine = kotesh_hostility_doctrine
+				has_doctrine = morfist_hostility_doctrine
+			}
+		}
+		
 		can_pick = {
 			custom_description = {
 				text = incompatible_tenet_pacifism_trigger

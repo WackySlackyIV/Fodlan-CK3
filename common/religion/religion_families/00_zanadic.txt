@@ -1,6 +1,6 @@
 ﻿rf_zanadic = {
 	is_pagan = no
 	graphical_faith = "orthodox_gfx"
-	hostility_doctrine = abrahamic_hostility_doctrine
+	hostility_doctrine = zanadic_hostility_doctrine
 	doctrine_background_icon = core_tenet_banner_christian.dds
 }

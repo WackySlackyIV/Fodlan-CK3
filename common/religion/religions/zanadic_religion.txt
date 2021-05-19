@@ -4,6 +4,9 @@
 
 	pagan_roots = no
 
+	doctrine = zanadic_hostility_doctrine
+	doctrine = doctrine_crest_veneration
+	
 	#Main Group
 	doctrine = doctrine_temporal_head
 	doctrine = doctrine_gender_equal
@@ -23,8 +26,6 @@
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_crime
 	doctrine = doctrine_witchcraft_accepted
-
-	doctrine = doctrine_crest_veneration
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_taxation

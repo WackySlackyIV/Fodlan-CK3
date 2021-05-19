@@ -1,6 +1,6 @@
 ﻿rf_bilog = {
 	is_pagan = yes
 	graphical_faith = "pagan"
-	hostility_doctrine = abrahamic_hostility_doctrine
+	hostility_doctrine = pagan_hostility_doctrine
 	doctrine_background_icon = core_tenet_banner_pagan.dds
 }
