@@ -2607,7 +2607,9 @@
 	tenet_cultured_armies = {
 		icon = core_tenet_sword
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = pantheon_religion
+			}
 		}
 		can_pick = {
 			always = yes
@@ -2757,8 +2759,11 @@
 	tenet_let_the_money_flow = {
 		icon = core_tenet_handcoin
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = reqonn_de_opulencia_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -2781,8 +2786,11 @@
 	tenet_legacy_of_trading_kings = {
 		icon = core_tenet_handcoin
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = reqonn_de_opulencia_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -2806,8 +2814,11 @@
 	tenet_wonders_of_paradise = {
 		icon = core_tenet_handcoin
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = reqonn_de_opulencia_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -2910,8 +2921,11 @@
 	tenet_throne_of_fire = {
 		icon = core_tenet_skyshaman
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -2932,8 +2946,11 @@
 	tenet_kizilisma_red = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -2956,8 +2973,11 @@
 	tenet_denizavi_blue = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -2979,8 +2999,11 @@
 	tenet_beyazisma_white = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3003,8 +3026,11 @@
 	tenet_siyakara_black = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3026,8 +3052,11 @@
 	tenet_dogasil_green = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3051,8 +3080,11 @@
 	tenet_karakaya_brown = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = buykisik_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3081,8 +3113,11 @@
 	tenet_durga_abaka = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = saatpra_daanav_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3106,8 +3141,11 @@
 	tenet_bisalalinga = {
 		icon = core_tenet_marriage
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = saatpra_daanav_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3132,8 +3170,11 @@
 	tenet_baildatyn_tsus = {
 		icon = core_tenet_marriage
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = saatpra_daanav_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3161,8 +3202,11 @@
 	tenet_polemichani = {
  		icon = core_tenet_cabal
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = anthrapos_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3188,8 +3232,11 @@
 	tenet_supression_of_knowledge = {
 		icon = core_tenet_bigbook
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = zanadic_religion
+			}
 		}
+		
 		can_pick = {
 			always = yes
 		}
@@ -3209,7 +3256,9 @@
 	tenet_knights_of_faith = {
 		icon = core_tenet_sword
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = zanadic_religion
+			}
 		}
 		can_pick = {
 			always = yes
@@ -3228,7 +3277,9 @@
 	tenet_fodlan_isolationism = {
 		icon = core_tenet_pacifism
 		is_shown = {
-			always = no
+			OR = {
+				religion_tag = zanadic_religion
+			}
 		}
 		can_pick = {
 			always = no
