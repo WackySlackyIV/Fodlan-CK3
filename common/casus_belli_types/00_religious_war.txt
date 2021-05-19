@@ -48,8 +48,19 @@
 	ignore_effect = change_title_holder
 
 	valid_to_start = {
-		scope:target = {
-			tier = tier_county
+		trigger_if = {
+			limit = {
+				scope:attacker.faith = { has_doctrine = tenet_fodlan_isolationism }
+			}
+			scope:target = {
+				tier = tier_county
+				title_province = { geographical_region = world_fodlan }
+			}
+		}
+		trigger_else = {
+			scope:target = {
+				tier = tier_county
+			}
 		}
 	}
 
@@ -510,8 +521,22 @@ religious_war = {
 	ignore_effect = change_title_holder
 
 	valid_to_start = {
-		scope:target = {
-			tier = tier_duchy
+		trigger_if = {
+			limit = {
+				scope:attacker.faith = { has_doctrine = tenet_fodlan_isolationism }
+			}
+			scope:target = {
+				tier = tier_duchy
+				any_in_de_jure_hierarchy = {
+					tier = tier_county
+					title_province = { geographical_region = world_fodlan }
+				}
+			}
+		}
+		trigger_else = {
+			scope:target = {
+				tier = tier_duchy
+			}
 		}
 	}
 
