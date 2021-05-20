@@ -153,7 +153,7 @@ FOD_alliance.2 = { #Hooks for fame event
 		desc = FOD_alliance.2.desc.opening
 		first_valid = {
 			triggered_desc = {
-				limit = { has_usable_hook = scope:great_lord }
+				trigger = { has_usable_hook = scope:great_lord }
 				desc = FOD_alliance.2.desc.hook
 			}
 			desc = FOD_alliance.2.desc.no_hook
@@ -217,7 +217,7 @@ FOD_alliance.2 = { #Hooks for fame event
 				type = favor_hook
 			}
 		}
-		gain_alliance_fame_effect = root
+		gain_alliance_fame_effect = yes
 		ai_chance = {
 			base = 50
 			opinion_modifier = {
@@ -237,7 +237,7 @@ FOD_alliance.2 = { #Hooks for fame event
 			has_usable_hook = scope:great_lord
 		}
 		use_hook = scope:great_lord
-		gain_alliance_fame_effect = root
+		gain_alliance_fame_effect = yes
 		ai_chance = {
 			base = 50
 		}
@@ -255,6 +255,729 @@ FOD_alliance.2 = { #Hooks for fame event
 			modifier = {
 				factor = 0
 				has_usable_hook = scope:great_lord
+			}
+		}
+	}
+}
+
+FOD_alliance.3 = { #Diplomacy debate
+	type = character_event
+	title = FOD_alliance.3.t
+	desc = {
+		desc = FOD_alliance.3.desc
+	}
+	theme = vassal
+	left_portrait = scope:first_lord
+	right_portrait = scope:second_lord
+	
+	trigger = {
+		NOR = {
+			has_character_modifier = good_diplomacy_debate_modifier
+			has_character_modifier = bad_diplomacy_debate_modifier
+		}
+		has_government = alliance_government
+		has_title = title:k_leicester
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				count = 2
+				is_available_ai_adult = yes
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+				}
+				save_scope_as = first_lord
+			}
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = scope:first_lord }
+				}
+				save_scope_as = second_lord
+			}
+		}
+		if = {
+			limit = { scope:second_lord.diplomacy >= scope:first_lord.diplomacy }
+			scope:first_lord = {
+				save_scope_as = better_diplomacy_lord
+			}
+		}
+		else = {
+			scope:second_lord = {
+				save_scope_as = better_diplomacy_lord
+			}
+		}
+	}
+	
+	option = { #Support first lord
+		name = FOD_alliance.debate.a
+		scope:first_lord = { gain_alliance_fame_effect = yes }
+		scope:second_lord = { lose_alliance_fame_effect = yes }
+		reverse_add_opinion = {
+			target = scope:first_lord
+			modifier = pleased_opinion
+			opinion = 10
+		}
+		reverse_add_opinion = {
+			target = scope:second_lord
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+		if = {
+			limit = { scope:first_lord.diplomacy >= scope:second_lord.diplomacy }
+			add_character_modifier = {
+				modifier = good_diplomacy_debate_modifier
+				years = 5
+			}
+		}
+		else = {
+			add_character_modifier = {
+				modifier = bad_diplomacy_debate_modifier
+				years = 5
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:first_lord
+				OPINION = no
+			}
+			progress_towards_rival_effect = {
+				CHARACTER = scope:second_lord
+				OPINION = no
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				scope:first_lord.diplomacy > scope:second_lord.diplomacy
+			}
+			modifier = {
+				factor = 0
+				opinion = {
+					target = scope:first_lord
+					value < 0
+				}
+			}
+		}
+	}
+	
+	option = { #Support second lord
+		name = FOD_alliance.debate.b
+		scope:second_lord = { gain_alliance_fame_effect = yes }
+		scope:first_lord = { lose_alliance_fame_effect = yes }
+		reverse_add_opinion = {
+			target = scope:second_lord
+			modifier = pleased_opinion
+			opinion = 10
+		}
+		reverse_add_opinion = {
+			target = scope:first_lord
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+		if = {
+			limit = { scope:second_lord.diplomacy >= scope:first_lord.diplomacy }
+			add_character_modifier = {
+				modifier = good_diplomacy_debate_modifier
+				years = 5
+			}
+		}
+		else = {
+			add_character_modifier = {
+				modifier = bad_diplomacy_debate_modifier
+				years = 5
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:second_lord
+				OPINION = no
+			}
+			progress_towards_rival_effect = {
+				CHARACTER = scope:first_lord
+				OPINION = no
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				scope:second_lord.diplomacy > scope:first_lord.diplomacy
+			}
+			modifier = {
+				factor = 0
+				opinion = {
+					target = scope:second_lord
+					value < 0
+				}
+			}
+		}
+	}
+	
+	option = { #Push own point
+		name = FOD_alliance.debate.c
+		duel = {
+			skill = diplomacy
+			target = scope:better_diplomacy_lord
+			50 = {
+				desc = FOD_alliance.debate.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3
+				}
+				send_interface_toast = {
+					title = FOD_alliance.debate.success
+					left_icon = scope:first_lord
+					right_icon = scope:second_lord
+					
+					scope:first_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_impressed_opinion
+						}
+					}
+					scope:second_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_impressed_opinion
+						}
+					}
+					add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+					gain_alliance_fame_effect = yes
+				}
+			}
+			50 = {
+				desc = FOD_alliance.debate.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1
+				}
+				send_interface_toast = {
+					title = FOD_alliance.debate.failure
+					left_icon = scope:first_lord
+					right_icon = scope:second_lord
+					
+					scope:first_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_unimpressed_opinion
+						}
+						add_opinion = {
+							target = scope:second_lord
+							modifier = friendly_interaction
+						}
+					}
+					scope:second_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_unimpressed_opinion
+						}
+						add_opinion = {
+							target = scope:first_lord
+							modifier = friendly_interaction
+						}
+					}
+					lose_alliance_fame_effect = yes
+				}
+			}
+		}
+		stress_impact = {
+			craven = medium_stress_impact_gain
+			shy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				root.diplomacy > scope:better_diplomacy_lord.diplomacy
+			}
+			ai_value_modifier = {
+				ai_boldness = 2
+			}
+		}
+	}
+}
+
+FOD_alliance.4 = { #Martial debate
+	type = character_event
+	title = FOD_alliance.4.t
+	desc = {
+		desc = FOD_alliance.4.desc
+	}
+	theme = vassal
+	left_portrait = scope:first_lord
+	right_portrait = scope:second_lord
+	
+	trigger = {
+		NOR = {
+			has_character_modifier = good_martial_debate_modifier
+			has_character_modifier = bad_martial_debate_modifier
+		}
+		has_government = alliance_government
+		has_title = title:k_leicester
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				count = 2
+				is_available_ai_adult = yes
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+				}
+				save_scope_as = first_lord
+			}
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = scope:first_lord }
+				}
+				save_scope_as = second_lord
+			}
+		}
+		if = {
+			limit = { scope:second_lord.martial >= scope:first_lord.martial }
+			scope:first_lord = {
+				save_scope_as = better_martial_lord
+			}
+		}
+		else = {
+			scope:second_lord = {
+				save_scope_as = better_martial_lord
+			}
+		}
+	}
+	
+	option = { #Support first lord
+		name = FOD_alliance.debate.a
+		scope:first_lord = { gain_alliance_fame_effect = yes }
+		scope:second_lord = { lose_alliance_fame_effect = yes }
+		reverse_add_opinion = {
+			target = scope:first_lord
+			modifier = pleased_opinion
+			opinion = 10
+		}
+		reverse_add_opinion = {
+			target = scope:second_lord
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+		if = {
+			limit = { scope:first_lord.martial >= scope:second_lord.martial }
+			add_character_modifier = {
+				modifier = good_martial_debate_modifier
+				years = 5
+			}
+		}
+		else = {
+			add_character_modifier = {
+				modifier = bad_martial_debate_modifier
+				years = 5
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:first_lord
+				OPINION = no
+			}
+			progress_towards_rival_effect = {
+				CHARACTER = scope:second_lord
+				OPINION = no
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				scope:first_lord.martial > scope:second_lord.martial
+			}
+			modifier = {
+				factor = 0
+				opinion = {
+					target = scope:first_lord
+					value < 0
+				}
+			}
+		}
+	}
+	
+	option = { #Support second lord
+		name = FOD_alliance.debate.b
+		scope:second_lord = { gain_alliance_fame_effect = yes }
+		scope:first_lord = { lose_alliance_fame_effect = yes }
+		reverse_add_opinion = {
+			target = scope:second_lord
+			modifier = pleased_opinion
+			opinion = 10
+		}
+		reverse_add_opinion = {
+			target = scope:first_lord
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+		if = {
+			limit = { scope:second_lord.martial >= scope:first_lord.martial }
+			add_character_modifier = {
+				modifier = good_martial_debate_modifier
+				years = 5
+			}
+		}
+		else = {
+			add_character_modifier = {
+				modifier = bad_martial_debate_modifier
+				years = 5
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:second_lord
+				OPINION = no
+			}
+			progress_towards_rival_effect = {
+				CHARACTER = scope:first_lord
+				OPINION = no
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				scope:second_lord.martial > scope:first_lord.martial
+			}
+			modifier = {
+				factor = 0
+				opinion = {
+					target = scope:second_lord
+					value < 0
+				}
+			}
+		}
+	}
+	
+	option = { #Push own point
+		name = FOD_alliance.debate.c
+		duel = {
+			skill = martial
+			target = scope:better_martial_lord
+			50 = {
+				desc = FOD_alliance.debate.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3
+				}
+				send_interface_toast = {
+					title = FOD_alliance.debate.success
+					left_icon = scope:first_lord
+					right_icon = scope:second_lord
+					
+					scope:first_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_impressed_opinion
+						}
+					}
+					scope:second_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_impressed_opinion
+						}
+					}
+					add_martial_lifestyle_xp = medium_lifestyle_xp
+					gain_alliance_fame_effect = yes
+				}
+			}
+			50 = {
+				desc = FOD_alliance.debate.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1
+				}
+				send_interface_toast = {
+					title = FOD_alliance.debate.failure
+					left_icon = scope:first_lord
+					right_icon = scope:second_lord
+					
+					scope:first_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_unimpressed_opinion
+						}
+						add_opinion = {
+							target = scope:second_lord
+							modifier = friendly_interaction
+						}
+					}
+					scope:second_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_unimpressed_opinion
+						}
+						add_opinion = {
+							target = scope:first_lord
+							modifier = friendly_interaction
+						}
+					}
+					lose_alliance_fame_effect = yes
+				}
+			}
+		}
+		stress_impact = {
+			craven = medium_stress_impact_gain
+			shy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				root.martial > scope:better_martial_lord.martial
+			}
+			ai_value_modifier = {
+				ai_boldness = 2
+			}
+		}
+	}
+}
+
+FOD_alliance.5 = { #stewardship debate
+	type = character_event
+	title = FOD_alliance.5.t
+	desc = {
+		desc = FOD_alliance.5.desc
+	}
+	theme = vassal
+	left_portrait = scope:first_lord
+	right_portrait = scope:second_lord
+	
+	trigger = {
+		NOR = {
+			has_character_modifier = good_stewardship_debate_modifier
+			has_character_modifier = bad_stewardship_debate_modifier
+		}
+		has_government = alliance_government
+		has_title = title:k_leicester
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				count = 2
+				is_available_ai_adult = yes
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+				}
+				save_scope_as = first_lord
+			}
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = scope:first_lord }
+				}
+				save_scope_as = second_lord
+			}
+		}
+		if = {
+			limit = { scope:second_lord.stewardship >= scope:first_lord.stewardship }
+			scope:first_lord = {
+				save_scope_as = better_stewardship_lord
+			}
+		}
+		else = {
+			scope:second_lord = {
+				save_scope_as = better_stewardship_lord
+			}
+		}
+	}
+	
+	option = { #Support first lord
+		name = FOD_alliance.debate.a
+		scope:first_lord = { gain_alliance_fame_effect = yes }
+		scope:second_lord = { lose_alliance_fame_effect = yes }
+		reverse_add_opinion = {
+			target = scope:first_lord
+			modifier = pleased_opinion
+			opinion = 10
+		}
+		reverse_add_opinion = {
+			target = scope:second_lord
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+		if = {
+			limit = { scope:first_lord.stewardship >= scope:second_lord.stewardship }
+			add_character_modifier = {
+				modifier = good_stewardship_debate_modifier
+				years = 5
+			}
+		}
+		else = {
+			add_character_modifier = {
+				modifier = bad_stewardship_debate_modifier
+				years = 5
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:first_lord
+				OPINION = no
+			}
+			progress_towards_rival_effect = {
+				CHARACTER = scope:second_lord
+				OPINION = no
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				scope:first_lord.stewardship > scope:second_lord.stewardship
+			}
+			modifier = {
+				factor = 0
+				opinion = {
+					target = scope:first_lord
+					value < 0
+				}
+			}
+		}
+	}
+	
+	option = { #Support second lord
+		name = FOD_alliance.debate.b
+		scope:second_lord = { gain_alliance_fame_effect = yes }
+		scope:first_lord = { lose_alliance_fame_effect = yes }
+		reverse_add_opinion = {
+			target = scope:second_lord
+			modifier = pleased_opinion
+			opinion = 10
+		}
+		reverse_add_opinion = {
+			target = scope:first_lord
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+		if = {
+			limit = { scope:second_lord.stewardship >= scope:first_lord.stewardship }
+			add_character_modifier = {
+				modifier = good_stewardship_debate_modifier
+				years = 5
+			}
+		}
+		else = {
+			add_character_modifier = {
+				modifier = bad_stewardship_debate_modifier
+				years = 5
+			}
+			progress_towards_friend_effect = {
+				CHARACTER = scope:second_lord
+				OPINION = no
+			}
+			progress_towards_rival_effect = {
+				CHARACTER = scope:first_lord
+				OPINION = no
+			}
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				scope:second_lord.stewardship > scope:first_lord.stewardship
+			}
+			modifier = {
+				factor = 0
+				opinion = {
+					target = scope:second_lord
+					value < 0
+				}
+			}
+		}
+	}
+	
+	option = { #Push own point
+		name = FOD_alliance.debate.c
+		duel = {
+			skill = stewardship
+			target = scope:better_stewardship_lord
+			50 = {
+				desc = FOD_alliance.debate.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3
+				}
+				send_interface_toast = {
+					title = FOD_alliance.debate.success
+					left_icon = scope:first_lord
+					right_icon = scope:second_lord
+					
+					scope:first_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_impressed_opinion
+						}
+					}
+					scope:second_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_impressed_opinion
+						}
+					}
+					add_stewardship_lifestyle_xp = medium_lifestyle_xp
+					gain_alliance_fame_effect = yes
+				}
+			}
+			50 = {
+				desc = FOD_alliance.debate.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1
+				}
+				send_interface_toast = {
+					title = FOD_alliance.debate.failure
+					left_icon = scope:first_lord
+					right_icon = scope:second_lord
+					
+					scope:first_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_unimpressed_opinion
+						}
+						add_opinion = {
+							target = scope:second_lord
+							modifier = friendly_interaction
+						}
+					}
+					scope:second_lord = {
+						add_opinion = {
+							target = root
+							modifier = debate_unimpressed_opinion
+						}
+						add_opinion = {
+							target = scope:first_lord
+							modifier = friendly_interaction
+						}
+					}
+					lose_alliance_fame_effect = yes
+				}
+			}
+		}
+		stress_impact = {
+			craven = medium_stress_impact_gain
+			shy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				root.stewardship > scope:better_stewardship_lord.stewardship
+			}
+			ai_value_modifier = {
+				ai_boldness = 2
 			}
 		}
 	}

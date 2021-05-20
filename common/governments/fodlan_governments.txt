@@ -14,7 +14,7 @@
 		levy_sanction
 		monetary_sanction
 		mason_sanction
-		war_decleration_sanction
+		war_declaration_sanction
 	}
 	
 	color = rgb{ 189 196 84 }

@@ -26,3 +26,15 @@ crest_crime_opinion = {
 	imprisonment_reason = yes
 	banish_reason = yes
 }
+
+debate_impressed_opinion = {
+	opinion = 15
+	years = 5
+	decaying = yes
+}
+
+debate_unimpressed_opinion = {
+	opinion = -15
+	years = 5
+	decaying = yes
+}
