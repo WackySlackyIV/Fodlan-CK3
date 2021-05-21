@@ -107,6 +107,7 @@ FOD_flavor_events = {
 		5 = FOD_flavor.2
 		6 = FOD_flavor.4
 		1 = FOD_flavor.6
+		5 = FOD_alliance.2
 		6 = 0
 	}
 }

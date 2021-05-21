@@ -26,7 +26,9 @@ yearly_playable_pulse = {
 # Root is the character
 three_year_playable_pulse = {
 	random_events = {
-		800 = 0
+		100 = FOD_alliance.3
+		100 = FOD_alliance.4
+		100 = FOD_alliance.5
 	}
 }
 
