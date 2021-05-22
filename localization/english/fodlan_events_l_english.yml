@@ -20,7 +20,7 @@
  FOD_alliance.2.b:0 "Perfect."
  FOD_alliance.2.c:0 "I am not interested"
  FOD_alliance.3.t:0 "Alliance Debate - Diplomacy"
- FOD_alliance.3.desc:0 "We had a fiery debate about matters of diplomacy today on the Alliance's round table. [first_lord.GetName] and [second_lord.GetName] have totally different views on the subject. As Leader, it's time I put my fist down and end this."
+ FOD_alliance.3.desc:0 "We had a fiery debate about matters of diplomacy today on the Alliance's round table. [first_lord.GetName] and [second_lord.GetName] have totally different views on the subject. While [better_diplomacy_lord.GetName] is obviously the better choice in the matter, I can still choose to support the other one to gain some relation with him. As Leader, it's time I put my fist down and end this."
  FOD_alliance.4.t:0 "Alliance Debate - Martial"
  FOD_alliance.4.desc:0 "We had a fiery debate about matters of war today on the Alliance's round table. [first_lord.GetName] and [second_lord.GetName] have totally different views on the subject. As Leader, it's time I put my fist down and end this."
  FOD_alliance.5.t:0 "Alliance Debate - Stewardship"

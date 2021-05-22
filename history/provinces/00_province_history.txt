@@ -2932,6 +2932,11 @@
               culture = high_fodlan
               religion = seirosite
               holding = church_holding
+
+		1.1.1 = {
+			special_building_slot = zanado_01
+			special_building = zanado_01
+		}
 }
 
 21 = {        # (b_elivilar)

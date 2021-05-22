@@ -1,6 +1,6 @@
 ﻿namespace = FOD_alliance
 
-FOD_alliance.1 = {
+FOD_alliance.1 = { #call alliance to war
 	type = character_event
 	title = FOD_alliance.1.t
 	desc = FOD_alliance.1.desc
@@ -306,7 +306,7 @@ FOD_alliance.3 = { #Diplomacy debate
 			}
 		}
 		if = {
-			limit = { scope:second_lord.diplomacy >= scope:first_lord.diplomacy }
+			limit = { scope:first_lord.diplomacy >= scope:second_lord.diplomacy }
 			scope:first_lord = {
 				save_scope_as = better_diplomacy_lord
 			}
@@ -332,27 +332,45 @@ FOD_alliance.3 = { #Diplomacy debate
 			modifier = disappointed_opinion
 			opinion = -10
 		}
-		if = {
-			limit = { scope:first_lord.diplomacy >= scope:second_lord.diplomacy }
-			add_character_modifier = {
-				modifier = good_diplomacy_debate_modifier
-				years = 5
+
+		random_list = {
+			1 = {
+				modifier = {
+					add = scope:first_lord.diplomacy
+				}
+				add_character_modifier = {
+					modifier = good_diplomacy_debate_modifier
+					years = 5
+				}
+			}
+
+			1 = {
+				modifier = {
+					add = scope:second_lord.diplomacy
+				}
+				add_character_modifier = {
+					modifier = bad_diplomacy_debate_modifier
+					years = 5
+				}
 			}
 		}
-		else = {
-			add_character_modifier = {
-				modifier = bad_diplomacy_debate_modifier
-				years = 5
-			}
-			progress_towards_friend_effect = {
-				CHARACTER = scope:first_lord
-				OPINION = no
-			}
-			progress_towards_rival_effect = {
-				CHARACTER = scope:second_lord
-				OPINION = no
+		hidden_effect = {
+			if = {
+				limit = { scope:first_lord.diplomacy <= scope:second_lord.diplomacy }
+				random  = {
+					chance = 25
+					progress_towards_friend_effect = {
+						CHARACTER = scope:first_lord
+						OPINION = no
+					}
+					progress_towards_rival_effect = {
+						CHARACTER = scope:second_lord
+						OPINION = no
+					}
+				}
 			}
 		}
+
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -383,27 +401,46 @@ FOD_alliance.3 = { #Diplomacy debate
 			modifier = disappointed_opinion
 			opinion = -10
 		}
-		if = {
-			limit = { scope:second_lord.diplomacy >= scope:first_lord.diplomacy }
-			add_character_modifier = {
-				modifier = good_diplomacy_debate_modifier
-				years = 5
+
+		random_list = {
+			1 = {
+				modifier = {
+					add = scope:second_lord.diplomacy
+				}
+				add_character_modifier = {
+					modifier = good_diplomacy_debate_modifier
+					years = 5
+				}
+			}
+
+			1 = {
+				modifier = {
+					add = scope:first_lord.diplomacy
+				}
+				add_character_modifier = {
+					modifier = bad_diplomacy_debate_modifier
+					years = 5
+				}
 			}
 		}
-		else = {
-			add_character_modifier = {
-				modifier = bad_diplomacy_debate_modifier
-				years = 5
-			}
-			progress_towards_friend_effect = {
-				CHARACTER = scope:second_lord
-				OPINION = no
-			}
-			progress_towards_rival_effect = {
-				CHARACTER = scope:first_lord
-				OPINION = no
+
+		hidden_effect = {
+			if = {
+				limit = { scope:first_lord.diplomacy >= scope:second_lord.diplomacy }
+				random  = {
+					chance = 25
+					progress_towards_friend_effect = {
+						CHARACTER = scope:second_lord
+						OPINION = no
+					}
+					progress_towards_rival_effect = {
+						CHARACTER = scope:first_lord
+						OPINION = no
+					}
+				}
 			}
 		}
+		
 		ai_chance = {
 			base = 50
 			modifier = {
