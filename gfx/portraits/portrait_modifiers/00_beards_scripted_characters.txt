@@ -107,6 +107,11 @@ beards_scripted_characters = {
                 exists = character:200053 #Theodor
                 this = character:200053 #Theodor
             }
+            modifier = {
+                add = 200
+                exists = character:200027 #Caius
+                this = character:200027 #Caius
+            }
         }
     }
 

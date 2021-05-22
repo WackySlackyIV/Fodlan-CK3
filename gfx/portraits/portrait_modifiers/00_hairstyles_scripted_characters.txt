@@ -101,6 +101,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200028 #Elihu
+                this = character:200028 #Elihu
+            }
         }
     }
 
@@ -289,6 +294,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:200027 #Caius
+                this = character:200027 #Caius
+            }
         }
     }
 
