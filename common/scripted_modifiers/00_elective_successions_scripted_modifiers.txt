@@ -3417,65 +3417,68 @@ elector_voting_pattern_alliance_elective_modifier = {
 			}
 		}
 	}
-
+	
 	modifier = { #vote with famous alliance member
 		desc = tooltip_vote_with_promoted_voter
 		scope:candidate = { this = scope:holder_candidate }
+		NOT = { this = scope:candidate } #Do not judge yourself.
 		
-		scope:actor = {
+		scope:holder = {
 			is_promoted = yes
 		}
-
+		
 		add = {
 			value = 0
 			if = {
 				limit = {
-					scope:actor = { 
-						has_character_modifier = promoted_actor_1 
+					scope:holder = { 
+						has_character_modifier = promoted_candidate_1 
 					}
 				}
 				add = 10
 			}
 			if = {
 				limit = {
-					scope:actor = { 
-						has_character_modifier = promoted_actor_2 
+					scope:holder = { 
+						has_character_modifier = promoted_candidate_2 
 					}
 				}
 				add = 20
 			}
 			if = {
 				limit = {
-					scope:actor = { 
-						has_character_modifier = promoted_actor_3 
+					scope:holder = { 
+						has_character_modifier = promoted_candidate_3 
 					}
 				}
 				add = 30
 			}
 			if = {
 				limit = {
-					scope:actor = { 
-						has_character_modifier = defamed_actor_1 
+					scope:holder = { 
+						has_character_modifier = defamed_candidate_1 
 					}
 				}
 				subtract = 10
 			}
 			if = {
 				limit = {
-					scope:actor = { 
-						has_character_modifier = defamed_actor_2 
+					scope:holder = { 
+						has_character_modifier = defamed_candidate_2 
 					}
 				}
 				subtract = 20
 			}
 			if = {
 				limit = {
-					scope:actor = { 
-						has_character_modifier = defamed_actor_3 
+					scope:holder = { 
+						has_character_modifier = defamed_candidate_3 
 					}
 				}
 				subtract = 30
 			}
+		}
 	}
+}
 }
 					
