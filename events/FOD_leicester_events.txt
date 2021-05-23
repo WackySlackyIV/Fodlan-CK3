@@ -266,9 +266,7 @@ FOD_alliance.2 = { #Hooks for fame event
 FOD_alliance.3 = { #Diplomacy debate
 	type = character_event
 	title = FOD_alliance.3.t
-	desc = {
-		desc = FOD_alliance.3.desc
-	}
+	desc = FOD_alliance.3.desc
 	theme = vassal
 	left_portrait = scope:first_lord
 	right_portrait = scope:second_lord
@@ -294,12 +292,14 @@ FOD_alliance.3 = { #Diplomacy debate
 			random_elector = {
 				limit = {
 					is_available_ai_adult = yes
+					NOT = { this = root }
 				}
 				save_scope_as = first_lord
 			}
 			random_elector = {
 				limit = {
 					is_available_ai_adult = yes
+					NOT = { this = root }
 					NOT = { this = scope:first_lord }
 				}
 				save_scope_as = second_lord
@@ -584,9 +584,7 @@ FOD_alliance.3 = { #Diplomacy debate
 FOD_alliance.4 = { #Martial debate
 	type = character_event
 	title = FOD_alliance.4.t
-	desc = {
-		desc = FOD_alliance.4.desc
-	}
+	desc = FOD_alliance.4.desc
 	theme = vassal
 	left_portrait = scope:first_lord
 	right_portrait = scope:second_lord
@@ -612,12 +610,14 @@ FOD_alliance.4 = { #Martial debate
 			random_elector = {
 				limit = {
 					is_available_ai_adult = yes
+					NOT = { this = root }
 				}
 				save_scope_as = first_lord
 			}
 			random_elector = {
 				limit = {
 					is_available_ai_adult = yes
+					NOT = { this = root }
 					NOT = { this = scope:first_lord }
 				}
 				save_scope_as = second_lord
@@ -898,9 +898,7 @@ FOD_alliance.4 = { #Martial debate
 FOD_alliance.5 = { #stewardship debate
 	type = character_event
 	title = FOD_alliance.5.t
-	desc = {
-		desc = FOD_alliance.5.desc
-	}
+	desc = FOD_alliance.5.desc
 	theme = vassal
 	left_portrait = scope:first_lord
 	right_portrait = scope:second_lord
@@ -926,12 +924,14 @@ FOD_alliance.5 = { #stewardship debate
 			random_elector = {
 				limit = {
 					is_available_ai_adult = yes
+					NOT = { this = root }
 				}
 				save_scope_as = first_lord
 			}
 			random_elector = {
 				limit = {
 					is_available_ai_adult = yes
+					NOT = { this = root }
 					NOT = { this = scope:first_lord }
 				}
 				save_scope_as = second_lord
@@ -1206,6 +1206,218 @@ FOD_alliance.5 = { #stewardship debate
 			}
 			ai_value_modifier = {
 				ai_boldness = 2
+			}
+		}
+	}
+}
+
+FOD_alliance.6 = { #Who gets the dev?
+	type = character_event
+	title = FOD_alliance.6.t
+	desc = FOD_alliance.6.desc
+	theme = realm
+	
+	trigger = {
+		has_government = alliance_government
+		has_title = title:k_leicester
+		is_available_adult = yes
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = root }
+				}
+				save_scope_as = first_lord
+			}
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = root }
+					NOT = { this = scope:first_lord }
+				}
+				save_scope_as = second_lord
+			}
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = root }
+					NOT = { this = scope:first_lord }
+					NOT = { this = scope:second_lord }
+				}
+				save_scope_as = third_lord
+			}
+			random_elector = {
+				limit = {
+					is_available_ai_adult = yes
+					NOT = { this = root }
+					NOT = { this = scope:first_lord }
+					NOT = { this = scope:second_lord }
+					NOT = { this = scope:third_lord }
+				}
+				save_scope_as = fourth_lord
+			}
+		}
+		random_realm_county = {
+			limit = {
+				holder = {
+					NOR = {
+						this = root
+						this = scope:first_lord
+						this = scope:second_lord
+						this = scope:third_lord
+						this = scope:fourth_lord
+					}
+				}
+			}
+			save_scope_as = county
+			holder = { save_scope_as = other_noble }
+		}	
+	}
+	
+	option = { #I do
+		name = FOD_alliance.6.a
+		random_held_title = {
+			limit = {
+				tier = tier_county
+			}
+			add_county_modifier = {
+				modifier = invested_in_province_modifier
+				years = 5
+			}
+		}
+		add_character_modifier = {
+			modifier = selfish_liege_modifier
+			years = 5
+		}
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 1
+			}
+		}
+	}
+	
+	option = { #First lord
+		name = FOD_alliance.6.b
+		scope:first_lord = {
+			random_held_title = {
+				limit = {
+					tier = tier_county
+				}
+				add_county_modifier = {
+					modifier = invested_in_province_modifier
+					years = 5
+				}
+			}
+			add_opinion = {
+				target = root
+				modifier = chosen_vassal_opinion
+			}
+		}
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:first_lord
+			}
+		}
+	}
+	
+	option = { #Second lord
+		name = FOD_alliance.6.c
+		scope:second_lord = {
+			random_held_title = {
+				limit = {
+					tier = tier_county
+				}
+				add_county_modifier = {
+					modifier = invested_in_province_modifier
+					years = 5
+				}
+			}
+			add_opinion = {
+				target = root
+				modifier = chosen_vassal_opinion
+			}
+		}
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:second_lord
+			}
+		}
+	}
+	
+	option = { #Third lord
+		name = FOD_alliance.6.d
+		scope:third_lord = {
+			random_held_title = {
+				limit = {
+					tier = tier_county
+				}
+				add_county_modifier = {
+					modifier = invested_in_province_modifier
+					years = 5
+				}
+			}
+			add_opinion = {
+				target = root
+				modifier = chosen_vassal_opinion
+			}
+		}
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:third_lord
+			}
+		}
+	}
+	
+	option = { #Fourth lord
+		name = FOD_alliance.6.e
+		scope:fourth_lord = {
+			random_held_title = {
+				limit = {
+					tier = tier_county
+				}
+				add_county_modifier = {
+					modifier = invested_in_province_modifier
+					years = 5
+				}
+			}
+			add_opinion = {
+				target = root
+				modifier = chosen_vassal_opinion
+			}
+		}
+		ai_chance = {
+			base = 0
+			opinion_modifier = {
+				opinion_target = scope:fourth_lord
+			}
+		}
+	}
+	
+	option = { #Someone else
+		name = FOD_alliance.6.f
+		scope:county = {
+			add_county_modifier = {
+				modifier = invested_in_province_modifier
+				years = 5
+			}
+		}
+		scope:other_noble = {
+			add_opinion = {
+				target = root
+				modifier = chosen_vassal_opinion
+			}
+		}
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = -1
 			}
 		}
 	}

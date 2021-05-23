@@ -38,3 +38,9 @@ debate_unimpressed_opinion = {
 	years = 5
 	decaying = yes
 }
+
+chosen_vassal_opinion = {
+	opinion = 10
+	years = 5
+	decaying = yes
+}
