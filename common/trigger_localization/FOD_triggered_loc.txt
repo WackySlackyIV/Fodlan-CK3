@@ -1,3 +1,11 @@
 ﻿betrayed_alliance_or_hook = {
 	global = ALLIANCE_BETRAYED_OR_HOOK
 }
+
+first_lord_stress = {
+	global = ALLIANCE_FIRST_LORD_STRESS
+}
+
+second_lord_stress = {
+	global = ALLIANCE_SECOND_LORD_STRESS
+}

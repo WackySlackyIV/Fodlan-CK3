@@ -167,7 +167,7 @@
 	color2 = "black"
 	colored_emblem = {
 		texture = "ce_cockerel.dds"
-		color1 = "brown"
+		color1 = "white"
 		color2 = "red"
 		instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }
 	}

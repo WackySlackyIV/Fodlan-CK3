@@ -1,0 +1,3 @@
+﻿alliance_lord_stress = {
+	global = ALLIANCE_LORD_STRESS
+}

@@ -370,6 +370,18 @@ FOD_alliance.3 = { #Diplomacy debate
 				}
 			}
 		}
+		
+		if  = {
+			limit = { 
+				exists = scope:first_lord
+				has_relation_rival = scope:first_lord 
+			}
+			custom_description = {
+				text = "alliance_lord_stress"
+				object = scope:first_lord
+			}
+			add_stress = medium_stress_impact_gain
+		}
 
 		ai_chance = {
 			base = 50
@@ -439,6 +451,18 @@ FOD_alliance.3 = { #Diplomacy debate
 					}
 				}
 			}
+		}
+
+		if  = {
+			limit = { 
+				exists = scope:second_lord
+				has_relation_rival = scope:second_lord 
+			}
+			custom_description = {
+				text = "alliance_lord_stress"
+				object = scope:second_lord
+			}
+			add_stress = medium_stress_impact_gain
 		}
 		
 		ai_chance = {

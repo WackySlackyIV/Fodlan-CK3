@@ -36,3 +36,6 @@
  #deaths
  death_true_knight:0 "Died like a true knight"
  death_demonic_beast:0 "Died after a Demonic Beast attack"
+ 
+ #event tt
+ ALLIANCE_LORD_STRESS:0 "Because [TARGET_CHARACTER.GetSheHe] is your [rival|E]:"
