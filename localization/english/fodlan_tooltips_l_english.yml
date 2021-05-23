@@ -5,7 +5,8 @@
  tooltip_alliance_vote_rival_friend:0 "Friend or Rival: $VALUE|=+0$"
  tooltip_alliance_leader:0 "Alliance Leader: $VALUE|=+0$"
  tooltip_councillor:0 "Council Member: $VALUE|=+0$"
- tooltip_promoted_candidate:0 "Election campaigning: $VALUE|=+0$"
+ tooltip_promoted_candidate:0 "Candidate Alliance Popularity: $VALUE|=+0$"
+ tooltip_vote_with_promoted_voter:0 "Your Alliance Popularity: $VALUE|=+0$"
  
  #alliance interactions
  ALLIANCE_ACTIONS:0 "Alliance Interactions"

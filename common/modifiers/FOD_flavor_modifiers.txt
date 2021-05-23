@@ -31,20 +31,20 @@ bad_diplomacy_debate_modifier = {
 
 good_martial_debate_modifier = {
 	icon = martial_positive
-	diplomacy = 2
+	martial = 2
 }
 
 bad_martial_debate_modifier = {
 	icon = martial_negative
-	diplomacy = -2
+	martial = -2
 }
 
 good_stewardship_debate_modifier = {
 	icon = stewardship_positive
-	diplomacy = 2
+	stewardship = 2
 }
 
 bad_stewardship_debate_modifier = {
 	icon = stewardship_negative
-	diplomacy = -2
+	stewardship = -2
 }

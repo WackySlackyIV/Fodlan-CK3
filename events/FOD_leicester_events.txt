@@ -634,26 +634,54 @@ FOD_alliance.4 = { #Martial debate
 			modifier = disappointed_opinion
 			opinion = -10
 		}
-		if = {
-			limit = { scope:first_lord.martial >= scope:second_lord.martial }
-			add_character_modifier = {
-				modifier = good_martial_debate_modifier
-				years = 5
+		random_list = {
+			1 = {
+				modifier = {
+					add = scope:first_lord.martial
+				}
+				add_character_modifier = {
+					modifier = good_martial_debate_modifier
+					years = 5
+				}
+			}
+
+			1 = {
+				modifier = {
+					add = scope:second_lord.martial
+				}
+				add_character_modifier = {
+					modifier = bad_martial_debate_modifier
+					years = 5
+				}
 			}
 		}
-		else = {
-			add_character_modifier = {
-				modifier = bad_martial_debate_modifier
-				years = 5
+		hidden_effect = {
+			if = {
+				limit = { scope:first_lord.martial <= scope:second_lord.martial }
+				random  = {
+					chance = 25
+					progress_towards_friend_effect = {
+						CHARACTER = scope:first_lord
+						OPINION = no
+					}
+					progress_towards_rival_effect = {
+						CHARACTER = scope:second_lord
+						OPINION = no
+					}
+				}
 			}
-			progress_towards_friend_effect = {
-				CHARACTER = scope:first_lord
-				OPINION = no
+		}
+		
+		if  = {
+			limit = { 
+				exists = scope:first_lord
+				has_relation_rival = scope:first_lord 
 			}
-			progress_towards_rival_effect = {
-				CHARACTER = scope:second_lord
-				OPINION = no
+			custom_description = {
+				text = "alliance_lord_stress"
+				object = scope:first_lord
 			}
+			add_stress = medium_stress_impact_gain
 		}
 		ai_chance = {
 			base = 50
@@ -685,26 +713,55 @@ FOD_alliance.4 = { #Martial debate
 			modifier = disappointed_opinion
 			opinion = -10
 		}
-		if = {
-			limit = { scope:second_lord.martial >= scope:first_lord.martial }
-			add_character_modifier = {
-				modifier = good_martial_debate_modifier
-				years = 5
+		random_list = {
+			1 = {
+				modifier = {
+					add = scope:second_lord.martial
+				}
+				add_character_modifier = {
+					modifier = good_martial_debate_modifier
+					years = 5
+				}
+			}
+
+			1 = {
+				modifier = {
+					add = scope:first_lord.martial
+				}
+				add_character_modifier = {
+					modifier = bad_martial_debate_modifier
+					years = 5
+				}
 			}
 		}
-		else = {
-			add_character_modifier = {
-				modifier = bad_martial_debate_modifier
-				years = 5
+
+		hidden_effect = {
+			if = {
+				limit = { scope:first_lord.martial >= scope:second_lord.martial }
+				random  = {
+					chance = 25
+					progress_towards_friend_effect = {
+						CHARACTER = scope:second_lord
+						OPINION = no
+					}
+					progress_towards_rival_effect = {
+						CHARACTER = scope:first_lord
+						OPINION = no
+					}
+				}
 			}
-			progress_towards_friend_effect = {
-				CHARACTER = scope:second_lord
-				OPINION = no
+		}
+
+		if  = {
+			limit = { 
+				exists = scope:second_lord
+				has_relation_rival = scope:second_lord 
 			}
-			progress_towards_rival_effect = {
-				CHARACTER = scope:first_lord
-				OPINION = no
+			custom_description = {
+				text = "alliance_lord_stress"
+				object = scope:second_lord
 			}
+			add_stress = medium_stress_impact_gain
 		}
 		ai_chance = {
 			base = 50
@@ -875,27 +932,56 @@ FOD_alliance.5 = { #stewardship debate
 			modifier = disappointed_opinion
 			opinion = -10
 		}
-		if = {
-			limit = { scope:first_lord.stewardship >= scope:second_lord.stewardship }
-			add_character_modifier = {
-				modifier = good_stewardship_debate_modifier
-				years = 5
+		random_list = {
+			1 = {
+				modifier = {
+					add = scope:first_lord.stewardship
+				}
+				add_character_modifier = {
+					modifier = good_stewardship_debate_modifier
+					years = 5
+				}
+			}
+
+			1 = {
+				modifier = {
+					add = scope:second_lord.stewardship
+				}
+				add_character_modifier = {
+					modifier = bad_stewardship_debate_modifier
+					years = 5
+				}
 			}
 		}
-		else = {
-			add_character_modifier = {
-				modifier = bad_stewardship_debate_modifier
-				years = 5
-			}
-			progress_towards_friend_effect = {
-				CHARACTER = scope:first_lord
-				OPINION = no
-			}
-			progress_towards_rival_effect = {
-				CHARACTER = scope:second_lord
-				OPINION = no
+		hidden_effect = {
+			if = {
+				limit = { scope:first_lord.stewardship <= scope:second_lord.stewardship }
+				random  = {
+					chance = 25
+					progress_towards_friend_effect = {
+						CHARACTER = scope:first_lord
+						OPINION = no
+					}
+					progress_towards_rival_effect = {
+						CHARACTER = scope:second_lord
+						OPINION = no
+					}
+				}
 			}
 		}
+		
+		if  = {
+			limit = { 
+				exists = scope:first_lord
+				has_relation_rival = scope:first_lord 
+			}
+			custom_description = {
+				text = "alliance_lord_stress"
+				object = scope:first_lord
+			}
+			add_stress = medium_stress_impact_gain
+		}
+		
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -926,27 +1012,57 @@ FOD_alliance.5 = { #stewardship debate
 			modifier = disappointed_opinion
 			opinion = -10
 		}
-		if = {
-			limit = { scope:second_lord.stewardship >= scope:first_lord.stewardship }
-			add_character_modifier = {
-				modifier = good_stewardship_debate_modifier
-				years = 5
+		random_list = {
+			1 = {
+				modifier = {
+					add = scope:second_lord.stewardship
+				}
+				add_character_modifier = {
+					modifier = good_stewardship_debate_modifier
+					years = 5
+				}
+			}
+
+			1 = {
+				modifier = {
+					add = scope:first_lord.stewardship
+				}
+				add_character_modifier = {
+					modifier = bad_stewardship_debate_modifier
+					years = 5
+				}
 			}
 		}
-		else = {
-			add_character_modifier = {
-				modifier = bad_stewardship_debate_modifier
-				years = 5
-			}
-			progress_towards_friend_effect = {
-				CHARACTER = scope:second_lord
-				OPINION = no
-			}
-			progress_towards_rival_effect = {
-				CHARACTER = scope:first_lord
-				OPINION = no
+
+		hidden_effect = {
+			if = {
+				limit = { scope:first_lord.stewardship >= scope:second_lord.stewardship }
+				random  = {
+					chance = 25
+					progress_towards_friend_effect = {
+						CHARACTER = scope:second_lord
+						OPINION = no
+					}
+					progress_towards_rival_effect = {
+						CHARACTER = scope:first_lord
+						OPINION = no
+					}
+				}
 			}
 		}
+
+		if  = {
+			limit = { 
+				exists = scope:second_lord
+				has_relation_rival = scope:second_lord 
+			}
+			custom_description = {
+				text = "alliance_lord_stress"
+				object = scope:second_lord
+			}
+			add_stress = medium_stress_impact_gain
+		}
+		
 		ai_chance = {
 			base = 50
 			modifier = {

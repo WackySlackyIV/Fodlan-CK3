@@ -107,7 +107,10 @@ alliance_elective = { #alliance elective
 				is_adult = yes
 				has_culture = culture:leicester
 				is_close_family_of = scope:holder
-				NOT = { has_trait = disinherited }
+				NOR = { 
+					has_trait = disinherited 
+					has_character_modifier = refused_election_modifier
+				}
 			}
 		}
 		add = {
@@ -116,7 +119,10 @@ alliance_elective = { #alliance elective
 				is_adult = yes
 				has_culture = culture:leicester
 				highest_held_title_tier > 2 #counts excluded.
-				NOT = { has_trait = disinherited }
+				NOR = { 
+					has_trait = disinherited 
+					has_character_modifier = refused_election_modifier
+				}
 			}
 		}
 	}
