@@ -335,22 +335,30 @@ FOD_alliance.3 = { #Diplomacy debate
 
 		random_list = {
 			1 = {
+				desc = FOD_alliance.debate.a.success
 				modifier = {
 					add = scope:first_lord.diplomacy
 				}
-				add_character_modifier = {
-					modifier = good_diplomacy_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.a.success
+					add_character_modifier = {
+						modifier = good_diplomacy_debate_modifier
+						years = 5
+					}
 				}
 			}
 
 			1 = {
+				desc = FOD_alliance.debate.a.failure
 				modifier = {
 					add = scope:second_lord.diplomacy
 				}
-				add_character_modifier = {
-					modifier = bad_diplomacy_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.a.failure
+					add_character_modifier = {
+						modifier = bad_diplomacy_debate_modifier
+						years = 5
+					}
 				}
 			}
 		}
@@ -416,22 +424,30 @@ FOD_alliance.3 = { #Diplomacy debate
 
 		random_list = {
 			1 = {
+				desc = FOD_alliance.debate.b.success
 				modifier = {
 					add = scope:second_lord.diplomacy
 				}
-				add_character_modifier = {
-					modifier = good_diplomacy_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.b.success
+					add_character_modifier = {
+						modifier = good_diplomacy_debate_modifier
+						years = 5
+					}
 				}
 			}
 
 			1 = {
+				desc = FOD_alliance.debate.b.failure
 				modifier = {
 					add = scope:first_lord.diplomacy
 				}
-				add_character_modifier = {
-					modifier = bad_diplomacy_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.b.failure
+					add_character_modifier = {
+						modifier = bad_diplomacy_debate_modifier
+						years = 5
+					}
 				}
 			}
 		}
@@ -487,13 +503,13 @@ FOD_alliance.3 = { #Diplomacy debate
 			skill = diplomacy
 			target = scope:better_diplomacy_lord
 			50 = {
-				desc = FOD_alliance.debate.success
+				desc = FOD_alliance.debate.c.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 3
 				}
 				send_interface_toast = {
-					title = FOD_alliance.debate.success
+					title = FOD_alliance.debate.c.success
 					left_icon = scope:first_lord
 					right_icon = scope:second_lord
 					
@@ -514,13 +530,13 @@ FOD_alliance.3 = { #Diplomacy debate
 				}
 			}
 			50 = {
-				desc = FOD_alliance.debate.failure
+				desc = FOD_alliance.debate.c.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -1
 				}
 				send_interface_toast = {
-					title = FOD_alliance.debate.failure
+					title = FOD_alliance.debate.c.failure
 					left_icon = scope:first_lord
 					right_icon = scope:second_lord
 					
@@ -608,7 +624,7 @@ FOD_alliance.4 = { #Martial debate
 			}
 		}
 		if = {
-			limit = { scope:second_lord.martial >= scope:first_lord.martial }
+			limit = { scope:second_lord.martial <= scope:first_lord.martial }
 			scope:first_lord = {
 				save_scope_as = better_martial_lord
 			}
@@ -636,22 +652,30 @@ FOD_alliance.4 = { #Martial debate
 		}
 		random_list = {
 			1 = {
+				desc = FOD_alliance.debate.a.success
 				modifier = {
 					add = scope:first_lord.martial
 				}
-				add_character_modifier = {
-					modifier = good_martial_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.a.success
+					add_character_modifier = {
+						modifier = good_martial_debate_modifier
+						years = 5
+					}
 				}
 			}
 
 			1 = {
+				desc = FOD_alliance.debate.a.failure
 				modifier = {
 					add = scope:second_lord.martial
 				}
-				add_character_modifier = {
-					modifier = bad_martial_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.a.failure
+					add_character_modifier = {
+						modifier = bad_martial_debate_modifier
+						years = 5
+					}
 				}
 			}
 		}
@@ -715,22 +739,30 @@ FOD_alliance.4 = { #Martial debate
 		}
 		random_list = {
 			1 = {
+				desc = FOD_alliance.debate.b.success
 				modifier = {
 					add = scope:second_lord.martial
 				}
-				add_character_modifier = {
-					modifier = good_martial_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.b.success
+					add_character_modifier = {
+						modifier = good_martial_debate_modifier
+						years = 5
+					}
 				}
 			}
 
 			1 = {
+				desc = FOD_alliance.debate.b.failure
 				modifier = {
 					add = scope:first_lord.martial
 				}
-				add_character_modifier = {
-					modifier = bad_martial_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.b.failure
+					add_character_modifier = {
+						modifier = bad_martial_debate_modifier
+						years = 5
+					}
 				}
 			}
 		}
@@ -785,13 +817,13 @@ FOD_alliance.4 = { #Martial debate
 			skill = martial
 			target = scope:better_martial_lord
 			50 = {
-				desc = FOD_alliance.debate.success
+				desc = FOD_alliance.debate.c.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 3
 				}
 				send_interface_toast = {
-					title = FOD_alliance.debate.success
+					title = FOD_alliance.debate.c.success
 					left_icon = scope:first_lord
 					right_icon = scope:second_lord
 					
@@ -812,13 +844,13 @@ FOD_alliance.4 = { #Martial debate
 				}
 			}
 			50 = {
-				desc = FOD_alliance.debate.failure
+				desc = FOD_alliance.debate.c.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -1
 				}
 				send_interface_toast = {
-					title = FOD_alliance.debate.failure
+					title = FOD_alliance.debate.c.failure
 					left_icon = scope:first_lord
 					right_icon = scope:second_lord
 					
@@ -906,7 +938,7 @@ FOD_alliance.5 = { #stewardship debate
 			}
 		}
 		if = {
-			limit = { scope:second_lord.stewardship >= scope:first_lord.stewardship }
+			limit = { scope:second_lord.stewardship <= scope:first_lord.stewardship }
 			scope:first_lord = {
 				save_scope_as = better_stewardship_lord
 			}
@@ -934,22 +966,30 @@ FOD_alliance.5 = { #stewardship debate
 		}
 		random_list = {
 			1 = {
+				desc = FOD_alliance.debate.a.success
 				modifier = {
 					add = scope:first_lord.stewardship
 				}
-				add_character_modifier = {
-					modifier = good_stewardship_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.a.success
+					add_character_modifier = {
+						modifier = good_stewardship_debate_modifier
+						years = 5
+					}
 				}
 			}
 
 			1 = {
+				desc = FOD_alliance.debate.a.failure
 				modifier = {
 					add = scope:second_lord.stewardship
 				}
-				add_character_modifier = {
-					modifier = bad_stewardship_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.a.failure
+					add_character_modifier = {
+						modifier = bad_stewardship_debate_modifier
+						years = 5
+					}
 				}
 			}
 		}
@@ -1014,22 +1054,30 @@ FOD_alliance.5 = { #stewardship debate
 		}
 		random_list = {
 			1 = {
+				desc = FOD_alliance.debate.b.success
 				modifier = {
 					add = scope:second_lord.stewardship
 				}
-				add_character_modifier = {
-					modifier = good_stewardship_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.b.success
+					add_character_modifier = {
+						modifier = good_stewardship_debate_modifier
+						years = 5
+					}
 				}
 			}
 
 			1 = {
+				desc = FOD_alliance.debate.b.failure
 				modifier = {
 					add = scope:first_lord.stewardship
 				}
-				add_character_modifier = {
-					modifier = bad_stewardship_debate_modifier
-					years = 5
+				send_interface_toast = {
+					title = FOD_alliance.debate.b.failure
+					add_character_modifier = {
+						modifier = bad_stewardship_debate_modifier
+						years = 5
+					}
 				}
 			}
 		}
@@ -1085,13 +1133,13 @@ FOD_alliance.5 = { #stewardship debate
 			skill = stewardship
 			target = scope:better_stewardship_lord
 			50 = {
-				desc = FOD_alliance.debate.success
+				desc = FOD_alliance.debate.c.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 3
 				}
 				send_interface_toast = {
-					title = FOD_alliance.debate.success
+					title = FOD_alliance.debate.c.success
 					left_icon = scope:first_lord
 					right_icon = scope:second_lord
 					
@@ -1112,13 +1160,13 @@ FOD_alliance.5 = { #stewardship debate
 				}
 			}
 			50 = {
-				desc = FOD_alliance.debate.failure
+				desc = FOD_alliance.debate.c.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -1
 				}
 				send_interface_toast = {
-					title = FOD_alliance.debate.failure
+					title = FOD_alliance.debate.c.failure
 					left_icon = scope:first_lord
 					right_icon = scope:second_lord
 					
