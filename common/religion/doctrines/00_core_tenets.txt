@@ -264,7 +264,6 @@
 				has_doctrine = morfist_hostility_doctrine
 				has_doctrine = almyran_hostility_doctrine
 				has_doctrine = pagan_hostility_doctrine
-				}
 			}
 		}
 
@@ -1148,7 +1147,6 @@
 		is_shown = {
 			OR = {
 				has_doctrine = morfist_hostility_doctrine
-				}
 			}
 		}
 
