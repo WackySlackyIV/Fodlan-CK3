@@ -1,0 +1,24 @@
+namespace = FOD_government
+
+FOD_government.1 = {
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		has_government = alliance_government
+		OR = {
+			AND = {
+				is_independent_ruler = yes
+				NOT = { has_title = title:k_leicester }
+			}
+			AND = {
+				exists = liege
+				liege = { NOT = { has_government = alliance_government } }
+			}
+		}
+	}
+	
+	immediate = {
+		change_government = feudal_government
+	}
+}
