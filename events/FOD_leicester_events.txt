@@ -1216,6 +1216,11 @@ FOD_alliance.6 = { #Who gets the dev?
 	title = FOD_alliance.6.t
 	desc = FOD_alliance.6.desc
 	theme = realm
+	left_portrait = scope:first_lord
+	right_portrait = scope:fourth_lord
+	lower_left_portrait = scope:second_lord
+	lower_right_portrait = scope:third_lord
+	lower_center_portrait = scope:other_noble
 	
 	trigger = {
 		has_government = alliance_government
