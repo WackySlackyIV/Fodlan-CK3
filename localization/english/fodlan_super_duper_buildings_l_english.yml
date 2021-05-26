@@ -31,11 +31,11 @@
  building_type_merceus_01:0 "Fortress"
  building_merceus_01_desc:0 "Known popularly as the Stubborn Old General, Fort Merceus serves as the seat of House Bergliez. More importantly, the fort is the primary approach to the Imperial Capital of Enbarr. It has a longstanding reputation of being impregnable."
  building_type_beverly_01:0 "Fort Beverly"
- building_type_beverly_01_desc:0 "Fort Bevery, also known as Beverly Hill, Stands at the border with Faerghus. The fort is also a known trade center after the destruction of ailell, since now its the major connection point with Faerghus for all caravans."
+ building_type_beverly_01_desc:0 "Fort Beverly, also known as Beverly Hill, stands at the border with Faerghus. The fort is also a known trade center after the destruction of Ailell, since now it is the major connection point with Faerghus for all caravans."
  building_type_ailell_01:0 "Fort Ailell"
- building_type_ailell_01_desc:0 "Fort Ailell, also known as Heavens Wrath, Stands at the border with Faerghus. Its brutal terrain makes it an exelent defensive position. Sieges can take long times and moving across the terrain is disatorous. However because of the harsh climate, the fort never had a large garrison."
+ building_type_ailell_01_desc:0 "Fort Ailell, also known as Heaven's Wrath, stands at the border with Faerghus. Its brutal terrain makes it an excellent defensive position. Sieges are lengthy and moving across the terrain is disastrous. However because of the harsh climate, the fort never had a large garrison."
  building_type_cordelia_01:0 "Fort Cordelia"
- building_type_cordelia_01_desc:0 "Fort Cordelia, also known as The Weeping Lover, Stands at the river crossing with Adrestia. Being Tasked with checking the river for intruders and keep a watchfull eye on the border, The fortress has many duties of which they need more men to maintain their watch."
+ building_type_cordelia_01_desc:0 "Fort Cordelia, also known as The Weeping Lover, stands at the river crossing with Adrestia. Being tasked with checking the river for intruders and keep a watchful eye on the border, the fortress has many duties of which they need more men to maintain their watch."
  
  #specials
  building_hevring_mines_01:0 "Mines of Hevring"
@@ -46,7 +46,7 @@
  building_kupala_mines_01_desc:0 "The people of Kupala, though secluded, work with precious minerals taken from the mountains in which they reside. The tribesmen craft weapons and armors from these minerals, aiding them in defending against encroaching forces."
  building_zanado_01:0 "Zanado"
  building_type_zanado_01:0 "Ruins"
- building_zanado_01_desc:0 "Zanado, the Red Canyon, is the site of ruins that appear to be centuries old. Buildings of their like cannot be found anywhere in the surrounding lands. Despite its psuedonym, nothing within the Red Canyon is red."
+ building_zanado_01_desc:0 "Zanado, the Red Canyon, is the site of ruins that appear to be centuries old. Buildings of their like cannot be found anywhere in the surrounding lands. Despite its name, nothing within the Red Canyon is red."
  building_shamballah_01:0 "Shamballah"
  building_type_shamballah_01:0 "?"
  building_shamballah_01_desc:0 "It is said Those Who Slither in the Dark make their home in a place called Shamballah."
