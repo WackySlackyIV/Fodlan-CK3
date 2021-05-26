@@ -1427,3 +1427,153 @@ FOD_alliance.6 = { #Who gets the dev?
 		}
 	}
 }
+
+FOD_alliance.7 = { #great lord openly discredits my heir
+	type = character_event
+	title = FOD_alliance.7.t
+	desc = {
+		desc = FOD_alliance.7.desc
+	}
+	theme = vassal
+	left_portrait = ROOT
+	right_portrait = scope:first_lord
+	
+	trigger = {
+		has_government = alliance_government
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				count = 1
+				is_available_ai_adult = yes
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			
+			save_scope_as = title
+			
+			random_elector = {
+				limit = {
+					NOT = { this = ROOT }
+				}
+				save_scope_as = first_lord
+			}
+		
+			random_election_candidate = {
+				limit = {
+					has_election_vote_of = {
+						who = ROOT
+						title = scope:title
+					}
+				}
+				save_scope_as = root_choice
+			}
+			
+			random_election_candidate = {
+				limit = {
+					has_election_vote_of = {
+						who = scope:first_lord
+						title = scope:title
+					}
+				}
+				save_scope_as = first_lord_choice
+			}
+		}
+	}
+	
+	option = { #try discrediting him and his heir/choice instead
+		name = FOD_alliance.7.a
+		
+		duel = {
+			skill = diplomacy
+			target = scope:first_lord
+			40 = {
+				desc = FOD_alliance.discredit.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3
+				}
+				send_interface_toast = {
+					title = FOD_alliance.discredit.success
+					left_icon = ROOT
+					right_icon = scope:first_lord
+					
+					add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+					gain_alliance_fame_effect = yes
+					scope:first_lord = {
+						lose_alliance_fame_effect = yes
+					}
+					scope:first_lord_choice = {
+						lose_alliance_fame_effect = yes
+					}
+				}
+			}
+			60 = {
+				desc = FOD_alliance.discredit.a.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1
+				}
+				send_interface_toast = {
+					title = FOD_alliance.discredit.failure
+					left_icon = ROOT
+					right_icon = scope:first_lord
+					
+					scope:first_lord = {
+						gain_alliance_fame_effect = yes
+					}
+					lose_alliance_fame_effect = yes
+					scope:first_lord_choice = {
+						lose_alliance_fame_effect = yes
+					}
+				}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { #try maintaining the status quo
+		name = FOD_alliance.7.b
+		
+		duel = {
+			skill = diplomacy
+			target = scope:first_lord
+			60 = {
+				desc = FOD_alliance.discredit.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3
+				}
+			}
+			40 = {
+				desc = FOD_alliance.discredit.a.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1
+				}
+				send_interface_toast = {
+					title = FOD_alliance.discredit.failure
+					left_icon = ROOT
+					right_icon = scope:first_lord
+					
+					scope:first_lord = {
+						gain_alliance_fame_effect = yes
+					}
+					lose_alliance_fame_effect = yes
+					scope:first_lord_choice = {
+						lose_alliance_fame_effect = yes
+					}
+				}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+}

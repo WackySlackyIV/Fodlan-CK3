@@ -1182,7 +1182,7 @@ crest_major_maurice = {
 crest_minor_malik = {
 	index = 445
 
-	intrigue = 2
+	learning = 2
 	fertility = 0.1
 	prowess = 5
 	
@@ -1206,7 +1206,7 @@ crest_minor_malik = {
 crest_major_malik = {
 	index = 446
 
-	intrigue = 4
+	learning = 4
 	fertility = 0.2
 	prowess = 10
 	

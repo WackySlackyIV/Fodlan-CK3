@@ -24,5 +24,6 @@ colors = {
 	deer_yellow2 	= rgb {		203	178	34	}
 	deer_brown 	= rgb {		65	61	36	}
 	moose_green	= rgb {		78	125	71	}
+	nabatean_green	= rgb {		167	216	184	}
 	brigid_purple	= rgb {		145	38	83	}
 }
