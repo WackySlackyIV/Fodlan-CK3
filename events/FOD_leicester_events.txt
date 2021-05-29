@@ -1453,13 +1453,6 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 		title:k_leicester = {
 			
 			save_scope_as = title
-			
-			random_elector = {
-				limit = {
-					NOT = { this = ROOT }
-				}
-				save_scope_as = first_lord
-			}
 		
 			random_election_candidate = {
 				limit = {
@@ -1469,6 +1462,22 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 					}
 				}
 				save_scope_as = root_choice
+			}
+
+			random_elector = {
+				limit = {
+					save_temporary_scope_as = local_lord
+					NOT = { scope:local_lord = ROOT }
+					NOT = {
+						scope:root_choice = {
+							has_election_vote_of = {
+								who = scope:local_lord
+								title = scope:title
+							}
+						}
+					}
+				}
+				save_scope_as = first_lord
 			}
 			
 			random_election_candidate = {
@@ -1574,6 +1583,62 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 		
 		ai_chance = {
 			base = 50
+		}
+	}
+}
+
+FOD_alliance.8 = { #great lord openly discredits my heir
+	type = character_event
+	hidden = yes
+	
+	trigger = {
+		has_government = alliance_government
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				count = 1
+				is_available_ai_adult = yes
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			
+			save_scope_as = title
+			
+			random_elector = {
+				limit = {
+					NOT = { this = ROOT }
+				}
+				save_scope_as = first_lord
+			}
+		
+			random_election_candidate = {
+				limit = {
+					has_election_vote_of = {
+						who = ROOT
+						title = scope:title
+					}
+				}
+				save_scope_as = root_choice
+			}
+			
+			random_election_candidate = {
+				limit = {
+					has_election_vote_of = {
+						who = scope:first_lord
+						title = scope:title
+					}
+				}
+				save_scope_as = first_lord_choice
+			}
+		}
+	}
+	
+	option = {
+		random_list = {
+			1 = { trigger_event = FOD_alliance.7  }
 		}
 	}
 }
