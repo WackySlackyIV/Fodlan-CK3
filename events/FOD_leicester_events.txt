@@ -16,7 +16,7 @@ FOD_alliance.1 = { #call alliance to war
 	}
 	
 	option = {
-		name = "FOD_alliance.1.a" #help as defender
+		name = FOD_alliance.1.a #help as defender
 		trigger = { 
 			liege = {
 				is_defender_in_war = scope:liege_war
@@ -55,7 +55,7 @@ FOD_alliance.1 = { #call alliance to war
 	}
 
 	option = {
-		name = "FOD_alliance.1.a" #help as attacker
+		name = FOD_alliance.1.a #help as attacker
 		trigger = { 
 			liege = {
 				is_attacker_in_war = scope:liege_war
@@ -104,7 +104,7 @@ FOD_alliance.1 = { #call alliance to war
 	}
 	
 	option = {
-		name = "FOD_alliance.1.b" #refuse to help
+		name = FOD_alliance.1.b #refuse to help
 		
 		ai_chance = {
 			base = 10
@@ -1445,6 +1445,10 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 			any_elector = {
 				count = 1
 				is_available_ai_adult = yes
+				NOT = { this = root }
+			}
+			any_elector = {
+				this = root
 			}
 		}
 	}
@@ -1587,17 +1591,20 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 	}
 }
 
-FOD_alliance.8 = { #great lord openly discredits my heir
+FOD_alliance.8 = { #Election candidate brawl
 	type = character_event
-	hidden = yes
+	title = FOD_alliance.8.t
+	desc = FOD_alliance.8.desc
+	theme = vassal
+	left_portrait = scope:root_choice
+	right_portrait = scope:other_choice
 	
 	trigger = {
 		has_government = alliance_government
 		is_available_adult = yes
 		title:k_leicester = {
 			any_elector = {
-				count = 1
-				is_available_ai_adult = yes
+				this = root
 			}
 		}
 	}
@@ -1606,13 +1613,6 @@ FOD_alliance.8 = { #great lord openly discredits my heir
 		title:k_leicester = {
 			
 			save_scope_as = title
-			
-			random_elector = {
-				limit = {
-					NOT = { this = ROOT }
-				}
-				save_scope_as = first_lord
-			}
 		
 			random_election_candidate = {
 				limit = {
@@ -1623,22 +1623,38 @@ FOD_alliance.8 = { #great lord openly discredits my heir
 				}
 				save_scope_as = root_choice
 			}
+
+			random_elector = {
+				limit = {
+					save_temporary_scope_as = local_lord
+					NOT = { scope:local_lord = ROOT }
+					NOT = {
+						scope:root_choice = {
+							has_election_vote_of = {
+								who = scope:local_lord
+								title = scope:title
+							}
+						}
+					}
+				}
+				save_scope_as = lord
+			}
 			
 			random_election_candidate = {
 				limit = {
 					has_election_vote_of = {
-						who = scope:first_lord
+						who = scope:lord
 						title = scope:title
 					}
 				}
-				save_scope_as = first_lord_choice
+				save_scope_as = other_choice
 			}
 		}
 	}
 	
 	option = {
-		random_list = {
-			1 = { trigger_event = FOD_alliance.7  }
-		}
+		name = FOD_alliance.8.a
+		scope:root_choice = { lose_alliance_fame_effect = yes }
+		scope:other_choice = { lose_alliance_fame_effect = yes }
 	}
 }
