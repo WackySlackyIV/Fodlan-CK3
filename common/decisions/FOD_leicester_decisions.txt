@@ -39,3 +39,50 @@ call_alliance = { #calls your "vassals" to war
 		base = 100
 	}
 }
+
+alliance_gov_switch_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = alliance_gov_switch_desc
+	
+	ai_check_interval = 36
+
+	is_shown = {
+		is_landed = yes
+		OR = {
+			has_government = feudal_government
+			has_government = clan_government
+		}
+		liege = {
+			has_government = alliance_government
+		}
+	}
+
+	is_valid = {
+		culture = culture:leicester
+		OR = {
+			prestige_level >= medium_prestige_level
+			highest_held_title_tier < tier_county
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_at_war = no
+	}
+
+	cost = {
+		prestige = medium_prestige_value
+	}
+
+	effect = {
+		change_government = alliance_government
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

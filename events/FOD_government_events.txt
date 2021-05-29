@@ -13,12 +13,21 @@ FOD_government.1 = {
 			}
 			AND = {
 				exists = liege
-				liege = { NOT = { has_government = alliance_government } }
+				NOT = { root = root.liege }
+				NOT = { any_liege_or_above = { has_title = title:k_leicester } }
 			}
 		}
 	}
 	
 	immediate = {
-		change_government = feudal_government
+		if = {
+			limit = {
+				culture_group = culture_group:mihran_group
+			}
+			change_government = clan_government
+		}
+		else = {
+			change_government = feudal_government
+		}
 	}
 }

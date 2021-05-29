@@ -4,7 +4,7 @@
  
  #governments
  alliance_government:0 "Alliance Feudalism"
- alliance_government_desc:0 "in this form of government, lords are largely independant and work together in an alliance. Feeling mostly free, disputes between eachother are far more common."
+ alliance_government_desc:0 "In this form of government, lords are largely independent and work together in an alliance. Feeling mostly free, disputes between each other are far more common."
  alliance_government_opinion:0 "Alliance Feudalism Opinion"
  
  #vassal contracts
@@ -13,7 +13,7 @@
  levy_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will give half its levies in protection of the Alliance."
  monetary_sanction:0 "Monetary Sanction"
  monetary_sanction_granted_short:0 "Sanctioned"
- monetary_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will give a quarter more taxes for the maintainance of the Alliance."
+ monetary_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will give a quarter more taxes for the maintenance of the Alliance."
  mason_sanction:0 "Mason Sanction"
  mason_sanction_granted_short:0 "Sanctioned"
  mason_sanction_granted_desc:0 "This Alliance member will be sanctioned for betraying the Alliance and will lend out its masons, engineers and construction workers for the development of the Alliance."
