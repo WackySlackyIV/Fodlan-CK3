@@ -1503,13 +1503,13 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 			skill = diplomacy
 			target = scope:first_lord
 			40 = {
-				desc = FOD_alliance.discredit.success
+				desc = FOD_alliance.7.a.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 3
 				}
 				send_interface_toast = {
-					title = FOD_alliance.discredit.success
+					title = FOD_alliance.7.a.success
 					left_icon = ROOT
 					right_icon = scope:first_lord
 					
@@ -1524,13 +1524,13 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 				}
 			}
 			60 = {
-				desc = FOD_alliance.discredit.a.failure
+				desc = FOD_alliance.7.a.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -1
 				}
 				send_interface_toast = {
-					title = FOD_alliance.discredit.failure
+					title = FOD_alliance.7.a.failure
 					left_icon = ROOT
 					right_icon = scope:first_lord
 					
@@ -1539,7 +1539,7 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 					}
 					lose_alliance_fame_effect = yes
 					scope:first_lord_choice = {
-						lose_alliance_fame_effect = yes
+						gain_alliance_fame_effect = yes
 					}
 				}
 			}
@@ -1557,20 +1557,20 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 			skill = diplomacy
 			target = scope:first_lord
 			60 = {
-				desc = FOD_alliance.discredit.success
+				desc = FOD_alliance.7.b.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 3
 				}
 			}
 			40 = {
-				desc = FOD_alliance.discredit.a.failure
+				desc = FOD_alliance.7.b.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -1
 				}
 				send_interface_toast = {
-					title = FOD_alliance.discredit.failure
+					title = FOD_alliance.7.b.failure
 					left_icon = ROOT
 					right_icon = scope:first_lord
 					
@@ -1579,7 +1579,7 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 					}
 					lose_alliance_fame_effect = yes
 					scope:first_lord_choice = {
-						lose_alliance_fame_effect = yes
+						gain_alliance_fame_effect = yes
 					}
 				}
 			}
