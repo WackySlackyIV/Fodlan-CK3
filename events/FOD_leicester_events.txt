@@ -1471,9 +1471,20 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 			random_elector = {
 				limit = {
 					save_temporary_scope_as = local_lord
-					NOT = { scope:local_lord = ROOT }
+					NOR = {
+						scope:local_lord = ROOT
+						scope:local_lord = scope:root_choice
+					}
 					NOT = {
 						scope:root_choice = {
+							has_election_vote_of = {
+								who = scope:local_lord
+								title = scope:title
+							}
+						}
+					}
+					NOT = {
+						root = {
 							has_election_vote_of = {
 								who = scope:local_lord
 								title = scope:title
@@ -1606,6 +1617,10 @@ FOD_alliance.8 = { #Election candidate brawl
 			any_elector = {
 				this = root
 			}
+			any_election_candidate = {
+				count = 2
+				NOT = { this = root }
+			}
 		}
 	}
 	
@@ -1620,32 +1635,18 @@ FOD_alliance.8 = { #Election candidate brawl
 						who = ROOT
 						title = scope:title
 					}
+					is_available_ai_adult = yes
+					NOT = { this = root }
 				}
 				save_scope_as = root_choice
 			}
-
-			random_elector = {
-				limit = {
-					save_temporary_scope_as = local_lord
-					NOT = { scope:local_lord = ROOT }
-					NOT = {
-						scope:root_choice = {
-							has_election_vote_of = {
-								who = scope:local_lord
-								title = scope:title
-							}
-						}
-					}
-				}
-				save_scope_as = lord
-			}
-			
 			random_election_candidate = {
 				limit = {
-					has_election_vote_of = {
-						who = scope:lord
-						title = scope:title
+					NOR = {
+						this = root
+						this = scope:root_choice
 					}
+					is_available_ai_adult = yes
 				}
 				save_scope_as = other_choice
 			}
@@ -1655,6 +1656,217 @@ FOD_alliance.8 = { #Election candidate brawl
 	option = {
 		name = FOD_alliance.8.a
 		scope:root_choice = { lose_alliance_fame_effect = yes }
+		random = {
+			chance = 25
+			scope:root_choice = { increase_wounds_effect = { REASON = fight } }
+		}
 		scope:other_choice = { lose_alliance_fame_effect = yes }
+		random = {
+			chance = 25
+			scope:other_choice = { increase_wounds_effect = { REASON = fight } }
+		}
+	}
+}
+
+FOD_alliance.9 = {
+	type = character_event
+	title = FOD_alliance.9.t
+	desc = FOD_alliance.9.desc
+	theme = vassal
+	left_portrait = root
+	right_portrait = scope:candidate
+	
+	trigger = {
+		has_government = alliance_government
+		is_available_adult = yes
+		title:k_leicester = {
+			any_elector = {
+				this = root
+			}
+		}
+	}
+	
+	immediate = {
+		title:k_leicester = {
+			
+			save_scope_as = title
+			
+			random_election_candidate = {
+				limit = {
+					NOT = { this = root }
+					is_available_ai_adult = yes
+				}
+				save_scope_as = candidate
+			}
+			holder = {
+				capital_barony = {
+					save_scope_as = capital
+				}
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_trait = blademaster_3 }
+				}
+				random = {
+					chance = 10
+					save_scope_value_as = {
+						name = increase_blademaster
+						value = yes
+					}
+				}
+			}
+		}
+	}
+	
+	option = { #Go chat
+		name = FOD_alliance.9.a
+		hidden_effect = {
+			add_opinion = {
+				modifier = friendliness_opinion
+				opinion = 5
+				target = scope:candidate
+			}
+		}
+		scope:candidate = {
+			add_opinion = {
+				modifier = friendliness_opinion
+				opinion = 5
+				target = root
+			}
+		}
+		random  = {
+			chance = 25
+			scope:candidate = { gain_alliance_fame_effect = yes }
+			progress_towards_friend_effect = {
+				CHARACTER = scope:candidate
+				OPINION = no
+			}
+		}
+		stress_impact = {
+			shy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 1
+			}
+			opinion_modifier = {
+				opinion_target = scope:candidate
+				multiplier = 1
+			}
+		}
+	}
+	
+	option = { #Go duel
+		name = FOD_alliance.9.b
+		duel = {
+			skill = prowess
+			target = scope:candidate
+			12 = {
+				desc = FOD_alliance.9.b.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				send_interface_toast = {
+					title = FOD_alliance.9.b.success
+					gain_alliance_fame_effect = yes
+					add_prestige = minor_prestige_gain
+					add_martial_lifestyle_xp = medium_lifestyle_xp
+				}
+				hidden_effect = {
+					if = {
+						limit = { exists = scope:increase_blademaster }
+						change_trait_rank = {
+							trait = lifestyle_blademaster
+							rank = 1
+						}
+					}
+				}
+			}
+			10 = {
+				desc = FOD_alliance.9.b.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.5
+				}
+				send_interface_toast = {
+					title = FOD_alliance.9.b.failure
+					scope:candidate = { gain_alliance_fame_effect = yes }
+					scope:candidate = { add_prestige = minor_prestige_gain }
+				}
+			}
+		}
+		stress_impact = {
+			craven = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 1
+			}
+		}
+	}
+	
+	option = { #Go sabotage
+		name = FOD_alliance.9.c
+		duel = {
+			skill = intrigue
+			target = scope:candidate
+			12 = {
+				desc = FOD_alliance.9.c.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				send_interface_toast = {
+					title = FOD_alliance.9.c.success
+					scope:candidate = { lose_alliance_fame_effect = yes }
+					add_intrigue_lifestyle_xp = medium_lifestyle_xp
+				}
+			}
+			10 = {
+				desc = FOD_alliance.9.c.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.5
+				}
+				send_interface_toast = {
+					title = FOD_alliance.9.c.failure
+					add_prestige = medium_prestige_loss
+					scope:candidate = {
+						add_opinion = {
+							target = root
+							modifier = angry_opinion
+							opinion = -20
+						}
+					}
+				}
+			}
+		}
+		random = {
+			chance = 25
+			progress_towards_rival_effect = {
+				CHARACTER = scope:candidate
+				OPINION = no
+			}
+		}
+		stress_impact = {
+			honest = medium_stress_impact_gain
+			compassionate = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_honor = -0.5
+				ai_compassion = -0.5
+			}
+			opinion_modifier = {
+				opinion_target = scope:candidate
+				multiplier = -1
+			}
+		}
 	}
 }

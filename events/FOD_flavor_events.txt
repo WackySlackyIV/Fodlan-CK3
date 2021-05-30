@@ -131,6 +131,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.perfect
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = perfect_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -148,6 +154,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.nice
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = nice_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -161,6 +173,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.poor
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = poor_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -182,6 +200,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.perfect
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = perfect_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -199,6 +223,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.nice
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = nice_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -212,6 +242,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.poor
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = poor_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -233,6 +269,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.perfect
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = perfect_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -250,6 +292,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.nice
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = nice_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -263,6 +311,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.poor
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = poor_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -284,6 +338,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.perfect
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = perfect_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -301,6 +361,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.nice
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = nice_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -314,6 +380,12 @@ FOD_flavor.2 = { #Teatime four options event
 						title = FOD_flavor.2.poor
 						left_icon = scope:teamate
 						
+						hidden_effect = {
+							add_opinion = {
+								target = scope:teamate
+								modifier = poor_teatime_opinion
+							}
+						}
 						scope:teamate = {
 							add_opinion = {
 								target = root
@@ -742,6 +814,18 @@ FOD_flavor.4 = { #Sharing meal with courtiers
 					left_icon = scope:first_courtier
 					right_icon = scope:second_courtier
 					
+					hidden_effect = {
+						add_opinion = {
+							modifier = friendliness_opinion
+							opinion = 5
+							target = scope:second_courtier
+						}
+						add_opinion = {
+							modifier = friendliness_opinion
+							opinion = 5
+							target = scope:first_courtier
+						}
+					}
 					scope:first_courtier = {
 						add_opinion = {
 							modifier = friendliness_opinion
@@ -783,6 +867,18 @@ FOD_flavor.4 = { #Sharing meal with courtiers
 			right_icon = scope:second_courtier
 			
 			remove_short_term_gold = minor_gold_value
+			hidden_effect = {
+				add_opinion = {
+					modifier = friendliness_opinion
+					opinion = 5
+					target = scope:second_courtier
+				}
+				add_opinion = {
+					modifier = friendliness_opinion
+					opinion = 5
+					target = scope:first_courtier
+				}
+			}
 			scope:first_courtier = {
 				add_opinion = {
 					modifier = friendliness_opinion
