@@ -1,4 +1,4 @@
-call_alliance = { #calls your "vassals" to war
+﻿call_alliance = { #calls your "vassals" to war
 	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
 	major = yes
 	desc = call_alliance_desc

@@ -1,4 +1,4 @@
-gain_alliance_fame_effect = {
+﻿gain_alliance_fame_effect = {
 	if = {
 		limit = {
 			has_character_modifier = promoted_candidate_2

@@ -1,4 +1,4 @@
-namespace = FOD_government
+﻿namespace = FOD_government
 
 FOD_government.1 = {
 	type = character_event

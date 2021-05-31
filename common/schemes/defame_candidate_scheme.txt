@@ -1,4 +1,4 @@
-defame_candidate = { #scheme to decrease your target's chance in an election, mostly mirrored from promote_candidate but intrigue focused
+﻿defame_candidate = { #scheme to decrease your target's chance in an election, mostly mirrored from promote_candidate but intrigue focused
 	
 	skill = intrigue
 

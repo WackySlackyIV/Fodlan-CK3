@@ -255,7 +255,7 @@
 	learning=5
 	health = 6
 	prowess = 8
-	stress = 200 #It ShOuLd WoRk
+	#stress = 200 #It ShOuLd WoRk
 
 	trait = chaste
 	trait = temperate
@@ -697,7 +697,7 @@
 	trait = arrogant
 
 	trait = education_stewardship_3
-	trait = possessed
+	trait = possessed_1
 	trait = pure_blooded
 	trait = disinherited
 
@@ -812,11 +812,11 @@
 		birth=yes
 		employer = 100000
 	}
-	1170.1.1 = {
-		effect = {
-			give_minor_title = title_cardinal
-		}
-	}
+	#1170.1.1 = {
+	#	effect = {
+	#		give_minor_title = title_cardinal
+	#	}
+	#}
 	1181.1.1 = {
 		effect = {
 			#set_character_flag = spell_reason_fire

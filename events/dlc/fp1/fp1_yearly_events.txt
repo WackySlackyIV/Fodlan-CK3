@@ -1,1 +1,1420 @@
-﻿
+﻿namespace = fp1_yearly
+
+##################################################
+#
+# #Flavour Yearlies
+# 0521 - 0530	Blood on the Snow - your child wishes to snowball fight.
+# 0531 - 0540	[Dynasty] on Ice - your child wants to learn how to ice skate.
+# 0651 - 0660	Leviathan - you spot a whale whilst sailing.
+# 0661 - 0670	A Novel Challenge - a knight challenges you to skiing.
+# 0671 - 0680	A Slippery Slope - your child wants to go sledding.
+##################################################
+
+##################################################
+# FLAVOUR YEARLIES
+
+##################################################
+# FLAVOUR YEARLIES EFFECTS
+
+scripted_effect fp1_pick_outdoorsy_child_for_winter_effect = {
+	random_child = {
+		# Try to pick an outdoorsy child first.
+		limit = {
+			child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+			OR = {
+				childhood_loud_child_trigger = yes
+				childhood_nice_child_trigger = yes
+			}
+		}
+		# Otherwise, any is good.
+		alternative_limit = {
+			child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+		}
+		save_scope_as = child
+	}
+}
+
+##################################################
+# Blood on the Snow
+# by Ewan Cowhig Croft
+# 0521 - 0530
+##################################################
+
+#	Your child challenges your mastery of snowball warfare.
+fp1_yearly.0521 = {
+	type = character_event
+	title = fp1_yearly.0521.t
+	desc = fp1_yearly.0521.desc
+	theme = war
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:child
+		animation = personality_bold
+	}
+	override_background = { event_background = market }
+
+	trigger = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Standard checks.
+		is_available_even_at_war_adult = yes
+		NOT = { has_character_flag = had_event_fp1_yearly_0521 }
+		is_landed = yes
+		# Must have at least one suitable child.
+		any_child = {
+			child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+		}
+		# Gotta have snow in the capital.
+		character_capital_has_winter_trigger = yes
+	}
+
+	weight_multiplier = {
+		base = 1
+
+		# Weight up for outdoorsy kids.
+		modifier = {
+			add = 1
+			any_child = { childhood_loud_child_trigger = yes }
+		}
+		modifier = {
+			add = 1
+			any_child = { childhood_nice_child_trigger = yes }
+		}
+
+		# Weight according to winter scale.
+		character_capital_has_snow_suitable_for_activities = { CHARACTER = root }
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_war_declared"
+		add_character_flag = {
+			flag = had_event_fp1_yearly_0521
+			days = 1825
+		}
+		# Designate a suitable child.
+		fp1_pick_outdoorsy_child_for_winter_effect = yes
+	}
+
+	# Good shot! Come here y'little rascal!
+	option = {
+		name = fp1_yearly.0521.a
+
+		# You get into a friendly snowball fight.
+		custom_tooltip = fp1_yearly.0521.a.tt
+		# Gain some opinion with them.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = love_opinion
+			opinion = 20
+		}
+
+		stress_impact = {
+			gregarious = minor_stress_impact_loss
+			forgiving = minor_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_energy = 0.25
+				ai_vengefulness = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = vengeful
+			}
+		}
+	}
+	
+	# Throw a match against them.
+	option = {
+		name = fp1_yearly.0521.b
+
+		# You take a dive.
+		custom_tooltip = fp1_yearly.0521.b.tt
+		# Gain more opinion.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = love_opinion
+			opinion = 40
+		}
+		# But lose a little prestige.
+		add_prestige = minor_prestige_loss
+
+		stress_impact = {
+			forgiving = minor_stress_impact_loss
+			humble = minor_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_sociability = 0.25
+				ai_honor = -0.1
+				ai_vengefulness = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = humble
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = vengeful
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = arrogant
+			}
+		}
+	}
+	
+	# Beat them into the ground with superior martial know-how.
+	option = {
+		name = fp1_yearly.0521.c
+		# If you've got berserker, you flip out when taking things too seriously instead.
+		trigger = {
+			NOR = {
+				has_trait = berserker
+				has_trait = strategist
+			}
+		}
+
+		# Confirm to the player.
+		custom_tooltip = fp1_yearly.0521.c.tt
+		# Sure would be embarrassing if you lost this snowball fight your voluntarily taking too seriously, amirite?
+		duel = {
+			skill = martial
+			target = scope:child
+			# You successfully beat the child.
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0521.c.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0521.c.tt_success
+					left_icon = scope:child
+					# Minor prestige for uhh... your ruthlessness?
+					add_prestige = minor_prestige_gain
+					# Scope:child is a bit upset.
+					reverse_add_opinion = {
+						target = scope:child
+						modifier = disappointed_opinion
+						opinion = -30
+					}
+				}
+			}
+			# Scope:child trounces you.
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0521.c.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0521.c.tt_failure
+					left_icon = scope:child
+					# Clearly you're taking this *way* too seriously.
+					reverse_add_opinion = {
+						target = scope:child
+						modifier = respect_opinion
+						opinion = -40
+					}
+				}
+			}
+		}
+
+		stress_impact = {
+			vengeful = medium_stress_impact_loss
+			arrogant = medium_stress_impact_loss
+			forgiving = medium_stress_impact_gain
+			humble = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.5
+				ai_sociability = 0.25
+				ai_honor = 0.1
+				ai_compassion = -0.75
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = vengeful
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = arrogant
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = humble
+			}
+		}
+	}
+
+	# (Strategist) Insta-beat 'em.
+	option = {
+		name = fp1_yearly.0521.d
+		trigger = {
+			has_trait = strategist
+			NOT = { has_trait = berserker }
+		}
+		trait = strategist
+
+		# Confirm to the player.
+		custom_tooltip = fp1_yearly.0521.d.tt
+		# Minor prestige for uhh... your ruthlessness?
+		add_prestige = minor_prestige_gain
+		# Scope:child is a bit awed.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = respect_opinion
+			opinion = 20
+		}
+
+		stress_impact = {
+			vengeful = medium_stress_impact_loss
+			arrogant = medium_stress_impact_loss
+			forgiving = medium_stress_impact_gain
+			humble = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.5
+				ai_sociability = 0.25
+				ai_honor = 0.1
+				ai_compassion = -0.75
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = vengeful
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = arrogant
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = humble
+			}
+		}
+	}
+
+	# Don't bother parent whilst they're working. Run along.
+	option = {
+		name = fp1_yearly.0521.f
+
+		# Welp, that's that dealt with.
+		add_stress = minor_stress_loss
+		# Scope:child is mildly hurt.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = hurt_opinion
+			opinion = -10
+		}
+
+		# Too gentle a response to give stress, to be honest.
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = -0.25
+				ai_energy = -0.5
+				ai_sociability = -0.75
+			}
+		}
+	}
+}
+
+##################################################
+# [Dynasty] on Ice
+# by Ewan Cowhig Croft
+# 0531 - 0540
+##################################################
+
+scripted_trigger fp1_child_not_had_decisive_skating_lessons_trigger = {
+	NOR = {
+		has_character_flag = child_had_event_fp1_yearly_0531
+		has_character_modifier = fp1_avoiding_the_snow_modifier
+	}
+}
+
+#	Teaching your Child to Ice Skate
+fp1_yearly.0531 = {
+	type = character_event
+	title = fp1_yearly.0531.t
+	desc = fp1_yearly.0531.desc
+	theme = education
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+	right_portrait = {
+		character = scope:child
+		animation = shame
+	}
+	override_background = { event_background = courtyard }
+
+	trigger = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Standard checks.
+		is_available_even_at_war_adult = yes
+		NOT = { has_character_flag = had_event_fp1_yearly_0531 }
+		is_landed = yes
+		# Must be a suitable culture.
+		#culture_uses_frequent_winter_transportation_trigger = yes
+		# Must have at least one suitable child.
+		any_child = {
+			child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+			# Can't have successfully learnt/been encouraged away from already.
+			fp1_child_not_had_decisive_skating_lessons_trigger = yes
+		}
+		# Gotta have snow in the capital.
+		character_capital_has_winter_trigger = yes
+	}
+
+	weight_multiplier = {
+		base = 1
+		
+		# Weight up for outdoorsy kids.
+		modifier = {
+			add = 1
+			any_child = { childhood_loud_child_trigger = yes }
+		}
+		modifier = {
+			add = 1
+			any_child = { childhood_nice_child_trigger = yes }
+		}
+
+		# Weight according to winter scale.
+		character_capital_has_snow_suitable_for_activities = { CHARACTER = root }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_event_fp1_yearly_0531
+			days = 1825
+		}
+		# Pick a suitable child; this is a slightly modified fp1_pick_outdoorsy_child_for_winter, as we need to filter out a few things.
+		random_child = {
+			# Try to pick an outdoorsy child first.
+			limit = {
+				child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+				OR = {
+					has_trait = rowdy
+					childhood_loud_child_trigger = yes
+					childhood_nice_child_trigger = yes
+				}
+				# Can't have successfully learnt/been encouraged away from already.
+				fp1_child_not_had_decisive_skating_lessons_trigger = yes
+			}
+			# Otherwise, any is good.
+			alternative_limit = {
+				child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+				# Can't have successfully learnt/been encouraged away from already.
+				fp1_child_not_had_decisive_skating_lessons_trigger = yes
+			}
+			save_scope_as = child
+		}
+	}
+
+	# It's easy! Alright, you can watch me...
+	option = {
+		name = fp1_yearly.0531.a
+
+		duel = {
+			skill = diplomacy
+			value = 10
+			# You successfully explain what's up to scope:child.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0531.a.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0531.a.tt_success
+					left_icon = scope:child
+					scope:child = {
+						# Gain some opinion with them.
+						add_opinion = {
+							target = root
+							modifier = love_opinion
+							opinion = 20
+						}
+						# And this boosts their confidence & balance.
+						add_prowess_skill = medium_skill_bonus
+						add_diplomacy_skill = medium_skill_bonus
+						# Flag them as having learnt and not needing to learn again.
+						add_character_flag = {
+							flag = child_had_event_fp1_yearly_0531
+							years = 20
+						}
+					}
+				}
+			}
+			# You just frustrate them further.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0531.a.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0531.a.tt_failure
+					left_icon = scope:child
+					# They grow frustrated.
+					reverse_add_opinion = {
+						target = scope:child
+						modifier = respect_opinion
+						opinion = -20
+					}
+					scope:child = { add_stress = major_stress_gain }
+				}
+			}
+		}
+
+		stress_impact = {
+			diligent = minor_stress_impact_loss
+			lazy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_energy = 0.5
+				ai_compassion = 0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = diligent
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = lazy
+			}
+		}
+	}
+	
+	# Don't we have maids for you to pester?
+	option = {
+		name = fp1_yearly.0531.b
+
+		# You focus on your work.
+		add_character_modifier = {
+			modifier = fp1_focusing_on_rule_modifier
+			years = 10
+		}
+		# They grow frustrated.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = hurt_opinion
+			opinion = -40
+		}
+		# And will remember this in later life.
+		hidden_effect = {
+			if = {
+				limit = {
+					can_set_relation_potential_rival_trigger = { CHARACTER = scope:child }
+				}
+				set_relation_potential_rival = scope:child
+			}
+		}
+
+		stress_impact = {
+			callous = minor_stress_impact_loss
+			lazy = major_stress_impact_loss
+			compassionate = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = -0.25
+				ai_energy = -0.5
+				ai_sociability = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = callous
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = lazy
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = compassionate
+			}
+		}
+	}
+	
+	# Play indoors, you'll catch the cold.
+	option = {
+		name = fp1_yearly.0531.c
+
+		# Your advice is taken.
+		scope:child = {
+			add_character_modifier = {
+				modifier = fp1_avoiding_the_snow_modifier
+				years = 10
+			}
+		}
+		# They're a tad bummed though.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = disappointed_opinion
+			opinion = -20
+		}
+
+		stress_impact = {
+			cynical = minor_stress_impact_loss
+			paranoid = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.25
+				ai_boldness = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = cynical
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = paranoid
+			}
+		}
+	}
+}
+
+##################################################
+# Leviathan
+# by Ewan Cowhig Croft
+# 0651 - 0660
+##################################################
+
+#	You're out sailing when you spot a whale.
+fp1_yearly.0651 = {
+	type = character_event
+	title = fp1_yearly.0651.t
+	desc = fp1_yearly.0651.desc
+	theme = hunt_activity
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	override_background = { event_background = fp1_ocean }
+
+	trigger = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Standard checks.
+		is_available_even_at_war_adult = yes
+		NOT = { has_character_flag = had_event_fp1_yearly_0651 }
+		is_landed = yes
+		# Must have a coastal capital.
+		capital_county = { is_coastal_county = yes }
+	}
+
+	weight_multiplier = {
+		base = 1
+		
+		# Adventurers spend more time at sea. Also probably.
+		modifier = {
+			add = 1
+			has_trait = adventurer
+		}
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_event_fp1_yearly_0651
+			years = 50
+		}
+	}
+
+	# Static gold is used rather than dynamic throughout this event. This is to account for whale value not adjusting with your scale (even if it probably should with region): a gold mine for a poor tribal is a month's tax for a highly developed king.
+
+	# Get the harpoons!
+	option = {
+		name = fp1_yearly.0651.a
+
+		# Prowess challenge to slaughter the whale.
+		duel = {
+			skill = prowess
+			value = decent_skill_rating
+			# You haul the whale to shore and butcher it.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0651.a.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0651.a.tt_success
+					left_icon = root
+					# Per the comment below the immediate block, the static gold is deliberate.
+					add_gold = 100
+				}
+			}
+			# The beast escapes you.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0651.a.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0651.a.tt_failure
+					left_icon = root
+					add_prestige = minor_prestige_loss
+				}
+			}
+		}
+
+		stress_impact = {
+			vengeful = miniscule_stress_impact_loss	# From Hell's Heart I stab at thee, etc.
+			brave = major_stress_impact_loss
+			craven = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 0.5
+				ai_energy = 0.5
+				ai_compassion = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 5
+				has_trait = vengeful
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = brave
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+	
+	# Just bring me the carcass.
+	option = {
+		name = fp1_yearly.0651.b
+
+		# Gain some minor gold.
+		## Per the comment below the immediate block, the static gold is deliberate.
+		add_gold = 50
+
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			generous = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = -0.25
+				ai_energy = -0.25
+				ai_compassion = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = greedy
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = generous
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = compassionate
+			}
+		}
+	}
+	
+	# (Hunter) A *grand* quarry!
+	option = {
+		name = fp1_yearly.0651.c
+		trigger = { has_trait = lifestyle_hunter }
+		trait = hunter_1
+		trait = hunter_2
+		trait = hunter_3
+
+		# You face a *true* leviathan.
+		custom_tooltip = fp1_yearly.0651.c.tt
+		# More difficult prowess challenge for greater rewards.
+		duel = {
+			skill = prowess
+			value = very_high_skill_rating
+			# You haul the whale to shore and butcher it.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0651.c.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0651.c.tt_success
+					left_icon = root
+					# Per the comment below the immediate block, the static gold is deliberate.
+					add_gold = 300
+				}
+			}
+			# The beast escapes you.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0651.c.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0651.c.tt_failure
+					left_icon = root
+					increase_wounds_effect = { REASON = hunting_accident }
+					add_prestige = minor_prestige_loss
+				}
+			}
+		}
+
+		stress_impact = {
+			vengeful = miniscule_stress_impact_loss	# From Hell's Heart I stab at thee, etc.
+			brave = major_stress_impact_loss
+			craven = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 0.75
+				ai_energy = 0.75
+				ai_compassion = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 5
+				has_trait = vengeful
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = brave
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = craven
+			}
+		}
+	}
+
+	# A creature of fearsome majesty, leave it.
+	option = {
+		name = fp1_yearly.0651.d
+
+		# The whale goes free.
+		custom_tooltip = fp1_yearly.0651.d.tt
+		# You gain a little prestige for your kindness.
+		add_prestige = minor_prestige_gain
+
+		stress_impact = {
+			generous = minor_stress_impact_loss
+			compassionate = medium_stress_impact_loss
+			craven = major_stress_impact_loss
+			greedy = medium_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+			brave = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_boldness = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = generous
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = compassionate
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = craven
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = greedy
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = sadistic
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = brave
+			}
+		}
+	}
+}
+
+##################################################
+# A Novel Challenge
+# by Ewan Cowhig Croft
+# 0661 - 0670
+##################################################
+
+scripted_trigger fp1_0661_knight_appropriate_for_skiing_trigger = {
+	# Has to be around.
+	is_available_ai_adult = yes
+	# And in the capital.
+	location = root.location
+	# And have no disqualifying traits.
+	NOR = {
+		# Personality blockers.
+		has_trait = shy
+		has_trait = lazy
+		has_trait = humble
+		has_trait = craven
+		# Not that it's impossible, just unlikely for the period & tech level.
+		has_trait = one_legged
+	}
+	# Finally, no negative relationship with root.
+	has_any_bad_relationship_with_root_trigger = no
+}
+
+#	One of your knights challenges you to skiing.
+fp1_yearly.0661 = {
+	type = character_event
+	title = fp1_yearly.0661.t
+	desc = fp1_yearly.0661.desc
+	theme = friendly
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:knight
+		animation = personality_bold
+	}
+	override_background = { event_background = feast }
+
+	trigger = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Standard checks.
+		is_available_at_peace_adult = yes
+		NOT = { has_character_flag = had_event_fp1_yearly_0661 }
+		is_landed = yes
+		# Must be a suitable culture.
+		#culture_uses_frequent_winter_transportation_trigger = yes
+		# Gotta have snow in the capital.
+		character_capital_has_winter_trigger = yes
+		# And have an available knight.
+		any_knight = { fp1_0661_knight_appropriate_for_skiing_trigger = yes }
+	}
+
+	weight_multiplier = {
+		base = 1
+
+		# Weight according to winter scale.
+		character_capital_has_snow_suitable_for_activities = { CHARACTER = root }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_event_fp1_yearly_0661
+			days = 1825
+		}
+		# Grab an appropriate knight.
+		random_knight = {
+			limit = { fp1_0661_knight_appropriate_for_skiing_trigger = yes }
+			save_scope_as = knight
+		}
+	}
+
+	# How unusual! I accept!
+	option = {
+		name = fp1_yearly.0661.a
+
+		# Prowess duel vs. scope:knight.
+		duel = {
+			skill = prowess
+			target = scope:knight
+			# It's close, but you win!
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0661.a.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0661.a.tt_success
+					left_icon = scope:knight
+					add_prestige = minor_prestige_gain
+					progress_towards_friend_effect = {
+						CHARACTER = scope:knight
+						OPINION = 30
+					}
+				}
+			}
+			# Scope:knight skids to victory.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0661.a.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0661.a.tt_failure
+					left_icon = scope:knight
+					add_prestige = minor_prestige_loss
+					progress_towards_friend_effect = {
+						CHARACTER = scope:knight
+						OPINION = 10
+					}
+				}
+			}
+		}
+
+		stress_impact = {
+			brave = medium_stress_impact_loss
+			craven = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_energy = 0.5	
+				ai_boldness = 0.5	
+				ai_honor = 0.5
+				ai_sociability = 0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = brave
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = craven
+			}
+		}
+	}
+
+	# Hobble the competition, then race.
+	option = {
+		name = fp1_yearly.0661.b
+
+		# Intrigue duel vs. scope:knight.
+		duel = {
+			skill = intrigue
+			target = scope:knight
+			# My, what an *effortless* win you have there.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = fp1_yearly.0661.b.tt_success
+				send_interface_toast = {
+					title = fp1_yearly.0661.b.tt_success
+					left_icon = scope:knight
+					add_prestige = medium_prestige_gain
+					reverse_add_opinion = {
+						target = scope:knight
+						modifier = suspicion_opinion
+						opinion = -5
+					}
+				}
+			}
+			# Scope:knight discovers you in the act.
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = fp1_yearly.0661.b.tt_failure
+				send_interface_toast = {	
+					title = fp1_yearly.0661.b.tt_failure
+					left_icon = scope:knight
+					add_prestige = medium_prestige_loss
+					progress_towards_rival_effect = {
+						CHARACTER = scope:knight
+						OPINION = -40
+					}
+				}
+			}
+		}
+
+		stress_impact = {
+			arbitrary = minor_stress_impact_loss
+			deceitful = medium_stress_impact_loss
+			just = minor_stress_impact_gain
+			honest = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_energy = 0.5	
+				ai_boldness = 0.5	
+				ai_sociability = 0.25
+				ai_honor = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = arbitrary
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = deceitful
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = just
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = honest
+			}
+		}
+	}
+	
+	# *Competitive* skiing? With no hunting? Get lost.
+	option = {
+		name = fp1_yearly.0661.c
+
+		# Some minor opt-out prestige.
+		add_prestige = miniscule_prestige_gain
+		# You upset scope:knight a bit, though.
+		reverse_add_opinion = {
+			target = scope:knight
+			modifier = disappointed_opinion
+			opinion = -10
+		}
+
+		stress_impact = {
+			lazy = minor_stress_impact_loss
+			craven = minor_stress_impact_loss
+			hunter_1 = medium_stress_impact_loss
+			hunter_2 = medium_stress_impact_loss
+			hunter_3 = medium_stress_impact_loss
+			brave = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = -0.25
+				ai_boldness = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = lazy
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = craven
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = lifestyle_hunter
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = brave
+			}
+		}
+	}
+}
+
+##################################################
+# A Slippery Slope
+# by Ewan Cowhig Croft
+# 0671 - 0680
+##################################################
+
+scripted_trigger fp1_0671_available_older_sibling_trigger = {
+	NOT = { this = scope:child }
+	child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+	# Should be older than scope:child.
+	age > scope:child.age
+	# Mustn't have a terribly negative relationship with scope:child.
+	NOT = {
+		has_any_bad_relationship_with_character_trigger = { CHARACTER = scope:child }
+	}
+	opinion = {
+		target = scope:child
+		value >= medium_negative_opinion
+	}
+}
+
+#	Your child wants you to go sledding with them.
+fp1_yearly.0671 = {
+	type = character_event
+	title = fp1_yearly.0671.t
+	desc = fp1_yearly.0671.desc
+	theme = family
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:child
+		animation = admiration
+	}
+	lower_right_portrait = scope:sibling
+	override_background = { event_background = bedchamber }
+
+	trigger = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Standard checks.
+		is_available_even_at_war_adult = yes
+		NOT = { has_character_flag = had_event_fp1_yearly_0671 }
+		is_landed = yes
+		# Gotta have snow in the capital.
+		character_capital_has_winter_trigger = yes
+		# And an available child.
+		any_child = {
+			child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		
+		# Weight according to winter scale.
+		character_capital_has_snow_suitable_for_activities = { CHARACTER = root }
+	}
+
+	immediate = {
+		add_character_flag = {
+			flag = had_event_fp1_yearly_0671
+			days = 1825
+		}
+		# Grab a suitable child.
+		random_child = {
+			limit = {
+				child_suitable_to_play_with_character_one_sided = { CHARACTER = root }
+			}
+			save_scope_as = child
+		}
+		# If there's a suitable sibling, nab them for later.
+		if = {
+			limit = {
+				any_child = { fp1_0671_available_older_sibling_trigger = yes }
+			}
+			random_child = {
+				limit = { fp1_0671_available_older_sibling_trigger = yes }
+				save_scope_as = sibling
+			}
+		}
+		add_character_flag = {
+			flag = use_sickness_clothes
+			days = 1
+		}
+	}
+
+	# (Strong/Physique_Good) Hah, let me just haul this table out for us!
+	option = {
+		name = fp1_yearly.0671.a
+		trigger = {
+			OR = {
+				has_trait = strong
+				has_trait = physique_good
+			}
+		}
+		trait = strong
+		trait = physique_good_1
+		trait = physique_good_2
+		trait = physique_good_3
+
+		# Gain huge opinion boost with scope:child.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = love_opinion
+			opinion = 50
+		}
+		# Grow closer to becoming friends with scope:child, if possible.
+		progress_towards_friend_effect = {
+			CHARACTER = scope:child
+			OPINION = no
+		}
+
+		stress_impact = {
+			gregarious = minor_stress_impact_loss
+			diligent = minor_stress_impact_loss
+			lazy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_energy = 0.5
+				ai_sociability = 0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = diligent
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = lazy
+			}
+		}
+	}
+	
+	# Come on, let's get a tray from the kitchen.
+	option = {
+		name = fp1_yearly.0671.b
+		trigger = {
+			NOR = {
+				has_trait = strong
+				has_trait = physique_good
+			}
+		}
+
+		# Gain large opinion boost with scope:child.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = love_opinion
+			opinion = 25
+		}
+
+		stress_impact = {
+			gregarious = minor_stress_impact_loss
+			diligent = minor_stress_impact_loss
+			lazy = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_energy = 0.5
+				ai_sociability = 0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = diligent
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = lazy
+			}
+		}
+	}
+	
+	# Go ask your [sibling].
+	option = {
+		name = fp1_yearly.0671.c
+		trigger = { exists = scope:sibling }
+
+		# Scope:child & scope:sibling both gain opinion of each other.
+		scope:child = {
+			progress_towards_friend_effect = {
+				CHARACTER = scope:sibling
+				OPINION = 30
+			}
+		}
+
+		# Quite a mild response, so no stress involved.
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_energy = -0.25
+				ai_sociability = -0.25
+			}
+		}
+	}
+
+	# Away with you, I'm busy.
+	option = {
+		name = fp1_yearly.0671.d
+
+		# Lose stress.
+		## Stress loss handled in stress_impact.
+		# But also opinion with scope:child.
+		reverse_add_opinion = {
+			target = scope:child
+			modifier = disappointed_opinion
+			opinion = -20
+		}
+
+		stress_impact = {
+			base = major_stress_loss
+			lazy = minor_stress_impact_loss
+			callous = minor_stress_impact_loss
+			compassionate = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = -0.25
+				ai_sociability = -0.25
+				ai_energy = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = lazy
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = callous
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = compassionate
+			}
+		}
+	}
+
+	# Get out of your pajamas.
+	after = { remove_character_flag = use_sickness_clothes }
+}

@@ -1,4 +1,4 @@
-promote_candidate = { #scheme to increase your target's chance in an election
+﻿promote_candidate = { #scheme to increase your target's chance in an election
 	
 	skill = diplomacy
 

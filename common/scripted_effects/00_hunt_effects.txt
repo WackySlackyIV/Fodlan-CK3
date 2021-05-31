@@ -140,11 +140,6 @@ big_animal_effect = {
 				}
 			}
 			5 = {
-				# not in africa
-				modifier = {
-					factor = 0
-					location = { geographical_region = world_africa }
-				}
 				set_variable = {
 					name = local_animal
 					value = flag:bear
@@ -208,11 +203,6 @@ dangerous_animal_effect = {
 				}
 			}
 			10 = {
-				# not in africa
-				modifier = {
-					factor = 0
-					location = { geographical_region = world_africa }
-				}
 				set_variable = {
 					name = local_animal
 					value = flag:bear

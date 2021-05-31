@@ -217,17 +217,6 @@
 			}
 		}
 
-		# Stem Duchies innovation
-		modifier = {
-			add = -25
-			scope:target = {
-				culture = {
-					has_innovation = innovation_stem_duchies
-				}
-			}
-			culture_group = scope:target.culture_group
-		}
-
 		# +25 join chance per sin, -25 join chance per virtue
 		legalism_virtue_and_sin_modifier = {
 			TARGET = scope:target
@@ -365,17 +354,6 @@
 			scope:faction.faction_target = {
 				has_perk = toe_the_line_perk
 			}
-		}
-
-		# Stem Duchies innovation
-		modifier = {
-			add = -25
-			scope:faction.faction_target = {
-				culture = {
-					has_innovation = innovation_stem_duchies
-				}
-			}
-			culture_group = scope:faction.faction_target.culture_group
 		}
 
 		# +25 join chance per sin, -25 join chance per virtue

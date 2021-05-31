@@ -3480,5 +3480,3 @@ elector_voting_pattern_alliance_elective_modifier = {
 		}
 	}
 }
-}
-					

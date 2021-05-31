@@ -1,0 +1,15 @@
+﻿##################################################
+# Winter Triggers
+county_has_winter_trigger = {
+	title_province = {
+		OR = {
+			has_province_modifier = winter_mild_modifier
+			has_province_modifier = winter_normal_modifier
+			has_province_modifier = winter_harsh_modifier
+		}
+	}
+}
+
+character_capital_has_winter_trigger = {
+	capital_county = { county_has_winter_trigger = yes }
+}

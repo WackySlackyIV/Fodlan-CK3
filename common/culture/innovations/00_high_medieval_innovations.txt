@@ -100,7 +100,7 @@ innovation_advanced_bowmaking = {
 	culture_era = culture_era_high_medieval
 	icon = @weapons_and_armor_01
 
-	unlock_maa = crossbowmen
+	#unlock_maa = crossbowmen
 	maa_upgrade = {
 		type = archers
 		damage = 3

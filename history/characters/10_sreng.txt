@@ -1,4 +1,4 @@
-1000000 = {
+﻿1000000 = {
 	name="Macuil"
 	religion="macuilite"
 	culture="high_fodlan"

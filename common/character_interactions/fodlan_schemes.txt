@@ -1,4 +1,4 @@
-start_promotion_interaction = {
+﻿start_promotion_interaction = {
 	common_interaction = yes
 	interface_priority = 90
 	category = interaction_category_alliance
