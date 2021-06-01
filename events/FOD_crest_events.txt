@@ -1812,6 +1812,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 	option = {
 		if = { #FODLAN
 			limit = {
+				exists = dynasty
 				dynasty = { any_dynasty_member = { has_crest_potential = yes } }
 				has_culture_group = culture_group:fodlan_group
 			}
