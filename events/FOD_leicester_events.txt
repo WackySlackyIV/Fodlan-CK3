@@ -51,6 +51,30 @@ FOD_alliance.1 = { #call alliance to war
 					value >= 50
 				}
 			}
+			
+			modifier = {
+				add = {
+					add = 0
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = promoted_candidate_1 }
+						}
+						add = 10
+					}
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = promoted_candidate_2 }
+						}
+						add = 20
+					}
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = promoted_candidate_3 }
+						}
+						add = 30
+					}
+				}
+			}
 		}
 	}
 
@@ -100,6 +124,30 @@ FOD_alliance.1 = { #call alliance to war
 					has_trait = education_martial
 				}
 			}
+			
+			modifier = {
+				add = {
+					add = 0
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = promoted_candidate_1 }
+						}
+						add = 10
+					}
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = promoted_candidate_2 }
+						}
+						add = 20
+					}
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = promoted_candidate_3 }
+						}
+						add = 30
+					}
+				}
+			}
 		}
 	}
 	
@@ -140,6 +188,30 @@ FOD_alliance.1 = { #call alliance to war
 				opinion = {
 					target = liege
 					value <= 0
+				}
+			}
+			
+			modifier = {
+				add = {
+					add = 0
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = defamed_candidate_1 }
+						}
+						add = 10
+					}
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = defamed_candidate_2 }
+						}
+						add = 20
+					}
+					if = {
+						limit = {
+							scope:liege_desc = { has_character_modifier = defamed_candidate_3 }
+						}
+						add = 30
+					}
 				}
 			}
 		}

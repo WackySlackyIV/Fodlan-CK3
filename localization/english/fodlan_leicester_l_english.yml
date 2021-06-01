@@ -15,6 +15,8 @@
  call_alliance_confirm:0 "Call On The Alliance"
  call_alliance_tooltip:0 "Call on the alliance"
  call_alliance.tt:0 "Send Messengers to the lords of the alliance to call them to war."
+ called_the_alliance:0 "Called The Alliance To War"
+ called_the_alliance_desc:0 "This character has called the Leicester Alliance to an offensive war. The autonomous lords of leicester dont like that very much."
  FOD_alliance.1.t:0 "The Alliance Calls For Aid"
  FOD_alliance.1.desc:0 "These are desperate times indeed; [liege_desc.GetLiege.GetFirstName] has called the Alliance to arms. Whether the Alliance truly faces an unprecedented threat or [liege_desc.GetLiege.GetFirstName] simply intends to further [liege_desc.GetLiege.GetHerHis] own ambitions, the fact stands that the Alliance will be plunged into turmoil. \n\nRegardless, [liege_desc.GetLiege.GetFirstName] is only the leader of the Alliance, not our overlord, and we do not need to answer the call if we do not wish to. War is not a decision to be made lightly. What shall be done?"
  FOD_alliance.1.a:0 "Gather our banners. We ride!"

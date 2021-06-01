@@ -1799,7 +1799,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 				is_landed = yes
 			}
 		}
-		OR = {
+		AND = {
 			mother = { 
 				has_crest_potential = no 
 			}
@@ -1807,6 +1807,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 				has_crest_potential = no 
 			}
 		}
+		
 	}
 
 	option = {

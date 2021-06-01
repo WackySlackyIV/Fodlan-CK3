@@ -13,6 +13,8 @@
 
 	is_valid = {
 		is_at_war = yes
+		is_at_war_as_attacker = yes
+		NOT = { has_character_modifier = called_the_alliance }
 	}
 
 	effect = {
@@ -24,6 +26,10 @@
 				primary_title = { tier >= tier_county }
 			}
 			trigger_event = FOD_alliance.1 #call alliance
+		}
+		add_character_modifier = {
+			modifier = called_the_alliance
+			years = 5
 		}
 	}
 

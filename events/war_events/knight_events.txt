@@ -157,8 +157,9 @@ knights.0001 = {
 			}
 			30 = { # Become a Berserker
 				trigger = {
-					faith = {
-						has_doctrine = tenet_warmonger
+					OR = {
+						culture_group = culture_group:northern_group
+						has_government = tribal_government 
 					}
 					NOR = {
 						has_trait = craven
