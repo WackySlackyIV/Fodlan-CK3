@@ -592,7 +592,7 @@ task_promote_culture = {
 				}
 			}
 			add = {
-				value = scope:county.promote_culture_development_penalty
+				value = scope:councillor.promote_culture_development_penalty
 				desc = STEWARD_PROMOTE_CULTURE_DEVELOPMENT_PENALTY
 			}
 		}
