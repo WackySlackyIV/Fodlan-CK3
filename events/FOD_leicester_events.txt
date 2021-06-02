@@ -1597,7 +1597,6 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 					right_icon = scope:first_lord
 					
 					add_diplomacy_lifestyle_xp = medium_lifestyle_xp
-					gain_alliance_fame_effect = yes
 					scope:first_lord = {
 						lose_alliance_fame_effect = yes
 					}
@@ -1617,13 +1616,10 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 					left_icon = ROOT
 					right_icon = scope:first_lord
 					
-					scope:first_lord = {
-						gain_alliance_fame_effect = yes
+					scope:root_choice = {
+						lose_alliance_fame_effect = yes
 					}
 					lose_alliance_fame_effect = yes
-					scope:first_lord_choice = {
-						gain_alliance_fame_effect = yes
-					}
 				}
 			}
 		}
@@ -1657,13 +1653,10 @@ FOD_alliance.7 = { #great lord openly discredits my heir
 					left_icon = ROOT
 					right_icon = scope:first_lord
 					
-					scope:first_lord = {
-						gain_alliance_fame_effect = yes
+					scope:root_choice = {
+						lose_alliance_fame_effect = yes
 					}
 					lose_alliance_fame_effect = yes
-					scope:first_lord_choice = {
-						gain_alliance_fame_effect = yes
-					}
 				}
 			}
 		}
@@ -1740,7 +1733,7 @@ FOD_alliance.8 = { #Election candidate brawl
 	}
 }
 
-FOD_alliance.9 = {
+FOD_alliance.9 = { #Election candidate tournament visit
 	type = character_event
 	title = FOD_alliance.9.t
 	desc = FOD_alliance.9.desc
