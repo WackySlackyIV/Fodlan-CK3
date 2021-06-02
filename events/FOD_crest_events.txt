@@ -2121,6 +2121,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 		}
 		else_if = { #ALMYRA
 			limit = {
+				exists = dynasty
 				dynasty = { any_dynasty_member = { has_trait = crest_malik } }
 				has_culture_group = culture_group:mihran_group
 			}
