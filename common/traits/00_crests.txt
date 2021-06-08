@@ -1149,15 +1149,6 @@ crest_minor_maurice = {
 	group = crest_maurice
 	level = 2
 
-	triggered_opinion = {
-		parameter = crest_venerated
-		opinion_modifier = crest_venerated_opinion
-	}
-	triggered_opinion = {
-		parameter = crest_crime
-		opinion_modifier = crest_crime_opinion
-	}
-
 	desc = trait_crest_minor_maurice_desc
 }
 
