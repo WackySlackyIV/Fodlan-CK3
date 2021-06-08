@@ -82,9 +82,12 @@ promotion_outcome.0003 = {
 		name = promotion_outcome.0003.a
 		custom_tooltip = promotion_outcome.0003.a.tt
 		
-		
-		scope:scheme = { end_scheme = yes }
-		gain_alliance_fame_effect = scope:target
+		scope:target = {
+			gain_alliance_fame_effect = yes
+		}
+		scope:scheme = { 
+			end_scheme = yes 
+		}
 	}
 }	
 
@@ -199,9 +202,13 @@ promotion_outcome.0013 = {
 		name = promotion_outcome.0013.a
 		custom_tooltip = promotion_outcome.0013.a.tt
 		
+		scope:target = {
+			lose_alliance_fame_effect = yes
+		}
+		scope:scheme = { 
+			end_scheme = yes 
+		}
 		
-		scope:scheme = { end_scheme = yes }
-		lose_alliance_fame_effect = scope:target
 	}
 }
 
@@ -246,9 +253,6 @@ promotion_outcome.0020 = {
 
 	option = {
 		name = promotion_outcome.0020.a
-		scope:scheme = {
-			end_scheme = yes
-		}
 	}
 }
 
