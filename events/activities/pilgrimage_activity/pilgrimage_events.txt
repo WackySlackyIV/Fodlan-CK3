@@ -1108,7 +1108,7 @@ pilgrimage.2008 = {
 	desc = pilgrimage.2008.desc
 	theme = pilgrimage_activity
 	override_icon = {
-		reference = "gfx/interface/event_window/type_faith.dds"
+		reference = "gfx/interface/icons/event_types/type_faith.dds"
 	}
 	left_portrait = {
 		character = root

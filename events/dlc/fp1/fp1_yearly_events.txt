@@ -972,6 +972,9 @@ fp1_yearly.0661 = {
 	# How unusual! I accept!
 	option = {
 		name = fp1_yearly.0661.a
+		trigger = {
+			NOT = { has_trait = winter_soldier }
+		}
 
 		# Prowess duel vs. scope:knight.
 		duel = {
@@ -1034,6 +1037,42 @@ fp1_yearly.0661 = {
 			modifier = {	# Weight down for stress.
 				add = -20
 				has_trait = craven
+			}
+		}
+	}
+
+	# Winter Soldier: Out in the snow? I accept.
+	option = {
+		name = fp1_yearly.0661.a.2
+		trigger = { has_trait = winter_soldier }
+		trait = winter_soldier
+
+		custom_tooltip = fp1_yearly.0661.a.2.tt
+		add_prestige = minor_prestige_gain
+		progress_towards_friend_effect = {
+			CHARACTER = scope:knight
+			OPINION = 50
+		}
+
+		stress_impact = {
+			diligent = minor_stress_impact_loss
+			lazy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_energy = 0.5	
+				ai_boldness = 0.5	
+				ai_honor = 0.5
+				ai_sociability = 0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = diligent
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = lazy
 			}
 		}
 	}

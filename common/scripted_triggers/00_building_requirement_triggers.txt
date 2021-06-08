@@ -194,6 +194,18 @@ building_outposts_requirement_terrain = {
 }
 
 building_barracks_requirement_terrain = {
+	OR = {
+		terrain = farmlands
+		terrain = plains
+		terrain = drylands
+		terrain = hills
+		terrain = mountains
+		terrain = forest
+		terrain = taiga
+		terrain = jungle
+		terrain = wetlands
+		terrain = steppe
+	}
 }
 
 building_camel_farms_requirement_terrain = {

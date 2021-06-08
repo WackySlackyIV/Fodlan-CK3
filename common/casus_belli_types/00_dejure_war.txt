@@ -292,6 +292,10 @@
 				value = scope:cb_prestige_factor # Set by 'setup_de_jure_cb'
 				multiply = -5.0
 			}
+			stress_impact = {
+ 				ambitious = medium_stress_impact_gain
+ 				arrogant = medium_stress_impact_gain
+ 			}
 		}
 		# Allies on both sides get full prestige value for helping in the war, based on their war participation.
 		modify_allies_of_participants_fame_values = {
@@ -302,6 +306,12 @@
 			LOSER_ALLY_FAME_SCALE = 100
 		}
 		# Defender neither gains nor loses any prestige.
+		scope:defender = {
+			stress_impact = {
+ 				ambitious = medium_stress_impact_gain
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
 		
 		# Truce
 		add_truce_white_peace_effect = yes
@@ -379,7 +389,6 @@
 	attacker_wargoal_percentage = 0.8
 	
 	max_ai_diplo_distance_to_title = 500
-	min_ai_score = 100
 }
 
 individual_county_de_jure_cb = {
@@ -820,7 +829,6 @@ individual_county_de_jure_cb = {
 	attacker_wargoal_percentage = 0.8
 	
 	max_ai_diplo_distance_to_title = 500
-	min_ai_score = 100
 }
 
 individual_duchy_de_jure_cb = {
@@ -1265,5 +1273,4 @@ individual_duchy_de_jure_cb = {
 	attacker_wargoal_percentage = 0.8
 	
 	max_ai_diplo_distance_to_title = 500
-	min_ai_score = 100
 }

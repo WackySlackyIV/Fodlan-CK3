@@ -623,6 +623,9 @@ is_heretic_trigger = {
 
 is_heathen_trigger = {
 	NOT = { $WHO$.faith.religion = $TARGET$.faith.religion }
+	$TARGET$.faith = {
+		has_doctrine = pagan_hostility_doctrine
+	}
 	$WHO$.faith = {
 		faith_hostility_level = {
 			target = $TARGET$.faith
@@ -633,6 +636,9 @@ is_heathen_trigger = {
 
 is_infidel_trigger = {
 	NOT = { $WHO$.faith.religion = $TARGET$.faith.religion }
+	$TARGET$.faith = {
+		NOT = { has_doctrine = pagan_hostility_doctrine }
+	}
 	$WHO$.faith = {
 		faith_hostility_level = {
 			target = $TARGET$.faith
@@ -794,8 +800,8 @@ can_afford_create_head_of_faith_title_cost_trigger = {
 				has_doctrine_parameter = spiritual_head_of_faith
 			}
 		}
-		gold >= medium_gold_value
-	}	
+		gold >= medium_gold_max_value
+	}
 }
 
 # FAITH = The faith we are trying to make the head of faith title for
