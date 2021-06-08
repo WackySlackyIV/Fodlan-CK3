@@ -219,15 +219,13 @@ hairstyles_scripted_characters = {
                 value = 0.24 # For the randomness to work correctly
             }
         }   
-         weight = {
+        weight = {
             base = 0
             modifier = {
                 add = 200
                 exists = character:100010 #Cyril
                 this = character:100010 #Cyril
             }
-        weight = {
-            base = 0
             modifier = {
                 add = 200
                 exists = character:200016 #Raphael
@@ -1421,6 +1419,9 @@ hairstyles_scripted_characters = {
                 value = 0.08 # For the randomness to work correctly
             }
         }
+		weight = {
+            base = 0
+        }
     }
 	
 	edelgard_alternate_hair = {
@@ -1431,6 +1432,9 @@ hairstyles_scripted_characters = {
                 template = all_custom_hairstyles
                 value = 0.25 # For the randomness to work correctly
             }
+        }
+		weight = {
+            base = 0
         }
     }
 	

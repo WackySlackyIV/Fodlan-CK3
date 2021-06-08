@@ -167,7 +167,8 @@ castle_01 = {
 	next_building = castle_02
 	
 	levy = normal_building_levy_tier_2
-	garrison = good_building_garrison_tier_1
+	max_garrison = good_building_max_garrison_tier_1
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_2
 		fort_level = great_building_fort_level_tier_1
@@ -183,6 +184,16 @@ castle_01 = {
 				has_government = theocracy_government
 			}
 		}
+
+		modifier = {
+			add = 50
+			county = {
+				NOT = {
+					any_county_province = {
+						has_building_or_higher = castle_01
+					}
+				}
+			}
 	}
 }
 
@@ -338,7 +349,8 @@ castle_02 = {
 	next_building = castle_03
 	
 	levy = normal_building_levy_tier_4
-	garrison = good_building_garrison_tier_3
+	max_garrison = good_building_max_garrison_tier_3
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4								  
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_4
 		fort_level = great_building_fort_level_tier_2
@@ -347,7 +359,8 @@ castle_02 = {
 	flag = castle
 	
 	ai_value = {
-		base = 10
+		base = 9
+		ai_general_building_modifier = yes					
 		modifier = {
 			factor = 3
 			scope:holder.capital_province = this
@@ -512,7 +525,8 @@ castle_03 = {
 	next_building = castle_04
 	
 	levy = normal_building_levy_tier_6
-	garrison = good_building_garrison_tier_5
+	max_garrison = good_building_max_garrison_tier_5
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_6					  
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_6
 		fort_level = great_building_fort_level_tier_3
@@ -521,14 +535,15 @@ castle_03 = {
 	flag = castle
 	
 	ai_value = {
-		base = 10		
+		base = 8
+		ai_general_building_modifier = yes		
 		modifier = {
 			factor = 3
 			scope:holder.capital_province = this
 		}
 		modifier = {
 			factor = 0.2
-			combined_building_level <= 6
+			combined_building_level <= 9
 			years_from_game_start >= 1
 		}
 	}
@@ -685,7 +700,8 @@ castle_04 = {
 	cost_gold = main_building_tier_4_cost
 	
 	levy = normal_building_levy_tier_8
-	garrison = good_building_garrison_tier_7
+	max_garrison = good_building_max_garrison_tier_7
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_8			  
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_8
 		fort_level = great_building_fort_level_tier_4
@@ -696,14 +712,15 @@ castle_04 = {
 	type_icon = "icon_building_ramparts.dds"
 	
 	ai_value = {
-		base = 10	
+		base = 7
+		ai_general_building_modifier = yes	
 		modifier = {
 			factor = 3
 			scope:holder.capital_province = this
 		}
 		modifier = {
 			factor = 0.2
-			combined_building_level <= 8
+			combined_building_level <= 12
 			years_from_game_start >= 1
 		}
 	}

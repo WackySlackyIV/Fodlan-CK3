@@ -200,7 +200,8 @@ temple_01 = {
 	next_building = temple_02
 	
 	levy = small_building_levy_tier_2
-	garrison = normal_building_garrison_tier_1
+	max_garrison = normal_building_max_garrison_tier_1
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_1
 	province_modifier = {
 		monthly_income = normal_building_tax_tier_2
 	}
@@ -211,6 +212,7 @@ temple_01 = {
 
 	on_complete = {
 		county.holder = { add_piety = massive_piety_gain }
+		county.holder.faith = { change_fervor = 1 }
 
 		#to give follow-up to the vassal.1001 event
 		hidden_effect = {
@@ -251,6 +253,15 @@ temple_01 = {
 				NOT = { has_government = theocracy_government }
 			}
 		}
+		modifier = {
+			add = 50
+			county = {
+				NOT = {
+					any_county_province = {
+						has_building_or_higher = temple_01
+					}
+				}
+			}
 	}
 }
 
@@ -438,7 +449,8 @@ temple_02 = {
 	next_building = temple_03
 	
 	levy = small_building_levy_tier_4
-	garrison = normal_building_garrison_tier_3
+	max_garrison = normal_building_max_garrison_tier_3
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2					  
 	province_modifier = {
 		monthly_income = normal_building_tax_tier_4
 	}

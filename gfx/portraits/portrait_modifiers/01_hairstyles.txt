@@ -1153,4 +1153,5 @@ hairstyles = {
 		weight = {
 			base = 0
 		}
+	}
 }
