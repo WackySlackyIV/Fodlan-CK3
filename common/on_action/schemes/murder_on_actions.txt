@@ -139,6 +139,9 @@ murder_save_roll = {
 
 		# Saved from poisoned food by dog
 		50 = murder_save.0012
+
+		# Saved from poisoned food by gluttonous trait
+		500 = murder_save.0013
 	}
 }
 
@@ -156,6 +159,7 @@ murder_save_response = {
 		murder_save.1010
 		murder_save.1011
 		murder_save.1012
+		murder_save.1013
 	}
 }
 
@@ -198,7 +202,7 @@ murder_succeeded = {
 						}
 					}
 					root = {
-						add_achievement_flag = { FLAG = achievement_the_things_we_do_for_love_flag }
+						add_achievement_flag_effect = { FLAG = achievement_the_things_we_do_for_love_flag }
 					}
 				}
 				if = {
@@ -209,7 +213,7 @@ murder_succeeded = {
 						}
 					}
 					root = {
-						add_achievement_flag = { FLAG = achievement_an_unfortunate_accident_flag }
+						add_achievement_flag_effect = { FLAG = achievement_an_unfortunate_accident_flag }
 					}
 				}
 				if = {
@@ -219,7 +223,7 @@ murder_succeeded = {
 						}
 					}
 					root = {
-						add_achievement_flag = { FLAG = achievement_death_did_us_part_flag }
+						add_achievement_flag_effect = { FLAG = achievement_death_did_us_part_flag }
 					}
 				}
 			}

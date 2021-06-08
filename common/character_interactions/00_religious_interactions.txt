@@ -3784,7 +3784,7 @@ hof_ask_for_gold_interaction = {
 				any_character_war = {
 					is_attacker = scope:actor
 					OR = {
-						using_cb = religious_war
+						using_non_ghw_holy_war_cb_trigger = yes
 						using_cb = excommunication_war
 					}
 				}
