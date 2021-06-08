@@ -1,4 +1,4 @@
-# Geographical regions
+﻿# Geographical regions
 # Regions can be declared with one or more of the following fields:
 #	duchies = { }, takes duchy title names declared in landed_titles.txt
 #	counties = { }, takes county title names declared in landed_titles.txt
@@ -348,3 +348,7 @@ dlc_fp1_achievement_far_from_home = {}
 dlc_fp1_achievement_king_of_all_the_isles = {}
 dlc_fp1_achievement_vladimirs_second_choice = {}
 ### END TNL Regions
+
+custom_daphnel_region = {
+	duchies = { d_ailell d_daphnel d_galatea }
+}

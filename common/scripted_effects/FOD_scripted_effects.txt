@@ -97,3 +97,64 @@ lose_alliance_fame_effect = {
 			add_character_modifier = { modifier = defamed_candidate_1 years = 30 }
 	}
 }
+
+form_daphnel_scripted_effect = {
+	#Grab scopes for loc and such.
+	save_scope_as = scoped_ruler
+	if = {
+		limit = {
+			NOT = { is_independent_ruler = yes }
+		}
+		scope:scoped_ruler.liege = { save_scope_as = scoped_emperor }
+	}
+	#Hand over k_daphnel.
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	title:k_daphnel = {
+		change_title_holder = {
+			holder = root
+			change = scope:change
+		}
+		copy_title_history = title:d_daphnel
+	}
+	resolve_title_and_vassal_change = scope:change
+	#Try to make it the primary title.
+	hidden_effect = {
+		set_primary_title_to = title:k_daphnel
+	}
+	#Save d_daphnel's current de jure liege for future reference.
+	title:d_daphnel.de_jure_liege = { save_scope_as = previous_kingdom }
+	#Transfer custom_daphnel_region to the new Archduchy.
+	hidden_effect = {
+		every_county_in_region = {
+			region = custom_daphnel_region
+			duchy = { add_to_list = daphnel_list }
+		}
+		every_in_list = {
+			list = daphnel_list
+			limit = {
+				NOT = { de_jure_liege = title:k_daphnel }
+			}
+			set_de_jure_liege_title = title:k_daphnel
+		}
+
+	}
+	#Sundry other rewards.
+	add_prestige = major_prestige_gain
+	if = {
+		limit = {
+			NOT = { has_realm_law = single_heir_succession_law }
+		}
+		add_realm_law_skip_effects = single_heir_succession_law
+	}
+	#Check to see if we're using that strong hook!
+	if = {
+		limit = {
+			NOT = { is_independent_ruler = yes }
+		}
+		use_hook = scope:scoped_ruler.liege
+	}
+}

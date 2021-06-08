@@ -4,3 +4,11 @@
 	
 	capital = c_garreg_mach
 }
+
+k_daphnel = {
+	color = { 224 227 11 }
+    color2 = { 255 255 255 }
+	definite_form = yes
+	
+	capital = c_daphnel
+}

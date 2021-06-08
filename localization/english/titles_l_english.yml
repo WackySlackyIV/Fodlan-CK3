@@ -3404,3 +3404,6 @@
  b_photia:0 "Photia"
  b_simarbona:0 "Simarbona"
  b_mantrdanos:0 "Mantrdanos" 
+ 
+ k_daphnel:0 "Archduchy of Daphnel"
+ custom_daphnel_region:0 "the former Daphnel territory"

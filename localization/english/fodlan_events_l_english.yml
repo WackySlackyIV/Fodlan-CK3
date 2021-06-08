@@ -42,3 +42,15 @@
  promotion_outcome.0041.t:0 "Restless Mind"
  promotion_outcome.0041.desc:0 "These days, I have been questioning my decision to step away from the election. I thought it might be a momentary longing for something that never truly existed. I tried my best to recall all the dreadful parts of campaigning. Nonetheless, none of my methods assuaged my wants, and I find myself wishing to return to the political arena once more. \n\nSo I did precisely that. It is my time to rise, I think."
  promotion_outcome.0041.a:0 "How I missed this."
+ 
+ # Forming the Archduchy of Daphnel
+ form_daphnel_kingdom_decision:0 "Form Archduchy of Daphnel"
+ form_daphnel_kingdom_decision_confirm:0 "Form the Archduchy of Daphnel"
+ form_daphnel_kingdom_decision_desc:0 ""
+ form_daphnel_kingdom_decision_tooltip:0 "The Archduchy of Daphnel will be formed."
+ FOD_formation.1.t:0 "The Archduchy of Daphnel"
+ FOD_formation.1.desc:0 ""
+ FOD_formation.1.a:0 "Daphnel is reunited!"
+ FOD_formation.2.desc.emperor:0 ""
+ FOD_formation.2.desc.others:0 ""
+ FOD_formation.2.a:0 "How convenient..."

@@ -1,0 +1,78 @@
+﻿namespace = FOD_formation
+
+##################################################
+# Forming the Archduchy of Daphnel
+##################################################
+
+FOD_formation.1 = {
+	type = character_event
+	title = FOD_formation.1.t
+	desc = FOD_formation.1.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		trigger = {
+			NOT = { is_independent_ruler = yes }
+		}
+		character = scope:scoped_emperor
+		animation = happiness
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		form_daphnel_scripted_effect = yes
+	}
+	option = {
+		name = FOD_formation.1.a
+		# Send narrative fluff to other players (if any).
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				is_within_diplo_range = { CHARACTER = root }
+			}
+			trigger_event = FOD_formation.2
+		}
+	}
+}
+
+FOD_formation.2 = {
+	type = character_event
+	title = FOD_formation.1.t
+	desc = {
+		first_valid = {
+			# Blackmailed Emperor's reaction.
+			triggered_desc = {
+				trigger = {
+					this = scope:scoped_emperor
+				}
+				desc = FOD_formation.2.desc.emperor
+			}
+			# Everybody else's.
+			triggered_desc = {
+				trigger = {
+					NOT = { this = scope:scoped_emperor }
+				}
+				desc = FOD_formation.2.desc.others
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = scope:scoped_ruler
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:scoped_emperor
+		animation = happiness
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = FOD_formation.2.a
+	}
+}
