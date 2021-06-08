@@ -238,7 +238,7 @@ fodlans_locket_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 5
 		garrison_size = 1
@@ -270,7 +270,7 @@ myrddin_bridge_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 2
 		garrison_size = 0.5
@@ -302,7 +302,7 @@ arianhrod_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.75
@@ -334,7 +334,7 @@ merceus_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.75
@@ -368,7 +368,7 @@ cordelia_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.5
@@ -398,7 +398,7 @@ beverly_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.5
@@ -428,7 +428,7 @@ ailell_01 = {
 	
 	cost_gold = 3000
 	
-	garrison = 1000
+	max_garrison = 1000
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.5

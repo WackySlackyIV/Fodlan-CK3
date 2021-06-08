@@ -848,10 +848,7 @@
 		}
 
 		is_shown = {
-			OR = {
-			has_doctrine = zanadic_hostility_doctrine
-			has_doctrine = almyran_hostility_doctrine
-			}
+			always = yes
 		}
 
 		traits = {
