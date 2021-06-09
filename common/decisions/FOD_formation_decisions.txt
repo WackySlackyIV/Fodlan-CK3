@@ -17,10 +17,6 @@ form_daphnel_kingdom_decision = {
 			}
 		}
 		highest_held_title_tier <= tier_duchy
-		OR = {
-			is_independent_ruler = yes
-			liege.highest_held_title_tier = tier_empire
-		}
 		#Must hold land within the relevant areas directly.
 		any_held_title = {
 			tier = tier_county
@@ -29,6 +25,10 @@ form_daphnel_kingdom_decision = {
 	}
 
 	is_valid = {
+		OR = {
+			is_independent_ruler = yes
+			liege.highest_held_title_tier = tier_empire
+		}
 		#Must be suitably prestigious.
 		prestige_level >= high_prestige_level
 		#Must control Daphnel region
