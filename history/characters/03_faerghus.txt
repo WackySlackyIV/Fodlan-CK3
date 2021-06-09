@@ -675,7 +675,7 @@
 		add_spouse = 400028
 	}
 	1176.3.10={
-		death=yes
+		death = { death_reason = death_murder }
 	}
 }
 
@@ -702,8 +702,11 @@
 	1115.6.6 = {
 		birth=yes
 	}
-	1180.5.31={
-		death=yes
+	1180.5.31 = {
+		death = { 
+			death_reason = death_battle
+			killer = 100011
+		}
 	}
 }
 
@@ -921,7 +924,10 @@
 		birth="1153.11.17"
 	}
 	1176.1.1={
-		death="1176.1.1"
+		death = { 
+			death_reason = death_execution
+			killer = 100000
+		}
 	}
 }
 
@@ -1634,7 +1640,7 @@
 		birth=yes
 	}
 	1200.1.1={
-		death=yes
+		death = { death_reason = death_demonic_beast }
 	}
 }
 
@@ -2512,6 +2518,8 @@
 	dynasty=234
 	female = yes
 
+	trait = bubonic_plague	
+
 	1144.7.7 = {
 		birth=yes
 	}
@@ -2520,7 +2528,7 @@
 		add_spouse = 300023
 	}
 	1165.4.15={
-		death=yes
+		death = { death_reason = death_bubonic_plague }
 	}
 }
 

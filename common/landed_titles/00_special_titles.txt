@@ -6,7 +6,7 @@
 }
 
 k_daphnel = {
-	color = { 224 227 11 }
+	color = { 93 166 90 }
     color2 = { 255 255 255 }
 	definite_form = yes
 	

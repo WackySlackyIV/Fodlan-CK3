@@ -880,7 +880,7 @@
 		add_spouse = 300023
 	}
 	1176.3.10={
-		death=yes
+		death = { death_reason = death_murder }
 	}
 }
 
