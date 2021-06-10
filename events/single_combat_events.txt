@@ -2172,10 +2172,8 @@ scripted_effect finalise_combat_results_effect = {
 							has_doctrine_parameter = warmonger
 							has_doctrine_parameter = conquest_cb_enabled
 							has_doctrine_parameter = invasion_cb_enabled
-							has_doctrine_parameter = great_holy_wars_active_if_reformed
 							has_doctrine_parameter = clergy_can_fight
 							has_doctrine_parameter = cheaper_holy_wars_active
-							has_doctrine_parameter = great_holy_wars_active
 						}
 					}
 				}

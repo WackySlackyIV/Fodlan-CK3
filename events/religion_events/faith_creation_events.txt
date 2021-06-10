@@ -352,18 +352,6 @@ faith_creation.1001 = {
 
 		#State the new faith's external outlook:
 		first_valid = {
-			#Faith is aggressive (Great Holy Wars are allowed):
-			triggered_desc = {
-				trigger = {
-					scope:reformed_faith = {
-						OR = {
-							has_doctrine_parameter = great_holy_wars_active
-							has_doctrine_parameter = great_holy_wars_active_if_reformed
-						}
-					}
-				}
-				desc = faith_creation.1001.desc.outlook.ghw
-			}
 			#Faith is pacifist:
 			triggered_desc = {
 				trigger = {

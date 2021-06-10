@@ -459,10 +459,6 @@ GetFaithCreationReaction = {
 			}
 			scope:reformed_faith = {
 				OR = {
-					has_doctrine_parameter = great_holy_wars_active
-					has_doctrine_parameter = great_holy_wars_active_if_reformed
-				}
-				OR = {
 					has_doctrine_parameter = cannibalism_legal
 					has_doctrine_parameter = human_sacrifice_active
 				}
@@ -475,29 +471,6 @@ GetFaithCreationReaction = {
 			}
 		}
 		localization_key = faith_creation.1001.o.frightened
-	}
-	text = {
-		trigger = {
-			scope:second = {
-				faith = {
-					save_temporary_scope_as = reformed_faith
-				}
-			}
-			faith = {
-				OR = {
-					has_doctrine_parameter = great_holy_wars_active
-					AND = {
-						has_doctrine_parameter = great_holy_wars_active_if_reformed
-						NOT = { has_doctrine_parameter = unreformed }
-					}
-				}
-				faith_hostility_level = {
-					target = scope:reformed_faith
-					value > 1
-				}
-			}
-		}
-		localization_key = faith_creation.1001.o.crusader
 	}
 	text = {
 		trigger = {

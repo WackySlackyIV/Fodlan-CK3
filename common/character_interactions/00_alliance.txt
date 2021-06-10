@@ -77,26 +77,6 @@
 			WARRIOR = scope:actor
 			JOINER = scope:recipient
 		}
-
-		# Cannot call a character of the "wrong" religion to a Great Holy War
-		scope:actor = {
-			trigger_if = {
-				limit = {
-					NOT = { faith = scope:recipient.faith }
-				}
-				custom_description = {
-					text = is_of_wrong_faith_for_holy_war
-					subject = scope:actor
-					object = scope:recipient
-					any_character_war = {
-						NOR = {
-							using_cb = undirected_great_holy_war
-							using_cb = directed_great_holy_war
-						}
-					}
-				}
-			}
-		}
 	}
 
 	can_be_picked = {
@@ -352,8 +332,6 @@
 				OR = {
 					using_cb = minor_religious_war
 					using_cb = religious_war
-					using_cb = undirected_great_holy_war
-					using_cb = directed_great_holy_war
 				}
 			}
 			desc = WONT_ATTACK_RELIGIOUS_BRETHREN_REASON

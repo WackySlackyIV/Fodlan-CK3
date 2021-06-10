@@ -379,9 +379,6 @@
 		
 		# Truce
 		add_truce_attacker_victory_effect = yes
-
-		# FP1: note the victory for future memorialisation via stele (if applicable).
-		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
 	}
 
 	on_white_peace_desc = {

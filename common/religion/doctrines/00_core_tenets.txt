@@ -99,7 +99,6 @@
 
 		parameters = {
 			cheaper_holy_wars_active = yes
-			great_holy_wars_active = yes
 			ghw_no_hof_conversion_buffs_active = yes
 			pilgrimage_decision_active = yes
 		}
@@ -982,7 +981,6 @@
 		}
 		
 		parameters = {
-			great_holy_wars_active = yes
 			ghw_no_hof_conversion_buffs_active = yes
 			bonus_holy_war_piety_active = yes
 			pilgrimage_decision_active = yes
@@ -1760,84 +1758,12 @@
 			warmonger = yes
 			conquest_cb_enabled = yes
 			invasion_cb_enabled = yes
-			great_holy_wars_active_if_reformed = yes
 			clergy_can_fight = yes
 		}
 		
 		character_modifier = {
 			ai_war_chance = 0.5
 			ai_war_cooldown = -0.25
-		}
-	}
-
-	tenet_gruesome_festivals = {
-		name = {
-			first_valid = {
-				desc = tenet_gruesome_festivals_name
-			}
-		}
-
-		icon = core_tenet_blood_bowl
-
-		piety_cost = {
-			# If you've already got human sacrifice, this is a nice and easy jump.
-			if = {
-				limit = { has_doctrine = tenet_human_sacrifice }
-				value = faith_tenet_cost_low
-			}
-			# Otherwise, follow the same pricing tiers as tenet_human_sacrifice.
-			else_if = {
-				limit = {
-					has_doctrine = pagan_hostility_doctrine
-				}
-				value = faith_tenet_cost_mid
-			}
-			else_if = {
-				limit = {
-				}
-				value = faith_tenet_cost_high
-			}
-			else = {
-				value = faith_tenet_cost_massive
-			}
-
-			# Multiplier for keeping same tenet
-			if = {
-				limit = { has_doctrine = tenet_gruesome_festivals }
-				multiply = faith_unchanged_doctrine_cost_mult
-			}
-		}
-
-		is_shown = {
-			# No HumSac for Abrahamics: 'tis literally the religion-namer.
-			# And DLC required.
-			has_fp1_dlc_trigger = yes
-		}
-
-		can_pick = {
-			custom_description = {
-				text = incompatible_tenet_pacifism_trigger
-				NOT = {
-					flag:tenet_pacifism = { is_in_list = selected_doctrines }
-				}
-			}
-			custom_description = {
-				text = incompatible_tenet_dharmic_pacifism_trigger
-				NOT = {
-					flag:tenet_dharmic_pacifism = { is_in_list = selected_doctrines }
-				}
-			}
-			custom_description = {
-				text = incompatible_tenet_human_sacrifice_trigger
-				NOT = {
-					flag:tenet_human_sacrifice = { is_in_list = selected_doctrines }
-				}
-			}
-		}
-
-		parameters = {
-			human_sacrifice_active = yes
-			gruesome_festivals_active = yes
 		}
 	}
 

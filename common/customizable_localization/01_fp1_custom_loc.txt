@@ -1,0 +1,21 @@
+﻿SacrificeTerm = {
+	type = character
+
+	# Random_valid triggers the snackrifice, but that's it.
+	random_valid = yes
+
+	text = {
+		localization_key = sacrificeterm_sacrifice
+		fallback = yes 
+		weight_multiplier = {
+			base = 100
+		}
+	}
+
+	text = {
+		localization_key = sacrificeterm_snacrifice
+		trigger = {
+			var:gf_faith = { has_doctrine_parameter = cannibalism_legal }
+		}
+	}
+}

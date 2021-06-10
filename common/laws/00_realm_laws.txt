@@ -57,8 +57,6 @@ crown_authority = {
 		}
 		
 		on_pass = {
-			# Increment cooldown breaker tally, if appropriate.
-			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
 				name = crown_authority_cooldown
@@ -116,8 +114,6 @@ crown_authority = {
 		}
 		
 		on_pass = {
-			# Increment cooldown breaker tally, if appropriate.
-			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
 				name = crown_authority_cooldown
@@ -168,8 +164,6 @@ crown_authority = {
 		}
 		
 		on_pass = {
-			# Increment cooldown breaker tally, if appropriate.
-			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
 				name = crown_authority_cooldown
@@ -225,8 +219,6 @@ tribal_authority = {
 		}
 		
 		on_pass = {
-			# Increment cooldown breaker tally, if appropriate.
-			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
 				name = tribal_authority_cooldown
@@ -277,8 +269,6 @@ tribal_authority = {
 		}
 		
 		on_pass = {
-			# Increment cooldown breaker tally, if appropriate.
-			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
 				name = tribal_authority_cooldown
@@ -315,8 +305,6 @@ tribal_authority = {
 		pass_cost = { prestige = increase_tribal_authority_prestige_cost }
 		
 		on_pass = {
-			# Increment cooldown breaker tally, if appropriate.
-			calculate_authority_cooldown_break_effect = yes
 			# Set regular cooldown.
 			set_variable = {
 				name = tribal_authority_cooldown

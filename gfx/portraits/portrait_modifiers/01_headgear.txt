@@ -396,29 +396,6 @@ headgear = {
 				            has_government = holy_order_government
 				        }
 				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
 				}
 			}
 		}
@@ -829,86 +806,6 @@ headgear = {
 				            has_government = holy_order_government
 				        }
 				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
-				}
-			}
-		}
-	}
-
-
-	crusades_western_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = headgear
-				template = crusades_western_war
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 110
-				portrait_wear_helmet_trigger = yes
-				OR = {
-				    AND = {
-				        religion = religion:zanadic_religion
-				        has_government = holy_order_government
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        is_landed = no
-				        portrait_wear_armor_trigger = yes
-				        exists = liege
-				        liege = {
-				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
 				}
 			}
 		}
@@ -1239,29 +1136,6 @@ headgear = {
 				        exists = liege
 				        liege = {
 				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
 				        }
 				    }
 				}
@@ -1601,29 +1475,6 @@ headgear = {
 				            has_government = holy_order_government
 				        }
 				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
 				}
 			}
 		}
@@ -1958,29 +1809,6 @@ headgear = {
 				            has_government = holy_order_government
 				        }
 				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
 				}
 			}
 		}
@@ -2224,29 +2052,6 @@ headgear = {
 				        exists = liege
 				        liege = {
 				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
 				        }
 				    }
 					AND = {
@@ -2541,29 +2346,6 @@ headgear = {
 				            has_government = holy_order_government
 				        }
 				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
 				}
 			}
 		}
@@ -2691,29 +2473,6 @@ headgear = {
 				        exists = liege
 				        liege = {
 				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
 				        }
 				    }
 				}
@@ -3020,29 +2779,6 @@ headgear = {
 				            has_government = holy_order_government
 				        }
 				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
-				        }
-				    }
 					AND = {
 						has_trait = peasant_leader
 						OR = {
@@ -3091,29 +2827,6 @@ headgear = {
 				        exists = liege
 				        liege = {
 				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
 				        }
 				    }
 				}
@@ -3367,29 +3080,6 @@ headgear = {
 				        exists = liege
 				        liege = {
 				            has_government = holy_order_government
-				        }
-				    }
-				    AND = {
-				        religion = religion:zanadic_religion
-				        portrait_wear_armor_trigger = yes
-				        OR = {
-				            any_character_war = {
-				                OR = {
-				                    using_cb = undirected_great_holy_war
-				                    using_cb = directed_great_holy_war
-				                }
-				                is_attacker = prev
-				            }
-				            any_liege_or_above = {
-				                faith = prev.faith
-				                any_character_war = {
-				                    OR = {
-				                        using_cb = undirected_great_holy_war
-				                        using_cb = directed_great_holy_war
-				                    }
-				                    is_attacker = prev
-				                }
-				            }
 				        }
 				    }
 				}

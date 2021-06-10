@@ -111,14 +111,6 @@ lose_combat = {
 	global = LOSES_COMBAT_EFFECT_POSITIVE
 }
 
-start_great_holy_war = {
-	global = STARTS_PREP_GREAT_HOLY_WAR
-}
-
-start_ghw_war = {
-	global = STARTS_GREAT_HOLY_WAR
-}
-
 attack_ally_text = {
 	global = ATTACKING_ALLY
 	first = ATTACKING_ALLY

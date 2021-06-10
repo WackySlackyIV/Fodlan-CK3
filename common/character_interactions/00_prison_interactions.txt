@@ -63,11 +63,6 @@
 		scope:actor = {
 			is_imprisoned = no
 		}
-		custom_description = {
-			text = cannot_imprison_almohad_leader
-			subject = scope:recipient
-			NOT = { scope:recipient = { has_character_modifier = almohad_leader_modifier } }
-		}
 	}
 
 	can_send = {
@@ -3519,15 +3514,6 @@ execute_prisoner_interaction = {
 	on_accept = {
 		if = {
 			limit = { scope:recipient = { is_imprisoned_by = scope:actor } }
-			# Are you HumSac'ing the HoF of a faith that doesn't practice HumSac?
-			hidden_effect = {
-				scope:actor = {
-					humsacd_a_hof_effect = {
-						SACRIFICER = scope:actor
-						SACRIFICED_HOF = scope:recipient
-					}
-				}
-			}
 			# Other Effects
 			if = {
 				limit = {

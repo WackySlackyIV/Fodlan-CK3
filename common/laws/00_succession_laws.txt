@@ -543,7 +543,6 @@ succession_gender_laws = {
 			faith = {
 				OR = {
 					has_doctrine = doctrine_gender_equal
-					has_doctrine = doctrine_gender_equal_male_warriors
 				}
 			}
 		}
@@ -554,7 +553,6 @@ succession_gender_laws = {
 			faith = {
 				OR = {
 					has_doctrine = doctrine_gender_equal
-					has_doctrine = doctrine_gender_equal_male_warriors
 				}
 			}
 			NOT = { has_realm_law = female_only_law } # For when female_only_law ceases to be valid

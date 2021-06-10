@@ -735,14 +735,6 @@ convert_to_religion_interaction = {
 					this = scope:recipient
 				}
 			}
-			# And you've never HumSac'd a tolerated HoF.
-			NAND = {
-				has_variable_list = humsacd_hofs
-				is_target_in_variable_list = {
-					name = humsacd_hofs
-					target = scope:recipient.faith
-				}
-			}
 		}
 	}
 
@@ -801,14 +793,6 @@ convert_at_war_interaction = {
 				#They can convert
 				scope:actor = scope:actor.faith.religious_head
 				has_government = holy_order_government
-				# And you've never HumSac'd a tolerated HoF.
-				AND = {
-					has_variable_list = humsacd_hofs
-					is_target_in_variable_list = {
-						name = humsacd_hofs
-						target = scope:recipient.faith
-					}
-				}
 			}
 		}
 	}
@@ -1344,12 +1328,6 @@ excommunicate_interaction = {
 		NOR = {
 			scope:recipient = {
 				has_character_modifier = excommunication_recently_lifted
-			}
-			AND = {
-				exists = scope:actor.faith.great_holy_war
-				scope:actor.faith.great_holy_war = {
-					has_pledged_attacker = scope:recipient
-				}
 			}
 		}
 		scope:recipient = {
@@ -3368,12 +3346,6 @@ temporal_condemnation_interaction = {
 				}
 			}
 		}
-		NAND = {
-			exists = scope:actor.faith.great_holy_war
-			scope:actor.faith.great_holy_war = {
-				has_pledged_attacker = scope:recipient
-			}
-		}
 		scope:recipient = {
 			is_adult = yes
 		}
@@ -4674,157 +4646,6 @@ hof_ask_for_claim_interaction = {
 		}
 	}
 }
-
-#This interaction is referenced in code! If it's renamed you have to ping a coder
-hof_redirect_great_holy_war_interaction = {
-	hidden = yes
-	
-	target_type = title
-	target_filter = secondary_recipient_de_jure_titles
-	redirect = {
-		scope:recipient = {
-			save_scope_as = secondary_recipient
-		}
-		scope:actor.faith.religious_head = {
-			save_scope_as = recipient
-		}
-	}
-	
-	auto_accept = yes
-	
-	is_shown = {
-		always = no
-	}
-
-	can_be_picked_title = {
-	}
-	
-	is_valid_showing_failures_only = {
-	}
-	
-	has_valid_target_showing_failures_only = {
-	}
-	
-	cost = {
-		piety = scope:actor.faith.great_holy_war.var:redirect_cost
-	}
-	
-	on_accept = {
-	}
-	ai_will_do = {
-		base = 0
-	}
-}
-
-select_ghw_beneficiary_interaction = {
-	category = interaction_category_religion
-	
-	populate_recipient_list = {
-		scope:recipient = {
-			#Any member of your own house.
-			house = {
-				every_house_member = {
-					add_to_list = characters
-				}
-			}
-			#Any nearby family member who is of your dynasty, even if they're a separate house.
-			every_close_or_extended_family_member = {
-				limit = {
-					dynasty = scope:recipient.dynasty
-					NOT = { house = scope:recipient.house }
-				}
-				add_to_list = characters
-			}
-			#And then any landless heads of minor houses in your dynasty.
-			dynasty = {
-				every_dynasty_member = {
-					limit = {
-						this = this.house.house_head
-						NOR = {
-							this.house = scope:recipient.house
-							any_close_or_extended_family_member = { this = scope:recipient }
-						}
-						is_ruler = no
-					}
-					add_to_list = characters
-				}
-			}
-		}
-	}
-	
-	auto_accept = yes
-	
-	is_shown = {
-		always = no
-	}
-	
-	can_be_picked = {
-		always = no
-		is_adult = yes
-		is_ruler = no
-		faith = scope:actor.faith
-		NOT = {
-			any_heir_title = {} # Not heir to anything
-		}
-		OR = { #Either not married, or not married to a ruler.
-			is_married = no
-			NOT = {
-				any_spouse = {
-					is_ruler = yes
-				}
-			}
-		}
-	}
-
-	has_valid_target_showing_failures_only = {
-		scope:secondary_recipient = {
-			NOR = {
-				has_trait = excommunicated
-				has_trait = incapable
-				has_trait = devoted
-				has_serious_disease_trigger = yes
-				custom_description = {
-					text = "ghw_recipient_must_not_be_realm_priest"
-					faith = {
-						has_doctrine = doctrine_theocracy_temporal
-					}
-					has_council_position = councillor_court_chaplain
-				}
-			}
-			faith = scope:actor.faith
-			is_adult = yes
-			is_ruler = no
-			NOT = {
-				any_heir_title = {} # Not heir to anything
-			}
-			OR = { #Either not married, or not married to a ruler.
-				is_married = no
-				NOT = {
-					any_spouse = {
-						is_ruler = yes
-					}
-				}
-			}
-		}
-		scope:recipient = { is_diplomatically_available = yes }
-	}
-	
-	on_accept = {
-		scope:actor = {
-			send_interface_toast = {
-				title = select_ghw_beneficiary_interaction_notification
-
-				right_icon = scope:secondary_recipient
-
-				set_beneficiary = scope:secondary_recipient
-			}
-		}
-	}
-	ai_will_do = {
-		base = 0 #Assigned directly by event for the AI.
-	}
-}
-
 sun_trial_interaction = {
 	interface_priority = 30
 
