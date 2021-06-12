@@ -326,6 +326,8 @@
 			holy_site = fhirdiad
 			holy_site = derdriu
 
+			doctrine = doctrine_no_head
+
 			doctrine = doctrine_crest_accepted
 
 			doctrine = tenet_literalism

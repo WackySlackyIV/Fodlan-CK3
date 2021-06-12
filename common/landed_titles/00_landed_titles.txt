@@ -7,7 +7,12 @@
                             color2 = { 255 255 255 }
                             
                             capital = c_garreg_mach
-							definite_form = yes
+				definite_form = yes
+				landless = yes
+				destroy_if_invalid_heir = yes
+				no_automatic_claims = yes
+				always_follows_primary_heir = yes
+				de_jure_drift_disabled = yes
                             
                             d_garreg_mach = {
                                           color = { 245 245 255 }
