@@ -16,6 +16,7 @@ barbarossa = { #almyran
 		mountains = { damage = 5 toughness = 5 }
 		desert_mountains = { damage = 5 toughness = 5 }
 		drylands = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		desert = { damage = 5 toughness = 5 }
 		forest = { damage = -5 toughness = -5 }
 		jungle = { damage = -5 toughness = -5 }
@@ -82,6 +83,7 @@ oliphantier = { #india
 	terrain_bonus = {
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		jungle = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
@@ -181,6 +183,7 @@ skogul = { #faerghus
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
 		taiga = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 		hills = { damage = -5 toughness = -5 }
@@ -279,6 +282,7 @@ elgier = { #albinea
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
 		taiga = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 		hills = { damage = -5 toughness = -5 }

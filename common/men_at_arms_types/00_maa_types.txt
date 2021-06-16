@@ -134,6 +134,7 @@ cavalier = {
 	terrain_bonus = {
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 		hills = { damage = -5 toughness = -5 }
@@ -198,6 +199,7 @@ great_knight = {
 	terrain_bonus = {
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 		hills = { damage = -5 toughness = -5 }
@@ -296,6 +298,7 @@ bow_knight = {
 	terrain_bonus = {
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		jungle = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
@@ -363,6 +366,7 @@ dark_knight = {
 		drylands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 toughness = 5 }
 		desert = { damage = 5 toughness = 5 }
+		steppe = { damage = 5 toughness = 5 }
 		wetlands = { damage = -5 toughness = -5 }
 		mountains = { damage = -5 toughness = -5 }
 		hills = { damage = -5 toughness = -5 }
