@@ -211,7 +211,11 @@ diplomatic_range = {
 }
 
 end_date = {
-	default = 1453_end_date
+	default = no_end_date_end_date
+
+	1453_end_date = {
+	
+	}
 	
 	no_end_date_end_date = {
 		flag = no_end_date

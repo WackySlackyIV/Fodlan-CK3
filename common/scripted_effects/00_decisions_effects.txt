@@ -75,7 +75,7 @@ accept_cannibalism_decision_effect = {
 	custom_tooltip = faith_accept_cannibalism
 	root.faith = {
 		set_variable = {
-			name = accepted_cannibalsim
+			name = accepted_cannibalism
 			value = yes
 		}
 	}

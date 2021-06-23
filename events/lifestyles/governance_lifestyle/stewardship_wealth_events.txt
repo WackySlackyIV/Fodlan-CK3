@@ -6,6 +6,7 @@ namespace = stewardship_wealth
 	#1001	 	- I'm Bankrupt?, by Stephen Arthur and Sean Hughes
 	#1011		- Mint New Coins!, by Stephen Arthur and Sean Hughes
 	#1021		- Paying for War, by Sean Hughes
+	#1022		- War profiteering, by Isabella Welch
 	#1051		- Freeman's Fortune, by Sean Hughes
 	#1061		- New Acquisitions, by Sean Hughes
 	#5001 		- Purchase Livestock, by Linnéa Thimrén
