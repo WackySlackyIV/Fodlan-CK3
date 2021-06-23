@@ -69,17 +69,15 @@ on_holy_order_hired = {
 on_holy_order_destroyed = {
 	effect = {
 		# Otherwise, use the standard flow.
-		else = {
-			every_ruler = {
-				limit = {
-					is_ai = no
-					faith = root
-				}
-				send_interface_toast = {
-					title = holy_order.destroyed_message
-					left_icon = scope:title
-					right_icon = scope:leader
-				}
+		every_ruler = {
+			limit = {
+				is_ai = no
+				faith = root
+			}
+			send_interface_toast = {
+				title = holy_order.destroyed_message
+				left_icon = scope:title
+				right_icon = scope:leader
 			}
 		}
 	}

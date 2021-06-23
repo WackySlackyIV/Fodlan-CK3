@@ -111,5 +111,15 @@ autoerrorfixer.2 = {
 		add_character_modifier = harald_tanglehairs_vow_modifier
 		add_character_modifier = shieldmaiden_level_intrigue_2_fp1_modifier
 		add_character_modifier = exotic_foreign_lord_fp1_modifier
+		add_character_modifier = house_beneficiary_won_ghw
+		add_character_modifier = bhakti_germanic_generic_freyr
+		add_character_modifier = bhakti_germanic_generic_thor
+		add_character_modifier = almohad_leader_modifier
+		add_character_modifier = bhakti_germanic_danish_tyr
+		add_character_modifier = held_human_sacrifice_fp1_modifier
+		add_character_modifier = decentralized_rule_perk_modifier
+		add_character_modifier = dynasty_beneficiary_won_ghw
+		add_character_modifier = ireland_laudabiliter_modifier
+		add_character_modifier = bhakti_germanic_not_danish_ullr
 	}
 }
