@@ -42,6 +42,14 @@ parthian_tactics_perk = {
 	parent = bellum_justum_perk
 	
 	character_modifier = {
+		light_cav_pursuit_mult = 0.2
+		light_cav_toughness_mult = 0.3
+		heavy_cav_pursuit_mult = 0.2
+		heavy_cav_toughness_mult = 0.3
+		magic_cav_pursuit_mult = 0.2
+		magic_cav_toughness_mult = 0.3 
+		missile_cav_pursuit_mult = 0.2
+		missile_cav_toughness_mult = 0.3
 	}
 }
 
@@ -70,6 +78,12 @@ organized_retreat_perk = {
 	
 	character_modifier = {
 		movement_speed = 0.15
+		swords_screen_add = 5
+		axes_screen_add = 5
+		lances_screen_add = 5
+		bows_screen_add = 5
+		armors_screen_add = 5
+		magic_screen_add = 5
 	}
 }
 
@@ -84,6 +98,14 @@ hit_and_run_perk = {
 	
 	character_modifier = {
 		retreat_losses = -0.25
+		lances_toughness_mult = 0.3
+		lances_damage_mult = 0.15
+		swords_toughness_mult = 0.3
+		swords_damage_mult = 0.15
+		axes_toughness_mult = 0.3
+		axes_damage_mult = 0.15
+		bows_damage_mult = 0.3
+		magic_damage_mult = 0.3
 	}
 }
 
@@ -129,6 +151,11 @@ sappers_perk = {
 	parent = living_off_the_land_perk
 	
 	character_modifier = {
+		swords_siege_value_add = 0.1
+		lances_siege_value_add = 0.1
+		axes_siege_value_add = 0.1
+		bows_siege_value_add = 0.1
+		armors_siege_value_add = 0.1
 	}
 }
 

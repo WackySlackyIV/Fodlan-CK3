@@ -8,8 +8,10 @@ mounted_warrior_practice_modifier = {
 
 cavalry_charge_exercise_modifier = {
 	icon = horse_positive
-	#light_cavalry_damage_add = 2
-	#heavy_cavalry_damage_add = 3
+	light_cav_damage_add = 2
+	heavy_cav_damage_add = 3
+	light_flyers_damage_add = 2
+	heavy_flyers_damage_add = 3
 }
 
 hightened_troop_morale_modifier = {
@@ -53,10 +55,14 @@ fought_a_seasoned_warrior = {
 
 improved_horse_mastery_modifier = {
 	icon = horse_positive
-	#light_cavalry_pursuit_add = 4
-	#heavy_cavalry_pursuit_add = 4
-	#light_cavalry_screen_add = 2
-	#heavy_cavalry_screen_add = 2
+	light_cav_pursuit_add = 4
+	heavy_cav_pursuit_add = 4
+	magic_cav_pursuit_add = 4
+	missile_cav_pursuit_add = 4
+	light_cav_screen_add = 2
+	heavy_cav_screen_add = 2
+	magic_cav_screen_add = 2
+	missile_cav_screen_add = 2
 }
 
 upset_troops_modifier = {
@@ -243,8 +249,10 @@ warfare_flexible_strategy_modifier = {
 
 warfare_stablemaster_tamed_wild_horse_modifier = {
 	icon = horse_positive
-	#light_cavalry_damage_add = 5
-	#heavy_cavalry_damage_add = 5
+	light_cav_damage_add = 5
+	heavy_cav_damage_add = 5
+	magic_cav_damage_add = 5
+	missile_cav_damage_add = 5
 	knight_effectiveness_mult = 0.2
 }
 
@@ -255,8 +263,10 @@ warfare_tamer_of_horses_modifier = {
 
 warfare_almost_tamed_wild_horse_modifier = {
 	icon = horse_positive
-	#light_cavalry_damage_add = 3
-	#heavy_cavalry_damage_add = 3
+	light_cav_damage_add = 3
+	heavy_cav_damage_add = 3
+	magic_cav_damage_add = 3
+	missile_cav_damage_add = 3
 	knight_effectiveness_mult = 0.1
 }
 

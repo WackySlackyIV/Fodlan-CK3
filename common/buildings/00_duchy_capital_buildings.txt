@@ -629,10 +629,10 @@ blacksmiths_01 = {
 	cost_gold = expensive_building_tier_2_cost
 	
 	character_modifier = {
-		lance_damage_mult = 0.05
-		lance_toughness_mult = 0.15
-		axe_damage_mult = 0.05
-		axe_toughness_mult = 0.15
+		lances_damage_mult = 0.05
+		lances_toughness_mult = 0.15
+		axes_damage_mult = 0.05
+		axes_toughness_mult = 0.15
 		men_at_arms_maintenance = -0.06
 	}
 	
@@ -671,10 +671,10 @@ blacksmiths_02 = {
 	cost_gold = expensive_building_tier_3_cost
 	
 	character_modifier = {
-		lance_damage_mult = 0.1
-		lance_toughness_mult = 0.3
-		axe_damage_mult = 0.1
-		axe_toughness_mult = 0.3
+		lances_damage_mult = 0.1
+		lances_toughness_mult = 0.3
+		axes_damage_mult = 0.1
+		axes_toughness_mult = 0.3
 		men_at_arms_maintenance = -0.08
 	}
 	
@@ -711,10 +711,10 @@ blacksmiths_03 = {
 	cost_gold = expensive_building_tier_4_cost
 	
 	character_modifier = {
-		lance_damage_mult = 0.15
-		lance_toughness_mult = 0.45
-		axe_damage_mult = 0.15
-		axe_toughness_mult = 0.45
+		lances_damage_mult = 0.15
+		lances_toughness_mult = 0.45
+		axes_damage_mult = 0.15
+		axes_toughness_mult = 0.45
 		men_at_arms_maintenance = -0.1
 	}
 	
@@ -751,12 +751,12 @@ archery_ranges_01 = {
 	cost_gold = expensive_building_tier_2_cost
 	
 	character_modifier = {
-		bow_damage_mult = 0.15
-		bow_toughness_mult = 0.05
-		sword_screen_mult = 0.05
-		sword_damage_mult = 0.1
-		sword_toughness_mult = 0.05
-		sword_pursuit_mult = 0.1
+		bows_damage_mult = 0.15
+		bows_toughness_mult = 0.05
+		swords_screen_mult = 0.05
+		swords_damage_mult = 0.1
+		swords_toughness_mult = 0.05
+		swords_pursuit_mult = 0.1
 		men_at_arms_maintenance = -0.06
 	}
 	
@@ -795,12 +795,12 @@ archery_ranges_02 = {
 	cost_gold = expensive_building_tier_3_cost
 	
 	character_modifier = {
-		bow_damage_mult = 0.3
-		bow_toughness_mult = 0.1
-		sword_screen_mult = 0.1
-		sword_damage_mult = 0.2
-		sword_toughness_mult = 0.1
-		sword_pursuit_mult = 0.2
+		bows_damage_mult = 0.3
+		bows_toughness_mult = 0.1
+		swords_screen_mult = 0.1
+		swords_damage_mult = 0.2
+		swords_toughness_mult = 0.1
+		swords_pursuit_mult = 0.2
 		men_at_arms_maintenance = -0.08
 	}
 	
@@ -837,12 +837,12 @@ archery_ranges_03 = {
 	cost_gold = expensive_building_tier_4_cost
 	
 	character_modifier = {
-		bow_damage_mult = 0.45
-		bow_toughness_mult = 0.15
-		sword_screen_mult = 0.15
-		sword_damage_mult = 0.3
-		sword_toughness_mult = 0.15
-		sword_pursuit_mult = 0.3
+		bows_damage_mult = 0.45
+		bows_toughness_mult = 0.15
+		swords_screen_mult = 0.15
+		swords_damage_mult = 0.3
+		swords_toughness_mult = 0.15
+		swords_pursuit_mult = 0.3
 		men_at_arms_maintenance = -0.1
 	}
 	

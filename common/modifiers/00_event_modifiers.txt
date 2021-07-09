@@ -447,8 +447,10 @@ refused_to_rebuild_marrakesh_modifier = {
 
 crushing_charge_modifier = {
 	icon = martial_positive
-	#heavy_cavalry_damage_mult = 0.15
-	#heavy_cavalry_toughness_mult = 0.15
+	heavy_cav_damage_mult = 0.15
+	heavy_cav_toughness_mult = 0.15
+	heavy_flayers_damage_mult = 0.15
+	heavy_flyers_toughness_mult = 0.15
 }
 
 church_burner_modifier = {
