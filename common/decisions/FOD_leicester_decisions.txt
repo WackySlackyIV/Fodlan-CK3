@@ -24,6 +24,7 @@
 		every_vassal = {
 			limit = { 
 				primary_title = { tier >= tier_county }
+				NOT = { is_at_war_with = ROOT }
 			}
 			trigger_event = FOD_alliance.1 #call alliance
 		}

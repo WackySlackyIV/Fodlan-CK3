@@ -1,10 +1,10 @@
 ﻿l_english:
 
  ##ZANADIC RELIGION##
- zanadic_high_god_name:0 "Goddess"
- zanadic_high_god_name_possessive:0 "Goddess'"
- zanadic_high_god_name_alternate:0 "The Goddess"
- zanadic_high_god_name_alternate_possessive:0 "The Goddess'"
+ zanadic_high_god_name:0 "The Goddess"
+ zanadic_high_god_name_possessive:0 "The Goddess'"
+ zanadic_high_god_alternate:0 "The Goddess"
+ zanadic_high_god_alternate_possessive:0 "The Goddess'"
  zanadic_cethleann_name:0 "Cethleann"
  zanadic_cethleann_name_possessive:0 "Cethleanns"
  zanadic_cichol_name:0 "Cichol"

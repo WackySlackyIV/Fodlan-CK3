@@ -94,6 +94,9 @@ FOD_crest_inheritance = {
 		remove_trait = crest_blood_flames
 		remove_trait = crest_blood_seiros
 		remove_trait = crest_blood_ernest
+		remove_trait = crest_blood_malik
+		remove_trait = crest_minor_malik
+		remove_trait = crest_major_malik
 	}
 	events = {
 		FOD_crests.001 #general crest assign
