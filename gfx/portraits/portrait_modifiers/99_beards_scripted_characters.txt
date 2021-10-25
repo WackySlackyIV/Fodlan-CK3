@@ -539,4 +539,21 @@ beards_scripted_characters = {
         }
     }
 
+    shaved = { # no beard
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:1400004 #Sattar
+                this = character:1400004 #Sattar
+        }
+    }
 }

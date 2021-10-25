@@ -66,6 +66,7 @@
 	religion="dinymori"
 	culture="ikhtin"
 	dynasty = 1400
+	dna = dna_sattar
 	
 	martial = 12
 	prowess = 24

@@ -811,6 +811,14 @@ hairstyles_scripted_characters = {
                 this = character:400006 #Ludwig
             }
         }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:1400004 #Sattar
+                this = character:1400004 #Sattar
+            }
+        }
     }
 
 ##############################################################################################################################################
