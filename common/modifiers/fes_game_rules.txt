@@ -1,0 +1,9 @@
+fodlan_quick_siege = {
+  icon = martial_positive
+  siege_phase_time = -0.5
+}
+
+fodlan_quick_movement = {
+  icon = martial_positive
+  movement_speed = 0.5
+}

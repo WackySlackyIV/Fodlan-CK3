@@ -1,0 +1,15 @@
+﻿fodlan_named_character_show_icon_scripted_gui = {
+	scope = character
+
+	is_shown = {
+		has_trait = fodlan_named_character
+	}
+}
+
+fodlan_named_descendant_show_icon_scripted_gui = {
+	scope = character
+
+	is_shown = {
+		has_trait = fodlan_named_descendant
+	}
+}

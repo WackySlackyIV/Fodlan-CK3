@@ -1,0 +1,231 @@
+######################################################
+################## PORTRAIT TYPES ####################
+######################################################
+
+types PortraitTypes
+{
+    ## Status icons, shown in the bottom right on portraits
+    type portrait_status_icons_small = flowcontainer {
+        visible = "[Character.IsValid]"
+        ignoreinvisible = yes
+        direction = vertical
+
+        background = {
+            using = Background_Area_Dark
+            margin = { 2 2 }
+            margin_right = 1
+        }
+
+        block "status_icons" {
+            icon = {
+                name = "playable_icon"
+                visible = "[ObjectsEqual( Character.Self, GetPlayer.GetPlayerHeir )]"
+                size = { 14 14 }
+                texture = "gfx/interface/icons/portraits/heir_small.dds"
+                tooltip = "[Character.GetPlayableFrameTooltip]"
+            }
+
+            icon = {
+                name = "head_icon"
+                visible = "[LessThan_int32(Character.GetDynastyHeadRelationFrame('(bool)yes'), '(int32)9')]"
+                size = { 14 14 }
+
+                texture = "gfx/interface/icons/portraits/relation_small.dds"
+                framesize = { 28 28 }
+                frame = "[Character.GetDynastyHeadRelationFrame('(bool)yes')]"
+                tooltip = "[Character.GetDynastyHeadRelationTooltip]"
+            }
+
+            icon = {
+                name = "relation_icon"
+                visible = "[LessThan_int32(Character.GetPlayerDynastyRelationFrame, '(int32)9')]"
+                size = { 14 14 }
+
+                texture = "gfx/interface/icons/portraits/relation_small.dds"
+                framesize = { 28 28 }
+                frame = "[Character.GetPlayerDynastyRelationFrame]"
+                tooltip = "[Character.GetPlayerDynastyRelationTooltip]"
+            }
+
+            icon = {
+                name = "powerful_vassal"
+                visible = "[Character.IsMyPowerfulVassal]"
+                size = { 14 14 }
+
+                texture = "gfx/interface/icons/portraits/powerful_vassal_small.dds"
+                framesize = { 28 28 }
+                frame = "[Character.GetPowerfulVassalFrame]"
+                tooltip = "[Character.GetPowerfulVassalTooltip]"
+            }
+
+            icon = {
+                name = "can_be_punished"
+                visible = "[Character.CanBePunished]"
+                size = { 14 14 }
+
+                texture = "gfx/interface/icons/portraits/punishment_small.dds"
+                tooltip = "[Character.PunishmentTooltip]"
+            }
+
+            icon = {
+                name = "hook"
+                visible = "[Character.PlayerHasHooksOrHookableSecrets]"
+                size = { 14 14 }
+
+                texture = "gfx/interface/icons/portraits/hook_secret_small.dds"
+                framesize = { 28 28 }
+                frame = "[Character.GetHookOrHookableSecretsFrame]"
+                tooltip = "[Character.HookTooltip]"
+            }
+
+            icon = {
+                name = "incapable"
+                visible = "[Character.IsIncapable]"
+                size = { 14 14 }
+                texture = "gfx/interface/icons/portraits/incapable_small.dds"
+                tooltip = "trait_incapable"
+            }
+        }
+
+        block "extra_status_icons" {}
+
+        block "dead_icon"
+        {
+            icon = {
+                name = "historical_figure"
+                datacontext = "[GetScriptedGui('fodlan_named_character_show_icon_scripted_gui')]"
+                visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
+                size = { 14 14 }
+                texture = "gfx/interface/icons/traits/fodlan_named_character_small.dds"
+                tooltip = "fodlan_named_character_icon_tooltip"
+            }
+
+            icon = {
+                name = "historical_figure_famous"
+                datacontext = "[GetScriptedGui('fodlan_named_descendant_show_icon_scripted_gui')]"
+                visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
+                size = { 14 14 }
+                texture = "gfx/interface/icons/traits/fodlan_named_descendant_small.dds"
+                tooltip = "fodlan_named_descendant_icon_tooltip"
+            }
+
+            icon = {
+                name = "is_dead"
+                visible = "[Character.IsDeadAndValid]"
+                parentanchor = right
+                size = { 14 14 }
+
+                texture = "[Character.GetDeathReasonIcon]"
+                tooltip = "CHARACTER_DEAD_TOOLTIP"
+            }
+        }
+    }
+
+    type portrait_status_icons = flowcontainer {
+        ignoreinvisible = yes
+        direction = vertical
+        visible = "[Character.IsValid]"
+
+        block "status_icons" {
+            icon = {
+                name = "playable_icon"
+                visible = "[ObjectsEqual( Character.Self, GetPlayer.GetPlayerHeir )]"
+                size = { 20 20 }
+                texture = "gfx/interface/icons/portraits/heir.dds"
+                tooltip = "[Character.GetPlayableFrameTooltip]"
+            }
+
+            icon = {
+                name = "head_icon"
+                visible = "[LessThan_int32(Character.GetDynastyHeadRelationFrame('(bool)yes'), '(int32)9')]"
+                size = { 20 20 }
+
+                texture = "gfx/interface/icons/portraits/relation.dds"
+                framesize = { 40 40 }
+                frame = "[Character.GetDynastyHeadRelationFrame('(bool)yes')]"
+                tooltip = "[Character.GetDynastyHeadRelationTooltip]"
+            }
+
+            icon = {
+                name = "relation_icon"
+                visible = "[LessThan_int32(Character.GetPlayerDynastyRelationFrame, '(int32)9')]"
+                size = { 20 20 }
+
+                texture = "gfx/interface/icons/portraits/relation.dds"
+                framesize = { 40 40 }
+                frame = "[Character.GetPlayerDynastyRelationFrame]"
+                tooltip = "[Character.GetPlayerDynastyRelationTooltip]"
+            }
+
+            icon = {
+                name = "powerful_vassal"
+                visible = "[Character.IsMyPowerfulVassal]"
+                size = { 20 20 }
+
+                texture = "gfx/interface/icons/portraits/powerful_vassal.dds"
+                framesize = { 40 40 }
+                frame = "[Character.GetPowerfulVassalFrame]"
+                tooltip = "[Character.GetPowerfulVassalTooltip]"
+            }
+
+            icon = {
+                name = "can_be_punished"
+                visible = "[Character.CanBePunished]"
+                size = { 20 20 }
+
+                texture = "gfx/interface/icons/portraits/punishment.dds"
+                tooltip = "[Character.PunishmentTooltip]"
+            }
+
+            icon = {
+                name = "hook"
+                visible = "[Character.PlayerHasHooksOrHookableSecrets]"
+                size = { 20 20 }
+
+                texture = "gfx/interface/icons/portraits/hook_secret.dds"
+                framesize = { 40 40 }
+                frame = "[Character.GetHookOrHookableSecretsFrame]"
+                tooltip = "[Character.HookTooltip]"
+            }
+
+            icon = {
+                name = "incapable"
+                visible = "[Character.IsIncapable]"
+                size = { 20 20 }
+                texture = "gfx/interface/icons/portraits/incapable.dds"
+                tooltip = "CHARACTER_INCAPABLE_TOOLTIP"
+            }
+        }
+
+        block "dead_icon"
+        {
+            icon = {
+                name = "historical_figure"
+                datacontext = "[GetScriptedGui('fodlan_named_character_show_icon_scripted_gui')]"
+                visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
+                size = { 20 20 }
+                texture = "gfx/interface/icons/traits/fodlan_named_character_small.dds"
+                tooltip = "fodlan_named_character_icon_tooltip"
+            }
+
+            icon = {
+                name = "historical_figure_famous"
+                datacontext = "[GetScriptedGui('fodlan_named_descendant_show_icon_scripted_gui')]"
+                visible = "[ScriptedGui.IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
+                size = { 20 20 }
+                texture = "gfx/interface/icons/traits/fodlan_named_descendant_small.dds"
+                tooltip = "fodlan_named_descendant_icon_tooltip"
+            }
+
+            icon = {
+                name = "is_dead"
+                visible = "[Character.IsDeadAndValid]"
+                parentanchor = right
+                size = { 20 20 }
+
+                texture = "[Character.GetDeathReasonIcon]"
+                tooltip = "CHARACTER_DEAD_TOOLTIP"
+            }
+        }
+    }
+}

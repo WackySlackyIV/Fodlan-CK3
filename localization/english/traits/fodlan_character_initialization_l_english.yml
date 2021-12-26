@@ -1,0 +1,7 @@
+﻿l_english:
+ trait_fodlan_named_character: "Famous Historical Figure"
+ fodlan_named_character_icon_tooltip: "Famous Historical Figure"
+ fodlan_named_character_desc: "Those blessed with a [crest|E] from the [Concept('seiros', 'Goddess')|E] have a significant impact on the future of [fodlan|E]."
+ trait_fodlan_named_descendant: "Notable Historical Figure"
+ fodlan_named_descendant_desc: "A notable figure in the history of [fodlan|E]"
+ fodlan_named_descendant_icon_tooltip: "Notable Historical Figure"

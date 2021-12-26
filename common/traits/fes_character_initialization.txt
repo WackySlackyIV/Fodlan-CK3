@@ -1,0 +1,55 @@
+fodlan_named_character = {
+	index = 5000
+	fame = yes
+
+	random_creation = 0
+  shown_in_ruler_designer = no
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					this = character:400000 # Edelgard
+					NOT = {
+						highest_held_title_tier >= tier_kingdom
+					}
+				}
+				desc = fodlan_hc_edelgard_heir_desc
+			}
+			triggered_desc = {
+				trigger = {
+					this = character:400000 # Edelgard
+					highest_held_title_tier >= tier_kingdom
+				}
+				desc = fodlan_hc_edelgard_emperor_desc
+			}
+			triggered_desc = {
+				trigger = {
+					this = character:300000 # Dimitri
+				}
+				desc = fodlan_hc_dimitri_desc
+			}
+			triggered_desc = {
+				trigger = {
+					this = character:200012 # Claude
+				}
+				desc = fodlan_hc_claude_desc
+			}
+			desc = fodlan_named_character_desc
+		}
+	}
+}
+
+fodlan_named_descendant = {
+	index = 5001
+	fame = yes
+
+	random_creation = 0
+  shown_in_ruler_designer = no
+	
+	desc = {
+		first_valid = {
+			desc = fodlan_named_descendant_desc
+		}
+	}
+}

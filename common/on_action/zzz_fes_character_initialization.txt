@@ -1,0 +1,27 @@
+on_game_start_after_lobby = {
+	events = {
+		fodlan_character_initialization.0001
+	}
+}
+
+on_join_court = {
+	on_actions = { fodlan_character_initialization_check }
+}
+
+on_birthday = {
+	on_actions = { fodlan_character_initialization_check }
+}
+
+on_title_gain = {
+	on_actions = { fodlan_character_initialization_check }
+}
+
+on_birth_child = {
+	on_actions = { fodlan_character_initialization_check }
+}
+
+fodlan_character_initialization_check = {
+	events = {
+    fodlan_character_initialization.0002
+	}
+}

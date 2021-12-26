@@ -1,0 +1,149 @@
+fodlan_major_crest = {
+  OR = {
+    has_trait = crest_major_seiros
+    has_trait = crest_major_flames
+    has_trait = crest_major_macuil
+    has_trait = crest_major_indech
+    has_trait = crest_major_cichol
+    has_trait = crest_major_cethleann
+    has_trait = crest_major_riegan
+    has_trait = crest_major_lamine
+    has_trait = crest_major_goneril
+    has_trait = crest_major_gloucester
+    has_trait = crest_major_gautier
+    has_trait = crest_major_fraldarius
+    has_trait = crest_major_dominic
+    has_trait = crest_major_daphnel
+    has_trait = crest_major_charon
+    has_trait = crest_major_blaiddyd
+    has_trait = crest_major_aubin
+    has_trait = crest_major_chevalier
+    has_trait = crest_major_ernest
+    has_trait = crest_major_noa
+    has_trait = crest_major_timotheos
+    has_trait = crest_major_maurice
+    has_trait = crest_major_malik
+  }
+}
+
+fodlan_minor_crest = {
+  OR = {
+    has_trait = crest_minor_seiros
+    has_trait = crest_minor_flames
+    has_trait = crest_minor_macuil
+    has_trait = crest_minor_indech
+    has_trait = crest_minor_cichol
+    has_trait = crest_minor_cethleann
+    has_trait = crest_minor_riegan
+    has_trait = crest_minor_lamine
+    has_trait = crest_minor_goneril
+    has_trait = crest_minor_gloucester
+    has_trait = crest_minor_gautier
+    has_trait = crest_minor_fraldarius
+    has_trait = crest_minor_dominic
+    has_trait = crest_minor_daphnel
+    has_trait = crest_minor_charon
+    has_trait = crest_minor_blaiddyd
+    has_trait = crest_minor_aubin
+    has_trait = crest_minor_chevalier
+    has_trait = crest_minor_ernest
+    has_trait = crest_minor_noa
+    has_trait = crest_minor_timotheos
+    has_trait = crest_minor_maurice
+    has_trait = crest_minor_malik
+  }
+}
+
+fodlan_passive_blood = {
+  OR = {
+    has_trait = crest_blood_seiros
+    has_trait = crest_blood_flames
+    has_trait = crest_blood_macuil
+    has_trait = crest_blood_indech
+    has_trait = crest_blood_cichol
+    has_trait = crest_blood_cethleann
+    has_trait = crest_blood_riegan
+    has_trait = crest_blood_lamine
+    has_trait = crest_blood_goneril
+    has_trait = crest_blood_gloucester
+    has_trait = crest_blood_gautier
+    has_trait = crest_blood_fraldarius
+    has_trait = crest_blood_dominic
+    has_trait = crest_blood_daphnel
+    has_trait = crest_blood_charon
+    has_trait = crest_blood_blaiddyd
+    has_trait = crest_blood_aubin
+    has_trait = crest_blood_chevalier
+    has_trait = crest_blood_ernest
+    has_trait = crest_blood_noa
+    has_trait = crest_blood_timotheos
+    has_trait = crest_blood_maurice
+    has_trait = crest_blood_malik
+  }
+}
+
+fodlan_playable_commoners = {
+  OR = {
+		this = character:100004 # Alois
+    this = character:100006 # Shamir
+		this = character:100007 # Manuela
+		this = character:100010 # Cyril
+		this = character:200016 # Raphael
+		this = character:200020 # Ignatz
+		this = character:200025 # Leonie
+    this = character:300011 # Ashe
+		this = character:300031 # Dedue
+		this = character:400015 # Hubert
+		this = character:400018 # Caspar
+		this = character:400020 # Dorothea
+		this = character:400021 # Petra
+  }
+}
+
+fodlan_leaders = {
+  OR = {
+		this = character:300000 # Dimitri
+    this = character:200012 # Claude
+  }
+}
+
+fodlan_named_character = {
+  OR = {
+    has_trait = fodlan_named_character
+    has_trait = fodlan_named_descendant
+    fodlan_playable_commoners = yes
+  }
+}
+
+fodlan_major_character = {
+  OR = {
+    fodlan_should_be_famous = yes
+    fodlan_should_be_notable = yes
+  }
+}
+
+fodlan_should_be_famous = {
+  OR = {
+    has_game_rule = fodlan_major_characters_all
+    AND = {
+      has_game_rule = fodlan_major_characters_no_blood
+      fodlan_minor_crest = yes
+    }
+    fodlan_major_crest = yes
+    fodlan_leaders = yes
+  }
+}
+
+fodlan_should_be_notable = {
+  NOT = {
+    fodlan_should_be_famous = yes
+  }
+  OR = {
+    fodlan_playable_commoners = yes
+    AND = {
+      has_game_rule = fodlan_major_characters_no_blood
+      fodlan_passive_blood = yes
+    }
+    fodlan_minor_crest = yes
+  }
+}

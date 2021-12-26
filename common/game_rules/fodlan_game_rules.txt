@@ -1,0 +1,26 @@
+﻿fodlan_major_characters = {
+	default = fodlan_major_characters_no_blood
+	fodlan_major_characters_all = {}
+	fodlan_major_characters_no_blood = {}
+	fodlan_major_characters_no_minor = {}
+}
+
+fodlan_immortality = {
+	default = fodlan_immortality_disabled
+	fodlan_immortality_disabled = {}
+	fodlan_immortality_sterile = {}
+	fodlan_immortality_regular = {}
+	fodlan_immortality_genetic = {}
+}
+
+fodlan_siege = {
+	default = fodlan_quick_siege
+	fodlan_quick_siege = {}
+	fodlan_normal_siege = {}
+}
+
+fodlan_movement = {
+	default = fodlan_quick_movement
+	fodlan_quick_movement = {}
+	fodlan_normal_movement = {}
+}

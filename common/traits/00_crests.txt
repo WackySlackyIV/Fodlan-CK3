@@ -1,5 +1,5 @@
 ﻿crest_minor_seiros = {
-	index = 401
+	index = 4001
 
 	diplomacy = 1
 	martial = 1
@@ -28,7 +28,7 @@
 }
 
 crest_major_seiros = {
-	index = 402
+	index = 4002
 
 	diplomacy = 2
 	martial = 2
@@ -57,7 +57,7 @@ crest_major_seiros = {
 }
 
 crest_minor_flames = {
-	index = 403
+	index = 4003
 
 	diplomacy = 1
 	martial = 2
@@ -86,7 +86,7 @@ crest_minor_flames = {
 }
 
 crest_major_flames = {
-	index = 404
+	index = 4004
 
 	diplomacy = 2
 	martial = 4
@@ -115,7 +115,7 @@ crest_major_flames = {
 }
 
 crest_minor_macuil = {
-	index = 405
+	index = 4005
 
 	martial = 3
 	learning = 1
@@ -142,7 +142,7 @@ crest_minor_macuil = {
 }
 
 crest_major_macuil = {
-	index = 406
+	index = 4006
 
 	martial = 6
 	learning = 2
@@ -169,7 +169,7 @@ crest_major_macuil = {
 }
 
 crest_minor_indech = {
-	index = 407
+	index = 4007
 
 	health = 0.5
 	martial = 1
@@ -197,7 +197,7 @@ crest_minor_indech = {
 }
 
 crest_major_indech = {
-	index = 408
+	index = 4008
 
 	health = 1
 	martial = 2
@@ -225,7 +225,7 @@ crest_major_indech = {
 }
 
 crest_minor_cichol = {
-	index = 409
+	index = 4009
 
 	diplomacy = 1
 	stewardship = 2
@@ -253,7 +253,7 @@ crest_minor_cichol = {
 }
 
 crest_major_cichol = {
-	index = 410
+	index = 4010
 
 	diplomacy = 2
 	stewardship = 4
@@ -281,7 +281,7 @@ crest_major_cichol = {
 }
 
 crest_minor_cethleann = {
-	index = 411
+	index = 4011
 
 	health = 1 
 	learning = 2
@@ -308,7 +308,7 @@ crest_minor_cethleann = {
 }
 
 crest_major_cethleann = {
-	index = 412
+	index = 4012
 
 	health = 2
 	learning = 4
@@ -335,7 +335,7 @@ crest_major_cethleann = {
 }
 
 crest_minor_riegan = {
-	index = 413
+	index = 4013
 
 	diplomacy = 1
 	intrigue = 2
@@ -362,7 +362,7 @@ crest_minor_riegan = {
 }
 
 crest_major_riegan = {
-	index = 414
+	index = 4014
 
 	diplomacy = 2
 	intrigue = 4
@@ -389,7 +389,7 @@ crest_major_riegan = {
 }
 
 crest_minor_lamine = {
-	index = 415
+	index = 4015
 
 	learning = 3
 	prowess = 5
@@ -415,7 +415,7 @@ crest_minor_lamine = {
 }
 
 crest_major_lamine = {
-	index = 416
+	index = 4016
 
 	learning = 6
 	prowess = 10
@@ -441,7 +441,7 @@ crest_major_lamine = {
 }
 
 crest_minor_goneril = {
-	index = 417
+	index = 4017
 
 	martial = 1
 	intrigue = 2
@@ -468,7 +468,7 @@ crest_minor_goneril = {
 }
 
 crest_major_goneril = {
-	index = 418
+	index = 4018
 
 	martial = 2
 	intrigue = 4
@@ -495,7 +495,7 @@ crest_major_goneril = {
 }
 
 crest_minor_gloucester = {
-	index = 419
+	index = 4019
 
 	stewardship = 2
 	learning = 1
@@ -522,7 +522,7 @@ crest_minor_gloucester = {
 }
 
 crest_major_gloucester = {
-	index = 420
+	index = 4020
 
 	stewardship = 4
 	learning = 2
@@ -549,7 +549,7 @@ crest_major_gloucester = {
 }
 
 crest_minor_gautier = {
-	index = 421
+	index = 4021
 
 	diplomacy = 2
 	martial = 1
@@ -576,7 +576,7 @@ crest_minor_gautier = {
 }
 
 crest_major_gautier = {
-	index = 422
+	index = 4022
 
 	diplomacy = 4
 	martial = 2
@@ -603,7 +603,7 @@ crest_major_gautier = {
 }
 
 crest_minor_fraldarius = {
-	index = 423
+	index = 4023
 
 	martial = 2
 	intrigue = 1
@@ -630,7 +630,7 @@ crest_minor_fraldarius = {
 }
 
 crest_major_fraldarius = {
-	index = 424
+	index = 4024
 
 	martial = 4
 	intrigue = 2
@@ -657,7 +657,7 @@ crest_major_fraldarius = {
 }
 
 crest_minor_dominic = {
-	index = 425
+	index = 4025
 
 	diplomacy = 1
 	learning = 2
@@ -684,7 +684,7 @@ crest_minor_dominic = {
 }
 
 crest_major_dominic = {
-	index = 426
+	index = 4026
 
 	diplomacy = 2
 	learning = 4
@@ -711,7 +711,7 @@ crest_major_dominic = {
 }
 
 crest_minor_daphnel = {
-	index = 427
+	index = 4027
 
 	diplomacy = 3
 	prowess = 5
@@ -737,7 +737,7 @@ crest_minor_daphnel = {
 }
 
 crest_major_daphnel = {
-	index = 428
+	index = 4028
 
 	diplomacy = 6
 	prowess = 10
@@ -763,7 +763,7 @@ crest_major_daphnel = {
 }
 
 crest_minor_charon = {
-	index = 429
+	index = 4029
 
 	martial = 2
 	learning = 1
@@ -790,7 +790,7 @@ crest_minor_charon = {
 }
 
 crest_major_charon = {
-	index = 430
+	index = 4030
 
 	martial = 4
 	learning = 2
@@ -817,7 +817,7 @@ crest_major_charon = {
 }
 
 crest_minor_blaiddyd = {
-	index = 431
+	index = 4031
 
 	martial = 3
 	prowess = 5
@@ -843,7 +843,7 @@ crest_minor_blaiddyd = {
 }
 
 crest_major_blaiddyd = {
-	index = 432
+	index = 4032
 
 	martial = 6
 	prowess = 10
@@ -869,7 +869,7 @@ crest_major_blaiddyd = {
 }
 
 crest_minor_aubin = {
-	index = 433
+	index = 4033
 
 	intrigue = 3
 	prowess = 5
@@ -895,7 +895,7 @@ crest_minor_aubin = {
 }
 
 crest_major_aubin = {
-	index = 434
+	index = 4034
 
 	intrigue = 6
 	prowess = 10
@@ -921,7 +921,7 @@ crest_major_aubin = {
 }
 
 crest_minor_chevalier = {
-	index = 435
+	index = 4035
 
 	diplomacy = 1
 	martial = 2
@@ -948,7 +948,7 @@ crest_minor_chevalier = {
 }
 
 crest_major_chevalier = {
-	index = 436
+	index = 4036
 
 	diplomacy = 2
 	martial = 4
@@ -975,7 +975,7 @@ crest_major_chevalier = {
 }
 
 crest_minor_ernest = {
-	index = 437
+	index = 4037
 
 	stewardship = 3
 	prowess = 5
@@ -1001,7 +1001,7 @@ crest_minor_ernest = {
 }
 
 crest_major_ernest = {
-	index = 438
+	index = 4038
 
 	stewardship = 6
 	prowess = 10
@@ -1027,7 +1027,7 @@ crest_major_ernest = {
 }
 
 crest_minor_noa = {
-	index = 439
+	index = 4039
 
 	diplomacy = 2
 	intrigue = 1
@@ -1054,7 +1054,7 @@ crest_minor_noa = {
 }
 
 crest_major_noa = {
-	index = 440
+	index = 4040
 
 	diplomacy = 4
 	intrigue = 2
@@ -1081,7 +1081,7 @@ crest_major_noa = {
 }
 
 crest_minor_timotheos = {
-	index = 441
+	index = 4041
 
 	stewardship = 2
 	intrigue = 1
@@ -1108,7 +1108,7 @@ crest_minor_timotheos = {
 }
 
 crest_major_timotheos = {
-	index = 442
+	index = 4042
 
 	stewardship = 4
 	intrigue = 2
@@ -1135,7 +1135,7 @@ crest_major_timotheos = {
 }
 
 crest_minor_maurice = {
-	index = 443
+	index = 4043
 
 	stewardship = 2
 	intrigue = 1
@@ -1153,7 +1153,7 @@ crest_minor_maurice = {
 }
 
 crest_major_maurice = {
-	index = 444
+	index = 4044
 
 	stewardship = 2
 	learning = 4
@@ -1171,7 +1171,7 @@ crest_major_maurice = {
 }
 
 crest_minor_malik = {
-	index = 445
+	index = 4045
 
 	learning = 2
 	fertility = 0.1
@@ -1195,7 +1195,7 @@ crest_minor_malik = {
 }
 
 crest_major_malik = {
-	index = 446
+	index = 4046
 
 	learning = 4
 	fertility = 0.2
@@ -1214,7 +1214,7 @@ crest_major_malik = {
 }
 
 crest_blood_blaiddyd = {
-	index = 447
+	index = 4047
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1224,7 +1224,7 @@ crest_blood_blaiddyd = {
 	desc = trait_crest_blood_blaiddyd_desc
 }
 crest_blood_charon = {
-	index = 448
+	index = 4048
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1234,7 +1234,7 @@ crest_blood_charon = {
 	desc = trait_crest_blood_charon_desc
 }
 crest_blood_daphnel = {
-	index = 449
+	index = 4049
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1244,7 +1244,7 @@ crest_blood_daphnel = {
 	desc = trait_crest_blood_daphnel_desc
 }
 crest_blood_dominic = {
-	index = 450
+	index = 4050
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1254,7 +1254,7 @@ crest_blood_dominic = {
 	desc = trait_crest_blood_dominic_desc
 }
 crest_blood_fraldarius = {
-	index = 451
+	index = 4051
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1264,7 +1264,7 @@ crest_blood_fraldarius = {
 	desc = trait_crest_blood_fraldarius_desc
 }
 crest_blood_gautier = {
-	index = 452
+	index = 4052
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1274,7 +1274,7 @@ crest_blood_gautier = {
 	desc = trait_crest_blood_gautier_desc
 }
 crest_blood_gloucester = {
-	index = 453
+	index = 4053
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1284,7 +1284,7 @@ crest_blood_gloucester = {
 	desc = trait_crest_blood_gloucester_desc
 }
 crest_blood_goneril = {
-	index = 454
+	index = 4054
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1294,7 +1294,7 @@ crest_blood_goneril = {
 	desc = trait_crest_blood_goneril_desc
 }
 crest_blood_lamine = {
-	index = 455
+	index = 4055
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1304,7 +1304,7 @@ crest_blood_lamine = {
 	desc = trait_crest_blood_lamine_desc
 }
 crest_blood_riegan = {
-	index = 456
+	index = 4056
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1314,7 +1314,7 @@ crest_blood_riegan = {
 	desc = trait_crest_blood_riegan_desc
 }
 crest_blood_maurice = {
-	index = 457
+	index = 4057
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1324,7 +1324,7 @@ crest_blood_maurice = {
 	desc = trait_crest_blood_maurice_desc
 }
 crest_blood_cethleann = {
-	index = 458
+	index = 4058
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1334,7 +1334,7 @@ crest_blood_cethleann = {
 	desc = trait_crest_blood_cethleann_desc
 }
 crest_blood_cichol = {
-	index = 459
+	index = 4059
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1344,7 +1344,7 @@ crest_blood_cichol = {
 	desc = trait_crest_blood_cichol_desc
 }
 crest_blood_indech = {
-	index = 460
+	index = 4060
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1354,7 +1354,7 @@ crest_blood_indech = {
 	desc = trait_crest_blood_indech_desc
 }
 crest_blood_macuil = {
-	index = 461
+	index = 4061
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1364,7 +1364,7 @@ crest_blood_macuil = {
 	desc = trait_crest_blood_macuil_desc
 }
 crest_blood_aubin = {
-	index = 462
+	index = 4062
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1374,7 +1374,7 @@ crest_blood_aubin = {
 	desc = trait_crest_blood_aubin_desc
 }
 crest_blood_chevalier = {
-	index = 463
+	index = 4063
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1384,7 +1384,7 @@ crest_blood_chevalier = {
 	desc = trait_crest_blood_chevalier_desc
 }
 crest_blood_noa = {
-	index = 464
+	index = 4064
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1394,7 +1394,7 @@ crest_blood_noa = {
 	desc = trait_crest_blood_noa_desc
 }
 crest_blood_timotheos = {
-	index = 465
+	index = 4065
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1404,7 +1404,7 @@ crest_blood_timotheos = {
 	desc = trait_crest_blood_timotheos_desc
 }
 crest_blood_flames = {
-	index = 466
+	index = 4066
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1414,7 +1414,7 @@ crest_blood_flames = {
 	desc = trait_crest_blood_flames_desc
 }
 crest_blood_seiros = {
-	index = 467
+	index = 4067
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1424,7 +1424,7 @@ crest_blood_seiros = {
 	desc = trait_crest_blood_seiros_desc
 }
 crest_blood_ernest = {
-	index = 468
+	index = 4068
 	genetic = yes
 	good = yes
 	random_creation = 0
@@ -1434,7 +1434,7 @@ crest_blood_ernest = {
 	desc = trait_crest_blood_ernest_desc
 }
 crest_blood_malik = {
-	index = 469
+	index = 4069
 	genetic = yes
 	good = yes
 	random_creation = 0

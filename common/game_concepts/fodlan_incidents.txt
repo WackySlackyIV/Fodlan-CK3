@@ -1,0 +1,31 @@
+insurrection = {
+  parent = historic_incident
+}
+
+war_of_unification = {
+  parent = historic_incident
+}
+
+war_of_independence = {
+  parent = historic_incident
+}
+
+first_mach_war = {
+  parent = historic_incident
+}
+
+crescent_moon_war = {
+  parent = historic_incident
+}
+
+almyrian_invasion = {
+  parent = historic_incident
+}
+
+tragedy_of_duscar = {
+  parent = historic_incident
+}
+
+historic_incident = {
+
+}

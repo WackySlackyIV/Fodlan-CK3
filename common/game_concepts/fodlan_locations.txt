@@ -1,0 +1,31 @@
+fodlan = {
+  parent = fodlan
+}
+
+adrestian_empire = {
+  alias = { adrestia adrestian }
+  parent = fodlan
+}
+
+kingdom_of_faerghus = {
+  alias = { faerghus }
+  parent = fodlan
+}
+
+leicester_alliance = {
+  alias = { leicester }
+  parent = fodlan
+}
+
+church = {
+  parent = fodlan
+}
+
+academy = {
+  parent = fodlan
+}
+
+almyra = {
+
+}
+

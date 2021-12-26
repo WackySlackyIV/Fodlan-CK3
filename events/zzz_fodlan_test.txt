@@ -1,0 +1,67 @@
+namespace = fest
+
+fest.001 = {
+	type = character_event
+	left_portrait = root
+
+	title = "Test"
+	desc = "Test 2"
+
+	option = {
+		name = "Hi"
+	}
+
+	option = {
+		trigger = {
+			fodlan_named_character = yes
+		}
+		name = "Named Character"
+	}
+
+	option = {
+		trigger = {
+			fodlan_major_crest = yes
+		}
+		name = "Major Crest"
+	}
+
+	option = {
+		trigger = {
+			AND = {
+				OR = {
+				 	has_game_rule = fodlan_major_characters_no_blood
+				  has_game_rule = fodlan_major_characters_all
+				}
+				fodlan_minor_crest = yes
+			}
+		}
+		name = "Minor Crest"
+	}
+
+	option = {
+		trigger = {
+			AND = {
+				has_game_rule = fodlan_major_characters_all
+				fodlan_passive_blood = yes
+			}`
+		}
+		name = "Blood"
+	}
+
+	option = {
+		trigger = {
+			fodlan_major_character = yes
+		}
+		name = "Major Character"
+	}
+
+	option = {
+		trigger = {
+		  OR = {
+				exists = character:300000 # Dimitri
+				exists = character:200012 # Claude
+			}
+		}
+	  name = "Leader"
+	}
+}

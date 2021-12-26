@@ -1,0 +1,90 @@
+namespace = fodlan_character_initialization
+
+fodlan_character_initialization.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		every_living_character = {
+			trigger_event = { on_action = fodlan_character_initialization_check }
+		}
+	}
+}
+
+fodlan_character_initialization.0002 = {
+  hidden = yes
+
+  immediate = {
+    if = {
+      limit = {
+        has_game_rule = fodlan_quick_siege
+      }
+      add_character_modifier = fodlan_quick_siege
+    }
+    if = {
+      limit = {
+        has_game_rule = fodlan_quick_movement
+      }
+      add_character_modifier = fodlan_quick_movement
+    }
+    if = {
+      limit = {
+        fodlan_major_character = yes
+      }
+      trigger_event = { id = fodlan_character_initialization.0003 }
+      trigger_event = { id = fodlan_character_initialization.0004 day = 1 }
+    }
+  }
+}
+
+# Major/Minor character
+fodlan_character_initialization.0003 = {
+  hidden = yes
+
+  # TODO: Figure out the descendants thing on childbirth
+  immediate = {
+    if = {
+      limit = {
+        fodlan_should_be_famous = yes
+      }
+      add_trait = fodlan_named_character
+    }
+    if = {
+      limit = {
+        fodlan_should_be_notable = yes
+      }
+      add_trait = fodlan_named_descendant
+    }
+  }
+}
+
+# Immortality
+fodlan_character_initialization.0004 = {
+  hidden = yes
+
+  immediate = {
+    if = {
+      limit = {
+        fodlan_named_character = yes
+      }
+      if = {
+        limit = {
+          has_game_rule = fodlan_immortality_regular
+        }
+        add_trait = immortality
+      }
+      if = {
+        limit = {
+          has_game_rule = fodlan_immortality_genetic
+        }
+        add_trait = immortality_genetic
+      }
+      if = {
+        limit = {
+          has_game_rule = fodlan_immortality_sterile
+        }
+        add_trait = immortality_sterile
+      }
+    }
+  }
+}

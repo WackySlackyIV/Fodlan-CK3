@@ -1,0 +1,51 @@
+ten_elites = {
+	parent = ten_elites 
+}
+
+four_apostles = {
+	parent = four_apostles
+}
+
+saints = {
+	parent = saints
+}
+
+beast = {
+	parent = ten_elites
+}
+
+cichol = {
+	parent = saints
+}
+
+seiros = {
+	parent = saints
+}
+
+indech = {
+	parent = saints
+}
+
+macuil = {
+	parent = saints
+}
+
+cethleann = {
+	parent = saints
+}
+
+noa = {
+	parent = four_apostles
+}
+
+timotheos = {
+	parent = four_apostles
+}
+
+aubin = {
+	parent = four_apostles
+}
+
+chevalier = {
+	parent = four_apostles
+}
