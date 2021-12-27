@@ -1,7 +1,7 @@
 ﻿l_english:
  game_concept_crest:0 "Crest"
  game_concept_crests:0 "Crests"
- game_concept_crest_desc:0 "Crests are a mysterious power passed down through one's bloodline that provide their bearer an edge over their peers. Purportedly blessings from the Goddess, Crests might offer greater strength or a high affinity for magic. Noble houses greatly value crests, going so far as to adopt those that bear them or disinherit children who do not possess them. Crests can be Minor or Major, and offer corresponding stat bonuses."
+ game_concept_crest_desc:0 "Crests are a mysterious power passed down through one's bloodline that provide their bearer an edge over their peers. Purportedly blessings from the [goddess|E], Crests might offer greater strength or a high affinity for magic. Noble houses greatly value crests, going so far as to adopt those that bear them or disinherit children who do not possess them. Crests can be Minor or Major, and offer corresponding stat bonuses."
  
  game_concept_ten_elites:0 "Ten Elites"
  game_concept_ten_elites_desc:0 "The Ten Elites were a group of individuals bestowed with the power of [Concept('crest','Crests')|E] and Heroes' Relics given by the goddess to fight against evil gods in a distant time. Corrupted by their power, they turned on eachother and threw Fodlan into turmoil. They were later killed by the combined might of Adrestian Empire and Saint [Concept('seiros','Seiros')|E]. Their bloodline was left behind in their eponymous noble houses, and persists to this day."
@@ -17,6 +17,9 @@
  
  game_concept_seiros:0 "Seiros"
  game_concept_seiros_desc:0 "The leader of the other [Concept('saints','Four Saints')|E] in the fight against the traitorous [Concept('ten_elites','Ten Elites')|E] and founder of the Church of Seiros. A renowned warrior known for extreme compassion and charitability."
+ game_concept_goddess: "Goddess"
+ game_concept_sothis: "Sothis"
+ game_concept_sothis_desc: "Placeholder"
  
  game_concept_macuil:0 "Macuil"
  game_concept_macuil_desc:0 "The famously reclusive Saint of the [Concept('saints','Four Saints')|E]. Fabled as a craftsman and a strategist of great talent, he was also known for crafting works without peer. His bloodline persists in some noble houses to this day."

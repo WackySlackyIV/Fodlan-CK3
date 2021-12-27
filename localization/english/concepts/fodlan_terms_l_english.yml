@@ -2,4 +2,6 @@
  game_concept_iy: "IY"
  game_concept_biy: "BIY"
  game_concept_imperial_year: "Imperial Year"
- game_concept_imperial_year_desc: "The Imperial Year is a unified calendar system used throughout [fodlan|E] with year 0 denoting the founding of the [adrestian_empire|E]. While [fodlan|E] no longer remains one nation, the calender remains in use in the [kingdom_of_faerghus|E] and [leicester_alliance|E] due to the influence of the [church|E]"
+ game_concept_imperial_year_desc: "The Imperial Year is a unified calendar system used throughout [fodlan|E] with year 0 denoting the founding of the [adrestian_empire|E]. Events after the founding are denoted with #V IY#! representing years after. Events before with #V BIY#!. While [fodlan|E] no longer remains one nation, the calender remains in use in the [kingdom_of_faerghus|E] and [leicester_alliance|E] due to the influence of the [church|E]"
+ game_concept_nabatean: "Nabatean"
+ game_concept_nabatean_desc: "A mysterious and ancient race with great powers akin to divine. Originally hailing from another land, Nabateans are able to live and behave just like humans and are [Concept('church', 'worshipped')|E] in [fodlan|E]. They have the ability to grant part of their power to others."

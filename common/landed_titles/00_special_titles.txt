@@ -7,8 +7,15 @@
 
 k_daphnel = {
 	color = { 93 166 90 }
-    color2 = { 255 255 255 }
+  color2 = { 255 255 255 }
 	definite_form = yes
 	
 	capital = c_daphnel
+}
+
+k_agartha = {
+	color = { 70 68 11 }
+	color2 = { 231 230 220 }
+
+	capital = c_hrym
 }

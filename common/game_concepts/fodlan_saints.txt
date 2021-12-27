@@ -49,3 +49,8 @@ aubin = {
 chevalier = {
 	parent = four_apostles
 }
+
+sothis = {
+	alias = { goddess }
+	parent = church
+}
