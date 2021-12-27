@@ -5,3 +5,5 @@
  game_concept_kingdom_of_faerghus_desc: "Placeholder"
  game_concept_leicester_alliance: "Leicester Alliance"
  game_concept_leicester_alliance_desc: "Placeholder"
+ game_concept_slither: "Those Who Slither in the Dark"
+ game_concept_slither_desc: "An [Concept('agartha', 'Agarthan')|E] organization surviving the [war_of_heroes|E]. This secret organization is responsible for many [historic_incident|E] in the History of [fodlan|E]. Led by the [seven_sages|E], they seek revenge on the [nabatean|E] race who wiped out their ancient civilization. They hold considerable influence in [fodlan|E] thanks to their ability to disguise themselves as well as holding remnants of advanced technology from another era"

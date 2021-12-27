@@ -1,0 +1,7 @@
+seven_sages = {
+  parent = slither
+}
+
+slither = {
+	parent = argartha
+}

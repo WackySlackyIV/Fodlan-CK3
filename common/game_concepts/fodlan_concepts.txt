@@ -6,3 +6,11 @@
 imperial_year = {
   alias = { biy iy }
 }
+
+nabatean = {
+
+}
+
+human = {
+
+}

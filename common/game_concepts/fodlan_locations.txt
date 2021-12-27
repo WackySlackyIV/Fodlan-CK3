@@ -25,6 +25,10 @@ academy = {
   parent = fodlan
 }
 
+agartha = {
+  parent = fodlan
+}
+
 almyra = {
 
 }

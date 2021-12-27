@@ -1,8 +1,4 @@
-insurrection = {
-  parent = historic_incident
-}
-
-war_of_unification = {
+war_of_heroes = {
   parent = historic_incident
 }
 
@@ -23,6 +19,14 @@ almyrian_invasion = {
 }
 
 tragedy_of_duscar = {
+  parent = historic_incident
+}
+
+insurrection = {
+  parent = historic_incident
+}
+
+war_of_unification = {
   parent = historic_incident
 }
 
