@@ -1,0 +1,121 @@
+unification_war = {
+	group = event
+
+  should_check_for_interface_availability = no
+
+	allowed_for_character = {
+    always = yes
+	}
+
+	allowed_against_character = {
+		always = yes
+	}
+
+	target_titles = all
+	target_title_tier = all
+	target_de_jure_regions_above = no
+	ignore_effect = change_title_holder
+
+  # TODO: Need to fix this
+	should_invalidate = {
+    always = no
+	}
+
+	on_invalidated_desc = msg_de_jure_all_war_invalidated_message
+
+	on_invalidated = {
+	}
+
+  # TODO: Not sure what this does
+	ai_score_mult = {
+		value = -1000
+	}
+
+  # TODO: Placeholder
+	cost = { prestige = 2000 }
+
+	on_declaration = {
+		on_declared_war = yes
+	}
+
+	on_victory_desc = {
+		desc = unification_victory_desc
+	}
+
+	on_victory = {
+    root = {
+      scope:war = {
+        every_war_defender = {
+          debug_log_scopes = no
+          add_to_list = losers
+        }
+        every_in_list = {
+          list = losers
+          debug_log_scopes = yes
+          unification_war_get_titles_to_transfer = {
+            LOSER = this
+            WINNER = root.war.primary_attacker
+          }
+          prisoner_of_war_capture_effect = { TARGET = this IMPRISONER = root.war.primary_attacker }
+        }
+      }
+    }
+  }
+
+  white_peace_possible = no
+
+  # TODO: Reconciliation option
+	on_white_peace_desc = {
+    desc = unification_white_peace_desc
+	}
+
+  # TODO: Reconcilization option
+	on_white_peace = {
+	}
+
+	on_defeat_desc = {
+		desc = unification_defeat_desc
+	}
+
+	on_defeat = {
+		root = {
+      scope:war = {
+        every_war_attacker = {
+          debug_log_scopes = no
+          add_to_list = losers
+        }
+        every_in_list = {
+          list = losers
+          debug_log_scopes = yes
+          unification_war_get_titles_to_transfer = {
+            LOSER = this
+            WINNER = scope:claimant
+          }
+          prisoner_of_war_capture_effect = { TARGET = this IMPRISONER = root.war.primary_defender }
+        }
+        scope:claimant = {
+          destroy_title = title:e_adrestia
+          set_character_faith_with_conversion = faith:seirosite
+        }
+        every_war_defender = {
+          create_alliance = scope:claimant
+        }
+      }
+    }
+	}
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+
+	war_name = "UNIFICATION_WAR_NAME"
+	# cb_name = "HOLY_WAR_COUNTY_NAME"
+
+	is_holy_war = no
+
+	interface_priority = 80
+}

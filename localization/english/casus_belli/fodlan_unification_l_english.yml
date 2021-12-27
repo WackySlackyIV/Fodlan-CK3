@@ -1,0 +1,7 @@
+﻿l_english:
+ unification_victory_desc: "Within the target [title|E], all titles held by [defender.GetFaith.GetAdjective] rulers are seized, and any [attacker.GetFaith.GetAdjective] rulers are vassalized by [attacker.GetShortUIName]. All defending [fodlan|E] participants will be imprisoned."
+ unification_white_peace_desc: "Reconciliation is impossible (for now)."
+ unification_defeat_desc: "Within the target [title|E], all titles held by [attacker.GetShortUIName] are seized by [defender.GetShortUIName] and granted to [claimant.GetShortUIName]. Any of [attacker.GetShortUIName] vassals are vassalized by [claimant.GetShortUIName]. All attacking [fodlan|E] participants will be imprisoned. An alliance will be setup between [claimant.GetShortUIName] and all defensive members. The [adrestian_empire|E] will be downgraded to a #V Kingdom#!."
+ UNIFICATION_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective] Unification War for [TITLE.GetBaseName]"
+ TRANSFER_TITLE_DEBUG: "[THIS.GetLandedTitle.GetBaseName]"
+ unification_war: "Unification War"
