@@ -1,8 +1,8 @@
 # Unification War
 war = {
 	# name = "war_unification_war"	# the name can be left out, will be generated then
-	start_date = 1180.2.29
-	end_date = 1186.2.29 # TODO: Probably not correct need to calculate actual date
+	start_date = 1180.12.29
+	end_date = 1186.12.29 # TODO: Probably not correct need to calculate actual date
 	targeted_titles={
 		k_faerghus
 	}

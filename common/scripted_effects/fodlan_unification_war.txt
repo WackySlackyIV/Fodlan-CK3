@@ -1,106 +1,106 @@
 # Input: root scope is a title referring to the top level title of a loser.
 # Updates: Two lists titles_taken and vassals_taken which are the titles and vassals
 unification_war_get_titles_to_transfer = {
-  $LOSER$ = { save_temporary_scope_as = temp_loser }
-  $WINNER$ = { save_temporary_scope_as = temp_winner }
+	$LOSER$ = { save_temporary_scope_as = temp_loser }
+	$WINNER$ = { save_temporary_scope_as = temp_winner }
 
-  scope:temp_loser = {
-    debug_log = "Evaluating Individual"
-    debug_log_scopes = no
+	scope:temp_loser = {
+		debug_log = "Evaluating Individual"
+		debug_log_scopes = no
 
-    every_held_title = {
-      limit = {
-        title_in_adrestia = yes
-      }
-      debug_log = "Evaluating Title"
-      debug_log_scopes = no
-      add_to_list = titles_taken
-      # Iterate over all the de jure titles and add them to titles_taken
-      every_in_de_jure_hierarchy = {
-        continue = {
-          tier > tier_county
-        }
-        limit = {
-          tier = tier_county
-          exists = holder
-          holder = {
-            OR = {
-              this = scope:temp_loser
-              target_is_liege_or_above = scope:temp_loser
-            }
-          }
-        }
-        add_to_list = titles_taken
-      }
-      # Figure out who can be vassalized
-      every_in_de_jure_hierarchy = {
-        limit = {
-          tier >= tier_county
-        }
+		every_held_title = {
+			limit = {
+				title_in_adrestia = yes
+			}
+			debug_log = "Evaluating Title"
+			debug_log_scopes = no
+			add_to_list = titles_taken
+			# Iterate over all the de jure titles and add them to titles_taken
+			every_in_de_jure_hierarchy = {
+				continue = {
+					tier > tier_county
+				}
+				limit = {
+					tier = tier_county
+					exists = holder
+					holder = {
+						OR = {
+							this = scope:temp_loser
+							target_is_liege_or_above = scope:temp_loser
+						}
+					}
+				}
+				add_to_list = titles_taken
+			}
+			# Figure out who can be vassalized
+			every_in_de_jure_hierarchy = {
+				limit = {
+					tier >= tier_county
+				}
 
-        # Mark this vassal as being eligible to transfer from the defender to the attacker.
-        holder = {
-          if = {
-            limit = {
-              NOT = { this = scope:temp_loser } # Strip the top level title
-              NOT = { is_in_list = potential_vassals }
-              target_is_liege_or_above = scope:temp_loser
-            }
-            add_to_list = potential_vassals	
-          }
-        }
-      }
-    }
-    # Get Unique Vassal Lists
-    ordered_in_list = {
-      list = potential_vassals
-      order_by = highest_held_title_tier
-      max = 999
-      check_range_bounds = no
+				# Mark this vassal as being eligible to transfer from the defender to the attacker.
+				holder = {
+					if = {
+						limit = {
+							NOT = { this = scope:temp_loser } # Strip the top level title
+							NOT = { is_in_list = potential_vassals }
+							target_is_liege_or_above = scope:temp_loser
+						}
+						add_to_list = potential_vassals	
+					}
+				}
+			}
+		}
+		# Get Unique Vassal Lists
+		ordered_in_list = {
+			list = potential_vassals
+			order_by = highest_held_title_tier
+			max = 999
+			check_range_bounds = no
 
-      if = {
-        # If a liege has already been added to the vassalization list, skip us (we will remain our liege's vassal.)
-        limit = {
-          save_temporary_scope_as = this_vassal
-          any_in_list = {
-            list = vassals_taken
-            target_is_vassal_or_below = scope:this_vassal
-          }
-        }
-      }
-      else = {
-        # Flag this character to be vassalized instead of usurped.
-        add_to_list = vassals_taken
-        
-        # Remove the counties this vassal holds from the siezed title list (the vassal gets to keep their land when switching allegiance!)
-        every_sub_realm_county = {
-          remove_from_list = titles_taken
-        }
-      }
-    }
-    create_title_and_vassal_change = {
-      type = conquest_holy_war
-      save_scope_as = change
-      add_claim_on_loss = yes
-    }
-    every_in_list = {
-      list = vassals_taken
-      debug_log_scopes = no
-      change_liege = {
-        liege = scope:temp_winner
-        change = scope:change
-      }
-    }
-    every_in_list = {
-      list = titles_taken
-      debug_log_scopes = no
-      change_title_holder = {
-        holder = scope:temp_winner
-        change = scope:change
-        take_baronies = yes
-      }
-    }
-        
-    resolve_title_and_vassal_change = scope:change
-  }
+			if = {
+				# If a liege has already been added to the vassalization list, skip us (we will remain our liege's vassal.)
+				limit = {
+					save_temporary_scope_as = this_vassal
+					any_in_list = {
+						list = vassals_taken
+						target_is_vassal_or_below = scope:this_vassal
+					}
+				}
+			}
+			else = {
+				# Flag this character to be vassalized instead of usurped.
+				add_to_list = vassals_taken
+				
+				# Remove the counties this vassal holds from the siezed title list (the vassal gets to keep their land when switching allegiance!)
+				every_sub_realm_county = {
+					remove_from_list = titles_taken
+				}
+			}
+		}
+		create_title_and_vassal_change = {
+			type = conquest_holy_war
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		every_in_list = {
+			list = vassals_taken
+			debug_log_scopes = no
+			change_liege = {
+				liege = scope:temp_winner
+				change = scope:change
+			}
+		}
+		every_in_list = {
+			list = titles_taken
+			debug_log_scopes = no
+			change_title_holder = {
+				holder = scope:temp_winner
+				change = scope:change
+				take_baronies = yes
+			}
+		}
+				
+		resolve_title_and_vassal_change = scope:change
+	}
 }

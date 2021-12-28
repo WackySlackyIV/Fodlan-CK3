@@ -1,5 +1,5 @@
 ﻿bm_fodlan_start = {
-	start_date = 1181.3.15
+	start_date = 1180.12.15
 	is_playable = yes
 	recommended = yes
 
