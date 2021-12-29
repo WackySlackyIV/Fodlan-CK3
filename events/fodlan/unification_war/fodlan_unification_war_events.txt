@@ -1,5 +1,9 @@
 namespace = fodlan_unification_war
 
+###############################
+# Unification War Setup Chain #
+###############################
+
 # Start 
 fodlan_unification_war.1 = {
   type = empty
@@ -58,9 +62,14 @@ fodlan_unification_war.3 = {
       }
       trigger_event = { id = fodlan_unification_war.4 }
     }
+    trigger_event = {
+      id = fodlan_unification_war.2000
+      days = 3
+    }
   }
 }
 
+# Lore Announcement Event
 fodlan_unification_war.4 = {
   type = character_event
 	title = fodlan_unification_war.4.t
@@ -90,3 +99,113 @@ fodlan_unification_war.5 = {
 }
 # TODO: Siege and Duel Event
 
+##############################################
+# Leicester Alliance Intervention War Events #
+##############################################
+
+# Start of event chain
+fodlan_unification_war.2000 = {
+  type = empty
+  hidden = yes
+
+  immediate = {
+    every_living_character = {
+      limit = {
+        is_ai = no
+      }
+      trigger_event = { id = fodlan_unification_war.2001 } # Lore event
+    }
+    character:200006 = {
+      trigger_event = { id = fodlan_unification_war.2002 days = 7 }  # Gloucester start war
+    }
+  }
+}
+
+# Flavor event - impasse at the council
+fodlan_unification_war.2001 = {
+  type = character_event
+	title = fodlan_unification_war.2001.t
+	desc = fodlan_unification_war.2001.desc
+	theme = realm
+
+  left_portrait = {
+    character = character:200006
+    animation = war_attacker
+  }
+  right_portrait = {
+    character = character:200000
+    animation = war_defender
+  }
+  lower_left_portrait = {
+		character = character:200005
+	}
+	lower_center_portrait = {
+		character = character:200011
+	}
+	lower_right_portrait = {
+		character = character:200007
+	}
+
+  option = {
+    name = fodlan_unification_war.2001.a
+  }
+}
+
+# Start War
+fodlan_unification_war.2002 = {
+  type = empty
+  hidden = yes
+
+  immediate = {
+    start_war = {
+      cb = unification_alliance_intervention_war
+      target = character:200000
+      target_title = title:k_leicester
+    }
+    global_var:unification_alliance_intervention_war_instance = {
+      # add_attacker = character:200006 # Gloucester
+      add_attacker = character:200005 # Ordelia
+      add_attacker = character:200033 # Gloucester Cousin
+      add_attacker = character:200026 # Acheron
+
+      # add_defender = character:200000 # Oswald
+      add_defender = character:200007 # Edmund
+      add_defender = character:200003 # Judith
+      add_defender = character:200073 # Beverly
+      add_defender = character:200002 # Myrddin (Conquered via event by Imperial)
+      add_defender = character:200001 # Clarence - Unsure but next to Church
+      add_defender = character:200067 # Minor
+      add_defender = character:200068 # Minor
+      add_defender = character:200050 # Minor
+      add_defender = character:200051 # Minor
+      add_defender = character:200052 # Minor
+    }
+    every_living_character = {
+      limit = {
+        is_ai = no
+      }
+      trigger_event = { id = fodlan_unification_war.2003 }
+    }
+  }
+}
+
+# Flavor Event
+fodlan_unification_war.2003 = {
+  type = character_event
+	title = fodlan_unification_war.2003.t
+	desc = fodlan_unification_war.2003.desc
+	theme = war
+
+  left_portrait = {
+    character = character:200006
+    animation = war_attacker
+  }
+  right_portrait = {
+    character = character:200000
+    animation = war_defender
+  }
+
+  option = {
+    name = fodlan_unification_war.2003.a
+  }
+}
