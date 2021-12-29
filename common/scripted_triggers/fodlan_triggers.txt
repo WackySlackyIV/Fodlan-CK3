@@ -320,3 +320,14 @@ title_in_adrestia = {
 		}
 	}
 }
+
+fodlan_allow_internal_war = {
+	OR = {
+		fodlan_major_incident_active = no
+		NOT = {
+			any_held_title = {
+				title_in_adrestia = yes
+			}
+		}
+	}
+}

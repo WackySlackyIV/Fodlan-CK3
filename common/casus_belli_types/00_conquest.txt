@@ -6,11 +6,8 @@
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		# AND = {
-		# 	fodlan_major_incident_active = no
-		# 	can_use_conquest_cbs_trigger = yes
-		# }
-		always = no
+		fodlan_allow_internal_war = yes
+		can_use_conquest_cbs_trigger = yes
 	}
 
 	allowed_against_character = {
@@ -19,6 +16,9 @@
 				top_liege = scope:defender.top_liege
 				liege = scope:defender
 			}
+		}
+		scope:defender = {
+			fodlan_allow_internal_war = yes
 		}
 	}
 	target_titles = all
@@ -484,10 +484,8 @@ duchy_conquest_cb = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		AND = {
-			fodlan_major_incident_active = no
-			can_use_conquest_cbs_trigger = yes
-		}
+		fodlan_allow_internal_war = yes
+		can_use_conquest_cbs_trigger = yes
 	}
 
 	allowed_against_character = {
@@ -496,6 +494,9 @@ duchy_conquest_cb = {
 				top_liege = scope:defender.top_liege
 				liege = scope:defender
 			}
+		}
+		scope:defender = {
+			fodlan_allow_internal_war = yes
 		}
 	}
 	target_titles = all
@@ -522,13 +523,10 @@ duchy_conquest_cb = {
 	}
 
 	valid_to_start = {
-		AND = {
-			fodlan_major_incident_active = no
-			scope:target = {
-				any_in_de_jure_hierarchy = {
-					tier = tier_county
-					neighboring_county_or_viking_conquest_trigger = { CHARACTER = root }
-				}
+		scope:target = {
+			any_in_de_jure_hierarchy = {
+				tier = tier_county
+				neighboring_county_or_viking_conquest_trigger = { CHARACTER = root }
 			}
 		}
 	}
@@ -1009,7 +1007,7 @@ ducal_conquest_cb = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		not = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		has_perk = ducal_conquest_perk
 		can_use_conquest_cbs_trigger = no
 	}
@@ -1021,6 +1019,9 @@ ducal_conquest_cb = {
 		#		liege = scope:defender
 		#	}
 		#}
+		scope:defender = {
+			fodlan_allow_internal_war = yes
+		}
 	}
 	target_titles = neighbor_land
 	target_title_tier = all

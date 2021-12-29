@@ -9,14 +9,16 @@
 
 	# Already defined in 00_casus_belli_groups.txt
 	allowed_for_character = {
-		NOT = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		scope:attacker.faith = {
 			NOT = { has_doctrine = unreformed_faith_doctrine }
 		}
 	}
 
 	allowed_against_character = {
-		NOT = { fodlan_major_incident_active = yes }
+		scope:defender = {
+			fodlan_allow_internal_war = yes
+		}
 		scope:attacker = {
 			faith = {
 				faith_hostility_level = {
@@ -36,7 +38,7 @@
 	ignore_effect = change_title_holder
 
 	valid_to_start = {
-		NOT = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		trigger_if = {
 			limit = {
 				scope:attacker.faith = { has_doctrine = tenet_fodlan_isolationism }
@@ -467,14 +469,16 @@ religious_war = {
 
 	# Additional requirements to the defines in 00_casus_belli_groups.txt
 	allowed_for_character = {
-		NOT = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		scope:attacker.faith = {
 			NOT = { has_doctrine = unreformed_faith_doctrine }
 		}
 	}
 
 	allowed_against_character = {
-		NOT = { fodlan_major_incident_active = yes }
+		scope:defender = {
+			fodlan_allow_internal_war = yes
+		}
 		scope:attacker = {
 			faith = {
 				faith_hostility_level = {
@@ -494,7 +498,7 @@ religious_war = {
 	ignore_effect = change_title_holder
 
 	valid_to_start = {
-		NOT = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		trigger_if = {
 			limit = {
 				scope:attacker.faith = { has_doctrine = tenet_fodlan_isolationism }
@@ -926,14 +930,14 @@ excommunication_war = {
 	ai_only_against_neighbors = yes
 
 	# Already defined in 00_casus_belli_groups.txt
-	# allowed_for_character = {}
+	allowed_for_character = {}
 
 	allowed_against_character = {
-		NOT = { fodlan_major_incident_active = yes }
 		scope:defender = {
 			#Defender must be an excommunicated member of our faith.
 			has_trait = excommunicated
 			is_independent_ruler = yes
+			fodlan_allow_internal_war = yes
 			faith = {
 				has_doctrine_parameter = excommunication_active
 				this = scope:attacker.faith
@@ -945,7 +949,7 @@ excommunication_war = {
 			NOT = {
 				liege = scope:defender
 			}
-
+			fodlan_allow_internal_war = yes
 			trigger_if = {
 				limit = { is_ai = no } # Already pre-filtered by the AI due to ai_only_against_neighbors = yes. any_neighboring_top_liege_realm_owner is expensive
 				#We have to be neighboring the excommunicated ruler.
@@ -1167,8 +1171,8 @@ flowery_war_cb = {
 	# scope:attacker is the attacker
 	# scope:defender is the defender
 	allowed_against_character = {
-		NOT = { fodlan_major_incident_active = yes }
 		scope:attacker = {
+			fodlan_allow_internal_war = yes
 			faith = { has_doctrine_parameter = flower_war_cb_active }
 			NOT = {	#Must not have any leftover sacrificial prisoners/easy ability to get any.
 				any_prisoner = { has_character_modifier = designated_human_sacrifice_modifier }
@@ -1176,6 +1180,7 @@ flowery_war_cb = {
 		}
 
 		scope:defender = {
+			fodlan_allow_internal_war = yes
 			is_independent_ruler = yes
 			trigger_if = {
 				limit = { scope:attacker = { is_ai = no } } # Already pre-filtered by the AI due to ai_only_against_neighbors = yes. any_neighboring_top_liege_realm_owner is expensive

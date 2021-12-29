@@ -3,7 +3,7 @@
 	should_check_for_interface_availability = no # Covered by the county dejure cb
 
 	allowed_for_character = {
-		not = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		scope:attacker = {
 			culture = {
 				has_innovation = innovation_rightful_ownership
@@ -20,6 +20,9 @@
 				scope:defender = { target_is_liege_or_above = scope:attacker }
 				scope:attacker = { target_is_liege_or_above = scope:defender }
 			}
+		}
+		scope:defender = {
+			fodlan_allow_internal_war = yes
 		}
 	}
 	target_titles = de_jure
@@ -396,7 +399,7 @@ individual_county_de_jure_cb = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		not = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		scope:attacker = {
 			culture = {
 				has_innovation = innovation_casus_belli
@@ -413,6 +416,9 @@ individual_county_de_jure_cb = {
 				scope:defender = { target_is_liege_or_above = scope:attacker }
 				scope:attacker = { target_is_liege_or_above = scope:defender }
 			}
+		}
+		scope:defender = {
+			fodlan_allow_internal_war = yes
 		}
 	}
 	target_titles = all
@@ -835,7 +841,7 @@ individual_duchy_de_jure_cb = {
 	mutually_exclusive_titles = { always = yes }
 	
 	allowed_for_character = {
-		not = { fodlan_major_incident_active = yes }
+		fodlan_allow_internal_war = yes
 		scope:attacker = {
 			culture = {
 				has_innovation = innovation_chronicle_writing
@@ -852,6 +858,9 @@ individual_duchy_de_jure_cb = {
 				scope:defender = { target_is_liege_or_above = scope:attacker }
 				scope:attacker = { target_is_liege_or_above = scope:defender }
 			}
+		}
+		scope:defender = {
+			fodlan_allow_internal_war = yes
 		}
 	}
 	target_titles = all
