@@ -11,6 +11,10 @@ unification_war = {
 		always = yes
 	}
 
+	is_allowed_claim_title = {
+		always = yes
+	}
+
 	target_titles = all
 	target_title_tier = all
 	target_de_jure_regions_above = no
@@ -32,7 +36,7 @@ unification_war = {
 	}
 
 	# TODO: Placeholder
-	cost = { prestige = 2000 }
+	cost = { }
 
 	on_declaration = {
 		on_declared_war = yes

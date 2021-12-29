@@ -3,6 +3,7 @@
 	ai_only_against_neighbors = yes
 
 	allowed_for_character = {
+		not = { fodlan_major_incident_active = yes }
 		OR = {
 			has_government = tribal_government
 			#AND = {

@@ -9,12 +9,14 @@
 
 	# Already defined in 00_casus_belli_groups.txt
 	allowed_for_character = {
+		NOT = { fodlan_major_incident_active = yes }
 		scope:attacker.faith = {
 			NOT = { has_doctrine = unreformed_faith_doctrine }
 		}
 	}
 
 	allowed_against_character = {
+		NOT = { fodlan_major_incident_active = yes }
 		scope:attacker = {
 			faith = {
 				faith_hostility_level = {
@@ -34,6 +36,7 @@
 	ignore_effect = change_title_holder
 
 	valid_to_start = {
+		NOT = { fodlan_major_incident_active = yes }
 		trigger_if = {
 			limit = {
 				scope:attacker.faith = { has_doctrine = tenet_fodlan_isolationism }
@@ -464,12 +467,14 @@ religious_war = {
 
 	# Additional requirements to the defines in 00_casus_belli_groups.txt
 	allowed_for_character = {
+		NOT = { fodlan_major_incident_active = yes }
 		scope:attacker.faith = {
 			NOT = { has_doctrine = unreformed_faith_doctrine }
 		}
 	}
 
 	allowed_against_character = {
+		NOT = { fodlan_major_incident_active = yes }
 		scope:attacker = {
 			faith = {
 				faith_hostility_level = {
@@ -489,6 +494,7 @@ religious_war = {
 	ignore_effect = change_title_holder
 
 	valid_to_start = {
+		NOT = { fodlan_major_incident_active = yes }
 		trigger_if = {
 			limit = {
 				scope:attacker.faith = { has_doctrine = tenet_fodlan_isolationism }
@@ -923,6 +929,7 @@ excommunication_war = {
 	# allowed_for_character = {}
 
 	allowed_against_character = {
+		NOT = { fodlan_major_incident_active = yes }
 		scope:defender = {
 			#Defender must be an excommunicated member of our faith.
 			has_trait = excommunicated
@@ -950,10 +957,6 @@ excommunication_war = {
 	}
 
 	target_de_jure_regions_above = yes
-
-	valid_to_start = {
-		always = yes
-	}
 
 	on_declaration = {
 		on_declared_war = yes
@@ -1164,6 +1167,7 @@ flowery_war_cb = {
 	# scope:attacker is the attacker
 	# scope:defender is the defender
 	allowed_against_character = {
+		NOT = { fodlan_major_incident_active = yes }
 		scope:attacker = {
 			faith = { has_doctrine_parameter = flower_war_cb_active }
 			NOT = {	#Must not have any leftover sacrificial prisoners/easy ability to get any.

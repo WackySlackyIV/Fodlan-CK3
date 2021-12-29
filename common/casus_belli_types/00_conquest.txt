@@ -6,7 +6,11 @@
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		can_use_conquest_cbs_trigger = yes
+		# AND = {
+		# 	fodlan_major_incident_active = no
+		# 	can_use_conquest_cbs_trigger = yes
+		# }
+		always = no
 	}
 
 	allowed_against_character = {
@@ -480,11 +484,10 @@ duchy_conquest_cb = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
-		can_use_conquest_cbs_trigger = yes
-	}
-
-	allowed_for_character_display_regardless = {
-		prestige_level >= 3
+		AND = {
+			fodlan_major_incident_active = no
+			can_use_conquest_cbs_trigger = yes
+		}
 	}
 
 	allowed_against_character = {
@@ -519,10 +522,13 @@ duchy_conquest_cb = {
 	}
 
 	valid_to_start = {
-		scope:target = {
-			any_in_de_jure_hierarchy = {
-				tier = tier_county
-				neighboring_county_or_viking_conquest_trigger = { CHARACTER = root }
+		AND = {
+			fodlan_major_incident_active = no
+			scope:target = {
+				any_in_de_jure_hierarchy = {
+					tier = tier_county
+					neighboring_county_or_viking_conquest_trigger = { CHARACTER = root }
+				}
 			}
 		}
 	}
@@ -1003,6 +1009,7 @@ ducal_conquest_cb = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
+		not = { fodlan_major_incident_active = yes }
 		has_perk = ducal_conquest_perk
 		can_use_conquest_cbs_trigger = no
 	}

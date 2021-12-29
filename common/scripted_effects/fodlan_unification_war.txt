@@ -104,3 +104,10 @@ unification_war_get_titles_to_transfer = {
 		resolve_title_and_vassal_change = scope:change
 	}
 }
+
+mark_fodlan_unification_war_active = {
+  set_global_variable = {
+    name = unification_war_active
+    value = yes
+  }
+}

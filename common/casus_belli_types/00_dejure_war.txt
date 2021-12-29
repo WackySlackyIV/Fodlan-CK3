@@ -3,6 +3,7 @@
 	should_check_for_interface_availability = no # Covered by the county dejure cb
 
 	allowed_for_character = {
+		not = { fodlan_major_incident_active = yes }
 		scope:attacker = {
 			culture = {
 				has_innovation = innovation_rightful_ownership
@@ -395,6 +396,7 @@ individual_county_de_jure_cb = {
 	mutually_exclusive_titles = { always = yes }
 
 	allowed_for_character = {
+		not = { fodlan_major_incident_active = yes }
 		scope:attacker = {
 			culture = {
 				has_innovation = innovation_casus_belli
@@ -833,6 +835,7 @@ individual_duchy_de_jure_cb = {
 	mutually_exclusive_titles = { always = yes }
 	
 	allowed_for_character = {
+		not = { fodlan_major_incident_active = yes }
 		scope:attacker = {
 			culture = {
 				has_innovation = innovation_chronicle_writing
