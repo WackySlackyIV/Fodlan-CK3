@@ -48,10 +48,7 @@ fodlan_unification_war.3 = {
       claimant = character:400017
       target_title = title:k_faerghus
     }
-    every_character_war = { # Get the war scope again
-      limit = {
-        using_cb = unification_war # Filter Unification War
-      }
+    global_var:unification_war_instance = {
       add_defender = character:100000 # Add Rhea as a defender
       add_attacker = character:600000 # Brigid
     }

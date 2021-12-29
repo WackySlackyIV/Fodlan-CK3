@@ -40,6 +40,10 @@ unification_war = {
 
 	on_declaration = {
 		on_declared_war = yes
+		set_global_variable = {
+			name = unification_war_instance
+			value = scope:war
+		}
 	}
 
 	on_victory_desc = {
@@ -59,6 +63,7 @@ unification_war = {
 					unification_war_get_titles_to_transfer = {
 						LOSER = this
 						WINNER = root.war.primary_attacker
+						VASSAL_SAME_RELIGION = yes
 					}
 					prisoner_of_war_capture_effect = { TARGET = this IMPRISONER = root.war.primary_attacker }
 				}
@@ -117,6 +122,130 @@ unification_war = {
 	defender_allies_inherit = yes
 
 	war_name = "UNIFICATION_WAR_NAME"
+	# cb_name = "HOLY_WAR_COUNTY_NAME"
+
+	is_holy_war = no
+
+	interface_priority = 80
+}
+
+
+unification_alliance_intervention_war = {
+	group = event
+
+	should_check_for_interface_availability = no
+
+	allowed_for_character = {
+		always = yes
+	}
+
+	allowed_against_character = {
+		always = yes
+	}
+
+	is_allowed_claim_title = {
+		always = yes
+	}
+
+	target_titles = all
+	target_title_tier = all
+	target_de_jure_regions_above = no
+	ignore_effect = change_title_holder
+
+	# TODO: Need to fix this
+	should_invalidate = {
+		is_fodlan_unification_war_active = no
+	}
+
+	on_invalidated_desc = msg_de_jure_all_war_invalidated_message
+
+	on_invalidated = {
+		# TODO: WHite Peace Logic
+	}
+
+	# TODO: Not sure what this does
+	ai_score_mult = {
+		value = -1000
+	}
+
+	# TODO: Placeholder
+	cost = { }
+
+	on_declaration = {
+		on_declared_war = yes
+		mark_leicester_allied_aid_disabled = yes
+		set_global_variable = {
+			name = unification_alliance_intervention_war_instance
+			value = scope:war
+		}
+	}
+
+	on_victory_desc = {
+		desc = alliance_intervention_war_victory_desc
+	}
+
+	on_victory = {
+		scope:attacker = { # TODO: Get a functional non hard coded version
+			get_title = k_leicester
+		}
+		scope:defender = {
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			change_liege = {
+				liege = scope:attacker
+				change = scope:change
+			}
+			every_vassal = {
+				change_liege = {
+					liege = scope:attacker
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+			banish = yes
+		}
+		global_var:unification_war_instance = {
+      add_attacker = scope:attacker
+    }
+		mark_leicester_allied_aid_enabled = yes
+	}
+
+	# TODO: Reconciliation option
+	on_white_peace_desc = {
+		desc = alliance_intervention_war_white_peace_desc
+	}
+
+	# TODO: Reconcilization option
+	on_white_peace = {
+		mark_leicester_allied_aid_enabled = yes
+	}
+
+	on_defeat_desc = {
+		desc = alliance_intervention_war_defeat_desc
+	}
+
+	on_defeat = {
+		scope:attacker = {
+			depose = yes
+		}
+		global_var:unification_war_instance = {
+      add_defender = scope:defender
+    }
+		mark_leicester_allied_aid_enabled = yes # TODO: Confirm this works
+	}
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+
+	war_name = "UNIFICATION_ALLIANCE_INTERVENTION_WAR_NAME"
 	# cb_name = "HOLY_WAR_COUNTY_NAME"
 
 	is_holy_war = no

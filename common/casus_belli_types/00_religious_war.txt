@@ -930,7 +930,7 @@ excommunication_war = {
 	ai_only_against_neighbors = yes
 
 	# Already defined in 00_casus_belli_groups.txt
-	allowed_for_character = {}
+	# allowed_for_character = {}
 
 	allowed_against_character = {
 		scope:defender = {

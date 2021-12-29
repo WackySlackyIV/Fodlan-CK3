@@ -4947,8 +4947,13 @@ c_rowe = {
 
 c_arianrhod = {
 	1.1.1 = { change_development_level = 14 }
+
 	1180.1.1 = {
 		holder = 300012
+	}
+	1181.5.29 = { # TODO: Placeholder date
+		liege= k_faerghus
+		holder = 300035
 	}
 }
 

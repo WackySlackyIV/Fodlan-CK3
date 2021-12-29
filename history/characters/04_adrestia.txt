@@ -643,8 +643,17 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1175.1.1 = {
+		effect = {
+			set_relation_guardian = character:400123
+		}
+	}
+	1180.1.1 = {
 		employer = 400000
+		effect = {
+			end_relation_guardian = character:400123
+			set_relation_friend = character:400000
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -750,10 +759,10 @@
 	dna = dna_arundel
 	dynasty = 319
 
-	 	diplomacy=8
-	 	martial=6
+	diplomacy=8
+	martial=6
 	stewardship=8
-	 	intrigue=9
+	intrigue=9
 	learning=7
 	health = 6
 	prowess = 6
@@ -772,6 +781,9 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
+	}
+	1168.1.1 = {
+		add_character_modifier = slither_protection
 	}
 	1200.1.1={
 		death=yes
@@ -2504,7 +2516,7 @@
 	}
 }
 
-400123 = {
+400123 = { # Duke Gerth
 	name="Aymar"
 	religion="ablehnist"
 	culture="adrestian"

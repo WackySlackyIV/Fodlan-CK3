@@ -37,7 +37,6 @@ unification_war_get_titles_to_transfer = {
 				limit = {
 					tier >= tier_county
 				}
-
 				# Mark this vassal as being eligible to transfer from the defender to the attacker.
 				holder = {
 					if = {
@@ -45,6 +44,10 @@ unification_war_get_titles_to_transfer = {
 							NOT = { this = scope:temp_loser } # Strip the top level title
 							NOT = { is_in_list = potential_vassals }
 							target_is_liege_or_above = scope:temp_loser
+							trigger_if = {
+								limit = { $VASSAL_SAME_RELIGION$ = yes }
+								religious_cb_holder_under_target_can_be_vassalized = yes
+							}
 						}
 						add_to_list = potential_vassals	
 					}
@@ -110,4 +113,15 @@ mark_fodlan_unification_war_active = {
     name = unification_war_active
     value = yes
   }
+}
+
+mark_leicester_allied_aid_enabled = {
+	set_global_variable = {
+    name = fodlan_leicester_allied_aid_disabled
+    value = yes
+  }
+}
+
+mark_leicester_allied_aid_disabled = {
+	remove_global_variable = fodlan_leicester_allied_aid_disabled
 }

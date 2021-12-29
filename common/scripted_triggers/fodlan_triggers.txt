@@ -328,6 +328,9 @@ fodlan_allow_internal_war = {
 			any_held_title = {
 				title_in_adrestia = yes
 			}
+			any_character_war = {
+				using_cb = unification_war
+			}
 		}
 	}
 }

@@ -17,6 +17,25 @@
 	1124.9.7 = {
 		birth=yes
 	}
+	1175.1.1 = {
+		effect = {
+			create_alliance = {
+				target = character:400023 # Ionius
+				allied_through_owner = character:400021 # Petra
+				allied_through_target = character:400000 # Edelgard
+			}
+		}
+	}
+	1180.11.29 = {
+		effect = {
+			break_alliance = character:400023
+			create_alliance = {
+				target = character:400000 # Edelgard
+				allied_through_owner = character:400021 # Petra
+				allied_through_target = character:400000 # Edelgard
+			}
+		}
+	}
 	1200.1.1={
 		death=yes
 	}
