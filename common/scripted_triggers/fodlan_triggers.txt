@@ -219,6 +219,7 @@ is_custom_char = {
 		this = character:200014 #Godfrey
 		this = character:200027 #Caius
 		this = character:200028 #Elihu
+		this = character:600000 #Aern
 		
 		###FEMALES###
 		this = character:200022 #Marianne

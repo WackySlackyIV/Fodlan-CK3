@@ -738,6 +738,11 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:600000 #Aern
+                this = character:600000 #Aern
+            }
         }
     }
 

@@ -299,8 +299,13 @@ beards_scripted_characters = {
                 value = 0.52 # For the randomness to work correctly
             }
         }   
-        weight = {
+         weight = {
             base = 0
+            modifier = {
+                add = 200
+                exists = character:600000 #Aern
+                this = character:600000 #Aern
+            }
         }
     }
 

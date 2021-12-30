@@ -3,6 +3,7 @@
 	religion="fuale"
 	culture="brigid"
 	dynasty = 600
+	dna = dna_aern
 
 	trait = temperate #mostly for the health boost
 	trait = diligent #so that Petra can have opinion boosts for her father
