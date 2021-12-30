@@ -39,7 +39,7 @@ fodlan_event_battle.1 = {
 			}
 		}
     global_var:fodlan_event_battle_location = {
-      save_scope_as =  local_battle_location
+      save_scope_as = local_battle_location
     }
     global_var:fodlan_event_battle_left_attacking_army = {
       save_scope_as = local_left_attacking_army
@@ -62,6 +62,9 @@ fodlan_event_battle.1 = {
   }
 
   option = {
+    trigger = {
+      is_ai = no
+    }
     name = "Help (See Tooltip)"
     custom_tooltip = fodlan_event_battle.1.help.1
     custom_tooltip = fodlan_event_battle.1.help.2
@@ -80,23 +83,225 @@ fodlan_event_battle.1 = {
   }
 
   option = {
+    trigger = {
+      is_ai = no
+      has_deployable_reserves = yes
+    }
     name = "Deploy Reserves"
+    hidden_effect = {
+      trigger_event = {
+        id = fodlan_event_battle.2
+      }
+    }
+    ai_chance = {
+      base = 0
+    }
   }
 
   option = {
+    trigger = {
+      is_ai = no
+    }
     name = "Perform Action"
+    hidden_effect = {
+      trigger_event = {
+        id = fodlan_event_battle.4
+      }
+    }
+    ai_chance = {
+      base = 0
+    }
   }
 
   option = {
+    trigger = {
+      is_ai = no
+    }
     name = "Wait (Ends Round)"
+    go_to_next_participant = yes
+    ai_chance = {
+      base = 0
+    }
+  }
+
+  option = {
+    trigger = {
+      is_ai = yes
+    }
+    calculate_ai_action = yes
+    ai_chance = {
+      base = 100
+    }
+  }
+}
+
+scripted_trigger has_deployable_reserves = {
+  variable_list_size = { name = fodlan_event_battle_reserve_armies target >= 1 }
+}
+
+scripted_effect go_to_next_participant = {
+  if = {
+    limit = {
+      global_variable_list_size = { name = fodlan_event_battle_remaining_round_participants target < 1 }
+    }
+    go_to_next_round = yes
+  }
+  else = {
+    random_in_global_list = {
+      variable = fodlan_event_battle_remaining_round_participants
+      this = {
+        remove_list_global_variable = {
+          name = fodlan_event_battle_remaining_round_participants
+          target = this
+        }
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
+      }
+    }
+  }
+}
+
+scripted_effect go_to_next_round = { # TODO
+  debug_log = "Calculating Next Round"
+  change_global_variable = {
+    name = fodlan_event_battle_round
+    add = 1
+  }
+  if = {
+    limit = {
+      global_var:fodlan_battle_round = {
+        compare_value > global_var:fodlan_event_battle_max_rounds
+      }
+    }
+    end_battle = yes
+  }
+  else = {
+    debug_log = "Setting up Next Round"
+    every_in_global_variable_list = {
+      variable = fodlan_event_battle_participants
+      debug_log_scope = no
+      add_to_global_variable_list = { name = fodlan_event_battle_remaining_round_participants target = this }
+    }
+    calculate_damages = yes
     go_to_next_participant = yes
   }
 }
 
-scripted_effect go_to_next_participant = {
+scripted_effect end_battle = {
+  debug_log = "Calculating End Battle"# TODO
+}
+
+scripted_effect calculate_ai_action = { # TODO
 
 }
 
-scripted_effect go_to_next_round = {
-  
+scripted_effect calculate_damages = { # TODO
+
+}
+
+fodlan_event_battle.2 = {
+  type = character_event
+  title = fodlan_event_battle.2.t
+  desc = fodlan_event_battle.2.desc
+
+  option = {
+    name = "Left" 
+    hidden_effect = {
+      set_variable = {
+        name = local_redeploy_flank
+        value = 1
+      }
+      trigger_event = {
+        id = fodlan_event_battle.3
+      }
+    }
+  }
+
+  option = {
+    name = "Center"
+    hidden_effect = {
+      set_variable = {
+        name = local_redeploy_flank
+        value = 2
+      }
+      trigger_event = {
+        id = fodlan_event_battle.3
+      }
+    }
+  }
+
+  option = {
+    name = "Right"
+    hidden_effect = {
+      set_variable = {
+        name = local_redeploy_flank
+        value = 3
+      }
+      trigger_event = {
+        id = fodlan_event_battle.3
+      }
+    }
+  }
+
+  option = {
+    name = "Back"
+    hidden_effect = {
+      trigger_event = {
+        id = fodlan_event_battle.1
+      }
+    }
+  }
+}
+
+# TODO: Need to handle attacker/defender split
+# Deploy Reserves to a particular front
+fodlan_event_battle.3 = {
+  type = character_event
+  title = fodlan_event_battle.3.t
+  desc = fodlan_event_battle.3.desc
+
+  option = {
+    name = "Back"
+    hidden_effect = {
+      trigger_event = {
+        id = fodlan_event_battle.1
+      }
+    }
+  }
+
+  every_in_list = {
+    list = fodlan_event_battle_reserve_armies
+    option = {
+      name = "Deploy [this.MakeScope.Army.GetName]"
+      trigger_if = {
+        limit = {
+          root.var:local_redeploy_flank = { compare_value = 1 }
+        }
+        set_global_variable = {
+          name = fodlan_event_battle_left_attacking_army
+          value = this
+        }
+      }
+      trigger_if = {
+        limit = {
+          root.var:local_redeploy_flank = { compare_value = 2 }
+        }
+        set_global_variable = {
+          name = fodlan_event_battle_center_attacking_army
+          value = this
+        }
+      }
+      trigger_if = {
+        limit = {
+          root.var:local_redeploy_flank = { compare_value = 3 }
+        }
+        set_global_variable = {
+          name = fodlan_event_battle_right_attacking_army
+          value = this
+        }
+      }
+      go_to_next_participant = yes
+    }
+  }
 }

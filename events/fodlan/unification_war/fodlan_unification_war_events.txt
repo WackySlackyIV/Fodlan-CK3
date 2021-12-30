@@ -181,6 +181,7 @@ fodlan_unification_war.9 = {
       global_var:unification_imperial_invasion_imperial_third = {
         assign_commander = character:400027
       }
+      add_to_variable_list = { name = fodlan_event_battle_reserve_armies target = global_var:unification_imperial_invasion_imperial_third }
     }
 
     character:300000 = {
@@ -198,6 +199,7 @@ fodlan_unification_war.9 = {
       global_var:unification_imperial_invasion_blue_lions = {
         assign_commander = character:300000
       }
+      add_to_variable_list = { name = fodlan_event_battle_reserve_armies target = global_var:unification_imperial_invasion_blue_lions }
     }
   
     character:200000 = {
@@ -215,7 +217,9 @@ fodlan_unification_war.9 = {
       }
       global_var:unification_imperial_invasion_golden_deer = {
         assign_commander = character:200012
+        add_to_list = fodlan_event_battle_reserve_armies
       }
+      add_to_variable_list = { name = fodlan_event_battle_reserve_armies target = global_var:unification_imperial_invasion_golden_deer }
     }
     character:100000 = {
       spawn_army = { # Alois
@@ -247,6 +251,7 @@ fodlan_unification_war.9 = {
       global_var:unification_imperial_invasion_rhea = {
         assign_commander = character:100000
       }
+      add_to_variable_list = { name = fodlan_event_battle_reserve_armies target = global_var:unification_imperial_invasion_rhea }
 
       spawn_army = { # Catherine
         name = "Monastary 1st Militia"
@@ -294,6 +299,7 @@ fodlan_unification_war.9 = {
       global_var:unification_imperial_invasion_agarthan_mages = {
         assign_commander = character:400024
       }
+      add_to_variable_list = { name = fodlan_event_battle_reserve_armies target = global_var:unification_imperial_invasion_agarthan_mages }
     }
 
     # Initial Order of Battle
