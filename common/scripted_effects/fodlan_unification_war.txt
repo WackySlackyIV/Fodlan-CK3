@@ -108,6 +108,42 @@ unification_war_get_titles_to_transfer = {
 	}
 }
 
+unification_war_defeat_title_transfer = {
+	$LOSER$ = { save_temporary_scope_as = temp_loser }
+	$WINNER$ = { save_temporary_scope_as = temp_winner }
+
+	scope:temp_loser = {
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		every_held_title = {
+			limit = {
+				title_in_adrestia = yes
+			}
+			change_title_holder = {
+				holder = scope:temp_winner
+				change = scope:change
+				take_baronies = yes
+			}
+		}
+		every_vassal = {
+			limit = {
+				any_held_title = {
+					title_in_adrestia = yes
+				}
+			}
+			change_liege = {
+				liege = scope:temp_winner
+				change = scope:change
+			}
+			set_character_faith_with_conversion = faith:seirosite
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+}
+
 mark_fodlan_unification_war_active = {
   set_global_variable = {
     name = unification_war_active
@@ -115,13 +151,80 @@ mark_fodlan_unification_war_active = {
   }
 }
 
+mark_fodlan_unification_war_over = {
+  remove_global_variable = unification_war_active
+	set_global_variable = {
+		name = unification_war_winner
+		value = $WINNER$
+	}
+}
+
+# TODO: Move to separate file
 mark_leicester_allied_aid_enabled = {
+	remove_global_variable = fodlan_leicester_allied_aid_disabled
+}
+
+# TODO: Move to separate file
+mark_leicester_allied_aid_disabled = {
 	set_global_variable = {
     name = fodlan_leicester_allied_aid_disabled
     value = yes
   }
 }
 
-mark_leicester_allied_aid_disabled = {
-	remove_global_variable = fodlan_leicester_allied_aid_disabled
+
+## Battle Strength Setup
+setup_imperial_invasion_battle = {
+	# Imperial
+	set_global_variable = {
+		name = fodlan_uw_ii_empire_first_regiment
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_empire_second_regiment
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_empire_third_regiment
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_empire_imperial_guard
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_brigid
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_slithers
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_eagles
+		value = 100
+	}
+	# Blue Lions
+	set_global_variable = {
+		name = fodlan_uw_ii_lions
+		value = 100
+	}
+	# Golden Deer
+	set_global_variable = {
+		name = fodlan_uw_ii_deer
+		value = 100
+	}
+	# Church
+	set_global_variable = {
+		name = fodlan_uw_ii_rhea
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_knights_of_seiros
+		value = 100
+	}
+	set_global_variable = {
+		name = fodlan_uw_ii_church_militia
+		value = 100
+	}
 }

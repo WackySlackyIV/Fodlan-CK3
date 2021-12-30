@@ -1,0 +1,10 @@
+mark_slither_war_active = {
+	set_global_variable = {
+    name = fodlan_slither_war_active
+    value = yes
+  }
+}
+
+mark_slither_war_over = {
+	remove_global_variable = fodlan_slither_war_active
+}

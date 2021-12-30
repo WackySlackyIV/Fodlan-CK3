@@ -2,9 +2,14 @@
 fodlan_major_incident_active = {
   OR = {
     is_fodlan_unification_war_active = yes
+    is_slither_war_active = yes
   }
 }
 
 is_fodlan_unification_war_active = {
   exists = global_var:unification_war_active
+}
+
+is_slither_war_active = {
+  exists = global_var:fodlan_slither_war_active
 }

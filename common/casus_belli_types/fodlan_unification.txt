@@ -20,6 +20,9 @@ unification_war = {
 	target_de_jure_regions_above = no
 	ignore_effect = change_title_holder
 
+	imprisonment_by_attacker_give_war_score = no # Disable when debugging
+	imprisonment_by_defender_give_war_score = no
+
 	# TODO: Need to fix this
 	should_invalidate = {
 		always = no
@@ -67,6 +70,24 @@ unification_war = {
 					}
 					prisoner_of_war_capture_effect = { TARGET = this IMPRISONER = root.war.primary_attacker }
 				}
+				every_war_defender = {  # Banish Leicester Leader
+					limit = {
+						OR = {
+							this = character:200012 # Claude
+							any_held_title = {
+								this = title:k_leicester
+							}
+						}
+					}
+					depose = yes
+					banish = yes
+				}
+			}
+		}
+		mark_fodlan_unification_war_over = { WINNER = scope:attacker }
+		scope:attacker = {
+			trigger_event = {
+				id = fodlan_unification_war.4000  # Postwar event for Edelgard
 			}
 		}
 	}
@@ -87,6 +108,7 @@ unification_war = {
 	}
 
 	on_defeat = {
+		# TODO: Support Leicester ending of United Fodlan, probably check if Kingdom is dead and make Leicester primary attacker
 		root = {
 			scope:war = {
 				every_war_attacker = {
@@ -96,7 +118,7 @@ unification_war = {
 				every_in_list = {
 					list = losers
 					debug_log_scopes = yes
-					unification_war_get_titles_to_transfer = {
+					unification_war_defeat_title_transfer = {
 						LOSER = this
 						WINNER = scope:claimant
 					}
@@ -111,6 +133,7 @@ unification_war = {
 				}
 			}
 		}
+		mark_fodlan_unification_war_over = { WINNER = scope:defender }
 	}
 
 	on_primary_attacker_death = inherit
