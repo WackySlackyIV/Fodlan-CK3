@@ -24,9 +24,14 @@
 		}
 	}
 
-	#allowed_for_character = {}
+	allowed_for_character = {
+		fodlan_allow_internal_war = yes
+	}
 
 	allowed_against_character = {
+		scope:defender = {
+			fodlan_allow_internal_war = yes
+		}
 		#faith.religion = scope:attacker.faith.religion
 	}
 

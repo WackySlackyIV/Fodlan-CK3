@@ -1,0 +1,46 @@
+namespace = fodlan_welcome
+
+fodlan_welcome.1 = {
+  type = empty
+  hidden = yes
+
+  immediate = {
+		every_living_character = {
+      limit = { is_ai = no }
+			trigger_event = { id = fodlan_welcome.2 }
+		}
+	}
+}
+
+# TODO: Add the church bell jingle
+fodlan_welcome.2 = {
+  type = character_event
+	title = fodlan_welcome.2.t
+	desc = fodlan_welcome.2.desc
+	theme = realm
+
+	left_portrait = root
+
+	option = {
+		name = fodlan_welcome.2.a
+	}
+
+  # option = {
+	# 	name = fodlan_welcome.1.b
+	# 	trigger_event = { id = fodlan_welcome.2 }
+	# }
+}
+
+# TODO Tutorial Subjects
+fodlan_welcome.3 = {
+  type = character_event
+  title = fodlan_welcome.3.t
+  desc = fodlan_welcome.3.desc
+  theme = realm
+
+  left_portrait = root
+
+	option = { 
+		name = fodlan_welcome.3.a
+	}
+}

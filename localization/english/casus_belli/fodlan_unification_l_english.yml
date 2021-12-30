@@ -1,0 +1,12 @@
+﻿l_english:
+ unification_victory_desc: "Within the target [title|E], all titles held by [defender.GetFaith.GetAdjective] rulers are seized, and any [attacker.GetFaith.GetAdjective] rulers are vassalized by [attacker.GetShortUIName]. All defending [fodlan|E] participants will be imprisoned."
+ unification_white_peace_desc: "Reconciliation is impossible (for now)."
+ unification_defeat_desc: "Within the target [title|E], all titles held by [attacker.GetShortUIName] are seized by [defender.GetShortUIName] and granted to [claimant.GetShortUIName]. Any of [attacker.GetShortUIName] vassals are vassalized by [claimant.GetShortUIName]. All attacking [fodlan|E] participants will be imprisoned. An alliance will be setup between [claimant.GetShortUIName] and all defensive members. The [adrestian_empire|E] will be downgraded to a #V Kingdom#!."
+ UNIFICATION_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetAdjective] Unification War for [TITLE.GetBaseName]"
+ TRANSFER_TITLE_DEBUG: "[THIS.GetLandedTitle.GetBaseName]"
+ unification_war: "Unification War"
+ unification_alliance_intervention_war: "Right to Intervene"
+ UNIFICATION_ALLIANCE_INTERVENTION_WAR_NAME: "[ATTACKER.GetTitledFirstName]'s War Against [DEFENDER.GetTitledFirstName] for the Right to Intervene"
+ alliance_intervention_war_victory_desc: "[attacker.GetTitledFirstName] gains leadership of the Alliance. [defender.GetTitledFirstName] is exiled. [defender.GetPrimaryTitle.GetAdjective] joins the [war_of_unification|E] on the side of the attacker"
+ alliance_intervention_war_white_peace_desc: "[defender.GetPrimaryTitle.GetAdjective] remains neutral in the [war_of_unification|E]. A victory by the [adrestian_empire|E] will result in the vassalization of the [leicester_alliance|E]!"
+ alliance_intervention_war_defeat_desc: "[defender.GetTitledFirstName] remains leader of the Alliance. [attacker.GetTitledFirstName] abdicates. [defender.GetPrimaryTitle.GetAdjective] joins the [war_of_unification|E] on the side of the defender."

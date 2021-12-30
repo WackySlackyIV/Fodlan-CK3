@@ -65,6 +65,7 @@ on_war_started = {
 						has_title = title:k_leicester
 						has_government = alliance_government
 					}
+					NOT = { exists = global_var:fodlan_leicester_allied_aid_disabled }
 				}
 				every_vassal = {
 					limit = { 

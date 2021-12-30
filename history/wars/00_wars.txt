@@ -1,0 +1,46 @@
+# Unification War
+war = {
+	# name = "war_unification_war"	# the name can be left out, will be generated then
+	start_date = 1180.12.29
+	end_date = 1186.12.29 # TODO: Probably not correct need to calculate actual date
+	targeted_titles={
+		k_faerghus
+	}
+	casus_belli = unification_war
+	attackers = { 400000 }
+	defenders = { 100000 300000 } # TODO: Need to figure out separate war with leicester
+	claimant = 400017
+}
+
+war = {
+	# name = "war_unification_war"	# the name can be left out, will be generated then
+	start_date = 1181.1.15 # TODO REAL DATE
+	end_date = 1185.1.1 # TODO: Probably not correct need to calculate actual date
+	targeted_titles={
+		k_leicester
+	}
+	casus_belli = unification_alliance_intervention_war
+	attackers = {
+		200006 # Gloucester
+		200005 # Ordelia
+		200033 # Gloucester Cousin
+		200026 # Acheron
+		# 200004 - Joins via event
+	}
+	# Neutral
+	# 200010 # Atholl - Married to Gloucester and Goneril
+	# 200011 # Holst - Defending the border
+	defenders = {
+		200000 # Oswald
+		200007 # Edmund
+		200003 # Judith
+		200073 # Beverly
+		200002 # Myrddin (Conquered via event by Imperial)
+		200001 # Clarence - Unsure but next to Church
+		200067 # Minor
+		200068 # Minor
+		200050 # Minor
+		200051 # Minor
+		200052 # Minor
+	} # TODO: Need to figure out separate war with leicester
+}

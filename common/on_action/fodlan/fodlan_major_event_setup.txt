@@ -1,0 +1,26 @@
+# Welcome Event
+on_game_start_after_lobby = {
+  events = {
+    fodlan_welcome.1
+  }
+}
+
+# War of Heroes
+
+# War of Independence
+
+# Almyran Invasion
+
+# Insurrection
+
+# Officer's Academy
+
+# Unification War
+on_game_start_after_lobby = {
+  trigger = {
+    game_start_date = 1180.12.15
+  }
+	events = {
+		fodlan_unification_war.1
+	}
+}

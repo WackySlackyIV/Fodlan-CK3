@@ -9,12 +9,14 @@
 		is_lowborn = no
 		has_title = title:k_leicester
 		has_government = alliance_government
+		NOT = { exists = global_var:fodlan_leicester_allied_aid_disabled }
 	}
 
 	is_valid = {
 		is_at_war = yes
 		is_at_war_as_attacker = yes
 		NOT = { has_character_modifier = called_the_alliance }
+		NOT = { exists = global_var:fodlan_leicester_allied_aid_disabled }
 	}
 
 	effect = {

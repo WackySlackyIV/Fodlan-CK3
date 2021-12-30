@@ -3,6 +3,7 @@
 	ai_only_against_neighbors = yes
 
 	allowed_for_character = {
+		fodlan_allow_internal_war = yes
 		OR = {
 			has_government = tribal_government
 			#AND = {
@@ -80,6 +81,7 @@
 		}
 		
 		scope:defender = {
+			fodlan_allow_internal_war = yes
 			is_independent_ruler = yes
 			trigger_if = {
 				limit = { scope:attacker = { is_ai = no } } # Already pre-filtered by the AI due to ai_only_against_neighbors = yes. any_neighboring_top_liege_realm_owner is expensive

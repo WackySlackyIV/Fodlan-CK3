@@ -26,7 +26,7 @@ academy = {
 }
 
 agartha = {
-  alias = { agarthan }
+  alias = { agarthan agarthans }
   parent = fodlan
 }
 

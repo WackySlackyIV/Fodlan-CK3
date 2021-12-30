@@ -1,77 +1,77 @@
-﻿start_promotion_interaction = {
-	common_interaction = yes
-	interface_priority = 90
-	category = interaction_category_alliance
+﻿# start_promotion_interaction = {
+# 	common_interaction = yes
+# 	interface_priority = 90
+# 	category = interaction_category_alliance
 
-	ignores_pending_interaction_block = yes
+# 	ignores_pending_interaction_block = yes
 
-	scheme = promote_candidate
+# 	scheme = promote_candidate
 
-	send_name = START_SCHEME
+# 	send_name = START_SCHEME
 
-	is_shown = {
-		scope:actor = {
-			NOT = { has_character_modifier = refused_election_modifier }
-			any_election_title = { exists = this }
-		}
-	}
+# 	is_shown = {
+# 		scope:actor = {
+# 			NOT = { has_character_modifier = refused_election_modifier }
+# 			any_election_title = { exists = this }
+# 		}
+# 	}
 
-	is_valid = {
-		scope:actor = {
-			can_start_scheme = {
-				type = promote_candidate
-				target = scope:recipient
-			}
-		}
-	}
+# 	is_valid = {
+# 		scope:actor = {
+# 			can_start_scheme = {
+# 				type = promote_candidate
+# 				target = scope:recipient
+# 			}
+# 		}
+# 	}
 
-	desc = {
-		triggered_desc = {
-			trigger = {
-				scope:actor = {
-					can_start_scheme = {
-						type = promote_candidate
-						target = scope:recipient
-					}
-				}
-			}
-			desc = scheme_interaction_promotion_approved
-		}
-	}
+# 	desc = {
+# 		triggered_desc = {
+# 			trigger = {
+# 				scope:actor = {
+# 					can_start_scheme = {
+# 						type = promote_candidate
+# 						target = scope:recipient
+# 					}
+# 				}
+# 			}
+# 			desc = scheme_interaction_promotion_approved
+# 		}
+# 	}
 
-	on_accept = {
-		scope:actor = {
-			stress_impact = {
-				honest = minor_stress_impact_gain
-			}
-		}
-		hidden_effect = {
-			scope:actor = {
-				send_interface_toast = {
-					title = start_promotion_interaction_notification
+# 	on_accept = {
+# 		scope:actor = {
+# 			stress_impact = {
+# 				honest = minor_stress_impact_gain
+# 			}
+# 		}
+# 		hidden_effect = {
+# 			scope:actor = {
+# 				send_interface_toast = {
+# 					title = start_promotion_interaction_notification
 
-					left_icon = scope:actor					
-					right_icon = scope:recipient
+# 					left_icon = scope:actor					
+# 					right_icon = scope:recipient
 
-					start_scheme = {
-						type = promote_candidate
-						target = scope:recipient
-					}
+# 					start_scheme = {
+# 						type = promote_candidate
+# 						target = scope:recipient
+# 					}
 
-					show_as_tooltip = {
-						stress_impact = {
-							honest = minor_stress_impact_gain
-						}
-					}
-				}
-			}
-		}
-	}
+# 					show_as_tooltip = {
+# 						stress_impact = {
+# 							honest = minor_stress_impact_gain
+# 						}
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
 	
-	auto_accept = yes
+# 	auto_accept = yes
 
-	# todo: ai stuff. seems like a tribulation and a half.
-}
+# 	# todo: ai stuff. seems like a tribulation and a half.
+# }
 
 start_defamation_interaction = {
 	common_interaction = yes

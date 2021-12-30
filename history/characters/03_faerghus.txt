@@ -8,10 +8,10 @@
 	dna = dna_dimitri
 	sexuality = heterosexual
 
-   	diplomacy=6
-   	martial=9
+	 	diplomacy=6
+	 	martial=9
 	stewardship=6
-   	intrigue=3
+	 	intrigue=3
 	learning=5
 	prowess = 11
 	health = 6
@@ -148,10 +148,10 @@
 	dynasty=204
 	father = 300082
 
-   	diplomacy=6
-   	martial=9
+	 	diplomacy=6
+	 	martial=9
 	stewardship=8
-   	intrigue=6
+	 	intrigue=6
 	learning=6
 	health = 6
 	prowess = 10
@@ -346,10 +346,10 @@
 	father=300024
 	sexuality = heterosexual
 
-   	diplomacy=6
-   	martial=4
+	 	diplomacy=6
+	 	martial=4
 	stewardship=7
-   	intrigue=7
+	 	intrigue=7
 	learning=4
 	prowess = 6
 	health = 6
@@ -422,8 +422,8 @@
 		add_spouse = 300052
 	}
 	1169.4.20={
-          remove_spouse = 300013
-    }
+					remove_spouse = 300013
+		}
 	1200.1.1={
 		death="1200.1.1"
 	}
@@ -444,7 +444,7 @@
 
 300015 = {
 	name="Gabriel"
-    religion = "ablehnist"
+		religion = "ablehnist"
 	culture="kaleis"
 	dynasty=214
 
@@ -467,7 +467,7 @@
 	}
 
 	1161.2.8={
-        add_spouse=400064
+				add_spouse=400064
 	}
 
 	1200.1.1={
@@ -644,10 +644,10 @@
 	dynasty=200
 	father=300022
 
-   	diplomacy=9
-   	martial=5
+	diplomacy=9
+	martial=5
 	stewardship=8
-   	intrigue=4
+	intrigue=4
 	learning=6
 	prowess = 11
 
@@ -685,10 +685,10 @@
 	culture="faerghus"
 	dynasty=211
 
-   	diplomacy=7
-   	martial=7
+	 	diplomacy=7
+	 	martial=7
 	stewardship=5
-   	intrigue=5
+	 	intrigue=5
 	learning=7
 	prowess = 8
 
@@ -721,10 +721,10 @@
 	mother=300092
 	sexuality = heterosexual
 
-   	diplomacy=5
-   	martial=7
+	 	diplomacy=5
+	 	martial=7
 	stewardship=7
-   	intrigue=1
+	 	intrigue=1
 	learning=5
 	prowess = 8
 	health = 6
@@ -763,10 +763,10 @@
 	mother=300080
 	sexuality = heterosexual
 
-   	diplomacy=2
-   	martial=7
+	 	diplomacy=2
+	 	martial=7
 	stewardship=4
-   	intrigue=7
+	 	intrigue=7
 	learning=6
 	prowess = 11
 	health = 6
@@ -804,10 +804,10 @@
 	father=300004
 	mother=300080
 
-   	diplomacy=9
-   	martial=9
+	 	diplomacy=9
+	 	martial=9
 	stewardship=5
-   	intrigue=2
+	 	intrigue=2
 	learning=7
 	prowess = 10
 
@@ -839,10 +839,10 @@
 	mother=300083
 	sexuality = heterosexual
 
-   	diplomacy=9
-   	martial=6
+	 	diplomacy=9
+	 	martial=6
 	stewardship=6
-   	intrigue=6
+	 	intrigue=6
 	learning=4
 	prowess = 6
 	health = 6
@@ -881,10 +881,10 @@
 	father=300005
 	mother=300083
 
-   	diplomacy=2
-   	martial=8
+	 	diplomacy=2
+	 	martial=8
 	stewardship=3
-   	intrigue=7
+	 	intrigue=7
 	learning=6
 	prowess = 8
 
@@ -941,10 +941,10 @@
 	mother = 300079
 	sexuality = heterosexual
 
-   	diplomacy=3
-   	martial=8
+	 	diplomacy=3
+	 	martial=8
 	stewardship=3
-   	intrigue=1
+	 	intrigue=1
 	learning=4
 	prowess = 8
 	health = 6
@@ -983,10 +983,10 @@
 	mother = 400034
 	sexuality = bisexual
 
-   	diplomacy=7
-   	martial=2
+	 	diplomacy=7
+	 	martial=2
 	stewardship=4
-   	intrigue=2
+	 	intrigue=2
 	learning=9
 	prowess = 3
 	health = 6
@@ -1034,10 +1034,10 @@
 	mother=300088
 	sexuality = heterosexual
 
-   	diplomacy=5
-   	martial=4
+	 	diplomacy=5
+	 	martial=4
 	stewardship=7
-   	intrigue=3
+	 	intrigue=3
 	learning=9
 	prowess = 5
 	health = 6
@@ -1078,10 +1078,10 @@
 	dna = dna_gwendal
 	sexuality = heterosexual
 	dynasty=222
-   	diplomacy=1
-   	martial = 9
+	 	diplomacy=1
+	 	martial = 9
 	stewardship = 4
-   	intrigue = 2
+	 	intrigue = 2
 	learning = 2
 	prowess = 9
 
@@ -1118,10 +1118,10 @@
 	dynasty=223
 	dna = dna_cornelia
 
-   	diplomacy=8
-   	martial=5
+	diplomacy=8
+	martial=5
 	stewardship=5
-   	intrigue=8
+	intrigue=8
 	learning=9
 	prowess = 4
 
@@ -1140,6 +1140,9 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
+	}
+	1168.1.1 = {
+		add_character_modifier = slither_protection
 	}
 	1181.1.1 = {
 		employer = 300000
