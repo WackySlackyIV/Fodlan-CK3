@@ -1,0 +1,102 @@
+namepace = fodlan_event_battle
+
+
+# Generic event battle main loop
+# You should only have 1 instance of a major event battle happening at a time since we use global variables.
+# TODO: Documenting expected global variables that exist
+fodlan_event_battle.1 = {
+  type = character_event
+  title = fodlan_event_battle.1.t
+  desc = fodlan_event_battle.1.desc
+
+  theme = war
+
+  left_portrait = {
+    character = global_variable:fodlan_event_battle_attacker
+    animation = war_attacker
+  }
+  right_portrait = {
+    character = global_variable:fodlan_event_battle_defender
+    animation = war_defender
+  }
+
+  immediate = {
+    root = {
+			save_scope_as = char
+			scope:char = { # Copy variables for string localization
+				set_variable = {
+					name = local_battlefield
+					value = global_var:fodlan_event_battle_battlefield
+				}
+        set_variable = {
+          name = local_round
+          value =  global_var:fodlan_event_battle_round
+        }
+        set_variable = {
+          name = local_max_round
+          value =  global_var:fodlan_event_battle_max_rounds
+        }
+			}
+		}
+    global_var:fodlan_event_battle_location = {
+      save_scope_as =  local_battle_location
+    }
+    global_var:fodlan_event_battle_left_attacking_army = {
+      save_scope_as = local_left_attacking_army
+    }
+    global_var:fodlan_event_battle_center_attacking_army = {
+      save_scope_as = local_center_attacking_army
+    }
+    global_var:fodlan_event_battle_right_attacking_army = {
+      save_scope_as = local_right_attacking_army
+    }
+    global_var:fodlan_event_battle_left_defending_army = {
+      save_scope_as = local_left_defending_army
+    }
+    global_var:fodlan_event_battle_center_defending_army = {
+      save_scope_as = local_center_defending_army
+    }
+    global_var:fodlan_event_battle_right_defending_army = {
+      save_scope_as = local_right_defending_army
+    }
+  }
+
+  option = {
+    name = "Help (See Tooltip)"
+    custom_tooltip = fodlan_event_battle.1.help.1
+    custom_tooltip = fodlan_event_battle.1.help.2
+    custom_tooltip = fodlan_event_battle.1.help.3
+    custom_tooltip = fodlan_event_battle.1.help.4
+    custom_tooltip = fodlan_event_battle.1.help.5
+    custom_tooltip = fodlan_event_battle.1.help.6
+    hidden_effect = {
+      trigger_event = {
+        id = fodlan_event_battle.1
+      }
+    }
+    ai_chance = {
+      base = 0
+    }
+  }
+
+  option = {
+    name = "Deploy Reserves"
+  }
+
+  option = {
+    name = "Perform Action"
+  }
+
+  option = {
+    name = "Wait (Ends Round)"
+    go_to_next_participant = yes
+  }
+}
+
+scripted_effect go_to_next_participant = {
+
+}
+
+scripted_effect go_to_next_round = {
+  
+}

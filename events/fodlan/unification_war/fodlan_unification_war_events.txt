@@ -99,12 +99,13 @@ fodlan_unification_war.4 = {
 # Siege and Duel Event #
 ########################
 
+# Setup Regiments Event
 fodlan_unification_war.9 = {
   type = empty
   hidden = yes
 
   immediate = {
-    character:200000 = { # Technically should be Claude
+    character:200000 = { # Technically should be Claude, Pick Leicester to be in war so we can disband all the event armies automatically
       start_war = {
         cb = imperial_invasion_event_battle
         target = character:400000
@@ -116,8 +117,9 @@ fodlan_unification_war.9 = {
         add_defender = character:400024
       }
     }
+
     character:400000 = {
-      spawn_army = {
+      spawn_army = { # Jeritza
         name = "Imperial 1st Regiment"
         save_scope_as=imperial_first
         levies = 1
@@ -128,6 +130,11 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_imperial_first
         value = scope:imperial_first
       }
+      global_var:unification_imperial_invasion_imperial_first = {
+        assign_commander = character:400022
+      }
+
+      add_courtier = character:400025 # Randolph
       spawn_army = {
         name = "Imperial 2nd Regiment"
         save_scope_as=imperial_second
@@ -139,7 +146,11 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_imperial_second
         value = scope:imperial_second
       }
-      spawn_army = {
+      global_var:unification_imperial_invasion_imperial_second = {
+        assign_commander = character:400025
+      }
+
+      spawn_army = { # Hubert
         name = "Black Eagles"
         save_scope_as=black_eagles
         levies = 1
@@ -150,8 +161,13 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_black_eagles
         value = scope:black_eagles
       }
+      global_var:unification_imperial_invasion_black_eagles = {
+        assign_commander = character:400015
+      }
+
       # TODO: Imperial Third should only spawn if not send to aid Gloucester
-      spawn_army = {
+      add_courtier = character:400027
+      spawn_army = { # Ladislava
         name = "Imperial 3rd Regiment"
         save_scope_as=imperial_third
         levies = 1
@@ -162,9 +178,13 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_imperial_third
         value = scope:imperial_third
       }
+      global_var:unification_imperial_invasion_imperial_third = {
+        assign_commander = character:400027
+      }
     }
+
     character:300000 = {
-      spawn_army = {
+      spawn_army = { # Dimitri
         name = "Blue Lions"
         save_scope_as=blue_lions
         levies = 1
@@ -175,9 +195,14 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_blue_lions
         value = scope:blue_lions
       }
+      global_var:unification_imperial_invasion_blue_lions = {
+        assign_commander = character:300000
+      }
     }
+  
     character:200000 = {
-      spawn_army = {
+      add_courtier = character:200012
+      spawn_army = { # Claude
         name = "Golden Deer"
         save_scope_as=golden_deer
         levies = 1
@@ -188,9 +213,12 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_golden_deer
         value = scope:golden_deer
       }
+      global_var:unification_imperial_invasion_golden_deer = {
+        assign_commander = character:200012
+      }
     }
     character:100000 = {
-      spawn_army = {
+      spawn_army = { # Alois
         name = "Knights of Seiros"
         save_scope_as=knights_of_seiros
         levies = 1
@@ -201,7 +229,11 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_knights_of_seiros
         value = scope:knights_of_seiros
       }
-      spawn_army = {
+      global_var:unification_imperial_invasion_knights_of_seiros = {
+        assign_commander = character:100004
+      }
+
+      spawn_army = { # Rhea
         name = "Rhea"
         save_scope_as=rhea
         levies = 1
@@ -212,20 +244,43 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_rhea
         value = scope:rhea
       }
-      spawn_army = {
-        name = "Monastary Militia"
-        save_scope_as=church_militia
+      global_var:unification_imperial_invasion_rhea = {
+        assign_commander = character:100000
+      }
+
+      spawn_army = { # Catherine
+        name = "Monastary 1st Militia"
+        save_scope_as=church_first_militia
         levies = 1
         location = this.capital_province
         war = global_var:unification_imperial_invasion_instance
       }
       set_global_variable = {
-        name = unification_imperial_invasion_church_militia
-        value = scope:church_militia
+        name = unification_imperial_invasion_church_first_militia
+        value = scope:church_first_militia
+      }
+      global_var:unification_imperial_invasion_church_first_militia = {
+        assign_commander = character:100011
+      }
+
+      spawn_army = { # Shamir
+        name = "Monastary 2nd Militia"
+        save_scope_as=church_second_militia
+        levies = 1
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_church_second_militia
+        value = scope:church_second_militia
+      }
+      global_var:unification_imperial_invasion_church_second_militia = {
+        assign_commander = character:100006
       }
     }
+  
     character:400024 = {
-      spawn_army = {
+      spawn_army = { # Thales
         name = "Agarthan Mages"
         save_scope_as=agarthan_mages
         levies = 1
@@ -236,66 +291,68 @@ fodlan_unification_war.9 = {
         name = unification_imperial_invasion_agarthan_mages
         value = scope:agarthan_mages
       }
+      global_var:unification_imperial_invasion_agarthan_mages = {
+        assign_commander = character:400024
+      }
     }
-  }
-}
 
-fodlan_unification_war.10 = {
-  type = character_event
-  title = fodlan_unification_war.10.t
-  desc = fodlan_unification_war.10.desc
+    # Initial Order of Battle
 
-  theme = war
-
-  left_portrait = {
-    character = character:400000
-    animation = war_attacker
-  }
-  right_portrait = {
-    character = character:100000
-    animation = war_defender
-  }
-
-  immediate = {
-    root = {
-			save_scope_as = char
-			scope:char = { # Copy variables for string localization
-				set_variable = {
-					name = local_battlefield
-					value = 1 # TODO: Replace with actual battlefield
-				}
-        set_variable = {
-          name = local_round
-          value = 5
-        }
-			}
-		}
-    scope:imperial_first = {
-      save_scope_as = local_left_attacking_army
+    set_global_variable = {
+      name = fodlan_event_battle_left_attacking_army
+      value = global_var:unification_imperial_invasion_imperial_first
     }
-    scope:church_militia = {
-      save_scope_as = local_left_defending_army
+    set_global_variable = {
+      name = fodlan_event_battle_center_attacking_army
+      value = global_var:unification_imperial_invasion_black_eagles
     }
-  }
-
-  option = {
-    name = "DEBUG RELOAD"
-    trigger_event = {
-      id = fodlan_unification_war.10
+    set_global_variable = {
+      name = fodlan_event_battle_right_attacking_army
+      value = global_var:unification_imperial_invasion_imperial_second
     }
-    ai_chance = {
-      base = 0
+    set_global_variable = {
+      name = fodlan_event_battle_left_defending_army
+      value = global_var:unification_imperial_invasion_church_first_militia
     }
-  }
+    set_global_variable = {
+      name = fodlan_event_battle_center_defending_army
+      value = global_var:unification_imperial_invasion_knights_of_seiros
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_defending_army
+      value = global_var:unification_imperial_invasion_church_second_militia
+    }
 
-  option = {
-    name = "Exit"
-  }
+    # Battle Situation Variables
+    set_global_variable = {
+      name = fodlan_event_battle_location
+      value = character:100000.capital_province
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_battlefield
+      value = 1
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_round
+      value = 1
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_max_rounds
+      value = 10
+    }
 
-  option = {
-    name = "Debug End Temp War"
-    global_var:unification_imperial_invasion_instance = { 
-      end_war = white_peace
+    # Flavor
+    set_global_variable = {
+      name = fodlan_event_battle_attacker
+      value = character:400000
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_defender
+      value = character:100000
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_attacking_army
+      value = global_var:unification_imperial_invasion_imperial_second
     }
   }
 }
