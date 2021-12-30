@@ -275,3 +275,83 @@ unification_alliance_intervention_war = {
 
 	interface_priority = 80
 }
+
+imperial_invasion_event_battle = {
+	group = event
+
+	should_check_for_interface_availability = no
+
+	allowed_for_character = {
+		always = yes
+	}
+
+	allowed_against_character = {
+		always = yes
+	}
+
+	is_allowed_claim_title = {
+		always = yes
+	}
+
+	target_titles = all
+	target_title_tier = all
+	target_de_jure_regions_above = no
+	ignore_effect = change_title_holder
+
+	# TODO: Need to fix this
+	should_invalidate = {
+		always = no
+	}
+
+	on_invalidated = {
+	}
+
+	# TODO: Not sure what this does
+	ai_score_mult = {
+		value = -1000
+	}
+
+	# TODO: Placeholder
+	cost = { }
+
+	on_declaration = {
+		set_global_variable = {
+			name = unification_imperial_invasion_instance
+			value = scope:war
+		}
+	}
+
+	on_victory = {
+		
+	}
+
+	# TODO: Reconciliation option
+	on_white_peace_desc = {
+	}
+
+	# TODO: Reconcilization option
+	on_white_peace = {
+	}
+
+	on_defeat_desc = {
+	}
+
+	on_defeat = {
+	}
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+	landless_attacker_needs_armies = no
+
+	war_name = "UNIFICATION_IMPERIAL_INVASION_WAR_NAME"
+
+	is_holy_war = no
+	truce_days = 0
+
+	interface_priority = 80
+}

@@ -7,61 +7,47 @@ fest.001 = {
 	title = "Test"
 	desc = "Test 2"
 
-	option = {
-		name = "Hi"
-	}
-
-	option = {
-		trigger = {
-			fodlan_named_character = yes
-		}
-		name = "Named Character"
-	}
-
-	option = {
-		trigger = {
-			fodlan_major_crest = yes
-		}
-		name = "Major Crest"
-	}
-
-	option = {
-		trigger = {
-			AND = {
-				OR = {
-				 	has_game_rule = fodlan_major_characters_no_blood
-				  has_game_rule = fodlan_major_characters_all
+	immediate = {
+		root = {
+			save_scope_as = char
+			global_var:test_variable = {
+				save_scope_as = test_variable
+			}
+			scope:char = {
+				set_variable = {
+					name = test_variable
+					value = global_var:test_variable
 				}
-				fodlan_minor_crest = yes
 			}
 		}
-		name = "Minor Crest"
 	}
 
 	option = {
-		trigger = {
-			AND = {
-				has_game_rule = fodlan_major_characters_all
-				fodlan_passive_blood = yes
-			}`
-		}
-		name = "Blood"
-	}
-
-	option = {
-		trigger = {
-			fodlan_major_character = yes
-		}
-		name = "Major Character"
-	}
-
-	option = {
-		trigger = {
-		  OR = {
-				exists = character:300000 # Dimitri
-				exists = character:200012 # Claude
+		name = "Test"
+		root = {
+			save_scope_as = char
+			global_var:test_variable = {
+				save_scope_as = test_variable
+			}
+			scope:char = {
+				set_variable = {
+					name = test_variable
+					value = 5
+				}
 			}
 		}
-	  name = "Leader"
+		custom_tooltip = fodlan_unification_war.10.reserve.tt
+	}
+
+	option = {
+		name = "Set to 5"
+		set_global_variable = {
+			name = test_variable
+			value = 5
+		}
+	}
+
+	option = {
+		name = "Set to 10"
 	}
 }
