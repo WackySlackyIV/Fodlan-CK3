@@ -1,0 +1,131 @@
+fodlan_event_battle_go_to_next_participant = {
+  debug_log = "Participant Choosing Next Char"
+  set_variable = {
+    name = found_result
+    value = 0
+  }
+  random_in_global_list = { # TODO: Technically should do in an ordered way
+    variable = fodlan_event_battle_remaining_round_participants
+    this = {
+      root = {
+        set_variable = {
+          name = found_result
+          value = 1
+        }
+      }
+      remove_list_global_variable = {
+        name = fodlan_event_battle_remaining_round_participants
+        target = this
+      }
+      save_scope_as = next_participant
+    }
+  }
+  if = {
+    limit = {
+      var:found_result = { compare_value = 0 }
+    }
+    debug_log = "Participant Evaluted Next Round"
+    root = {
+      fodlan_event_battle_go_to_next_round = yes
+    }
+  }
+  else = {
+    scope:next_participant = {
+      root = { # TODO: This is for testing only
+        debug_log = "Trying to change char"
+        debug_log_scopes = no
+        set_player_character = prev
+      }
+      trigger_event = {
+        id = fodlan_event_battle.1
+      }
+    }
+  }
+}
+
+fodlan_event_battle_go_to_next_round = {
+  debug_log = "Calculating Next Round"
+  change_global_variable = {
+    name = fodlan_event_battle_round
+    add = 1
+  }
+  if = {
+    limit = {
+      global_var:fodlan_event_battle_round = {
+        compare_value > global_var:fodlan_event_battle_max_rounds
+      }
+    }
+    fodlan_event_battle_end_battle = yes
+  }
+  else = {
+    debug_log = "Setting up Next Round"
+    every_in_global_list = {
+      variable = fodlan_event_battle_participants
+      debug_log_scope = no
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_remaining_round_participants
+        target = this
+      }
+    }
+    fodlan_event_battle_calculate_damages = yes
+    fodlan_event_battle_go_to_next_participant = yes
+  }
+}
+
+fodlan_event_battle_end_battle = {
+  debug_log = "Calculating End Battle" # TODO
+  fodlan_event_battle_calculate_end_war = yes
+  fodlan_event_battle_clear_all_variables = yes
+}
+
+fodlan_event_battle_clear_all_variables = { # TODO
+  remove_global_variable = fodlan_event_battle_location
+  remove_global_variable = fodlan_event_battle_left_attacking_army
+  remove_global_variable = fodlan_event_battle_center_attacking_army
+  remove_global_variable = fodlan_event_battle_right_attacking_army
+  remove_global_variable = fodlan_event_battle_left_defending_army
+  remove_global_variable = fodlan_event_battle_center_defending_army
+  remove_global_variable = fodlan_event_battle_right_defending_army
+  remove_global_variable = fodlan_event_battle_max_rounds
+  remove_global_variable = fodlan_event_battle_round
+  remove_global_variable = fodlan_event_battle_battlefield
+  remove_global_variable = fodlan_event_battle_war
+  remove_global_variable = fodlan_event_battle_attacker
+  remove_global_variable = fodlan_event_battle_defender
+  # Global list needs clearing fodlan_event_battle_reserve_armies
+  # Global list needs clearing fodlan_event_battle_participants
+  # Per participant list needs clearing fodlan_event_battle_reserve_armies
+}
+
+fodlan_event_battle_calculate_winner_end_war = {
+  if = {
+    limit = { 
+      global_var:fodlan_event_battle_winner = global_var:fodlan_event_battle_attacker
+    }
+    global_var:fodlan_event_battle_war = {
+      end_war = attacker
+    }
+  }
+  else_if = {
+    limit = {
+      global_var:fodlan_event_battle_winner = global_var:fodlan_event_battle_defender
+    }
+    global_var:fodlan_event_battle_war = {
+      end_war = defender
+    }
+  }
+  else = {
+    global_var:fodlan_event_battle_war = {
+      end_war = white_peace
+    }
+  }
+}
+
+fodlan_event_battle_calculate_ai_action = { # TODO
+  debug_log = "Calculating the AI action"
+  fodlan_event_battle_go_to_next_participant = yes
+}
+
+fodlan_event_battle_calculate_damages = { # TODO
+  debug_log = "Calculating Damages to each army"
+}

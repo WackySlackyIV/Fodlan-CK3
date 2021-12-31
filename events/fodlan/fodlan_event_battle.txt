@@ -73,6 +73,7 @@ fodlan_event_battle.1 = {
     custom_tooltip = fodlan_event_battle.1.help.4
     custom_tooltip = fodlan_event_battle.1.help.5
     custom_tooltip = fodlan_event_battle.1.help.6
+    custom_tooltip = fodlan_event_battle.1.help.7
     show_as_unavailable = { always = yes }
     hidden_effect = {
       root = {
@@ -127,7 +128,7 @@ fodlan_event_battle.1 = {
       is_ai = no
     }
     name = "Wait (Ends Round)"
-    go_to_next_participant = yes
+    fodlan_event_battle_go_to_next_participant = yes
     ai_chance = {
       base = 0
     }
@@ -137,7 +138,7 @@ fodlan_event_battle.1 = {
     trigger = {
       is_ai = yes
     }
-    calculate_ai_action = yes
+    fodlan_event_battle_calculate_ai_action = yes
     ai_chance = {
       base = 100
     }
@@ -146,71 +147,6 @@ fodlan_event_battle.1 = {
 
 scripted_trigger has_deployable_reserves = {
   variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
-}
-
-scripted_effect go_to_next_participant = {
-  if = {
-    limit = {
-      global_variable_list_size = { name = fodlan_event_battle_remaining_round_participants value < 1 }
-    }
-    go_to_next_round = yes
-  }
-  else = {
-    random_in_global_list = { # TODO: Technically should do in an ordered way
-      variable = fodlan_event_battle_remaining_round_participants
-      this = {
-        remove_list_global_variable = {
-          name = fodlan_event_battle_remaining_round_participants
-          target = this
-        }
-        prev = { # TODO: This is for testing only
-          set_player_character = prev
-        }
-        trigger_event = {
-          id = fodlan_event_battle.1
-        }
-      }
-    }
-  }
-}
-
-scripted_effect go_to_next_round = { # TODO
-  debug_log = "Calculating Next Round"
-  change_global_variable = {
-    name = fodlan_event_battle_round
-    add = 1
-  }
-  if = {
-    limit = {
-      global_var:fodlan_battle_round = {
-        compare_value > global_var:fodlan_event_battle_max_rounds
-      }
-    }
-    end_battle = yes
-  }
-  else = {
-    debug_log = "Setting up Next Round"
-    every_in_global_variable_list = {
-      variable = fodlan_event_battle_participants
-      debug_log_scope = no
-      add_to_global_variable_list = { name = fodlan_event_battle_remaining_round_participants target = this }
-    }
-    calculate_damages = yes
-    go_to_next_participant = yes
-  }
-}
-
-scripted_effect end_battle = {
-  debug_log = "Calculating End Battle"# TODO
-}
-
-scripted_effect calculate_ai_action = { # TODO
-  debug_log = "Calculating the AI action"
-  go_to_next_participant = yes
-}
-
-scripted_effect calculate_damages = { # TODO
-  debug_log = "Calculating Damages to each army"
 }
 
 fodlan_event_battle.2 = {
@@ -385,7 +321,7 @@ fodlan_event_battle.3 = {
       name = fodlan_event_battle_reserve_armies
       target = scope:local_first_army
     }
-    go_to_next_participant = yes
+    fodlan_event_battle_go_to_next_participant = yes
   }
 
   option = {
@@ -424,6 +360,6 @@ fodlan_event_battle.3 = {
       name = fodlan_event_battle_reserve_armies
       target = scope:local_second_army
     }
-    go_to_next_participant = yes
+    fodlan_event_battle_go_to_next_participant = yes
   }
 }

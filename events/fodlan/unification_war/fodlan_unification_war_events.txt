@@ -115,6 +115,11 @@ fodlan_unification_war.9 = {
         add_attacker = character:300000
         add_attacker = character:100000
         add_defender = character:400024
+        save_scope_as = temp_event_battle_war
+        set_global_variable = {
+          name = fodlan_event_battle_war
+          value = scope:temp_event_battle_war
+        }
       }
     }
 
@@ -185,11 +190,15 @@ fodlan_unification_war.9 = {
         name = fodlan_event_battle_reserve_armies
         target = scope:imperial_third
       }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
       if = {
         limit = {
-          variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
+          global_variable_list_size = { name = fodlan_event_battle_participants value > 0 }
         }
-        debug_log = "Added Edelgard Reserves"
+        debug_log = "Added Edelgard To Participants"
       }
     }
 
@@ -211,6 +220,10 @@ fodlan_unification_war.9 = {
       add_to_variable_list = {
         name = fodlan_event_battle_reserve_armies
         target = scope:blue_lions
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
       }
     }
   
@@ -234,6 +247,10 @@ fodlan_unification_war.9 = {
       add_to_variable_list = {
         name = fodlan_event_battle_reserve_armies
         target = scope:golden_deer
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
       }
     }
     character:100000 = {
@@ -301,6 +318,10 @@ fodlan_unification_war.9 = {
       global_var:unification_imperial_invasion_church_second_militia = {
         assign_commander = character:100006
       }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
     }
   
     character:400024 = {
@@ -321,6 +342,10 @@ fodlan_unification_war.9 = {
       add_to_variable_list = {
         name = fodlan_event_battle_reserve_armies
         target = scope:agarthan_mages
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
       }
     }
 
@@ -362,7 +387,7 @@ fodlan_unification_war.9 = {
     }
     set_global_variable = {
       name = fodlan_event_battle_round
-      value = 1
+      value = 0
     }
     set_global_variable = {
       name = fodlan_event_battle_max_rounds
@@ -383,11 +408,9 @@ fodlan_unification_war.9 = {
       value = global_var:unification_imperial_invasion_imperial_second
     }
 
-    debug_log = "Done Settting Up"
+    debug_log = "Done Setting Up"
     character:400000 = {
-      trigger_event = {
-        id = fodlan_event_battle.1 
-      }
+      fodlan_event_battle_go_to_next_round = yes
     }
   }
 }
