@@ -1,4 +1,4 @@
-namepace = fodlan_event_battle
+namespace = fodlan_event_battle
 
 
 # Generic event battle main loop
@@ -12,15 +12,16 @@ fodlan_event_battle.1 = {
   theme = war
 
   left_portrait = {
-    character = global_variable:fodlan_event_battle_attacker
+    character = global_var:fodlan_event_battle_attacker
     animation = war_attacker
   }
   right_portrait = {
-    character = global_variable:fodlan_event_battle_defender
+    character = global_var:fodlan_event_battle_defender
     animation = war_defender
   }
 
   immediate = {
+    # Sets up variables for localization
     root = {
 			save_scope_as = char
 			scope:char = { # Copy variables for string localization
@@ -72,9 +73,12 @@ fodlan_event_battle.1 = {
     custom_tooltip = fodlan_event_battle.1.help.4
     custom_tooltip = fodlan_event_battle.1.help.5
     custom_tooltip = fodlan_event_battle.1.help.6
+    show_as_unavailable = { always = yes }
     hidden_effect = {
-      trigger_event = {
-        id = fodlan_event_battle.1
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
       }
     }
     ai_chance = {
@@ -85,12 +89,15 @@ fodlan_event_battle.1 = {
   option = {
     trigger = {
       is_ai = no
+      # variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
       has_deployable_reserves = yes
     }
     name = "Deploy Reserves"
     hidden_effect = {
-      trigger_event = {
-        id = fodlan_event_battle.2
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.2
+        }
       }
     }
     ai_chance = {
@@ -104,8 +111,10 @@ fodlan_event_battle.1 = {
     }
     name = "Perform Action"
     hidden_effect = {
-      trigger_event = {
-        id = fodlan_event_battle.4
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.4
+        }
       }
     }
     ai_chance = {
@@ -136,23 +145,26 @@ fodlan_event_battle.1 = {
 }
 
 scripted_trigger has_deployable_reserves = {
-  variable_list_size = { name = fodlan_event_battle_reserve_armies target >= 1 }
+  variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
 }
 
 scripted_effect go_to_next_participant = {
   if = {
     limit = {
-      global_variable_list_size = { name = fodlan_event_battle_remaining_round_participants target < 1 }
+      global_variable_list_size = { name = fodlan_event_battle_remaining_round_participants value < 1 }
     }
     go_to_next_round = yes
   }
   else = {
-    random_in_global_list = {
+    random_in_global_list = { # TODO: Technically should do in an ordered way
       variable = fodlan_event_battle_remaining_round_participants
       this = {
         remove_list_global_variable = {
           name = fodlan_event_battle_remaining_round_participants
           target = this
+        }
+        prev = { # TODO: This is for testing only
+          set_player_character = prev
         }
         trigger_event = {
           id = fodlan_event_battle.1
@@ -193,17 +205,29 @@ scripted_effect end_battle = {
 }
 
 scripted_effect calculate_ai_action = { # TODO
-
+  debug_log = "Calculating the AI action"
+  go_to_next_participant = yes
 }
 
 scripted_effect calculate_damages = { # TODO
-
+  debug_log = "Calculating Damages to each army"
 }
 
 fodlan_event_battle.2 = {
   type = character_event
   title = fodlan_event_battle.2.t
   desc = fodlan_event_battle.2.desc
+
+  theme = war
+
+  left_portrait = {
+    character = global_var:fodlan_event_battle_attacker
+    animation = war_attacker
+  }
+  right_portrait = {
+    character = global_var:fodlan_event_battle_defender
+    animation = war_defender
+  }
 
   option = {
     name = "Left" 
@@ -212,8 +236,10 @@ fodlan_event_battle.2 = {
         name = local_redeploy_flank
         value = 1
       }
-      trigger_event = {
-        id = fodlan_event_battle.3
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.3
+        }
       }
     }
   }
@@ -225,8 +251,10 @@ fodlan_event_battle.2 = {
         name = local_redeploy_flank
         value = 2
       }
-      trigger_event = {
-        id = fodlan_event_battle.3
+      root ={
+        trigger_event = {
+          id = fodlan_event_battle.3
+        }
       }
     }
   }
@@ -238,8 +266,10 @@ fodlan_event_battle.2 = {
         name = local_redeploy_flank
         value = 3
       }
-      trigger_event = {
-        id = fodlan_event_battle.3
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.3
+        }
       }
     }
   }
@@ -247,8 +277,10 @@ fodlan_event_battle.2 = {
   option = {
     name = "Back"
     hidden_effect = {
-      trigger_event = {
-        id = fodlan_event_battle.1
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
       }
     }
   }
@@ -261,47 +293,137 @@ fodlan_event_battle.3 = {
   title = fodlan_event_battle.3.t
   desc = fodlan_event_battle.3.desc
 
+  theme = war
+
+  left_portrait = {
+    character = global_var:fodlan_event_battle_attacker
+    animation = war_attacker
+  }
+  right_portrait = {
+    character = global_var:fodlan_event_battle_defender
+    animation = war_defender
+  }
+
+  # TODO: if they have a option list generator would be great
+  # TODO: Currently only support up to 4, need to add pagination
+  immediate = {
+    set_local_variable = { name = temp_iter value = 1 }
+    every_in_list = {
+      variable = fodlan_event_battle_reserve_armies
+      if = {
+        limit = { local_var:temp_iter = { compare_value = 1 } }
+        save_scope_as = local_first_army
+        debug_log = "First Army Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value = 2 } }
+        save_scope_as = local_second_army
+        debug_log = "Second Army Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value = 3 } }
+        save_scope_as = local_third_army
+        debug_log = "Third Army Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value = 4 } }
+        save_scope_as = local_fourth_army
+        debug_log = "Fourth Army Immediate"
+        debug_log_scopes = no
+      }
+      change_local_variable = { name = temp_iter add = 1 }
+    }
+  }
+
   option = {
     name = "Back"
     hidden_effect = {
-      trigger_event = {
-        id = fodlan_event_battle.1
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
       }
     }
   }
 
-  every_in_list = {
-    list = fodlan_event_battle_reserve_armies
-    option = {
-      name = "Deploy [this.MakeScope.Army.GetName]"
-      trigger_if = {
-        limit = {
-          root.var:local_redeploy_flank = { compare_value = 1 }
-        }
-        set_global_variable = {
-          name = fodlan_event_battle_left_attacking_army
-          value = this
-        }
-      }
-      trigger_if = {
-        limit = {
-          root.var:local_redeploy_flank = { compare_value = 2 }
-        }
-        set_global_variable = {
-          name = fodlan_event_battle_center_attacking_army
-          value = this
-        }
-      }
-      trigger_if = {
-        limit = {
-          root.var:local_redeploy_flank = { compare_value = 3 }
-        }
-        set_global_variable = {
-          name = fodlan_event_battle_right_attacking_army
-          value = this
-        }
-      }
-      go_to_next_participant = yes
+  option = {
+    name = fodlan_event_battle.3.army.1
+    trigger = {
+      exists = scope:local_first_army
     }
+    if = {
+      limit = {
+        root.var:local_redeploy_flank = { compare_value = 1 }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_left_attacking_army
+        value = scope:local_first_army
+      }
+    }
+    if = {
+      limit = {
+        root.var:local_redeploy_flank = { compare_value = 2 }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_center_attacking_army
+        value = scope:local_first_army
+      }
+    }
+    if = {
+      limit = {
+        root.var:local_redeploy_flank = { compare_value = 3 }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_right_attacking_army
+        value = scope:local_first_army
+      }
+    }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_reserve_armies
+      target = scope:local_first_army
+    }
+    go_to_next_participant = yes
+  }
+
+  option = {
+    name = fodlan_event_battle.3.army.2
+    trigger = {
+      exists = scope:local_second_army
+    }
+    if = {
+      limit = {
+        root.var:local_redeploy_flank = { compare_value = 1 }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_left_attacking_army
+        value = scope:local_second_army
+      }
+    }
+    if = {
+      limit = {
+        root.var:local_redeploy_flank = { compare_value = 2 }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_center_attacking_army
+        value = scope:local_second_army
+      }
+    }
+    if = {
+      limit = {
+        root.var:local_redeploy_flank = { compare_value = 3 }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_right_attacking_army
+        value = scope:local_second_army
+      }
+    }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_reserve_armies
+      target = scope:local_second_army
+    }
+    go_to_next_participant = yes
   }
 }
