@@ -92,6 +92,7 @@ fodlan_event_battle_clear_all_variables = { # TODO
   remove_global_variable = fodlan_event_battle_war
   remove_global_variable = fodlan_event_battle_attacker
   remove_global_variable = fodlan_event_battle_defender
+  remove_global_variable = fodlan_event_attackers_list
   # Global list needs clearing fodlan_event_battle_reserve_armies
   # Global list needs clearing fodlan_event_battle_participants
   # Per participant list needs clearing fodlan_event_battle_reserve_armies
