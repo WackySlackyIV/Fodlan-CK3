@@ -4,6 +4,8 @@ namespace = fodlan_unification_war
 # Unification War Setup Chain #
 ###############################
 
+# TODO: Need to replace character ids with variables once we have an earlier start date and need to generate characters via event
+
 # Start 
 fodlan_unification_war.1 = {
   type = empty
@@ -559,6 +561,16 @@ fodlan_unification_war.9 = {
     set_global_variable = {
       name = fodlan_event_battle_max_rounds
       value = 10
+    }
+
+    # Ensure these characters have actions applied as an attacker
+    add_to_global_variable_list = {
+      name = fodlan_event_attackers_list
+      target = character:400000
+    }
+    add_to_global_variable_list = {
+      name = fodlan_event_attackers_list
+      target = character:400024
     }
 
     # Flavor

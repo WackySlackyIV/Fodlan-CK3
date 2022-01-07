@@ -52,6 +52,131 @@ fodlan_event_battle_army_strength_tooltip = {
   }
 }
 
+# Checks for the current character scope what side they are on and sets relevant variables
+fodlan_event_battle_check_character_side = {
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_attackers_list
+        target = root
+      }
+    }
+    set_variable = {
+      name = local_battle_side
+      value = 1
+    }
+    debug_log = "Is Attacker"
+  }
+  else = {
+    set_variable = {
+      name = local_battle_side
+      value = 2
+    }
+    debug_log = "Is Defender"
+  }
+}
+
+# expecting root variables:
+# local_redeploy_flank: 1 - Attacker, 2 - Defender
+# local_battle_side: 1 - Left, 2 - Center, 3 - Right
+# Arguments:
+# $ARMY$ - army scope to be deployed
+fodlan_event_battle_deploy_army = {
+  $ARMY$ = { save_temporary_scope_as = temp_army }
+  set_variable = {
+    name = local_army_strength
+    value = scope:temp_army.army_size
+  }
+  if = {
+    limit = {
+      root.var:local_redeploy_flank = { compare_value = 1 }
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_left_attacking_army
+      value = scope:temp_army
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_attacking_army_strength
+      add = var:local_army_strength
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_redeploy_flank = { compare_value = 1 }
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_left_defending_army
+      value = scope:temp_army
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_defending_army_strength
+      add = var:local_army_strength
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_redeploy_flank = { compare_value = 2 }
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_center_attacking_army
+      value = scope:temp_army
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_attacking_army_strength
+      add = var:local_army_strength
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_redeploy_flank = { compare_value = 2 }
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_center_defending_army
+      value = scope:temp_army
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_defending_army_strength
+      add = var:local_army_strength
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_redeploy_flank = { compare_value = 3 }
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_attacking_army
+      value = scope:temp_army
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_attacking_army_strength
+      add = var:local_army_strength
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_redeploy_flank = { compare_value = 3 }
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_defending_army
+      value = scope:temp_army
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_defending_army_strength
+      add = var:local_army_strength
+    }
+  }
+  remove_list_global_variable = {
+    name = fodlan_event_battle_reserve_armies
+    target = scope:temp_army
+  }
+}
+
 fodlan_event_battle_go_to_next_participant = {
   debug_log = "Participant Choosing Next Char"
   set_variable = {

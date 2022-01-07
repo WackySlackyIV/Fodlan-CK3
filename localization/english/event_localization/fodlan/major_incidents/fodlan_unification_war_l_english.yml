@@ -86,3 +86,6 @@
  fodlan_event_battle.3.army.2: "Deploy [local_second_army.MakeScope.Army.GetName]"
  fodlan_event_battle.3.army.3: "Deploy [local_third_army.MakeScope.Army.GetName]"
  fodlan_event_battle.3.army.4: "Deploy [local_fourth_army.MakeScope.Army.GetName]"
+ fodlan_event_battle.4.a: "Yes"
+ fodlan_event_battle.4.t: "The Battle at [local_battle_location.MakeScope.Province.GetName]"
+ fodlan_event_battle.4.desc: "Deploy [local_army_to_deploy.MakeScope.Army.GetName] in the $fodlan_event_battle.3.flank$. Any surviving troops will remain on the battlefield, while the leader will change.\n\n$fodlan_event_battle.1.left_flank.tt$\n\n$fodlan_event_battle.1.center_flank.tt$\n\n$fodlan_event_battle.1.right_flank.tt$"
