@@ -1,3 +1,57 @@
+fodlan_event_battle_initialize_strengths = {
+  set_global_variable = {
+    name = fodlan_event_battle_left_attacking_army_strength
+    value = global_var:fodlan_event_battle_left_attacking_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_center_attacking_army_strength
+    value = global_var:fodlan_event_battle_center_attacking_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_right_attacking_army_strength
+    value = global_var:fodlan_event_battle_right_attacking_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_left_defending_army_strength
+    value = global_var:fodlan_event_battle_left_defending_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_center_defending_army_strength
+    value = global_var:fodlan_event_battle_center_defending_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_right_defending_army_strength
+    value = global_var:fodlan_event_battle_right_defending_army.army_size
+  }
+}
+
+fodlan_event_battle_army_strength_tooltip = {
+  set_variable = {
+    name = local_lf_as
+    value =  global_var:fodlan_event_battle_left_attacking_army_strength
+  }
+  set_variable = {
+    name = local_lf_ds
+    value =  global_var:fodlan_event_battle_left_defending_army_strength
+  }
+  set_variable = {
+    name = local_cf_as
+    value =  global_var:fodlan_event_battle_center_attacking_army_strength
+  }
+  set_variable = {
+    name = local_cf_ds
+    value =  global_var:fodlan_event_battle_center_defending_army_strength
+  }
+  set_variable = {
+    name = local_rf_as
+    value =  global_var:fodlan_event_battle_right_attacking_army_strength
+  }
+  set_variable = {
+    name = local_rf_ds
+    value =  global_var:fodlan_event_battle_right_defending_army_strength
+  }
+}
+
 fodlan_event_battle_go_to_next_participant = {
   debug_log = "Participant Choosing Next Char"
   set_variable = {
@@ -86,6 +140,12 @@ fodlan_event_battle_clear_all_variables = { # TODO
   remove_global_variable = fodlan_event_battle_left_defending_army
   remove_global_variable = fodlan_event_battle_center_defending_army
   remove_global_variable = fodlan_event_battle_right_defending_army
+  remove_global_variable = fodlan_event_battle_left_attacking_army_strength
+  remove_global_variable = fodlan_event_battle_center_attacking_army_strength
+  remove_global_variable = fodlan_event_battle_right_attacking_army_strength
+  remove_global_variable = fodlan_event_battle_left_defending_army_strength
+  remove_global_variable = fodlan_event_battle_center_defending_army_strength
+  remove_global_variable = fodlan_event_battle_right_defending_army_strength
   remove_global_variable = fodlan_event_battle_max_rounds
   remove_global_variable = fodlan_event_battle_round
   remove_global_variable = fodlan_event_battle_battlefield

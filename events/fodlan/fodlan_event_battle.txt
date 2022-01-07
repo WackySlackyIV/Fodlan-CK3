@@ -37,6 +37,7 @@ fodlan_event_battle.1 = {
           name = local_max_round
           value =  global_var:fodlan_event_battle_max_rounds
         }
+        fodlan_event_battle_army_strength_tooltip = yes
 			}
 		}
     global_var:fodlan_event_battle_location = {

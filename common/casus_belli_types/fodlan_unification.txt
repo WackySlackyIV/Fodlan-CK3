@@ -321,12 +321,16 @@ imperial_invasion_event_battle = {
 		}
 	}
 
+	on_victory_desc = {
+		desc = unification_war_imperial_invasion_desc
+	}
+
 	on_victory = {
-		
 	}
 
 	# TODO: Reconciliation option
 	on_white_peace_desc = {
+		desc = unification_war_imperial_invasion_desc
 	}
 
 	# TODO: Reconcilization option
@@ -334,6 +338,7 @@ imperial_invasion_event_battle = {
 	}
 
 	on_defeat_desc = {
+		desc = unification_war_imperial_invasion_desc
 	}
 
 	on_defeat = {

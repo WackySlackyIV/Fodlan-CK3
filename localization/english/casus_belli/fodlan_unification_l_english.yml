@@ -10,3 +10,6 @@
  alliance_intervention_war_victory_desc: "[attacker.GetTitledFirstName] gains leadership of the Alliance. [defender.GetTitledFirstName] is exiled. [defender.GetPrimaryTitle.GetAdjective] joins the [war_of_unification|E] on the side of the attacker"
  alliance_intervention_war_white_peace_desc: "[defender.GetPrimaryTitle.GetAdjective] remains neutral in the [war_of_unification|E]. A victory by the [adrestian_empire|E] will result in the vassalization of the [leicester_alliance|E]!"
  alliance_intervention_war_defeat_desc: "[defender.GetTitledFirstName] remains leader of the Alliance. [attacker.GetTitledFirstName] abdicates. [defender.GetPrimaryTitle.GetAdjective] joins the [war_of_unification|E] on the side of the defender."
+ UNIFICATION_IMPERIAL_INVASION_WAR_NAME: "Imperial Invasion of Garreg Mach"
+ unification_war_imperial_invasion_desc: "#V Do not end the war or errors will occur#!"
+ imperial_invasion_event_battle: "Event Battle"
