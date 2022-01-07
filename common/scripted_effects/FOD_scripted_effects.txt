@@ -158,3 +158,43 @@ form_daphnel_scripted_effect = {
 		use_hook = scope:scoped_ruler.liege
 	}
 }
+
+fodlan_add_variable_helper = {
+  if = {
+    limit = {
+      always = $GLOBAL$
+    }
+    if = {
+      limit = {
+        NOT = { has_variable = $TARGET$ }
+      }
+      set_variable = {
+        name = $TARGET$
+        value = $VALUE$
+      }
+    }
+    else = {
+      change_variable = {
+        name = $TARGET$
+        add = $VALUE$
+      }
+    }
+  }
+  else = {
+    if = {
+      limit = {
+        NOT = { has_global_variable = $TARGET$ }
+      }
+      set_global_variable = {
+        name = $TARGET$
+        value = $VALUE$
+      }
+    }
+    else = {
+      change_global_variable = {
+        name = $TARGET$
+        add = $VALUE$
+      }
+    }
+  }
+}

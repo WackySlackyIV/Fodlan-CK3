@@ -4,6 +4,7 @@ namespace = fodlan_event_battle
 # Generic event battle main loop
 # You should only have 1 instance of a major event battle happening at a time since we use global variables.
 # TODO: Documenting expected global variables that exist
+# TODO: Modify this to support more than 1 major event battle at a time
 fodlan_event_battle.1 = {
   type = character_event
   title = fodlan_event_battle.1.t
@@ -92,7 +93,7 @@ fodlan_event_battle.1 = {
     trigger = {
       is_ai = no
       # variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
-      has_deployable_reserves = yes
+      fodlan_event_battle_has_deployable_reserves = yes
     }
     name = "Deploy Reserves"
     hidden_effect = {
@@ -115,7 +116,7 @@ fodlan_event_battle.1 = {
     hidden_effect = {
       root = {
         trigger_event = {
-          id = fodlan_event_battle.4
+          id = fodlan_event_battle.10
         }
       }
     }
@@ -146,9 +147,11 @@ fodlan_event_battle.1 = {
   }
 }
 
-scripted_trigger has_deployable_reserves = {
-  variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
-}
+##########################
+# RESERVE DEPLOYMENT GUI #
+##########################
+
+# We allow deployment of units per each character based on what is specified in var:fodlan_event_battle_reserve_armies
 
 # Select a front to deploy reserves to
 fodlan_event_battle.2 = {
@@ -230,7 +233,7 @@ fodlan_event_battle.2 = {
   }
 }
 
-# Deploy Reserves to a particular front
+# Select Army to deploy
 fodlan_event_battle.3 = {
   type = character_event
   title = fodlan_event_battle.3.t
@@ -360,6 +363,7 @@ fodlan_event_battle.3 = {
   }
 }
 
+# Confirm Deploy
 fodlan_event_battle.4 = {
   type = character_event
   title = fodlan_event_battle.4.t
@@ -398,4 +402,114 @@ fodlan_event_battle.4 = {
       fodlan_event_battle_go_to_next_participant = yes
     }
   }
+}
+
+
+######################
+# Action Control GUI #
+######################
+
+# Action Selection
+fodlan_event_battle.10 = {
+  type = character_event
+  title = fodlan_event_battle.10.t
+  desc = fodlan_event_battle.10.desc
+
+  theme = war
+
+  left_portrait = {
+    character = root
+    animation = war_attacker
+  }
+
+  immediate = {
+    root = {
+      fodlan_event_battle_check_character_side = yes
+    }
+  }
+
+  option = {
+    name = fodlan_event_battle.back
+    hidden_effect = {
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      fodlan_event_battle_has_demonic_beasts = yes
+    }
+    name = fodlan_event_battle.10.demonic_beast
+    custom_tooltip = fodlan_event_battle.10.help.demonic_beast
+    fodlan_event_battle_deploy_demonic_beast = yes
+    hidden_effect = {
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+
+  option = {
+    trigger = {
+      fodlan_event_battle_has_golems = yes
+    }
+    name = fodlan_event_battle.10.golem
+    custom_tooltip = fodlan_event_battle.10.help.golem
+    fodlan_event_battle_deploy_golem = yes
+    hidden_effect = {
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+
+  option = {
+    trigger = {
+      fodlan_event_battle_can_deploy_as_knight = yes
+    }
+    name = fodlan_event_battle.10.personal_deployment_knight
+    custom_tooltip = fodlan_event_battle.10.help.personal_deployment_knight
+    custom_tooltip = fodlan_event_battle.10.help.capture
+    hidden_effect = {
+      root = {
+        fodlan_event_battle_deploy_knight = yes
+      }
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+
+  option = {
+    trigger = {
+      fodlan_event_battle_can_deploy_as_dragon = yes
+    }
+    name = fodlan_event_battle.10.personal_deployment_dragon
+    custom_tooltip = fodlan_event_battle.10.help.personal_deployment_dragon
+    custom_tooltip = fodlan_event_battle.10.help.capture
+    hidden_effect = {
+      root = {
+        fodlan_event_battle_deploy_dragon = yes
+      }
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+
+  option = {
+    # TODO: Have a list event menu so the player can choose which target to counter
+    trigger = {
+      fodlan_event_battle_can_deploy_as_dark_mage = yes
+    }
+    name = fodlan_event_battle.10.personal_deployment_dark_magic
+    custom_tooltip = fodlan_event_battle.10.help.personal_deployment_dark_magic
+    custom_tooltip = fodlan_event_battle.10.help.capture
+    hidden_effect = {
+      root = {
+        fodlan_event_battle_deploy_dark_mage = yes
+      }
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+
+  # option = {
+  #   name = fodlan_event_battle.10.personal_deployment_cleric
+  # }
 }

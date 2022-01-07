@@ -1,0 +1,49 @@
+fodlan_event_battle_has_deployable_reserves = {
+  variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
+}
+
+fodlan_event_battle_has_demonic_beasts = {
+  var:fodlan_event_battle_demonic_beast_available = {
+    compare_value > 0
+  }
+}
+
+fodlan_event_battle_has_golems = {
+  var:fodlan_event_battle_golem_available = {
+    compare_value > 0
+  }
+}
+
+fodlan_event_battle_can_deploy = {
+  NOT = {
+    OR = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_deployed_attackers
+        target = root
+      }
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_deployed_defenders
+        target = root
+      }
+    }
+  }
+}
+
+fodlan_event_battle_can_deploy_as_knight = {
+  fodlan_event_battle_can_deploy = yes
+}
+
+fodlan_event_battle_can_deploy_as_dragon = {
+  fodlan_event_battle_can_deploy = yes
+  fodlan_is_nabatean = yes
+}
+
+fodlan_event_battle_can_deploy_as_dark_mage = {
+  fodlan_event_battle_can_deploy = yes
+  has_character_flag = fodlan_event_battle_dark_mage
+}
+
+fodlan_event_battle_can_deploy_as_cleric = {
+  fodlan_event_battle_can_deploy = yes
+  has_character_flag = fodlan_event_battle_cleric
+}

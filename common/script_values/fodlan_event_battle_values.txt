@@ -1,0 +1,4 @@
+fodlan_event_battle_demonic_beast_enemy_survivor_ratio = 0.5
+fodlan_event_battle_demonic_beast_allied_survivor_ratio = 0.8
+
+fodlan_event_battle_golem_strength_value = 500

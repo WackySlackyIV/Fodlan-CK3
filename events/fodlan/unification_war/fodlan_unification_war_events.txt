@@ -284,6 +284,8 @@ fodlan_unification_war.9 = {
     }
 
     character:300000 = {
+      add_courtier = character:300025 # Ingrid
+      recruit_courtier = character:300025
       spawn_army = { # Dimitri
         name = "Blue Lions"
         save_scope_as=blue_lions
@@ -319,7 +321,7 @@ fodlan_unification_war.9 = {
         value = scope:blue_lions
       }
       global_var:unification_imperial_invasion_blue_lions = {
-        assign_commander = character:300000
+        assign_commander = character:300025
       }
       add_to_variable_list = {
         name = fodlan_event_battle_reserve_armies
@@ -402,25 +404,6 @@ fodlan_unification_war.9 = {
         assign_commander = character:100004
       }
 
-      # spawn_army = { # Rhea
-      #   name = "Rhea"
-      #   save_scope_as=rhea
-      #   levies = 1
-      #   location = this.capital_province
-      #   war = global_var:unification_imperial_invasion_instance
-      # }
-      # set_global_variable = {
-      #   name = unification_imperial_invasion_rhea
-      #   value = scope:rhea
-      # }
-      # global_var:unification_imperial_invasion_rhea = {
-      #   assign_commander = character:100000
-      # }
-      # add_to_variable_list = {
-      #   name = fodlan_event_battle_reserve_armies
-      #   target = scope:rhea
-      # }
-
       add_courtier = character:100011
       recruit_courtier = character:100011
       spawn_army = { # Catherine
@@ -482,17 +465,11 @@ fodlan_unification_war.9 = {
         name = fodlan_event_battle_participants
         target = this
       }
+
+      fodlan_event_battle_add_golem = yes
     }
   
     character:400024 = {
-      # spawn_army = { # Thales
-      #   name = "Demonic Beast"
-      #   save_scope_as=agarthan_mages
-      #   levies = 1
-      #   location = this.capital_province
-      #   war = global_var:unification_imperial_invasion_instance
-      # }
-
       spawn_army = { # Thales
         name = "Agarthan Mages"
         save_scope_as=agarthan_mages
@@ -505,7 +482,7 @@ fodlan_unification_war.9 = {
         value = scope:agarthan_mages
       }
       global_var:unification_imperial_invasion_agarthan_mages = {
-        assign_commander = character:400024
+        assign_commander = character:400024 # TODO: Need a separate leader
       }
       add_to_variable_list = {
         name = fodlan_event_battle_reserve_armies
@@ -515,6 +492,9 @@ fodlan_unification_war.9 = {
         name = fodlan_event_battle_participants
         target = this
       }
+
+      fodlan_event_battle_add_demonic_beast = yes
+      fodlan_event_battle_mark_dark_mage = yes
     }
 
     # Initial Order of Battle

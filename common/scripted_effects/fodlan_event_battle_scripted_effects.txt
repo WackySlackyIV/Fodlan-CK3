@@ -1,3 +1,5 @@
+### Initialization ###
+
 fodlan_event_battle_initialize_strengths = {
   set_global_variable = {
     name = fodlan_event_battle_left_attacking_army_strength
@@ -24,6 +26,8 @@ fodlan_event_battle_initialize_strengths = {
     value = global_var:fodlan_event_battle_right_defending_army.army_size
   }
 }
+
+# UI #
 
 fodlan_event_battle_army_strength_tooltip = {
   set_variable = {
@@ -75,6 +79,18 @@ fodlan_event_battle_check_character_side = {
     debug_log = "Is Defender"
   }
 }
+
+fodlan_event_battle_interface_message = {
+  every_in_global_list = {
+    variable = fodlan_event_battle_participants
+    send_interface_message = {
+      type = $MESSAGE_TYPE$
+      left_icon = $ACTOR$
+    }
+  }
+}
+
+## Army Actions ##
 
 # expecting root variables:
 # local_redeploy_flank: 1 - Attacker, 2 - Defender
@@ -177,6 +193,296 @@ fodlan_event_battle_deploy_army = {
   }
 }
 
+### Personal Actions ###
+
+# Demonic Beasts
+fodlan_event_battle_deploy_demonic_beast = {
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_attacking_army_strength
+      multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_attacking_army_strength
+      multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_attacking_army_strength
+      multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_defending_army_strength
+      multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_defending_army_strength
+      multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_defending_army_strength
+      multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_attacking_army_strength
+      multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_attacking_army_strength
+      multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_attacking_army_strength
+      multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_defending_army_strength
+      multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_defending_army_strength
+      multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_defending_army_strength
+      multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+    }
+  }
+  root = {
+    fodlan_event_battle_remove_demonic_beast = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = root
+    MESSAGE_TYPE = msg_fodlan_event_battle_demonic_beast
+  }
+}
+
+fodlan_event_battle_add_demonic_beast = {
+  if = {
+    limit = {
+      NOT = { has_variable = fodlan_event_battle_demonic_beast_available }
+    }
+    set_variable = {
+      name = fodlan_event_battle_demonic_beast_available
+      value = 1
+    }
+  }
+  else = {
+    change_variable = {
+      name = fodlan_event_battle_demonic_beast_available
+      add = 1
+    }
+  }
+}
+
+fodlan_event_battle_remove_demonic_beast = {
+  change_variable = {
+    name = fodlan_event_battle_demonic_beast_available
+    subtract = 1
+  }
+}
+
+# Golems
+
+fodlan_event_battle_deploy_golem = {
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_attacking_army_strength
+      add = fodlan_event_battle_golem_strength_value
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_attacking_army_strength
+      add = fodlan_event_battle_golem_strength_value
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_attacking_army_strength
+      add = fodlan_event_battle_golem_strength_value
+    }
+  }
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_left_defending_army_strength
+      add = fodlan_event_battle_golem_strength_value
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_center_defending_army_strength
+      add = fodlan_event_battle_golem_strength_value
+    }
+    change_global_variable = {
+      name = fodlan_event_battle_right_defending_army_strength
+      add = fodlan_event_battle_golem_strength_value
+    }
+  }
+  root = {
+    fodlan_event_battle_remove_golem = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = root
+    MESSAGE_TYPE = msg_fodlan_event_battle_demonic_beast
+  }
+}
+
+fodlan_event_battle_add_golem = {
+  if = {
+    limit = {
+      NOT = { has_variable = fodlan_event_battle_golem_available }
+    }
+    set_variable = {
+      name = fodlan_event_battle_golem_available
+      value = 1
+    }
+  }
+  else = {
+    change_variable = {
+      name = fodlan_event_battle_golem_available
+      add = 1
+    }
+  }
+}
+
+fodlan_event_battle_remove_golem = {
+  change_variable = {
+    name = fodlan_event_battle_golem_available
+    subtract = 1
+  }
+}
+
+## Personal Deploy ##
+
+fodlan_event_battle_personal_deploy_attacker = {
+  add_to_global_variable_list = {
+    name = fodlan_event_battle_deployed_attackers
+    target = root
+  }
+}
+
+fodlan_event_battle_personal_deploy_defender = {
+  add_to_global_variable_list = {
+    name = fodlan_event_battle_deployed_defenders
+    target = root
+  }
+}
+
+# Knight
+fodlan_event_battle_deploy_knight = {
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    fodlan_add_variable_helper = {
+      GLOBAL = yes
+      TARGET = fodlan_event_battle_attacker_combat_advantage_sources
+      VALUE = 1
+    }
+    fodlan_event_battle_personal_deploy_attacker = yes
+  }
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    fodlan_add_variable_helper = {
+      GLOBAL = yes
+      TARGET = fodlan_event_battle_defender_combat_advantage_sources
+      VALUE = 1
+    }
+    fodlan_event_battle_personal_deploy_defender = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = root
+    MESSAGE_TYPE = msg_fodlan_event_battle_deploy_knight
+  }
+}
+
+# Dragon
+
+fodlan_event_battle_deploy_dragon = {
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    # TODO: Some way of dynamically calculating damage besides sources, probably add to a list and iterate through list to calculate
+    fodlan_add_variable_helper = {
+      GLOBAL = yes
+      TARGET = fodlan_event_battle_attacker_fixed_damage_sources
+      VALUE = 1
+    }
+    fodlan_event_battle_personal_deploy_attacker = yes
+  }
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    fodlan_add_variable_helper = {
+      GLOBAL = yes
+      TARGET = fodlan_event_battle_defender_fixed_damage_sources
+      VALUE = 1
+    }
+    fodlan_event_battle_personal_deploy_defender = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = root
+    MESSAGE_TYPE = msg_fodlan_event_battle_deploy_dragon
+  }
+}
+
+# Dark Mage
+
+fodlan_event_battle_mark_dark_mage = {
+  add_flag = fodlan_event_battle_dark_mage
+}
+
+fodlan_event_battle_deploy_dark_mage = {
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 1 }
+    }
+    fodlan_add_variable_helper = {
+      GLOBAL = yes
+      TARGET = fodlan_event_battle_attacker_nullification_sources
+      VALUE = 1
+    }
+    fodlan_event_battle_personal_deploy_attacker = yes
+  }
+  if = {
+    limit = {
+      root.var:local_battle_side = { compare_value = 2 }
+    }
+    fodlan_add_variable_helper = {
+      GLOBAL = yes
+      TARGET = fodlan_event_battle_defender_nullification_sources
+      VALUE = 1
+    }
+    fodlan_event_battle_personal_deploy_defender = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = root
+    MESSAGE_TYPE = msg_fodlan_event_battle_deploy_dark_mage
+  }
+}
+
+# Cleric
+# TODO: Unimplemented
+fodlan_event_battle_mark_cleric = {
+  add_flag = fodlan_event_battle_cleric
+}
+
+
+#### Flow Control ####
+
+
 fodlan_event_battle_go_to_next_participant = {
   debug_log = "Participant Choosing Next Char"
   set_variable = {
@@ -271,6 +577,10 @@ fodlan_event_battle_clear_all_variables = { # TODO
   remove_global_variable = fodlan_event_battle_left_defending_army_strength
   remove_global_variable = fodlan_event_battle_center_defending_army_strength
   remove_global_variable = fodlan_event_battle_right_defending_army_strength
+  remove_global_variable = fodlan_event_battle_attacker_combat_advantage_sources
+  remove_global_variable = fodlan_event_battle_defender_combat_advantage_sources
+  remove_global_variable = fodlan_event_battle_attacker_fixed_damage_sources
+  remove_global_variable = fodlan_event_battle_defender_fixed_damage_sources
   remove_global_variable = fodlan_event_battle_max_rounds
   remove_global_variable = fodlan_event_battle_round
   remove_global_variable = fodlan_event_battle_battlefield
@@ -280,6 +590,9 @@ fodlan_event_battle_clear_all_variables = { # TODO
   remove_global_variable = fodlan_event_attackers_list
   # Global list needs clearing fodlan_event_battle_reserve_armies
   # Global list needs clearing fodlan_event_battle_participants
+  # Global list needs clearing fodlan_event_battle_deployed_attackers
+  # Global list needs clearing fodlan_event_battle_deployed_defenders
+  # Global list needs clearing fodlan_event_attackers_list
   # Per participant list needs clearing fodlan_event_battle_reserve_armies
 }
 
