@@ -10,7 +10,7 @@ fodlan_event_battle.1 = {
   title = fodlan_event_battle.1.t
   desc = fodlan_event_battle.1.desc
 
-  theme = war
+  theme = battle
 
   left_portrait = {
     character = global_var:fodlan_event_battle_attacker
@@ -159,7 +159,7 @@ fodlan_event_battle.2 = {
   title = fodlan_event_battle.2.t
   desc = fodlan_event_battle.2.desc
 
-  theme = war
+  theme = battle
 
   left_portrait = {
     character = global_var:fodlan_event_battle_attacker
@@ -239,7 +239,7 @@ fodlan_event_battle.3 = {
   title = fodlan_event_battle.3.t
   desc = fodlan_event_battle.3.desc
 
-  theme = war
+  theme = battle
 
   left_portrait = {
     character = global_var:fodlan_event_battle_attacker
@@ -369,7 +369,7 @@ fodlan_event_battle.4 = {
   title = fodlan_event_battle.4.t
   desc = fodlan_event_battle.4.desc
 
-  theme = war
+  theme = battle
 
   left_portrait = {
     character = global_var:fodlan_event_battle_attacker
@@ -415,7 +415,7 @@ fodlan_event_battle.10 = {
   title = fodlan_event_battle.10.t
   desc = fodlan_event_battle.10.desc
 
-  theme = war
+  theme = battle
 
   left_portrait = {
     character = root
@@ -503,13 +503,227 @@ fodlan_event_battle.10 = {
     custom_tooltip = fodlan_event_battle.10.help.capture
     hidden_effect = {
       root = {
-        fodlan_event_battle_deploy_dark_mage = yes
+        fodlan_pagination_reset = yes
+        trigger_event = {
+          id = fodlan_event_battle.11
+        }
       }
-      fodlan_event_battle_go_to_next_participant = yes
     }
   }
 
   # option = {
   #   name = fodlan_event_battle.10.personal_deployment_cleric
   # }
+}
+
+# Nullification Character Selection
+
+fodlan_event_battle.11 = {
+  type = character_event
+  title = fodlan_event_battle.11.t
+  desc = fodlan_event_battle.11.desc
+
+  theme = battle
+
+  left_portrait = {
+    character = root
+    animation = war_attacker
+  }
+
+  immediate = {
+    fodlan_pagination_calculate_indices = yes
+    set_local_variable = { name = temp_iter value = 1 }
+    if = {
+      limit = {
+        root.var:local_battle_side = { compare_value = 1 }
+      }
+      set_variable = { name = temp_target_list value = global_var:fodlan_event_battle_deployed_defenders }
+    }
+    else = {
+      set_variable = { name = temp_target_list value = global_var:fodlan_event_battle_deployed_attackers }
+    }
+    
+    every_in_list = {
+      variable = var:temp_target_list
+      if = {
+        limit = { local_var:temp_iter = { compare_value = var:fodlan_pagination_first_index } }
+        save_scope_as = local_first_option
+        debug_log = "First Null Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value = var:fodlan_pagination_second_index } }
+        save_scope_as = local_second_option
+        debug_log = "Second Null Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value = var:fodlan_pagination_third_index } }
+        save_scope_as = local_third_option
+        debug_log = "Third Null Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value = var:fodlan_pagination_fourth_index } }
+        save_scope_as = local_fourth_option
+        debug_log = "Fourth Null Immediate"
+        debug_log_scopes = no
+      }
+      if = {
+        limit = { local_var:temp_iter = { compare_value > max_value }}
+      }
+      change_local_variable = { name = temp_iter add = 1 }
+    }
+  }
+
+  option = {
+    name = fodlan_event_battle.back
+    hidden_effect = {
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      fodlan_pagination_should_show_next = yes
+    }
+    name = fodlan.next
+    hidden_effect = {
+      root = {
+        fodlan_pagination_next = yes
+        trigger_event = {
+          id = fodlan_event_battle.11
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      fodlan_pagination_should_show_previous = yes
+    }
+    name = fodlan.previous
+    hidden_effect = {
+      root = {
+        fodlan_pagination_previous = yes
+        trigger_event = {
+          id = fodlan_event_battle.11
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      exists = scope:local_first_option
+    }
+    name = fodlan_event_battle.11.a
+    hidden_effect = {
+      scope:local_first_option = {
+        save_scope_as = local_picked_option
+      }
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.12
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      exists = scope:local_second_option
+    }
+    name = fodlan_event_battle.11.b
+    hidden_effect = {
+      scope:local_second_option = {
+        save_scope_as = local_picked_option
+      }
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.12
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      exists = scope:local_third_option
+    }
+    name = fodlan_event_battle.11.c
+    hidden_effect = {
+      scope:local_third_option = {
+        save_scope_as = local_picked_option
+      }
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.12
+        }
+      }
+    }
+  }
+
+  option = {
+    trigger = {
+      exists = scope:local_fourth_option
+    }
+    name = fodlan_event_battle.11.d
+    hidden_effect = {
+      scope:local_fourth_option = {
+        save_scope_as = local_picked_option
+      }
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.12
+        }
+      }
+    }
+  }
+}
+
+# Confirm Hex
+fodlan_event_battle.12 = {
+  type = character_event
+  title = fodlan_event_battle.11.t
+  desc = fodlan_event_battle.12.desc
+
+  theme = battle
+
+  left_portrait = {
+    character = global_var:fodlan_event_battle_attacker
+    animation = war_attacker
+  }
+  right_portrait = {
+    character = global_var:fodlan_event_battle_defender
+    animation = war_defender
+  }
+
+  option = {
+    name = fodlan_event_battle.back
+    hidden_effect = {
+      root = {
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
+      }
+    }
+  }
+
+  option = {
+    name = fodlan_event_battle.12.a
+    hidden_effect = {
+      fodlan_event_battle_personal_deploy_stop_deployment = {
+        TARGET = scope:local_picked_option
+      }
+      root = {
+        fodlan_event_battle_deploy_dark_mage = yes
+      }
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
 }

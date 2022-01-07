@@ -25,6 +25,10 @@ fodlan_event_battle_can_deploy = {
         name = fodlan_event_battle_deployed_defenders
         target = root
       }
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_nullified_characters
+        target = root
+      }
     }
   }
 }

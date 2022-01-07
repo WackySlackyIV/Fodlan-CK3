@@ -376,16 +376,71 @@ fodlan_event_battle_personal_deploy_defender = {
   }
 }
 
+fodlan_event_battle_personal_deploy_stop_deployment = {
+  $TARGET$ = { save_scope_as = temp_target }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_deployed_attackers
+        target = scope:temp_target
+      }
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_deployed_defenders
+        target = scope:temp_target
+      }
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_attacker_combat_advantage_sources
+        target = scope:temp_target
+      }
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_defender_combat_advantage_sources
+        target = scope:temp_target
+      }
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_attacker_fixed_damage_sources
+        target = scope:temp_target
+      }
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_defender_fixed_damage_sources
+        target = scope:temp_target
+      }
+    }
+  }
+  add_to_global_variable_list = {
+    name = fodlan_event_battle_nullified_characters
+    target = scope:temp_target
+  }
+}
+
 # Knight
 fodlan_event_battle_deploy_knight = {
   if = {
     limit = {
       root.var:local_battle_side = { compare_value = 1 }
     }
-    fodlan_add_variable_helper = {
-      GLOBAL = yes
-      TARGET = fodlan_event_battle_attacker_combat_advantage_sources
-      VALUE = 1
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_attacker_combat_advantage_sources
+      target = root
     }
     fodlan_event_battle_personal_deploy_attacker = yes
   }
@@ -393,10 +448,9 @@ fodlan_event_battle_deploy_knight = {
     limit = {
       root.var:local_battle_side = { compare_value = 2 }
     }
-    fodlan_add_variable_helper = {
-      GLOBAL = yes
-      TARGET = fodlan_event_battle_defender_combat_advantage_sources
-      VALUE = 1
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_defender_combat_advantage_sources
+      target = root
     }
     fodlan_event_battle_personal_deploy_defender = yes
   }
@@ -414,10 +468,9 @@ fodlan_event_battle_deploy_dragon = {
       root.var:local_battle_side = { compare_value = 1 }
     }
     # TODO: Some way of dynamically calculating damage besides sources, probably add to a list and iterate through list to calculate
-    fodlan_add_variable_helper = {
-      GLOBAL = yes
-      TARGET = fodlan_event_battle_attacker_fixed_damage_sources
-      VALUE = 1
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_attacker_fixed_damage_sources
+      target = root
     }
     fodlan_event_battle_personal_deploy_attacker = yes
   }
@@ -425,10 +478,9 @@ fodlan_event_battle_deploy_dragon = {
     limit = {
       root.var:local_battle_side = { compare_value = 2 }
     }
-    fodlan_add_variable_helper = {
-      GLOBAL = yes
-      TARGET = fodlan_event_battle_defender_fixed_damage_sources
-      VALUE = 1
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_defender_fixed_damage_sources
+      target = root
     }
     fodlan_event_battle_personal_deploy_defender = yes
   }
@@ -441,7 +493,7 @@ fodlan_event_battle_deploy_dragon = {
 # Dark Mage
 
 fodlan_event_battle_mark_dark_mage = {
-  add_flag = fodlan_event_battle_dark_mage
+  add_character_flag = fodlan_event_battle_dark_mage
 }
 
 fodlan_event_battle_deploy_dark_mage = {
@@ -449,21 +501,11 @@ fodlan_event_battle_deploy_dark_mage = {
     limit = {
       root.var:local_battle_side = { compare_value = 1 }
     }
-    fodlan_add_variable_helper = {
-      GLOBAL = yes
-      TARGET = fodlan_event_battle_attacker_nullification_sources
-      VALUE = 1
-    }
     fodlan_event_battle_personal_deploy_attacker = yes
   }
   if = {
     limit = {
       root.var:local_battle_side = { compare_value = 2 }
-    }
-    fodlan_add_variable_helper = {
-      GLOBAL = yes
-      TARGET = fodlan_event_battle_defender_nullification_sources
-      VALUE = 1
     }
     fodlan_event_battle_personal_deploy_defender = yes
   }
@@ -564,6 +606,7 @@ fodlan_event_battle_end_battle = {
 }
 
 fodlan_event_battle_clear_all_variables = { # TODO
+  # Per participant list needs clearing fodlan_event_battle_reserve_armies
   remove_global_variable = fodlan_event_battle_location
   remove_global_variable = fodlan_event_battle_left_attacking_army
   remove_global_variable = fodlan_event_battle_center_attacking_army
@@ -577,23 +620,22 @@ fodlan_event_battle_clear_all_variables = { # TODO
   remove_global_variable = fodlan_event_battle_left_defending_army_strength
   remove_global_variable = fodlan_event_battle_center_defending_army_strength
   remove_global_variable = fodlan_event_battle_right_defending_army_strength
-  remove_global_variable = fodlan_event_battle_attacker_combat_advantage_sources
-  remove_global_variable = fodlan_event_battle_defender_combat_advantage_sources
-  remove_global_variable = fodlan_event_battle_attacker_fixed_damage_sources
-  remove_global_variable = fodlan_event_battle_defender_fixed_damage_sources
   remove_global_variable = fodlan_event_battle_max_rounds
   remove_global_variable = fodlan_event_battle_round
   remove_global_variable = fodlan_event_battle_battlefield
   remove_global_variable = fodlan_event_battle_war
   remove_global_variable = fodlan_event_battle_attacker
   remove_global_variable = fodlan_event_battle_defender
-  remove_global_variable = fodlan_event_attackers_list
-  # Global list needs clearing fodlan_event_battle_reserve_armies
-  # Global list needs clearing fodlan_event_battle_participants
-  # Global list needs clearing fodlan_event_battle_deployed_attackers
-  # Global list needs clearing fodlan_event_battle_deployed_defenders
-  # Global list needs clearing fodlan_event_attackers_list
-  # Per participant list needs clearing fodlan_event_battle_reserve_armies
+  clear_global_variable_list = fodlan_event_battle_reserve_armies
+  clear_global_variable_list = fodlan_event_battle_participants
+  clear_global_variable_list = fodlan_event_battle_deployed_attackers
+  clear_global_variable_list = fodlan_event_battle_deployed_defenders
+  clear_global_variable_list = fodlan_event_attackers_list
+  clear_global_variable_list = fodlan_event_battle_attacker_combat_advantage_sources
+  clear_global_variable_list = fodlan_event_battle_defender_combat_advantage_sources
+  clear_global_variable_list = fodlan_event_battle_attacker_fixed_damage_sources
+  clear_global_variable_list = fodlan_event_battle_defender_fixed_damage_sources
+  clear_global_variable_list = fodlan_event_battle_nullified_characters
 }
 
 fodlan_event_battle_calculate_winner_end_war = {

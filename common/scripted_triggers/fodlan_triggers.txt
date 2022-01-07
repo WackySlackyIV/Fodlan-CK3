@@ -161,3 +161,15 @@ fodlan_allow_internal_war = {
 		}
 	}
 }
+
+fodlan_pagination_should_show_next = {
+	var:fodlan_pagination_has_next = {
+		compare_value > 0
+	}
+}
+
+fodlan_pagination_should_show_previous = {
+	var:fodlan_pagination = {
+		compare_value > 0
+	}
+}
