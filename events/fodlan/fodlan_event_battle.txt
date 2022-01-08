@@ -89,7 +89,6 @@ fodlan_event_battle.1 = {
   option = {
     trigger = {
       is_ai = no
-      # variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
       fodlan_event_battle_has_deployable_reserves = yes
     }
     name = fodlan_event_battle.1.reserves

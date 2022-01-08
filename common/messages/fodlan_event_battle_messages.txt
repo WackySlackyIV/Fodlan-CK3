@@ -16,7 +16,6 @@ msg_fodlan_event_battle_reserves_deployed = {
 	display = feed
 	soundeffect = @toast_soundeffect_neutral
 	icon = "war"
-	style = neutral
 }
 
 msg_fodlan_event_battle_demonic_beast = {
@@ -61,3 +60,9 @@ msg_fodlan_event_battle_deploy_cleric = {
 	style = good
 }
 
+msg_fodlan_event_battle_phase_increase = {
+	display = feed
+	soundeffect = @toast_soundeffect_bad
+	icon = "war"
+	style = bad
+}
