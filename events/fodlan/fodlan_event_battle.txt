@@ -588,7 +588,9 @@ scripted_effect fodlan_event_battle_11_read_values = {
   if = {
     limit = { root.var:temp_iter = { compare_value > max_value }}
   }
-  change_variable = { name = temp_iter add = 1 }
+  root = {
+    change_variable = { name = temp_iter add = 1 }
+  }
 }
 
 fodlan_event_battle.11 = {
@@ -616,6 +618,7 @@ fodlan_event_battle.11 = {
         root.var:local_battle_side = { compare_value = 1 }
       }
       every_in_global_list = {
+        limit = { this = { fodlan_event_battle_is_hexable = yes } }
         variable = fodlan_event_battle_deployed_defenders
         debug_log = "In Defender List"
         fodlan_event_battle_11_read_values = yes
@@ -623,6 +626,7 @@ fodlan_event_battle.11 = {
     }
     else = {
       every_in_global_list = {
+        limit = { this = { fodlan_event_battle_is_hexable = yes } }
         variable = fodlan_event_battle_deployed_attackers
         debug_log = "In Attacker List"
         fodlan_event_battle_11_read_values = yes
@@ -791,11 +795,11 @@ fodlan_event_battle.12 = {
   theme = battle
 
   left_portrait = {
-    character = global_var:fodlan_event_battle_attacker
+    character = root
     animation = war_attacker
   }
   right_portrait = {
-    character = global_var:fodlan_event_battle_defender
+    character = scope:local_picked_option
     animation = war_defender
   }
 
@@ -813,10 +817,10 @@ fodlan_event_battle.12 = {
   option = {
     name = fodlan_event_battle.12.a
     hidden_effect = {
-      fodlan_event_battle_personal_deploy_stop_deployment = {
-        TARGET = scope:local_picked_option
-      }
       root = {
+        fodlan_event_battle_personal_deploy_stop_deployment = {
+          TARGET = scope:local_picked_option
+        }
         fodlan_event_battle_deploy_dark_mage = {
           TARGET = scope:local_picked_option
         }

@@ -402,6 +402,7 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    debug_log = "Removing from Deployed Attackers"
     remove_list_global_variable = {
       name = fodlan_event_battle_deployed_attackers
       target = scope:temp_target
@@ -414,6 +415,7 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    debug_log = "Removing from Deployed Defenders"
     remove_list_global_variable = {
       name = fodlan_event_battle_deployed_defenders
       target = scope:temp_target
@@ -426,6 +428,7 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    debug_log = "Removing from ACAS"
     remove_list_global_variable = {
       name = fodlan_event_battle_attacker_combat_advantage_sources
       target = scope:temp_target
@@ -438,6 +441,7 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    debug_log = "Removing from DCAS"
     remove_list_global_variable = {
       name = fodlan_event_battle_defender_combat_advantage_sources
       target = scope:temp_target
@@ -450,6 +454,7 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    debug_log = "Removing from AFDS"
     remove_list_global_variable = {
       name = fodlan_event_battle_attacker_fixed_damage_sources
       target = scope:temp_target
@@ -462,6 +467,7 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    debug_log = "Removing from DFDS"
     remove_list_global_variable = {
       name = fodlan_event_battle_defender_fixed_damage_sources
       target = scope:temp_target

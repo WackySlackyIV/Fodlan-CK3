@@ -24,19 +24,9 @@ fest.001 = {
 
 	option = {
 		name = "Test"
-		root = {
-			save_scope_as = char
-			global_var:test_variable = {
-				save_scope_as = test_variable
-			}
-			scope:char = {
-				set_variable = {
-					name = test_variable
-					value = 5
-				}
-			}
+		fodlan_event_battle_personal_deploy_stop_deployment = {
+			TARGET = character:200000
 		}
-		custom_tooltip = fodlan_unification_war.10.reserve.tt
 	}
 
 	option = {

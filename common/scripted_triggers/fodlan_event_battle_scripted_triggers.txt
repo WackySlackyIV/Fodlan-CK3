@@ -51,3 +51,24 @@ fodlan_event_battle_can_deploy_as_cleric = {
   fodlan_event_battle_can_deploy = yes
   has_character_flag = fodlan_event_battle_cleric
 }
+
+fodlan_event_battle_is_hexable = {
+  OR = {
+    is_target_in_global_variable_list = {
+      name = fodlan_event_battle_attacker_combat_advantage_sources
+      target = this
+    }
+    is_target_in_global_variable_list = {
+      name = fodlan_event_battle_defender_combat_advantage_sources
+      target = this
+    }
+    is_target_in_global_variable_list = {
+      name = fodlan_event_battle_attacker_fixed_damage_sources
+      target = this
+    }
+    is_target_in_global_variable_list = {
+      name = fodlan_event_battle_defender_fixed_damage_sources
+      target = this
+    }
+  }
+}
