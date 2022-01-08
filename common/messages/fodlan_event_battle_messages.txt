@@ -12,6 +12,13 @@
 @msg_bad_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_negative"
 
 
+msg_fodlan_event_battle_reserves_deployed = {
+	display = feed
+	soundeffect = @toast_soundeffect_neutral
+	icon = "war"
+	style = neutral
+}
+
 msg_fodlan_event_battle_demonic_beast = {
 	display = feed
 	soundeffect = @toast_soundeffect_bad

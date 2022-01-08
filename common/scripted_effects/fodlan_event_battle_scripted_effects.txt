@@ -81,11 +81,24 @@ fodlan_event_battle_check_character_side = {
 }
 
 fodlan_event_battle_interface_message = {
-  every_in_global_list = {
-    variable = fodlan_event_battle_participants
-    send_interface_message = {
-      type = $MESSAGE_TYPE$
-      left_icon = $ACTOR$
+  if = {
+    limit = { exists = $TARGET$ }
+    every_in_global_list = {
+      variable = fodlan_event_battle_participants
+      send_interface_message = {
+        type = $MESSAGE_TYPE$
+        left_icon = $ACTOR$
+        right_icon = $TARGET$
+      }
+    }
+  }
+  else = {
+    every_in_global_list = {
+      variable = fodlan_event_battle_participants
+      send_interface_message = {
+        type = $MESSAGE_TYPE$
+        left_icon = $ACTOR$
+      }
     }
   }
 }
@@ -190,6 +203,10 @@ fodlan_event_battle_deploy_army = {
   remove_list_global_variable = {
     name = fodlan_event_battle_reserve_armies
     target = scope:temp_army
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = root
+    MESSAGE_TYPE = msg_fodlan_event_battle_reserves_deployed
   }
 }
 
@@ -331,7 +348,7 @@ fodlan_event_battle_deploy_golem = {
   }
   fodlan_event_battle_interface_message = {
     ACTOR = root
-    MESSAGE_TYPE = msg_fodlan_event_battle_demonic_beast
+    MESSAGE_TYPE = msg_fodlan_event_battle_golem
   }
 }
 
@@ -385,6 +402,10 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_deployed_attackers
+      target = scope:temp_target
+    }
   }
   if = {
     limit = {
@@ -392,6 +413,10 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         name = fodlan_event_battle_deployed_defenders
         target = scope:temp_target
       }
+    }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_deployed_defenders
+      target = scope:temp_target
     }
   }
   if = {
@@ -401,6 +426,10 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_attacker_combat_advantage_sources
+      target = scope:temp_target
+    }
   }
   if = {
     limit = {
@@ -408,6 +437,10 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         name = fodlan_event_battle_defender_combat_advantage_sources
         target = scope:temp_target
       }
+    }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_defender_combat_advantage_sources
+      target = scope:temp_target
     }
   }
   if = {
@@ -417,6 +450,10 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         target = scope:temp_target
       }
     }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_attacker_fixed_damage_sources
+      target = scope:temp_target
+    }
   }
   if = {
     limit = {
@@ -424,6 +461,10 @@ fodlan_event_battle_personal_deploy_stop_deployment = {
         name = fodlan_event_battle_defender_fixed_damage_sources
         target = scope:temp_target
       }
+    }
+    remove_list_global_variable = {
+      name = fodlan_event_battle_defender_fixed_damage_sources
+      target = scope:temp_target
     }
   }
   add_to_global_variable_list = {
@@ -511,6 +552,7 @@ fodlan_event_battle_deploy_dark_mage = {
   }
   fodlan_event_battle_interface_message = {
     ACTOR = root
+    TARGET = $TARGET$
     MESSAGE_TYPE = msg_fodlan_event_battle_deploy_dark_mage
   }
 }
