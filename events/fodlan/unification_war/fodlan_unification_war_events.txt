@@ -47,6 +47,7 @@ fodlan_unification_war.2 = {
 }
 
 # Start of the war - Must be Triggered by Edelgard or else the war will not work
+# TODO: This should be triggered after the battle
 fodlan_unification_war.3 = {
   type = empty
   hidden = yes

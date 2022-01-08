@@ -23,23 +23,21 @@ fodlan_event_battle.1 = {
 
   immediate = {
     # Sets up variables for localization
-    root = {
-			scope:char = { # Copy variables for string localization
-				set_variable = {
-					name = local_battlefield
-					value = global_var:fodlan_event_battle_battlefield
-				}
-        set_variable = {
-          name = local_round
-          value =  global_var:fodlan_event_battle_round
-        }
-        set_variable = {
-          name = local_max_round
-          value =  global_var:fodlan_event_battle_max_rounds
-        }
-        fodlan_event_battle_army_strength_tooltip = yes
-			}
-		}
+    scope:char = { # Copy variables for string localization
+      set_variable = {
+        name = local_battlefield
+        value = global_var:fodlan_event_battle_battlefield
+      }
+      set_variable = {
+        name = local_round
+        value =  global_var:fodlan_event_battle_round
+      }
+      set_variable = {
+        name = local_max_round
+        value =  global_var:fodlan_event_battle_max_rounds
+      }
+      fodlan_event_battle_army_strength_tooltip = yes
+    }
     global_var:fodlan_event_battle_location = {
       save_scope_as = local_battle_location
     }
@@ -146,7 +144,6 @@ fodlan_event_battle.1 = {
     }
     name = fodlan_event_battle.1.ai
     root = {
-      
       fodlan_event_battle_calculate_ai_action = yes
     }
     ai_chance = {
@@ -163,7 +160,6 @@ fodlan_event_battle.1 = {
     root = {
       debug_log = "End of Round Root"
       debug_log_scopes = no
-      save_scope_as = char
       fodlan_event_battle_go_to_next_round = yes
     }
     ai_chance = {
@@ -659,6 +655,7 @@ fodlan_event_battle.11 = {
     name = fodlan_event_battle.back
     hidden_effect = {
       root = {
+        fodlan_pagination_reset = yes
         trigger_event = {
           id = fodlan_event_battle.1
         }
@@ -748,6 +745,7 @@ fodlan_event_battle.11 = {
         save_scope_as = local_picked_option
       }
       root = {
+        fodlan_pagination_reset = yes
         trigger_event = {
           id = fodlan_event_battle.12
         }
@@ -765,6 +763,7 @@ fodlan_event_battle.11 = {
         save_scope_as = local_picked_option
       }
       root = {
+        fodlan_pagination_reset = yes
         trigger_event = {
           id = fodlan_event_battle.12
         }
@@ -782,6 +781,7 @@ fodlan_event_battle.11 = {
         save_scope_as = local_picked_option
       }
       root = {
+        fodlan_pagination_reset = yes
         trigger_event = {
           id = fodlan_event_battle.12
         }
@@ -799,6 +799,7 @@ fodlan_event_battle.11 = {
         save_scope_as = local_picked_option
       }
       root = {
+        fodlan_pagination_reset = yes
         trigger_event = {
           id = fodlan_event_battle.12
         }

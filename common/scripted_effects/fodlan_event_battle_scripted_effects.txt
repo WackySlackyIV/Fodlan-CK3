@@ -821,8 +821,6 @@ fodlan_event_battle_calculate_damages = { # TODO
 fodlan_event_battle_debug_strengths = {
   # TODO: Replace with call to utility function when finished debugging that
   scope:char = {
-    debug_log_scopes = no
-    save_scope_as = log_char
     set_variable = {
       name = log_attacker_strength
       value = var:temp_attacker_strength
@@ -838,8 +836,6 @@ fodlan_event_battle_debug_strengths = {
 fodlan_event_battle_debug_global_left_strengths = {
   # TODO: Replace with call to utility function when finished debugging that
   scope:char = {
-    debug_log_scopes = no
-    save_scope_as = log_char
     set_variable = {
       name = log_attacker_strength
       value = global_var:fodlan_event_battle_left_attacking_army_strength
@@ -857,7 +853,6 @@ fodlan_event_battle_debug_prowess = {
   # TODO: Replace with call to utility function when finished debugging that
   scope:char = {
     debug_log_scopes = no
-    save_scope_as = log_char
     set_variable = {
       name = log_attacker
       value = var:temp_attacker_prowess
@@ -972,10 +967,7 @@ fodlan_event_battle_calculate_one_flank = {
       fodlan_event_battle_apply_regular_damage = {
         AMOUNT = var:temp_attacker_strength
         MULTIPLIER = var:temp_attacker_prowess
-      }
-      change_variable = {
-        name = temp_defender_strength
-        subtract = var:temp_damage_amount
+        TARGET = temp_defender_strength
       }
   
       debug_log = "Finished Performing First Regular Combat Calculation"
@@ -983,10 +975,7 @@ fodlan_event_battle_calculate_one_flank = {
       fodlan_event_battle_apply_regular_damage = {
         AMOUNT = var:temp_defender_strength
         MULTIPLIER = var:temp_defender_prowess
-      }
-      change_variable = {
-        name = temp_attacker_strength
-        subtract = var:temp_damage_amount
+        TARGET = temp_attacker_strength
       }
     }
     else = {
@@ -995,10 +984,7 @@ fodlan_event_battle_calculate_one_flank = {
       fodlan_event_battle_apply_regular_damage = {
         AMOUNT = var:temp_defender_strength
         MULTIPLIER = var:temp_defender_prowess
-      }
-      change_variable = {
-        name = temp_attacker_strength
-        subtract = var:temp_damage_amount
+        TARGET = temp_attacker_strength
       }
   
       debug_log = "Finished Performing First Regular Combat Calculation"
@@ -1006,10 +992,7 @@ fodlan_event_battle_calculate_one_flank = {
       fodlan_event_battle_apply_regular_damage = {
         AMOUNT = var:temp_attacker_strength
         MULTIPLIER = var:temp_attacker_prowess
-      }
-      change_variable = {
-        name = temp_defender_strength
-        subtract = var:temp_damage_amount
+        TARGET = temp_defender_strength
       }
     }
 
@@ -1018,11 +1001,10 @@ fodlan_event_battle_calculate_one_flank = {
 
     # Clamp Calculations
   
-    # Clamp Variable is broken so we gotta use this hack
     if = {
       limit = {
         scope:char = {
-          var:temp_attacker_strength = { compare_value < 0 }
+          var:temp_attacker_strength = { compare_value < fodlan_event_battle_regular_damage_shatter }
         }
       }
       set_variable = {
@@ -1033,7 +1015,7 @@ fodlan_event_battle_calculate_one_flank = {
     if = {
       limit = {
         scope:char = {
-          var:temp_defender_strength = { compare_value < 0 }
+          var:temp_defender_strength = { compare_value < fodlan_event_battle_regular_damage_shatter }
         }
       }
       set_variable = {
@@ -1044,7 +1026,6 @@ fodlan_event_battle_calculate_one_flank = {
 
     debug_log = "Finished Clamping Variables"
     fodlan_event_battle_debug_strengths = yes
-    # TODO Need to check shatter value too here
 
     # Apply Changes
     set_global_variable = {
@@ -1097,15 +1078,18 @@ fodlan_event_battle_apply_fixed_damage_helper = {
     name = temp_additional_damage
     value = $SOURCE$.prowess
   }
+  debug_log = "Original Fixed Damage: [char.MakeScope.Var('temp_additional_damage').GetValue]"
   change_variable = {
     name = temp_additional_damage
     multiply = fodlan_event_battle_fixed_damage_ratio
   }
+  debug_log = "Ratio Fixed Damage: [char.MakeScope.Var('temp_additional_damage').GetValue]"
   clamp_variable = {
     name = temp_additional_damage
     min = 1
     max = 500
   }
+  debug_log = "Clamped Fixed Damage: [char.MakeScope.Var('temp_additional_damage').GetValue]"
   change_variable = {
     name = $TARGET$
     subtract = var:temp_additional_damage
@@ -1157,4 +1141,8 @@ fodlan_event_battle_apply_regular_damage = {
   }
 
   debug_log = "Calculated Damage Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
+  change_variable = {
+    name = $TARGET$
+    subtract = var:temp_damage_amount
+  }
 }

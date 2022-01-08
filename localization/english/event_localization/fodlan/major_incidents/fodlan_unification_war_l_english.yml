@@ -87,6 +87,7 @@
  fodlan_event_battle.1.action: "Perform Action"
  fodlan_event_battle.1.wait: "Wait"
  fodlan_event_battle.1.ai: "#D DEBUG#!: AI Action"
+ fodlan_event_battle.1.end_round: "#D DEBUG#!: Next Round"
  fodlan_event_battle.2.t: "The Battle at [local_battle_location.MakeScope.Province.GetName]"
  fodlan_event_battle.2.desc: "Choose a flank to send reserves to.\n\n$fodlan_event_battle.1.left_flank.tt$\n\n$fodlan_event_battle.1.center_flank.tt$\n\n$fodlan_event_battle.1.right_flank.tt$"
  fodlan_event_battle.2.left: "Left"
