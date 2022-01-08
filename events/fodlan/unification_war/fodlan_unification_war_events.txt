@@ -28,7 +28,6 @@ fodlan_unification_war.1 = {
       id = fodlan_unification_war.2000 # Leicester Event Chain Start
       days = 3
     }
-    setup_imperial_invasion_battle = yes
     mark_fodlan_unification_war_active = yes  
   }
 }
@@ -68,6 +67,9 @@ fodlan_unification_war.3 = {
         is_ai = no
       }
       trigger_event = { id = fodlan_unification_war.4 }
+    }
+    character:400000 = {
+      trigger_event = { id = fodlan_unification_war.9 }
     }
   }
 }
@@ -118,7 +120,7 @@ fodlan_unification_war.9 = {
         target_title = title:k_leicester
       }
       global_var:unification_imperial_invasion_instance = {
-        add_defender = character:300000
+        add_defender = character:300000 # This doesn't work in game due to existing UW CB, but doesn't matter since we track separately
         add_defender = character:100000
         add_attacker = character:400024
         save_scope_as = temp_event_battle_war
@@ -132,8 +134,9 @@ fodlan_unification_war.9 = {
     character:400000 = {
       add_courtier = character:400022
       recruit_courtier = character:400022
+      add_visiting_courtier = character:400022
       spawn_army = { # Jeritza
-        name = "Imperial 1st Regiment"
+        name = "fodlan_unification_war.imperial_first.a"
         save_scope_as=imperial_first
         men_at_arms = {
 					type = fighter
@@ -164,8 +167,9 @@ fodlan_unification_war.9 = {
 
       add_courtier = character:400025 # Randolph
       recruit_courtier = character:400025 # Randolph
+      add_visiting_courtier = character:400025
       spawn_army = {
-        name = "Imperial 2nd Regiment"
+        name = "fodlan_unification_war.imperial_second.a"
         save_scope_as=imperial_second
         men_at_arms = {
 					type = fighter
@@ -196,8 +200,9 @@ fodlan_unification_war.9 = {
 
       add_courtier = character:400015
       recruit_courtier = character:400015
+      add_visiting_courtier = character:400015
       spawn_army = { # Hubert
-        name = "Black Eagles"
+        name = "fodlan_unification_war.black_eagles.a"
         save_scope_as=black_eagles
         men_at_arms = {
 					type = fighter
@@ -226,51 +231,59 @@ fodlan_unification_war.9 = {
         assign_commander = character:400015
       }
 
-      # TODO: Imperial Third should only spawn if not send to aid Gloucester
-      add_courtier = character:400027
-      recruit_courtier = character:400027
-      spawn_army = { # Ladislava
-        name = "Imperial 3rd Regiment"
-        save_scope_as=imperial_third
-        levies = 300
-        men_at_arms = {
-          type = armored_knight
-          stacks = 9
+      if = {
+        limit = {
+          NOT = {
+            global_var:fodlan_uw_imperial_third_regiment_in_leicester = { compare_value = 1 }
+          }
         }
-        men_at_arms = {
-          type = mage
-          stacks = 15
+        add_courtier = character:400027
+        recruit_courtier = character:400027
+        add_visiting_courtier = character:400027
+        spawn_army = { # Ladislava
+          name = "fodlan_unification_war.imperial_third.a"
+          save_scope_as=imperial_third
+          levies = 300
+          men_at_arms = {
+            type = armored_knight
+            stacks = 9
+          }
+          men_at_arms = {
+            type = mage
+            stacks = 15
+          }
+          men_at_arms = {
+            type = holy_knights
+            stacks = 15
+          }
+          men_at_arms = {
+            type = cavalier
+            stacks = 6
+          }
+          men_at_arms = {
+            type = wyvern_rider
+            stacks = 1
+          }
+          men_at_arms = {
+            type = archer
+            stacks = 6
+          }
+          location = this.capital_province
+          war = global_var:unification_imperial_invasion_instance
         }
-        men_at_arms = {
-          type = holy_knights
-          stacks = 15
+        set_global_variable = {
+          name = unification_imperial_invasion_imperial_third
+          value = scope:imperial_third
         }
-        men_at_arms = {
-          type = cavalier
-          stacks = 6
+        global_var:unification_imperial_invasion_imperial_third = {
+          assign_commander = character:400027
         }
-        men_at_arms = {
-          type = wyvern_rider
-          stacks = 1
+        add_to_variable_list = {
+          name = fodlan_event_battle_reserve_armies
+          target = scope:imperial_third
         }
-        men_at_arms = {
-          type = archer
-          stacks = 6
-        }
-        location = this.capital_province
-        war = global_var:unification_imperial_invasion_instance
       }
-      set_global_variable = {
-        name = unification_imperial_invasion_imperial_third
-        value = scope:imperial_third
-      }
-      global_var:unification_imperial_invasion_imperial_third = {
-        assign_commander = character:400027
-      }
-      add_to_variable_list = {
-        name = fodlan_event_battle_reserve_armies
-        target = scope:imperial_third
-      }
+
       add_to_global_variable_list = {
         name = fodlan_event_battle_participants
         target = this
@@ -286,8 +299,9 @@ fodlan_unification_war.9 = {
     character:300000 = {
       add_courtier = character:300025 # Ingrid
       recruit_courtier = character:300025
+      add_visiting_courtier = character:300025
       spawn_army = { # Dimitri
-        name = "Blue Lions"
+        name = "fodlan_unification_war.blue_lions.a"
         save_scope_as=blue_lions
         men_at_arms = {
 					type = cavalier
@@ -336,8 +350,9 @@ fodlan_unification_war.9 = {
     character:200000 = {
       add_courtier = character:200012
       recruit_courtier = character:200012
+      add_visiting_courtier = character:200012
       spawn_army = { # Claude
-        name = "Golden Deer"
+        name = "fodlan_unification_war.golden_deer.a"
         save_scope_as=golden_deer
         men_at_arms = {
 					type = bow_knight
@@ -382,8 +397,9 @@ fodlan_unification_war.9 = {
     character:100000 = {
       add_courtier = character:100004
       recruit_courtier = character:100004
+      add_visiting_courtier = character:100004
       spawn_army = { # Alois
-        name = "Knights of Seiros"
+        name = "fodlan_unification_war.knights_of_seiros.a"
         save_scope_as=knights_of_seiros
         men_at_arms = {
 					type = holy_knights
@@ -406,8 +422,9 @@ fodlan_unification_war.9 = {
 
       add_courtier = character:100011
       recruit_courtier = character:100011
+      add_visiting_courtier = character:100011
       spawn_army = { # Catherine
-        name = "Monastary Militia"
+        name = "fodlan_unification_war.church_militia.a"
         save_scope_as=church_first_militia
         levies = 600
         men_at_arms = {
@@ -435,8 +452,9 @@ fodlan_unification_war.9 = {
 
       add_courtier = character:100006
       recruit_courtier = character:100006
+      add_visiting_courtier = character:100006
       spawn_army = { # Shamir
-        name = "Monastary Militia"
+        name = "fodlan_unification_war.church_militia.a"
         save_scope_as=church_second_militia
         levies = 600
         men_at_arms = {
@@ -470,10 +488,21 @@ fodlan_unification_war.9 = {
     }
   
     character:400024 = {
+      add_courtier = character:401001  # Myson was already at the Monstary in the events of the DLC
+      recruit_courtier = character:401001
+      add_visiting_courtier = character:401001
       spawn_army = { # Thales
         name = "Agarthan Mages"
         save_scope_as=agarthan_mages
-        levies = 1
+        levies = 300
+        men_at_arms = {
+					type = mage
+					stacks = 3
+				}
+        men_at_arms = {
+					type = armored_knight
+					stacks = 3
+				}
         location = this.capital_province
         war = global_var:unification_imperial_invasion_instance
       }
@@ -482,7 +511,7 @@ fodlan_unification_war.9 = {
         value = scope:agarthan_mages
       }
       global_var:unification_imperial_invasion_agarthan_mages = {
-        assign_commander = character:400024 # TODO: Need a separate leader
+        assign_commander = character:401001
       }
       add_to_variable_list = {
         name = fodlan_event_battle_reserve_armies
@@ -853,9 +882,9 @@ fodlan_unification_war.2005 = {
         name = fodlan_gloucester_debts_to_empire
         add = 1
       }
-      change_global_variable = {
-        name = fodlan_uw_ii_empire_third_regiment
-        subtract = 100
+      set_global_variable = {
+        name = fodlan_uw_imperial_third_regiment_in_leicester
+        value = 1
       }
       character:200006 = {
         trigger_event = {

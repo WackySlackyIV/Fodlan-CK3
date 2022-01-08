@@ -783,7 +783,9 @@
 		}
 	}
 	1168.1.1 = {
-		add_character_modifier = slither_protection
+		effect = {
+			add_character_modifier = slither_protection
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -3952,5 +3954,168 @@
 
 	120.1.1 = {
 		death = yes
+	}
+}
+
+### Agarthans
+
+# Sage of Science Thales is Arundel.
+# Sage of Wisdom Solon/Thomas is dead by game start
+# Kronya is dead by game start
+
+401001 = { # Sage of Reason
+	name = "Myson"
+	religion = @ablehnist
+	culture="adrestian" # TODO: Should be agarthan
+
+	diplomacy= 6
+	martial= 5
+	stewardship= 7
+	intrigue= 5
+	learning= 7
+	prowess = 5
+	health = 6
+
+	1136.1.11 = {
+		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_modifier = slither_protection
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+401002 = { # Sage of Law
+	name = "Bias"
+	religion = @ablehnist
+	culture="adrestian" # TODO: Should be agarthan
+
+	female = yes
+	diplomacy= 8
+	martial= 2
+	stewardship= 9
+	intrigue= 2
+	learning= 5
+	prowess = 2
+	health = 7
+
+	1136.1.11 = {
+		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_modifier = slither_protection
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+401003 = { # Sage of the People
+	name = "Pittacus"
+	religion = @ablehnist
+	culture="adrestian" # TODO: Should be agarthan
+
+	female = yes
+	diplomacy= 10
+	martial= 4
+	stewardship= 2
+	intrigue= 1
+	learning= 3
+	prowess = 4
+	health = 8
+
+	1136.1.11 = {
+		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_modifier = slither_protection
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+401004 = { # Sage of War
+	name = "Chilon"
+	religion = @ablehnist
+	culture="adrestian" # TODO: Should be agarthan
+
+	diplomacy= 4
+	martial= 10
+	stewardship= 2
+	intrigue= 1
+	learning= 1
+	prowess = 15
+	health = 8
+
+	1136.1.11 = {
+		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_modifier = slither_protection
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+401005 = { # Sage of Virtue
+	name = "Cleobulus"
+	religion = @ablehnist
+	culture="adrestian" # TODO: Should be agarthan
+
+	diplomacy= 9
+	martial= 2
+	stewardship= 7
+	intrigue= 1
+	learning= 7
+	prowess = 2
+	health = 6
+
+	1136.1.11 = {
+		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_modifier = slither_protection
+		}
+	}
+
+	1200.1.1={
+		death=yes
+	}
+}
+
+401008 = { # Shows up in Nemesis fight
+	name = "Odesse"
+	religion = @ablehnist
+
+	diplomacy= 5
+	martial= 5
+	stewardship= 5
+	intrigue= 9
+	learning= 5
+	prowess = 5
+	health = 4
+
+	1136.1.11 = {
+		birth=yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+			add_character_modifier = slither_protection
+		}
+	}
+
+	1200.1.1={
+		death=yes
 	}
 }
