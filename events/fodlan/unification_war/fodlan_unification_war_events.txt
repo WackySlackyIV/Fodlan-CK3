@@ -565,7 +565,7 @@ fodlan_unification_war.9 = {
     }
     set_global_variable = {
       name = fodlan_event_battle_round
-      value = 0
+      value = 1
     }
     set_global_variable = {
       name = fodlan_event_battle_max_rounds
@@ -598,7 +598,9 @@ fodlan_unification_war.9 = {
 
     debug_log = "Done Setting Up"
     character:400000 = {
-      fodlan_event_battle_go_to_next_round = yes
+      save_scope_as = char
+      fodlan_event_battle_setup_participants = yes
+      fodlan_event_battle_go_to_next_participant = yes
     }
   }
 }

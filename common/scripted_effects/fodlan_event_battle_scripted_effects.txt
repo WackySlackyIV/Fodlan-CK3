@@ -575,51 +575,69 @@ fodlan_event_battle_mark_cleric = {
 
 fodlan_event_battle_go_to_next_participant = {
   debug_log = "Participant Choosing Next Char"
-  set_variable = {
-    name = found_result
-    value = 0
-  }
-  random_in_global_list = { # TODO: Technically should do in an ordered way
-    variable = fodlan_event_battle_remaining_round_participants
-    this = {
-      root = {
-        set_variable = {
-          name = found_result
-          value = 1
+  scope:char = {
+    debug_log_scopes = no
+    set_variable = {
+      name = found_result
+      value = 0
+    }
+    random_in_global_list = { # TODO: Technically should do in an ordered way
+      variable = fodlan_event_battle_remaining_round_participants
+      this = {
+        scope:char = {
+          set_variable = {
+            name = found_result
+            value = 1
+          }
+        }
+        remove_list_global_variable = {
+          name = fodlan_event_battle_remaining_round_participants
+          target = this
+        }
+        save_scope_as = next_participant
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:found_result = { compare_value = 0 }
         }
       }
-      remove_list_global_variable = {
-        name = fodlan_event_battle_remaining_round_participants
-        target = this
+      debug_log = "Participant Evaluted Next Round"
+      scope:char = {
+        fodlan_event_battle_go_to_next_round = yes
       }
-      save_scope_as = next_participant
     }
-  }
-  if = {
-    limit = {
-      var:found_result = { compare_value = 0 }
-    }
-    debug_log = "Participant Evaluted Next Round"
-    root = {
-      fodlan_event_battle_go_to_next_round = yes
-    }
-  }
-  else = {
-    scope:next_participant = {
-      root = { # TODO: This is for testing only
+    else = {
+      scope:char = { # TODO: This is for testing only
         debug_log = "Trying to change char"
         debug_log_scopes = no
-        set_player_character = prev
+        set_player_character = scope:next_participant
       }
-      trigger_event = {
-        id = fodlan_event_battle.1
+      scope:next_participant = {
+        save_scope_as = char
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
       }
+    }
+  }
+}
+
+fodlan_event_battle_setup_participants = {
+  every_in_global_list = {
+    variable = fodlan_event_battle_participants
+    debug_log_scopes = no
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_remaining_round_participants
+      target = this
     }
   }
 }
 
 fodlan_event_battle_go_to_next_round = {
   debug_log = "Calculating Next Round"
+  debug_log_scopes = no
   change_global_variable = {
     name = fodlan_event_battle_round
     add = 1
@@ -630,23 +648,18 @@ fodlan_event_battle_go_to_next_round = {
         compare_value > global_var:fodlan_event_battle_max_rounds
       }
     }
-    fodlan_event_battle_end_battle = yes
+    fodlan_event_battle_calculate_winner_end_war = yes  # White Peace
   }
   else = {
     debug_log = "Setting up Next Round"
-    every_in_global_list = {
-      variable = fodlan_event_battle_participants
-      debug_log_scopes = no
-      add_to_global_variable_list = {
-        name = fodlan_event_battle_remaining_round_participants
-        target = this
-      }
-    }
+    fodlan_event_battle_setup_participants = yes
     fodlan_event_battle_calculate_damages = yes
     # TODO: Need a mechanism so that the player can't just put all units on one flank
     if = {
       limit = { fodlan_event_battle_front_overrun = yes } # TODO
-      fodlan_event_battle_increment_phase = yes # TODO
+      debug_log = "Overrun Issue"
+      fodlan_event_battle_increment_phase = yes
+      fodlan_event_battle_go_to_next_participant = yes
     }
     else = {
       fodlan_event_battle_go_to_next_participant = yes
@@ -665,13 +678,13 @@ fodlan_event_battle_increment_phase = { # TODO
   if = { # End the war early if needed
     limit = {
       global_var:fodlan_event_battlefield = { compare_value > 3 }
-      debug_log = "The defenders have been overrun and the war is over, the attackers have won"
-      set_global_variable = {
-        name = fodlan_event_battle_winner
-        value = global_var:fodlan_event_battle_attacker
-      }
-      fodlan_event_battle_calculate_winner_end_war = yes
     }
+    debug_log = "The defenders have been overrun and the war is over, the attackers have won"
+    set_global_variable = {
+      name = fodlan_event_battle_winner
+      value = global_var:fodlan_event_battle_attacker
+    }
+    fodlan_event_battle_calculate_winner_end_war = yes  # Attackers Win
   }
   else = {
     # Display a notification about increasing phase
@@ -751,74 +764,143 @@ fodlan_event_battle_calculate_ai_action = { # TODO
 
 # Main Loop
 fodlan_event_battle_calculate_damages = { # TODO
-  debug_log = "Calculating Damages to each army"
-  debug_log = "Calculating Left"
-  fodlan_event_battle_calculate_one_flank = {
-    ATTACKER = fodlan_event_battle_left_attacking_army
-    ATTACKER_STRENGTH = fodlan_event_battle_left_attacking_army_strength
-    DEFENDER = fodlan_event_battle_left_defending_army
-    DEFENDER_STRENGTH = fodlan_event_battle_left_defending_army_strength
+  scope:char = {
+    debug_log = "Calculating Damages to each army"
+    debug_log_scopes = no
+    debug_log = "Calculating Left"
+    fodlan_event_battle_debug_global_left_strengths = yes
+    set_variable = { # Hack since arguments not working
+      name = temp_attacker_strength
+      value = global_var:fodlan_event_battle_left_attacking_army_strength
+    }
+    set_variable = {
+      name = temp_defender_strength
+      value = global_var:fodlan_event_battle_left_defending_army_strength
+    }
+    fodlan_event_battle_calculate_one_flank = {
+      ATTACKER = global_var:fodlan_event_battle_left_attacking_army
+      ATTACKER_STRENGTH = fodlan_event_battle_left_attacking_army_strength
+      DEFENDER = global_var:fodlan_event_battle_left_defending_army
+      DEFENDER_STRENGTH = fodlan_event_battle_left_defending_army_strength
+    }
+    fodlan_event_battle_debug_global_left_strengths = yes
+    debug_log = "Calculating Center"
+    set_variable = {
+      name = temp_attacker_strength
+      value = global_var:fodlan_event_battle_center_attacking_army_strength
+    }
+    set_variable = {
+      name = temp_defender_strength
+      value = global_var:fodlan_event_battle_center_defending_army_strength
+    }
+    fodlan_event_battle_calculate_one_flank = {
+      ATTACKER = global_var:fodlan_event_battle_center_attacking_army
+      ATTACKER_STRENGTH = fodlan_event_battle_center_attacking_army_strength
+      DEFENDER = global_var:fodlan_event_battle_center_defending_army
+      DEFENDER_STRENGTH = fodlan_event_battle_center_defending_army_strength
+    }
+    debug_log = "Calculating Right"
+    set_variable = {
+      name = temp_attacker_strength
+      value = global_var:fodlan_event_battle_right_attacking_army_strength
+    }
+    set_variable = {
+      name = temp_defender_strength
+      value = global_var:fodlan_event_battle_right_defending_army_strength
+    }
+    fodlan_event_battle_calculate_one_flank = {
+      ATTACKER = global_var:fodlan_event_battle_right_attacking_army
+      ATTACKER_STRENGTH = fodlan_event_battle_right_attacking_army_strength
+      DEFENDER = global_var:fodlan_event_battle_right_defending_army
+      DEFENDER_STRENGTH = fodlan_event_battle_right_defending_army_strength
+    }
   }
-  debug_log = "Calculating Center"
-  fodlan_event_battle_calculate_one_flank = {
-    ATTACKER = fodlan_event_battle_center_attacking_army
-    ATTACKER_STRENGTH = fodlan_event_battle_center_attacking_army_strength
-    DEFENDER = fodlan_event_battle_center_defending_army
-    DEFENDER_STRENGTH = fodlan_event_battle_center_defending_army_strength
-  }
-  debug_log = "Calculating Right"
-  fodlan_event_battle_calculate_one_flank = {
-    ATTACKER = fodlan_event_battle_right_attacking_army
-    ATTACKER_STRENGTH = fodlan_event_battle_right_attacking_army_strength
-    DEFENDER = fodlan_event_battle_right_defending_army
-    DEFENDER_STRENGTH = fodlan_event_battle_right_defending_army_strength
-  }
+}
 
+
+fodlan_event_battle_debug_strengths = {
+  # TODO: Replace with call to utility function when finished debugging that
+  scope:char = {
+    debug_log_scopes = no
+    save_scope_as = log_char
+    set_variable = {
+      name = log_attacker_strength
+      value = var:temp_attacker_strength
+    }
+    set_variable = {
+      name = log_defender_strength
+      value = var:temp_defender_strength
+    }
+  }
+  debug_log = "Attacker: [char.MakeScope.Var('log_attacker_strength').GetValue], Defender: [char.MakeScope.Var('log_defender_strength').GetValue]"
+}
+
+fodlan_event_battle_debug_global_left_strengths = {
+  # TODO: Replace with call to utility function when finished debugging that
+  scope:char = {
+    debug_log_scopes = no
+    save_scope_as = log_char
+    set_variable = {
+      name = log_attacker_strength
+      value = global_var:fodlan_event_battle_left_attacking_army_strength
+    }
+    set_variable = {
+      name = log_defender_strength
+      value = global_var:fodlan_event_battle_left_defending_army_strength
+    }
+  }
+  debug_log = "Attacker: [char.MakeScope.Var('log_attacker_strength').GetValue], Defender: [char.MakeScope.Var('log_defender_strength').GetValue]"
+}
+
+
+fodlan_event_battle_debug_prowess = {
+  # TODO: Replace with call to utility function when finished debugging that
+  scope:char = {
+    debug_log_scopes = no
+    save_scope_as = log_char
+    set_variable = {
+      name = log_attacker
+      value = var:temp_attacker_prowess
+    }
+    set_variable = {
+      name = log_defender
+      value = var:temp_defender_prowess
+    }
+  }
+	debug_log = "Attacker: [char.MakeScope.Var('log_attacker').GetValue], Defender: [char.MakeScope.Var('log_defender').GetValue]"
 }
 
 fodlan_event_battle_calculate_one_flank = {
-  # Setup Variables
-  $ATTACKER$ = { 
-    save_scope_as = temp_attacker_army
-    debug_log = "Attacker"
-    debug_log_scopes = no
-  }
-  root = {
-    set_variable = {
-      name = temp_attacker_strength
-      value = global_var:$ATTACKER_STRENGTH$
-    }
-    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-  }
-  $DEFENDER$ = {
-    save_scope_as = temp_defender_army
-    debug_log = "Defender"
-    debug_log_scopes = no
-  }
-  root = {
-    set_variable = {
-      name = temp_attacker_strength
-      value = global_var:$DEFENDER_STRENGTH$
-    }
-    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
-  }
-  scope:temp_attacker_army = {
-    army_commander = {
-      save_scope_as = temp_attacker_leader
-      debug_log = "Attacker Leader"
+  scope:char = { # Make sure right scope for variables
+    # Setup Variables
+    $ATTACKER$ = { 
+      save_scope_as = temp_attacker_army
+      debug_log = "Attacker"
       debug_log_scopes = no
     }
-  }
-  scope:temp_defender_army = {
-    army_commander = {
-      save_scope_as = temp_defender_leader
-      debug_log = "Defender Leader"
+    $DEFENDER$ = {
+      save_scope_as = temp_defender_army
+      debug_log = "Defender"
       debug_log_scopes = no
     }
-  }
+    scope:temp_attacker_army = {
+      army_commander = {
+        save_scope_as = temp_attacker_leader
+        debug_log = "Attacker Leader"
+        debug_log_scopes = no
+      }
+    }
+    scope:temp_defender_army = {
+      army_commander = {
+        save_scope_as = temp_defender_leader
+        debug_log = "Defender Leader"
+        debug_log_scopes = no
+      }
+    }
+    fodlan_event_battle_debug_strengths = yes
 
-  root = { # Make sure right scope for variables
-
+    debug_log = "Starting Calculation"
+    debug_log_scopes = no
     # Calculate Combat Advantage
     # TODO: Need to handle the case where there is no commander due to bug with assignment
     set_variable = {
@@ -827,8 +909,9 @@ fodlan_event_battle_calculate_one_flank = {
     }
     set_variable = {
       name = temp_defender_prowess
-      value = scope:temp_defender_prowess.prowess
+      value = scope:temp_defender_leader.prowess
     }
+    fodlan_event_battle_debug_prowess = yes
 
     every_in_global_list = {
       variable = fodlan_event_battle_attacker_combat_advantage_sources
@@ -851,6 +934,7 @@ fodlan_event_battle_calculate_one_flank = {
         }
       }
     }
+    fodlan_event_battle_debug_prowess = yes
 
     # TODO: Need a random value to be added here
 
@@ -858,8 +942,7 @@ fodlan_event_battle_calculate_one_flank = {
 
     # Fixed Damages
     debug_log = "Applying Fixed Damage"
-    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+    fodlan_event_battle_debug_strengths = yes
 
     fodlan_event_battle_apply_fixed_damage = {
       SOURCE_LIST = fodlan_event_battle_attacker_fixed_damage_sources
@@ -874,67 +957,93 @@ fodlan_event_battle_calculate_one_flank = {
     # Calculate Initiative and Damage
     if = {
       limit = {
-        root.var:temp_attacker_prowess = { compare_value > root.var:temp_defender_prowess }
+        var:temp_attacker_prowess = { compare_value > var:temp_defender_prowess }
       }
       debug_log = "Attacker has Initiative"
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+      fodlan_event_battle_debug_strengths = yes
       fodlan_event_battle_apply_regular_damage = {
-        TARGET = temp_defender_strength
-        AMOUNT = root.var:temp_attacker_strength
-        MULTIPLIER = root.var:temp_attacker_prowess
+        AMOUNT = var:temp_attacker_strength
+        MULTIPLIER = var:temp_attacker_prowess
       }
+      change_variable = {
+        name = temp_defender_strength
+        subtract = var:temp_damage_amount
+      }
+  
       debug_log = "Finished Performing First Regular Combat Calculation"
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
-
+      fodlan_event_battle_debug_strengths = yes
       fodlan_event_battle_apply_regular_damage = {
-        TARGET = temp_attacker_strength
-        AMOUNT = root.var:temp_defender_strength
-        MULTIPLIER = root.var:temp_defender_prowess
+        AMOUNT = var:temp_defender_strength
+        MULTIPLIER = var:temp_defender_prowess
+      }
+      change_variable = {
+        name = temp_attacker_strength
+        subtract = var:temp_damage_amount
       }
     }
     else = {
       debug_log = "Defender has initiative"
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+      fodlan_event_battle_debug_strengths = yes
       fodlan_event_battle_apply_regular_damage = {
-        TARGET = temp_attacker_strength
-        AMOUNT = root.var:temp_defender_strength
-        MULTIPLIER = root.var:temp_defender_prowess
+        AMOUNT = var:temp_defender_strength
+        MULTIPLIER = var:temp_defender_prowess
       }
+      change_variable = {
+        name = temp_attacker_strength
+        subtract = var:temp_damage_amount
+      }
+  
       debug_log = "Finished Performing First Regular Combat Calculation"
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
-
+      fodlan_event_battle_debug_strengths = yes
       fodlan_event_battle_apply_regular_damage = {
-        TARGET = temp_defender_strength
-        AMOUNT = root.var:temp_attacker_strength
-        MULTIPLIER = root.var:temp_attacker_prowess
+        AMOUNT = var:temp_attacker_strength
+        MULTIPLIER = var:temp_attacker_prowess
+      }
+      change_variable = {
+        name = temp_defender_strength
+        subtract = var:temp_damage_amount
       }
     }
 
     debug_log = "Finished Performing Regular Combat Calculation"
-    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
-    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+    fodlan_event_battle_debug_strengths = yes
 
     # Clamp Calculations
-    change_variable = {
-      name = temp_attacker_strength
-      min = 0
+  
+    # Clamp Variable is broken so we gotta use this hack
+    if = {
+      limit = {
+        scope:char = {
+          var:temp_attacker_strength = { compare_value < 0 }
+        }
+      }
+      set_variable = {
+        name = temp_attacker_strength
+        value = 0
+      }
     }
-    change_variable = {
-      name = temp_defender_strength
-      min = 0
+    if = {
+      limit = {
+        scope:char = {
+          var:temp_defender_strength = { compare_value < 0 }
+        }
+      }
+      set_variable = {
+        name = temp_defender_strength
+        value = 0
+      }
     }
+
+    debug_log = "Finished Clamping Variables"
+    fodlan_event_battle_debug_strengths = yes
     # TODO Need to check shatter value too here
 
     # Apply Changes
-    change_global_variable = {
+    set_global_variable = {
       name = $ATTACKER_STRENGTH$
       value = var:temp_attacker_strength
     }
-    change_global_variable = {
+    set_global_variable = {
       name = $DEFENDER_STRENGTH$
       value = var:temp_defender_strength
     }
@@ -942,7 +1051,7 @@ fodlan_event_battle_calculate_one_flank = {
 }
 
 fodlan_event_battle_add_combat_prowess_to_advantage = {
-  sat_variable = {
+  set_variable = {
     name = temp_additional_prowess
     value = $SOURCE$.prowess
   }
@@ -975,7 +1084,7 @@ fodlan_event_battle_apply_fixed_damage = {
 }
 
 fodlan_event_battle_apply_fixed_damage_helper = {
-  sat_variable = {
+  set_variable = {
     name = temp_additional_damage
     value = $SOURCE$.prowess
   }
@@ -995,14 +1104,17 @@ fodlan_event_battle_apply_fixed_damage_helper = {
 }
 
 fodlan_event_battle_apply_regular_damage = {
-  sat_variable = {
+  set_variable = {
     name = temp_damage_amount
     value = $AMOUNT$
   }
+  debug_log = "Original Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
+
   change_variable = {
     name = temp_damage_amount
     multiply = fodlan_event_battle_regular_damage_ratio
   }
+  debug_log = "Ratio Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
 
   set_variable = {
     name = temp_damage_multiplier
@@ -1017,17 +1129,23 @@ fodlan_event_battle_apply_regular_damage = {
     multiply = fodlan_event_battle_regular_damage_prowess_addititive_ratio
   }
   change_variable = {
-    name = temp_damage_amount
-    multiply =  temp_damage_multiplier_from_prowess
+    name = temp_damage_multiplier
+    add = var:temp_damage_multiplier_from_prowess
   }
+  debug_log = "Calculated Multiplier: [char.MakeScope.Var('temp_damage_multiplier').GetValue]"
+
+  change_variable = {
+    name = temp_damage_amount
+    multiply = temp_damage_multiplier
+  }
+
+  debug_log = "Damage Amount Before Clamp: [char.MakeScope.Var('temp_damage_amount').GetValue]"
 
   clamp_variable = {
     name = temp_damage_amount
     min = fodlan_event_battle_regular_damage_min
     max = fodlan_event_battle_regular_damage_max
   }
-  change_variable = {
-    name = $TARGET$
-    add = var:temp_additional_prowess
-  }
+
+  debug_log = "Calculated Damage Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
 }

@@ -13,6 +13,10 @@ fest.001 = {
 			global_var:test_variable = {
 				save_scope_as = test_variable
 			}
+			set_global_variable = {
+				name = fodlan_event_battle_left_attacking_army_strength
+				value = 5
+			}
 			scope:char = {
 				set_variable = {
 					name = test_variable
@@ -24,9 +28,18 @@ fest.001 = {
 
 	option = {
 		name = "Test"
-		fodlan_event_battle_personal_deploy_stop_deployment = {
-			TARGET = character:200000
-		}
+		scope:char = {
+			set_variable = {
+				name = debug_log_variable_2
+				value = global_var:fodlan_event_battle_left_attacking_army_strength
+			}
+		}	
+		debug_log = "Logging: [log_char.MakeScope.Var('debug_log_variable').GetValue]"
+	}
+
+	option = {
+		name = "Test 2"
+		# fodlan_event_battle_go_to_next_round = yes
 	}
 
 	option = {

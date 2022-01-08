@@ -24,7 +24,6 @@ fodlan_event_battle.1 = {
   immediate = {
     # Sets up variables for localization
     root = {
-			save_scope_as = char
 			scope:char = { # Copy variables for string localization
 				set_variable = {
 					name = local_battlefield
@@ -130,7 +129,9 @@ fodlan_event_battle.1 = {
       is_ai = no
     }
     name = fodlan_event_battle.1.wait
-    fodlan_event_battle_go_to_next_participant = yes
+    root = {
+      fodlan_event_battle_go_to_next_participant = yes
+    }
     ai_chance = {
       base = 0
     }
@@ -144,9 +145,29 @@ fodlan_event_battle.1 = {
       }
     }
     name = fodlan_event_battle.1.ai
-    fodlan_event_battle_calculate_ai_action = yes
+    root = {
+      
+      fodlan_event_battle_calculate_ai_action = yes
+    }
     ai_chance = {
       base = 100
+    }
+  }
+
+  option = {
+    trigger = {
+      is_ai = no
+      debug_only = yes
+    }
+    name = fodlan_event_battle.1.end_round
+    root = {
+      debug_log = "End of Round Root"
+      debug_log_scopes = no
+      save_scope_as = char
+      fodlan_event_battle_go_to_next_round = yes
+    }
+    ai_chance = {
+      base = 0
     }
   }
 }
