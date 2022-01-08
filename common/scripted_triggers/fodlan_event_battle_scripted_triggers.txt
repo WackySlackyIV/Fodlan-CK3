@@ -72,3 +72,11 @@ fodlan_event_battle_is_hexable = {
     }
   }
 }
+
+fodlan_event_battle_front_overrun = {
+  OR = {
+    global_var:fodlan_event_battle_left_defending_army_strength = { compare_value <= fodlan_event_battle_regular_damage_shatter }
+    global_var:fodlan_event_battle_center_defending_army_strength = { compare_value <= fodlan_event_battle_regular_damage_shatter }
+    global_var:fodlan_event_battle_right_defending_army_strength = { compare_value <= fodlan_event_battle_regular_damage_shatter }
+  }
+}

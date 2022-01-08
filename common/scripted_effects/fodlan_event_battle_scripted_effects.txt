@@ -636,14 +636,45 @@ fodlan_event_battle_go_to_next_round = {
     debug_log = "Setting up Next Round"
     every_in_global_list = {
       variable = fodlan_event_battle_participants
-      debug_log_scope = no
+      debug_log_scopes = no
       add_to_global_variable_list = {
         name = fodlan_event_battle_remaining_round_participants
         target = this
       }
     }
     fodlan_event_battle_calculate_damages = yes
-    fodlan_event_battle_go_to_next_participant = yes
+    # TODO: Need a mechanism so that the player can't just put all units on one flank
+    if = {
+      limit = { fodlan_event_battle_front_overrun = yes } # TODO
+      fodlan_event_battle_increment_phase = yes # TODO
+    }
+    else = {
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+}
+
+fodlan_event_battle_increment_phase = { # TODO
+  debug_log = "Incrementing Phase"
+  # fodlan_event_battle_force_deploy_cover_overrun_fronts = yes # TODO: Should we force the deployment of unit to cover the overrun front?
+  
+  change_global_variable = {
+    name = fodlan_event_battle_battlefield
+    add = 1
+  }
+  if = { # End the war early if needed
+    limit = {
+      global_var:fodlan_event_battlefield = { compare_value > 3 }
+      debug_log = "The defenders have been overrun and the war is over, the attackers have won"
+      set_global_variable = {
+        name = fodlan_event_battle_winner
+        value = global_var:fodlan_event_battle_attacker
+      }
+      fodlan_event_battle_calculate_winner_end_war = yes
+    }
+  }
+  else = {
+    # Display a notification about increasing phase
   }
 }
 
@@ -674,6 +705,7 @@ fodlan_event_battle_clear_all_variables = { # TODO
   remove_global_variable = fodlan_event_battle_war
   remove_global_variable = fodlan_event_battle_attacker
   remove_global_variable = fodlan_event_battle_defender
+  remove_global_variable = fodlan_event_battle_winner  # TODO: Does this need a check in case doesn't exist?
   clear_global_variable_list = fodlan_event_battle_reserve_armies
   clear_global_variable_list = fodlan_event_battle_participants
   clear_global_variable_list = fodlan_event_battle_deployed_attackers
@@ -715,6 +747,287 @@ fodlan_event_battle_calculate_ai_action = { # TODO
   fodlan_event_battle_go_to_next_participant = yes
 }
 
+### Damage Calculation ###
+
+# Main Loop
 fodlan_event_battle_calculate_damages = { # TODO
   debug_log = "Calculating Damages to each army"
+  debug_log = "Calculating Left"
+  fodlan_event_battle_calculate_one_flank = {
+    ATTACKER = fodlan_event_battle_left_attacking_army
+    ATTACKER_STRENGTH = fodlan_event_battle_left_attacking_army_strength
+    DEFENDER = fodlan_event_battle_left_defending_army
+    DEFENDER_STRENGTH = fodlan_event_battle_left_defending_army_strength
+  }
+  debug_log = "Calculating Center"
+  fodlan_event_battle_calculate_one_flank = {
+    ATTACKER = fodlan_event_battle_center_attacking_army
+    ATTACKER_STRENGTH = fodlan_event_battle_center_attacking_army_strength
+    DEFENDER = fodlan_event_battle_center_defending_army
+    DEFENDER_STRENGTH = fodlan_event_battle_center_defending_army_strength
+  }
+  debug_log = "Calculating Right"
+  fodlan_event_battle_calculate_one_flank = {
+    ATTACKER = fodlan_event_battle_right_attacking_army
+    ATTACKER_STRENGTH = fodlan_event_battle_right_attacking_army_strength
+    DEFENDER = fodlan_event_battle_right_defending_army
+    DEFENDER_STRENGTH = fodlan_event_battle_right_defending_army_strength
+  }
+
+}
+
+fodlan_event_battle_calculate_one_flank = {
+  # Setup Variables
+  $ATTACKER$ = { 
+    save_scope_as = temp_attacker_army
+    debug_log = "Attacker"
+    debug_log_scopes = no
+  }
+  root = {
+    set_variable = {
+      name = temp_attacker_strength
+      value = global_var:$ATTACKER_STRENGTH$
+    }
+    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+  }
+  $DEFENDER$ = {
+    save_scope_as = temp_defender_army
+    debug_log = "Defender"
+    debug_log_scopes = no
+  }
+  root = {
+    set_variable = {
+      name = temp_attacker_strength
+      value = global_var:$DEFENDER_STRENGTH$
+    }
+    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+  }
+  scope:temp_attacker_army = {
+    army_commander = {
+      save_scope_as = temp_attacker_leader
+      debug_log = "Attacker Leader"
+      debug_log_scopes = no
+    }
+  }
+  scope:temp_defender_army = {
+    army_commander = {
+      save_scope_as = temp_defender_leader
+      debug_log = "Defender Leader"
+      debug_log_scopes = no
+    }
+  }
+
+  root = { # Make sure right scope for variables
+
+    # Calculate Combat Advantage
+    # TODO: Need to handle the case where there is no commander due to bug with assignment
+    set_variable = {
+      name = temp_attacker_prowess
+      value = scope:temp_attacker_leader.prowess
+    }
+    set_variable = {
+      name = temp_defender_prowess
+      value = scope:temp_defender_prowess.prowess
+    }
+
+    every_in_global_list = {
+      variable = fodlan_event_battle_attacker_combat_advantage_sources
+      debug_log = "Looking at additional attacker cas"
+      prev = { # (root scope for variables)
+        fodlan_event_battle_add_combat_prowess_to_advantage = {
+          TARGET = temp_attacker_prowess
+          SOURCE = prev # acas source
+        }
+      }
+    }
+
+    every_in_global_list = {
+      variable = fodlan_event_battle_defender_combat_advantage_sources
+      debug_log = "Looking at additional defender cas"
+      prev = { # (root scope for variables)
+        fodlan_event_battle_add_combat_prowess_to_advantage = {
+          TARGET = temp_defender_prowess
+          SOURCE = prev #dcas spirce
+        }
+      }
+    }
+
+    # TODO: Need a random value to be added here
+
+    # TODO: Need to add in defender advantage in early rounds
+
+    # Fixed Damages
+    debug_log = "Applying Fixed Damage"
+    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+
+    fodlan_event_battle_apply_fixed_damage = {
+      SOURCE_LIST = fodlan_event_battle_attacker_fixed_damage_sources
+      TARGET = temp_defender_strength
+    }
+
+    fodlan_event_battle_apply_fixed_damage = {
+      SOURCE_LIST = fodlan_event_battle_defender_fixed_damage_sources
+      TARGET = temp_attacker_strength
+    }
+
+    # Calculate Initiative and Damage
+    if = {
+      limit = {
+        root.var:temp_attacker_prowess = { compare_value > root.var:temp_defender_prowess }
+      }
+      debug_log = "Attacker has Initiative"
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+      fodlan_event_battle_apply_regular_damage = {
+        TARGET = temp_defender_strength
+        AMOUNT = root.var:temp_attacker_strength
+        MULTIPLIER = root.var:temp_attacker_prowess
+      }
+      debug_log = "Finished Performing First Regular Combat Calculation"
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+
+      fodlan_event_battle_apply_regular_damage = {
+        TARGET = temp_attacker_strength
+        AMOUNT = root.var:temp_defender_strength
+        MULTIPLIER = root.var:temp_defender_prowess
+      }
+    }
+    else = {
+      debug_log = "Defender has initiative"
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+      fodlan_event_battle_apply_regular_damage = {
+        TARGET = temp_attacker_strength
+        AMOUNT = root.var:temp_defender_strength
+        MULTIPLIER = root.var:temp_defender_prowess
+      }
+      debug_log = "Finished Performing First Regular Combat Calculation"
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+      fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+
+      fodlan_event_battle_apply_regular_damage = {
+        TARGET = temp_defender_strength
+        AMOUNT = root.var:temp_attacker_strength
+        MULTIPLIER = root.var:temp_attacker_prowess
+      }
+    }
+
+    debug_log = "Finished Performing Regular Combat Calculation"
+    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_attacker_strength }
+    fodlan_log_variable_helper = { DEBUG_VARIABLE = var:temp_defender_strength }
+
+    # Clamp Calculations
+    change_variable = {
+      name = temp_attacker_strength
+      min = 0
+    }
+    change_variable = {
+      name = temp_defender_strength
+      min = 0
+    }
+    # TODO Need to check shatter value too here
+
+    # Apply Changes
+    change_global_variable = {
+      name = $ATTACKER_STRENGTH$
+      value = var:temp_attacker_strength
+    }
+    change_global_variable = {
+      name = $DEFENDER_STRENGTH$
+      value = var:temp_defender_strength
+    }
+  }
+}
+
+fodlan_event_battle_add_combat_prowess_to_advantage = {
+  sat_variable = {
+    name = temp_additional_prowess
+    value = $SOURCE$.prowess
+  }
+  change_variable = {
+    name = temp_additional_prowess
+    multiply = fodlan_event_battle_combat_advantage_ratio
+  }
+  clamp_variable = {
+    name = temp_additional_prowess
+    min = 1
+    max = 5
+  }
+  change_variable = {
+    name = $TARGET$
+    add = var:temp_additional_prowess
+  }
+}
+
+fodlan_event_battle_apply_fixed_damage = {
+  every_in_global_list = {
+    variable = $SOURCE_LIST$
+    debug_log = "Looking at fixed damage source"
+    prev = { # (root)
+      fodlan_event_battle_apply_fixed_damage_helper = {
+        TARGET = $TARGET$
+        SOURCE = prev
+      }
+    }
+  }
+}
+
+fodlan_event_battle_apply_fixed_damage_helper = {
+  sat_variable = {
+    name = temp_additional_damage
+    value = $SOURCE$.prowess
+  }
+  change_variable = {
+    name = temp_additional_damage
+    multiply = fodlan_event_battle_fixed_damage_ratio
+  }
+  clamp_variable = {
+    name = temp_additional_damage
+    min = 1
+    max = 500
+  }
+  change_variable = {
+    name = $TARGET$
+    subtract = var:temp_additional_damage
+  }
+}
+
+fodlan_event_battle_apply_regular_damage = {
+  sat_variable = {
+    name = temp_damage_amount
+    value = $AMOUNT$
+  }
+  change_variable = {
+    name = temp_damage_amount
+    multiply = fodlan_event_battle_regular_damage_ratio
+  }
+
+  set_variable = {
+    name = temp_damage_multiplier
+    value = 1
+  }
+  set_variable = {
+    name = temp_damage_multiplier_from_prowess
+    value = $MULTIPLIER$
+  }
+  change_variable = {
+    name = temp_damage_multiplier_from_prowess
+    multiply = fodlan_event_battle_regular_damage_prowess_addititive_ratio
+  }
+  change_variable = {
+    name = temp_damage_amount
+    multiply =  temp_damage_multiplier_from_prowess
+  }
+
+  clamp_variable = {
+    name = temp_damage_amount
+    min = fodlan_event_battle_regular_damage_min
+    max = fodlan_event_battle_regular_damage_max
+  }
+  change_variable = {
+    name = $TARGET$
+    add = var:temp_additional_prowess
+  }
 }

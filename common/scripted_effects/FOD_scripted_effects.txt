@@ -303,3 +303,16 @@ fodlan_pagination_calculate_indices = {
 		add = var:fodlan_pagination_offset
 	}
 }
+
+fodlan_log_variable_helper = {
+	this = {
+		save_scope_as = char
+	}
+	char = {
+		set_variable = {
+			name = debug_log_variable
+			value = $DEBUG_VARIABLE$
+		}
+		debug_log = "Logging $DEBUG_VARIABLE$: [char.MakeScope.Var('debug_log_variable').GetValue]"
+	}
+}

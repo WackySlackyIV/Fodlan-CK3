@@ -2,3 +2,11 @@ fodlan_event_battle_demonic_beast_enemy_survivor_ratio = 0.5
 fodlan_event_battle_demonic_beast_allied_survivor_ratio = 0.8
 
 fodlan_event_battle_golem_strength_value = 500
+
+fodlan_event_battle_combat_advantage_ratio = 0.2
+fodlan_event_battle_fixed_damage_ratio = 4
+fodlan_event_battle_regular_damage_ratio = 0.25
+fodlan_event_battle_regular_damage_min = 250
+fodlan_event_battle_regular_damage_max = 2000
+fodlan_event_battle_regular_damage_prowess_addititive_ratio = 0.05
+fodlan_event_battle_regular_damage_shatter = 100 # TODO: Implement shatter and add to tooltip instructions

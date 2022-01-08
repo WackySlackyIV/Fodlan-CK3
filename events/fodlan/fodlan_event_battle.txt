@@ -68,7 +68,7 @@ fodlan_event_battle.1 = {
     trigger = {
       is_ai = no
     }
-    name = "Help (See Tooltip)"
+    name = fodlan_event_battle.1.help
     custom_tooltip = fodlan_event_battle.1.help.1
     custom_tooltip = fodlan_event_battle.1.help.2
     custom_tooltip = fodlan_event_battle.1.help.3
@@ -95,7 +95,7 @@ fodlan_event_battle.1 = {
       # variable_list_size = { name = fodlan_event_battle_reserve_armies value > 0 }
       fodlan_event_battle_has_deployable_reserves = yes
     }
-    name = "Deploy Reserves"
+    name = fodlan_event_battle.1.reserves
     hidden_effect = {
       root = {
         trigger_event = {
@@ -112,7 +112,7 @@ fodlan_event_battle.1 = {
     trigger = {
       is_ai = no
     }
-    name = "Perform Action"
+    name = fodlan_event_battle.1.action
     hidden_effect = {
       root = {
         trigger_event = {
@@ -129,7 +129,7 @@ fodlan_event_battle.1 = {
     trigger = {
       is_ai = no
     }
-    name = "Wait (Ends Round)"
+    name = fodlan_event_battle.1.wait
     fodlan_event_battle_go_to_next_participant = yes
     ai_chance = {
       base = 0
@@ -138,8 +138,12 @@ fodlan_event_battle.1 = {
 
   option = {
     trigger = {
-      is_ai = yes
+      OR = {
+        is_ai = yes
+        debug_only = yes
+      }
     }
+    name = fodlan_event_battle.1.ai
     fodlan_event_battle_calculate_ai_action = yes
     ai_chance = {
       base = 100
@@ -609,10 +613,6 @@ fodlan_event_battle.11 = {
     fodlan_pagination_calculate_indices = yes
     set_variable = { name = temp_iter value = 1 }
     debug_log = "Evaluating possible deployed characters"
-    # root = {
-    #   save_scope_as = char
-    # }
-    # debug_log = "[char.MakeScope.Var('fodlan_pagination_first_index').GetValue]"
     if = {
       limit = {
         root.var:local_battle_side = { compare_value = 1 }
