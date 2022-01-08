@@ -915,25 +915,33 @@ fodlan_event_battle_calculate_one_flank = {
 
     every_in_global_list = {
       variable = fodlan_event_battle_attacker_combat_advantage_sources
-      debug_log = "Looking at additional attacker cas"
-      prev = { # (root scope for variables)
-        fodlan_event_battle_add_combat_prowess_to_advantage = {
-          TARGET = temp_attacker_prowess
-          SOURCE = prev # acas source
+      this = {
+        debug_log = "Looking at additional attacker cas"
+        save_scope_as = advantage_source
+        scope:char = { # (root scope for variables)
+          fodlan_event_battle_add_combat_prowess_to_advantage = {
+            TARGET = temp_attacker_prowess
+            SOURCE = scope:advantage_source # acas source
+          }
         }
       }
     }
 
     every_in_global_list = {
       variable = fodlan_event_battle_defender_combat_advantage_sources
-      debug_log = "Looking at additional defender cas"
-      prev = { # (root scope for variables)
-        fodlan_event_battle_add_combat_prowess_to_advantage = {
-          TARGET = temp_defender_prowess
-          SOURCE = prev #dcas spirce
+      this = {
+        debug_log = "Looking at additional defender cas"
+        save_scope_as = advantage_source
+        scope:char = { # (root scope for variables)
+          fodlan_event_battle_add_combat_prowess_to_advantage = {
+            TARGET = temp_defender_prowess
+            SOURCE = scope:advantage_source #dcas spirce
+          }
         }
       }
     }
+
+    debug_log = "Finished Additioanl Values"
     fodlan_event_battle_debug_prowess = yes
 
     # TODO: Need a random value to be added here
@@ -1068,6 +1076,7 @@ fodlan_event_battle_add_combat_prowess_to_advantage = {
     name = $TARGET$
     add = var:temp_additional_prowess
   }
+  fodlan_event_battle_debug_prowess = yes
 }
 
 fodlan_event_battle_apply_fixed_damage = {
@@ -1136,7 +1145,7 @@ fodlan_event_battle_apply_regular_damage = {
 
   change_variable = {
     name = temp_damage_amount
-    multiply = temp_damage_multiplier
+    multiply = var:temp_damage_multiplier
   }
 
   debug_log = "Damage Amount Before Clamp: [char.MakeScope.Var('temp_damage_amount').GetValue]"
