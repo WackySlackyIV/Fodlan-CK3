@@ -7,61 +7,50 @@ fest.001 = {
 	title = "Test"
 	desc = "Test 2"
 
-	option = {
-		name = "Hi"
-	}
-
-	option = {
-		trigger = {
-			fodlan_named_character = yes
-		}
-		name = "Named Character"
-	}
-
-	option = {
-		trigger = {
-			fodlan_major_crest = yes
-		}
-		name = "Major Crest"
-	}
-
-	option = {
-		trigger = {
-			AND = {
-				OR = {
-				 	has_game_rule = fodlan_major_characters_no_blood
-				  has_game_rule = fodlan_major_characters_all
+	immediate = {
+		root = {
+			save_scope_as = char
+			global_var:test_variable = {
+				save_scope_as = test_variable
+			}
+			set_global_variable = {
+				name = fodlan_event_battle_left_attacking_army_strength
+				value = 5
+			}
+			scope:char = {
+				set_variable = {
+					name = test_variable
+					value = global_var:test_variable
 				}
-				fodlan_minor_crest = yes
 			}
 		}
-		name = "Minor Crest"
 	}
 
 	option = {
-		trigger = {
-			AND = {
-				has_game_rule = fodlan_major_characters_all
-				fodlan_passive_blood = yes
-			}`
-		}
-		name = "Blood"
-	}
-
-	option = {
-		trigger = {
-			fodlan_major_character = yes
-		}
-		name = "Major Character"
-	}
-
-	option = {
-		trigger = {
-		  OR = {
-				exists = character:300000 # Dimitri
-				exists = character:200012 # Claude
+		name = "Test"
+		scope:char = {
+			set_variable = {
+				name = debug_log_variable_2
+				value = global_var:fodlan_event_battle_left_attacking_army_strength
 			}
+		}	
+		debug_log = "Logging: [log_char.MakeScope.Var('debug_log_variable').GetValue]"
+	}
+
+	option = {
+		name = "Test 2"
+		# fodlan_event_battle_go_to_next_round = yes
+	}
+
+	option = {
+		name = "Set to 5"
+		set_global_variable = {
+			name = test_variable
+			value = 5
 		}
-	  name = "Leader"
+	}
+
+	option = {
+		name = "Set to 10"
 	}
 }

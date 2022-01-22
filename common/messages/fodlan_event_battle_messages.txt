@@ -1,0 +1,68 @@
+### Toast SFX
+@default_toast_soundeffect = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notification_toast_generic"
+@toast_soundeffect_neutral = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_neutral"
+@toast_soundeffect_good = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_positive"
+@toast_soundeffect_bad = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_negative"
+
+
+### Message SFX
+@default_msg_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_neutral"
+@msg_neutral_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_neutral"
+@msg_good_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_positive"
+@msg_bad_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_negative"
+
+
+msg_fodlan_event_battle_reserves_deployed = {
+	display = feed
+	soundeffect = @toast_soundeffect_neutral
+	icon = "war"
+}
+
+msg_fodlan_event_battle_demonic_beast = {
+	display = feed
+	soundeffect = @toast_soundeffect_bad
+	icon = "war"
+	style = bad
+}
+
+msg_fodlan_event_battle_golem = {
+	display = feed
+	soundeffect = @toast_soundeffect_good
+	icon = "war"
+	style = good
+}
+
+msg_fodlan_event_battle_deploy_knight = {
+	display = feed
+	soundeffect = @toast_soundeffect_good
+	icon = "war"
+	style = good
+}
+
+msg_fodlan_event_battle_deploy_dragon = {
+	display = feed
+	soundeffect = @toast_soundeffect_bad
+	icon = "war"
+	style = bad
+}
+
+msg_fodlan_event_battle_deploy_dark_mage = {
+	display = feed
+	soundeffect = @toast_soundeffect_bad
+	icon = "war"
+	style = bad
+}
+
+msg_fodlan_event_battle_deploy_cleric = {
+	display = feed
+	soundeffect = @toast_soundeffect_good
+	icon = "war"
+	style = good
+}
+
+msg_fodlan_event_battle_phase_increase = {
+	display = feed
+	soundeffect = @toast_soundeffect_bad
+	icon = "war"
+	style = bad
+}

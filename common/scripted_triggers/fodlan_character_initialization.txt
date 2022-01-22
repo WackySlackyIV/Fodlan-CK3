@@ -54,6 +54,20 @@ fodlan_minor_crest = {
   }
 }
 
+fodlan_has_crest = {
+  OR = {
+    fodlan_major_crest = yes
+    fodlan_minor_crest = yes
+  }
+}
+
+fodlan_has_crest_potential = {
+  OR = {
+    fodlan_has_crest = yes
+    fodlan_passive_blood = yes
+  }
+}
+
 fodlan_passive_blood = {
   OR = {
     has_trait = crest_blood_seiros
@@ -80,6 +94,13 @@ fodlan_passive_blood = {
     has_trait = crest_blood_maurice
     has_trait = crest_blood_malik
   }
+}
+
+fodlan_is_nabatean = {
+	OR = {
+		has_trait = child_goddess
+		has_trait = dragon_blood
+	}
 }
 
 fodlan_playable_commoners = {

@@ -4,6 +4,8 @@ namespace = fodlan_unification_war
 # Unification War Setup Chain #
 ###############################
 
+# TODO: Need to replace character ids with variables once we have an earlier start date and need to generate characters via event
+
 # Start 
 fodlan_unification_war.1 = {
   type = empty
@@ -26,7 +28,6 @@ fodlan_unification_war.1 = {
       id = fodlan_unification_war.2000 # Leicester Event Chain Start
       days = 3
     }
-    setup_imperial_invasion_battle = yes
     mark_fodlan_unification_war_active = yes  
   }
 }
@@ -46,6 +47,7 @@ fodlan_unification_war.2 = {
 }
 
 # Start of the war - Must be Triggered by Edelgard or else the war will not work
+# TODO: This should be triggered after the battle
 fodlan_unification_war.3 = {
   type = empty
   hidden = yes
@@ -66,6 +68,9 @@ fodlan_unification_war.3 = {
         is_ai = no
       }
       trigger_event = { id = fodlan_unification_war.4 }
+    }
+    character:400000 = {
+      trigger_event = { id = fodlan_unification_war.9 }
     }
   }
 }
@@ -95,8 +100,510 @@ fodlan_unification_war.4 = {
   }
 }
 
-fodlan_unification_war.5 = {
+########################
+# Siege and Duel Event #
+########################
 
+# Setup Regiments Event
+# https://fireemblemwiki.org/wiki/Outset_of_a_Power_Struggle/The_Battle_of_Garreg_Mach
+# https://fireemblemwiki.org/wiki/To_War/The_Battle_of_Garreg_Mach
+# https://serenesforest.net/three-houses/characters/other-data/
+fodlan_unification_war.9 = {
+  type = empty
+  hidden = yes
+
+  immediate = {
+    character:400000 = { # Technically should be Claude, Pick Leicester to be in war so we can disband all the event armies automatically
+      # We create this war in order to allow the generated army units to auto disband after the event battle
+      start_war = {
+        cb = imperial_invasion_event_battle
+        target = character:200000 # Can't be one of the existing members in the war of unification or the game engine won't start
+        target_title = title:k_leicester
+      }
+      global_var:unification_imperial_invasion_instance = {
+        add_defender = character:300000 # This doesn't work in game due to existing UW CB, but doesn't matter since we track separately
+        add_defender = character:100000
+        add_attacker = character:400024
+        save_scope_as = temp_event_battle_war
+        set_global_variable = {
+          name = fodlan_event_battle_war
+          value = scope:temp_event_battle_war
+        }
+      }
+    }
+
+    character:400000 = {
+      add_courtier = character:400022
+      recruit_courtier = character:400022
+      add_visiting_courtier = character:400022
+      spawn_army = { # Jeritza
+        name = "fodlan_unification_war.imperial_first.a"
+        save_scope_as=imperial_first
+        men_at_arms = {
+					type = fighter
+					stacks = 9
+				}
+        men_at_arms = {
+					type = archer
+					stacks = 6
+				}
+        men_at_arms = {
+					type = mage
+					stacks = 3
+				}
+        men_at_arms = {
+					type = dark_knight
+					stacks = 3
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_imperial_first
+        value = scope:imperial_first
+      }
+      global_var:unification_imperial_invasion_imperial_first = {
+        assign_commander = character:400022
+      }
+
+      add_courtier = character:400025 # Randolph
+      recruit_courtier = character:400025 # Randolph
+      add_visiting_courtier = character:400025
+      spawn_army = {
+        name = "fodlan_unification_war.imperial_second.a"
+        save_scope_as=imperial_second
+        men_at_arms = {
+					type = fighter
+					stacks = 12
+				}
+        men_at_arms = {
+					type = archer
+					stacks = 12
+				}
+        men_at_arms = {
+					type = mage
+					stacks = 3
+				}
+        men_at_arms = {
+					type = cavalier
+					stacks = 9
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_imperial_second
+        value = scope:imperial_second
+      }
+      global_var:unification_imperial_invasion_imperial_second = {
+        assign_commander = character:400025
+      }
+
+      add_courtier = character:400015
+      recruit_courtier = character:400015
+      add_visiting_courtier = character:400015
+      spawn_army = { # Hubert
+        name = "fodlan_unification_war.black_eagles.a"
+        save_scope_as=black_eagles
+        men_at_arms = {
+					type = fighter
+					stacks = 18
+				}
+        men_at_arms = {
+					type = great_knight
+					stacks = 3
+				}
+        men_at_arms = {
+					type = mage
+					stacks = 6
+				}
+        men_at_arms = {
+					type = cavalier
+					stacks = 9
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_black_eagles
+        value = scope:black_eagles
+      }
+      global_var:unification_imperial_invasion_black_eagles = {
+        assign_commander = character:400015
+      }
+
+      if = {
+        limit = {
+          NOT = {
+            global_var:fodlan_uw_imperial_third_regiment_in_leicester = { compare_value = 1 }
+          }
+        }
+        add_courtier = character:400027
+        recruit_courtier = character:400027
+        add_visiting_courtier = character:400027
+        spawn_army = { # Ladislava
+          name = "fodlan_unification_war.imperial_third.a"
+          save_scope_as=imperial_third
+          levies = 300
+          men_at_arms = {
+            type = armored_knight
+            stacks = 9
+          }
+          men_at_arms = {
+            type = mage
+            stacks = 15
+          }
+          men_at_arms = {
+            type = holy_knights
+            stacks = 15
+          }
+          men_at_arms = {
+            type = cavalier
+            stacks = 6
+          }
+          men_at_arms = {
+            type = wyvern_rider
+            stacks = 1
+          }
+          men_at_arms = {
+            type = archer
+            stacks = 6
+          }
+          location = this.capital_province
+          war = global_var:unification_imperial_invasion_instance
+        }
+        set_global_variable = {
+          name = unification_imperial_invasion_imperial_third
+          value = scope:imperial_third
+        }
+        global_var:unification_imperial_invasion_imperial_third = {
+          assign_commander = character:400027
+        }
+        add_to_variable_list = {
+          name = fodlan_event_battle_reserve_armies
+          target = scope:imperial_third
+        }
+      }
+
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
+      if = {
+        limit = {
+          global_variable_list_size = { name = fodlan_event_battle_participants value > 0 }
+        }
+        debug_log = "Added Edelgard To Participants"
+      }
+    }
+
+    character:300000 = {
+      add_courtier = character:300025 # Ingrid
+      recruit_courtier = character:300025
+      add_visiting_courtier = character:300025
+      spawn_army = { # Dimitri
+        name = "fodlan_unification_war.blue_lions.a"
+        save_scope_as=blue_lions
+        men_at_arms = {
+					type = cavalier
+					stacks = 6
+				}
+        men_at_arms = {
+					type = armored_knight
+					stacks = 3
+				}
+        men_at_arms = {
+					type = myrmidon
+					stacks = 3
+				}
+        men_at_arms = {
+					type = mage
+					stacks = 6
+				}
+        men_at_arms = {
+					type = archer
+					stacks = 3
+				}
+        men_at_arms = {
+					type = pegasus_knight
+					stacks = 3
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_blue_lions
+        value = scope:blue_lions
+      }
+      global_var:unification_imperial_invasion_blue_lions = {
+        assign_commander = character:300025
+      }
+      add_to_variable_list = {
+        name = fodlan_event_battle_reserve_armies
+        target = scope:blue_lions
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
+    }
+  
+    character:200000 = {
+      add_courtier = character:200012
+      recruit_courtier = character:200012
+      add_visiting_courtier = character:200012
+      spawn_army = { # Claude
+        name = "fodlan_unification_war.golden_deer.a"
+        save_scope_as=golden_deer
+        men_at_arms = {
+					type = bow_knight
+					stacks = 3
+				}
+        men_at_arms = {
+					type = fighter
+					stacks = 6
+				}
+        men_at_arms = {
+					type = cavalier
+					stacks = 6
+				}
+        men_at_arms = {
+					type = mage
+					stacks = 6
+				}
+        men_at_arms = {
+					type = archer
+					stacks = 3
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_golden_deer
+        value = scope:golden_deer
+      }
+      global_var:unification_imperial_invasion_golden_deer = {
+        assign_commander = character:200012
+        add_to_list = fodlan_event_battle_reserve_armies
+      }
+      add_to_variable_list = {
+        name = fodlan_event_battle_reserve_armies
+        target = scope:golden_deer
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
+    }
+    character:100000 = {
+      add_courtier = character:100004
+      recruit_courtier = character:100004
+      add_visiting_courtier = character:100004
+      spawn_army = { # Alois
+        name = "fodlan_unification_war.knights_of_seiros.a"
+        save_scope_as=knights_of_seiros
+        men_at_arms = {
+					type = holy_knights
+					stacks = 6
+				}
+        men_at_arms = {
+					type = armored_knight
+					stacks = 12
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_knights_of_seiros
+        value = scope:knights_of_seiros
+      }
+      global_var:unification_imperial_invasion_knights_of_seiros = {
+        assign_commander = character:100004
+      }
+
+      add_courtier = character:100011
+      recruit_courtier = character:100011
+      add_visiting_courtier = character:100011
+      spawn_army = { # Catherine
+        name = "fodlan_unification_war.church_militia.a"
+        save_scope_as=church_first_militia
+        levies = 600
+        men_at_arms = {
+					type = myrmidon
+					stacks = 6
+				}
+        men_at_arms = {
+					type = pegasus_knight
+					stacks = 3
+				}
+        men_at_arms = {
+					type = mage
+					stacks = 3
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_church_first_militia
+        value = scope:church_first_militia
+      }
+      global_var:unification_imperial_invasion_church_first_militia = {
+        assign_commander = character:100011
+      }
+
+      add_courtier = character:100006
+      recruit_courtier = character:100006
+      add_visiting_courtier = character:100006
+      spawn_army = { # Shamir
+        name = "fodlan_unification_war.church_militia.a"
+        save_scope_as=church_second_militia
+        levies = 600
+        men_at_arms = {
+          type = wyvern_rider
+          stacks = 3
+        }
+        men_at_arms = {
+					type = archer
+					stacks = 6
+				}
+        men_at_arms = {
+					type = pegasus_knight
+					stacks = 3
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_church_second_militia
+        value = scope:church_second_militia
+      }
+      global_var:unification_imperial_invasion_church_second_militia = {
+        assign_commander = character:100006
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
+
+      fodlan_event_battle_add_golem = yes
+    }
+  
+    character:400024 = {
+      add_courtier = character:401001  # Myson was already at the Monstary in the events of the DLC
+      recruit_courtier = character:401001
+      add_visiting_courtier = character:401001
+      spawn_army = { # Thales
+        name = "Agarthan Mages"
+        save_scope_as=agarthan_mages
+        levies = 300
+        men_at_arms = {
+					type = mage
+					stacks = 3
+				}
+        men_at_arms = {
+					type = armored_knight
+					stacks = 3
+				}
+        location = this.capital_province
+        war = global_var:unification_imperial_invasion_instance
+      }
+      set_global_variable = {
+        name = unification_imperial_invasion_agarthan_mages
+        value = scope:agarthan_mages
+      }
+      global_var:unification_imperial_invasion_agarthan_mages = {
+        assign_commander = character:401001
+      }
+      add_to_variable_list = {
+        name = fodlan_event_battle_reserve_armies
+        target = scope:agarthan_mages
+      }
+      add_to_global_variable_list = {
+        name = fodlan_event_battle_participants
+        target = this
+      }
+
+      fodlan_event_battle_add_demonic_beast = yes
+      fodlan_event_battle_mark_dark_mage = yes
+    }
+
+    # Initial Order of Battle
+
+    set_global_variable = {
+      name = fodlan_event_battle_left_attacking_army
+      value = global_var:unification_imperial_invasion_imperial_first
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_center_attacking_army
+      value = global_var:unification_imperial_invasion_black_eagles
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_attacking_army
+      value = global_var:unification_imperial_invasion_imperial_second
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_left_defending_army
+      value = global_var:unification_imperial_invasion_church_second_militia
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_center_defending_army
+      value = global_var:unification_imperial_invasion_knights_of_seiros
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_defending_army
+      value = global_var:unification_imperial_invasion_church_first_militia
+    }
+    fodlan_event_battle_initialize_strengths = yes
+
+    # Battle Situation Variables
+    set_global_variable = {
+      name = fodlan_event_battle_location
+      value = character:100000.capital_province
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_battlefield
+      value = 1
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_round
+      value = 1
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_max_rounds
+      value = 10
+    }
+
+    # Ensure these characters have actions applied as an attacker
+    add_to_global_variable_list = {
+      name = fodlan_event_attackers_list
+      target = character:400000
+    }
+    add_to_global_variable_list = {
+      name = fodlan_event_attackers_list
+      target = character:400024
+    }
+
+    # Flavor
+    set_global_variable = {
+      name = fodlan_event_battle_attacker
+      value = character:400000
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_defender
+      value = character:100000
+    }
+    set_global_variable = {
+      name = fodlan_event_battle_right_attacking_army
+      value = global_var:unification_imperial_invasion_imperial_second
+    }
+
+    debug_log = "Done Setting Up"
+    character:400000 = {
+      save_scope_as = char
+      fodlan_event_battle_setup_participants = yes
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
 }
 
 # Peace Event for Edelgard
@@ -212,8 +719,6 @@ fodlan_unification_war.4000 = {
   #   slither_angry_result = yes
   # }
 }
-
-# TODO: Siege and Duel Event
 
 ##############################################
 # Leicester Alliance Intervention War Events #
@@ -380,9 +885,9 @@ fodlan_unification_war.2005 = {
         name = fodlan_gloucester_debts_to_empire
         add = 1
       }
-      change_global_variable = {
-        name = fodlan_uw_ii_empire_third_regiment
-        subtract = 100
+      set_global_variable = {
+        name = fodlan_uw_imperial_third_regiment_in_leicester
+        value = 1
       }
       character:200006 = {
         trigger_event = {

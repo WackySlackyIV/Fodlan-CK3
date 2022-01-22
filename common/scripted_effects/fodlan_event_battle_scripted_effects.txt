@@ -1,0 +1,1193 @@
+### Initialization ###
+
+fodlan_event_battle_initialize_strengths = {
+  set_global_variable = {
+    name = fodlan_event_battle_left_attacking_army_strength
+    value = global_var:fodlan_event_battle_left_attacking_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_center_attacking_army_strength
+    value = global_var:fodlan_event_battle_center_attacking_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_right_attacking_army_strength
+    value = global_var:fodlan_event_battle_right_attacking_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_left_defending_army_strength
+    value = global_var:fodlan_event_battle_left_defending_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_center_defending_army_strength
+    value = global_var:fodlan_event_battle_center_defending_army.army_size
+  }
+  set_global_variable = {
+    name = fodlan_event_battle_right_defending_army_strength
+    value = global_var:fodlan_event_battle_right_defending_army.army_size
+  }
+}
+
+# UI #
+
+fodlan_event_battle_army_strength_tooltip = {
+  set_variable = {
+    name = local_lf_as
+    value =  global_var:fodlan_event_battle_left_attacking_army_strength
+  }
+  set_variable = {
+    name = local_lf_ds
+    value =  global_var:fodlan_event_battle_left_defending_army_strength
+  }
+  set_variable = {
+    name = local_cf_as
+    value =  global_var:fodlan_event_battle_center_attacking_army_strength
+  }
+  set_variable = {
+    name = local_cf_ds
+    value =  global_var:fodlan_event_battle_center_defending_army_strength
+  }
+  set_variable = {
+    name = local_rf_as
+    value =  global_var:fodlan_event_battle_right_attacking_army_strength
+  }
+  set_variable = {
+    name = local_rf_ds
+    value =  global_var:fodlan_event_battle_right_defending_army_strength
+  }
+}
+
+# Checks for the current character scope what side they are on and sets relevant variables
+fodlan_event_battle_check_character_side = {
+  this = {
+    save_temporary_scope_as = temp_char
+    if = {
+      limit = {
+        is_target_in_global_variable_list = {
+          name = fodlan_event_attackers_list
+          target = scope:temp_char
+        }
+      }
+      set_variable = {
+        name = local_battle_side
+        value = 1
+      }
+      debug_log = "Is Attacker"
+    }
+    else = {
+      set_variable = {
+        name = local_battle_side
+        value = 2
+      }
+      debug_log = "Is Defender"
+    }
+  }
+}
+
+fodlan_event_battle_interface_message = {
+  if = {
+    limit = { exists = $TARGET$ }
+    every_in_global_list = {
+      variable = fodlan_event_battle_participants
+      send_interface_message = {
+        type = $MESSAGE_TYPE$
+        left_icon = $ACTOR$
+        right_icon = $TARGET$
+      }
+    }
+  }
+  else = {
+    every_in_global_list = {
+      variable = fodlan_event_battle_participants
+      send_interface_message = {
+        type = $MESSAGE_TYPE$
+        left_icon = $ACTOR$
+      }
+    }
+  }
+}
+
+## Army Actions ##
+
+# expecting scope:char variables:
+# local_redeploy_flank: 1 - Attacker, 2 - Defender
+# local_battle_side: 1 - Left, 2 - Center, 3 - Right
+# Arguments:
+# $ARMY$ - army scope to be deployed
+fodlan_event_battle_deploy_army = {
+  $ARMY$ = { save_temporary_scope_as = temp_army }
+  scope:char = {
+    set_variable = {
+      name = local_army_strength
+      value = scope:temp_army.army_size
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_redeploy_flank = { compare_value = 1 }
+          var:local_battle_side = { compare_value = 1 }
+        }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_left_attacking_army
+        value = scope:temp_army
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_attacking_army_strength
+        add = var:local_army_strength
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_redeploy_flank = { compare_value = 1 }
+          var:local_battle_side = { compare_value = 2 }
+        }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_left_defending_army
+        value = scope:temp_army
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_defending_army_strength
+        add = var:local_army_strength
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_redeploy_flank = { compare_value = 2 }
+          var:local_battle_side = { compare_value = 1 }
+        }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_center_attacking_army
+        value = scope:temp_army
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_attacking_army_strength
+        add = var:local_army_strength
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_redeploy_flank = { compare_value = 2 }
+          var:local_battle_side = { compare_value = 2 }
+        }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_center_defending_army
+        value = scope:temp_army
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_defending_army_strength
+        add = var:local_army_strength
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_redeploy_flank = { compare_value = 3 }
+          var:local_battle_side = { compare_value = 1 }
+        }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_right_attacking_army
+        value = scope:temp_army
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_attacking_army_strength
+        add = var:local_army_strength
+      }
+    }
+    if = {
+      limit = {
+        scope:char ={
+          var:local_redeploy_flank = { compare_value = 3 }
+          var:local_battle_side = { compare_value = 2 }
+        }
+      }
+      set_global_variable = {
+        name = fodlan_event_battle_right_defending_army
+        value = scope:temp_army
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_defending_army_strength
+        add = var:local_army_strength
+      }
+    }
+    remove_list_variable = {
+      name = fodlan_event_battle_reserve_armies
+      target = scope:temp_army
+    }
+    fodlan_event_battle_interface_message = {
+      ACTOR = scope:char
+      MESSAGE_TYPE = msg_fodlan_event_battle_reserves_deployed
+    }
+  }
+}
+
+### Personal Actions ###
+
+# Demonic Beasts
+fodlan_event_battle_deploy_demonic_beast = {
+  scope:char = {
+    if = {
+      limit = {
+        scope:char = {
+          var:local_battle_side = { compare_value = 1 }
+        }
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_attacking_army_strength
+        multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_attacking_army_strength
+        multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_attacking_army_strength
+        multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_defending_army_strength
+        multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_defending_army_strength
+        multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_defending_army_strength
+        multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_battle_side = { compare_value = 2 }
+        }
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_attacking_army_strength
+        multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_attacking_army_strength
+        multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_attacking_army_strength
+        multiply = fodlan_event_battle_demonic_beast_enemy_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_defending_army_strength
+        multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_defending_army_strength
+        multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_defending_army_strength
+        multiply = fodlan_event_battle_demonic_beast_allied_survivor_ratio
+      }
+    }
+    fodlan_event_battle_remove_demonic_beast = yes
+    fodlan_event_battle_interface_message = {
+      ACTOR = scope:char
+      MESSAGE_TYPE = msg_fodlan_event_battle_demonic_beast
+    }
+  }
+}
+
+fodlan_event_battle_add_demonic_beast = {
+  if = {
+    limit = {
+      NOT = { has_variable = fodlan_event_battle_demonic_beast_available }
+    }
+    set_variable = {
+      name = fodlan_event_battle_demonic_beast_available
+      value = 1
+    }
+  }
+  else = {
+    change_variable = {
+      name = fodlan_event_battle_demonic_beast_available
+      add = 1
+    }
+  }
+}
+
+fodlan_event_battle_remove_demonic_beast = {
+  change_variable = {
+    name = fodlan_event_battle_demonic_beast_available
+    subtract = 1
+  }
+}
+
+# Golems
+
+fodlan_event_battle_deploy_golem = {
+  scope:char = {
+    if = {
+      limit = {
+        scope:char = {
+          var:local_battle_side = { compare_value = 1 }
+        }
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_attacking_army_strength
+        add = fodlan_event_battle_golem_strength_value
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_attacking_army_strength
+        add = fodlan_event_battle_golem_strength_value
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_attacking_army_strength
+        add = fodlan_event_battle_golem_strength_value
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:local_battle_side = { compare_value = 2 }
+        }
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_left_defending_army_strength
+        add = fodlan_event_battle_golem_strength_value
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_center_defending_army_strength
+        add = fodlan_event_battle_golem_strength_value
+      }
+      change_global_variable = {
+        name = fodlan_event_battle_right_defending_army_strength
+        add = fodlan_event_battle_golem_strength_value
+      }
+    }
+    fodlan_event_battle_remove_golem = yes
+    fodlan_event_battle_interface_message = {
+      ACTOR = scope:char
+      MESSAGE_TYPE = msg_fodlan_event_battle_golem
+    }
+  }
+}
+
+fodlan_event_battle_add_golem = {
+  if = {
+    limit = {
+      NOT = { has_variable = fodlan_event_battle_golem_available }
+    }
+    set_variable = {
+      name = fodlan_event_battle_golem_available
+      value = 1
+    }
+  }
+  else = {
+    change_variable = {
+      name = fodlan_event_battle_golem_available
+      add = 1
+    }
+  }
+}
+
+fodlan_event_battle_remove_golem = {
+  change_variable = {
+    name = fodlan_event_battle_golem_available
+    subtract = 1
+  }
+}
+
+## Personal Deploy ##
+
+fodlan_event_battle_personal_deploy_attacker = {
+  add_to_global_variable_list = {
+    name = fodlan_event_battle_deployed_attackers
+    target = scope:char
+  }
+}
+
+fodlan_event_battle_personal_deploy_defender = {
+  add_to_global_variable_list = {
+    name = fodlan_event_battle_deployed_defenders
+    target = scope:char
+  }
+}
+
+fodlan_event_battle_personal_deploy_stop_deployment = {
+  $TARGET$ = { save_scope_as = temp_target }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_deployed_attackers
+        target = scope:temp_target
+      }
+    }
+    debug_log = "Removing from Deployed Attackers"
+    remove_list_global_variable = {
+      name = fodlan_event_battle_deployed_attackers
+      target = scope:temp_target
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_deployed_defenders
+        target = scope:temp_target
+      }
+    }
+    debug_log = "Removing from Deployed Defenders"
+    remove_list_global_variable = {
+      name = fodlan_event_battle_deployed_defenders
+      target = scope:temp_target
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_attacker_combat_advantage_sources
+        target = scope:temp_target
+      }
+    }
+    debug_log = "Removing from ACAS"
+    remove_list_global_variable = {
+      name = fodlan_event_battle_attacker_combat_advantage_sources
+      target = scope:temp_target
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_defender_combat_advantage_sources
+        target = scope:temp_target
+      }
+    }
+    debug_log = "Removing from DCAS"
+    remove_list_global_variable = {
+      name = fodlan_event_battle_defender_combat_advantage_sources
+      target = scope:temp_target
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_attacker_fixed_damage_sources
+        target = scope:temp_target
+      }
+    }
+    debug_log = "Removing from AFDS"
+    remove_list_global_variable = {
+      name = fodlan_event_battle_attacker_fixed_damage_sources
+      target = scope:temp_target
+    }
+  }
+  if = {
+    limit = {
+      is_target_in_global_variable_list = {
+        name = fodlan_event_battle_defender_fixed_damage_sources
+        target = scope:temp_target
+      }
+    }
+    debug_log = "Removing from DFDS"
+    remove_list_global_variable = {
+      name = fodlan_event_battle_defender_fixed_damage_sources
+      target = scope:temp_target
+    }
+  }
+  add_to_global_variable_list = {
+    name = fodlan_event_battle_nullified_characters
+    target = scope:temp_target
+  }
+}
+
+# Knight
+fodlan_event_battle_deploy_knight = {
+  if = {
+    limit = {
+      scope:char = {
+        var:local_battle_side = { compare_value = 1 }
+      }
+    }
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_attacker_combat_advantage_sources
+      target = scope:char
+    }
+    fodlan_event_battle_personal_deploy_attacker = yes
+  }
+  if = {
+    limit = {
+      scope:char = {
+        var:local_battle_side = { compare_value = 2 }
+      }
+    }
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_defender_combat_advantage_sources
+      target = scope:char
+    }
+    fodlan_event_battle_personal_deploy_defender = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = scope:char
+    MESSAGE_TYPE = msg_fodlan_event_battle_deploy_knight
+  }
+}
+
+# Dragon
+
+fodlan_event_battle_deploy_dragon = {
+  if = {
+    limit = {
+      scope:char = {
+        var:local_battle_side = { compare_value = 1 }
+      }
+    }
+    # TODO: Some way of dynamically calculating damage besides sources, probably add to a list and iterate through list to calculate
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_attacker_fixed_damage_sources
+      target = scope:char
+    }
+    fodlan_event_battle_personal_deploy_attacker = yes
+  }
+  if = {
+    limit = {
+      scope:char = {
+        var:local_battle_side = { compare_value = 2 }
+      }
+    }
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_defender_fixed_damage_sources
+      target = scope:char
+    }
+    fodlan_event_battle_personal_deploy_defender = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = scope:char
+    MESSAGE_TYPE = msg_fodlan_event_battle_deploy_dragon
+  }
+}
+
+# Dark Mage
+
+fodlan_event_battle_mark_dark_mage = {
+  add_character_flag = fodlan_event_battle_dark_mage
+}
+
+fodlan_event_battle_deploy_dark_mage = {
+  if = {
+    limit = {
+      scope:char = {
+        var:local_battle_side = { compare_value = 1 }
+      }
+    }
+    fodlan_event_battle_personal_deploy_attacker = yes
+  }
+  if = {
+    limit = {
+      scope:char = {
+        var:local_battle_side = { compare_value = 2 }
+      }
+    }
+    fodlan_event_battle_personal_deploy_defender = yes
+  }
+  fodlan_event_battle_interface_message = {
+    ACTOR = scope:char
+    TARGET = $TARGET$
+    MESSAGE_TYPE = msg_fodlan_event_battle_deploy_dark_mage
+  }
+}
+
+# Cleric
+# TODO: Unimplemented
+fodlan_event_battle_mark_cleric = {
+  add_flag = fodlan_event_battle_cleric
+}
+
+
+#### Flow Control ####
+
+
+fodlan_event_battle_go_to_next_participant = {
+  debug_log = "Participant Choosing Next Char"
+  scope:char = {
+    debug_log_scopes = no
+    set_variable = {
+      name = found_result
+      value = 0
+    }
+    random_in_global_list = { # TODO: Technically should do in an ordered way
+      variable = fodlan_event_battle_remaining_round_participants
+      this = {
+        scope:char = {
+          set_variable = {
+            name = found_result
+            value = 1
+          }
+        }
+        remove_list_global_variable = {
+          name = fodlan_event_battle_remaining_round_participants
+          target = this
+        }
+        save_scope_as = next_participant
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:found_result = { compare_value = 0 }
+        }
+      }
+      debug_log = "Participant Evaluted Next Round"
+      scope:char = {
+        fodlan_event_battle_go_to_next_round = yes
+      }
+    }
+    else = {
+      scope:char = { # TODO: This is for testing only
+        debug_log = "Trying to change char"
+        debug_log_scopes = no
+        set_player_character = scope:next_participant
+      }
+      scope:next_participant = {
+        save_scope_as = char
+        trigger_event = {
+          id = fodlan_event_battle.1
+        }
+      }
+    }
+  }
+}
+
+fodlan_event_battle_setup_participants = {
+  every_in_global_list = {
+    variable = fodlan_event_battle_participants
+    debug_log_scopes = no
+    add_to_global_variable_list = {
+      name = fodlan_event_battle_remaining_round_participants
+      target = this
+    }
+  }
+}
+
+fodlan_event_battle_go_to_next_round = {
+  debug_log = "Calculating Next Round"
+  debug_log_scopes = no
+  change_global_variable = {
+    name = fodlan_event_battle_round
+    add = 1
+  }
+  if = {
+    limit = {
+      global_var:fodlan_event_battle_round = {
+        compare_value > global_var:fodlan_event_battle_max_rounds
+      }
+    }
+    fodlan_event_battle_end_battle = yes  # White Peace
+  }
+  else = {
+    debug_log = "Setting up Next Round"
+    fodlan_event_battle_setup_participants = yes
+    fodlan_event_battle_calculate_damages = yes
+    # TODO: Need a mechanism so that the player can't just put all units on one flank
+    if = {
+      limit = { fodlan_event_battle_front_overrun = yes } # TODO
+      debug_log = "Overrun Issue"
+      fodlan_event_battle_increment_phase = yes
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+    else = {
+      fodlan_event_battle_go_to_next_participant = yes
+    }
+  }
+}
+
+fodlan_event_battle_increment_phase = {
+  debug_log = "Incrementing Phase"
+  # fodlan_event_battle_force_deploy_cover_overrun_fronts = yes # TODO: Should we force the deployment of unit to cover the overrun front?
+  
+  change_global_variable = {
+    name = fodlan_event_battle_battlefield
+    add = 1
+  }
+  if = { # End the war early if needed
+    limit = {
+      global_var:fodlan_event_battle_battlefield = { compare_value > 3 }
+    }
+    debug_log = "The defenders have been overrun and the war is over, the attackers have won"
+    set_global_variable = {
+      name = fodlan_event_battle_winner
+      value = global_var:fodlan_event_battle_attacker
+    }
+    fodlan_event_battle_end_battle = yes  # Attackers Win
+  }
+  else = {
+    # Display a notification about increasing phase
+    fodlan_event_battle_interface_message = {
+      ACTOR = global_var:fodlan_event_battle_attacker
+      TARGET = global_var:fodlan_event_battle_defender
+      MESSAGE_TYPE = msg_fodlan_event_battle_phase_increase
+    }
+  }
+}
+
+fodlan_event_battle_end_battle = {
+  debug_log = "Calculating End Battle" # TODO
+  fodlan_event_battle_calculate_winner_end_war = yes
+  fodlan_event_battle_clear_all_variables = yes
+}
+
+fodlan_event_battle_clear_all_variables = { # TODO
+  # Per participant list needs clearing fodlan_event_battle_reserve_armies and other local variables
+  remove_global_variable = fodlan_event_battle_location
+  remove_global_variable = fodlan_event_battle_left_attacking_army
+  remove_global_variable = fodlan_event_battle_center_attacking_army
+  remove_global_variable = fodlan_event_battle_right_attacking_army
+  remove_global_variable = fodlan_event_battle_left_defending_army
+  remove_global_variable = fodlan_event_battle_center_defending_army
+  remove_global_variable = fodlan_event_battle_right_defending_army
+  remove_global_variable = fodlan_event_battle_left_attacking_army_strength
+  remove_global_variable = fodlan_event_battle_center_attacking_army_strength
+  remove_global_variable = fodlan_event_battle_right_attacking_army_strength
+  remove_global_variable = fodlan_event_battle_left_defending_army_strength
+  remove_global_variable = fodlan_event_battle_center_defending_army_strength
+  remove_global_variable = fodlan_event_battle_right_defending_army_strength
+  remove_global_variable = fodlan_event_battle_max_rounds
+  remove_global_variable = fodlan_event_battle_round
+  remove_global_variable = fodlan_event_battle_battlefield
+  remove_global_variable = fodlan_event_battle_war
+  remove_global_variable = fodlan_event_battle_attacker
+  remove_global_variable = fodlan_event_battle_defender
+  remove_global_variable = fodlan_event_battle_winner  # TODO: Does this need a check in case doesn't exist?
+  clear_global_variable_list = fodlan_event_battle_reserve_armies
+  clear_global_variable_list = fodlan_event_battle_participants
+  clear_global_variable_list = fodlan_event_battle_deployed_attackers
+  clear_global_variable_list = fodlan_event_battle_deployed_defenders
+  clear_global_variable_list = fodlan_event_attackers_list
+  clear_global_variable_list = fodlan_event_battle_attacker_combat_advantage_sources
+  clear_global_variable_list = fodlan_event_battle_defender_combat_advantage_sources
+  clear_global_variable_list = fodlan_event_battle_attacker_fixed_damage_sources
+  clear_global_variable_list = fodlan_event_battle_defender_fixed_damage_sources
+  clear_global_variable_list = fodlan_event_battle_nullified_characters
+}
+
+fodlan_event_battle_calculate_winner_end_war = {
+  if = {
+    limit = { 
+      global_var:fodlan_event_battle_winner = global_var:fodlan_event_battle_attacker
+    }
+    global_var:fodlan_event_battle_war = {
+      end_war = attacker
+    }
+  }
+  else_if = {
+    limit = {
+      global_var:fodlan_event_battle_winner = global_var:fodlan_event_battle_defender
+    }
+    global_var:fodlan_event_battle_war = {
+      end_war = defender
+    }
+  }
+  else = {
+    global_var:fodlan_event_battle_war = {
+      end_war = white_peace
+    }
+  }
+}
+
+fodlan_event_battle_calculate_ai_action = { # TODO
+  debug_log = "Calculating the AI action"
+  fodlan_event_battle_go_to_next_participant = yes
+}
+
+### Damage Calculation ###
+
+# Main Loop
+fodlan_event_battle_calculate_damages = { # TODO
+  scope:char = {
+    debug_log = "Calculating Damages to each army"
+    debug_log_scopes = no
+    debug_log = "Calculating Left"
+    fodlan_event_battle_debug_global_left_strengths = yes
+    set_variable = { # Hack since arguments not working
+      name = temp_attacker_strength
+      value = global_var:fodlan_event_battle_left_attacking_army_strength
+    }
+    set_variable = {
+      name = temp_defender_strength
+      value = global_var:fodlan_event_battle_left_defending_army_strength
+    }
+    fodlan_event_battle_calculate_one_flank = {
+      ATTACKER = global_var:fodlan_event_battle_left_attacking_army
+      ATTACKER_STRENGTH = fodlan_event_battle_left_attacking_army_strength
+      DEFENDER = global_var:fodlan_event_battle_left_defending_army
+      DEFENDER_STRENGTH = fodlan_event_battle_left_defending_army_strength
+    }
+    fodlan_event_battle_debug_global_left_strengths = yes
+    debug_log = "Calculating Center"
+    set_variable = {
+      name = temp_attacker_strength
+      value = global_var:fodlan_event_battle_center_attacking_army_strength
+    }
+    set_variable = {
+      name = temp_defender_strength
+      value = global_var:fodlan_event_battle_center_defending_army_strength
+    }
+    fodlan_event_battle_calculate_one_flank = {
+      ATTACKER = global_var:fodlan_event_battle_center_attacking_army
+      ATTACKER_STRENGTH = fodlan_event_battle_center_attacking_army_strength
+      DEFENDER = global_var:fodlan_event_battle_center_defending_army
+      DEFENDER_STRENGTH = fodlan_event_battle_center_defending_army_strength
+    }
+    debug_log = "Calculating Right"
+    set_variable = {
+      name = temp_attacker_strength
+      value = global_var:fodlan_event_battle_right_attacking_army_strength
+    }
+    set_variable = {
+      name = temp_defender_strength
+      value = global_var:fodlan_event_battle_right_defending_army_strength
+    }
+    fodlan_event_battle_calculate_one_flank = {
+      ATTACKER = global_var:fodlan_event_battle_right_attacking_army
+      ATTACKER_STRENGTH = fodlan_event_battle_right_attacking_army_strength
+      DEFENDER = global_var:fodlan_event_battle_right_defending_army
+      DEFENDER_STRENGTH = fodlan_event_battle_right_defending_army_strength
+    }
+  }
+}
+
+
+fodlan_event_battle_debug_strengths = {
+  # TODO: Replace with call to utility function when finished debugging that
+  scope:char = {
+    set_variable = {
+      name = log_attacker_strength
+      value = var:temp_attacker_strength
+    }
+    set_variable = {
+      name = log_defender_strength
+      value = var:temp_defender_strength
+    }
+  }
+  debug_log = "Attacker: [char.MakeScope.Var('log_attacker_strength').GetValue], Defender: [char.MakeScope.Var('log_defender_strength').GetValue]"
+}
+
+fodlan_event_battle_debug_global_left_strengths = {
+  # TODO: Replace with call to utility function when finished debugging that
+  scope:char = {
+    set_variable = {
+      name = log_attacker_strength
+      value = global_var:fodlan_event_battle_left_attacking_army_strength
+    }
+    set_variable = {
+      name = log_defender_strength
+      value = global_var:fodlan_event_battle_left_defending_army_strength
+    }
+  }
+  debug_log = "Attacker: [char.MakeScope.Var('log_attacker_strength').GetValue], Defender: [char.MakeScope.Var('log_defender_strength').GetValue]"
+}
+
+
+fodlan_event_battle_debug_prowess = {
+  # TODO: Replace with call to utility function when finished debugging that
+  scope:char = {
+    debug_log_scopes = no
+    set_variable = {
+      name = log_attacker
+      value = var:temp_attacker_prowess
+    }
+    set_variable = {
+      name = log_defender
+      value = var:temp_defender_prowess
+    }
+  }
+	debug_log = "Attacker: [char.MakeScope.Var('log_attacker').GetValue], Defender: [char.MakeScope.Var('log_defender').GetValue]"
+}
+
+fodlan_event_battle_calculate_one_flank = {
+  scope:char = { # Make sure right scope for variables
+    # Setup Variables
+    $ATTACKER$ = { 
+      save_scope_as = temp_attacker_army
+      debug_log = "Attacker"
+      debug_log_scopes = no
+    }
+    $DEFENDER$ = {
+      save_scope_as = temp_defender_army
+      debug_log = "Defender"
+      debug_log_scopes = no
+    }
+    scope:temp_attacker_army = {
+      army_commander = {
+        save_scope_as = temp_attacker_leader
+        debug_log = "Attacker Leader"
+        debug_log_scopes = no
+      }
+    }
+    scope:temp_defender_army = {
+      army_commander = {
+        save_scope_as = temp_defender_leader
+        debug_log = "Defender Leader"
+        debug_log_scopes = no
+      }
+    }
+    fodlan_event_battle_debug_strengths = yes
+
+    debug_log = "Starting Calculation"
+    debug_log_scopes = no
+    # Calculate Combat Advantage
+    # TODO: Need to handle the case where there is no commander due to bug with assignment
+    set_variable = {
+      name = temp_attacker_prowess
+      value = scope:temp_attacker_leader.prowess
+    }
+    set_variable = {
+      name = temp_defender_prowess
+      value = scope:temp_defender_leader.prowess
+    }
+    fodlan_event_battle_debug_prowess = yes
+
+    every_in_global_list = {
+      variable = fodlan_event_battle_attacker_combat_advantage_sources
+      this = {
+        debug_log = "Looking at additional attacker cas"
+        save_scope_as = advantage_source
+        scope:char = {
+          fodlan_event_battle_add_combat_prowess_to_advantage = {
+            TARGET = temp_attacker_prowess
+            SOURCE = scope:advantage_source # acas source
+          }
+        }
+      }
+    }
+
+    every_in_global_list = {
+      variable = fodlan_event_battle_defender_combat_advantage_sources
+      this = {
+        debug_log = "Looking at additional defender cas"
+        save_scope_as = advantage_source
+        scope:char = {
+          fodlan_event_battle_add_combat_prowess_to_advantage = {
+            TARGET = temp_defender_prowess
+            SOURCE = scope:advantage_source #dcas spirce
+          }
+        }
+      }
+    }
+
+    debug_log = "Finished Additioanl Values"
+    fodlan_event_battle_debug_prowess = yes
+
+    # TODO: Need a random value to be added here
+
+    # TODO: Need to add in defender advantage in early rounds
+
+    # Fixed Damages
+    debug_log = "Applying Fixed Damage"
+    fodlan_event_battle_debug_strengths = yes
+
+    fodlan_event_battle_apply_fixed_damage = {
+      SOURCE_LIST = fodlan_event_battle_attacker_fixed_damage_sources
+      TARGET = temp_defender_strength
+    }
+
+    fodlan_event_battle_apply_fixed_damage = {
+      SOURCE_LIST = fodlan_event_battle_defender_fixed_damage_sources
+      TARGET = temp_attacker_strength
+    }
+
+    # Calculate Initiative and Damage
+    if = {
+      limit = {
+        var:temp_attacker_prowess = { compare_value > var:temp_defender_prowess }
+      }
+      debug_log = "Attacker has Initiative"
+      fodlan_event_battle_debug_strengths = yes
+      fodlan_event_battle_apply_regular_damage = {
+        AMOUNT = var:temp_attacker_strength
+        MULTIPLIER = var:temp_attacker_prowess
+        TARGET = temp_defender_strength
+      }
+  
+      debug_log = "Finished Performing First Regular Combat Calculation"
+      fodlan_event_battle_debug_strengths = yes
+      fodlan_event_battle_apply_regular_damage = {
+        AMOUNT = var:temp_defender_strength
+        MULTIPLIER = var:temp_defender_prowess
+        TARGET = temp_attacker_strength
+      }
+    }
+    else = {
+      debug_log = "Defender has initiative"
+      fodlan_event_battle_debug_strengths = yes
+      fodlan_event_battle_apply_regular_damage = {
+        AMOUNT = var:temp_defender_strength
+        MULTIPLIER = var:temp_defender_prowess
+        TARGET = temp_attacker_strength
+      }
+  
+      debug_log = "Finished Performing First Regular Combat Calculation"
+      fodlan_event_battle_debug_strengths = yes
+      fodlan_event_battle_apply_regular_damage = {
+        AMOUNT = var:temp_attacker_strength
+        MULTIPLIER = var:temp_attacker_prowess
+        TARGET = temp_defender_strength
+      }
+    }
+
+    debug_log = "Finished Performing Regular Combat Calculation"
+    fodlan_event_battle_debug_strengths = yes
+
+    # Clamp Calculations
+  
+    if = {
+      limit = {
+        scope:char = {
+          var:temp_attacker_strength = { compare_value < fodlan_event_battle_regular_damage_shatter }
+        }
+      }
+      set_variable = {
+        name = temp_attacker_strength
+        value = 0
+      }
+    }
+    if = {
+      limit = {
+        scope:char = {
+          var:temp_defender_strength = { compare_value < fodlan_event_battle_regular_damage_shatter }
+        }
+      }
+      set_variable = {
+        name = temp_defender_strength
+        value = 0
+      }
+    }
+
+    debug_log = "Finished Clamping Variables"
+    fodlan_event_battle_debug_strengths = yes
+
+    # Apply Changes
+    set_global_variable = {
+      name = $ATTACKER_STRENGTH$
+      value = var:temp_attacker_strength
+    }
+    set_global_variable = {
+      name = $DEFENDER_STRENGTH$
+      value = var:temp_defender_strength
+    }
+  }
+}
+
+fodlan_event_battle_add_combat_prowess_to_advantage = {
+  set_variable = {
+    name = temp_additional_prowess
+    value = $SOURCE$.prowess
+  }
+  change_variable = {
+    name = temp_additional_prowess
+    multiply = fodlan_event_battle_combat_advantage_ratio
+  }
+  clamp_variable = {
+    name = temp_additional_prowess
+    min = 1
+    max = 5
+  }
+  change_variable = {
+    name = $TARGET$
+    add = var:temp_additional_prowess
+  }
+  fodlan_event_battle_debug_prowess = yes
+}
+
+fodlan_event_battle_apply_fixed_damage = {
+  every_in_global_list = {
+    variable = $SOURCE_LIST$
+    this = {
+      save_scope_as = fixed_damage_source
+      debug_log = "Looking at fixed damage source"
+      scope:char = {
+        fodlan_event_battle_apply_fixed_damage_helper = {
+          TARGET = $TARGET$
+          SOURCE = scope:fixed_damage_source
+        }
+      }
+    }
+  }
+}
+
+fodlan_event_battle_apply_fixed_damage_helper = {
+  set_variable = {
+    name = temp_additional_damage
+    value = $SOURCE$.prowess
+  }
+  debug_log = "Original Fixed Damage: [char.MakeScope.Var('temp_additional_damage').GetValue]"
+  change_variable = {
+    name = temp_additional_damage
+    multiply = fodlan_event_battle_fixed_damage_ratio
+  }
+  debug_log = "Ratio Fixed Damage: [char.MakeScope.Var('temp_additional_damage').GetValue]"
+  clamp_variable = {
+    name = temp_additional_damage
+    min = 1
+    max = 500
+  }
+  debug_log = "Clamped Fixed Damage: [char.MakeScope.Var('temp_additional_damage').GetValue]"
+  change_variable = {
+    name = $TARGET$
+    subtract = var:temp_additional_damage
+  }
+}
+
+fodlan_event_battle_apply_regular_damage = {
+  set_variable = {
+    name = temp_damage_amount
+    value = $AMOUNT$
+  }
+  debug_log = "Original Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
+
+  change_variable = {
+    name = temp_damage_amount
+    multiply = fodlan_event_battle_regular_damage_ratio
+  }
+  debug_log = "Ratio Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
+
+  set_variable = {
+    name = temp_damage_multiplier
+    value = 1
+  }
+  set_variable = {
+    name = temp_damage_multiplier_from_prowess
+    value = $MULTIPLIER$
+  }
+  change_variable = {
+    name = temp_damage_multiplier_from_prowess
+    multiply = fodlan_event_battle_regular_damage_prowess_addititive_ratio
+  }
+  change_variable = {
+    name = temp_damage_multiplier
+    add = var:temp_damage_multiplier_from_prowess
+  }
+  debug_log = "Calculated Multiplier: [char.MakeScope.Var('temp_damage_multiplier').GetValue]"
+
+  change_variable = {
+    name = temp_damage_amount
+    multiply = var:temp_damage_multiplier
+  }
+
+  debug_log = "Damage Amount Before Clamp: [char.MakeScope.Var('temp_damage_amount').GetValue]"
+
+  clamp_variable = {
+    name = temp_damage_amount
+    min = fodlan_event_battle_regular_damage_min
+    max = fodlan_event_battle_regular_damage_max
+  }
+
+  debug_log = "Calculated Damage Amount: [char.MakeScope.Var('temp_damage_amount').GetValue]"
+  change_variable = {
+    name = $TARGET$
+    subtract = var:temp_damage_amount
+  }
+}

@@ -158,3 +158,148 @@ form_daphnel_scripted_effect = {
 		use_hook = scope:scoped_ruler.liege
 	}
 }
+
+fodlan_add_variable_helper = {
+  if = {
+    limit = {
+      always = $GLOBAL$
+    }
+    if = {
+      limit = {
+        NOT = { has_variable = $TARGET$ }
+      }
+      set_variable = {
+        name = $TARGET$
+        value = $VALUE$
+      }
+    }
+    else = {
+      change_variable = {
+        name = $TARGET$
+        add = $VALUE$
+      }
+    }
+  }
+  else = {
+    if = {
+      limit = {
+        NOT = { has_global_variable = $TARGET$ }
+      }
+      set_global_variable = {
+        name = $TARGET$
+        value = $VALUE$
+      }
+    }
+    else = {
+      change_global_variable = {
+        name = $TARGET$
+        add = $VALUE$
+      }
+    }
+  }
+}
+
+fodlan_subtract_variable_helper = {
+  if = {
+    limit = {
+      always = $GLOBAL$
+    }
+    if = {
+      limit = {
+        NOT = { has_variable = $TARGET$ }
+      }
+      set_variable = {
+        name = $TARGET$
+        value = $VALUE$
+      }
+    }
+    else = {
+      change_variable = {
+        name = $TARGET$
+        subtract = $VALUE$
+      }
+    }
+  }
+  else = {
+    if = {
+      limit = {
+        NOT = { has_global_variable = $TARGET$ }
+      }
+      set_global_variable = {
+        name = $TARGET$
+        value = $VALUE$
+      }
+    }
+    else = {
+      change_global_variable = {
+        name = $TARGET$
+        subtract = $VALUE$
+      }
+    }
+  }
+}
+
+fodlan_pagination_next = {
+	fodlan_add_variable_helper = {
+		GLOBAL = no
+		TARGET = fodlan_pagination
+		VALUE = 1
+	}
+}
+
+fodlan_pagination_previous = {
+	change_variable = {
+		name = fodlan_pagination
+		subtract = 1
+	}
+}
+
+fodlan_pagination_reset = {
+	set_variable = {
+		name = fodlan_pagination
+		value = 0
+	}
+}
+
+fodlan_pagination_calculate_indices = {
+	set_variable = {
+		name = fodlan_pagination_first_index
+		value = 1
+	}
+	set_variable = {
+		name = fodlan_pagination_second_index
+		value = 2
+	}
+	set_variable = {
+		name = fodlan_pagination_third_index
+		value = 3
+	}
+	set_variable = {
+		name = fodlan_pagination_fourth_index
+		value = 4
+	}
+	set_variable = {
+		name = fodlan_pagination_offset
+		value = 4
+	}
+	change_variable = {
+		name = fodlan_pagination_offset
+		multiply = var:fodlan_pagination
+	}
+	change_variable = {
+		name = fodlan_pagination_first_index
+		add = var:fodlan_pagination_offset
+	}
+	change_variable = {
+		name = fodlan_pagination_second_index
+		add = var:fodlan_pagination_offset
+	}
+	change_variable = {
+		name = fodlan_pagination_third_index
+		add = var:fodlan_pagination_offset
+	}
+	change_variable = {
+		name = fodlan_pagination_fourth_index
+		add = var:fodlan_pagination_offset
+	}
+}

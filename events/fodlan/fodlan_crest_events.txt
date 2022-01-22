@@ -13,8 +13,8 @@ FOD_crests.001 = { #Improved crest system
 
 	trigger = {
 		OR = {
-			mother = { has_crest_potential = yes }
-			real_father = { has_crest_potential = yes }
+			mother = { fodlan_has_crest_potential = yes }
+			real_father = { fodlan_has_crest_potential = yes }
 		}
 	}
 	
@@ -1374,7 +1374,7 @@ FOD_crests.002 = { #stress increase for zealous/ambitious parents if child has n
 	desc = FOD_crests.002.desc
 	theme = pregnancy
 	
-	trigger = { has_crest_potential = no }
+	trigger = { fodlan_has_crest_potential = no }
 
 	option = {
 		name = FOD_crests.002.a
@@ -1801,10 +1801,10 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 		}
 		AND = {
 			mother = { 
-				has_crest_potential = no 
+				fodlan_has_crest_potential = no 
 			}
 			real_father = { 
-				has_crest_potential = no 
+				fodlan_has_crest_potential = no 
 			}
 		}
 		
@@ -1814,7 +1814,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 		if = { #FODLAN
 			limit = {
 				exists = dynasty
-				dynasty = { any_dynasty_member = { has_crest_potential = yes } }
+				dynasty = { any_dynasty_member = { fodlan_has_crest_potential = yes } }
 				has_culture_group = culture_group:fodlan_group
 			}
 			random = {

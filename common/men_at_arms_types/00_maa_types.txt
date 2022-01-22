@@ -123,6 +123,7 @@ fighter = {
 	stack = 100
 	icon = axe_1
 }
+
 cavalier = {
 	type = light_cav
 	

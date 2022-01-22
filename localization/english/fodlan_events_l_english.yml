@@ -54,3 +54,5 @@
  FOD_formation.2.desc.emperor:0 ""
  FOD_formation.2.desc.others:0 ""
  FOD_formation.2.a:0 "How convenient..."
+ fodlan.next: "-->"
+ fodlan.previous: "<--"

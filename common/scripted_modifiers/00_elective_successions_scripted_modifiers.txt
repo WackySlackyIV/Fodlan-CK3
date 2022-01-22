@@ -3207,14 +3207,14 @@ elector_voting_pattern_alliance_elective_modifier = {
 		desc = tooltip_alliance_vote_crest
 		NOT = { this = scope:candidate } #Do not judge yourself.
 		scope:candidate = {
-			has_crest = yes
+			fodlan_has_crest = yes
 		}
 		add = {
 			value = 0
 			if = {
 				limit = {
 					scope:candidate = { 
-						has_minor_crest = yes
+						fodlan_minor_crest = yes
 						NOT = { 
 							OR = {
 								has_trait = crest_riegan
@@ -3228,7 +3228,7 @@ elector_voting_pattern_alliance_elective_modifier = {
 			if = {
 				limit = {
 					scope:candidate = { 
-						has_major_crest = yes
+						fodlan_major_crest = yes
 						NOT = { 
 							OR = {
 								has_trait = crest_riegan
