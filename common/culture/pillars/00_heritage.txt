@@ -1,0 +1,39 @@
+﻿heritage_brigid = {
+	type = heritage
+}
+
+heritage_fodlan = {
+	type = heritage
+}
+
+heritage_kotesh = {
+	type = heritage
+}
+
+heritage_laguz = {
+	type = heritage
+}
+
+heritage_mihran = {
+	type = heritage
+}
+
+heritage_morfis = {
+	type = heritage
+}
+
+heritage_duscur = {
+	type = heritage
+}
+
+heritage_sreng = {
+	type = heritage
+}
+
+heritage_albinea = {
+	type = heritage
+}
+
+heritage_slither = {
+	type = heritage
+}

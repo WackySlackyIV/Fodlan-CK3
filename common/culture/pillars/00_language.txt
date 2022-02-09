@@ -1,0 +1,215 @@
+﻿language_brigidan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_brigidan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_brigidan }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_fodlanese = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_fodlanese
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_fodlanese }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_koteshi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_koteshi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_koteshi }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_laguzzi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_laguzzi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_laguzzi }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_mihrani = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mihrani
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mihrani }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_morfese = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_morfese
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_morfese }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_duscran = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_duscran
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_duscran }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_srengi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_srengi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_srengi }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_nuadan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_nuadan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nuadan }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_albinean = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_albinean
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_albinean }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_reqonese = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_reqonese
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_reqonese }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_slithers = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_slithers
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_slithers }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
