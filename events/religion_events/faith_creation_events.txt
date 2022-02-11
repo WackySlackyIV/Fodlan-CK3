@@ -386,7 +386,16 @@ faith_creation.1001 = {
 			triggered_desc = {
 				trigger = {
 					scope:reformed_faith = {
+						OR = {
 						has_doctrine = doctrine_pluralism_pluralistic
+							AND = {
+								has_doctrine = doctrine_pluralism_righteous
+								OR = {
+									has_doctrine = tenet_tax_nonbelievers
+									has_doctrine = tenet_adaptive
+								}
+							}
+						}
 					}
 				}
 				desc = faith_creation.1001.desc.outlook.accepting
@@ -668,7 +677,10 @@ faith_creation.1010 = {
 				save_scope_as = HoF
 			}
 			show_as_tooltip = {
-				change_fervor = major_fervor_gain
+				change_fervor = {
+					value = major_fervor_gain
+					desc = fervor_gain_recreated_hof
+				}
 			}
 		}
 	}

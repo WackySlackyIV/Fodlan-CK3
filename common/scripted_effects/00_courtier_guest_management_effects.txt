@@ -2,10 +2,46 @@
 #fallback_move_to_pool_effect
 #select_and_move_to_pool_effect - Use this to move courtiers/guests to pool
 
+select_fallback_pool_to_move_to_effect = {
+	# We early out on cheap triggers like is landed and hard blockers before doing expensive ones like getting the capital
+	if = {
+		limit = {
+			any_independent_ruler = {
+				is_landed = yes
+			}
+		}
+		random_independent_ruler = {
+			limit = {
+				is_landed = yes
+				NOT = { this = scope:mover.host }
+				OR = {
+					culture = { has_same_culture_heritage = scope:mover.culture }
+					faith = scope:mover.faith
+				}
+				faith = {
+					faith_hostility_level = {
+						target = scope:mover.faith
+						value < faith_evil_level
+					}
+				}
+				capital_province = { local_pool_is_full_trigger = no }
+			}
+			alternative_limit = {
+				is_landed = yes
+				NOT = { this = scope:mover.host }
+			}
+			alternative_limit = { is_landed = yes }
+			capital_province = { save_scope_as = destination }
+		}
+	}
+	else = {
+		scope:mover.host.capital_province = { save_scope_as = destination }
+	}
+}
+
 
 fallback_move_to_pool_effect = {
 	save_temporary_scope_as = mover
-
 	if = {
 		limit = { exists = host }
 		set_variable = {
@@ -22,39 +58,7 @@ fallback_move_to_pool_effect = {
 		}
 	}
 
-	if = {
-		limit = {
-			any_independent_ruler = {
-				exists = capital_province
-			}
-		}
-		random_independent_ruler = {
-			limit = {
-				exists = capital_province
-				capital_province = { local_pool_is_full_trigger = no }
-				OR = {
-					has_same_culture_group_as = scope:mover
-					faith = scope:mover.faith
-				}
-				faith = {
-					faith_hostility_level = {
-						target = scope:mover.faith
-						value < faith_evil_level
-					}
-				}
-				NOT = { this = scope:mover.host }
-			}
-			alternative_limit = {
-				exists = capital_province
-				NOT = { this = scope:mover.host }
-			}
-			alternative_limit = { exists = capital_province }
-			capital_province = { save_scope_as = destination }
-		}
-	}
-	else = {
-		host.capital_province = { save_scope_as = destination }
-	}
+	select_fallback_pool_to_move_to_effect = yes
 	
 	every_traveling_family_member = {
 		limit = {
@@ -64,16 +68,7 @@ fallback_move_to_pool_effect = {
 	}
 }
 
-
-select_and_move_to_pool_effect = {
-	save_temporary_scope_as = mover
-	###TOOLTIP FOR HOST###
-	show_as_tooltip = {
-		host = {
-			remove_courtier_or_guest = scope:mover
-		}
-	}
-	hidden_effect = {
+select_pool_to_move_to_effect = {
 		###CLAIMANT HANDLING###
 		if = {
 			limit = { any_claim = { tier <= tier_kingdom } }
@@ -358,11 +353,31 @@ select_and_move_to_pool_effect = {
 			}
 		}
 
+	if = {
+		limit = {
+			OR = {
+				NOT = { exists = scope:destination }
+				exists = scope:fallback_effect
+			}
+		}
+
+		select_fallback_pool_to_move_to_effect = yes
+	}
+}
+
+move_to_pool_effect = {
+	save_temporary_scope_as = mover
+	###TOOLTIP FOR HOST###
+	show_as_tooltip = {
+		host = {
+			remove_courtier_or_guest = scope:mover
+		}
+	}
+
 		###MOVE OR FIND FALLBACK DESTINATION###
 		if = {
 			limit = {
 				exists = scope:destination
-				NOT = { exists = scope:fallback_effect }
 			}
 			set_variable = {
 				name = last_visited_ruler
@@ -385,10 +400,13 @@ select_and_move_to_pool_effect = {
 				move_to_pool_at = scope:destination
 			}
 		}
-		else = {
-			fallback_move_to_pool_effect = yes
-		}
-	}
+}
+
+select_and_move_to_pool_effect = {
+	save_temporary_scope_as = mover
+
+	hidden_effect = { select_pool_to_move_to_effect = yes }
+	move_to_pool_effect = yes
 }
 
 courtier_guest_pool_character_secret_giving_effect = {
@@ -491,6 +509,7 @@ pool_character_development_effect = {
 	# Get an interesting trait
 	# Get a secret
 	# Kill someone
+	# Learn a language
 
 	save_temporary_scope_as = pool_character
 
@@ -560,10 +579,11 @@ pool_character_development_effect = {
 				can_marry_trigger = yes
 				is_concubine = no
 				is_lowborn = no
-				#The triggers below are here to avoid low fertility marriages
+				#The triggers below are here to avoid low fertility marriages (in most cases)
 				OR = {
 					has_sexuality = heterosexual
 					has_sexuality = bisexual
+					allowed_to_marry_same_sex_trigger = yes
 				}
 				NOR = {
 					has_trait = celibate
@@ -579,7 +599,7 @@ pool_character_development_effect = {
 					exists = scope:pool_character.location
 					any_pool_character = {
 						province = scope:pool_character.location
-						sex_opposite_of = scope:pool_character
+						allowed_to_marry_character_gender_trigger = { CHARACTER = scope:pool_character }
 						is_physically_able_adult = yes
 						age <= 40
 						is_married = no
@@ -591,7 +611,7 @@ pool_character_development_effect = {
 				random_pool_character = {
 					province = scope:pool_character.location
 					limit = {
-						sex_opposite_of = scope:pool_character
+						allowed_to_marry_character_gender_trigger = { CHARACTER = scope:pool_character }
 						is_physically_able_adult = yes
 						age <= 40
 						is_married = no
@@ -605,7 +625,7 @@ pool_character_development_effect = {
 			else = {
 				create_character = {
 					location = scope:template.location
-					opposite_gender = scope:template
+					gender_female_chance = scope:template.marriage_gender_adjusted_female_chance
 					template = pool_repopulate_spouse
 					save_temporary_scope_as = spouse
 				}
@@ -672,6 +692,10 @@ pool_character_development_effect = {
 						has_trait = lifestyle_reveler
 						factor = 5
 					}
+					modifier = {
+						culture = { has_cultural_parameter = reveler_traits_more_common }
+						factor = 5
+					}
 					change_trait_rank = {
 						trait = lifestyle_reveler
 						rank = 1
@@ -686,6 +710,12 @@ pool_character_development_effect = {
 					modifier = {
 						has_trait = lifestyle_blademaster
 						factor = 5
+					}
+					modifier = {
+						factor = 3
+						culture = {
+							has_cultural_parameter = blademaster_traits_more_common
+						}
 					}
 					modifier = {
 						NOT = { can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character } }
@@ -708,6 +738,10 @@ pool_character_development_effect = {
 						has_trait = lifestyle_hunter
 						factor = 5
 					}
+					modifier = {
+						culture = { has_cultural_parameter = hunting_traits_more_common }
+						factor = 5
+					}
 					change_trait_rank = {
 						trait = lifestyle_hunter
 						rank = 1
@@ -722,6 +756,10 @@ pool_character_development_effect = {
 					modifier = {
 						has_trait = lifestyle_physician
 						factor = 5
+					}
+					modifier = {
+						culture = { has_cultural_tradition = tradition_medicinal_plants }
+						factor = 2
 					}
 					change_trait_rank = {
 						trait = lifestyle_physician
@@ -746,6 +784,10 @@ pool_character_development_effect = {
 						is_witch_trigger = yes
 						factor = 3
 					}
+					modifier = {
+						culture = { has_cultural_parameter = mystic_trait_more_common }
+						factor = 5
+					}
 					change_trait_rank = {
 						trait = lifestyle_mystic
 						rank = 1
@@ -765,7 +807,22 @@ pool_character_development_effect = {
 						is_witch_trigger = yes
 						factor = 3
 					}
+					modifier = {
+						culture = { has_cultural_parameter = herbalist_traits_more_common }
+						factor = 5
+					}
 					add_trait = lifestyle_herbalist
+				}
+				50 = { #GARDENER
+					trigger = {
+						NOT = { has_trait = lifestyle_gardener }
+						stewardship >= decent_skill_rating
+					}
+					modifier = {
+						culture = { has_cultural_parameter = can_appoint_court_gardener }
+						factor = 5
+					}
+					add_trait = lifestyle_gardener
 				}
 			}
 		}
@@ -918,8 +975,208 @@ pool_character_development_effect = {
 
 			courtier_guest_pool_character_secret_giving_effect = yes
 		}
+
+		# Learn a language
+		30 = {
+			trigger = {
+				exists = location.county.culture
+				learning >= 8
+				num_of_known_languages < language_soft_cap
+				NOT = {
+					knows_language_of_culture = location.county.culture
+				}
+			}
+			learn_language_of_culture = location.county.culture
+		}
 	} #RANDOM_LIST ENDS HERE
 	
+	# Certain characters learn languages very often
+	if = {
+		limit = {
+			OR = {
+				has_trait = scholar
+				culture = {
+					has_cultural_parameter = wanderers_learn_languages
+				}
+			}
+			num_of_known_languages < language_soft_cap
+			exists = location.county.culture
+			NOT = {
+				knows_language_of_culture = location.county.culture
+			}
+		}
+		random = {
+			chance = {
+				value = 20
+				if = {
+					limit = {
+						culture = {
+							has_cultural_parameter = wanderers_learn_languages
+						}
+					}
+					add = 50
+				}
+			}
+			learn_language_of_culture = location.county.culture
+		}
+	}
+	
+	# Cultural Traditions
+	if = { # blademaster_traits_more_common
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			culture = {
+				has_cultural_parameter = blademaster_traits_more_common
+			}
+		}
+		random = {
+			chance = 20
+			blademaster_lifestyle_rank_up_effect = yes
+		}
+	}
+	if = { # wanderers_gain_extra_combat_skills
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			culture = {
+				has_cultural_parameter = wanderers_gain_extra_combat_skills
+			}
+		}
+		random_list = {
+			10 = {
+				blademaster_lifestyle_rank_up_effect = yes
+			}
+			10 = {
+				wanderer_give_random_commander_trait_effect = yes
+			}
+			20 = {
+				add_prowess_skill = 1
+			}
+			10 = {
+				add_prowess_skill = 2
+			}
+			20 = {
+				add_martial_skill = 1
+			}
+			10 = {
+				add_martial_skill = 2
+			}
+			20 = {}
+		}
+	}
+	if = { # wanderers_gain_extra_economic_skills
+		limit = {
+			is_adult = yes
+			culture = {
+				has_cultural_parameter = wanderers_gain_extra_economic_skills
+			}
+		}
+		random_list = {
+			20 = {
+				wanderer_give_random_economic_trait_effect = yes
+			}
+			30 = {
+				add_stewardship_skill = 1
+			}
+			10 = {
+				add_stewardship_skill = 2
+			}
+			40 = {
+				add_gold = 50
+			}
+		}
+	}
+	
+	
+	# Cultural Traditions
+	if = {
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			has_education_martial_trigger = yes
+			culture = {
+				has_cultural_parameter = winter_soldier_trait_more_common
+			}
+			NOT = {
+				has_trait = winter_soldier
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = winter_soldier
+		}
+	}
+	if = {
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			has_education_martial_trigger = yes
+			culture = {
+				has_cultural_parameter = forest_fighter_trait_more_common
+			}
+			NOT = {
+				has_trait = forest_fighter
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = forest_fighter
+		}
+	}
+	if = {
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			has_education_martial_trigger = yes
+			culture = {
+				has_cultural_parameter = rough_terrain_expert_trait_more_common
+			}
+			NOT = {
+				has_trait = rough_terrain_expert
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = rough_terrain_expert
+		}
+	}
+	if = {
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			has_education_martial_trigger = yes
+			culture = {
+				has_cultural_parameter = desert_warrior_trait_more_common
+			}
+			NOT = {
+				has_trait = desert_warrior
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = desert_warrior
+		}
+	}
+	if = {
+		limit = {
+			is_adult = yes
+			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:pool_character }
+			has_education_martial_trigger = yes
+			culture = {
+				has_cultural_parameter = jungle_stalker_trait_more_common
+			}
+			NOT = {
+				has_trait = jungle_stalker
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = jungle_stalker
+		}
+	}
+	
+	# Spend any excess gold to avoid having ultra-rich characters floating around
 	while = {
 		limit = {
 			gold >= 1000
@@ -1032,6 +1289,7 @@ pool_character_development_effect = {
 					OR = {
 						has_sexuality = heterosexual
 						has_sexuality = bisexual
+						allowed_to_marry_same_sex_trigger = yes
 					}
 					NOR = {
 						has_trait = celibate
@@ -1047,7 +1305,7 @@ pool_character_development_effect = {
 						exists = scope:pool_character.location
 						any_pool_character = {
 							province = scope:pool_character.location
-							sex_opposite_of = scope:pool_character
+							allowed_to_marry_character_gender_trigger = { CHARACTER = scope:pool_character }
 							is_physically_able_adult = yes
 							age <= 40
 							is_married = no
@@ -1059,7 +1317,7 @@ pool_character_development_effect = {
 					random_pool_character = {
 						province = scope:pool_character.location
 						limit = {
-							sex_opposite_of = scope:pool_character
+							allowed_to_marry_character_gender_trigger = { CHARACTER = scope:pool_character }
 							is_physically_able_adult = yes
 							age <= 40
 							is_married = no
@@ -1073,7 +1331,7 @@ pool_character_development_effect = {
 				else = {
 					create_character = {
 						location = scope:template.location
-						opposite_gender = scope:template
+						gender_female_chance = scope:template.marriage_gender_adjusted_female_chance
 						template = pool_repopulate_spouse
 						save_temporary_scope_as = spouse
 					}
@@ -1096,6 +1354,95 @@ pool_character_development_effect = {
 				add_prestige = minor_prestige_value
 				remove_short_term_gold = 500
 			}
+		}
+	}
+}
+
+wanderer_give_random_commander_trait_effect = {
+	random_list = {
+		100 = {
+			trigger = { NOT = { has_trait = logistician } }
+			add_trait = logistician
+		}
+		100 = {
+			trigger = { NOT = { has_trait = military_engineer } }
+			add_trait = military_engineer
+		}
+		100 = {
+			trigger = { NOT = { has_trait = aggressive_attacker } }
+			add_trait = aggressive_attacker
+		}
+		100 = {
+			trigger = { NOT = { has_trait = unyielding_defender } }
+			add_trait = unyielding_defender
+		}
+		100 = {
+			trigger = { NOT = { has_trait = forder } }
+			add_trait = forder
+		}
+		100 = {
+			trigger = { NOT = { has_trait = flexible_leader } }
+			add_trait = flexible_leader
+		}
+		100 = {
+			trigger = {
+				NOT = { has_trait = desert_warrior }
+				location = {
+					terrain = desert
+				}
+			}
+			add_trait = desert_warrior
+		}
+		100 = {
+			trigger = {
+				NOT = { has_trait = jungle_stalker }
+				location = {
+					terrain = jungle
+				}
+			}
+			add_trait = jungle_stalker
+		}
+		100 = {
+			trigger = {
+				NOT = { has_trait = winter_soldier }
+				location = {
+					terrain = taiga
+				}
+			}
+			add_trait = winter_soldier
+		}
+		100 = {
+			trigger = { NOT = { has_trait = reaver } }
+			add_trait = reaver
+		}
+		100 = {
+			trigger = { NOT = { has_trait = reckless } }
+			add_trait = reckless
+		}
+		100 = {
+			trigger = { NOT = { has_trait = holy_warrior } }
+			add_trait = holy_warrior
+		}
+	}
+}
+
+wanderer_give_random_economic_trait_effect = {
+	random_list = {
+		100 = {
+			trigger = { NOT = { has_trait = architect } }
+			add_trait = architect
+		}
+		100 = {
+			trigger = { NOT = { has_trait = administrator } }
+			add_trait = administrator
+		}
+		100 = {
+			trigger = { NOT = { has_trait = avaricious } }
+			add_trait = avaricious
+		}
+		100 = {
+			trigger = { NOT = { has_trait = lifestyle_gardener } }
+			add_trait = lifestyle_gardener
 		}
 	}
 }

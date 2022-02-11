@@ -8,64 +8,36 @@
 }
 
 KnightCulturePlural = {
-	type = character
-
-	text = {
-		localization_key = knight_default_plural
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_plural"
 }
 
 KnightCultureNoTooltip = {
-	type = character
-
-	text = {
-		localization_key = knight_default_no_tooltip
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip"
 }
 
 KnightCulturePluralNoTooltip = {
-	type = character
-
-	text = {
-		localization_key = knight_default_no_tooltip_plural
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_plural"
 }
 
 KnightCultureNoTooltipLowercase = {
-	type = character
-
-	text = {
-		localization_key = knight_default_no_tooltip_lowercase
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase"
 }
 
 KnightCulturePluralNoTooltipLowercase = {
-	type = character
-
-	text = {
-		localization_key = knight_default_no_tooltip_lowercase_plural
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase_plural"
 }
 
 KnightCulturePluralPossessiveNoTooltipLowercase = {
-	type = character
-
-	text = {
-		localization_key = knight_default_no_tooltip_lowercase_plural_possessive
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase_plural_possessive"
 }
 
 KnightCultureAdjectiveNoTooltipLowercase = {
-	type = character
-
-	text = {
-		localization_key = knight_default_no_tooltip_lowercase_adjective
-		fallback = yes
-	}
+	parent = KnightCulture
+	suffix = "_no_tooltip_lowercase_adjective"
 }

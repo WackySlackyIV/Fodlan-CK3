@@ -8,10 +8,7 @@ tribe_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"western_castle_tribal_01_a_mesh"
-			"western_castle_tribal_01_b_mesh"
-			"western_castle_tribal_01_c_mesh"
-			"western_castle_tribal_01_d_mesh"
+			building_western_tribal_01_a_mesh
 		}
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
@@ -36,6 +33,18 @@ tribe_01 = {
 		fort_level = 1
 	}
 	
+	province_terrain_modifier = {
+		parameter = tribal_holding_fort_level_in_jungle_bonus
+		terrain = jungle
+		additional_fort_level = tribal_holding_fort_level_in_jungle_bonus_value
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_holdings_give_defensive_bonus
+		is_coastal = yes
+		defender_holding_advantage = 2
+	}
+	
 	next_building = tribe_02
 
 	type_icon = "icon_building_longhouses.dds"
@@ -51,11 +60,11 @@ tribe_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"western_castle_tribal_01_a_mesh"
-			"western_castle_tribal_01_b_mesh"
-			"western_castle_tribal_01_c_mesh"
-			"western_castle_tribal_01_d_mesh"
+			building_western_tribal_01_a_mesh
 		}
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -68,7 +77,6 @@ tribe_02 = {
 	can_construct_showing_failures_only = {
 		scope:holder = {
 			culture = { has_innovation = innovation_plenary_assemblies }
-			has_government = tribal_government
 		}
 	}
 	
@@ -83,6 +91,18 @@ tribe_02 = {
 		fort_level = 2
 	}
 	
+	province_terrain_modifier = {
+		parameter = tribal_holding_fort_level_in_jungle_bonus
+		terrain = jungle
+		additional_fort_level = tribal_holding_fort_level_in_jungle_bonus_value
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_holdings_give_defensive_bonus
+		is_coastal = yes
+		defender_holding_advantage = 3
+	}
+	
 	ai_value = {
 		base = 1
 	}
@@ -93,16 +113,10 @@ longhouses_01 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
 	}
-	can_construct_showing_failures_only = {
-		scope:holder = {
-			has_government = tribal_government
-		}
-	}	
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
@@ -130,7 +144,6 @@ longhouses_02 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
@@ -138,7 +151,6 @@ longhouses_02 = {
 	can_construct_showing_failures_only = {
 		scope:holder = {
 			culture = { has_innovation = innovation_barracks }
-			has_government = tribal_government
 		}
 	}
 	
@@ -166,15 +178,9 @@ war_camps_01 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
-	}
-	can_construct_showing_failures_only = {
-		scope:holder = {
-			has_government = tribal_government
-		}
 	}
 	
 	cost_prestige = expensive_building_tier_1_cost
@@ -185,6 +191,10 @@ war_camps_01 = {
 	character_modifier = {
 		knight_limit = 1
 		knight_effectiveness_mult = 0.1
+		swords_damage_mult = 0.04
+		swords_toughness_mult = 0.02
+		axes_damage_mult = 0.04
+		axes_toughness_mult = 0.02
 	}
 	
 	next_building = war_camps_02
@@ -201,7 +211,6 @@ war_camps_02 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
@@ -209,7 +218,6 @@ war_camps_02 = {
 	can_construct_showing_failures_only = {
 		scope:holder = {
 			culture = { has_innovation = innovation_barracks }
-			has_government = tribal_government
 		}
 	}	
 	
@@ -221,6 +229,10 @@ war_camps_02 = {
 	character_modifier = {
 		knight_limit = 2
 		knight_effectiveness_mult = 0.2
+		swords_damage_mult = 0.08
+		swords_toughness_mult = 0.04
+		axes_damage_mult = 0.08
+		axes_toughness_mult = 0.04
 	}
 	
 	ai_value = {
@@ -235,16 +247,10 @@ palisades_01 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
 	}
-	can_construct_showing_failures_only = {
-		scope:holder = {
-			has_government = tribal_government
-		}
-	}	
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
@@ -254,6 +260,13 @@ palisades_01 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_1
 		fort_level = normal_building_fort_level_tier_1
+	}
+	
+	character_modifier = {
+		bows_damage_mult = 0.04
+		bows_toughness_mult = 0.02
+		lances_damage_mult = 0.04
+		lances_toughness_mult = 0.02
 	}
 	
 	next_building = palisades_02
@@ -270,7 +283,6 @@ palisades_02 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
@@ -278,7 +290,6 @@ palisades_02 = {
 	can_construct_showing_failures_only = {
 		scope:holder = {
 			culture = { has_innovation = innovation_motte }
-			has_government = tribal_government
 		}
 	}	
 	
@@ -290,6 +301,13 @@ palisades_02 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_2
 		fort_level = normal_building_fort_level_tier_2
+	}
+	
+	character_modifier = {
+		bows_damage_mult = 0.08
+		bows_toughness_mult = 0.04
+		lances_damage_mult = 0.08
+		lances_toughness_mult = 0.04
 	}
 	
 	ai_value = {
@@ -304,16 +322,10 @@ market_villages_01 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
 	}
-	can_construct_showing_failures_only = {
-		scope:holder = {
-			has_government = tribal_government
-		}
-	}	
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
@@ -337,7 +349,6 @@ market_villages_02 = {
 
 	is_enabled = {
 		building_requirement_tribal = yes
-		always = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
@@ -345,7 +356,6 @@ market_villages_02 = {
 	can_construct_showing_failures_only = {
 		scope:holder = {
 			culture = { has_innovation = innovation_city_planning }
-			has_government = tribal_government
 		}
 	}	
 	

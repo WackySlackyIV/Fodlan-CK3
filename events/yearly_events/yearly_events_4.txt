@@ -142,6 +142,7 @@ yearly.4001 = {
 		NOT = { has_character_flag = had_event_yearly_4001 }
 		is_ai = no
 		any_vassal = {
+			is_adult = yes
 			is_powerful_vassal = yes
 			basic_is_available_ai = yes
 			add_to_temporary_list = potential_vassal
@@ -187,6 +188,7 @@ yearly.4001 = {
 		}
 		every_vassal = {
 			limit = {
+				is_adult = yes
 				is_powerful_vassal = yes
 				basic_is_available_ai = yes
 			}
@@ -652,16 +654,10 @@ scripted_trigger yearly_4011_potential_plot_conditions_trigger = {
 	}
 	NOR = {
 		scope:heir = {
-			any_scheme = {
-				scheme_type = murder
-				scheme_target = root
-			}
+			is_scheming_against = { target = root type = murder }
 		}
 		scope:vassal = {
-			any_scheme = {
-				scheme_type = murder
-				scheme_target = root
-			}
+			is_scheming_against = { target = root type = murder }
 		}
 	}
 	OR = {
@@ -1155,6 +1151,9 @@ yearly.4014 = {
 			scope:heir = {
 				if = {
 					limit = {
+						scope:murder_friends_scheme = {
+							NOT = { scheme_is_character_agent = prev }
+						}
 						is_valid_as_agent_in_scheme = scope:murder_friends_scheme
 					}
 					force_add_to_scheme = {
@@ -1189,6 +1188,9 @@ yearly.4014 = {
 			scope:vassal = {
 				if = {
 					limit = {
+						scope:murder_friends_scheme = {
+							NOT = { scheme_is_character_agent = prev }
+						}
 						is_valid_as_agent_in_scheme = scope:murder_friends_scheme
 					}
 					force_add_to_scheme = {
@@ -2086,6 +2088,7 @@ yearly.4051 = {
 	
 	trigger = {
 		NOT = { has_character_flag = had_event_yearly_4051 }
+		highest_held_title_tier >= tier_county
 		any_neighboring_realm_same_rank_owner = {
 			is_ai = yes
 			NOR = {

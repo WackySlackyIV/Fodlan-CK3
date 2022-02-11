@@ -10,7 +10,6 @@
 # CAT
 #start_cat_story_cycle_effect
 #assign_name_options_cat_story_cycle_effect
-#clear_name_options_cat_story_cycle_effect
 #assign_cat_gender_effect
 #assign_cat_fur_color_effect
 #assign_cat_eye_color_effect
@@ -20,7 +19,6 @@
 #DOG
 #start_dog_story_cycle_effect
 #assign_name_options_dog_story_cycle_effect
-#clear_name_options_dog_story_cycle_effect
 #assign_dog_gender_effect
 #assign_dog_fur_color_effect
 #assign_dog_eye_color_effect
@@ -64,6 +62,10 @@ assign_name_options_cat_story_cycle_effect = {
 		1 = {
 			trigger = { NOT = { has_character_flag = name_paws } }
 			add_character_flag = name_paws
+		}
+		1 = {
+			trigger = { NOT = { has_character_flag = name_mittens } }
+			add_character_flag = name_mittens
 		}
 		10 = {
 			trigger = {
@@ -289,6 +291,12 @@ remove_cat_story_modifiers_effect = {
 			remove_character_modifier = cat_story_allergy_modifier
 		}
 	}
+	if = {
+		limit = {
+			has_character_modifier = rat_hunting_cat_modifier
+		}
+		remove_character_modifier = rat_hunting_cat_modifier
+	}
 }
 
 remove_cat_name_effect = {
@@ -307,9 +315,14 @@ transfer_cat_story_cycle_to_effect = {
 			name = story_cycle_cat_name
 			value = $STORY$.var:story_cycle_cat_name
 		}
+		if = {
+			limit = {
+				scope:original_owner = { is_alive = yes }
+			}
 		copy_localized_text = {
 			key = story_cycle_cat_name
 			target = scope:original_owner
+		}
 		}
 		add_character_modifier = {
 			modifier = cat_story_modifier
@@ -554,6 +567,12 @@ remove_dog_story_modifiers_effect = {
 		}
 		remove_character_modifier = dog_story_walking_modifier
 	}
+	if = {
+		limit = {
+			has_character_modifier = rat_hunting_dog_modifier
+		}
+		remove_character_modifier = rat_hunting_dog_modifier
+	}
 }
 
 remove_dog_name_effect = {
@@ -572,9 +591,14 @@ transfer_dog_story_cycle_to_effect = {
 			name = story_cycle_dog_name
 			value = $STORY$.var:story_cycle_dog_name
 		}
+		if = {
+			limit = {
+				scope:original_owner = { is_alive = yes }
+			}
 		copy_localized_text = {
 			key = story_cycle_dog_name
 			target = scope:original_owner
+		}
 		}
 		add_character_modifier = {
 			modifier = dog_story_modifier
@@ -818,6 +842,10 @@ level_horse_modifier_effect = {
 				}
 			}
 		}
+		set_variable = {
+			name = warhorse_modifier_level
+			value = 2 #In case we want to add more levels later
+		}
 	}
 	else_if = {
 		limit = {
@@ -949,5 +977,11 @@ remove_horse_story_modifiers_effect = {
 			has_character_modifier = horse_fierceness_fierceness_modifier
 		}
 		remove_character_modifier = horse_fierceness_fierceness_modifier
+	}
+	if = {
+		limit = {
+			exists = var:warhorse_modifier_level
+		}
+		remove_variable = warhorse_modifier_level
 	}
 }

@@ -1,7 +1,7 @@
 ﻿debug_make_hate_me_interaction = {
 	category = interaction_debug_main
 	common_interaction = yes
-
+	icon = debug_bad
 
 	auto_accept = yes
 	use_diplomatic_range = no
@@ -9,6 +9,9 @@
 	
 	is_shown = {
 		debug_only = yes
+		NOT = {
+			scope:recipient = scope:actor
+		}
 	}
 	
 	on_accept = {
@@ -25,6 +28,7 @@
 debug_make_love_me_interaction = {
 	category = interaction_debug_main
 	common_interaction = yes
+	icon = debug_good
 
 
 	auto_accept = yes
@@ -33,6 +37,9 @@ debug_make_love_me_interaction = {
 	
 	is_shown = {
 		debug_only = yes
+		NOT = {
+			scope:recipient = scope:actor
+		}
 	}
 	
 	on_accept = {
@@ -56,6 +63,7 @@ debug_make_like_me_interaction = {
 	
 	is_shown = {
 		debug_only = yes
+		always = no
 	}
 
 	on_accept = {
@@ -79,6 +87,7 @@ debug_make_dislike_me_interaction = {
 	
 	is_shown = {
 		debug_only = yes
+		always = no
 	}
 
 	on_accept = {
@@ -107,6 +116,7 @@ make_lover_interaction = {
 				has_relation_lover = scope:recipient
 			}
 		}
+		always = no
 	}
 	
 	auto_accept = yes
@@ -133,6 +143,7 @@ make_soulmate_interaction = {
 				has_relation_soulmate = scope:recipient
 			}
 		}
+		always = no
 	}
 
 	auto_accept = yes
@@ -161,6 +172,7 @@ make_rival_interaction = {
 				}
 			}
 		}
+		always = no
 	}
 
 	auto_accept = yes
@@ -168,6 +180,33 @@ make_rival_interaction = {
 	on_accept = {
 		scope:actor = {
 			set_relation_rival = scope:recipient
+		}
+	}
+}
+
+make_nemesis_interaction = {
+	category = interaction_debug_main
+	
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		debug_only = yes
+		NOT = { scope:recipient = scope:actor }
+		scope:actor = { has_relation_rival = scope:recipient }
+		NOT = {
+			scope:actor = {
+				has_relation_nemesis = scope:recipient
+			}
+		}
+		always = no
+	}
+
+	auto_accept = yes
+
+	on_accept = {
+		scope:actor = {
+			set_relation_nemesis = scope:recipient
 		}
 	}
 }
@@ -212,6 +251,7 @@ make_friend_interaction = {
 				}
 			}
 		}
+		always = no
 	}
 
 	auto_accept = yes
@@ -228,9 +268,20 @@ learn_secrets_interaction = {
 	
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
+	common_interaction = yes
+	icon = icon_discovered_scheme
+	interface_priority = -3
 
 	is_shown = {
 		debug_only = yes
+		
+		scope:recipient = {
+			any_secret = {
+				NOT = {
+					is_known_by = scope:actor
+				}
+			}
+		}
 	}
 	on_accept = {
 		scope:recipient = {
@@ -272,10 +323,15 @@ take_title_interaction = {
 	
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
+	target_type = title
+	target_filter = recipient_domain_titles
 
 	is_shown = {
 		debug_only = yes
 		scope:recipient = { is_landed = yes }
+		NOT = {
+			scope:recipient = scope:actor
+		}
 	}
 	
 	auto_accept = yes
@@ -287,14 +343,13 @@ take_title_interaction = {
 			add_claim_on_loss = no
 		}
 
-		scope:recipient.primary_title = {
+		scope:target = {
 			change_title_holder = {
 				holder = scope:actor
 				change = scope:change
 			}
 		}
 		resolve_title_and_vassal_change = scope:change
-		
 	}
 }
 
@@ -304,10 +359,16 @@ take_title_and_vassals_interaction = {
 	
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
+	target_type = title
+	target_filter = recipient_domain_titles
+	icon = debug_take_title
 
 	is_shown = {
 		debug_only = yes
 		scope:recipient = { is_landed = yes }
+		NOT = {
+			scope:recipient = scope:actor
+		}
 	}
 	
 	auto_accept = yes
@@ -317,14 +378,112 @@ take_title_and_vassals_interaction = {
 			type = conquest
 			save_scope_as = change
 		}
-		scope:recipient.primary_title = {
+		scope:target = {
 			change_title_holder_include_vassals = {
 				holder = scope:actor
 				change = scope:change
 			}
 		}
 		resolve_title_and_vassal_change = scope:change
+	}
+}
+
+take_domain_interaction = {
+	category = interaction_debug_main
+	
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		debug_only = yes
+		scope:recipient = { is_landed = yes }
+		NOT = {
+			scope:recipient = scope:actor
+		}
+		always = no
+	}
+	
+	auto_accept = yes
+	
+	on_accept = {
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = change
+		}
+		scope:recipient = {
+			every_held_title = {
+			change_title_holder_include_vassals = {
+				holder = scope:actor
+				change = scope:change
+			}
+		}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+}
+
+take_realm_interaction = {
+	category = interaction_debug_main
+	
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	common_interaction = yes
+	
+	icon = grant_titles_interaction
 		
+	is_shown = {
+		debug_only = yes
+		scope:recipient = { is_landed = yes }
+		NOT = {
+			scope:recipient = scope:actor
+		}
+	}
+	
+	auto_accept = yes
+	
+	send_option = {
+		flag = domain
+		localization = take_domain_interaction
+	}
+	send_option = {
+		flag = realm
+		localization = take_realm_interaction
+	}
+	
+	on_accept = {
+		if = {
+			limit = { scope:realm = yes }
+				create_title_and_vassal_change = {
+				type = conquest
+				save_scope_as = change
+			}
+			scope:recipient = {
+				every_sub_realm_title = {
+					limit = { tier > tier_barony }
+					change_title_holder_include_vassals = {
+						holder = scope:actor
+						change = scope:change
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+		else_if = {
+			limit = { scope:domain = yes }
+			create_title_and_vassal_change = {
+				type = conquest
+				save_scope_as = change
+			}
+			scope:recipient = {
+				every_held_title = {
+					change_title_holder_include_vassals = {
+						holder = scope:actor
+						change = scope:change
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
 	}
 }
 
@@ -333,6 +492,7 @@ start_pregnancy_interaction = {
 	
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
+	icon = pregnant
 
 	is_shown = {
 		debug_only = yes
@@ -365,6 +525,7 @@ get_claim_interaction = {
 	
 	use_diplomatic_range = no
 	ignores_pending_interaction_block = yes
+	icon = vassal_claim_liege_title_interaction
 
 	is_shown = {
 		debug_only = yes
@@ -414,6 +575,7 @@ test_dynasty_prestige_interaction = {
 	is_shown = {
 		debug_only = yes
 		scope:recipient = scope:actor
+		always = no
 	}
 	
 	auto_accept = yes
@@ -443,6 +605,7 @@ debug_change_council_task_interaction = {
 	is_shown = {
 		debug_only = yes
 		exists = scope:actor.cp:councillor_spymaster.councillor_task_target
+		always = no
 	}
 	
 	auto_accept = yes
@@ -502,7 +665,7 @@ create_betrothal_interaction = {
 		scope:actor = {
 			is_married = no
 			is_betrothed = no
-			sex_opposite_of = scope:recipient
+			allowed_to_marry_character_gender_trigger = { CHARACTER = scope:recipient }
 			OR = {
 				is_adult = no
 				scope:recipient = { is_adult = no }
@@ -530,4 +693,22 @@ create_betrothal_interaction = {
 			}
 		}
 	}
+}
+
+set_relation_interaction = {
+	category = interaction_debug_main
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+
+	is_shown = {
+		debug_only = yes
+		NOT = { scope:recipient = scope:actor }
+		always = no # deprecated
+	}
+
+	on_accept = {
+		scope:actor = { trigger_event = debug.350 }
+	}
+
+	auto_accept = yes
 }

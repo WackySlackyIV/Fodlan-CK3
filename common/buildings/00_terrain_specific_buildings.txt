@@ -400,10 +400,10 @@ horse_01 = {
 	levy = 10
 
 	character_modifier = {
-		light_horse_damage_mult = 0.01
-		light_horse_toughness_mult = 0.01
-		heavy_horse_damage_mult = 0.01
-		heavy_horse_toughness_mult = 0.01
+		light_cav_damage_mult = 0.01
+		light_cav_toughness_mult = 0.01
+		heavy_cav_damage_mult = 0.01
+		heavy_cav_toughness_mult = 0.01
 		
 		missile_cav_screen_mult = 0.01
 		missile_cav_pursuit_mult = 0.01
@@ -446,15 +446,15 @@ horse_02 = {
 	levy = 25
 
 	character_modifier = {
-		light_horse_damage_mult = 0.02
-		light_horse_toughness_mult = 0.02
-		heavy_horse_damage_mult = 0.02
-		heavy_horse_toughness_mult = 0.02
+		light_cav_damage_mult = 0.02
+		light_cav_toughness_mult = 0.02
+		heavy_cav_damage_mult = 0.02
+		heavy_cav_toughness_mult = 0.02
 		
-		light_horse_pursuit_mult = 0.01
-		light_horse_screen_mult = 0.01
-		heavy_horse_pursuit_mult = 0.01
-		heavy_horse_screen_mult = 0.01
+		light_cav_pursuit_mult = 0.01
+		light_cav_screen_mult = 0.01
+		heavy_cav_pursuit_mult = 0.01
+		heavy_cav_screen_mult = 0.01
 		
 		missile_cav_screen_mult = 0.02
 		missile_cav_pursuit_mult = 0.02
@@ -495,15 +495,15 @@ horse_03 = {
 	levy = 30
 
 	character_modifier = {
-		light_horse_damage_mult = 0.03
-		light_horse_toughness_mult = 0.03
-		heavy_horse_damage_mult = 0.03
-		heavy_horse_toughness_mult = 0.03
+		light_cav_damage_mult = 0.03
+		light_cav_toughness_mult = 0.03
+		heavy_cav_damage_mult = 0.03
+		heavy_cav_toughness_mult = 0.03
 		
-		light_horse_pursuit_mult = 0.02
-		light_horse_screen_mult = 0.02
-		heavy_horse_pursuit_mult = 0.02
-		heavy_horse_screen_mult = 0.02
+		light_cav_pursuit_mult = 0.02
+		light_cav_screen_mult = 0.02
+		heavy_cav_pursuit_mult = 0.02
+		heavy_cav_screen_mult = 0.02
 		
 		missile_cav_screen_mult = 0.03
 		missile_cav_pursuit_mult = 0.03
@@ -544,15 +544,15 @@ horse_04 = {
 	levy = 40
 
 	character_modifier = {
-		light_horse_damage_mult = 0.04
-		light_horse_toughness_mult = 0.04
-		heavy_horse_damage_mult = 0.04
-		heavy_horse_toughness_mult = 0.04
+		light_cav_damage_mult = 0.04
+		light_cav_toughness_mult = 0.04
+		heavy_cav_damage_mult = 0.04
+		heavy_cav_toughness_mult = 0.04
 		
-		light_horse_pursuit_mult = 0.04
-		light_horse_screen_mult = 0.04
-		heavy_horse_pursuit_mult = 0.04
-		heavy_horse_screen_mult = 0.04
+		light_cav_pursuit_mult = 0.04
+		light_cav_screen_mult = 0.04
+		heavy_cav_pursuit_mult = 0.04
+		heavy_cav_screen_mult = 0.04
 		
 		missile_cav_screen_mult = 0.04
 		missile_cav_pursuit_mult = 0.04
@@ -593,7 +593,7 @@ spear_01 = {
 	levy = 10
 
 	character_modifier = {
-		spear_toughness_mult = 0.04
+		lances_toughness_mult = 0.04
 	}
 	
 	next_building = spear_02
@@ -629,8 +629,8 @@ spear_02 = {
 	levy = 30
 
 	character_modifier = {
-		spear_toughness_mult = 0.06
-		spear_damage_mult = 0.02
+		lances_toughness_mult = 0.06
+		lances_damage_mult = 0.02
 	}
 	
 	next_building = spear_03
@@ -664,10 +664,10 @@ spear_03 = {
 	levy = 50
 
 	character_modifier = {
-		spear_toughness_mult = 0.08
-		spear_damage_mult = 0.04
-		spear_pursuit_mult = 0.02
-		spear_screen_mult = 0.02
+		lances_toughness_mult = 0.08
+		lances_damage_mult = 0.04
+		lances_pursuit_mult = 0.02
+		lances_screen_mult = 0.02
 	}
 	
 	
@@ -702,10 +702,10 @@ spear_04 = {
 	levy = 75
 
 	character_modifier = {
-		spear_toughness_mult = 0.12
-		spear_damage_mult = 0.06
-		spear_pursuit_mult = 0.04
-		spear_screen_mult = 0.04
+		lances_toughness_mult = 0.12
+		lances_damage_mult = 0.06
+		lances_pursuit_mult = 0.04
+		lances_screen_mult = 0.04
 	}
 	
 	ai_value = {
@@ -739,7 +739,7 @@ axe_01 = {
 	levy = 10
 
 	character_modifier = {
-		axe_damage_mult = 0.06
+		axes_damage_mult = 0.06
 	}
 	
 	next_building = axe_02
@@ -775,8 +775,8 @@ axe_02 = {
 	levy = 20
 
 	character_modifier = {
-		axe_screen_mult = 0.02
-		axe_damage_mult = 0.1
+		axes_screen_mult = 0.02
+		axes_damage_mult = 0.1
 	}
 	
 	next_building = axe_03
@@ -810,8 +810,8 @@ axe_03 = {
 	levy = 30
 
 	character_modifier = {
-		axe_damage_mult = 0.14
-		axe_screen_mult = 0.06
+		axes_damage_mult = 0.14
+		axes_screen_mult = 0.06
 	}
 	
 	
@@ -846,8 +846,8 @@ axe_04 = {
 	levy = 40
 
 	character_modifier = {
-		axe_damage_mult = 0.2
-		axe_screen_mult = 0.06
+		axes_damage_mult = 0.2
+		axes_screen_mult = 0.06
 	}
 	
 	ai_value = {
@@ -881,10 +881,10 @@ sword_01 = {
 	levy = 20
 
 	character_modifier = {
-		sword_toughness_mult = 0.02
-		sword_damage_mult = 0.02
-		sword_pursuit_mult = 0.02
-		sword_screen_mult = 0.02
+		swords_toughness_mult = 0.02
+		swords_damage_mult = 0.02
+		swords_pursuit_mult = 0.02
+		swords_screen_mult = 0.02
 	}
 	
 	next_building = sword_02
@@ -920,10 +920,10 @@ sword_02 = {
 	levy = 40
 
 	character_modifier = {
-		sword_toughness_mult = 0.04
-		sword_damage_mult = 0.04
-		sword_pursuit_mult = 0.04
-		sword_screen_mult = 0.04
+		swords_toughness_mult = 0.04
+		swords_damage_mult = 0.04
+		swords_pursuit_mult = 0.04
+		swords_screen_mult = 0.04
 	}
 	
 	next_building = sword_03
@@ -957,10 +957,10 @@ sword_03 = {
 	levy = 60
 
 	character_modifier = {
-		sword_toughness_mult = 0.06
-		sword_damage_mult = 0.06
-		sword_pursuit_mult = 0.06
-		sword_screen_mult = 0.06
+		swords_toughness_mult = 0.06
+		swords_damage_mult = 0.06
+		swords_pursuit_mult = 0.06
+		swords_screen_mult = 0.06
 	}
 	
 	
@@ -995,10 +995,10 @@ sword_04 = {
 	levy = 100
 
 	character_modifier = {
-		sword_toughness_mult = 0.08
-		sword_damage_mult = 0.08
-		sword_pursuit_mult = 0.08
-		sword_screen_mult = 0.08
+		swords_toughness_mult = 0.08
+		swords_damage_mult = 0.08
+		swords_pursuit_mult = 0.08
+		swords_screen_mult = 0.08
 	}
 	
 	ai_value = {

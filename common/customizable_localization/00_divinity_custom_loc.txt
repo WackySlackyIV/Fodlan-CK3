@@ -314,7 +314,20 @@ GetUnbelieverName = {
 	type = character
 
 	text = {
+		trigger = {
+			faith = {
+				has_doctrine = pagan_hostility_doctrine
+			}
+		}
 		localization_key = unbeliever_heathen
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { has_doctrine = pagan_hostility_doctrine }
+			}
+		}
+		localization_key = unbeliever_infidel
 	}
 }
 
@@ -324,7 +337,20 @@ GetUnbelieverNamePlural = {
 	type = character
 
 	text = {
+		trigger = {
+			faith = {
+				has_doctrine = pagan_hostility_doctrine
+			}
+		}
 		localization_key = unbeliever_heathen_plural
+	}
+	text = {
+		trigger = {
+			faith = {
+				NOT = { has_doctrine = pagan_hostility_doctrine }
+			}
+		}
+		localization_key = unbeliever_infidel_plural
 	}
 }
 
@@ -349,6 +375,10 @@ GetUnbelieverTerm = {
 		}
 		localization_key = unbeliever_heretic
 	}
+	text = {
+		trigger = { always = yes }
+		localization_key = unbeliever_unbeliever
+	}
 }
 
 GetUnbelieverTermAdjective = {
@@ -371,6 +401,10 @@ GetUnbelieverTermAdjective = {
 			is_heretic_trigger = { WHO = scope:second TARGET = root}
 		}
 		localization_key = unbeliever_heretic_adj
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = unbeliever_unbeliever_adj
 	}
 }
 
@@ -517,6 +551,7 @@ GetAfterLifeDestination = {
 	}
 }
 
+# GetActualBishopTitlePossessive should be updated synchronously with this
 GetActualBishopTitle = {
 	type = character
 
@@ -589,6 +624,82 @@ GetActualBishopTitle = {
 	text = {
 		trigger = { liege.highest_held_title_tier < tier_duchy }
 		localization_key = councillor_court_chaplain_theocrat_county
+	}
+}
+
+# GetActualBishopTitle should be updated synchronously with this
+GetActualBishopTitlePossessive = {
+	type = character
+
+	# 'Early Out' keys for Head of Faith/Landed Rulers.
+	text = {
+		trigger = {
+			exists = faith.religious_head
+			this = faith.religious_head
+		}
+		localization_key = religious_head_name_possessive
+	}
+	text = {
+		trigger = {
+			is_landed = yes
+		}
+		localization_key = ruler_title_name_possessive
+	}
+
+	# Religion-By-Religion Titles for Bishops based on Liege's Tier.
+
+	#Zanadic
+	text = {
+		trigger = {
+			religion = religion:zanadic_religion
+			liege.highest_held_title_tier >= tier_kingdom
+			is_female = no
+		}
+		localization_key = councillor_court_chaplain_zanadic_kingdom_possessive
+	}
+	text = {
+		trigger = {
+			religion = religion:zanadic_religion
+			liege.highest_held_title_tier >= tier_kingdom
+			is_female = yes
+		}
+		localization_key = councillor_court_chaplain_zanadic_kingdom_female_possessive
+	}
+	text = {
+		trigger = {
+			religion = religion:zanadic_religion
+			liege.highest_held_title_tier >= tier_duchy
+		}
+		localization_key = councillor_court_chaplain_zanadic_duchy_possessive
+	}
+	text = {
+		trigger = {
+			religion = religion:zanadic_religion
+			liege.highest_held_title_tier < tier_duchy
+		}
+		localization_key = councillor_court_chaplain_zanadic_county_possessive
+	}
+
+	#Fallback
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_empire is_female = no }
+		localization_key = councillor_court_chaplain_theocrat_empire_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_empire is_female = yes }
+		localization_key = councillor_court_chaplain_theocrat_empire_female_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_kingdom }
+		localization_key = councillor_court_chaplain_theocrat_kingdom_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier >= tier_duchy }
+		localization_key = councillor_court_chaplain_theocrat_duchy_possessive
+	}
+	text = {
+		trigger = { liege.highest_held_title_tier < tier_duchy }
+		localization_key = councillor_court_chaplain_theocrat_county_possessive
 	}
 }
 

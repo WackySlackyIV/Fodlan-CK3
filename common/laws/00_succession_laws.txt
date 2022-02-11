@@ -17,8 +17,21 @@
 				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
 				historical_succession_access_single_heir_dynasty_house_trigger = yes
 			}
+			OR = {
+				AND = {
+					OR = {
+						has_government = feudal_government
+						has_government = clan_government
+					}
+					culture = {
+						NOR = {
+							has_innovation = innovation_hereditary_rule
+							has_innovation = innovation_heraldry
+						}
+					}
+				}
 			has_government = tribal_government
-			always = no
+			}
 		}
 		succession = {
 			order_of_succession = inheritance
@@ -100,18 +113,19 @@
 			can_have_high_partition_succession_law_trigger = yes
 		}
 		should_start_with = {
-			historical_succession_access_single_heir_succession_law_trigger = no
-			OR = {
-				AND = {
-					has_government = tribal_government
-					culture = { has_innovation = innovation_heraldry }
+			NOR = {
+				historical_succession_access_single_heir_succession_law_trigger = yes
+				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
+				historical_succession_access_single_heir_dynasty_house_trigger = yes
 				}
-				AND = {
 					OR = {
 						has_government = feudal_government
 						has_government = clan_government
 					}
-					NOT = { culture = { has_innovation = innovation_heraldry } }
+			culture = {
+				has_innovation = innovation_heraldry
+				NOT = {
+					has_innovation = innovation_hereditary_rule
 				}
 			}
 		}
@@ -464,11 +478,20 @@ succession_gender_laws = {
 	flag = succession_gender_laws
 	
 	male_only_law = {
-		can_title_have = { tier >= tier_duchy }
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
 		can_keep = {
-			faith = {
+			custom_tooltip = {
+				text = culture_not_female_only_tt
 				OR = {
-					has_doctrine = doctrine_gender_male_dominated
+					faith = { has_doctrine = doctrine_gender_male_dominated }
+					NOT = {
+						culture = { has_cultural_parameter = female_only_inheritance }
+					}
 				}
 			}
 		}
@@ -477,9 +500,7 @@ succession_gender_laws = {
 		}
 		should_start_with = {
 			faith = {
-				OR = {
-					has_doctrine = doctrine_gender_male_dominated
-				}
+				has_doctrine = doctrine_gender_male_dominated
 			}
 		}
 		succession = {
@@ -498,13 +519,25 @@ succession_gender_laws = {
 	}
 	
 	male_preference_law = {
-		can_title_have = { tier >= tier_duchy }
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
 		can_keep = {
 			custom_description = {
 				text = change_law_male_preference_faith_requirement
 				faith = {
-					NOR = { 
-						has_doctrine = doctrine_gender_female_dominated
+					NOT = { has_doctrine = doctrine_gender_female_dominated }
+				}
+			}
+			custom_tooltip = {
+				text = culture_not_female_only_tt
+				OR = {
+					faith = { has_doctrine = doctrine_gender_male_dominated }
+					NOT = {
+						culture = { has_cultural_parameter = female_only_inheritance }
 					}
 				}
 			}
@@ -513,11 +546,12 @@ succession_gender_laws = {
 			can_change_succession_law_trigger = yes
 		}
 		should_start_with = {
+			NOT = {
+				culture = { has_cultural_parameter = female_preference_inheritance }
+			}
 			OR = {
 				faith = {
-					OR = {
-						has_doctrine = doctrine_gender_male_dominated
-					}
+					has_doctrine = doctrine_gender_male_dominated
 				}
 				has_realm_law = male_only_law # For when male_only_law ceases to be a legal option
 			}
@@ -538,22 +572,40 @@ succession_gender_laws = {
 	}
 	
 	equal_law = {
-		can_title_have = { tier >= tier_duchy }
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
 		can_keep = {
-			faith = {
+			custom_tooltip = {
+				text = equal_law_culture_faith_or_innovation_trigger
 				OR = {
-					has_doctrine = doctrine_gender_equal
+					culture = { has_cultural_parameter = gender_equal_inheritance }
+					#culture = { has_innovation = innovation_visigothic_codes }
+					faith = { has_doctrine = doctrine_gender_equal }
+					AND = { #Culture is female dominated but religion is male dominated
+						faith = { has_doctrine = doctrine_gender_male_dominated }
+						culture = { has_cultural_parameter = female_only_inheritance }
+					}
+					AND = { #Culture is male dominated but faith is female dominated
+						faith = { has_doctrine = doctrine_gender_female_dominated }
+						NOT = { culture = { has_cultural_parameter = female_only_inheritance } }
+					}
 				}
 			}
 		}
 		can_pass = {
-			can_change_to_equal_succession_law_trigger = yes
+			#can_change_to_equal_succession_law_trigger = yes
+			can_change_succession_law_trigger = yes
 		}
 		should_start_with = {
+			NOR = {
+				culture = { has_cultural_parameter = female_preference_inheritance }
+			}
 			faith = {
-				OR = {
-					has_doctrine = doctrine_gender_equal
-				}
+				has_doctrine = doctrine_gender_equal
 			}
 			NOT = { has_realm_law = female_only_law } # For when female_only_law ceases to be valid
 		}
@@ -576,7 +628,11 @@ succession_gender_laws = {
 			if = {
 				limit = {
 					primary_title.tier > tier_county
-					always = no
+					faith = {
+						NOT = {
+							has_dominant_ruling_gender = prev
+						}
+					}
 				}
 				value = 2
 			}
@@ -584,21 +640,28 @@ succession_gender_laws = {
 	}
 	
 	female_preference_law = {
-		can_title_have = { tier >= tier_duchy }
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
 		can_keep = {
-			custom_description = {
-				text = change_law_female_preference_faith_requirement
+			custom_tooltip = {
+				text = female_preference_law_faith_or_culture_trigger
+				OR = {
 				faith = {
 					NOT = { has_doctrine = doctrine_gender_male_dominated }
+				}
+					culture = { has_cultural_parameter = female_preference_inheritance }
 				}
 			}
 		}
 		should_start_with = {
 			OR = {
+				culture = { has_cultural_parameter = female_preference_inheritance }
 				faith = {
-					OR = {
-						has_doctrine = doctrine_gender_female_dominated
-					}
+					has_doctrine = doctrine_gender_female_dominated
 				}
 				has_realm_law = female_only_law # For when male_only_law ceases to be a legal option
 			}
@@ -621,18 +684,23 @@ succession_gender_laws = {
 	}
 	
 	female_only_law = {
-		can_title_have = { tier >= tier_duchy }
+		can_title_have = {
+			can_title_have_law_general_trigger = yes
+		}
+		should_show_for_title = { # Never show this in the UI, just apply it through script
+			always = no
+		}
 		can_keep = {
-			faith = {
+			custom_tooltip = {
+				text = female_only_law_faith_or_culture_trigger
 				OR = {
-					has_doctrine = doctrine_gender_female_dominated
+					faith = { has_doctrine = doctrine_gender_female_dominated }
+					culture = { has_cultural_parameter = female_only_inheritance }
 				}
 			}
 		}
 		can_pass = {
 			can_change_succession_law_trigger = yes
-		}
-		should_start_with = {
 		}
 		succession = {
 			gender_law = female_only
@@ -646,12 +714,35 @@ succession_gender_laws = {
 		revoke_cost = {
 			prestige = change_succession_law_prestige_cost
 		}
+
+		should_start_with = {
+			OR = {
+				culture = { has_cultural_parameter = female_only_inheritance }
+			}
+		}
+	}
+}
+
+succession_faith = {
+	same_faith_only_law = {
+		can_keep = {
+			should_have_same_faith_succession_trigger = yes
+		}
+		can_pass = {
+			should_have_same_faith_succession_trigger = yes
+		}
+		should_start_with = {
+			should_have_same_faith_succession_trigger = yes
+		}
+		succession = {
+			faith = same_faith
+		}
 	}
 }
 
 succession_rel_head = {
 	same_faith_theocratic_succession_law = {
-		can_have = {
+		can_keep = {
 			faith = {
 				religious_head = root
 				has_doctrine = doctrine_spiritual_head
@@ -664,7 +755,8 @@ succession_rel_head = {
 		}
 	}
 	same_faith_succession_law = {
-		can_have = {
+		shown_in_encyclopedia = no
+		can_keep = {
 			faith = {
 				religious_head = root
 				has_doctrine = doctrine_temporal_head

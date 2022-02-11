@@ -32,11 +32,6 @@ for_our_foes_x_for_our_friends_y = { # For our Foes, the Sword - for our Friends
 	weight = {
 		value = 400
 	}
-	trigger = {
-		faith = {
-			religion = { is_in_family = rf_all }
-		}
-	}
 }
 
 break_your_x_upon_our_y = { # Break your Axe upon our Honor
@@ -45,11 +40,6 @@ break_your_x_upon_our_y = { # Break your Axe upon our Honor
 	weight = {
 		value = 400
 	}
-	trigger = {
-		faith = {
-			religion = { is_in_family = rf_all }
-		}
-	}
 }
 
 by_the_x_and_the_y = { # By the Axe and Spear
@@ -57,11 +47,6 @@ by_the_x_and_the_y = { # By the Axe and Spear
 	insert = weapon
 	weight = {
 		value = 300
-	}
-	trigger = {
-		faith = {
-			religion = { is_in_family = rf_all }
-		}
 	}
 }
 
@@ -72,11 +57,6 @@ with_the_x_i_y_z = { # With the Sword I Honor the Truthful
 	weight = {
 		value = 300
 	}
-	trigger = {
-		faith = {
-			religion = { is_in_family = rf_all }
-		}
-	}
 }
 
 with_x_I_seek_y = { # With the Axe I Seek Strength
@@ -84,11 +64,6 @@ with_x_I_seek_y = { # With the Axe I Seek Strength
 	insert = noun_immaterial
 	weight = {
 		value = 1000
-	}
-	trigger = {
-		faith = {
-			religion = { is_in_family = rf_all }
-		}
 	}
 }
 
@@ -98,11 +73,6 @@ the_spirit_of_x_grants_us_y = { # The Spirit of the Fox Grants Us Cunning
 	weight = {
 		value = 800
 	}
-	trigger = {
-		faith = {
-			religion = { is_in_family = rf_all }
-		}
-	}
 }
 
 through_x_mind_y = { # Through a Courageous Mind, Enlightenment
@@ -111,9 +81,6 @@ through_x_mind_y = { # Through a Courageous Mind, Enlightenment
 	weight = {
 		value = 1500
 	}
-	trigger = {
-		always = no
-	}
 }
 
 the_x_mind_knows_y = { # The Calm Mind Knows Peace
@@ -121,9 +88,6 @@ the_x_mind_knows_y = { # The Calm Mind Knows Peace
 	insert = noun_immaterial
 	weight = {
 		value = 1500
-	}
-	trigger = {
-		always = no
 	}
 }
 
@@ -258,14 +222,6 @@ son_of_x = {
 	
 	weight = {
 		value = 150
-		if = {
-			limit = {
-				faith = {
-					religion = { is_in_family = rf_all }
-				}
-			}
-			multiply = 2
-		}
 	}
 }
 

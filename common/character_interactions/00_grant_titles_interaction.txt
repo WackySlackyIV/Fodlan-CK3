@@ -20,12 +20,21 @@
 			OR = {
 				target_is_liege_or_above = scope:actor
 				is_pool_guest_of = scope:actor
+				AND = {
+					scope:actor.faith.religious_head = scope:recipient
+					is_independent_ruler = yes
+				}
 			}
 		}
 	}
 	
 	is_valid_showing_failures_only = {
-		scope:recipient = { can_be_granted_titles_by = { RULER = scope:actor } }
+		scope:recipient = {
+			OR = {
+				can_be_granted_titles_by = { RULER = scope:actor }
+				can_be_granted_theocratic_titles_by = { RULER = scope:actor }
+			}
+		}
 		NOT = { scope:actor = { is_at_war_with = scope:recipient } }
 		NOT = { scope:recipient = { has_trait = devoted } } # Monks are disinherited, and should not have land granted to them
 		custom_description = {
@@ -41,6 +50,7 @@
 					}
 					has_council_position = councillor_court_chaplain
 				}
+				NOT = { scope:actor.faith.religious_head = scope:recipient }
 			}
 		}
 		scope:actor = {
@@ -74,6 +84,10 @@
 					subject = scope:recipient
 					current_heir = scope:recipient
 				}
+			}
+			trigger_if = {
+				limit = { scope:target = title:k_fashion }
+				NOT = { scope:target = title:k_fashion }
 			}
 		}
 
@@ -116,6 +130,148 @@
 	}
 	
 	on_accept = {
+		scope:recipient = {
+			if = {
+				limit = {
+					is_independent_ruler = yes
+					save_temporary_scope_as = recipient_is_independent
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				any_in_list = {
+					list = target_titles
+					tier = tier_county
+					culture = scope:recipient.culture
+					NOR = {
+						culture = scope:actor.culture
+						recent_history = {
+							type = granted
+							years = 10
+						}
+					}
+				}
+			}
+			alternative_limit = {
+				any_in_list = {
+					list = target_titles
+					tier >= tier_duchy
+					title_capital_county = {
+						NOT = { culture = scope:actor.culture }
+						culture = scope:recipient.culture
+					}
+					NOT = {
+						recent_history = {
+							type = granted
+							years = 10
+						}
+					}
+				}
+			}
+			scope:recipient.culture = {
+				change_cultural_acceptance = {
+					target = scope:actor.culture
+					value = grant_title_cultural_acceptance_impact
+					desc = cultural_acceptance_gain_granted_title
+				}
+			}
+		}
+		if = {
+			limit = {
+				any_in_list = {
+					list = target_titles
+					tier = tier_county
+				}
+				scope:actor.culture = { has_cultural_parameter = grants_to_lowborns_bonuses }
+				scope:recipient = {
+					is_lowborn = yes
+				}
+			}
+			every_in_list = {
+				list = target_titles
+				limit = { tier = tier_county }
+				change_county_control = 30
+			}
+			scope:recipient = {
+				add_trait = peasant_leader
+			}
+		}
+		if = {
+			limit = {
+				any_in_list = {
+					list = target_titles
+					tier >= tier_county
+				}
+				scope:actor.culture = { has_cultural_parameter = landing_house_members_give_prestige }
+				exists = scope:actor.house
+				exists = scope:recipient.house
+				scope:actor.house = scope:recipient.house
+			}
+			scope:actor = {
+				add_prestige = {
+					value = 0
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_empire }
+						add = massive_prestige_gain
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_kingdom }
+						add = major_prestige_gain
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_duchy }
+						add = medium_prestige_gain
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_county }
+						add = minor_prestige_gain
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				any_in_list = {
+					list = target_titles
+					tier >= tier_county
+				}
+				scope:actor.culture = { has_cultural_parameter = landing_house_members_gives_renown }
+				exists = scope:actor.house
+				exists = scope:recipient.house
+				scope:actor.house = scope:recipient.house
+			}
+			scope:actor.dynasty = {
+				add_dynasty_prestige = {
+					value = 0
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_empire }
+						add = massive_dynasty_prestige_gain
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_kingdom }
+						add = major_dynasty_prestige_gain
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_duchy }
+						add = medium_dynasty_prestige_gain
+					}
+					every_in_list = {
+						list = target_titles
+						limit = { tier = tier_county }
+						add = minor_dynasty_prestige_gain
+					}
+				}
+			}
+		}
 		every_in_list = {
 			list = target_titles
 			save_temporary_scope_as = this_title
@@ -480,6 +636,7 @@
 							count = 1
 							NOT = { tier = scope:actor.highest_held_title_tier }
 						}
+						NOT = { exists = scope:recipient_is_independent }
 						scope:recipient = {
 							any_held_title = {
 								tier > tier_barony
@@ -509,6 +666,7 @@
 							count > 1
 							NOT = { tier = scope:actor.highest_held_title_tier }
 						}
+						NOT = { exists = scope:recipient_is_independent }
 						scope:recipient = {
 							any_held_title = {
 								tier > tier_barony
@@ -529,6 +687,24 @@
 						right_icon = scope:recipient
 					
 						custom_tooltip = grant_titles_interaction_notification_effect_3
+					}
+				}
+				else_if = {
+					limit = {
+						exists = scope:recipient_is_independent
+					}
+
+					random_in_list = {
+						list = target_titles
+						save_temporary_scope_as = loc_title
+					}
+					send_interface_toast = {
+						title = grant_titles_interaction_notification
+					
+						left_icon = scope:actor					
+						right_icon = scope:recipient
+					
+						custom_tooltip = grant_titles_interaction_notification_effect_6
 					}
 				}
 				else_if = {

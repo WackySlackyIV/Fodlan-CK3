@@ -65,6 +65,7 @@ FortifiedBuilding = { #Castle, Fort, Kasbah etc.
 
 	text = {
 		localization_key = castle
+		fallback = yes
 	}
 }
 
@@ -113,9 +114,43 @@ OutdoorsHidingPlace = { #Something you can find in nature / by the road
 	}
 }
 
+ObjectToClimb = {
+	type = character
+
+	text = {	
+		trigger = { location = { terrain = desert } }
+		localization_key = sand_dune
+	}
+	text = {	
+		trigger = {
+			location = {
+				OR = {
+					terrain = plains
+					terrain = mountains
+					terrain = desert_mountains
+					terrain = drylands
+					terrain = steppe
+				}
+			}
+		}
+		localization_key = boulder
+	}
+	text = {	
+		localization_key = tree
+	}
+}
+
 IndefiniteBodyOfWater = { #Lake, River, Oasis, etc.
 	type = character
 
+	text = {
+		trigger = { location = { terrain = oasis } }
+		localization_key = body_of_water_an_oasis
+	}
+	text = {
+		trigger = { location.county = { is_coastal_county = yes } }
+		localization_key = body_of_water_the_ocean
+	}
 	text = {
 		localization_key = body_of_water_a_lake
 	}
@@ -281,6 +316,80 @@ TerrainType = {
 	}
 }
 
+TerrainTypeProvince = {
+	type = province
+
+	text = {	
+		trigger = { terrain = plains }
+		localization_key = terrain_plains
+	}
+
+	text = {	
+		trigger = { terrain = farmlands }
+		localization_key = terrain_farmlands
+	}
+
+	text = {	
+		trigger = { terrain = hills }
+		localization_key = terrain_hills
+	}
+
+	text = {	
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+		localization_key = terrain_mountains
+	}
+
+	text = {	
+		trigger = { terrain = desert }
+		localization_key = terrain_desert
+	}
+
+	text = {	
+		trigger = { terrain = oasis }
+		localization_key = terrain_oasis
+	}
+
+	text = {	
+		trigger = { terrain = jungle }
+		localization_key = terrain_jungle
+	}
+
+	text = {	
+		trigger = { terrain = forest }
+		localization_key = terrain_forest
+	}
+
+	text = {	
+		trigger = { terrain = taiga }
+		localization_key = terrain_taiga
+	}
+
+	text = {	
+		trigger = { terrain = wetlands }
+		localization_key = terrain_wetlands
+	}
+
+	text = {	
+		trigger = { terrain = steppe }
+		localization_key = terrain_steppe
+	}
+
+	text = {	
+		trigger = { terrain = floodplains }
+		localization_key = terrain_floodplains
+	}
+
+	text = {	
+		trigger = { terrain = drylands }
+		localization_key = terrain_drylands
+	}
+}
+
 LocalAnimal = {
 	type = character
 
@@ -349,6 +458,13 @@ LocalAnimal = {
 	}
 
 	text = {
+		localization_key = animal_lynx
+		trigger = {
+			var:local_animal = flag:lynx
+		}
+	}
+
+	text = {
 		localization_key = animal_unicorn
 		trigger = {
 			var:local_animal = flag:unicorn
@@ -392,6 +508,13 @@ LocalAnimalMultiple = {
 		localization_key = animal_wolfs
 		trigger = {
 			var:local_animal = flag:wolf
+		}
+	}
+
+	text = {
+		localization_key = animal_lynxes
+		trigger = {
+			var:local_animal = flag:lynx
 		}
 	}
 
@@ -1134,7 +1257,7 @@ RegionalDrink = {
 		localization_key = mead
 	}
 	text = {
-		localization_key = expensive_drink_spiced_wine
+		localization_key = expensive_drink_spiced_wine_singular
 	}
 	text = {
 		localization_key = tea
@@ -1184,3 +1307,59 @@ CulturalCurse = {
 	}
 
 }
+
+GetOldBook = {
+	type = character
+	text = {
+		trigger = { always = no }
+		fallback = yes
+		localization_key = old_book_general
+	}
+}
+
+get_region_dog_type = {
+	type = character 
+	random_valid = yes
+	# Generic
+	text = {
+		trigger = { always = yes }
+		localization_key = dog_type_hound # Hound
+	}
+}
+
+get_region_flower_type = {
+	type = character 
+	random_valid = yes
+
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_rose # Rose
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_orchid # Orchid
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_aster # Aster/Daisy
+	}
+}
+
+get_region_flower_type_plural = {
+	type = character 
+	random_valid = yes
+	
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_rose_plural # Roses
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_orchid_plural # Orchids
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = flower_type_aster_plural # Asters/Daisies
+	}
+}
+
