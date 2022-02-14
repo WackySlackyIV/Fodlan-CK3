@@ -1,0 +1,5 @@
+﻿sacred_sword_seiros_visual = {
+	icon = "sacred_sword_seiros.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}

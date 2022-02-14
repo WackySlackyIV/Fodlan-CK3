@@ -39,6 +39,22 @@
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
+
+			create_artifact = {
+				name = sacred_sword_seiros
+				rarity = Illustrious
+				description = sacred_sword_seiros_description
+				history = {
+					type = created_before_history
+				}
+				type = sword
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_sword_seiros_visual
+				modifier = artifact_sword_seiros_modifier
+				save_scope_as = sacred_sword_seiros_scope
+				decaying = no
+			}
 		}
 	}
 	16.6.12 = {
