@@ -127,7 +127,7 @@ global_religion.0001 = {
 				}
 				if = {
 					limit = {
-						culture_group = culture_group:mihran_group
+						culture = { has_cultural_pillar = heritage_mihran }
 					}
 					change_government = clan_government
 				}

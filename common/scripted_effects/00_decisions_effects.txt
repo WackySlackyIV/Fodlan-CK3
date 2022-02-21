@@ -197,7 +197,7 @@ convert_whole_realm_to_feudalism_effect = {
 	else_if = {
 		limit = {
 			is_independent_ruler = yes
-			culture_group = culture_group:mihran_group
+			culture = { has_cultural_pillar = heritage_mihran }
 		}
 		change_government = clan_government
 	}
@@ -225,7 +225,7 @@ convert_whole_realm_to_feudalism_effect = {
 	if = {
 		limit = {
 			is_independent_ruler = yes
-			culture_group = culture_group:mihran_group
+			culture = { has_cultural_pillar = heritage_mihran }
 		}
 		custom_tooltip = islamic_vassals_will_convert
 	}
@@ -543,7 +543,7 @@ special_succession_tanistry_effect = {
 }
 
 launch_hungarian_migration_scripted_effect = {
-
+}
 
 tribal_transfer_liege_title_effect = {
 	create_title_and_vassal_change = {

@@ -1123,7 +1123,7 @@ nuadan = {
 	}
 }
 
-albinea = {
+albinean = {
 	color = rgb { 150 40 140 }
 	ethos = ethos_stoic
 	heritage = heritage_albinea

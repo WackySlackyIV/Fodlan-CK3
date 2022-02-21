@@ -1098,7 +1098,7 @@ hairstyles = {
                     category = gene_hair_type
                     template = hair_curly
                 }
-				culture.culture_group = culture_group:frankish_group
+				culture = { has_cultural_pillar = heritage_frankish }
             }
 		}
 	}

@@ -62,7 +62,7 @@ theocracy_government = {
 
 clan_government = {
 	primary_holding = castle_holding
-	primary_culture_groups = { mihran_group }
+	primary_heritages = { heritage_mihran }
 	
 	fallback = 2
 	

@@ -62,7 +62,7 @@ alliance_elective = { #alliance elective
 							}
 							if = {
 								limit = {
-									NOT = { this.culture_group = root.culture_group }
+									NOT = { this.culture = root.culture }
 								}
 								divide = 2
 							}

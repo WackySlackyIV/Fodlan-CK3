@@ -236,7 +236,7 @@ GetExpensiveDessert = {
 	text = {
 		localization_key = expensive_dessert_pomegranate_cake
 	}
-
+}
 
 GetExpensiveDessertInTheFace = {
 	type = character

@@ -1015,7 +1015,7 @@ FOD_flavor.6 = { #Orphan event
 			save_scope_as = orphan
 		}
 		if = {
-			limit = { scope:county.culture_group = culture_group:fodlan_group }
+			limit = { scope:county.culture = { has_cultural_pillar = heritage_fodlan } }
 			scope:orphan = {
 				hidden_effect = {
 					random_list = {
@@ -1074,7 +1074,7 @@ FOD_flavor.6 = { #Orphan event
 			}
 		}
 		else_if = {
-			limit = { scope:county.culture_group = culture_group:mihran_group }
+			limit = { scope:county.culture = { has_cultural_pillar = heritage_mihran } }
 			scope:orphan = {
 				hidden_effect = {
 					random_list = {

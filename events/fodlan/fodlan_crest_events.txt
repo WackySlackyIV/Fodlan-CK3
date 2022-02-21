@@ -1815,7 +1815,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 			limit = {
 				exists = dynasty
 				dynasty = { any_dynasty_member = { has_crest_potential = yes } }
-				has_culture_group = culture_group:fodlan_group
+				culture = { has_cultural_pillar = heritage_fodlan }
 			}
 			random = {
 				chance = 3
@@ -2045,7 +2045,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 		}
 		else_if = {
 			limit = {
-				has_culture_group = culture_group:fodlan_group
+				culture = { has_cultural_pillar = heritage_fodlan }
 			}
 			random = {
 				chance = 1
@@ -2123,7 +2123,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 			limit = {
 				exists = dynasty
 				dynasty = { any_dynasty_member = { has_trait = crest_malik } }
-				has_culture_group = culture_group:mihran_group
+				culture = { has_cultural_pillar = heritage_mihran }
 			}
 			random = {
 				chance = 3
@@ -2136,7 +2136,7 @@ FOD_crests.004 = { #If no parent with a crest potential? check family. If still 
 		}
 		else_if = {
 			limit = {
-				has_culture_group = culture_group:mihran_group
+				culture = { has_cultural_pillar = heritage_mihran }
 			}
 			random = {
 				chance = 1

@@ -105,6 +105,14 @@ can_be_clergy_due_to_gender_trigger = {
 	}
 }
 
+faith_is_aniconic_trigger = {
+	faith = {
+		OR = {
+			has_doctrine = tenet_aniconism
+		}
+	}
+}
+
 
 #Needs CHARACTER and FAITH
 relation_with_character_is_incestuous_in_faith_trigger = {

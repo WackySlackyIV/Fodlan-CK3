@@ -1,4 +1,4 @@
-unification_war = {
+﻿unification_war = {
 	group = event
 
 	should_check_for_interface_availability = no
@@ -209,7 +209,7 @@ unification_alliance_intervention_war = {
 
 	on_victory = {
 		scope:attacker = { # TODO: Get a functional non hard coded version
-			get_title = k_leicester
+			get_title = title:k_leicester
 		}
 		scope:defender = {
 			create_title_and_vassal_change = {

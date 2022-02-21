@@ -35,7 +35,7 @@ innovation_wyvern_marksmen = { #almyran
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:mihran_group
+		has_cultural_pillar = heritage_mihran
 	}
 
 	unlock_maa = barbarossa
@@ -49,7 +49,7 @@ innovation_griffon_breeding = { #reqonnese
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:reqqon_group
+		this = culture:reqonese
 	}
 
 	unlock_maa = griffon_rider
@@ -63,7 +63,7 @@ innovation_experienced_pegasi = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:brigid_group
+		has_cultural_pillar = heritage_brigid
 	}
 
 	unlock_maa = seraph_knight
@@ -161,7 +161,7 @@ innovation_the_elite = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:slither_group
+		has_cultural_pillar = heritage_slither
 	}
 
 	unlock_maa = agastya
@@ -203,7 +203,7 @@ innovation_overseers = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:morfis_group
+		has_cultural_pillar = heritage_morfis
 	}
 
 	unlock_maa = grandmaster
@@ -217,7 +217,7 @@ innovation_steppe_lords = {
 	icon = @maa_01
 
 	potential = {
-		this.culture_group = culture_group:kotesh_group
+		has_cultural_pillar = heritage_kotesh
 	}
 
 	unlock_maa = oliphantier
