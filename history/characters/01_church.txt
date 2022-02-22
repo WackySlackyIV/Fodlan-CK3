@@ -55,6 +55,166 @@
 				save_scope_as = sacred_sword_seiros_scope
 				decaying = no
 			}
+
+			create_artifact = {
+				name = sacred_axe_ukonvasara
+				rarity = Illustrious
+				description = sacred_axe_ukonvasara_description
+				history = {
+					type = created_before_history
+				}
+				type = axe
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_axe_ukonvasara_visual
+				modifier = artifact_axe_ukonvasara_modifier
+				save_scope_as = sacred_axe_ukonvasara_scope
+				decaying = no
+			}
+
+			create_artifact = {
+				name = sacred_staff_caduceus
+				rarity = Illustrious
+				description = sacred_staff_caduceus_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_staff_caduceus_visual
+				modifier = artifact_staff_caduceus_modifier
+				save_scope_as = sacred_staff_caduceus_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_shield_ochain
+				rarity = Illustrious
+				description = sacred_shield_ochain_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_shield_ochain_visual
+				modifier = artifact_shield_ochain_modifier
+				save_scope_as = sacred_shield_ochain_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_spear_assal
+				rarity = Illustrious
+				description = sacred_spear_assal_description
+				history = {
+					type = created_before_history
+				}
+				type = spear
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_spear_assal_visual
+				modifier = artifact_spear_assal_modifier
+				save_scope_as = sacred_spear_assal_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_sword_begalta
+				rarity = Illustrious
+				description = sacred_sword_begalta_description
+				history = {
+					type = created_before_history
+				}
+				type = sword
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_sword_begalta_visual
+				modifier = artifact_sword_begalta_modifier
+				save_scope_as = sacred_sword_begalta_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_sword_moralta
+				rarity = Illustrious
+				description = sacred_sword_moralta_description
+				history = {
+					type = created_before_history
+				}
+				type = sword
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_sword_moralta_visual
+				modifier = artifact_sword_moralta_modifier
+				save_scope_as = sacred_sword_moralta_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_shield_seiros
+				rarity = Illustrious
+				description = sacred_shield_seiros_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_shield_seiros_visual
+				modifier = artifact_shield_seiros_modifier
+				save_scope_as = sacred_shield_seiros_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_bow_inexhaustible
+				rarity = Illustrious
+				description = sacred_bow_inexhaustible_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_bow_inexhaustible_visual
+				modifier = artifact_bow_inexhaustible_modifier
+				save_scope_as = sacred_bow_inexhaustible_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_bow_tathlum
+				rarity = Illustrious
+				description = sacred_bow_tathlum_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_bow_tathlum_visual
+				modifier = artifact_bow_tathlum_modifier
+				save_scope_as = sacred_bow_tathlum_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_chalice_beginnings
+				rarity = Illustrious
+				description = sacred_chalice_beginnings_description
+				history = {
+					type = created_before_history
+				}
+				type = goblet
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_chalice_beginnings_visual
+				modifier = artifact_chalice_beginnings_modifier
+				save_scope_as = sacred_chalice_beginnings_scope
+				decaying = no
+			}
 		}
 	}
 	16.6.12 = {
