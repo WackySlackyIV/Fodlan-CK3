@@ -215,6 +215,70 @@
 				save_scope_as = sacred_chalice_beginnings_scope
 				decaying = no
 			}
+
+			create_artifact = {
+				name = relic_shield_aegis
+				rarity = Illustrious
+				description = relic_shield_aegis_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_shield_aegis_visual
+				modifier = artifact_shield_aegis_modifier
+				save_scope_as = relic_shield_aegis_scope
+				decaying = no
+			}
+
+			create_artifact = {
+				name = relic_spear_areadbhar
+				rarity = Illustrious
+				description = relic_spear_areadbhar_description
+				history = {
+					type = created_before_history
+				}
+				type = spear
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_spear_areadbhar_visual
+				modifier = artifact_spear_areadbhar_modifier
+				save_scope_as = relic_spear_areadbhar_scope
+				decaying = no
+			}
+
+			create_artifact = {
+				name = relic_axe_aymr
+				rarity = Illustrious
+				description = relic_axe_aymrr_description
+				history = {
+					type = created_before_history
+				}
+				type = axe
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_axe_aymr_visual
+				modifier = artifact_axe_aymr_modifier
+				save_scope_as = relic_axe_aymr_scope
+				decaying = no
+			}
+
+			create_artifact = {
+				name = relic_sword_blutgang
+				rarity = Illustrious
+				description = relic_sword_blutgang_description
+				history = {
+					type = created_before_history
+				}
+				type = axe
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_sword_blutgang_visual
+				modifier = artifact_sword_blutgang_modifier
+				save_scope_as = relic_sword_blutgang_scope
+				decaying = no
+			}
 		}
 	}
 	16.6.12 = {

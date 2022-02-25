@@ -8,6 +8,7 @@ pdxmesh = {
 		texture_diffuse = "edelgard_hair_accessories_diffuse.dds"
 		texture_normal = "edelgard_hair_accessories_normal.dds"
 		texture_specular = "edelgard_hair_accessories_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -18,6 +19,7 @@ pdxmesh = {
 		texture_diffuse = "edelgard_hair_diffuse.dds"
 		texture_normal = "edelgard_hair_normal.dds"
 		texture_specular = "edelgard_hair_properties.dds"
+		texture = { file = "black_ssao_color.dds" index = 3 }
 		shader = "portrait_hair"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -26,4 +28,12 @@ pdxmesh = {
 entity = {
 	name = "female_hair_edelgard_entity"
 	pdxmesh = "female_hair_edelgard_mesh"
+	
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
 }

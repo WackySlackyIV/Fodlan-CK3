@@ -63,3 +63,27 @@ sacred_chalice_beginnings_visual = {
 	support_type = "short"
 	asset = ep1_western_sword_01_a_portrait_entity
 }
+
+relic_shield_aegis_visual = {
+	icon = "relic_aegis_shield.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_spear_areadbhar_visual = {
+	icon = "relic_areadbhar.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_axe_aymr_visual = {
+	icon = "relic_aymr.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_sword_blutgang_visual = {
+	icon = "relic_blutgang.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}

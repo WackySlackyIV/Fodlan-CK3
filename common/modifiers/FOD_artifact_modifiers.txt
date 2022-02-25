@@ -1,5 +1,5 @@
 artifact_sword_seiros_modifier = {
-	prowess_no_portrait = 8
+	prowess_no_portrait = 14
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -11,7 +11,7 @@ artifact_sword_seiros_modifier = {
 }
 
 artifact_axe_ukonvasara_modifier = {
-	prowess_no_portrait = 10
+	prowess_no_portrait = 15
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -24,7 +24,7 @@ artifact_axe_ukonvasara_modifier = {
 }
 
 artifact_staff_caduceus_modifier = {
-	prowess_no_portrait = 6
+	prowess_no_portrait = 8
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -37,7 +37,7 @@ artifact_staff_caduceus_modifier = {
 }
 
 artifact_shield_ochain_modifier = {
-	prowess_no_portrait = 4
+	prowess_no_portrait = 10
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -51,7 +51,7 @@ artifact_shield_ochain_modifier = {
 }
 
 artifact_spear_assal_modifier = {
-	prowess_no_portrait = 6
+	prowess_no_portrait = 13
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -65,7 +65,7 @@ artifact_spear_assal_modifier = {
 }
 
 artifact_sword_begalta_modifier = {
-	prowess_no_portrait = 8
+	prowess_no_portrait = 12
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -78,7 +78,7 @@ artifact_sword_begalta_modifier = {
 }
 
 artifact_sword_moralta_modifier = {
-	prowess_no_portrait = 8
+	prowess_no_portrait = 12
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -91,7 +91,7 @@ artifact_sword_moralta_modifier = {
 }
 
 artifact_shield_seiros_modifier = {
-	prowess_no_portrait = 4
+	prowess_no_portrait = 10
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -103,7 +103,7 @@ artifact_shield_seiros_modifier = {
 }
 
 artifact_bow_inexhaustible_modifier = {
-	prowess_no_portrait = 6
+	prowess_no_portrait = 12
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -116,7 +116,7 @@ artifact_bow_inexhaustible_modifier = {
 }
 
 artifact_bow_tathlum_modifier = {
-	prowess_no_portrait = 6
+	prowess_no_portrait = 12
 	monthly_prestige = 0.5
 	monthly_piety = 1
 
@@ -141,7 +141,7 @@ artifact_chalice_beginnings_modifier = {
 }
 
 artifact_shield_aegis_modifier = {
-	prowess_no_portrait = 8
+	prowess_no_portrait = 12
 	monthly_prestige = 1
 
 	hard_casualty_modifier = -0.6
@@ -150,7 +150,7 @@ artifact_shield_aegis_modifier = {
 }
 
 artifact_spear_areadbhar_modifier = {
-	prowess_no_portrait = 12
+	prowess_no_portrait = 19
 	monthly_prestige = 1
 
 	martial_per_stress_level = 2
@@ -161,7 +161,7 @@ artifact_spear_areadbhar_modifier = {
 }
 
 artifact_axe_aymr_modifier = {
-	prowess_no_portrait = 14
+	prowess_no_portrait = 18
 	monthly_prestige = 1
 
 
@@ -173,10 +173,10 @@ artifact_axe_aymr_modifier = {
 }
 
 artifact_sword_blutgang_modifier = {
-	prowess_no_portrait = 10
+	prowess_no_portrait = 16
 	monthly_prestige = 1
 
 	scheme_power = 0.1
 	movement_speed = 0.25
-	retreat_losses = 0.1
+	retreat_losses = -0.1
 }
