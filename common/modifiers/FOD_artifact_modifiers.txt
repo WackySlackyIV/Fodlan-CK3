@@ -180,3 +180,70 @@ artifact_sword_blutgang_modifier = {
 	movement_speed = 0.25
 	retreat_losses = -0.1
 }
+
+artifact_axe_crusher_modifier = {
+	prowess_no_portrait = 19
+	monthly_prestige = 1
+}
+
+artifact_bow_failnaught_modifier = {
+	prowess_no_portrait = 17
+	monthly_prestige = 1
+}
+
+artifact_axe_freikugel_modifier = {
+	prowess_no_portrait = 18
+	monthly_prestige = 1
+}
+
+artifact_lance_ruin_modifier = {
+	prowess_no_portrait = 17
+	monthly_prestige = 1
+}
+
+artifact_lance_luin_modifier = {
+	prowess_no_portrait = 16
+	monthly_prestige = 1
+}
+
+artifact_rafail_gem_modifier = {
+	prowess_no_portrait = 10
+	monthly_prestige = 1
+}
+
+artifact_sword_creator_modifier = {
+	prowess_no_portrait = 20
+	monthly_prestige = 1
+}
+
+artifact_sword_thunderbrand_modifier = {
+	prowess_no_portrait = 18
+	monthly_prestige = 1
+
+	martial = 4
+}
+
+artifact_thyrsus_modifier = {
+	prowess_no_portrait = 12
+	monthly_prestige = 1
+
+	learning = 2
+}
+
+artifact_fetters_dromi_modifier = {
+	prowess_no_portrait = 4
+	monthly_prestige = 1
+
+	movement_speed = 0.5
+	naval_movement_speed_mult = 0.5
+	siege_phase_time = -0.5
+	raid_speed = 0.5
+	build_speed = 0.25
+}
+
+artifact_gauntlets_vajra_mushti_modifier = {
+	prowess_no_portrait = 19
+	monthly_prestige = 1
+
+	siege_morale_loss = -0.5
+}
