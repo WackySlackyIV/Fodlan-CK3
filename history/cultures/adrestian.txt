@@ -14,6 +14,7 @@
 	discover_innovation = innovation_mustering_grounds
 	discover_innovation = innovation_catapult
 	discover_innovation = innovation_quilted_armor
+	discover_innovation = innovation_special_mage_corps
 	join_era = culture_era_early_medieval
 }
 
@@ -50,7 +51,6 @@
 	#discover_innovation = innovation_hoardings
 	discover_innovation = innovation_knighthood
 	discover_innovation = innovation_men_at_arms
-	discover_innovation = innovation_wyvern_riders
 	#discover_innovation = innovation_trebuchet
 	#
 	discover_innovation = innovation_garreg_mach_allowence
