@@ -1,1 +1,18 @@
-﻿
+﻿fp1_yearly_events = {
+	trigger = {
+		has_fp1_dlc_trigger = yes
+	}
+
+	random_events = {
+		chance_to_happen = 25
+		500 = 0
+		200 = fp1_yearly.2000 # A Child wants to run away to marry their beloved
+		300 = fp1_yearly.2100 # Two lovers duel for your love
+		200 = fp1_yearly.2400 # Invest in something that'll aid in your hunts
+		200 = fp1_yearly.0521	# Blood on the Snow - your child wishes to snowball fight.
+		200 = fp1_yearly.0531	# [Dynasty] on Ice - your child wants to learn how to ice skate.
+		200 = fp1_yearly.0651	# Leviathan - you spot a whale whilst sailing.
+		200 = fp1_yearly.0661	# A Novel Challenge - a knight challenges you to skiing.
+		200 = fp1_yearly.0671	# A Slippery Slope - your child wants to go sledding.
+	}
+}

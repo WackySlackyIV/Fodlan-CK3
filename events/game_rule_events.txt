@@ -254,25 +254,3 @@ game_rule.3 = { # Exclave Independence, on war end
 		}
 	}
 }
-
-#######################
-# HUNGARIAN MIGRATION #
-#######################
-
-game_rule.1011 = {
-	type = empty
-	hidden = yes
-
-	trigger = {
-		always = no
-	}
-}
-
-game_rule.1012 = {
-	type = empty
-	hidden = yes
-
-	trigger = {
-		always = no
-	}
-}

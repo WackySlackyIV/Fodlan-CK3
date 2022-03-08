@@ -2706,19 +2706,6 @@ birth.8001 = { #by Mathilda Bjarnehed
 			
 		}
 	}
-}		
-
-# Born in the Purple allocation
-#	by Ewan Cowhig Croft
-birth.8011 = {
-	type = character_event
-	hidden = yes
-	
-	trigger = {
-		always = no
-	}
-
-	immediate = {  }
 }
 
 

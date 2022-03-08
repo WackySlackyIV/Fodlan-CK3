@@ -2444,46 +2444,6 @@ trait_specific_ongoing.3005 = {
 }
 
 
-#Your court physician tries to treat you - praying
-#by Linnéa Thimrén
-trait_specific_ongoing.3006 = {
-	type = character_event
-	title = trait_specific_ongoing.3002.t
-	desc = trait_specific_ongoing.3006.desc
-	theme = mental_health
-	left_portrait = root
-	right_portrait = scope:court_physician
-	
-	trigger = {
-		has_trait = depressed
-		scope:court_physician = { is_alive = yes }
-	}
-
-	on_trigger_fail = {
-		trigger_event = trait_specific_ongoing.3008
-	}
-
-	option = { #Go for treatment
-		name = trait_specific_ongoing.3006.a
-		trigger_event = {
-			id = trait_specific_ongoing.3007
-			days = { 7 14 }
-		}
-		stress_impact = {
-			base = minor_stress_impact_gain
-		}
-	}
-
-	option = { #Nah, I'll go back to bed
-		name = trait_specific_ongoing.3003.b
-		add_character_modifier = {
-			modifier = seduce_rested_modifier
-			years = 5
-		}
-	}
-}
-
-
 #Deactivate the trait!
 #by Linnéa Thimrén
 scripted_effect trait_specific_ongoing_3007_lose_depressed_effect = {

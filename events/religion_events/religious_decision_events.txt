@@ -1583,66 +1583,6 @@ religious_decision.0302 = {
 	}
 }
 
-#################################
-# Raise Runestone Maintenance	#
-# by Linnéa Thimrén				#
-# 0311							#
-#################################
-
-religious_decision.0311 = {
-	hidden = yes
-	
-	# Faiths that can raise a runestone need to have this character saved as a variable on their successor.
-	trigger = {
-		exists = player_heir
-		player_heir = {
-			is_close_family_of = root
-		}
-		dynasty = player_heir.dynasty
-		faith = player_heir.faith
-		faith = faith:norse_pagan
-	}
-
-	immediate = {
-		player_heir = {
-			set_variable = {
-				name = ancestor_to_bury
-				value = root
-				years = 5
-			}
-		}
-	}
-}
-
-#New holder of the county with a runestone
-religious_decision.0312 = {
-	hidden = yes
-	
-	trigger = {
-		scope:title = {
-			exists = var:ancestor_to_bury
-		}
-		NOT = { dynasty = scope:previous_holder.dynasty } #We only have to change something if the new holder is of a different dynasty
-		# Use expanded version if we have FP1.
-		has_fp1_dlc_trigger = no
-	}
-
-	immediate = {
-		if = {
-			limit = {
-				scope:title = {
-					NOT = { var:ancestor_to_bury.dynasty = root.dynasty }
-				}
-			}
-			scope:title = {
-				remove_county_modifier = county_raised_runestone_modifier
-				remove_variable = ancestor_to_bury
-			}
-		}
-	}
-}
-
-
 #########################
 # Divine the Stars		#
 # by Sean Hughes		#
