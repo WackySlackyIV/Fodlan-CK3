@@ -1,4 +1,31 @@
-﻿SacrificeTerm = {
+﻿ShieldPersonFemaleMale = {
+	type = character
+
+	text = {
+		localization_key = trait_shieldmaiden_female
+		trigger = { is_female = yes }
+	}
+
+	text = {
+		localization_key = trait_shieldmaiden_male
+		trigger = { is_male = yes }
+	}	
+}
+
+ShieldPersonsFemaleMale = {
+	type = character
+
+	text = {
+		localization_key = trait_shieldmaidens_female
+		trigger = { is_female = yes }
+	}
+
+	text = {
+		localization_key = trait_shieldmaidens_male
+		trigger = { is_male = yes }
+	}	
+}
+SacrificeTerm = {
 	type = character
 
 	# Random_valid triggers the snackrifice, but that's it.

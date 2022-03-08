@@ -1,1 +1,137 @@
-﻿
+﻿# Either-side effects for a tbc ending with death.
+fp1_tbc_death_effect = {
+	# Check to see if this is a duel to the death between those of equal rank.
+	## We check this here in case an *untimely* death causes either participant to go up a rank.
+	## Equal rank: level playing field, maximum honour.
+	if = {
+		limit = { $TBC_VICTOR$.primary_title.tier = $TBC_LOSER$.primary_title.tier }
+		$TBC_VICTOR$ = { add_prestige = medium_prestige_gain }
+	}
+	## Unequal rank: challenging your betters but clearly it was merited.
+	else_if = {
+		limit = { $TBC_VICTOR$.primary_title.tier < $TBC_LOSER$.primary_title.tier }
+		$TBC_VICTOR$ = { add_prestige = minor_prestige_gain }
+	}
+	$TBC_LOSER$ = {
+		death = {
+			killer = $TBC_VICTOR$
+			death_reason = death_duel
+		}
+	}
+}
+
+# Recipient-side effects for a tbc ending with a cash settlement.
+fp1_tbc_gold_effect = {
+	$TBC_LOSER$ = {
+		pay_short_term_gold = {
+			target = $TBC_VICTOR$
+			gold = major_gold_value
+		}
+	}
+}
+
+# Recipient-side effects for a tbc ending with an agreed favour.
+fp1_tbc_hook_effect = {
+	$TBC_VICTOR$ = {
+		add_hook = {
+			type = trial_by_combat_hook
+			target = $TBC_LOSER$
+		}
+	}
+}
+
+# Recipient-side effects for a tbc ending with utter humiliation.
+fp1_tbc_humiliation_effect = {
+	$TBC_LOSER$ = { add_stress = massive_stress_gain }
+}
+
+# Actor-side effects for losing most types of tbc.
+fp1_tbc_actor_defeated_effect = {
+	$TBC_LOSER$ = { add_stress = major_stress_gain }
+}
+
+try_create_challenge_to_single_combat = {
+	if = {
+		limit = {
+			is_imprisoned = no
+			root = { has_imprisonment_reason = prev }
+		}
+		try_create_important_action = {
+			important_action_type = action_can_challenge_to_single_combat
+			actor = root
+			recipient = this
+		}
+	}
+}
+
+replace_with_learning_trait_effect = {
+	if = {
+		limit = { has_trait = education_intrigue_1 }
+		remove_trait = education_intrigue_1
+	}
+	else_if = {
+		limit = { has_trait = education_intrigue_2 }
+		remove_trait = education_intrigue_2
+	}
+	else_if = {
+		limit = { has_trait = education_intrigue_3 }
+		remove_trait = education_intrigue_3
+	}
+	else_if = {
+		limit = { has_trait = education_intrigue_4 }
+		remove_trait = education_intrigue_4
+	}
+	else_if = {
+		limit = { has_trait = education_diplomacy_1 }
+		remove_trait = education_diplomacy_1
+	}
+	else_if = {
+		limit = { has_trait = education_diplomacy_2 }
+		remove_trait = education_diplomacy_2
+	}
+	else_if = {
+		limit = { has_trait = education_diplomacy_3 }
+		remove_trait = education_diplomacy_3
+	}
+	else_if = {
+		limit = { has_trait = education_diplomacy_4 }
+		remove_trait = education_diplomacy_4
+	}
+	else_if = {
+		limit = { has_trait = education_stewardship_1 }
+		remove_trait = education_stewardship_1
+	}
+	else_if = {
+		limit = { has_trait = education_stewardship_2 }
+		remove_trait = education_stewardship_2
+	}
+	else_if = {
+		limit = { has_trait = education_stewardship_3 }
+		remove_trait = education_stewardship_3
+	}
+	else_if = {
+		limit = { has_trait = education_stewardship_4 }
+		remove_trait = education_stewardship_4
+	}
+	else_if = {
+		limit = { has_trait = education_martial_1 }
+		remove_trait = education_martial_1
+	}
+	else_if = {
+		limit = { has_trait = education_martial_2 }
+		remove_trait = education_martial_2
+	}
+	else_if = {
+		limit = { has_trait = education_martial_3 }
+		remove_trait = education_martial_3
+	}
+	else_if = {
+		limit = { has_trait = education_martial_4 }
+		remove_trait = education_martial_4
+	}
+	random_list = {
+		2 = { add_trait = education_learning_2 }
+		2 = { add_trait = education_learning_3 }
+		1 = { add_trait = education_learning_4 }
+	}
+}

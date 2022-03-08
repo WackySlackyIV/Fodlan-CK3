@@ -8941,8 +8941,6 @@ desert_warrior = {
 	
 	culture_modifier = {
 		parameter = desert_warrior_trait_is_better
-		camel_cavalry_damage_mult = 0.2
-		camel_cavalry_screen_mult = 0.1
 	}
 	
 	ruler_designer_cost = 25

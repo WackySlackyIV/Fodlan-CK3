@@ -917,7 +917,7 @@ tradition_strength_in_numbers = {
 		swords_max_size_add = 2
 		axes_max_size_add = 2
 		lances_max_size_add = 2
-		magic_max_size = 2
+		magic_max_size_add = 2
 		armors_max_size_add = -2
 		light_cav_max_size_add = -2
 		heavy_cav_max_size_add = -2
@@ -928,7 +928,7 @@ tradition_strength_in_numbers = {
 		bows_recruitment_cost_mult = -0.15
 		axes_recruitment_cost_mult = -0.15
 		lances_recruitment_cost_mult = -0.15
-		mahic_recruitment_cost_mult = -0.15
+		magic_recruitment_cost_mult = -0.15
 		knight_limit = -2
 	}
 	
