@@ -88,21 +88,44 @@ select_local_animal_effect = {
 					}
 				}
 				5 = {
-					# not in africa
+					# faerghus and north
+					modifier = {
+						factor = 0
+						OR = {
+							location = { NOT = { geographical_region = world_fodlan_faerghus } }
+							location = { NOT = { geographical_region = world_fodlan_duscur } }
+							location = { NOT = { geographical_region = world_fodlan_sreng } }
+							location = { NOT = { geographical_region = world_north } }
+						}
+					}
 					set_variable = {
 						name = local_animal
 						value = flag:bear
 					}
 				}
 				5 = {
-					# not in europe
+					# almyra and kotesh
+					modifier = {
+						factor = 0
+						OR = {
+							location = { NOT = { geographical_region = world_almyra } }
+							location = { NOT = { geographical_region = world_koteshger } }
+						}
+					}
 					set_variable = {
 						name = local_animal
 						value = flag:lion
 					}
 				}
 				5 = {
-					# india only
+					# brigid and kotesh
+					modifier = {
+						factor = 0
+						OR = {
+							location = { NOT = { geographical_region = world_brigid } }
+							location = { NOT = { geographical_region = world_koteshger } }
+						}
+					}
 					set_variable = {
 						name = local_animal
 						value = flag:tiger
@@ -110,6 +133,10 @@ select_local_animal_effect = {
 				}
 				5 = {
 					# europe only
+					modifier = {
+						factor = 0
+						location = { NOT = { geographical_region = world_fodlan } }
+					}
 					set_variable = {
 						name = local_animal
 						value = flag:lynx
@@ -176,12 +203,46 @@ big_animal_effect = {
 				}
 			}
 			5 = {
+				# not in africa
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = {
+							exists = location
+						}
+						AND = {
+							exists = location
+							OR = {
+								location = { NOT = { geographical_region = world_fodlan_faerghus } }
+								location = { NOT = { geographical_region = world_fodlan_duscur } }
+								location = { NOT = { geographical_region = world_fodlan_sreng } }
+								location = { NOT = { geographical_region = world_north } }
+							}
+						}
+					}
+				}
 				set_variable = {
 					name = local_animal
 					value = flag:bear
 				}
 			}
 			5 = {
+				# not in europe
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = {
+							exists = location
+						}
+						AND = {
+							exists = location
+							OR = {
+								location = { NOT = { geographical_region = world_almyra } }
+								location = { NOT = { geographical_region = world_koteshger } }
+							}
+						}
+					}
+				}
 				set_variable = {
 					name = local_animal
 					value = flag:lion
@@ -189,6 +250,21 @@ big_animal_effect = {
 			}
 			5 = {
 				# india only
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = {
+							exists = location
+						}
+						AND = {
+							exists = location
+							OR = {
+								location = { NOT = { geographical_region = world_brigid } }
+								location = { NOT = { geographical_region = world_koteshger } }
+							}
+						}
+					}
+				}
 				set_variable = {
 					name = local_animal
 					value = flag:tiger
@@ -239,12 +315,22 @@ dangerous_animal_effect = {
 				}
 			}
 			10 = {
+				# not in africa
+				modifier = {
+					factor = 0
+					$CHARACTER$.location = { geographical_region = world_africa }
+				}
 				set_variable = {
 					name = local_animal
 					value = flag:bear
 				}
 			}
 			10 = {
+				# not in europe
+				modifier = {
+					factor = 0
+					$CHARACTER$.location = { geographical_region = world_europe }
+				}
 				set_variable = {
 					name = local_animal
 					value = flag:lion
@@ -252,6 +338,10 @@ dangerous_animal_effect = {
 			}
 			10 = {
 				# india only
+				modifier = {
+					factor = 0
+					$CHARACTER$.location = { NOT = { geographical_region = world_india } }
+				}
 				set_variable = {
 					name = local_animal
 					value = flag:tiger

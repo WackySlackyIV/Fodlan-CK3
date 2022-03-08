@@ -55,102 +55,6 @@
 				save_scope_as = sacred_sword_seiros_scope
 				decaying = no
 			}
-
-			create_artifact = {
-				name = sacred_axe_ukonvasara
-				rarity = Illustrious
-				description = sacred_axe_ukonvasara_description
-				history = {
-					type = created_before_history
-				}
-				type = axe
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_axe_ukonvasara_visual
-				modifier = artifact_axe_ukonvasara_modifier
-				save_scope_as = sacred_axe_ukonvasara_scope
-				decaying = no
-			}
-
-			create_artifact = {
-				name = sacred_staff_caduceus
-				rarity = Illustrious
-				description = sacred_staff_caduceus_description
-				history = {
-					type = created_before_history
-				}
-				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_staff_caduceus_visual
-				modifier = artifact_staff_caduceus_modifier
-				save_scope_as = sacred_staff_caduceus_scope
-				decaying = no
-			}
-			
-			create_artifact = {
-				name = sacred_shield_ochain
-				rarity = Illustrious
-				description = sacred_shield_ochain_description
-				history = {
-					type = created_before_history
-				}
-				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_shield_ochain_visual
-				modifier = artifact_shield_ochain_modifier
-				save_scope_as = sacred_shield_ochain_scope
-				decaying = no
-			}
-			
-			create_artifact = {
-				name = sacred_spear_assal
-				rarity = Illustrious
-				description = sacred_spear_assal_description
-				history = {
-					type = created_before_history
-				}
-				type = spear
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_spear_assal_visual
-				modifier = artifact_spear_assal_modifier
-				save_scope_as = sacred_spear_assal_scope
-				decaying = no
-			}
-			
-			create_artifact = {
-				name = sacred_sword_begalta
-				rarity = Illustrious
-				description = sacred_sword_begalta_description
-				history = {
-					type = created_before_history
-				}
-				type = sword
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_sword_begalta_visual
-				modifier = artifact_sword_begalta_modifier
-				save_scope_as = sacred_sword_begalta_scope
-				decaying = no
-			}
-			
-			create_artifact = {
-				name = sacred_sword_moralta
-				rarity = Illustrious
-				description = sacred_sword_moralta_description
-				history = {
-					type = created_before_history
-				}
-				type = sword
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_sword_moralta_visual
-				modifier = artifact_sword_moralta_modifier
-				save_scope_as = sacred_sword_moralta_scope
-				decaying = no
-			}
 			
 			create_artifact = {
 				name = sacred_shield_seiros
@@ -169,38 +73,6 @@
 			}
 			
 			create_artifact = {
-				name = sacred_bow_inexhaustible
-				rarity = Illustrious
-				description = sacred_bow_inexhaustible_description
-				history = {
-					type = created_before_history
-				}
-				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_bow_inexhaustible_visual
-				modifier = artifact_bow_inexhaustible_modifier
-				save_scope_as = sacred_bow_inexhaustible_scope
-				decaying = no
-			}
-			
-			create_artifact = {
-				name = sacred_bow_tathlum
-				rarity = Illustrious
-				description = sacred_bow_tathlum_description
-				history = {
-					type = created_before_history
-				}
-				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = sacred_bow_tathlum_visual
-				modifier = artifact_bow_tathlum_modifier
-				save_scope_as = sacred_bow_tathlum_scope
-				decaying = no
-			}
-			
-			create_artifact = {
 				name = sacred_chalice_beginnings
 				rarity = Illustrious
 				description = sacred_chalice_beginnings_description
@@ -215,76 +87,12 @@
 				save_scope_as = sacred_chalice_beginnings_scope
 				decaying = no
 			}
-
-			create_artifact = {
-				name = relic_shield_aegis
-				rarity = Illustrious
-				description = relic_shield_aegis_description
-				history = {
-					type = created_before_history
-				}
-				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = relic_shield_aegis_visual
-				modifier = artifact_shield_aegis_modifier
-				save_scope_as = relic_shield_aegis_scope
-				decaying = no
-			}
-
-			create_artifact = {
-				name = relic_spear_areadbhar
-				rarity = Illustrious
-				description = relic_spear_areadbhar_description
-				history = {
-					type = created_before_history
-				}
-				type = spear
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = relic_spear_areadbhar_visual
-				modifier = artifact_spear_areadbhar_modifier
-				save_scope_as = relic_spear_areadbhar_scope
-				decaying = no
-			}
-
-			create_artifact = {
-				name = relic_axe_aymr
-				rarity = Illustrious
-				description = relic_axe_aymrr_description
-				history = {
-					type = created_before_history
-				}
-				type = axe
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = relic_axe_aymr_visual
-				modifier = artifact_axe_aymr_modifier
-				save_scope_as = relic_axe_aymr_scope
-				decaying = no
-			}
-
-			create_artifact = {
-				name = relic_sword_blutgang
-				rarity = Illustrious
-				description = relic_sword_blutgang_description
-				history = {
-					type = created_before_history
-				}
-				type = axe
-				wealth = scope:wealth
-				quality = scope:quality
-				visuals = relic_sword_blutgang_visual
-				modifier = artifact_sword_blutgang_modifier
-				save_scope_as = relic_sword_blutgang_scope
-				decaying = no
-			}
 		}
 	}
 	16.6.12 = {
 		set_immortal_age = 30
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		set_relation_court_physician = character:100007
 	}
 	1200.1.11 = {
@@ -362,7 +170,38 @@
 	70.9.27 = {
 		birth=yes
 		effect = {
-			add_character_flag = has_scripted_appearance
+			add_character_flag = has_scripted_appearance			
+			create_artifact = {
+				name = sacred_shield_ochain
+				rarity = Illustrious
+				description = sacred_shield_ochain_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_shield_ochain_visual
+				modifier = artifact_shield_ochain_modifier
+				save_scope_as = sacred_shield_ochain_scope
+				decaying = no
+			}
+			
+			create_artifact = {
+				name = sacred_spear_assal
+				rarity = Illustrious
+				description = sacred_spear_assal_description
+				history = {
+					type = created_before_history
+				}
+				type = spear
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_spear_assal_visual
+				modifier = artifact_spear_assal_modifier
+				save_scope_as = sacred_spear_assal_scope
+				decaying = no
+			}
 		}
 	}
 	31.6.12 = {
@@ -410,6 +249,22 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 			give_council_position = councillor_court_chaplain
+
+			create_artifact = {
+				name = sacred_staff_caduceus
+				rarity = Illustrious
+				description = sacred_staff_caduceus_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = sacred_staff_caduceus_visual
+				modifier = artifact_staff_caduceus_modifier
+				save_scope_as = sacred_staff_caduceus_scope
+				decaying = no
+			}
 		}
 	}
 	56.6.12 = {
@@ -418,7 +273,7 @@
 	1162.1.11 = {
 		employer = 100000
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		effect = {
 			#set_character_flag = spell_reason_fire
 			#set_character_flag = spell_reason_wind
@@ -470,7 +325,7 @@
 		add_spouse = 100021
 	}
 
-	1181.1.11 = {
+	1180.1.11 = {
 		employer = 100000
 	}
 	
@@ -612,7 +467,7 @@
 	1174.10.11 = {
 		employer = 100000
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_divine_songstress
 		set_relation_friend = character:100008
 	}
@@ -662,7 +517,7 @@
 	1165.1.11 = {
 		employer = 100000
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_father_of_crestology
 		effect = {
 			#set_character_flag = spell_reason_sagittae
@@ -713,7 +568,7 @@
 		add_spouse=100017
 		give_nickname = nick_blade_breaker
 	}
-	1181.3.15 = {
+	1180.3.15 = {
 		death=yes
 	}
 }
@@ -799,9 +654,27 @@
 	1162.1.11 = {
 		employer = 100000
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_thunderstrike
 		set_relation_friend = character:100006
+
+		effect = {
+			create_artifact = {
+				name = relic_sword_thunderbrand
+				rarity = Illustrious
+				description = relic_sword_thunderbrand_description
+				history = {
+					type = created_before_history
+				}
+				type = sword
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_sword_thunderbrand_visual
+				modifier = artifact_sword_thunderbrand_modifier
+				save_scope_as = relic_sword_thunderbrand_scope
+				decaying = no
+			}
+		}
 	}
 
 	1200.1.1={
@@ -846,9 +719,26 @@
 		}
 		birth=yes
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 100000
 		give_nickname = nick_savage_mockingbird
+		effect = {
+			create_artifact = {
+				name = relic_fetters_dromi
+				rarity = Illustrious
+				description = relic_fetters_dromi_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_fetters_dromi_visual
+				modifier = artifact_fetters_dromi_modifier
+				save_scope_as = relic_fetters_dromi_scope
+				decaying = no
+			}
+		}
 	}
 	1200.1.1={
 		death=yes
@@ -897,13 +787,23 @@
 			set_relation_friend = character:200023
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		effect = {
-			#add_artifact = relic_vajra_mushti
-			#spawn_date = -1.1.1
-			#set_character_flag = spell_faith_heal
-			#set_character_flag = spell_faith_nosferatu
-			#set_character_flag = spell_faith_seraphim
+			create_artifact = {
+				name = relic_gauntlets_vajra_mushti
+				rarity = Illustrious
+				description = relic_gauntlets_vajra_mushti_description
+				history = {
+					type = created_before_history
+				}
+				type = sword
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_gauntlets_vajra_mushti_visual
+				modifier = artifact_gauntlets_vajra_mushti_modifier
+				save_scope_as = relic_gauntlets_vajra_mushti_scope
+				decaying = no
+			}
 		}
 		employer = 100000
 		give_nickname = nick_king_grappling
@@ -956,7 +856,7 @@
 		}
 		employer = 100000
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		effect = {
 			#set_character_flag = spell_reason_fire
 			#set_character_flag = spell_reason_sagittae
@@ -1005,16 +905,6 @@
 	1180.1.15 = {
 		employer = 100000
 	}
-	1181.1.1 = {
-		effect = {
-			#set_character_flag = spell_dark_miasma
-			#set_character_flag = spell_dark_swarm
-			#set_character_flag = spell_dark_banshee
-			#set_character_flag = spell_dark_death
-			#set_character_flag = spell_faith_heal
-			#set_character_flag = spell_faith_nosferatu
-		}
-	}
 	1200.1.1={
 		death=yes
 	}
@@ -1051,22 +941,6 @@
 		}
 		birth=yes
 		employer = 100000
-	}
-	#1170.1.1 = {
-	#	effect = {
-	#		give_minor_title = title_cardinal
-	#	}
-	#}
-	1181.1.1 = {
-		effect = {
-			#set_character_flag = spell_reason_fire
-			#set_character_flag = spell_reason_bolganone
-			#set_character_flag = spell_reason_ragnarok
-			#set_character_flag = spell_reason_meteor
-			#set_character_flag = spell_faith_heal
-			#set_character_flag = spell_faith_recover
-			#set_character_flag = spell_faith_nosferatu
-		}
 	}
 	1200.1.1={
 		death=yes
@@ -1125,7 +999,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.11 = {
+	1180.1.11 = {
 		employer = 100000
 	}
 	1200.1.1={
@@ -1164,7 +1038,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.11 = {
+	1180.1.11 = {
 		employer = 100000
 	}
 	1200.1.1={
@@ -1197,7 +1071,7 @@
 	1146.1.1 = {
 		birth=yes
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 100000
 	}
 	1200.1.1={
@@ -1227,7 +1101,7 @@
 		add_spouse = 100004
 	}
 	
-	1181.1.11 = {
+	1180.1.11 = {
 		employer = 100000
 	}
 	

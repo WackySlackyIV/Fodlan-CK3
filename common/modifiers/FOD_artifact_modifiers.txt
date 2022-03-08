@@ -164,10 +164,9 @@ artifact_axe_aymr_modifier = {
 	prowess_no_portrait = 18
 	monthly_prestige = 1
 
-
 	prowess_per_prestige_level = 1
-	intrigue_per_prestige_level = 1
 	martial_per_prestige_level = 1
+	scheme_resistance = 10
 	dread_gain_mult = 0.2
 	dread_loss_mult = -0.2
 }
@@ -184,42 +183,78 @@ artifact_sword_blutgang_modifier = {
 artifact_axe_crusher_modifier = {
 	prowess_no_portrait = 19
 	monthly_prestige = 1
+
+	siege_phase_time = -0.4
+	axe_siege_value_add = 0.2
 }
 
 artifact_bow_failnaught_modifier = {
 	prowess_no_portrait = 17
 	monthly_prestige = 1
+
+	intrigue_per_prestige_level = 1
+	diplomacy = 2
+	scheme_power = 5
+	scheme_success_chance = 5
+	max_personal_schemes_add = 1
+	random_advantage = 1
 }
 
 artifact_axe_freikugel_modifier = {
 	prowess_no_portrait = 18
 	monthly_prestige = 1
+
+	enemy_hard_casualty_modifier = 0.4
+	defender_advantage = 10
+	monthly_martial_lifestyle_xp_gain_mult = 0.2
 }
 
 artifact_lance_ruin_modifier = {
 	prowess_no_portrait = 17
 	monthly_prestige = 1
+
+	raid_speed = 0.5
+	hostile_county_attrition = -0.2
+	dread_baseline_add = 10
+	dread_gain_mult = 0.2
 }
 
 artifact_lance_luin_modifier = {
 	prowess_no_portrait = 16
 	monthly_prestige = 1
+
+	movement_speed = 0.1
+	max_combat_roll = 2
+	domain_limit = 1
+	opinion_of_same_culture = 5
 }
 
 artifact_rafail_gem_modifier = {
 	prowess_no_portrait = 10
 	monthly_prestige = 1
+
+	learning = 2
+	no_water_crossing_penalty = yes
+	controlled_province_advantage = 10
+	supply_duration = 0.2
 }
 
 artifact_sword_creator_modifier = {
 	prowess_no_portrait = 20
 	monthly_prestige = 1
+
+	advantage = 5
+	max_combat_roll = 2
+	general_opinion = 10
+	no_prowess_loss_from_age = yes
 }
 
 artifact_sword_thunderbrand_modifier = {
 	prowess_no_portrait = 18
 	monthly_prestige = 1
 
+	max_combat_roll = 6
+	advantage = 10
 	martial = 4
 }
 
@@ -227,6 +262,9 @@ artifact_thyrsus_modifier = {
 	prowess_no_portrait = 12
 	monthly_prestige = 1
 
+	magic_damage_mult = 0.2
+	magic_pursuit_mult = 0.2
+	magic_max_size_add = 2
 	learning = 2
 }
 
@@ -238,12 +276,15 @@ artifact_fetters_dromi_modifier = {
 	naval_movement_speed_mult = 0.5
 	siege_phase_time = -0.5
 	raid_speed = 0.5
-	build_speed = 0.25
+	build_speed = -0.25
 }
 
 artifact_gauntlets_vajra_mushti_modifier = {
 	prowess_no_portrait = 19
 	monthly_prestige = 1
 
-	siege_morale_loss = -0.5
+	max_combat_roll = 20
+	min_combat_roll = -10
+	prowess_per_prestige_level = 2
+	siege_morale_loss = 0.5
 }

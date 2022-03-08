@@ -49,7 +49,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_undefeated
 		employer = 700000
 	}

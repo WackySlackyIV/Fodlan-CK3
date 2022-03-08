@@ -87,3 +87,69 @@ relic_sword_blutgang_visual = {
 	support_type = "short"
 	asset = ep1_western_sword_01_a_portrait_entity
 }
+
+relic_axe_crusher_visual = {
+	icon = "relic_crusher.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_bow_failnaught_visual = {
+	icon = "relic_failnaught.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_axe_freikugel_visual = {
+	icon = "relic_freikugel.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_lance_ruin_visual = {
+	icon = "relic_lance_ruin.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_lance_luin_visual = {
+	icon = "relic_luin.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_rafail_gem_visual = {
+	icon = "relic_rafail_gem.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_sword_creator_visual = {
+	icon = "relic_sword_creator.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_sword_thunderbrand_visual = {
+	icon = "relic_thunderbrand.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_thyrsus_visual = {
+	icon = "relic_thyrsus.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_fetters_dromi_visual = {
+	icon = "relic_fetters_dromi.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_gauntlets_vajra_mushti_visual = {
+	icon = "relic_vajra_mushti.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}

@@ -38,6 +38,21 @@
 		effect = {
 			set_designated_heir = character:200012
 			break_alliance = character:700000 #not needed
+			create_artifact = {
+				name = relic_bow_failnaught
+				rarity = Illustrious
+				description = relic_bow_failnaught_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_bow_failnaught_visual
+				modifier = artifact_bow_failnaught_modifier
+				save_scope_as = relic_bow_failnaught_scope
+				decaying = no
+			}
 		}
 	}
 	1200.1.1={
@@ -135,7 +150,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_hero_daphnel
 	}
 	1200.1.1={
@@ -232,7 +247,7 @@
 			set_relation_nemesis = character:200000
 		}
 	}
-	1181.1.1={
+	1180.1.1={
 		give_council_position = councillor_chancellor
 	}
 	1200.1.1={
@@ -260,7 +275,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1={
+	1180.1.1={
 		give_council_position = councillor_steward
 	}
 	1200.1.1={
@@ -333,7 +348,7 @@
 	1171.8.1={
           add_matrilineal_spouse=200039
 	}
-	1181.1.1={
+	1180.1.1={
 		#effect = {
 		#	remove_title = title_roundtable_member
 		#}
@@ -427,7 +442,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_master_tactician
 		employer = 200000
 			add_pressed_claim = d_riegan
@@ -533,8 +548,25 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_lord_of_roses
+		effect = {
+			create_artifact = {
+				name = relic_thyrsus
+				rarity = Illustrious
+				description = relic_thyrsus_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_thyrsus_visual
+				modifier = artifact_thyrsus_modifier
+				save_scope_as = relic_thyrsus_scope
+				decaying = no
+			}
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -578,7 +610,7 @@
 	1168.5.9 = {
 		set_relation_friend = character:200020
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 200000
 	}
 	1200.1.1={
@@ -684,7 +716,7 @@
 	1168.5.9 = {
 		set_relation_friend = character:200016
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 200000
 	}
 	1200.1.1={
@@ -811,6 +843,25 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
+	1180.1.1 = {
+		effect = {
+			create_artifact = {
+				name = relic_axe_freikugel
+				rarity = Illustrious
+				description = relic_axe_freikugel_description
+				history = {
+					type = created_before_history
+				}
+				type = axe
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_axe_freikugel_visual
+				modifier = artifact_axe_freikugel_modifier
+				save_scope_as = relic_axe_freikugel_scope
+				decaying = no
+			}
+		}
+	}
 	1200.1.1={
 		death=yes
 	}
@@ -876,7 +927,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 200000
 	}
 	1200.1.1={
@@ -910,7 +961,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		give_nickname = nick_weathervane
 	}
 	1200.1.1={
@@ -1950,7 +2001,7 @@
 	1122.9.8 = {
 		birth=yes
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		add_spouse = 200000
 	}
 	1200.1.1={

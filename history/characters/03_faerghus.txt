@@ -35,7 +35,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		effect = {
 			give_nickname = nick_boar_prince
 			set_relation_rival = character:400000
@@ -745,8 +745,25 @@
 		}
 	}
 	11811.1.1 = {
-			set_relation_friend = character:300028
-			set_relation_friend = character:300026
+		set_relation_friend = character:300028
+		set_relation_friend = character:300026
+		effect = {
+			create_artifact = {
+				name = relic_lance_luin
+				rarity = Illustrious
+				description = relic_lance_luin_description
+				history = {
+					type = created_before_history
+				}
+				type = spear
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_lance_luin_visual
+				modifier = artifact_lance_luin_modifier
+				save_scope_as = relic_lance_luin_scope
+				decaying = no
+			}
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -790,6 +807,23 @@
 	11811.1.1 = {
 			set_relation_friend = character:300028
 			set_relation_friend = character:300025
+		effect = {			
+			create_artifact = {
+				name = relic_shield_aegis
+				rarity = Illustrious
+				description = relic_shield_aegis_description
+				history = {
+					type = created_before_history
+				}
+				type = regalia
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_shield_aegis_visual
+				modifier = artifact_shield_aegis_modifier
+				save_scope_as = relic_shield_aegis_scope
+				decaying = no
+			}
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -867,6 +901,23 @@
 	11811.1.1 = {
 			set_relation_friend = character:300026
 			set_relation_friend = character:300025
+		effect = {
+			create_artifact = {
+				name = relic_lance_ruin
+				rarity = Illustrious
+				description = relic_lance_ruin_description
+				history = {
+					type = created_before_history
+				}
+				type = spear
+				wealth = scope:wealth
+				quality = scope:quality
+				visuals = relic_lance_ruin_visual
+				modifier = artifact_lance_ruin_modifier
+				save_scope_as = relic_lance_ruin_scope
+				decaying = no
+			}
+		}
 	}
 	1200.1.1={
 		death="1200.1.1"
@@ -964,7 +1015,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 300000
 	}
 	1200.1.1={
@@ -1015,7 +1066,7 @@
 	1177.5.9 = {
 		set_relation_friend = character:300033
 	}
-	1181.1.11 = {
+	1180.1.11 = {
 		employer = 300000
 	}
 	1200.1.1={
@@ -1063,7 +1114,7 @@
 	1177.5.9 = {
 		set_relation_friend = character:300032
 	}
-	1181.1.11 = {
+	1180.1.11 = {
 		employer = 300000
 	}
 	1200.1.1={
@@ -1101,7 +1152,7 @@
 		}
 	}
 
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 300012
 		give_nickname = nick_gray_lion
 	}
@@ -1144,7 +1195,7 @@
 	1168.1.1 = {
 		add_character_modifier = slither_protection
 	}
-	1181.1.1 = {
+	1180.1.1 = {
 		employer = 300000
 	}
 	1200.1.1={
