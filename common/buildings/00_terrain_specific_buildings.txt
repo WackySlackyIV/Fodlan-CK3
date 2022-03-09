@@ -2,16 +2,13 @@
 # Terrain Specific Buildings #
 ##############################
 
-### PEGASUS
+### Pastures
 
-pegasus_01 = {
+pastures_01 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		NOR = { 
-			terrain = taiga
-			terrain = forest
-		}
+		building_pastures_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
 	}
 
@@ -21,41 +18,60 @@ pegasus_01 = {
 	
 	cost_gold = normal_building_tier_1_cost
 	
-	levy = 25
-
-	character_modifier = {
-		light_flyers_damage_mult = 0.04
-	}
-	
+	levy = poor_building_levy_tier_1
 	province_modifier = {
-		monthly_income = 0.2
+		monthly_income = poor_building_tax_tier_1
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.01
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_1
+		tax_mult = 0.01
+		levy_size = 0.01
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.01
+		levy_size = 0.01
 	}
 	
-	next_building = pegasus_02
+	next_building = pastures_02
 
 	type_icon = "icon_building_pastures.dds"
 	
 	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
+		ai_general_building_modifier = yes
 		modifier = {
 			factor = 0
+			building_farm_estates_requirement_terrain = yes
 			NOT = {
-				has_building_or_higher = wyverns_01
+				has_building_or_higher = farm_estates_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_orchards_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = orchards_01
 			}
 		}
 	}
 }
 
-pegasus_02 = {
+pastures_02 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		NOR = { 
-			terrain = taiga
-			terrain = forest
-		}
+		building_pastures_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -64,41 +80,49 @@ pegasus_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	levy = 30
-
-	character_modifier = {
-		light_flyers_damage_mult = 0.04
-		light_flyers_toughness_mult = 0.02
-		light_flyers_pursuit_mult = 0.02
-	}
-	
+	levy = poor_building_levy_tier_2
 	province_modifier = {
-		monthly_income = 0.4
+		monthly_income = poor_building_tax_tier_2
+		supply_limit = 500
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.02
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_2
+		tax_mult = 0.01
+		levy_size = 0.01
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.01
+		levy_size = 0.01
 	}
 	
-	next_building = pegasus_03
+	next_building = pastures_03
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
-			}
-		}
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-pegasus_03 = {
+pastures_03 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		NOR = { 
-			terrain = taiga
-			terrain = forest
-		}
+		building_pastures_requirement_terrain = yes
+	}
+
+	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -107,126 +131,1461 @@ pegasus_03 = {
 	
 	cost_gold = normal_building_tier_3_cost
 	
-	levy = 35
-
-	character_modifier = {
-		light_flyers_damage_mult = 0.06
-		light_flyers_toughness_mult = 0.04
-		light_flyers_pursuit_mult = 0.04
-		light_flyers_screen_mult = 0.02
-	}
-	
+	levy = poor_building_levy_tier_3
 	province_modifier = {
-		monthly_income = 0.6
+		monthly_income = poor_building_tax_tier_3
+		supply_limit = 500
+		levy_reinforcement_rate = 0.1
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.03
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_3
+		tax_mult = 0.02
+		levy_size = 0.02
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.02
+		levy_size = 0.02
 	}
 	
-	next_building = pegasus_04
+	next_building = pastures_04
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
-			}
-		}
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-pegasus_04 = {
+pastures_04 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		NOR = { 
-			terrain = taiga
-			terrain = forest
+		building_pastures_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
 		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = poor_building_levy_tier_4
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+		supply_limit = 500
+		levy_reinforcement_rate = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.04
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_4
+		tax_mult = 0.02
+		levy_size = 0.02
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.02
+		levy_size = 0.02
+	}
+	
+	next_building = pastures_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+pastures_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_pastures_requirement_terrain = yes
+	}
+
+	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
 	}
 
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
 	
-	cost_gold = normal_building_tier_4_cost
+	cost_gold = normal_building_tier_5_cost
 	
-	levy = 40
-
-	character_modifier = {
-		light_flyers_damage_mult = 0.08
-		light_flyers_toughness_mult = 0.06
-		light_flyers_pursuit_mult = 0.06
-		light_flyers_screen_mult = 0.04
-	}
-	
+	levy = poor_building_levy_tier_5
 	province_modifier = {
-		monthly_income = 0.8
+		monthly_income = poor_building_tax_tier_5
+		supply_limit = 500
+		levy_reinforcement_rate = 0.1
+		garrison_size = 0.05
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.05
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_5
+		tax_mult = 0.03
+		levy_size = 0.03
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.03
+		levy_size = 0.03
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
 	}
 	
-	next_building = pegasus_05
+	next_building = pastures_06
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
-			}
-		}
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-pegasus_05 = {
+pastures_06 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		NOR = { 
-			terrain = taiga
-			terrain = forest
+		building_pastures_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
 		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_6_cost
+	
+	levy = poor_building_levy_tier_6
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_6
+		supply_limit = 500
+		levy_reinforcement_rate = 0.1
+		garrison_size = 0.05
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		county_opinion_add = 2
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.06
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_6
+		tax_mult = 0.03
+		levy_size = 0.03
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.03
+		levy_size = 0.03
+	}
+	
+	next_building = pastures_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+pastures_07 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_pastures_requirement_terrain = yes
+	}
+
+	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_7_cost
+	
+	levy = poor_building_levy_tier_7
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_7
+		supply_limit = 500
+		levy_reinforcement_rate = 0.1
+		garrison_size = 0.05
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		county_opinion_add = 2
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+		heavy_cavalry_toughness_mult = 0.04
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.07
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_7
+		tax_mult = 0.04
+		levy_size = 0.04
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.04
+		levy_size = 0.04
+	}
+	
+	next_building = pastures_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+pastures_08 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_pastures_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
 	}
 
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
 	
-	cost_gold = normal_building_tier_4_cost
+	cost_gold = normal_building_tier_8_cost
 	
-	levy = 50
-
-	character_modifier = {
-		light_flyers_damage_mult = 0.1
-		light_flyers_toughness_mult = 0.08
-		light_flyers_pursuit_mult = 0.08
-		light_flyers_screen_mult = 0.06
-	}
-	
+	levy = poor_building_levy_tier_8
 	province_modifier = {
-		monthly_income = 1
+		monthly_income = poor_building_tax_tier_8
+		supply_limit = 2500
+		levy_reinforcement_rate = 0.15
+		garrison_size = 0.05
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		county_opinion_add = 2
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+		heavy_cavalry_toughness_mult = 0.04
+	}
+	character_culture_modifier = {
+		parameter = pastures_building_bonuses
+		light_cavalry_maintenance_mult = -0.08
+	}
+	province_culture_modifier = {
+		parameter = pastures_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_8
+		tax_mult = 0.04
+		levy_size = 0.04
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.04
+		levy_size = 0.04
 	}
 	
 	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### hunting_grounds
+
+hunting_grounds_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_1_cost
+	
+	levy = poor_building_levy_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		monthly_income = poor_building_tax_tier_1
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.01
+		archers_recruitment_cost_mult = -0.01
+		archers_damage_mult = 0.01
+		archers_toughness_mult = 0.01
+	}
+	
+	character_modifier = {
+		light_cavalry_damage_mult = 0.02
+		light_cavalry_pursuit_mult = 0.02
+	}
+	
+	next_building = hunting_grounds_02
+	
+	type_icon = "icon_building_hunting_grounds.dds"
+	
+	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
+		ai_general_building_modifier = yes
 		modifier = {
 			factor = 0
+			building_cereal_fields_requirement_terrain = yes
 			NOT = {
-				has_building_or_higher = wyverns_01
+				has_building_or_higher = cereal_fields_01
+			}
+		}
+		modifier = {
+			factor = 0
+			scope:holder = {
+				has_government = republic_government
+			}
+			NOT = {
+				has_building_or_higher = guild_halls_01
 			}
 		}
 	}
 }
 
-### WYVERN
-
-wyvern_01 = {
+hunting_grounds_02 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
+		building_hunting_grounds_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_2_cost
+	
+	levy = poor_building_levy_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		monthly_income = poor_building_tax_tier_2
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.04
+		light_cavalry_pursuit_mult = 0.04
+		light_cavalry_screen_mult = 0.02
+		light_cavalry_toughness_mult = 0.02
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.01
+		archers_recruitment_cost_mult = -0.01
+		archers_damage_mult = 0.02
+		archers_toughness_mult = 0.02
+	}
+	
+	next_building = hunting_grounds_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hunting_grounds_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_3_cost
+	
+	levy = poor_building_levy_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		monthly_income = poor_building_tax_tier_3
+		hostile_raid_time = 0.1
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.06
+		light_cavalry_pursuit_mult = 0.06
+		light_cavalry_screen_mult = 0.02
+		light_cavalry_toughness_mult = 0.02
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.02
+		archers_recruitment_cost_mult = -0.02
+		archers_damage_mult = 0.03
+		archers_toughness_mult = 0.03
+	}
+	
+	next_building = hunting_grounds_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hunting_grounds_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_4_cost
+	
+	levy = poor_building_levy_tier_4
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_4
+		monthly_income = poor_building_tax_tier_4
+		hostile_raid_time = 0.15
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.08
+		light_cavalry_pursuit_mult = 0.08
+		light_cavalry_screen_mult = 0.04
+		light_cavalry_toughness_mult = 0.04
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.02
+		archers_recruitment_cost_mult = -0.02
+		archers_damage_mult = 0.04
+		archers_toughness_mult = 0.04
+	}
+	
+	next_building = hunting_grounds_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hunting_grounds_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_5_cost
+	
+	levy = poor_building_levy_tier_5
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_5
+		monthly_income = poor_building_tax_tier_5
+		hostile_raid_time = 0.15
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.1
+		light_cavalry_pursuit_mult = 0.1
+		light_cavalry_screen_mult = 0.04
+		light_cavalry_toughness_mult = 0.04
+		men_at_arms_maintenance = -0.01
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.03
+		archers_recruitment_cost_mult = -0.03
+		archers_damage_mult = 0.05
+		archers_toughness_mult = 0.05
+	}
+	
+	
+	next_building = hunting_grounds_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hunting_grounds_06 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_6_cost
+	
+	levy = poor_building_levy_tier_6
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_6
+		monthly_income = poor_building_tax_tier_6
+		hostile_raid_time = 0.2
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.12
+		light_cavalry_pursuit_mult = 0.12
+		light_cavalry_screen_mult = 0.06
+		light_cavalry_toughness_mult = 0.06
+		men_at_arms_maintenance = -0.01
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.03
+		archers_recruitment_cost_mult = -0.03
+		archers_damage_mult = 0.06
+		archers_toughness_mult = 0.06
+	}
+	
+	
+	next_building = hunting_grounds_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hunting_grounds_07 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_7_cost
+	
+	levy = poor_building_levy_tier_7
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_7
+		monthly_income = poor_building_tax_tier_7
+		hostile_raid_time = 0.2
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.14
+		light_cavalry_pursuit_mult = 0.14
+		light_cavalry_screen_mult = 0.06
+		light_cavalry_toughness_mult = 0.06
+		men_at_arms_maintenance = -0.01
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.04
+		archers_recruitment_cost_mult = -0.04
+		archers_damage_mult = 0.07
+		archers_toughness_mult = 0.07
+	}
+	
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	
+	next_building = hunting_grounds_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hunting_grounds_08 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_hunting_grounds_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_8_cost
+	
+	levy = poor_building_levy_tier_8
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_8
+		monthly_income = poor_building_tax_tier_8
+		hostile_raid_time = 0.3
+	}
+	
+	character_modifier = {
+		skirmishers_pursuit_mult = 0.04
+		light_cavalry_damage_mult = 0.16
+		light_cavalry_pursuit_mult = 0.16
+		light_cavalry_screen_mult = 0.08
+		light_cavalry_toughness_mult = 0.08
+		men_at_arms_maintenance = -0.01
+	}
+
+	character_culture_modifier = {
+		parameter = hunting_archery_building_bonuses
+		archers_maintenance_mult = -0.04
+		archers_recruitment_cost_mult = -0.04
+		archers_damage_mult = 0.08
+		archers_toughness_mult = 0.08
+	}
+	
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### orchards
+
+orchards_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_1_cost
+	
+	levy = small_building_levy_tier_1
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.01
+	}
+	
+	next_building = orchards_02
+
+	type_icon = "icon_building_orchards.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+	}
+}
+
+orchards_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	levy = small_building_levy_tier_2
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_2
+		levy_reinforcement_rate = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.02
+	}
+	
+	next_building = orchards_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+orchards_03 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	levy = small_building_levy_tier_3
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_3
+		levy_reinforcement_rate = 0.1
+		supply_limit_mult = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.03
+		supply_limit_mult = 0.1
+	}
+	
+	next_building = orchards_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+orchards_04 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	levy = small_building_levy_tier_4
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_4
+		levy_reinforcement_rate = 0.1
+		supply_limit_mult = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.04
+		supply_limit_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	
+	next_building = orchards_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+orchards_05 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	levy = small_building_levy_tier_5
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_5
+		levy_reinforcement_rate = 0.1
+		supply_limit_mult = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.05
+		supply_limit_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		levy_size = 0.02
+	}
+	
+	next_building = orchards_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+orchards_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	levy = small_building_levy_tier_6
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_6
+		supply_limit = 1000
+		levy_reinforcement_rate = 0.1
+		supply_limit_mult = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.06
+		supply_limit_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		levy_size = 0.02
+	}
+	
+	next_building = orchards_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+orchards_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	levy = small_building_levy_tier_7
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_7
+		supply_limit = 1000
+		levy_reinforcement_rate = 0.1
+		supply_limit_mult = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.07
+		supply_limit_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		levy_size = 0.02
+	}
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	next_building = orchards_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+orchards_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_orchards_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	levy = small_building_levy_tier_8
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_8
+		supply_limit = 1000
+		levy_reinforcement_rate = 0.1
+		supply_limit_mult = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.08
+		supply_limit_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+		levy_size = 0.02
+	}
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### farm estates
+
+farm_estates_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.02
+	}
+	
+	next_building = farm_estates_02
+
+	type_icon = "icon_building_farm_estates.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+	}
+}
+
+farm_estates_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_2
+		supply_limit_mult = 0.15
+		supply_limit = 500
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.03
+	}
+	
+	next_building = farm_estates_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+farm_estates_03 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_3
+		supply_limit_mult = 0.15
+		supply_limit = 500
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.04
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	
+	next_building = farm_estates_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+farm_estates_04 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_4
+		supply_limit_mult = 0.15
+		supply_limit = 1000
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	
+	next_building = farm_estates_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+farm_estates_05 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_5
+		supply_limit_mult = 0.15
+		levy_size = 0.05
+		supply_limit = 1000
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.06
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	
+	next_building = farm_estates_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+farm_estates_06 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_6
+		supply_limit_mult = 0.15
+		levy_size = 0.05
+		supply_limit = 1000
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.06
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.05
+		tax_mult = 0.01
+	}
+	
+	next_building = farm_estates_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+farm_estates_07 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_7
+		supply_limit_mult = 0.15
+		levy_size = 0.05
+		supply_limit = 1000
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.07
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.05
+		tax_mult = 0.01
+		monthly_county_control_change_add = 0.2
+	}
+	
+	next_building = farm_estates_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+farm_estates_08 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_farm_estates_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = excellent_building_tax_tier_8
+		supply_limit_mult = 0.15
+		levy_size = 0.05
+		supply_limit = 1000
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.08
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+		tax_mult = 0.02
+		monthly_county_control_change_add = 0.2
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### ramparts
+
+ramparts_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_ramparts_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
 	}
 
@@ -236,38 +1595,45 @@ wyvern_01 = {
 	
 	cost_gold = normal_building_tier_1_cost
 	
-	levy = 10
-
-	character_modifier = {
-		heavy_flyers_damage_mult = 0.02
-	}
-	
+	levy = normal_building_levy_tier_1
+	max_garrison = normal_building_max_garrison_tier_1
 	province_modifier = {
-		monthly_income = 0.2
+		fort_level = normal_building_fort_level_tier_1
 	}
 	
-	next_building = wyvern_02
+	next_building = ramparts_02
 
-	type_icon = "icon_building_pastures.dds"
+	type_icon = "icon_building_ramparts.dds"
 	
 	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
+		ai_general_building_modifier = yes
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
-			}
+			factor = 5
+			free_building_slots <= 3
+			scope:holder.capital_province = this
 		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 2
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 1
+		}
+		culture_likely_to_fortify_modifier = yes
 	}
 }
 
-wyvern_02 = {
-	construction_time = quick_construction_time
+ramparts_02 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 02 }
+		building_ramparts_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -276,37 +1642,41 @@ wyvern_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	levy = 20
-
-	character_modifier = {
-		heavy_flyers_damage_mult = 0.04
-		heavy_flyers_screen_mult = 0.02
-	}
-	
+	levy = normal_building_levy_tier_2
+	max_garrison = normal_building_max_garrison_tier_2
 	province_modifier = {
-		monthly_income = 0.4
+		fort_level = normal_building_fort_level_tier_2
+		tax_mult = 0.02
 	}
 	
-	next_building = wyvern_03
+	next_building = ramparts_03
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 9
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
 	}
 }
 
-wyvern_03 = {
-	construction_time = quick_construction_time
+ramparts_03 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 03 }
+		building_ramparts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -315,39 +1685,42 @@ wyvern_03 = {
 	
 	cost_gold = normal_building_tier_3_cost
 	
-	levy = 30
-
-	character_modifier = {
-		heavy_flyers_damage_mult = 0.08
-		heavy_flyers_toughness_mult = 0.02
-		heavy_flyers_pursuit_mult = 0.02
-		heavy_flyers_screen_mult = 0.04
-	}
-	
+	levy = normal_building_levy_tier_3
+	max_garrison = normal_building_max_garrison_tier_3
 	province_modifier = {
-		monthly_income = 0.8
+		fort_level = normal_building_fort_level_tier_3
+		defender_holding_advantage = normal_building_advantage_tier_1
+		tax_mult = 0.02
 	}
 	
-	next_building = wyvern_04
+	next_building = ramparts_04
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 8
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
 	}
 }
 
-wyvern_04 = {
-	construction_time = quick_construction_time
+ramparts_04 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_ramparts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -356,38 +1729,247 @@ wyvern_04 = {
 	
 	cost_gold = normal_building_tier_4_cost
 	
-	levy = 40
-
-	character_modifier = {
-		heavy_flyers_damage_mult = 0.16
-		heavy_flyers_toughness_mult = 0.02
-		heavy_flyers_pursuit_mult = 0.02
-		heavy_flyers_screen_mult = 0.04
+	levy = normal_building_levy_tier_4
+	max_garrison = normal_building_max_garrison_tier_4
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_4
+		defender_holding_advantage = normal_building_advantage_tier_1
+		tax_mult = 0.02
+	}
+	county_modifier = {
+		hostile_raid_time = 0.1
 	}
 	
-	province_modifier = {
-		monthly_income = 1
-	}
+	next_building = ramparts_05
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 7
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = wyverns_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
 	}
 }
 
-### HORSE
-
-horse_01 = {
-	construction_time = quick_construction_time
+ramparts_05 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
+		building_ramparts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	levy = normal_building_levy_tier_5
+	max_garrison = normal_building_max_garrison_tier_5
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_5
+		defender_holding_advantage = normal_building_advantage_tier_1
+		tax_mult = 0.02
+	}
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+	}
+	
+	next_building = ramparts_06
+	
+	ai_value = {
+		base = 6
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+ramparts_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_ramparts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_6_cost
+	
+	levy = normal_building_levy_tier_6
+	max_garrison = normal_building_max_garrison_tier_6
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_6
+		defender_holding_advantage = normal_building_advantage_tier_2
+		tax_mult = 0.02
+	}
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+		skirmishers_damage_mult = 0.02
+	}
+	
+	next_building = ramparts_07
+	
+	ai_value = {
+		base = 5
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+ramparts_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_ramparts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_7_cost
+	
+	levy = normal_building_levy_tier_7
+	max_garrison = normal_building_max_garrison_tier_7
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_7
+		defender_holding_advantage = normal_building_advantage_tier_2
+		tax_mult = 0.02
+	}
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+		archers_toughness_mult = 0.02
+		skirmishers_damage_mult = 0.02
+	}
+	
+	next_building = ramparts_08
+	
+	ai_value = {
+		base = 4
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+ramparts_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_ramparts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_8_cost
+	
+	levy = normal_building_levy_tier_8
+	max_garrison = normal_building_max_garrison_tier_8
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_8
+		defender_holding_advantage = normal_building_advantage_tier_2
+		tax_mult = 0.02
+	}
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.06
+		archers_toughness_mult = 0.02
+		skirmishers_damage_mult = 0.02
+	}
+	
+	ai_value = {
+		base = 3
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+### curtain_walls
+
+curtain_walls_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_curtain_walls_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
 	}
 
@@ -397,44 +1979,52 @@ horse_01 = {
 	
 	cost_gold = normal_building_tier_1_cost
 	
-	levy = 10
-
-	character_modifier = {
-		light_cav_damage_mult = 0.01
-		light_cav_toughness_mult = 0.01
-		heavy_cav_damage_mult = 0.01
-		heavy_cav_toughness_mult = 0.01
-		
-		missile_cav_screen_mult = 0.01
-		missile_cav_pursuit_mult = 0.01
-	}
-	
+	max_garrison = normal_building_max_garrison_tier_1
 	province_modifier = {
-		monthly_income = 0.1
+		monthly_income = poor_building_tax_tier_1
+		fort_level = normal_building_fort_level_tier_1
 	}
 	
-	next_building = horse_02
+	next_building = curtain_walls_02
 
-	type_icon = "icon_building_pastures.dds"
+	type_icon = "icon_building_curtain_walls.dds"
 	
 	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = horse_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
+		}
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 5
+			free_building_slots <= 3
+			scope:holder.capital_province = this
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 2
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 1
 		}
 	}
 }
 
-horse_02 = {
-	construction_time = quick_construction_time
+curtain_walls_02 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 02 }
+		building_curtain_walls_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -443,47 +2033,45 @@ horse_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	levy = 25
-
-	character_modifier = {
-		light_cav_damage_mult = 0.02
-		light_cav_toughness_mult = 0.02
-		heavy_cav_damage_mult = 0.02
-		heavy_cav_toughness_mult = 0.02
-		
-		light_cav_pursuit_mult = 0.01
-		light_cav_screen_mult = 0.01
-		heavy_cav_pursuit_mult = 0.01
-		heavy_cav_screen_mult = 0.01
-		
-		missile_cav_screen_mult = 0.02
-		missile_cav_pursuit_mult = 0.02
-	}
-	
+	max_garrison = normal_building_max_garrison_tier_2
 	province_modifier = {
-		monthly_income = 0.2
+		monthly_income = poor_building_tax_tier_2
+		fort_level = normal_building_fort_level_tier_2
 	}
 	
-	next_building = horse_03
+	county_modifier = {
+		supply_limit = 300
+	}
+	
+	next_building = curtain_walls_03
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 9
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = horse_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-horse_03 = {
-	construction_time = quick_construction_time
+curtain_walls_03 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 03 }
+		building_curtain_walls_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -492,47 +2080,49 @@ horse_03 = {
 	
 	cost_gold = normal_building_tier_3_cost
 	
-	levy = 30
-
-	character_modifier = {
-		light_cav_damage_mult = 0.03
-		light_cav_toughness_mult = 0.03
-		heavy_cav_damage_mult = 0.03
-		heavy_cav_toughness_mult = 0.03
-		
-		light_cav_pursuit_mult = 0.02
-		light_cav_screen_mult = 0.02
-		heavy_cav_pursuit_mult = 0.02
-		heavy_cav_screen_mult = 0.02
-		
-		missile_cav_screen_mult = 0.03
-		missile_cav_pursuit_mult = 0.03
-	}
-	
+	max_garrison = normal_building_max_garrison_tier_3
 	province_modifier = {
-		monthly_income = 0.3
+		monthly_income = poor_building_tax_tier_3
+		fort_level = normal_building_fort_level_tier_3
 	}
 	
-	next_building = horse_04
+	county_modifier = {
+		supply_limit = 300
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.02
+	}
+	
+	next_building = curtain_walls_04
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 8
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = horse_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-horse_04 = {
-	construction_time = quick_construction_time
+curtain_walls_04 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_curtain_walls_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -541,46 +2131,253 @@ horse_04 = {
 	
 	cost_gold = normal_building_tier_4_cost
 	
-	levy = 40
-
-	character_modifier = {
-		light_cav_damage_mult = 0.04
-		light_cav_toughness_mult = 0.04
-		heavy_cav_damage_mult = 0.04
-		heavy_cav_toughness_mult = 0.04
-		
-		light_cav_pursuit_mult = 0.04
-		light_cav_screen_mult = 0.04
-		heavy_cav_pursuit_mult = 0.04
-		heavy_cav_screen_mult = 0.04
-		
-		missile_cav_screen_mult = 0.04
-		missile_cav_pursuit_mult = 0.04
+	max_garrison = normal_building_max_garrison_tier_4
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+		fort_level = normal_building_fort_level_tier_4
 	}
 	
-	province_modifier = {
-		monthly_income = 0.4
+	county_modifier = {
+		supply_limit = 300
 	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.02
+	}
+	
+	next_building = curtain_walls_05
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 7
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = horse_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-### SPEAR
-
-spear_01 = {
-	construction_time = quick_construction_time
+curtain_walls_05 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
+		building_curtain_walls_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	max_garrison = normal_building_max_garrison_tier_5
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_5
+		fort_level = normal_building_fort_level_tier_5
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.02
+	}
+	
+	next_building = curtain_walls_06
+	
+	ai_value = {
+		base = 6
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+curtain_walls_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_curtain_walls_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_6_cost
+	
+	max_garrison = normal_building_max_garrison_tier_6
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_6
+		fort_level = normal_building_fort_level_tier_6
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+		supply_limit_mult = 0.02
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.02
+	}
+	
+	next_building = curtain_walls_07
+	
+	ai_value = {
+		base = 5
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+curtain_walls_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_curtain_walls_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_7_cost
+	
+	max_garrison = normal_building_max_garrison_tier_7
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_7
+		fort_level = normal_building_fort_level_tier_7
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+		supply_limit_mult = 0.02
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.02
+	}
+	
+	next_building = curtain_walls_08
+	
+	ai_value = {
+		base = 4
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+curtain_walls_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_curtain_walls_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_8_cost
+	
+	max_garrison = normal_building_max_garrison_tier_8
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_8
+		fort_level = normal_building_fort_level_tier_8
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+		supply_limit_mult = 0.02
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.02
+	}
+	
+	ai_value = {
+		base = 3
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### watchtowers
+
+watchtowers_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_watchtowers_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
 	}
 
@@ -590,34 +2387,52 @@ spear_01 = {
 	
 	cost_gold = normal_building_tier_1_cost
 	
-	levy = 10
-
-	character_modifier = {
-		lances_toughness_mult = 0.04
+	max_garrison = normal_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = normal_building_fort_level_tier_1
 	}
 	
-	next_building = spear_02
+	next_building = watchtowers_02
 
-	type_icon = "icon_building_pastures.dds"
+	type_icon = "icon_building_watchtowers.dds"
 	
 	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = spear_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
+		}
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 5
+			free_building_slots <= 3
+			scope:holder.capital_province = this
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 2
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 1
 		}
 	}
 }
 
-spear_02 = {
-	construction_time = quick_construction_time
+watchtowers_02 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 02 }
+		building_watchtowers_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -626,107 +2441,348 @@ spear_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	levy = 30
-
-	character_modifier = {
-		lances_toughness_mult = 0.06
-		lances_damage_mult = 0.02
+	max_garrison = normal_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = normal_building_fort_level_tier_2
 	}
 	
-	next_building = spear_03
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	next_building = watchtowers_03
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 9
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = spear_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
 	}
 }
 
-spear_03 = {
-	construction_time = quick_construction_time
+watchtowers_03 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 03 }
+		building_watchtowers_requirement_terrain = yes
 	}
 
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
-	
+
 	cost_gold = normal_building_tier_3_cost
 	
-	levy = 50
-
-	character_modifier = {
-		lances_toughness_mult = 0.08
-		lances_damage_mult = 0.04
-		lances_pursuit_mult = 0.02
-		lances_screen_mult = 0.02
+	max_garrison = normal_building_max_garrison_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = normal_building_fort_level_tier_3
 	}
 	
+	character_modifier = {
+		archers_damage_mult = 0.04
+	}
 	
-	next_building = spear_04
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	next_building = watchtowers_04
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 8
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = spear_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
 	}
 }
 
-spear_04 = {
-	construction_time = quick_construction_time
+watchtowers_04 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_watchtowers_requirement_terrain = yes
 	}
 
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
-	
+
 	cost_gold = normal_building_tier_4_cost
 	
-	levy = 75
-
-	character_modifier = {
-		lances_toughness_mult = 0.12
-		lances_damage_mult = 0.06
-		lances_pursuit_mult = 0.04
-		lances_screen_mult = 0.04
+	max_garrison = normal_building_max_garrison_tier_4
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_4
+		fort_level = normal_building_fort_level_tier_4
+		supply_limit = 300
 	}
 	
+	character_modifier = {
+		archers_damage_mult = 0.04
+	}
+	
+	county_modifier = {
+		hostile_raid_time = 0.1
+	}
+	
+	next_building = watchtowers_05
+	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
+		base = 7
 		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = spear_01
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
 			}
 		}
+		ai_general_building_modifier = yes
 	}
 }
 
-### AXE
-
-axe_01 = {
-	construction_time = quick_construction_time
+watchtowers_05 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
+		building_watchtowers_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_5_cost
+	
+	max_garrison = normal_building_max_garrison_tier_5
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_5
+		fort_level = normal_building_fort_level_tier_5
+		supply_limit = 300
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+	}
+	
+	county_modifier = {
+		hostile_raid_time = 0.15
+	}
+	
+	next_building = watchtowers_06
+	
+	ai_value = {
+		base = 6
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+watchtowers_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_watchtowers_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_6_cost
+	
+	max_garrison = normal_building_max_garrison_tier_6
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_6
+		fort_level = normal_building_fort_level_tier_6
+		supply_limit = 300
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.06
+		archers_toughness_mult = 0.02
+	}
+	
+	county_modifier = {
+		hostile_raid_time = 0.15
+		supply_limit_mult = 0.05
+	}
+	
+	next_building = watchtowers_07
+	
+	ai_value = {
+		base = 5
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+watchtowers_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_watchtowers_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_7_cost
+	
+	max_garrison = normal_building_max_garrison_tier_7
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_7
+		fort_level = normal_building_fort_level_tier_7
+		supply_limit = 600
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.06
+		archers_toughness_mult = 0.02
+	}
+	
+	county_modifier = {
+		hostile_raid_time = 0.15
+		supply_limit_mult = 0.05
+	}
+	
+	next_building = watchtowers_08
+	
+	ai_value = {
+		base = 4
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+watchtowers_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_watchtowers_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_8_cost
+	
+	max_garrison = normal_building_max_garrison_tier_8
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_8
+		fort_level = normal_building_fort_level_tier_8
+		supply_limit = 600
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.06
+		archers_toughness_mult = 0.02
+	}
+	
+	county_modifier = {
+		hostile_raid_time = 0.2
+		supply_limit_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 3
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+		ai_general_building_modifier = yes
+	}
+}
+
+### cereal_fields
+
+cereal_fields_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_cereal_fields_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
 	}
 
@@ -736,34 +2792,48 @@ axe_01 = {
 	
 	cost_gold = normal_building_tier_1_cost
 	
-	levy = 10
-
-	character_modifier = {
-		axes_damage_mult = 0.06
+	province_modifier = {
+		monthly_income = good_building_tax_tier_1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.02
 	}
 	
-	next_building = axe_02
-
-	type_icon = "icon_building_pastures.dds"
+	next_building = cereal_fields_02
+	
+	type_icon = "icon_building_cereal_fields.dds"
 	
 	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
+		ai_general_building_modifier = yes
 		modifier = {
 			factor = 0
+			building_farm_estates_requirement_terrain = yes
 			NOT = {
-				has_building_or_higher = axe_01
+				has_building_or_higher = farm_estates_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_orchards_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = orchards_01
 			}
 		}
 	}
 }
 
-axe_02 = {
-	construction_time = quick_construction_time
+cereal_fields_02 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 02 }
+		building_cereal_fields_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -772,33 +2842,40 @@ axe_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	levy = 20
-
-	character_modifier = {
-		axes_screen_mult = 0.02
-		axes_damage_mult = 0.1
+	province_modifier = {
+		monthly_income = good_building_tax_tier_2
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.03
 	}
 	
-	next_building = axe_03
+	county_modifier = {
+		tax_mult = 0.01
+	}
+	
+	next_building = cereal_fields_03
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = axe_01
-			}
-		}
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-axe_03 = {
-	construction_time = quick_construction_time
+cereal_fields_03 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 03 }
+		building_cereal_fields_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -807,34 +2884,41 @@ axe_03 = {
 	
 	cost_gold = normal_building_tier_3_cost
 	
-	levy = 30
-
-	character_modifier = {
-		axes_damage_mult = 0.14
-		axes_screen_mult = 0.06
+	province_modifier = {
+		monthly_income = good_building_tax_tier_3
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.04
 	}
 	
+	county_modifier = {
+		tax_mult = 0.01
+		supply_limit = 400
+	}
 	
-	next_building = axe_04
+	next_building = cereal_fields_04
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = axe_01
-			}
-		}
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-axe_04 = {
-	construction_time = quick_construction_time
+cereal_fields_04 = {
+	construction_time = standard_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_cereal_fields_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -843,32 +2927,220 @@ axe_04 = {
 	
 	cost_gold = normal_building_tier_4_cost
 	
-	levy = 40
-
-	character_modifier = {
-		axes_damage_mult = 0.2
-		axes_screen_mult = 0.06
+	province_modifier = {
+		monthly_income = good_building_tax_tier_4
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.05
 	}
 	
+	county_modifier = {
+		tax_mult = 0.01
+		supply_limit = 400
+		development_growth_factor = 0.05
+	}
+	
+	next_building = cereal_fields_05
+	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = axe_01
-			}
-		}
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
 	}
 }
 
-### SWORD
+cereal_fields_05 = {
+	construction_time = standard_construction_time
 
-sword_01 = {
+	can_construct_potential = {
+		building_cereal_fields_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_5
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.06
+	}
+	
+	county_modifier = {
+		tax_mult = 0.01
+		supply_limit = 400
+		development_growth_factor = 0.05
+		supply_limit_mult = 0.05
+	}
+	
+	next_building = cereal_fields_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+cereal_fields_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_cereal_fields_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_6
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.07
+	}
+	
+	county_modifier = {
+		tax_mult = 0.01
+		supply_limit = 400
+		development_growth_factor = 0.05
+		supply_limit_mult = 0.05
+		church_holding_build_gold_cost = -0.05
+	}
+	
+	next_building = cereal_fields_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+cereal_fields_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_cereal_fields_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_7
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.08
+	}
+	
+	county_modifier = {
+		levy_reinforcement_rate = 0.05
+		tax_mult = 0.01
+		supply_limit = 400
+		development_growth_factor = 0.05
+		supply_limit_mult = 0.05
+		church_holding_build_gold_cost = -0.05
+	}
+	
+	next_building = cereal_fields_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+cereal_fields_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_cereal_fields_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = good_building_tax_tier_8
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.09
+	}
+	
+	county_modifier = {
+		levy_reinforcement_rate = 0.05
+		tax_mult = 0.02
+		supply_limit = 1600
+		development_growth_factor = 0.05
+		supply_limit_mult = 0.05
+		church_holding_build_gold_cost = -0.05
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### outposts
+
+outposts_01 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
+		building_outposts_requirement_terrain = yes
 		building_requirement_castle_city_church = { LEVEL = 01 }
 	}
 
@@ -876,39 +3148,2543 @@ sword_01 = {
 		building_requirement_tribal = no
 	}
 	
-	cost_gold = normal_building_tier_1_cost
+	cost_gold = cheap_building_tier_1_cost
 	
-	levy = 20
-
-	character_modifier = {
-		swords_toughness_mult = 0.02
-		swords_damage_mult = 0.02
-		swords_pursuit_mult = 0.02
-		swords_screen_mult = 0.02
+	levy = poor_building_levy_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.01
+		archers_maintenance_mult = -0.01
+		skirmishers_recruitment_cost_mult = -0.01
+		archers_recruitment_cost_mult = -0.01
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_1
+		levy_size = 0.01
 	}
 	
-	next_building = sword_02
+	next_building = outposts_02
 
-	type_icon = "icon_building_pastures.dds"
+	type_icon = "icon_building_outposts.dds"
 	
 	ai_value = {
 		base = 10
-		ai_general_building_modifier = yes	
+		ai_general_building_modifier = yes
 		modifier = {
 			factor = 0
+			building_barracks_requirement_terrain = yes
 			NOT = {
-				has_building_or_higher = sword_01
+				has_building_or_higher = barracks_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_camel_farms_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = camel_farms_01
+			}
+		}
+		modifier = {
+			add = -9
+			has_building_or_higher = city_01
+		}
+	}
+}
+
+outposts_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_barracks
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_2_cost
+	
+	levy = poor_building_levy_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.02
+		archers_maintenance_mult = -0.02
+		skirmishers_recruitment_cost_mult = -0.02
+		archers_recruitment_cost_mult = -0.02
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_2
+		levy_size = 0.02
+	}
+	
+	next_building = outposts_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+	}
+}
+
+outposts_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_burhs
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_3_cost
+	
+	levy = poor_building_levy_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+	}
+	character_modifier = {
+		skirmishers_damage_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.03
+		archers_maintenance_mult = -0.03
+		skirmishers_recruitment_cost_mult = -0.03
+		archers_recruitment_cost_mult = -0.03
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_3
+		levy_size = 0.03
+	}
+	
+	next_building = outposts_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+	}
+}
+
+outposts_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_burhs
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_4_cost
+	
+	levy = poor_building_levy_tier_4
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_4
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+	}
+	
+	character_modifier = {
+		skirmishers_damage_mult = 0.02
+		skirmishers_pursuit_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.04
+		archers_maintenance_mult = -0.04
+		skirmishers_recruitment_cost_mult = -0.04
+		archers_recruitment_cost_mult = -0.04
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_4
+		levy_size = 0.04
+	}
+	
+	next_building = outposts_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+	}
+}
+
+outposts_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_castle_baileys
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_5_cost
+	
+	levy = poor_building_levy_tier_5
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_5
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+		garrison_size = 0.05
+	}
+	
+	character_modifier = {
+		skirmishers_damage_mult = 0.02
+		skirmishers_pursuit_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.05
+		archers_maintenance_mult = -0.05
+		skirmishers_recruitment_cost_mult = -0.05
+		archers_recruitment_cost_mult = -0.05
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_5
+		levy_size = 0.05
+	}
+	
+	next_building = outposts_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+	}
+}
+
+outposts_06 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_castle_baileys
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_6_cost
+	
+	levy = poor_building_levy_tier_6
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_6
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+		garrison_size = 0.05
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+		skirmishers_damage_mult = 0.02
+		skirmishers_pursuit_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.06
+		archers_maintenance_mult = -0.06
+		skirmishers_recruitment_cost_mult = -0.06
+		archers_recruitment_cost_mult = -0.06
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_6
+		levy_size = 0.06
+	}
+	
+	next_building = outposts_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+	}
+}
+
+outposts_07 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_royal_armory
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_7_cost
+	
+	levy = poor_building_levy_tier_7
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_7
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+		garrison_size = 0.05
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+		skirmishers_damage_mult = 0.02
+		skirmishers_pursuit_mult = 0.02
+		skirmishers_toughness_mult = 0.02
+		skirmishers_screen_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.07
+		archers_maintenance_mult = -0.07
+		skirmishers_recruitment_cost_mult = -0.07
+		archers_recruitment_cost_mult = -0.07
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_7
+		levy_size = 0.07
+	}
+	
+	next_building = outposts_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+	}
+}
+
+outposts_08 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_outposts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_royal_armory
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_8_cost
+	
+	levy = poor_building_levy_tier_8
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_8
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.15
+		monthly_county_control_change_add = 0.1
+		garrison_size = 0.05
+	}
+	
+	character_modifier = {
+		archers_damage_mult = 0.04
+		skirmishers_damage_mult = 0.02
+		skirmishers_pursuit_mult = 0.02
+		skirmishers_toughness_mult = 0.02
+		skirmishers_screen_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = outposts_building_bonuses
+		skirmishers_maintenance_mult = -0.08
+		archers_maintenance_mult = -0.08
+		skirmishers_recruitment_cost_mult = -0.08
+		archers_recruitment_cost_mult = -0.08
+	}
+	province_culture_modifier = {
+		parameter = outposts_building_bonuses
+		monthly_income = super_poor_building_tax_tier_8
+		levy_size = 0.08
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+	}
+}
+
+### logging_camps
+
+logging_camps_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_1	
+		build_speed = good_building_build_speed_tier_1
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.02
+		skirmishers_damage_mult = 0.02
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.02
+		build_gold_cost = -0.01
+	}
+	
+	next_building = logging_camps_02
+
+	type_icon = "icon_building_logging_camps.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 0
+			scope:holder = {
+				has_government = republic_government
+			}
+			NOT = {
+				has_building_or_higher = guild_halls_01
 			}
 		}
 	}
 }
 
-sword_02 = {
+logging_camps_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_2
+		build_speed = good_building_build_speed_tier_2
+	}
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.04
+		skirmishers_damage_mult = 0.04
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.04
+		build_gold_cost = -0.02
+	}
+	
+	next_building = logging_camps_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+logging_camps_03 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_3
+		build_speed = good_building_build_speed_tier_3
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.01
+	}
+	
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.06
+		skirmishers_damage_mult = 0.06
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.06
+		build_gold_cost = -0.03
+	}
+	
+	next_building = logging_camps_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+logging_camps_04 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_4
+		build_speed = good_building_build_speed_tier_4
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.01
+	}
+	
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+		supply_limit = 300
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.08
+		skirmishers_damage_mult = 0.08
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.08
+		build_gold_cost = -0.04
+	}
+	
+	next_building = logging_camps_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+logging_camps_05 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_5
+		build_speed = good_building_build_speed_tier_5
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.01
+	}
+	
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+		supply_limit = 300
+		tax_mult = 0.01
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.1
+		skirmishers_damage_mult = 0.1
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.1
+		build_gold_cost = -0.05
+	}
+	
+	next_building = logging_camps_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+logging_camps_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_6
+		build_speed = good_building_build_speed_tier_6
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.01
+	}
+	
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+		supply_limit = 600
+		tax_mult = 0.01
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.12
+		skirmishers_damage_mult = 0.12
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.12
+		build_gold_cost = -0.06
+	}
+	
+	next_building = logging_camps_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+logging_camps_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_7
+		build_speed = good_building_build_speed_tier_7
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.01
+	}
+	
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+		supply_limit = 600
+		tax_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.14
+		skirmishers_damage_mult = 0.14
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.14
+		build_gold_cost = -0.07
+	}
+	
+	next_building = logging_camps_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+logging_camps_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_logging_camps_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_8
+		build_speed = good_building_build_speed_tier_8
+	}
+	
+	character_modifier = {
+		army_maintenance_mult = -0.01
+	}
+	
+	county_modifier = {
+		church_holding_build_gold_cost = -0.05
+		supply_limit = 600
+		tax_mult = 0.02
+		development_growth_factor = 0.02
+	}
+	character_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		archers_damage_mult = 0.16
+		skirmishers_damage_mult = 0.16
+	}
+	county_culture_modifier = {
+		parameter = logging_camps_building_bonuses
+		build_speed = -0.16
+		build_gold_cost = -0.08
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### peat_quarries
+
+peat_quarries_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_1_cost
+
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_1
+		build_speed = normal_building_build_speed_tier_1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.02
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.02
+		build_gold_cost = -0.01
+	}
+	
+	next_building = peat_quarries_02
+
+	type_icon = "icon_building_peat_quarries.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+	}
+}
+
+peat_quarries_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_2
+		build_speed = normal_building_build_speed_tier_2
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.03
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.05
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.04
+		build_gold_cost = -0.02
+	}
+	
+	next_building = peat_quarries_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+peat_quarries_03 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_3
+		build_speed = normal_building_build_speed_tier_3
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.04
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.05
+		supply_limit = 200
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.06
+		build_gold_cost = -0.03
+	}
+	
+	next_building = peat_quarries_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+peat_quarries_04 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_4
+		build_speed = normal_building_build_speed_tier_4
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.05
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.05
+		supply_limit = 200
+		supply_limit_mult = 0.05
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.08
+		build_gold_cost = -0.04
+	}
+	
+	next_building = peat_quarries_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+peat_quarries_05 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_5
+		build_speed = normal_building_build_speed_tier_5
+		hostile_raid_time = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.06
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.05
+		supply_limit = 200
+		supply_limit_mult = 0.05
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.010
+		build_gold_cost = -0.05
+	}
+	
+	next_building = peat_quarries_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+peat_quarries_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_6
+		build_speed = normal_building_build_speed_tier_6
+		hostile_raid_time = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.07
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.05
+		supply_limit = 200
+		supply_limit_mult = 0.05
+		development_growth_factor = 0.05
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.12
+		build_gold_cost = -0.06
+	}
+	
+	next_building = peat_quarries_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+peat_quarries_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_7
+		build_speed = normal_building_build_speed_tier_7
+		hostile_raid_time = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.08
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.1
+		supply_limit = 200
+		supply_limit_mult = 0.05
+		development_growth_factor = 0.05
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.14
+		build_gold_cost = -0.07
+	}
+	
+	next_building = peat_quarries_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+peat_quarries_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_peat_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_8
+		build_speed = normal_building_build_speed_tier_8
+		hostile_raid_time = 0.1
+	}
+	province_terrain_modifier = {
+		parameter = coastal_agriculture_building_bonuses
+		is_coastal = yes
+		tax_mult = 0.09
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.1
+		supply_limit = 600
+		supply_limit_mult = 0.05
+		development_growth_factor = 0.05
+	}
+	county_culture_modifier = {
+		parameter = peat_quarries_building_bonuses
+		build_speed = -0.16
+		build_gold_cost = -0.08
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### hill_farms
+
+hill_farms_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_1
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.01
+		counter_efficiency = 0.01
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_1
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.01
+	}
+	
+	next_building = hill_farms_02
+
+	type_icon = "icon_building_hill_farms.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 0
+			scope:holder = {
+				has_government = republic_government
+			}
+			NOT = {
+				has_building_or_higher = guild_halls_01
+			}
+		}
+	}
+}
+
+hill_farms_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_2
+		defender_holding_advantage = 1
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.02
+		counter_efficiency = 0.02
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.01
+	}
+	
+	next_building = hill_farms_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hill_farms_03 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_3
+		defender_holding_advantage = 1
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.03
+		counter_efficiency = 0.03
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_3
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.02
+	}
+	
+	next_building = hill_farms_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hill_farms_04 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_4
+		defender_holding_advantage = 2
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.04
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.04
+		counter_efficiency = 0.04
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_4
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.02
+	}
+	
+	next_building = hill_farms_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hill_farms_05 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_5
+		defender_holding_advantage = 2
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+		supply_limit_mult = 0.02
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.04
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.05
+		counter_efficiency = 0.05
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_5
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.03
+	}
+	
+	next_building = hill_farms_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hill_farms_06 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_6
+		defender_holding_advantage = 2
+	}
+	
+	county_modifier = {
+		supply_limit = 300
+		supply_limit_mult = 0.02
+		development_growth_factor = 0.05
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.04
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.06
+		counter_efficiency = 0.06
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_6
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.03
+	}
+	
+	next_building = hill_farms_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hill_farms_07 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_7
+		defender_holding_advantage = 2
+	}
+	
+	county_modifier = {
+		supply_limit = 600
+		supply_limit_mult = 0.02
+		development_growth_factor = 0.05
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.04
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.07
+		counter_efficiency = 0.07
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_7
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.04
+	}
+	
+	next_building = hill_farms_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+hill_farms_08 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		building_hill_farms_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_8
+		defender_holding_advantage = 2
+	}
+	
+	county_modifier = {
+		supply_limit = 600
+		supply_limit_mult = 0.02
+		development_growth_factor = 0.1
+	}
+	
+	character_modifier = {
+		skirmishers_toughness_mult = 0.04
+	}
+	character_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		knight_effectiveness_mult = 0.08
+		counter_efficiency = 0.08
+	}
+	province_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		defender_holding_advantage = normal_building_advantage_tier_8
+	}
+	county_culture_modifier = {
+		parameter = hill_farms_building_bonuses
+		levy_size = 0.04
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### plantations
+
+plantations_01 = {
 	construction_time = quick_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
+		building_plantations_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_1
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.01
+		camel_cavalry_maintenance_mult = -0.01
+		light_cavalry_recruitment_cost_mult = -0.01
+		camel_cavalry_recruitment_cost_mult = -0.01
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_1
+	}
+	
+	next_building = plantations_02
+
+	type_icon = "icon_building_plantations.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 0
+			building_orchards_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = orchards_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_pastures_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = pastures_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_cereal_fields_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = cereal_fields_01
+			}
+		}
+		modifier = {
+			factor = 0
+			has_building_or_higher = city_01
+			NOT = {
+				has_building_or_higher = guild_halls_01
+			}
+		}
+	}
+}
+
+plantations_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_2
+		tax_mult = 0.01
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.02
+		camel_cavalry_maintenance_mult = -0.02
+		light_cavalry_recruitment_cost_mult = -0.02
+		camel_cavalry_recruitment_cost_mult = -0.02
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_2
+	}
+	
+	next_building = plantations_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+plantations_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+	}
+
+	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_3
+		tax_mult = 0.01
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.03
+		camel_cavalry_maintenance_mult = -0.03
+		light_cavalry_recruitment_cost_mult = -0.03
+		camel_cavalry_recruitment_cost_mult = -0.03
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_3
+	}
+	
+	next_building = plantations_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+plantations_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+		tax_mult = 0.02
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.04
+		camel_cavalry_maintenance_mult = -0.04
+		light_cavalry_recruitment_cost_mult = -0.04
+		camel_cavalry_recruitment_cost_mult = -0.04
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_4
+	}
+	
+	next_building = plantations_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+plantations_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_5
+		tax_mult = 0.02
+		supply_limit = 200
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.05
+		camel_cavalry_maintenance_mult = -0.05
+		light_cavalry_recruitment_cost_mult = -0.05
+		camel_cavalry_recruitment_cost_mult = -0.05
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_5
+	}
+	
+	next_building = plantations_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+plantations_06 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_6
+		tax_mult = 0.02
+		supply_limit = 400
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.06
+		camel_cavalry_maintenance_mult = -0.06
+		light_cavalry_recruitment_cost_mult = -0.06
+		camel_cavalry_recruitment_cost_mult = -0.06
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_6
+	}
+	
+	next_building = plantations_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+plantations_07 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_7
+		tax_mult = 0.02
+		supply_limit = 400
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.07
+		camel_cavalry_maintenance_mult = -0.07
+		light_cavalry_recruitment_cost_mult = -0.07
+		camel_cavalry_recruitment_cost_mult = -0.07
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_7
+	}
+	
+	next_building = plantations_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+plantations_08 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_plantations_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_8
+		tax_mult = 0.02
+		supply_limit = 600
+	}
+	character_modifier = {
+		light_cavalry_toughness_mult = 0.02
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+	character_culture_modifier = {
+		parameter = plantations_building_bonuses
+		light_cavalry_maintenance_mult = -0.08
+		camel_cavalry_maintenance_mult = -0.08
+		light_cavalry_recruitment_cost_mult = -0.08
+		camel_cavalry_recruitment_cost_mult = -0.08
+	}
+	province_culture_modifier = {
+		parameter = plantations_building_bonuses
+		monthly_income = poor_building_extra_tax_tier_8
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### quarries
+
+quarries_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_1
+		build_speed = good_building_build_speed_tier_1
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.01
+		pikemen_maintenance_mult = -0.01
+		heavy_cavalry_maintenance_mult = -0.01
+		men_at_arms_recruitment_cost = -0.01
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.01
+	}
+	
+	next_building = quarries_02
+
+	type_icon = "icon_building_quarries.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 0
+			scope:holder = {
+				has_government = republic_government
+			}
+			NOT = {
+				has_building_or_higher = guild_halls_01
+			}
+		}
+	}
+}
+
+quarries_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = cheap_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_2
+		build_speed = good_building_build_speed_tier_2
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.01
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.02
+		pikemen_maintenance_mult = -0.02
+		heavy_cavalry_maintenance_mult = -0.02
+		men_at_arms_recruitment_cost = -0.02
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.02
+	}
+	
+	next_building = quarries_03
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+quarries_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_3
+		build_speed = good_building_build_speed_tier_3
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.01
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.03
+		pikemen_maintenance_mult = -0.03
+		heavy_cavalry_maintenance_mult = -0.03
+		men_at_arms_recruitment_cost = -0.03
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.03
+	}
+	
+	next_building = quarries_04
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+quarries_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_4
+		build_speed = good_building_build_speed_tier_4
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		build_gold_cost = -0.05
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.01
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.04
+		pikemen_maintenance_mult = -0.04
+		heavy_cavalry_maintenance_mult = -0.04
+		men_at_arms_recruitment_cost = -0.04
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.04
+	}
+	
+	next_building = quarries_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+quarries_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_5_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_5
+		build_speed = good_building_build_speed_tier_5
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		build_gold_cost = -0.05
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.02
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.05
+		pikemen_maintenance_mult = -0.05
+		heavy_cavalry_maintenance_mult = -0.05
+		men_at_arms_recruitment_cost = -0.05
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.05
+	}
+	
+	next_building = quarries_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+quarries_06 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_6_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_6
+		build_speed = good_building_build_speed_tier_6
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		build_gold_cost = -0.05
+		garrison_size = 0.1
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.02
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.06
+		pikemen_maintenance_mult = -0.06
+		heavy_cavalry_maintenance_mult = -0.06
+		men_at_arms_recruitment_cost = -0.06
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.06
+	}
+	
+	next_building = quarries_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+quarries_07 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_7_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_7
+		build_speed = good_building_build_speed_tier_7
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		build_gold_cost = -0.05
+		garrison_size = 0.1
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.02
+		heavy_infantry_toughness_mult = 0.02
+		pikemen_toughness_mult = 0.02
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.07
+		pikemen_maintenance_mult = -0.07
+		heavy_cavalry_maintenance_mult = -0.07
+		men_at_arms_recruitment_cost = -0.07
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.07
+	}
+	
+	next_building = quarries_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+quarries_08 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_quarries_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = cheap_building_tier_8_cost
+	
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_8
+		build_speed = good_building_build_speed_tier_8
+	}
+	county_modifier = {
+		development_growth_factor = 0.02
+		build_gold_cost = -0.05
+		garrison_size = 0.1
+	}
+	character_modifier = {
+		men_at_arms_maintenance = -0.02
+		heavy_infantry_toughness_mult = 0.04
+		pikemen_toughness_mult = 0.04
+		heavy_cavalry_toughness_mult = 0.08
+	}
+	character_culture_modifier = {
+		parameter = quarries_building_bonuses
+		heavy_infantry_maintenance_mult = -0.08
+		pikemen_maintenance_mult = -0.08
+		heavy_cavalry_maintenance_mult = -0.08
+		men_at_arms_recruitment_cost = -0.08
+	}
+	county_culture_modifier = {
+		parameter = quarries_building_bonuses
+		levy_size = 0.08
+	}
+	
+	ai_value = {
+		base = 3
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+}
+
+### hill_forts
+
+hill_forts_01 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_hill_forts_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	
+	next_building = hill_forts_02
+
+	type_icon = "icon_building_hill_forts.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes
+		modifier = {
+			factor = 5
+			free_building_slots <= 3
+			scope:holder.capital_province = this
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 2
+		}
+		modifier = {
+			factor = 5
+			free_building_slots <= 1
+		}
+	}
+}
+
+hill_forts_02 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_hill_forts_requirement_terrain = yes
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -917,35 +5693,35 @@ sword_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	levy = 40
-
-	character_modifier = {
-		swords_toughness_mult = 0.04
-		swords_damage_mult = 0.04
-		swords_pursuit_mult = 0.04
-		swords_screen_mult = 0.04
+	max_garrison = good_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.1
 	}
 	
-	next_building = sword_03
+	next_building = hill_forts_03
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = sword_01
-			}
-		}
+		base = 9
+		ai_general_building_modifier = yes
 	}
 }
 
-sword_03 = {
-	construction_time = quick_construction_time
+hill_forts_03 = {
+	construction_time = slow_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 03 }
+		building_hill_forts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
 	}
 
 	can_construct_showing_failures_only = {
@@ -954,61 +5730,228 @@ sword_03 = {
 	
 	cost_gold = normal_building_tier_3_cost
 	
-	levy = 60
-
+	max_garrison = good_building_max_garrison_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.1
+	}
 	character_modifier = {
-		swords_toughness_mult = 0.06
-		swords_damage_mult = 0.06
-		swords_pursuit_mult = 0.06
-		swords_screen_mult = 0.06
+		pikemen_toughness_mult = 0.02
 	}
 	
-	
-	next_building = sword_04
+	next_building = hill_forts_04
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = sword_01
-			}
-		}
+		base = 8
+		ai_general_building_modifier = yes
 	}
 }
 
-sword_04 = {
-	construction_time = quick_construction_time
+hill_forts_04 = {
+	construction_time = slow_construction_time
 
 	can_construct_potential = {
-		terrain = mountains
-		building_requirement_castle_city_church = { LEVEL = 04 }
+		building_hill_forts_requirement_terrain = yes
 	}
 
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 	}
-	
+
 	cost_gold = normal_building_tier_4_cost
 	
-	levy = 100
-
+	max_garrison = good_building_max_garrison_tier_4
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_4
+		fort_level = good_building_fort_level_tier_4
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.1
+		levy_size = 0.02
+	}
 	character_modifier = {
-		swords_toughness_mult = 0.08
-		swords_damage_mult = 0.08
-		swords_pursuit_mult = 0.08
-		swords_screen_mult = 0.08
+		pikemen_toughness_mult = 0.02
+	}
+	
+	next_building = hill_forts_05
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+	}
+}
+
+hill_forts_05 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_hill_forts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_5_cost
+	
+	max_garrison = good_building_max_garrison_tier_5
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_5
+		fort_level = good_building_fort_level_tier_5
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.15
+		levy_size = 0.02
+	}
+	character_modifier = {
+		pikemen_toughness_mult = 0.02
+	}
+	
+	next_building = hill_forts_06
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+	}
+}
+
+hill_forts_06 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_hill_forts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_6_cost
+	
+	max_garrison = good_building_max_garrison_tier_6
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_6
+		fort_level = good_building_fort_level_tier_6
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.15
+		levy_size = 0.02
+	}
+	character_modifier = {
+		pikemen_damage_mult = 0.04
+		pikemen_toughness_mult = 0.02
+	}
+	
+	next_building = hill_forts_07
+	
+	ai_value = {
+		base = 5
+		ai_general_building_modifier = yes
+	}
+}
+
+hill_forts_07 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_hill_forts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_7_cost
+	
+	max_garrison = good_building_max_garrison_tier_7
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_7
+		fort_level = good_building_fort_level_tier_7
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.15
+		levy_size = 0.02
+	}
+	character_modifier = {
+		pikemen_damage_mult = 0.04
+		pikemen_toughness_mult = 0.04
+	}
+	
+	next_building = hill_forts_08
+	
+	ai_value = {
+		base = 4
+		ai_general_building_modifier = yes
+	}
+}
+
+hill_forts_08 = {
+	construction_time = slow_construction_time
+
+	can_construct_potential = {
+		building_hill_forts_requirement_terrain = yes
+	}
+
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		scope:holder.culture = {
+			has_innovation = innovation_machicolations
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_8_cost
+	
+	max_garrison = good_building_max_garrison_tier_8
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_8
+		fort_level = good_building_fort_level_tier_8
+	}
+	county_modifier = {
+		monthly_county_control_change_factor = 0.2
+		levy_size = 0.02
+	}
+	character_modifier = {
+		pikemen_damage_mult = 0.04
+		pikemen_toughness_mult = 0.04
 	}
 	
 	ai_value = {
-		base = 10
-		ai_general_building_modifier = yes	
-		modifier = {
-			factor = 0
-			NOT = {
-				has_building_or_higher = sword_01
-			}
-		}
+		base = 3
+		ai_general_building_modifier = yes
 	}
 }

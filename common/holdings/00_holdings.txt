@@ -1,11 +1,8 @@
 ﻿castle_holding = {
 	primary_building = castle_01
 	buildings = {
-		curtain_walls_01
-		watchtowers_01
+		#vanilla
 		outposts_01
-		hill_forts_01
-		ramparts_01
 		farm_estates_01
 		cereal_fields_01
 		pastures_01
@@ -21,7 +18,10 @@
 		barracks_01
 		military_camps_01
 		camel_farms_01
-		
+
+		common_tradeport_01
+
+		#FOD_MIL	
 		pegasus_01
 		wyvern_01
 		horse_01
@@ -29,10 +29,9 @@
 		axe_01
 		sword_01
 
-		common_tradeport_01
-		hall_of_heroes_01
-		special_sicilian_parliament_01
-		special_greenhouse_01
+		#FOD_CIV
+		vineyard_01
+		beehive_01
 	}
 }
 
@@ -72,6 +71,14 @@ city_holding = {
 		guild_halls_01
 
 		common_tradeport_01
+
+		#FOD_CIV
+		vineyard_01
+		beehive_01
+
+		FOD_pasture_01
+		FOD_farm_01
+		FOD_forestry_01
 	}
 
 	can_be_inherited = yes
@@ -101,6 +108,15 @@ church_holding = {
 		
 		common_tradeport_01
 		hall_of_heroes_01
+
+		#FOD_CIV
+		vineyard_01
+		beehive_01
+
+		FOD_pasture_01
+		FOD_farm_01
+		FOD_forestry_01
+
 	}
 
 	can_be_inherited = yes
