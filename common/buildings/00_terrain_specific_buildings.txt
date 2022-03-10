@@ -24,7 +24,7 @@ pastures_01 = {
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.01
+		light_cav_maintenance_mult = -0.01
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -87,7 +87,7 @@ pastures_02 = {
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.02
+		light_cav_maintenance_mult = -0.02
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -139,7 +139,7 @@ pastures_03 = {
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.03
+		light_cav_maintenance_mult = -0.03
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -194,7 +194,7 @@ pastures_04 = {
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.04
+		light_cav_maintenance_mult = -0.04
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -247,7 +247,7 @@ pastures_05 = {
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.05
+		light_cav_maintenance_mult = -0.05
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -307,7 +307,7 @@ pastures_06 = {
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.06
+		light_cav_maintenance_mult = -0.06
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -363,12 +363,12 @@ pastures_07 = {
 		county_opinion_add = 2
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
-		heavy_cavalry_toughness_mult = 0.04
+		light_cav_toughness_mult = 0.02
+		heavy_cav_toughness_mult = 0.04
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.07
+		light_cav_maintenance_mult = -0.07
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -424,12 +424,12 @@ pastures_08 = {
 		county_opinion_add = 2
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
-		heavy_cavalry_toughness_mult = 0.04
+		light_cav_toughness_mult = 0.02
+		heavy_cav_toughness_mult = 0.04
 	}
 	character_culture_modifier = {
 		parameter = pastures_building_bonuses
-		light_cavalry_maintenance_mult = -0.08
+		light_cav_maintenance_mult = -0.08
 	}
 	province_culture_modifier = {
 		parameter = pastures_building_bonuses
@@ -475,15 +475,15 @@ hunting_grounds_01 = {
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.01
-		archers_recruitment_cost_mult = -0.01
-		archers_damage_mult = 0.01
-		archers_toughness_mult = 0.01
+		bows_maintenance_mult = -0.01
+		bows_recruitment_cost_mult = -0.01
+		bows_damage_mult = 0.01
+		bows_toughness_mult = 0.01
 	}
 	
 	character_modifier = {
-		light_cavalry_damage_mult = 0.02
-		light_cavalry_pursuit_mult = 0.02
+		bows_damage_mult = 0.02
+		bows_maintenance_mult = -0.01
 	}
 	
 	next_building = hunting_grounds_02
@@ -536,19 +536,17 @@ hunting_grounds_02 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.04
-		light_cavalry_pursuit_mult = 0.04
-		light_cavalry_screen_mult = 0.02
-		light_cavalry_toughness_mult = 0.02
+		bows_damage_mult = 0.04
+		bows_toughness_mult = 0.02
+		bows_maintenance_mult = -0.02
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.01
-		archers_recruitment_cost_mult = -0.01
-		archers_damage_mult = 0.02
-		archers_toughness_mult = 0.02
+		bows_maintenance_mult = -0.01
+		bows_recruitment_cost_mult = -0.01
+		bows_damage_mult = 0.02
+		bows_toughness_mult = 0.02
 	}
 	
 	next_building = hunting_grounds_03
@@ -588,19 +586,17 @@ hunting_grounds_03 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.06
-		light_cavalry_pursuit_mult = 0.06
-		light_cavalry_screen_mult = 0.02
-		light_cavalry_toughness_mult = 0.02
+		bows_damage_mult = 0.06
+		bows_toughness_mult = 0.04
+		bows_maintenance_mult = -0.03
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.02
-		archers_recruitment_cost_mult = -0.02
-		archers_damage_mult = 0.03
-		archers_toughness_mult = 0.03
+		bows_maintenance_mult = -0.02
+		bows_recruitment_cost_mult = -0.02
+		bows_damage_mult = 0.03
+		bows_toughness_mult = 0.03
 	}
 	
 	next_building = hunting_grounds_04
@@ -640,19 +636,17 @@ hunting_grounds_04 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.08
-		light_cavalry_pursuit_mult = 0.08
-		light_cavalry_screen_mult = 0.04
-		light_cavalry_toughness_mult = 0.04
+		bows_damage_mult = 0.08
+		bows_toughness_mult = 0.06
+		bows_maintenance_mult = -0.04
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.02
-		archers_recruitment_cost_mult = -0.02
-		archers_damage_mult = 0.04
-		archers_toughness_mult = 0.04
+		bows_maintenance_mult = -0.02
+		bows_recruitment_cost_mult = -0.02
+		bows_damage_mult = 0.04
+		bows_toughness_mult = 0.04
 	}
 	
 	next_building = hunting_grounds_05
@@ -692,20 +686,18 @@ hunting_grounds_05 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.1
-		light_cavalry_pursuit_mult = 0.1
-		light_cavalry_screen_mult = 0.04
-		light_cavalry_toughness_mult = 0.04
+		bows_damage_mult = 0.08
+		bows_toughness_mult = 0.08
+		bows_maintenance_mult = -0.05
 		men_at_arms_maintenance = -0.01
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.03
-		archers_recruitment_cost_mult = -0.03
-		archers_damage_mult = 0.05
-		archers_toughness_mult = 0.05
+		bows_maintenance_mult = -0.03
+		bows_recruitment_cost_mult = -0.03
+		bows_damage_mult = 0.05
+		bows_toughness_mult = 0.05
 	}
 	
 	
@@ -746,20 +738,19 @@ hunting_grounds_06 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.12
-		light_cavalry_pursuit_mult = 0.12
-		light_cavalry_screen_mult = 0.06
-		light_cavalry_toughness_mult = 0.06
+		bows_damage_mult = 0.1
+		bows_toughness_mult = 0.1
+		bows_maintenance_mult = -0.06
+
 		men_at_arms_maintenance = -0.01
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.03
-		archers_recruitment_cost_mult = -0.03
-		archers_damage_mult = 0.06
-		archers_toughness_mult = 0.06
+		bows_maintenance_mult = -0.03
+		bows_recruitment_cost_mult = -0.03
+		bows_damage_mult = 0.06
+		bows_toughness_mult = 0.06
 	}
 	
 	
@@ -800,20 +791,18 @@ hunting_grounds_07 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.14
-		light_cavalry_pursuit_mult = 0.14
-		light_cavalry_screen_mult = 0.06
-		light_cavalry_toughness_mult = 0.06
+		bows_damage_mult = 0.12
+		bows_toughness_mult = 0.12
+		bows_maintenance_mult = -0.07
 		men_at_arms_maintenance = -0.01
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.04
-		archers_recruitment_cost_mult = -0.04
-		archers_damage_mult = 0.07
-		archers_toughness_mult = 0.07
+		bows_maintenance_mult = -0.04
+		bows_recruitment_cost_mult = -0.04
+		bows_damage_mult = 0.07
+		bows_toughness_mult = 0.07
 	}
 	
 	
@@ -858,20 +847,18 @@ hunting_grounds_08 = {
 	}
 	
 	character_modifier = {
-		skirmishers_pursuit_mult = 0.04
-		light_cavalry_damage_mult = 0.16
-		light_cavalry_pursuit_mult = 0.16
-		light_cavalry_screen_mult = 0.08
-		light_cavalry_toughness_mult = 0.08
+		bows_damage_mult = 0.14
+		bows_toughness_mult = 0.14
+		bows_maintenance_mult = -0.08
 		men_at_arms_maintenance = -0.01
 	}
 
 	character_culture_modifier = {
 		parameter = hunting_archery_building_bonuses
-		archers_maintenance_mult = -0.04
-		archers_recruitment_cost_mult = -0.04
-		archers_damage_mult = 0.08
-		archers_toughness_mult = 0.08
+		bows_maintenance_mult = -0.04
+		bows_recruitment_cost_mult = -0.04
+		bows_damage_mult = 0.08
+		bows_toughness_mult = 0.08
 	}
 	
 	
@@ -1788,7 +1775,7 @@ ramparts_05 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
+		bows_damage_mult = 0.04
 	}
 	
 	next_building = ramparts_06
@@ -1839,8 +1826,7 @@ ramparts_06 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
-		skirmishers_damage_mult = 0.02
+		bows_damage_mult = 0.04
 	}
 	
 	next_building = ramparts_07
@@ -1891,9 +1877,8 @@ ramparts_07 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
-		archers_toughness_mult = 0.02
-		skirmishers_damage_mult = 0.02
+		bows_damage_mult = 0.04
+		bows_toughness_mult = 0.02
 	}
 	
 	next_building = ramparts_08
@@ -1944,9 +1929,8 @@ ramparts_08 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.06
-		archers_toughness_mult = 0.02
-		skirmishers_damage_mult = 0.02
+		bows_damage_mult = 0.06
+		bows_toughness_mult = 0.02
 	}
 	
 	ai_value = {
@@ -2091,7 +2075,7 @@ curtain_walls_03 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	
 	next_building = curtain_walls_04
@@ -2142,7 +2126,7 @@ curtain_walls_04 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	
 	next_building = curtain_walls_05
@@ -2194,7 +2178,7 @@ curtain_walls_05 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	
 	next_building = curtain_walls_06
@@ -2247,7 +2231,7 @@ curtain_walls_06 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	
 	next_building = curtain_walls_07
@@ -2300,7 +2284,7 @@ curtain_walls_07 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	
 	next_building = curtain_walls_08
@@ -2353,7 +2337,7 @@ curtain_walls_08 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	
 	ai_value = {
@@ -2494,7 +2478,7 @@ watchtowers_03 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
+		bows_damage_mult = 0.04
 	}
 	
 	county_modifier = {
@@ -2545,7 +2529,7 @@ watchtowers_04 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
+		bows_damage_mult = 0.04
 	}
 	
 	county_modifier = {
@@ -2596,7 +2580,7 @@ watchtowers_05 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
+		bows_damage_mult = 0.04
 	}
 	
 	county_modifier = {
@@ -2647,8 +2631,8 @@ watchtowers_06 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.06
-		archers_toughness_mult = 0.02
+		bows_damage_mult = 0.06
+		bows_toughness_mult = 0.02
 	}
 	
 	county_modifier = {
@@ -2700,8 +2684,8 @@ watchtowers_07 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.06
-		archers_toughness_mult = 0.02
+		bows_damage_mult = 0.06
+		bows_toughness_mult = 0.02
 	}
 	
 	county_modifier = {
@@ -2753,8 +2737,8 @@ watchtowers_08 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.06
-		archers_toughness_mult = 0.02
+		bows_damage_mult = 0.06
+		bows_toughness_mult = 0.02
 	}
 	
 	county_modifier = {
@@ -3156,10 +3140,8 @@ outposts_01 = {
 	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.01
-		archers_maintenance_mult = -0.01
-		skirmishers_recruitment_cost_mult = -0.01
-		archers_recruitment_cost_mult = -0.01
+		bows_maintenance_mult = -0.01
+		bows_recruitment_cost_mult = -0.01
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3221,10 +3203,8 @@ outposts_02 = {
 	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.02
-		archers_maintenance_mult = -0.02
-		skirmishers_recruitment_cost_mult = -0.02
-		archers_recruitment_cost_mult = -0.02
+		bows_maintenance_mult = -0.02
+		bows_recruitment_cost_mult = -0.02
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3267,15 +3247,10 @@ outposts_03 = {
 	county_modifier = {
 		monthly_county_control_change_add = 0.1
 	}
-	character_modifier = {
-		skirmishers_damage_mult = 0.02
-	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.03
-		archers_maintenance_mult = -0.03
-		skirmishers_recruitment_cost_mult = -0.03
-		archers_recruitment_cost_mult = -0.03
+		bows_maintenance_mult = -0.03
+		bows_recruitment_cost_mult = -0.03
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3319,16 +3294,10 @@ outposts_04 = {
 		monthly_county_control_change_add = 0.1
 	}
 	
-	character_modifier = {
-		skirmishers_damage_mult = 0.02
-		skirmishers_pursuit_mult = 0.02
-	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.04
-		archers_maintenance_mult = -0.04
-		skirmishers_recruitment_cost_mult = -0.04
-		archers_recruitment_cost_mult = -0.04
+		bows_maintenance_mult = -0.04
+		bows_recruitment_cost_mult = -0.04
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3373,16 +3342,10 @@ outposts_05 = {
 		garrison_size = 0.05
 	}
 	
-	character_modifier = {
-		skirmishers_damage_mult = 0.02
-		skirmishers_pursuit_mult = 0.02
-	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.05
-		archers_maintenance_mult = -0.05
-		skirmishers_recruitment_cost_mult = -0.05
-		archers_recruitment_cost_mult = -0.05
+		bows_maintenance_mult = -0.05
+		bows_recruitment_cost_mult = -0.05
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3428,16 +3391,12 @@ outposts_06 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
-		skirmishers_damage_mult = 0.02
-		skirmishers_pursuit_mult = 0.02
+		bows_damage_mult = 0.04
 	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.06
-		archers_maintenance_mult = -0.06
-		skirmishers_recruitment_cost_mult = -0.06
-		archers_recruitment_cost_mult = -0.06
+		bows_maintenance_mult = -0.06
+		bows_recruitment_cost_mult = -0.06
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3483,18 +3442,12 @@ outposts_07 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
-		skirmishers_damage_mult = 0.02
-		skirmishers_pursuit_mult = 0.02
-		skirmishers_toughness_mult = 0.02
-		skirmishers_screen_mult = 0.02
+		bows_damage_mult = 0.04
 	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.07
-		archers_maintenance_mult = -0.07
-		skirmishers_recruitment_cost_mult = -0.07
-		archers_recruitment_cost_mult = -0.07
+		bows_maintenance_mult = -0.07
+		bows_recruitment_cost_mult = -0.07
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3541,18 +3494,12 @@ outposts_08 = {
 	}
 	
 	character_modifier = {
-		archers_damage_mult = 0.04
-		skirmishers_damage_mult = 0.02
-		skirmishers_pursuit_mult = 0.02
-		skirmishers_toughness_mult = 0.02
-		skirmishers_screen_mult = 0.02
+		bows_damage_mult = 0.04
 	}
 	character_culture_modifier = {
 		parameter = outposts_building_bonuses
-		skirmishers_maintenance_mult = -0.08
-		archers_maintenance_mult = -0.08
-		skirmishers_recruitment_cost_mult = -0.08
-		archers_recruitment_cost_mult = -0.08
+		bows_maintenance_mult = -0.08
+		bows_recruitment_cost_mult = -0.08
 	}
 	province_culture_modifier = {
 		parameter = outposts_building_bonuses
@@ -3588,8 +3535,7 @@ logging_camps_01 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.02
-		skirmishers_damage_mult = 0.02
+		bows_damage_mult = 0.02
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3642,8 +3588,7 @@ logging_camps_02 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.04
-		skirmishers_damage_mult = 0.04
+		bows_damage_mult = 0.04
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3694,8 +3639,7 @@ logging_camps_03 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.06
-		skirmishers_damage_mult = 0.06
+		bows_damage_mult = 0.06
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3747,8 +3691,7 @@ logging_camps_04 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.08
-		skirmishers_damage_mult = 0.08
+		bows_damage_mult = 0.08
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3801,8 +3744,7 @@ logging_camps_05 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.1
-		skirmishers_damage_mult = 0.1
+		bows_damage_mult = 0.1
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3855,8 +3797,7 @@ logging_camps_06 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.12
-		skirmishers_damage_mult = 0.12
+		bows_damage_mult = 0.12
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3909,8 +3850,7 @@ logging_camps_07 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.14
-		skirmishers_damage_mult = 0.14
+		bows_damage_mult = 0.14
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -3964,8 +3904,7 @@ logging_camps_08 = {
 	}
 	character_culture_modifier = {
 		parameter = logging_camps_building_bonuses
-		archers_damage_mult = 0.16
-		skirmishers_damage_mult = 0.16
+		bows_damage_mult = 0.16
 	}
 	county_culture_modifier = {
 		parameter = logging_camps_building_bonuses
@@ -4444,9 +4383,6 @@ hill_farms_02 = {
 		defender_holding_advantage = 1
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.02
-	}
 	character_culture_modifier = {
 		parameter = hill_farms_building_bonuses
 		knight_effectiveness_mult = 0.02
@@ -4499,9 +4435,6 @@ hill_farms_03 = {
 		supply_limit = 300
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.02
-	}
 	character_culture_modifier = {
 		parameter = hill_farms_building_bonuses
 		knight_effectiveness_mult = 0.03
@@ -4550,9 +4483,6 @@ hill_farms_04 = {
 		defender_holding_advantage = 2
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.04
-	}
 	
 	county_modifier = {
 		supply_limit = 300
@@ -4610,9 +4540,6 @@ hill_farms_05 = {
 		supply_limit_mult = 0.02
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.04
-	}
 	character_culture_modifier = {
 		parameter = hill_farms_building_bonuses
 		knight_effectiveness_mult = 0.05
@@ -4667,9 +4594,6 @@ hill_farms_06 = {
 		development_growth_factor = 0.05
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.04
-	}
 	character_culture_modifier = {
 		parameter = hill_farms_building_bonuses
 		knight_effectiveness_mult = 0.06
@@ -4724,9 +4648,6 @@ hill_farms_07 = {
 		development_growth_factor = 0.05
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.04
-	}
 	character_culture_modifier = {
 		parameter = hill_farms_building_bonuses
 		knight_effectiveness_mult = 0.07
@@ -4781,9 +4702,6 @@ hill_farms_08 = {
 		development_growth_factor = 0.1
 	}
 	
-	character_modifier = {
-		skirmishers_toughness_mult = 0.04
-	}
 	character_culture_modifier = {
 		parameter = hill_farms_building_bonuses
 		knight_effectiveness_mult = 0.08
@@ -4826,9 +4744,9 @@ plantations_01 = {
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.01
+		light_cav_maintenance_mult = -0.01
 		camel_cavalry_maintenance_mult = -0.01
-		light_cavalry_recruitment_cost_mult = -0.01
+		light_cav_recruitment_cost_mult = -0.01
 		camel_cavalry_recruitment_cost_mult = -0.01
 	}
 	province_culture_modifier = {
@@ -4897,9 +4815,9 @@ plantations_02 = {
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.02
+		light_cav_maintenance_mult = -0.02
 		camel_cavalry_maintenance_mult = -0.02
-		light_cavalry_recruitment_cost_mult = -0.02
+		light_cav_recruitment_cost_mult = -0.02
 		camel_cavalry_recruitment_cost_mult = -0.02
 	}
 	province_culture_modifier = {
@@ -4941,13 +4859,13 @@ plantations_03 = {
 		tax_mult = 0.01
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
+		light_cav_toughness_mult = 0.02
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.03
+		light_cav_maintenance_mult = -0.03
 		camel_cavalry_maintenance_mult = -0.03
-		light_cavalry_recruitment_cost_mult = -0.03
+		light_cav_recruitment_cost_mult = -0.03
 		camel_cavalry_recruitment_cost_mult = -0.03
 	}
 	province_culture_modifier = {
@@ -4989,13 +4907,13 @@ plantations_04 = {
 		tax_mult = 0.02
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
+		light_cav_toughness_mult = 0.02
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.04
+		light_cav_maintenance_mult = -0.04
 		camel_cavalry_maintenance_mult = -0.04
-		light_cavalry_recruitment_cost_mult = -0.04
+		light_cav_recruitment_cost_mult = -0.04
 		camel_cavalry_recruitment_cost_mult = -0.04
 	}
 	province_culture_modifier = {
@@ -5038,16 +4956,16 @@ plantations_05 = {
 		supply_limit = 200
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
+		light_cav_toughness_mult = 0.02
 	}
 	county_modifier = {
 		development_growth_factor = 0.02
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.05
+		light_cav_maintenance_mult = -0.05
 		camel_cavalry_maintenance_mult = -0.05
-		light_cavalry_recruitment_cost_mult = -0.05
+		light_cav_recruitment_cost_mult = -0.05
 		camel_cavalry_recruitment_cost_mult = -0.05
 	}
 	province_culture_modifier = {
@@ -5090,16 +5008,16 @@ plantations_06 = {
 		supply_limit = 400
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
+		light_cav_toughness_mult = 0.02
 	}
 	county_modifier = {
 		development_growth_factor = 0.02
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.06
+		light_cav_maintenance_mult = -0.06
 		camel_cavalry_maintenance_mult = -0.06
-		light_cavalry_recruitment_cost_mult = -0.06
+		light_cav_recruitment_cost_mult = -0.06
 		camel_cavalry_recruitment_cost_mult = -0.06
 	}
 	province_culture_modifier = {
@@ -5142,16 +5060,16 @@ plantations_07 = {
 		supply_limit = 400
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
+		light_cav_toughness_mult = 0.02
 	}
 	county_modifier = {
 		development_growth_factor = 0.05
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.07
+		light_cav_maintenance_mult = -0.07
 		camel_cavalry_maintenance_mult = -0.07
-		light_cavalry_recruitment_cost_mult = -0.07
+		light_cav_recruitment_cost_mult = -0.07
 		camel_cavalry_recruitment_cost_mult = -0.07
 	}
 	province_culture_modifier = {
@@ -5194,16 +5112,16 @@ plantations_08 = {
 		supply_limit = 600
 	}
 	character_modifier = {
-		light_cavalry_toughness_mult = 0.02
+		light_cav_toughness_mult = 0.02
 	}
 	county_modifier = {
 		development_growth_factor = 0.05
 	}
 	character_culture_modifier = {
 		parameter = plantations_building_bonuses
-		light_cavalry_maintenance_mult = -0.08
+		light_cav_maintenance_mult = -0.08
 		camel_cavalry_maintenance_mult = -0.08
-		light_cavalry_recruitment_cost_mult = -0.08
+		light_cav_recruitment_cost_mult = -0.08
 		camel_cavalry_recruitment_cost_mult = -0.08
 	}
 	province_culture_modifier = {
@@ -5240,9 +5158,9 @@ quarries_01 = {
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.01
-		pikemen_maintenance_mult = -0.01
-		heavy_cavalry_maintenance_mult = -0.01
+		armors_maintenance_mult = -0.01
+		lances_maintenance_mult = -0.01
+		heavy_cav_maintenance_mult = -0.01
 		men_at_arms_recruitment_cost = -0.01
 	}
 	county_culture_modifier = {
@@ -5295,9 +5213,9 @@ quarries_02 = {
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.02
-		pikemen_maintenance_mult = -0.02
-		heavy_cavalry_maintenance_mult = -0.02
+		armors_maintenance_mult = -0.02
+		lances_maintenance_mult = -0.02
+		heavy_cav_maintenance_mult = -0.02
 		men_at_arms_recruitment_cost = -0.02
 	}
 	county_culture_modifier = {
@@ -5346,9 +5264,9 @@ quarries_03 = {
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.03
-		pikemen_maintenance_mult = -0.03
-		heavy_cavalry_maintenance_mult = -0.03
+		armors_maintenance_mult = -0.03
+		lances_maintenance_mult = -0.03
+		heavy_cav_maintenance_mult = -0.03
 		men_at_arms_recruitment_cost = -0.03
 	}
 	county_culture_modifier = {
@@ -5398,9 +5316,9 @@ quarries_04 = {
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.04
-		pikemen_maintenance_mult = -0.04
-		heavy_cavalry_maintenance_mult = -0.04
+		armors_maintenance_mult = -0.04
+		lances_maintenance_mult = -0.04
+		heavy_cav_maintenance_mult = -0.04
 		men_at_arms_recruitment_cost = -0.04
 	}
 	county_culture_modifier = {
@@ -5450,9 +5368,9 @@ quarries_05 = {
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.05
-		pikemen_maintenance_mult = -0.05
-		heavy_cavalry_maintenance_mult = -0.05
+		armors_maintenance_mult = -0.05
+		lances_maintenance_mult = -0.05
+		heavy_cav_maintenance_mult = -0.05
 		men_at_arms_recruitment_cost = -0.05
 	}
 	county_culture_modifier = {
@@ -5503,9 +5421,9 @@ quarries_06 = {
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.06
-		pikemen_maintenance_mult = -0.06
-		heavy_cavalry_maintenance_mult = -0.06
+		armors_maintenance_mult = -0.06
+		lances_maintenance_mult = -0.06
+		heavy_cav_maintenance_mult = -0.06
 		men_at_arms_recruitment_cost = -0.06
 	}
 	county_culture_modifier = {
@@ -5553,14 +5471,14 @@ quarries_07 = {
 	}
 	character_modifier = {
 		men_at_arms_maintenance = -0.02
-		heavy_infantry_toughness_mult = 0.02
-		pikemen_toughness_mult = 0.02
+		armors_toughness_mult = 0.02
+		lances_toughness_mult = 0.02
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.07
-		pikemen_maintenance_mult = -0.07
-		heavy_cavalry_maintenance_mult = -0.07
+		armors_maintenance_mult = -0.07
+		lances_maintenance_mult = -0.07
+		heavy_cav_maintenance_mult = -0.07
 		men_at_arms_recruitment_cost = -0.07
 	}
 	county_culture_modifier = {
@@ -5608,15 +5526,15 @@ quarries_08 = {
 	}
 	character_modifier = {
 		men_at_arms_maintenance = -0.02
-		heavy_infantry_toughness_mult = 0.04
-		pikemen_toughness_mult = 0.04
-		heavy_cavalry_toughness_mult = 0.08
+		armors_toughness_mult = 0.04
+		lances_toughness_mult = 0.04
+		heavy_cav_toughness_mult = 0.08
 	}
 	character_culture_modifier = {
 		parameter = quarries_building_bonuses
-		heavy_infantry_maintenance_mult = -0.08
-		pikemen_maintenance_mult = -0.08
-		heavy_cavalry_maintenance_mult = -0.08
+		armors_maintenance_mult = -0.08
+		lances_maintenance_mult = -0.08
+		heavy_cav_maintenance_mult = -0.08
 		men_at_arms_recruitment_cost = -0.08
 	}
 	county_culture_modifier = {
@@ -5739,7 +5657,7 @@ hill_forts_03 = {
 		monthly_county_control_change_factor = 0.1
 	}
 	character_modifier = {
-		pikemen_toughness_mult = 0.02
+		lances_toughness_mult = 0.02
 	}
 	
 	next_building = hill_forts_04
@@ -5780,7 +5698,7 @@ hill_forts_04 = {
 		levy_size = 0.02
 	}
 	character_modifier = {
-		pikemen_toughness_mult = 0.02
+		lances_toughness_mult = 0.02
 	}
 	
 	next_building = hill_forts_05
@@ -5821,7 +5739,7 @@ hill_forts_05 = {
 		levy_size = 0.02
 	}
 	character_modifier = {
-		pikemen_toughness_mult = 0.02
+		lances_toughness_mult = 0.02
 	}
 	
 	next_building = hill_forts_06
@@ -5862,8 +5780,8 @@ hill_forts_06 = {
 		levy_size = 0.02
 	}
 	character_modifier = {
-		pikemen_damage_mult = 0.04
-		pikemen_toughness_mult = 0.02
+		lances_damage_mult = 0.04
+		lances_toughness_mult = 0.02
 	}
 	
 	next_building = hill_forts_07
@@ -5904,8 +5822,8 @@ hill_forts_07 = {
 		levy_size = 0.02
 	}
 	character_modifier = {
-		pikemen_damage_mult = 0.04
-		pikemen_toughness_mult = 0.04
+		lances_damage_mult = 0.04
+		lances_toughness_mult = 0.04
 	}
 	
 	next_building = hill_forts_08
@@ -5946,8 +5864,8 @@ hill_forts_08 = {
 		levy_size = 0.02
 	}
 	character_modifier = {
-		pikemen_damage_mult = 0.04
-		pikemen_toughness_mult = 0.04
+		lances_damage_mult = 0.04
+		lances_toughness_mult = 0.04
 	}
 	
 	ai_value = {

@@ -1,4 +1,4 @@
-fodlan = {
+﻿fodlan = {
   parent = fodlan
 }
 

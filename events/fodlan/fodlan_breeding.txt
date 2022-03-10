@@ -1,0 +1,117 @@
+namespace = FOD_breeding
+
+FOD_breeding.1 = { #dragons
+	type = empty
+	hidden = yes
+
+	trigger = {
+		OR = {
+			mother = { 
+				has_trait = child_goddess
+			}
+			real_father = { 
+				has_trait = child_goddess
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				mother = { has_trait = child_goddess }
+				real_father = { has_trait = child_goddess }
+			}
+			add_trait = child_goddess
+		}
+		else = {
+			add_trait = dragon_blood
+		}
+	}
+}
+
+FOD_breeding.2 = { #kitsune
+	type = empty
+	hidden = yes
+
+	trigger = {
+		OR = {
+			mother = { 
+				has_trait = kitsune
+			}
+			real_father = { 
+				has_trait = kitsune
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				mother = { has_trait = kitsune }
+				real_father = { has_trait = kitsune }
+			}
+			add_trait = kitsune
+		}
+		else = {
+			add_trait = beast_blood
+		}
+	}
+}
+
+FOD_breeding.3 = { #wolfskin
+	type = empty
+	hidden = yes
+
+	trigger = {
+		OR = {
+			mother = { 
+				has_trait = wolfskin
+			}
+			real_father = { 
+				has_trait = wolfskin
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				mother = { has_trait = wolfskin }
+				real_father = { has_trait = wolfskin }
+			}
+			add_trait = wolfskin
+		}
+		else = {
+			add_trait = beast_blood
+		}
+	}
+}
+
+FOD_breeding.4 = { #taguel
+	type = empty
+	hidden = yes
+
+	trigger = {
+		OR = {
+			mother = { 
+				has_trait = taguel
+			}
+			real_father = { 
+				has_trait = taguel
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				mother = { has_trait = taguel }
+				real_father = { has_trait = taguel }
+			}
+			add_trait = taguel
+		}
+		else = {
+			add_trait = beast_blood
+		}
+	}
+}

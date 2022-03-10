@@ -735,6 +735,7 @@ almyran = {
 		tradition_hit_and_run_tacticians
 		tradition_horse_lords
 		tradition_hereditary_hierarchy
+		tradition_wyvern_masters
 	}
 
 	name_list = name_list_arabic
@@ -745,7 +746,7 @@ almyran = {
 	unit_gfx = { arabic_unit_gfx }
 	
 	ethnicities = {
-		10 = arabic
+		100 = race_almyran
 	}
 }
 

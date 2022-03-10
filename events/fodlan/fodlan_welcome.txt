@@ -1,4 +1,4 @@
-namespace = fodlan_welcome
+﻿namespace = fodlan_welcome
 
 fodlan_welcome.1 = {
   type = empty

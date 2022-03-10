@@ -1,4 +1,4 @@
-# Can check this to disable various game systems
+﻿# Can check this to disable various game systems
 fodlan_major_incident_active = {
   OR = {
     is_fodlan_unification_war_active = yes

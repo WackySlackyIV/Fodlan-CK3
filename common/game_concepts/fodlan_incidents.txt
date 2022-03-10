@@ -1,4 +1,4 @@
-war_of_heroes = {
+﻿war_of_heroes = {
   parent = historic_incident
 }
 

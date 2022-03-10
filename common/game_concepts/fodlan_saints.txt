@@ -1,4 +1,4 @@
-ten_elites = {
+﻿ten_elites = {
 	parent = ten_elites 
 }
 

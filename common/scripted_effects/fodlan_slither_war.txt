@@ -1,4 +1,4 @@
-mark_slither_war_active = {
+﻿mark_slither_war_active = {
 	set_global_variable = {
     name = fodlan_slither_war_active
     value = yes

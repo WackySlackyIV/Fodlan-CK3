@@ -7,8 +7,8 @@
 barbarossa = { #almyran
 	type = heavy_flyers
 	
-	damage = 90
-	toughness = 24
+	damage = 100
+	toughness = 25
 	pursuit = 30
 	screen = 20
 	
@@ -27,6 +27,11 @@ barbarossa = { #almyran
 		lances = 1
 		light_cav = 1
 		light_flyers = 1
+		heavy_flyers = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_barbarossa }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -61,6 +66,10 @@ griffon_rider = { #reqonn
 		light_cav = 2
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_griffon_rider }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -72,7 +81,7 @@ griffon_rider = { #reqonn
 	icon = wyvern_1
 }
 
-oliphantier = { #india
+oliphantier = { #kotesh
 	type = missile_cav
 	
 	damage = 112
@@ -95,6 +104,10 @@ oliphantier = { #india
 		heavy_flyers = 2
 		lances = 1
 		swords = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_oliphantier }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -129,6 +142,10 @@ seraph_knight = { #brigid
 		magic_cav = 1
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_seraph_knight }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -158,6 +175,10 @@ spartan = { #duscur
 		light_cav = 3
 		heavy_cav = 2
 		missile_cav = 2
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_spartan }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -197,6 +218,10 @@ skogul = { #faerghus
 		light_cav = 1
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_skogul }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -228,6 +253,10 @@ sagittary = { #leicester
 		lances = 1
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_sagittary }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -257,6 +286,10 @@ berserker = { #sreng
 	counters = {
 		lances = 1
 		armors = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_berserker }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -294,6 +327,10 @@ elgier = { #albinea
 		swords = 1
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_elgier }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -322,6 +359,10 @@ trueblade = { #nuada
 	counters = {
 		axes = 1
 		bows = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_nuada }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -353,6 +394,10 @@ agastya = { #agarthan
 		heavy_flyers = 2
 		armors = 2
 		axes = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_agastya }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -387,6 +432,10 @@ exemplar = { #high fodlan
 		axes = 1
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_exemplar }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -418,6 +467,10 @@ enchantress = { #adrestia
 		axes = 1
 	}
 
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_enchantress }
+	}
+
 	buy_cost = { gold = tier_3_recruitment_cost }
 	low_maintenance_cost = { gold = tier_3_low_maint_cost }
 	high_maintenance_cost = { gold = tier_3_high_maint_cost }
@@ -446,6 +499,10 @@ grandmaster = { #morfis
 		heavy_flyers = 2
 		armors = 2
 		axes = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_grandmaster }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }
@@ -480,6 +537,10 @@ amazoness = { #aedin
 		magic_cav = 1
 		heavy_flyers = 1
 		lances = 1
+	}
+
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_amazoness }
 	}
 
 	buy_cost = { gold = tier_3_recruitment_cost }

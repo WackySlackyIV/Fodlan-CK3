@@ -1,4 +1,4 @@
-# Input: root scope is a title referring to the top level title of a loser.
+﻿# Input: root scope is a title referring to the top level title of a loser.
 # Updates: Two lists titles_taken and vassals_taken which are the titles and vassals
 unification_war_get_titles_to_transfer = {
 	$LOSER$ = { save_temporary_scope_as = temp_loser }

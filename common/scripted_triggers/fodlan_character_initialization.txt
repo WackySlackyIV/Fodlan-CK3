@@ -1,4 +1,4 @@
-fodlan_major_crest = {
+﻿fodlan_major_crest = {
   OR = {
     has_trait = crest_major_seiros
     has_trait = crest_major_flames

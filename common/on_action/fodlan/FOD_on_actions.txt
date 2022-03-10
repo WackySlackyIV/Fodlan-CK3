@@ -24,6 +24,12 @@ on_birth_child = {
 	on_actions = {
 		FOD_crest_inheritance
 	}
+	events = {
+		FOD_breeding.1
+		FOD_breeding.2
+		FOD_breeding.3
+		FOD_breeding.4
+	}
 }
 
 FOD_crest_inheritance = {
