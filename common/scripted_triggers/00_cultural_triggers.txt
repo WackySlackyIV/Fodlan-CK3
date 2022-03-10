@@ -37,6 +37,13 @@ culture_in_winter_geographical_region_trigger = {
 	}
 }
 
+culture_in_non_sedentary_geographical_region_trigger = {
+	custom_description = {
+		text = culture_in_non_sedentary_geographical_region_trigger_desc
+		always = no
+	}
+}
+
 culture_not_pacifistic_trigger = {
 	custom_description = {
 		text = culture_not_pacifist_trigger_desc

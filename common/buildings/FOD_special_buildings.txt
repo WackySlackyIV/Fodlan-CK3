@@ -242,10 +242,10 @@ fodlans_locket_01 = {
 	province_modifier = {
 		fort_level = 5
 		garrison_size = 1
+		defender_holding_advantage = 5
 	}
 	county_modifier = {
 		levy_size = 0.5
-		defender_advantage = 5
 		development_growth = 0.1
 		development_growth_factor = 0.1
 		hostile_raid_time = 0.5
@@ -274,10 +274,10 @@ myrddin_bridge_01 = {
 	province_modifier = {
 		fort_level = 2
 		garrison_size = 0.5
+		defender_holding_advantage = 3
 	}
 	county_modifier = {
 		levy_size = 0.2
-		defender_advantage = 3
 		development_growth = 0.2
 		development_growth_factor = 0.25
 		hostile_raid_time = 0.5
@@ -306,10 +306,10 @@ arianhrod_01 = {
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.75
+		defender_holding_advantage = 5
 	}
 	county_modifier = {
 		levy_size = 0.4
-		defender_advantage = 5
 		development_growth = 0.2
 		development_growth_factor = 0.1
 		hostile_raid_time = 0.5
@@ -338,10 +338,10 @@ merceus_01 = {
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.75
+		defender_holding_advantage = 5
 	}
 	county_modifier = {
 		levy_size = 0.4
-		defender_advantage = 5
 		development_growth = 0.2
 		development_growth_factor = 0.1
 		hostile_raid_time = 0.5
@@ -372,10 +372,10 @@ cordelia_01 = {
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.5
+		defender_holding_advantage = 1
 	}
 	county_modifier = {
 		levy_size = 0.1
-		defender_advantage = 1
 		hostile_raid_time = 0.1
 	}
 	
@@ -402,10 +402,10 @@ beverly_01 = {
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.5
+		defender_holding_advantage = 1
 	}
 	county_modifier = {
 		levy_size = 0.1
-		defender_advantage = 1
 		hostile_raid_time = 0.1
 	}
 	
@@ -432,10 +432,10 @@ ailell_01 = {
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.5
+		defender_holding_advantage = 1
 	}
 	county_modifier = {
 		levy_size = 0.1
-		defender_advantage = 1
 		hostile_raid_time = 0.1
 	}
 	

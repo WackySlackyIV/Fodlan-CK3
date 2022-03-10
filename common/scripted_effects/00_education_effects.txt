@@ -886,7 +886,12 @@ remove_variables_and_trait_coming_of_age_effect = {
 		}
 		remove_character_flag = natural_education_progression
 	}
-	remove_variable = education_point_gain_variable
+	if = {
+		limit = {
+			has_variable = education_point_gain_variable
+		}
+		remove_variable = education_point_gain_variable
+	}
 	if = {
 		limit = {
 			has_variable = childhood_trait_type

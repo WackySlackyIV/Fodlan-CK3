@@ -4,6 +4,15 @@ GetTribalReformGovernment = {
 
 	text = {
 		trigger = {
+			culture = { has_cultural_pillar = heritage_mihran }
+		}
+		localization_key = tribal_reform_clan
+	}
+	text = {
+		trigger = {
+			NOT = {
+				culture = { has_cultural_pillar = heritage_mihran }
+			}
 		}
 		localization_key = tribal_reform_feudal
 	}

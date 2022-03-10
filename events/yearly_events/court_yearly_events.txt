@@ -2448,7 +2448,15 @@ court_yearly.7100 = {
 		}
 
 		random = {
-			chance = 50
+			chance = 75
+			modifier = {
+				add = {
+					value = prowess
+					multiply = -1
+					multiply = 2.5
+					min = -50
+				}
+			}
 			increase_wounds_no_death_effect = { REASON = wild_animal }
 		}
 
@@ -2467,7 +2475,15 @@ court_yearly.7100 = {
 				opinion = -10
 			}
 			random = {
-				chance = 50
+				chance = 75
+				modifier = {
+					add = {
+						value = scope:huntmaster.prowess
+						multiply = -1
+						multiply = 2.5
+						min = -50
+					}
+				}
 				increase_wounds_no_death_effect = { REASON = wild_animal }
 			}	
 
@@ -3563,6 +3579,10 @@ court_yearly.0101 = {
 	left_portrait = {
 		character = scope:executioner
 		animation = schadenfreude
+	}
+	right_portrait = {
+		character  = scope:lowborn_criminal
+		animation = fear
 	}
 	
 	

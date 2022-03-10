@@ -294,6 +294,7 @@ big_animal_effect = {
 			}
 		}
 	}
+	clear_saved_scope = location
 }
 
 #Used to find a local dangerous animal

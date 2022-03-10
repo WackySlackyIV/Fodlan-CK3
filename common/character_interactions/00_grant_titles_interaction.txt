@@ -627,6 +627,43 @@
 				}
 			}
 
+			if = {
+				limit = {
+					exists = scope:actor.dynasty
+					scope:actor.dynasty = {
+						has_dynasty_perk = ep1_culture_legacy_3
+					}
+					scope:recipient = {
+						is_landed = no
+						NOT = {
+							culture = scope:actor.culture
+						}
+						any_in_list = {
+							list = target_titles
+							OR = {
+								tier = tier_county
+								tier = tier_barony
+							}
+							culture = scope:recipient.culture
+						}
+					}
+				}
+				scope:actor = {
+					if = {
+						limit = {
+							can_add_hook = {
+								target = scope:recipient
+								type = favor_hook
+							}
+						}
+						add_hook = {
+							type = favor_hook
+							target = scope:recipient
+						}
+					}
+				}
+			}
+
 			#Feedback for actor
 			hidden_effect = {
 				if = {

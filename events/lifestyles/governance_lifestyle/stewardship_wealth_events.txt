@@ -1534,6 +1534,14 @@ stewardship_wealth.5002 = { #by Mathilda Bjarnehed
 				}
 			}
 			1 = {
+				trigger = {
+					faith = {
+						NOR = {
+							has_doctrine = tenet_aniconism
+							#religion = religion:islam_religion
+						}
+					}
+				}
 				save_scope_value_as = {
 					name = safe_investment
 					value = flag:religious_sculptor
@@ -1564,7 +1572,15 @@ stewardship_wealth.5002 = { #by Mathilda Bjarnehed
 				}
 			}
 			1 = {
-				trigger = { NOT = { scope:safe_investment = flag:religious_sculptor } }
+				trigger = {
+					NOT = { scope:safe_investment = flag:religious_sculptor }
+					faith = {
+						NOR = {
+							has_doctrine = tenet_aniconism
+							#religion = religion:islam_religion
+						}
+					}
+				}
 				save_scope_value_as = {
 					name = risky_investment
 					value = flag:religious_sculptor
@@ -1591,7 +1607,15 @@ stewardship_wealth.5002 = { #by Mathilda Bjarnehed
 			text = stewardship_wealth.5002.a.mason
 		}
 		name = {
-			trigger = { scope:safe_investment = flag:religious_sculptor }
+			trigger = {
+				scope:safe_investment = flag:religious_sculptor
+				faith = {
+					NOR = {
+						has_doctrine = tenet_aniconism
+						#religion = religion:islam_religion
+					}
+				}
+			}
 			text = stewardship_wealth.5002.a.religious_sculptor
 		}
 		name = {
@@ -1667,7 +1691,15 @@ stewardship_wealth.5002 = { #by Mathilda Bjarnehed
 			text = stewardship_wealth.5002.a.mason
 		}
 		name = {
-			trigger = { scope:risky_investment = flag:religious_sculptor }
+			trigger = {
+				scope:risky_investment = flag:religious_sculptor
+				faith = {
+					NOR = {
+						has_doctrine = tenet_aniconism
+						#religion = religion:islam_religion
+					}
+				}
+			}
 			text = stewardship_wealth.5002.a.religious_sculptor
 		}
 		name = {

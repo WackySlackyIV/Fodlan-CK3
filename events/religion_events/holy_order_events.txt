@@ -646,11 +646,16 @@ holy_order.0205 = {
 
 	option = {
 		name = holy_order.0205.a
+		if = {
+			limit = {
+				exists = faith.religious_head
+			}
 		faith.religious_head = {
 			add_opinion = {
 				modifier = not_repay_loan_opinion
 				target = root
 			}
+		}
 		}
 		scope:recipient = {
 			add_opinion = {

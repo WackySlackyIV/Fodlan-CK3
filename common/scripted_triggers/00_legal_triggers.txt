@@ -42,7 +42,6 @@ can_change_succession_law_trigger = {
 }
 
 can_change_single_heir_dynasty_house_succession_law_trigger = {
-	
 	trigger_if = {
 		limit = { realm_law_use_crown_authority = no }
 		custom_description = {

@@ -723,6 +723,7 @@ elector_voting_pattern_circumstances_feudal_elective_modifier = {
 	#Educational preferences
 	modifier = { # Warrior society prefers warriors
 		desc = tooltip_feudal_elector_vote_martial_education
+		NOT = { this = scope:candidate }
 		this_is_martial_society_trigger = yes
 		scope:candidate = {
 			martial >= 10
@@ -746,6 +747,7 @@ elector_voting_pattern_circumstances_feudal_elective_modifier = {
 	modifier = { # Diplomatic society prefers stewards and diplomats
 		add = 15
 		desc = tooltip_feudal_elector_vote_diplomatic_education
+		NOT = { this = scope:candidate }
 		this_is_diplomatic_society_trigger = yes
 		scope:candidate = {
 			OR = {
@@ -773,6 +775,7 @@ elector_voting_pattern_circumstances_feudal_elective_modifier = {
 	modifier = { # Spiritual society prefers scholars
 		add = 15
 		desc = tooltip_feudal_elector_vote_spiritual_education
+		NOT = { this = scope:candidate }
 		this_is_spiritual_society_trigger = yes
 		scope:candidate = {
 			learning >= 10
@@ -2852,6 +2855,7 @@ elector_voting_pattern_circumstances_gaelic_elective_modifier = {
 	modifier = { # Warrior society prefers warriors
 		add = 15
 		desc = tooltip_feudal_elector_vote_martial_education
+		NOT = { this = scope:candidate }
 		this_is_martial_society_trigger = yes
 		scope:candidate = {
 			martial >= 10
@@ -2866,6 +2870,7 @@ elector_voting_pattern_circumstances_gaelic_elective_modifier = {
 	modifier = { # Diplomatic society prefers stewards and diplomats
 		add = 15
 		desc = tooltip_feudal_elector_vote_diplomatic_education
+		NOT = { this = scope:candidate }
 		this_is_diplomatic_society_trigger = yes
 		scope:candidate = {
 			OR = {
@@ -2893,6 +2898,7 @@ elector_voting_pattern_circumstances_gaelic_elective_modifier = {
 	modifier = { # Spiritual society prefers scholars
 		add = 15
 		desc = tooltip_feudal_elector_vote_spiritual_education
+		NOT = { this = scope:candidate }
 		this_is_spiritual_society_trigger = yes
 		scope:candidate = {
 			learning >= 10
@@ -3001,14 +3007,16 @@ elector_voting_pattern_circumstances_saxon_elective_modifier = {
 	modifier = {	# Witengamot prefers magnates of the land.
 		add = -60
 		desc = tooltip_saxon_elector_vote_candidate_unlanded
-		NOT = { this = scope:holder }	#But not if it's me.
+		#But not if it's me.
+		NOT = { this = scope:candidate }
 		scope:candidate = { is_landed = no }
 	}
 
 	modifier = {	# Witengamot prefers actual magnates, not low-tier counts.
 		add = -30
 		desc = tooltip_saxon_elector_vote_candidate_count_magnate
-		NOT = { this = scope:holder }	#But not if it's me.
+		#But not if it's me.
+		NOT = { this = scope:candidate }
 		scope:candidate = {
 			is_landed = yes
 			highest_held_title_tier = tier_county
@@ -3017,7 +3025,8 @@ elector_voting_pattern_circumstances_saxon_elective_modifier = {
 
 	modifier = {	#Witengamot likes powerful lords of the realm.
 		desc = tooltip_saxon_elector_vote_candidate_king_magnate
-		NOT = { this = scope:holder }	#But not if it's me.
+		#But not if it's me.
+		NOT = { this = scope:candidate }
 		scope:candidate = {
 			is_landed = yes
 			highest_held_title_tier = tier_kingdom
