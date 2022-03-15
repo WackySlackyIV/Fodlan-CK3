@@ -35,7 +35,7 @@ cermaitan = {
 		tradition_tribe_unity
 		tradition_legalistic
 		tradition_hunters
-		tradition_seafarers
+		tradition_seafaring
 		tradition_city_keepers
 	}
 	name_list = name_list_irish
@@ -59,10 +59,10 @@ aengese = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_tribe_unity
-		tradition_seafarers
-		tradition_coastal_warriors
+		tradition_seafaring
+		tradition_fp1_coastal_warriors
 		tradition_maritime_mercantilism
-		tradition_dexterous_fishermen
+		tradition_fishermen
 	}
 	name_list = name_list_irish
 	coa_gfx = { irish_coa_gfx western_coa_gfx }
@@ -85,8 +85,8 @@ aedin = {
 	martial_custom = martial_custom_equal
 	martial_custom = martial_custom_female_only
 	traditions = {
-		tradition_matriarchal
-		tradition_warrior_queens
+		tradition_female_only_inheritance
+		tradition_formation_fighting
 		tradition_warrior_culture
 		tradition_martial_admiration
 		tradition_stand_and_fight
@@ -112,8 +112,8 @@ dergish = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_tribe_unity
-		tradition_defensive_tactics
-		tradition_metalworkers
+		tradition_stand_and_fight
+		tradition_metal_craftsmanship
 		tradition_isolationist
 		tradition_stalwart_defenders
 	}
@@ -140,7 +140,7 @@ brigantine = {
 		tradition_hunters
 		tradition_mountain_homes
 		tradition_agrarian
-		tradition_adaptive_skirmishers
+		tradition_adaptive_skirmishing
 		tradition_sacred_groves
 	}
 	name_list = name_list_irish
@@ -166,7 +166,7 @@ imbolaic = {
 		tradition_tribe_unity
 		tradition_isolationist
 		tradition_modest
-		tradition_pacifists
+		tradition_pacifism
 		tradition_sacred_groves
 	}
 	name_list = name_list_irish
@@ -189,11 +189,11 @@ high_fodlan = {
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_strong_believers
+		tradition_zealous_people
 		tradition_mystical_ancestors
 		tradition_staunch_traditionalists
 		tradition_monastic_communities
-		tradition_warrior_priests
+		tradition_religious_patronage
 		tradition_crest_succession
 	}
 	name_list = name_list_german
@@ -219,13 +219,13 @@ leicester = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_maritime_mercantilism
-		tradition_charismatic
+		tradition_welcoming
 		tradition_quarrelsome
 		tradition_city_keepers
-		tradition_longbow_competition
+		tradition_longbow_competitions
 		tradition_crest_succession
 	}
-	name_list = name_list_irish
+	name_list = name_list_english
 	coa_gfx = { western_coa_gfx }
 	building_gfx { western_building_gfx }
 	clothing_gfx { western_clothing_gfx }
@@ -248,7 +248,7 @@ faerghus = {
 	traditions = {
 		tradition_martial_admiration
 		tradition_chivalry
-		tradition_reverence_of_veterans
+		tradition_reverence_for_veterans
 		tradition_eye_for_an_eye
 		tradition_staunch_traditionalists
 		tradition_crest_succession
@@ -276,9 +276,9 @@ adrestian = {
 	traditions = {
 		tradition_ruling_caste
 		tradition_concubines
-		tradition_recognition_of_talent
+		tradition_talent_acquisition
 		tradition_legalistic
-		tradition_loyal_subjects
+		tradition_loyal_soldiers
 		tradition_crest_succession
 	}
 	name_list = name_list_german
@@ -298,13 +298,13 @@ kupalan = {
 	color = rgb { 156 155 93 }
 
 	ethos = ethos_communal
-	heritage = heritage_kupalan
+	heritage = heritage_fodlan
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = { 
 		tradition_mountain_homes
-		tradition_metalworkers
-		tradition_medicinal_herbalists
+		tradition_metal_craftsmanship
+		tradition_medicinal_plants
 		tradition_mystical_ancestors
 		tradition_ancient_miners
 	}
@@ -326,13 +326,14 @@ kupalan = {
 
 kaleis = {
 	color = rgb { 19 41 143 }
+
 	ethos = ethos_bureaucratic
 	heritage = heritage_fodlan
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_maritime_mercantilism
-		tradition_dextrous_fishermen
+		tradition_fishermen
 		tradition_agrarian
 		tradition_parochialism
 		tradition_malleable_invaders
@@ -354,21 +355,24 @@ kaleis = {
 }
 
 brionic = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 204 20 60 }
+
+	ethos = ethos_communal
 	heritage = heritage_fodlan
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_forest_folk
+		tradition_legalistic
+		tradition_loyal_soldiers
+		tradition_hard_working
 	}
-	name_list = name_list_irish
+
+	name_list = name_list_german
+
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	ethnicities = {
 		5 = caucasian_blond
@@ -380,15 +384,16 @@ brionic = {
 
 reissling = {
 	color = rgb { 255 50 0 }
+
 	ethos = ethos_communal
 	heritage = heritage_fodlan
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_dexterous_fishermen
-		tradition_industrious
+		tradition_fishermen
+		tradition_hard_working
 		tradition_ancient_miners
-		tradition_loyal_subjects
+		tradition_loyal_soldiers
 		tradition_ruling_caste
 	}
 
@@ -409,6 +414,7 @@ reissling = {
 
 sirenic = {
 	color = rgb { 230 145 145 }
+
 	ethos = ethos_courtly
 	heritage = heritage_fodlan
 	language = language_fodlanese
@@ -416,9 +422,9 @@ sirenic = {
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_xenophilic
-		tradition_culinary_artists
-		tradition_frequent_festivities
-		tradition_musical_theorists
+		tradition_culinary_art
+		tradition_festivities
+		tradition_music_theory
 	}
 
 	name_list = name_list_german
@@ -438,6 +444,7 @@ sirenic = {
 
 alesion = {
 	color = rgb { 150 50 30 }
+
 	ethos = ethos_courtly
 	heritage = heritage_fodlan
 	language = language_fodlanese
@@ -467,12 +474,13 @@ alesion = {
 
 ailish = {
 	color = rgb { 250 245 155 }
-	ethos = spiritual
+
+	ethos = ethos_spiritual
 	heritage = heritage_fodlan
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_strong_believers
+		tradition_zealous_people
 		tradition_isolationist
 		tradition_fervent_temple_builders
 		tradition_longbow_competitions
@@ -496,16 +504,17 @@ ailish = {
 
 gressig = {
 	color = rgb { 100 30 50 }
+
 	ethos = ethos_bureaucratic
 	heritage = heritage_fodlan
 	language = language_fodlanese
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_maritime_mercantilism
-		tradition_charismatic
+		tradition_welcoming
 		tradition_xenophilic
-		tradition_seafarers
-		tradition_recognition_of_talent
+		tradition_seafaring
+		tradition_talent_acquisition
 	}
 
 	name_list = name_list_german
@@ -524,147 +533,151 @@ gressig = {
 }
 
 dantan = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 252 186 3 }
+
+	ethos = ethos_bureaucratic
 	heritage = heritage_kotesh
 	language = language_koteshi
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_legalistic
+		tradition_city_keepers
+		tradition_hard_working
+		tradition_xenophilic
+		tradition_wetlanders
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_yoruba
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		10 = african
 	}
 }
 
 sangpuri = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 163 134 54 }
+
+	ethos = ethos_bellicose
 	heritage = heritage_kotesh
 	language = language_koteshi
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_legalistic
+		tradition_concubines
+		tradition_city_keepers
+		tradition_martial_admiration
+		tradition_fp1_trials_by_combat
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_yoruba
+
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		10 = african
 	}
 }
 
 angma = {
-	color = rgb { 150 40 140 }
+	color = rgb { 163 163 16 }
+
 	ethos = ethos_stoic
 	heritage = heritage_kotesh
 	language = language_koteshi
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_practiced_pirates
+		tradition_pastorialists
+		tradition_horse_breeder
+		tradition_hit_and_run
+		tradition_strength_in_numbers
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_yoruba
+
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		10 = african
 	}
 }
 
 chakhtami = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 210 230 99 }
+
+	ethos = ethos_communal
 	heritage = heritage_kotesh
 	language = language_koteshi
 	martial_custom = martial_custom_equal
 	traditions = {
+		tradition_pacifism
+		tradition_mountain_homes
 		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_equitable
+		tradition_welcoming
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_yoruba
+
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		10 = african
+
 	}
 }
 
 ikhtin = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 199 179 90 }
+
+	ethos = ethos_bellicose
 	heritage = heritage_kotesh
 	language = language_koteshi
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_strength_in_numbers
+		tradition_concubines
+		tradition_only_the_strong
+		tradition_fp1_trials_by_combat
+		tradition_practiced_pirates
+		
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_yoruba
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		10 = african
+
 	}
 }
 
 wolfskin = {
-	color = rgb { 150 40 140 }
+	color = rgb { 122 122 122 }
+
 	ethos = ethos_stoic
 	heritage = heritage_laguz
 	language = language_laguzzi
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_battlefield_looters
+		tradition_hit_and_run
+		tradition_adaptive_skirmishing
+		tradition_winter_warriors
 	}
-	name_list = name_list_irish
+	name_list = name_list_gaelic
+
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { norse_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { norse_unit_gfx }
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -674,43 +687,49 @@ wolfskin = {
 }
 
 kitsune = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 201 134 0 }
+
+	ethos = ethos_communal
 	heritage = heritage_laguz
 	language = language_laguzzi
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_isolationist
+		tradition_life_is_just_a_joke
+		tradition_sacred_groves
+		tradition_battlefield_looters
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_gaelic
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
 	ethnicities = {
 		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
+		35 = caucasian_ginger
+		30 = caucasian_brown_hair
 		30 = caucasian_dark_hair
 	}
 }
 
 taguel = {
-	color = rgb { 150 40 140 }
+	color = rgb { 89 67 102 }
+
 	ethos = ethos_stoic
 	heritage = heritage_laguz
 	language = language_laguzzi
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_warrior_culture
+		tradition_zealous_people
+		tradition_isolationist
+		tradition_equitable
 	}
-	name_list = name_list_irish
+
+	name_list = name_list_gaelic
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
@@ -725,25 +744,25 @@ taguel = {
 
 almyran = {
 	color = rgb { 120 101 77 }
+
 	ethos = ethos_bellicose
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_martial_admiration
-		tradition_reverence_of_veterans
-		tradition_hit_and_run_tacticians
-		tradition_horse_lords
-		tradition_hereditary_hierarchy
+		tradition_reverence_for_veterans
+		tradition_hit_and_run
 		tradition_wyvern_masters
+		tradition_hereditary_hierarchy
 	}
 
-	name_list = name_list_arabic
+	name_list = name_list_bedouin
 
 	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_building_gfx }
+	building_gfx = { arabic_group_building_gfx }
 	clothing_gfx = { dde_abbasid_clothing_gfx }
-	unit_gfx = { arabic_unit_gfx }
+	unit_gfx = { mena_unit_gfx }
 	
 	ethnicities = {
 		100 = race_almyran
@@ -751,350 +770,391 @@ almyran = {
 }
 
 lianese = {
-	color = rgb { 150 40 140 }
+	color = rgb { 161 114 55 }
+
 	ethos = ethos_stoic
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_zealous_people
+		tradition_warriors_of_the_dry
+		tradition_hereditary_hierarchy
+		tradition_welcoming
+		tradition_dryland_dwellers
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
 harika = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 204 126 88 }
+
+	ethos = ethos_spiritual
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_sacred_mountains
+		tradition_zealous_people
+		tradition_mountain_homes
+		tradition_religious_patronage
+		tradition_staunch_traditionalists
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
 atran = {
-	color = rgb { 150 40 140 }
+	color = rgb { 92 48 27 }
+
 	ethos = ethos_stoic
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_modest
+		tradition_fp1_coastal_warriors
+		tradition_fishermen
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
-		100 = race_almyran
+		100 = almyran
 	}
 }
 
 imrudi = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 128 97 11 }
+
+	ethos = ethos_bellicose
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_warrior_culture
+		tradition_winter_warriors
+		tradition_castle_keepers
+		tradition_hereditary_hierarchy
+		tradition_martial_admiration
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
-kudamlar = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+kudamlarite = {
+	color = rgb { 214 150 81 }
+
+	ethos = ethos_spiritual
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_zealous_people
+		tradition_dryland_dwellers
+		tradition_monastic_communities
+		tradition_warrior_monks
+		tradition_warriors_of_the_dry
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
-denatlar = {
-	color = rgb { 150 40 140 }
+denatlian = {
+	color = rgb { 145 128 121 }
 	ethos = ethos_stoic
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_horse_breeder
+		tradition_strength_in_numbers
+		tradition_hereditary_hierarchy
+		tradition_trials_by_combat
+		tradition_pastorial
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
 pamese = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 173 137 38 }
+	ethos = ethos_bellicose
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_practiced_pirates
+		tradition_seafaring
+		tradition_only_the_strong
+		tradition_hereditary_hierarchy
+		tradition_hit_and_run
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
 jibadi = {
-	color = rgb { 150 40 140 }
+	color = rgb { 74 65 53 }
 	ethos = ethos_stoic
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_pacifism
+		tradition_welcoming
+		tradition_hereditary_hierarchy
+		tradition_equitable
+		tradition_modest
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
 inevhan = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 184 166 141 }
+	ethos = ethos_communal
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_hill_dwellers
+		tradition_welcoming
+		tradition_seafaring
+		tradition_xenophilic
+		tradition_modest
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
 		100 = race_almyran
 	}
 }
 
 shunish = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	parents = { reqonese almyran }
+	created = 1000.1.1
+	color = rgb { 122 94 0 }
+
+	ethos = ethos_bellicose
 	heritage = heritage_mihran
 	language = language_mihrani
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_hit_and_run
+		tradition_martial_admiration
+		tradition_festivities
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		75 = race_almyran
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
 	}
 }
 
 morfis = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	color = rgb { 40 190 60 }
+	ethos = ethos_spiritual
 	heritage = heritage_morfis
 	language = language_morfese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_isolationist
+		tradition_sorcerous_metallurgy
+		tradition_dryland_dwellers
+		tradition_philosopher_culture
+		tradition_city_keepers
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
+	name_list = name_list_egyptian
+	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
 	}
 }
 
 qutummi = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	parents = { reqonese morfis }
+	created = 1000.1.1
+	color = rgb { 161 217 20 }
+
+	ethos = ethos_bureaucratic
 	heritage = heritage_morfis
 	language = language_morfese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_malleable_invaders
+		tradition_maritime_mercantilism
+		tradition_sorcerous_metallurgy
+		tradition_philosopher_culture
+		tradition_city_keepers
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
 	}
 }
 
 eriset = {
-	color = rgb { 150 40 140 }
+	color = rgb { 72 112 49 }
 	ethos = ethos_stoic
 	heritage = heritage_morfis
 	language = language_morfese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_hidden_cities
+		tradition_jungle_dwellers
+		tradition_agrarian
+		tradition_sacred_groves
+		tradition_zealous_people
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
 	}
 }
 
 apatol = {
-	color = rgb { 150 40 140 }
-	ethos = ethos_stoic
+	parents = { morfis }
+	created = 1000.1.1
+	color = rgb { 90 99 60 }
+
+	ethos = ethos_communal
 	heritage = heritage_morfis
 	language = language_morfese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_collective_lands
+		tradition_dryland_dwellers
+		tradition_warriors_of_the_dry
+		tradition_battlefield_looters
+		tradition_modest
+		
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
 	}
 }
 
 galzum = {
-	color = rgb { 150 40 140 }
+	color = rgb { 35 94 63 }
+
 	ethos = ethos_stoic
 	heritage = heritage_morfis
 	language = language_morfese
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_stalwart_defenders
+		tradition_isolationist
+		tradition_dryland_dwellers
+		tradition_stand_and_fight
+		tradition_forbearing
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	ethnicities = {
-		5 = caucasian_blond
-		30 = caucasian_ginger
-		35 = caucasian_brown_hair
-		30 = caucasian_dark_hair
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
 	}
 }
 
@@ -1105,7 +1165,7 @@ duscur = {
 	language = language_duscran
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_strong_kinship
+		tradition_loyal_soldiers
 		tradition_mountain_homes
 		tradition_highland_warriors
 		tradition_stand_and_fight
@@ -1131,14 +1191,14 @@ sreng = {
 	language = language_srengi
 	martial_custom = martial_custom_equal
 	traditions = { 
-		tradition_seafarers
-		tradition_coastal_warriors
+		tradition_seafaring
+		tradition_fp1_coastal_warriors
 		tradition_practiced_pirates
 		tradition_warrior_culture
 		tradition_by_the_sword
 	}
 
-	name_list = name_list_srengi
+	name_list = name_list_norse
 	
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
@@ -1160,11 +1220,11 @@ nuadan = {
 	language = language_duscran
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_strong_kinship
+		tradition_loyal_soldiers
 		tradition_mountain_homes
 		tradition_stand_and_fight
 		tradition_highland_warriors
-		tradition_seafarers
+		tradition_seafaring
 	}
 
 	name_list = name_list duscur
@@ -1187,10 +1247,10 @@ albinean = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_winter_warriors
-		tradition_forest_wardens
-		tradition_adaptive_skirmishers
-		tradition_dexterous_fishermen
-		tradition_strong_believers
+		tradition_forest_folk
+		tradition_adaptive_skirmishing
+		tradition_fishermen
+		tradition_zealous_people
 	}
 
 	name_list = name_list_sami
@@ -1208,22 +1268,23 @@ albinean = {
 }
 
 saqqaqi = {
-	color = rgb { 150 40 140 }
+	color = rgb { 8 110 47 }
 	ethos = ethos_stoic
 	heritage = heritage_albinea
 	language = language_albinean
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
+		tradition_winter_warriors
+		tradition_isolationist
+		tradition_hill_dwellers
+		tradition_stalwart_defenders
+		tradition_concubines
 	}
-	name_list = name_list_irish
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	name_list = name_list_sami
+	coa_gfx = { sami_coa_gfx }
+	building_gfx = { norse_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { norse_unit_gfx }
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -1240,7 +1301,7 @@ avanertun = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_winter_warriors
-		tradition_forest_wardens
+		tradition_hill_dwellers
 		tradition_isolationist
 		tradition_dexterous_fishermen
 		tradition_stalwart_defenders
@@ -1263,18 +1324,18 @@ avanertun = {
 aksural = {
 	color = rgb { 138 129 107 }
 	ethos = ethos_spiritual
-	heritage = heritage_albinea
-	language = language_albinean
+	heritage = heritage_sreng
+	language = language_srengi
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_strong_believers
+		tradition_zealous_people
 		tradition_warriors_of_the_dry
 		tradition_dryland_dwellers
-		tradition_loyal_subjects
+		tradition_loyal_soldiers
 		tradition_practiced_pirates
 	}
 
-	name_list = name_list_srengi
+	name_list = name_list_norse
 
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
@@ -1296,14 +1357,14 @@ agnishahri = {
 	language = language_albinean
 	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_seafarers
-		tradition_dexterous_fishermen
+		tradition_seafaring
+		tradition_fishermen
 		tradition_practiced_pirates
-		tradition_coastal_warriors
+		tradition_fp1_coastal_warriors
 		tradition_maritime_mercantilism
 	}
 
-	name_list = name_list_srengi
+	name_list = name_list_norse
 
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
@@ -1326,13 +1387,13 @@ reqonese = {
 	martial_custom = martial_custom_equal
 	traditions = {
 		tradition_maritime_mercantilism
-		tradition_seafarers
-		tradition_frequent_festivities
-		tradition_refined_poetry
-		tradition_caravaneers
+		tradition_seafaring
+		tradition_festivities
+		tradition_poetry
+		tradition_malleable_invaders
 	}
 	
-	name_list = name_list_italian
+	name_list = name_list_catalan
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterannean_building_gfx }
@@ -1357,7 +1418,7 @@ shangranla = {
 		tradition_isolationist
 		tradition_eye_for_an_eye
 		tradition_sorcerous_metallurgy
-		tradition_metalworkers
+		tradition_metal_craftsmanship
 		tradition_ruling_caste
 	}
 

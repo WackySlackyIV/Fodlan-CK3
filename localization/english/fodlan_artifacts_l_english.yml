@@ -1,0 +1,67 @@
+﻿l_english:
+ sacred_sword_seiros:0 "Sword of Seiros"
+ sacred_sword_seiros_description:0 "The Sword and Shield of Seiros were personally crafted for Seiros' use in the War of Heroes against Nemesis. The sword was notably used to parry Nemesis' weapon, the Sword of the Creator. Over a thousand years later, the Sword of Seiros remains with the Church of Seiros and is in possession of the archbishop Rhea."
+
+ sacred_axe_ukonvasara:0 "Axe of Ukonvasara"
+ sacred_axe_ukonvasara_description:0 "The Axe of Ukonvasara is an axe crafted by the hero Macuil, it was originally used during the War of Heroes by many of Macuil's champions and though any may wield it whether with a crest or no, it's effects are enhanced for someone with a Crest of Gloucester." 
+
+ sacred_staff_caduceus:0 "Caduceus Staff" 
+ sacred_staff_caduceas_description:0 "The Staff of Caduceus is a sacred Weapon associated with the Crest of Cethleann, Saint Cethleann herself wielded the staff during the War of Heroes aiding and healing those who were injured with it's magics, though any with a crest may wield it the effect is increased for someone who bears the Crest of Cethleann."
+
+ sacred_shield_ochain:0 "Ochain Shield"
+ sacred_shield_ochain_description:0 "The Ochain Shield which was wielded by Saint Cichol himself during the War of Heroes, it was occasionally wielded by many of his champions when he was unable to take to the field himself and thus can be used by those without a crest, though it's effects are boosted for someone with a Crest of Cichol."
+
+ sacred_spear_assal:0 "Spear of Assal"
+ sacred_spear_assal_description:0 "The Spear of Assal originally wielded by Cichol himself during the War of Heroes, unlike the Shield of Ochain this weapon never left Cichol's side and thus only those who bear a crest may wield it, however only those who bear his crest may wield it to it's full strength."
+
+ sacred_sword_begalta:0 "Sword of Begalta"
+ sacred_sword_begalta_description:0 "The Sword of Begalta is a sword crafted by the hero Macuil, like the Axe of Ukonvasara it was wielded by many champions of Macuil during the War of Heroes and thus any may use it, even those without a crest however only those with the Crest of Riegan may wield it to it's full strength."
+
+ sacred_sword_moralta:0 "Sword of Moralta"
+ sacred_sword_moralta_description:0 "The Sword of Moralta is a sacred weapon passed down throughout the bloodline of house Fraldarius, One of the Ten Elites and though many of her champions once wielded the weapon whether with a crest or not, Fraldarius herself was known to mainly wield the weapon herself on the battlefield and thus the weapon is strengthened by those carrying her blood."
+
+ sacred_shield_seiros:0 "Seiros Shield"
+ sacred_shield_seiros_description:0 "The Shield of Seiros was wielded by Saint Seiros herself and while she rarely trusted it with anyone she was more than willing to allow her champions to wield it if it was necessary to do so, many of her champions did not have a crest of their own and so they could safely wield it, a few others did and so it is far more powerful in the hands of those who share her crest." 
+
+ sacred_bow_inexhaustible:0 "The Inexhaustible"
+ sacred_bow_inexhaustible_description:0 "The Inexhaustible is a sacred weapon associated with Indech, it is unknown if it is crafted by him or by Macuil however it was used by Indech himself and his at times, his champions during the War of Heroes using it to aim true against his targets, while it is far more powerful in the hands of those who bear his crest it can be used by those who bear different ones and even those without."
+
+ sacred_bow_tathlum:0 "Tathlum Bow"
+ sacred_bow_tathlum_description:0 "The Tathlum Bow is a sacred weapon associated with Lamine, one of the 10 Elites, unlike many sacred weapons Lamine is known to have given this bow to only her best archers during the War of Heroes as she herself wielded a different relic entirely, therefore can be used by those with or without a crest though it's full strength is unleashed with those who bear hers."
+
+ sacred_chalice_beginnings:0 "Chalice of Beginnings"
+ sacred_chalice_beginnings_description:0 "In Imperial Year 185, after the completion of Garreg Mach Monastery, the Chalice of Beginnings was used by the Four Apostles to perform the Rite of Rising to resurrect the Progenitor God. After the attempt failed, the Chalice was sealed away under the Monastery in what would become Abyss. The seal could only be broken by those who bore the Crests of the Four Apostles." 
+ 
+ relic_shield_aegis:0 "Aegis Shield"
+ relic_shield_aegis_description:0 "The Aegis Shield is a Hero's Relic belonging to Fraldarius, one of the 10 Elites and she and she alone was know to have wielded this shield, dominating the battlefield with her weapon mastery and blocking all attempts to strike her down with this shield, only know with the blood of Fraldarius can wield it to it's full potential however while it can be used by those who bear a different crest it is far less effective, like many of the Hero's Relics any who bear no crest will slowly transform into a demonic beast."
+
+ relic_spear_areadbhar:0 "Areadbhar"
+ relic_spear_areadbhar_description:0 "Areadbhar was originally wielded by Blaiddyd, one of the Ten Elites who fought in the War of Heroes. The weapon releases its full power when wielded by a bearer of the Crest of Blaiddyd and whilst any who bear a different crest may use it, it is far less powerful and is deadly to those who bear none as it shall slowly transform them into a demonic beast."
+
+ relic_axe_amyr:0 "Amyr"
+ relic_axe_amyr_description:0 "Amyr is one of the first artificially designed Hero's Relic in modern times purposefully designed for Emperor Edelgard of Adrestia by her dark allies, however despite it being artifically crafted it still requires a crest to wield as those without will too, transform into a demonic beast, it is far more effective with those who bear the Crest of Seiros it may still be wielded by those of a different crest, albiet far weaker."
+
+ relic_sword_blutgang:0 "Blutgang"
+ relic_sword_blutgang_description:0 "Blutgang is a Hero's Relic with a dark secret, it was used by the secret, fallen Elite known as The Beast, his true name being Maurice and those who bear his crest may wield it to it's full capacity, however unlike the other Hero's Relics any who bear his crest must be secretive about their blood due to the possible persecution they may recieve, while those with a different crest may wield it also it is far less powerful, whilst those without will have the danger of transforming into a far more powerful demonic beast, far more than others."
+ 
+ relic_axe_crusher
+ 
+ relic_bow_failnaught
+ 
+ relic_axe_freikugel
+ 
+ relic_lance_luin
+ 
+ relic_lance_ruin
+ 
+ relic_rafail_gem
+ 
+ relic_sword_creator
+ 
+ relic_sword_thunderbrand
+ 
+ relic_thyrsus
+ 
+ relic_fetters_dromi
+ 
+ relic_gauntlets_vajra_mushti
