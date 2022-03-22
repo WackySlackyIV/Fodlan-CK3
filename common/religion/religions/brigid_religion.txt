@@ -188,7 +188,6 @@
 			holy_site = thapso
 			holy_site = brionac
 
-			doctrine = tenet_the_great_hunt
 			doctrine = tenet_sun_worship
 			doctrine = tenet_adorcism
 			doctrine = tenet_lamhach_teachings
@@ -206,7 +205,6 @@
 			holy_site = hobart
 			holy_site = hevring
 
-			doctrine = tenet_the_great_hunt
 			doctrine = tenet_astrology
 			doctrine = tenet_adorcism
 			doctrine = tenet_fuale_teachings
@@ -224,7 +222,6 @@
 			holy_site = gliomach
 			holy_site = brionac
 
-			doctrine = tenet_the_great_hunt
 			doctrine = tenet_adorcism
 			doctrine = tenet_aniconism
 			doctrine = tenet_talahm_ithir_teachings
@@ -242,7 +239,6 @@
 			holy_site = skyrne
 			holy_site = hevring
 
-			doctrine = tenet_the_great_hunt
 			doctrine = tenet_sky_burials
 			doctrine = tenet_adorcism
 			doctrine = tenet_gaothe_teachings
@@ -264,7 +260,6 @@
 			#main group
 			doctrine = doctrine_gender_female_dominated
 
-			doctrine = tenet_the_great_hunt
 			doctrine = tenet_sky_burials
 			doctrine = tenet_adorcism
 			doctrine = tenet_gaothe_teachings

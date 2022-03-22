@@ -1,0 +1,131 @@
+morfis = {
+	color = rgb { 40 190 60 }
+	ethos = ethos_spiritual
+	heritage = heritage_morfis
+	language = language_morfese
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_isolationist
+		tradition_sorcerous_metallurgy
+		tradition_dryland_dwellers
+		tradition_philosopher_culture
+		tradition_city_keepers
+	}
+	name_list = name_list_egyptian
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
+	}
+}
+
+qutummi = {
+	parents = { reqonese eriset }
+	created = 1000.1.1
+	color = rgb { 161 217 20 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_morfis
+	language = language_morfese
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_malleable_invaders
+		tradition_maritime_mercantilism
+		tradition_sorcerous_metallurgy
+		tradition_philosopher_culture
+		tradition_city_keepers
+	}
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
+	}
+}
+
+eriset = {
+	color = rgb { 72 112 49 }
+	ethos = ethos_stoic
+	heritage = heritage_morfis
+	language = language_morfese
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hidden_cities
+		tradition_jungle_dwellers
+		tradition_agrarian
+		tradition_sacred_groves
+		tradition_zealous_people
+	}
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
+	}
+}
+
+apatol = {
+	parents = { morfis }
+	created = 1000.1.1
+	color = rgb { 90 99 60 }
+
+	ethos = ethos_communal
+	heritage = heritage_morfis
+	language = language_morfese
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_collective_lands
+		tradition_dryland_dwellers
+		tradition_warriors_of_the_dry
+		tradition_battlefield_looters
+		tradition_modest
+		
+	}
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
+	}
+}
+
+galzum = {
+	color = rgb { 35 94 63 }
+
+	ethos = ethos_stoic
+	heritage = heritage_morfis
+	language = language_morfese
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_isolationist
+		tradition_dryland_dwellers
+		tradition_stand_and_fight
+		tradition_forbearing
+	}
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
+	}
+}

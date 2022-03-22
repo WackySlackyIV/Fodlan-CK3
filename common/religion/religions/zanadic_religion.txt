@@ -219,7 +219,6 @@
 			holy_site = tailtean
 
 			doctrine = tenet_monasticism
-			doctrine = tenet_supression_of_knowledge
 			doctrine = tenet_knights_of_faith
 			doctrine = tenet_fodlan_isolationism
 
@@ -242,9 +241,8 @@
 			holy_site = tailtean
 
 			doctrine = tenet_pastoral_isolation
-			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_esotericism
-			doctrine = tenet_school_of_macuil
+			doctrine = tenet_school_of_macuil #change to craftsmen thing
 			
 			doctrine = doctrine_no_head
 			doctrine = doctrine_pluralism_fundamentalist
@@ -265,7 +263,6 @@
 
 			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_esotericism
-			doctrine = tenet_ritual_hospitality 
 			doctrine = tenet_school_of_indech
 
 			doctrine = doctrine_spiritual_head
@@ -286,7 +283,6 @@
 			doctrine = tenet_monasticism
 			doctrine = tenet_legalism
 			doctrine = tenet_adaptive
-			doctrine = tenet_school_of_cichol
 
 			doctrine = doctrine_temporal_head
 			doctrine = doctrine_pluralism_pluralistic
@@ -307,7 +303,6 @@
 
 			doctrine = tenet_pacifism
 			doctrine = tenet_sanctity_of_nature 
-			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_school_of_cethleann
 
 			doctrine = doctrine_no_head
@@ -332,7 +327,6 @@
 
 			doctrine = tenet_literalism
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_warmonger
 			doctrine = tenet_ablehnistic_ways
 
 			doctrine = special_doctrine_ecumenical_ablehnist
@@ -353,7 +347,6 @@
 			doctrine = tenet_literalism
 			doctrine = tenet_pen_my_sword
 			doctrine = tenet_pacifism
-			doctrine = tenet_ablehnistic_ways
 
 			doctrine = doctrine_no_head
 			doctrine = doctrine_pluralism_pluralistic

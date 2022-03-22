@@ -113,6 +113,23 @@ k_reqonn = {
 		holder = 800000
 	}
 }
+k_horsabad = {
+	1180.1.1 = {
+		holder = 770005
+	}
+}
+
+k_lian = {
+	1180.1.1 = {
+		holder = 750002
+	}
+}
+
+k_atra = {
+	1180.1.1 = {
+		holder = 720000
+	}
+}
 
 d_varley = {
 	1180.1.1 = {

@@ -1,0 +1,81 @@
+albinean = {
+	color = rgb { 88 110 72 }
+	ethos = ethos_communal
+	heritage = heritage_albinea
+	language = language_albinean
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_winter_warriors
+		tradition_forest_folk
+		tradition_adaptive_skirmishing
+		tradition_fishermen
+		tradition_zealous_people
+	}
+
+	name_list = name_list_sami
+	
+	coa_gfx = { sami_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}
+
+saqqaqi = {
+	color = rgb { 8 110 47 }
+	ethos = ethos_stoic
+	heritage = heritage_albinea
+	language = language_albinean
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_winter_warriors
+		tradition_isolationist
+		tradition_hill_dwellers
+		tradition_stalwart_defenders
+		tradition_concubines
+	}
+	name_list = name_list_sami
+	coa_gfx = { sami_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+avanertun = {
+	color = rgb { 0 99 10 }
+	ethos = ethos_communal
+	heritage = heritage_albinea
+	language = language_albinean
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_winter_warriors
+		tradition_hill_dwellers
+		tradition_isolationist
+		tradition_dexterous_fishermen
+		tradition_stalwart_defenders
+	}
+
+	name_list = name_list_sami
+	
+	coa_gfx = { sami_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}

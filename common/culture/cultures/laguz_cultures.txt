@@ -1,0 +1,83 @@
+wolfskin = {
+	color = rgb { 122 122 122 }
+
+	ethos = ethos_stoic
+	heritage = heritage_laguz
+	language = language_laguzzi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_battlefield_looters
+		tradition_hit_and_run
+		tradition_adaptive_skirmishing
+		tradition_winter_warriors
+	}
+	name_list = name_list_gaelic
+
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+kitsune = {
+	color = rgb { 201 134 0 }
+
+	ethos = ethos_communal
+	heritage = heritage_laguz
+	language = language_laguzzi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_isolationist
+		tradition_life_is_just_a_joke
+		tradition_sacred_groves
+		tradition_battlefield_looters
+	}
+	name_list = name_list_gaelic
+
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		35 = caucasian_ginger
+		30 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+taguel = {
+	color = rgb { 89 67 102 }
+
+	ethos = ethos_stoic
+	heritage = heritage_laguz
+	language = language_laguzzi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_warrior_culture
+		tradition_zealous_people
+		tradition_isolationist
+		tradition_equitable
+	}
+
+	name_list = name_list_gaelic
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

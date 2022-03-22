@@ -1,0 +1,183 @@
+brigid = {
+	color = rgb { 158 43 116 }
+	ethos = ethos_stoic
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_jungle_warriors
+		tradition_sacred_groves
+		tradition_hunters
+		tradition_seafaring
+		tradition_adaptive_skirmishing
+	}
+	name_list = name_list_irish
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+
+cermaitan = {
+	color = rgb { 204 29 140 }
+	ethos = ethos_stoic
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_legalistic
+		tradition_hunters
+		tradition_seafaring
+		tradition_city_keepers
+	}
+	name_list = name_list_irish
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+aengese = {
+	color = rgb { 140 80 106 }
+	ethos = ethos_stoic
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_seafaring
+		tradition_fp1_coastal_warriors
+		tradition_maritime_mercantilism
+		tradition_fishermen
+	}
+	name_list = name_list_irish
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+aedin = {
+	color = rgb { 185 110 194 }
+	ethos = ethos_bellicose
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	martial_custom = martial_custom_female_only
+	traditions = {
+		tradition_female_only_inheritance
+		tradition_formation_fighting
+		tradition_warrior_culture
+		tradition_martial_admiration
+		tradition_stand_and_fight
+	}
+	name_list = name_list_irish
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+dergish = {
+	color = rgb { 76 27 102 }
+	ethos = ethos_stoic
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_stand_and_fight
+		tradition_metal_craftsmanship
+		tradition_isolationist
+		tradition_stalwart_defenders
+	}
+	name_list = name_list_irish
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+brigantine = {
+	color = rgb { 217 128 215 }
+	ethos = ethos_stoic
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hunters
+		tradition_mountain_homes
+		tradition_agrarian
+		tradition_adaptive_skirmishing
+		tradition_sacred_groves
+	}
+	name_list = name_list_irish
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
+
+imbolaic = {
+	color = rgb { 143 40 156 }
+	ethos = ethos_stoic
+	heritage = heritage_brigid
+	language = language_brigidan
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_tribe_unity
+		tradition_isolationist
+		tradition_modest
+		tradition_pacifism
+		tradition_sacred_groves
+	}
+	name_list = name_list_irish
+	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}

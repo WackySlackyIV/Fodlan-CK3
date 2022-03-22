@@ -20,7 +20,7 @@
  tenet_knights_of_faith_desc:0 "The teachings of Seiros places great trust in its knights, they serve the church by handeling problems all over Fódlan. This makes the Knights of Seiros very popular among the people and much of the commoners and children that once saw the bravery of these knights wants to become one in their future." 
  
  tenet_fodlan_isolationism_name:0 "Fódlan Isolationism"
- tenet_fodlan_isolationism_desc:0 "Fódlan has always been closed off from the world at large under the church of Seiros. It prevents the people from waging reckless wars outisde their own Continent."
+ tenet_fodlan_isolationism_desc:0 "Fódlan has always been closed off from the world at large under the church of Seiros. It prevents the people from waging reckless wars outisde their own Continent. The faith also controls the spread of knowlege, making sure nothing thats not approved by the church gets out."
  
  tenet_school_of_macuil_name:0 "Teachings of Macuil"
  tenet_school_of_macuil_desc:0 "A branch of the Church of Seiros which focuses solely on how his most devout followers try to emulate their patron [Concept('saints','Saint')|E], this branch encourages it's followers to think tactically on and off the battlefield and to punish those who've wronged them"
@@ -97,7 +97,7 @@
  tenet_karakaya_brown_name:0 "The Book of Karakaya"
  tenet_karakaya_brown_desc:0 ""
 
- tenet_durga_abaka_name:0 ""Durga Abaka"
+ tenet_durga_abaka_name:0 "Durga Abaka"
  tenet_durga_abaka_desc:0 ""
 
  tenet_bisalalinga_name:0 ""Bisalalinga"

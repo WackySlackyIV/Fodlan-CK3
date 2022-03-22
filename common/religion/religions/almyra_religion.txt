@@ -188,7 +188,6 @@
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_warmonger
 			doctrine = tenet_throne_of_fire
-			doctrine = tenet_kizilisma_red
 
 		}
 
@@ -204,7 +203,6 @@
 			doctrine = tenet_legalism
 			doctrine = tenet_warmonger
 			doctrine = tenet_throne_of_fire
-			doctrine = tenet_denizavi_blue
 
 			doctrine = doctrine_temporal_head
 			
@@ -222,7 +220,6 @@
 			doctrine = tenet_communal_identity
 			doctrine = tenet_pacifism
 			doctrine = tenet_throne_of_fire
-			doctrine = tenet_beyazisma_white
 
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_kinslaying_any_dynasty_member_crime
@@ -241,7 +238,6 @@
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_warmonger
 			doctrine = tenet_throne_of_fire
-			doctrine = tenet_siyakara_black
 
 			doctrine = doctrine_pluralism_fundamentalist
 			doctrine = doctrine_temporal_head
@@ -262,7 +258,6 @@
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_gnosticism
 			doctrine = tenet_throne_of_fire
-			doctrine = tenet_dogasil_green
 
 			doctrine = doctrine_pluralism_pluralistic
 
@@ -280,7 +275,6 @@
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_literalism
 			doctrine = tenet_throne_of_fire
-			doctrine = tenet_karakaya_brown
 
 			doctrine = doctrine_pluralism_pluralistic
 

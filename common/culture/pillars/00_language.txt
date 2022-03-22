@@ -196,17 +196,17 @@ language_reqonese = {
 	color = english
 }
 
-language_slithers = {
+language_agarthan = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_slithers
+			LANGUAGE = language_agarthan
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_slithers }
+			limit = { has_cultural_pillar = language_agarthan }
 			multiply = 10
 		}
 	}

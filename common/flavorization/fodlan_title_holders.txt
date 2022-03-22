@@ -5,7 +5,6 @@ leader_female = {
 	priority = 301
 	gender = male
 	titles = { k_leicester }
-	governments = { alliance_government }
 	top_liege = no
 	only_holder = yes
 }
@@ -16,7 +15,6 @@ leader_male = {
 	priority = 301
 	gender = female
 	titles = { k_leicester }
-	governments = { alliance_government }
 	top_liege = no
 	only_holder = yes
 }
@@ -27,7 +25,6 @@ leader_spouse_female = {
 	priority = 300
 	gender = female
 	titles = { k_leicester }
-	governments = { alliance_government }
 	top_liege = no
 }
 
@@ -37,6 +34,5 @@ leader_spouse_male = {
 	priority = 300
 	gender = male
 	titles = { k_leicester }
-	governments = { alliance_government }
 	top_liege = no
 }

@@ -185,7 +185,6 @@
 
 			holy_site = suvd
 			
-			doctrine = tenet_communal_identity
 			doctrine = tenet_legalism
 			doctrine = tenet_pacifism
 			doctrine = tenet_durga_abaka
@@ -200,7 +199,6 @@
 
 			holy_site = suvd
 			
-			doctrine = tenet_polyamory
 			doctrine = tenet_carnal_exaltation
 			doctrine = tenet_natural_primitivism
 			doctrine = tenet_bisalalinga
@@ -216,7 +214,6 @@
 
 			holy_site = khoshu
 			
-			doctrine = tenet_adaptive
 			doctrine = tenet_warmonger
 			doctrine = tenet_sky_burials
 			doctrine = tenet_baildatyn_tsus
@@ -232,7 +229,6 @@
 
 			holy_site = khoshu
 			
-			doctrine = tenet_adaptive
 			doctrine = tenet_warmonger
 			doctrine = tenet_sky_burials
 			doctrine = tenet_baildatyn_tsus

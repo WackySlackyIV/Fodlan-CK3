@@ -190,7 +190,6 @@
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_esotericism
-			doctrine = tenet_reincarnation
 			doctrine = tenet_eminence_of_arcane
 
 		}
@@ -203,7 +202,6 @@
 
 			doctrine = tenet_inner_journey 
 			doctrine = tenet_bhakti	
-			doctrine = tenet_reincarnation
 			doctrine = tenet_heavenly_spirits
 
 			doctrine = doctrine_no_head
@@ -219,7 +217,6 @@
 
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_sacred_shadows
-			doctrine = tenet_reincarnation
 			doctrine = tenet_consuming_the_darkness
 
 			doctrine = doctrine_kinslaying_shunned

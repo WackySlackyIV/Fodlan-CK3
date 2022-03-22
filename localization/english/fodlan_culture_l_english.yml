@@ -1,14 +1,29 @@
 ﻿l_english:
- #culture groups
- fodlan_group:0 "Fodlanese"
- brigid_group:0 "Brigitine"
- kotesh_group:0 "Koteshi"
- laguz_group:0 "Laguz"
- mihran_group:0 "Mihrana"
- morfis_group:0 "Morfist"
- northern_group:0 "Northern"
- reqqon_group:0 "Reqqonese"
- slither_group:0 "Slither"
+ #heritages
+ heritage_fodlan_name:0 "Fodlanese"
+ heritage_brigid_name:0 "Brigidan"
+ heritage_kotesh_name:0 "Koteshi"
+ heritage_laguz_name:0 "Laguz"
+ heritage_mihran_name:0 "Mihrana"
+ heritage_morfis_name:0 "Morfist"
+ heritage_sreng_name:0 "Srengi"
+ heritage_reqonese_name:0 "Reqonese"
+ heritage_agarthan_name:0 "Agarthan"
+ heritage_duscur_name:0 "Duscran"
+ heritage_albinea_name:0 "Albinean"
+ 
+ #languages
+ language_fodlanese_name:0 "Fodlanese"
+ language_srengi_name:0 "Srengi"
+ language_duscran_name:0 "Duscran"
+ language_albinean_name:0 "Albinean"
+ language_laguzzi_name:0 "Laguzzi"
+ language_brigidan_name:0 "Brigidan"
+ language_reqonese_name:0 "Reqonese"
+ language_mihrani_name:0 "Mihrani"
+ language_koteshi_name:0 "Koteshi"
+ language_morfese_name:0 "Morfese"
+ language_agarthan_name:0 "Agarthan"
  
  #culture
  high_fodlan:0 "High Fodlan"
@@ -67,6 +82,16 @@
  kudamlar_collective_noun:0 "Kudamlarite"
  denatlar:0 "Denatlian"
  denatlar_collective_noun:0 "Denatlian"
+ 
+ #traditions
+ tradition_crest_succession_name:0 "Crest Succession"
+ tradition_crest_succession_desc:0 "[Concept('crest','Crests')|E] are very important in our culture. So important, that we would refuse a firstborn his right to the throne if he does not possess a one, in favor of a child that does."
+ tradition_wyvern_masters_name:0 "Wyvern Masters"
+ tradition_wyvern_masters_desc:0 "We have become masters in taming these beasts called wyverns. Cause of this, our warriors are far better then others in wielding these creatures."
+ 
+ #parameters
+ culture_parameter_unlock_maa_barbarossa:0 "Can recruit [GetMaA('barbarossa').GetName] as [men_at_arms|E]"
+ culture_parameter_crest_priority:0 "[Concept('crest','Crest')|E] born children take priority over others in succession"
  
  #Holy order
  holy_order_knights_seiros:0 "The Knights Of Seiros"

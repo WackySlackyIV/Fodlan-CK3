@@ -74,9 +74,6 @@ tradition_wyvern_masters = { #modeled after only the strong
 		prowess_from_martial_education = yes
 		unlock_maa_barbarossa = yes
 	}
-	province_modifier = {
-		levy_size = -0.25
-	}
 	character_modifier = {
 		men_at_arms_recruitment_cost = 0.25
 		heavy_flyers_max_size_add = 2

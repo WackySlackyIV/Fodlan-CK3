@@ -1,0 +1,125 @@
+dantan = {
+	color = rgb { 252 186 3 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_kotesh
+	language = language_koteshi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_legalistic
+		tradition_city_keepers
+		tradition_hard_working
+		tradition_xenophilic
+		tradition_wetlanders
+	}
+	name_list = name_list_yoruba
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
+	ethnicities = {
+		10 = african
+	}
+}
+
+sangpuri = {
+	color = rgb { 163 134 54 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_kotesh
+	language = language_koteshi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_legalistic
+		tradition_concubines
+		tradition_city_keepers
+		tradition_martial_admiration
+		tradition_fp1_trials_by_combat
+	}
+	name_list = name_list_yoruba
+
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
+	ethnicities = {
+		10 = african
+	}
+}
+
+angma = {
+	color = rgb { 163 163 16 }
+
+	ethos = ethos_stoic
+	heritage = heritage_kotesh
+	language = language_koteshi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_practiced_pirates
+		tradition_pastoralists
+		tradition_horse_breeder
+		tradition_hit_and_run
+		tradition_strength_in_numbers
+	}
+	name_list = name_list_yoruba
+
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
+	ethnicities = {
+		10 = african
+	}
+}
+
+chakhtami = {
+	color = rgb { 210 230 99 }
+
+	ethos = ethos_communal
+	heritage = heritage_kotesh
+	language = language_koteshi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_pacifism
+		tradition_mountain_homes
+		tradition_tribe_unity
+		tradition_equitable
+		tradition_welcoming
+	}
+	name_list = name_list_yoruba
+
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
+	ethnicities = {
+		10 = african
+
+	}
+}
+
+ikhtin = {
+	color = rgb { 199 179 90 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_kotesh
+	language = language_koteshi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_strength_in_numbers
+		tradition_concubines
+		tradition_only_the_strong
+		tradition_fp1_trials_by_combat
+		tradition_practiced_pirates
+		
+	}
+	name_list = name_list_yoruba
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_saharan_unit_gfx }
+	ethnicities = {
+		10 = african
+
+	}
+}

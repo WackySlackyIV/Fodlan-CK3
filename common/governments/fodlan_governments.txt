@@ -1,7 +1,6 @@
 ﻿alliance_government = {
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
-	dynasty_named_realms = yes
 	royal_court = yes
 
 	primary_holding = castle_holding

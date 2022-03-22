@@ -44,24 +44,35 @@
  relic_sword_blutgang:0 "Blutgang"
  relic_sword_blutgang_description:0 "Blutgang is a Hero's Relic with a dark secret, it was used by the secret, fallen Elite known as The Beast, his true name being Maurice and those who bear his crest may wield it to it's full capacity, however unlike the other Hero's Relics any who bear his crest must be secretive about their blood due to the possible persecution they may recieve, while those with a different crest may wield it also it is far less powerful, whilst those without will have the danger of transforming into a far more powerful demonic beast, far more than others."
  
- relic_axe_crusher
+ relic_axe_crusher:0 "Crusher"
+ relic_axe_crusher_description:0 "Crusher is a Hero's Relic belonging to Dominic, one of the 10 Elites and only he was known to have wielded this hammer into battle using it's namesake to cause havoc on the field of battle with many fearing it's sharp edges and it's blunt force, like many of the other Hero's Relics any with a crest may use it however it's true strength is unleashed with those who bear his crest, those without a crest carry the risk of transforming into a demonic beast should they attempt to wield it at all."
  
- relic_bow_failnaught
+ relic_bow_failnaught:0 "Failnaught"
+ relic_bow_failnaught_description:0 "Failnaught was originally wielded by Riegan, one of the 10 elites, this may be wielded by any who bear a crest, however those with the crest of Riegan may use it to it's full strength whilst those without will carry the risk of transforming into a demonic beast the longer they wield it."
  
- relic_axe_freikugel
+ relic_axe_freikugel:0 "Freikugel"
+ relic_axe_freikugel_description:0 "Freikugel is a Hero's Relic belonging to Goneril, one of the 10 Elites and only he was known to have wielded this axe in battle and whilst any with a crest may wield it those without one will end up transforming into a demonic beast, however those with the crest of Goneril can wield this mighty weapon to it's full strength, causing terror on the battlefield with many surrendering rather than face the earth-shattering strength of a Goneril with this weapon."
  
- relic_lance_luin
+ relic_lance_luin:0 "Lúin"
+ relic_lance_luin_description:0 "Lúin is a Hero's Relic belonging to Daphnel, one of the 10 Elites and only he was known to have wielded this weapon, those who bear his crest may wield this lance to it's full strength and as for those with a different one, they may use it albeit in a less powerful manner, those without a crest will transform into a demonic beast upon taking up lance."
  
- relic_lance_ruin
+ relic_lance_ruin:0 "Lance of Ruin"
+ relic_lance_of_ruin_descrption:0 "The Lance of Ruin is a Hero's Relic belonging to Gautier, one of the 10 Elites and only he was known to have wielded this weapon in battle, those who bear his crest may wield it's power to it's full strength as for those with a different one may use it also though it is considerably less powerful, as for those without it will transform them into the terrifying Black Beast."
  
- relic_rafail_gem
+ relic_rafail_gem:0 "Rafail Gem"
+ relic_rafail_gem_descrption:0 "The Rafail Gem is a Hero's Relic belonging to Lamine, one of the 10 Elites, unlike the other Hero's Relics this one is not a weapon however what it does is cast protective magics over it's user, allowing them to sustain wounds that would otherwise kill them, any with a crest may wear this necklace however only those with Lamine's crest may feel it's full magic protecting them, despite not being a weapon anyone without a crest will regardless transform into a demonic beast should they wear it."
  
- relic_sword_creator
+ relic_sword_creator:0 "Sword of the Creator"
+ relic_sword_creator_description:0 "The Sword of the Creator is a Hero's Relic of exceptional power and is said to be a gift to humanity by the Goddess herself. It requires the Crest of Flames in order to wield it. Its only wielder in history was Nemesis until his defeat by the heroine Seiros. Without any known descendants, it is widely believed that the sword no longer has a compatible wielder as he was the sole known individual to bear the Crest of Flames."
  
- relic_sword_thunderbrand
+ relic_sword_thunderbrand:0 "Thunderbrand"
+ relic_sword_thunderbrand_description:0 "Thunderbrand is a Hero's Relic belonging to Charon, one of the 10 Elites and he was known to have wielded this weapon in battle, those who bear his crest may wield it's power to it's full strength as for those with a different one may use it also though it is considerably less powerful, as for those without it will transform them into a demonic beast" 
+
+ relic_thyrsus:0 "Thyrsus"
+ relic_thyrsus_description:0 "Thyrsus is a Hero's Relic belonging to Gloucester, one of the 10 Elites and was known to have wielded this powerful staff in battle, those who bear his crest may wield it's power to it's full strength as for those with a different one may use it also though it is considerably less powerful, as for those without it will transform them into a demonic beast."
  
- relic_thyrsus
+ relic_fetters_dromi:0 "Fetters of Dromi"
+ relic_fetters_dromi_description:0 "The Fetters of Dromi is a Lost Relic associated with the Crest of Aubin, one of The Four Apostles, the Relic somehow made its way to Dagda and then to Duke Gerth following the Dagda and Brigid War, like the other relic's it is far more powerful in the hands of those who bear Aubin's crest but less powerful in the hands that don't and despite it being a Lost Relic it still bears the demonic taint for the crestless."
  
- relic_fetters_dromi
- 
- relic_gauntlets_vajra_mushti
+ relic_gauntlets_vajra_mushti:0 "Vajra-Mushti"
+ relic_gauntlets_vajra_mushti_description:0 "The Vajra-Mushti aren't technically a Hero's Relic as it was forged after the War of Heroes. They are associated with Chevalier, one of The Four Apostles after he went into a self-imposed exile to Kupala, despite it being a Lost Relic it still bears the demonic taint for those without a crest but unleashes it's true power with those who bear Chevalier's crest and while those with a different crest may wield it, it is slightly less powerful."

@@ -1,0 +1,28 @@
+reqonese = {
+	color = rgb { 184 125 0 }
+	ethos = ethos_bureaucratic
+	heritage = heritage_reqonese
+	language = language_reqonese
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_seafaring
+		tradition_festivities
+		tradition_poetry
+		tradition_malleable_invaders
+	}
+	
+	name_list = name_list_catalan
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterannean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = { 
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}

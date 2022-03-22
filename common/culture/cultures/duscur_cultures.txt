@@ -1,0 +1,51 @@
+duscur = {
+	color = rgb { 181 147 119 }
+	ethos = ethos_stoic
+	heritage = heritage_duscur
+	language = language_duscran
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_loyal_soldiers
+		tradition_mountain_homes
+		tradition_highland_warriors
+		tradition_stand_and_fight
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_duscur
+
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_bulding_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+	ethnicities = {
+		100 = race_duscurian
+	}
+}
+
+nuadan = {
+	color = rgb { 219 135 66 }
+	ethos = ethos_stoic
+	heritage = heritage_duscur
+	language = language_duscran
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_loyal_soldiers
+		tradition_mountain_homes
+		tradition_stand_and_fight
+		tradition_highland_warriors
+		tradition_seafaring
+	}
+
+	name_list = name_list duscur
+
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}

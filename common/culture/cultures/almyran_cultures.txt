@@ -1,0 +1,283 @@
+almyran = {
+	color = rgb { 120 101 77 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_martial_admiration
+		tradition_reverence_for_veterans
+		tradition_hit_and_run
+		tradition_wyvern_masters
+		tradition_hereditary_hierarchy
+	}
+
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+lianese = {
+	color = rgb { 161 114 55 }
+
+	ethos = ethos_stoic
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_zealous_people
+		tradition_warriors_of_the_dry
+		tradition_hereditary_hierarchy
+		tradition_welcoming
+		tradition_dryland_dwellers
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+harika = {
+	color = rgb { 204 126 88 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_sacred_mountains
+		tradition_zealous_people
+		tradition_mountain_homes
+		tradition_religious_patronage
+		tradition_staunch_traditionalists
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+atran = {
+	color = rgb { 92 48 27 }
+
+	ethos = ethos_stoic
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_modest
+		tradition_fp1_coastal_warriors
+		tradition_fishermen
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+imrudi = {
+	color = rgb { 128 97 11 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_warrior_culture
+		tradition_winter_warriors
+		tradition_castle_keepers
+		tradition_hereditary_hierarchy
+		tradition_martial_admiration
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+kudamlar = {
+	color = rgb { 214 150 81 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_zealous_people
+		tradition_dryland_dwellers
+		tradition_monastic_communities
+		tradition_warrior_monks
+		tradition_warriors_of_the_dry
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+denatlar = {
+	color = rgb { 145 128 121 }
+	ethos = ethos_stoic
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_horse_breeder
+		tradition_strength_in_numbers
+		tradition_hereditary_hierarchy
+		tradition_fp1_trials_by_combat
+		tradition_pastoralists
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+pamese = {
+	color = rgb { 173 137 38 }
+	ethos = ethos_bellicose
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_practiced_pirates
+		tradition_seafaring
+		tradition_only_the_strong
+		tradition_hereditary_hierarchy
+		tradition_hit_and_run
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+jibadi = {
+	color = rgb { 74 65 53 }
+	ethos = ethos_stoic
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_pacifism
+		tradition_welcoming
+		tradition_hereditary_hierarchy
+		tradition_equitable
+		tradition_modest
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+inevhan = {
+	color = rgb { 184 166 141 }
+	ethos = ethos_communal
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_hill_dwellers
+		tradition_welcoming
+		tradition_seafaring
+		tradition_xenophilic
+		tradition_modest
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		100 = race_almyran
+	}
+}
+
+shunish = {
+	parents = { reqonese almyran }
+	created = 1000.1.1
+	color = rgb { 122 94 0 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_mihran
+	language = language_mihrani
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_seafaring
+		tradition_maritime_mercantilism
+		tradition_hit_and_run
+		tradition_martial_admiration
+		tradition_festivities
+	}
+	name_list = name_list_persian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	ethnicities = {
+		75 = race_almyran
+		15 = caucasian_dark_hair
+		10 = caucasian_brown_hair
+	}
+}
