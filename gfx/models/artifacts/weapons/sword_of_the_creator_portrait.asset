@@ -1,0 +1,44 @@
+pdxmesh = {
+	name = "sword_of_the_creator_portrait_mesh"
+	file = "sword_of_the_creator_portrait.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "sword_of_the_creator_portrait_LOD0Shape"
+		index = 0
+		texture_diffuse = "artifact_sword_of_the_creator_diffuse.dds"
+		texture_normal = "artifact_sword_of_the_creator_normal.dds"
+		texture_specular = "artifact_sword_of_the_creator_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "sword_of_the_creator_portrait_LOD1Shape"
+		index = 0
+		texture_diffuse = "artifact_sword_of_the_creator_diffuse.dds"
+		texture_normal = "artifact_sword_of_the_creator_normal.dds"
+		texture_specular = "artifact_sword_of_the_creator_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "sword_of_the_creator_portrait_LOD2Shape"
+		index = 0
+		texture_diffuse = "artifact_sword_of_the_creator_diffuse.dds"
+		texture_normal = "artifact_sword_of_the_creator_normal.dds"
+		texture_specular = "artifact_sword_of_the_creator_properties.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "sword_of_the_creator_portrait_entity"
+	pdxmesh = "sword_of_the_creator_portrait_mesh"
+}

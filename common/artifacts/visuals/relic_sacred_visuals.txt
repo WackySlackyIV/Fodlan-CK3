@@ -127,7 +127,7 @@ relic_rafail_gem_visual = {
 relic_sword_creator_visual = {
 	icon = "relic_sword_creator.dds"
 	support_type = "short"
-	asset = ep1_western_sword_01_a_portrait_entity
+	asset = sword_of_the_creator_portrait_entity
 }
 
 relic_sword_thunderbrand_visual = {

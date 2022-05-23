@@ -766,7 +766,7 @@ hairstyles_scripted_characters = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = all_custom_hairstyles
+                template = dimitri_hairstyle
                 value = 0.08 # For the randomness to work correctly
             }
         }
@@ -785,7 +785,7 @@ hairstyles_scripted_characters = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = all_custom_hairstyles
+                template = claude_hairstyle
                 value = 1 # For the randomness to work correctly
             }
         }
@@ -1197,11 +1197,6 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = {
-                add = 200
-                exists = character:400021 #Petra
-                this = character:400021 #Petra
-            }
         }
     }
 
@@ -1456,7 +1451,7 @@ hairstyles_scripted_characters = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = all_custom_hairstyles
+                template = edelgard_hairstyle
                 value = 0.5 # For the randomness to work correctly
             }
         }
@@ -1475,7 +1470,7 @@ hairstyles_scripted_characters = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = all_custom_hairstyles
+                template = flayn_hairstyle
                 value = 0.75 # For the randomness to work correctly
             }
         }
@@ -1494,7 +1489,7 @@ hairstyles_scripted_characters = {
             accessory = {
                 mode = add
                 gene = hairstyles
-                template = all_custom_hairstyles
+                template = rhea_hairstyle
                 value = 1 # For the randomness to work correctly
             }
         }   
@@ -1504,6 +1499,25 @@ hairstyles_scripted_characters = {
                 add = 200
                 exists = character:100000 #Rhea
                 this = character:100000 #Rhea
+            }
+        }
+    }
+	
+    petra_hair = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = petra_hairstyle
+                value = 1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:400021 #Petra
+                this = character:400021 #Petra
             }
         }
     }

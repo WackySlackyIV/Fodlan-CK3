@@ -1,0 +1,12 @@
+﻿
+sword_of_the_creator = {
+
+	entity = {	required_tags = ""        node = "bn_r_prop"		entity = "sword_of_the_creator_portrait_entity" }
+	
+}
+
+
+
+
+
+

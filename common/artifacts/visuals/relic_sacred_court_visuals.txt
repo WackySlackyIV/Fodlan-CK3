@@ -1,0 +1,5 @@
+﻿relic_sword_creator_court_visual = {
+	icon = "relic_sword_creator.dds"
+	default_type = pedestal
+	asset = sword_of_the_creator_court_entity
+}

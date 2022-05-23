@@ -1,0 +1,74 @@
+pdxmesh = {
+	name = "sword_of_the_creator_court_mesh"
+	file = "sword_of_the_creator_court.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 20.0 }
+		lod = { index = 2 percent = 5.0 }
+	}
+
+	meshsettings = {
+		name = "sword_of_the_creator_court_LOD0Shape"
+		index = 0
+		texture_diffuse = "artifact_sword_of_the_creator_diffuse.dds"
+		texture_normal = "artifact_sword_of_the_creator_normal.dds"
+		texture_specular = "artifact_sword_of_the_creator_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD0Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "sword_of_the_creator_court_LOD1Shape"
+		index = 0
+		texture_diffuse = "artifact_sword_of_the_creator_diffuse.dds"
+		texture_normal = "artifact_sword_of_the_creator_normal.dds"
+		texture_specular = "artifact_sword_of_the_creator_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD1Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "sword_of_the_creator_court_LOD2Shape"
+		index = 0
+		texture_diffuse = "artifact_sword_of_the_creator_diffuse.dds"
+		texture_normal = "artifact_sword_of_the_creator_normal.dds"
+		texture_specular = "artifact_sword_of_the_creator_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_western_weaponrack_01_LOD2Shape"
+		index = 0
+		texture_diffuse = "ep1_western_weaponrack_01_diffuse.dds"
+		texture_normal = "ep1_western_weaponrack_01_normal.dds"
+		texture_specular = "ep1_western_weaponrack_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "sword_of_the_creator_court_entity"
+	pdxmesh = "sword_of_the_creator_court_mesh"
+}

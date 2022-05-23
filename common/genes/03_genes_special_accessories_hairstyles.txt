@@ -913,6 +913,14 @@ special_genes = {
 				male = {
 					1 = male_hair_dimitri
 					1 = male_hair_claude
+					0 = empty
+					0 = empty
+					0 = empty
+					0 = empty
+					0 = empty
+					0 = empty
+					0 = empty
+					0 = empty
 				}
 				
 				female = {	
@@ -921,6 +929,11 @@ special_genes = {
 					1 = female_hair_edelgard
 					1 = female_hair_flayn
 					1 = female_hair_rhea
+					1 = female_hair_petra_academy
+					0 = female_hair_petra_war
+					0 = empty
+					0 = empty
+					0 = empty
 				}
 				boy = male
 				girl = female
@@ -981,6 +994,18 @@ special_genes = {
 				
 				female = {
 					1 = female_hair_rhea
+				}
+				boy = male
+				girl = female
+			}
+			
+			petra_hairstyle = {
+				index = 44
+				male = {
+				}
+				
+				female = {
+					1 = female_hair_petra_war
 				}
 				boy = male
 				girl = female
