@@ -744,7 +744,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	11811.1.1 = {
+	1181.1.1 = {
 		set_relation_friend = character:300028
 		set_relation_friend = character:300026
 		effect = {
@@ -804,7 +804,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	11811.1.1 = {
+	1181.1.1 = {
 			set_relation_friend = character:300028
 			set_relation_friend = character:300025
 		effect = {			
@@ -898,7 +898,7 @@
 			add_character_flag = has_scripted_appearance
 		}
 	}
-	11811.1.1 = {
+	1181.1.1 = {
 			set_relation_friend = character:300026
 			set_relation_friend = character:300025
 		effect = {

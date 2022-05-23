@@ -12,7 +12,7 @@ duscur = {
 		tradition_staunch_traditionalists
 	}
 	
-	name_list = name_list_duscur
+	name_list = name_list_italian
 
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { western_bulding_gfx }
@@ -38,7 +38,7 @@ nuadan = {
 		tradition_seafaring
 	}
 
-	name_list = name_list duscur
+	name_list = name_list_italian
 
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { western_building_gfx }

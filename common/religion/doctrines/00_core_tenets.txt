@@ -3215,8 +3215,8 @@
 		}
 
 		traits = {	
-			virtues = { trusting }
-			sins = { paranoid content }
+			virtues = { trusting content }
+			sins = { paranoid }
 		}
 	}
 }

@@ -1,13 +1,17 @@
 name="Fodlan - GITMOD"
-tags={
-	"Total Conversion"
-}
-supported_version="1.5.1.1"
+tags={ "Total Conversion" }
+supported_version="1.5.*"
 path="mod/Fodlan_CK3_GIT"
 remote_file_id="2458839709"
 replace_path="history/characters"
 replace_path="history/titles"
 replace_path="history/cultures"
+replace_path="history/artifacts"
+replace_path="history/provinces"
+replace_path="history/titles"
 replace_path="common/achievements"
 replace_path="common/casus_belli_types"
-replace_path="common/religion"
+replace_path="common/religion/religions"
+replace_path="common/culture/cultures"
+
+picture="thumbnail.png"
