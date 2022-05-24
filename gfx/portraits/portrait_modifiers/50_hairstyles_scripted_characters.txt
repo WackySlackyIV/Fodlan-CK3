@@ -1410,11 +1410,6 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = {
-                add = 200
-                exists = character:200021 #Lysithea
-                this = character:200021 #Lysithea
-            }
         }
     }
 
@@ -1518,6 +1513,25 @@ hairstyles_scripted_characters = {
                 add = 200
                 exists = character:400021 #Petra
                 this = character:400021 #Petra
+            }
+        }
+    }
+	
+    lysithea_hair = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = lysithea_hairstyle
+                value = 1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = character:200021 #Lysithea
+                this = character:200021 #Lysithea
             }
         }
     }

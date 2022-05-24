@@ -930,10 +930,11 @@ special_genes = {
 					1 = female_hair_flayn
 					1 = female_hair_rhea
 					1 = female_hair_petra_academy
-					0 = female_hair_petra_war
+					1 = female_hair_petra_war
+					1 = female_hair_lysithea_academy
+					1 = female_hair_lysithea_war
 					0 = empty
-					0 = empty
-					0 = empty
+					
 				}
 				boy = male
 				girl = female
@@ -1006,6 +1007,18 @@ special_genes = {
 				
 				female = {
 					1 = female_hair_petra_war
+				}
+				boy = male
+				girl = female
+			}
+			
+			lysithea_hairstyle = {
+				index = 45
+				male = {
+				}
+				
+				female = {
+					1 = female_hair_lysithea_war
 				}
 				boy = male
 				girl = female
