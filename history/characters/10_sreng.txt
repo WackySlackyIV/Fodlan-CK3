@@ -20,7 +20,6 @@
 	trait = education_martial_4
 	trait = strategist
 
-	trait = child_goddess
 	trait = permanent_dragon_form
 	trait = crest_major_macuil
 

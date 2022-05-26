@@ -1,6 +1,6 @@
 ﻿l_english:
  fodlan_unification_war.2.t: "The Specter of War"
- fodlan_unification_war.2.desc: "In the south, the mysterious Flame Emperor has been revealed as #V Edelgard von Hrelsvelg#!, heiress of the [adrestian_empire|E].\n\nFollowing the abdication of her father and coronation ceremony, Edelgard now plans a revolt against the authority of the [Concept('church', 'church')|E].\n\nDeclaring the [church|E] and the [crest|E]-bearing nobility corrupt, #V Empress Edelgard#! prepares her assault on #V Garreg Mach Monastary#!, where she once was learning with her peers but a month ago."
+ fodlan_unification_war.2.desc: "In the south, the mysterious Flame Emperor has been revealed as #V Edelgard von Hresvelg#!, heiress of the [adrestian_empire|E].\n\nFollowing the abdication of her father and coronation ceremony, Edelgard now plans a revolt against the authority of the [Concept('church', 'church')|E].\n\nDeclaring the [church|E] and the [crest|E]-bearing nobility corrupt, #V Emperor Edelgard#! prepares her assault on #V Garreg Mach Monastary#!, where she once was learning with her peers but a month ago."
  fodlan_unification_war.2.a: "We must prepare for the coming storm"
  fodlan_unification_war.4.t: "Imperial Invasion Begins"
  fodlan_unification_war.4.desc: "Ravens fly to all corners of [fodlan|E] detailing the arrival of Imperial troops at the foot of #V Garreg Mach Monastary#!.\n\nLoyalists of the [church|E] and [adrestian_empire|E] engage in battle while those who have yet to pick a side come under increasing pressure to declare"
@@ -20,7 +20,7 @@
  fodlan_unification_war.2005.t: "House Gloucester Seeks Imperial Protection"
  fodlan_unification_war.2005.desc: "House Gloucester seeks to serve their legal soverign and rejoin the [adrestian_empire|E]. However, their position within the [leicester_alliance|E] is a precarious one surrounded by enemies on all sides.\n\nThey have requested our aid in securing a supply line to the south so that they can prevent #V House Daphnel#! and #V House Edmund#! from sending aid to the church."
  fodlan_unification_war.2005.a: "Dispatch a regiment of troops to aid them"
- fidlan_unification_war.2005.a.tt: "We will be weaker in the upcoming battle. They will owe us a favor."
+ fodlan_unification_war.2005.a.tt: "We will be weaker in the upcoming battle. They will owe us a favor."
  fodlan_unification_war.2005.b: "We will aid them after taking the Academy"
  fodlan_unification_war.2005.b.tt: "We will be stronger in the upcoming battle. They will be on their own."
  fodlan_unification_war.2006.t: "Ladislava Regiment Arrives"

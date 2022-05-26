@@ -6,7 +6,7 @@
 
 400000 = {
 	name="Edelgard"
-	religion=@mirenist # Change to Ablehist after blood experimentation
+	religion=@seirosite # Change to Ablehist after blood experimentation
 	culture="adrestian"
 	dynasty = @hresvelg
 	female = yes

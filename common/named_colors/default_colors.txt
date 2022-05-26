@@ -8,6 +8,7 @@ colors = {
 	white		= hsv {		0.08 	0.02 	0.8 	}
 	purple 		= hsv {		0.9 	0.7 	0.35 	}
 	orange 		= hsv {		0.064 	1 	0.6 	}
+	aqua = rgb { 24 162 147 }
 	
 	grey 		= hsv {		0.0 	0.0 	0.50 	}
 	brown 		= rgb {		135	84	18	}
@@ -16,6 +17,8 @@ colors = {
 	green_light	= hsv {		0.35 	0.50 	0.40 	}
 	yellow_light	= hsv {		0.1 	0.80 	1.0 	}
 	red_light	= rgb {		222	104	95	}
+	grey_light = rgb { 191 191 191 }
+	orange_light = rgb { 202 109 9 }
 
 	lion_blue1	= rgb {		76	84	146	}
 	lion_blue2 	= rgb {		55	60	115	}
@@ -23,6 +26,7 @@ colors = {
 	deer_yellow1 	= rgb {		142	127	12	}
 	deer_yellow2 	= rgb {		203	178	34	}
 	deer_brown 	= rgb {		65	61	36	}
+	light_brown = rgb {	215	181	138	}
 	moose_green	= rgb {		78	125	71	}
 	nabatean_green	= rgb {		167	216	184	}
 	brigid_purple	= rgb {		145	38	83	}
