@@ -260,13 +260,17 @@ faith_conversion.1001 = {
 			save_scope_as = template_priest
 		}
 		# If necessary, make them celibate.
-		scope:template_priest = {
+		hidden_effect = {
 			if = {
 				limit = {
-					faith = { has_doctrine = doctrine_clerical_marriage_disallowed }
+					NOT = {
+						scope:new_faith = { has_doctrine_parameter = clergy_can_marry } # scoping directly to the character was firing null character errors
+					}
 				}
+				scope:template_priest = {
 				add_trait = devoted
 			}
+		}
 		}
 
 		#Dummy check to avoid errors since the flag is only checked in portrait modifiers otherwise
@@ -307,6 +311,23 @@ faith_conversion.1001 = {
 				}
 			}
 		}
+	}
+}
+
+faith_conversion.1002 = {
+	hidden = yes
+
+	immediate = {
+		# If it's desirable to delay this event (e.g., due to decision) a little, do so.
+		if = {
+			limit = { has_character_flag = delay_player_faith_conversion_notification_event }
+			trigger_event = {
+				id = faith_conversion.1001
+				days = 7
+			}
+		}
+		# Otherwise, just send it.
+		else = { trigger_event = faith_conversion.1001 }
 	}
 }
 

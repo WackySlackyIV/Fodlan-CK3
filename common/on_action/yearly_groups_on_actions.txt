@@ -1,6 +1,11 @@
 ﻿fp1_yearly_events = {
-	trigger = {
-		has_fp1_dlc_trigger = yes
+	trigger = { fp1_eligible_for_yearly_events_trigger = yes }
+	weight_multiplier = {
+		base = 1
+		modifier = { # Reduces frequency for having both sets of FP events valid
+			factor = 0.5
+			fp2_character_involved_in_struggle_trigger = yes
+		}
 	}
 
 	random_events = {

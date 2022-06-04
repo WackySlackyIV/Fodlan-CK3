@@ -70,7 +70,7 @@ five_year_playable_pulse = {
 						is_available_ai = yes
 						age > 6
 						NOT = {
-							knows_court_language_of = liege
+							knows_court_language_of = host
 						}
 					}
 					random = {
@@ -85,7 +85,7 @@ five_year_playable_pulse = {
 							}
 							if = {
 								limit = {
-									liege = {
+									host = {
 										employs_court_position = court_tutor_court_position
 									}
 								}
@@ -93,7 +93,7 @@ five_year_playable_pulse = {
 							}
 							if = {
 								limit = {
-									liege = {
+									host = {
 										has_court_type = court_diplomatic
 									}
 								}
@@ -101,14 +101,14 @@ five_year_playable_pulse = {
 							}
 							if = {
 								limit = {
-									liege = {
+									host = {
 										has_court_type = court_scholarly
 									}
 								}
 								add = 4
 							}
 						}
-						learn_court_language_of = liege
+						learn_court_language_of = host
 					}
 				}
 				if = {
@@ -246,6 +246,7 @@ random_yearly_playable_pulse = {
 		}
 		5 = on_yearly_events
 		#4 = fp1_yearly_events
+		#3 = fp2_yearly_events
 	}
 	on_actions = {
 		delay = { days = { 45 75 } }
@@ -421,8 +422,8 @@ on_yearly_common_events = {
 		chance_to_happen = 50
 		1000 = 0
 		300 = lover.0003 #Too many lovers - break up with one?
-		100 = language_events.0001 #Too many known languages - forget one?
-		50 = language_events.0010 #Owl version of Too many known languages - forget one?
+		90 = language_events.0001 #Too many known languages - forget one?
+		10 = language_events.0010 #Owl version of Too many known languages - forget one?
 		200 = parent.0001 #parent_meddling_value_effect decreases over time
 		200 = childhood.2010 # Convince ward they owe you
 		50 = relation_upgrade.3000 # Vengeful character gains a rival, also for Cultural Tradition more rivals
@@ -795,5 +796,26 @@ on_yearly_events = {
 
 		#Trait Events
 		100 = trait_specific.8501 #Someone mocks your lisp
+		
+		# FP2 - Fate of Iberia Events
+		#180 = fp2_yearly.2020	# Horchata colonialism event
+		#160 = fp2_yearly.8000	# Burning the Vineyards
+		#180 = fp2_yearly.8001	# Assembling the Cortes
+		#180 = fp2_struggle.1002	# Xenophilic Advancment
+		#160 = fp2_struggle.1050	# Dreams of Destruction
+		#150 = fp2_struggle.2000	# Disorderly Market
+		#140 = fp2_struggle.2008	# Misdeeds of the Councillor
+		#200 = fp2_struggle.2013	# The Secret to Freedom
+		#130 = fp2_struggle.2015	# Letter on the Back
+		#100 = fp2_yearly.2017	# Chess for Friends (TODO_FP2_POLISH Fix possible OOO bug)
+		#180 = fp2_yearly.2025	# Suffering from Success
+		#150 = fp2_yearly.4001	# You fancy a little siesta
+		#150 = fp2_yearly.4002	# A county is increasingly religiously intertwined
+		#150 = fp2_yearly.4003	# The road to Santiago is under threat from bandits
+		#150 = fp2_yearly.4007 	#Finding a shell on the road to Santiago
+		#150 = fp2_yearly.4008 	#Folk stories around the fireside
+		#300 = fp2_yearly.4009 	#Visiting the Malato Tree
+		#150 = fp2_yearly.4010 	#Finding a Verraco
+		#300 = fp2_flavor.0001 	# Neighboring Muslims are growing rice, adopt the practice yourself?
 	}
 }

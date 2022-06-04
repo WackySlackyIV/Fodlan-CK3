@@ -1802,40 +1802,9 @@ lift_excommunication_interaction = {
 	#answer_accept_key = religious_interaction.1024.positive
 
 	on_accept = {
-		scope:actor = {
-			hidden_effect = {
-				send_interface_toast = {	
-					title = lift_excommunicate_interaction_desc.tt
-					left_icon = scope:recipient
-					scope:recipient = {
-						show_as_tooltip = { remove_trait = excommunicated }
-					}
-				}
-			}
-		}
-		scope:recipient = {
-			remove_trait = excommunicated
-			add_character_modifier = {
-				modifier = excommunication_recently_lifted
-				years = 10
-			}
-			add_opinion = {
-				modifier = grateful_opinion
-				target = scope:actor
-				opinion = 30
-			}
-			
-			hidden_effect = { #To nudge friendship
-				if = {
-					limit = {
-						NOR = {
-							has_relation_friend = scope:actor
-							has_relation_potential_friend = scope:actor
-						}
-					}
-					set_relation_potential_friend = scope:actor
-				}
-			}
+		lift_character_excommunication_effect = {
+			TARGET_CHARACTER = scope:recipient
+			REQUESTING_CHARACTER = scope:actor
 		}
 	}
 	

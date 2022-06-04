@@ -112,15 +112,15 @@ FOD_crest_inheritance = {
 
 FOD_flavor_events = {
 	random_events = {
-		2 = FOD_flavor.1
-		6 = FOD_flavor.2
-		6 = FOD_flavor.4
+		1 = FOD_flavor.1
+		10 = FOD_flavor.2
+		10 = FOD_flavor.4
 		1 = FOD_flavor.6
-		3 = FOD_alliance.2
-		3 = FOD_alliance.6
-		3 = FOD_alliance.7
-		3 = FOD_alliance.8
-		3 = FOD_alliance.9
-		6 = 0
+		10 = FOD_alliance.2
+		10 = FOD_alliance.6
+		10 = FOD_alliance.7
+		10 = FOD_alliance.8
+		10 = FOD_alliance.9
+		50 = 0
 	}
 }

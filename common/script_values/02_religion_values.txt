@@ -45,6 +45,8 @@ faith_changed_doctrine_cost_mult_two_step = 1.50
 faith_changed_doctrine_cost_mult_three_step = 2.25
 faith_changed_doctrine_cost_mult_four_step = 3.50
 
+faith_tenet_discount_mountain_background_value = 0.75
+
 hostility_multiplier_pluralism = 0.5
 hostility_multiplier_righteous = 1
 hostility_multiplier_fundamentalist = 2
@@ -451,11 +453,12 @@ faith_conversion_cost_mult = {
 		value = 1
 	}
 	
+	# Try to always be cheaper than creating a new faith
 	if = {
 		limit = {
 			scope:character.learning > 0
 		}
-		multiply = {  # Try to always be cheaper than creating a new faith
+		multiply = {
 			value = 1
 			subtract = {
 			desc = "learning_modifier"
@@ -476,12 +479,12 @@ faith_conversion_cost_mult = {
 			}
 		}	
 	}
-	
+	# Try to always be cheaper than creating a new faith
 	if = {
 		limit = {
 			scope:new_faith.religion = scope:character.faith.religion
 		}
-		multiply = {  # Try to always be cheaper than creating a new faith
+		multiply = {
 			value = 1
 			subtract = {
 			desc = "faith_conversion_cost_existing_faith"
@@ -490,8 +493,9 @@ faith_conversion_cost_mult = {
 		}
 	}
 	}
+	# Try to always be cheaper than creating a new faith
 	else = {
-		multiply = {  # Try to always be cheaper than creating a new faith
+		multiply = {
 			value = 1
 			subtract = {
 			desc = "faith_conversion_cost_existing_faith"
@@ -500,13 +504,13 @@ faith_conversion_cost_mult = {
 		}
 	}
 	}
-	
+	# Pluralistic faiths have it easier converting to each other
 	if = {
 		limit = {
 			scope:new_faith = { has_doctrine = doctrine_pluralism_pluralistic }
 			scope:character.faith = { has_doctrine = doctrine_pluralism_pluralistic }
 		}
-		multiply = {  # Pluralistic faiths have it easier converting to each other
+		multiply = {
 			value = 1
 			subtract = {
 			desc = "faith_conversion_cost_pluralists"
@@ -515,11 +519,12 @@ faith_conversion_cost_mult = {
 		}
 	}
 	}
+	# Pluralistic faiths have it easier converting
 	else_if = {
 		limit = {
 			scope:character.faith = { has_doctrine = doctrine_pluralism_pluralistic }
 		}
-		multiply = {  # Pluralistic faiths have it easier converting
+		multiply = {
 			value = 1
 			subtract = {
 			desc = "faith_conversion_cost_pluralist"
@@ -610,7 +615,8 @@ faith_conversion_cost_mult = {
 	##################################
 	# Dead Religion/Faith penalty(s) #
 	##################################
-	if = { #More expensive to convert to a dead religion
+	#More expensive to convert to a dead religion
+	if = {
 		limit = {
 			scope:new_faith = {
 				religion = {
@@ -665,8 +671,8 @@ faith_conversion_cost_mult = {
 	########################
 	# Conversion Discounts #
 	########################
-
-	if = { #Cheaper if you are targeted by the new Faith in a defensive Holy War
+	# Cheaper if you are targeted by the new Faith in a defensive Holy War
+	if = {
 		limit = {
 			scope:character = {
 				any_character_war = {
@@ -706,7 +712,8 @@ faith_conversion_cost_mult = {
 		}
 	}
 	}
-	if = { #Cheaper if your spouse is of the faith
+	# Cheaper if your spouse is of the faith
+	if = {
 		limit = {
 			scope:character = {
 				any_spouse = {
@@ -745,7 +752,8 @@ faith_conversion_cost_mult = {
 		}
 	}
 	}
-	else_if = { #Does a concubine have the right religion?
+	# Does a concubine have the right religion?
+	else_if = {
 		limit = {
 			scope:character = {
 				any_concubine = {
@@ -785,6 +793,7 @@ faith_conversion_cost_mult = {
 		}
 	}
 	}
+	# Cheaper if the religion is present near/in your borders
 	if = {
 		limit = {
 			scope:character = {
@@ -828,9 +837,9 @@ faith_conversion_cost_mult = {
 	########################################
 	# Conversion Discounts from Traditions #
 	########################################
-	#scope:new_faith.religion = scope:character.faith.religion
+	# scope:new_faith.religion = scope:character.faith.religion
 
-	#Pacifism Tenet
+	# Pacifism Tenet
 	if = {
 		limit = {
 			AND = {
@@ -854,7 +863,7 @@ faith_conversion_cost_mult = {
 		}
 	}
 
-	#Removing 1 to offset the value and present it as expected by the code
+	# Removing 1 to offset the value and present it as expected by the code
 	subtract = {
 		value = 1
 	}

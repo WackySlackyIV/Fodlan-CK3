@@ -752,6 +752,16 @@ found_empire_decision = {
 			}
 		}
 		NOT = { has_game_rule = off_custom_kingdoms }
+
+		trigger_if = {
+			limit = {
+				OR = {
+					fp2_character_interloper_in_struggle_trigger = yes
+					fp2_character_involved_in_struggle_trigger = yes
+				}
+			}
+			always = no
+		}
 	}
 
 	is_valid = {
@@ -946,6 +956,7 @@ adopt_special_succession_decision = { #by Ewan Cowhig Croft
 				}
 			}
 		}
+		current_date < 1100.1.1	#Curtail special succession types as the centuries wear on. Ever on.
 	}
 
 	is_valid = {
