@@ -1270,3 +1270,13 @@ d_bartels = {
 		instance = { position { 0.75 0.5 } scale { 0.7 0.7 } }
 	}
 }
+
+k_daphnel = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_daphnel.dds"
+		color1 = "yellow"
+		instance = { position { 0.5 0.45 } scale { 0.9 0.9 } }
+	}
+}

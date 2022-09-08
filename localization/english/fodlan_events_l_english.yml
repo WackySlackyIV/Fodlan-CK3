@@ -43,13 +43,17 @@
  promotion_outcome.0041.desc:0 "These days, I have been questioning my decision to step away from the election. I thought it might be a momentary longing for something that never truly existed. I tried my best to recall all the dreadful parts of campaigning. Nonetheless, none of my methods assuaged my wants, and I find myself wishing to return to the political arena once more. \n\nSo I did precisely that. It is my time to rise, I think."
  promotion_outcome.0041.a:0 "How I missed this."
  
- # Forming the Archduchy of Daphnel
+ # Forming the Archduchy of Daphnel/galatea
  form_daphnel_kingdom_decision:0 "Form Archduchy of Daphnel"
  form_daphnel_kingdom_decision_confirm:0 "Form the Archduchy of Daphnel"
  form_daphnel_kingdom_decision_desc:0 ""
  form_daphnel_kingdom_decision_tooltip:0 "The Archduchy of Daphnel will be formed."
+ form_galatea_kingdom_decision:0 "Form Archduchy of Galatea"
+ form_galatea_kingdom_decision_confirm:0 "Form the Archduchy of Galatea"
+ form_galatea_kingdom_decision_desc:0 ""
+ form_galatea_kingdom_decision_tooltip:0 "The Archduchy of Galatea will be formed."
  FOD_formation.1.t:0 "The Archduchy of Daphnel"
- FOD_formation.1.desc:0 ""
+ FOD_formation.1.desc:0 "A long time ago, a Leicester Noble took his lands and joined The Holy Kingdom Of Faerghus cause of a succession dispute. Today, We have rejoined these lands as one. It is time to lift ourselves up and proclaim ourselves bigger then we were. We have now become the founders of The Archduchy of Daphnel."
  FOD_formation.1.a:0 "Daphnel is reunited!"
  FOD_formation.2.desc.emperor:0 ""
  FOD_formation.2.desc.others:0 ""

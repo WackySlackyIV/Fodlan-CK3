@@ -22,13 +22,10 @@ form_daphnel_kingdom_decision = {
 			tier = tier_county
 			title_province = { geographical_region = custom_daphnel_region }
 		}
+		has_culture = culture:leicester
 	}
 
 	is_valid = {
-		OR = {
-			is_independent_ruler = yes
-			liege.highest_held_title_tier = tier_empire
-		}
 		#Must be suitably prestigious.
 		prestige_level >= high_prestige_level
 		#Must control Daphnel region
@@ -36,6 +33,97 @@ form_daphnel_kingdom_decision = {
 		OR = {
 			is_independent_ruler = yes
 			has_strong_usable_hook = liege
+			liege.highest_held_title_tier = tier_empire
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		faith = top_liege.faith	#Must share the faith of your emperor.
+	}
+
+	cost = {
+		gold = 1000
+	}
+
+	effect = {
+		show_as_tooltip = {
+			form_daphnel_scripted_effect = yes
+		}
+		trigger_event = {
+			id = FOD_formation.1
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_daphnel_kingdom
+			}
+			set_global_variable = {
+				name = flag_formed_daphnel_kingdom
+				value = root
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+
+		#Only worth considering if you actually have your capital in Daphnel region.		
+		modifier = {
+			add = 20
+			capital_county.title_province = { geographical_region = custom_daphnel_region }
+		}
+
+		#More brazen characters are more likely to have a bash.
+		ai_value_modifier = {
+			ai_boldness = 0.75
+			ai_greed = 0.25
+		}
+	}
+}
+
+#Creating Galatea Archduchy
+form_galatea_kingdom_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = form_galatea_kingdom_decision_desc
+	selection_tooltip = form_daphnel_kingdom_decision_tooltip
+	major = yes
+	ai_goal = yes
+
+	is_shown = {
+		is_landed = yes
+		NOT = { exists = title:k_daphnel.holder }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_daphnel_kingdom
+			}
+		}
+		highest_held_title_tier <= tier_duchy
+		#Must hold land within the relevant areas directly.
+		any_held_title = {
+			tier = tier_county
+			title_province = { geographical_region = custom_daphnel_region }
+		}
+		has_culture = culture:faerghus
+	}
+
+	is_valid = {
+		#Must be suitably prestigious.
+		prestige_level >= high_prestige_level
+		#Must control Daphnel region
+		completely_controls_region = custom_daphnel_region
+		OR = {
+			is_independent_ruler = yes
+			has_strong_usable_hook = liege
+			liege.highest_held_title_tier = tier_empire
 		}
 	}
 

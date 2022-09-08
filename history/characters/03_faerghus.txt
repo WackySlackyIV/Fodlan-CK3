@@ -221,14 +221,15 @@
 	dynasty=200
 	father=300022
 
+	diplomacy = 5
 	stewardship = 6
 	prowess = 7
 
 	trait = lazy
-	trait = content
+	trait = ambitious
 	trait = lustful
 
-	trait = education_diplomacy_1
+	trait = education_diplomacy_3
 
 	1137.2.12 = {
 		birth=yes
@@ -645,7 +646,7 @@
 	father=300022
 
 	diplomacy=9
-	martial=5
+	martial=8
 	stewardship=8
 	intrigue=4
 	learning=6
