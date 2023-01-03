@@ -1,0 +1,4 @@
+﻿bm_group_1180 = {
+	default_start_date = 1180.12.15
+}
+
