@@ -1,0 +1,4 @@
+﻿interaction_category_alliance = {
+	index=8
+	desc=ALLIANCE_ACTIONS
+}

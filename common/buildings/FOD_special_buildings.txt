@@ -1,0 +1,575 @@
+﻿##########
+# Garreg Mach Cathedral
+##########
+
+garreg_mach_cathedral_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_notre_dame_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_notre_dame.dds"
+	
+	can_construct_potential = {
+		barony = title:b_garreg_mach
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:christianity_religion
+			culture = {
+				has_innovation = innovation_windmills
+			}
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zanadic_religion
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+	duchy_capital_county_modifier = {
+		levy_size = 0.15
+		tax_mult = 0.15
+	}
+	character_modifier = {
+		monthly_piety = 1
+		learning_per_piety_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		county_opinion_add = 5
+		tax_mult = 0.2
+		development_growth_factor = 0.3
+		development_growth = 0.2
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = duchy_capital
+}
+
+##########
+# Officers Academy
+##########
+
+officers_academy_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		learning_per_prestige_level = 1
+		diplomacy_per_prestige_level = 1
+		monthly_piety_gain_per_knight_add = 0.1
+		knight_limit = 10
+		knight_effectiveness_mult = 0.25
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Enbarr Opera
+##########
+ebarr_opera_house_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_colosseum_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		diplomacy_per_prestige_level = 1
+		monthly_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.25
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+##########
+# Fhirdiad Magic Academy
+##########
+
+fhirdiad_academy_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		learning = 2
+		learning_per_prestige_level = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		monthly_prestige = 0.1
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Derdriu Harbor
+##########
+
+derdriu_harbor_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		stewardship_per_prestige_level = 1
+		monthly_prestige = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 5
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth = 0.5
+		development_growth_factor = 0.25
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# The Forts
+##########
+
+#known forts
+
+	#Fodlans Locket
+fodlans_locket_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 5
+		garrison_size = 1
+		defender_holding_advantage = 5
+	}
+	county_modifier = {
+		levy_size = 0.5
+		development_growth = 0.1
+		development_growth_factor = 0.1
+		hostile_raid_time = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+	#Myrddin bridge
+myrddin_bridge_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 2
+		garrison_size = 0.5
+		defender_holding_advantage = 3
+	}
+	county_modifier = {
+		levy_size = 0.2
+		development_growth = 0.2
+		development_growth_factor = 0.25
+		hostile_raid_time = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+	#Arianhrod (silver maiden)
+arianhrod_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.75
+		defender_holding_advantage = 5
+	}
+	county_modifier = {
+		levy_size = 0.4
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		hostile_raid_time = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}	
+
+	#Merceus (stubborn old general)
+merceus_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.75
+		defender_holding_advantage = 5
+	}
+	county_modifier = {
+		levy_size = 0.4
+		development_growth = 0.2
+		development_growth_factor = 0.1
+		hostile_raid_time = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}	
+
+#unknown new forts
+
+	#Cordelia (Weeping Lover)
+cordelia_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.5
+		defender_holding_advantage = 1
+	}
+	county_modifier = {
+		levy_size = 0.1
+		hostile_raid_time = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}	
+	
+	#Beverly (beverly hill)
+beverly_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.5
+		defender_holding_advantage = 1
+	}
+	county_modifier = {
+		levy_size = 0.1
+		hostile_raid_time = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+	#Ailell (Heavens Wrath)
+ailell_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = 1000
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.5
+		defender_holding_advantage = 1
+	}
+	county_modifier = {
+		levy_size = 0.1
+		hostile_raid_time = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Mines
+##########
+	#Hevring mines
+hevring_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = special_mine_building_tax_tier_1
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+	#kupala mines
+kupala_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = special_mine_building_tax_tier_1
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+##########
+# Ruins
+##########
+	#zanado
+zanado_01 = { #red canyon ruins
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	county_modifier = {
+		levy_size = -0.5
+		development_growth = -0.5
+		development_growth_factor = -0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+	#shamballah
+shamballah_01 = { #shamballah
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	county_modifier = {
+		levy_size = -0.5
+		development_growth = -0.5
+		development_growth_factor = -0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}

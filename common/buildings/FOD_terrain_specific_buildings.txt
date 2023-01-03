@@ -1,0 +1,1250 @@
+﻿##############################
+# Terrain Specific Buildings #
+##############################
+
+### PEGASUS
+
+pegasus_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		NOR = { 
+			terrain = taiga
+			terrain = forest
+		}
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	levy = 25
+
+	character_modifier = {
+		light_flyers_damage_mult = 0.04
+	}
+	
+	next_building = pegasus_02
+
+	type_icon = "icon_building_pastures.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+pegasus_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		NOR = { 
+			terrain = taiga
+			terrain = forest
+		}
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	levy = 30
+
+	character_modifier = {
+		light_flyers_damage_mult = 0.04
+		light_flyers_toughness_mult = 0.02
+		light_flyers_pursuit_mult = 0.02
+	}
+	
+	next_building = pegasus_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+pegasus_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		NOR = { 
+			terrain = taiga
+			terrain = forest
+		}
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	levy = 35
+
+	character_modifier = {
+		light_flyers_damage_mult = 0.06
+		light_flyers_toughness_mult = 0.04
+		light_flyers_pursuit_mult = 0.04
+		light_flyers_screen_mult = 0.02
+	}
+	
+	next_building = pegasus_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+pegasus_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		NOR = { 
+			terrain = taiga
+			terrain = forest
+		}
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 40
+
+	character_modifier = {
+		light_flyers_damage_mult = 0.08
+		light_flyers_toughness_mult = 0.06
+		light_flyers_pursuit_mult = 0.06
+		light_flyers_screen_mult = 0.04
+	}
+	
+	next_building = pegasus_05
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+pegasus_05 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		NOR = { 
+			terrain = taiga
+			terrain = forest
+		}
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 50
+
+	character_modifier = {
+		light_flyers_damage_mult = 0.1
+		light_flyers_toughness_mult = 0.08
+		light_flyers_pursuit_mult = 0.08
+		light_flyers_screen_mult = 0.06
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+### WYVERN
+
+wyvern_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		terrain = mountains
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	levy = 10
+
+	character_modifier = {
+		heavy_flyers_damage_mult = 0.02
+	}
+	
+	next_building = wyvern_02
+
+	type_icon = "icon_building_pastures.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+wyvern_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		terrain = mountains
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	levy = 20
+
+	character_modifier = {
+		heavy_flyers_damage_mult = 0.04
+		heavy_flyers_screen_mult = 0.02
+	}
+	
+	next_building = wyvern_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+wyvern_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		terrain = mountains
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	levy = 30
+
+	character_modifier = {
+		heavy_flyers_damage_mult = 0.08
+		heavy_flyers_toughness_mult = 0.02
+		heavy_flyers_pursuit_mult = 0.02
+		heavy_flyers_screen_mult = 0.04
+	}
+	
+	next_building = wyvern_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+wyvern_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		terrain = mountains
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 40
+
+	character_modifier = {
+		heavy_flyers_damage_mult = 0.16
+		heavy_flyers_toughness_mult = 0.02
+		heavy_flyers_pursuit_mult = 0.02
+		heavy_flyers_screen_mult = 0.04
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = wyverns_01
+			}
+		}
+	}
+}
+
+### HORSE
+
+horse_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	levy = 10
+
+	character_modifier = {
+		light_cav_damage_mult = 0.01
+		light_cav_toughness_mult = 0.01
+		heavy_cav_damage_mult = 0.01
+		heavy_cav_toughness_mult = 0.01
+		
+		missile_cav_screen_mult = 0.01
+		missile_cav_pursuit_mult = 0.01
+	}
+	
+	next_building = horse_02
+
+	type_icon = "icon_building_pastures.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = horse_01
+			}
+		}
+	}
+}
+
+horse_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	levy = 25
+
+	character_modifier = {
+		light_cav_damage_mult = 0.02
+		light_cav_toughness_mult = 0.02
+		heavy_cav_damage_mult = 0.02
+		heavy_cav_toughness_mult = 0.02
+		
+		light_cav_pursuit_mult = 0.01
+		light_cav_screen_mult = 0.01
+		heavy_cav_pursuit_mult = 0.01
+		heavy_cav_screen_mult = 0.01
+		
+		missile_cav_screen_mult = 0.02
+		missile_cav_pursuit_mult = 0.02
+	}
+	
+	next_building = horse_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = horse_01
+			}
+		}
+	}
+}
+
+horse_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	levy = 30
+
+	character_modifier = {
+		light_cav_damage_mult = 0.03
+		light_cav_toughness_mult = 0.03
+		heavy_cav_damage_mult = 0.03
+		heavy_cav_toughness_mult = 0.03
+		
+		light_cav_pursuit_mult = 0.02
+		light_cav_screen_mult = 0.02
+		heavy_cav_pursuit_mult = 0.02
+		heavy_cav_screen_mult = 0.02
+		
+		missile_cav_screen_mult = 0.03
+		missile_cav_pursuit_mult = 0.03
+	}
+	
+	next_building = horse_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = horse_01
+			}
+		}
+	}
+}
+
+horse_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 40
+
+	character_modifier = {
+		light_cav_damage_mult = 0.04
+		light_cav_toughness_mult = 0.04
+		heavy_cav_damage_mult = 0.04
+		heavy_cav_toughness_mult = 0.04
+		
+		light_cav_pursuit_mult = 0.04
+		light_cav_screen_mult = 0.04
+		heavy_cav_pursuit_mult = 0.04
+		heavy_cav_screen_mult = 0.04
+		
+		missile_cav_screen_mult = 0.04
+		missile_cav_pursuit_mult = 0.04
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = horse_01
+			}
+		}
+	}
+}
+
+### SPEAR
+
+spear_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	levy = 10
+
+	character_modifier = {
+		lances_toughness_mult = 0.04
+	}
+	
+	next_building = spear_02
+
+	type_icon = "icon_building_pastures.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = spear_01
+			}
+		}
+	}
+}
+
+spear_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	levy = 30
+
+	character_modifier = {
+		lances_toughness_mult = 0.06
+		lances_damage_mult = 0.02
+	}
+	
+	next_building = spear_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = spear_01
+			}
+		}
+	}
+}
+
+spear_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	levy = 50
+
+	character_modifier = {
+		lances_toughness_mult = 0.08
+		lances_damage_mult = 0.04
+		lances_pursuit_mult = 0.02
+		lances_screen_mult = 0.02
+	}
+	
+	
+	next_building = spear_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = spear_01
+			}
+		}
+	}
+}
+
+spear_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 75
+
+	character_modifier = {
+		lances_toughness_mult = 0.12
+		lances_damage_mult = 0.06
+		lances_pursuit_mult = 0.04
+		lances_screen_mult = 0.04
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = spear_01
+			}
+		}
+	}
+}
+
+### AXE
+
+axe_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	levy = 10
+
+	character_modifier = {
+		axes_damage_mult = 0.06
+	}
+	
+	next_building = axe_02
+
+	type_icon = "icon_building_pastures.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = axe_01
+			}
+		}
+	}
+}
+
+axe_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	levy = 20
+
+	character_modifier = {
+		axes_screen_mult = 0.02
+		axes_damage_mult = 0.1
+	}
+	
+	next_building = axe_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = axe_01
+			}
+		}
+	}
+}
+
+axe_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	levy = 30
+
+	character_modifier = {
+		axes_damage_mult = 0.14
+		axes_screen_mult = 0.06
+	}
+	
+	
+	next_building = axe_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = axe_01
+			}
+		}
+	}
+}
+
+axe_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 40
+
+	character_modifier = {
+		axes_damage_mult = 0.2
+		axes_screen_mult = 0.06
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = axe_01
+			}
+		}
+	}
+}
+
+### SWORD
+
+sword_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	levy = 20
+
+	character_modifier = {
+		swords_toughness_mult = 0.02
+		swords_damage_mult = 0.02
+		swords_pursuit_mult = 0.02
+		swords_screen_mult = 0.02
+	}
+	
+	next_building = sword_02
+
+	type_icon = "icon_building_pastures.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = sword_01
+			}
+		}
+	}
+}
+
+sword_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	levy = 40
+
+	character_modifier = {
+		swords_toughness_mult = 0.04
+		swords_damage_mult = 0.04
+		swords_pursuit_mult = 0.04
+		swords_screen_mult = 0.04
+	}
+	
+	next_building = sword_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = sword_01
+			}
+		}
+	}
+}
+
+sword_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	levy = 60
+
+	character_modifier = {
+		swords_toughness_mult = 0.06
+		swords_damage_mult = 0.06
+		swords_pursuit_mult = 0.06
+		swords_screen_mult = 0.06
+	}
+	
+	
+	next_building = sword_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = sword_01
+			}
+		}
+	}
+}
+
+sword_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	levy = 100
+
+	character_modifier = {
+		swords_toughness_mult = 0.08
+		swords_damage_mult = 0.08
+		swords_pursuit_mult = 0.08
+		swords_screen_mult = 0.08
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = sword_01
+			}
+		}
+	}
+}
+
+### ADRESTIAN VINEYARDS
+
+vineyard_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		geographical_region = world_fodlan_adrestia
+		OR = {
+			terrain = plains
+			terrain = farmlands
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+		
+	province_modifier = {
+		monthly_income = 0.3
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.01
+		county_opinion_add = 2
+	}
+	
+	next_building = vineyard_02
+
+	type_icon = "icon_building_orchards.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = vineyard_01
+			}
+		}
+	}
+}
+
+vineyard_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+		county_opinion_add = 5
+	}
+	
+	next_building = vineyard_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = vineyard_01
+			}
+		}
+	}
+}
+
+vineyard_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = 0.9
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.03
+		county_opinion_add = 7
+	}
+	
+	next_building = vineyard_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = vineyard_01
+			}
+		}
+	}
+}
+
+vineyard_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = 1.2
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.04
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = vineyard_01
+			}
+		}
+	}
+}
+
+### LEICESTER BEEHIVES
+
+beehive_01 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		geographical_region = world_fodlan_leicester
+		OR = {
+			terrain = plains
+			terrain = farmlands
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+		
+	province_modifier = {
+		monthly_income = 0.3
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.01
+		county_opinion_add = 2
+	}
+	
+	next_building = beehive_02
+
+	type_icon = "icon_building_beehive.dds"
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = beehive_01
+			}
+		}
+	}
+}
+
+beehive_02 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.02
+		county_opinion_add = 5
+	}
+	
+	next_building = beehive_03
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = beehive_01
+			}
+		}
+	}
+}
+
+beehive_03 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	province_modifier = {
+		monthly_income = 0.9
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.03
+		county_opinion_add = 7
+	}
+	
+	next_building = beehive_04
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = beehive_01
+			}
+		}
+	}
+}
+
+beehive_04 = {
+	construction_time = quick_construction_time
+
+	can_construct_potential = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	province_modifier = {
+		monthly_income = 1.2
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.04
+		county_opinion_add = 10
+	}
+	
+	ai_value = {
+		base = 10
+		ai_general_building_modifier = yes	
+		modifier = {
+			factor = 0
+			NOT = {
+				has_building_or_higher = beehive_01
+			}
+		}
+	}
+}

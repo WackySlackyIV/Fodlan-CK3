@@ -1,0 +1,155 @@
+﻿sacred_sword_seiros_visual = {
+	icon = "sacred_sword_seiros.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_axe_ukonvasara_visual = {
+	icon = "sacred_axe_ukonvasara.dds"
+	support_type = "short"
+	asset = ep1_western_axe_01_a_portrait_entity
+}
+
+sacred_staff_caduceus_visual = {
+	icon = "sacred_staff_caduceus.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_shield_ochain_visual = {
+	icon = "sacred_shield_ochain.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_spear_assal_visual = {
+	icon = "sacred_spear_assal.dds"
+	support_type = "short"
+	asset = ep1_western_spear_01_a_portrait_entity
+}
+
+sacred_sword_begalta_visual = {
+	icon = "sacred_sword_begalta_moralta.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_sword_moralta_visual = {
+	icon = "sacred_sword_begalta_moralta.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_shield_seiros_visual = {
+	icon = "sacred_shield_seiros.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_bow_inexhaustible_visual = {
+	icon = "sacred_bow_inexhaustible.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_bow_tathlum_visual = {
+	icon = "sacred_bow_tathlum.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+sacred_chalice_beginnings_visual = {
+	icon = "sacred_chalice_beginnings.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_shield_aegis_visual = {
+	icon = "relic_aegis_shield.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_spear_areadbhar_visual = {
+	icon = "relic_areadbhar.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_axe_aymr_visual = {
+	icon = "relic_aymr.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_sword_blutgang_visual = {
+	icon = "relic_blutgang.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_axe_crusher_visual = {
+	icon = "relic_crusher.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_bow_failnaught_visual = {
+	icon = "relic_failnaught.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_axe_freikugel_visual = {
+	icon = "relic_freikugel.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_lance_ruin_visual = {
+	icon = "relic_lance_ruin.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_lance_luin_visual = {
+	icon = "relic_luin.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_rafail_gem_visual = {
+	icon = "relic_rafail_gem.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_sword_creator_visual = {
+	icon = "relic_sword_creator.dds"
+	support_type = "short"
+	asset = sword_of_the_creator_portrait_entity
+}
+
+relic_sword_thunderbrand_visual = {
+	icon = "relic_thunderbrand.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_thyrsus_visual = {
+	icon = "relic_thyrsus.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_fetters_dromi_visual = {
+	icon = "relic_fetters_dromi.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
+
+relic_gauntlets_vajra_mushti_visual = {
+	icon = "relic_vajra_mushti.dds"
+	support_type = "short"
+	asset = ep1_western_sword_01_a_portrait_entity
+}
