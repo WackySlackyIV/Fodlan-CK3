@@ -46,8 +46,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_bow_failnaught_visual
 				modifier = artifact_bow_failnaught_modifier
 				save_scope_as = relic_bow_failnaught_scope
@@ -559,8 +557,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_thyrsus_visual
 				modifier = artifact_thyrsus_modifier
 				save_scope_as = relic_thyrsus_scope
@@ -853,8 +849,6 @@
 					type = created_before_history
 				}
 				type = axe
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_axe_freikugel_visual
 				modifier = artifact_axe_freikugel_modifier
 				save_scope_as = relic_axe_freikugel_scope

@@ -32,6 +32,54 @@ on_birth_mother = {
 				}
 			}
 		}
+		scope:child = {
+			if = {
+				limit = { has_trait = twin }
+				random_sibling = {
+					limit = { is_twin_of = scope:child }
+					save_scope_as = child_2
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = {
+					any_child = {
+						even_if_dead = yes
+						NOT = {
+							this = scope:child
+						}
+					}
+				}
+			}
+			create_character_memory = {
+				type = first_born
+				participants = {
+					child = scope:child
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { exists = scope:child_2 }
+				create_character_memory = {
+					type = twins_born
+					participants = {
+						child = scope:child
+						child_2 = scope:child_2
+					}
+				}
+			}
+			else = {
+				create_character_memory = {
+					type = child_born
+					participants = {
+						child = scope:child
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -66,6 +114,54 @@ on_birth_father = {
 				}
 			}
 		}
+        scope:child = {
+            if = {
+                limit = { has_trait = twin }
+                random_sibling = {
+                    limit = { is_twin_of = scope:child }
+                    save_scope_as = child_2
+                }
+            }
+        }
+		
+		if = {
+			limit = {
+				NOT = {
+					any_child = {
+						even_if_dead = yes
+						NOT = {
+							this = scope:child
+						}
+					}
+				}
+			}
+			create_character_memory = {
+				type = first_born
+				participants = {
+					child = scope:child
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { exists = scope:child_2 }
+				create_character_memory = {
+					type = twins_born
+					participants = {
+						child = scope:child
+						child_2 = scope:child_2
+					}
+				}
+			}
+			else = {
+				create_character_memory = {
+					type = child_born
+					participants = {
+						child = scope:child
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -89,8 +185,10 @@ on_birth_real_father = {
 # scope:is_bastard, true if a known bastard
 on_birth_child = {
 	events = {
+		# middle_east_decisions.0012 #Saoshyant Descendants.
 		major_decisions.0101 #Divine/Consecrated Blood Descendants.
 		birth.8001 #Reincarnation
+		# birth.8011 #Born in the Purple
 		trait_specific.0500 #To handle genetic traits not expressed until later in life
 		debug.0010 # Disease data tracking
 	}

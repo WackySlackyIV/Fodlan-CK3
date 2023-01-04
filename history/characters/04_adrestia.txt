@@ -710,8 +710,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_rafail_gem_visual
 				modifier = artifact_rafail_gem_modifier
 				save_scope_as = relic_rafail_gem_scope

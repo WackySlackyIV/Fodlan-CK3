@@ -174,7 +174,6 @@ on_faith_monthly = {
 		#great_holy_war.0022 #Pope harasses players for not pledging support to Crusade yet.
 		#great_holy_war.0030 #Monthly cleanup for Beneficiaries becoming unfit for various reasons.
 	}
-	
 }
 
 faith_holy_order_land_acquisition_pulse = {
@@ -218,7 +217,7 @@ faith_heresy_events_pulse = {
 	trigger = {
 		fervor <= 40
 		NOR = {
-			has_doctrine = unreformed_faith_doctrine
+			has_doctrine_parameter = unreformed
 			has_variable = current_heresy
 		}
 	}
@@ -247,7 +246,7 @@ faith_heresy_events_pulse = {
 faith_fervor_events_pulse = {
 	trigger = {
 		NOR = {
-			has_doctrine = unreformed_faith_doctrine
+			has_doctrine_parameter = unreformed
 			has_variable = recent_fervor_event
 		}
 	}

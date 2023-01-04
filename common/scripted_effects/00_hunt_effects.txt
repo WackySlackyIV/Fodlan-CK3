@@ -172,6 +172,7 @@ select_local_animal_effect = {
 
 #Used to find a local big animal
 big_animal_effect = {
+	location.county = { save_scope_as = location }
 	hidden_effect = {
 		random_list = {
 			40 = {
@@ -449,6 +450,11 @@ start_hunt_mystical_animal_story_cycle_effect = {
 #Effect to end the story and apply everything - You got the animal!
 end_hunt_mystical_animal_story_cycle_effect = {
 	add_prestige = major_prestige_gain
+	give_nickname = nick_the_venator
+	change_trait_rank = {
+		trait = lifestyle_hunter
+		rank = 1
+	}
 	add_character_modifier = {
 		modifier = hunt_mystical_animal_modifier
 		years = 20

@@ -43,10 +43,27 @@ disinherit_interaction = {
 	}
 
 	is_valid_showing_failures_only = {
+		trigger_if = {
+			limit = {
+				NOT = { # in such cases, it will be free so no need to check for Renown
+					scope:recipient = {
+						OR = {
+							has_trait = disputed_heritage
+							any_secret = {
+								secret_type = secret_disputed_heritage
+								is_known_by = scope:actor
+							}
+							has_trait = bastard
+						}
+					}
+				}
+			}
 		scope:actor.dynasty = {
 			dynasty_prestige >= medium_dynasty_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		}
+
+		scope:recipient = { is_busy_in_events_localised = yes }
 		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
 		trigger_if = {
 			limit = {
@@ -77,6 +94,12 @@ disinherit_interaction = {
 				forgiving = minor_stress_impact_gain
 				compassionate = minor_stress_impact_gain
 			}
+
+			add_character_modifier = {
+				modifier = parent_disinherited_child_modifier
+				years = 5
+			}
+
 			hidden_effect = {
 				send_interface_toast = {
 					title = disinherit_interaction_notification
@@ -95,6 +118,26 @@ disinherit_interaction = {
 
 		scope:recipient = {
 			disinherit_effect = { DISINHERITOR = scope:actor }
+		}
+
+		if = {
+			limit = {
+				scope:recipient = {
+					any_secret = {
+						secret_type = secret_disputed_heritage
+						is_known_by = scope:actor
+						save_temporary_scope_as = secret_to_reveal
+					}
+				}
+			}
+
+			scope:secret_to_reveal = {
+				expose_secret = scope:recipient.mother
+			}
+
+			scope:recipient = {
+				add_trait = disputed_heritage
+			}
 		}
 	}
 	
@@ -121,6 +164,21 @@ disinherit_interaction = {
 					}
 					add = medium_dynasty_prestige_value
 				}
+				if = {
+					limit = {
+						scope:recipient = {
+							OR = {
+								has_trait = disputed_heritage
+								any_secret = {
+									secret_type = secret_disputed_heritage
+									is_known_by = scope:actor
+								}
+								has_trait = bastard
+							}
+						}
+					}
+					multiply = 0
+				}
 			}
 		}
 		prestige = {
@@ -144,6 +202,21 @@ disinherit_interaction = {
 						}
 					}
 					add = medium_prestige_value
+				}
+				if = {
+					limit = {
+						scope:recipient = {
+							OR = {
+								has_trait = disputed_heritage
+								any_secret = {
+									secret_type = secret_disputed_heritage
+									is_known_by = scope:actor
+								}
+								has_trait = bastard
+							}
+						}
+					}
+					multiply = 0
 				}
 			}
 		}
@@ -332,7 +405,7 @@ disinherit_children_interaction = {
 		scope:actor = {
 			prestige >= major_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		scope:recipient = { is_busy_in_events_localised = yes }
 		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
 		trigger_if = {
 			limit = {
@@ -577,7 +650,7 @@ restore_inheritance_interaction = {
 		scope:actor.dynasty ={
 			dynasty_prestige >= miniscule_dynasty_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		scope:recipient = { is_busy_in_events_localised = yes }
 	}
 
 	on_auto_accept = {
@@ -690,7 +763,7 @@ denounce_interaction = {
 		scope:actor.dynasty = {
 			dynasty_prestige >= minor_dynasty_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		scope:recipient = { is_busy_in_events_localised = yes }
 		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
 	}
 
@@ -922,7 +995,7 @@ forgive_interaction = {
 		scope:actor.dynasty = {
 			dynasty_prestige >= miniscule_dynasty_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		scope:recipient = { is_busy_in_events_localised = yes }
 	}
 
 	on_auto_accept = {
@@ -1165,6 +1238,22 @@ call_dynasty_member_to_war_interaction = {
 	
 	ai_accept = {
 		base = 20
+
+		modifier = {  # Refuse call to conflicts of little benefit
+			add = -1000
+			desc = WONT_FIGHT_MEANINGLESS_REASON
+			trigger_if = {
+				limit = { exists = scope:target }
+				scope:target = { using_cb = fp2_border_raid }
+				scope:recipient = { # Unless they like going on raids
+					NOR = {
+						has_trait = viking
+						has_trait = reaver
+					}
+				}
+			}
+			trigger_else = { always = no }
+		}
 
 		modifier = {  # Refuse call against Heir
 			add = -1000
@@ -1417,7 +1506,7 @@ dynast_end_dynasty_wars_interaction = {
 		scope:actor.dynasty = {
 			dynasty_prestige >= medium_dynasty_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		scope:recipient = { is_busy_in_events_localised = yes }
 		scope:actor = {
 			NOT = {
 				is_at_war_with = scope:recipient
@@ -1473,7 +1562,7 @@ dynast_legitimize_bastard_interaction = {
 		scope:actor.dynasty = {
 			dynasty_prestige >= medium_dynasty_prestige_value
 		}
-		scope:recipient = { is_diplomatically_available = yes }
+		scope:recipient = { is_busy_in_events_localised = yes }
 	}
 
 	auto_accept = yes

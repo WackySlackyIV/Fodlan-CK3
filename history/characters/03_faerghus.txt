@@ -757,8 +757,6 @@
 					type = created_before_history
 				}
 				type = spear
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_lance_luin_visual
 				modifier = artifact_lance_luin_modifier
 				save_scope_as = relic_lance_luin_scope
@@ -817,8 +815,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_shield_aegis_visual
 				modifier = artifact_shield_aegis_modifier
 				save_scope_as = relic_shield_aegis_scope
@@ -911,8 +907,6 @@
 					type = created_before_history
 				}
 				type = spear
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_lance_ruin_visual
 				modifier = artifact_lance_ruin_modifier
 				save_scope_as = relic_lance_ruin_scope

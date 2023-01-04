@@ -661,7 +661,7 @@ court_chaplain_conversion_contextual_bonuses = {
 				religion = religion:germanic_religion
 			}
 			scope:county.faith = {
-				NOT = { has_doctrine = unreformed_faith_doctrine }
+				NOT = { has_doctrine_parameter = unreformed }
 			}
 		}
 		add = {

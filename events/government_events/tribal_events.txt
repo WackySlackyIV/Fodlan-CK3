@@ -1547,7 +1547,8 @@ tribal.1203 = {
 			}
 			progress_towards_friend_effect = {
 				CHARACTER = scope:racer
-				OPINION = yes
+				OPINION = default_friend_opinion
+				REASON = friend_helped_during_horse_race
 			}
 			scope:racer = {
 				add_character_modifier = {
@@ -1562,7 +1563,8 @@ tribal.1203 = {
 			}
 			progress_towards_friend_effect = {
 				CHARACTER = scope:villain_racer
-				OPINION = yes
+				OPINION = default_friend_opinion
+				REASON = friend_helped_during_horse_race
 			}
 			scope:villain_racer = {
 				add_character_modifier = {
@@ -1711,8 +1713,9 @@ tribal.1203 = {
 			}
 		}
 		progress_towards_rival_effect = {
+			REASON = rival_jump_to_rivals_horse
 			CHARACTER = scope:villain_racer
-			OPINION = yes
+			OPINION = default_rival_opinion
 		}
 		save_scope_value_as = {
 			name = jumped_horses

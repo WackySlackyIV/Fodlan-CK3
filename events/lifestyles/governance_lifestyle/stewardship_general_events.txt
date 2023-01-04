@@ -631,9 +631,11 @@ stewardship_general.2001 = {
 				stewardship >= decent_skill_rating
 				has_trait = greedy
 				has_dynasty = no
+				is_available_adult = yes
 			}
 			alternative_limit = {
 				stewardship >= decent_skill_rating
+				is_available_adult = yes
 			}
 			save_scope_as = peddler
 		}

@@ -157,8 +157,8 @@ feast_default_host_event_selection = { #Picks out the event for the host of a de
 		50 = feast_default.6231 #There's no more wine!
 		50 = feast_default.6261 #Serve the guests something new (cannibal)
 		#RoCo Content
-		10 = feast_default.6301 # Your court artifact on display has been damaged!
-		10000 = feast_default.6351 # Two guests get into a fight, causing damage to one of your displayed Court Artifacts!
+		3 = feast_default.6301 # Your court artifact on display has been damaged!
+		3 = feast_default.6351 # Two guests get into a fight, causing damage to one of your displayed Court Artifacts!
 	}
 	fallback = feast_default_fallback
 }

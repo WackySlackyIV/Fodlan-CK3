@@ -46,38 +46,53 @@ graphical_wilderness_desert_trigger = {
 		terrain = desert
 		terrain = desert_mountains
 		terrain = oasis
-		terrain = desert_hills
 	}
 }
 
 graphical_wilderness_forest_pine_trigger = {
-	OR = {
-		terrain = taiga
-		terrain = forest
-		always = no
-	}
+	terrain = taiga
 }
 
 graphical_wilderness_forest_trigger = {
 	OR = {
-		terrain = jungle
 		terrain = forest
 		terrain = farmlands
-		terrain = wetlands
-		terrain = plains
 	}
 }
 
 graphical_wilderness_mountains_trigger = {
 	terrain = mountains
-	terrain = mountain_valley
 }
 
 graphical_wilderness_steppe_trigger = {
+	terrain = steppe
+}
+
+graphical_drylands_trigger = {
+	terrain = drylands
+}
+
+graphical_wilderness_wetlands_trigger = {
 	OR = {
-		terrain = steppe
-		terrain = drylands
+		terrain = wetlands
+		terrain = floodplains
 	}
+}
+
+graphical_wilderness_jungle_trigger = {
+	terrain = jungle
+}
+
+graphical_plains_trigger = {
+	terrain = plains
+}
+
+graphical_wilderness_ocean_trigger = {
+	is_sea_province = yes
+}
+
+graphical_hills_trigger = {
+	terrain = hills
 }
 
 ### Scripted illustrations

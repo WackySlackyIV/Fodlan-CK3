@@ -378,13 +378,13 @@ task_conversion = {
 					scope:councillor_liege = {
 						is_ai = yes
 						faith = {
-							has_doctrine = unreformed_faith_doctrine
+							has_doctrine_parameter = unreformed
 						}
 					}
 				}
 				OR = {
 					scope:councillor_liege = { ai_zeal >= 50 }
-					scope:county.faith = { has_doctrine = unreformed_faith_doctrine }
+					scope:county.faith = { has_doctrine_parameter = unreformed }
 					scope:county = { # Always convert holy sites
 						any_county_province = {
 							barony = {
@@ -492,7 +492,7 @@ task_conversion = {
 				}
 				OR = {
 					scope:councillor_liege = { ai_zeal >= 50 }
-					scope:county.faith = { has_doctrine = unreformed_faith_doctrine }
+					scope:county.faith = { has_doctrine_parameter = unreformed }
 					scope:councillor_liege.faith = {
 						any_holy_site = {
 							county = {
@@ -500,8 +500,9 @@ task_conversion = {
 							}
 						}
 					}
-					scope:county.religion = scope:councillor_liege.religion
-
+					#scope:county.religion = scope:councillor_liege.religion # Excluded, as tax nonbelievers actually works for different faiths within the same religion
+				}
+			}
 			# Struggle phases may sometimes restrict targets for involved characters.
 			trigger_if = {
 				# Give an exception for pre-existing conversions: these can take a while and it's not fair to lose years or decades of progress to a phase change.
@@ -805,10 +806,7 @@ task_fabricate_claim = {
 							this = scope:county.holder.liege
 						}
 					}
-					scope:county.holder.max_military_strength > {
-						value = scope:councillor_liege.max_military_strength
-						multiply = 1.2
-					}
+					scope:county.holder.max_military_strength > scope:councillor_liege.council_task_fabricate_claim_relative_strength
 				}
 				subtract = 10000
 			}
@@ -835,10 +833,7 @@ task_fabricate_claim = {
 							this = scope:county.holder.liege.liege
 						}
 					}
-					scope:county.holder.liege.max_military_strength > {
-						value = scope:councillor_liege.max_military_strength
-						multiply = 1.2
-					}
+					scope:county.holder.liege.max_military_strength > scope:councillor_liege.council_task_fabricate_claim_relative_strength
 				}
 				subtract = 10000
 			}
@@ -865,10 +860,7 @@ task_fabricate_claim = {
 							this = scope:county.holder.liege.liege.liege
 						}
 					}
-					scope:county.holder.liege.liege.max_military_strength > {
-						value = scope:councillor_liege.max_military_strength
-						multiply = 1.2
-					}
+					scope:county.holder.liege.liege.max_military_strength > scope:councillor_liege.council_task_fabricate_claim_relative_strength
 				}
 				subtract = 10000
 			}
@@ -895,10 +887,7 @@ task_fabricate_claim = {
 							this = scope:county.holder.liege.liege.liege.liege
 						}
 					}
-					scope:county.holder.liege.liege.liege.max_military_strength > {
-						value = scope:councillor_liege.max_military_strength
-						multiply = 1.2
-					}
+					scope:county.holder.liege.liege.liege.max_military_strength > scope:councillor_liege.council_task_fabricate_claim_relative_strength
 				}
 				subtract = 10000
 			}
@@ -919,10 +908,7 @@ task_fabricate_claim = {
 		}
 		else_if = {
 			limit = {
-				scope:county.holder.top_liege.max_military_strength > {
-					value = scope:councillor_liege.max_military_strength
-					multiply = 1.2
-				}
+				scope:county.holder.top_liege.max_military_strength > scope:councillor_liege.council_task_fabricate_claim_relative_strength
 			}
 			subtract = 10000
 		}

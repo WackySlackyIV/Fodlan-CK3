@@ -28,7 +28,7 @@ royal_garden_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -60,6 +60,10 @@ royal_garden_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -79,7 +83,7 @@ royal_garden_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -128,7 +132,7 @@ royal_garden_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -179,7 +183,7 @@ military_academy_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -203,6 +207,10 @@ military_academy_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -222,7 +230,7 @@ military_academy_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -263,7 +271,7 @@ military_academy_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -304,7 +312,7 @@ march_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -332,6 +340,10 @@ march_01 = {
 			scope:holder.capital_province = this
 		}
 		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -351,7 +363,7 @@ march_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -396,7 +408,7 @@ march_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -441,7 +453,7 @@ siege_works_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -468,6 +480,10 @@ siege_works_01 = {
 			scope:holder.capital_province = this
 		}
 		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -487,7 +503,7 @@ siege_works_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -531,7 +547,7 @@ siege_works_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -576,7 +592,7 @@ royal_armory_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -584,6 +600,10 @@ royal_armory_01 = {
 	
 	duchy_capital_county_modifier = {
 		levy_size = 0.2
+	}
+
+	character_modifier = {
+		army_maintenance_mult = -0.025
 	}
 
 	character_culture_modifier = {
@@ -610,6 +630,10 @@ royal_armory_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -635,7 +659,7 @@ royal_armory_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -643,6 +667,10 @@ royal_armory_02 = {
 	
 	duchy_capital_county_modifier = {
 		levy_size = 0.3
+	}
+
+	character_modifier = {
+		army_maintenance_mult = -0.035
 	}
 
 	duchy_capital_county_culture_modifier = {
@@ -691,8 +719,12 @@ royal_armory_03 = {
 		holding_build_gold_cost = -0.2
 	}
 	
+	character_modifier = {
+		army_maintenance_mult = -0.05
+	}
+	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -731,7 +763,7 @@ jousting_lists_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -759,6 +791,25 @@ jousting_lists_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Don't build unsuitable MaA-boosting duchy buildings
+			factor = 0
+			scope:holder = {
+				NOR = {
+					number_maa_regiments_of_base_type = {
+						type = heavy_cav
+						value > 0
+					}
+					number_maa_regiments_of_base_type = {
+						type = light_cav
+						value > 0
+					}
+				}
+			}
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -778,7 +829,7 @@ jousting_lists_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -823,7 +874,7 @@ jousting_lists_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -868,7 +919,7 @@ blacksmiths_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -907,6 +958,25 @@ blacksmiths_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Don't build unsuitable MaA-boosting duchy buildings
+			factor = 0
+			scope:holder = {
+				NOR = {
+					number_maa_regiments_of_base_type = {
+						type = lances
+						value > 0
+					}
+					number_maa_regiments_of_base_type = {
+						type = axes
+						value > 0
+					}
+				}
+			}
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -938,7 +1008,7 @@ blacksmiths_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -993,7 +1063,7 @@ blacksmiths_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1036,7 +1106,7 @@ archery_ranges_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1050,6 +1120,10 @@ archery_ranges_01 = {
 		swords_toughness_mult = 0.05
 		swords_pursuit_mult = 0.1
 		men_at_arms_maintenance = -0.06
+		missile_cav_screen_mult = 0.05
+		missile_cav_damage_mult = 0.1
+		missile_cav_toughness_mult = 0.05
+		missile_cav_pursuit_mult = 0.1
 	}
 	
 	next_building = archery_ranges_02
@@ -1063,6 +1137,29 @@ archery_ranges_01 = {
 		modifier = {
 			factor = 2
 			scope:holder.capital_province = this
+		}
+		modifier = { # Don't build unsuitable MaA-boosting duchy buildings
+			factor = 0
+			scope:holder = {
+				NOR = {
+					number_maa_regiments_of_base_type = {
+						type = bows
+						value > 0
+					}
+					number_maa_regiments_of_base_type = {
+						type = swords
+						value > 0
+					}
+					number_maa_regiments_of_base_type = {
+						type = missile_cav
+						value > 0
+					}
+				}
+			}
+		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
 		}
 	}
 }
@@ -1083,7 +1180,7 @@ archery_ranges_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1097,6 +1194,10 @@ archery_ranges_02 = {
 		swords_toughness_mult = 0.1
 		swords_pursuit_mult = 0.2
 		men_at_arms_maintenance = -0.08
+		missile_cav_screen_mult = 0.1
+		missile_cav_damage_mult = 0.2
+		missile_cav_toughness_mult = 0.1
+		missile_cav_pursuit_mult = 0.2
 	}
 	
 	next_building = archery_ranges_03
@@ -1128,7 +1229,7 @@ archery_ranges_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1142,6 +1243,10 @@ archery_ranges_03 = {
 		swords_toughness_mult = 0.15
 		swords_pursuit_mult = 0.3
 		men_at_arms_maintenance = -0.1
+		missile_cav_screen_mult = 0.15
+		missile_cav_damage_mult = 0.3
+		missile_cav_toughness_mult = 0.15
+		missile_cav_pursuit_mult = 0.3
 	}
 	
 	type = duchy_capital
@@ -1173,7 +1278,7 @@ tax_assessor_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1195,6 +1300,10 @@ tax_assessor_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -1214,7 +1323,7 @@ tax_assessor_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1253,7 +1362,7 @@ tax_assessor_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1292,7 +1401,7 @@ leisure_palace_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1333,6 +1442,10 @@ leisure_palace_01 = {
 				}
 			}
 		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -1352,7 +1465,7 @@ leisure_palace_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1399,7 +1512,7 @@ leisure_palace_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1454,7 +1567,7 @@ royal_forest_01 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1480,6 +1593,10 @@ royal_forest_01 = {
 			factor = 2
 			scope:holder.capital_province = this
 		}
+		modifier = { # Fill all building slots before going for duchy buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 }
 
@@ -1499,7 +1616,7 @@ royal_forest_02 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	
@@ -1542,7 +1659,7 @@ royal_forest_03 = {
 	}
 	
 	is_enabled = {
-		county.duchy.holder = county.holder
+		county.holder = { has_title = prev.duchy }
 	}
 	show_disabled = yes
 	

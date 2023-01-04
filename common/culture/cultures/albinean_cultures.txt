@@ -62,7 +62,7 @@ avanertun = {
 		tradition_winter_warriors
 		tradition_hill_dwellers
 		tradition_isolationist
-		tradition_dexterous_fishermen
+		tradition_fishermen
 		tradition_stalwart_defenders
 	}
 

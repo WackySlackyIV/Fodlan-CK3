@@ -301,7 +301,7 @@ ailish = {
 		tradition_isolationist
 		tradition_fervent_temple_builders
 		tradition_longbow_competitions
-		tradition_bound_by_faith
+		tradition_faith_bound
 	}
 
 	name_list = name_list_english

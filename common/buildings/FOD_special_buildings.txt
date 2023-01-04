@@ -58,6 +58,10 @@ garreg_mach_cathedral_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = duchy_capital
@@ -99,6 +103,10 @@ officers_academy_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -140,6 +148,10 @@ ebarr_opera_house_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -179,6 +191,10 @@ fhirdiad_academy_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -215,6 +231,10 @@ derdriu_harbor_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -253,6 +273,10 @@ fodlans_locket_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -285,6 +309,10 @@ myrddin_bridge_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -317,6 +345,10 @@ arianhrod_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -349,6 +381,10 @@ merceus_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -381,6 +417,10 @@ cordelia_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -411,6 +451,10 @@ beverly_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -441,6 +485,10 @@ ailell_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -481,6 +529,10 @@ hevring_mines_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -518,6 +570,10 @@ kupala_mines_01 = {
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -545,6 +601,10 @@ zanado_01 = { #red canyon ruins
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -569,6 +629,10 @@ shamballah_01 = { #shamballah
 	
 	ai_value = {
 		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special

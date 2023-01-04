@@ -10,6 +10,7 @@
 ######################
 
 drinks_alcohol_trigger = {
+	always = yes
 }
 
 holder_or_above_is_player_of_culture = {

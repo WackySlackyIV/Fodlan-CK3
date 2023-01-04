@@ -191,7 +191,10 @@ claim_throne_failure_effect = {
 			}
 			if = {
 				limit = { exists = scope:set_rivalry }
-				set_relation_rival = scope:owner
+				set_relation_rival = {
+					target = scope:owner
+					reason = rival_claimed_throne_failed
+				}
 			}
 		}
 	}
@@ -208,7 +211,10 @@ successful_claim_throne_event_option_effect = {
 		scope:target = {
 			if = {
 				limit = { exists = scope:set_rivalry }
-				set_relation_rival = scope:owner
+				set_relation_rival = {
+					target = scope:owner
+					reason = rival_claimed_throne
+				}
 			}
 			if = {
 				limit = { exists = scope:scheme_discovered }
@@ -238,13 +244,5 @@ claim_throne_decline_execution_effect = {
 	custom_tooltip = do_not_execute_claim_throne_tooltip
 	hidden_effect = {
 		scope:scheme = { add_scheme_progress = -10 }
-	}
-}
-
-
-claim_throne_set_mythical_founder_variable_effect = {
-	set_variable = {
-		name = mythical_founder
-		value = flag:fallback
 	}
 }

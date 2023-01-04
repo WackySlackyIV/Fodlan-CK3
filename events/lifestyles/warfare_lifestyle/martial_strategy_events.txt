@@ -1946,7 +1946,7 @@ martial_strategy_special.1301 = {
 	title = martial_strategy_special.1301.t
 	desc = martial_strategy_special.1301.desc
 	
-	left_portrait = root
+	left_portrait = root # I've gone ahead and updated most animations now that we have weapons - Hugo
 	right_portrait = scope:siege_proposer
 	theme = martial_strategy_focus
 	override_background = {
@@ -3036,7 +3036,7 @@ martial_strategy_special.1402 = {
 	desc = martial_strategy_special.1402.desc
 	theme = martial_strategy_focus
 	override_background = {
-		event_background = tavern
+		event_background = bp1_crossroads_inn
 	}
 	left_portrait = {
 		character = root

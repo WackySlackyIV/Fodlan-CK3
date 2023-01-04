@@ -3,5 +3,5 @@
 }
 
 slither = {
-	parent = argartha
+	parent = agartha
 }

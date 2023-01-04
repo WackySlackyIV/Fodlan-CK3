@@ -257,6 +257,7 @@ warfare_stablemaster_tamed_wild_horse_modifier = {
 }
 
 warfare_tamer_of_horses_modifier = {
+	icon = horse_positive
 	monthly_prestige = 0.25
 	prowess = 1
 }

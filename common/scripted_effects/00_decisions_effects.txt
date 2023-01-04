@@ -681,6 +681,25 @@ found_cadet_house_decision_effect = {
 		}
 		if = {
 			limit = {
+				any_child = {
+					has_trait = bastard
+					is_lowborn = no
+					dynasty = scope:new_head.dynasty
+					NOT =  { house = scope:new_house }
+				}
+			}
+			every_child = {
+				limit = {
+					has_trait = bastard
+					is_lowborn = no
+					dynasty = scope:new_head.dynasty
+					NOT =  { house = scope:new_house }
+				}
+				set_house = scope:new_house
+			}
+		}
+		if = {
+			limit = {
 				any_artifact = {
                 	trigger_if = {
                     	limit = { exists = var:banner_dynasty }
@@ -711,7 +730,9 @@ found_cadet_house_decision_effect = {
 				}
 				save_scope_as = new_branch_dynasty_banner
 			}
-			scope:new_house = { add_house_artifact_claim = scope:new_branch_dynasty_banner }
+			scope:new_house = {
+				add_house_artifact_claim = scope:new_branch_dynasty_banner
+			}
 		}
 	}
 }

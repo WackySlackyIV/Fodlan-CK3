@@ -48,8 +48,6 @@
 					type = created_before_history
 				}
 				type = sword
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = sacred_sword_seiros_visual
 				modifier = artifact_sword_seiros_modifier
 				save_scope_as = sacred_sword_seiros_scope
@@ -64,8 +62,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = sacred_shield_seiros_visual
 				modifier = artifact_shield_seiros_modifier
 				save_scope_as = sacred_shield_seiros_scope
@@ -80,8 +76,6 @@
 					type = created_before_history
 				}
 				type = goblet
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = sacred_chalice_beginnings_visual
 				modifier = artifact_chalice_beginnings_modifier
 				save_scope_as = sacred_chalice_beginnings_scope
@@ -179,8 +173,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = sacred_shield_ochain_visual
 				modifier = artifact_shield_ochain_modifier
 				save_scope_as = sacred_shield_ochain_scope
@@ -195,8 +187,6 @@
 					type = created_before_history
 				}
 				type = spear
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = sacred_spear_assal_visual
 				modifier = artifact_spear_assal_modifier
 				save_scope_as = sacred_spear_assal_scope
@@ -258,8 +248,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = sacred_staff_caduceus_visual
 				modifier = artifact_staff_caduceus_modifier
 				save_scope_as = sacred_staff_caduceus_scope
@@ -667,8 +655,6 @@
 					type = created_before_history
 				}
 				type = sword
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_sword_thunderbrand_visual
 				modifier = artifact_sword_thunderbrand_modifier
 				save_scope_as = relic_sword_thunderbrand_scope
@@ -731,8 +717,6 @@
 					type = created_before_history
 				}
 				type = regalia
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_fetters_dromi_visual
 				modifier = artifact_fetters_dromi_modifier
 				save_scope_as = relic_fetters_dromi_scope
@@ -797,8 +781,6 @@
 					type = created_before_history
 				}
 				type = sword
-				wealth = scope:wealth
-				quality = scope:quality
 				visuals = relic_gauntlets_vajra_mushti_visual
 				modifier = artifact_gauntlets_vajra_mushti_modifier
 				save_scope_as = relic_gauntlets_vajra_mushti_scope

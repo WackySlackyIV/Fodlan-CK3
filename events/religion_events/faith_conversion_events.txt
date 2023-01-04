@@ -42,6 +42,18 @@ faith_conversion.0002 = {
 		remove_character_modifier = defiant_high_king_conversion_boost_modifier
 		remove_character_modifier = defiant_high_queen_conversion_boost_modifier
 		remove_character_modifier = fp1_jomsvikings_caused_faith_crisis_modifier
+		remove_character_modifier = fp2_opportunistic_schismatic_modifier
+		remove_character_modifier = fp2_friend_of_the_old_ways_modifier
+		# If you championed the old ways but then reform regardless, get booted down to friend.
+		if = {
+			limit = {
+				faith.religion = scope:old_faith.religion
+				has_character_modifier = fp2_champion_of_the_old_ways_modifier
+			}
+			remove_character_modifier = fp2_champion_of_the_old_ways_modifier
+			add_character_modifier = fp2_friend_of_the_old_ways_modifier
+		}
+		else = { remove_character_modifier = fp2_champion_of_the_old_ways_modifier }
 
 
 		bastard_to_wild_oat_conversion_effect = yes

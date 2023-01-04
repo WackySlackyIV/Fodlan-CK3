@@ -7,7 +7,7 @@
 #######################
 
 tradition_fp1_coastal_warriors = {
-	category = realm
+	category = combat
 
 	layers = {
 		0 = martial

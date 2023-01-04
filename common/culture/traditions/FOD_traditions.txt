@@ -12,7 +12,7 @@ tradition_crest_succession = {
 	}
 	can_pick = {
 		has_cultural_pillar = heritage_fodlan
-		has_religion = religion:zanadic_religion
+		#has_religion = religion:zanadic_religion
 	}
 	
 	parameters = {

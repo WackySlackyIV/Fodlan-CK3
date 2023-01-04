@@ -995,6 +995,7 @@ fp1_yearly.0661 = {
 					progress_towards_friend_effect = {
 						CHARACTER = scope:knight
 						OPINION = 30
+						REASON = friend_ski_race
 					}
 				}
 			}
@@ -1013,6 +1014,7 @@ fp1_yearly.0661 = {
 					progress_towards_friend_effect = {
 						CHARACTER = scope:knight
 						OPINION = 10
+						REASON = friend_ski_race
 					}
 				}
 			}
@@ -1052,6 +1054,7 @@ fp1_yearly.0661 = {
 		progress_towards_friend_effect = {
 			CHARACTER = scope:knight
 			OPINION = 50
+			REASON = friend_ski_race
 		}
 
 		stress_impact = {
@@ -1117,6 +1120,7 @@ fp1_yearly.0661 = {
 					left_icon = scope:knight
 					add_prestige = medium_prestige_loss
 					progress_towards_rival_effect = {
+						REASON = rival_attempted_to_cheat_race
 						CHARACTER = scope:knight
 						OPINION = -40
 					}
@@ -1315,7 +1319,8 @@ fp1_yearly.0671 = {
 		# Grow closer to becoming friends with scope:child, if possible.
 		progress_towards_friend_effect = {
 			CHARACTER = scope:child
-			OPINION = no
+			OPINION = 0
+			REASON = friend_sledding
 		}
 
 		stress_impact = {
@@ -1399,6 +1404,7 @@ fp1_yearly.0671 = {
 			progress_towards_friend_effect = {
 				CHARACTER = scope:sibling
 				OPINION = 30
+				REASON = friend_sledding
 			}
 		}
 
