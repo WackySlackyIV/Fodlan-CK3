@@ -84,6 +84,9 @@
  denatlar_collective_noun:0 "Denatlian"
  ailish:0 "Ailish"
  ailish_collective_noun:0 "Ailish"
+ shangri_la:0 "Shangri La"
+ shangri_la_collective_noun:0 "Shangri La"
+
  
  #traditions
  tradition_crest_succession_name:0 "Crest Succession"
