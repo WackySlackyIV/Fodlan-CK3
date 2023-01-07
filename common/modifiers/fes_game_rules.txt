@@ -1,4 +1,4 @@
-fodlan_quick_siege = {
+﻿fodlan_quick_siege = {
   icon = martial_positive
   siege_phase_time = -0.5
 }

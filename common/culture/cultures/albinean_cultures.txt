@@ -1,4 +1,4 @@
-albinean = {
+﻿albinean = {
 	color = rgb { 88 110 72 }
 	ethos = ethos_communal
 	heritage = heritage_albinea

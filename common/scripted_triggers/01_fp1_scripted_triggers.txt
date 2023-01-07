@@ -18,6 +18,11 @@ fp1_county_has_stele_trigger = {
 	always = no
 }
 
+fp1_eligible_for_yearly_events_trigger = {
+	has_fp1_dlc_trigger = yes
+	always = no
+}
+
 ##################################################
 # Cultural & Regional Triggers
 

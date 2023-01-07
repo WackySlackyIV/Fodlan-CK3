@@ -1,4 +1,4 @@
-duscur = {
+﻿duscur = {
 	color = rgb { 181 147 119 }
 	ethos = ethos_stoic
 	heritage = heritage_duscur
@@ -15,7 +15,7 @@ duscur = {
 	name_list = name_list_italian
 
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_bulding_gfx }
+	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 

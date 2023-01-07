@@ -1,4 +1,4 @@
-reqonese = {
+﻿reqonese = {
 	color = rgb { 184 125 0 }
 	ethos = ethos_bureaucratic
 	heritage = heritage_reqonese
@@ -15,7 +15,7 @@ reqonese = {
 	name_list = name_list_catalan
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterannean_building_gfx }
+	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	

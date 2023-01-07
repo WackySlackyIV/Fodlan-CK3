@@ -246,3 +246,11 @@ claim_throne_decline_execution_effect = {
 		scope:scheme = { add_scheme_progress = -10 }
 	}
 }
+
+
+claim_throne_set_mythical_founder_variable_effect = {
+	set_variable = {
+		name = mythical_founder
+		value = flag:fallback
+	}
+}

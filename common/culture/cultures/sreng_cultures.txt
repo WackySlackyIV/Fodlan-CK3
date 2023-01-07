@@ -1,4 +1,4 @@
-sreng = {
+﻿sreng = {
 	color = rgb { 224 112 0 }
 	ethos = ethos_bellicose
 	heritage = heritage_sreng

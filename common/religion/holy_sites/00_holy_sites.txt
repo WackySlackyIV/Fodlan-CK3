@@ -151,7 +151,7 @@ shambhala = {
 	county = c_durhaus
 	character_modifier = {
 		name = holy_site_shambhala_effect_name
-		scheme_power = 0.1
+		hostile_scheme_power_add = 10
 		
 	}
 }

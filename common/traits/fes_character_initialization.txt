@@ -1,4 +1,4 @@
-fodlan_named_character = {
+﻿fodlan_named_character = {
 	index = 5000
 	fame = yes
 

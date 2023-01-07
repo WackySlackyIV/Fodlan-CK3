@@ -183,7 +183,7 @@ murder_save_response = {
 		murder_save.1010
 		murder_save.1011
 		murder_save.1012
-		fp1_shieldmaiden.0022
+		#fp1_shieldmaiden.0022
 		murder_save.1013
 		murder_save.1014
 		murder_save.1015

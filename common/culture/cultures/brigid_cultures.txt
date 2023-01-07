@@ -1,4 +1,4 @@
-brigid = {
+﻿brigid = {
 	color = rgb { 158 43 116 }
 	ethos = ethos_stoic
 	heritage = heritage_brigid

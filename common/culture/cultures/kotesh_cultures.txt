@@ -1,4 +1,4 @@
-dantan = {
+﻿dantan = {
 	color = rgb { 252 186 3 }
 
 	ethos = ethos_bureaucratic
@@ -16,7 +16,7 @@ dantan = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_saharan_unit_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
 	ethnicities = {
 		10 = african
 	}
@@ -41,7 +41,7 @@ sangpuri = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_saharan_unit_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
 	ethnicities = {
 		10 = african
 	}
@@ -66,7 +66,7 @@ angma = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_saharan_unit_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
 	ethnicities = {
 		10 = african
 	}
@@ -91,7 +91,7 @@ chakhtami = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_saharan_unit_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
 	ethnicities = {
 		10 = african
 
@@ -117,7 +117,7 @@ ikhtin = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_saharan_unit_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
 	ethnicities = {
 		10 = african
 

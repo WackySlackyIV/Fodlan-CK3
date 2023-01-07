@@ -1,4 +1,4 @@
-almyran = {
+﻿almyran = {
 	color = rgb { 120 101 77 }
 
 	ethos = ethos_bellicose

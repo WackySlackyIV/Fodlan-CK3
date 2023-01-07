@@ -1,4 +1,4 @@
-namespace = FOD_breeding
+﻿namespace = FOD_breeding
 
 FOD_breeding.1 = { #dragons
 	type = empty

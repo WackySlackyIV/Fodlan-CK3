@@ -1,4 +1,4 @@
-artifact_sword_seiros_modifier = {
+﻿artifact_sword_seiros_modifier = {
 	prowess_no_portrait = 14
 	monthly_prestige = 0.5
 	monthly_piety = 1
@@ -16,7 +16,7 @@ artifact_axe_ukonvasara_modifier = {
 	monthly_piety = 1
 
 	prowess_per_piety_level = 2
-	axe_damage_mult = 0.02
+	axes_damage_mult = 0.02
 	enemy_hard_casualty_modifier = 0.04
 
 	health = 0.25
@@ -29,7 +29,7 @@ artifact_staff_caduceus_modifier = {
 	monthly_piety = 1
 
 	learning_per_piety_level = 2
-	mage_toughness_mult = 0.04
+	magic_toughness_mult = 0.04
 	hard_casualty_modifier = -0.10
 
 	health = 0.25
@@ -185,7 +185,7 @@ artifact_axe_crusher_modifier = {
 	monthly_prestige = 1
 
 	siege_phase_time = -0.4
-	axe_siege_value_add = 0.2
+	axes_siege_value_add = 0.2
 }
 
 artifact_bow_failnaught_modifier = {
@@ -197,7 +197,7 @@ artifact_bow_failnaught_modifier = {
 	scheme_power = 5
 	scheme_success_chance = 5
 	max_personal_schemes_add = 1
-	random_advantage = 1
+	advantage = 1
 }
 
 artifact_axe_freikugel_modifier = {

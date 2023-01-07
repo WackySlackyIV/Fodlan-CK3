@@ -1,4 +1,4 @@
-shangri_la = {
+﻿shangri_la = {
 	color = rgb { 73 39 99 }
 	ethos = ethos_stoic
 	heritage = heritage_agarthan

@@ -1,4 +1,4 @@
-namespace = fodlan_character_initialization
+﻿namespace = fodlan_character_initialization
 
 fodlan_character_initialization.0001 = {
 	type = empty
@@ -32,7 +32,7 @@ fodlan_character_initialization.0002 = {
         fodlan_major_character = yes
       }
       trigger_event = { id = fodlan_character_initialization.0003 }
-      trigger_event = { id = fodlan_character_initialization.0004 day = 1 }
+      trigger_event = { id = fodlan_character_initialization.0004 days = 1 }
     }
   }
 }

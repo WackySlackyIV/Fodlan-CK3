@@ -20592,327 +20592,327 @@ hold_court.6220 = {
 
 # A vassal in India has problem with a horde of elephants that have gone berserk and brought ruin and destruction in one (several?) of his counties. He pleads for help to manage the elephants and rebuild! #
 
-hold_court.6230 = {
-	type = court_event
-	title = hold_court.6230.t
-	desc = hold_court.6230.desc
-	theme = court
-	lower_left_portrait = scope:m_horse
+# hold_court.6230 = {
+	# type = court_event
+	# title = hold_court.6230.t
+	# desc = hold_court.6230.desc
+	# theme = court
+	# lower_left_portrait = scope:m_horse
 
-	court_scene = {
-		button_position_character = scope:6230_vassal
-		court_event_force_open = yes
-		show_timeout_info = no
-		should_pause_time = yes
-		roles = {
-			scope:6230_vassal = {
-				group = petitioners_group
-				animation = beg
-			}
-		}
-	}
+	# court_scene = {
+		# button_position_character = scope:6230_vassal
+		# court_event_force_open = yes
+		# show_timeout_info = no
+		# should_pause_time = yes
+		# roles = {
+			# scope:6230_vassal = {
+				# group = petitioners_group
+				# animation = beg
+			# }
+		# }
+	# }
 
-	widget = {
-		gui = "event_window_widget_event_chain_progress"
-		container = "custom_widgets_container"
-		controller = event_chain_progress
-	}
+	# widget = {
+		# gui = "event_window_widget_event_chain_progress"
+		# container = "custom_widgets_container"
+		# controller = event_chain_progress
+	# }
 
-	cooldown = { years = 20 }
+	# cooldown = { years = 20 }
 
-	trigger = {
-		any_vassal_or_below = {
-			has_court_event_flag = no
-			is_available_ai_adult = yes
-			is_landed = yes
-			capital_province = {
-				geographical_region = world_innovation_elephants
-			}
-		}
-	}
+	# trigger = {
+		# any_vassal_or_below = {
+			# has_court_event_flag = no
+			# is_available_ai_adult = yes
+			# is_landed = yes
+			# capital_province = {
+				# geographical_region = world_innovation_elephants
+			# }
+		# }
+	# }
 
-	weight_multiplier = {
-		base = 1
+	# weight_multiplier = {
+		# base = 1
 
-		# Court weightings.
-		ep1_weight_up_for_court_type_modifier = { COURT_TYPE = court_warlike }
-	}
+		# # Court weightings.
+		# ep1_weight_up_for_court_type_modifier = { COURT_TYPE = court_warlike }
+	# }
 
-	immediate = {
-		random_vassal_or_below = {
-			limit = {
-				has_court_event_flag = no
-				is_available_ai_adult = yes
-				is_landed = yes
-				capital_province = {
-					geographical_region = world_innovation_elephants
-				}
+	# immediate = {
+		# random_vassal_or_below = {
+			# limit = {
+				# has_court_event_flag = no
+				# is_available_ai_adult = yes
+				# is_landed = yes
+				# capital_province = {
+					# geographical_region = world_innovation_elephants
+				# }
 				
-			}
-			save_scope_as = 6230_vassal
-			court_event_character_flag_effect = yes
-		}
-		scope:6230_vassal.capital_province = {
-			save_scope_as = 6230_province
-		}
-		if = {
-			limit = {
-				employs_court_position = master_of_horse_court_position
-				any_court_position_holder = {
-					type = master_of_horse_court_position
-					has_court_event_flag = no
-					is_available_ai_adult = yes
-				}
-			}
-			random_court_position_holder = {
-				type = master_of_horse_court_position
-				limit = {
-					has_court_event_flag = no
-					is_available_ai_adult = yes
-				}
-				save_scope_as = m_horse
-				court_event_character_flag_effect = yes
-			}
-		}
-		# Trigger next event in chain.
-		hold_court_queue_next_event_effect = yes
-	}
+			# }
+			# save_scope_as = 6230_vassal
+			# court_event_character_flag_effect = yes
+		# }
+		# scope:6230_vassal.capital_province = {
+			# save_scope_as = 6230_province
+		# }
+		# if = {
+			# limit = {
+				# employs_court_position = master_of_horse_court_position
+				# any_court_position_holder = {
+					# type = master_of_horse_court_position
+					# has_court_event_flag = no
+					# is_available_ai_adult = yes
+				# }
+			# }
+			# random_court_position_holder = {
+				# type = master_of_horse_court_position
+				# limit = {
+					# has_court_event_flag = no
+					# is_available_ai_adult = yes
+				# }
+				# save_scope_as = m_horse
+				# court_event_character_flag_effect = yes
+			# }
+		# }
+		# # Trigger next event in chain.
+		# hold_court_queue_next_event_effect = yes
+	# }
 
-	#Option A: send gold to rebuild
-	option = {
-		name = hold_court.6230.a
-		trigger = {
-			trigger_if = {
-				limit = {
-					is_ai = yes
-				}
-				short_term_gold >= major_gold_value
-			}
-		}
-		pay_short_term_gold = {
-			target = scope:6230_vassal
-			gold = medium_gold_value
-		}
-		reverse_add_opinion = {
-			target = scope:6230_vassal
-			modifier = grateful_opinion
-			opinion = 20
-		}
-		add_prestige = medium_prestige_gain
-		stress_impact = {
-			greedy = major_stress_impact_gain
-		}
-		ai_chance = {
-			base = 100
-			ai_value_modifier = {
-				ai_greed = 1
-			}
-			modifier = {
-				add = -200
-				gold < medium_gold_value
-			} 
-		}
-	}
+	# #Option A: send gold to rebuild
+	# option = {
+		# name = hold_court.6230.a
+		# trigger = {
+			# trigger_if = {
+				# limit = {
+					# is_ai = yes
+				# }
+				# short_term_gold >= major_gold_value
+			# }
+		# }
+		# pay_short_term_gold = {
+			# target = scope:6230_vassal
+			# gold = medium_gold_value
+		# }
+		# reverse_add_opinion = {
+			# target = scope:6230_vassal
+			# modifier = grateful_opinion
+			# opinion = 20
+		# }
+		# add_prestige = medium_prestige_gain
+		# stress_impact = {
+			# greedy = major_stress_impact_gain
+		# }
+		# ai_chance = {
+			# base = 100
+			# ai_value_modifier = {
+				# ai_greed = 1
+			# }
+			# modifier = {
+				# add = -200
+				# gold < medium_gold_value
+			# } 
+		# }
+	# }
 
-	#Option B: send aid in capturing the elephants
-	option = {
-		name = hold_court.6230.b
-		trigger = {
-			NOT = { exists = scope:m_horse }
-		}
-		duel = {
-			skill = martial
-			value = average_skill_rating
-			40 = {
-				desc = hold_court.6230.b.success
-				compare_modifier = {
-					value = scope:duel_value
-					multiplier = 3
-				}
-				send_interface_toast = {
-					title = hold_court.6230.b.success.tt
-					add_character_modifier = {
-						modifier = 6230_new_elephants_modifier
-						years = 10
-					}
-					change_current_court_grandeur = medium_court_grandeur_gain
-				}
-			}
-			60 = {
-				desc = hold_court.6230.b.failure
-				compare_modifier = {
-					value = scope:duel_value
-					multiplier = -3
-				}
-				send_interface_toast = {
-					title = hold_court.6230.b.failure.tt
-					change_current_court_grandeur = medium_court_grandeur_loss
-					scope:6230_province.county = { change_development_level = -5 }
-				}
-			}
-		}
-		stress_impact = {
-			lazy = medium_stress_impact_gain
-		}
-		ai_chance = {
-			base = 100
-			ai_value_modifier = {
-				ai_energy = -0.5
-			}
-			modifier = {
-				add = -75
-				martial < 10
-			}
-		}
-	}
+	# #Option B: send aid in capturing the elephants
+	# option = {
+		# name = hold_court.6230.b
+		# trigger = {
+			# NOT = { exists = scope:m_horse }
+		# }
+		# duel = {
+			# skill = martial
+			# value = average_skill_rating
+			# 40 = {
+				# desc = hold_court.6230.b.success
+				# compare_modifier = {
+					# value = scope:duel_value
+					# multiplier = 3
+				# }
+				# send_interface_toast = {
+					# title = hold_court.6230.b.success.tt
+					# add_character_modifier = {
+						# modifier = 6230_new_elephants_modifier
+						# years = 10
+					# }
+					# change_current_court_grandeur = medium_court_grandeur_gain
+				# }
+			# }
+			# 60 = {
+				# desc = hold_court.6230.b.failure
+				# compare_modifier = {
+					# value = scope:duel_value
+					# multiplier = -3
+				# }
+				# send_interface_toast = {
+					# title = hold_court.6230.b.failure.tt
+					# change_current_court_grandeur = medium_court_grandeur_loss
+					# scope:6230_province.county = { change_development_level = -5 }
+				# }
+			# }
+		# }
+		# stress_impact = {
+			# lazy = medium_stress_impact_gain
+		# }
+		# ai_chance = {
+			# base = 100
+			# ai_value_modifier = {
+				# ai_energy = -0.5
+			# }
+			# modifier = {
+				# add = -75
+				# martial < 10
+			# }
+		# }
+	# }
 
-	#Option C: send master of horse to help
-	option = {
-		name = hold_court.6230.c
-		trigger = {
-			exists = scope:m_horse
-		}
-		scope:m_horse = {
-			duel = {
-				skill = martial
-				value = average_skill_rating
-				40 = {
-					desc = hold_court.6230.c.success
-					compare_modifier = {
-						value = scope:duel_value
-						multiplier = 3
-					}
-					send_interface_toast = {
-						title = hold_court.6230.b.success.tt
-						add_character_modifier = {
-							modifier = 6230_new_elephants_modifier
-							years = 10
-						}
-						change_current_court_grandeur = medium_court_grandeur_gain
-					}
-				}
-				60 = {
-					desc = hold_court.6230.b.failure
-					compare_modifier = {
-						value = scope:duel_value
-						multiplier = -3
-					}
-					send_interface_toast = {
-						title = hold_court.6230.b.failure.tt
-						change_current_court_grandeur = medium_court_grandeur_loss
-						scope:6230_province.county = { change_development_level = -5 }
-					}
-				}
-			}
-		}
-		ai_chance = {
-			base = 100
-		}
-	}
+	# #Option C: send master of horse to help
+	# option = {
+		# name = hold_court.6230.c
+		# trigger = {
+			# exists = scope:m_horse
+		# }
+		# scope:m_horse = {
+			# duel = {
+				# skill = martial
+				# value = average_skill_rating
+				# 40 = {
+					# desc = hold_court.6230.c.success
+					# compare_modifier = {
+						# value = scope:duel_value
+						# multiplier = 3
+					# }
+					# send_interface_toast = {
+						# title = hold_court.6230.b.success.tt
+						# add_character_modifier = {
+							# modifier = 6230_new_elephants_modifier
+							# years = 10
+						# }
+						# change_current_court_grandeur = medium_court_grandeur_gain
+					# }
+				# }
+				# 60 = {
+					# desc = hold_court.6230.b.failure
+					# compare_modifier = {
+						# value = scope:duel_value
+						# multiplier = -3
+					# }
+					# send_interface_toast = {
+						# title = hold_court.6230.b.failure.tt
+						# change_current_court_grandeur = medium_court_grandeur_loss
+						# scope:6230_province.county = { change_development_level = -5 }
+					# }
+				# }
+			# }
+		# }
+		# ai_chance = {
+			# base = 100
+		# }
+	# }
 
-	#Option F: kill the elephants
-	option = {
-		name = hold_court.6230.f
-		trigger = {
-			NOT = { faith.religion = religion:hinduism_religion }
-		}
-		if = {
-			limit = {
-				scope:6230_vassal = {
-					faith.religion = religion:hinduism_religion
-				}
-			}
-			reverse_add_opinion = {
-				target = scope:6230_vassal
-				modifier = impious_opinion
-				opinion = -20
-			}
-		}
-		if = {
-			limit = {
-				scope:6230_province.county = {
-					faith.religion = religion:hinduism_religion
-				}
-			}
-			scope:6230_province.county = {
-				add_county_modifier = {
-					modifier = 6230_elephant_slayer_county_modifier
-					years = 5
-				}
-			}
-		}
-		change_current_court_grandeur = medium_court_grandeur_gain
-		stress_impact = {
-			compassionate = medium_stress_impact_gain
-		}
-		ai_chance = {
-			base = 100
-			ai_value_modifier = {
-				ai_compassion = -1
-			}
-			modifier = {
-				has_trait = callous
-				add = 25
-			}
-			modifier = {
-				has_trait = sadistic
-				add = 50
-			}
-		}
-	}
+	# #Option F: kill the elephants
+	# option = {
+		# name = hold_court.6230.f
+		# trigger = {
+			# NOT = { faith.religion = religion:hinduism_religion }
+		# }
+		# if = {
+			# limit = {
+				# scope:6230_vassal = {
+					# faith.religion = religion:hinduism_religion
+				# }
+			# }
+			# reverse_add_opinion = {
+				# target = scope:6230_vassal
+				# modifier = impious_opinion
+				# opinion = -20
+			# }
+		# }
+		# if = {
+			# limit = {
+				# scope:6230_province.county = {
+					# faith.religion = religion:hinduism_religion
+				# }
+			# }
+			# scope:6230_province.county = {
+				# add_county_modifier = {
+					# modifier = 6230_elephant_slayer_county_modifier
+					# years = 5
+				# }
+			# }
+		# }
+		# change_current_court_grandeur = medium_court_grandeur_gain
+		# stress_impact = {
+			# compassionate = medium_stress_impact_gain
+		# }
+		# ai_chance = {
+			# base = 100
+			# ai_value_modifier = {
+				# ai_compassion = -1
+			# }
+			# modifier = {
+				# has_trait = callous
+				# add = 25
+			# }
+			# modifier = {
+				# has_trait = sadistic
+				# add = 50
+			# }
+		# }
+	# }
 
-	#Option D: Ganesh leads them
-	option = {
-		name = hold_court.6230.d
-		trigger = {
-			faith.religion = religion:hinduism_religion
-		}
-		add_piety = major_piety_gain
-		reverse_add_opinion = {
-			target = scope:6230_vassal
-			modifier = disappointed_opinion
-			opinion = -10
-		}
-		stress_impact = {
-			cynical = major_stress_impact_gain
-		}
-		ai_chance = {
-			base = 100
-			ai_value_modifier = {
-				ai_zeal = 1
-			}
-		}
-	}
+	# #Option D: Ganesh leads them
+	# option = {
+		# name = hold_court.6230.d
+		# trigger = {
+			# faith.religion = religion:hinduism_religion
+		# }
+		# add_piety = major_piety_gain
+		# reverse_add_opinion = {
+			# target = scope:6230_vassal
+			# modifier = disappointed_opinion
+			# opinion = -10
+		# }
+		# stress_impact = {
+			# cynical = major_stress_impact_gain
+		# }
+		# ai_chance = {
+			# base = 100
+			# ai_value_modifier = {
+				# ai_zeal = 1
+			# }
+		# }
+	# }
 
-	#Option E: nope
-	option = {
-		name = hold_court.6230.e
-		change_current_court_grandeur = minor_court_grandeur_loss
-		reverse_add_opinion = {
-			target = scope:6230_vassal
-			modifier = disappointed_opinion
-			opinion = -20
-		}
-		scope:6230_province.county = { change_development_level = -5 }
-		ai_chance = {
-			base = 75
-		}
-	}
+	# #Option E: nope
+	# option = {
+		# name = hold_court.6230.e
+		# change_current_court_grandeur = minor_court_grandeur_loss
+		# reverse_add_opinion = {
+			# target = scope:6230_vassal
+			# modifier = disappointed_opinion
+			# opinion = -20
+		# }
+		# scope:6230_province.county = { change_development_level = -5 }
+		# ai_chance = {
+			# base = 75
+		# }
+	# }
 
-	after = {
-		scope:6230_vassal = {
-			clear_court_event_participation = yes
-		}
-		if = {
-			limit = { exists = scope:m_horse }
-			scope:m_horse = {
-				clear_court_event_participation = yes
-			}
-		}
-		# Finish up the chain if relevant.
-		hold_court_queue_post_event_effect = yes
-	}
-}
+	# after = {
+		# scope:6230_vassal = {
+			# clear_court_event_participation = yes
+		# }
+		# if = {
+			# limit = { exists = scope:m_horse }
+			# scope:m_horse = {
+				# clear_court_event_participation = yes
+			# }
+		# }
+		# # Finish up the chain if relevant.
+		# hold_court_queue_post_event_effect = yes
+	# }
+# }
 
 
 

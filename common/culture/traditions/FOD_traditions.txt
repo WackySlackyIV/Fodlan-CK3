@@ -1,4 +1,4 @@
-tradition_crest_succession = {
+﻿tradition_crest_succession = {
 	category = regional
 
 	layers = {

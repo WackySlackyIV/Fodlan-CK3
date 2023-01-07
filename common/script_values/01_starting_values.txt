@@ -181,7 +181,7 @@ culture_acceptance_baseline = {
 			limit = {
 				has_same_culture_ethos = scope:culture
 				OR = {
-					cultures_share_relevant_region_trigger = yes
+					# cultures_share_relevant_region_trigger = yes
 					#In case cultures are bordering each other in two different regions
 					any_culture_county = {
 						any_neighboring_county = {
@@ -271,7 +271,7 @@ culture_acceptance_baseline = {
 					}
 				}
 				OR = {
-					cultures_share_relevant_region_trigger = yes
+					# cultures_share_relevant_region_trigger = yes
 					#In case cultures are bordering each other in two different regions
 					any_culture_county = {
 						any_neighboring_county = {

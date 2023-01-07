@@ -1,4 +1,4 @@
-morfis = {
+﻿morfis = {
 	color = rgb { 40 190 60 }
 	ethos = ethos_spiritual
 	heritage = heritage_morfis

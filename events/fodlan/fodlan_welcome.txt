@@ -32,15 +32,15 @@ fodlan_welcome.2 = {
 }
 
 # TODO Tutorial Subjects
-fodlan_welcome.3 = {
-  type = character_event
-  title = fodlan_welcome.3.t
-  desc = fodlan_welcome.3.desc
-  theme = realm
+# fodlan_welcome.3 = {
+  # type = character_event
+  # title = fodlan_welcome.3.t
+  # desc = fodlan_welcome.3.desc
+  # theme = realm
 
-  left_portrait = root
+  # left_portrait = root
 
-	option = { 
-		name = fodlan_welcome.3.a
-	}
-}
+	# option = { 
+		# name = fodlan_welcome.3.a
+	# }
+# }

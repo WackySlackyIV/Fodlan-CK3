@@ -1,4 +1,4 @@
-# Welcome Event
+﻿# Welcome Event
 on_game_start_after_lobby = {
   events = {
     fodlan_welcome.1
@@ -21,6 +21,6 @@ on_game_start_after_lobby = {
     game_start_date = 1180.12.15
   }
 	events = {
-		fodlan_unification_war.1
+		#fodlan_unification_war.1
 	}
 }

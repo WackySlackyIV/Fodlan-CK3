@@ -1,4 +1,4 @@
-# Events fired upon resolution of a combat.
+﻿# Events fired upon resolution of a combat.
 #
 # Event List:
 #	0001-0005: 'The Undefeated' - a commander has won 100 battles without losing a single one! By Sean Hughes

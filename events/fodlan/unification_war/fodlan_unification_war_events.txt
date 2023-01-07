@@ -1,461 +1,457 @@
-namespace = fodlan_unification_war
+﻿# namespace = fodlan_unification_war
 
-###############################
-# Unification War Setup Chain #
-###############################
+# ###############################
+# # Unification War Setup Chain #
+# ###############################
 
-# Start 
-fodlan_unification_war.1 = {
-  type = empty
-  hidden = yes
+# # Start 
+# fodlan_unification_war.1 = {
+  # type = empty
+  # hidden = yes
 
-  immediate = {
-		every_living_character = {
-      limit = {
-        is_ai = no
-      }
-			trigger_event = { id = fodlan_unification_war.2 } # Lore Event
-		}
-    character:400000 = {
-      trigger_event = {
-        id = fodlan_unification_war.3 # Start of War
-        days = 14
-      }
-    }
-    trigger_event = {
-      id = fodlan_unification_war.2000 # Leicester Event Chain Start
-      days = 3
-    }
-    setup_imperial_invasion_battle = yes
-    mark_fodlan_unification_war_active = yes  
-  }
-}
+  # immediate = {
+		# every_living_character = {
+      # limit = {
+        # is_ai = no
+      # }
+			# trigger_event = { id = fodlan_unification_war.2 } # Lore Event
+		# }
+    # character:400000 = {
+      # trigger_event = {
+        # id = fodlan_unification_war.3 # Start of War
+        # days = 14
+      # }
+    # }
+    # trigger_event = {
+      # id = fodlan_unification_war.2000 # Leicester Event Chain Start
+      # days = 3
+    # }
+    # setup_imperial_invasion_battle = yes
+    # mark_fodlan_unification_war_active = yes  
+  # }
+# }
 
-# History Event for the Player
-fodlan_unification_war.2 = {
-  type = character_event
-	title = fodlan_unification_war.2.t
-	desc = fodlan_unification_war.2.desc
-	theme = war
+# # History Event for the Player
+# fodlan_unification_war.2 = {
+  # type = character_event
+	# title = fodlan_unification_war.2.t
+	# desc = fodlan_unification_war.2.desc
+	# theme = war
 
-	left_portrait = character:400000
+	# left_portrait = character:400000
 
-	option = {
-		name = fodlan_unification_war.2.a
-	}
-}
+	# option = {
+		# name = fodlan_unification_war.2.a
+	# }
+# }
 
-# Start of the war - Must be Triggered by Edelgard or else the war will not work
-fodlan_unification_war.3 = {
-  type = empty
-  hidden = yes
+# # Start of the war - Must be Triggered by Edelgard or else the war will not work
+# fodlan_unification_war.3 = {
+  # type = empty
+  # hidden = yes
 
-  immediate = {
-    start_war = {
-      cb = unification_war
-      target = character:300000
-      claimant = character:400017
-      target_title = title:k_faerghus
-    }
-    global_var:unification_war_instance = {
-      add_defender = character:100000 # Add Rhea as a defender
-      add_attacker = character:600000 # Brigid
-    }
-    every_living_character = {
-      limit = {
-        is_ai = no
-      }
-      trigger_event = { id = fodlan_unification_war.4 }
-    }
-  }
-}
+  # immediate = {
+    # start_war = {
+      # cb = unification_war
+      # target = character:300000
+      # claimant = character:400017
+      # target_title = title:k_faerghus
+    # }
+    # global_var:unification_war_instance = {
+      # add_defender = character:100000 # Add Rhea as a defender
+      # add_attacker = character:600000 # Brigid
+    # }
+    # every_living_character = {
+      # limit = {
+        # is_ai = no
+      # }
+      # trigger_event = { id = fodlan_unification_war.4 }
+    # }
+  # }
+# }
 
-# Lore Announcement Event
-fodlan_unification_war.4 = {
-  type = character_event
-	title = fodlan_unification_war.4.t
-	desc = fodlan_unification_war.4.desc
-	theme = war
+# # Lore Announcement Event
+# fodlan_unification_war.4 = {
+  # type = character_event
+	# title = fodlan_unification_war.4.t
+	# desc = fodlan_unification_war.4.desc
+	# theme = war
 
-  left_portrait = {
-    character = character:400000
-    animation = war_attacker
-  }
-  right_portrait = {
-    character = character:100000
-    animation = war_defender
-  }
-
-  immediate = {
-    play_music_cue = "mx_cue_crusade_starts"
-  }
-
-  option = {
-    name = fodlan_unification_war.4.a
-  }
-}
-
-fodlan_unification_war.5 = {
-
-}
-
-# Peace Event for Edelgard
-
-scripted_effect slither_angry_result = {
-  show_as_tooltip = {
-    random_list = {
-      10 = { # You die
-        show_chance = no
-        desc = fodlan_unification_war.4000.unknown
-        set_designated_heir = character:400024
-        death = { killer = character:400024 death_reason = death_mysterious }
-        # TODO: Continue event chain
-      }
-      10 = { # Thales dies
-        show_chance = no
-        desc = fodlan_unification_war.4000.unknown
-        character:400024 = {
-          death = { killer = root death_reason = death_mysterious }
-        }
-      }
-      80 = { # Proceed with slither crisis
-        show_chance = no
-        desc = fodlan_unification_war.4000.unknown
-        mark_slither_war_active = yes
-      }
-    }
-  }
-}
-
-fodlan_unification_war.4000 = {
-  type = character_event
-  title = fodlan_unification_war.4000.t
-  desc = fodlan_unification_war.4000.desc
-
-  theme = diplomacy_majesty_focus
-
-  left_portrait = root # Edelgard
-  right_portrait = character:400024 # Arundel
-
-  immediate = {
-    if = {
-      NOT = {
-        any_vassal = {
-          any_held_title = {
-            this = title:k_leicester
-          }
-        }
-      }
-      title:k_leicester = {
-        holder = {
-          create_title_and_vassal_change = {
-            type = swear_fealty
-            save_scope_as = change
-            add_claim_on_loss = no
-          }
-          change_liege = {
-            liege = scope:attacker
-            change = scope:change
-          }
-          resolve_title_and_vassal_change = scope:change
-        }
-      }
-    }
-  }
-
-  option = { # Hand them to Slither Loyalists
-    name = fodlan_unification_war.4000.a
-    custom_tooltip = fodlan_unification_war.4000.a.tt
-    hidden_effect = {
-    }
-    ai_chance = {
-      #base = 0
-      base = 100
-    }
-  }
-
-  # option = { # Hand them to turncoat next generation
-  #   name = fodlan_unification_war.4000.b
-  #   custom_tooltip = fodlan_unification_war.4000.b.tt
-  #   ai_chance = {
-  #     #base = 50
-  #     base = 0
-  #   }
-  #   hidden_effect = {
-  #     remove_character_modifier = slither_protection
-  #   }
-  #   slither_angry_result = yes
+  # left_portrait = {
+    # character = character:400000
+    # animation = war_attacker
+  # }
+  # right_portrait = {
+    # character = character:100000
+    # animation = war_defender
   # }
 
-  # option = { # Hand them to Own Loyalists
-  #   name = fodlan_unification_war.4000.c
-  #   custom_tooltip = fodlan_unification_war.4000.c.tt
-  #   ai_chance = {
-  #     #base = 50
-  #     base = 0
-  #   }
-  #   hidden_effect = {
-  #     remove_character_modifier = slither_protection
-  #   }
-  #   slither_angry_result = yes
+  # immediate = {
+    # play_music_cue = "mx_cue_crusade_starts"
   # }
 
-  # option = { # Manually resolve titles
-  #   name = fodlan_unification_war.4000.d
-  #   custom_tooltip = fodlan_unification_war.4000.d.tt
-  #   ai_chance = {
-  #     base = 0
-  #   }
-  #   hidden_effect = {
-  #     remove_character_modifier = slither_protection
-  #   }
-  #   slither_angry_result = yes
+  # option = {
+    # name = fodlan_unification_war.4.a
   # }
-}
+# }
 
-# TODO: Siege and Duel Event
+# # Peace Event for Edelgard
 
-##############################################
-# Leicester Alliance Intervention War Events #
-##############################################
+# scripted_effect slither_angry_result = {
+  # show_as_tooltip = {
+    # random_list = {
+      # 10 = { # You die
+        # show_chance = no
+        # desc = fodlan_unification_war.4000.unknown
+        # set_designated_heir = character:400024
+        # death = { killer = character:400024 death_reason = death_mysterious }
+        # # TODO: Continue event chain
+      # }
+      # 10 = { # Thales dies
+        # show_chance = no
+        # desc = fodlan_unification_war.4000.unknown
+        # character:400024 = {
+          # death = { killer = root death_reason = death_mysterious }
+        # }
+      # }
+      # 80 = { # Proceed with slither crisis
+        # show_chance = no
+        # desc = fodlan_unification_war.4000.unknown
+        # mark_slither_war_active = yes
+      # }
+    # }
+  # }
+# }
 
-# Start of event chain - 3 days after UW Chain Starts, 11 before UW starts
-fodlan_unification_war.2000 = {
-  type = empty
-  hidden = yes
+# fodlan_unification_war.4000 = {
+  # type = character_event
+  # title = fodlan_unification_war.4000.t
+  # desc = fodlan_unification_war.4000.desc
 
-  immediate = {
-    every_living_character = {
-      limit = {
-        is_ai = no
-      }
-      trigger_event = { id = fodlan_unification_war.2001 } # Lore event
-    }
-    character:200006 = {
-      trigger_event = { id = fodlan_unification_war.2004 days = 3 } # Ask for aid
-      trigger_event = { id = fodlan_unification_war.2002 days = 12 }  # Gloucester start war
-    }
-    mark_leicester_allied_aid_disabled = yes
-  }
-}
+  # theme = diplomacy_majesty_focus
 
-# Flavor event - impasse at the council
-fodlan_unification_war.2001 = {
-  type = character_event
-	title = fodlan_unification_war.2001.t
-	desc = fodlan_unification_war.2001.desc
-	theme = realm
+  # left_portrait = root # Edelgard
+  # right_portrait = character:400024 # Arundel
 
-  left_portrait = {
-    character = character:200006
-    animation = war_attacker
-  }
-  right_portrait = {
-    character = character:200000
-    animation = war_defender
-  }
-  lower_left_portrait = {
-		character = character:200005
-	}
-	lower_center_portrait = {
-		character = character:200011
-	}
-	lower_right_portrait = {
-		character = character:200007
-	}
+  # immediate = {
+    # if = {
+      # NOT = {
+        # any_vassal = {
+          # any_held_title = {
+            # this = title:k_leicester
+          # }
+        # }
+      # }
+      # title:k_leicester = {
+        # holder = {
+          # create_title_and_vassal_change = {
+            # type = swear_fealty
+            # save_scope_as = change
+            # add_claim_on_loss = no
+          # }
+          # change_liege = {
+            # liege = scope:attacker
+            # change = scope:change
+          # }
+          # resolve_title_and_vassal_change = scope:change
+        # }
+      # }
+    # }
+  # }
 
-  option = {
-    name = fodlan_unification_war.2001.a
-  }
-}
+  # option = { # Hand them to Slither Loyalists
+    # name = fodlan_unification_war.4000.a
+    # custom_tooltip = fodlan_unification_war.4000.a.tt
+    # hidden_effect = {
+    # }
+    # ai_chance = {
+      # #base = 0
+      # base = 100
+    # }
+  # }
 
-# Start War
-fodlan_unification_war.2002 = {
-  type = empty
-  hidden = yes
+  # # option = { # Hand them to turncoat next generation
+  # #   name = fodlan_unification_war.4000.b
+  # #   custom_tooltip = fodlan_unification_war.4000.b.tt
+  # #   ai_chance = {
+  # #     #base = 50
+  # #     base = 0
+  # #   }
+  # #   hidden_effect = {
+  # #     remove_character_modifier = slither_protection
+  # #   }
+  # #   slither_angry_result = yes
+  # # }
 
-  immediate = {
-    start_war = {
-      cb = unification_alliance_intervention_war
-      target = character:200000
-      target_title = title:k_leicester
-    }
-    global_var:unification_alliance_intervention_war_instance = {
-      # add_attacker = character:200006 # Gloucester
-      add_attacker = character:200005 # Ordelia
-      add_attacker = character:200033 # Gloucester Cousin
-      add_attacker = character:200026 # Acheron
+  # # option = { # Hand them to Own Loyalists
+  # #   name = fodlan_unification_war.4000.c
+  # #   custom_tooltip = fodlan_unification_war.4000.c.tt
+  # #   ai_chance = {
+  # #     #base = 50
+  # #     base = 0
+  # #   }
+  # #   hidden_effect = {
+  # #     remove_character_modifier = slither_protection
+  # #   }
+  # #   slither_angry_result = yes
+  # # }
 
-      # add_defender = character:200000 # Oswald
-      add_defender = character:200007 # Edmund
-      add_defender = character:200003 # Judith
-      add_defender = character:200073 # Beverly
-      add_defender = character:200002 # Myrddin (Conquered via event by Imperial)
-      add_defender = character:200001 # Clarence - Unsure but next to Church
-      add_defender = character:200067 # Minor
-      add_defender = character:200068 # Minor
-      add_defender = character:200050 # Minor
-      add_defender = character:200051 # Minor
-      add_defender = character:200052 # Minor
-    }
-    every_living_character = {
-      limit = {
-        is_ai = no
-      }
-      trigger_event = { id = fodlan_unification_war.2003 }
-    }
-  }
-}
+  # # option = { # Manually resolve titles
+  # #   name = fodlan_unification_war.4000.d
+  # #   custom_tooltip = fodlan_unification_war.4000.d.tt
+  # #   ai_chance = {
+  # #     base = 0
+  # #   }
+  # #   hidden_effect = {
+  # #     remove_character_modifier = slither_protection
+  # #   }
+  # #   slither_angry_result = yes
+  # # }
+# }
 
-# Flavor Event
-fodlan_unification_war.2003 = {
-  type = character_event
-	title = fodlan_unification_war.2003.t
-	desc = fodlan_unification_war.2003.desc
-	theme = war
+# # TODO: Siege and Duel Event
 
-  left_portrait = {
-    character = character:200006
-    animation = war_attacker
-  }
-  right_portrait = {
-    character = character:200000
-    animation = war_defender
-  }
+# ##############################################
+# # Leicester Alliance Intervention War Events #
+# ##############################################
 
-  option = {
-    name = fodlan_unification_war.2003.a
-  }
-}
+# # Start of event chain - 3 days after UW Chain Starts, 11 before UW starts
+# fodlan_unification_war.2000 = {
+  # type = empty
+  # hidden = yes
 
-  # Gloucester ask for Aid from Edelgard
-fodlan_unification_war.2004 = {
-  type = character_event
-  title = fodlan_unification_war.2004.t
-  desc = fodlan_unification_war.2004.desc
+  # immediate = {
+    # every_living_character = {
+      # limit = {
+        # is_ai = no
+      # }
+      # trigger_event = { id = fodlan_unification_war.2001 } # Lore event
+    # }
+    # character:200006 = {
+      # trigger_event = { id = fodlan_unification_war.2004 days = 3 } # Ask for aid
+      # trigger_event = { id = fodlan_unification_war.2002 days = 12 }  # Gloucester start war
+    # }
+    # mark_leicester_allied_aid_disabled = yes
+  # }
+# }
 
-  theme = diplomacy_foreign_affairs_focus
+# # Flavor event - impasse at the council
+# fodlan_unification_war.2001 = {
+  # type = character_event
+	# title = fodlan_unification_war.2001.t
+	# desc = fodlan_unification_war.2001.desc
+	# theme = realm
 
-  left_portrait = character:200006
-  right_portrait = character:400000
+  # left_portrait = {
+    # character = character:200006
+    # animation = war_attacker
+  # }
+  # right_portrait = {
+    # character = character:200000
+    # animation = war_defender
+  # }
+  # lower_left_portrait = {
+		# character = character:200005
+	# }
+	# lower_center_portrait = {
+		# character = character:200011
+	# }
+	# lower_right_portrait = {
+		# character = character:200007
+	# }
 
-  option = { # Ask for aid
-    name = fodlan_unification_war.2004.a
-    custom_tooltip = fodlan_unification_war.2004.a.tt
-    hidden_effect = {
-      character:400000 = {
-        trigger_event = { id = fodlan_unification_war.2005 }
-      }
-    }
-    ai_chance = {
-      base = 100
-    }
-  }
+  # option = {
+    # name = fodlan_unification_war.2001.a
+  # }
+# }
 
-  option = { # We will be fine on our own
-    name = fodlan_unification_war.2004.b
-    custom_tooltip = fodlan_unification_war.2004.b.tt
-    ai_chance = {
-      base = 0
-    }
-  }
-}
+# # Start War
+# fodlan_unification_war.2002 = {
+  # type = empty
+  # hidden = yes
 
-# Gloucester ask for aid
-fodlan_unification_war.2005 = {
-  type = character_event
-  title = fodlan_unification_war.2005.t
-  desc = fodlan_unification_war.2005.desc
+  # immediate = {
+    # start_war = {
+      # cb = unification_alliance_intervention_war
+      # target = character:200000
+      # target_title = title:k_leicester
+    # }
+    # global_var:unification_alliance_intervention_war_instance = {
+      # # add_attacker = character:200006 # Gloucester
+      # add_attacker = character:200005 # Ordelia
+      # add_attacker = character:200033 # Gloucester Cousin
+      # add_attacker = character:200026 # Acheron
 
-  theme = diplomacy_foreign_affairs_focus
+      # # add_defender = character:200000 # Oswald
+      # add_defender = character:200007 # Edmund
+      # add_defender = character:200003 # Judith
+      # add_defender = character:200073 # Beverly
+      # add_defender = character:200002 # Myrddin (Conquered via event by Imperial)
+      # add_defender = character:200001 # Clarence - Unsure but next to Church
+      # add_defender = character:200067 # Minor
+      # add_defender = character:200068 # Minor
+      # add_defender = character:200050 # Minor
+      # add_defender = character:200051 # Minor
+      # add_defender = character:200052 # Minor
+    # }
+    # every_living_character = {
+      # limit = {
+        # is_ai = no
+      # }
+      # trigger_event = { id = fodlan_unification_war.2003 }
+    # }
+  # }
+# }
 
-  left_portrait = character:200006
-  right_portrait = character:400000
+# # Flavor Event
+# fodlan_unification_war.2003 = {
+  # type = character_event
+	# title = fodlan_unification_war.2003.t
+	# desc = fodlan_unification_war.2003.desc
+	# theme = war
 
-  option = { # Offer Aid
-    name = fodlan_unification_war.2005.a
-    custom_tooltip = fodlan_unification_war.2005.a.tt
-    hidden_effect = {
-      change_global_variable = {
-        name = fodlan_gloucester_debts_to_empire
-        add = 1
-      }
-      change_global_variable = {
-        name = fodlan_uw_ii_empire_third_regiment
-        subtract = 100
-      }
-      character:200006 = {
-        trigger_event = {
-          id = fodlan_unification_war.2006
-          days = 10
-        }
-      }
-    }
-    ai_chance = {
-      base = 75
-    }
-  }
+  # left_portrait = {
+    # character = character:200006
+    # animation = war_attacker
+  # }
+  # right_portrait = {
+    # character = character:200000
+    # animation = war_defender
+  # }
 
-  option = { # Decline Aid
-    name = fodlan_unification_war.2004.b
-    custom_tooltip = fodlan_unification_war.2004.b.tt
-    ai_chance = {
-      # base = 25
-      base = 0
-    }
-  }
-}
+  # option = {
+    # name = fodlan_unification_war.2003.a
+  # }
+# }
 
-# Imperial Aid Arrives
-fodlan_unification_war.2006 = {
-  type = character_event
-  title = fodlan_unification_war.2006.t
-  desc = fodlan_unification_war.2006.desc
+  # # Gloucester ask for Aid from Edelgard
+# fodlan_unification_war.2004 = {
+  # type = character_event
+  # title = fodlan_unification_war.2004.t
+  # desc = fodlan_unification_war.2004.desc
 
-  theme = war
+  # theme = diplomacy_foreign_affairs_focus
 
-  option = { 
-    name = fodlan_unification_war.2006.a
-    hidden_effect = {
-      global_var:unification_alliance_intervention_war_instance = {
-        remove_participant = character:200002
-      }
-    }
-    character:200006 = {
-      spawn_army = {
-        # https://fireemblemwiki.org/wiki/The_Rose-Colored_River/The_Great_Bridge_Coup
-        # 3 Stacks = 1 FE Unit
-        levies = 300
-        men_at_arms = {
-          type = armored_knight
-          stacks = 9
-        }
-        men_at_arms = {
-          type = mage
-          stacks = 15
-        }
-        men_at_arms = {
-          type = holy_knights
-          stacks = 15
-        }
-        men_at_arms = {
-          type = cavalier
-          stacks = 6
-        }
-        men_at_arms = {
-          type = wyvern_rider
-          stacks = 1
-        }
-        men_at_arms = {
-          type = archer
-          stacks = 6
-        }
-        location = root.capital_province
-        inheritable = yes
-        uses_supply = yes
-        name = "fodlan_unification_war.2006.army"
-      }
-    }
-  }
-}
+  # left_portrait = character:200006
+  # right_portrait = character:400000
+
+  # option = { # Ask for aid
+    # name = fodlan_unification_war.2004.a
+    # custom_tooltip = fodlan_unification_war.2004.a.tt
+    # hidden_effect = {
+      # character:400000 = {
+        # trigger_event = { id = fodlan_unification_war.2005 }
+      # }
+    # }
+    # ai_chance = {
+      # base = 100
+    # }
+  # }
+
+  # option = { # We will be fine on our own
+    # name = fodlan_unification_war.2004.b
+    # custom_tooltip = fodlan_unification_war.2004.b.tt
+    # ai_chance = {
+      # base = 0
+    # }
+  # }
+# }
+
+# # Gloucester ask for aid
+# fodlan_unification_war.2005 = {
+  # type = character_event
+  # title = fodlan_unification_war.2005.t
+  # desc = fodlan_unification_war.2005.desc
+
+  # theme = diplomacy_foreign_affairs_focus
+
+  # left_portrait = character:200006
+  # right_portrait = character:400000
+
+  # option = { # Offer Aid
+    # name = fodlan_unification_war.2005.a
+    # custom_tooltip = fodlan_unification_war.2005.a.tt
+    # hidden_effect = {
+      # change_global_variable = {
+        # name = fodlan_gloucester_debts_to_empire
+        # add = 1
+      # }
+      # change_global_variable = {
+        # name = fodlan_uw_ii_empire_third_regiment
+        # subtract = 100
+      # }
+      # character:200006 = {
+        # trigger_event = {
+          # id = fodlan_unification_war.2006
+          # days = 10
+        # }
+      # }
+    # }
+    # ai_chance = {
+      # base = 75
+    # }
+  # }
+
+  # option = { # Decline Aid
+    # name = fodlan_unification_war.2004.b
+    # custom_tooltip = fodlan_unification_war.2004.b.tt
+    # ai_chance = {
+      # # base = 25
+      # base = 0
+    # }
+  # }
+# }
+
+# # Imperial Aid Arrives
+# fodlan_unification_war.2006 = {
+  # type = character_event
+  # title = fodlan_unification_war.2006.t
+  # desc = fodlan_unification_war.2006.desc
+
+  # theme = war
+
+  # option = { 
+    # name = fodlan_unification_war.2006.a
+    # hidden_effect = {
+      # global_var:unification_alliance_intervention_war_instance = {
+        # remove_participant = character:200002
+      # }
+    # }
+    # character:200006 = {
+      # spawn_army = {
+        # # https://fireemblemwiki.org/wiki/The_Rose-Colored_River/The_Great_Bridge_Coup
+        # # 3 Stacks = 1 FE Unit
+        # levies = 300
+        # men_at_arms = {
+          # type = armored_knight
+          # stacks = 9
+        # }
+        # men_at_arms = {
+          # type = mage
+          # stacks = 15
+        # }
+        # men_at_arms = {
+          # type = holy_knights
+          # stacks = 15
+        # }
+        # men_at_arms = {
+          # type = cavalier
+          # stacks = 6
+        # }
+        # men_at_arms = {
+          # type = wyvern_rider
+          # stacks = 1
+        # }
+        # men_at_arms = {
+          # type = archer
+          # stacks = 6
+        # }
+        # location = root.capital_province
+        # inheritable = yes
+        # uses_supply = yes
+        # name = "fodlan_unification_war.2006.army"
+      # }
+    # }
+  # }
+# }
 
