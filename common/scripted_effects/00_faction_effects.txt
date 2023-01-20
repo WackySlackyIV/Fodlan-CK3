@@ -608,8 +608,6 @@ successful_popular_revolt_outcome_effect = {
 			}
 			ordered_in_list = {
 				list = potential_kingdoms
-				limit = {
-				}
 
 				order_by = {
 					value = 1
