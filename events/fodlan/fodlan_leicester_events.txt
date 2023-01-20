@@ -440,12 +440,14 @@ FOD_alliance.3 = { #Diplomacy debate
 				random  = {
 					chance = 25
 					progress_towards_friend_effect = {
+						REASON = friend_alliance_debate
 						CHARACTER = scope:first_lord
-						OPINION = no
+						OPINION = 0
 					}
 					progress_towards_rival_effect = {
+						REASON = rival_alliance_debate
 						CHARACTER = scope:second_lord
-						OPINION = no
+						OPINION = 0
 					}
 				}
 			}
@@ -530,12 +532,14 @@ FOD_alliance.3 = { #Diplomacy debate
 				random  = {
 					chance = 25
 					progress_towards_friend_effect = {
-						CHARACTER = scope:second_lord
-						OPINION = no
+						REASON = friend_alliance_debate
+						CHARACTER = scope:first_lord
+						OPINION = 0
 					}
 					progress_towards_rival_effect = {
-						CHARACTER = scope:first_lord
-						OPINION = no
+						REASON = rival_alliance_debate
+						CHARACTER = scope:second_lord
+						OPINION = 0
 					}
 				}
 			}
@@ -757,12 +761,14 @@ FOD_alliance.4 = { #Martial debate
 				random  = {
 					chance = 25
 					progress_towards_friend_effect = {
+						REASON = friend_alliance_debate
 						CHARACTER = scope:first_lord
-						OPINION = no
+						OPINION = 0
 					}
 					progress_towards_rival_effect = {
+						REASON = rival_alliance_debate
 						CHARACTER = scope:second_lord
-						OPINION = no
+						OPINION = 0
 					}
 				}
 			}
@@ -845,12 +851,14 @@ FOD_alliance.4 = { #Martial debate
 				random  = {
 					chance = 25
 					progress_towards_friend_effect = {
-						CHARACTER = scope:second_lord
-						OPINION = no
+						REASON = friend_alliance_debate
+						CHARACTER = scope:first_lord
+						OPINION = 0
 					}
 					progress_towards_rival_effect = {
-						CHARACTER = scope:first_lord
-						OPINION = no
+						REASON = rival_alliance_debate
+						CHARACTER = scope:second_lord
+						OPINION = 0
 					}
 				}
 			}
@@ -1071,12 +1079,14 @@ FOD_alliance.5 = { #stewardship debate
 				random  = {
 					chance = 25
 					progress_towards_friend_effect = {
+						REASON = friend_alliance_debate
 						CHARACTER = scope:first_lord
-						OPINION = no
+						OPINION = 0
 					}
 					progress_towards_rival_effect = {
+						REASON = rival_alliance_debate
 						CHARACTER = scope:second_lord
-						OPINION = no
+						OPINION = 0
 					}
 				}
 			}
@@ -1160,12 +1170,14 @@ FOD_alliance.5 = { #stewardship debate
 				random  = {
 					chance = 25
 					progress_towards_friend_effect = {
-						CHARACTER = scope:second_lord
-						OPINION = no
+						REASON = friend_alliance_debate
+						CHARACTER = scope:first_lord
+						OPINION = 0
 					}
 					progress_towards_rival_effect = {
-						CHARACTER = scope:first_lord
-						OPINION = no
+						REASON = rival_alliance_debate
+						CHARACTER = scope:second_lord
+						OPINION = 0
 					}
 				}
 			}
@@ -1805,8 +1817,9 @@ FOD_alliance.9 = { #Election candidate tournament visit
 			chance = 25
 			scope:candidate = { gain_alliance_fame_effect = yes }
 			progress_towards_friend_effect = {
+				REASON = friend_alliance_tournament
 				CHARACTER = scope:candidate
-				OPINION = no
+				OPINION = 0
 			}
 		}
 		stress_impact = {
@@ -1914,8 +1927,9 @@ FOD_alliance.9 = { #Election candidate tournament visit
 		random = {
 			chance = 25
 			progress_towards_rival_effect = {
+				REASON = rival_alliance_tournament
 				CHARACTER = scope:candidate
-				OPINION = no
+				OPINION = 0
 			}
 		}
 		stress_impact = {

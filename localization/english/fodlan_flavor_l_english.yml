@@ -3,6 +3,7 @@
  perfect_teatime_opinion:0 "Perfect Teatime"
  nice_teatime_opinion:0 "Nice Teatime"
  poor_teatime_opinion:0 "Awkward Teatime"
+ friend_perfect_teatime:0 "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over tea."
  beast_victory_modifier:0 "Slew a Demonic Beast"
  ran_from_beast_modifier:0 "Ran From a Demonic Beast"
  careful_diet_modifier:0 "Careful Diet"
