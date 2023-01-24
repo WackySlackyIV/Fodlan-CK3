@@ -211,6 +211,8 @@ taguel = {
 permanent_dragon_form = {
 	index = 307
 	
+	life_expectancy = 4000
+	years_of_fertility = 2000
 	diplomacy = -10
 	martial = 8
 	stewardship = -8

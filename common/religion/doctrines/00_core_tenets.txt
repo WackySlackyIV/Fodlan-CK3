@@ -1,6 +1,6 @@
 ﻿doctrine_core_tenets = {
 	group = "core_tenets"
-	number_of_picks = 4
+	number_of_picks = 3
 
 	############################
 	# Christian Faith Tenets	#
@@ -2673,7 +2673,7 @@
 	#}
 
 	tenet_school_of_seiros = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2696,7 +2696,7 @@
 	}
 
 	tenet_school_of_macuil = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2719,7 +2719,7 @@
 	}
 
 	tenet_school_of_cichol = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2742,7 +2742,7 @@
 	}
 
 	tenet_school_of_indech = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2765,7 +2765,7 @@
 	}
 
 	tenet_school_of_cethleann = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2792,7 +2792,7 @@
 	#################
 
 	tenet_ablehnistic_ways = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2843,7 +2843,7 @@
 	################
 
 	tenet_cultured_armies = {
-		icon = core_tenet_sword
+		icon = core_tenet_armed_pilgrimages
 		is_shown = {
 			OR = {
 				religion_tag = pantheon_religion
@@ -2872,7 +2872,7 @@
 	##############
 
 	tenet_lamhach_teachings = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2895,7 +2895,7 @@
 	}
 
 	tenet_fuale_teachings = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2920,7 +2920,7 @@
 	}
 
 	tenet_talahm_ithir_teachings = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2944,7 +2944,7 @@
 	}
 
 	tenet_gaothe_teachings = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			always = no
 		}
@@ -2995,7 +2995,7 @@
 	###########################
 
 	tenet_let_the_money_flow = {
-		icon = core_tenet_handcoin
+		icon = core_tenet_tax_nonbelievers
 		is_shown = {
 			OR = {
 				religion_tag = reqonn_de_opulencia_religion
@@ -3022,7 +3022,7 @@
 	}
 
 	tenet_legacy_of_trading_kings = {
-		icon = core_tenet_handcoin
+		icon = core_tenet_tax_nonbelievers
 		is_shown = {
 			OR = {
 				religion_tag = reqonn_de_opulencia_religion
@@ -3050,7 +3050,7 @@
 	}
 	
 	tenet_wonders_of_paradise = {
-		icon = core_tenet_handcoin
+		icon = core_tenet_tax_nonbelievers
 		is_shown = {
 			OR = {
 				religion_tag = reqonn_de_opulencia_religion
@@ -3157,7 +3157,7 @@
 	##############
 
 	tenet_throne_of_fire = {
-		icon = core_tenet_skyshaman
+		icon = core_tenet_sun_worship
 		is_shown = {
 			OR = {
 				religion_tag = buykisik_religion
@@ -3181,175 +3181,13 @@
 		}
 	}
 
-	tenet_kizilisma_red = {
-		icon = core_tenet_bigbook
-		is_shown = {
-			OR = {
-				religion_tag = buykisik_religion
-			}
-		}
-		
-		can_pick = {
-			always = yes
-		}
-
-		parameters = {
-			tenets_active = yes
-		}
-
-		character_modifier = {
-			monthly_prestige_gain_per_knight_add = 0.15
-			raid_speed = 0.5
-		}
-
-		traits = {	
-			virtues = { brave wrathful }
-			sins = { craven calm }	
-		}
-	}
-	
-	tenet_denizavi_blue = {
-		icon = core_tenet_bigbook
-		is_shown = {
-			OR = {
-				religion_tag = buykisik_religion
-			}
-		}
-		
-		can_pick = {
-			always = yes
-		}
-
-		parameters = {
-			tenets_active = yes
-		}
-
-		character_modifier = {
-			monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
-		}
-
-		traits = {	
-			virtues = { brave patient diligent }
-			sins = { craven impatient lazy }	
-		}
-	}
-
-	tenet_beyazisma_white = {
-		icon = core_tenet_bigbook
-		is_shown = {
-			OR = {
-				religion_tag = buykisik_religion
-			}
-		}
-		
-		can_pick = {
-			always = yes
-		}
-
-		parameters = {
-			tenets_active = yes
-		}
-
-		character_modifier = {
-			dynasty_opinion = 5
-			monthly_dynasty_prestige_mult = 0.1
-		}
-
-		traits = {	
-			virtues = { trusting honest }
-			sins = { paranoid deceitful }	
-		}
-	}
-
-	tenet_siyakara_black = {
-		icon = core_tenet_bigbook
-		is_shown = {
-			OR = {
-				religion_tag = buykisik_religion
-			}
-		}
-		
-		can_pick = {
-			always = yes
-		}
-
-		parameters = {
-			tenets_active = yes
-		}
-
-		character_modifier = {
-			levy_reinforcement_rate_same_faith = 0.35
-		}
-
-		traits = {	
-			virtues = { brave zealous }
-			sins = { craven cynical }	
-		}
-	}
-
-	tenet_dogasil_green = {
-		icon = core_tenet_bigbook
-		is_shown = {
-			OR = {
-				religion_tag = buykisik_religion
-			}
-		}
-		
-		can_pick = {
-			always = yes
-		}
-
-		parameters = {
-			tenets_active = yes
-		}
-
-		character_modifier = {
-			stress_loss_mult = 0.20
-			stress_gain_mult = -0.10
-			life_expectancy = 5
-		}
-
-		traits = {	
-			virtues = { calm generous }
-			sins = { wrathful greedy }	
-		}
-	}
-
-	tenet_karakaya_brown = {
-		icon = core_tenet_bigbook
-		is_shown = {
-			OR = {
-				religion_tag = buykisik_religion
-			}
-		}
-		
-		can_pick = {
-			always = yes
-		}
-
-		parameters = {
-			tenets_active = yes
-		}
-
-		character_modifier = {
-			monthly_lifestyle_xp_gain_mult = 0.05
-			opinion_of_different_faith = 5
-		}
-
-		traits = {	
-			virtues = { diligent gregarious scholar intellect_good_2 }
-			sins = { lazy shy }	
-		}
-	}
-
-
 
 	#########################
 	### rf_saatpra_daanav ###
 	#########################
 
 	tenet_durga_abaka = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			OR = {
 				religion_tag = saatpra_daanav_religion
@@ -3377,7 +3215,7 @@
 	}
 
 	tenet_bisalalinga = {
-		icon = core_tenet_marriage
+		icon = core_tenet_divine_marriage
 		is_shown = {
 			OR = {
 				religion_tag = saatpra_daanav_religion
@@ -3406,7 +3244,7 @@
 
 
 	tenet_baildatyn_tsus = {
-		icon = core_tenet_marriage
+		icon = core_tenet_divine_marriage
 		is_shown = {
 			OR = {
 				religion_tag = saatpra_daanav_religion
@@ -3438,7 +3276,7 @@
 	################
 
 	tenet_polemichani = {
- 		icon = core_tenet_cabal
+ 		icon = core_tenet_cthonic_redoubts
 		is_shown = {
 			OR = {
 				religion_tag = anthrapos_religion
@@ -3468,7 +3306,7 @@
 	###############
 
 	tenet_supression_of_knowledge = {
-		icon = core_tenet_bigbook
+		icon = core_tenet_legalism
 		is_shown = {
 			OR = {
 				religion_tag = zanadic_religion
@@ -3492,7 +3330,7 @@
 	}
 
 	tenet_knights_of_faith = {
-		icon = core_tenet_sword
+		icon = core_tenet_armed_pilgrimages
 		is_shown = {
 			OR = {
 				religion_tag = zanadic_religion

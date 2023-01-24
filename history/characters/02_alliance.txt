@@ -366,12 +366,12 @@
 	culture="leicester"
 	father=200024
    	diplomacy=6
-   	martial=9
+   	martial=11
 	stewardship=5
    	intrigue=5
 	learning=5
 	health = 6
-	prowess = 13
+	prowess = 23
 
 	trait = brave
 	trait = wrathful
@@ -384,8 +384,8 @@
 	trait = scarred
 	trait = gallant
 	trait = aggressive_attacker
-
-	trait = crest_major_goneril
+	
+	trait = crest_blood_goneril
 
 	disallow_random_traits = yes
 
