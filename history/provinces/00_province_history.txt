@@ -967,25 +967,25 @@
 ##             (c_samargaon)
 
 1904 = {      # (b_samargaon)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1905 = {      # (b_kikhunos)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1906 = {      # (b_bharphedia)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = none
 }
 
 1907 = {      # (b_sanos)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = church_holding
 }
@@ -993,25 +993,25 @@
 ##             (c_gudkelosa)
 
 1908 = {      # (b_gudkelosa)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1909 = {      # (b_khakharsos)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = none
 }
 
 1910 = {      # (b_gorundia)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1911 = {      # (b_itharawa)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = church_holding
 }
@@ -1019,25 +1019,25 @@
 ##             (c_ghogsilia)
 
 1912 = {      # (b_ghogsillia)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1913 = {      # (b_photia)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1914 = {      # (b_simarbona)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = church_holding
 }
 
 1915 = {      # (b_mantrdanos)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = none
 }
@@ -1045,25 +1045,25 @@
 ##             (c_champagoas)
 
 1900 = {      # (b_champagoas)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = castle_holding
 }
 
 1901 = {      # (b_kadogaos)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = city_holding
 }
 
 1902 = {      # (b_sambaos)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = church_holding
 }
 
 1903 = {      # (b_dhairenia)
-              culture = shangranla
+              culture = shangri_la
               religion = tenolotiskardias_faith
               holding = none
 }

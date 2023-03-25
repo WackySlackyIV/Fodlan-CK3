@@ -1,7 +1,7 @@
 ﻿1600000 = {
 	name="Zephyrinus"
 	religion="tenolotiskardias_faith"
-	culture="shangranla"
+	culture="shangri_la"
 
 	1162.12.20 = {
 		birth=yes
@@ -14,7 +14,7 @@
 1600001 = {
 	name="Florian"
 	religion="tenolotiskardias_faith"
-	culture= "shangranla"
+	culture= "shangri_la"
 
 	1162.12.20 = {
 		birth=yes
@@ -27,7 +27,7 @@
 1600002 = {
 	name= "Eudocia"
 	religion="tenolotiskardias_faith"
-	culture="shangranla"
+	culture="shangri_la"
 	female = yes
 
 	1162.12.20 = {
@@ -41,7 +41,7 @@
 1600003 = {
 	name= "Delmatius"
 	religion="tenolotiskardias_faith"
-	culture="shangranla"
+	culture="shangri_la"
 
 	1162.12.20 = {
 		birth=yes
