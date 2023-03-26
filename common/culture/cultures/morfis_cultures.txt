@@ -12,10 +12,11 @@
 		tradition_city_keepers
 	}
 	name_list = name_list_egyptian
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+		
 	ethnicities = {
 		15 = caucasian_dark_hair
 		10 = caucasian_brown_hair
@@ -40,10 +41,11 @@ qutummi = {
 	}
 	name_list = name_list_egyptian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+	
 	ethnicities = {
 		15 = caucasian_dark_hair
 		10 = caucasian_brown_hair
@@ -65,10 +67,11 @@ eriset = {
 	}
 	name_list = name_list_egyptian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+	
 	ethnicities = {
 		15 = caucasian_dark_hair
 		10 = caucasian_brown_hair
@@ -94,10 +97,11 @@ apatol = {
 	}
 	name_list = name_list_egyptian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+	
 	ethnicities = {
 		15 = caucasian_dark_hair
 		10 = caucasian_brown_hair
@@ -120,10 +124,11 @@ galzum = {
 	}
 	name_list = name_list_egyptian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+	
 	ethnicities = {
 		15 = caucasian_dark_hair
 		10 = caucasian_brown_hair

@@ -15,11 +15,11 @@
 
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -41,11 +41,11 @@ lianese = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -67,11 +67,11 @@ harika = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -93,11 +93,11 @@ atran = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -119,11 +119,11 @@ imrudi = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -145,11 +145,11 @@ kudamlar = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -170,11 +170,11 @@ denatlar = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -195,11 +195,11 @@ pamese = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
-	
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -220,10 +220,11 @@ jibadi = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -244,10 +245,11 @@ inevhan = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
+		
 	ethnicities = {
 		100 = race_almyran
 	}
@@ -271,10 +273,11 @@ shunish = {
 	}
 	name_list = name_list_persian
 
-	coa_gfx = { arabic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { dde_abbasid_clothing_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
+		
 	ethnicities = {
 		75 = race_almyran
 		15 = caucasian_dark_hair
