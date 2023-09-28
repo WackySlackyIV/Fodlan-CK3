@@ -186,8 +186,8 @@ peregrine_falcon = {
 ## Court Event 7630
 master_of_horse_cavalry_bonus = {
 	icon = horse_positive
-	light_cav_pursuit_mult = 0.2
-	heavy_cav_pursuit_mult = 0.2
+	light_cavalry_pursuit_mult = 0.2
+	heavy_cavalry_pursuit_mult = 0.2
 }
 
 master_of_hunt_activity_bonus = {
@@ -326,45 +326,45 @@ promote_culture_leader_modifier = {
 ## Court Type Flavor
 ep1_2000_archer_modifier = {
 	icon = hunt_positive
-	bows_damage_mult = 0.1
-	bows_screen_mult = 0.1
+	archers_damage_mult = 0.1
+	archers_screen_mult = 0.1
 }
 
 ep1_2000_infantry_modifier = {
 	icon = prowess_positive
-	armors_toughness_mult = 0.1
-	lances_toughness_mult = 0.1
+	heavy_infantry_toughness_mult = 0.1
+	pikemen_toughness_mult = 0.1
 }
 
 ep1_2000_cavalry_modifier = {
 	icon = horse_positive
-	heavy_cav_toughness_mult = 0.1
-	light_cav_toughness_mult = 0.1
+	heavy_cavalry_toughness_mult = 0.1
+	light_cavalry_toughness_mult = 0.1
 }
 
 ep1_2000_acavalry_modifier = {
 	icon = horse_positive
-	missile_cav_damage_mult = 0.1
-	missile_cav_screen_mult = 0.1
+	archer_cavalry_damage_mult = 0.1
+	archer_cavalry_screen_mult = 0.1
 }
 
 ep1_2000_skirmisher_modifier = {
 	icon = hunt_positive
-	swords_damage_mult = 0.1
-	swords_screen_mult = 0.1
+	skirmishers_damage_mult = 0.1
+	skirmishers_screen_mult = 0.1
 }
 
-# ep1_2000_ecavalry_modifier = {
-	# icon = horse_positive
-	# elephant_cavalry_damage_mult = 0.1
-	# elephant_cavalry_toughness_mult = 0.1
-# }
+ep1_2000_ecavalry_modifier = {
+	icon = horse_positive
+	elephant_cavalry_damage_mult = 0.1
+	elephant_cavalry_toughness_mult = 0.1
+}
 
-# ep1_2000_ccavalry_modifier = {
-	# icon = horse_positive
-	# camel_cavalry_toughness_mult = 0.1
-	# camel_cavalry_screen_mult = 0.1
-# }
+ep1_2000_ccavalry_modifier = {
+	icon = horse_positive
+	camel_cavalry_toughness_mult = 0.1
+	camel_cavalry_screen_mult = 0.1
+}
 
 ep1_2000_knights_modifier = {
 	icon = hunt_positive
@@ -393,57 +393,57 @@ ep1_flavor_2020_both_modifier = {
 
 ep1_flavor_2020_archers_modifier = {
 	icon = martial_positive
-	bows_damage_add = 2
-	bows_toughness_mult = 0.1
+	archers_damage_add = 2
+	archers_toughness_mult = 0.1
 }
 
 ep1_flavor_2020_light_cavalry_modifier = {
 	icon = martial_positive
-	light_cav_damage_add = 2
-	light_cav_toughness_mult = 0.1
+	light_cavalry_damage_add = 2
+	light_cavalry_toughness_mult = 0.1
 }
 
 ep1_flavor_2020_heavy_infantry_modifier = {
 	icon = martial_positive
-	armors_damage_add = 2
-	armors_toughness_mult = 0.1
+	heavy_infantry_damage_add = 2
+	heavy_infantry_toughness_mult = 0.1
 }
 
 ep1_flavor_2020_pikemen_modifier = {
 	icon = martial_positive
-	lances_damage_add = 2
-	lances_toughness_mult = 0.1
+	pikemen_damage_add = 2
+	pikemen_toughness_mult = 0.1
 }
 
 ep1_flavor_2020_heavy_cavalry_modifier = {
 	icon = martial_positive
-	heavy_cav_damage_add = 2
-	heavy_cav_toughness_mult = 0.1
+	heavy_cavalry_damage_add = 2
+	heavy_cavalry_toughness_mult = 0.1
 }
 
 ep1_flavor_2020_archer_cavalry_modifier = {
 	icon = martial_positive
-	missile_cav_damage_add = 2
-	missile_cav_toughness_mult = 0.1
+	archer_cavalry_damage_add = 2
+	archer_cavalry_toughness_mult = 0.1
 }
 
 ep1_flavor_2020_skirmishers_modifier = {
 	icon = martial_positive
-	swords_damage_add = 2
-	swords_toughness_mult = 0.1
+	skirmishers_damage_add = 2
+	skirmishers_toughness_mult = 0.1
 }
 
-# ep1_flavor_2020_elephant_cavalry_modifier = {
-	# icon = martial_positive
-	# elephant_cavalry_damage_add = 2
-	# elephant_cavalry_toughness_mult = 0.1
-# }
+ep1_flavor_2020_elephant_cavalry_modifier = {
+	icon = martial_positive
+	elephant_cavalry_damage_add = 2
+	elephant_cavalry_toughness_mult = 0.1
+}
 
-# ep1_flavor_2020_camel_cavalry_modifier = {
-	# icon = martial_positive
-	# camel_cavalry_damage_add = 2
-	# camel_cavalry_toughness_mult = 0.1
-# }
+ep1_flavor_2020_camel_cavalry_modifier = {
+	icon = martial_positive
+	camel_cavalry_damage_add = 2
+	camel_cavalry_toughness_mult = 0.1
+}
 
 # Taking Sides
 ep1_flavor_2030_positive_modifier = {

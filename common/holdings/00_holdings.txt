@@ -1,7 +1,6 @@
 ﻿castle_holding = {
 	primary_building = castle_01
 	buildings = {
-		#vanilla
 		curtain_walls_01
 		watchtowers_01
 		outposts_01
@@ -16,10 +15,24 @@
 		plantations_01
 		quarries_01
 		orchards_01
+		elephant_pens_01
 		hunting_grounds_01
+		regimental_grounds_01
+		barracks_01
+		military_camps_01
+		camel_farms_01
+		stables_01
+		smiths_01
+		hillside_grazing_01
+		warrior_lodges_01
+		horse_pastures_01
+		windmills_01
+		watermills_01
+		caravanserai_01
+		workshops_01
+		wind_furnace_01
 
 		common_tradeport_01
-
 		#FOD_MIL	
 		pegasus_01
 		wyvern_01
@@ -31,6 +44,9 @@
 		#FOD_CIV
 		vineyard_01
 		beehive_01
+		hall_of_heroes_01
+		special_sicilian_parliament_01
+		#special_greenhouse_01
 	}
 }
 
@@ -42,6 +58,12 @@ tribal_holding = {
 		war_camps_01
 		longhouses_01
 		market_villages_01
+		
+		hillside_grazing_01
+		warrior_lodges_01
+		horse_pastures_01
+
+		common_tradeport_01 # only for trade_ports_enabled_for_tribals culture parameter
 	}
 
 	flag = tribal
@@ -56,19 +78,33 @@ city_holding = {
 		pastures_01
 		peat_quarries_01
 		hill_farms_01
+	#FOD_CIV
+		vineyard_01
+		beehive_01
 		logging_camps_01
 		plantations_01
 		quarries_01
 		orchards_01
+		elephant_pens_01
 		hunting_grounds_01
+		regimental_grounds_01
+		barracks_01
+		military_camps_01
+		camel_farms_01
+		stables_01
+		smiths_01
+		hillside_grazing_01
+		warrior_lodges_01
+		horse_pastures_01
+		windmills_01
+		watermills_01
+		caravanserai_01
+		workshops_01
+		wind_furnace_01
 
 		guild_halls_01
 
 		common_tradeport_01
-
-		#FOD_CIV
-		vineyard_01
-		beehive_01
 	}
 
 	can_be_inherited = yes
@@ -87,16 +123,31 @@ church_holding = {
 		plantations_01
 		quarries_01
 		orchards_01
+		elephant_pens_01
 		hunting_grounds_01
+		regimental_grounds_01
+		barracks_01
+		military_camps_01
+		camel_farms_01
+		stables_01
+		smiths_01
+		hillside_grazing_01
+		warrior_lodges_01
+		horse_pastures_01
+		windmills_01
+		watermills_01
+		caravanserai_01
+		workshops_01
+		wind_furnace_01
 		
 		monastic_schools_01
+		megalith_01
 		
-		common_tradeport_01
-		hall_of_heroes_01
-
 		#FOD_CIV
 		vineyard_01
 		beehive_01
+		common_tradeport_01
+		hall_of_heroes_01
 	}
 
 	can_be_inherited = yes

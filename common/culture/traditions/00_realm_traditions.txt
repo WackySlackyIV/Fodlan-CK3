@@ -12,6 +12,7 @@ tradition_court_eunuchs = {
 	}
 
 	can_pick = {
+		
 		custom_tooltip = {
 			scope:character = {
 				OR = {
@@ -46,9 +47,9 @@ tradition_court_eunuchs = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -134,10 +135,9 @@ tradition_legalistic = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
-						any_in_list = { list = traits this = flag:ethos_courtly}
-					}
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }					}
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -196,7 +196,7 @@ tradition_legalistic = {
 }
 
 tradition_republican_legacy = {
-	category = realm
+	category = regional
 
 	layers = {
 		0 = steward
@@ -205,10 +205,11 @@ tradition_republican_legacy = {
 	}
 
 	is_shown = {
-		always = no
+	
 		NOT = { has_cultural_tradition = tradition_parochialism }
 	}
 	can_pick = {
+		
 		NOT = { has_cultural_tradition = tradition_parochialism }
 	}
 	
@@ -218,11 +219,15 @@ tradition_republican_legacy = {
 		city_buildings_more_powerful = yes
 		city_buildings_less_control = yes
 		republican_vassals_pay_more = yes
+		more_parochial_vassals = yes
 	}
 	character_modifier = {
-		city_holding_build_gold_cost = -0.1
-		city_holding_holding_build_gold_cost = -0.1
-		republic_government_vassal_opinion = -20
+		city_holding_build_gold_cost = -0.05
+		city_holding_holding_build_gold_cost = -0.05
+		barons_and_minor_landholders_opinion = -20
+		parochial_opinion = -20
+		parochial_tax_contribution_mult = 0.1
+		parochial_levy_contribution_mult = 0.1
 	}
 	
 	cost = {
@@ -235,9 +240,9 @@ tradition_republican_legacy = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -293,7 +298,7 @@ tradition_republican_legacy = {
 					scope:character = {
 						any_vassal = {
 							primary_title.tier > tier_county
-							has_government = republic_government
+							government_has_flag = government_is_republic
 						}
 					}
 				}
@@ -314,7 +319,7 @@ tradition_hereditary_hierarchy = {
 	
 	can_pick = {
 		scope:character = {
-			has_government = feudal_government
+			government_has_flag = government_is_feudal
 		}
 	}
 	
@@ -323,10 +328,10 @@ tradition_hereditary_hierarchy = {
 		loyal_trait_more_valued = yes
 	}
 	character_modifier = {
-		castle_holding_holding_build_gold_cost = -0.15
+		castle_holding_holding_build_gold_cost = -0.05
 		feudal_government_tax_contribution_mult = 0.1
 		long_reign_bonus_mult = 0.25
-		tyranny_loss_mult = -0.75
+		tyranny_loss_mult = -0.5
 	}
 	
 	cost = {
@@ -339,8 +344,8 @@ tradition_hereditary_hierarchy = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -356,7 +361,7 @@ tradition_hereditary_hierarchy = {
 							any_vassal = {
 								count >= 10
 								primary_title.tier >= tier_county
-								has_government = feudal_government
+								government_has_flag = government_is_feudal
 							}
 						}
 					}
@@ -364,6 +369,18 @@ tradition_hereditary_hierarchy = {
 				add = {
 					value = tradition_unfulfilled_criteria_penalty
 					desc = king_with_vassals_desc
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						has_variable = defensive_traditionalist_discount
+						has_variable = aggressive_traditionalist_discount
+					}
+				}
+				add = {
+					value = traditionalist_discount
+					desc = traditionalist_discount_desc
 				}
 			}
 			
@@ -402,6 +419,7 @@ tradition_esteemed_hospitality = {
 		courtiers_and_guests_less_likely_to_join_schemes = yes
 		cheaper_guest_recruitment = yes
 		cheaper_court_positions = yes
+		more_hostage_acceptance = yes
 	}
 	character_modifier = {
 		courtier_and_guest_opinion = 10
@@ -418,9 +436,9 @@ tradition_esteemed_hospitality = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -448,7 +466,7 @@ tradition_esteemed_hospitality = {
 		value = 100
 		if = {
 			limit = {
-				any_in_list = { list = traits this = flag:ethos_bellicose }
+				culture_pillar:ethos_bellicose = { is_in_list = traits }
 			}
 			multiply = 0
 		}
@@ -480,9 +498,9 @@ tradition_gardening = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -520,7 +538,7 @@ tradition_gardening = {
 		if = {
 			limit = {
 				NOT = {
-					any_in_list = { list = traits this = flag:ethos_courtly }
+					culture_pillar:ethos_courtly = { is_in_list = traits }
 				}
 			}
 			multiply = 0
@@ -554,8 +572,8 @@ tradition_tribe_unity = {
 			text = requires_tribal_or_clan_government_trigger
 			scope:character = {
 				OR = {
-					has_government = clan_government
-					has_government = tribal_government
+					government_has_flag = government_is_clan
+					government_has_flag = government_is_tribal
 				}
 			}
 		}
@@ -583,9 +601,9 @@ tradition_tribe_unity = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -610,6 +628,15 @@ tradition_tribe_unity = {
 					desc = house_friends_desc
 				}
 			}
+			if = {
+				limit = {
+					has_variable = defensive_traditionalist_discount
+				}
+				add = {
+					value = traditionalist_discount
+					desc = traditionalist_discount_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
@@ -622,8 +649,8 @@ tradition_tribe_unity = {
 				NOT = {
 					scope:character = {
 						OR = {
-							has_government = clan_government
-							has_government = tribal_government
+							government_has_flag = government_is_clan
+							government_has_flag = government_is_tribal
 						}
 					}
 				}
@@ -662,7 +689,7 @@ tradition_astute_diplomats = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -705,9 +732,9 @@ tradition_collective_lands = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -774,10 +801,16 @@ tradition_female_only_inheritance = {
 		1 = indian
 		4 = crown.dds
 	}
+
+	is_shown = {
+		NOT = { has_game_rule = inversed_gender_equality }
+	}
 	
 	can_pick = {
 		custom_tooltip = {
-			OR = {
+		
+
+			
 				scope:character.faith = {
 					has_doctrine_parameter = female_dominated_law
 				}
@@ -818,7 +851,7 @@ tradition_female_only_inheritance = {
 				limit = {
 					NOR = {
 						has_game_rule = inversed_gender_equality
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -882,6 +915,8 @@ tradition_equal_inheritance = {
 	}
 
 	can_pick = {
+		
+		
 	}
 	
 	parameters = {
@@ -908,7 +943,7 @@ tradition_equal_inheritance = {
 			if = {
 				limit = {
 					NOT = {
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -977,7 +1012,7 @@ tradition_equal_inheritance = {
 	}
 }
 
-tradition_roman_legacy = { #adrestian legacy
+tradition_roman_legacy = {
 	category = realm
 
 	layers = {
@@ -991,7 +1026,10 @@ tradition_roman_legacy = { #adrestian legacy
 	}
 	can_pick = {
 	}
-
+	
+	parameters = {
+		unlock_maa_cataphract = yes
+	}
 	province_modifier = {
 	}
 	character_modifier = {
@@ -999,6 +1037,8 @@ tradition_roman_legacy = { #adrestian legacy
 		men_at_arms_recruitment_cost = -0.15
 		men_at_arms_maintenance = -0.15
 		levy_reinforcement_rate = -0.25
+		heavy_infantry_max_size_add = 2
+		heavy_cavalry_max_size_add = 2
 	}
 	
 	cost = {
@@ -1011,9 +1051,9 @@ tradition_roman_legacy = { #adrestian legacy
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
-						any_in_list = { list = traits this = flag:ethos_courtly }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1075,9 +1115,9 @@ tradition_metal_craftsmanship = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1091,10 +1131,7 @@ tradition_metal_craftsmanship = {
 						any_culture_county = {
 							count >= 1
 							any_county_province = {
-								OR = {
-									has_building_or_higher = hevring_mines_01
-									has_building_or_higher = kupala_mines_01
-								}
+								has_any_special_mine_trigger = yes
 							}
 						}
 					}
@@ -1170,8 +1207,8 @@ tradition_family_entrepreneurship = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_courtly }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1213,6 +1250,7 @@ tradition_family_entrepreneurship = {
 	
 	ai_will_do = {
 		value = 100
+		
 		if = {
 			limit = {
 				scope:character = {
@@ -1253,9 +1291,9 @@ tradition_wedding_ceremonies = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1297,9 +1335,9 @@ tradition_wedding_ceremonies = {
 		if = {
 			limit = {
 				NOR = {
-					any_in_list = { list = traits this = flag:ethos_courtly }
-					any_in_list = { list = traits this = flag:ethos_communal }
-					any_in_list = { list = traits this = flag:ethos_spiritual }
+					culture_pillar:ethos_courtly = { is_in_list = traits }
+					culture_pillar:ethos_communal = { is_in_list = traits }
+					culture_pillar:ethos_spiritual = { is_in_list = traits }
 				}
 			}
 			multiply = 0
@@ -1342,8 +1380,8 @@ tradition_culture_blending = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1421,9 +1459,9 @@ tradition_isolationist = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1452,6 +1490,18 @@ tradition_isolationist = {
 					desc = non_tolerated_cultures_desc
 				}
 			}
+			if = {
+				limit = {
+					OR = {
+						has_variable = defensive_traditionalist_discount
+						has_variable = aggressive_traditionalist_discount
+					}
+				}
+				add = {
+					value = traditionalist_discount
+					desc = traditionalist_discount_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
@@ -1469,7 +1519,7 @@ tradition_isolationist = {
 		}
 		if = {
 			limit = {
-				any_in_list = { list = traits this = flag:ethos_egalitarian }
+				culture_pillar:ethos_egalitarian = { is_in_list = traits }
 			}
 			multiply = 0
 		}
@@ -1516,9 +1566,9 @@ tradition_fervent_temple_builders = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1563,7 +1613,7 @@ tradition_fervent_temple_builders = {
 		if = {
 			limit = {
 				scope:character = {
-					has_government = tribal_government
+					government_has_flag = government_is_tribal
 				}
 			}
 			multiply = 0
@@ -1602,12 +1652,13 @@ tradition_agrarian = {
 	character_modifier = {
 		men_at_arms_recruitment_cost = 0.25
 		prowess = -2
+		floodplains_travel_danger = floodplains_medium_danger_reduction
 	}
 	county_modifier = {
 		farmlands_development_growth_factor = 0.3
-		farmlands_construction_gold_cost = -0.2
+		farmlands_construction_gold_cost = -0.1
 		floodplains_development_growth_factor = 0.3
-		floodplains_construction_gold_cost = -0.2
+		floodplains_construction_gold_cost = -0.1
 		farmlands_levy_size = 0.1
 		floodplains_levy_size = 0.1
 	}
@@ -1621,7 +1672,7 @@ tradition_agrarian = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -1676,7 +1727,7 @@ tradition_agrarian = {
 		if = {
 			limit = {
 				scope:character = {
-					has_government = tribal_government
+					government_has_flag = government_is_tribal
 				}
 			}
 			multiply = 0
@@ -1702,6 +1753,7 @@ tradition_pastoralists = {
 					OR = {
 						terrain = plains
 						terrain = steppe
+						geographical_region = world_steppe
 					}
 				}
 			}
@@ -1714,6 +1766,7 @@ tradition_pastoralists = {
 	character_modifier = {
 		negate_health_penalty_add = 0.15
 		prowess = 1
+		character_travel_speed_mult = 0.1
 	}
 	
 	cost = {
@@ -1726,9 +1779,9 @@ tradition_pastoralists = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1745,6 +1798,7 @@ tradition_pastoralists = {
 								OR = {
 									terrain = plains
 									terrain = steppe
+									geographical_region = world_steppe
 								}
 							}
 						}
@@ -1793,19 +1847,26 @@ tradition_parochialism = {
 		4 = city.dds
 	}
 
-	is_shown = { 
+	is_shown = { #Replaced by tradition_republican_legacy
+		NOT = { has_cultural_tradition = tradition_republican_legacy }	
 	}
 	can_pick = {
+		
+		NOT = { has_cultural_tradition = tradition_republican_legacy }
 	}
 	
 	parameters = {
 		city_buildings_more_powerful = yes
 		city_buildings_less_control = yes
+		more_parochial_vassals = yes
 	}
 	character_modifier = {
-		city_holding_build_gold_cost = -0.1
-		city_holding_holding_build_gold_cost = -0.1
-		republic_government_vassal_opinion = -20
+		city_holding_build_gold_cost = -0.05
+		city_holding_holding_build_gold_cost = -0.05
+		barons_and_minor_landholders_opinion = -20
+		parochial_opinion = -20
+		parochial_tax_contribution_mult = 0.1
+		parochial_levy_contribution_mult = 0.1
 	}
 	
 	cost = {
@@ -1818,9 +1879,9 @@ tradition_parochialism = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1876,7 +1937,7 @@ tradition_parochialism = {
 					scope:character = {
 						any_vassal = {
 							primary_title.tier > tier_county
-							has_government = republic_government
+							government_has_flag = government_is_republic
 						}
 					}
 				}
@@ -1917,8 +1978,8 @@ tradition_ruling_caste = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_courtly }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -1940,6 +2001,15 @@ tradition_ruling_caste = {
 				add = {
 					value = tradition_unfulfilled_criteria_penalty
 					desc = has_other_cultures_in_council_desc
+				}
+			}
+			if = {
+				limit = {
+					has_variable = aggressive_traditionalist_discount
+				}
+				add = {
+					value = traditionalist_discount
+					desc = traditionalist_discount_desc
 				}
 			}
 			
@@ -1987,7 +2057,7 @@ tradition_staunch_traditionalists = {
 	character_modifier = {
 		controlled_province_advantage = 5
 		monthly_county_control_change_add = 0.3
-		cultural_head_fascination_mult = -0.1
+		cultural_head_fascination_mult = -0.05
 	}
 	
 	cost = {
@@ -2000,9 +2070,9 @@ tradition_staunch_traditionalists = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_stoic }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2025,6 +2095,18 @@ tradition_staunch_traditionalists = {
 					desc = has_other_cultures_in_realm_desc
 				}
 			}
+			if = {
+				limit = {
+					OR = {
+						has_variable = defensive_traditionalist_discount
+						has_variable = aggressive_traditionalist_discount
+					}
+				}
+				add = {
+					value = traditionalist_discount
+					desc = traditionalist_discount_desc
+				}
+			}
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}
@@ -2042,7 +2124,7 @@ tradition_staunch_traditionalists = {
 		}
 		if = {
 			limit = {
-				any_in_list = { list = traits this = flag:ethos_egalitarian }
+				culture_pillar:ethos_egalitarian = { is_in_list = traits }
 			}
 			multiply = 0
 		}
@@ -2058,7 +2140,8 @@ tradition_hill_dwellers = {
 		4 = desert_mountains.dds
 	}
 
-	is_shown = { 
+	is_shown = { #Cannot be picked if you have access to Highland Farming
+	
 	}
 	can_pick = {
 		custom_description = {
@@ -2073,15 +2156,17 @@ tradition_hill_dwellers = {
 	
 	parameters = {
 		hill_farms_building_bonuses = yes
+		hills_hunt_success_chance = yes
 	}
 	character_modifier = {
+		hills_travel_danger = hills_medium_danger_reduction
 	}
 	county_modifier = {
 		hills_development_growth_factor = 0.2
 	}
 	province_modifier = {
-		hills_construction_gold_cost = -0.15
-		hills_holding_construction_gold_cost = -0.15
+		hills_construction_gold_cost = -0.1
+		hills_holding_construction_gold_cost = -0.1
 	}
 	
 	cost = {
@@ -2093,7 +2178,7 @@ tradition_hill_dwellers = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2152,6 +2237,7 @@ tradition_forest_folk = {
 	}
 
 	is_shown = {
+		
 	}
 	can_pick = {
 		custom_description = {
@@ -2169,18 +2255,21 @@ tradition_forest_folk = {
 	
 	parameters = {
 		logging_camps_building_bonuses = yes
+		forest_hunt_success_chance = yes
 	}
 	character_modifier = {
+		forest_travel_danger = forest_medium_danger_reduction
+		taiga_travel_danger = taiga_medium_danger_reduction
 	}
 	county_modifier = {
 		forest_development_growth_factor = 0.15
 		taiga_development_growth_factor = 0.15
 	}
 	province_modifier = {
-		forest_construction_gold_cost = -0.15
-		taiga_construction_gold_cost = -0.15
-		forest_holding_construction_gold_cost = -0.15
-		taiga_holding_construction_gold_cost = -0.15
+		forest_construction_gold_cost = -0.1
+		taiga_construction_gold_cost = -0.1
+		forest_holding_construction_gold_cost = -0.1
+		taiga_holding_construction_gold_cost = -0.1
 	}
 	
 	cost = {
@@ -2192,7 +2281,7 @@ tradition_forest_folk = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2257,6 +2346,7 @@ tradition_mountain_homes = {
 	}
 	
 	is_shown = {
+		
 	}
 	can_pick = {
 		custom_description = {
@@ -2275,18 +2365,21 @@ tradition_mountain_homes = {
 	parameters = {
 		quarries_building_bonuses = yes
 		prestige_gain_on_building_complete_in_mountains = yes
+		mountains_hunt_success_chance = yes
 	}
 	character_modifier = {
+		mountains_travel_danger = mountains_medium_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_medium_danger_reduction
 	}
 	county_modifier = {
 		mountains_development_growth_factor = 0.2
 		desert_mountains_development_growth_factor = 0.35
 	}
 	province_modifier = {
-		mountains_construction_gold_cost = -0.15
-		desert_mountains_construction_gold_cost = -0.15
-		mountains_holding_construction_gold_cost = -0.15
-		desert_mountains_holding_construction_gold_cost = -0.15
+		mountains_construction_gold_cost = -0.1
+		desert_mountains_construction_gold_cost = -0.1
+		mountains_holding_construction_gold_cost = -0.1
+		desert_mountains_holding_construction_gold_cost = -0.1
 	}
 	
 	cost = {
@@ -2298,7 +2391,7 @@ tradition_mountain_homes = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2378,18 +2471,22 @@ tradition_dryland_dwellers = {
 	
 	parameters = {
 		plantations_building_bonuses = yes
+		drylands_hunt_success_chance = yes
 	}
 	character_modifier = {
+		desert_travel_danger = desert_medium_danger_reduction
+		drylands_travel_danger = drylands_medium_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_medium_danger_reduction
 	}
 	county_modifier = {
 		desert_development_growth_factor = 0.35
 		drylands_development_growth_factor = 0.15
 	}
 	province_modifier = {
-		desert_construction_gold_cost = -0.15
-		drylands_construction_gold_cost = -0.15
-		desert_holding_construction_gold_cost = -0.15
-		drylands_holding_construction_gold_cost = -0.15
+		desert_construction_gold_cost = -0.1
+		drylands_construction_gold_cost = -0.1
+		desert_holding_construction_gold_cost = -0.1
+		drylands_holding_construction_gold_cost = -0.1
 	}
 	
 	cost = {
@@ -2401,7 +2498,7 @@ tradition_dryland_dwellers = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2466,6 +2563,7 @@ tradition_jungle_dwellers = {
 	}
 	
 	is_shown = {
+	
 	}
 	can_pick = {
 		custom_description = {
@@ -2480,15 +2578,17 @@ tradition_jungle_dwellers = {
 	
 	parameters = {
 		outposts_building_bonuses = yes
+		jungle_hunt_success_chance = yes
 	}
 	character_modifier = {
+		jungle_travel_danger = jungle_medium_danger_reduction
 	}
 	county_modifier = {
 		jungle_development_growth_factor = 0.25
 	}
 	province_modifier = {
-		jungle_construction_gold_cost = -0.15
-		jungle_holding_construction_gold_cost = -0.15
+		jungle_construction_gold_cost = -0.1
+		jungle_holding_construction_gold_cost = -0.1
 	}
 	
 	cost = {
@@ -2500,7 +2600,7 @@ tradition_jungle_dwellers = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2571,16 +2671,19 @@ tradition_wetlanders = {
 	
 	parameters = {
 		peat_quarries_building_bonuses = yes
+		wetlands_hunt_success_chance = yes
 	}
 	character_modifier = {
 		wetlands_advantage = 10
+		wetlands_travel_danger = wetlands_high_danger_reduction
+		floodplains_travel_danger = floodplains_high_danger_reduction
 	}
 	county_modifier = {
 		wetlands_development_growth_factor = 0.25
 	}
 	province_modifier = {
-		wetlands_construction_gold_cost = -0.25
-		wetlands_holding_construction_gold_cost = -0.25
+		wetlands_construction_gold_cost = -0.15
+		wetlands_holding_construction_gold_cost = -0.15
 		wetlands_levy_size = 0.1
 		wetlands_supply_limit_mult = 0.25
 	}
@@ -2594,7 +2697,7 @@ tradition_wetlanders = {
 			}
 			if = {
 				limit = {
-					any_in_list = { list = traits this = flag:ethos_bellicose }
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2653,7 +2756,8 @@ tradition_hidden_cities = {
 	}
 
 	is_shown = {
-		always = no
+		
+		NOT = { has_cultural_tradition = tradition_jungle_dwellers }
 	}
 	can_pick = {
 		custom_description = {
@@ -2670,12 +2774,15 @@ tradition_hidden_cities = {
 		tribal_holding_fort_level_in_jungle_bonus = yes
 		castle_holding_fort_level_in_jungle_bonus = yes
 	}
+	character_modifier = {
+		jungle_travel_danger = jungle_high_danger_reduction
+	}
 	county_modifier = {
 		jungle_development_growth_factor = 0.35
 	}
 	province_modifier = {
-		jungle_construction_gold_cost = -0.15
-		jungle_holding_construction_gold_cost = -0.15
+		jungle_construction_gold_cost = -0.1
+		jungle_holding_construction_gold_cost = -0.1
 	}
 	
 	cost = {
@@ -2687,7 +2794,7 @@ tradition_hidden_cities = {
 			}
 			if = {
 				limit = {
-					NOT = {	any_in_list = { list = traits this = flag:ethos_bureaucratic }	}
+					NOT = {	culture_pillar:ethos_bureaucratic = { is_in_list = traits }	}
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
@@ -2812,8 +2919,8 @@ tradition_castle_keepers = {
 		custom_tooltip = {
 			scope:character = {
 				OR = {
-					has_government = feudal_government
-					has_government = clan_government
+					government_has_flag = government_is_feudal
+					government_has_flag = government_is_clan
 				}
 			}
 			text = must_be_feudal_or_clan
@@ -2821,10 +2928,7 @@ tradition_castle_keepers = {
 		custom_tooltip = {
 			text = cannot_have_tradition_city_keepers
 			NOT = {
-				any_in_list = {
-					list = traits
-					this = flag:tradition_castle_keepers
-				}
+				culture_tradition:tradition_city_keepers = { is_in_list = traits }
 			}
 		}
 	}
@@ -2852,9 +2956,9 @@ tradition_castle_keepers = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -2905,15 +3009,12 @@ tradition_city_keepers = {
 	
 	can_pick = {
 		scope:character = {
-			has_government = feudal_government
+			government_has_flag = government_is_feudal
 		}
 		custom_tooltip = {
 			text = cannot_have_tradition_castle_keepers
 			NOT = {
-				any_in_list = {
-					list = traits
-					this = flag:tradition_castle_keepers
-				}
+				culture_tradition:tradition_castle_keepers = { is_in_list = traits }
 			}
 		}
 	}
@@ -2939,9 +3040,9 @@ tradition_city_keepers = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
-						any_in_list = { list = traits this = flag:ethos_courtly }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -3005,6 +3106,7 @@ tradition_maritime_mercantilism = {
 	}
 	character_modifier = {
 		republic_government_vassal_opinion = 10
+		sea_travel_danger = low_sea_danger_reduction
 	}
 	
 	cost = {
@@ -3018,9 +3120,9 @@ tradition_maritime_mercantilism = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_bureaucratic }
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -3068,8 +3170,8 @@ tradition_maritime_mercantilism = {
 		if = { # Make stacking a bit less common
 			limit = {
 				OR = {
-					any_in_list = { list = traits this = flag:tradition_seafaring }
-					any_in_list = { list = traits this = flag:tradition_fishermen }
+					culture_tradition:tradition_seafaring = { is_in_list = traits }
+					culture_tradition:tradition_fishermen = { is_in_list = traits }
 				}
 			}
 			multiply = 0.75
@@ -3127,8 +3229,8 @@ tradition_monastic_communities = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_spiritual }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {

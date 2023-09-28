@@ -77,8 +77,10 @@ tribe_01 = {
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_1
 		fort_level = 1
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = tribal_holding_fort_level_in_jungle_bonus
 		terrain = jungle
@@ -157,7 +159,7 @@ tribe_02 = {
 		graphical_cultures = { norse_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
+	}	
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -179,8 +181,10 @@ tribe_02 = {
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_3
 		fort_level = 2
+		stationed_maa_damage_mult = normal_maa_damage_tier_4
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_4
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = tribal_holding_fort_level_in_jungle_bonus
 		terrain = jungle
@@ -200,13 +204,14 @@ tribe_02 = {
 
 longhouses_01 = {
 	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
-	}
+	}	
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
@@ -232,6 +237,7 @@ longhouses_01 = {
 
 longhouses_02 = {
 	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -266,6 +272,7 @@ longhouses_02 = {
 
 war_camps_01 = {
 	construction_time = slow_construction_time
+	effect_desc = tournament_cost_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -282,10 +289,15 @@ war_camps_01 = {
 	character_modifier = {
 		knight_limit = 1
 		knight_effectiveness_mult = 0.1
-		swords_damage_mult = 0.04
-		swords_toughness_mult = 0.02
-		axes_damage_mult = 0.04
-		axes_toughness_mult = 0.02
+	}
+	
+	province_modifier = {
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_1
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_heavy_infantry_damage_mult = high_maa_damage_tier_1
+		stationed_heavy_infantry_toughness_mult = normal_maa_toughness_tier_1
+		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_1
+		stationed_archer_cavalry_toughness_mult = normal_maa_toughness_tier_1
 	}
 	
 	next_building = war_camps_02
@@ -300,6 +312,7 @@ war_camps_01 = {
 
 war_camps_02 = {
 	construction_time = slow_construction_time
+	effect_desc = tournament_cost_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -321,10 +334,15 @@ war_camps_02 = {
 	character_modifier = {
 		knight_limit = 2
 		knight_effectiveness_mult = 0.2
-		swords_damage_mult = 0.08
-		swords_toughness_mult = 0.04
-		axes_damage_mult = 0.08
-		axes_toughness_mult = 0.04
+	}
+	
+	province_modifier = {
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_2
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_heavy_infantry_damage_mult = high_maa_damage_tier_2
+		stationed_heavy_infantry_toughness_mult = normal_maa_toughness_tier_2
+		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_2
+		stationed_archer_cavalry_toughness_mult = normal_maa_toughness_tier_2
 	}
 	
 	ai_value = {
@@ -354,11 +372,11 @@ palisades_01 = {
 		fort_level = normal_building_fort_level_tier_1
 	}
 	
-	character_modifier = {
-		bows_damage_mult = 0.04
-		bows_toughness_mult = 0.02
-		lances_damage_mult = 0.04
-		lances_toughness_mult = 0.02
+	province_modifier = {
+		stationed_archers_damage_mult = high_maa_damage_tier_1
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_pikemen_damage_mult = high_maa_damage_tier_1
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_1
 	}
 	
 	next_building = palisades_02
@@ -396,11 +414,11 @@ palisades_02 = {
 		fort_level = normal_building_fort_level_tier_2
 	}
 	
-	character_modifier = {
-		bows_damage_mult = 0.08
-		bows_toughness_mult = 0.04
-		lances_damage_mult = 0.08
-		lances_toughness_mult = 0.04
+	province_modifier = {
+		stationed_archers_damage_mult = high_maa_damage_tier_2
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_pikemen_damage_mult = high_maa_damage_tier_2
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_2
 	}
 	
 	ai_value = {
@@ -418,7 +436,7 @@ market_villages_01 = {
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
-	}
+	}	
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost

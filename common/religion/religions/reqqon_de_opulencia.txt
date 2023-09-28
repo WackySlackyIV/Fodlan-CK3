@@ -3,6 +3,8 @@
 	graphical_faith = pagan.gfx
 
 	doctrine = morfist_hostility_doctrine
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
 
 	#Main Group
 	doctrine = doctrine_temporal_head

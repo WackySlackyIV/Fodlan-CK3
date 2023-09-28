@@ -97,6 +97,32 @@ start_murder_interaction = {
 						}
 					}
 				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = murder
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
+					}
+				}
+				# Plus any on_start modifiers we may need.
+				if = {
+					limit = { var:feast_events_ewan_0001_bonus_value ?= scope:recipient }
+					# Hand over the modifier.
+					random_scheme = {
+						limit = {
+							scheme_type = murder
+							scheme_target = scope:recipient
+						}
+						add_scheme_modifier = { type = feast_learnt_habits_modifier }
+					}
+					# Remove the variable now that we're done with it.
+					remove_variable = feast_events_ewan_0001_bonus_value
+				}
 			}
 		}
 	}
@@ -107,7 +133,7 @@ start_murder_interaction = {
 }
 
 start_abduct = {
-	icon = icon_hostile
+	icon = icon_scheme_abduct
 	interface_priority = 70
 	category = interaction_category_hostile
 
@@ -220,6 +246,18 @@ start_abduct = {
 						}
 					}
 				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = abduct
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
+					}
+				}
 			}
 		}
 	}
@@ -245,7 +283,7 @@ end_scheme = {
 }
 
 befriend_interaction = {
-	icon = icon_personal
+	icon = icon_scheme_befriend
 	category = interaction_category_friendly
 
 	interface_priority = 90
@@ -308,6 +346,18 @@ befriend_interaction = {
 					start_scheme = {
 						type = befriend
 						target = scope:recipient
+					}
+				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = befriend
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
 					}
 				}
 			}
@@ -627,7 +677,7 @@ befriend_interaction = {
 
 
 seduce_interaction = {
-	icon = icon_personal
+	icon = icon_scheme_seduce
 	category = interaction_category_friendly
 	interface_priority = 90
 	scheme = seduce
@@ -811,6 +861,18 @@ seduce_interaction = {
 					}
 
 					show_as_tooltip = { seduce_interaction_stress_effect = yes }
+				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = seduce
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
+					}
 				}
 			}
 		}
@@ -1248,7 +1310,7 @@ seduce_interaction = {
 }
 
 court_interaction = {
-	icon = icon_personal
+	icon = icon_scheme_romance
 	category = interaction_category_friendly
 
 	send_name = START_SCHEME
@@ -1434,6 +1496,18 @@ court_interaction = {
 								target = scope:actor
 							}
 						}
+					}
+				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = courting
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
 					}
 				}
 			}
@@ -1730,6 +1804,18 @@ sway_interaction = {
 						target = scope:recipient
 					}
 				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = sway
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
+					}
+				}
 			}
 		}
 	}
@@ -1987,7 +2073,7 @@ sway_interaction = {
 }
 
 learn_language_interaction = {
-	icon = icon_culture
+	icon = icon_scheme_learn_language
 	category = interaction_category_friendly
 	common_interaction = yes
 
@@ -2048,6 +2134,18 @@ learn_language_interaction = {
 					start_scheme = {
 						type = learn_language
 						target = scope:recipient
+					}
+				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = learn_language
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
 					}
 				}
 			}
@@ -2189,6 +2287,61 @@ learn_language_interaction = {
 			}
 		}
 		
+		modifier = { # Muslims want to learn arabic
+			add = 25
+			scope:actor = {
+				faith.religion = religion:islam_religion
+				NOT = {
+					knows_language = language_arabic
+				}
+			}
+			scope:recipient = {
+				culture = {
+					has_cultural_pillar = language_arabic
+				}
+			}
+		}
+		
+		modifier = { # Catholic clergy/pious people want to learn latin
+			add = 50
+			scope:actor = {
+				faith = faith:catholic
+				OR = {
+					has_trait = zealous
+					has_trait = humble
+					is_clergy = yes
+				}
+				NOT = {
+					knows_language = language_latin
+				}
+			}
+			scope:recipient = {
+				culture = {
+					has_cultural_pillar = language_latin
+				}
+			}
+		}
+		
+		modifier = { # Catholic clergy/pious people want to learn Italian
+			add = 50
+			scope:actor = {
+				faith = faith:catholic
+				OR = {
+					has_trait = zealous
+					has_trait = humble
+					is_clergy = yes
+				}
+				NOT = {
+					knows_language = language_italian
+				}
+			}
+			scope:recipient = {
+				culture = {
+					has_cultural_pillar = language_italian
+				}
+			}
+		}
+		
 		modifier = { # Clergy/pious people want to learn their HoF's language
 			add = 50
 			scope:actor = {
@@ -2200,6 +2353,49 @@ learn_language_interaction = {
 				NOT = { knows_language_of_culture = scope:actor.faith.religious_head.culture }
 			}
 			scope:recipient = { knows_language_of_culture = scope:actor.faith.religious_head.culture }
+		}
+		
+		modifier = { # Coptic/Orthodox clergy/pious people want to learn greek
+			add = 50
+			scope:actor = {
+				OR = {
+					faith = faith:orthodox
+					faith = faith:coptic
+				}
+				OR = {
+					has_trait = zealous
+					has_trait = humble
+					is_clergy = yes
+				}
+				NOT = {
+					knows_language = language_greek
+				}
+			}
+			scope:recipient = {
+				culture = {
+					has_cultural_pillar = language_greek
+				}
+			}
+		}
+		
+		modifier = { # Nestorian clergy/pious people want to learn aramaic
+			add = 50
+			scope:actor = {
+				faith = faith:nestorian
+				OR = {
+					has_trait = zealous
+					has_trait = humble
+					is_clergy = yes
+				}
+				NOT = {
+					knows_language = language_aramaic
+				}
+			}
+			scope:recipient = {
+				culture = {
+					has_cultural_pillar = language_aramaic
+				}
+			}
 		}
 		
 		modifier = {

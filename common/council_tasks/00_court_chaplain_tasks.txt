@@ -196,6 +196,16 @@ task_conversion = {
 
 	effect_desc = {
 		desc = task_conversion_effect_desc
+		triggered_desc = {
+			trigger = {
+				scope:councillor_liege = {
+					any_vassal = {
+						has_vassal_stance = minority
+					}
+				}
+			}
+			desc = minority_disapproves_conversion_tooltip
+		}
 		desc = {
 			desc = council_task_possible_side_effects
 			triggered_desc = {
@@ -271,6 +281,19 @@ task_conversion = {
 		}
 		add = court_chaplain_conversion_contextual_bonuses
 		
+		# Faster conversion for certain special doctrines
+		if = {
+			limit = {
+				scope:councillor_liege.faith = { has_doctrine_parameter = adoptionists_attractively_intuitive_theology }
+				exists = scope:county
+				scope:county.faith.religion = religion:christianity_religion
+			}
+			add = {
+				value = fp2_lyonese_monk_conversion_bonus_actual_value
+				desc = fp2_lyonese_monk_faith_conversion_task_desc
+			}
+		}
+
 		# Development reduces the speed. Should be the last non-multiply modifier applied to avoid negative values
 		if = {
 			limit = {
@@ -294,6 +317,54 @@ task_conversion = {
 			multiply = {
 				value = conversion_unreformed_faith_penalty
 				desc = COURT_CHAPLAIN_CONVERSION_UNREFORMED_FAITH_PENALTY
+			}
+		}
+		
+		# Faster conversion for FP2 Hostility ending, if county is in Iberia and faith was involved
+		if = {
+			limit = {
+				exists = scope:councillor.liege.house
+				scope:councillor.liege.house = {
+					OR = {
+						has_house_modifier = fp2_struggle_hostility_house_faith_modifier
+						has_house_modifier = fp2_struggle_hostility_house_combined_modifier
+					}
+				}
+				any_in_global_list = {
+					variable = fp2_struggle_ending_faith_list
+					this = scope:county.faith
+				}
+				scope:county.title_province = { geographical_region = world_europe_west_iberia }
+			}
+			multiply = {
+				value = fp2_struggle_hostility_conversion_value
+				desc = fp2_struggle_hostility_faith_conversion_task_desc
+			}
+		}
+		# Faster conversion of infidels for FP2 Council Toledo Conversion
+		if = {
+			limit = {
+				scope:councillor.liege = { has_character_modifier = fp2_council_conversion_modifier }
+				NOT = { scope:county.religion = scope:councillor.liege.religion }
+			}
+			multiply = {
+				value = council_toledo_conversion_modifier_value
+				desc = council_toledo_conversion_task_desc
+			}
+		}
+		# Faster conversion of heretics for FP2 Council Toledo Heresies
+		if = {
+			limit = {
+				scope:councillor.liege = { has_character_modifier = fp2_council_conversion_modifier }
+				scope:county.faith = {
+					religion = scope:councillor.liege.religion
+					fp2_struggle_faith_is_mozarabic_trigger = no
+					NOT = { exists = religious_head }
+				}
+			}
+			multiply = {
+				value = council_toledo_conversion_modifier_value
+				desc = council_toledo_heresies_task_desc
 			}
 		}
 		
@@ -334,14 +405,44 @@ task_conversion = {
 				desc = GAME_RULE_SIGNIFICANTLY_FASTER_REASON
 			}
 		}
+		if = {
+			limit = {
+				exists = scope:county
+				OR = {
+					AND = {
+						scope:councillor.faith = { has_doctrine_parameter = unreformed_syncretic_actor_opinion_active }
+						scope:county.faith = { has_doctrine_parameter = unreformed }
+					}
+					AND = {
+						scope:councillor.faith = { has_doctrine_parameter = christian_syncretic_actor_opinion_active }
+						scope:county.faith = { religion_tag = christianity_religion }
+					}
+					AND = {
+						scope:councillor.faith = { has_doctrine_parameter = islamic_syncretic_actor_opinion_active }
+						scope:county.faith = { religion_tag = islam_religion }
+					}
+					AND = {
+						scope:councillor.faith = { has_doctrine_parameter = jewish_syncretic_actor_opinion_active }
+						scope:county.faith = { religion_tag = judaism_religion }
+					}
+				}
+			}
+			min = {
+				value = 0.1
+				desc = minimum_conversion
+			}
+		}
 	}
 
-	potential_county = {
+	potential_county = { 
 		scope:county = {
 			NOT = { faith = scope:councillor.faith }
 			trigger_if = {
 				limit = {
-					scope:councillor_liege = { has_variable = hold_court_8120_religion_block }
+					scope:councillor_liege = {
+						is_alive = yes
+						has_variable = hold_court_8120_religion_block
+					}
 				}
 				custom_tooltip = {
 					text = hold_court_8120_conversion_tt
@@ -481,12 +582,52 @@ task_conversion = {
 					}
 				}
 			}
-			trigger_if = { # If a ruler has Jizya tax, they'll only convert the same *religious family* when ai_zeal is really high, they're converting unreformed pagans, counties in a kingdom with a Holy Site, or others of the same religion
+			# Ash'ari in Spain tend to not convert Muwhalladi often
+			trigger_if = {
+				limit = {
+					scope:councillor_liege = {
+						is_ai = yes
+						faith = faith:ashari
+						capital_province ?= { geographical_region = world_europe_west_iberia }
+						scope:county.faith = faith:muwalladi
+					}
+					scope:county = {
+						title_province = { geographical_region = world_europe_west_iberia }
+					}
+				}
+				OR = {
+					scope:councillor_liege = { ai_zeal >= 50 }
+					scope:county = { county_opinion <= -20 }
+					scope:county = { # Always convert holy sites
+						any_county_province = {
+							barony = {
+								is_holy_site_of = scope:councillor_liege.faith
+							}
+						}
+					}
+				}
+			}
+			# If a ruler has Jizya tax, they'll only convert the same *religious family* when ai_zeal is really high, they're converting unreformed pagans, counties in a kingdom with a Holy Site, or others of the same religion
+			trigger_if = {
 				limit = {
 					scope:councillor_liege = {
 						is_ai = yes
 						faith = {
 							has_doctrine = tenet_tax_nonbelievers
+						}
+					}
+					OR = {
+						AND = {
+							scope:councillor_liege.religion = { is_in_family = rf_pagan }
+							scope:county.religion = { is_in_family = rf_pagan }
+						}
+						AND = {
+							scope:councillor_liege.religion = { is_in_family = rf_eastern }
+							scope:county.religion = { is_in_family = rf_eastern }
+						}
+						AND = {
+							scope:councillor_liege.religion = { is_in_family = rf_abrahamic }
+							scope:county.religion = { is_in_family = rf_abrahamic }
 						}
 					}
 				}
@@ -501,6 +642,12 @@ task_conversion = {
 						}
 					}
 					#scope:county.religion = scope:councillor_liege.religion # Excluded, as tax nonbelievers actually works for different faiths within the same religion
+					AND = { # Islamic heartlands, to help fend off encroaching faiths
+						scope:councillor_liege.religion = religion:islam_religion
+						scope:county.title_province = {
+							geographical_region = islamic_heartlands
+						}
+					}
 				}
 			}
 			# Struggle phases may sometimes restrict targets for involved characters.
@@ -530,6 +677,27 @@ task_conversion = {
 	}
 
 	on_finish_task_county = {
+		scope:councillor_liege = {
+			if = {
+				limit = {
+					any_vassal = {
+						has_vassal_stance = minority
+					}
+				}
+				custom_tooltip = minority_disapproves_conversion
+				hidden_effect = {
+					every_vassal = {
+						limit = {
+							has_vassal_stance = minority
+						}
+						add_opinion = {
+							target = scope:councillor_liege
+							modifier = minority_disapproves_of_conversion_opinion
+						}
+					}
+				}
+			}
+		}
 		scope:county = {
 			set_county_faith = scope:councillor.faith
 		}
@@ -657,6 +825,7 @@ task_fabricate_claim = {
 				desc = COUNCILLOR_IS_YOUR_NEMESIS
 			}
 		}
+
 		# Perk Bonuses
 		if = {
 			limit = {

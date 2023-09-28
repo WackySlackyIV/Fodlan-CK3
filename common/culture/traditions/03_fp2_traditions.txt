@@ -50,16 +50,8 @@ tradition_fp2_state_ransoming = {
 			if = {
 				limit = {
 					NOR = {
-						# Bellicose
-						any_in_list = {
-							list = traits
-							this = flag:ethos_bellicose
-						}
-						# Communal
-						any_in_list = {
-							list = traits
-							this = flag:ethos_communal
-						}
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -69,19 +61,19 @@ tradition_fp2_state_ransoming = {
 			}
 			# Heritage or language
 			# if = {
-				# limit = {
-					# NOR = {
-						# has_cultural_pillar = heritage_iberian
-						# AND = {
-							# exists = culture_head
-							# culture_head = { knows_language = language_iberian }
-						# }
-					# }
-				# }
-				# add = {
-					# value = tradition_unfulfilled_criteria_penalty
-					# desc = lack_iberian_heritage_or_language_penalty_desc
-				# }
+			# 	limit = {
+			# 		NOR = {
+			# 			##has_cultural_pillar = heritage_iberian
+			# 			AND = {
+			# 				exists = culture_head
+			# 				culture_head = { knows_language = language_iberian }
+			# 			}
+			# 		}
+			# 	}
+			# 	add = {
+			# 		value = tradition_unfulfilled_criteria_penalty
+			# 		desc = lack_iberian_heritage_or_language_penalty_desc
+			# 	}
 			# }
 			# General replacement stuff.
 			multiply = tradition_replacement_cost_if_relevant
@@ -173,16 +165,8 @@ tradition_fp2_strategy_gamers = {
 			if = {
 				limit = {
 					NOR = {
-						# Bellicose
-						any_in_list = {
-							list = traits
-							this = flag:ethos_bellicose
-						}
-						# Courtly
-						any_in_list = {
-							list = traits
-							this = flag:ethos_courtly
-						}
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -257,16 +241,16 @@ tradition_fp2_malleable_subjects = {
 	is_shown = {
 		# DLC check.
 		has_fp2_dlc_trigger = yes
-		# has_cultural_pillar = heritage_iberian
+		#has_cultural_pillar = heritage_iberian
 	}
 
-	# can_pick = {
-		# # Must be of a suitable heritage.
+	can_pick = {
+		# Must be of a suitable heritage.
 		# custom_tooltip = {
-			# text = iberian_heritage_trigger
-			# has_cultural_pillar = heritage_iberian
+		# 	text = iberian_heritage_trigger
+		# 	#has_cultural_pillar = heritage_iberian
 		# }
-	# }
+	}
 	
 	parameters = {
 		doesnt_care_about_culture_faith_in_factions = yes
@@ -301,16 +285,8 @@ tradition_fp2_malleable_subjects = {
 			if = {
 				limit = {
 					NOR = {
-						# Egalitarian
-						any_in_list = {
-							list = traits
-							this = flag:ethos_egalitarian
-						}
-						# Courtly
-						any_in_list = {
-							list = traits
-							this = flag:ethos_courtly
-						}
+						culture_pillar:ethos_egalitarian = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
 					}
 				}
 				add = {
@@ -351,7 +327,7 @@ tradition_fp2_ritualised_friendship = {
 		# Must have at least one friend. No friendless losers. Especially you, Nick.
 		custom_tooltip = {
 			text = need_at_least_one_friend
-			culture_head = {
+			culture_head ?= {
 				any_relation = {
 					type = friend
 					count >= 1

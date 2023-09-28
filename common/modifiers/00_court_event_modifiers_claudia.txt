@@ -90,7 +90,6 @@ court_6090_executioners_county_modifier = {
 court_6090_almoners_county_modifier = {
 	icon = county_modifier_opinion_positive
 	county_opinion_add = 20
-	#TODO_CD makes faith conversion easier?
 }
 
 # hold_court.6110
@@ -192,30 +191,35 @@ court_6090_almoners_county_modifier = {
 	icon = county_modifier_development_negative
 	development_growth_factor = small_development_growth_loss
 	county_opinion_add = -25
+	travel_danger = 10
 }
 
 6200_freed_by_beasts_county_modifier = {
 	icon = beast_positive
 	development_growth_factor = small_development_growth_gain
 	county_opinion_add = 15
+	travel_danger = -10
 }
 
 6200_plagued_by_beasts_county_modifier = {
 	icon = beast_negative
 	development_growth_factor = small_development_growth_loss
 	county_opinion_add = 5
+	travel_danger = 10
 }
 
 6200_champion_killed_by_beasts_county_modifier = {
 	icon = beast_negative
 	development_growth_factor = medium_development_growth_loss
 	county_opinion_add = 10
+	travel_danger = -10
 }
 
 6200_mhunt_killed_by_beasts_county_modifier = {
 	icon = beast_negative
 	development_growth_factor = medium_development_growth_loss
 	county_opinion_add = 10
+	travel_danger = -10
 }
 
 6200_wildgoose_modifier = {
@@ -229,4 +233,17 @@ court_6090_almoners_county_modifier = {
 	icon = county_modifier_development_positive
 	development_growth_factor = medium_development_growth_gain
 	county_opinion_add = 10
+}
+
+#hold_court.6230
+6230_new_elephants_modifier = {
+	icon = martial_positive
+	elephant_cavalry_recruitment_cost_mult = -0.3
+	elephant_cavalry_toughness_mult = 0.2
+	elephant_cavalry_pursuit_mult = 0.2
+}
+
+6230_elephant_slayer_county_modifier = {
+	icon = county_modifier_opinion_negative
+	county_opinion_add = -20
 }

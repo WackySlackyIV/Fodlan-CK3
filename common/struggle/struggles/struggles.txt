@@ -1,14 +1,35 @@
 ﻿iberian_struggle = {
-	# has_fp2_dlc_trigger = yes  #TODO_CD_AN Request support for dlc locking on struggles
 
 	##################################################
 	# Setup
 	##################################################
 	cultures = {
+		# Northern
+		basque
+		castilian
+		catalan
+		portuguese
+		galician
+		asturleonese
+		aragonese
+		# Southern
+		andalusian
+		# Outsider
+		bedouin
+		levantine
+		maghrebi
+		baranis
+		# Minorities
+		sephardi 
 	}
 	faiths = {
+		# Christian
+		catholic mozarabic_church
+		# Islamic
+		ashari muwalladi
 	}
 	regions = { 
+		world_europe_west_iberia
 	}
 
 	# A culture or faith becomes involved if 80% of the total number of counties belonging to it are inside the struggle region.
@@ -28,18 +49,18 @@
 	# Root = the current struggle
 	# scope:character = the character which has joined the struggle
  	on_join = {
-			if = {
-				limit = {
-					is_ai = no
-				}
+		if = {
+			limit = {
+				is_ai = no
+			}
 
-				trigger_event = fp2_struggle.0501
-			}
-			else = {
-				# assign an intent to the freshly joined character
-				trigger_event = fp2_struggle.004
-			}
+			trigger_event = fp2_struggle.0501
 		}
+		else = {
+			# assign an intent to the freshly joined character
+			trigger_event = fp2_struggle.004
+		}
+ 	}  
 
 	##################################################
 	# Phases
@@ -108,7 +129,7 @@
 
 				involved_character_modifier = {
 					mercenary_hire_cost_mult = -0.3
-					ai_war_chance = 0.25
+					ai_war_chance = 5
 					ai_war_cooldown = -0.25
 				}
 
@@ -214,7 +235,7 @@
 				struggle_iberia_ending_hostility_decision
 				struggle_iberia_ending_compromise_decision
 				struggle_iberia_ending_conciliation_decision
-			 }
+			}
 		}
 
 		# The Hostility phase accounts for the more brutal & fundamentalist side of the struggle; intolerance and violence break out even in stable areas & resentments over slights real or imagined escalate dramatically.
@@ -265,7 +286,7 @@
 
 				involved_character_modifier = {
 					same_culture_mercenary_hire_cost_mult = -0.3
-					ai_war_chance = 1
+					ai_war_chance = 10
 					ai_war_cooldown = -0.5
 					army_pursuit_mult = 0.2
 					army_siege_value_mult = 0.2

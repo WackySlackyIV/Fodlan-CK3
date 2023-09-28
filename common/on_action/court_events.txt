@@ -1,12 +1,15 @@
 ﻿# Root = Character getting royal court events
 on_trigger_court_events = {
+	trigger = {
+		is_available = yes
+	}
 	random_events = {		
 		# Patronage
 		100 = court.3010 # Inspired Work
 		100 = court.4100 # Fund a medieval boyband
-		100 = court.4400 # Recruit an antiquarian from cultist monks
+		5 = court.4400 # Recruit an antiquarian from cultist monks
 		100 = court.4500 # Dodgy artifact peddler
-		#100 = court.4750 # Court Poet writes a book about your favorite hero
+		100 = court.4750 # Court Poet writes a book about your favorite hero
 		100 = court.4803 # Court Poet ghostwrites for you
 		100 = court.5055 # Colorful Talent
 		100 = court.5060 # The Gallant Knight
@@ -80,7 +83,7 @@ on_trigger_court_events = {
 		100 = court.4802 # Court Tutor is annoyed by children
 		100 = court.5025 # A foreign diplomat wants to buy your cat
 		100 = court.5026 # A foreign diplomat wants to buy your dog
-		#100 = court.6020 # Possession at Court
+		100 = court.6020 # Possession at Court
 		100 = court.6050 # Saucy Readings
 		100 = court.6060 # The Joys of Wine
 		100 = court.8140 # Royal Lapse

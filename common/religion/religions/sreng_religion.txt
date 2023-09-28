@@ -3,6 +3,8 @@
 	graphical_faith = pagan_gfx
 
 	pagan_roots = yes
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
 
 	doctrine = pagan_hostility_doctrine
 

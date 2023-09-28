@@ -506,6 +506,16 @@ weaver_inspiration = {
 										value = flag:geometric_patterns
 									}
 								}
+								25 = {
+									trigger = { religion = religion:islam_religion }
+									ai_value_modifier = {
+										ai_zeal = 0.25
+									}
+									set_variable = {
+										name = artifact_tapestry_scene
+										value = flag:calligraphic
+									}
+								}
 
 								# Natural Scene - Depicts Animals (Aniconic Allowed)
 								10 = {
@@ -986,6 +996,13 @@ artisan_inspiration = {
 									}
 									random_list = {
 										10 = { # Stone
+											modifier = {
+												factor = 0.2
+												AND = { # Pagans prefer wood
+													NOT = { faith = faith:hellenic_pagan }
+													religion = { is_in_family = rf_pagan }
+												}
+											}
 											set_variable = {
 												name = artifact_sculpture_material
 												value = flag:sculpture_material_stone
@@ -1004,6 +1021,12 @@ artisan_inspiration = {
 									set_variable = {
 										name = artifact_artisan_type
 										value = flag:artisan_type_throne
+									}
+								}
+								10 = {
+									set_variable = {
+										name = artifact_artisan_type
+										value = flag:artisan_type_urn
 									}
 								}
 							}

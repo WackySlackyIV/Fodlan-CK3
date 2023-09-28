@@ -3,6 +3,8 @@
 	graphical_faith = pagan_gfx
 
 	pagan_roots = no
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
 
 	doctrine = zanadic_hostility_doctrine
 	doctrine = doctrine_crest_veneration

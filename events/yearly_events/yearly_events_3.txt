@@ -3316,7 +3316,7 @@ yearly.3061 = {
 	desc = yearly.3061.desc
 	theme = realm
 	override_background = {
-		reference = terrain_scope
+		event_background = terrain_scope
 	}
 	left_portrait = {
 		character = root
@@ -3427,7 +3427,7 @@ yearly.3071 = {
 	desc = yearly.3071.desc
 	theme = mental_health
 	override_background = {
-		reference = corridor_night
+		event_background = corridor_night
 	}
 	left_portrait = {
 		character = root

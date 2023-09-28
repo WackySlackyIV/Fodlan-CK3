@@ -103,12 +103,12 @@ set_called_to = {
 	global = SET_CALLED_TO_WAR
 }
 
-win_combat = {
-	global = WIN_COMBAT_EFFECT_POSITIVE
+start_great_holy_war = {
+	global = STARTS_PREP_GREAT_HOLY_WAR
 }
 
-lose_combat = {
-	global = LOSES_COMBAT_EFFECT_POSITIVE
+start_ghw_war = {
+	global = STARTS_GREAT_HOLY_WAR
 }
 
 attack_ally_text = {
