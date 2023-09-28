@@ -132,7 +132,7 @@
 }
 
 400004 = {
-	name="Konrad" #caspar father
+	name="Leopold" #caspar father
 	religion="ablehnist"
 	culture="adrestian"
 	father = 400030
@@ -213,7 +213,7 @@
 }
 
 400007 = {
-	name="Lucius" #bernie father
+	name="Grégoire" #bernie father
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 310
@@ -1118,7 +1118,7 @@
 }
 
 400038 = {
-	name="Reinhardt" #father linhardt
+	name="Waldemar" #father linhardt
 	religion="ablehnist"
 	culture="adrestian"
 	dynasty = 317

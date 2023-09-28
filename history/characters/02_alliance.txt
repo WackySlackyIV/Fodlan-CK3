@@ -212,7 +212,7 @@
 }
 
 200006 = {
-	name="Richard" #lorenz father
+	name="Erwin" #lorenz father
 	dynasty=102
 	religion="seirosite"
 	culture="leicester"

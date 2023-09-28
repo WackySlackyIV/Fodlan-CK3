@@ -184,7 +184,7 @@
 }
 
 300005 = {
-	name="Aglovain" #father sylvain
+	name="Matthias" #father sylvain
 	religion="seirosite"
 	culture="faerghus"
 	dynasty=205
