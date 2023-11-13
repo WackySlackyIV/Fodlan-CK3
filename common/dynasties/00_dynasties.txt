@@ -1015,7 +1015,7 @@
 ##############
 
 700 = {
-	name = "Malikğlu"
+	name = "Malikid"
 	culture = "almyran"
 }
 
